@@ -9,7 +9,7 @@
 # LoveLiveTerm-MultiLang
 - 러브라이브 시리즈와 관련된 제목, 단어들의 데이터셋입니다.
 - 노래의 일본어 표기 / 로마자 표기 / 한국어 번역, 그리고 각 곡의 발매일과 유튜브 링크를 제공합니다.
-  - 단, 유튜브 링크는 정식으로 스트리밍으로 발매된 곡에 한하여 제공됩니다.
+  - 단, 유튜브 링크는 정식으로 스트리밍으로 발매된 곡에 한하여 제공됩니다. 스트리밍이 없는 곡의 경우, ```NA```로 대체됩니다.
 
 ## 시작하기에 앞서
 - 모든 데이터는 공식 사이트나 공식 음원의 정보를 최우선으로 합니다.
@@ -41,7 +41,7 @@
 # LoveLiveTerm-MultiLang
 - ラブライブシリーズに関連するタイトル、単語のデータセットです。
 - 歌の日本語表記 / ローマ字表記 / 韓国語訳、そして各曲の発売日とユーチューブリンクを提供します。
-  - ただし、YouTubeリンクは正式にストリーミングで発売された曲に限り提供されます。
+  - ただし、YouTubeリンクは正式にストリーミングで発売された曲に限り提供されます。ストリーミングがない曲の場合、```NA```で満たされます。
 
 ## 始める前に
 - すべてのデータは、公式サイトや公式音源の情報を最優先にします。
@@ -73,7 +73,7 @@
 # LoveLiveTerm-MultiLang
 - Multilanguage Dataset of the terms related to Love Live Series.
 - It provides Japanese/Romanization/Korean translation of the song title, and the release date and YouTube link of each song.
-  - However, the YouTube link is only available for songs that have been officially released as streaming.
+  - However, the YouTube link is only available for songs that have been officially released as streaming. For songs without streaming, it is filled with ```NA```.
 
 ## Before Starting
 - All data is based on the information on the official site or official music streaming service.
