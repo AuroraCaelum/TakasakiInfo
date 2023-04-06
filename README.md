@@ -15,18 +15,25 @@
 ## Before Starting
 - All data is based on the information on the official site or official music streaming service.
 - If the official name is English, no Korean translation is included.
+- <b>For the reasons of the data is still being configured, missing data may exist and the structure of the data may change in the future.</b>
+
+## Structure
+- The first row of each file contains a header.
+- Each data is provided as a CSV separated by ```,```
+- If a column contains multiple data, it is divided by ```;```
+<br>
+
 - The columns for each ```song data``` are as follows.
   - ```Title(Japanese)```, ```Title(Romaji)```, ```Title(Korean)```, ```Singer(Japanese)```, ```Singer(Romaji)```, ```Singer(Korean)```, ```Release Date```, ```YT Link```, ```Notes```.
 - The columns for each ```member data``` are as follows.
   - ```Name(Japanese)```, ```Name(Romaji)```, ```Name(Korean)```, ```Seiyuu(Japanese)```, ```Seiyuu(Romaji)```, ```Seiyuu(Korean)```, ```Unit```
+<br>
+
 - The order of each row is as follows.
   - Song: Release Date Priority
   - Voice actors and members: Based on the order of members on the official website
-- The first row of each file contains a header.
-- <b>For the reasons of the data is still being configured, missing data may exist and the structure of the data may change in the future.</b>
+<br>
 
-## Structure
-- Each data is provided as a CSV separated by ```,```
 - The name of each file is the English name of the group, as follows.
   - μ’s - ```Muse```
   - Aqours - ```Aqours```
@@ -51,18 +58,25 @@
 ## 시작하기에 앞서
 - 모든 데이터는 공식 사이트나 공식 음원의 정보를 최우선으로 합니다.
 - 공식 명칭이 영어인 경우, 그에 대한 한국어 번역은 포함하지 않습니다.
+- <b>아직 데이터를 구성하는 중이므로, 누락된 데이터가 존재할 수 있으며, 차후 데이터의 구조가 변경될 수 있습니다.</b>
+
+## 구조
+- 각 파일의 첫번째 행에는 헤더가 포함되어 있습니다.
+- 각 데이터는 ```,```로 구분되는 CSV로 제공됩니다.
+- 하나의 열에 여러 개의 데이터가 들어있을 경우, ```;```로 구분됩니다.
+<br>
+
 - 각 ```노래 데이터```의 열은 다음과 같습니다.
   - ```제목(일본어)```, ```제목(로마자)```, ```제목(한국어)```, ```가수(일본어)```, ```가수(로마자)```, ```가수(한국어)```, ```발매일```, ```유튜브 링크```, ```비고```
 - 각 ```멤버 데이터```의 열은 다음과 같습니다.
   - ```이름(일본어)```, ```이름(로마자)```, ```이름(한국어)```, ```성우(일본어)```, ```성우(로마자)```, ```성우(한국어)```, ```소속 유닛```
+<br>
+
 - 각 행의 순서는 다음과 같습니다.
   - 곡: 발매일 우선순
   - 성우 및 멤버: 공식 홈페이지 멤버 순서 기준
-- 각 파일의 첫번째 행에는 헤더가 포함되어 있습니다.
-- <b>아직 데이터를 구성하는 중이므로, 누락된 데이터가 존재할 수 있으며, 차후 데이터의 구조가 변경될 수 있습니다.</b>
+<br>
 
-## 구조
-- 각 데이터는 ```,```로 구분되는 CSV로 제공됩니다.
 - 각 파일의 이름은 해당 그룹의 영문명칭이며, 다음과 같습니다.
   - μ’s - ```Muse```
   - Aqours - ```Aqours```
@@ -87,18 +101,25 @@
 ## 始める前に
 - すべてのデータは、公式サイトや公式音源の情報を最優先にします。
 - 公式名称が英語の場合、それに対する韓国語訳は含みません。
+- <b>まだデータを構成しているため、欠落したデータが存在する可能性があり、その後データの構造が変更される可能性があります。</b>
+
+## ストラクチャー
+- 各ファイルの最初の行にはヘッダーが含まれています。
+- 各データは```,```に区分されるCSVで提供されます。
+- 1つの列に複数のデータが含まれている場合は、```;```に区分されます。
+<br>
+
 - 各```曲データ```の列は次のとおりです。
   - ```タイトル(日本語)```, ```タイトル(ローマ字)```, ```タイトル(韓国語)```, ```歌手(日本語)```, ```歌手(ローマ字)```, ```歌手(韓国語)```, ```発売日```, ```YouTubeリンク```, ```備考```
 - 各```メンバーデータ```の列は次のとおりです。
   - ```名前(日本語)```, ```名前(ローマ字)```, ```名前(韓国語)```, ```声優(日本語)```, ```声優(ローマ字)```, ```声優(韓国語)```, ```所属ユニット```
+<br>
+
 - 各行の手順は次のとおりです。
   - 曲: 発売日優先順
   - 声優・メンバー:　公式ホームページメンバー順基準
-- 各ファイルの最初の行にはヘッダーが含まれています。
-- <b>まだデータを構成しているため、欠落したデータが存在する可能性があり、その後データの構造が変更される可能性があります。</b>
+<br>
 
-## ストラクチャー
-- 各データは```,```に区分されるCSVで提供されます。
 - 各ファイルの名前は、そのグループの英語名称であり、次のとおりです。
   - μ’s - ```Muse```
   - Aqours - ```Aqours```
