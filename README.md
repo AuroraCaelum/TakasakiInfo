@@ -13,7 +13,7 @@
 
 ## 시작하기에 앞서
 - 모든 데이터는 공식 사이트나 공식 음원의 정보를 최우선으로 합니다.
-- 각 데이터의 열은 ```일본어```, ```로마자```, ```한국어```, ```발매일```, ```유튜브 링크```순입니다. 공식 명칭이 영어인 경우, 그에 대한 한국어 번역은 포함하지 않습니다.
+- 각 노래 데이터의 열은 ```일본어 제목```, ```로마자 제목```, ```한국어 제목```, ```일본어 가수```, ```로마자 가수```, ```한국어 가수```, ```발매일```, ```유튜브 링크```, ```비고```순입니다. 공식 명칭이 영어인 경우, 그에 대한 한국어 번역은 포함하지 않습니다.
 - 각 행의 순서는 다음과 같습니다.
   - 곡: 발매일 우선순
   - 성우 및 멤버: 공식 홈페이지 멤버 순서 기준
@@ -40,12 +40,12 @@
 
 # LoveLiveTerm-MultiLang
 - ラブライブシリーズに関連するタイトル、単語のデータセットです。
-- 歌の日本語表記 / ローマ字表記 / 韓国語訳、そして各曲の発売日とユーチューブリンクを提供します。
+- 曲の日本語表記 / ローマ字表記 / 韓国語訳、そして各曲の発売日とユーチューブリンクを提供します。
   - ただし、YouTubeリンクは正式にストリーミングで発売された曲に限り提供されます。ストリーミングがない曲の場合、```NA```で満たされます。
 
 ## 始める前に
 - すべてのデータは、公式サイトや公式音源の情報を最優先にします。
-- 各データの列は、```日本語```, ```ローマ字```, ```韓国語```, ```発売日```, ```リンク```の順です。 公式名称が英語の場合、それに対する韓国語訳は含みません。
+- 各曲のデータの列は、```日本語タイトル```, ```ローマ字タイトル```, ```韓国語タイトル```, ```日本語歌手```, ```ローマ字歌手```, ```韓国語歌手```, ```発売日```, ```YouTubeリンク```, ```備考```の順です。公式名称が英語の場合、それに対する韓国語訳は含みません。
 - 各行の手順は次のとおりです。
   - 曲: 発売日優先順
   - 声優・メンバー:　公式ホームページメンバー順基準
@@ -77,7 +77,7 @@
 
 ## Before Starting
 - All data is based on the information on the official site or official music streaming service.
-- The columns of each data are in the order of ```Japanese```, ```Romaji```, ```Korean```, ```Release Date```, and ```YT Link```. If the official name is English, no Korean translation is included.
+- The columns of each song data are in the order of ```Japanese title```, ```Romaji title```, ```Korean title```, ```Japanese singer```, ```Romaji singer```, ```Korean singer```, ```Release Date```, ```YT Link```, and ```Notes```. If the official name is English, no Korean translation is included.
 - The order of each row is as follows.
   - Song: Release Date Priority
   - Voice actors and members: Based on the order of members on the official website
