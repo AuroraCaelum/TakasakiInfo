@@ -1,3 +1,5 @@
+<b><h2>TakasakiInfo: Database of Love Live Song List, Song URLs, Member List, Seiyuu List.</h2></b>
+<br>
 <br>
 <a href="#korean" >한국어</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#japanese" >日本語</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#english" >English</a>
 <br></br>
@@ -7,8 +9,9 @@
 
 <div id="english"></div>
 
-# LoveLiveTerm-MultiLang
-- Multilanguage Dataset of the terms related to Love Live Series.
+# TakasakiInfo
+
+- Multilanguage Database of the terms related to Love Live Series.
 - It provides Japanese/Romanization/Korean translation of the song title, and the release date and YouTube link of each song.
   - However, the YouTube link is only available for songs that have been officially released as streaming. For songs without streaming, it is filled with ```NA```.
 
@@ -50,8 +53,8 @@
 
 <div id="korean"></div>
 
-# LoveLiveTerm-MultiLang
-- 러브라이브 시리즈와 관련된 제목, 단어들의 데이터셋입니다.
+# TakasakiInfo
+- 러브라이브 시리즈 노래와 멤버에 대한 DB입니다.
 - 노래의 일본어 표기 / 로마자 표기 / 한국어 번역, 그리고 각 곡의 발매일과 유튜브 링크를 제공합니다.
   - 단, 유튜브 링크는 정식으로 스트리밍으로 발매된 곡에 한하여 제공됩니다. 스트리밍이 없는 곡의 경우, ```NA```로 대체됩니다.
 
@@ -93,8 +96,8 @@
 
 <div id="japanese"></div>
 
-# LoveLiveTerm-MultiLang
-- ラブライブシリーズに関連するタイトル、単語のデータセットです。
+# TakasakiInfo
+- ラブライブシリーズの曲とメンバーに関するDBです。
 - 曲の日本語表記 / ローマ字表記 / 韓国語訳、そして各曲の発売日とユーチューブリンクを提供します。
   - ただし、YouTubeリンクは正式にストリーミングで発売された曲に限り提供されます。ストリーミングがない曲の場合、```NA```で満たされます。
 
