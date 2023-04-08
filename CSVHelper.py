@@ -1,5 +1,4 @@
-import sys
-import csv
+import sys, csv
 
 # MODE 0    [song]    ja = [line[0],line[3],line[6],line[9],line[12],line[15],line[16],line[17],line[18]]
 # MODE 1    [song]    rom = [line[1],line[4],line[7],line[10],line[13],line[15],line[16],line[17],line[18]]
@@ -8,6 +7,10 @@ import csv
 # MODE 4    [song]    ja-ko = [line[0],line[2],line[3],line[5],line[6],line[8],line[9],line[11],line[12],line[14],line[15],line[16],line[17],line[18]]
 # MODE 5    [song]    rom-ko = [line[1],line[2],line[4],line[5],line[7],line[8],line[10],line[11],line[13],line[14],line[15],line[16],line[17],line[18]]
 
+if len(sys.argv) != 4:
+    print("Insufficient arguments")
+    sys.exit()
+    
 input = sys.argv[1]
 output = sys.argv[2]
 
@@ -19,10 +22,6 @@ def modeStr(key):
         return modeNum
 
 mode = modeStr(sys.argv[3])
-
-if len(sys.argv) != 4:
-    print("Insufficient arguments")
-    sys.exit()
 
 if mode >= 0 and mode <= 5:
     fr = open(input, 'r', encoding='utf-8')
