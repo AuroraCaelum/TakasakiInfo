@@ -64,49 +64,7 @@ def addSong(line):
         for i in range(len(multiArrangersJa)):
             json_arrangers.append({'ja': multiArrangersJa[i], 'rom': multiArrangersRom[i], 'ko': multiArrangersKo[i]})
 
-    if multiArtist:
-        if multiLyricist:
-            if multiComposer:
-                if multiArranger:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': json_lyricists, 'composer': json_composers, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-                else:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': json_lyricists, 'composer': json_composers, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-            else:
-                if multiArranger:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': json_lyricists, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-                else:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': json_lyricists, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-        else:
-            if multiComposer:
-                if multiArranger:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-                else:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-            else:
-                if multiArranger:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-                else:
-                    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-    elif multiLyricist:
-        if multiComposer:
-            if multiArranger:
-                json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists, 'composer': json_composers, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-            else:
-                json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists, 'composer': json_composers, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-        else:
-            if multiArranger:
-                json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-            else:
-                json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-    elif multiComposer:
-        if multiArranger:
-            json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-        else:
-            json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
-    elif multiArranger:
-        json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers, 'link': line[17], 'note': line[18]})
-    else:
-        json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
+    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists if multiArtist else {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists if multiLyricist else {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers if multiComposer else {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers if multiArranger else {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
 
 fr_csv = open(input, 'r', encoding='utf-8')
 rdr = csv.reader(fr_csv)
