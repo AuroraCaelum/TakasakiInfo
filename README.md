@@ -4,6 +4,39 @@
 <br><br>
 README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국어</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#japanese" >日本語</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#english" >English</a>
 <br></br>
+<details>
+  <summary><b><h3>Database Status (Final Update Date, Quick Links)   -   Click to Open</h3></b></summary>
+    <li><h2>Songs</h2>
+      <ul>
+        <li> - [ ] μ’s (Planned to Work) </li>
+        <li> - [ ] Aqours (Currently Working) </li>
+        <li> - [x] Nijigaku <b>[Final Update 2023/04/09]</b> - (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>)</li>
+        <li> - [x] Liella <b>[Final Update 2023/04/09]</b> - (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>)</li>
+        <li> - [x] Hasunosora <b>[Final Update 2023/04/09]</b> - (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>)</li>
+        <li> - [ ] Musical </li>
+      </ul>
+    </li>
+    <li><h2>Albums</h2>
+      <ul>
+        <li> - [ ] μ’s (Planned to Work) </li>
+        <li> - [ ] Aqours (Planned to Work) </li>
+        <li> - [ ] Nijigaku </li>
+        <li> - [x] Liella <b>[Final Update 2023/04/09]</b> - (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>)</li>
+        <li> - [x] Hasunosora <b>[Final Update 2023/04/09]</b> - (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>)</li>
+        <li> - [ ] Musical </li>
+      </ul>
+    </li>
+    <li><h2>Members</h2>
+      <ul>
+        <li> - [x] μ’s (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Muse.csv">CSV</a>) </li>
+        <li> - [x] Aqours (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Aqours.csv">CSV</a>) </li>
+        <li> - [x] Nijigaku (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) </li>
+        <li> - [x] Liella (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) </li>
+        <li> - [x] Hasunosora (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) </li>
+        <li> - [ ] Musical</li>
+      </ul>
+    </li>
+</details>
 
 
 ***
