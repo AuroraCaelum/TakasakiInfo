@@ -28,7 +28,7 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 <br>
 
 - The columns for each ```song data``` are as follows.
-  - ```Title(Japanese)```, ```Title(Romaji)```, ```Title(Korean)```, ```Singer(Japanese)```, ```Singer(Romaji)```, ```Singer(Korean)```, ```Release Date```, ```YT Link```, ```Notes```.
+  - ```Title(Japanese)```, ```Title(Romaji)```, ```Title(Korean)```, ```Singer(Japanese)```, ```Singer(Romaji)```, ```Singer(Korean)```, ```Lyricist(Japanese)```, ```Lyricist(Romaji)```, ```Lyricist(Korean)```, ```Composer(Japanese)```, ```Composer(Romaji)```, ```Composer(Korean)```, ```Arranger(Japanese)```, ```Arranger(Romaji)```, ```Arranger(Korean)```, ```Album Name```, ```Release Date```, ```YT Link```, ```Notes```.
 - The columns for each ```member data``` are as follows.
   - ```Name(Japanese)```, ```Name(Romaji)```, ```Name(Korean)```, ```Seiyuu(Japanese)```, ```Seiyuu(Romaji)```, ```Seiyuu(Korean)```, ```Unit```
 <br>
@@ -71,7 +71,7 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 <br>
 
 - 각 ```노래 데이터```의 열은 다음과 같습니다.
-  - ```제목(일본어)```, ```제목(로마자)```, ```제목(한국어)```, ```가수(일본어)```, ```가수(로마자)```, ```가수(한국어)```, ```발매일```, ```유튜브 링크```, ```비고```
+  - ```제목(일본어)```, ```제목(로마자)```, ```제목(한국어)```, ```가수(일본어)```, ```가수(로마자)```, ```가수(한국어)```, ```작사가(일본어)```, ```작사가(로마자)```, ```작사가(한국어)```, ```작곡가(일본어)```, ```작곡가(로마자)```, ```작곡가(한국어)```, ```편곡자(일본어)```, ```편곡자(로마자)```, ```편곡자(한국어)```, ```수록 앨범명```, ```발매일```, ```유튜브 링크```, ```비고```
 - 각 ```멤버 데이터```의 열은 다음과 같습니다.
   - ```이름(일본어)```, ```이름(로마자)```, ```이름(한국어)```, ```성우(일본어)```, ```성우(로마자)```, ```성우(한국어)```, ```소속 유닛```
 <br>
@@ -114,7 +114,7 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 <br>
 
 - 各```曲データ```の列は次のとおりです。
-  - ```タイトル(日本語)```, ```タイトル(ローマ字)```, ```タイトル(韓国語)```, ```歌手(日本語)```, ```歌手(ローマ字)```, ```歌手(韓国語)```, ```発売日```, ```YouTubeリンク```, ```備考```
+  - ```タイトル(日本語)```, ```タイトル(ローマ字)```, ```タイトル(韓国語)```, ```歌手(日本語)```, ```歌手(ローマ字)```, ```歌手(韓国語)```, ```作詞(日本語)```, ```作詞(ローマ字)```, ```作詞(韓国語)```, ```作曲(日本語)```, ```作曲(ローマ字)```, ```作曲(韓国語)```, ```編曲(日本語)```, ```編曲(ローマ字)```, ```編曲(韓国語)```, ```アルバム名```, ```発売日```, ```YouTubeリンク```, ```備考```
 - 各```メンバーデータ```の列は次のとおりです。
   - ```名前(日本語)```, ```名前(ローマ字)```, ```名前(韓国語)```, ```声優(日本語)```, ```声優(ローマ字)```, ```声優(韓国語)```, ```所属ユニット```
 <br>
