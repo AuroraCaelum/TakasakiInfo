@@ -1,6 +1,6 @@
-<b><h2>TakasakiInfo -<br>Database of Love Live Song List, Song URLs, Member List, Seiyuu List.</h2></b>
+<b><h2>TakasakiInfo -<br>CSV & JSON Database of Love Live Song List, Song URLs, Member List, Seiyuu List.</h2></b>
 <br>
-<b>IMPORTANT: Data is still being configured. We are planning to provide it in JSON format after completing the CSV files.</b>
+<b>IMPORTANT: Data is still being configured.</b>
 <br><br>
 README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국어</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#japanese" >日本語</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#english" >English</a>
 <br></br>
