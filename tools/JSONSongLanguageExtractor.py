@@ -7,6 +7,7 @@ if len(sys.argv) != 3:
 
 input = sys.argv[1]
 output = sys.argv[2] # Do not include .json extension - EXAMPLE: ./../songs/Nijigaku
+# Usage : python JSONAlbumExtractor.py './../albums/Liella/Liella.csv' './../albums/Liella/Liella'
 
 json_data_ja = []
 json_data_rom = []

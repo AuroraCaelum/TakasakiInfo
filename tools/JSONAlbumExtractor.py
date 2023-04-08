@@ -20,60 +20,60 @@ def addSong(line):
     multiComposer = False
     multiArranger = False
 
-    if ';' in (line[3]):
+    if ';' in (line[5]):
         multiArtist = True
         json_artists = []
 
-        multiArtistsJa = line[3].split(';')
-        multiArtistsRom = line[4].split(';')
-        multiArtistsKo = line[5].split(';')
+        multiArtistsJa = line[5].split(';')
+        multiArtistsRom = line[6].split(';')
+        multiArtistsKo = line[7].split(';')
 
         for i in range(len(multiArtistsJa)):
             json_artists.append({'ja': multiArtistsJa[i], 'rom': multiArtistsRom[i], 'ko': multiArtistsKo[i]})
 
-    if ';' in (line[6]):
+    if ';' in (line[8]):
         multiLyricist = True
         json_lyricists = []
 
-        multiLyricistsJa = line[6].split(';')
-        multiLyricistsRom = line[7].split(';')
-        multiLyricistsKo = line[8].split(';')
+        multiLyricistsJa = line[8].split(';')
+        multiLyricistsRom = line[9].split(';')
+        multiLyricistsKo = line[10].split(';')
 
         for i in range(len(multiLyricistsJa)):
             json_lyricists.append({'ja': multiLyricistsJa[i], 'rom': multiLyricistsRom[i], 'ko': multiLyricistsKo[i]})
 
-    if ';' in (line[9]):
+    if ';' in (line[11]):
         multiComposer = True
         json_composers = []
 
-        multiComposersJa = line[9].split(';')
-        multiComposersRom = line[10].split(';')
-        multiComposersKo = line[11].split(';')
+        multiComposersJa = line[11].split(';')
+        multiComposersRom = line[12].split(';')
+        multiComposersKo = line[13].split(';')
 
         for i in range(len(multiComposersJa)):
             json_composers.append({'ja': multiComposersJa[i], 'rom': multiComposersRom[i], 'ko': multiComposersKo[i]})
 
-    if ';' in (line[12]):
+    if ';' in (line[14]):
         multiArranger = True
         json_arrangers = []
 
-        multiArrangersJa = line[12].split(';')
-        multiArrangersRom = line[13].split(';')
-        multiArrangersKo = line[14].split(';')
+        multiArrangersJa = line[14].split(';')
+        multiArrangersRom = line[15].split(';')
+        multiArrangersKo = line[16].split(';')
 
         for i in range(len(multiArrangersJa)):
             json_arrangers.append({'ja': multiArrangersJa[i], 'rom': multiArrangersRom[i], 'ko': multiArrangersKo[i]})
 
-    json_songs.append({'title': {'ja': line[0], 'rom': line[1], 'ko': line[2]}, 'artist': json_artists if multiArtist else {'ja': line[3], 'rom': line[4], 'ko': line[5]}, 'lyricist': json_lyricists if multiLyricist else {'ja': line[6], 'rom': line[7], 'ko': line[8]}, 'composer': json_composers if multiComposer else {'ja': line[9], 'rom': line[10], 'ko': line[11]}, 'arranger': json_arrangers if multiArranger else {'ja': line[12], 'rom': line[13], 'ko': line[14]}, 'link': line[17], 'note': line[18]})
+    json_songs.append({'track': line[1], 'title': {'ja': line[2], 'rom': line[3], 'ko': line[4]}, 'artist': json_artists if multiArtist else {'ja': line[5], 'rom': line[6], 'ko': line[7]}, 'lyricist': json_lyricists if multiLyricist else {'ja': line[8], 'rom': line[9], 'ko': line[10]}, 'composer': json_composers if multiComposer else {'ja': line[11], 'rom': line[12], 'ko': line[13]}, 'arranger': json_arrangers if multiArranger else {'ja': line[14], 'rom': line[15], 'ko': line[16]}, 'link': line[18], 'note': line[19]})
 
 fr_csv = open(input, 'r', encoding='utf-8')
 rdr = csv.reader(fr_csv)
 next(rdr)
 
 for line in rdr:
-    if line[15] != currentAlbum:
+    if line[0] != currentAlbum:
 
-        currentAlbum = line[15]
+        currentAlbum = line[0]
 
         if len(json_songs) > 0:
             json_album['songs'] = json_songs
@@ -83,7 +83,7 @@ for line in rdr:
             json_songs = []
 
         json_album['album'] = currentAlbum
-        json_album['release'] = line[16]
+        json_album['release'] = line[17]
                 
         addSong(line)
     else:
