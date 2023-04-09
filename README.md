@@ -87,7 +87,22 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 
 ## JSON Structure
 ### Songs
-- Example
+`Example: Singlelanguage JSON (Hasunosora-ja.json)`
+```js
+[
+  {
+    "title": "ド！ド！ド！",
+    "artist": "みらくらぱーく！",
+    "lyricist": "ろさ",
+    "composer": "山本玲史",
+    "arranger": "山本玲史",
+    "release": "2023-03-29",
+    "link": "https://youtu.be/5TXxIDBRPEI",
+    "note": ""
+  }
+]
+```
+`Example: Multilanguage JSON (Nijigaku.json)`
 ```js
 [
   {
@@ -131,7 +146,33 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 ]
 ```
 ### Albums
-- Example
+`Example: Singlelanguage JSON (Liella-ko.json)`
+```js
+[
+  {
+    "album": "Welcome to 僕らのセカイ / Go!! リスタート 【第1話盤】",
+    "release": "2022-08-17",
+    "songs": [
+      {
+        "track": "1",
+        "title": "Welcome to 우리들의 세계",
+        "artist": "Liella!",
+        "lyricist": "미야지마 준코",
+        "composer": "미츠마스 하지메",
+        "arranger": [
+          "EFFY",
+          "모리 유야"
+        ],
+        "link": "https://youtu.be/oDnmWbGsNxA",
+        "note": ""
+      },
+      // Track Continues
+    ]
+  },
+  // Album Continues
+]
+```
+`Example: Multilangauge JSON (Liella.json)`
 ```js
 [
   {
