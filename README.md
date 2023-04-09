@@ -11,11 +11,37 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 | :--------: | :-------------: | :-----:| :---: |
 |    μ’s     | Planned | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Muse.csv">CSV</a>) |
 |   Aqours   | In Progress | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Aqours.csv">CSV</a>) |
-|  Nijigaku  | <b>[Final Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | In Progress | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
-|   Liella!  | <b>[Final Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Final Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
-| Hasunosora | <b>[Final Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Final Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
+|  Nijigaku  | <b>[Last Update 2023/04/10]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | In Progress | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
+|   Liella!  | <b>[Last Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Last Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
+| Hasunosora | <b>[Last Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Last Update 2023/04/09]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
 | Musical |  |  |  |
 <br>
+<details>
+  <summary>Last priority, but I'll do it someday...maybe</summary>
+  <br>
+    <b>Love Live! Original Sound Tracks</b>
+    <ul>
+      <li> - [ ] Notes of School idol days </li>
+      <li> - [ ] Notes of School idol days ~Glory~ </li>
+      <li> - [ ] Notes of School idol days ~Curtain Call~ </li>
+    </ul>
+    <b>Love Live! Sunshine!! Original Sound Tracks</b>
+    <ul>
+      <li> - [ ] Sailing to the Sunshine </li>
+      <li> - [ ] Journey to the Sunshine </li>
+      <li> - [ ] Sailing to the Rainbow </li>
+    </ul>
+    <b>Love Live! Nijigasaki High School Idol Club Original Sound Tracks</b>
+    <ul>
+      <li> - [ ] Sound of TOKIMEKI </li>
+      <li> - [ ] Bound of TOKIMEKI </li>
+    </ul>
+    <b>Love Live! Superstar!! Original Sound Tracks</b>
+    <ul>
+      <li> - [ ] Dreams of the Superstar </li>
+      <li> - [ ] Twinkle of the Superstar </li>
+    </ul>
+</details>
 
 ***
 
