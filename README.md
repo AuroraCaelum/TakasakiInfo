@@ -31,6 +31,13 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 - All data is based on the information on the official site or official music streaming service.
 - If the official name is English, no Korean translation is included.
 - <b>For the reasons of the data is still being configured, missing data may exist and the structure of the data may change in the future.</b>
+- The name of each file is the English name of the group, as follows.
+  - μ’s - ```Muse```
+  - Aqours - ```Aqours```
+  - Nijigasaki High School Idol Club - ```Nijigaku```
+  - Liella! - ```Liella```
+  - Hasunosora Girls' High School Idol Club - ```Hasunosora```
+  - School Idol Musical - ```Musical```
 
 ## CSV Structure
 - The first row of each file contains a header.
@@ -39,9 +46,38 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 <br>
 
 - The columns for each ```song data``` are as follows.
-  - ```Title(Japanese)```, ```Title(Romaji)```, ```Title(Korean)```, ```Singer(Japanese)```, ```Singer(Romaji)```, ```Singer(Korean)```, ```Lyricist(Japanese)```, ```Lyricist(Romaji)```, ```Lyricist(Korean)```, ```Composer(Japanese)```, ```Composer(Romaji)```, ```Composer(Korean)```, ```Arranger(Japanese)```, ```Arranger(Romaji)```, ```Arranger(Korean)```, ```Album Name```, ```Release Date```, ```YT Link```, ```Notes```.
+
+  | 0 | 1 | 2 | 3 | 4 | 5 |
+  |:---:|:---:|:---:|:---:|:---:|:---:|
+  | Title (ja) | Title (rom) | Title (ko) | Singer (ja) | Singer (rom) | Singer (ko) |
+  | <b>6</b> | <b>7</b> | <b>8</b> | <b>9</b> | <b>10</b> | <b>11</b> |
+  | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
+  | <b>12</b> | <b>13</b> | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> |
+  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Album | Release Date | YT Link |
+  | <b>18</b> |
+  | Notes |
+  
+- The columns for each ```album data``` are as follows.
+
+  | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+  |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+  | Album | Track Number | Title (ja) | Title (rom) | Title (ko) | Singer (ja) | Singer (rom) |
+  | <b>7</b> | <b>8</b> | <b>9</b> | <b>10</b> | <b>11</b> | <b>12</b> | <b>13</b> |
+  | Singer (ko) | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
+  | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> | <b>18</b> | <b>19</b> |
+  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Release Date | YT Link | Notes |
+  
+<!--
+  <details>
+    <summary>Song Data Columns</summary>
+      <table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td>Title (ja)</td><td>Title (rom)</td><td>Title (ko)</td><td>Singer (ja)</td><td>Singer (rom)</td><td>Singer (ko)</td></tr><tr><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th></tr><tr><td>Lyricist (ja)</td><td>Lyricist (rom)</td><td>Lyricist (ko)<br></td><td>Composer (ja)</td><td>Composer (rom)</td><td>Composer (ko)</td></tr><tr><th>12</th><th>13</th><th>14</th><th colspan="3">15</th></tr><tr><td>Arranger (ja)</td><td>Arranger (rom)</td><td>Arranger (ko)</td><td colspan="3">Album</td></tr><tr><td colspan="2"><b>16</b></td><td colspan="2"><b>17</b></td><td colspan="2"><b>18</b></td></tr><tr><td colspan="2">Release Date</td><td colspan="2">YT Link</td><td colspan="2">Note</td></tr></tbody></table>
+  </details>
+-->
+  
 - The columns for each ```member data``` are as follows.
-  - ```Name(Japanese)```, ```Name(Romaji)```, ```Name(Korean)```, ```Seiyuu(Japanese)```, ```Seiyuu(Romaji)```, ```Seiyuu(Korean)```, ```Unit```
+  | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+  |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+  | Name(Japanese) | Name(Romaji) | Name(Korean) | Seiyuu(Japanese) | Seiyuu(Romaji) | Seiyuu(Korean) | Unit |
 <br>
 
 - The order of each row is as follows.
@@ -49,13 +85,95 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
   - Voice actors and members: Based on the order of members on the official website
 <br>
 
-- The name of each file is the English name of the group, as follows.
-  - μ’s - ```Muse```
-  - Aqours - ```Aqours```
-  - Nijigasaki High School Idol Club - ```Nijigaku```
-  - Liella! - ```Liella```
-  - Hasunosora Girls' High School Idol Club - ```Hasunosora```
-  - School Idol Musical - ```Musical```
+## JSON Structure
+### Songs
+- Example
+```js
+[
+  {
+    "title": {
+      "ja": "ヤダ！",
+      "rom": "Yada!",
+      "ko": "싫어!"
+    },
+    "artist": {
+      "ja": "優木せつ菜",
+      "rom": "Setsuna Yuki",
+      "ko": "유키 세츠나"
+    },
+    "lyricist": {
+      "ja": "Akira Sunset",
+      "rom": "Akira Sunset",
+      "ko": "Akira Sunset"
+    },
+    "composer": [
+      {
+        "ja": "Akira Sunset",
+        "rom": "Akira Sunset",
+        "ko": "Akira Sunset"
+      },
+      {
+        "ja": "菊地博人",
+        "rom": "Hiroto Kikuchi",
+        "ko": "키쿠치 히로토"
+      }
+    ],
+    "arranger": {
+      "ja": "菊地博人",
+      "rom": "Hiroto Kikuchi",
+      "ko": "키쿠치 히로토"
+    },
+    "release": "2021-10-13",
+    "link": "https://youtu.be/1lPESUmrbZY",
+    "note": ""
+  },
+  // Continues
+]
+```
+### Albums
+- Example
+```js
+[
+  {
+    "album": "始まりは君の空 [みんなで叶える物語盤]",
+    "release": "2021-04-07",
+    "songs": [
+      {
+        "track": "1",
+        "title": {
+          "ja": "始まりは君の空",
+          "rom": "Hajimari wa Kimi no Sora",
+          "ko": "시작은 너의 하늘"
+        },
+        "artist": {
+          "ja": "Liella!",
+          "rom": "Liella!",
+          "ko": "Liella!"
+        },
+        "lyricist": {
+          "ja": "畑 亜貴",
+          "rom": "Aki Hata",
+          "ko": "하타 아키"
+        },
+        "composer": {
+          "ja": "兼松 衆",
+          "rom": "Shu Kanematsu",
+          "ko": "카네마츠 슈"
+        },
+        "arranger": {
+          "ja": "兼松 衆",
+          "rom": "Shu Kanematsu",
+          "ko": "카네마츠 슈"
+        },
+        "link": "https://youtu.be/bjIRLovzc80",
+        "note": ""
+      },
+      // Track Continues
+    ]
+  },
+  // Album Continues
+]
+```
 
 ## Feedback
 - Feedback on the data structure or suggestions for missing information will be reflected if you send them through the [Issue](https://github.com/AuroraCaelum/LoveLiveTerm-MultiLang/issues).
