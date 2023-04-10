@@ -1,13 +1,15 @@
 import sys, csv, json
 from collections import OrderedDict
 
-if len(sys.argv) != 3:
+if len(sys.argv) == 2:
+    input = './../albums/' + sys.argv[1] + '/' + sys.argv[1] + '.csv'
+    output = './../albums/' + sys.argv[1] + '/' + sys.argv[1]
+elif len(sys.argv) == 3:
+    input = sys.argv[1]
+    output = sys.argv[2] # Do not include .json extension - EXAMPLE: ./../songs/Nijigaku
+else:
     print("Insufficient arguments")
     sys.exit()
-
-input = sys.argv[1]
-output = sys.argv[2] # Do not include .json extension - EXAMPLE: ./../songs/Nijigaku
-# Usage : python JSONAlbumExtractor.py './../albums/Liella/Liella.csv' './../albums/Liella/Liella'
 
 json_data_ja = []
 json_data_rom = []

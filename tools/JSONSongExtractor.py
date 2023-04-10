@@ -1,12 +1,15 @@
 import sys, csv, json
 from collections import OrderedDict
 
-if len(sys.argv) != 3:
+if len(sys.argv) == 2:
+    input = './../songs/' + sys.argv[1] + '/' + sys.argv[1] + '.csv'
+    output = './../songs/' + sys.argv[1] + '/' + sys.argv[1] + '.json'
+elif len(sys.argv) == 3:
+    input = sys.argv[1]
+    output = sys.argv[2]
+else:
     print("Insufficient arguments")
     sys.exit()
-
-input = sys.argv[1]
-output = sys.argv[2]
 
 json_data = []
 
