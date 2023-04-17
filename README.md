@@ -80,8 +80,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
   | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
   | <b>12</b> | <b>13</b> | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> |
   | Arranger (ja) | Arranger (rom) | Arranger (ko) | Album | Release Date | YT Link |
-  | <b>18</b> |
-  | Notes |
+  | <b>18</b> | <b>19</b> |
+  | Notes | Pronunciation (Gana) |
   
 - The columns for each ```album data``` are as follows.
 
@@ -90,8 +90,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
   | Album | Track Number | Title (ja) | Title (rom) | Title (ko) | Singer (ja) | Singer (rom) |
   | <b>7</b> | <b>8</b> | <b>9</b> | <b>10</b> | <b>11</b> | <b>12</b> | <b>13</b> |
   | Singer (ko) | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
-  | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> | <b>18</b> | <b>19</b> |
-  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Release Date | YT Link | Notes |
+  | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> | <b>18</b> | <b>19</b> | <b>20</b> |
+  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Release Date | YT Link | Notes | Pronunciation (Gana) |
   
 <!--
   <details>
@@ -124,7 +124,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
     "arranger": "山本玲史",
     "release": "2023-03-29",
     "link": "https://youtu.be/5TXxIDBRPEI",
-    "note": ""
+    "note": "",
+    "pronunciation": "ドリーム・ビリーバーズ"
   }
 ]
 ```
@@ -166,7 +167,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
     },
     "release": "2021-10-13",
     "link": "https://youtu.be/1lPESUmrbZY",
-    "note": ""
+    "note": "",
+    "pronunciation": "ヤダ！"
   },
   // Continues
 ]
@@ -190,7 +192,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
           "모리 유야"
         ],
         "link": "https://youtu.be/oDnmWbGsNxA",
-        "note": ""
+        "note": "",
+        "pronunciation": "ウェルカム・トゥ・ぼくらのセカイ"
       },
       // Track Continues
     ]
@@ -233,7 +236,8 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
           "ko": "카네마츠 슈"
         },
         "link": "https://youtu.be/bjIRLovzc80",
-        "note": ""
+        "note": "",
+        "pronunciation": "はじまりはきみのそら"
       },
       // Track Continues
     ]
