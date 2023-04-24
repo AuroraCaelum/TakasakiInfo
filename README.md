@@ -43,6 +43,20 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
     </ul>
 </details>
 
+```mermaid
+gantt
+    title Project Plan & Status
+    dateFormat  YYYY-MM-DD
+    section Input
+    Hasunosora :done, des1, 2023-04-06, 1d
+    Liella  :done,  des2, 2023-04-06, 3d
+    Nijigaku  :done, des3, 2023-04-08, 5d
+    Aqours (Songs) :active,    des4, 2023-04-25,5d
+    Aqours (Albums) :  des5, after des4, 4d
+    μ’s (Songs) :  des6, after des5, 7d
+    μ’s (Albums) :  des7, after des6, 7d
+```
+
 ***
 
 <div id="english"></div>
