@@ -12,9 +12,9 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 | :--------: | :-------------: | :-----:| :---: |
 |    μ’s     | Planned | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Muse.csv">CSV</a>) |
 |   Aqours   | In Progress | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Aqours.csv">CSV</a>) |
-|  Nijigaku  | <b>[Last Update 2023/04/13]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | <b>[Last Update 2023/04/13]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Nijigaku">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
-|   Liella!  | <b>[Last Update 2023/04/12]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Last Update 2023/04/12]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
-| Hasunosora | <b>[Last Update 2023/04/16]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Last Update 2023/04/16]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
+|  Nijigaku  | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Nijigaku">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
+|   Liella!  | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
+| Hasunosora | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
 | Musical |  |  |  |
 <br>
 <details>
@@ -43,20 +43,6 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
       <li> - [ ] Twinkle of the Superstar </li>
     </ul>
 </details>
-
-```mermaid
-gantt
-    title Project Plan & Status
-    dateFormat  YYYY-MM-DD
-    section Input
-    Hasunosora :done, des1, 2023-04-06, 1d
-    Liella  :done,  des2, 2023-04-06, 3d
-    Nijigaku  :done, des3, 2023-04-08, 5d
-    Aqours (Songs) :active,    des4, 2023-04-25,5d
-    Aqours (Albums) :  des5, after des4, 4d
-    μ’s (Songs) :  des6, after des5, 7d
-    μ’s (Albums) :  des7, after des6, 7d
-```
 
 ***
 
@@ -128,22 +114,6 @@ gantt
 
 ## JSON Structure
 ### Songs
-`Example: Singlelanguage JSON (Hasunosora-ja.json)`
-```js
-[
-  {
-    "title": "ド！ド！ド！",
-    "artist": "みらくらぱーく！",
-    "lyricist": "ろさ",
-    "composer": "山本玲史",
-    "arranger": "山本玲史",
-    "release": "2023-03-29",
-    "link": "https://youtu.be/5TXxIDBRPEI",
-    "note": "",
-    "pronunciation": "ドリーム・ビリーバーズ"
-  }
-]
-```
 `Example: Multilanguage JSON (Nijigaku.json)`
 ```js
 [
@@ -180,6 +150,8 @@ gantt
       "rom": "Hiroto Kikuchi",
       "ko": "키쿠치 히로토"
     },
+    "album": "L！ L！ L！ (Love the Life We Live)",
+		"track": "8",
     "release": "2021-10-13",
     "link": "https://youtu.be/1lPESUmrbZY",
     "note": "",
@@ -189,33 +161,6 @@ gantt
 ]
 ```
 ### Albums
-`Example: Singlelanguage JSON (Liella-ko.json)`
-```js
-[
-  {
-    "album": "Welcome to 僕らのセカイ / Go!! リスタート 【第1話盤】",
-    "release": "2022-08-17",
-    "songs": [
-      {
-        "track": "1",
-        "title": "Welcome to 우리들의 세계",
-        "artist": "Liella!",
-        "lyricist": "미야지마 준코",
-        "composer": "미츠마스 하지메",
-        "arranger": [
-          "EFFY",
-          "모리 유야"
-        ],
-        "link": "https://youtu.be/oDnmWbGsNxA",
-        "note": "",
-        "pronunciation": "ウェルカム・トゥ・ぼくらのセカイ"
-      },
-      // Track Continues
-    ]
-  },
-  // Album Continues
-]
-```
 `Example: Multilangauge JSON (Liella.json)`
 ```js
 [
