@@ -12,9 +12,9 @@ README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국
 | :--------: | :-------------: | :-----:| :---: |
 |    μ’s     | Planned | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Muse.csv">CSV</a>) |
 |   Aqours   | In Progress | Planned | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Aqours.csv">CSV</a>) |
-|  Nijigaku  | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Nijigaku">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
-|   Liella!  | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Last Update 2023/08/02]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
-| Hasunosora | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/songs/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
+|  Nijigaku  | <b>[Last Update 2023/08/02]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Nijigaku">JSON</a>) | <b>[Last Update 2023/08/01]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Nijigaku/Nijigaku.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Nijigaku">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Nijigaku.csv">CSV</a>) |
+|   Liella!  | <b>[Last Update 2023/08/02]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Liella">JSON</a>) | <b>[Last Update 2023/08/02]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Liella/Liella.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Liella">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Liella.csv">CSV</a>) |
+| Hasunosora | <b>[Last Update 2023/08/02]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/songs/Hasunosora">JSON</a>) | <b>[Last Update 2023/07/19]</b><br>(<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/albums/Hasunosora/Hasunosora.csv">CSV</a> / <a href="https://github.com/AuroraCaelum/TakasakiInfo/tree/main/albums/Hasunosora">JSON</a>) | (<a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/members/Hasunosora.csv">CSV</a>) |
 | Musical |  |  |  |
 
 Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/main/TakasakiInfo.json">TakasakiInfo.json</a>
@@ -75,18 +75,7 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 - If a column contains multiple data, it is divided by ```;```
 <br>
 
-- The columns for each ```song data``` are as follows.
 
-  | 0 | 1 | 2 | 3 | 4 | 5 |
-  |:---:|:---:|:---:|:---:|:---:|:---:|
-  | Title (ja) | Title (rom) | Title (ko) | Singer (ja) | Singer (rom) | Singer (ko) |
-  | <b>6</b> | <b>7</b> | <b>8</b> | <b>9</b> | <b>10</b> | <b>11</b> |
-  | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
-  | <b>12</b> | <b>13</b> | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> |
-  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Album | Release Date | YT Link |
-  | <b>18</b> | <b>19</b> |
-  | Notes | Pronunciation (Gana) |
-  
 - The columns for each ```album data``` are as follows.
 
   | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -95,7 +84,9 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
   | <b>7</b> | <b>8</b> | <b>9</b> | <b>10</b> | <b>11</b> | <b>12</b> | <b>13</b> |
   | Singer (ko) | Lyricist (ja) | Lyricist (rom) | Lyricist (ko) | Composer (ja) | Composer (rom) | Composer (ko) |
   | <b>14</b> | <b>15</b> | <b>16</b> | <b>17</b> | <b>18</b> | <b>19</b> | <b>20</b> |
-  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Release Date | YT Link | Notes | Pronunciation (Gana) |
+  | Arranger (ja) | Arranger (rom) | Arranger (ko) | Release Date | YT Link | Category | Notes |
+   | <b>21</b> |
+   | Pronunciation (Gana) |
   
 <!--
   <details>
@@ -117,6 +108,7 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 
 ## JSON Structure
 ### Songs
+NOTE: The <b>SONGS</b> data is not including the 'Off Vocal' and 'Drama Part'.<br>
 `Example: Multilanguage JSON (Nijigaku.json)`
 ```js
 [
@@ -212,6 +204,19 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 ## Feedback
 - Feedback on the data structure or suggestions for missing information will be reflected if you send them through the [Issue](https://github.com/AuroraCaelum/LoveLiveTerm-MultiLang/issues).
 
+## Disclaimer
+```
+All rights of the sources including songs and lyrics are completely belong to
+  ©2013 Project Love Live!
+  ©2017 Project Love Live! Sunshine!!
+  ©2022 Project Love Live! Nijigasaki High School Idol Club
+  ©Project Love Live! Nijiyon Animation
+  ©2022 Project Love Live! Superstar!!
+  ©PROJECT YOHANE
+  ©Project Love Live! School Idol Musical
+  ©Project Love Live! Hasunosora Jogakuin School Idol Club
+and its rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushiroad.
+```
 
 ***
 
@@ -233,8 +238,8 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 - 하나의 열에 여러 개의 데이터가 들어있을 경우, ```;```로 구분됩니다.
 <br>
 
-- 각 ```노래 데이터```의 열은 다음과 같습니다.
-  - ```제목(일본어)```, ```제목(로마자)```, ```제목(한국어)```, ```가수(일본어)```, ```가수(로마자)```, ```가수(한국어)```, ```작사가(일본어)```, ```작사가(로마자)```, ```작사가(한국어)```, ```작곡가(일본어)```, ```작곡가(로마자)```, ```작곡가(한국어)```, ```편곡자(일본어)```, ```편곡자(로마자)```, ```편곡자(한국어)```, ```수록 앨범명```, ```발매일```, ```유튜브 링크```, ```비고```
+- 각 ```음반 데이터```의 열은 다음과 같습니다.
+  - ```앨범명```, ```트랙 넘버```, ```제목(일본어)```, ```제목(로마자)```, ```제목(한국어)```, ```가수(일본어)```, ```가수(로마자)```, ```가수(한국어)```, ```작사가(일본어)```, ```작사가(로마자)```, ```작사가(한국어)```, ```작곡가(일본어)```, ```작곡가(로마자)```, ```작곡가(한국어)```, ```편곡자(일본어)```, ```편곡자(로마자)```, ```편곡자(한국어)```, ```발매일```, ```유튜브 링크```, ```카테고리```, ```비고```, ```발음(일본어 가나 표기)```
 - 각 ```멤버 데이터```의 열은 다음과 같습니다.
   - ```이름(일본어)```, ```이름(로마자)```, ```이름(한국어)```, ```성우(일본어)```, ```성우(로마자)```, ```성우(한국어)```, ```소속 유닛```
 <br>
@@ -255,6 +260,19 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 ## 피드백
 - 데이터 구조에 대한 피드백이나, 정보 누락에 대한 제안은 [이슈](https://github.com/AuroraCaelum/LoveLiveTerm-MultiLang/issues)를 통해 보내주시면 반영하도록 하겠습니다.
 
+## Disclaimer
+```
+노래, 가사를 포함한 모든 자료의 권리는 전적으로
+  ©2013 Project Love Live!
+  ©2017 Project Love Live! Sunshine!!
+  ©2022 Project Love Live! Nijigasaki High School Idol Club
+  ©Project Love Live! Nijiyon Animation
+  ©2022 Project Love Live! Superstar!!
+  ©PROJECT YOHANE
+  ©Project Love Live! School Idol Musical
+  ©Project Love Live! Hasunosora Jogakuin School Idol Club
+와 그 권리사인 SUNRISE, Bandai Namco Filmworks Inc., Lantis, Bushiroad에 있습니다.
+```
 
 ***
 
@@ -276,8 +294,8 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 - 1つの列に複数のデータが含まれている場合は、```;```に区分されます。
 <br>
 
-- 各```曲データ```の列は次のとおりです。
-  - ```タイトル(日本語)```, ```タイトル(ローマ字)```, ```タイトル(韓国語)```, ```歌手(日本語)```, ```歌手(ローマ字)```, ```歌手(韓国語)```, ```作詞(日本語)```, ```作詞(ローマ字)```, ```作詞(韓国語)```, ```作曲(日本語)```, ```作曲(ローマ字)```, ```作曲(韓国語)```, ```編曲(日本語)```, ```編曲(ローマ字)```, ```編曲(韓国語)```, ```アルバム名```, ```発売日```, ```YouTubeリンク```, ```備考```
+- 各```アルバムデータ```の列は次のとおりです。
+  - ```アルバム名```, ```トラック```, ```タイトル(日本語)```, ```タイトル(ローマ字)```, ```タイトル(韓国語)```, ```歌手(日本語)```, ```歌手(ローマ字)```, ```歌手(韓国語)```, ```作詞(日本語)```, ```作詞(ローマ字)```, ```作詞(韓国語)```, ```作曲(日本語)```, ```作曲(ローマ字)```, ```作曲(韓国語)```, ```編曲(日本語)```, ```編曲(ローマ字)```, ```編曲(韓国語)```, ```発売日```, ```YouTubeリンク```, ```分類```, ```備考```, ```発音(がな）```
 - 各```メンバーデータ```の列は次のとおりです。
   - ```名前(日本語)```, ```名前(ローマ字)```, ```名前(韓国語)```, ```声優(日本語)```, ```声優(ローマ字)```, ```声優(韓国語)```, ```所属ユニット```
 <br>
@@ -297,3 +315,17 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 
 ## フィードバック
 - データ構造に対するフィードバックや情報漏れの提案は、[イシュー](https://github.com/AuroraCaelum/LoveLiveTerm-MultiLang/issues)を通じて送っていただければ反映するようにします。
+
+## Disclaimer
+```
+曲、歌詞を含む全てすべての素材の権利は全て
+  ©2013 プロジェクトラブライブ！
+  ©2017 プロジェクトラブライブ！サンシャイン!!
+  ©2022 プロジェクトラブライブ！虹ヶ咲学園スクールアイドル同好会
+  ©プロジェクトラブライブ！にじよん あにめーしょん
+  ©2022 プロジェクトラブライブ！スーパースター!!
+  ©PROJECT YOHANE
+  ©プロジェクトラブライブ！スクールアイドルミュージカル
+  ©プロジェクトラブライブ！蓮ノ空女学院スクールアイドルクラブ
+とその権利者であるSUNRISE、Bandai Namco Filmworks Inc.、Lantis、Bushiroadに帰属します。
+```
