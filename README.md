@@ -61,8 +61,6 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
    
 - Search : `GET` /search
   - Parameter
-    - `searchType`
-      - Acceptable values are `AND`, `OR`
     - `title`
     - `artist`
     - `lyricist`
