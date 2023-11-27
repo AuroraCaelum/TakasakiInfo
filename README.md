@@ -47,6 +47,20 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
     </ul>
 </details>
 
+
+<h2>API</h2>
+<br>
+<a href="https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiInfo">API Endpoint</a>
+<br>
+
+- Full Database : `GET` /full
+
+- Random Songs : `GET` /random
+  - Parameter
+    - `?size=` - Indicates how many random songs will be returned.
+   
+- Search : `In Progress`
+
 ***
 
 <div id="english"></div>
