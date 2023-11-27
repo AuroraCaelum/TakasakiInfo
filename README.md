@@ -57,9 +57,19 @@ Integrated JSON - <a href="https://github.com/AuroraCaelum/TakasakiInfo/blob/mai
 
 - Random Songs : `GET` /random
   - Parameter
-    - `?size=` - Indicates how many random songs will be returned.
+    - `size` - Indicates how many random songs will be returned.
    
-- Search : `In Progress`
+- Search : `GET` /search
+  - Parameter
+    - `searchType`
+      - Acceptable values are `AND`, `OR`
+    - `title`
+    - `artist`
+    - `lyricist`
+    - `composer`
+    - `arranger`
+    - `category`
+      - Acceptable values are `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Others`
 
 ***
 
