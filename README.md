@@ -2,6 +2,7 @@
 <b><h2>TakasakiInfo -<br>CSV & JSON Database of Love Live Song List, Song URLs, Member List, Seiyuu List.</h2></b>
 <br>
 <b>IMPORTANT: Data is still being configured.</b>
+<br><b>Current Issue: JSON Data in `Aqours` may have some empty entries. It will be fixed shortly.</b>
 <br><br>
 README Language &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp; <a href="#korean" >한국어</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#japanese" >日本語</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#english" >English</a>
 <br></br>
