@@ -1,0 +1,43 @@
+id: aqours/strawberry-trapper
+project: aqours
+title:
+  ja: Strawberry Trapper
+  kana: ストロベリートラッパー
+  rom: Strawberry Trapper
+  ko: Strawberry Trapper
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: masashi-kanasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: masashi-kanasaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Strawberry Trapper (Off Vocal)
+      kana: ストロベリートラッパー (オフボーカル)
+      rom: Strawberry Trapper (Off Vocal)
+      ko: Strawberry Trapper (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: masashi-kanasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

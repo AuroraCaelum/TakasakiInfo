@@ -1,0 +1,43 @@
+id: aqours/guilty-farewell-party
+project: aqours
+title:
+  ja: Guilty!? Farewell party
+  kana: ''
+  rom: Guilty!? Farewell party
+  ko: Guilty!? Farewell party
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yasushi-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: yasushi-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Guilty!? Farewell party (Off Vocal)
+      kana: ''
+      rom: Guilty!? Farewell party (Off Vocal)
+      ko: Guilty!? Farewell party (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: yasushi-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

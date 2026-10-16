@@ -1,0 +1,43 @@
+id: aqours/shadow-gate-to-love
+project: aqours
+title:
+  ja: Shadow gate to love
+  kana: ''
+  rom: Shadow gate to love
+  ko: Shadow gate to love
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Shadow gate to love (Off Vocal)
+      kana: ''
+      rom: Shadow gate to love (Off Vocal)
+      ko: Shadow gate to love (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

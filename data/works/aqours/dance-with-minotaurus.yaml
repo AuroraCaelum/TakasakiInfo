@@ -1,0 +1,71 @@
+id: aqours/dance-with-minotaurus
+project: aqours
+title:
+  ja: Dance with Minotaurus
+  kana: ''
+  rom: Dance with Minotaurus
+  ko: Dance with Minotaurus
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takeshi-masuda}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: Dance with Minotaurus (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Dance with Minotaurus (Chika Takami Solo Ver.)
+      ko: Dance with Minotaurus (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: Dance with Minotaurus (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Dance with Minotaurus (Riko Sakurauchi Solo Ver.)
+      ko: Dance with Minotaurus (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: Dance with Minotaurus (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Dance with Minotaurus (Ruby Kurosawa Solo Ver.)
+      ko: Dance with Minotaurus (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

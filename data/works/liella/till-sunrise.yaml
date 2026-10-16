@@ -1,0 +1,45 @@
+id: liella/till-sunrise
+project: liella
+title:
+  ja: Till Sunrise
+  kana: ティル・サンライズ
+  rom: Till Sunrise
+  ko: Till Sunrise
+credits:
+  lyricist:
+    - {person: lauren-kaori}
+  composer:
+    - {person: na-zu-na}
+    - {person: yuki-kokubo}
+    - {person: lauren-kaori}
+recordings:
+  - id: original
+    performers:
+      - {artist: sunny-passion}
+    arranger:
+      - {person: na-zu-na}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Till Sunrise (Off Vocal)
+      kana: ティル・サンライズ (オフボーカル)
+      rom: Till Sunrise (Off Vocal)
+      ko: Till Sunrise (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: sunny-passion}
+    arranger:
+      - {person: na-zu-na}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

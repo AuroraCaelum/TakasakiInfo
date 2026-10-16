@@ -1,0 +1,44 @@
+id: nijigasaki/not-sad
+project: nijigasaki
+title:
+  ja: Not Sad
+  kana: ノット・サッド
+  rom: Not Sad
+  ko: Not Sad
+credits:
+  lyricist:
+    - {person: masami-kakinuma}
+  composer:
+    - {person: yoshihiro-suda}
+    - {person: takeru-yoda}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: takeru-yoda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Not Sad (Off Vocal)
+      kana: ノット・サッド (オフボーカル)
+      rom: Not Sad (Off Vocal)
+      ko: Not Sad (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: takeru-yoda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

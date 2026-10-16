@@ -1,0 +1,44 @@
+id: nijigasaki/koi-suru-magic
+project: nijigasaki
+title:
+  ja: 恋するMagic!!
+  kana: こいするマジック!!
+  rom: Koi suru Magic!!
+  ko: 사랑하는 Magic!!
+credits:
+  lyricist:
+    - {person: pahamutan}
+    - {person: passion-king}
+  composer:
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 恋するMagic!! (Off Vocal)
+      kana: こいするマジック!! (オフボーカル)
+      rom: Koi suru Magic!! (Off Vocal)
+      ko: 사랑하는 Magic!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

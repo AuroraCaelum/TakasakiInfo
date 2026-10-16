@@ -1,0 +1,44 @@
+id: liella/pop-talking
+project: liella
+title:
+  ja: POP TALKING
+  kana: ポップ・トーキング
+  rom: POP TALKING
+  ko: POP TALKING
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuu-for-you}
+    - {person: giz-mo, affiliation: from Jam9}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yuu-for-you}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: POP TALKING (Off Vocal)
+      kana: ポップ・トーキング (オフボーカル)
+      rom: POP TALKING (Off Vocal)
+      ko: POP TALKING (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yuu-for-you}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

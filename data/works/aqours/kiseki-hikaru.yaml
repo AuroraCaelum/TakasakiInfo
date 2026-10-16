@@ -1,0 +1,43 @@
+id: aqours/kiseki-hikaru
+project: aqours
+title:
+  ja: キセキヒカル
+  kana: ''
+  rom: Kiseki Hikaru
+  ko: 기적이 빛나다
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tatsuya-kato}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: tatsuya-kato}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: キセキヒカル (Off Vocal)
+      kana: ''
+      rom: Kiseki Hikaru (Off Vocal)
+      ko: 기적이 빛나다 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: tatsuya-kato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

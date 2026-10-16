@@ -1,0 +1,44 @@
+id: nijigasaki/romance-no-naka-de
+project: nijigasaki
+title:
+  ja: ロマンスの中で
+  kana: ロマンスのなかで
+  rom: Romance no Naka de
+  ko: 로맨스 속에서
+credits:
+  lyricist:
+    - {person: pahamutan}
+  composer:
+    - {person: pahamutan}
+    - {person: takumi-inuzuka}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: takumi-inuzuka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ロマンスの中で (Off Vocal)
+      kana: ロマンスのなかで (オフボーカル)
+      rom: Romance no Naka de (Off Vocal)
+      ko: 로맨스 속에서 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: takumi-inuzuka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

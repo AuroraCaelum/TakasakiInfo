@@ -1,0 +1,43 @@
+id: aqours/my-mai-tonight
+project: aqours
+title:
+  ja: MY舞☆TONIGHT
+  kana: ''
+  rom: MY Mai☆TONIGHT
+  ko: MY무희☆TONIGHT
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: effy}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: MY舞☆TONIGHT (Off Vocal)
+      kana: ''
+      rom: MY Mai☆TONIGHT (Off Vocal)
+      ko: MY무희☆TONIGHT (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

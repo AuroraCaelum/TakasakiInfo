@@ -1,0 +1,43 @@
+id: aqours/white-first-love
+project: aqours
+title:
+  ja: WHITE FIRST LOVE
+  kana: ''
+  rom: WHITE FIRST LOVE
+  ko: WHITE FIRST LOVE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: WHITE FIRST LOVE (Off Vocal)
+      kana: ''
+      rom: WHITE FIRST LOVE (Off Vocal)
+      ko: WHITE FIRST LOVE (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

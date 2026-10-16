@@ -1,0 +1,26 @@
+id: aqours/2020-fantastic-departure
+title:
+  ja: Fantastic Departure!
+projects: [aqours]
+release_date: 2020-07-22
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/fantastic-departure#original}
+      - {no: 2, recording: aqours/aqours-pirates-desire#original}
+      - {no: 3, recording: aqours/fantastic-departure#off-vocal}
+      - {no: 4, recording: aqours/aqours-pirates-desire#off-vocal}
+      - {no: 5, recording: aqours/aqours-ryuu-shouri-ron#main, note: Drama Part}
+      - {no: 6, recording: aqours/miwaku-no-road-bike#main, note: Drama Part}
+      - {no: 7, recording: aqours/fencing-tte-nan-daro-na#main, note: Drama Part}
+streaming:
+  - tracks:
+      1-1: JbvoEhrNwTw
+      1-2: MQ0pWmEMZZQ
+legacy:
+  category: Aqours
+  albums:
+    - {title: Fantastic Departure!}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

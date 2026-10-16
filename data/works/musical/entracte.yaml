@@ -1,0 +1,32 @@
+id: musical/entracte
+project: musical
+title:
+  ja: アントラクト
+  rom: Entracte
+  ko: 간주
+credits:
+  lyricist:
+    - {person: na}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: instrumental
+    kind: instrumental
+    title:
+      ja: アントラクト(instrumental)
+      kana: アントラクト(インストゥルメンタル)
+      rom: Entracte (instrumental)
+      ko: 간주 (instrumental)
+    version: instrumental
+    performers:
+      - {artist: na}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

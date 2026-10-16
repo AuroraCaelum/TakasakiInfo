@@ -1,0 +1,58 @@
+id: nijigasaki/2022-eutopia-emotion-stars-we-chase
+title:
+  ja: Eutopia / EMOTION / stars we chase
+projects: [nijigasaki]
+release_date: 2022-06-22
+editions:
+  - id: e1
+    label:
+      ja: 鐘 嵐珠盤
+  - id: e2
+    label:
+      ja: 三船栞子盤
+  - id: e3
+    label:
+      ja: ミア・テイラー盤
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/eutopia#original}
+      - {no: 2, recording: nijigasaki/emotion#original}
+      - {no: 3, recording: nijigasaki/stars-we-chase#original}
+      - {no: 4, recording: nijigasaki/eutopia#off-vocal}
+      - {no: 5, recording: nijigasaki/emotion#off-vocal}
+      - {no: 6, recording: nijigasaki/stars-we-chase#off-vocal}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: Hk8lDW8JB5c
+      1-2: Z61RRDBCvbc
+      1-3: JIbO5-CZm1A
+      1-4: NPV4l8rylS0
+      1-5: z2y3NDHfgVc
+      1-6: y-vanZ9Sf1U
+  - editions: [e2]
+    tracks:
+      1-1: kP7tLYnAXwE
+      1-2: BctS652B2-g
+      1-3: CRCiAmua-ww
+      1-4: gmlmoBoKkJM
+      1-5: dUQJP_2hZMY
+      1-6: jpYgUxMg_xQ
+  - editions: [e3]
+    tracks:
+      1-1: lbWR2WGoePI
+      1-2: _XrBxZyVLQc
+      1-3: COwb7jyRxQM
+      1-4: tmAyzn1U_Ww
+      1-5: ACe0LKkoe_4
+      1-6: XvJtqUcCJBM
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: Eutopia / EMOTION / stars we chase 【鐘 嵐珠盤】, edition: e1}
+    - {title: Eutopia / EMOTION / stars we chase 【三船栞子盤】, edition: e2}
+    - {title: Eutopia / EMOTION / stars we chase 【ミア・テイラー盤】, edition: e3}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

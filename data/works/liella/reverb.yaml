@@ -1,0 +1,43 @@
+id: liella/reverb
+project: liella
+title:
+  ja: リバーブ
+  kana: リバーブ
+  rom: Reverb
+  ko: 리버브
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mako-kuwabara}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: mako-kuwabara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: リバーブ (Off Vocal)
+      kana: リバーブ (オフボーカル)
+      rom: Reverb (Off Vocal)
+      ko: 리버브 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: mako-kuwabara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

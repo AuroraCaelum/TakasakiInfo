@@ -1,0 +1,28 @@
+id: nijigasaki/aion-no-uta
+project: nijigasaki
+title:
+  ja: 哀温ノ詩
+  kana: あいおんのうた
+  rom: Aion no Uta
+  ko: 애온의 시
+credits:
+  lyricist:
+    - {person: ryota-saito}
+  composer:
+    - {person: kenta-urashima}
+    - {person: takumi-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: kenta-urashima}
+      - {person: takumi-yamamoto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

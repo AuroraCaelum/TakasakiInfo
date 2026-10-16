@@ -1,0 +1,43 @@
+id: liella/edelstein
+project: liella
+title:
+  ja: エーデルシュタイン
+  kana: エーデルシュタイン
+  rom: Edelstein
+  ko: 에델슈타인
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuya-mori}
+recordings:
+  - id: original
+    performers:
+      - {artist: wien-margarete}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: エーデルシュタイン (Off Vocal)
+      kana: エーデルシュタイン (オフボーカル)
+      rom: Edelstein (Off Vocal)
+      ko: 에델슈타인 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: wien-margarete}
+    arranger:
+      - {person: yuya-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

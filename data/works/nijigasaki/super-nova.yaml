@@ -1,0 +1,43 @@
+id: nijigasaki/super-nova
+project: nijigasaki
+title:
+  ja: SUPER NOVA
+  kana: スーパーノヴァ
+  rom: SUPER NOVA
+  ko: SUPER NOVA
+credits:
+  lyricist:
+    - {person: dummy-dog}
+  composer:
+    - {person: dummy-dog}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SUPER NOVA (Off Vocal)
+      kana: スーパーノヴァ (オフボーカル)
+      rom: SUPER NOVA (Off Vocal)
+      ko: SUPER NOVA (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

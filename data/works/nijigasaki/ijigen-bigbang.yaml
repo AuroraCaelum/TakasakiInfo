@@ -1,0 +1,58 @@
+id: nijigasaki/ijigen-bigbang
+project: nijigasaki
+title:
+  ja: 異次元★♥BIGBANG
+  kana: いじげんビッグバン
+  rom: Ijigen★♥BIGBANG
+  ko: 이차원★♥BIGBANG
+credits:
+  lyricist:
+    - {person: uina}
+  composer:
+    - {person: kotaro-odaka}
+    - {person: uina}
+recordings:
+  - id: original
+    performers:
+      - {artist: uzuki-shimamura}
+      - {artist: shizuka-mogami}
+      - {artist: kogane-tsukioka}
+      - {character: aqours/chika-takami}
+      - {character: nijigasaki/ayumu-uehara}
+      - {character: liella/kanon-shibuya}
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani-2}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 異次元★♥BIGBANG (Off Vocal)
+      kana: いじげんビッグバン (オフボーカル)
+      rom: Ijigen★♥BIGBANG (Off Vocal)
+      ko: 이차원★♥BIGBANG (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: uzuki-shimamura}
+      - {artist: shizuka-mogami}
+      - {artist: kogane-tsukioka}
+      - {character: aqours/chika-takami}
+      - {character: nijigasaki/ayumu-uehara}
+      - {character: liella/kanon-shibuya}
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani-2}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

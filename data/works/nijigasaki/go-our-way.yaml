@@ -1,0 +1,44 @@
+id: nijigasaki/go-our-way
+project: nijigasaki
+title:
+  ja: Go Our Way！
+  kana: ゴー アワー ウェイ
+  rom: Go Our Way!
+  ko: Go Our Way!
+credits:
+  lyricist:
+    - {person: sakiel-kiriya}
+    - {person: konnie-aoki}
+  composer:
+    - {person: giga-teddyloid}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: giga-teddyloid}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Go Our Way！ (Off Vocal)
+      kana: ゴー アワー ウェイ (オフボーカル)
+      rom: Go Our Way! (Off Vocal)
+      ko: Go Our Way! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: giga-teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

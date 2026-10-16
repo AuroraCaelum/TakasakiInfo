@@ -1,0 +1,43 @@
+id: aqours/pops-heart-de-odorundamon
+project: aqours
+title:
+  ja: Pops heartで踊るんだもん！
+  kana: ポップス ハート で おどるんだ もん
+  rom: Pops heart de Odorundamon!
+  ko: Pops heart로 춤추는 걸!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Pops heartで踊るんだもん！ (Off Vocal)
+      kana: ポップス ハート で おどるんだ もん (オフボーカル)
+      rom: Pops heart de Odorundamon! (Off Vocal)
+      ko: Pops heart로 춤추는 걸! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

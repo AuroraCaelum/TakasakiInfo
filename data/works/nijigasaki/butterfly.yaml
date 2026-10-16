@@ -1,0 +1,43 @@
+id: nijigasaki/butterfly
+project: nijigasaki
+title:
+  ja: Butterfly
+  kana: バタフライ
+  rom: Butterfly
+  ko: Butterfly
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Butterfly (Off Vocal)
+      kana: バタフライ (オフボーカル)
+      rom: Butterfly (Off Vocal)
+      ko: Butterfly (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

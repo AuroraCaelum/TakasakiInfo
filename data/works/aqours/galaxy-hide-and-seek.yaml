@@ -1,0 +1,43 @@
+id: aqours/galaxy-hide-and-seek
+project: aqours
+title:
+  ja: GALAXY HidE and SeeK
+  kana: ''
+  rom: GALAXY HidE and SeeK
+  ko: GALAXY HidE and SeeK
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yoshinobu-takeichi}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: yoshinobu-takeichi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: GALAXY HidE and SeeK (Off Vocal)
+      kana: ''
+      rom: GALAXY HidE and SeeK (Off Vocal)
+      ko: GALAXY HidE and SeeK (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: yoshinobu-takeichi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

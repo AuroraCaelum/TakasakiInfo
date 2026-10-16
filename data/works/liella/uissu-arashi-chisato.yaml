@@ -1,0 +1,28 @@
+id: liella/uissu-arashi-chisato
+kind: drama
+project: liella
+title:
+  ja: うぃーっす！ ~嵐千砂都~
+  kana: うぃーっす！ ~アラシ チサト~
+  rom: Uissu! ~Arashi Chisato~
+  ko: 안녕! ~아라시 치사토~
+credits:
+  lyricist:
+    - {person: na}
+  composer:
+    - {person: na}
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: na}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

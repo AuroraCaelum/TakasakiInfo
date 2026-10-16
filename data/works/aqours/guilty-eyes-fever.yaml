@@ -1,0 +1,43 @@
+id: aqours/guilty-eyes-fever
+project: aqours
+title:
+  ja: Guilty Eyes Fever
+  kana: ''
+  rom: Guilty Eyes Fever
+  ko: Guilty Eyes Fever
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yuki-honda, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Guilty Eyes Fever (Off Vocal)
+      kana: ''
+      rom: Guilty Eyes Fever (Off Vocal)
+      ko: Guilty Eyes Fever (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

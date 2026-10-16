@@ -1,0 +1,43 @@
+id: liella/dreaming-energy
+project: liella
+title:
+  ja: Dreaming Energy
+  kana: ドリーミング・エナジー
+  rom: Dreaming Energy
+  ko: Dreaming Energy
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tokiwa-hironaka}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: peach}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dreaming Energy (Off Vocal)
+      kana: ドリーミング・エナジー (オフボーカル)
+      rom: Dreaming Energy (Off Vocal)
+      ko: Dreaming Energy (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: peach}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

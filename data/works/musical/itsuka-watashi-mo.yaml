@@ -1,0 +1,33 @@
+id: musical/itsuka-watashi-mo
+project: musical
+title:
+  ja: いつかわたしも
+  kana: いつかわたしも
+  rom: Itsuka Watashi mo
+  ko: 언젠가 나도
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: ohara-mayuko}
+      - {artist: kaede-kaneko}
+      - {artist: mayuri-suzuki}
+      - {artist: kanon-nakazaki}
+      - {artist: kurumi-fuzimoto}
+      - {artist: tomoe-furusawa}
+      - {artist: mei-morimoto}
+      - {artist: nanoka-watanabe}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

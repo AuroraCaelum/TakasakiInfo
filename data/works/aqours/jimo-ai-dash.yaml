@@ -1,0 +1,179 @@
+id: aqours/jimo-ai-dash
+project: aqours
+title:
+  ja: JIMO-AI Dash!
+  kana: ''
+  rom: JIMO-AI Dash!
+  ko: JIMO-AI Dash!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: JIMO-AI Dash! (Off Vocal)
+      kana: ''
+      rom: JIMO-AI Dash! (Off Vocal)
+      ko: JIMO-AI Dash! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazuya-komatsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: JIMO-AI Dash! (高海千歌 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Chika Takami Solo Ver.)
+      ko: JIMO-AI Dash! (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: JIMO-AI Dash! (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Riko Sakurauchi Solo Ver.)
+      ko: JIMO-AI Dash! (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kanan-matsuura-solo-ver
+    title:
+      ja: JIMO-AI Dash! (松浦果南 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Kanan Matsuura Solo Ver.)
+      ko: JIMO-AI Dash! (마츠우라 카난 Solo Ver.)
+    version: 松浦果南 Solo Ver.
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: dia-kurosawa-solo-ver
+    title:
+      ja: JIMO-AI Dash! (黒澤ダイヤ Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Dia Kurosawa Solo Ver.)
+      ko: JIMO-AI Dash! (쿠로사와 다이아 Solo Ver.)
+    version: 黒澤ダイヤ Solo Ver.
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: you-watanabe-solo-ver
+    title:
+      ja: JIMO-AI Dash! (渡辺 曜 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (You Watanabe Solo Ver.)
+      ko: JIMO-AI Dash! (와타나베 요우 Solo Ver.)
+    version: 渡辺 曜 Solo Ver.
+    performers:
+      - {artist: you-watanabe}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: yoshiko-tsushima-solo-ver
+    title:
+      ja: JIMO-AI Dash! (津島善子 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Yoshiko Tsushima Solo Ver.)
+      ko: JIMO-AI Dash! (츠시마 요시코 Solo Ver.)
+    version: 津島善子 Solo Ver.
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: hanamaru-kunikida-solo-ver
+    title:
+      ja: JIMO-AI Dash! (国木田花丸 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Hanamaru Kunikida Solo Ver.)
+      ko: JIMO-AI Dash! (쿠니키다 하나마루 Solo Ver.)
+    version: 国木田花丸 Solo Ver.
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: mari-ohara-solo-ver
+    title:
+      ja: JIMO-AI Dash! (小原鞠莉 Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Mari Ohara Solo Ver.)
+      ko: JIMO-AI Dash! (오하라 마리 Solo Ver.)
+    version: 小原鞠莉 Solo Ver.
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: JIMO-AI Dash! (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: JIMO-AI Dash! (Ruby Kurosawa Solo Ver.)
+      ko: JIMO-AI Dash! (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kazuya-komatsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

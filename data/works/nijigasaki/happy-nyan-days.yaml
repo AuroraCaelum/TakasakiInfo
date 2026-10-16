@@ -1,0 +1,46 @@
+id: nijigasaki/happy-nyan-days
+project: nijigasaki
+title:
+  ja: Happy Nyan! Days
+  kana: ハッピーニャン！デイズ
+  rom: Happy Nyan! Days
+  ko: Happy Nyan! Days
+credits:
+  lyricist:
+    - {person: nana-hatori}
+  composer:
+    - {person: passion-king}
+    - {person: rico}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: passion-king}
+      - {person: joe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Happy Nyan! Days (Off Vocal)
+      kana: ハッピーニャン！デイズ (オフボーカル)
+      rom: Happy Nyan! Days (Off Vocal)
+      ko: Happy Nyan! Days (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: passion-king}
+      - {person: joe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

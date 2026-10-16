@@ -1,0 +1,43 @@
+id: liella/matataki-no-saki-e
+project: liella
+title:
+  ja: 瞬きの先へ
+  kana: まばたきのさきへ
+  rom: Matataki no Saki e
+  ko: 반짝임의 너머로
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yoshiaki-fujisawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 瞬きの先へ (Off Vocal)
+      kana: まばたきのさきへ (オフボーカル)
+      rom: Matataki no Saki e (Off Vocal)
+      ko: 반짝임의 너머로 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

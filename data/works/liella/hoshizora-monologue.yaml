@@ -1,0 +1,51 @@
+id: liella/hoshizora-monologue
+project: liella
+title:
+  ja: Hoshizora Monologue
+  kana: ホシゾラモノローグ
+  rom: Hoshizora Monologue
+  ko: 밤하늘 모놀로그
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: yasuhiro-obata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hoshizora Monologue (Off Vocal)
+      kana: ホシゾラモノローグ (オフボーカル)
+      rom: Hoshizora Monologue (Off Vocal)
+      ko: 밤하늘 모놀로그 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: yasuhiro-obata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

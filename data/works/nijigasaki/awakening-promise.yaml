@@ -1,0 +1,43 @@
+id: nijigasaki/awakening-promise
+project: nijigasaki
+title:
+  ja: Awakening Promise
+  kana: アウェイクニング・プロミス
+  rom: Awakening Promise
+  ko: Awakening Promise
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Awakening Promise (Off Vocal)
+      kana: アウェイクニング・プロミス (オフボーカル)
+      rom: Awakening Promise (Off Vocal)
+      ko: Awakening Promise (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

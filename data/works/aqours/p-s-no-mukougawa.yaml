@@ -1,0 +1,43 @@
+id: aqours/p-s-no-mukougawa
+project: aqours
+title:
+  ja: P.S.の向こう側
+  kana: ''
+  rom: P.S. no Mukougawa
+  ko: P.S.의 건너편
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kensuke-okamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: P.S.の向こう側 (Off Vocal)
+      kana: ''
+      rom: P.S. no Mukougawa (Off Vocal)
+      ko: P.S.의 건너편 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: liella/mirai-no-oto-ga-kikoeru
+project: liella
+title:
+  ja: 未来の音が聴こえる
+  kana: みらいのおとがきこえる
+  rom: Mirai no Oto ga Kikoeru
+  ko: 미래의 소리가 들려와
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未来の音が聴こえる (Off Vocal)
+      kana: みらいのおとがきこえる (オフボーカル)
+      rom: Mirai no Oto ga Kikoeru (Off Vocal)
+      ko: 미래의 소리가 들려와 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

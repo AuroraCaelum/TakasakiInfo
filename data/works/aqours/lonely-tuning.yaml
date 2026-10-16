@@ -1,0 +1,43 @@
+id: aqours/lonely-tuning
+project: aqours
+title:
+  ja: LONELY TUNING
+  kana: ''
+  rom: LONELY TUNING
+  ko: LONELY TUNING
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kon-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: kon-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: LONELY TUNING (Off Vocal)
+      kana: ''
+      rom: LONELY TUNING (Off Vocal)
+      ko: LONELY TUNING (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: kon-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

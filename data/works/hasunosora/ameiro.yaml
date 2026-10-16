@@ -1,0 +1,43 @@
+id: hasunosora/ameiro
+project: hasunosora
+title:
+  ja: 飴色
+  kana: あめいろ
+  rom: Ameiro
+  ko: 조청빛
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: aira}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: aira}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 飴色 (Off Vocal)
+      kana: あめいろ (オフボーカル)
+      rom: Ameiro (Off Vocal)
+      ko: 조청빛 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: aira}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

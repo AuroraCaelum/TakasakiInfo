@@ -1,0 +1,43 @@
+id: nijigasaki/eternal-light
+project: nijigasaki
+title:
+  ja: Eternal Light
+  kana: エターナルライト
+  rom: Eternal Light
+  ko: Eternal Light
+credits:
+  lyricist:
+    - {person: dummy-dog}
+  composer:
+    - {person: dummy-dog}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Eternal Light (Off Vocal)
+      kana: エターナルライト (オフボーカル)
+      rom: Eternal Light (Off Vocal)
+      ko: Eternal Light (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

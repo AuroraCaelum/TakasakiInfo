@@ -1,0 +1,44 @@
+id: hasunosora/jibun-diary
+project: hasunosora
+title:
+  ja: ジブンダイアリー
+  kana: ジブンダイアリー
+  rom: Jibun Diary
+  ko: 자신 다이어리
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: satoru-kurihara-jazzin-park}
+    - {person: tasuku-maeda}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: tasuku-maeda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ジブンダイアリー (Off Vocal)
+      kana: ジブンダイアリー (オフボーカル)
+      rom: Jibun Diary (Off Vocal)
+      ko: 자신 다이어리 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: tasuku-maeda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

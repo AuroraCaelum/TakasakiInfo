@@ -1,0 +1,43 @@
+id: liella/yuragu-wa
+project: liella
+title:
+  ja: 揺らぐわ
+  kana: ゆらぐわ
+  rom: Yuragu wa
+  ko: 흔들려요
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 揺らぐわ (Off Vocal)
+      kana: ゆらぐわ (オフボーカル)
+      rom: Yuragu wa (Off Vocal)
+      ko: 흔들려요 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

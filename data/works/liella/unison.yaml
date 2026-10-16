@@ -1,0 +1,27 @@
+id: liella/unison
+project: liella
+title:
+  ja: ユニゾン
+  kana: ユニゾン
+  rom: Unison
+  ko: 유니즌
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuki-kokubo}
+    - {person: gou-ishikuro}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

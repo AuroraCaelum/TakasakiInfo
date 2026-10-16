@@ -1,0 +1,44 @@
+id: nijigasaki/future-parade
+project: nijigasaki
+title:
+  ja: Future Parade
+  kana: フューチャーパレード
+  rom: Future Parade
+  ko: Future Parade
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: keisuke-koyama}
+    - {person: daichi}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Future Parade (Off Vocal)
+      kana: フューチャーパレード (オフボーカル)
+      rom: Future Parade (Off Vocal)
+      ko: Future Parade (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

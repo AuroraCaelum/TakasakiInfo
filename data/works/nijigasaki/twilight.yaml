@@ -1,0 +1,44 @@
+id: nijigasaki/twilight
+project: nijigasaki
+title:
+  ja: トワイライト
+  kana: トワイライト
+  rom: Twilight
+  ko: 트와일라잇
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: joe}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: joe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: トワイライト (Off Vocal)
+      kana: トワイライト (オフボーカル)
+      rom: Twilight (Off Vocal)
+      ko: 트와일라잇 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: joe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

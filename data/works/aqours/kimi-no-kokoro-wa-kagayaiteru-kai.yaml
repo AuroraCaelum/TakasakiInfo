@@ -1,0 +1,88 @@
+id: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+project: aqours
+title:
+  ja: 君のこころは輝いてるかい？
+  kana: きみのこころはかがやいてるかい
+  rom: Kimi no Kokoro wa Kagayaiteru kai?
+  ko: 너의 마음은 빛나고 있니?
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 君のこころは輝いてるかい？ (Off Vocal)
+      kana: きみのこころはかがやいてるかい (オフボーカル)
+      rom: Kimi no Kokoro wa Kagayaiteru kai? (Off Vocal)
+      ko: 너의 마음은 빛나고 있니? (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: 君のこころは輝いてるかい？ (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Kimi no Kokoro wa Kagayaiteru kai?  (Chika Takami Solo Ver.)
+      ko: 너의 마음은 빛나고 있니? (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: 君のこころは輝いてるかい？ (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Kimi no Kokoro wa Kagayaiteru kai?  (Riko Sakurauchi Solo Ver.)
+      ko: 너의 마음은 빛나고 있니? (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: 君のこころは輝いてるかい？ (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Kimi no Kokoro wa Kagayaiteru kai?  (Ruby Kurosawa Solo Ver.)
+      ko: 너의 마음은 빛나고 있니? (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

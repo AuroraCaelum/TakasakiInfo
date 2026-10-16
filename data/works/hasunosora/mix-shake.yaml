@@ -1,0 +1,43 @@
+id: hasunosora/mix-shake
+project: hasunosora
+title:
+  ja: Mix shake!!
+  kana: ミックス・シェイク!!
+  rom: Mix shake!!
+  ko: Mix shake!!
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: tomoya-kawasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: tomoya-kawasaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Mix shake!! (Off Vocal)
+      kana: ミックス・シェイク!! (オフボーカル)
+      rom: Mix shake!! (Off Vocal)
+      ko: Mix shake!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: tomoya-kawasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

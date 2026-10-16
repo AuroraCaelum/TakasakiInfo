@@ -1,0 +1,45 @@
+id: liella/welcome-to-bokura-no-sekai
+project: liella
+title:
+  ja: Welcome to 僕らのセカイ
+  kana: ウェルカム・トゥ・ぼくらのセカイ
+  rom: Welcome to Bokura no Sekai
+  ko: Welcome to 우리들의 세계
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Welcome to 僕らのセカイ (Off Vocal)
+      kana: ウェルカム・トゥ・ぼくらのセカイ (オフボーカル)
+      rom: Welcome to Bokura no Sekai (Off Vocal)
+      ko: Welcome to 우리들의 세계 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+      - {person: yuya-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

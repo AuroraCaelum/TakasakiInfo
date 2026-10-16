@@ -1,0 +1,40 @@
+id: hasunosora/2023-holiday-holiday-tragic-drops
+title:
+  ja: Holiday∞Holiday / Tragic Drops
+projects: [hasunosora]
+release_date: 2023-06-14
+editions:
+  - id: e1
+    label:
+      ja: スリーズブーケ盤
+  - id: e2
+    label:
+      ja: DOLLCHESTRA盤
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/oka-ranman#original}
+      - {no: 2, recording: hasunosora/scapegoat#original}
+      - {no: 3, recording: hasunosora/holiday-holiday#original}
+      - {no: 4, recording: hasunosora/tragic-drops#original}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: 2bmCAQkcZgk
+      1-2: CJacGQqhwAM
+      1-3: dSeW7qZuMl0
+      1-4: vw2lTEmVeEM
+  - editions: [e2]
+    tracks:
+      1-1: UUAlWlg_Bq4
+      1-2: E6cz82WKIEc
+      1-3: kBkWoos0-cY
+      1-4: Son91mCRRWM
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Holiday∞Holiday / Tragic Drops【スリーズブーケ盤】, edition: e1}
+    - {title: Holiday∞Holiday / Tragic Drops【DOLLCHESTRA盤】, edition: e2}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

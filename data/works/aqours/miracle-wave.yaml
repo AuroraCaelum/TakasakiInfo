@@ -1,0 +1,43 @@
+id: aqours/miracle-wave
+project: aqours
+title:
+  ja: MIRACLE WAVE
+  kana: ''
+  rom: MIRACLE WAVE
+  ko: MIRACLE WAVE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-sakai, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: MIRACLE WAVE (Off Vocal)
+      kana: ''
+      rom: MIRACLE WAVE (Off Vocal)
+      ko: MIRACLE WAVE (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

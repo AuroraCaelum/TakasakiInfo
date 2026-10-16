@@ -1,0 +1,45 @@
+id: liella/kawaranai-subete
+project: liella
+title:
+  ja: 変わらないすべて
+  kana: かわらないすべて
+  rom: Kawaranai Subete
+  ko: 변하지 않는 모든 것
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: satomi-kawasaki}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 変わらないすべて (Off Vocal)
+      kana: かわらないすべて (オフボーカル)
+      rom: Kawaranai Subete (Off Vocal)
+      ko: 변하지 않는 모든 것 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: yoshiaki-dewa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: aqours/innocent-bird
+project: aqours
+title:
+  ja: INNOCENT BIRD
+  kana: ''
+  rom: INNOCENT BIRD
+  ko: INNOCENT BIRD
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tetsushi-enami}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: INNOCENT BIRD (Off Vocal)
+      kana: ''
+      rom: INNOCENT BIRD (Off Vocal)
+      ko: INNOCENT BIRD (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

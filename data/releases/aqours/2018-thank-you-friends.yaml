@@ -1,0 +1,26 @@
+id: aqours/2018-thank-you-friends
+title:
+  ja: Thank you, FRIENDS!!
+projects: [aqours]
+release_date: 2018-08-01
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#original}
+      - {no: 2, recording: aqours/no-10#original}
+      - {no: 3, recording: aqours/thank-you-friends#off-vocal}
+      - {no: 4, recording: aqours/no-10#off-vocal}
+      - {no: 5, recording: aqours/zenryoku-kyanpu-numazu-shiei-kyuujou#main, note: Drama Part}
+      - {no: 6, recording: aqours/kyokugen-sabaibu-ayutsubo-no-taki#main, note: Drama Part}
+      - {no: 7, recording: aqours/konshin-atakku-dai-ryuuguujou#main, note: Drama Part}
+streaming:
+  - tracks:
+      1-1: t_IThrVKPyE
+      1-2: kv-Zp30IC8A
+legacy:
+  category: Aqours
+  albums:
+    - {title: 'Thank you, FRIENDS!!'}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

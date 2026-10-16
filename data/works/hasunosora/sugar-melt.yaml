@@ -1,0 +1,43 @@
+id: hasunosora/sugar-melt
+project: hasunosora
+title:
+  ja: シュガーメルト
+  kana: シュガーメルト
+  rom: Sugar Melt
+  ko: 슈가 멜트
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: yosuke-yamashita}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シュガーメルト (Off Vocal)
+      kana: シュガーメルト (オフボーカル)
+      rom: Sugar Melt (Off Vocal)
+      ko: 슈가 멜트 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: yosuke-yamashita}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

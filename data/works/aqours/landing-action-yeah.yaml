@@ -1,0 +1,178 @@
+id: aqours/landing-action-yeah
+project: aqours
+title:
+  ja: Landing action Yeah!!
+  kana: ''
+  rom: Landing action Yeah!!
+  ko: Landing action Yeah!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Landing action Yeah!! (Off Vocal)
+      kana: ''
+      rom: Landing action Yeah!! (Off Vocal)
+      ko: Landing action Yeah!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: Landing action Yeah!! (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Chika Takami Solo Ver.)
+      ko: Landing action Yeah!! (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: Landing action Yeah!! (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Riko Sakurauchi Solo Ver.)
+      ko: Landing action Yeah!! (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kanan-matsuura-solo-ver
+    title:
+      ja: Landing action Yeah!! (松浦果南 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Kanan Matsuura Solo Ver.)
+      ko: Landing action Yeah!! (마츠우라 카난 Solo Ver.)
+    version: 松浦果南 Solo Ver.
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: dia-kurosawa-solo-ver
+    title:
+      ja: Landing action Yeah!! (黒澤ダイヤ Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Dia Kurosawa Solo Ver.)
+      ko: Landing action Yeah!! (쿠로사와 다이아 Solo Ver.)
+    version: 黒澤ダイヤ Solo Ver.
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: you-watanabe-solo-ver
+    title:
+      ja: Landing action Yeah!! (渡辺 曜 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (You Watanabe Solo Ver.)
+      ko: Landing action Yeah!! (와타나베 요우 Solo Ver.)
+    version: 渡辺 曜 Solo Ver.
+    performers:
+      - {artist: you-watanabe}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: yoshiko-tsushima-solo-ver
+    title:
+      ja: Landing action Yeah!! (津島善子 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Yoshiko Tsushima Solo Ver.)
+      ko: Landing action Yeah!! (츠시마 요시코 Solo Ver.)
+    version: 津島善子 Solo Ver.
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: hanamaru-kunikida-solo-ver
+    title:
+      ja: Landing action Yeah!! (国木田花丸 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Hanamaru Kunikida Solo Ver.)
+      ko: Landing action Yeah!! (쿠니키다 하나마루 Solo Ver.)
+    version: 国木田花丸 Solo Ver.
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: mari-ohara-solo-ver
+    title:
+      ja: Landing action Yeah!! (小原鞠莉 Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Mari Ohara Solo Ver.)
+      ko: Landing action Yeah!! (오하라 마리 Solo Ver.)
+    version: 小原鞠莉 Solo Ver.
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: Landing action Yeah!! (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Landing action Yeah!! (Ruby Kurosawa Solo Ver.)
+      ko: Landing action Yeah!! (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

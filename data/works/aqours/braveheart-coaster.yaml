@@ -1,0 +1,43 @@
+id: aqours/braveheart-coaster
+project: aqours
+title:
+  ja: Braveheart Coaster
+  kana: ''
+  rom: Braveheart Coaster
+  ko: Braveheart Coaster
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Braveheart Coaster (Off Vocal)
+      kana: ''
+      rom: Braveheart Coaster (Off Vocal)
+      ko: Braveheart Coaster (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

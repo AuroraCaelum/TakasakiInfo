@@ -1,0 +1,7 @@
+type: merge
+title: '동일 대상 후보: 大原万由子'
+note: '같은 대상이면 정규 표기를 고르고 병합(decision: merge:<ref>), 다르면 distinct'
+items:
+  - {ref: artist:mayuko-ohara, ja: 大原万由子, rom: Mayuko Ohara, ko: 오오하라 마유코}
+  - {ref: artist:ohara-mayuko, ja: 大原万由子, rom: Ohara Mayuko, ko: 오오하라 마유코}
+decision:

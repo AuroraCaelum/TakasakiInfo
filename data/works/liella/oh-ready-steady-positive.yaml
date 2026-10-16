@@ -1,0 +1,43 @@
+id: liella/oh-ready-steady-positive
+project: liella
+title:
+  ja: Oh！レディ・ステディ・ポジティブ
+  kana: オ！レディ・ステディ・ポジティブ
+  rom: Oh! Ready Steady Positive
+  ko: Oh! 레디・스테디・포지티브
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: gento-miyano}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: gento-miyano}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Oh！レディ・ステディ・ポジティブ (Off Vocal)
+      kana: オ！レディ・ステディ・ポジティブ (オフボーカル)
+      rom: Oh! Ready Steady Positive (Off Vocal)
+      ko: Oh! 레디・스테디・포지티브 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: gento-miyano}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

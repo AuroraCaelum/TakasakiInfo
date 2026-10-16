@@ -1,0 +1,9 @@
+type: merge
+title: '동일 대상 후보: 晴風サヤカ / 鈴賀レナ'
+note: '같은 대상이면 정규 표기를 고르고 병합(decision: merge:<ref>), 다르면 distinct'
+items:
+  - {ref: artist:rena-suzuka, ja: 晴風サヤカ, rom: Rena Suzuka, ko: 하루카제 사야카}
+  - {ref: artist:sayaka-harukaze, ja: 鈴賀レナ, rom: Sayaka Harukaze, ko: 스즈카 레나}
+  - {ref: character:musical/rena-suzuka, ja: 鈴賀レナ, rom: Rena Suzuka, ko: 스즈카 레나}
+  - {ref: character:musical/sayaka-harukaze, ja: 晴風サヤカ, rom: Sayaka Harukaze, ko: 하루카제 사야카}
+decision:

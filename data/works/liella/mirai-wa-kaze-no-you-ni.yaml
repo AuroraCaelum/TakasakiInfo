@@ -1,0 +1,45 @@
+id: liella/mirai-wa-kaze-no-you-ni
+project: liella
+title:
+  ja: 未来は風のように
+  kana: みらいはかぜのように
+  rom: Mirai wa Kaze no You ni
+  ko: 미래는 바람처럼
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tomokazu-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未来は風のように (Off Vocal)
+      kana: みらいはかぜのように (オフボーカル)
+      rom: Mirai wa Kaze no You ni (Off Vocal)
+      ko: 미래는 바람처럼 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

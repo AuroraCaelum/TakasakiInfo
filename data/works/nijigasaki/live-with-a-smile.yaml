@@ -1,0 +1,87 @@
+id: nijigasaki/live-with-a-smile
+project: nijigasaki
+title:
+  ja: LIVE with a smile!
+  kana: ライブ・ウィズ・ア・スマイル!
+  rom: LIVE with a smile!
+  ko: LIVE with a smile!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryota-saito-2}
+    - {person: diz}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours-nijigasaki-high-school-idol-club-liella}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: aqours-ver
+    title:
+      ja: LIVE with a smile! (Aqours Ver.)
+      kana: ライブ・ウィズ・ア・スマイル! (アクア ヴァージョン)
+      rom: LIVE with a smile! (Aqours Ver.)
+      ko: LIVE with a smile! (Aqours Ver.)
+    version: Aqours Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: nijigasaki-high-school-idol-club-ver
+    title:
+      ja: LIVE with a smile! (虹ヶ咲学園スクールアイドル同好会 Ver.)
+      kana: ライブ・ウィズ・ア・スマイル! (ニジヶサキガクエンスクールアイドルドウコウカイ ヴァージョン)
+      rom: LIVE with a smile! (Nijigasaki High School Idol Club Ver.)
+      ko: LIVE with a smile! (니지가사키 학원 스쿨 아이돌 동호회 Ver.)
+    version: 虹ヶ咲学園スクールアイドル同好会 Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: liella-ver
+    title:
+      ja: LIVE with a smile! (Liella! Ver.)
+      kana: ライブ・ウィズ・ア・スマイル! (リエラ ヴァージョン)
+      rom: LIVE with a smile! (Liella! Ver.)
+      ko: LIVE with a smile! (Liella! Ver.)
+    version: Liella! Ver.
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: LIVE with a smile! (Off Vocal)
+      kana: ライブ・ウィズ・ア・スマイル! (オフボーカル)
+      rom: LIVE with a smile! (Off Vocal)
+      ko: LIVE with a smile! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

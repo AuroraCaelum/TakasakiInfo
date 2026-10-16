@@ -1,0 +1,43 @@
+id: nijigasaki/saika
+project: nijigasaki
+title:
+  ja: 祭花 -saika-
+  kana: さいか
+  rom: Saika
+  ko: 제화 -saika-
+credits:
+  lyricist:
+    - {person: dummy-dog}
+  composer:
+    - {person: dummy-dog}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 祭花 -saika- (Off Vocal)
+      kana: さいか (オフボーカル)
+      rom: Saika (Off Vocal)
+      ko: 제화 -saika- (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

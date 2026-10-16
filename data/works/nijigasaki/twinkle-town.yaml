@@ -1,0 +1,44 @@
+id: nijigasaki/twinkle-town
+project: nijigasaki
+title:
+  ja: Twinkle Town
+  kana: ツインクルタウン
+  rom: Twinkle Town
+  ko: Twinkle Town
+credits:
+  lyricist:
+    - {person: rico}
+  composer:
+    - {person: rico}
+    - {person: tanaka-mush}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: tanaka-mush}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Twinkle Town (Off Vocal)
+      kana: ツインクルタウン (オフボーカル)
+      rom: Twinkle Town (Off Vocal)
+      ko: Twinkle Town (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: tanaka-mush}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

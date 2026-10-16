@@ -1,0 +1,88 @@
+id: aqours/koi-ni-naritai-aquarium
+project: aqours
+title:
+  ja: 恋になりたいAQUARIUM
+  kana: こいになりたい アクアリウム
+  rom: Koi Ni Naritai AQUARIUM
+  ko: 사랑이 되고 싶은 AQUARIUM
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yugo-sasakura}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 恋になりたいAQUARIUM (Off Vocal)
+      kana: こいになりたい アクアリウム (オフボーカル)
+      rom: Koi Ni Naritai AQUARIUM (Off Vocal)
+      ko: 사랑이 되고 싶은 AQUARIUM (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: 恋になりたいAQUARIUM (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Koi Ni Naritai AQUARIUM (Chika Takami Solo Ver.)
+      ko: 사랑이 되고 싶은 AQUARIUM (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: 恋になりたいAQUARIUM (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Koi Ni Naritai AQUARIUM (Riko Sakurauchi Solo Ver.)
+      ko: 사랑이 되고 싶은 AQUARIUM (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: 恋になりたいAQUARIUM (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Koi Ni Naritai AQUARIUM (Ruby Kurosawa Solo Ver.)
+      ko: 사랑이 되고 싶은 AQUARIUM (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

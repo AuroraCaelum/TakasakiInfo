@@ -1,0 +1,43 @@
+id: liella/kokoro-kirarara
+project: liella
+title:
+  ja: 心キラララ
+  kana: こころキラララ
+  rom: Kokoro Kirarara
+  ko: 마음 반짝짝짝
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: tomohiro-akiura}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 心キラララ (Off Vocal)
+      kana: こころキラララ (オフボーカル)
+      rom: Kokoro Kirarara (Off Vocal)
+      ko: 마음 반짝짝짝 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

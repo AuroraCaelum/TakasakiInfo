@@ -1,0 +1,43 @@
+id: liella/namae-yobi-au-you-ni
+project: liella
+title:
+  ja: 名前呼びあうように
+  kana: なまえよびあうように
+  rom: Namae Yobi au you ni
+  ko: 서로 이름을 부르듯이
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: tak-miyazawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yusuke-shirato}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 名前呼びあうように (Off Vocal)
+      kana: なまえよびあうように (オフボーカル)
+      rom: Namae Yobi au you ni (Off Vocal)
+      ko: 서로 이름을 부르듯이 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yusuke-shirato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

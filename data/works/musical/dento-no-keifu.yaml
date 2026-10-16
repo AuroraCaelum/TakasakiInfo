@@ -1,0 +1,27 @@
+id: musical/dento-no-keifu
+project: musical
+title:
+  ja: 伝統の系譜
+  kana: でんとうのけいふ
+  rom: Dento no Keifu
+  ko: 전통의 계보
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: marina-horiuchi-as-rurika-tsubaki}
+      - {artist: yuki-aono-as-madoka-tsubaki}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

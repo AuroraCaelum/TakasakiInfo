@@ -1,0 +1,43 @@
+id: liella/vitamin-summer
+project: liella
+title:
+  ja: ビタミンSUMMER！
+  kana: ビタミンサマー！
+  rom: Vitamin SUMMER!
+  ko: 비타민 SUMMER!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: hige-driver}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: hige-driver}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ビタミンSUMMER！ (Off Vocal)
+      kana: ビタミンサマー！ (オフボーカル)
+      rom: Vitamin SUMMER! (Off Vocal)
+      ko: 비타민 SUMMER! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: hige-driver}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

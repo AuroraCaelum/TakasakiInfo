@@ -1,0 +1,28 @@
+id: nijigasaki/wonderland
+project: nijigasaki
+title:
+  ja: ☆ワンダーランド☆
+  kana: ワンダーランド
+  rom: ☆Wonderland☆
+  ko: ☆원더랜드☆
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: novechika}
+    - {person: tetta}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+    arranger:
+      - {person: novechika}
+      - {person: tetta}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

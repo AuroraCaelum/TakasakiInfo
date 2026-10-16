@@ -1,0 +1,46 @@
+id: hasunosora/reflection-in-the-mirror
+project: hasunosora
+title:
+  ja: Reflection in the mirror
+  kana: リフレクション・イン・ザ・ミラー
+  rom: Reflection in the mirror
+  ko: Reflection in the mirror
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: arisa-tou}
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+      - {person: yu-manabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Reflection in the mirror (Off Vocal)
+      kana: リフレクション・イン・ザ・ミラー (オフボーカル)
+      rom: Reflection in the mirror (Off Vocal)
+      ko: Reflection in the mirror (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+      - {person: yu-manabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

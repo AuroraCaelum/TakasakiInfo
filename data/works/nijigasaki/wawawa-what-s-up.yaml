@@ -1,0 +1,43 @@
+id: nijigasaki/wawawa-what-s-up
+project: nijigasaki
+title:
+  ja: Wawawa☆What's up!
+  kana: ワワワ わっつ あっぷ
+  rom: Wawawa☆What's up!
+  ko: Wawawa☆What's up!
+credits:
+  lyricist:
+    - {person: miyakei}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wawawa☆What's up! (Off Vocal)
+      kana: ワワワ わっつ あっぷ (オフボーカル)
+      rom: Wawawa☆What's up! (Off Vocal)
+      ko: Wawawa☆What's up! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

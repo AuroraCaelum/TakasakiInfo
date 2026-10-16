@@ -1,0 +1,88 @@
+id: aqours/wake-up-challenger
+project: aqours
+title:
+  ja: Wake up, Challenger!!
+  kana: ''
+  rom: Wake up, Challenger!!
+  ko: Wake up, Challenger!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wake up, Challenger!! (Off Vocal)
+      kana: ''
+      rom: Wake up, Challenger!! (Off Vocal)
+      ko: Wake up, Challenger!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: Wake up, Challenger!! (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Wake up, Challenger!! (Chika Takami Solo Ver.)
+      ko: Wake up, Challenger!! (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Wake up, Challenger!! (Riko Sakurauchi Solo Ver.)
+      ko: Wake up, Challenger!! (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: Wake up, Challenger!! (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Wake up, Challenger!! (Ruby Kurosawa Solo Ver.)
+      ko: Wake up, Challenger!! (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

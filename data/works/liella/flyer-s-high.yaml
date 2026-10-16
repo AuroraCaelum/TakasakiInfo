@@ -1,0 +1,28 @@
+id: liella/flyer-s-high
+project: liella
+title:
+  ja: Flyer's High
+  kana: フライヤーズ・ハイ
+  rom: Flyer's High
+  ko: Flyer's High
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: singo-kubota, affiliation: Jazzin'park}
+    - {person: satoru-kurihara-2, affiliation: Jazzin'park}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

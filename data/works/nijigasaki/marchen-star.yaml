@@ -1,0 +1,28 @@
+id: nijigasaki/marchen-star
+project: nijigasaki
+title:
+  ja: Märchen Star
+  kana: メルヘンスター
+  rom: Märchen Star
+  ko: 메르헨 스타
+credits:
+  lyricist:
+    - {person: ryota-saito}
+  composer:
+    - {person: ryota-saito}
+    - {person: diz}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: ryota-saito}
+      - {person: diz}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

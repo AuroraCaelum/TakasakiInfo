@@ -1,0 +1,18 @@
+id: aqours/2016-tva1-bd-vol-1
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.1
+projects: [aqours]
+release_date: 2016-09-27
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/pops-heart-de-odorundamon#original, note: 'TVA1 BD Vol.1, Link is from the Aqours CHRONICLE (2015~2017)'}
+      - {no: 2, recording: aqours/pops-heart-de-odorundamon#off-vocal, note: TVA1 BD Vol.1}
+legacy:
+  category: Aqours
+  albums:
+    - {title: TVA1 BD Vol.1}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

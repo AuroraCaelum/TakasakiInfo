@@ -1,0 +1,43 @@
+id: nijigasaki/folklore-kanki-no-uta
+project: nijigasaki
+title:
+  ja: フォルクロア 〜歓喜の歌〜
+  kana: フォルクロア かんきのうた
+  rom: Folklore ~Kanki no Uta~
+  ko: 포크로어 ~환희의 노래~
+credits:
+  lyricist:
+    - {person: mikio-muraki}
+  composer:
+    - {person: soranoalto}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: soranoalto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: フォルクロア 〜歓喜の歌〜 (Off Vocal)
+      kana: フォルクロア かんきのうた (オフボーカル)
+      rom: Folklore ~Kanki no Uta~ (Off Vocal)
+      ko: 포크로어 ~환희의 노래~ (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: soranoalto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

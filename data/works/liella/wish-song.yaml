@@ -1,0 +1,43 @@
+id: liella/wish-song
+project: liella
+title:
+  ja: Wish Song
+  kana: ウィッシュ・ソング
+  rom: Wish Song
+  ko: Wish Song
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: fuwari}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wish Song (Off Vocal)
+      kana: ウィッシュ・ソング (オフボーカル)
+      rom: Wish Song (Off Vocal)
+      ko: Wish Song (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

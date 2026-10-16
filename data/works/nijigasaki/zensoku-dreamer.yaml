@@ -1,0 +1,44 @@
+id: nijigasaki/zensoku-dreamer
+project: nijigasaki
+title:
+  ja: 全速ドリーマー
+  kana: ぜんそくドリーマー
+  rom: Zensoku Dreamer
+  ko: 전속 드리머
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: daichi}
+    - {person: shunsuke-harada}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: shunsuke-harada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 全速ドリーマー (Off Vocal)
+      kana: ぜんそくドリーマー (オフボーカル)
+      rom: Zensoku Dreamer (Off Vocal)
+      ko: 전속 드리머 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: shunsuke-harada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

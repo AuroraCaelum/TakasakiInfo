@@ -1,0 +1,43 @@
+id: aqours/torikoriko-please
+project: aqours
+title:
+  ja: トリコリコPLEASE!!
+  kana: トリコリコプリーズ
+  rom: Torikoriko PLEASE!!
+  ko: 토리코리코 PLEASE!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: makoto-miyazaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: トリコリコPLEASE!! (Off Vocal)
+      kana: トリコリコプリーズ (オフボーカル)
+      rom: Torikoriko PLEASE!! (Off Vocal)
+      ko: 토리코리코 PLEASE!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: makoto-miyazaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

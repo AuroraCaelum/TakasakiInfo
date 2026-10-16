@@ -1,0 +1,45 @@
+id: nijigasaki/swinging
+project: nijigasaki
+title:
+  ja: Swinging！
+  kana: スウィンギング！
+  rom: Swinging!
+  ko: Swinging!
+credits:
+  lyricist:
+    - {person: miyakei}
+    - {person: daichi}
+  composer:
+    - {person: keisuke-koyama}
+    - {person: daichi}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Swinging！ (Off Vocal)
+      kana: スウィンギング！ (オフボーカル)
+      rom: Swinging! (Off Vocal)
+      ko: Swinging! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

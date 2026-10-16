@@ -1,0 +1,49 @@
+id: nijigasaki/2020-butterfly-solitude-rain-vivid-world
+title:
+  ja: Butterfly / Solitude Rain / VIVID WORLD
+projects: [nijigasaki]
+release_date: 2020-12-16
+editions:
+  - id: e1
+    label:
+      ja: 近江彼方盤
+  - id: e2
+    label:
+      ja: 桜坂しずく盤
+  - id: e3
+    label:
+      ja: 朝香果林盤
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/butterfly#original}
+      - {no: 2, recording: nijigasaki/solitude-rain#original}
+      - {no: 3, recording: nijigasaki/vivid-world#original}
+      - {no: 4, recording: nijigasaki/butterfly#off-vocal}
+      - {no: 5, recording: nijigasaki/solitude-rain#off-vocal}
+      - {no: 6, recording: nijigasaki/vivid-world#off-vocal}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: aoRBp5C_ZyI
+      1-2: weUHyj4qUFg
+      1-3: ZvmrO1tRgdc
+  - editions: [e2]
+    tracks:
+      1-1: m34ajkqlK2U
+      1-2: 8yyMnAK2Ki4
+      1-3: 8XNh57Vzq-g
+  - editions: [e3]
+    tracks:
+      1-1: hTTTatPBo_0
+      1-2: MM8YLUc85kI
+      1-3: FFyWNOU82Vw
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: Butterfly / Solitude Rain / VIVID WORLD【近江彼方盤】, edition: e1}
+    - {title: Butterfly / Solitude Rain / VIVID WORLD【桜坂しずく盤】, edition: e2}
+    - {title: Butterfly / Solitude Rain / VIVID WORLD【朝香果林盤】, edition: e3}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

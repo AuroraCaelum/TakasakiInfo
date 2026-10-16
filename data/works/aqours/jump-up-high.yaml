@@ -1,0 +1,90 @@
+id: aqours/jump-up-high
+project: aqours
+title:
+  ja: Jump up HIGH!!
+  kana: ''
+  rom: Jump up HIGH!!
+  ko: Jump up HIGH!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kanata-okajima}
+    - {person: koudai-iwatsubo}
+    - {person: takarot}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Jump up HIGH!! (Off Vocal)
+      kana: ''
+      rom: Jump up HIGH!! (Off Vocal)
+      ko: Jump up HIGH!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: cyaron-ver
+    title:
+      ja: Jump up HIGH!! (CYaRon! ver.)
+      kana: ''
+      rom: Jump up HIGH!! (CYaRon! ver.)
+      ko: Jump up HIGH!! (CYaRon! ver.)
+    version: CYaRon! ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: azalea-ver
+    title:
+      ja: Jump up HIGH!! (AZALEA ver.)
+      kana: ''
+      rom: Jump up HIGH!! (AZALEA ver.)
+      ko: Jump up HIGH!! (AZALEA ver.)
+    version: AZALEA ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: guilty-kiss-ver
+    title:
+      ja: Jump up HIGH!! (Guilty Kiss ver.)
+      kana: ''
+      rom: Jump up HIGH!! (Guilty Kiss ver.)
+      ko: Jump up HIGH!! (Guilty Kiss ver.)
+    version: Guilty Kiss ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

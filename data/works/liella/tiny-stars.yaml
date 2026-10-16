@@ -1,0 +1,47 @@
+id: liella/tiny-stars
+project: liella
+title:
+  ja: Tiny Stars
+  kana: タイニー・スターズ
+  rom: Tiny Stars
+  ko: Tiny Stars
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: tomohiro-akiura}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: tomohiro-akiura}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Tiny Stars (Off Vocal)
+      kana: タイニー・スターズ (オフボーカル)
+      rom: Tiny Stars (Off Vocal)
+      ko: Tiny Stars (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: tomohiro-akiura}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

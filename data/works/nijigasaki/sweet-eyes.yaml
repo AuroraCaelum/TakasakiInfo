@@ -1,0 +1,46 @@
+id: nijigasaki/sweet-eyes
+project: nijigasaki
+title:
+  ja: Sweet Eyes
+  kana: スウィートアイズ
+  rom: Sweet Eyes
+  ko: Sweet Eyes
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: carlos-k}
+    - {person: tanaka-mush}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: carlos-k}
+      - {person: tanaka-mush}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Sweet Eyes (Off Vocal)
+      kana: スウィートアイズ (オフボーカル)
+      rom: Sweet Eyes (Off Vocal)
+      ko: Sweet Eyes (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: carlos-k}
+      - {person: tanaka-mush}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

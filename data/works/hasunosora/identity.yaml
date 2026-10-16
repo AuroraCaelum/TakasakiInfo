@@ -1,0 +1,43 @@
+id: hasunosora/identity
+project: hasunosora
+title:
+  ja: アイデンティティ
+  kana: アイデンティティ
+  rom: Identity
+  ko: 아이덴티티
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: atsuki-okuma-arte-refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: atsuki-okuma-arte-refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: アイデンティティ (Off Vocal)
+      kana: アイデンティティ (オフボーカル)
+      rom: Identity (Off Vocal)
+      ko: 아이덴티티 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: atsuki-okuma-arte-refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

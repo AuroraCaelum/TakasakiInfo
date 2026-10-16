@@ -1,0 +1,44 @@
+id: nijigasaki/4-seasons
+project: nijigasaki
+title:
+  ja: 4 SEASONS
+  kana: フォーシーズンズ
+  rom: 4 SEASONS
+  ko: 4 SEASONS
+credits:
+  lyricist:
+    - {person: pahamutan}
+    - {person: luis-ogata}
+  composer:
+    - {person: luis-ogata}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: luis-ogata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 4 SEASONS (Off Vocal)
+      kana: フォーシーズンズ (オフボーカル)
+      rom: 4 SEASONS (Off Vocal)
+      ko: 4 SEASONS (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: luis-ogata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

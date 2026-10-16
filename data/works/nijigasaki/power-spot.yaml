@@ -1,0 +1,43 @@
+id: nijigasaki/power-spot
+project: nijigasaki
+title:
+  ja: POWER SPOT!!
+  kana: パワースポット!!
+  rom: POWER SPOT!!
+  ko: POWER SPOT!!
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: POWER SPOT!! (Off Vocal)
+      kana: パワースポット!! (オフボーカル)
+      rom: POWER SPOT!! (Off Vocal)
+      ko: POWER SPOT!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

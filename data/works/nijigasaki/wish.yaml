@@ -1,0 +1,27 @@
+id: nijigasaki/wish
+project: nijigasaki
+title:
+  ja: Wish
+  kana: ウィッシュ
+  rom: Wish
+  ko: Wish
+credits:
+  lyricist:
+    - {person: beatnine}
+  composer:
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: carlos-k}
+      - {person: joe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,44 @@
+id: nijigasaki/sing-smile
+project: nijigasaki
+title:
+  ja: Sing & Smile!!
+  kana: シング アンド スマイル
+  rom: Sing & Smile!!
+  ko: Sing & Smile!!
+credits:
+  lyricist:
+    - {person: carlos-k}
+  composer:
+    - {person: manabu-marutani}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Sing & Smile!! (Off Vocal)
+      kana: シング アンド スマイル (オフボーカル)
+      rom: Sing & Smile!! (Off Vocal)
+      ko: Sing & Smile!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,45 @@
+id: aqours/water-blue-new-world
+project: aqours
+title:
+  ja: WATER BLUE NEW WORLD
+  kana: ''
+  rom: WATER BLUE NEW WORLD
+  ko: WATER BLUE NEW WORLD
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takashi-saeki}
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: WATER BLUE NEW WORLD (Off Vocal)
+      kana: ''
+      rom: WATER BLUE NEW WORLD (Off Vocal)
+      ko: WATER BLUE NEW WORLD (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takashi-saeki}
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

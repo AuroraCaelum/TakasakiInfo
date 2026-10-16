@@ -1,0 +1,43 @@
+id: liella/irozuite-tomei
+project: liella
+title:
+  ja: 色づいて透明
+  kana: いろづいてとうめい
+  rom: Irozuite Tomei
+  ko: 색이 물들어 투명
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mariko-fujii}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 色づいて透明 (Off Vocal)
+      kana: いろづいてとうめい (オフボーカル)
+      rom: Irozuite Tomei (Off Vocal)
+      ko: 색이 물들어 투명 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: gou-ishikuro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

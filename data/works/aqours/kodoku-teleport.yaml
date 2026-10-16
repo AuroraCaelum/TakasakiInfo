@@ -1,0 +1,43 @@
+id: aqours/kodoku-teleport
+project: aqours
+title:
+  ja: コドク・テレポート
+  kana: ''
+  rom: Kodoku・Teleport
+  ko: 고독・텔레포트
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: atsushi-harada, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: コドク・テレポート (Off Vocal)
+      kana: ''
+      rom: Kodoku・Teleport (Off Vocal)
+      ko: 고독・텔레포트 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

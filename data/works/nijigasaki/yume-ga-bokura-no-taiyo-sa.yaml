@@ -1,0 +1,43 @@
+id: nijigasaki/yume-ga-bokura-no-taiyo-sa
+project: nijigasaki
+title:
+  ja: 夢が僕らの太陽さ
+  kana: ゆめがぼくらのたいようさ
+  rom: Yume ga Bokura no Taiyo sa
+  ko: 꿈이 우리의 태양이야
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shun-aratame, affiliation: HANO}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: shun-aratame, affiliation: HANO}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夢が僕らの太陽さ (Off Vocal)
+      kana: ゆめがぼくらのたいようさ (オフボーカル)
+      rom: Yume ga Bokura no Taiyo sa (Off Vocal)
+      ko: 꿈이 우리의 태양이야 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: shun-aratame, affiliation: HANO}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,27 @@
+id: liella/midnight-rhapsody
+project: liella
+title:
+  ja: ミッドナイトラプソディ
+  kana: ミッドナイトラプソディ
+  rom: Midnight Rhapsody
+  ko: 미드나이트 랩소디
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: tomokazu-yamada}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: shouhei-sumiya}
+      - {person: yasuhisa-inoue}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

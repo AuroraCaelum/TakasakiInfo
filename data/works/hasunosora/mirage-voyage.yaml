@@ -1,0 +1,44 @@
+id: hasunosora/mirage-voyage
+project: hasunosora
+title:
+  ja: Mirage Voyage
+  kana: ミラージュ ボヤージュ
+  rom: Mirage Voyage
+  ko: Mirage Voyage
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Mirage Voyage (Off Vocal)
+      kana: ミラージュ ボヤージュ (オフボーカル)
+      rom: Mirage Voyage (Off Vocal)
+      ko: Mirage Voyage (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

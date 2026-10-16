@@ -1,0 +1,28 @@
+id: nijigasaki/my-shadow
+project: nijigasaki
+title:
+  ja: My Shadow
+  kana: マイ シャドウ
+  rom: My Shadow
+  ko: My Shadow
+credits:
+  lyricist:
+    - {person: carlos-k}
+  composer:
+    - {person: yusei-koga}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: yusei-koga}
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

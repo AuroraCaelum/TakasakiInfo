@@ -1,0 +1,27 @@
+id: liella/starry-prayer
+project: liella
+title:
+  ja: Starry Prayer
+  kana: スターリー・プレイヤー
+  rom: Starry Prayer
+  ko: Starry Prayer
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: junpayer}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: junpayer}
+      - {person: ryuta-yoshioka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

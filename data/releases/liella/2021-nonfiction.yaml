@@ -1,0 +1,49 @@
+id: liella/2021-nonfiction
+title:
+  ja: ノンフィクション!!/ Starlight Prologue
+projects: [liella]
+release_date: 2021-10-20
+editions:
+  - id: e1
+    label:
+      ja: 第10話盤
+  - id: e2
+    label:
+      ja: 第12話盤
+discs:
+  - editions: [e1]
+    tracks:
+      - {no: 1, recording: liella/nonfiction#original}
+      - {no: 2, recording: liella/starlight-prologue#original}
+      - {no: 3, recording: liella/day1#original}
+      - {no: 4, recording: liella/nonfiction#off-vocal}
+      - {no: 5, recording: liella/starlight-prologue#off-vocal}
+      - {no: 6, recording: liella/day1#off-vocal}
+  - editions: [e2]
+    tracks:
+      - {no: 1, recording: liella/nonfiction#original}
+      - {no: 2, recording: liella/starlight-prologue#original}
+      - {no: 3, recording: liella/dream-rainbow#original}
+      - {no: 4, recording: liella/nonfiction#off-vocal}
+      - {no: 5, recording: liella/starlight-prologue#off-vocal}
+      - {no: 6, recording: liella/dream-rainbow#off-vocal}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: 4_06v7iS7bQ
+      1-2: jE4-qB3YjkQ
+      1-3: 5UfSQq7C26M
+  - editions: [e2]
+    tracks:
+      1-1: oSOpK1M59LE
+      1-2: H8PhMQrfEVA
+      1-3: O3HmG2RX0Mk
+legacy:
+  category: Liella
+  albums:
+    - {title: ノンフィクション!!/ Starlight Prologue 【第10話盤】, edition: e1}
+    - {title: ノンフィクション!!/ Starlight Prologue 【第12話盤】, edition: e2}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: hasunosora/senpen-banka
+project: hasunosora
+title:
+  ja: 千変万華
+  kana: せんぺんばんか
+  rom: Senpen Banka
+  ko: 천변만화
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: atsuki-okuma-arte-refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: yu-manabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 千変万華 (Off Vocal)
+      kana: せんぺんばんか (オフボーカル)
+      rom: Senpen Banka (Off Vocal)
+      ko: 천변만화 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: yu-manabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

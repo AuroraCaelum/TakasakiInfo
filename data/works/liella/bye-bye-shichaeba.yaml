@@ -1,0 +1,43 @@
+id: liella/bye-bye-shichaeba
+project: liella
+title:
+  ja: バイバイしちゃえば！？
+  kana: バイバイしちゃえば！？
+  rom: Bye Bye Shichaeba!?
+  ko: 바이바이해버리면?!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: バイバイしちゃえば！？ (Off Vocal)
+      kana: バイバイしちゃえば！？ (オフボーカル)
+      rom: Bye Bye Shichaeba!? (Off Vocal)
+      ko: 바이바이해버리면?! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,27 @@
+id: musical/sorezore-no-yakuwari
+project: musical
+title:
+  ja: それぞれの役割
+  kana: それぞれのやくわり
+  rom: Sorezore no Yakuwari
+  ko: 각자의 역할
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: mizuki-saiba-as-misuzu-wakatsuki}
+      - {artist: sayaka-okamura-as-kyoka-takizawa}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

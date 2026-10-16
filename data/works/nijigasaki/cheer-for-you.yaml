@@ -1,0 +1,46 @@
+id: nijigasaki/cheer-for-you
+project: nijigasaki
+title:
+  ja: Cheer for you!!
+  kana: チア・フォー・ユー！！
+  rom: Cheer for you!!
+  ko: Cheer for you!!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: hot-tears}
+    - {person: sheeta-c}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: hot-tears}
+      - {person: sheeta-c}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Cheer for you!! (Off Vocal)
+      kana: チア・フォー・ユー！！ (オフボーカル)
+      rom: Cheer for you!! (Off Vocal)
+      ko: Cheer for you!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: hot-tears}
+      - {person: sheeta-c}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

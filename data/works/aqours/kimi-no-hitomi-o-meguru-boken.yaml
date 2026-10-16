@@ -1,0 +1,43 @@
+id: aqours/kimi-no-hitomi-o-meguru-boken
+project: aqours
+title:
+  ja: 君の瞳を巡る冒険
+  kana: ''
+  rom: Kimi no Hitomi o Meguru Boken
+  ko: 너의 눈동자를 둘러싼 모험
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 君の瞳を巡る冒険 (Off Vocal)
+      kana: ''
+      rom: Kimi no Hitomi o Meguru Boken (Off Vocal)
+      ko: 너의 눈동자를 둘러싼 모험 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: nijigasaki/sugar-sugar-yummy-yummy-parfait
+project: nijigasaki
+title:
+  ja: Sugar Sugar Yummy Yummy Parfait
+  kana: シュガー シュガー ヤミー ヤミー パルフェ
+  rom: Sugar Sugar Yummy Yummy Parfait
+  ko: Sugar Sugar Yummy Yummy Parfait
+credits:
+  lyricist:
+    - {person: takeru-yoda}
+  composer:
+    - {person: takeru-yoda}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: takeru-yoda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Sugar Sugar Yummy Yummy Parfait (Off Vocal)
+      kana: シュガー シュガー ヤミー ヤミー パルフェ (オフボーカル)
+      rom: Sugar Sugar Yummy Yummy Parfait (Off Vocal)
+      ko: Sugar Sugar Yummy Yummy Parfait (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: takeru-yoda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

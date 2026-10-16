@@ -1,0 +1,44 @@
+id: nijigasaki/feel-alive
+project: nijigasaki
+title:
+  ja: Feel Alive
+  kana: フィール アライブ
+  rom: Feel Alive
+  ko: Feel Alive
+credits:
+  lyricist:
+    - {person: ereca}
+  composer:
+    - {person: esme-mori}
+    - {person: ereca}
+recordings:
+  - id: original
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: esme-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Feel Alive (Off Vocal)
+      kana: フィール アライブ (オフボーカル)
+      rom: Feel Alive (Off Vocal)
+      ko: Feel Alive (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: esme-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

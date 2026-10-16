@@ -1,0 +1,43 @@
+id: nijigasaki/ryoran-victory-road
+project: nijigasaki
+title:
+  ja: 繚乱！ビクトリーロード
+  kana: りょうらん！ビクトリーロード
+  rom: Ryoran! Victory Road
+  ko: 요란! 빅토리 로드
+credits:
+  lyricist:
+    - {person: chibanyan}
+  composer:
+    - {person: chibanyan}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: chibanyan}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 繚乱！ビクトリーロード (Off Vocal)
+      kana: りょうらん！ビクトリーロード (オフボーカル)
+      rom: Ryoran! Victory Road (Off Vocal)
+      ko: 요란! 빅토리 로드 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: chibanyan}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

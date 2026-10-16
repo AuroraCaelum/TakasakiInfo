@@ -1,0 +1,45 @@
+id: liella/crescendo-yu-ra
+project: liella
+title:
+  ja: クレッシェンドゆ・ら
+  kana: クレッシェンドゆ・ら
+  rom: Crescendo Yu・Ra
+  ko: 크레센도 흔・들
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: keita-miyoshi}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/keke-tang}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: keita-miyoshi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: クレッシェンドゆ・ら (Off Vocal)
+      kana: クレッシェンドゆ・ら (オフボーカル)
+      rom: Crescendo Yu・Ra (Off Vocal)
+      ko: 크레센도 흔・들 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/keke-tang}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: keita-miyoshi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

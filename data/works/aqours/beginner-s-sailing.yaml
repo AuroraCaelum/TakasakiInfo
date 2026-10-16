@@ -1,0 +1,43 @@
+id: aqours/beginner-s-sailing
+project: aqours
+title:
+  ja: Beginner's Sailing
+  kana: ''
+  rom: Beginner's Sailing
+  ko: Beginner's Sailing
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-sakai, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: you-watanabe}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Beginner's Sailing (Off Vocal)
+      kana: ''
+      rom: Beginner's Sailing (Off Vocal)
+      ko: Beginner's Sailing (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: you-watanabe}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

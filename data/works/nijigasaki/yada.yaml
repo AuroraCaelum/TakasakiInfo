@@ -1,0 +1,27 @@
+id: nijigasaki/yada
+project: nijigasaki
+title:
+  ja: ヤダ！
+  kana: ヤダ！
+  rom: Yada!
+  ko: 싫어!
+credits:
+  lyricist:
+    - {person: akira-sunset}
+  composer:
+    - {person: akira-sunset}
+    - {person: hiroto-kikuchi-2}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: hiroto-kikuchi-2}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,46 @@
+id: nijigasaki/neo-sky-neo-map
+project: nijigasaki
+title:
+  ja: NEO SKY, NEO MAP!
+  kana: ネオスカイ ネオマップ!
+  rom: NEO SKY, NEO MAP!
+  ko: NEO SKY, NEO MAP!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kotaro-odaka}
+    - {person: uina}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: NEO SKY, NEO MAP! (Off Vocal)
+      kana: ネオスカイ ネオマップ! (オフボーカル)
+      rom: NEO SKY, NEO MAP! (Off Vocal)
+      ko: NEO SKY, NEO MAP! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

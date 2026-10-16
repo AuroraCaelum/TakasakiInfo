@@ -1,0 +1,49 @@
+id: liella/tokonatsu-sunshine
+project: liella
+title:
+  ja: 常夏☆サンシャイン
+  kana: とこなつサンシャイン
+  rom: Tokonatsu☆Sunshine
+  ko: 한여름☆선샤인
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: effy}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 常夏☆サンシャイン (Off Vocal)
+      kana: とこなつサンシャイン (オフボーカル)
+      rom: Tokonatsu☆Sunshine (Off Vocal)
+      ko: 한여름☆선샤인 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

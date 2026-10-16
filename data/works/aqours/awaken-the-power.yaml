@@ -1,0 +1,43 @@
+id: aqours/awaken-the-power
+project: aqours
+title:
+  ja: Awaken the power
+  kana: ''
+  rom: Awaken the power
+  ko: Awaken the power
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {artist: saint-aqours-snow}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Awaken the power (Off Vocal)
+      kana: ''
+      rom: Awaken the power (Off Vocal)
+      ko: Awaken the power (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: saint-aqours-snow}
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: aqours/red-gem-wink
+project: aqours
+title:
+  ja: RED GEM WINK
+  kana: ''
+  rom: RED GEM WINK
+  ko: RED GEM WINK
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: RED GEM WINK (Off Vocal)
+      kana: ''
+      rom: RED GEM WINK (Off Vocal)
+      ko: RED GEM WINK (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

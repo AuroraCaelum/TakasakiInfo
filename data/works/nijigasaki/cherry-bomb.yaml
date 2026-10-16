@@ -1,0 +1,27 @@
+id: nijigasaki/cherry-bomb
+project: nijigasaki
+title:
+  ja: チェリーボム
+  kana: チェリーボム
+  rom: Cherry Bomb
+  ko: 체리 밤
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: oni}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: oni}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

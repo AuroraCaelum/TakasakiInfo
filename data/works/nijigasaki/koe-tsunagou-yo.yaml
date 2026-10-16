@@ -1,0 +1,28 @@
+id: nijigasaki/koe-tsunagou-yo
+project: nijigasaki
+title:
+  ja: 声繋ごうよ
+  kana: こえつなごうよ
+  rom: Koe Tsunagou yo
+  ko: 목소리를 잇자
+credits:
+  lyricist:
+    - {person: ryota-saito}
+  composer:
+    - {person: kenta-urashima}
+    - {person: takumi-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: kenta-urashima}
+      - {person: takumi-yamamoto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

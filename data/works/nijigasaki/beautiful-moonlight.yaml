@@ -1,0 +1,43 @@
+id: nijigasaki/beautiful-moonlight
+project: nijigasaki
+title:
+  ja: Beautiful Moonlight
+  kana: ビューティフルムーンライト
+  rom: Beautiful Moonlight
+  ko: Beautiful Moonlight
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: ygarshy}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Beautiful Moonlight (Off Vocal)
+      kana: ビューティフルムーンライト (オフボーカル)
+      rom: Beautiful Moonlight (Off Vocal)
+      ko: Beautiful Moonlight (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

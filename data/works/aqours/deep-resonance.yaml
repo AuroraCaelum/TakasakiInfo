@@ -1,0 +1,71 @@
+id: aqours/deep-resonance
+project: aqours
+title:
+  ja: Deep Resonance
+  kana: ''
+  rom: Deep Resonance
+  ko: Deep Resonance
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: satoru-kuwabara, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: Deep Resonance (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Deep Resonance (Chika Takami Solo Ver.)
+      ko: Deep Resonance (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: Deep Resonance (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Deep Resonance (Riko Sakurauchi Solo Ver.)
+      ko: Deep Resonance (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: Deep Resonance (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Deep Resonance (Ruby Kurosawa Solo Ver.)
+      ko: Deep Resonance (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

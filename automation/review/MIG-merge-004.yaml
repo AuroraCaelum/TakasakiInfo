@@ -1,0 +1,7 @@
+type: merge
+title: '동일 대상 후보: Ryota Saito'
+note: '같은 대상이면 정규 표기를 고르고 병합(decision: merge:<ref>), 다르면 distinct'
+items:
+  - {ref: person:ryota-saito, ja: Ryota Saito, rom: Ryota Saito, ko: Ryota Saito}
+  - {ref: person:ryota-saito-2, ja: Ryota Saito, rom: Ryota Saito, ko: 사이토 료타}
+decision:

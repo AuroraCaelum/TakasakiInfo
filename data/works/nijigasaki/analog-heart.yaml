@@ -1,0 +1,28 @@
+id: nijigasaki/analog-heart
+project: nijigasaki
+title:
+  ja: アナログハート
+  kana: アナログハート
+  rom: Analog Heart
+  ko: 아날로그 하트
+credits:
+  lyricist:
+    - {person: novechika}
+  composer:
+    - {person: ayato-fujiwara}
+    - {person: morito-yonezawa}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: joe}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

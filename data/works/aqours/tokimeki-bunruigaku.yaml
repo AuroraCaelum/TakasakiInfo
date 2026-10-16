@@ -1,0 +1,43 @@
+id: aqours/tokimeki-bunruigaku
+project: aqours
+title:
+  ja: ときめき分類学
+  kana: ときめき ぶんるいがく
+  rom: Tokimeki Bunruigaku
+  ko: 두근거림 분류학
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: masashi-kanasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: masashi-kanasaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ときめき分類学 (Off Vocal)
+      kana: ときめき ぶんるいがく (オフボーカル)
+      rom: Tokimeki Bunruigaku (Off Vocal)
+      ko: 두근거림 분류학 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: masashi-kanasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: nijigasaki/dancing-in-the-light
+project: nijigasaki
+title:
+  ja: Dancing in the Light
+  kana: ダンシング イン ザ ライト
+  rom: Dancing in the Light
+  ko: Dancing in the Light
+credits:
+  lyricist:
+    - {person: tanaka-mush}
+  composer:
+    - {person: tanaka-mush}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: tanaka-mush}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dancing in the Light (Off Vocal)
+      kana: ダンシング イン ザ ライト (オフボーカル)
+      rom: Dancing in the Light (Off Vocal)
+      ko: Dancing in the Light (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: tanaka-mush}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

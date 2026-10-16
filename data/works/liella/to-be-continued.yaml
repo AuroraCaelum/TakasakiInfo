@@ -1,0 +1,43 @@
+id: liella/to-be-continued
+project: liella
+title:
+  ja: TO BE CONTINUED
+  kana: トゥ・ビー・コンティニュード
+  rom: TO BE CONTINUED
+  ko: TO BE CONTINUED
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: TO BE CONTINUED (Off Vocal)
+      kana: トゥ・ビー・コンティニュード (オフボーカル)
+      rom: TO BE CONTINUED (Off Vocal)
+      ko: TO BE CONTINUED (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: hasunosora/deepness
+project: hasunosora
+title:
+  ja: DEEPNESS
+  kana: ディープネス
+  rom: DEEPNESS
+  ko: DEEPNESS
+credits:
+  lyricist:
+    - {person: arisa-tou}
+  composer:
+    - {person: yu-furukawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: DEEPNESS (Off Vocal)
+      kana: ディープネス (オフボーカル)
+      rom: DEEPNESS (Off Vocal)
+      ko: DEEPNESS (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

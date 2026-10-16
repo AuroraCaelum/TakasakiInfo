@@ -1,0 +1,43 @@
+id: aqours/sakanakanandaka
+project: aqours
+title:
+  ja: さかなかなんだか？
+  kana: ''
+  rom: Sakanakanandaka?
+  ko: 물고기 카난일까?
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tetsuya-shitara}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: tetsuya-shitara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: さかなかなんだか？ (Off Vocal)
+      kana: ''
+      rom: Sakanakanandaka? (Off Vocal)
+      ko: 물고기 카난일까? (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: tetsuya-shitara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

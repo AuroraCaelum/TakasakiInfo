@@ -1,0 +1,44 @@
+id: aqours/new-romantic-sailors
+project: aqours
+title:
+  ja: New Romantic Sailors
+  kana: ''
+  rom: New Romantic Sailors
+  ko: New Romantic Sailors
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: katsuhiko-sugiyama}
+    - {person: ulala}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: ulala}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: New Romantic Sailors (Off Vocal)
+      kana: ''
+      rom: New Romantic Sailors (Off Vocal)
+      ko: New Romantic Sailors (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: ulala}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,46 @@
+id: aqours/thrilling-one-way
+project: aqours
+title:
+  ja: スリリング・ワンウェイ
+  kana: ''
+  rom: Thrilling・One Way
+  ko: 스릴링・원 웨이
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryota-fujii}
+    - {person: kotaro-odaka}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: ryota-fujii}
+      - {person: kotaro-odaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: スリリング・ワンウェイ (Off Vocal)
+      kana: ''
+      rom: Thrilling・One Way (Off Vocal)
+      ko: 스릴링・원 웨이 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: ryota-fujii}
+      - {person: kotaro-odaka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

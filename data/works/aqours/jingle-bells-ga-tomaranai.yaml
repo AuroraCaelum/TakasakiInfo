@@ -1,0 +1,43 @@
+id: aqours/jingle-bells-ga-tomaranai
+project: aqours
+title:
+  ja: ジングルベルがとまらない
+  kana: ''
+  rom: Jingle Bells ga Tomaranai
+  ko: 징글벨이 멈추지 않아
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ジングルベルがとまらない (Off Vocal)
+      kana: ''
+      rom: Jingle Bells ga Tomaranai (Off Vocal)
+      ko: 징글벨이 멈추지 않아 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

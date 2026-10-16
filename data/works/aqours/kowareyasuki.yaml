@@ -1,0 +1,43 @@
+id: aqours/kowareyasuki
+project: aqours
+title:
+  ja: コワレヤスキ
+  kana: ''
+  rom: Kowareyasuki
+  ko: 부서지기 쉬운 사랑
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: コワレヤスキ (Off Vocal)
+      kana: ''
+      rom: Kowareyasuki (Off Vocal)
+      ko: 부서지기 쉬운 사랑 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: takashi-saeki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

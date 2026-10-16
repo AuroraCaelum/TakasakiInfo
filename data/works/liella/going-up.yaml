@@ -1,0 +1,43 @@
+id: liella/going-up
+project: liella
+title:
+  ja: GOING UP
+  kana: ゴーイング・アップ
+  rom: GOING UP
+  ko: GOING UP
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: tomohiro-akiura}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: tomohiro-akiura}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: GOING UP (Off Vocal)
+      kana: ゴーイング・アップ (オフボーカル)
+      rom: GOING UP (Off Vocal)
+      ko: GOING UP (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: tomohiro-akiura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,57 @@
+id: aqours/omoi-yo-hitotsu-ni-nare
+project: aqours
+title:
+  ja: 想いよひとつになれ
+  kana: おもいよひとつになれ
+  rom: Omoi yo Hitotsu ni Nare
+  ko: 마음이여 하나가 되어라
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/you-watanabe}
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/mari-ohara}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 想いよひとつになれ (Off Vocal)
+      kana: おもいよひとつになれ (オフボーカル)
+      rom: Omoi yo Hitotsu ni Nare (Off Vocal)
+      ko: 마음이여 하나가 되어라 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/you-watanabe}
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/mari-ohara}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takashi-saeki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,44 @@
+id: nijigasaki/just-believe
+project: nijigasaki
+title:
+  ja: Just Believe!!!
+  kana: ジャストビリーブ!!
+  rom: Just Believe!!!
+  ko: Just Believe!!!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: ygarshy}
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: ygarshy}
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 12nin-ver
+    title:
+      ja: Just Believe!!! (12人Ver.)
+      kana: ジャストビリーブ!! じゅうににんヴァージョン
+      rom: Just Believe!!! (12nin Ver.)
+      ko: Just Believe!!! (12인 Ver.)
+    version: 12人Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: ygarshy}
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

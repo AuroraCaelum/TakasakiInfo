@@ -1,0 +1,46 @@
+id: liella/oi-kakeru-yume-no-saki-de
+project: liella
+title:
+  ja: 追いかける夢の先で
+  kana: おいかけるゆめのさきで
+  rom: Oi kakeru Yume no Saki de
+  ko: 뒤쫓아가는 꿈 너머에서
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: gou-ishikuro}
+    - {person: mio-jorakuji}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 追いかける夢の先で (Off Vocal)
+      kana: おいかけるゆめのさきで (オフボーカル)
+      rom: Oi kakeru Yume no Saki de (Off Vocal)
+      ko: 뒤쫓아가는 꿈 너머에서 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

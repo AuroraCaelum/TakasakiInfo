@@ -1,0 +1,43 @@
+id: aqours/guilty-night-guilty-kiss
+project: aqours
+title:
+  ja: Guilty Night, Guilty Kiss!
+  kana: ギルティナイト ギルティキス
+  rom: Guilty Night, Guilty Kiss!
+  ko: Guilty Night, Guilty Kiss!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: r-o-n}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: r-o-n}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Guilty Night, Guilty Kiss! (Off Vocal)
+      kana: ギルティナイト ギルティキス (オフボーカル)
+      rom: Guilty Night, Guilty Kiss! (Off Vocal)
+      ko: Guilty Night, Guilty Kiss! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: r-o-n}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

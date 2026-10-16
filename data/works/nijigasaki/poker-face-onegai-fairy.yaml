@@ -1,0 +1,45 @@
+id: nijigasaki/poker-face-onegai-fairy
+project: nijigasaki
+title:
+  ja: Poker face＆お願い！Fairy
+  kana: ポーカーフェイス アンド おねがい！フェアリー
+  rom: Poker face&Onegai! Fairy
+  ko: Poker face&부탁해! Fairy
+credits:
+  lyricist:
+    - {person: shinq}
+    - {person: ryuki-baba}
+  composer:
+    - {person: shinq}
+    - {person: ryuki-baba}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ryuki-baba}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Poker face＆お願い！Fairy (Off Vocal)
+      kana: ポーカーフェイス アンド おねがい！フェアリー (オフボーカル)
+      rom: Poker face&Onegai! Fairy (Off Vocal)
+      ko: Poker face&부탁해! Fairy (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ryuki-baba}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,76 @@
+id: aqours/shojo-ijo-no-koi-ga-shitai
+project: aqours
+title:
+  ja: 少女以上の恋がしたい
+  kana: ''
+  rom: Shojo Ijo no Koi ga Shitai
+  ko: 소녀 이상의 사랑이 하고 싶어
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: koudai-iwatsubo}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+      - {person: shinji-tanaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: 少女以上の恋がしたい (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Shojo Ijo no Koi ga Shitai (Chika Takami Solo Ver.)
+      ko: 소녀 이상의 사랑이 하고 싶어 (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takarot}
+      - {person: shinji-tanaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: 少女以上の恋がしたい (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Shojo Ijo no Koi ga Shitai (Riko Sakurauchi Solo Ver.)
+      ko: 소녀 이상의 사랑이 하고 싶어 (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takarot}
+      - {person: shinji-tanaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: 少女以上の恋がしたい (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Shojo Ijo no Koi ga Shitai (Ruby Kurosawa Solo Ver.)
+      ko: 소녀 이상의 사랑이 하고 싶어 (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+      - {person: shinji-tanaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

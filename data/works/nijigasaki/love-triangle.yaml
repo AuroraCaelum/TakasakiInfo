@@ -1,0 +1,45 @@
+id: nijigasaki/love-triangle
+project: nijigasaki
+title:
+  ja: Love Triangle
+  kana: ラブ トライアングル
+  rom: Love Triangle
+  ko: Love Triangle
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+    - {person: satoru-kurihara, affiliation: Jazzin'park}
+  composer:
+    - {person: singo-kubota, affiliation: Jazzin'park}
+    - {person: satoru-kurihara, affiliation: Jazzin'park}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Love Triangle (Off Vocal)
+      kana: ラブ トライアングル (オフボーカル)
+      rom: Love Triangle (Off Vocal)
+      ko: Love Triangle (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

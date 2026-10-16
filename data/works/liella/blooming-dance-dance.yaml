@@ -1,0 +1,50 @@
+id: liella/blooming-dance-dance
+project: liella
+title:
+  ja: Blooming Dance！Dance！
+  kana: ブルーミング・ダンス！ダンス！
+  rom: Blooming Dance! Dance!
+  ko: Blooming Dance! Dance!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuu-for-you}
+    - {person: giz-mo, affiliation: from Jam9}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: yuu-for-you}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Blooming Dance！Dance！ (Off Vocal)
+      kana: ブルーミング・ダンス！ダンス！ (オフボーカル)
+      rom: Blooming Dance! Dance! (Off Vocal)
+      ko: Blooming Dance! Dance! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: yuu-for-you}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

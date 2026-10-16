@@ -1,0 +1,62 @@
+id: aqours/sora-mo-kokoro-mo-hareru-kara
+project: aqours
+title:
+  ja: 空も心も晴れるから
+  kana: そらもこころもはれるから
+  rom: Sora mo Kokoro mo Hareru kara
+  ko: 하늘도 마음도 맑을 테니까
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: atsushi-harada, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 空も心も晴れるから (Off Vocal)
+      kana: そらもこころもはれるから (オフボーカル)
+      rom: Sora mo Kokoro mo Hareru kara (Off Vocal)
+      ko: 하늘도 마음도 맑을 테니까 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 9nin-ver
+    title:
+      ja: 空も心も晴れるから (9人Ver)
+      kana: ''
+      rom: Sora mo Kokoro mo Hareru kara (9nin Ver)
+      ko: 하늘도 마음도 맑을 테니까 (9인 Ver)
+    version: 9人Ver
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

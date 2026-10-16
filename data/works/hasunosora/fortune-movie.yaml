@@ -1,0 +1,44 @@
+id: hasunosora/fortune-movie
+project: hasunosora
+title:
+  ja: フォーチュンムービー
+  kana: フォーチュンムービー
+  rom: Fortune Movie
+  ko: 포춘 무비
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: arisa-tou}
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: フォーチュンムービー (Off Vocal)
+      kana: フォーチュンムービー (オフボーカル)
+      rom: Fortune Movie (Off Vocal)
+      ko: 포춘 무비 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,49 @@
+id: liella/2021-tokonatsu-sunshine
+title:
+  ja: 常夏☆サンシャイン/Wish Song
+projects: [liella]
+release_date: 2021-09-29
+editions:
+  - id: e1
+    label:
+      ja: 第6話盤
+  - id: e2
+    label:
+      ja: 第8話盤
+discs:
+  - editions: [e1]
+    tracks:
+      - {no: 1, recording: liella/tokonatsu-sunshine#original}
+      - {no: 2, recording: liella/wish-song#original}
+      - {no: 3, recording: liella/bye-bye-shichaeba#original}
+      - {no: 4, recording: liella/tokonatsu-sunshine#off-vocal}
+      - {no: 5, recording: liella/wish-song#off-vocal}
+      - {no: 6, recording: liella/bye-bye-shichaeba#off-vocal}
+  - editions: [e2]
+    tracks:
+      - {no: 1, recording: liella/tokonatsu-sunshine#original}
+      - {no: 2, recording: liella/wish-song#original}
+      - {no: 3, recording: liella/matataki-no-saki-e#original}
+      - {no: 4, recording: liella/tokonatsu-sunshine#off-vocal}
+      - {no: 5, recording: liella/wish-song#off-vocal}
+      - {no: 6, recording: liella/matataki-no-saki-e#off-vocal}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: dd9i50ppx7g
+      1-2: v5v0tUGlwYY
+      1-3: 317eTPkfT-Y
+  - editions: [e2]
+    tracks:
+      1-1: if7Cz6O68iQ
+      1-2: UgVSlQy3CfA
+      1-3: TrifR0_8_iM
+legacy:
+  category: Liella
+  albums:
+    - {title: 常夏☆サンシャイン/Wish Song 【第6話盤】, edition: e1}
+    - {title: 常夏☆サンシャイン/Wish Song 【第8話盤】, edition: e2}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

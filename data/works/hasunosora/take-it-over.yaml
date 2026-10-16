@@ -1,0 +1,43 @@
+id: hasunosora/take-it-over
+project: hasunosora
+title:
+  ja: Take It Over
+  kana: テイク イット オーバー
+  rom: Take It Over
+  ko: Take It Over
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: licu}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: licu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Take It Over (Off Vocal)
+      kana: テイク イット オーバー (オフボーカル)
+      rom: Take It Over (Off Vocal)
+      ko: Take It Over (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: licu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

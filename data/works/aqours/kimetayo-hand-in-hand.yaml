@@ -1,0 +1,47 @@
+id: aqours/kimetayo-hand-in-hand
+project: aqours
+title:
+  ja: 決めたよHand in Hand
+  kana: きめたよハンド イン ハンド
+  rom: Kimetayo Hand in Hand
+  ko: 결정했어 Hand in Hand
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 決めたよHand in Hand (Off Vocal)
+      kana: きめたよハンド イン ハンド (オフボーカル)
+      rom: Kimetayo Hand in Hand (Off Vocal)
+      ko: 결정했어 Hand in Hand (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

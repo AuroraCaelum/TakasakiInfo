@@ -1,0 +1,43 @@
+id: hasunosora/genyo-yako
+project: hasunosora
+title:
+  ja: 眩耀夜行
+  kana: げんようやこう
+  rom: Genyo Yako
+  ko: 현요야행
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: yusuke-onodera, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 眩耀夜行 (Off Vocal)
+      kana: げんようやこう (オフボーカル)
+      rom: Genyo Yako (Off Vocal)
+      ko: 현요야행 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: masatomi-waki, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

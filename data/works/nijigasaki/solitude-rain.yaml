@@ -1,0 +1,44 @@
+id: nijigasaki/solitude-rain
+project: nijigasaki
+title:
+  ja: Solitude Rain
+  kana: ソリチュードレイン
+  rom: Solitude Rain
+  ko: Solitude Rain
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: joe}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: joe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Solitude Rain (Off Vocal)
+      kana: ソリチュードレイン (オフボーカル)
+      rom: Solitude Rain (Off Vocal)
+      ko: Solitude Rain (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: joe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

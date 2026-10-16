@@ -1,0 +1,37 @@
+id: liella/dreamer-coaster
+project: liella
+title:
+  ja: Dreamer Coaster
+  kana: ドリーマーコースター
+  rom: Dreamer Coaster
+  ko: Dreamer Coaster
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: kanon-ver
+    version: Kanon Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kinako-ver
+    version: Kinako Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

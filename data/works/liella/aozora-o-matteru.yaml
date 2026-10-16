@@ -1,0 +1,26 @@
+id: liella/aozora-o-matteru
+project: liella
+title:
+  ja: 青空を待ってる
+  kana: あおぞらをまってる
+  rom: Aozora o Matteru
+  ko: 푸른 하늘을 기다리고 있어
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: hiroki-lily-sayonara}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: tatsuhiko-saiki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

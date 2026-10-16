@@ -1,0 +1,32 @@
+id: musical/bows-mega-mix
+project: musical
+title:
+  ja: Bows　メガミックス
+  rom: Bows Mega Mix
+  ko: Bows 메가 믹스
+credits:
+  lyricist:
+    - {person: na}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: instrumental
+    kind: instrumental
+    title:
+      ja: Bows　メガミックス(instrumental)
+      kana: ボウズ　メガミックス(インストゥルメンタル)
+      rom: Bows Mega Mix (instrumental)
+      ko: Bows 메가 믹스 (instrumental)
+    version: instrumental
+    performers:
+      - {artist: na}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

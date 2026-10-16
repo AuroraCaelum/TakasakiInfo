@@ -1,0 +1,45 @@
+id: liella/dancing-heart-la-pa-pa-pa
+project: liella
+title:
+  ja: Dancing Heart La-Pa-Pa-Pa!
+  kana: ダンシング・ハート・ラ・パ・パ・パ！
+  rom: Dancing Heart La-Pa-Pa-Pa!
+  ko: Dancing Heart La-Pa-Pa-Pa!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryuichi-takagi}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ryuichi-takagi}
+      - {person: hinako-tsubakiyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dancing Heart La-Pa-Pa-Pa! (Off Vocal)
+      kana: ダンシング・ハート・ラ・パ・パ・パ！ (オフボーカル)
+      rom: Dancing Heart La-Pa-Pa-Pa! (Off Vocal)
+      ko: Dancing Heart La-Pa-Pa-Pa! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ryuichi-takagi}
+      - {person: hinako-tsubakiyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

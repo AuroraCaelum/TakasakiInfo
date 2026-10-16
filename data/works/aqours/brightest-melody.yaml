@@ -1,0 +1,26 @@
+id: aqours/brightest-melody
+project: aqours
+title:
+  ja: Brightest Melody
+  kana: ''
+  rom: Brightest Melody
+  ko: Brightest Melody
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

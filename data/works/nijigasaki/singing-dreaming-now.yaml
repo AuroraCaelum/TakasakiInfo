@@ -1,0 +1,46 @@
+id: nijigasaki/singing-dreaming-now
+project: nijigasaki
+title:
+  ja: SINGING, DREAMING, NOW!
+  kana: シンギング、ドリーミング、ナウ
+  rom: SINGING, DREAMING, NOW!
+  ko: SINGING, DREAMING, NOW!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: carlos-k}
+    - {person: tomomichi-imagawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: carlos-k}
+      - {person: tomomichi-imagawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SINGING, DREAMING, NOW! (Off Vocal)
+      kana: シンギング、ドリーミング、ナウ (オフボーカル)
+      rom: SINGING, DREAMING, NOW! (Off Vocal)
+      ko: SINGING, DREAMING, NOW! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: carlos-k}
+      - {person: tomomichi-imagawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

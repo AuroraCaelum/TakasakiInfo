@@ -1,0 +1,43 @@
+id: aqours/sakura-bye-bye
+project: aqours
+title:
+  ja: サクラバイバイ
+  kana: ''
+  rom: Sakura Bye Bye
+  ko: 벚꽃 바이바이
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: サクラバイバイ (Off Vocal)
+      kana: ''
+      rom: Sakura Bye Bye
+      ko: 벚꽃 바이바이
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

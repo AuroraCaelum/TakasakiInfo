@@ -1,0 +1,18 @@
+id: liella/2021-tva1-bd-vol-3
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.3
+projects: [liella]
+release_date: 2021-11-26
+discs:
+  - tracks:
+      - {no: 1, recording: liella/yuuki-no-kakera#original, note: TVA1 BD Vol.3}
+      - {no: 2, recording: liella/yuuki-no-kakera#off-vocal, note: TVA1 BD Vol.3}
+legacy:
+  category: Liella
+  albums:
+    - {title: TVA1 BD Vol.3}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

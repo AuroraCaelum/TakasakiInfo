@@ -1,0 +1,44 @@
+id: aqours/thank-you-friends
+project: aqours
+title:
+  ja: Thank you, FRIENDS!!
+  kana: ''
+  rom: Thank you, FRIENDS!!
+  ko: Thank you, FRIENDS!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: koudai-iwatsubo-2}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Thank you, FRIENDS!! (Off Vocal)
+      kana: ''
+      rom: Thank you, FRIENDS!! (Off Vocal)
+      ko: Thank you, FRIENDS!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1
