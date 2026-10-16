@@ -1,0 +1,43 @@
+id: nijigasaki/stars-we-chase
+project: nijigasaki
+title:
+  ja: stars we chase
+  kana: スターズ・ウィ・チェイス
+  rom: stars we chase
+  ko: stars we chase
+credits:
+  lyricist:
+    - {person: konnie-aoki}
+  composer:
+    - {person: teddyloid}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: teddyloid}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: stars we chase (Off Vocal)
+      kana: スターズ・ウィ・チェイス (オフボーカル)
+      rom: stars we chase (Off Vocal)
+      ko: stars we chase (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

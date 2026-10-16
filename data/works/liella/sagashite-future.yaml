@@ -1,0 +1,43 @@
+id: liella/sagashite-future
+project: liella
+title:
+  ja: 探して！Future
+  kana: さがして！フューチャー
+  rom: Sagashite! Future
+  ko: 찾아라! Future
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: ryota-nakano}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ryota-nakano}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 探して！Future (Off Vocal)
+      kana: さがして！フューチャー (オフボーカル)
+      rom: Sagashite! Future (Off Vocal)
+      ko: 찾아라! Future (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ryota-nakano}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

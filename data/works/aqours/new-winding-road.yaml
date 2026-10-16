@@ -1,0 +1,43 @@
+id: aqours/new-winding-road
+project: aqours
+title:
+  ja: New winding road
+  kana: ''
+  rom: New winding road
+  ko: New winding road
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: makoto-miyazaki}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: New winding road (Off Vocal)
+      kana: ''
+      rom: New winding road (Off Vocal)
+      ko: New winding road (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: makoto-miyazaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

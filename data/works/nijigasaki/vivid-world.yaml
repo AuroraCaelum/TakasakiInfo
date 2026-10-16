@@ -1,0 +1,43 @@
+id: nijigasaki/vivid-world
+project: nijigasaki
+title:
+  ja: VIVID WORLD
+  kana: ビビッドワールド
+  rom: VIVID WORLD
+  ko: VIVID WORLD
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: luis-ogata}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: teddyloid}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: VIVID WORLD (Off Vocal)
+      kana: ビビッドワールド (オフボーカル)
+      rom: VIVID WORLD (Off Vocal)
+      ko: VIVID WORLD (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

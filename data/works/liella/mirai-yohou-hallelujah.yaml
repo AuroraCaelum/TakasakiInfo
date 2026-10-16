@@ -1,0 +1,43 @@
+id: liella/mirai-yohou-hallelujah
+project: liella
+title:
+  ja: 未来予報ハレルヤ！
+  kana: みらいよほうハレルヤ！
+  rom: Mirai Yohou Hallelujah!
+  ko: 미래예보 할렐루야!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: effy}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未来予報ハレルヤ！ (Off Vocal)
+      kana: みらいよほうハレルヤ！ (オフボーカル)
+      rom: Mirai Yohou Hallelujah! (Off Vocal)
+      ko: 미래예보 할렐루야! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

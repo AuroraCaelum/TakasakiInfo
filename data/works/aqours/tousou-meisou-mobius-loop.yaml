@@ -1,0 +1,47 @@
+id: aqours/tousou-meisou-mobius-loop
+project: aqours
+title:
+  ja: 逃走迷走メビウスループ
+  kana: ''
+  rom: Tousou Meisou Mobius Loop
+  ko: 도망 황망 뫼비우스의 띠
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 逃走迷走メビウスループ (Off Vocal)
+      kana: ''
+      rom: Tousou Meisou Mobius Loop (Off Vocal)
+      ko: 도망 황망 뫼비우스의 띠 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

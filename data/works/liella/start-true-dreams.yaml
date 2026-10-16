@@ -1,0 +1,43 @@
+id: liella/start-true-dreams
+project: liella
+title:
+  ja: START!! True dreams
+  kana: スタート!! トゥルー・ドリームス
+  rom: START!! True dreams
+  ko: START!! True dreams
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: START!! True dreams (Off Vocal)
+      kana: スタート!! トゥルー・ドリームス (オフボーカル)
+      rom: START!! True dreams (Off Vocal)
+      ko: START!! True dreams (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

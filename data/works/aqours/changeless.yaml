@@ -1,0 +1,43 @@
+id: aqours/changeless
+project: aqours
+title:
+  ja: CHANGELESS
+  kana: ''
+  rom: CHANGELESS
+  ko: CHANGELESS
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: wataru-maeguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: wataru-maeguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: CHANGELESS (Off Vocal)
+      kana: ''
+      rom: CHANGELESS (Off Vocal)
+      ko: CHANGELESS (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: wataru-maeguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,37 @@
+id: liella/memories
+project: liella
+title:
+  ja: Memories
+  kana: メモリーズ
+  rom: Memories
+  ko: Memories
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: kanon-ver
+    version: Kanon Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chisato-ver
+    version: Chisato Ver.
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

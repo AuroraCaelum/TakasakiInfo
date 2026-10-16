@@ -1,0 +1,18 @@
+id: liella/2021-tva1-bd-vol-4
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.4
+projects: [liella]
+release_date: 2021-12-24
+discs:
+  - tracks:
+      - {no: 1, recording: liella/heroine-s-runway#original, note: TVA1 BD Vol.4}
+      - {no: 2, recording: liella/heroine-s-runway#off-vocal, note: TVA1 BD Vol.4}
+legacy:
+  category: Liella
+  albums:
+    - {title: TVA1 BD Vol.4}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

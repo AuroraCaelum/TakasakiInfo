@@ -1,0 +1,58 @@
+id: aqours/one-more-sunshine-story
+project: aqours
+title:
+  ja: One More Sunshine Story
+  kana: ''
+  rom: One More Sunshine Story
+  ko: One More Sunshine Story
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: effy, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: One More Sunshine Story (Off Vocal)
+      kana: ''
+      rom: One More Sunshine Story (Off Vocal)
+      ko: One More Sunshine Story (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: album-version
+    title:
+      ja: One More Sunshine Story (Album Version)
+      kana: ''
+      rom: One More Sunshine Story (Album Version)
+      ko: One More Sunshine Story (Album Version)
+    version: Album Version
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

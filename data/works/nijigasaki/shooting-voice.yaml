@@ -1,0 +1,43 @@
+id: nijigasaki/shooting-voice
+project: nijigasaki
+title:
+  ja: Shooting Voice!!
+  kana: シューティング・ボイス
+  rom: Shooting Voice!!
+  ko: Shooting Voice!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Shooting Voice!! (Off Vocal)
+      kana: シューティング・ボイス (オフボーカル)
+      rom: Shooting Voice!! (Off Vocal)
+      ko: Shooting Voice!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-dewa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

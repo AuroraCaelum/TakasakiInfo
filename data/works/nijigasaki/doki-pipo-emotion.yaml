@@ -1,0 +1,29 @@
+id: nijigasaki/doki-pipo-emotion
+project: nijigasaki
+title:
+  ja: ドキピポ☆エモーション
+  kana: ドキピポ　エモーション
+  rom: Doki Pipo☆Emotion
+  ko: 도키피포☆이모션
+credits:
+  lyricist:
+    - {person: novechika}
+    - {person: hiroto-kikuchi}
+  composer:
+    - {person: novechika}
+    - {person: hiroto-kikuchi}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: novechika}
+      - {person: hiroto-kikuchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

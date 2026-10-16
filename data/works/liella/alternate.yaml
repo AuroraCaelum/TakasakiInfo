@@ -1,0 +1,26 @@
+id: liella/alternate
+project: liella
+title:
+  ja: オルタネイト
+  kana: オルタネイト
+  rom: Alternate
+  ko: 알터네이트
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: catchu}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

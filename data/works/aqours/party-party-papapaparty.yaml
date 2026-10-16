@@ -1,0 +1,30 @@
+id: aqours/party-party-papapaparty
+project: aqours
+title:
+  ja: Party! Party! PaPaPaParty!
+  kana: ''
+  rom: Party! Party! PaPaPaParty!
+  ko: Party! Party! PaPaPaParty!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ayumu-nakamura}
+    - {person: hiroto-kikuchi}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

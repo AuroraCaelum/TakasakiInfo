@@ -1,0 +1,44 @@
+id: hasunosora/sugao-no-pixel
+project: hasunosora
+title:
+  ja: 素顔のピクセル
+  kana: すがおのピクセル
+  rom: Sugao no Pixel
+  ko: 맨얼굴의 픽셀
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: arisa-tou}
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 素顔のピクセル (Off Vocal)
+      kana: すがおのピクセル (オフボーカル)
+      rom: Sugao no Pixel (Off Vocal)
+      ko: 맨얼굴의 픽셀 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

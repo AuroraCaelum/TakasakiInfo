@@ -1,0 +1,43 @@
+id: nijigasaki/infinity-our-wings
+project: nijigasaki
+title:
+  ja: Infinity！Our wings!!
+  kana: インフィニティ!アワー・ウィングス!!
+  rom: Infinity! Our wings!!
+  ko: Infinity! Our wings!!
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Infinity！Our wings!! (Off Vocal)
+      kana: インフィニティ!アワー・ウィングス!! (オフボーカル)
+      rom: Infinity! Our wings!! (Off Vocal)
+      ko: Infinity! Our wings!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

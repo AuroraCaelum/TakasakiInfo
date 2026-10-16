@@ -1,0 +1,27 @@
+id: hasunosora/scapegoat
+project: hasunosora
+title:
+  ja: スケイプゴート
+  kana: スケイプゴート
+  rom: Scapegoat
+  ko: 스케이프 고트
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: hiroki-sagawa, affiliation: 'Relic Lyric, inc.'}
+    - {person: joey-takeda}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: joey-takeda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

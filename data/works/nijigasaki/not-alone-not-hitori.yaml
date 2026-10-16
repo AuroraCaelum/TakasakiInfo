@@ -1,0 +1,46 @@
+id: nijigasaki/not-alone-not-hitori
+project: nijigasaki
+title:
+  ja: not ALONE not HITORI
+  kana: ノット・アローン・ノット・ヒトリ
+  rom: not ALONE not HITORI
+  ko: not ALONE not HITORI
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kotaro-odaka}
+    - {person: uina}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: not ALONE not HITORI (Off Vocal)
+      kana: ノット・アローン・ノット・ヒトリ (オフボーカル)
+      rom: not ALONE not HITORI (Off Vocal)
+      ko: not ALONE not HITORI (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: naoki-tani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

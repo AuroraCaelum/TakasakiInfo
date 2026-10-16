@@ -1,0 +1,37 @@
+id: liella/dears
+project: liella
+title:
+  ja: Dears
+  kana: ディアーズ
+  rom: Dears
+  ko: Dears
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: ren-ver
+    version: Ren Ver.
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: sumire-ver
+    version: Sumire Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

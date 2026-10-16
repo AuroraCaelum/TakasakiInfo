@@ -1,0 +1,43 @@
+id: aqours/humming-friend
+project: aqours
+title:
+  ja: ハミングフレンド
+  kana: ハミングフレンド
+  rom: Humming Friend
+  ko: 허밍 프랜드
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: satoru-kuwabara, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ハミングフレンド (Off Vocal)
+      kana: ハミングフレンド (オフボーカル)
+      rom: Humming Friend (Off Vocal)
+      ko: 허밍 프랜드 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

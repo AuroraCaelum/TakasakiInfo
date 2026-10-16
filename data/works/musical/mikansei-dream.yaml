@@ -1,0 +1,99 @@
+id: musical/mikansei-dream
+project: musical
+title:
+  ja: 未完成ドリーム！
+  kana: みかんせいドリーム！
+  rom: Mikansei Dream!
+  ko: 미완성 드림!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {character: musical/rurika-tsubaki}
+      - {character: musical/yukino-hojo}
+      - {character: musical/yuzuha-sumeragi}
+      - {character: musical/hikaru-amakusa}
+      - {character: musical/maya-mikasa}
+      - {character: musical/anzu-takizawa}
+      - {character: musical/toa-kurusu}
+      - {character: musical/misuzu-wakatsuki}
+      - {artist: rena-suzuka}
+      - {artist: sayaka-harukaze}
+    arranger:
+      - {person: kushita-mine}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: tsubakisakuhana-joshi-high-school-ver
+    title:
+      ja: 未完成ドリーム！（椿咲花女子高等学校Ver.）
+      kana: みかんせいドリーム！つばきさくはなじょしこうとうがっこう バージョン
+      rom: Mikansei Dream! (Tsubakisakuhana Joshi High School Ver.)
+      ko: 미완성 드림! (츠바키사쿠하나 여자고등학교 Ver.)
+    version: 椿咲花女子高等学校Ver.
+    performers:
+      - {character: musical/rurika-tsubaki}
+      - {character: musical/yukino-hojo}
+      - {character: musical/yuzuha-sumeragi}
+      - {character: musical/hikaru-amakusa}
+      - {character: musical/maya-mikasa}
+    arranger:
+      - {person: kushita-mine}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: takizakura-jogakuin-high-school-ver
+    title:
+      ja: 未完成ドリーム！（滝桜女学院高等学校Ver.）
+      kana: みかんせいドリーム！ たきざくらじょがくいんこうとうがっこう
+      rom: Mikansei Dream! (Takizakura Jogakuin High School Ver.)
+      ko: 미완성 드림! (타키자쿠라 여학원 Ver.)
+    version: 滝桜女学院高等学校Ver.
+    performers:
+      - {character: musical/anzu-takizawa}
+      - {character: musical/toa-kurusu}
+      - {character: musical/misuzu-wakatsuki}
+      - {artist: rena-suzuka}
+      - {artist: sayaka-harukaze}
+    arranger:
+      - {person: kushita-mine}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未完成ドリーム！ (Off Vocal)
+      kana: みかんせいドリーム！ (オフボーカル)
+      rom: Mikansei Dream! (Off Vocal)
+      ko: 미완성 드림! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: musical/rurika-tsubaki}
+      - {character: musical/yukino-hojo}
+      - {character: musical/yuzuha-sumeragi}
+      - {character: musical/hikaru-amakusa}
+      - {character: musical/maya-mikasa}
+      - {character: musical/anzu-takizawa}
+      - {character: musical/toa-kurusu}
+      - {character: musical/misuzu-wakatsuki}
+      - {artist: rena-suzuka}
+      - {artist: sayaka-harukaze}
+    arranger:
+      - {person: kushita-mine}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

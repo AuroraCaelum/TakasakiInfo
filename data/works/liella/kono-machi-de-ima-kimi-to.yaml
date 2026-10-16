@@ -1,0 +1,43 @@
+id: liella/kono-machi-de-ima-kimi-to
+project: liella
+title:
+  ja: この街でいまキミと
+  kana: このまちでいまキミと
+  rom: Kono Machi de Ima Kimi to
+  ko: 이 거리에서 지금 너와
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: この街でいまキミと (Off Vocal)
+      kana: このまちでいまキミと (オフボーカル)
+      rom: Kono Machi de Ima Kimi to (Off Vocal)
+      ko: 이 거리에서 지금 너와 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

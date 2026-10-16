@@ -1,0 +1,44 @@
+id: nijigasaki/miracle-stay-tune
+project: nijigasaki
+title:
+  ja: ミラクル STAY TUNE!
+  kana: ミラクル ステイ チューン
+  rom: Miracle STAY TUNE!
+  ko: 미라클 STAY TUNE!
+credits:
+  lyricist:
+    - {person: novechika}
+  composer:
+    - {person: novechika}
+    - {person: takayuki-yoshimura}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: naoki-endo}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ミラクル STAY TUNE! (Off Vocal)
+      kana: ミラクル ステイ チューン (オフボーカル)
+      rom: Miracle STAY TUNE! (Off Vocal)
+      ko: 미라클 STAY TUNE! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: naoki-endo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

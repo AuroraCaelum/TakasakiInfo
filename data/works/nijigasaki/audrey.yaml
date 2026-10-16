@@ -1,0 +1,26 @@
+id: nijigasaki/audrey
+project: nijigasaki
+title:
+  ja: 'オードリー '
+  kana: 'オードリー '
+  rom: Audrey
+  ko: 오드리
+credits:
+  lyricist:
+    - {person: tsukimisou}
+  composer:
+    - {person: tsukimisou}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: hiroto-kikuchi-2}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

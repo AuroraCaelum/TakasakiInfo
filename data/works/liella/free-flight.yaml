@@ -1,0 +1,28 @@
+id: liella/free-flight
+project: liella
+title:
+  ja: Free Flight
+  kana: フリーフライト
+  rom: Free Flight
+  ko: Free Flight
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: infx}
+    - {person: nurhadaina-binte-ariffin}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: infx}
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

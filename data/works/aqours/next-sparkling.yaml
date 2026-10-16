@@ -1,0 +1,43 @@
+id: aqours/next-sparkling
+project: aqours
+title:
+  ja: Next SPARKLING!!
+  kana: ''
+  rom: Next SPARKLING!!
+  ko: Next SPARKLING!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Next SPARKLING!! (Off Vocal)
+      kana: ''
+      rom: Next SPARKLING!! (Off Vocal)
+      ko: Next SPARKLING!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

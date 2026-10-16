@@ -1,0 +1,27 @@
+id: liella/velour
+project: liella
+title:
+  ja: ベロア
+  kana: ベロア
+  rom: Velour
+  ko: 벨로아
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: kaleidoscore}
+    arranger:
+      - {person: menma}
+      - {person: hoffnung}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

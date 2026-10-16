@@ -1,0 +1,44 @@
+id: nijigasaki/bubble-over
+project: nijigasaki
+title:
+  ja: バブルオーバー！
+  kana: バブルオーバー！
+  rom: Bubble Over!
+  ko: 버블 오버!
+credits:
+  lyricist:
+    - {person: ereca}
+  composer:
+    - {person: ereca}
+    - {person: joe}
+recordings:
+  - id: original
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: joe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: バブルオーバー！ (Off Vocal)
+      kana: バブルオーバー！ (オフボーカル)
+      rom: Bubble Over! (Off Vocal)
+      ko: 버블 오버! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: joe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: aqours/mirai-ticket
+project: aqours
+title:
+  ja: MIRAI TICKET
+  kana: ミライ チケット
+  rom: MIRAI TICKET
+  ko: MIRAI TICKET
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: effy}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: MIRAI TICKET (Off Vocal)
+      kana: ミライ チケット (オフボーカル)
+      rom: MIRAI TICKET (Off Vocal)
+      ko: MIRAI TICKET (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

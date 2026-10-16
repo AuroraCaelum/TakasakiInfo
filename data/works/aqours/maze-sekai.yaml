@@ -1,0 +1,43 @@
+id: aqours/maze-sekai
+project: aqours
+title:
+  ja: メイズセカイ
+  kana: ''
+  rom: Maze Sekai
+  ko: 미궁세계
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yosuke-kurokawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: yosuke-kurokawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: メイズセカイ (Off Vocal)
+      kana: ''
+      rom: Maze Sekai (Off Vocal)
+      ko: 미궁세계 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: yosuke-kurokawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

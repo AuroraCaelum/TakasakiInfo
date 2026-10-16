@@ -1,0 +1,43 @@
+id: liella/dream-rainbow
+project: liella
+title:
+  ja: Dream Rainbow
+  kana: ドリーム・レインボー
+  rom: Dream Rainbow
+  ko: Dream Rainbow
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dream Rainbow (Off Vocal)
+      kana: ドリーム・レインボー (オフボーカル)
+      rom: Dream Rainbow (Off Vocal)
+      ko: Dream Rainbow (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

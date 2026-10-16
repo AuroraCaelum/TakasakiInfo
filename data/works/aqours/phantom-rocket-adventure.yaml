@@ -1,0 +1,43 @@
+id: aqours/phantom-rocket-adventure
+project: aqours
+title:
+  ja: Phantom Rocket Adventure
+  kana: ''
+  rom: Phantom Rocket Adventure
+  ko: Phantom Rocket Adventure
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yuki-honda, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: yuki-honda, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Phantom Rocket Adventure (Off Vocal)
+      kana: ''
+      rom: Phantom Rocket Adventure (Off Vocal)
+      ko: Phantom Rocket Adventure (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: yuki-honda, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

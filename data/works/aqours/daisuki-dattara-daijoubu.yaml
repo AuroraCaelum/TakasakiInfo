@@ -1,0 +1,47 @@
+id: aqours/daisuki-dattara-daijoubu
+project: aqours
+title:
+  ja: ダイスキだったらダイジョウブ！
+  kana: ダイスキだったらダイジョウブ
+  rom: Daisuki Dattara Daijoubu!
+  ko: 정말로 좋아한다면 괜찮을 거야!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ダイスキだったらダイジョウブ！ (Off Vocal)
+      kana: ダイスキだったらダイジョウブ (オフボーカル)
+      rom: Daisuki Dattara Daijoubu! (Off Vocal)
+      ko: 정말로 좋아한다면 괜찮을 거야! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

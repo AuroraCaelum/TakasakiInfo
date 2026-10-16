@@ -1,0 +1,45 @@
+id: hasunosora/sparkly-spot
+project: hasunosora
+title:
+  ja: Sparkly Spot
+  kana: スパークリー・スポット
+  rom: Sparkly Spot
+  ko: Sparkly Spot
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: takuya-watanabe}
+      - {person: yu-manabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Sparkly Spot (Off Vocal)
+      kana: スパークリー・スポット (オフボーカル)
+      rom: Sparkly Spot (Off Vocal)
+      ko: Sparkly Spot (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: takuya-watanabe}
+      - {person: yu-manabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

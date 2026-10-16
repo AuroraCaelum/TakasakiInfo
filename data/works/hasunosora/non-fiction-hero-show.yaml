@@ -1,0 +1,43 @@
+id: hasunosora/non-fiction-hero-show
+project: hasunosora
+title:
+  ja: ノンフィクションヒーローショー
+  kana: ノンフィクションヒーローショー
+  rom: Non-fiction Hero Show
+  ko: 논픽션 히어로 쇼
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: takeru-yoda-2}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: takeru-yoda-2}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ノンフィクションヒーローショー (Off Vocal)
+      kana: ノンフィクションヒーローショー (オフボーカル)
+      rom: Non-fiction Hero Show (Off Vocal)
+      ko: 논픽션 히어로 쇼 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: takeru-yoda-2}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

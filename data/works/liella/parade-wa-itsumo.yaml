@@ -1,0 +1,37 @@
+id: liella/parade-wa-itsumo
+project: liella
+title:
+  ja: パレードはいつも
+  kana: パレードはいつも
+  rom: Parade wa Itsumo
+  ko: 퍼레이드는 언제나
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: mei-ver
+    version: Mei Ver.
+    performers:
+      - {character: liella/mei-yoneme}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: shiki-ver
+    version: Shiki Ver.
+    performers:
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: aqours/love-pulsar
+project: aqours
+title:
+  ja: Love Pulsar
+  kana: ''
+  rom: Love Pulsar
+  ko: Love Pulsar
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: miki-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: miki-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Love Pulsar (Off Vocal)
+      kana: ''
+      rom: Love Pulsar (Off Vocal)
+      ko: Love Pulsar (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: miki-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

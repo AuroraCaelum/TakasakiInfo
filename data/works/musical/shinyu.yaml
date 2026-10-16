@@ -1,0 +1,27 @@
+id: musical/shinyu
+project: musical
+title:
+  ja: 親友
+  kana: しんゆう
+  rom: Shinyu
+  ko: 친구
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: marina-horiuchi-as-rurika-tsubaki}
+      - {artist: nanami-asai-as-yuzuha-sumeragi}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: liella/star-sengen
+project: liella
+title:
+  ja: スター宣言
+  kana: スターせんげん
+  rom: Star Sengen
+  ko: 스타 선언
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mayuko-maruyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: スター宣言 (Off Vocal)
+      kana: スターせんげん (オフボーカル)
+      rom: Star Sengen (Off Vocal)
+      ko: 스타 선언 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

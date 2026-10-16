@@ -1,0 +1,43 @@
+id: aqours/kuuchuu-ren-ai-ron
+project: aqours
+title:
+  ja: 空中恋愛論
+  kana: ''
+  rom: Kuuchuu Ren'ai Ron
+  ko: 공중연애론
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kohei-by-simonsayz}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: kohei-by-simonsayz}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 空中恋愛論 (Off Vocal)
+      kana: ''
+      rom: Kuuchuu Renai Ron (Off Vocal)
+      ko: 공중연애론 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: kohei-by-simonsayz}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

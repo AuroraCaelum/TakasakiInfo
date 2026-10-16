@@ -1,0 +1,43 @@
+id: aqours/amazing-travel-dna
+project: aqours
+title:
+  ja: Amazing Travel DNA
+  kana: ''
+  rom: Amazing Travel DNA
+  ko: Amazing Travel DNA
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryuhey-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: ryuhey-yamada}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Amazing Travel DNA (Off Vocal)
+      kana: ''
+      rom: Amazing Travel DNA (Off Vocal)
+      ko: Amazing Travel DNA (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: ryuhey-yamada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

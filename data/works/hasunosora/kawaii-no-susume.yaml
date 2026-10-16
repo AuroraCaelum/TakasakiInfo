@@ -1,0 +1,45 @@
+id: hasunosora/kawaii-no-susume
+project: hasunosora
+title:
+  ja: Kawaii no susume
+  kana: かわいいのすすめ
+  rom: Kawaii no susume
+  ko: Kawaii no susume
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: atsuhito-sato}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: atsuhito-sato}
+      - {person: kijibato}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Kawaii no susume (Off Vocal)
+      kana: かわいいのすすめ (オフボーカル)
+      rom: Kawaii no susume (Off Vocal)
+      ko: Kawaii no susume (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit}
+    arranger:
+      - {person: atsuhito-sato}
+      - {person: kijibato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

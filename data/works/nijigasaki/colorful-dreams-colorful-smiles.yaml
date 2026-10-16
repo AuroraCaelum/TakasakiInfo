@@ -1,0 +1,46 @@
+id: nijigasaki/colorful-dreams-colorful-smiles
+project: nijigasaki
+title:
+  ja: Colorful Dreams! Colorful Smiles!
+  kana: カラフル・ドリームス！カラフル・スマイルズ！
+  rom: Colorful Dreams! Colorful Smiles!
+  ko: Colorful Dreams! Colorful Smiles!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: takeru-yoda}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: takeru-yoda}
+      - {person: tasuku}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Colorful Dreams! Colorful Smiles! (Off Vocal)
+      kana: カラフル・ドリームス！カラフル・スマイルズ！ (オフボーカル)
+      rom: Colorful Dreams! Colorful Smiles! (Off Vocal)
+      ko: Colorful Dreams! Colorful Smiles! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: takeru-yoda}
+      - {person: tasuku}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

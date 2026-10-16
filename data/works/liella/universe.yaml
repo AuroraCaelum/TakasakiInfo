@@ -1,0 +1,178 @@
+id: liella/universe
+project: liella
+title:
+  ja: UNIVERSE!!
+  kana: ユニバース
+  rom: UNIVERSE!!
+  ko: UNIVERSE!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuki-utamaru}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: UNIVERSE!! (Off Vocal)
+      kana: ユニバース
+      rom: UNIVERSE!! (Off Vocal)
+      ko: UNIVERSE!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yoshiaki-dewa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kanon-shibuya-ver
+    title:
+      ja: UNIVERSE!! (澁谷かのん Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Kanon Shibuya Ver.)
+      ko: UNIVERSE!! (시부야 카논 Ver.)
+    version: 澁谷かのん Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: keke-tang-ver
+    title:
+      ja: UNIVERSE!! (唐可可 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Keke Tang Ver.)
+      ko: UNIVERSE!! (탕 쿠쿠 Ver.)
+    version: 唐可可 Ver.
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chisato-arashi-ver
+    title:
+      ja: UNIVERSE!! (嵐千砂都 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Chisato Arashi Ver.)
+      ko: UNIVERSE!! (아라시 치사토 Ver.)
+    version: 嵐千砂都 Ver.
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: sumire-heanna-ver
+    title:
+      ja: UNIVERSE!! (平安名すみれ Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Sumire Heanna Ver.)
+      ko: UNIVERSE!! (헤안나 스미레 Ver.)
+    version: 平安名すみれ Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ren-hazuki-ver
+    title:
+      ja: UNIVERSE!! (葉月恋 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Ren Hazuki Ver.)
+      ko: UNIVERSE!! (하즈키 렌 Ver.)
+    version: 葉月恋 Ver.
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kinako-sakurakoji-ver
+    title:
+      ja: UNIVERSE!! (桜小路きな子 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Kinako Sakurakoji Ver.)
+      ko: UNIVERSE!! (사쿠라코지 키나코 Ver.)
+    version: 桜小路きな子 Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: mei-yoneme-ver
+    title:
+      ja: UNIVERSE!! (米女メイ Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Mei Yoneme Ver.)
+      ko: UNIVERSE!! (요네메 메이 Ver.)
+    version: 米女メイ Ver.
+    performers:
+      - {character: liella/mei-yoneme}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: shiki-wakana-ver
+    title:
+      ja: UNIVERSE!! (若菜四季 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Shiki Wakana Ver.)
+      ko: UNIVERSE!! (와카나 시키 Ver.)
+    version: 若菜四季 Ver.
+    performers:
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: natsumi-onitsuka-ver
+    title:
+      ja: UNIVERSE!! (鬼塚夏美 Ver.)
+      kana: ユニバース
+      rom: UNIVERSE!! (Natsumi Onitsuka Ver.)
+      ko: UNIVERSE!! (오니츠카 나츠미 Ver.)
+    version: 鬼塚夏美 Ver.
+    performers:
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: yoshiaki-dewa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

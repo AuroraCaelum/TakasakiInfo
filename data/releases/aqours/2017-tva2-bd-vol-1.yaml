@@ -1,0 +1,18 @@
+id: aqours/2017-tva2-bd-vol-1
+type: bd_bonus
+title:
+  ja: TVA2 BD Vol.1
+projects: [aqours]
+release_date: 2017-12-22
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/one-more-sunshine-story#original, note: 'TVA2 BD Vol.1, Link is from the [Takami Chika First Solo Concert Album ～One More Sunshine Story～]'}
+      - {no: 2, recording: aqours/one-more-sunshine-story#off-vocal, note: TVA2 BD Vol.1}
+legacy:
+  category: Aqours
+  albums:
+    - {title: TVA2 BD Vol.1}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

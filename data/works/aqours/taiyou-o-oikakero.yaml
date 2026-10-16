@@ -1,0 +1,43 @@
+id: aqours/taiyou-o-oikakero
+project: aqours
+title:
+  ja: 太陽を追いかけろ！
+  kana: ''
+  rom: Taiyou o Oikakero!
+  ko: 태양을 쫓아가자!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akito-matsuda}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akito-matsuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 太陽を追いかけろ！ (Off Vocal)
+      kana: ''
+      rom: Taiyou o Oikakero! (Off Vocal)
+      ko: 태양을 쫓아가자! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akito-matsuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

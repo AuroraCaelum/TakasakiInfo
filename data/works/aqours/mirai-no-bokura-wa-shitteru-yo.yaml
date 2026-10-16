@@ -1,0 +1,43 @@
+id: aqours/mirai-no-bokura-wa-shitteru-yo
+project: aqours
+title:
+  ja: 未来の僕らは知ってるよ
+  kana: ''
+  rom: Mirai no Bokura wa Shitteru yo
+  ko: 미래의 우리들은 알고 있어
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未来の僕らは知ってるよ (Off Vocal)
+      kana: ''
+      rom: Mirai no Bokura wa Shitteru yo (Off Vocal)
+      ko: 미래의 우리들은 알고 있어 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

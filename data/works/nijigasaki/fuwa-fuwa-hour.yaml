@@ -1,0 +1,47 @@
+id: nijigasaki/fuwa-fuwa-hour
+project: nijigasaki
+title:
+  ja: Fuwa Fuwaアワー！
+  kana: ふわふわアワー！
+  rom: Fuwa Fuwa Hour!
+  ko: Fuwa Fuwa 아워!
+credits:
+  lyricist:
+    - {person: ayumu-nakamura}
+    - {person: hiroto-kikuchi}
+  composer:
+    - {person: ayumu-nakamura}
+    - {person: hiroto-kikuchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Fuwa Fuwaアワー！ (Off Vocal)
+      kana: ふわふわアワー！ (オフボーカル)
+      rom: Fuwa Fuwa Hour! (Off Vocal)
+      ko: Fuwa Fuwa 아워! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

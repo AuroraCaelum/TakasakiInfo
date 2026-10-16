@@ -1,0 +1,23 @@
+id: aqours/2018-tva2-bd-vol-5
+type: bd_bonus
+title:
+  ja: TVA2 BD Vol.5
+projects: [aqours]
+release_date: 2018-04-24
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/red-gem-wink#original, note: 'TVA2 BD Vol.5, Link is from the [Kurosawa Ruby First Solo Concert Album ～RED GEM WINK～]'}
+      - {no: 2, recording: aqours/white-first-love#original, note: 'TVA2 BD Vol.5, Link is from the [Kurosawa Dia First Solo Concert Album ～WHITE FIRST LOVE～]'}
+      - {no: 3, recording: aqours/red-gem-wink#off-vocal, note: TVA2 BD Vol.5}
+      - {no: 4, recording: aqours/white-first-love#off-vocal, note: TVA2 BD Vol.5}
+streaming:
+  - tracks:
+      1-2: uFG5GQnfJyI
+legacy:
+  category: Aqours
+  albums:
+    - {title: TVA2 BD Vol.5}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

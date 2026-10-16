@@ -1,0 +1,43 @@
+id: liella/heroine-s-runway
+project: liella
+title:
+  ja: ヒロインズ☆ランウェイ
+  kana: ヒロインズ☆ランウェイ
+  rom: Heroine's Runway
+  ko: 히로인즈☆런웨이
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mayuko-maruyama}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ヒロインズ☆ランウェイ (Off Vocal)
+      kana: ヒロインズ☆ランウェイ (オフボーカル)
+      rom: Heroine's Runway (Off Vocal)
+      ko: 히로인즈☆런웨이 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: yuya-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

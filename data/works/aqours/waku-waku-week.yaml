@@ -1,0 +1,50 @@
+id: aqours/waku-waku-week
+project: aqours
+title:
+  ja: Waku-Waku-Week!
+  kana: ''
+  rom: Waku-Waku-Week!
+  ko: Waku-Waku-Week!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ramseeni}
+    - {person: yogo-uchida}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: ramseeni}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Waku-Waku-Week! (Off Vocal)
+      kana: ''
+      rom: Waku-Waku-Week! (Off Vocal)
+      ko: Waku-Waku-Week! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kotaro-odaka}
+      - {person: ramseeni}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

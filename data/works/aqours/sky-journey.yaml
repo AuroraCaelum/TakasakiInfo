@@ -1,0 +1,71 @@
+id: aqours/sky-journey
+project: aqours
+title:
+  ja: SKY JOURNEY
+  kana: ''
+  rom: SKY JOURNEY
+  ko: SKY JOURNEY
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hirotaka-hayakawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: hirotaka-hayakawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: SKY JOURNEY (高海千歌 Solo Ver.)
+      kana: ''
+      rom: SKY JOURNEY (Chika Takami Solo Ver.)
+      ko: SKY JOURNEY (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: hirotaka-hayakawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: SKY JOURNEY (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: SKY JOURNEY (Riko Sakurauchi Solo Ver.)
+      ko: SKY JOURNEY (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: hirotaka-hayakawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: SKY JOURNEY (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: SKY JOURNEY (Ruby Kurosawa Solo Ver.)
+      ko: SKY JOURNEY (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: hirotaka-hayakawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: nijigasaki/shadow-effect
+project: nijigasaki
+title:
+  ja: Shadow Effect
+  kana: シャドウエフェクト
+  rom: Shadow Effect
+  ko: Shadow Effect
+credits:
+  lyricist:
+    - {person: dummy-dog}
+  composer:
+    - {person: dummy-dog}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Shadow Effect (Off Vocal)
+      kana: シャドウエフェクト (オフボーカル)
+      rom: Shadow Effect (Off Vocal)
+      ko: Shadow Effect (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

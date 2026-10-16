@@ -1,0 +1,42 @@
+id: nijigasaki/love-u-my-friends
+project: nijigasaki
+title:
+  ja: Love U my friends
+  kana: ラブ・ユー・マイ・フレンズ
+  rom: Love U my friends
+  ko: Love U my friends
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: 9-members-ver
+    version: 9 Members Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 12nin-ver
+    title:
+      ja: Love U my friends (12人Ver.)
+      kana: ラブ・ユー・マイ・フレンズ じゅうににんヴァージョン
+      rom: Love U my friends (12nin Ver.)
+      ko: Love U my friends (12인 Ver.)
+    version: 12人Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

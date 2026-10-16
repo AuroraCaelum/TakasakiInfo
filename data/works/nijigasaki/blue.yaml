@@ -1,0 +1,47 @@
+id: nijigasaki/blue
+project: nijigasaki
+title:
+  ja: Blue!
+  kana: ブルー！
+  rom: Blue!
+  ko: Blue!
+credits:
+  lyricist:
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+  composer:
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Blue! (Off Vocal)
+      kana: ブルー！ (オフボーカル)
+      rom: Blue! (Off Vocal)
+      ko: Blue! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

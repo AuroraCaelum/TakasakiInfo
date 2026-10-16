@@ -1,0 +1,71 @@
+id: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+project: aqours
+title:
+  ja: 届かない星だとしても
+  kana: とどかないほしだとしても
+  rom: Todoka Nai Hoshi Da To Shi Te Mo
+  ko: 닿을 수 없는 별이라 해도
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: makoto-miyazaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: 届かない星だとしても (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Todoka Nai Hoshi Da To Shi Te Mo (Chika Takami Solo Ver.)
+      ko: 닿을 수 없는 별이라 해도 (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: 届かない星だとしても (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Todoka Nai Hoshi Da To Shi Te Mo (Riko Sakurauchi Solo Ver.)
+      ko: 닿을 수 없는 별이라 해도 (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: 届かない星だとしても (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Todoka Nai Hoshi Da To Shi Te Mo (Ruby Kurosawa Solo Ver.)
+      ko: 닿을 수 없는 별이라 해도 (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

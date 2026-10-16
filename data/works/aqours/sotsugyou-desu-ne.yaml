@@ -1,0 +1,43 @@
+id: aqours/sotsugyou-desu-ne
+project: aqours
+title:
+  ja: 卒業ですね
+  kana: ''
+  rom: Sotsugyou desu ne
+  ko: 졸업이네요
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hirotaka-hayakawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: technoboys-pulcraft-green-fund}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 卒業ですね (Off Vocal)
+      kana: ''
+      rom: Sotsugyou desu ne (Off Vocal)
+      ko: 졸업이네요 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: technoboys-pulcraft-green-fund}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

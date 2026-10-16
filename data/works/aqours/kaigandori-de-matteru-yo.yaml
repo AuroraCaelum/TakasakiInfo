@@ -1,0 +1,43 @@
+id: aqours/kaigandori-de-matteru-yo
+project: aqours
+title:
+  ja: 海岸通りで待ってるよ
+  kana: ''
+  rom: Kaigandori de Matteru Yo
+  ko: 해안 도로에서 기다릴게
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: miki-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: miki-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 海岸通りで待ってるよ (Off Vocal)
+      kana: ''
+      rom: Kaigandori de Matteru Yo (Off Vocal)
+      ko: 해안 도로에서 기다릴게 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: miki-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

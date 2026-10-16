@@ -1,0 +1,43 @@
+id: nijigasaki/vroom-vroom
+project: nijigasaki
+title:
+  ja: Vroom Vroom
+  kana: ヴルームヴルーム
+  rom: Vroom Vroom
+  ko: Vroom Vroom
+credits:
+  lyricist:
+    - {person: ereca}
+  composer:
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: geek-boy-al-swettenham}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Vroom Vroom (Off Vocal)
+      kana: ヴルームヴルーム (オフボーカル)
+      rom: Vroom Vroom (Off Vocal)
+      ko: Vroom Vroom (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: geek-boy-al-swettenham}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

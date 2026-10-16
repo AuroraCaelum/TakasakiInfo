@@ -1,0 +1,46 @@
+id: liella/watashi-no-symphony
+project: liella
+title:
+  ja: 私のSymphony
+  kana: わたしのシンフォニー
+  rom: Watashi no Symphony
+  ko: 나의 Symphony
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: seiji-takagi}
+    - {person: kokei-co-k-takafumi}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kokei-co-k-takafumi}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 私のSymphony (Off Vocal)
+      kana: わたしのシンフォニー (オフボーカル)
+      rom: Watashi no Symphony (Off Vocal)
+      ko: 나의 Symphony (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kokei-co-k-takafumi}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

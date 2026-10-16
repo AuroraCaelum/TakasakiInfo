@@ -1,0 +1,43 @@
+id: aqours/yume-kataruyori-yume-utaou
+project: aqours
+title:
+  ja: ユメ語るよりユメ歌おう
+  kana: ユメかたるよりユメうたおう
+  rom: Yume Kataruyori Yume Utaou
+  ko: 꿈을 말하기보다 꿈을 노래하자
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ユメ語るよりユメ歌おう (Off Vocal)
+      kana: ユメかたるよりユメうたおう (オフボーカル)
+      rom: Yume Kataruyori Yume Utaou (Off Vocal)
+      ko: 꿈을 말하기보다 꿈을 노래하자 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

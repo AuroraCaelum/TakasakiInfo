@@ -1,0 +1,47 @@
+id: nijigasaki/hurray-hurray
+project: nijigasaki
+title:
+  ja: Hurray Hurray
+  kana: フレーフレー
+  rom: Hurray Hurray
+  ko: Hurray Hurray
+credits:
+  lyricist:
+    - {person: ryota-saito}
+    - {person: yu-takasaki}
+  composer:
+    - {person: ryota-saito}
+    - {person: diz}
+    - {person: yu-takasaki}
+recordings:
+  - id: 9-members-ver
+    version: 9 Members Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: diz}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hurray Hurray (Off Vocal)
+      kana: フレーフレー (オフボーカル)
+      rom: Hurray Hurray (Off Vocal)
+      ko: Hurray Hurray (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: diz}
+    instrumental_of: 9-members-ver
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

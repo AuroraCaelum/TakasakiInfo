@@ -1,0 +1,26 @@
+id: liella/departure
+project: liella
+title:
+  ja: Departure
+  kana: デパーチャー
+  rom: Departure
+  ko: Departure
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

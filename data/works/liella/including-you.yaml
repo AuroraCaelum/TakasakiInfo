@@ -1,0 +1,43 @@
+id: liella/including-you
+project: liella
+title:
+  ja: Including you
+  kana: インクルーディング・ユー
+  rom: Including you
+  ko: Including you
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takamasa-yura}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Including you (Off Vocal)
+      kana: インクルーディング・ユー (オフボーカル)
+      rom: Including you (Off Vocal)
+      ko: Including you (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

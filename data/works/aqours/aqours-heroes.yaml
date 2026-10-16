@@ -1,0 +1,71 @@
+id: aqours/aqours-heroes
+project: aqours
+title:
+  ja: Aqours☆HEROES
+  kana: アクアーズ ヒーローズ
+  rom: Aqours☆HEROES
+  ko: Aqours☆HEROES
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: Aqours☆HEROES (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Aqours☆HEROES (Chika Takami Solo Ver.)
+      ko: Aqours☆HEROES (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: Aqours☆HEROES (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Aqours☆HEROES (Riko Sakurauchi Solo Ver.)
+      ko: Aqours☆HEROES (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: Aqours☆HEROES (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Aqours☆HEROES (Ruby Kurosawa Solo Ver.)
+      ko: Aqours☆HEROES (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

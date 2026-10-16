@@ -1,0 +1,43 @@
+id: aqours/no-10
+project: aqours
+title:
+  ja: No.10
+  kana: ''
+  rom: No.10
+  ko: No.10
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akira-sunset}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: apazzi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: No.10 (Off Vocal)
+      kana: ''
+      rom: No.11 (Off Vocal)
+      ko: No.12 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: apazzi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

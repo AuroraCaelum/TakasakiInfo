@@ -1,0 +1,43 @@
+id: nijigasaki/level-oops-adventures
+project: nijigasaki
+title:
+  ja: Level Oops! Adventures
+  kana: レベル・ウップス!アドベンチャーズ
+  rom: Level Oops! Adventures
+  ko: Level Oops! Adventures
+credits:
+  lyricist:
+    - {person: t4k}
+  composer:
+    - {person: t4k}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: t4k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Level Oops! Adventures (Off Vocal)
+      kana: レベル・ウップス!アドベンチャーズ (オフボーカル)
+      rom: Level Oops! Adventures (Off Vocal)
+      ko: Level Oops! Adventures (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: t4k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

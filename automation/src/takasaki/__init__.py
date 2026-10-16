@@ -1,0 +1,1 @@
+"""TakasakiInfo data pipeline."""

@@ -1,0 +1,46 @@
+id: nijigasaki/kagayaki-don-t-forget
+project: nijigasaki
+title:
+  ja: KAGAYAKI Don’t forget!
+  kana: カガヤキ ドント フォーゲット
+  rom: KAGAYAKI Don’t forget!
+  ko: KAGAYAKI Don’t forget!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: t4k}
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: t4k}
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KAGAYAKI Don’t forget! (Off Vocal)
+      kana: カガヤキ ドント フォーゲット (オフボーカル)
+      rom: KAGAYAKI Don’t forget! (Off Vocal)
+      ko: KAGAYAKI Don’t forget! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: t4k}
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

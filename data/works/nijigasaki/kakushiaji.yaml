@@ -1,0 +1,45 @@
+id: nijigasaki/kakushiaji
+project: nijigasaki
+title:
+  ja: Kakushiaji!
+  kana: かくしあじ!
+  rom: Kakushiaji!
+  ko: Kakushiaji!
+credits:
+  lyricist:
+    - {person: nana-hatori}
+  composer:
+    - {person: passion-king}
+    - {person: ryosuke-saito-2}
+    - {person: nana-hatori}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ryosuke-saito-2}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Kakushiaji! (Off Vocal)
+      kana: かくしあじ! (オフボーカル)
+      rom: Kakushiaji! (Off Vocal)
+      ko: Kakushiaji! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ryosuke-saito-2}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

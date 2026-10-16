@@ -1,0 +1,48 @@
+id: liella/happy-to-do-wa
+project: liella
+title:
+  ja: HAPPY TO DO WA！
+  kana: ハッピー・トゥー・ドゥ・ワー
+  rom: HAPPY TO DO WA!
+  ko: HAPPY TO DO WA!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: kodai-iwatsubo}
+    - {person: kuwagata-fukino}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/keke-tang}
+      - {character: liella/sumire-heanna}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: kuwagata-fukino}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HAPPY TO DO WA！ (Off Vocal)
+      kana: ハッピー・トゥー・ドゥ・ワー (オフボーカル)
+      rom: HAPPY TO DO WA! (Off Vocal)
+      ko: HAPPY TO DO WA! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/keke-tang}
+      - {character: liella/sumire-heanna}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: kuwagata-fukino}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

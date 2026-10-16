@@ -1,0 +1,43 @@
+id: aqours/bokura-no-hashittekita-michi-wa
+project: aqours
+title:
+  ja: 僕らの走ってきた道は・・・
+  kana: ''
+  rom: Bokura no Hashittekita Michi wa…
+  ko: 우리가 달려온 길은…
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: effy, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕らの走ってきた道は・・・ (Off Vocal)
+      kana: ''
+      rom: Bokura no Hashittekita Michi wa… (Off Vocal)
+      ko: 우리가 달려온 길은… (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

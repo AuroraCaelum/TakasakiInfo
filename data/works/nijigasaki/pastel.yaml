@@ -1,0 +1,46 @@
+id: nijigasaki/pastel
+project: nijigasaki
+title:
+  ja: PASTEL
+  kana: パステル
+  rom: PASTEL
+  ko: PASTEL
+credits:
+  lyricist:
+    - {person: nine}
+  composer:
+    - {person: ygarshy}
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: ygarshy}
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: PASTEL (Off Vocal)
+      kana: パステル (オフボーカル)
+      rom: PASTEL (Off Vocal)
+      ko: PASTEL (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: ygarshy}
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,45 @@
+id: nijigasaki/michi-no-saki
+project: nijigasaki
+title:
+  ja: ミチノサキ
+  kana: ミチノサキ
+  rom: Michi no Saki
+  ko: 길의 끝
+credits:
+  lyricist:
+    - {person: manabu-marutani}
+    - {person: carlos-k}
+  composer:
+    - {person: manabu-marutani}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ミチノサキ (Off Vocal)
+      kana: ミチノサキ (オフボーカル)
+      rom: Michi no Saki (Off Vocal)
+      ko: 길의 끝 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

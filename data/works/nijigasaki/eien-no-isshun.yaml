@@ -1,0 +1,43 @@
+id: nijigasaki/eien-no-isshun
+project: nijigasaki
+title:
+  ja: 永遠の一瞬
+  kana: えいえんのいっしゅん
+  rom: Eien no Isshun
+  ko: 영원의 일순
+credits:
+  lyricist:
+    - {person: akira-sunset}
+  composer:
+    - {person: ryuki-baba}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: hisashi-nawata}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 永遠の一瞬 (Off Vocal)
+      kana: えいえんのいっしゅん (オフボーカル)
+      rom: Eien no Isshun (Off Vocal)
+      ko: 영원의 일순 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: hisashi-nawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

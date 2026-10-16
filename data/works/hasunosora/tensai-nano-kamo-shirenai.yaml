@@ -1,0 +1,43 @@
+id: hasunosora/tensai-nano-kamo-shirenai
+project: hasunosora
+title:
+  ja: 天才なのかもしれない
+  kana: てんさいなのかもしれない
+  rom: Tensai nano kamo Shirenai
+  ko: 천재일지도 몰라
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: yusuke-tojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: yusuke-tojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 天才なのかもしれない (Off Vocal)
+      kana: てんさいなのかもしれない (オフボーカル)
+      rom: Tensai nano kamo Shirenai (Off Vocal)
+      ko: 천재일지도 몰라 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: hasunosora-unit-2}
+    arranger:
+      - {person: yusuke-tojima}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

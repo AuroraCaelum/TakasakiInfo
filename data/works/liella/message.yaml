@@ -1,0 +1,37 @@
+id: liella/message
+project: liella
+title:
+  ja: Message
+  kana: メッセージ
+  rom: Message
+  ko: Message
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: sumire-ver
+    version: Sumire Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: kanon-ver
+    version: Kanon Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

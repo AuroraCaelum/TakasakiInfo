@@ -1,0 +1,26 @@
+id: musical/naritai-jibun
+project: musical
+title:
+  ja: なりたい自分
+  kana: なりたいじぶん
+  rom: Naritai Jibun
+  ko: 되고 싶은 자신
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: yuuna-sekine-as-anzu-takizawa}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,47 @@
+id: hasunosora/kiboteki-prism
+project: hasunosora
+title:
+  ja: 希望的プリズム
+  kana: きぼうてきプリズム
+  rom: Kiboteki Prism
+  ko: 희망적 프리즘
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: yuichiro-tsuru}
+    - {person: yumi-muroya}
+    - {person: haruka-kato}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: yuichiro-tsuru}
+      - {person: yu-manabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 希望的プリズム (Off Vocal)
+      kana: きぼうてきプリズム (オフボーカル)
+      rom: Kiboteki Prism (Off Vocal)
+      ko: 희망적 프리즘 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: yuichiro-tsuru}
+      - {person: yu-manabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

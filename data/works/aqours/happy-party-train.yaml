@@ -1,0 +1,88 @@
+id: aqours/happy-party-train
+project: aqours
+title:
+  ja: HAPPY PARTY TRAIN
+  kana: ''
+  rom: HAPPY PARTY TRAIN
+  ko: HAPPY PARTY TRAIN
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HAPPY PARTY TRAIN (Off Vocal)
+      kana: ''
+      rom: HAPPY PARTY TRAIN (Off Vocal)
+      ko: HAPPY PARTY TRAIN (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: HAPPY PARTY TRAIN (高海千歌 Solo Ver.)
+      kana: ''
+      rom: HAPPY PARTY TRAIN (Chika Takami Solo Ver.)
+      ko: HAPPY PARTY TRAIN (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: HAPPY PARTY TRAIN (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: HAPPY PARTY TRAIN (Riko Sakurauchi Solo Ver.)
+      ko: HAPPY PARTY TRAIN (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: HAPPY PARTY TRAIN (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: HAPPY PARTY TRAIN (Ruby Kurosawa Solo Ver.)
+      ko: HAPPY PARTY TRAIN (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

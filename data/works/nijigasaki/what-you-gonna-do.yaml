@@ -1,0 +1,107 @@
+id: nijigasaki/what-you-gonna-do
+project: nijigasaki
+title:
+  ja: わちゅごなどぅー
+  kana: わちゅごなどぅー
+  rom: What You Gonna Do?
+  ko: What You Gonna Do?
+credits:
+  lyricist:
+    - {person: novechica}
+    - {person: taishi-noguchi}
+  composer:
+    - {person: novechica}
+    - {person: taishi-noguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: novechica}
+      - {person: taishi-noguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 1nensei-yu-ver
+    title:
+      ja: わちゅごなどぅー (1年生＋侑 Ver.)
+      kana: わちゅごなどぅー (いちねんせい プラス ゆう ヴァージョン)
+      rom: What You Gonna Do? (1nensei + Yu Ver.)
+      ko: What You Gonna Do? (1학년 + 유우 Ver.)
+    version: 1年生＋侑 Ver.
+    performers:
+      - {artist: yu-takasaki}
+      - {character: nijigasaki/kasumi-nakasu}
+      - {character: nijigasaki/shizuku-osaka}
+      - {character: nijigasaki/rina-tennoji}
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: novechica}
+      - {person: taishi-noguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 2nensei-yu-ver
+    title:
+      ja: わちゅごなどぅー (2年生＋侑 Ver.)
+      kana: わちゅごなどぅー (にねんせい プラス ゆう ヴァージョン)
+      rom: What You Gonna Do? (2nensei + Yu Ver.)
+      ko: What You Gonna Do? (2학년 + 유우 Ver.)
+    version: 2年生＋侑 Ver.
+    performers:
+      - {artist: yu-takasaki}
+      - {character: nijigasaki/ayumu-uehara}
+      - {artist: ai-miyashita}
+      - {character: nijigasaki/setsuna-yuki}
+      - {artist: lanzhu-zhong}
+    arranger:
+      - {person: novechica}
+      - {person: taishi-noguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: 3nensei-yu-ver
+    title:
+      ja: わちゅごなどぅー (3年生＋侑 Ver.)
+      kana: わちゅごなどぅー (さんねんせい プラス ゆう ヴァージョン)
+      rom: What You Gonna Do? (3nensei + Yu Ver.)
+      ko: What You Gonna Do? (3학년 + 유우 Ver.)
+    version: 3年生＋侑 Ver.
+    performers:
+      - {artist: yu-takasaki}
+      - {character: nijigasaki/karin-asaka}
+      - {character: nijigasaki/kanata-konoe}
+      - {character: nijigasaki/emma-verde}
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: novechica}
+      - {person: taishi-noguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: わちゅごなどぅー (Off Vocal)
+      kana: わちゅごなどぅー (オフボーカル)
+      rom: What You Gonna Do? (Off Vocal)
+      ko: What You Gonna Do? (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: novechica}
+      - {person: taishi-noguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

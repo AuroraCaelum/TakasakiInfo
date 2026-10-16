@@ -1,0 +1,43 @@
+id: nijigasaki/fashionista
+project: nijigasaki
+title:
+  ja: Fashionista
+  kana: ファッショニスタ
+  rom: Fashionista
+  ko: Fashionista
+credits:
+  lyricist:
+    - {person: dummy-dog}
+  composer:
+    - {person: dummy-dog}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Fashionista (Off Vocal)
+      kana: ファッショニスタ (オフボーカル)
+      rom: Fashionista (Off Vocal)
+      ko: Fashionista (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: dummy-dog}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

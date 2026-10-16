@@ -1,0 +1,29 @@
+id: nijigasaki/evergreen
+project: nijigasaki
+title:
+  ja: Evergreen
+  kana: エバーグリーン
+  rom: Evergreen
+  ko: Evergreen
+credits:
+  lyricist:
+    - {person: ryota-saito}
+    - {person: naoyuki-chikatani}
+  composer:
+    - {person: ryota-saito}
+    - {person: naoyuki-chikatani}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: ryota-saito}
+      - {person: naoyuki-chikatani}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

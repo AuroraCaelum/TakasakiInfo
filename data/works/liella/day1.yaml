@@ -1,0 +1,44 @@
+id: liella/day1
+project: liella
+title:
+  ja: Day1
+  kana: デイワン
+  rom: Day1
+  ko: Day1
+credits:
+  lyricist:
+    - {person: ken-the-390}
+  composer:
+    - {person: menma}
+    - {person: ken-the-390}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Day1 (Off Vocal)
+      kana: デイワン (オフボーカル)
+      rom: Day1 (Off Vocal)
+      ko: Day1 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

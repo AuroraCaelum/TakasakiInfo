@@ -1,0 +1,43 @@
+id: aqours/dazzling-white-town
+project: aqours
+title:
+  ja: Dazzling White Town
+  kana: ''
+  rom: Dazzling White Town
+  ko: Dazzling White Town
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: saint-snow}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dazzling White Town (Off Vocal)
+      kana: ''
+      rom: Dazzling White Town (Off Vocal)
+      ko: Dazzling White Town (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: saint-snow}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

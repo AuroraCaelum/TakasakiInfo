@@ -423,16 +423,19 @@ legacy:
 ### 4.5 ID 규칙
 
 - 사람이 읽을 수 있는 slug를 **생성할 때 한 번 정하고 이후 바꾸지 않는다.** 이름이나 로마자가 수정되어도 ID는 유지한다.
-- 형식
-  - Person: `hata-aki`
-  - Character: `uehara-ayumu`
+- 형식. slug는 rom 표기를 적힌 순서 그대로 소문자·하이픈으로 바꾼 것이다.
+  - Person: `aki-hata`
+  - Character: `<project>/<slug>` (예: `nijigasaki/ayumu-uehara`)
   - Artist: `ikizurai-bu`
   - Work: `<project>/<slug>`
-  - Recording: `<work-id>#<variant>`
-  - Release: `<project>/<yyyy>-<slug>`
-- 충돌하면 `-2`처럼 접미사를 붙인다.
-- 삭제하지 않는다. `deprecated: true`와 `replaced_by`로 표시해 외부 소비자의 참조를 보호한다.
-- Concert는 `<project>/<slug>`, Venue는 `<slug>` 형식이다.
+  - Recording: `<work-id>#<variant>` (variant 예: `original`, `off-vocal`, `kanon-ver`, `chika-takami-solo-ver`)
+  - Release: `<project>/<yyyy>-<slug>`. 제목이 일본어뿐이면 대표곡의 rom, 그것도 없으면 발매 월일(`2021-0602`)
+  - Concert: `<project>/<slug>`, Venue·City: `<slug>`
+  - Edition: 발매물 안에서 `e1`, `e2` … (표시 이름은 `label`)
+- 프로젝트에 속한 엔티티(Character, Work, Release, Concert)는 ID에 프로젝트가 들어가고, 파일 경로도 `data/<종류>/<project>/…`가 된다.
+- 충돌하면 `-2`처럼 접미사를 붙인다. 병합 뒤에도 남는 쪽의 ID를 바꾸지 않는다.
+- 삭제하지 않는다. `deprecated: true`와 `replaced_by`로 표시해 외부 소비자의 참조를 보호한다. 단, 리뷰로 병합된 중복 엔티티는 지우고 남는 쪽에 alias로 남긴다(7.3절).
+- 스트리밍 URL의 키는 `<disc>-<디스크 안 순번>`이다(트랙 번호가 비어 있는 행도 가리킬 수 있도록).
 
 ### 4.6 공연 모델
 
@@ -814,7 +817,8 @@ similar: [] # 유사 기존 인물이 있으면 여기에 표시
 decision: ~ # approve | approve:<후보번호> | merge:<기존 id> | edit | reject
 ```
 
-- 사람은 `decision`만 채워서 같은 PR에 커밋한다. 봇이 다시 실행해 `data/`에 반영하고 리뷰 파일을 지운다.
+- 사람은 `decision`만 채워서 같은 PR에 커밋한다. 봇이 다시 실행해 `data/`에 반영하고 리뷰 파일을 지운다(`takasaki review apply`).
+  - decision 문법: `merge:<종류>:<id>`(병합. 참조를 고쳐 쓰고 다른 표기는 alias로 남김), `distinct`, `kind:<아티스트 종류>`, `rule` / `keep:<status>`(라틴 원어 이름의 ko), `done`(직접 고친 뒤 닫기). 자세한 것은 `automation/README.md`.
 - 모든 리뷰 항목이 처리되고 CI가 통과해야 병합할 수 있다.
 - 대량 백필 때는 같은 유형을 한 번에 승인하는 CLI를 제공한다(예: 판정표 3번 항목 일괄 승인).
 
@@ -1058,7 +1062,7 @@ flowchart LR
    - `/search`, `/random`이 정상 응답하는지 확인한다.
    - 실패하면 직전 `releases/<sha>/`를 현행 키로 다시 복사해 롤백하고 이슈를 연다.
 6. **Lambda 캐시 확인**: Lambda가 JSON을 실행 환경 메모리에 캐시한다면 새 파일이 바로 반영되지 않는다. 구현 전에 Lambda 코드를 확인한다. 캐시하고 있다면 S3 ETag 비교나 짧은 TTL을 넣는다.
-7. **`dbLastUpdate` 정의 변경**: 현행 `Process.py`는 빌드 시각을 넣는다. 그러면 데이터가 같아도 빌드할 때마다 파일이 바뀌어 골든 테스트(E8)와 멱등성 원칙에 어긋난다. 새 빌더는 **마지막 데이터 변경 커밋의 시각**을 넣는다.
+7. **`dbLastUpdate` 정의 변경**: 현행 `Process.py`는 빌드 시각을 넣는다. 그러면 데이터가 같아도 빌드할 때마다 파일이 바뀌어 골든 테스트(E8)와 멱등성 원칙에 어긋난다. 새 빌더는 시계를 읽지 않고 `data/meta.yaml`의 `db_last_update`를 그대로 넣는다. 이 값은 데이터를 바꾸는 쪽(sync 봇, `takasaki review apply`, 수동 편집 뒤 `takasaki stamp`)이 갱신한다. 그래서 빌드는 `data/`만의 순수 함수가 된다.
 
 필요한 설정: GitHub 저장소 변수 `AWS_ROLE_ARN`, `S3_BUCKET`, `API_BASE_URL`. 모두 비밀값이 아니다. AWS 쪽에는 OIDC 공급자와 IAM 역할을 한 번 만들어야 한다.
 

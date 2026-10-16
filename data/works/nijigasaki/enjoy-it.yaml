@@ -1,0 +1,44 @@
+id: nijigasaki/enjoy-it
+project: nijigasaki
+title:
+  ja: ENJOY IT！
+  kana: エンジョイ イット！
+  rom: ENJOY IT!
+  ko: ENJOY IT!
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: miyata-lefty-ryo}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: miyata-lefty-ryo}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ENJOY IT！ (Off Vocal)
+      kana: エンジョイ イット！ (オフボーカル)
+      rom: ENJOY IT! (Off Vocal)
+      ko: ENJOY IT! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: miyata-lefty-ryo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

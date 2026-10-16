@@ -1,0 +1,43 @@
+id: aqours/sunshine-pikkapika-ondo
+project: aqours
+title:
+  ja: サンシャインぴっかぴか音頭
+  kana: サンシャインぴっかぴかおんど
+  rom: Sunshine Pikkapika Ondo
+  ko: 선샤인 반짝반짝 선창
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: masumi-ito}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: サンシャインぴっかぴか音頭 (Off Vocal)
+      kana: サンシャインぴっかぴかおんど (オフボーカル)
+      rom: Sunshine Pikkapika Ondo (Off Vocal)
+      ko: 선샤인 반짝반짝 선창 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

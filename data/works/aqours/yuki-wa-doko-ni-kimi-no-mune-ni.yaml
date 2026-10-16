@@ -1,0 +1,43 @@
+id: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+project: aqours
+title:
+  ja: 勇気はどこに？君の胸に！
+  kana: ''
+  rom: Yuki wa Doko ni? Kimi no Mune ni!
+  ko: 용기는 어디에? 너의 가슴에!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kotaro-odaka-uina}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kotaro-odaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 勇気はどこに？君の胸に！ (Off Vocal)
+      kana: ''
+      rom: Yuki wa Doko ni? Kimi no Mune ni! (Off Vocal)
+      ko: 용기는 어디에? 너의 가슴에! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kotaro-odaka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

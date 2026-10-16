@@ -1,0 +1,45 @@
+id: liella/hot-passion
+project: liella
+title:
+  ja: HOT PASSION!!
+  kana: ホット・パッション
+  rom: HOT PASSION!!
+  ko: HOT PASSION!!
+credits:
+  lyricist:
+    - {person: lauren-kaori}
+  composer:
+    - {person: na-zu-na}
+    - {person: yuki-kokubo}
+    - {person: lauren-kaori}
+recordings:
+  - id: original
+    performers:
+      - {artist: sunny-passion}
+    arranger:
+      - {person: na-zu-na}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HOT PASSION!! (Off Vocal)
+      kana: ホット・パッション (オフボーカル)
+      rom: HOT PASSION!! (Off Vocal)
+      ko: HOT PASSION!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: sunny-passion}
+    arranger:
+      - {person: na-zu-na}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

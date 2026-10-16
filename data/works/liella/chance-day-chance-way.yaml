@@ -1,0 +1,43 @@
+id: liella/chance-day-chance-way
+project: liella
+title:
+  ja: Chance Day, Chance Way！
+  kana: チャンス・デイ、チャンス・ウェイ！
+  rom: Chance Day, Chance Way!
+  ko: Chance Day, Chance Way!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: kohei-tsunami}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kohei-tsunami}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Chance Day, Chance Way！ (Off Vocal)
+      kana: チャンス・デイ、チャンス・ウェイ！ (オフボーカル)
+      rom: Chance Day, Chance Way! (Off Vocal)
+      ko: Chance Day, Chance Way! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kohei-tsunami}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

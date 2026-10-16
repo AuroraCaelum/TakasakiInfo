@@ -1,0 +1,44 @@
+id: hasunosora/knot
+project: hasunosora
+title:
+  ja: KNOT
+  kana: ノット
+  rom: KNOT
+  ko: KNOT
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KNOT (Off Vocal)
+      kana: ノット (オフボーカル)
+      rom: KNOT (Off Vocal)
+      ko: KNOT (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

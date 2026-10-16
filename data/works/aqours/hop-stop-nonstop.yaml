@@ -1,0 +1,44 @@
+id: aqours/hop-stop-nonstop
+project: aqours
+title:
+  ja: Hop? Stop? Nonstop!
+  kana: ''
+  rom: Hop? Stop? Nonstop!
+  ko: Hop? Stop? Nonstop!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kanata-okajima}
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hop? Stop? Nonstop! (Off Vocal)
+      kana: ''
+      rom: Hop? Stop? Nonstop! (Off Vocal)
+      ko: Hop? Stop? Nonstop! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

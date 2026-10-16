@@ -1,0 +1,43 @@
+id: nijigasaki/kiss-the-sun
+project: nijigasaki
+title:
+  ja: Kiss the Sun
+  kana: キス・ザ・サン
+  rom: Kiss the Sun
+  ko: Kiss the Sun
+credits:
+  lyricist:
+    - {person: ereca}
+  composer:
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Kiss the Sun (Off Vocal)
+      kana: キス・ザ・サン (オフボーカル)
+      rom: Kiss the Sun (Off Vocal)
+      ko: Kiss the Sun (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

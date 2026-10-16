@@ -1,0 +1,43 @@
+id: nijigasaki/nijiiro-passions
+project: nijigasaki
+title:
+  ja: 虹色Passions!
+  kana: にじいろパッションズ!!
+  rom: Nijiiro Passions!
+  ko: 무지개색 Passions!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 虹色Passions! (Off Vocal)
+      kana: にじいろパッションズ!! (オフボーカル)
+      rom: Nijiiro Passions! (Off Vocal)
+      ko: 무지개색 Passions! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

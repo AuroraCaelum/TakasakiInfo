@@ -1,0 +1,45 @@
+id: liella/starlight-prologue
+project: liella
+title:
+  ja: Starlight Prologue
+  kana: スターライト・プロローグ
+  rom: Starlight Prologue
+  ko: Starlight Prologue
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Starlight Prologue (Off Vocal)
+      kana: スターライト・プロローグ (オフボーカル)
+      rom: Starlight Prologue (Off Vocal)
+      ko: Starlight Prologue (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

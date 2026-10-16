@@ -1,0 +1,47 @@
+id: nijigasaki/our-p13ces
+project: nijigasaki
+title:
+  ja: OUR P13CES!!!
+  kana: アワピーシーズ!!
+  rom: OUR P13CES!!!
+  ko: OUR P13CES!!!
+credits:
+  lyricist:
+    - {person: novechika}
+    - {person: takayuki-yoshimura}
+  composer:
+    - {person: novechika}
+    - {person: takayuki-yoshimura}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigaku-with-you}
+    arranger:
+      - {person: novechika}
+      - {person: takayuki-yoshimura}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: OUR P13CES!!! (Off Vocal)
+      kana: アワピーシーズ!! (オフボーカル)
+      rom: OUR P13CES!!! (Off Vocal)
+      ko: OUR P13CES!!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigaku-with-you}
+    arranger:
+      - {person: novechika}
+      - {person: takayuki-yoshimura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

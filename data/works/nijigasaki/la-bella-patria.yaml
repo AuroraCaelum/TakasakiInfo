@@ -1,0 +1,43 @@
+id: nijigasaki/la-bella-patria
+project: nijigasaki
+title:
+  ja: La Bella Patria
+  kana: ラ・ベラ・パトリア
+  rom: La Bella Patria
+  ko: La Bella Patria
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: yosuke-saito}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: yosuke-saito}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: La Bella Patria (Off Vocal)
+      kana: ラ・ベラ・パトリア (オフボーカル)
+      rom: La Bella Patria (Off Vocal)
+      ko: La Bella Patria (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: yosuke-saito}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

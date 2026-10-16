@@ -1,0 +1,27 @@
+id: nijigasaki/eieisa
+project: nijigasaki
+title:
+  ja: エイエ戦サー
+  kana: エイエイサー
+  rom: Eieisa
+  ko: 에이에 전사
+credits:
+  lyricist:
+    - {person: manaka-suzuki}
+  composer:
+    - {person: manaka-suzuki}
+    - {person: tatsuki-miyazawa}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: naoki-endo}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

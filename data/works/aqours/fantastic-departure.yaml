@@ -1,0 +1,44 @@
+id: aqours/fantastic-departure
+project: aqours
+title:
+  ja: Fantastic Departure!
+  kana: ''
+  rom: Fantastic Departure!
+  ko: Fantastic Departure!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kanata-okajima}
+    - {person: meg}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Fantastic Departure! (Off Vocal)
+      kana: ''
+      rom: Fantastic Departure! (Off Vocal)
+      ko: Fantastic Departure! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

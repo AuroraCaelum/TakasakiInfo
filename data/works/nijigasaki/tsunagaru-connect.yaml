@@ -1,0 +1,43 @@
+id: nijigasaki/tsunagaru-connect
+project: nijigasaki
+title:
+  ja: ツナガルコネクト
+  kana: ツナガルコネクト
+  rom: Tsunagaru Connect
+  ko: 이어지는 커넥트
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: deco-27}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: police-piccadilly}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ツナガルコネクト (Off Vocal)
+      kana: ツナガルコネクト (オフボーカル)
+      rom: Tsunagaru Connect (Off Vocal)
+      ko: 이어지는 커넥트 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: police-piccadilly}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

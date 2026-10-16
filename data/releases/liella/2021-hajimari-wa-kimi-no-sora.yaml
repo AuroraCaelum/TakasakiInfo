@@ -1,0 +1,54 @@
+id: liella/2021-hajimari-wa-kimi-no-sora
+title:
+  ja: 始まりは君の空
+projects: [liella]
+release_date: 2021-04-07
+editions:
+  - id: e1
+    label:
+      ja: みんなで叶える物語盤
+  - id: e2
+    label:
+      ja: 私を叶える物語盤
+discs:
+  - editions: [e1]
+    tracks:
+      - {no: 1, recording: liella/hajimari-wa-kimi-no-sora#original}
+      - {no: 2, recording: liella/dancing-heart-la-pa-pa-pa#original}
+      - {no: 3, recording: liella/dreaming-energy#original}
+      - {no: 4, recording: liella/hajimari-wa-kimi-no-sora#off-vocal}
+      - {no: 5, recording: liella/dancing-heart-la-pa-pa-pa#off-vocal}
+      - {no: 6, recording: liella/dreaming-energy#off-vocal}
+      - {no: 7, recording: liella/an-outing-with-everyone-the-plan#main, note: Drama Part}
+      - {no: 8, recording: liella/an-outing-with-everyone-the-gathering#main, note: Drama Part}
+  - editions: [e2]
+    tracks:
+      - {no: 1, recording: liella/hajimari-wa-kimi-no-sora#original}
+      - {no: 2, recording: liella/dancing-heart-la-pa-pa-pa#original}
+      - {no: 3, recording: liella/watashi-no-symphony#original}
+      - {no: 4, recording: liella/hajimari-wa-kimi-no-sora#off-vocal}
+      - {no: 5, recording: liella/dancing-heart-la-pa-pa-pa#off-vocal}
+      - {no: 6, recording: liella/watashi-no-symphony#off-vocal}
+      - {no: 7, recording: liella/konnichiwa-shibuya-kanon#main, note: Drama Part}
+      - {no: 8, recording: liella/doumo-tang-keke#main, note: Drama Part}
+      - {no: 9, recording: liella/uissu-arashi-chisato#main, note: Drama Part}
+      - {no: 10, recording: liella/omataseshimashita-heanna-sumire#main, note: Drama Part}
+      - {no: 11, recording: liella/hajimemashite-hazuki-ren#main, note: Drama Part}
+streaming:
+  - editions: [e1]
+    tracks:
+      1-1: bjIRLovzc80
+      1-2: tRwSxoz0JzU
+      1-3: 7u-i_OyaLaY
+  - editions: [e2]
+    tracks:
+      1-3: 6IdwHfgIzOQ
+legacy:
+  category: Liella
+  albums:
+    - {title: '始まりは君の空 [みんなで叶える物語盤]', edition: e1}
+    - {title: '始まりは君の空 [私を叶える物語盤]', edition: e2}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

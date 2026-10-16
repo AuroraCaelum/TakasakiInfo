@@ -1,0 +1,28 @@
+id: nijigasaki/diamond
+project: nijigasaki
+title:
+  ja: ダイアモンド
+  kana: ダイアモンド
+  rom: Diamond
+  ko: 다이아몬드
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+    - {person: joe}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: joe}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+    arranger:
+      - {person: tasuku}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

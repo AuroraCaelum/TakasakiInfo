@@ -1,0 +1,43 @@
+id: liella/tu-tu-tu
+project: liella
+title:
+  ja: トゥ トゥ トゥ！
+  kana: トゥ トゥ トゥ！
+  rom: Tu Tu Tu!
+  ko: 투 투 투!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: seiji-takagi}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: seiji-takagi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: トゥ トゥ トゥ！ (Off Vocal)
+      kana: トゥ トゥ トゥ！ (オフボーカル)
+      rom: Tu Tu Tu! (Off Vocal)
+      ko: 투 투 투! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: seiji-takagi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

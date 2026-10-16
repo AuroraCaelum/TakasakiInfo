@@ -1,0 +1,44 @@
+id: liella/yuuki-no-kakera
+project: liella
+title:
+  ja: 勇気のカケラ
+  kana: ゆうきのカケラ
+  rom: Yuuki no Kakera
+  ko: 용기의 조각
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: armyslick}
+    - {person: lauren-kaori}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: armyslick}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 勇気のカケラ (Off Vocal)
+      kana: ゆうきのカケラ (オフボーカル)
+      rom: Yuuki no Kakera (Off Vocal)
+      ko: 용기의 조각 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: armyslick}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

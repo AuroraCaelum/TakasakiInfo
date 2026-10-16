@@ -1,0 +1,46 @@
+id: aqours/oyasuminasan
+project: aqours
+title:
+  ja: おやすみなさん！
+  kana: ''
+  rom: Oyasuminasan!
+  ko: 안녕히 주무세여러분!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: satoru-shirasuka}
+    - {person: motoki-matsuda}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: satoru-shirasuka}
+      - {person: motoki-matsuda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: おやすみなさん！ (Off Vocal)
+      kana: ''
+      rom: Oyasuminasan! (Off Vocal)
+      ko: 안녕히 주무세여러분! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: satoru-shirasuka}
+      - {person: motoki-matsuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

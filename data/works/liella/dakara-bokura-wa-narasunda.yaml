@@ -1,0 +1,43 @@
+id: liella/dakara-bokura-wa-narasunda
+project: liella
+title:
+  ja: だから僕らは鳴らすんだ！
+  kana: だからぼくらはならすんだ！
+  rom: Dakara Bokura wa Narasunda!
+  ko: 그래서 우리는 소리를 울리는 거야!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mariko-fujii}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: だから僕らは鳴らすんだ！ (Off Vocal)
+      kana: だからぼくらはならすんだ！ (オフボーカル)
+      rom: Dakara Bokura wa Narasunda! (Off Vocal)
+      ko: 그래서 우리는 소리를 울리는 거야! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

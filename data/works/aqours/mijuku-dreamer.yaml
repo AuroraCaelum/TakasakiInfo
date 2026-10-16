@@ -1,0 +1,43 @@
+id: aqours/mijuku-dreamer
+project: aqours
+title:
+  ja: 未熟DREAMER
+  kana: みじゅく ドリーマー
+  rom: Mijuku DREAMER
+  ko: 미숙 DREAMER
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 未熟DREAMER (Off Vocal)
+      kana: みじゅく ドリーマー (オフボーカル)
+      rom: Mijuku DREAMER (Off Vocal)
+      ko: 미숙 DREAMER (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

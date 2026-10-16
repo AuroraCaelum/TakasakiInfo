@@ -1,0 +1,43 @@
+id: aqours/yozorawa-nandemo-shitteruno
+project: aqours
+title:
+  ja: 夜空はなんでも知ってるの？
+  kana: よぞらはなんでもしってるの
+  rom: Yozorawa Nandemo Shitteruno?
+  ko: 밤하늘은 뭐든지 알고 있는 거야?
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kon-k}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kon-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夜空はなんでも知ってるの？ (Off Vocal)
+      kana: よぞらはなんでもしってるの (オフボーカル)
+      rom: Yozorawa Nandemo Shitteruno? (Off Vocal)
+      ko: 밤하늘은 뭐든지 알고 있는 거야? (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: kon-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

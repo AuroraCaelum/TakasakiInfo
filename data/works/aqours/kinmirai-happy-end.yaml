@@ -1,0 +1,43 @@
+id: aqours/kinmirai-happy-end
+project: aqours
+title:
+  ja: 近未来ハッピーエンド
+  kana: ''
+  rom: Kinmirai Happy End
+  ko: 근미래 해피엔드
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryota-fujii}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: ryota-fujii}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 近未来ハッピーエンド (Off Vocal)
+      kana: ''
+      rom: Kinmirai Happy End (Off Vocal)
+      ko: 근미래 해피엔드 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: ryota-fujii}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

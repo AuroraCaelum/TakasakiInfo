@@ -1,0 +1,43 @@
+id: liella/utopia-magic
+project: liella
+title:
+  ja: ユートピアマジック
+  kana: ユートピアマジック
+  rom: Utopia Magic
+  ko: 유토피아 매직
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: aira}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ユートピアマジック (Off Vocal)
+      kana: ユートピアマジック (オフボーカル)
+      rom: Utopia Magic (Off Vocal)
+      ko: 유토피아 매직 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

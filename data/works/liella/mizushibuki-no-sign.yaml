@@ -1,0 +1,43 @@
+id: liella/mizushibuki-no-sign
+project: liella
+title:
+  ja: 水しぶきのサイン
+  kana: みずしぶきのサイン
+  rom: Mizushibuki no Sign
+  ko: 물보라의 신호
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 水しぶきのサイン (Off Vocal)
+      kana: みずしぶきのサイン (オフボーカル)
+      rom: Mizushibuki no Sign (Off Vocal)
+      ko: 물보라의 신호 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

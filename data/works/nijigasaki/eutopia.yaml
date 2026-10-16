@@ -1,0 +1,46 @@
+id: nijigasaki/eutopia
+project: nijigasaki
+title:
+  ja: Eutopia
+  kana: ユートピア
+  rom: Eutopia
+  ko: Eutopia
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: luna}
+    - {person: toshikazu-kadono}
+recordings:
+  - id: original
+    performers:
+      - {artist: lanzhu-zhong}
+    arranger:
+      - {person: luna}
+      - {person: toshikazu-kadono}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Eutopia (Off Vocal)
+      kana: ユートピア (オフボーカル)
+      rom: Eutopia (Off Vocal)
+      ko: Eutopia (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: lanzhu-zhong}
+    arranger:
+      - {person: luna}
+      - {person: toshikazu-kadono}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

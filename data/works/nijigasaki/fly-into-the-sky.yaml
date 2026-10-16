@@ -1,0 +1,43 @@
+id: nijigasaki/fly-into-the-sky
+project: nijigasaki
+title:
+  ja: Fly into the sky
+  kana: フライ・イントゥ・ザ・スカイ
+  rom: Fly into the sky
+  ko: Fly into the sky
+credits:
+  lyricist:
+    - {person: miyakei}
+  composer:
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Fly into the sky (Off Vocal)
+      kana: フライ・イントゥ・ザ・スカイ (オフボーカル)
+      rom: Fly into the sky (Off Vocal)
+      ko: Fly into the sky (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

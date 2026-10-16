@@ -1,0 +1,51 @@
+id: nijigasaki/maze-town
+project: nijigasaki
+title:
+  ja: Maze Town
+  kana: メイズタウン
+  rom: Maze Town
+  ko: Maze Town
+credits:
+  lyricist:
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+  composer:
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+    - {person: ryosuke-saito-2}
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ayato-fujiwara}
+      - {person: ryosuke-saito-2}
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Maze Town (Off Vocal)
+      kana: メイズタウン (オフボーカル)
+      rom: Maze Town (Off Vocal)
+      ko: Maze Town (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: ayato-fujiwara}
+      - {person: ryosuke-saito-2}
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

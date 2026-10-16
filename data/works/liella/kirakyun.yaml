@@ -1,0 +1,43 @@
+id: liella/kirakyun
+project: liella
+title:
+  ja: キラーキューン☆
+  kana: キラーキューン☆
+  rom: Kirakyun☆
+  ko: 반짝 두근☆
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: atsuki-okuma}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: atsuki-okuma}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: キラーキューン☆ (Off Vocal)
+      kana: キラーキューン☆ (オフボーカル)
+      rom: Kirakyun☆ (Off Vocal)
+      ko: 반짝 두근☆ (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: atsuki-okuma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

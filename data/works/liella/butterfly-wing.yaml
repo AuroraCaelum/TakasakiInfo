@@ -1,0 +1,43 @@
+id: liella/butterfly-wing
+project: liella
+title:
+  ja: Butterfly Wing
+  kana: バタフライ ウィング
+  rom: Butterfly Wing
+  ko: Butterfly Wing
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuya-mori}
+recordings:
+  - id: original
+    performers:
+      - {artist: wien-margarete}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Butterfly Wing (Off Vocal)
+      kana: バタフライ ウィング (オフボーカル)
+      rom: Butterfly Wing (Off Vocal)
+      ko: Butterfly Wing (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: wien-margarete}
+    arranger:
+      - {person: yuya-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

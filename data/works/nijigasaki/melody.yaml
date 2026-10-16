@@ -1,0 +1,27 @@
+id: nijigasaki/melody
+project: nijigasaki
+title:
+  ja: MELODY
+  kana: メロディー
+  rom: MELODY
+  ko: MELODY
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: manaka-suzuki}
+    - {person: hiroki-sagawa}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: ryosuke-saito}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,28 @@
+id: liella/hajimemashite-hazuki-ren
+kind: drama
+project: liella
+title:
+  ja: はじめまして。~葉月恋~
+  kana: はじめまして。~ハズキ レン~
+  rom: Hajimemashite. ~Hazuki Ren~
+  ko: 처음 뵙겠습니다. ~하즈키 렌~
+credits:
+  lyricist:
+    - {person: na}
+  composer:
+    - {person: na}
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: na}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

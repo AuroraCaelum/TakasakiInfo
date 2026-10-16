@@ -1,0 +1,32 @@
+id: musical/overture
+project: musical
+title:
+  ja: オーバーチュア
+  rom: Overture
+  ko: 서곡
+credits:
+  lyricist:
+    - {person: na}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: instrumental
+    kind: instrumental
+    title:
+      ja: オーバーチュア(instrumental)
+      kana: オーバーチュア(インストゥルメンタル)
+      rom: Overture (instrumental)
+      ko: 서곡
+    version: instrumental
+    performers:
+      - {artist: na}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

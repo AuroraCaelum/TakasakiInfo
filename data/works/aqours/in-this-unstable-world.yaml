@@ -1,0 +1,43 @@
+id: aqours/in-this-unstable-world
+project: aqours
+title:
+  ja: in this unstable world
+  kana: ''
+  rom: in this unstable world
+  ko: in this unstable world
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: rei-kamiya}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: rei-kamiya}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: in this unstable world (Off Vocal)
+      kana: ''
+      rom: in this unstable world (Off Vocal)
+      ko: in this unstable world (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: rei-kamiya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

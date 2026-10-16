@@ -1,0 +1,43 @@
+id: nijigasaki/dive
+project: nijigasaki
+title:
+  ja: DIVE!
+  kana: ダイブ！
+  rom: DIVE!
+  ko: DIVE!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: momiken}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: tasuku}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: DIVE! (Off Vocal)
+      kana: ダイブ！ (オフボーカル)
+      rom: DIVE! (Off Vocal)
+      ko: DIVE! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: tasuku}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

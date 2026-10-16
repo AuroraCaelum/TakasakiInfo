@@ -1,0 +1,88 @@
+id: aqours/hop-step-wai
+project: aqours
+title:
+  ja: ホップ・ステップ・ワーイ！
+  kana: ''
+  rom: Hop・Step・Wai!
+  ko: Hop・Step・와이!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ホップ・ステップ・ワーイ！ (Off Vocal)
+      kana: ''
+      rom: Hop・Step・Wai! (Off Vocal)
+      ko: Hop・Step・와이! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: cyaron-ver
+    title:
+      ja: ホップ・ステップ・ワーイ！ (CYaRon! ver.)
+      kana: ''
+      rom: Hop・Step・Wai! (CYaRon! ver.)
+      ko: Hop・Step・와이! (CYaRon! ver.)
+    version: CYaRon! ver.
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: azalea-ver
+    title:
+      ja: ホップ・ステップ・ワーイ！ (AZALEA ver.)
+      kana: ''
+      rom: Hop・Step・Wai! (AZALEA ver.)
+      ko: Hop・Step・와이! (AZALEA ver.)
+    version: AZALEA ver.
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: guilty-kiss-ver
+    title:
+      ja: ホップ・ステップ・ワーイ！ (Guilty Kiss ver.)
+      kana: ''
+      rom: Hop・Step・Wai! (Guilty Kiss ver.)
+      ko: Hop・Step・와이! (Guilty Kiss ver.)
+    version: Guilty Kiss ver.
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

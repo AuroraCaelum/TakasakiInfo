@@ -1,0 +1,46 @@
+id: aqours/pianoforte-monologue
+project: aqours
+title:
+  ja: Pianoforte Monologue
+  kana: ''
+  rom: Pianoforte Monologue
+  ko: Pianoforte Monologue
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hironori-aoki}
+    - {person: yuya-hirosawa}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: hironori-aoki}
+      - {person: yuya-hirosawa}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Pianoforte Monologue (Off Vocal)
+      kana: ''
+      rom: Pianoforte Monologue (Off Vocal)
+      ko: Pianoforte Monologue (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: hironori-aoki}
+      - {person: yuya-hirosawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,50 @@
+id: liella/stella
+project: liella
+title:
+  ja: Stella!
+  kana: ステラ！
+  rom: Stella!
+  ko: Stella!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: singo-kubota, affiliation: Jazzin'park}
+    - {person: satoru-kurihara-2, affiliation: Jazzin'park}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Stella! (Off Vocal)
+      kana: ステラ！ (オフボーカル)
+      rom: Stella! (Off Vocal)
+      ko: Stella! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: singo-kubota, affiliation: Jazzin'park}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

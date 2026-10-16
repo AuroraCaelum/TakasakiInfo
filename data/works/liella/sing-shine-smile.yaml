@@ -1,0 +1,45 @@
+id: liella/sing-shine-smile
+project: liella
+title:
+  ja: Sing！Shine！Smile！
+  kana: シング！シャイン！スマイル！
+  rom: Sing! Shine! Smile!
+  ko: Sing! Shine! Smile!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: tasuku-maeda}
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Sing！Shine！Smile！ (Off Vocal)
+      kana: シング！シャイン！スマイル！ (オフボーカル)
+      rom: Sing! Shine! Smile! (Off Vocal)
+      ko: Sing! Shine! Smile! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: tasuku-maeda}
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

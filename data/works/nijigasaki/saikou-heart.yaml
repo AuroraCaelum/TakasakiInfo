@@ -1,0 +1,43 @@
+id: nijigasaki/saikou-heart
+project: nijigasaki
+title:
+  ja: サイコーハート
+  kana: サイコーハート
+  rom: Saikou Heart
+  ko: 사이코 하트
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: passion-king}
+recordings:
+  - id: original
+    performers:
+      - {artist: ai-miyashita}
+    arranger:
+      - {person: passion-king}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: サイコーハート (Off Vocal)
+      kana: サイコーハート (オフボーカル)
+      rom: Saikou Heart (Off Vocal)
+      ko: 사이코 하트 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: ai-miyashita}
+    arranger:
+      - {person: passion-king}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

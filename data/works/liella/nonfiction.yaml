@@ -1,0 +1,44 @@
+id: liella/nonfiction
+project: liella
+title:
+  ja: ノンフィクション！！
+  kana: ノンフィクション！！
+  rom: Nonfiction!!
+  ko: 논픽션!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: monkichi}
+    - {person: hayato-tanaka}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: hayato-tanaka}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ノンフィクション！！ (Off Vocal)
+      kana: ノンフィクション！！ (オフボーカル)
+      rom: Nonfiction!! (Off Vocal)
+      ko: 논픽션!! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: hayato-tanaka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

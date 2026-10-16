@@ -1,0 +1,18 @@
+id: liella/2022-tva1-bd-full-gamers
+type: bd_bonus
+title:
+  ja: TVA1 BD Full (Gamers)
+projects: [liella]
+release_date: 2022-02-25
+discs:
+  - tracks:
+      - {no: 1, recording: liella/stella#original, note: TVA1 BD Full (Gamers)}
+      - {no: 2, recording: liella/stella#off-vocal, note: TVA1 BD Full (Gamers)}
+legacy:
+  category: Liella
+  albums:
+    - {title: TVA1 BD Full (Gamers)}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

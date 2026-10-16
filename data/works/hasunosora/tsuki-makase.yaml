@@ -1,0 +1,43 @@
+id: hasunosora/tsuki-makase
+project: hasunosora
+title:
+  ja: ツキマカセ
+  kana: ツキマカセ
+  rom: Tsuki Makase
+  ko: 츠키마카세
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: yoji-fukuda}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ツキマカセ (Off Vocal)
+      kana: ツキマカセ (オフボーカル)
+      rom: Tsuki Makase (Off Vocal)
+      ko: 츠키마카세 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

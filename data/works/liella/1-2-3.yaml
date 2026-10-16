@@ -1,0 +1,43 @@
+id: liella/1-2-3
+project: liella
+title:
+  ja: 1.2.3！
+  kana: ワン・トゥー・スリー
+  rom: 1.2.3!
+  ko: 1.2.3!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: mayuko-maruyama}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 1.2.3！ (Off Vocal)
+      kana: ワン・トゥー・スリー (オフボーカル)
+      rom: 1.2.3! (Off Vocal)
+      ko: 1.2.3! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

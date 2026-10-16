@@ -1,0 +1,49 @@
+id: aqours/g-senjou-no-cinderella
+project: aqours
+title:
+  ja: G線上のシンデレラ
+  kana: ''
+  rom: G Senjou no Cinderella
+  ko: G선상의 신데렐라
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takayuki-ishikura}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: ramseeni}
+      - {person: takayuki-ishikura}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: G線上のシンデレラ (Off Vocal)
+      kana: ''
+      rom: G Senjou no Cinderella (Off Vocal)
+      ko: G선상의 신데렐라 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: ramseeni}
+      - {person: takayuki-ishikura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

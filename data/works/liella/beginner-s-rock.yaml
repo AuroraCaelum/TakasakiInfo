@@ -1,0 +1,26 @@
+id: liella/beginner-s-rock
+project: liella
+title:
+  ja: ビギナーズRock!!
+  kana: ビギナーズ ロック!!
+  rom: Beginner's Rock!!
+  ko: 비기너즈 Rock!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: shinpei-nozaki}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: shinpei-nozaki}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

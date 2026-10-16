@@ -1,0 +1,44 @@
+id: liella/go-restart
+project: liella
+title:
+  ja: Go!! リスタート
+  kana: ゴー!! リスタート
+  rom: Go!! Restart
+  ko: Go!! 리스타트
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: gou-ishikuro}
+    - {person: mio-jorakuji}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Go!! リスタート (Off Vocal)
+      kana: ゴー!! リスタート (オフボーカル)
+      rom: Go!! Restart (Off Vocal)
+      ko: Go!! 리스타트 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: gou-ishikuro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

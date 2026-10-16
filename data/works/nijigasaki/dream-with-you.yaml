@@ -1,0 +1,46 @@
+id: nijigasaki/dream-with-you
+project: nijigasaki
+title:
+  ja: Dream with You
+  kana: ドリーム ウィズ ユー
+  rom: Dream with You
+  ko: Dream with You
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: mitsuyuki-miyake}
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: mitsuyuki-miyake}
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dream with You (Off Vocal)
+      kana: ドリーム ウィズ ユー (オフボーカル)
+      rom: Dream with You (Off Vocal)
+      ko: Dream with You (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: mitsuyuki-miyake}
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

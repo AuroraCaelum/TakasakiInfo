@@ -1,0 +1,27 @@
+id: hasunosora/awoke
+project: hasunosora
+title:
+  ja: AWOKE
+  kana: アウォーク
+  rom: AWOKE
+  ko: AWOKE
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

@@ -1,0 +1,43 @@
+id: liella/miracle-new-story
+project: liella
+title:
+  ja: MIRACLE NEW STORY
+  kana: ミラクル・ニュー・ストーリー
+  rom: MIRACLE NEW STORY
+  ko: MIRACLE NEW STORY
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: MIRACLE NEW STORY (Off Vocal)
+      kana: ミラクル・ニュー・ストーリー (オフボーカル)
+      rom: MIRACLE NEW STORY (Off Vocal)
+      ko: MIRACLE NEW STORY (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

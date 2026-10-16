@@ -1,0 +1,43 @@
+id: nijigasaki/emotion
+project: nijigasaki
+title:
+  ja: EMOTION
+  kana: エモーション
+  rom: EMOTION
+  ko: EMOTION
+credits:
+  lyricist:
+    - {person: tofubeats}
+  composer:
+    - {person: tofubeats}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: tofubeats}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: EMOTION (Off Vocal)
+      kana: エモーション (オフボーカル)
+      rom: EMOTION (Off Vocal)
+      ko: EMOTION (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: tofubeats}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

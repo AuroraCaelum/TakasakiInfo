@@ -1,0 +1,88 @@
+id: aqours/kokoro-magic-a-to-z
+project: aqours
+title:
+  ja: KOKORO Magic “A to Z”
+  kana: ''
+  rom: KOKORO Magic “A to Z”
+  ko: KOKORO Magic “A to Z”
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: effy, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KOKORO Magic “A to Z” (Off Vocal)
+      kana: ''
+      rom: KOKORO Magic “A to Z” (Off Vocal)
+      ko: KOKORO Magic “A to Z” (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: KOKORO Magic “A to Z” (高海千歌 Solo Ver.)
+      kana: ''
+      rom: KOKORO Magic “A to Z” (Chika Takami Solo Ver.)
+      ko: KOKORO Magic “A to Z” (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: KOKORO Magic “A to Z” (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: KOKORO Magic “A to Z” (Riko Sakurauchi Solo Ver.)
+      ko: KOKORO Magic “A to Z” (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: KOKORO Magic “A to Z” (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: KOKORO Magic “A to Z” (Ruby Kurosawa Solo Ver.)
+      ko: KOKORO Magic “A to Z” (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: effy, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

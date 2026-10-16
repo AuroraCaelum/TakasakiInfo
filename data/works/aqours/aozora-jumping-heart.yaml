@@ -1,0 +1,44 @@
+id: aqours/aozora-jumping-heart
+project: aqours
+title:
+  ja: 青空Jumping Heart
+  kana: あおぞら ジャンピングハート
+  rom: Aozora Jumping Heart
+  ko: 푸른 하늘 Jumping Heart
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ken-ito}
+    - {person: hajime-mitsumasu}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 青空Jumping Heart (Off Vocal)
+      kana: あおぞら ジャンピングハート (オフボーカル)
+      rom: Aozora Jumping Heart (Off Vocal)
+      ko: 푸른 하늘 Jumping Heart (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

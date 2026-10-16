@@ -1,0 +1,43 @@
+id: aqours/my-list-to-you
+project: aqours
+title:
+  ja: “MY LIST” to you!
+  kana: ''
+  rom: “MY LIST” to you!
+  ko: “MY LIST” to you!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tomoya-hara}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: ramseeni}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: “MY LIST” to you! (Off Vocal)
+      kana: ''
+      rom: “MY LIST” to you! (Off Vocal)
+      ko: “MY LIST” to you! (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: ramseeni}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

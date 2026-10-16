@@ -1,0 +1,18 @@
+id: liella/2022-tva2-bd-vol-4
+type: bd_bonus
+title:
+  ja: TVA2 BD Vol.4
+projects: [liella]
+release_date: 2022-12-23
+discs:
+  - tracks:
+      - {no: 1, recording: liella/hoshizora-monologue#original, note: TVA2 BD Vol.4}
+      - {no: 2, recording: liella/hoshizora-monologue#off-vocal, note: TVA2 BD Vol.4}
+legacy:
+  category: Liella
+  albums:
+    - {title: TVA2 BD Vol.4}
+evidence:
+  tracks:
+    status: legacy
+    source: migration:v1

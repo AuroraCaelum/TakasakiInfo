@@ -1,0 +1,71 @@
+id: aqours/matte-te-ai-no-uta
+project: aqours
+title:
+  ja: 待ってて愛のうた
+  kana: まっててあいのうた
+  rom: Matte Te Ai no Uta
+  ko: 기다려줘 사랑의 노래
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: chika-takami-solo-ver
+    title:
+      ja: 待ってて愛のうた (高海千歌 Solo Ver.)
+      kana: ''
+      rom: Matte Te Ai no Uta (Chika Takami Solo Ver.)
+      ko: 기다려줘 사랑의 노래 (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: 待ってて愛のうた (桜内梨子 Solo Ver.)
+      kana: ''
+      rom: Matte Te Ai no Uta (Riko Sakurauchi Solo Ver.)
+      ko: 기다려줘 사랑의 노래 (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: 待ってて愛のうた (黒澤ルビィ Solo Ver.)
+      kana: ''
+      rom: Matte Te Ai no Uta (Ruby Kurosawa Solo Ver.)
+      ko: 기다려줘 사랑의 노래 (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

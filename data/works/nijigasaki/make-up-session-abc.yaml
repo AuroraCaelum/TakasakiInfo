@@ -1,0 +1,44 @@
+id: nijigasaki/make-up-session-abc
+project: nijigasaki
+title:
+  ja: Make-up session ABC
+  kana: メイクアップセッション エービーシー
+  rom: Make-up session ABC
+  ko: Make-up session ABC
+credits:
+  lyricist:
+    - {person: takeru-yoda}
+  composer:
+    - {person: yoshihiro-suda}
+    - {person: takeru-yoda}
+recordings:
+  - id: original
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: yoshihiro-suda}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Make-up session ABC (Off Vocal)
+      kana: メイクアップセッション エービーシー (オフボーカル)
+      rom: Make-up session ABC (Off Vocal)
+      ko: Make-up session ABC (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: qu4rtz}
+    arranger:
+      - {person: yoshihiro-suda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

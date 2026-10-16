@@ -1,0 +1,44 @@
+id: nijigasaki/look-at-me-now
+project: nijigasaki
+title:
+  ja: Look at me now
+  kana: ルック・アット・ミー・ナウ
+  rom: Look at me now
+  ko: Look at me now
+credits:
+  lyricist:
+    - {person: miyakei}
+    - {person: ereca}
+  composer:
+    - {person: add108}
+recordings:
+  - id: original
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: add108}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Look at me now (Off Vocal)
+      kana: ルック・アット・ミー・ナウ (オフボーカル)
+      rom: Look at me now (Off Vocal)
+      ko: Look at me now (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: add108}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1

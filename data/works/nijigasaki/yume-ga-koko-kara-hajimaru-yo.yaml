@@ -1,0 +1,46 @@
+id: nijigasaki/yume-ga-koko-kara-hajimaru-yo
+project: nijigasaki
+title:
+  ja: 夢がここからはじまるよ
+  kana: ゆめがここからはじまるよ
+  rom: Yume ga Koko Kara Hajimaru yo
+  ko: 꿈이 이곳에서부터 이어져
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: ayumu-nakamura}
+    - {person: taishi-noguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: taishi-noguchi}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夢がここからはじまるよ (Off Vocal)
+      kana: ゆめがここからはじまるよ (オフボーカル)
+      rom: Yume ga Koko Kara Hajimaru yo (Off Vocal)
+      ko: 꿈이 이곳에서부터 이어져 (Off Vocal)
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: taishi-noguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: legacy
+        source: migration:v1
+evidence:
+  credits:
+    status: legacy
+    source: migration:v1
