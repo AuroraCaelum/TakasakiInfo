@@ -1,3 +1,5 @@
 cdk.out/
 .venv/
 __pycache__/
+# account-specific lookups (account id, AZs …); never commit in a public repo
+cdk.context.json

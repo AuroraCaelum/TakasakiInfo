@@ -23,8 +23,9 @@ concurrency:
 
 jobs:
   deploy:
-    # skip until the infrastructure exists and the repository variables are set (infra/README.md)
-    if: vars.AWS_ROLE_ARN != ''
+    # skip until the infrastructure exists and the repository settings are in place (infra/README.md).
+    # secrets can't be used in a job-level `if`, so the gate is a variable.
+    if: vars.S3_BUCKET != ''
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -41,8 +42,10 @@ jobs:
       - run: uv run takasaki check
       - uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          # a secret, so the role ARN (and the account id in it) is masked in the public logs
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ${{ vars.AWS_REGION }}
+          mask-aws-account-id: true
       - run: >-
           uv run takasaki deploy
           --bucket "${{ vars.S3_BUCKET }}"

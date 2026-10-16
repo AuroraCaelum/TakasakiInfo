@@ -1081,7 +1081,11 @@ flowchart LR
 7. **Lambda의 데이터 갱신**: Lambda는 데이터를 실행 환경 메모리에 들고 있으므로, `data/version.json`을 확인해 새 릴리스를 다시 읽어야 한다(10.6절).
 8. **`dbLastUpdate` 정의 변경**: 현행 `Process.py`는 빌드 시각을 넣는다. 그러면 데이터가 같아도 빌드할 때마다 파일이 바뀌어 골든 테스트(E8)와 멱등성 원칙에 어긋난다. 새 빌더는 시계를 읽지 않고 `data/meta.yaml`의 `db_last_update`를 그대로 넣는다. 이 값은 데이터를 바꾸는 쪽(sync 봇, `takasaki review apply`, 수동 편집 뒤 `takasaki stamp`)이 갱신한다. 그래서 빌드는 `data/`만의 순수 함수가 된다.
 
-필요한 설정: GitHub 저장소 변수 `AWS_ROLE_ARN`, `AWS_REGION`, `S3_BUCKET`, `DISTRIBUTION_ID`, `BASE_URL`. 모두 비밀값이 아니고, 값은 인프라 스택의 출력(Outputs)에서 가져온다.
+필요한 설정: 값은 인프라 스택의 출력(Outputs)에서 가져온다.
+
+- GitHub Secrets: `AWS_ROLE_ARN`. 공개 저장소의 Actions 로그는 누구나 볼 수 있으므로, AWS 계정 ID가 들어 있는 역할 ARN을 로그에서 가린다. 워크플로도 계정 ID 마스킹(`mask-aws-account-id`)을 켠다.
+- GitHub Variables: `AWS_REGION`, `S3_BUCKET`, `DISTRIBUTION_ID`, `BASE_URL`. 알려져도 쓸 수 없는 값이다.
+- 계정 ID와 알림 이메일은 저장소에 남기지 않는다. CDK에 명령줄 `-c`로만 넘기고, `infra/cdk.context.json`은 gitignore한다.
 
 **인프라 구성 (결정 D18)**
 
