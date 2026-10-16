@@ -200,7 +200,7 @@ class Track(Strict):
     recording: str  # "<work id>#<recording id>"
     title_as_printed: Names | None = None
     note: str | None = None
-    category: str | None = None  # v1 category override
+    category: str | None = None  # legacy category override
 
 
 class Disc(Strict):
@@ -306,7 +306,7 @@ class Concert(Strict):
     evidence: dict[str, Evidence] = {}
 
 
-# --- metadata and v1 layout ---------------------------------------------------
+# --- metadata and legacy layout ---------------------------------------------------
 
 
 class Meta(Strict):
@@ -336,7 +336,7 @@ class LayoutMembersFile(Strict):
 
 
 class LegacyLayout(Strict):
-    """Placement of entities in the v1 files, which are ordered by hand (DESIGN.md §10.1)."""
+    """Placement of entities in the legacy files, which are ordered by hand (DESIGN.md §10.1)."""
 
     integrated_order: list[str]
     albums: dict[str, LayoutAlbumsFile]

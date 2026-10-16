@@ -19,7 +19,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,7 +36,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: cyaron-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (CYaRon! ver.)
@@ -51,7 +51,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: azalea-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (AZALEA ver.)
@@ -66,7 +66,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: guilty-kiss-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (Guilty Kiss ver.)
@@ -81,8 +81,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

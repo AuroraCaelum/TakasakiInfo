@@ -7,7 +7,7 @@ TakasakiInfo 인프라 (AWS CDK, Python). 설계는 [../automation/docs/DESIGN.m
 ```
 사용자 → CloudFront (Flat-rate Free 플랜, WAF)
            ├─ /          → S3 site/   (연결 맵 사이트, 지금은 안내 페이지)
-           ├─ /data/*    → S3 data/   (v1 파일, version.json …)
+           ├─ /data/*    → S3 data/   (레거시 파일, version.json …)
            └─ /api/*     → Lambda Function URL (AuthType AWS_IAM)
 S3와 Function URL은 OAC로 CloudFront 경유 요청만 받는다.
 ```
@@ -118,7 +118,7 @@ npx aws-cdk@2 deploy --all \
 
 - **시험 업로드 (공개 데이터는 안 바뀜)**: GitHub → Actions → `deploy` → Run workflow → 브랜치 `dev/automation`. S3에 `releases/<커밋>/`만 생긴다.
 - **실제 배포**: `dev/automation`을 PR로 `main`에 병합하면 `deploy`가 자동으로 업로드 → 공개 → 무효화 → 스모크 테스트까지 한다. 실패하면 직전 릴리스로 되돌린다.
-- 브라우저로 확인: `<BaseUrl>/`, `<BaseUrl>/data/version.json`, `<BaseUrl>/data/v1/TakasakiInfo.json`, `<BaseUrl>/api/v2/health`
+- 브라우저로 확인: `<BaseUrl>/`, `<BaseUrl>/data/version.json`, `<BaseUrl>/data/legacy/TakasakiInfo.json`, `<BaseUrl>/api/v1/health`
 - 우회 차단 확인: S3 버킷 주소와 Lambda Function URL을 직접 열면 403이 나와야 한다.
 
 ### 7. 정리

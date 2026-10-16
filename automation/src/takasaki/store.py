@@ -165,8 +165,8 @@ def load_dataset(data_dir: Path) -> Dataset:
             ds.table(kind)[ent.id] = ent  # type: ignore[attr-defined]
     if (data_dir / "meta.yaml").exists():
         ds.meta = load_model(data_dir / "meta.yaml", m.Meta)
-    if (data_dir / "legacy" / "v1.yaml").exists():
-        ds.layout = load_model(data_dir / "legacy" / "v1.yaml", m.LegacyLayout)
+    if (data_dir / "legacy" / "layout.yaml").exists():
+        ds.layout = load_model(data_dir / "legacy" / "layout.yaml", m.LegacyLayout)
     return ds
 
 
@@ -181,8 +181,8 @@ def save_dataset(ds: Dataset, data_dir: Path) -> int:
         _write(data_dir / "meta.yaml", dump_model(ds.meta))
         written.add(data_dir / "meta.yaml")
     if ds.layout:
-        _write(data_dir / "legacy" / "v1.yaml", dump_model(ds.layout))
-        written.add(data_dir / "legacy" / "v1.yaml")
+        _write(data_dir / "legacy" / "layout.yaml", dump_model(ds.layout))
+        written.add(data_dir / "legacy" / "layout.yaml")
     for path in data_dir.rglob("*.yaml"):
         if path not in written:
             path.unlink()

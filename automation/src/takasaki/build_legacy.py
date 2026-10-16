@@ -1,4 +1,4 @@
-"""Generate the v1 files (DESIGN.md §10.1) from the canonical dataset.
+"""Generate the legacy files (DESIGN.md §10.1) from the canonical dataset.
 
 The output format reproduces the retired ``tools/Process.py`` byte for byte:
 CSV with BOM + CRLF and no trailing newline, JSON with tab indent (concerts use
@@ -300,8 +300,8 @@ def render_concert(ds: Dataset, c: m.Concert) -> dict[str, Any]:
     }
 
 
-def build_v1(ds: Dataset) -> dict[str, bytes]:
-    """Return {repo-relative path: file bytes} for every v1 file."""
+def build_legacy(ds: Dataset) -> dict[str, bytes]:
+    """Return {repo-relative path: file bytes} for every legacy file."""
     assert ds.layout is not None and ds.meta is not None
     out: dict[str, bytes] = {}
     mains = main_videos(ds)

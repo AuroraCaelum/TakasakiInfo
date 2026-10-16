@@ -1,7 +1,7 @@
 import pytest
 
 from takasaki import model as m
-from takasaki.build_v1 import build_v1
+from takasaki.build_legacy import build_legacy
 from takasaki.review import ReviewError, apply_reviews, distinct, merge
 from takasaki.store import load_dataset, repo_root
 
@@ -24,7 +24,7 @@ def test_merge_person_rewrites_credits_and_keeps_alias(ds):
     merge(ds, [f"person:{a[0]}", f"person:{b[0]}"], f"person:{b[0]}")
     assert a[0] not in ds.persons
     assert [x.text for x in ds.persons[b[0]].aliases] == ["菊池博人"]
-    csv = b"".join(v for k, v in build_v1(ds).items() if k.endswith(".csv")).decode("utf-8-sig")
+    csv = b"".join(v for k, v in build_legacy(ds).items() if k.endswith(".csv")).decode("utf-8-sig")
     assert "菊池博人" not in csv and "菊地博人" in csv
 
 

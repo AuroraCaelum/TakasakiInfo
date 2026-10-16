@@ -1,6 +1,6 @@
 """API Lambda behind CloudFront (Function URL, payload format 2.0). DESIGN.md §10.4, §10.6.
 
-For now it serves ``GET /api/v2/health``, which the deploy smoke test uses to check
+For now it serves ``GET /api/v1/health``, which the deploy smoke test uses to check
 the CloudFront → Lambda route and the data version. Query endpoints (§10.6) are
 added on top of the SQLite release in Phase 6.
 """
@@ -40,7 +40,7 @@ def handler(event: dict, context: object) -> dict:
     path = event.get("rawPath", "/")
     if method not in ("GET", "HEAD"):
         return _response(405, {"error": "method not allowed"}, "no-store")
-    if path == "/api/v2/health":
+    if path == "/api/v1/health":
         version = data_version()  # read every time: this route exists to report the live release
         if version is None:
             return _response(503, {"status": "no-data"}, "no-store")

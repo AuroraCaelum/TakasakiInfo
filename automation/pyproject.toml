@@ -1,7 +1,7 @@
 [project]
 name = "takasaki"
 version = "0.1.0"
-description = "TakasakiInfo data pipeline: canonical data model, legacy migration, and v1 builder"
+description = "TakasakiInfo data pipeline: canonical data model, legacy migration, and legacy builder"
 requires-python = ">=3.12"
 dependencies = [
     "pydantic>=2.7",

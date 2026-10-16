@@ -17,7 +17,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import Any
 
-from .build_v1 import build_v1
+from .build_legacy import build_legacy
 from .store import Dataset
 
 LIVE_PREFIXES = ("data/", "site/")
@@ -59,7 +59,7 @@ def landing_page(version: dict[str, str]) -> str:
     """Placeholder for the connection-map site (§10.7, Phase 7)."""
     rows = "".join(
         f'<li><a href="{html.escape(href)}">{html.escape(href)}</a></li>'
-        for href in ("/data/v1/TakasakiInfo.json", "/data/version.json", "/api/v2/health")
+        for href in ("/data/legacy/TakasakiInfo.json", "/data/version.json", "/api/v1/health")
     )
     return (
         "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\">"
@@ -73,7 +73,7 @@ def landing_page(version: dict[str, str]) -> str:
 
 def release_files(ds: Dataset, sha: str) -> dict[str, File]:
     """Every object of one release, keyed by its live path (``data/…`` or ``site/…``)."""
-    files = {f"data/v1/{rel}": File(blob, content_type(rel), DATA_CACHE) for rel, blob in build_v1(ds).items()}
+    files = {f"data/legacy/{rel}": File(blob, content_type(rel), DATA_CACHE) for rel, blob in build_legacy(ds).items()}
     version = version_doc(ds, sha)
     files["site/index.html"] = File(landing_page(version).encode("utf-8"), content_type("index.html"), DATA_CACHE)
     files[VERSION_KEY] = File(json.dumps(version, ensure_ascii=False).encode("utf-8"),
@@ -160,8 +160,8 @@ class Deployer:
     def smoke(self, version: dict[str, str]) -> None:
         checks = [
             ("/data/version.json", lambda d: d.get("sha") == version["sha"]),
-            ("/data/v1/TakasakiInfo.json", lambda d: d.get("dbLastUpdate") == version["dbLastUpdate"]),
-            ("/api/v2/health", lambda d: d.get("status") == "ok" and d.get("sha") == version["sha"]),
+            ("/data/legacy/TakasakiInfo.json", lambda d: d.get("dbLastUpdate") == version["dbLastUpdate"]),
+            ("/api/v1/health", lambda d: d.get("status") == "ok" and d.get("sha") == version["sha"]),
         ]
         for path, ok in checks:
             last: Any = None

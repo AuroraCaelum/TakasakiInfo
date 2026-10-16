@@ -3,7 +3,7 @@
 Routing (3 cache behaviors, managed policies only, so it fits the flat-rate Free plan):
 
     /          → S3 site/   (connection-map site, §10.7)
-    /data/*    → S3 data/   (v1 files, v2 JSON, SQLite, graph.json, version.json)
+    /data/*    → S3 data/   (legacy files, v1 JSON, SQLite, graph.json, version.json)
     /api/*     → Lambda Function URL (read-only queries)
 
 The bucket is private and the Function URL uses AWS_IAM auth; both accept only

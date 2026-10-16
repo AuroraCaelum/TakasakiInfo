@@ -63,7 +63,7 @@ def cdn(s3: FakeS3, broken_api: bool = False):
     """Serve the live prefixes the way the distribution does."""
     def fetch(url: str):
         path = url.removeprefix("https://cdn.example")
-        if path == "/api/v2/health":
+        if path == "/api/v1/health":
             if broken_api:
                 raise OSError("502 from origin")
             return {"status": "ok", **json.loads(s3.objects[VERSION_KEY][0])}
@@ -74,7 +74,7 @@ def cdn(s3: FakeS3, broken_api: bool = False):
 def release(sha: str, db: str, extra: dict | None = None) -> dict[str, File]:
     version = {"dbLastUpdate": db, "schemaVersion": "0.1.0", "sha": sha}
     files = {
-        "data/v1/TakasakiInfo.json": File(json.dumps({"dbLastUpdate": db, "data": []}).encode(), content_type(".json"), "c"),
+        "data/legacy/TakasakiInfo.json": File(json.dumps({"dbLastUpdate": db, "data": []}).encode(), content_type(".json"), "c"),
         "site/index.html": File(b"<html></html>", content_type(".html"), "c"),
         VERSION_KEY: File(json.dumps(version).encode(), content_type(".json"), "c"),
     }
@@ -96,10 +96,10 @@ def test_stage_only_leaves_live_prefixes_alone():
 
 def test_promote_mirrors_release_and_writes_version_last():
     s3, cf = FakeS3(), FakeCloudFront()
-    s3.objects["data/v1/old-file.json"] = (b"{}", "x")  # stale object from an earlier release
+    s3.objects["data/legacy/old-file.json"] = (b"{}", "x")  # stale object from an earlier release
     deployer(s3, cf, cdn(s3)).run("a1", release("a1", "T1"), promote=True)
     live = sorted(k for k in s3.objects if not k.startswith("releases/"))
-    assert live == ["data/v1/TakasakiInfo.json", VERSION_KEY, "site/index.html"]
+    assert live == ["data/legacy/TakasakiInfo.json", VERSION_KEY, "site/index.html"]
     live_writes = [k for k in s3.writes if not k.startswith("releases/")]
     assert live_writes[-1] == VERSION_KEY
     assert cf.invalidations == 1
@@ -111,13 +111,13 @@ def test_failed_smoke_rolls_back_to_previous_release():
     with pytest.raises(DeployError):
         deployer(s3, cf, cdn(s3, broken_api=True)).run("b2", release("b2", "T2"), promote=True)
     assert json.loads(s3.objects[VERSION_KEY][0])["sha"] == "a1"
-    assert json.loads(s3.objects["data/v1/TakasakiInfo.json"][0])["dbLastUpdate"] == "T1"
+    assert json.loads(s3.objects["data/legacy/TakasakiInfo.json"][0])["dbLastUpdate"] == "T1"
     assert cf.invalidations == 3  # a1, b2, rollback to a1
 
 
 def test_incomplete_release_is_refused():
     s3, cf = FakeS3(), FakeCloudFront()
-    s3.objects["releases/x/data/v1/TakasakiInfo.json"] = (b"{}", "x")
+    s3.objects["releases/x/data/legacy/TakasakiInfo.json"] = (b"{}", "x")
     with pytest.raises(DeployError, match="incomplete"):
         deployer(s3, cf, cdn(s3)).promote("x")
 
@@ -130,8 +130,8 @@ def test_release_files_from_dataset():
     if not (data / "meta.yaml").exists():
         pytest.skip("data/ not migrated yet")
     files = release_files(load_dataset(data), "abc123")
-    assert "data/v1/TakasakiInfo.json" in files and "data/v1/albums/Aqours/Aqours.csv" in files
-    assert files["data/v1/albums/Aqours/Aqours.csv"].content_type == "text/csv; charset=utf-8"
+    assert "data/legacy/TakasakiInfo.json" in files and "data/legacy/albums/Aqours/Aqours.csv" in files
+    assert files["data/legacy/albums/Aqours/Aqours.csv"].content_type == "text/csv; charset=utf-8"
     version = json.loads(files[VERSION_KEY].body)
     assert version["sha"] == "abc123"
-    assert json.loads(files["data/v1/TakasakiInfo.json"].body)["dbLastUpdate"] == version["dbLastUpdate"]
+    assert json.loads(files["data/legacy/TakasakiInfo.json"].body)["dbLastUpdate"] == version["dbLastUpdate"]

@@ -1,4 +1,4 @@
-"""One-time migration of the v1 files into the canonical dataset (DESIGN.md §12, M1–M6).
+"""One-time migration of the legacy files into the canonical dataset (DESIGN.md §12, M1–M6).
 
 Principle: lossless first. Entity identity is the exact (ja, rom, ko) triple, so
 spelling variants become separate entities plus a review item instead of being
@@ -29,7 +29,7 @@ from .text import (
     LANGS, is_latin, match_key, nfc, note_version, parse_credit, recording_kind, slugify, split_version,
 )
 
-# (v1 file group, project id, v1 category) in tools/Process.py order
+# (legacy file group, project id, legacy category) in tools/Process.py order
 GROUPS = [
     ("Muse", "muse", "Muse"),
     ("Aqours", "aqours", "Aqours"),
@@ -41,7 +41,7 @@ GROUPS = [
 GROUP_ARTISTS = {"Aqours", "虹ヶ咲学園スクールアイドル同好会", "Liella!", "蓮ノ空女学院スクールアイドルクラブ", "μ's", "μ’s"}
 _EDITION = re.compile(r"^(?P<base>.+?)\s*(?:【(?P<a>[^】]+)】|［(?P<b>[^］]+盤)］|\[(?P<c>[^\]]+盤)\]|（(?P<d>[^）]+盤)）|\((?P<e>[^)]+盤)\))$")
 _DISC = re.compile(r"^(?P<base>.+?)\s*\[Disc (?P<n>\d+)\]$")
-LEGACY = m.Evidence(status=m.Status.legacy, source="migration:v1")
+LEGACY = m.Evidence(status=m.Status.legacy, source="migration:legacy")
 
 
 @dataclass
@@ -201,7 +201,7 @@ class Migrator:
     # --- albums -------------------------------------------------------------
 
     def import_albums(self) -> dict[str, m.LayoutAlbumsFile]:
-        # v1 albums = runs of consecutive rows with the same album name (and date)
+        # legacy albums = runs of consecutive rows with the same album name (and date)
         files: dict[str, list[tuple[str, list[list[str]]]]] = {}
         boms: dict[str, bool] = {}
         for group, project, _ in GROUPS:

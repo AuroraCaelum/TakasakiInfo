@@ -137,6 +137,6 @@ _NOTE_VERSION = re.compile(r"(?:^|,\s*)([^,]*?\bVer\.?)\s*(?=,|$)")
 
 
 def note_version(note: str) -> str | None:
-    """Version label carried only in the v1 note column (e.g. ``Kanon Ver.``)."""
+    """Version label carried only in the legacy note column (e.g. ``Kanon Ver.``)."""
     m = _NOTE_VERSION.search(note)
     return m.group(1).strip() if m else None

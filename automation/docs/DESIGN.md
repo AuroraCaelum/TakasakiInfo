@@ -12,7 +12,7 @@
 - **고유명사는 승인된 사전에서만 출력한다.** 처음 보는 이름은 자동으로 확정하지 않는다. 출처와 근거가 붙은 후보를 만들어 사람이 한 번 승인하면, 그 뒤로는 영구히 재사용한다.
 - **수집은 소스별 어댑터가 하고, 필드별 우선순위로 병합한다.** 공식 소스끼리 어긋나면 병합을 막고 리뷰로 넘긴다(fail-closed).
 - **GitHub Actions가 매일 신규 발매를 감지해 PR을 만들고, 병합은 사람이 승인한다.** 수정 없이 승인되는 변경 유형만 단계적으로 자동 병합을 연다.
-- **원천은 Git의 YAML이고, 질의용 DB(SQLite)와 그래프 데이터는 빌드 산출물이다.** 이것이 고도화된 API v2와 인터랙티브 연결 맵의 기반이 된다(10.5~10.7절).
+- **원천은 Git의 YAML이고, 질의용 DB(SQLite)와 그래프 데이터는 빌드 산출물이다.** 이것이 고도화된 새 API와 인터랙티브 연결 맵의 기반이 된다(10.5~10.7절).
 - **공연은 소스마다 역할을 나눈다.** 공식 사이트는 일정·회장·출연진, Fandom은 세트리스트 속보, 나무위키는 교차 확인과 한국어 표기, 라이브 BD·인터넷 생방송(配信) 트랙리스트는 최종 확정을 맡는다. 세트리스트는 곡(Work)을 참조한다. 그래야 음원 발매 전에 공연에서 먼저 공개된 곡도 표현할 수 있다.
 - **`©プロジェクトイキヅライブ！`(イキヅライブ！ LOVELIVE! BLUEBIRD)를 신규 프로젝트로 추가하고, 새 파이프라인의 파일럿으로 삼는다.**
 
@@ -46,7 +46,7 @@
 - 가사, 이미지 수집 및 배포 (저작권)
 - 완전 무인 운영. 정확도가 최우선이므로 사람의 승인 단계는 없애지 않는다. 대신 승인 횟수를 최소화한다.
 - OST 백필. README의 우선순위를 유지한다. 모델은 OST도 표현할 수 있게 설계한다.
-- 기존 API와의 호환. 사용자가 없으므로 이행 기간 없이 새 API로 교체한다(결정 D17, 10.4절). 저장소의 v1 파일은 계속 생성한다.
+- 기존 API와의 호환. 사용자가 없으므로 이행 기간 없이 새 API로 교체한다(결정 D17, 10.4절). 저장소의 레거시 파일은 계속 생성한다.
 
 ---
 
@@ -175,7 +175,7 @@ YouTube Music은 발매물마다, 에디션마다 앨범을 따로 만들고 vid
 Track에 저장하는 것은 **그 수록 자신의 URL(자기 URL)뿐이다.** 스트리밍이 없는 발매물(BD 특전 CD 등)이거나 그 버전만 배포되지 않은 경우에는 자기 URL을 비워 둔다. 출력할 때는 빌더가 기존 관행대로 그 곡의 **메인 URL**을 계산해서 넣는다. 사람이 URL을 복사해 넣지 않으므로, 링크 오류 2건 같은 복사 실수가 생기지 않는다.
 
 - **메인 URL**: 같은 Recording의 Track 중 **자기 URL이 있는 것 가운데 가장 먼저 발매된 Track**의 URL. 발매일이 같으면 오리지널 싱글·앨범을 컴필레이션보다 우선하고, 그다음 에디션 순서(`통상반` > `디지털` > 그 외)로 정한다. 예: `Pops heartで踊るんだもん！`는 TVA1 BD Vol.1(2016)이 최초 발매지만 스트리밍이 없으므로, Aqours CHRONICLE(2020) 수록분이 메인이다.
-- **출력 순서** (v1 `albums`·`songs`·통합 JSON의 각 행):
+- **출력 순서** (레거시 `albums`·`songs`·통합 JSON의 각 행):
   1. 자기 URL
   2. 같은 Recording(동일 음원)의 메인 URL
   3. `NA`
@@ -183,8 +183,8 @@ Track에 저장하는 것은 **그 수록 자신의 URL(자기 URL)뿐이다.** 
   - 그래서 `わちゅごなどぅー (Off Vocal)`은 `NA`가 된다.
   - TVA2 BD Vol.1 `One More Sunshine Story`는 메인 URL 후보가 高海千歌 솔로 앨범의 `(Album Version)`이다. 이관할 때 동일 음원인지 확인하고, 아니면 `NA`가 된다([부록 A-2](#a-2-링크-점검-대상)).
 - 메인을 규칙과 다르게 고를 필요가 있으면 Track에 `links.youtube_music: {use: <Track ID>, note: …}`로 명시한다. 단 `use`는 **같은 Recording의 Track만** 가리킬 수 있다(검증기가 강제).
-- v2에는 각 Track의 링크와 함께 출처(`own` / `main` / `none`)를 내보낸다. "이 앨범의 URL"과 "메인 URL로 대체된 URL"을 소비자가 구분할 수 있다.
-- Recording 단위 뷰(v2 `recordings.json`, 공연 세트리스트 링크 등)도 같은 메인 URL을 쓴다.
+- v1에는 각 Track의 링크와 함께 출처(`own` / `main` / `none`)를 내보낸다. "이 앨범의 URL"과 "메인 URL로 대체된 URL"을 소비자가 구분할 수 있다.
+- Recording 단위 뷰(v1 `recordings.json`, 공연 세트리스트 링크 등)도 같은 메인 URL을 쓴다.
 
 ### 4.3 엔티티 YAML 예시
 
@@ -200,7 +200,7 @@ names:
   rom: Ikizulive! LOVELIVE! BLUEBIRD
   ko: 이키즈라이부! LOVELIVE! BLUEBIRD # 결정 D15 (우선 확정. 공식 한국어 표기가 나오면 교체)
 legacy:
-  category: Ikizulive # v1 산출물의 category 값과 파일명 (결정 D3)
+  category: Ikizulive # 레거시 산출물의 category 값과 파일명 (결정 D3)
 copyright:
   - text: ©プロジェクトイキヅライブ！
     lang: ja
@@ -225,7 +225,7 @@ names:
 native_script: ja # ja | latin (latin이면 ko에도 원문을 쓴다. 5.4절)
 aliases: [] # 크레딧에서 관측된 변형. 매칭에만 쓰고 출력하지 않는다
 evidence:
-  names: { status: legacy, source: 'migration:v1', checked: 2026-10-15 }
+  names: { status: legacy, source: 'migration:legacy', checked: 2026-10-15 }
 ```
 
 **Person**: 표기 변형과 오기가 있는 인물
@@ -351,7 +351,7 @@ streaming:
 links:
   official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5830
   smartlink: https://lnk.to/LACM-24819d
-legacy: # v1 산출물 재현용 (기본값: 발매물 1개 = v1 앨범 1개)
+legacy: # 레거시 산출물 재현용 (기본값: 발매물 1개 = 레거시 앨범 1개)
   albums: [{ title: 'Dou-Da? DOING! / REGAIN AGAIN LLLLOVE', edition: regular }]
 ```
 
@@ -406,18 +406,18 @@ legacy:
       }
 ```
 
-`legacy.albums`에 3개를 선언했으므로 v1 산출물은 지금과 똑같이 앨범 3개, 행 18개로 재현된다. 각 행에는 자기 에디션의 URL이 들어간다.
+`legacy.albums`에 3개를 선언했으므로 레거시 산출물은 지금과 똑같이 앨범 3개, 행 18개로 재현된다. 각 행에는 자기 에디션의 URL이 들어간다.
 
 ### 4.4 다국어 이름 필드와 상태(status)
 
 모든 이름·제목 필드는 `ja`, `kana`, `rom`, `ko` 네 값을 가진다. 근거는 `evidence`에 필드 단위로 기록한다.
 
-| status        | 의미                                                               | v1 산출물 출력       |
+| status        | 의미                                                               | 레거시 산출물 출력       |
 | ------------- | ------------------------------------------------------------------ | -------------------- |
 | `official`    | 권리자가 해당 언어로 낸 공식 표기                                  | O                    |
 | `established` | 공식 표기는 없지만 널리 쓰이는 관용 표기이고, 사람이 출처를 확인함 | O                    |
 | `derived`     | 규칙 엔진이 생성했고 사람이 승인함                                 | O                    |
-| `legacy`      | v1 수작업 데이터에서 이관된 값 (신뢰하되 재검증 우선순위 낮음)     | O                    |
+| `legacy`      | 레거시 수작업 데이터에서 이관된 값 (신뢰하되 재검증 우선순위 낮음)     | O                    |
 | `draft`       | 미승인 제안 (규칙 엔진, LLM, B급 소스 단독)                        | **X → CI 병합 차단** |
 
 ### 4.5 ID 규칙
@@ -448,7 +448,7 @@ legacy:
 **곡이 아닌 항목은 타입으로 구분한다.**
 
 - 타입: `mc`, `video`, `encore`(앙코르 시작), `double_encore`, `talk`(캐릭터 토크 등), `other`
-- v1 출력 시 현행 문자열(`::MC1`, `::VID2`)로 렌더링한다. 번호는 빌더가 매긴다.
+- 레거시 출력 시 현행 문자열(`::MC1`, `::VID2`)로 렌더링한다. 번호는 빌더가 매긴다.
 
 **출연진은 공연일 단위로 둔다.**
 
@@ -549,7 +549,7 @@ cast_changes: []
   - 크레딧에 나온 다른 표기는 `aliases`로 저장한다. 입력 매칭에는 쓰지만 출력에는 정규 표기만 나온다.
   - 오기(誤記)도 `kind: misprint` alias로 남긴다. 공식 사이트에도 오기가 있기 때문이다.
   - 공백은 사람마다 정규 표기를 따른다(`畑 亜貴` 대 `光増ハジメ`). **공백을 일괄 정규화하지 않는다.** 대신 공백만 다른 변형은 검증기가 "같은 인물인지" 확인을 요청한다.
-- **소속 표기**(`(Arte Refract)`, `(FirstCall)`, `(Jazzin'park)`)는 인명에 포함하지 않는다. 크레딧의 `affiliation` 필드로 분리한다. v1 출력 시에는 현행 다수 형식인 `名前(所属)`(괄호를 붙여 씀)으로 통일한다(결정 D10). 예: `光増ハジメ(FirstCall)`. 공식 사이트가 `光増ハジメ (FirstCall)`처럼 띄어 써도 마찬가지다.
+- **소속 표기**(`(Arte Refract)`, `(FirstCall)`, `(Jazzin'park)`)는 인명에 포함하지 않는다. 크레딧의 `affiliation` 필드로 분리한다. 레거시 출력 시에는 현행 다수 형식인 `名前(所属)`(괄호를 붙여 씀)으로 통일한다(결정 D10). 예: `光増ハジメ(FirstCall)`. 공식 사이트가 `光増ハジメ (FirstCall)`처럼 띄어 써도 마찬가지다.
 
 ### 5.3 로마자(rom)
 
@@ -612,7 +612,7 @@ cast_changes: []
 - 번역안은 **반드시 사람이 승인한다.**
 - 기존 번역에는 판단이 많이 들어가 있다. 예: `コワレヤスキ` → 부서지기 쉬운 사랑, `ホップ・ステップ・ワーイ！` → Hop・Step・와이!. 그래서 기존 승인 번역 512개를 스타일 예시집으로 쓴다.
 
-### 5.5 발음(kana, v1의 `pronunciation`)
+### 5.5 발음(kana, 레거시의 `pronunciation`)
 
 - **곡명**은 형태소 분석기(SudachiPy, 또는 MeCab+UniDic)로 초안을 만들고 사람이 확인한다. 기존 관행은 원문이 가타카나·라틴이면 가타카나, 한자·히라가나면 히라가나로 쓰는 것이다(`ときめきランナーズ`, `ゆめへのいっぽ`).
 - **인명 읽기에는 형태소 분석기를 쓰지 않는다.** `秀`(しゅう/ひで)처럼 읽기가 모호하기 때문이다. 공식 후리가나(보도자료, 소속사 프로필)만 쓴다.
@@ -649,7 +649,7 @@ cast_changes: []
 | 라이브 BD·인터넷 생방송(配信) 상품 트랙리스트             | **A**            | 수록된 공연일의 세트리스트와 곡별 가창자 확정                                                                                                                                     | 공식 상품 페이지, Lantis                                                                                                          | 공연 후 수개월~1년 뒤에 나옴. 일부 공연일만 수록                                                                                                                                                                             |
 | 공식 X의 세트리스트 공지                                  | **A**            | 공연 직후 세트리스트 (게시되는 경우)                                                                                                                                              | 사람이 확인                                                                                                                       | 이미지인 경우가 많음. 자동 수집 대상 아님                                                                                                                                                                                    |
 | VGMdb, JASRAC J-WID                                       | **B**            | 크레딧 교차 확인                                                                                                                                                                  | **사람이 참조만**                                                                                                                 | 공식 API 없음                                                                                                                                                                                                                |
-| 기존 v1 데이터                                            | legacy           | 전 필드                                                                                                                                                                           | 이관 (12절)                                                                                                                       | 수작업 검증분                                                                                                                                                                                                                |
+| 기존 레거시 데이터                                            | legacy           | 전 필드                                                                                                                                                                           | 이관 (12절)                                                                                                                       | 수작업 검증분                                                                                                                                                                                                                |
 
 ### 6.2 필드별 우선순위
 
@@ -706,7 +706,7 @@ flowchart LR
   end
   subgraph S3[검증·배포]
     N --> V[Validate]
-    V --> B[Build<br/>v1·v2 산출물]
+    V --> B[Build<br/>레거시·v1 산출물]
     B --> PR[Pull Request<br/>+리뷰 항목]
     PR --> H{사람 검토}
     H -->|승인| M[Merge → Publish]
@@ -775,7 +775,7 @@ flowchart LR
 | 6    | 일치 없음                                                                                                              | 새 Work + Recording      | 자동 생성 (이름은 별도로 검증) |
 
 - 버전 표식 패턴은 config로 관리한다. 모르는 괄호 표식이 나오면 경고를 낸다.
-- Off Vocal은 원곡 Recording에 `instrumental_of`로 연결한다. v1 `songs`에서는 지금처럼 제외한다.
+- Off Vocal은 원곡 Recording에 `instrumental_of`로 연결한다. 레거시 `songs`에서는 지금처럼 제외한다.
 - **이 판정표는 Recording 공유 여부만 정한다.** 결과와 상관없이 관측된 수록마다 Track을 하나씩 만들고 URL을 그대로 붙인다(4.2절).
 - URL은 동일성 신호로 쓰지 않는다. 앨범과 에디션마다 URL이 다르므로, URL이 다르다고 다른 Recording이라고 볼 수 없다. 반대로 서로 다른 Track에 같은 URL이 나오면 입력 오류일 가능성이 높으므로 E11로 막는다.
 
@@ -824,7 +824,7 @@ decision: ~ # approve | approve:<후보번호> | merge:<기존 id> | edit | reje
 
 ### 7.4 발매물 생애주기
 
-| 상태        | 의미                                                  | v1 산출물 | v2 산출물        |
+| 상태        | 의미                                                  | 레거시 산출물 | v1 산출물        |
 | ----------- | ----------------------------------------------------- | --------- | ---------------- |
 | `announced` | 발표만 됨. 트랙·크레딧이 일부만 공개됨                | 제외      | 상태와 함께 포함 |
 | `released`  | 발매일이 지났고 링크를 확보함                         | 포함      | 포함             |
@@ -859,14 +859,14 @@ decision: ~ # approve | approve:<후보번호> | merge:<기존 id> | edit | reje
 
 공연은 음반과 정보가 나오는 순서가 다르다. 공식 사이트는 일정과 출연진만 공개하고 세트리스트는 올리지 않는다. 세트리스트는 Fandom에 가장 먼저 올라오고, 공식 확정은 BD·인터넷 생방송(配信) 상품이 나올 때 이루어진다. 그래서 공연은 상태를 따로 관리한다.
 
-| 상태        | 시점                           | 확보되는 정보                                                | 주 소스                    | v1 출력 |
+| 상태        | 시점                           | 확보되는 정보                                                | 주 소스                    | 레거시 출력 |
 | ----------- | ------------------------------ | ------------------------------------------------------------ | -------------------------- | ------- |
 | `announced` | 공연 발표                      | 공연명, 일정, 회장, 출연진                                   | 공식 라이브 페이지         | 제외    |
 | `performed` | 공연 당일~수일                 | 세트리스트 초안 (`draft`)                                    | Fandom                     | 제외    |
 | `settled`   | 공연 후                        | Fandom 수정이 멈췄고, 나무위키 비교 결과가 일치하며, 사람이 승인함 | Fandom 수정 이력, 나무위키 비교 어댑터 | 포함    |
 | `confirmed` | BD·인터넷 생방송(配信) 발매 후 | 수록된 공연일의 세트리스트와 가창자 확정                     | 공식 상품 트랙리스트       | 포함    |
 
-기존 v1 공연 데이터는 이관 시 `settled`로 취급한다.
+기존 레거시 공연 데이터는 이관 시 `settled`로 취급한다.
 
 **① 감지**
 
@@ -914,7 +914,7 @@ wikitext 예:
 - 라이브 BD는 `type: live_video` Release로 저장한다. 각 트랙은 (공연일, 세트리스트 순번)을 가리킨다.
 - BD 트랙리스트가 나오면 저장된 세트리스트와 다시 대조한다. 차이가 있으면 `change` 리뷰 항목을 만든다.
 - BD에 모든 공연일이 수록되지는 않는다. 수록되지 않은 날은 `settled`가 최종 상태다.
-- `live_video` 발매물은 v1 `albums`에 넣지 않는다(현행 범위 유지).
+- `live_video` 발매물은 레거시 `albums`에 넣지 않는다(현행 범위 유지).
 
 ---
 
@@ -931,7 +931,7 @@ wikitext 예:
 | E5  | 디스크별 트랙 번호가 1..N이 아님 (중복 또는 누락)                                                                                                      |
 | E6  | `rom`에 가나·한자가 있음, `ko`에 가나가 있음                                                                                                           |
 | E7  | `native_script: latin`인 인물의 `ko`가 원문과 다름 (예외 선언이 없을 때)                                                                               |
-| E8  | v1 골든 테스트 실패: 데이터가 바뀌지 않은 영역의 산출물이 바이트 단위로 달라짐                                                                         |
+| E8  | 레거시 골든 테스트 실패: 데이터가 바뀌지 않은 영역의 산출물이 바이트 단위로 달라짐                                                                         |
 | E9  | 공연 세트리스트의 곡 항목이 Work로 해석되지 않음                                                                                                       |
 | E10 | 생성물(`albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json`)을 직접 수정한 커밋                                                           |
 | E11 | 서로 다른 Track의 **자기 URL**이 같은 YouTube videoId임 (`streaming.editions`로 공유를 명시한 경우 제외. 메인 URL 대체로 출력된 값은 비교 대상이 아님) |
@@ -986,7 +986,7 @@ wikitext 예:
 
 ## 10. 산출물, 데이터베이스, API
 
-### 10.1 v1: 현행 경로와 스키마 유지
+### 10.1 레거시: 현행 경로와 스키마 유지
 
 생성 대상: `albums/<Group>/<Group>.csv|json`, `songs/<Group>/<Group>.json`, `members/<Group>.csv`, `concerts/<Group>/<Group>.json`, `TakasakiInfo.json`
 
@@ -1008,17 +1008,17 @@ wikitext 예:
 - 신규 그룹 파일: `albums/Ikizulive/…`, `songs/Ikizulive/…`, `members/Ikizulive.csv`. `category` 값은 `Ikizulive`(결정 D3).
 - 여러 프로젝트에 걸친 발매물은 지금처럼 관련 그룹 파일마다 넣는다. 통합 JSON에는 한 번만 넣는다.
 - `category`는 Recording의 가창 Artist와 Project에서 계산한다. 크로스 유닛(AiScReam 등)은 `Others`다(결정 D6).
-- `members/*.csv`에는 졸업 멤버도 넣는다(결정 D7). 기존 행 순서는 유지하고, 새 멤버는 합류 시점의 공식 사이트 순서대로 뒤에 붙인다. 졸업 멤버의 `Unit` 열은 졸업 당시 유닛이다. 재적·졸업 상태와 기간은 v2에만 넣는다.
+- `members/*.csv`에는 졸업 멤버도 넣는다(결정 D7). 기존 행 순서는 유지하고, 새 멤버는 합류 시점의 공식 사이트 순서대로 뒤에 붙인다. 졸업 멤버의 `Unit` 열은 졸업 당시 유닛이다. 재적·졸업 상태와 기간은 v1에만 넣는다.
 - `concerts/*.json`은 현행 형태(`eventCode`, `title`, `date_range`, `sights`, `events[].setlist`)를 유지한다.
   - 곡 항목은 Work의 ja 표기로 렌더링한다. 버전이 있으면 표식을 붙인다.
   - 곡이 아닌 항목은 현행 문자열(`::MC1`, `::VID2`, `::Encore` …)로 렌더링한다.
   - `sights[].city`는 도시의 rom 표기와 Stop의 `label`로 만든다(`Tokyo (Additional)`).
-  - 곡별 가창자와 출연진 변경은 v1에 넣지 않는다. v2에만 넣는다(결정 D13).
+  - 곡별 가창자와 출연진 변경은 레거시에 넣지 않는다. v1에만 넣는다(결정 D13).
 
-### 10.2 v2: 신규 (`dist/v2/`)
+### 10.2 v1: 신규 (`dist/v1/`)
 
 - 정규화 엔티티 JSON과 JSON Schema
-- 비정규화 뷰 (`tracks.json`: v1 행과 같은 평면 구조에 ID, 상태, 출처 추가)
+- 비정규화 뷰 (`tracks.json`: 레거시 행과 같은 평면 구조에 ID, 상태, 출처 추가)
 - `announced` 발매물 포함
 - 같은 빌드에서 SQLite DB(10.5절)와 `graph.json`(10.7절)도 만든다. 세 산출물은 항상 같은 데이터 버전이다.
 
@@ -1041,7 +1041,7 @@ API Gateway(`ap-northeast-2`) → Lambda → S3의 `TakasakiInfo.json`을 읽어
 - 기존 API Gateway·Lambda에 S3 자동 업로드를 붙이는 중간 단계를 두지 않는다. 새 구조로 바로 간다.
 - 엔드포인트와 응답 형식도 새로 설계한다(10.6절). 기존 `/full`, `/random`, `/search`를 유지할 의무는 없다.
 - 기존 API Gateway 엔드포인트는 새 API가 공개되면 폐기한다. README의 API 절도 그때 새로 쓴다.
-- 저장소의 v1 파일(CSV/JSON)은 API와 별개다. 계속 생성한다(10.1절).
+- 저장소의 레거시 파일(CSV/JSON)은 API와 별개다. 계속 생성한다(10.1절).
 
 **배포 절차**
 
@@ -1068,7 +1068,7 @@ flowchart LR
    - 인프라 자체(버킷, 배포, Lambda)를 바꾸는 권한은 주지 않는다. 인프라 변경은 사람이 로컬에서 배포한다(아래 인프라 구성).
 3. **빌드·검증**: 8절 ERROR 규칙을 전부 다시 통과해야 업로드한다. PR CI를 통과했더라도 병합 결과물로 한 번 더 검증한다.
 4. **업로드 순서**
-   - 먼저 불변 경로 `releases/<git sha>/`에 산출물 전체(v1 파일, v2 JSON, SQLite, `graph.json`)를 올린다.
+   - 먼저 불변 경로 `releases/<git sha>/`에 산출물 전체(레거시 파일, v1 JSON, SQLite, `graph.json`)를 올린다.
    - 그다음 공개 경로 `data/`로 복사한다. CloudFront와 Lambda는 `data/`만 읽는다. S3 객체 쓰기는 원자적이므로 쓰다 만 파일을 읽는 일은 없다.
    - 데이터 버전 파일(`data/version.json`: `dbLastUpdate`, git sha)을 맨 마지막에 쓴다. Lambda는 이 파일이 바뀌었을 때만 데이터를 다시 읽는다.
    - 업로드 전후 SHA-256을 비교한다. JSON은 `Content-Type: application/json; charset=utf-8`로 올린다.
@@ -1104,7 +1104,7 @@ flowchart LR
 | 경로 | 원본 | 캐시 정책 (관리형) | 비고 |
 | --- | --- | --- | --- |
 | `/` (기본) | S3 `site/` (원본 경로 `/site`) | `CachingOptimized` | 연결 맵 사이트 (10.7절). 원본 경로 덕에 `releases/`는 CloudFront로 접근할 수 없다 |
-| `/data/*` | S3 `data/` | `CachingOptimized` | v1 파일(`/data/v1/…`), v2 JSON, SQLite, `graph.json`, `version.json` |
+| `/data/*` | S3 `data/` | `CachingOptimized` | 레거시 파일(`/data/legacy/…`), v1 JSON(`/data/v1/…`), SQLite, `graph.json`, `version.json` |
 | `/api/*` | Lambda Function URL | `UseOriginCacheControlHeaders-QueryStrings` | 원본 요청 정책 `AllViewerExceptHostHeader` |
 
 - **정적인 것은 S3에서 바로 서빙하고, Lambda는 질의만 처리한다.** 호출 수가 줄고, Lambda 동기 응답 크기 한도(6MB)에도 걸리지 않는다.
@@ -1143,7 +1143,7 @@ flowchart LR
 | --- | --- | --- |
 | 원천 | Git의 `data/*.yaml` | 사람과 봇이 편집한다. 모든 변경이 PR 리뷰를 거치고, Git 이력이 곧 변경 감사 기록이다 |
 | 데이터베이스 | `takasakiinfo.sqlite` (빌드 산출물) | 질의, 검색, API용. 원천에서 매번 다시 만들므로 직접 수정하지 않는다 |
-| 교환 포맷 | v1 CSV/JSON, v2 JSON, `graph.json` | 소비자 배포용 |
+| 교환 포맷 | 레거시 CSV/JSON, v1 JSON, `graph.json` | 소비자 배포용 |
 
 원천을 DB가 아니라 Git의 YAML로 두는 이유는 세 가지다. 모든 변경이 리뷰를 거치고(정확도 원칙), 변경 이력과 출처가 자동으로 남고, 같은 커밋에서는 항상 같은 DB가 나온다. DB는 언제든 원천에서 다시 만들 수 있는 파생물이다.
 
@@ -1163,7 +1163,7 @@ flowchart LR
   - alias까지 한 번에 검색할 수 있다.
   - 공식 영어 번역 제목(`en`, 로마자와 다름) 같은 새 언어를 추가해도 스키마가 바뀌지 않는다.
 - **기간이 있는 관계는 `from`/`until`을 가진 행이다.** "2024-05-01 시점의 スリーズブーケ 멤버" 같은 질의가 쿼리 하나로 끝난다.
-- **자주 쓰는 조인은 뷰로 둔다**: `v_track_flat`(v1 행과 같은 평면 구조), `v_person_credits`, `v_work_performances`.
+- **자주 쓰는 조인은 뷰로 둔다**: `v_track_flat`(레거시 행과 같은 평면 구조), `v_person_credits`, `v_work_performances`.
 - **검색 인덱스**: SQLite FTS5(trigram 토크나이저)로 `label`과 `alias`를 모두 색인한다. 매칭 키(5.1절) 열도 함께 색인한다. 가나, 한자, 로마자, 한국어 어느 쪽으로 입력해도 찾을 수 있고, 부분 문자열로도 찾을 수 있다.
 - **제약 조건**: 외래 키, `UNIQUE`(예: `track`의 발매물·에디션·디스크·번호), `CHECK`(예: `from <= until`)를 DB에도 건다. 8절 검증의 일부를 DB 차원에서 한 번 더 보장하는 셈이다.
 
@@ -1176,11 +1176,11 @@ flowchart LR
 
 **버전 관리**
 
-- 데이터 릴리스마다 태그(`data-YYYY.MM.DD`)를 단다. SQLite, v2 JSON, `graph.json`을 GitHub Release 첨부 파일과 S3 `releases/<sha>/`에 올린다.
-- 산출물에 스키마 버전(`schema_version`, semver)을 넣는다. v1은 동결하고, v2는 하위 호환 변경만 minor로 올린다. 깨지는 변경은 v3로 낸다.
+- 데이터 릴리스마다 태그(`data-YYYY.MM.DD`)를 단다. SQLite, v1 JSON, `graph.json`을 GitHub Release 첨부 파일과 S3 `releases/<sha>/`에 올린다.
+- 산출물에 스키마 버전(`schema_version`, semver)을 넣는다. 레거시 파일은 형식을 동결한다. v1은 하위 호환 변경만 minor로 올리고, 깨지는 변경은 v2(`/data/v2/`, `/api/v2/`)로 낸다.
 - 품질 지표를 산출물과 함께 낸다: 필드별 채움률, status 분포(`official` 비율 등), 미결 리뷰 수. README의 Database Status 표가 이 지표에서 생성된다.
 
-### 10.6 API v2
+### 10.6 API
 
 기존 API를 대체한다(결정 D17). 기존 엔드포인트와 맞출 필요는 없다.
 
@@ -1188,20 +1188,20 @@ flowchart LR
 
 - Lambda가 콜드 스타트 때 S3의 `data/takasakiinfo.sqlite`를 `/tmp`로 받아 읽기 전용으로 질의한다.
 - 몇 분 간격으로 `data/version.json`을 확인하고, 바뀌었으면 DB를 다시 받는다.
-- 경로는 `/api/v2/…`다. 저장소 v1 파일과 구분하려고 새 API를 v2로 부른다.
+- 경로는 `/api/v1/…`다(결정 D23). 기존 API는 버전 경로가 없었고 호환 의무도 없으므로 새 API를 v1부터 시작한다. 새 데이터 형식도 같은 번호(v1, `/data/v1/`)를 쓰고, 저장소의 현행 형식은 레거시(`/data/legacy/`)라 부른다. 깨지는 변경이 생기면 `/data/v2/`·`/api/v2/`를 낸다.
 
 **엔드포인트 (예)**
 
 | 용도 | 경로 |
 | --- | --- |
-| 통합 검색 | `GET /api/v2/search?q=&type=&project=` (다국어, alias, 부분 일치) |
-| 단건 조회 | `GET /api/v2/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
-| 인물 크레딧 | `GET /api/v2/persons/{id}/credits?role=composer` |
-| 시점별 라인업 | `GET /api/v2/artists/{id}/lineup?at=2024-05-01` |
-| 곡의 버전·수록 | `GET /api/v2/works/{id}/recordings`, `GET /api/v2/recordings/{id}/tracks` |
-| 곡의 공연 이력 | `GET /api/v2/works/{id}/performances` (첫 공개 공연 포함) |
-| 협업 관계 | `GET /api/v2/persons/{id}/collaborators` |
-| 부분 그래프 | `GET /api/v2/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
+| 통합 검색 | `GET /api/v1/search?q=&type=&project=` (다국어, alias, 부분 일치) |
+| 단건 조회 | `GET /api/v1/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
+| 인물 크레딧 | `GET /api/v1/persons/{id}/credits?role=composer` |
+| 시점별 라인업 | `GET /api/v1/artists/{id}/lineup?at=2024-05-01` |
+| 곡의 버전·수록 | `GET /api/v1/works/{id}/recordings`, `GET /api/v1/recordings/{id}/tracks` |
+| 곡의 공연 이력 | `GET /api/v1/works/{id}/performances` (첫 공개 공연 포함) |
+| 협업 관계 | `GET /api/v1/persons/{id}/collaborators` |
+| 부분 그래프 | `GET /api/v1/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
 
 - 응답에는 ja, kana, rom, ko 이름을 모두 넣는다. `?include=evidence`를 주면 출처와 상태도 넣는다.
 - 캐시는 10.4절 인프라 구성을 따른다(배포 때 무효화).
@@ -1234,7 +1234,7 @@ flowchart LR
   - 노드 중심 보기 (선택한 노드와 그 이웃만)
   - 기간 슬라이더 (라인업·CV 변화)
   - 상세 패널: 크레딧, 수록, 공연 이력, YouTube Music 링크
-- 전체 `graph.json`을 정적으로 불러온다. 백필 후에도 수 MB 이하로 예상된다. 상세 정보는 API v2로 조회한다.
+- 전체 `graph.json`을 정적으로 불러온다. 백필 후에도 수 MB 이하로 예상된다. 상세 정보는 API로 조회한다.
 - 배포: 같은 데이터 릴리스로 빌드해 S3 + CloudFront(또는 GitHub Pages)에 올린다. 연결 맵과 API가 항상 같은 데이터 버전을 보게 한다.
 
 ---
@@ -1264,21 +1264,21 @@ TakasakiInfo/
 │   │   ├── model/                # Pydantic 모델, JSON Schema export
 │   │   ├── sources/              # 어댑터: official/<project>.py, ytmusic.py, youtube_api.py,
 │   │   │                         #         isrc.py, musicbrainz.py, fandom.py, namuwiki.py(비교 전용),
-│   │   │                         #         legacy_v1.py
+│   │   │                         #         legacy.py
 │   │   ├── resolve/              # matchkey.py, person.py, recording.py, release.py
 │   │   ├── translit/             # rom.py, ko.py, kana.py
 │   │   ├── reconcile.py
 │   │   ├── propose.py            # 표기 후보 (+선택적 LLM)
 │   │   ├── validate/
-│   │   ├── build/                # v1.py (legacy), v2.py, sqlite.py, graph.py, readme.py
+│   │   ├── build/                # legacy.py, v1.py, sqlite.py, graph.py, readme.py
 │   │   └── cli.py                # takasaki sync | validate | build | review | migrate
 │   ├── observations/             # 추출된 사실 (커밋함)
 │   ├── review/                   # 미결 리뷰 항목 (PR 안에서만 존재)
 │   ├── inbox/                    # 수동 스냅샷 투입
 │   └── tests/                    # 골든 테스트, 파서 픽스처
-├── dist/                         # 생성물: v2/, takasakiinfo.sqlite, graph/graph.json
+├── dist/                         # 생성물: v1/, takasakiinfo.sqlite, graph/graph.json
 ├── web/                          # 연결 맵 정적 사이트 (10.7절)
-├── albums/ songs/ members/ concerts/ TakasakiInfo.json   # 생성물 (v1)
+├── albums/ songs/ members/ concerts/ TakasakiInfo.json   # 생성물 (레거시)
 ├── infra/                        # AWS CDK(Python): stacks/{waf,app,plan}.py, lambda/api/, tests/ (10.4절)
 └── .github/workflows/            # sync.yml (daily), linkcheck.yml (weekly), ci.yml (PR),
                                   # deploy.yml (main 병합 → S3)
@@ -1288,7 +1288,7 @@ TakasakiInfo/
 
 | 기존 스크립트                       | 새 위치               |
 | ----------------------------------- | --------------------- |
-| `Process.py` (CSV→JSON)             | `build/v1.py`         |
+| `Process.py` (CSV→JSON)             | `build/legacy.py`         |
 | `TitleValidate.py` (YT 제목 대조)   | 검증 W2               |
 | `CoverValidate.py` (커버 시각 확인) | PR 요약에 썸네일 첨부 |
 
@@ -1304,8 +1304,8 @@ TakasakiInfo/
 | M4 Release/Edition | `【…盤】` 앨범 그룹을 Release 1개 + Edition N개로 묶는다. 에디션마다 URL이 다르면 `streaming` 항목을 에디션별로 만든다. 그룹 파일 간 중복 발매물(`LIVE with a smile!`, `異次元★♥BIGBANG`)을 합친다(URL까지 같은 진짜 중복이므로 Track도 하나). 다른 발매물의 메인 URL을 복사해 넣은 행은 자기 URL을 비운다(빌더가 메인 URL을 계산하므로 출력은 같아야 하고, M7에서 확인) | `releases/`               |
 | M5 멤버            | `members/*.csv`에 공식 사이트 정보를 더해 라인업·CV 기간을 보강한다 (하스노소라 기수, せつ菜 CV)                                                                                                                                                                                                                                                                         | `characters/`, `artists/` |
 | M6 공연            | 세트리스트 문자열을 매칭 키로 Work ID에 해석한다(`Trick ＆ Cute`, `(Liella! ver.)` 같은 표기 차이를 흡수). `::` 표식은 타입으로 바꾼다. 회장과 도시는 사전으로 추출한다. 곡별 가창자는 Fandom에서 보강하는데, `draft`로 넣고 리뷰한다                                                                                                                                    | `concerts/`, `venues/`    |
-| M7 골든 라운드트립 | v1을 재생성해 현행 파일과 비교한다. 허용되는 차이는 10.1의 "의도된 내용 변화"뿐이다                                                                                                                                                                                                                                                                                      | diff 보고서               |
-| M8 컷오버          | 이후 v1 파일 직접 편집을 금지한다 (E10)                                                                                                                                                                                                                                                                                                                                  | —                         |
+| M7 골든 라운드트립 | 레거시 파일을 재생성해 현행 파일과 비교한다. 허용되는 차이는 10.1의 "의도된 내용 변화"뿐이다                                                                                                                                                                                                                                                                                      | diff 보고서               |
+| M8 컷오버          | 이후 레거시 파일 직접 편집을 금지한다 (E10)                                                                                                                                                                                                                                                                                                                                  | —                         |
 
 ---
 
@@ -1396,14 +1396,14 @@ TakasakiInfo/
 
 | Phase          | 내용                                                                                                                                                                                                                                                                                           | 완료 기준                            |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| 0. 기반        | Pydantic 스키마, 디렉터리 구조, `validate`/`build` CLI, PR CI                                                                                                                                                                                                                                  | 빈 데이터로 v1 빌드 성공             |
-| 1. 이관·배포   | M1~M8, 부록 A 결정. 배포 파이프라인(10.4절: `infra/`, OIDC 역할, `deploy.yml`, 스모크 테스트, 롤백)                                                                                                                                                                                                 | **v1 골든 라운드트립 통과**, Actions로 S3 배포·스모크 테스트 성공 |
-| 2. 파일럿      | 이키즈라이브: 공식 사이트 어댑터, YTM 어댑터, 리뷰 흐름, README 생성. SQLite 빌드(10.5절)와 품질 지표 | Ikizulive v1/v2·SQLite 산출물 병합          |
+| 0. 기반        | Pydantic 스키마, 디렉터리 구조, `validate`/`build` CLI, PR CI                                                                                                                                                                                                                                  | 빈 데이터로 레거시 빌드 성공             |
+| 1. 이관·배포   | M1~M8, 부록 A 결정. 배포 파이프라인(10.4절: `infra/`, OIDC 역할, `deploy.yml`, 스모크 테스트, 롤백)                                                                                                                                                                                                 | **레거시 골든 라운드트립 통과**, Actions로 S3 배포·스모크 테스트 성공 |
+| 2. 파일럿      | 이키즈라이브: 공식 사이트 어댑터, YTM 어댑터, 리뷰 흐름, README 생성. SQLite 빌드(10.5절)와 품질 지표 | Ikizulive 레거시·v1·SQLite 산출물 병합          |
 | 3. 공백 백필   | 음반: Hasunosora → Liella → Nijigaku → Musical → Aqours 결측 보완 → Yohane·크로스 프로젝트(AiScReam, LIVE with a smile! 등) → μ's. 프로젝트별 공식 사이트 어댑터 추가. 공연: 각 프로젝트의 음반 백필이 끝난 뒤에 진행한다(세트리스트가 Work를 참조하므로). Fandom 세트리스트 어댑터를 추가하고, 나무위키 비교 어댑터는 스파이크로 가능성을 확인한 뒤 추가한다(7.7절 ④) | 프로젝트별 최신 발매분·공연까지 반영 |
 | 4. 상시 운영   | 일일 sync, 주간 링크 검사, 월간 재검증, 이슈 템플릿                                                                                                                                                                                                                                            | 신규 발매 후 1일 안에 PR 생성        |
 | 5. 자동화 확대 | L0 자동 병합 → 조건 충족 시 L1                                                                                                                                                                                                                                                                 | 사람 개입이 L2에 집중됨              |
-| 6. API v2      | `infra/`의 인프라 위에 SQLite 기반 API v2(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개, 기존 API Gateway 엔드포인트 폐기(D17) |
-| 7. 연결 맵     | `graph.json` 빌드, `web/` 정적 사이트(10.7절), API v2 부분 그래프 연동. Phase 3 백필과 부록 A-1 인명 정규화가 끝난 뒤 진행 | 연결 맵 공개 |
+| 6. API         | `infra/`의 인프라 위에 SQLite 기반 API(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개, 기존 API Gateway 엔드포인트 폐기(D17) |
+| 7. 연결 맵     | `graph.json` 빌드, `web/` 정적 사이트(10.7절), API 부분 그래프 연동. Phase 3 백필과 부록 A-1 인명 정규화가 끝난 뒤 진행 | 연결 맵 공개 |
 
 ---
 
@@ -1432,23 +1432,24 @@ TakasakiInfo/
 | D3  | Q1        | 2026-10-16 | 이키즈라이브의 파일명과 `category` 값은 `Ikizulive` | 4.3절, 10.1절 |
 | D4  | Q2        | 2026-10-16 | 로마자 인명은 저장소 관례(이름-성) 순서를 유지하고, 철자만 공식 표기를 채택 | 5.3절 |
 | D5  | Q3        | 2026-10-16 | 한국어 `う` 장음은 생략. `established` 근거가 있는 인물만 예외 | 5.4절, 부록 A-1 |
-| D6  | Q5        | 2026-10-16 | 크로스 유닛의 v1 `category`는 `Others` | 10.1절 |
-| D7  | Q6        | 2026-10-16 | `members/*.csv`에 졸업 멤버도 넣음. 상태와 기간은 v2에 | 10.1절 |
+| D6  | Q5        | 2026-10-16 | 크로스 유닛의 레거시 `category`는 `Others` | 10.1절 |
+| D7  | Q6        | 2026-10-16 | `members/*.csv`에 졸업 멤버도 넣음. 상태와 기간은 v1에 | 10.1절 |
 | D8  | Q7        | 2026-10-16 | API는 S3의 `TakasakiInfo.json`을 Lambda가 읽어 응답하는 구조. 지금까지 Git→S3 자동화가 없었으므로 배포 경로를 새로 만들고, 전면 개편도 허용 | 10.4절 |
 | D9  | Q8        | 2026-10-16 | 원문 스냅샷은 GitHub Actions artifact(90일) + 로컬에 보관 | 7.2절, 15절 |
-| D10 | Q9        | 2026-10-16 | 소속 표기는 v1에서 현행 `名前(所属)`(붙여 씀)으로 렌더링 | 5.2절 |
+| D10 | Q9        | 2026-10-16 | 소속 표기는 레거시에서 현행 `名前(所属)`(붙여 씀)으로 렌더링 | 5.2절 |
 | D11 | Q10       | 2026-10-16 | 한국어 시리즈명은 `러브 라이브!`(띄어 씀)로 통일 | 5.4절, 10.3절 |
 | D12 | Q11       | 2026-10-16 | 나무위키 세트리스트 비교 전용 어댑터를 개발 (가능하면). 원문 미저장, 착수 전 약관 확인과 스파이크 | 6.1절, 7.7절 ④, 15절 |
-| D13 | Q12       | 2026-10-16 | v1 공연 데이터에 곡별 가창자를 넣지 않음. v2에만 | 10.1절 |
+| D13 | Q12       | 2026-10-16 | 레거시 공연 데이터에 곡별 가창자를 넣지 않음. v1에만 | 10.1절 |
 | D14 | —         | 2026-10-16 | `いきづらい部！`의 한국어 표기는 음역 `이키즈라이부!` | 13.4절 |
 | D15 | —         | 2026-10-16 | `イキヅライブ！ LOVELIVE! BLUEBIRD`의 한국어 표기는 `이키즈라이부! LOVELIVE! BLUEBIRD`로 우선 확정. 공식 한국어 표기가 나오면 교체 | 4.3절, 13.4절 |
 | D16 | —         | 2026-10-16 | DB 구조 개편, API 고도화, 정보 간 인터랙티브 연결 맵을 설계 범위에 포함 | 10.5~10.7절, 14절 |
-| D17 | —         | 2026-10-17 | 기존 API는 사용자가 없으므로 이행 기간 없이 교체한다. 엔드포인트·응답 형식 호환 의무 없음. 저장소 v1 파일은 계속 생성 | 1.3절, 10.4절, 10.6절, 14절 |
+| D17 | —         | 2026-10-17 | 기존 API는 사용자가 없으므로 이행 기간 없이 교체한다. 엔드포인트·응답 형식 호환 의무 없음. 저장소 레거시 파일은 계속 생성 | 1.3절, 10.4절, 10.6절, 14절 |
 | D18 | —         | 2026-10-17 | 진입점은 CloudFront 하나, API Gateway 없음. S3와 Lambda Function URL은 OAC로 CloudFront 경유 요청만 받는다. 정적은 S3, 질의는 Lambda. OAC 요건 준수, Host 헤더 미전달, 배포 때 무효화하는 캐시, 단일 배포 | 10.4절 |
 | D19 | —         | 2026-10-17 | 커스텀 도메인은 당분간 쓰지 않는다(`*.cloudfront.net`) | 10.4절 |
 | D20 | —         | 2026-10-17 | 기존 API Gateway·Lambda·S3 객체는 새 API 공개 직후 삭제 | 10.4절 |
 | D21 | Q13       | 2026-10-17 | CloudFront 요금제는 Flat-rate Free. 가입에 필요한 WAF 웹 ACL을 함께 관리 | 10.4절 |
 | D22 | Q14       | 2026-10-17 | IaC는 AWS CDK(Python). Lambda와 S3는 서울(ap-northeast-2), WAF와 요금제 가입은 us-east-1. 스택 3개를 리전 간 참조로 연결 | 10.4절, `infra/` |
+| D23 | —         | 2026-10-17 | 새 API와 새 데이터 형식을 v1로 부른다(`/api/v1/…`, `dist/v1/`, `/data/v1/…`). 기존 API에 버전 경로가 없었으므로 v1부터 시작한다. 저장소의 현행 형식은 레거시로 부른다(`/data/legacy/…`, 이관 출처 `migration:legacy`, 배치 `data/legacy/layout.yaml`) | 10.1절, 10.2절, 10.4절, 10.5절, 10.6절 |
 
 ### 16.2 결정 필요 사항
 
