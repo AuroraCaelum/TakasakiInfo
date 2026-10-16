@@ -1,0 +1,52 @@
+name: deploy
+
+# DESIGN.md §10.4. main: build → validate → upload → promote → invalidate → smoke test (rollback on failure).
+# Other branches (workflow_dispatch): upload to releases/<sha>/ only; nothing public changes.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      promote:
+        description: "make the release live (only on main)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  id-token: write # GitHub OIDC → takasakiinfo-github-deploy role
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # skip until the infrastructure exists and the repository variables are set (infra/README.md)
+    if: vars.AWS_ROLE_ARN != ''
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: automation
+    env:
+      PROMOTE: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'push' || inputs.promote) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --locked --group deploy
+      - run: uv run takasaki validate
+      - run: uv run takasaki check
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+      - run: >-
+          uv run takasaki deploy
+          --bucket "${{ vars.S3_BUCKET }}"
+          --distribution "${{ vars.DISTRIBUTION_ID }}"
+          --base-url "${{ vars.BASE_URL }}"
+          --sha "${{ github.sha }}"
+          ${{ env.PROMOTE == 'true' && '--promote' || '' }}

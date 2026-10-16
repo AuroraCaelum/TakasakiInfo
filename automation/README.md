@@ -35,6 +35,7 @@ uv run pytest -q
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
 | `takasaki migrate [--force]` | v1 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
+| `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
 ## 데이터를 고치는 흐름
 
@@ -65,4 +66,6 @@ uv run pytest -q
   - 남은 것
     - 리뷰 66건 결정: merge 18, classify 38, latin-ko 3, legacy-row 3, setlist 4
     - Note 열 자유 텍스트의 구조화(M3 일부)
-    - 배포 파이프라인 1단계(§10.4): AWS 쪽 OIDC 역할과 저장소 변수가 먼저 필요하다
+- **배포 파이프라인 (§10.4)**: 코드 완료. AWS에 아직 배포하지 않았다.
+  - 인프라: `../infra/` (CDK 스택 3개). 배포 방법은 [../infra/README.md](../infra/README.md)
+  - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. 저장소 변수가 등록되기 전까지는 워크플로가 건너뛴다

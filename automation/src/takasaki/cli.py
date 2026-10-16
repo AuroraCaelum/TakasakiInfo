@@ -93,6 +93,26 @@ def cmd_review_apply(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_deploy(args: argparse.Namespace) -> int:
+    """Upload a release; with --promote also make it live (DESIGN.md §10.4)."""
+    import boto3  # deploy-only dependency (uv sync --group deploy)
+
+    from .deploy import Deployer, DeployError, release_files
+
+    _, data, _ = _paths()
+    files = release_files(load_dataset(data), args.sha)
+    deployer = Deployer(
+        boto3.client("s3"), boto3.client("cloudfront"),
+        bucket=args.bucket, distribution_id=args.distribution, base_url=args.base_url,
+    )
+    try:
+        deployer.run(args.sha, files, promote=args.promote)
+    except DeployError as e:
+        print(f"deploy failed: {e}")
+        return 1
+    return 0
+
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_v1 import migrate
     from .report import write_migration_report
@@ -123,6 +143,13 @@ def main(argv: list[str] | None = None) -> int:
     rv = sub.add_parser("review", help="review items under automation/review/ (§7.3)")
     rv_sub = rv.add_subparsers(dest="review_cmd", required=True)
     rv_sub.add_parser("apply", help="apply every item that has a decision").set_defaults(func=cmd_review_apply)
+    dp = sub.add_parser("deploy", help="upload a data release to S3; --promote makes it live (§10.4)")
+    dp.add_argument("--bucket", required=True)
+    dp.add_argument("--distribution", required=True, help="CloudFront distribution id")
+    dp.add_argument("--base-url", required=True, help="https://<id>.cloudfront.net")
+    dp.add_argument("--sha", required=True, help="git commit of the release")
+    dp.add_argument("--promote", action="store_true", help="copy into data/ + site/, invalidate, smoke test")
+    dp.set_defaults(func=cmd_deploy)
     mg = sub.add_parser("migrate", help="one-time import of the v1 files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)

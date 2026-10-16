@@ -46,7 +46,7 @@
 - 가사, 이미지 수집 및 배포 (저작권)
 - 완전 무인 운영. 정확도가 최우선이므로 사람의 승인 단계는 없애지 않는다. 대신 승인 횟수를 최소화한다.
 - OST 백필. README의 우선순위를 유지한다. 모델은 OST도 표현할 수 있게 설계한다.
-- 1단계에서의 API 서버 재작성. 엔드포인트와 응답 형식은 유지하고, 배포 경로(Git → S3)만 먼저 자동화한다. Lambda와 인프라 개편은 선택 단계로 둔다(10.4절).
+- 기존 API와의 호환. 사용자가 없으므로 이행 기간 없이 새 API로 교체한다(결정 D17, 10.4절). 저장소의 v1 파일은 계속 생성한다.
 
 ---
 
@@ -1034,46 +1034,102 @@ wikitext 예:
 
 API Gateway(`ap-northeast-2`) → Lambda → S3의 `TakasakiInfo.json`을 읽어 응답한다. Git과 S3 사이에 자동화가 없어서 S3 파일을 손으로 갱신해 왔다.
 
-**새 배포 경로 (1단계: 필수)**
+**호환 의무 없음 (결정 D17)**
 
-엔드포인트(`/full`, `/random`, `/search`)와 응답 형식은 그대로 둔다. Git에서 S3까지만 자동화한다.
+기존 API는 사용자가 없다. 그래서 이행 기간 없이 교체한다.
+
+- 기존 API Gateway·Lambda에 S3 자동 업로드를 붙이는 중간 단계를 두지 않는다. 새 구조로 바로 간다.
+- 엔드포인트와 응답 형식도 새로 설계한다(10.6절). 기존 `/full`, `/random`, `/search`를 유지할 의무는 없다.
+- 기존 API Gateway 엔드포인트는 새 API가 공개되면 폐기한다. README의 API 절도 그때 새로 쓴다.
+- 저장소의 v1 파일(CSV/JSON)은 API와 별개다. 계속 생성한다(10.1절).
+
+**배포 절차**
+
+아래 절차(인증, 업로드 순서, 확인, 롤백)는 새 구조에 그대로 적용한다.
 
 ```mermaid
 flowchart LR
   M[main 병합] --> A[Actions<br/>deploy.yml]
   A --> B[build + validate]
-  B --> U[S3 업로드<br/>releases/sha → 현행 키]
-  U --> T[스모크 테스트<br/>API 호출]
+  B --> U[S3 업로드<br/>releases/sha → data/]
+  U --> I[CloudFront 무효화]
+  I --> T[스모크 테스트<br/>공개 경로 호출]
   T -->|실패| R[이전 버전으로 롤백<br/>+ 이슈 생성]
 ```
 
 1. **트리거**: `data/`나 빌더 코드가 바뀐 커밋이 `main`에 병합될 때, 그리고 수동 실행(`workflow_dispatch`). 데이터 sync PR이 병합되면 배포까지 자동으로 이어진다.
 2. **인증**: GitHub OIDC로 IAM 역할을 위임받는다. 장기 액세스 키를 GitHub에 저장하지 않는다.
    - 역할의 신뢰 정책은 이 저장소의 `main` 브랜치로 제한한다.
-   - 권한은 대상 버킷의 해당 키·prefix에 대한 `PutObject`, `GetObject`, `CopyObject`만 준다.
+   - 권한은 최소로 준다.
+     - 버킷의 `releases/*`, `data/*`, `site/*`에 대한 `s3:PutObject`, `s3:GetObject`. S3 복사는 원본의 `GetObject`와 대상의 `PutObject` 권한으로 동작한다(별도 Copy 권한은 없음).
+     - 릴리스를 공개 경로에 그대로 맞추려고(지난 릴리스에만 있던 파일 제거) `data/*`, `site/*`에 대한 `s3:DeleteObject`. 버킷 버전 관리가 켜져 있어 지운 객체도 90일간 복구할 수 있다.
+     - 롤백 대상을 찾기 위한 `releases/` 범위의 `s3:ListBucket`
+     - 해당 배포 하나에 대한 `cloudfront:CreateInvalidation`, `cloudfront:GetInvalidation`
+   - 인프라 자체(버킷, 배포, Lambda)를 바꾸는 권한은 주지 않는다. 인프라 변경은 사람이 로컬에서 배포한다(아래 인프라 구성).
 3. **빌드·검증**: 8절 ERROR 규칙을 전부 다시 통과해야 업로드한다. PR CI를 통과했더라도 병합 결과물로 한 번 더 검증한다.
 4. **업로드 순서**
-   - 먼저 불변 경로 `releases/<git sha>/TakasakiInfo.json`에 올린다. v2 산출물도 `releases/<git sha>/v2/`에 올린다.
-   - 그다음 Lambda가 읽는 현행 키(`TakasakiInfo.json`)에 복사한다. S3 객체 쓰기는 원자적이므로 Lambda가 쓰다 만 파일을 읽는 일은 없다.
-   - 업로드 전후 SHA-256을 비교한다. `Content-Type: application/json; charset=utf-8`로 올린다.
+   - 먼저 불변 경로 `releases/<git sha>/`에 산출물 전체(v1 파일, v2 JSON, SQLite, `graph.json`)를 올린다.
+   - 그다음 공개 경로 `data/`로 복사한다. CloudFront와 Lambda는 `data/`만 읽는다. S3 객체 쓰기는 원자적이므로 쓰다 만 파일을 읽는 일은 없다.
+   - 데이터 버전 파일(`data/version.json`: `dbLastUpdate`, git sha)을 맨 마지막에 쓴다. Lambda는 이 파일이 바뀌었을 때만 데이터를 다시 읽는다.
+   - 업로드 전후 SHA-256을 비교한다. JSON은 `Content-Type: application/json; charset=utf-8`로 올린다.
    - 버킷 버전 관리(Versioning)를 켠다.
-5. **스모크 테스트**: 배포 후 API를 호출한다.
-   - `/full`의 `dbLastUpdate`와 항목 수가 새 산출물과 같은지 확인한다.
-   - `/search`, `/random`이 정상 응답하는지 확인한다.
-   - 실패하면 직전 `releases/<sha>/`를 현행 키로 다시 복사해 롤백하고 이슈를 연다.
-6. **Lambda 캐시 확인**: Lambda가 JSON을 실행 환경 메모리에 캐시한다면 새 파일이 바로 반영되지 않는다. 구현 전에 Lambda 코드를 확인한다. 캐시하고 있다면 S3 ETag 비교나 짧은 TTL을 넣는다.
-7. **`dbLastUpdate` 정의 변경**: 현행 `Process.py`는 빌드 시각을 넣는다. 그러면 데이터가 같아도 빌드할 때마다 파일이 바뀌어 골든 테스트(E8)와 멱등성 원칙에 어긋난다. 새 빌더는 시계를 읽지 않고 `data/meta.yaml`의 `db_last_update`를 그대로 넣는다. 이 값은 데이터를 바꾸는 쪽(sync 봇, `takasaki review apply`, 수동 편집 뒤 `takasaki stamp`)이 갱신한다. 그래서 빌드는 `data/`만의 순수 함수가 된다.
+5. **CloudFront 무효화**: `/*` 한 번. 무효화 비용은 요청한 경로 수로 계산되며 `/*`는 1개로 친다.
+6. **스모크 테스트**: 배포 후 공개 경로를 호출한다.
+   - 정적 데이터 파일과 API 응답의 데이터 버전(`dbLastUpdate`)이 새 산출물과 같은지 확인한다.
+   - 대표 질의(검색, 단건 조회)가 정상 응답하는지 확인한다.
+   - 실패하면 직전 `releases/<sha>/`를 현행 경로로 다시 복사해 롤백하고 이슈를 연다.
+7. **Lambda의 데이터 갱신**: Lambda는 데이터를 실행 환경 메모리에 들고 있으므로, `data/version.json`을 확인해 새 릴리스를 다시 읽어야 한다(10.6절).
+8. **`dbLastUpdate` 정의 변경**: 현행 `Process.py`는 빌드 시각을 넣는다. 그러면 데이터가 같아도 빌드할 때마다 파일이 바뀌어 골든 테스트(E8)와 멱등성 원칙에 어긋난다. 새 빌더는 시계를 읽지 않고 `data/meta.yaml`의 `db_last_update`를 그대로 넣는다. 이 값은 데이터를 바꾸는 쪽(sync 봇, `takasaki review apply`, 수동 편집 뒤 `takasaki stamp`)이 갱신한다. 그래서 빌드는 `data/`만의 순수 함수가 된다.
 
-필요한 설정: GitHub 저장소 변수 `AWS_ROLE_ARN`, `S3_BUCKET`, `API_BASE_URL`. 모두 비밀값이 아니다. AWS 쪽에는 OIDC 공급자와 IAM 역할을 한 번 만들어야 한다.
+필요한 설정: GitHub 저장소 변수 `AWS_ROLE_ARN`, `AWS_REGION`, `S3_BUCKET`, `DISTRIBUTION_ID`, `BASE_URL`. 모두 비밀값이 아니고, 값은 인프라 스택의 출력(Outputs)에서 가져온다.
 
-**전면 개편 (2단계: 선택)**
+**인프라 구성 (결정 D18)**
 
-배포 경로를 전면 수정해도 된다는 결정에 따라, 1단계가 안정된 뒤 다음을 진행할 수 있다.
+```mermaid
+flowchart LR
+  V[사용자] --> CF[CloudFront 배포<br/>*.cloudfront.net]
+  CF -->|"/ , /data/*"| S3[("S3 버킷<br/>비공개 · OAC")]
+  CF -->|"/api/*"| FU[Lambda Function URL<br/>AuthType AWS_IAM · OAC]
+  FU --> L[Lambda]
+  L -->|"data/ 읽기<br/>(실행 역할)"| S3
+```
 
-- **Lambda 코드와 인프라 정의를 저장소로 가져온다.** AWS SAM 또는 CDK로 `infra/`에 두고 Actions로 배포한다. 현재 Lambda 코드는 저장소 밖에 있으므로 먼저 가져와야 한다.
-- **Lambda가 SQLite DB(10.5절)를 읽게 하고 API v2(10.6절)를 추가한다.**
-- **정적 경로를 직접 서빙한다.** `/full`처럼 파일을 그대로 돌려주는 경로는 CloudFront + S3로 바로 서빙해 Lambda를 거치지 않게 한다.
-- 기존 엔드포인트와 응답 형식은 2단계에서도 유지한다(README API 절). 새 기능은 새 경로(`/v2/…`)로 추가한다.
+- **진입점은 CloudFront 하나다. API Gateway는 쓰지 않는다.** 읽기 전용 공개 데이터라 API Gateway의 인증·요청 제한·사용량 계획이 필요 없고, 요청마다 붙는 요금만 늘어난다.
+- **경로별 원본** (캐시 동작 3개)
+
+| 경로 | 원본 | 캐시 정책 (관리형) | 비고 |
+| --- | --- | --- | --- |
+| `/` (기본) | S3 `site/` (원본 경로 `/site`) | `CachingOptimized` | 연결 맵 사이트 (10.7절). 원본 경로 덕에 `releases/`는 CloudFront로 접근할 수 없다 |
+| `/data/*` | S3 `data/` | `CachingOptimized` | v1 파일(`/data/v1/…`), v2 JSON, SQLite, `graph.json`, `version.json` |
+| `/api/*` | Lambda Function URL | `UseOriginCacheControlHeaders-QueryStrings` | 원본 요청 정책 `AllViewerExceptHostHeader` |
+
+- **정적인 것은 S3에서 바로 서빙하고, Lambda는 질의만 처리한다.** 호출 수가 줄고, Lambda 동기 응답 크기 한도(6MB)에도 걸리지 않는다.
+- **S3 OAC**: 버킷은 완전 비공개(퍼블릭 액세스 차단)로 둔다. 버킷 정책은 `cloudfront.amazonaws.com`에 `s3:GetObject`를 허용하되, `AWS:SourceArn`을 이 배포로 제한한다.
+- **Lambda OAC**
+  - Function URL의 인증 방식은 `AWS_IAM`이다. 그래서 CloudFront를 거치지 않은 직접 호출은 403이 된다.
+  - Lambda 리소스 정책에 `lambda:InvokeFunctionUrl`과 `lambda:InvokeFunction` 두 권한을 `cloudfront.amazonaws.com`에 주고, `AWS:SourceArn`을 이 배포로 제한한다. 이 정책은 Lambda 콘솔에서 편집할 수 없으므로 IaC로 넣는다.
+  - 원본 요청 정책 `AllViewerExceptHostHeader`로 Host 헤더를 Lambda에 넘기지 않는다.
+- **API는 GET만 쓴다.** OAC 경유 POST/PUT은 클라이언트가 본문 해시를 `x-amz-content-sha256` 헤더로 보내야 하므로, 쓰기 API는 이 경로에 두지 않는다.
+- **캐시**
+  - Lambda는 응답에 `Cache-Control`을 길게 붙인다. 데이터는 배포 때만 바뀌고, 배포 때 무효화하기 때문이다.
+  - 검색처럼 쿼리 문자열이 있는 요청은 쿼리 문자열이 캐시 키에 들어간다(위 캐시 정책).
+  - 무작위 응답은 `Cache-Control: no-store`로 캐시하지 않는다.
+- **같은 도메인**: 연결 맵 사이트와 API가 같은 배포에 있어서, 사이트에서 API를 부를 때 CORS 설정이 필요 없다. 외부에서 데이터를 쓰는 사람을 위해 `/data/*`와 `/api/*`에는 관리형 CORS 응답 헤더 정책을 건다.
+- **도메인**: 커스텀 도메인은 쓰지 않는다. `*.cloudfront.net` 기본 주소를 쓴다(결정 D19).
+- **비용 안전장치**: Lambda 예약 동시성(예: 5)으로 동시 실행에 상한을 두고, AWS Budgets 알림을 건다.
+- **인프라 정의는 저장소에 둔다(`infra/`).** 인프라 변경은 사람이 로컬에서 배포하고, Actions는 데이터 배포만 한다. 기존 Lambda 코드는 가져오지 않고 새로 작성한다.
+- **CloudFront 요금제**: Flat-rate **Free** 플랜(결정 D21). 가입에 필요한 WAF 웹 ACL(규칙 4개: IP별 요청 제한 + AWS 관리형 규칙 3개, Free 한도 5개)을 함께 만든다. 가입할 수 없는 계정이면 WAF 없이 종량제로 배포한다(`-c flat_rate=false`). 플랜 밖의 WAF는 월 약 $8가 들기 때문이다.
+- **스택과 리전** (결정 D22, AWS CDK Python)
+
+| 스택 | 리전 | 내용 | 이유 |
+| --- | --- | --- | --- |
+| `TakasakiInfo-Waf` | us-east-1 | WAF 웹 ACL | CloudFront용 WAF는 us-east-1에만 만들 수 있다 |
+| `TakasakiInfo-App` | ap-northeast-2 | S3, Lambda + Function URL, CloudFront, GitHub 배포 역할, 예산 알림 | 데이터와 연산은 사용자와 가까운 서울 |
+| `TakasakiInfo-Plan` | us-east-1 | Flat-rate Free 가입 (`AWS::PricingPlanManager::Subscription`) | 가입 API가 us-east-1에만 있다. 웹 ACL → 배포 → 가입 순서가 필요하다 |
+
+  - 세 스택은 CDK 리전 간 참조로 값을 주고받고, 배포 순서(Waf → App → Plan)도 CDK가 지킨다.
+  - 배포 방법은 `infra/README.md`.
+- **기존 리소스**: 기존 API Gateway, 기존 Lambda, 기존 S3 객체는 새 API 공개 직후 삭제한다(결정 D20).
 
 ### 10.5 데이터베이스
 
@@ -1122,28 +1178,29 @@ flowchart LR
 
 ### 10.6 API v2
 
-10.4절 2단계와 함께 진행한다. v1 엔드포인트는 그대로 둔다.
+기존 API를 대체한다(결정 D17). 기존 엔드포인트와 맞출 필요는 없다.
 
 **데이터 접근**
 
-- Lambda가 콜드 스타트 때 S3에서 `takasakiinfo.sqlite`를 `/tmp`로 받아 읽기 전용으로 질의한다.
-- 몇 분 간격으로 S3 ETag를 확인해 새 데이터 릴리스를 반영한다. 10.4절의 Lambda 캐시 문제도 이걸로 해결된다.
+- Lambda가 콜드 스타트 때 S3의 `data/takasakiinfo.sqlite`를 `/tmp`로 받아 읽기 전용으로 질의한다.
+- 몇 분 간격으로 `data/version.json`을 확인하고, 바뀌었으면 DB를 다시 받는다.
+- 경로는 `/api/v2/…`다. 저장소 v1 파일과 구분하려고 새 API를 v2로 부른다.
 
 **엔드포인트 (예)**
 
 | 용도 | 경로 |
 | --- | --- |
-| 통합 검색 | `GET /v2/search?q=&type=&project=` (다국어, alias, 부분 일치) |
-| 단건 조회 | `GET /v2/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
-| 인물 크레딧 | `GET /v2/persons/{id}/credits?role=composer` |
-| 시점별 라인업 | `GET /v2/artists/{id}/lineup?at=2024-05-01` |
-| 곡의 버전·수록 | `GET /v2/works/{id}/recordings`, `GET /v2/recordings/{id}/tracks` |
-| 곡의 공연 이력 | `GET /v2/works/{id}/performances` (첫 공개 공연 포함) |
-| 협업 관계 | `GET /v2/persons/{id}/collaborators` |
-| 부분 그래프 | `GET /v2/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
+| 통합 검색 | `GET /api/v2/search?q=&type=&project=` (다국어, alias, 부분 일치) |
+| 단건 조회 | `GET /api/v2/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
+| 인물 크레딧 | `GET /api/v2/persons/{id}/credits?role=composer` |
+| 시점별 라인업 | `GET /api/v2/artists/{id}/lineup?at=2024-05-01` |
+| 곡의 버전·수록 | `GET /api/v2/works/{id}/recordings`, `GET /api/v2/recordings/{id}/tracks` |
+| 곡의 공연 이력 | `GET /api/v2/works/{id}/performances` (첫 공개 공연 포함) |
+| 협업 관계 | `GET /api/v2/persons/{id}/collaborators` |
+| 부분 그래프 | `GET /api/v2/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
 
 - 응답에는 ja, kana, rom, ko 이름을 모두 넣는다. `?include=evidence`를 주면 출처와 상태도 넣는다.
-- CloudFront 캐시 키에 데이터 버전을 넣는다. 데이터가 바뀔 때만 캐시가 새로 만들어진다.
+- 캐시는 10.4절 인프라 구성을 따른다(배포 때 무효화).
 - 응답 스키마는 OpenAPI로 정의하고, 데이터 모델과 같은 Pydantic 모델에서 생성한다.
 - REST로 시작한다. 클라이언트가 관계를 여러 단계로 엮어 질의하는 일이 많아지면 GraphQL을 검토한다.
 
@@ -1218,7 +1275,7 @@ TakasakiInfo/
 ├── dist/                         # 생성물: v2/, takasakiinfo.sqlite, graph/graph.json
 ├── web/                          # 연결 맵 정적 사이트 (10.7절)
 ├── albums/ songs/ members/ concerts/ TakasakiInfo.json   # 생성물 (v1)
-├── infra/                        # (2단계) Lambda 코드 + SAM/CDK 정의
+├── infra/                        # AWS CDK(Python): stacks/{waf,app,plan}.py, lambda/api/, tests/ (10.4절)
 └── .github/workflows/            # sync.yml (daily), linkcheck.yml (weekly), ci.yml (PR),
                                   # deploy.yml (main 병합 → S3)
 ```
@@ -1336,12 +1393,12 @@ TakasakiInfo/
 | Phase          | 내용                                                                                                                                                                                                                                                                                           | 완료 기준                            |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | 0. 기반        | Pydantic 스키마, 디렉터리 구조, `validate`/`build` CLI, PR CI                                                                                                                                                                                                                                  | 빈 데이터로 v1 빌드 성공             |
-| 1. 이관·배포   | M1~M8, 부록 A 결정. 배포 파이프라인 1단계(10.4절: OIDC 역할, `deploy.yml`, 스모크 테스트, 롤백)                                                                                                                                                                                                 | **v1 골든 라운드트립 통과**, Actions로 S3 배포·스모크 테스트 성공 |
+| 1. 이관·배포   | M1~M8, 부록 A 결정. 배포 파이프라인(10.4절: `infra/`, OIDC 역할, `deploy.yml`, 스모크 테스트, 롤백)                                                                                                                                                                                                 | **v1 골든 라운드트립 통과**, Actions로 S3 배포·스모크 테스트 성공 |
 | 2. 파일럿      | 이키즈라이브: 공식 사이트 어댑터, YTM 어댑터, 리뷰 흐름, README 생성. SQLite 빌드(10.5절)와 품질 지표 | Ikizulive v1/v2·SQLite 산출물 병합          |
 | 3. 공백 백필   | 음반: Hasunosora → Liella → Nijigaku → Musical → Aqours 결측 보완 → Yohane·크로스 프로젝트(AiScReam, LIVE with a smile! 등) → μ's. 프로젝트별 공식 사이트 어댑터 추가. 공연: 각 프로젝트의 음반 백필이 끝난 뒤에 진행한다(세트리스트가 Work를 참조하므로). Fandom 세트리스트 어댑터를 추가하고, 나무위키 비교 어댑터는 스파이크로 가능성을 확인한 뒤 추가한다(7.7절 ④) | 프로젝트별 최신 발매분·공연까지 반영 |
 | 4. 상시 운영   | 일일 sync, 주간 링크 검사, 월간 재검증, 이슈 템플릿                                                                                                                                                                                                                                            | 신규 발매 후 1일 안에 PR 생성        |
 | 5. 자동화 확대 | L0 자동 병합 → 조건 충족 시 L1                                                                                                                                                                                                                                                                 | 사람 개입이 L2에 집중됨              |
-| 6. API v2      | 배포 2단계(10.4절): Lambda·인프라를 `infra/`로 가져오기. SQLite 기반 API v2(10.6절), `/full` 정적 서빙 | 기존 엔드포인트 호환을 유지한 채 v2 공개 |
+| 6. API v2      | `infra/`의 인프라 위에 SQLite 기반 API v2(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개, 기존 API Gateway 엔드포인트 폐기(D17) |
 | 7. 연결 맵     | `graph.json` 빌드, `web/` 정적 사이트(10.7절), API v2 부분 그래프 연동. Phase 3 백필과 부록 A-1 인명 정규화가 끝난 뒤 진행 | 연결 맵 공개 |
 
 ---
@@ -1382,10 +1439,20 @@ TakasakiInfo/
 | D14 | —         | 2026-10-16 | `いきづらい部！`의 한국어 표기는 음역 `이키즈라이부!` | 13.4절 |
 | D15 | —         | 2026-10-16 | `イキヅライブ！ LOVELIVE! BLUEBIRD`의 한국어 표기는 `이키즈라이부! LOVELIVE! BLUEBIRD`로 우선 확정. 공식 한국어 표기가 나오면 교체 | 4.3절, 13.4절 |
 | D16 | —         | 2026-10-16 | DB 구조 개편, API 고도화, 정보 간 인터랙티브 연결 맵을 설계 범위에 포함 | 10.5~10.7절, 14절 |
+| D17 | —         | 2026-10-17 | 기존 API는 사용자가 없으므로 이행 기간 없이 교체한다. 엔드포인트·응답 형식 호환 의무 없음. 저장소 v1 파일은 계속 생성 | 1.3절, 10.4절, 10.6절, 14절 |
+| D18 | —         | 2026-10-17 | 진입점은 CloudFront 하나, API Gateway 없음. S3와 Lambda Function URL은 OAC로 CloudFront 경유 요청만 받는다. 정적은 S3, 질의는 Lambda. OAC 요건 준수, Host 헤더 미전달, 배포 때 무효화하는 캐시, 단일 배포 | 10.4절 |
+| D19 | —         | 2026-10-17 | 커스텀 도메인은 당분간 쓰지 않는다(`*.cloudfront.net`) | 10.4절 |
+| D20 | —         | 2026-10-17 | 기존 API Gateway·Lambda·S3 객체는 새 API 공개 직후 삭제 | 10.4절 |
+| D21 | Q13       | 2026-10-17 | CloudFront 요금제는 Flat-rate Free. 가입에 필요한 WAF 웹 ACL을 함께 관리 | 10.4절 |
+| D22 | Q14       | 2026-10-17 | IaC는 AWS CDK(Python). Lambda와 S3는 서울(ap-northeast-2), WAF와 요금제 가입은 us-east-1. 스택 3개를 리전 간 참조로 연결 | 10.4절, `infra/` |
 
 ### 16.2 결정 필요 사항
 
-현재 남은 결정 사항은 없다. 새 질문이 생기면 Q13부터 여기에 추가하고, 결정되면 16.1로 옮긴다.
+결정되면 16.1로 옮긴다.
+
+| #   | 질문 | 선택지 | 권장 |
+| --- | ---- | ------ | ---- |
+| —   | (현재 없음) | — | — |
 
 이관 중에 처리할 데이터 확인 항목(부록 A-1 인명 정규 표기, 부록 A-2 링크 점검)은 설계 결정이 아니다. 리뷰 흐름(7.3절)으로 처리한다.
 

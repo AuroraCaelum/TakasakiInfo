@@ -25,3 +25,20 @@ jobs:
       # E8: committed v1 files must equal a fresh build
       - run: uv run takasaki check
       - run: uv run pytest -q
+
+  infra:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: infra
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4 # CDK's Python bindings run on Node (jsii)
+        with:
+          node-version: "22"
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --locked
+      # synthesizes all three stacks and checks OAC, routing, IAM scope, WAF and plan settings
+      - run: uv run pytest -q
