@@ -102,8 +102,10 @@ class AppStack(Stack):
                 "/api/*": cloudfront.BehaviorOptions(
                     origin=api_origin,
                     viewer_protocol_policy=cloudfront.ViewerProtocolPolicy.HTTPS_ONLY,
-                    # query strings are part of the cache key; TTL comes from the Lambda's Cache-Control
-                    cache_policy=cloudfront.CachePolicy.USE_ORIGIN_CACHE_CONTROL_HEADERS_QUERY_STRINGS,
+                    # no edge cache. Headers in a cache key are always forwarded, and every managed policy
+                    # that keys on query strings includes Host, which breaks the OAC signature (403).
+                    # The Free plan allows no custom cache policies, so caching is left to the browser.
+                    cache_policy=cloudfront.CachePolicy.CACHING_DISABLED,
                     # never forward the viewer Host header to the Function URL
                     origin_request_policy=cloudfront.OriginRequestPolicy.ALL_VIEWER_EXCEPT_HOST_HEADER,
                     response_headers_policy=cloudfront.ResponseHeadersPolicy.CORS_ALLOW_ALL_ORIGINS,

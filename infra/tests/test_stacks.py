@@ -10,7 +10,7 @@ from stacks import build
 
 # AWS managed policy ids (stable across accounts)
 CACHING_OPTIMIZED = "658327ea-f89d-4fab-a63d-7e88639e58f6"
-ORIGIN_CACHE_CONTROL_QS = "4cc15a8a-d715-48a4-82b8-cc0b614638fe"
+CACHING_DISABLED = "4135ea2d-6df8-44a3-9df3-4b5a84be39ad"
 ALL_VIEWER_EXCEPT_HOST = "b689b0a8-53d0-40ab-baf2-68738e2966ac"
 
 
@@ -63,7 +63,7 @@ def test_distribution_routes_and_flat_rate_constraints(templates):
     assert cfg["DefaultCacheBehavior"]["CachePolicyId"] == CACHING_OPTIMIZED
     assert behaviors["/data/*"]["CachePolicyId"] == CACHING_OPTIMIZED
     api = behaviors["/api/*"]
-    assert api["CachePolicyId"] == ORIGIN_CACHE_CONTROL_QS
+    assert api["CachePolicyId"] == CACHING_DISABLED  # a cache key with Host breaks OAC
     assert api["OriginRequestPolicyId"] == ALL_VIEWER_EXCEPT_HOST
     assert api["AllowedMethods"] == ["GET", "HEAD"]
     text = json.dumps(cfg)

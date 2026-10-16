@@ -1105,7 +1105,7 @@ flowchart LR
 | --- | --- | --- | --- |
 | `/` (기본) | S3 `site/` (원본 경로 `/site`) | `CachingOptimized` | 연결 맵 사이트 (10.7절). 원본 경로 덕에 `releases/`는 CloudFront로 접근할 수 없다 |
 | `/data/*` | S3 `data/` | `CachingOptimized` | 레거시 파일(`/data/legacy/…`), v1 JSON(`/data/v1/…`), SQLite, `graph.json`, `version.json` |
-| `/api/*` | Lambda Function URL | `UseOriginCacheControlHeaders-QueryStrings` | 원본 요청 정책 `AllViewerExceptHostHeader` |
+| `/api/*` | Lambda Function URL | `CachingDisabled` | 원본 요청 정책 `AllViewerExceptHostHeader`. 엣지 캐시 없음(아래 캐시, 결정 D24) |
 
 - **정적인 것은 S3에서 바로 서빙하고, Lambda는 질의만 처리한다.** 호출 수가 줄고, Lambda 동기 응답 크기 한도(6MB)에도 걸리지 않는다.
 - **S3 OAC**: 버킷은 완전 비공개(퍼블릭 액세스 차단)로 둔다. 버킷 정책은 `cloudfront.amazonaws.com`에 `s3:GetObject`를 허용하되, `AWS:SourceArn`을 이 배포로 제한한다.
@@ -1113,11 +1113,14 @@ flowchart LR
   - Function URL의 인증 방식은 `AWS_IAM`이다. 그래서 CloudFront를 거치지 않은 직접 호출은 403이 된다.
   - Lambda 리소스 정책에 `lambda:InvokeFunctionUrl`과 `lambda:InvokeFunction` 두 권한을 `cloudfront.amazonaws.com`에 주고, `AWS:SourceArn`을 이 배포로 제한한다. 이 정책은 Lambda 콘솔에서 편집할 수 없으므로 IaC로 넣는다.
   - 원본 요청 정책 `AllViewerExceptHostHeader`로 Host 헤더를 Lambda에 넘기지 않는다.
+  - 캐시 정책도 Host를 캐시 키에 넣으면 안 된다. 캐시 키의 헤더는 원본 요청 정책과 상관없이 항상 원본으로 전달된다. 그러면 Lambda가 서명을 거부해 `403 AccessDeniedException`이 난다.
 - **API는 GET만 쓴다.** OAC 경유 POST/PUT은 클라이언트가 본문 해시를 `x-amz-content-sha256` 헤더로 보내야 하므로, 쓰기 API는 이 경로에 두지 않는다.
 - **캐시**
-  - Lambda는 응답에 `Cache-Control`을 길게 붙인다. 데이터는 배포 때만 바뀌고, 배포 때 무효화하기 때문이다.
-  - 검색처럼 쿼리 문자열이 있는 요청은 쿼리 문자열이 캐시 키에 들어간다(위 캐시 정책).
+  - 정적 파일(`/`, `/data/*`)은 CloudFront에 길게 두고 배포 때 무효화한다.
+  - `/api/*`는 CloudFront에서 캐시하지 않는다(`CachingDisabled`, 결정 D24). 쿼리 문자열을 캐시 키에 넣는 관리형 캐시 정책은 모두 Host도 캐시 키에 넣어서 OAC 서명이 깨진다. Host 없이 쿼리 문자열만 넣는 사용자 정의 캐시 정책은 Free 플랜에서 쓸 수 없다(Business 이상).
+  - 그래서 Lambda 응답의 `Cache-Control`은 브라우저 캐시에만 쓰인다. 브라우저 캐시는 배포 때 무효화할 수 없으므로 짧게 둔다(예: `max-age=300`).
   - 무작위 응답은 `Cache-Control: no-store`로 캐시하지 않는다.
+  - Lambda 호출이 부담될 만큼 트래픽이 늘면 Business 플랜이나 종량제로 옮기고, 쿼리 문자열만 캐시 키에 넣는 사용자 정의 캐시 정책을 쓴다.
 - **같은 도메인**: 연결 맵 사이트와 API가 같은 배포에 있어서, 사이트에서 API를 부를 때 CORS 설정이 필요 없다. 외부에서 데이터를 쓰는 사람을 위해 `/data/*`와 `/api/*`에는 관리형 CORS 응답 헤더 정책을 건다.
 - **도메인**: 커스텀 도메인은 쓰지 않는다. `*.cloudfront.net` 기본 주소를 쓴다(결정 D19).
 - **비용 안전장치**: Lambda 예약 동시성(예: 5)으로 동시 실행에 상한을 두고, AWS Budgets 알림을 건다.
@@ -1204,7 +1207,7 @@ flowchart LR
 | 부분 그래프 | `GET /api/v1/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
 
 - 응답에는 ja, kana, rom, ko 이름을 모두 넣는다. `?include=evidence`를 주면 출처와 상태도 넣는다.
-- 캐시는 10.4절 인프라 구성을 따른다(배포 때 무효화).
+- 캐시는 10.4절 인프라 구성을 따른다(엣지 캐시 없음, 짧은 브라우저 캐시).
 - 응답 스키마는 OpenAPI로 정의하고, 데이터 모델과 같은 Pydantic 모델에서 생성한다.
 - REST로 시작한다. 클라이언트가 관계를 여러 단계로 엮어 질의하는 일이 많아지면 GraphQL을 검토한다.
 
@@ -1450,6 +1453,7 @@ TakasakiInfo/
 | D21 | Q13       | 2026-10-17 | CloudFront 요금제는 Flat-rate Free. 가입에 필요한 WAF 웹 ACL을 함께 관리 | 10.4절 |
 | D22 | Q14       | 2026-10-17 | IaC는 AWS CDK(Python). Lambda와 S3는 서울(ap-northeast-2), WAF와 요금제 가입은 us-east-1. 스택 3개를 리전 간 참조로 연결 | 10.4절, `infra/` |
 | D23 | —         | 2026-10-17 | 새 API와 새 데이터 형식을 v1로 부른다(`/api/v1/…`, `dist/v1/`, `/data/v1/…`). 기존 API에 버전 경로가 없었으므로 v1부터 시작한다. 저장소의 현행 형식은 레거시로 부른다(`/data/legacy/…`, 이관 출처 `migration:legacy`, 배치 `data/legacy/layout.yaml`) | 10.1절, 10.2절, 10.4절, 10.5절, 10.6절 |
+| D24 | —         | 2026-10-17 | `/api/*`는 CloudFront에서 캐시하지 않는다(`CachingDisabled`). 쿼리 문자열을 키에 넣는 관리형 캐시 정책은 모두 Host를 포함해 OAC 서명이 깨지고(403), Free 플랜은 사용자 정의 캐시 정책을 허용하지 않는다. API 캐시는 짧은 브라우저 `Cache-Control`만 쓴다 | 10.4절, 10.6절 |
 
 ### 16.2 결정 필요 사항
 
