@@ -19,7 +19,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,7 +36,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: chika-takami-solo-ver
     title:
       ja: Landing action Yeah!! (高海千歌 Solo Ver.)
@@ -51,7 +51,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Landing action Yeah!! (桜内梨子 Solo Ver.)
@@ -66,7 +66,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: kanan-matsuura-solo-ver
     title:
       ja: Landing action Yeah!! (松浦果南 Solo Ver.)
@@ -81,7 +81,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: dia-kurosawa-solo-ver
     title:
       ja: Landing action Yeah!! (黒澤ダイヤ Solo Ver.)
@@ -96,7 +96,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: you-watanabe-solo-ver
     title:
       ja: Landing action Yeah!! (渡辺 曜 Solo Ver.)
@@ -111,7 +111,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: Landing action Yeah!! (津島善子 Solo Ver.)
@@ -126,7 +126,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: Landing action Yeah!! (国木田花丸 Solo Ver.)
@@ -141,7 +141,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: mari-ohara-solo-ver
     title:
       ja: Landing action Yeah!! (小原鞠莉 Solo Ver.)
@@ -156,7 +156,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Landing action Yeah!! (黒澤ルビィ Solo Ver.)
@@ -171,8 +171,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

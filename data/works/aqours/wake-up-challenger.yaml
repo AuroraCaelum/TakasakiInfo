@@ -19,7 +19,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,7 +36,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: chika-takami-solo-ver
     title:
       ja: Wake up, Challenger!! (高海千歌 Solo Ver.)
@@ -51,7 +51,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
@@ -66,7 +66,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Wake up, Challenger!! (黒澤ルビィ Solo Ver.)
@@ -81,8 +81,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

@@ -20,7 +20,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,7 +37,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: chika-takami-solo-ver
     title:
       ja: JIMO-AI Dash! (高海千歌 Solo Ver.)
@@ -52,7 +52,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: riko-sakurauchi-solo-ver
     title:
       ja: JIMO-AI Dash! (桜内梨子 Solo Ver.)
@@ -67,7 +67,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: kanan-matsuura-solo-ver
     title:
       ja: JIMO-AI Dash! (松浦果南 Solo Ver.)
@@ -82,7 +82,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: dia-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ダイヤ Solo Ver.)
@@ -97,7 +97,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: you-watanabe-solo-ver
     title:
       ja: JIMO-AI Dash! (渡辺 曜 Solo Ver.)
@@ -112,7 +112,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: JIMO-AI Dash! (津島善子 Solo Ver.)
@@ -127,7 +127,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: JIMO-AI Dash! (国木田花丸 Solo Ver.)
@@ -142,7 +142,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: mari-ohara-solo-ver
     title:
       ja: JIMO-AI Dash! (小原鞠莉 Solo Ver.)
@@ -157,7 +157,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: ruby-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ルビィ Solo Ver.)
@@ -172,8 +172,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

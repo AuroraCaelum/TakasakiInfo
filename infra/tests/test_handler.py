@@ -35,7 +35,7 @@ def _event(path, method="GET"):
 def test_health_reports_live_version(handler, monkeypatch):
     version = {"dbLastUpdate": "2026-10-17T00:00:00Z", "sha": "abc"}
     monkeypatch.setattr(handler, "_s3", FakeS3({"data/version.json": json.dumps(version).encode()}))
-    res = handler.handler(_event("/api/v2/health"), None)
+    res = handler.handler(_event("/api/v1/health"), None)
     assert res["statusCode"] == 200
     assert res["headers"]["Cache-Control"] == "no-store"
     assert json.loads(res["body"]) == {"status": "ok", **version}
@@ -43,10 +43,10 @@ def test_health_reports_live_version(handler, monkeypatch):
 
 def test_health_without_data(handler, monkeypatch):
     monkeypatch.setattr(handler, "_s3", FakeS3({}))
-    assert handler.handler(_event("/api/v2/health"), None)["statusCode"] == 503
+    assert handler.handler(_event("/api/v1/health"), None)["statusCode"] == 503
 
 
 def test_unknown_path_and_method(handler, monkeypatch):
     monkeypatch.setattr(handler, "_s3", FakeS3({}))
-    assert handler.handler(_event("/api/v2/nope"), None)["statusCode"] == 404
-    assert handler.handler(_event("/api/v2/health", "POST"), None)["statusCode"] == 405
+    assert handler.handler(_event("/api/v1/nope"), None)["statusCode"] == 404
+    assert handler.handler(_event("/api/v1/health", "POST"), None)["statusCode"] == 405

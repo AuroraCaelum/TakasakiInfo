@@ -19,7 +19,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,7 +36,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: album-version
     title:
       ja: One More Sunshine Story (Album Version)
@@ -51,8 +51,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

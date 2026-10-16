@@ -22,7 +22,7 @@ jobs:
       - run: uv sync --locked
       # E1–E11 (DESIGN.md §8); errors fail the job
       - run: uv run takasaki validate -v
-      # E8: committed v1 files must equal a fresh build
+      # E8: committed legacy files must equal a fresh build
       - run: uv run takasaki check
       - run: uv run pytest -q
 

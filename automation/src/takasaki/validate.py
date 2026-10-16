@@ -13,7 +13,7 @@ from pathlib import Path
 from ruamel.yaml import YAML
 
 from . import model as m
-from .build_v1 import edition_ids, edition_tracks, own_video
+from .build_legacy import edition_ids, edition_tracks, own_video
 from .store import Dataset
 from .text import has_kana, has_kana_or_kanji, match_key
 

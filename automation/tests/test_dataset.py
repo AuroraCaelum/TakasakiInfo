@@ -1,8 +1,8 @@
-"""Checks against the real ``data/`` tree: YAML round-trip, golden v1 build (E8), validation."""
+"""Checks against the real ``data/`` tree: YAML round-trip, golden legacy build (E8), validation."""
 
 import pytest
 
-from takasaki.build_v1 import build_v1
+from takasaki.build_legacy import build_legacy
 from takasaki.store import dump_model, load_dataset, repo_root
 from takasaki.validate import validate
 
@@ -28,8 +28,8 @@ def test_yaml_round_trip(ds):
     assert set(LAYOUT)  # every entity type is covered by iter_all
 
 
-def test_v1_files_match_build(ds):
-    files = build_v1(ds)
+def test_legacy_files_match_build(ds):
+    files = build_legacy(ds)
     stale = [rel for rel, blob in files.items() if (ROOT / rel).read_bytes() != blob]
     assert stale == [], "run `takasaki build` and commit the result"
 
@@ -53,7 +53,7 @@ def test_same_song_on_several_albums_shares_one_recording(ds):
 
 def test_main_url_fallback_is_same_recording_only(ds):
     # D2: TVA2 BD Vol.1 "One More Sunshine Story" must not borrow the Album Version URL
-    files = build_v1(ds)
+    files = build_legacy(ds)
     text = files["albums/Aqours/Aqours.csv"].decode("utf-8-sig")
     row = next(line for line in text.split("\r\n") if line.startswith("TVA2 BD Vol.1,1,"))
     assert ",NA," in row

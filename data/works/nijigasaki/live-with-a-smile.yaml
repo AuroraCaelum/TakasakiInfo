@@ -20,7 +20,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: aqours-ver
     title:
       ja: LIVE with a smile! (Aqours Ver.)
@@ -35,7 +35,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: nijigasaki-high-school-idol-club-ver
     title:
       ja: LIVE with a smile! (虹ヶ咲学園スクールアイドル同好会 Ver.)
@@ -50,7 +50,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: liella-ver
     title:
       ja: LIVE with a smile! (Liella! Ver.)
@@ -65,7 +65,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -80,8 +80,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

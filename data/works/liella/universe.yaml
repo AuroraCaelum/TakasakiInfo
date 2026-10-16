@@ -19,7 +19,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,7 +36,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: kanon-shibuya-ver
     title:
       ja: UNIVERSE!! (澁谷かのん Ver.)
@@ -51,7 +51,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: keke-tang-ver
     title:
       ja: UNIVERSE!! (唐可可 Ver.)
@@ -66,7 +66,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: chisato-arashi-ver
     title:
       ja: UNIVERSE!! (嵐千砂都 Ver.)
@@ -81,7 +81,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: sumire-heanna-ver
     title:
       ja: UNIVERSE!! (平安名すみれ Ver.)
@@ -96,7 +96,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: ren-hazuki-ver
     title:
       ja: UNIVERSE!! (葉月恋 Ver.)
@@ -111,7 +111,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: kinako-sakurakoji-ver
     title:
       ja: UNIVERSE!! (桜小路きな子 Ver.)
@@ -126,7 +126,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: mei-yoneme-ver
     title:
       ja: UNIVERSE!! (米女メイ Ver.)
@@ -141,7 +141,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: shiki-wakana-ver
     title:
       ja: UNIVERSE!! (若菜四季 Ver.)
@@ -156,7 +156,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: natsumi-onitsuka-ver
     title:
       ja: UNIVERSE!! (鬼塚夏美 Ver.)
@@ -171,8 +171,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

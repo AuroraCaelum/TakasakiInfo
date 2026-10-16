@@ -7,12 +7,12 @@ TakasakiInfo 데이터 파이프라인. 설계는 [docs/DESIGN.md](docs/DESIGN.m
 | 위치 | 내용 |
 | --- | --- |
 | `../data/` | **단일 원천.** 엔티티별 YAML (persons, characters, artists, works, releases, concerts …) |
-| `../data/legacy/v1.yaml` | v1 파일의 배치 순서 (어느 그룹 파일의 몇 번째에 어떤 앨범이 오는지) |
+| `../data/legacy/layout.yaml` | 레거시 파일의 배치 순서 (어느 그룹 파일의 몇 번째에 어떤 앨범이 오는지) |
 | `../data/meta.yaml` | `dbLastUpdate`, 스키마 버전 |
-| `../albums/` `../songs/` `../members/` `../concerts/` `../TakasakiInfo.json` | **생성물(v1).** 직접 수정하지 않는다. CI가 막는다(E8) |
+| `../albums/` `../songs/` `../members/` `../concerts/` `../TakasakiInfo.json` | **생성물(레거시).** 직접 수정하지 않는다. CI가 막는다(E8) |
 | `src/takasaki/` | 모델, 빌더, 검증기, 이관기, 리뷰 처리 |
 | `review/` | 사람이 판단할 리뷰 항목 |
-| `migration/REPORT.md` | v1 → 정규화 이관 보고서 (이관 전 v1 파일과 달라진 모든 셀) |
+| `migration/REPORT.md` | 레거시 → 정규화 이관 보고서 (이관 전 레거시 파일과 달라진 모든 셀) |
 
 ## 설치와 실행
 
@@ -22,19 +22,19 @@ TakasakiInfo 데이터 파이프라인. 설계는 [docs/DESIGN.md](docs/DESIGN.m
 cd automation
 uv sync
 uv run takasaki validate      # 검증 규칙 (오류가 있으면 종료 코드 1)
-uv run takasaki build         # data/ → v1 파일 재생성
-uv run takasaki check         # 커밋된 v1 파일이 빌드 결과와 같은지 (E8)
+uv run takasaki build         # data/ → 레거시 파일 재생성
+uv run takasaki check         # 커밋된 레거시 파일이 빌드 결과와 같은지 (E8)
 uv run pytest -q
 ```
 
 | 명령 | 하는 일 |
 | --- | --- |
-| `takasaki build [--out DIR]` | v1 파일 생성. 기본 출력 위치는 저장소 루트 |
+| `takasaki build [--out DIR]` | 레거시 파일 생성. 기본 출력 위치는 저장소 루트 |
 | `takasaki check` | E8 검사 |
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
-| `takasaki migrate [--force]` | v1 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
+| `takasaki migrate [--force]` | 레거시 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
 | `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
 ## 데이터를 고치는 흐름
@@ -61,7 +61,7 @@ uv run pytest -q
 
 ## 진행 상황
 
-- **Phase 0 (기반)**: 완료. 모델, YAML 저장소, v1 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
+- **Phase 0 (기반)**: 완료. 모델, YAML 저장소, 레거시 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
 - **Phase 1 (이관)**: M1~M7 완료. 기존 데이터를 무손실로 옮겼고, 출력이 바뀐 곳은 이미 승인된 변경뿐이다(`migration/REPORT.md`).
   - 남은 것
     - 리뷰 66건 결정: merge 18, classify 38, latin-ko 3, legacy-row 3, setlist 4

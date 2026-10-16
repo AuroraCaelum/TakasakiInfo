@@ -21,7 +21,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: chika-takami-solo-ver
     title:
       ja: 少女以上の恋がしたい (高海千歌 Solo Ver.)
@@ -37,7 +37,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 少女以上の恋がしたい (桜内梨子 Solo Ver.)
@@ -53,7 +53,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 少女以上の恋がしたい (黒澤ルビィ Solo Ver.)
@@ -69,8 +69,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

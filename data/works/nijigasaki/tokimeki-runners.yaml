@@ -20,7 +20,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: sifas-chapter-17-ver
     title:
       ja: TOKIMEKI Runners (スクスタストーリー17章揷入歌Ver.)
@@ -35,7 +35,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: 12nin-ver
     title:
       ja: TOKIMEKI Runners (12人Ver.)
@@ -50,8 +50,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy

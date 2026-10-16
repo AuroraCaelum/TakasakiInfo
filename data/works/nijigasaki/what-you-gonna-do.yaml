@@ -22,7 +22,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: 1nensei-yu-ver
     title:
       ja: わちゅごなどぅー (1年生＋侑 Ver.)
@@ -42,7 +42,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: 2nensei-yu-ver
     title:
       ja: わちゅごなどぅー (2年生＋侑 Ver.)
@@ -62,7 +62,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: 3nensei-yu-ver
     title:
       ja: わちゅごなどぅー (3年生＋侑 Ver.)
@@ -82,7 +82,7 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
   - id: off-vocal
     kind: off_vocal
     title:
@@ -100,8 +100,8 @@ recordings:
     evidence:
       credits:
         status: legacy
-        source: migration:v1
+        source: migration:legacy
 evidence:
   credits:
     status: legacy
-    source: migration:v1
+    source: migration:legacy
