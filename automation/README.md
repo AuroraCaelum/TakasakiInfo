@@ -66,6 +66,8 @@ uv run pytest -q
   - 남은 것
     - 리뷰 66건 결정: merge 18, classify 38, latin-ko 3, legacy-row 3, setlist 4
     - Note 열 자유 텍스트의 구조화(M3 일부)
-- **배포 파이프라인 (§10.4)**: 코드 완료. AWS에 아직 배포하지 않았다.
-  - 인프라: `../infra/` (CDK 스택 3개). 배포 방법은 [../infra/README.md](../infra/README.md)
-  - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. 저장소 변수가 등록되기 전까지는 워크플로가 건너뛴다
+- **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
+  - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
+  - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다
+  - 배포 역할(OIDC)은 `main` 브랜치만 위임받을 수 있다. 다른 브랜치에서 워크플로를 수동 실행하면 AWS 인증 단계에서 실패한다
+  - API는 아직 `/api/v1/health`만 있다. 질의 엔드포인트는 Phase 6(§10.6)
