@@ -4,9 +4,20 @@ names:
   ja: 平安名すみれ
   rom: Sumire Heanna
   ko: 헤안나 스미레
+family_name:
+  ja: 平安名
+  rom: Heanna
+  ko: 헤안나
+given_name:
+  ja: すみれ
+  rom: Sumire
+  ko: 스미레
 casting:
   - {person: naomi-payton}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

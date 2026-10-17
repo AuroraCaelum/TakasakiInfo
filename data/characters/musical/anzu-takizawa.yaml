@@ -4,9 +4,20 @@ names:
   ja: 滝沢アンズ
   rom: Anzu Takizawa
   ko: 타키자와 안즈
+family_name:
+  ja: 滝沢
+  rom: Takizawa
+  ko: 타키자와
+given_name:
+  ja: アンズ
+  rom: Anzu
+  ko: 안즈
 casting:
   - {person: yuuna-sekine}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

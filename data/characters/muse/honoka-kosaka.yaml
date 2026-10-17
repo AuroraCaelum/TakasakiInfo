@@ -4,9 +4,20 @@ names:
   ja: 高坂穂乃果
   rom: Honoka Kosaka
   ko: 코사카 호노카
+family_name:
+  ja: 高坂
+  rom: Kosaka
+  ko: 코사카
+given_name:
+  ja: 穂乃果
+  rom: Honoka
+  ko: 호노카
 casting:
   - {person: emmy-nitta}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

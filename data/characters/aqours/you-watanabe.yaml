@@ -4,9 +4,20 @@ names:
   ja: 渡辺曜
   rom: You Watanabe
   ko: 와타나베 요우
+family_name:
+  ja: 渡辺
+  rom: Watanabe
+  ko: 와타나베
+given_name:
+  ja: 曜
+  rom: You
+  ko: 요우
 casting:
   - {person: shuka-saito}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

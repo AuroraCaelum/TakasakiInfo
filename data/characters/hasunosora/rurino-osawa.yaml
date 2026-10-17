@@ -4,9 +4,20 @@ names:
   ja: 大沢瑠璃乃
   rom: Rurino Osawa
   ko: 오사와 루리노
+family_name:
+  ja: 大沢
+  rom: Osawa
+  ko: 오사와
+given_name:
+  ja: 瑠璃乃
+  rom: Rurino
+  ko: 루리노
 casting:
   - {person: kanna-kan}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -4,9 +4,20 @@ names:
   ja: 若菜四季
   rom: Shiki Wakana
   ko: 와카나 시키
+family_name:
+  ja: 若菜
+  rom: Wakana
+  ko: 와카나
+given_name:
+  ja: 四季
+  rom: Shiki
+  ko: 시키
 casting:
   - {person: wakana-ookuma}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -1,9 +1,15 @@
 id: naoki-tani
 names:
-  ja: 谷 ナオキ
+  ja: 谷ナオキ
   rom: Naoki Tani
   ko: 타니 나오키
+aliases:
+  - {text: 谷 ナオキ}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/song/293262/
+    checked: 2026-10-17

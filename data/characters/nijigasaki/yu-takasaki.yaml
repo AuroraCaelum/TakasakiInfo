@@ -1,0 +1,27 @@
+id: nijigasaki/yu-takasaki
+project: nijigasaki
+names:
+  ja: 高咲侑
+  rom: Yu Takasaki
+  ko: 타카사키 유우
+family_name:
+  ja: 高咲
+  rom: Takasaki
+  ko: 타카사키
+given_name:
+  ja: 侑
+  rom: Yu
+  ko: 유우
+casting:
+  - {person: hinaki-yano}
+evidence:
+  names:
+    status: legacy
+    source: migration:legacy
+  casting:
+    status: established
+    source: https://animeanime.jp/article/2022/04/01/68567.html
+    checked: 2026-10-17
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

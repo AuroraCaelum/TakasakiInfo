@@ -4,9 +4,20 @@ names:
   ja: 米女メイ
   rom: Mei Yoneme
   ko: 요네메 메이
+family_name:
+  ja: 米女
+  rom: Yoneme
+  ko: 요네메
+given_name:
+  ja: メイ
+  rom: Mei
+  ko: 메이
 casting:
   - {person: akane-yabushima}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

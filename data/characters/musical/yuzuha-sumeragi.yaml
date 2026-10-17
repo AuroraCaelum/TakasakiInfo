@@ -4,9 +4,20 @@ names:
   ja: 皇ユズハ
   rom: Yuzuha Sumeragi
   ko: 스메라기 유즈하
+family_name:
+  ja: 皇
+  rom: Sumeragi
+  ko: 스메라기
+given_name:
+  ja: ユズハ
+  rom: Yuzuha
+  ko: 유즈하
 casting:
   - {person: nanami-asai}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

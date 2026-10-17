@@ -4,9 +4,20 @@ names:
   ja: 松浦果南
   rom: Kanan Matsuura
   ko: 마츠우라 카난
+family_name:
+  ja: 松浦
+  rom: Matsuura
+  ko: 마츠우라
+given_name:
+  ja: 果南
+  rom: Kanan
+  ko: 카난
 casting:
   - {person: nanaka-suwa}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

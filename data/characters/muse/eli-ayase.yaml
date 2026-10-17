@@ -4,9 +4,20 @@ names:
   ja: 絢瀬絵里
   rom: Eli Ayase
   ko: 아야세 에리
+family_name:
+  ja: 絢瀬
+  rom: Ayase
+  ko: 아야세
+given_name:
+  ja: 絵里
+  rom: Eli
+  ko: 에리
 casting:
   - {person: yoshino-nanjo}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

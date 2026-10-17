@@ -4,9 +4,20 @@ names:
   ja: 小泉花陽
   rom: Hanayo Koizumi
   ko: 코이즈미 하나요
+family_name:
+  ja: 小泉
+  rom: Koizumi
+  ko: 코이즈미
+given_name:
+  ja: 花陽
+  rom: Hanayo
+  ko: 하나요
 casting:
   - {person: yurika-kubo}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

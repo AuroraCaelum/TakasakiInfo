@@ -4,9 +4,20 @@ names:
   ja: 桜小路きな子
   rom: Kinako Sakurakoji
   ko: 사쿠라코지 키나코
+family_name:
+  ja: 桜小路
+  rom: Sakurakoji
+  ko: 사쿠라코지
+given_name:
+  ja: きな子
+  rom: Kinako
+  ko: 키나코
 casting:
   - {person: nozomi-suzuhara}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -3,7 +3,13 @@ names:
   ja: 栗原暁
   rom: Satoru Kurihara
   ko: 쿠리하라 사토루
+aliases:
+  - {text: 栗原 暁}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/composer/26732/
+    checked: 2026-10-17

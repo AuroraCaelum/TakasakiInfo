@@ -4,9 +4,20 @@ names:
   ja: ミア・テイラー
   rom: Mia Taylor
   ko: 미아 테일러
+family_name:
+  ja: テイラー
+  rom: Taylor
+  ko: 테일러
+given_name:
+  ja: ミア
+  rom: Mia
+  ko: 미아
 casting:
   - {person: shu-uchida}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

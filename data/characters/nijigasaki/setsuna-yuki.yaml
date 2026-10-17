@@ -4,6 +4,14 @@ names:
   ja: 優木せつ菜
   rom: Setsuna Yuki
   ko: 유키 세츠나
+family_name:
+  ja: 優木
+  rom: Yuki
+  ko: 유키
+given_name:
+  ja: せつ菜
+  rom: Setsuna
+  ko: 세츠나
 casting:
   - {person: tomori-kusunoki}
   - {person: coco-hayashi}
@@ -11,3 +19,6 @@ evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

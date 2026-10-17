@@ -29,6 +29,11 @@ class Finding:
         return f"[{self.rule}] {self.where}: {self.message}"
 
 
+def _bare(name: str) -> str:
+    """A name without separators, for comparing it with its family/given parts."""
+    return name.replace(" ", "").replace("　", "").replace("・", "")
+
+
 def open_review_refs(review_dir: Path) -> set[str]:
     refs: set[str] = set()
     if not review_dir.exists():
@@ -68,6 +73,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     def creds(cs: list[m.Credit], where: str) -> None:
         for c in cs:
             need(ds.persons, c.person, where, "person")
+            need(ds.characters, c.character, where, "character")
 
     for c in ds.characters.values():
         need(ds.projects, c.project, f"character:{c.id}", "project")
@@ -180,6 +186,21 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E7", f"person:{p.id}", f"Latin-native name has ko {p.names.ko!r} (expected {p.names.ja!r})",
                 refs=(f"person:{p.id}",))
 
+    # E12: character name parts (D26)
+    for c in ds.characters.values():
+        where = f"character:{c.id}"
+        if c.names.ja and (" " in c.names.ja or "　" in c.names.ja):
+            add("E12", where, f"ja is written without a space: {c.names.ja!r}", refs=(where,))
+        if c.family_name is None and c.given_name is None:
+            continue
+        fam, giv = c.family_name or m.Names(), c.given_name or m.Names()
+        for lang in ("ja", "kana", "rom", "ko"):
+            full, f, g = getattr(c.names, lang), getattr(fam, lang), getattr(giv, lang)
+            if f is None and g is None:
+                continue
+            if not (f and g and full) or _bare(full) not in (_bare(f + g), _bare(g + f)):
+                add("E12", where, f"{lang}: family {f!r} + given {g!r} does not make {full!r}", refs=(where,))
+
     # E11: one owner per YouTube video
     owners: dict[str, list[str]] = defaultdict(list)
     for rel in ds.releases.values():
@@ -202,4 +223,20 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                   if r.kind in ("vocal",) and not ((r.title or w.title).kana))
     if missing:
         add("W8", "recordings", f"{missing} vocal recordings have no pronunciation (kana)")
+
+    # W14: empty credits. "Not applicable" is an empty list (D25), so only vocal recordings are
+    # expected to have every role filled; an empty one there is missing data.
+    empty = []
+    for w in ds.works.values():
+        for r in w.recordings:
+            if r.kind != "vocal":
+                continue
+            credits = r.credits_override or w.credits
+            roles = {"performers": r.performers, "lyricist": credits.lyricist,
+                     "composer": credits.composer, "arranger": r.arranger}
+            gaps = [k for k, v in roles.items() if not v]
+            if gaps:
+                empty.append(f"{w.id}#{r.id} ({', '.join(gaps)})")
+    if empty:
+        add("W14", "recordings", f"{len(empty)} vocal recordings have empty credits, e.g. {empty[:3]}")
     return out

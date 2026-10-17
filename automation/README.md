@@ -50,7 +50,7 @@ uv run pytest -q
 
 | decision | 대상 | 효과 |
 | --- | --- | --- |
-| `merge:<종류>:<id>` | merge | 항목의 모든 `ref`를 그 엔티티로 병합. 참조를 고쳐 쓰고, 다른 표기는 alias로 남기고, 병합된 엔티티는 삭제. 예: `merge:person:hiroto-kikuchi-2` |
+| `merge:<종류>:<id>` | merge | 항목의 모든 `ref`를 그 엔티티로 병합. 참조를 고쳐 쓰고, 다른 표기는 alias로 남기고, 병합된 엔티티는 삭제. 예: `merge:person:hiroto-kikuchi`. 작중 크레딧(D27)이면 person을 character로도 병합할 수 있다 |
 | `distinct` | merge | 서로 다른 대상으로 기록(`distinct_from`). 이후 경고가 사라진다 |
 | `kind:<종류>` | classify | 아티스트 종류 지정: `group` `unit` `solo` `cross_unit` `collab` `special` |
 | `rule` | latin-ko | 라틴 원어 이름의 ko를 원문으로 (§5.4) |
@@ -62,9 +62,12 @@ uv run pytest -q
 ## 진행 상황
 
 - **Phase 0 (기반)**: 완료. 모델, YAML 저장소, 레거시 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
-- **Phase 1 (이관)**: M1~M7 완료. 기존 데이터를 무손실로 옮겼고, 출력이 바뀐 곳은 이미 승인된 변경뿐이다(`migration/REPORT.md`).
+- **Phase 1 (이관)**: M1~M7 완료. 기존 데이터를 무손실로 옮겼고, 출력이 바뀐 곳은 이미 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~9).
+  - 완료: merge 리뷰 18건, 부록 A-1 1~12, `NA` 엔티티 정리 (2026-10-17, 결정 D25~D27)
   - 남은 것
-    - 리뷰 66건 결정: merge 18, classify 38, latin-ko 3, legacy-row 3, setlist 4
+    - 리뷰 37건 결정: classify 28, latin-ko 2, legacy-row 3, setlist 4
+    - 부록 A-1 13 (ko 장음의 `established` 근거 확인), 부록 A-2 링크 점검
+    - W14: 크레딧이 빈 보컬 음원 6건. Aqours `聖良と理亞を…` 3건은 드라마인데 곡으로 분류돼 있고, 2021년 REMIX 3건은 크레딧이 비어 있다(legacy-row 리뷰와 같은 발매물)
     - Note 열 자유 텍스트의 구조화(M3 일부)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)

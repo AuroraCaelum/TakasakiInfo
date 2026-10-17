@@ -1,9 +1,17 @@
 id: yuki-kokubo
 names:
   ja: 小久保祐希
-  rom: Yuki Kokubo
+  rom: Yu-ki Kokubo
   ko: 코쿠보 유키
+aliases:
+  - {text: Yu-Ki Kokubo}
+  - {text: Yuki Kokubo}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.rom:
+    status: established
+    source: https://utaten.com/songWriter/5411/
+    checked: 2026-10-17
+    note: 본인 사용 라틴 표기 (§5.3 우선순위 2)

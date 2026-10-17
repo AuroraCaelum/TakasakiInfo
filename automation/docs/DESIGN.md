@@ -145,6 +145,8 @@ erDiagram
 - 작사, 작곡: **Work**
 - 편곡, 가창: **Recording**
 - 예외: 버전에 따라 작사·작곡이 달라지는 경우가 드물게 있다. 이때만 Recording에 `credits_override`를 쓰고, 사유(`note`)를 반드시 적는다.
+- 크레딧은 보통 Person을 가리킨다. 작중 캐릭터가 작사·작곡자로 크레딧된 경우(예: `Hurray Hurray`의 `高咲侑`)에는 Character를 가리킨다(결정 D27).
+- **해당 없음은 빈 목록이다** (결정 D25). 드라마 트랙의 작사·작곡·편곡, instrumental의 가창자가 그렇다. `NA` 같은 자리표시 엔티티를 만들지 않는다. 레거시에는 빈칸으로 나온다. 빈 칸이 해당 없음인지 결측인지는 Recording의 `kind`로 구분하고, 보컬 음원의 빈 크레딧만 결측으로 경고한다(W14).
 
 기존 `songs`·`albums`의 한 행은 `Track ⨝ Recording ⨝ Work` 조인으로 생성한다. 크레딧이 한 곳에만 있으므로, `Aqours CHRONICLE`에 실린 곡과 원래 싱글에 실린 곡의 크레딧이나 발음이 달라질 수 없다.
 
@@ -231,30 +233,30 @@ evidence:
 **Person**: 표기 변형과 오기가 있는 인물
 
 ```yaml
-# data/persons/kikuchi-hiroto.yaml
-id: kikuchi-hiroto
+# data/persons/hiroto-kikuchi.yaml
+id: hiroto-kikuchi
 names:
-  ja: 菊地博人 # 정규 표기 (소속사/본인 프로필로 확정)
+  ja: 菊池博人 # 정규 표기 (레이블 크레딧으로 확정)
   rom: Hiroto Kikuchi
   ko: 키쿠치 히로토
 aliases:
-  - {
-      text: 菊池博人,
-      kind: misprint,
-      seen_in: ['nijigasaki/2018-tokimeki-runners']
-    }
+  - { text: 菊地博人, kind: misprint }
 evidence:
   names.ja:
-    { status: official, source: '<소속사 프로필 URL>', checked: 2026-10-?? }
+    { status: established, source: 'https://www.uta-net.com/arranger/18170/', checked: 2026-10-17 }
 ```
 
 **Character**: CV가 교체된 경우
 
+정규 이름(`names.ja`)은 붙여 쓴다. 성과 이름은 `family_name`·`given_name`에 따로 둔다(결정 D26). 언어마다 어순이 달라도 된다(rom은 이름-성, ja·ko는 성-이름).
+
 ```yaml
-# data/characters/nijigasaki/yuki-setsuna.yaml
-id: yuki-setsuna
+# data/characters/nijigasaki/setsuna-yuki.yaml
+id: nijigasaki/setsuna-yuki
 project: nijigasaki
 names: { ja: 優木せつ菜, rom: Setsuna Yuki, ko: 유키 세츠나 }
+family_name: { ja: 優木, rom: Yuki, ko: 유키 }
+given_name: { ja: せつ菜, rom: Setsuna, ko: 세츠나 }
 casting:
   - { person: kusunoki-tomori, until: '<공식 발표일>' }
   - { person: hayashi-coco, from: '<공식 발표일>' }
@@ -549,7 +551,7 @@ cast_changes: []
   - 크레딧에 나온 다른 표기는 `aliases`로 저장한다. 입력 매칭에는 쓰지만 출력에는 정규 표기만 나온다.
   - 오기(誤記)도 `kind: misprint` alias로 남긴다. 공식 사이트에도 오기가 있기 때문이다.
   - 공백은 사람마다 정규 표기를 따른다(`畑 亜貴` 대 `光増ハジメ`). **공백을 일괄 정규화하지 않는다.** 대신 공백만 다른 변형은 검증기가 "같은 인물인지" 확인을 요청한다.
-- **소속 표기**(`(Arte Refract)`, `(FirstCall)`, `(Jazzin'park)`)는 인명에 포함하지 않는다. 크레딧의 `affiliation` 필드로 분리한다. 레거시 출력 시에는 현행 다수 형식인 `名前(所属)`(괄호를 붙여 씀)으로 통일한다(결정 D10). 예: `光増ハジメ(FirstCall)`. 공식 사이트가 `光増ハジメ (FirstCall)`처럼 띄어 써도 마찬가지다.
+- **소속 표기**(`(Arte Refact)`, `(FirstCall)`, `(Jazzin'park)`)는 인명에 포함하지 않는다. 크레딧의 `affiliation` 필드로 분리한다. 레거시 출력 시에는 현행 다수 형식인 `名前(所属)`(괄호를 붙여 씀)으로 통일한다(결정 D10). 예: `光増ハジメ(FirstCall)`. 공식 사이트가 `光増ハジメ (FirstCall)`처럼 띄어 써도 마찬가지다.
 
 ### 5.3 로마자(rom)
 
@@ -935,6 +937,7 @@ wikitext 예:
 | E9  | 공연 세트리스트의 곡 항목이 Work로 해석되지 않음                                                                                                       |
 | E10 | 생성물(`albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json`)을 직접 수정한 커밋                                                           |
 | E11 | 서로 다른 Track의 **자기 URL**이 같은 YouTube videoId임 (`streaming.editions`로 공유를 명시한 경우 제외. 메인 URL 대체로 출력된 값은 비교 대상이 아님) |
+| E12 | 캐릭터의 `names.ja`에 공백이 있음, 또는 `family_name`·`given_name`을 합친 것이 전체 이름과 다름 (언어별, 어순 무관, `・` 무시. 결정 D26) |
 
 **WARN: PR에 표시한다**
 
@@ -953,6 +956,7 @@ wikitext 예:
 | W11 | 세트리스트의 가창자가 그날 출연진에 없음 (결석 반영 누락 의심)                                                                                                                                                           |
 | W12 | 메인 URL 대체가 근거로 삼은 "같은 Recording" 판정이 ISRC나 길이로 확인되지 않고 사람 승인만 있음 (동일 음원이 아니면 대체가 틀리므로 표시) |
 | W13 | YouTube Music 앨범의 트랙 수·순서가 발매물 트랙리스트와 다름 (URL을 엉뚱한 Track에 붙였을 가능성)                                                                                                                        |
+| W14 | 보컬 음원의 가창자·작사·작곡·편곡 중 빈 것이 있음. 해당 없음은 빈 목록이므로(결정 D25) 드라마·instrumental은 검사하지 않는다 |
 
 ---
 
@@ -1000,6 +1004,13 @@ wikitext 예:
    - `Feel Alive / Go Our Way！（R3BIRTH盤）` 4행: `NA` → 메인 URL
    - `わちゅごなどぅー (Off Vocal)`: 보컬 URL → `NA`
    - TVA BD 특전 트랙 11곡: 메인 URL로 출력되는 동일 음원인지 확인한다. 동일 음원이 아니면 `NA`로 바뀐다(특히 `One More Sunshine Story` ↔ `(Album Version)`).
+6. 크레딧의 `NA`(해당 없음)를 빈칸으로 바꾼다 (결정 D25). 드라마 23행, 뮤지컬 instrumental 3행. 다른 드라마 행은 원래 빈칸이었다. 링크 열의 `NA`는 그대로다.
+7. 캐릭터 이름을 붙여 쓴다 (결정 D26). `渡辺 曜`·`宮下 愛`·`鐘 嵐珠`·`高咲 侑` → 붙여 씀.
+8. 레거시 원본의 오류를 고친다.
+   - `members/Liella.csv`의 `ウィーン・マルガレーテ`: rom `Margarete Wien` → `Wien Margarete`(공식 라틴 순서), ko `유이나`(성우 이름이 들어가 있었음) → `빈 마르가레테`
+   - `未完成ドリーム！`: 가창자 rom 열의 `晴風サヤカ`·`鈴賀レナ` 순서가 ja·ko 열과 뒤바뀌어 있었음
+   - `CYaRon!` 가창자 ja가 비어 있던 행 1개
+9. 소속 표기를 정리한다. 이름 안에 남아 있던 소속(`栗原 暁(Jazzin'Park)`, `大熊淳生（Arte Refact）`)을 분리하고, `Arte Refract`(오타)를 `Arte Refact`로 고친다.
 
 `songs/*.json`은 지금처럼 수록마다 한 행을 유지한다. 행마다 URL이 다르기 때문이다.
 
@@ -1454,6 +1465,9 @@ TakasakiInfo/
 | D22 | Q14       | 2026-10-17 | IaC는 AWS CDK(Python). Lambda와 S3는 서울(ap-northeast-2), WAF와 요금제 가입은 us-east-1. 스택 3개를 리전 간 참조로 연결 | 10.4절, `infra/` |
 | D23 | —         | 2026-10-17 | 새 API와 새 데이터 형식을 v1로 부른다(`/api/v1/…`, `dist/v1/`, `/data/v1/…`). 기존 API에 버전 경로가 없었으므로 v1부터 시작한다. 저장소의 현행 형식은 레거시로 부른다(`/data/legacy/…`, 이관 출처 `migration:legacy`, 배치 `data/legacy/layout.yaml`) | 10.1절, 10.2절, 10.4절, 10.5절, 10.6절 |
 | D24 | —         | 2026-10-17 | `/api/*`는 CloudFront에서 캐시하지 않는다(`CachingDisabled`). 쿼리 문자열을 키에 넣는 관리형 캐시 정책은 모두 Host를 포함해 OAC 서명이 깨지고(403), Free 플랜은 사용자 정의 캐시 정책을 허용하지 않는다. API 캐시는 짧은 브라우저 `Cache-Control`만 쓴다 | 10.4절, 10.6절 |
+| D25 | —         | 2026-10-17 | 크레딧의 "해당 없음"은 빈 목록으로 둔다. 레거시의 `NA`를 인물·아티스트로 옮긴 `na` 엔티티는 지운다. 레거시에는 빈칸으로 출력한다. 결측과의 구분은 Recording의 `kind`로 하고, 보컬 음원의 빈 크레딧만 경고한다(W14) | 4.2절, 8절, 10.1절 |
+| D26 | —         | 2026-10-17 | 캐릭터의 정규 이름(`names.ja`)은 붙여 쓴다. 성과 이름은 새 필드 `family_name`·`given_name`(언어별 이름)에 분리해 둔다 | 4.3절, 8절(E12), 10.1절 |
+| D27 | —         | 2026-10-17 | 작중 캐릭터가 크레딧된 경우(`高咲侑`의 작사·작곡) 크레딧이 Character를 가리킬 수 있다. 실존 인물이 아닌 Person을 만들지 않는다 | 4.2절 |
 
 ### 16.2 결정 필요 사항
 
@@ -1473,23 +1487,23 @@ TakasakiInfo/
 
 ### A-1. 인명 표기
 
-"정규 표기"는 본인·소속사 공식 프로필로 확정한다.
+"정규 표기"는 본인·소속사 공식 프로필로 확정한다. 프로필이 없으면 레이블 크레딧(uta-net 등)을 따른다. 1~12는 2026-10-17 리뷰로 처리했다. 처리 결과의 근거는 각 인물의 `evidence`에 있다.
 
-| #   | 유형             | 관측된 표기                                                                                          |
-| --- | ---------------- | ---------------------------------------------------------------------------------------------------- |
-| 1   | ja 공백          | `渡辺 曜` / `渡辺曜`                                                                                 |
-| 2   | ja 한자          | `菊池博人` / `菊地博人`                                                                              |
-| 3   | ja 공백          | `要田 健` / `要田健`                                                                                 |
-| 4   | ja 공백          | `谷 ナオキ` / `谷ナオキ`                                                                             |
-| 5   | ja 공백          | `水野谷 怜` / `水野谷怜`                                                                             |
-| 6   | ja 공백          | `サイトウ リョースケ` / `サイトウリョースケ`                                                         |
-| 7   | ja 공백·대소문자 | `栗原 暁(Jazzin'park)` / `栗原暁(Jazzin'park)` / `栗原 暁(Jazzin'Park)`                              |
-| 8   | ja 문자 체계     | `イワツボコーダイ` / `KOUDAI IWATSUBO` (rom도 `Kodai Iwatsubo` / `KOUDAI IWATSUBO`)                  |
-| 9   | rom              | `小久保祐希` → `Yuki Kokubo` / `Yu-Ki Kokubo`                                                        |
-| 10  | rom 순서         | `大原万由子` → `Mayuko Ohara` / `Ohara Mayuko`                                                       |
-| 11  | rom 공백         | `久保田真悟(Jazzin'park)` → `Singo Kubota(Jazzin'park)` / `Singo Kubota (Jazzin'park)`               |
-| 12  | ko               | `Ryota Saito` → ko `Ryota Saito` / `사이토 료타`                                                     |
-| 13  | ko 장음          | `内田 秀` 우치다 슈우 · `兼松 衆` 카네마츠 슈 · `佐々倉有吾` 사사쿠라 유우고 · `優木` 유키. 결정 D5(생략)에 따라 슈우·유우고는 `established` 근거가 있으면 유지하고, 없으면 슈·유고로 바꾼다 |
+| #   | 유형             | 관측된 표기                                                                                          | 결과 |
+| --- | ---------------- | ---------------------------------------------------------------------------------------------------- | ---- |
+| 1   | ja 공백          | `渡辺 曜` / `渡辺曜`                                                                                 | 캐릭터 `渡辺曜`로 병합 (D26) |
+| 2   | ja 한자          | `菊池博人` / `菊地博人`                                                                              | `菊池博人`. `菊地博人`는 오기 alias |
+| 3   | ja 공백          | `要田 健` / `要田健`                                                                                 | `要田健` |
+| 4   | ja 공백          | `谷 ナオキ` / `谷ナオキ`                                                                             | `谷ナオキ` |
+| 5   | ja 공백          | `水野谷 怜` / `水野谷怜`                                                                             | `水野谷怜` |
+| 6   | ja 공백          | `サイトウ リョースケ` / `サイトウリョースケ`                                                         | `サイトウリョースケ` |
+| 7   | ja 공백·대소문자 | `栗原 暁(Jazzin'park)` / `栗原暁(Jazzin'park)` / `栗原 暁(Jazzin'Park)`                              | `栗原暁`, 소속 `Jazzin'park`로 분리 |
+| 8   | ja 문자 체계     | `イワツボコーダイ` / `KOUDAI IWATSUBO` (rom도 `Kodai Iwatsubo` / `KOUDAI IWATSUBO`)                  | ja `イワツボコーダイ`, rom `KOUDAI IWATSUBO`(본인 표기), ko `이와츠보 코다이` |
+| 9   | rom              | `小久保祐希` → `Yuki Kokubo` / `Yu-Ki Kokubo`                                                        | `Yu-ki Kokubo` (본인 표기) |
+| 10  | rom 순서         | `大原万由子` → `Mayuko Ohara` / `Ohara Mayuko`                                                       | `Mayuko Ohara` (D4) |
+| 11  | rom 공백         | `久保田真悟(Jazzin'park)` → `Singo Kubota(Jazzin'park)` / `Singo Kubota (Jazzin'park)`               | 이관 때 처리 (D10) |
+| 12  | ko               | `Ryota Saito` → ko `Ryota Saito` / `사이토 료타`                                                     | `Ryota Saito` (라틴 원어 규칙) |
+| 13  | ko 장음          | `内田 秀` 우치다 슈우 · `兼松 衆` 카네마츠 슈 · `佐々倉有吾` 사사쿠라 유우고 · `優木` 유키. 결정 D5(생략)에 따라 슈우·유우고는 `established` 근거가 있으면 유지하고, 없으면 슈·유고로 바꾼다 | 미결 |
 
 ### A-2. 링크 점검 대상
 

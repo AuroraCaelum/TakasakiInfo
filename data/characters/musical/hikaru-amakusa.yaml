@@ -4,9 +4,20 @@ names:
   ja: 天草ヒカル
   rom: Hikaru Amakusa
   ko: 아마쿠사 히카루
+family_name:
+  ja: 天草
+  rom: Amakusa
+  ko: 아마쿠사
+given_name:
+  ja: ヒカル
+  rom: Hikaru
+  ko: 히카루
 casting:
   - {person: rina-koyama}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

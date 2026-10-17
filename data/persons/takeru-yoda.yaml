@@ -3,7 +3,13 @@ names:
   ja: 要田健
   rom: Takeru Yoda
   ko: 요다 타케루
+aliases:
+  - {text: 要田 健}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/composer/51932/
+    checked: 2026-10-17

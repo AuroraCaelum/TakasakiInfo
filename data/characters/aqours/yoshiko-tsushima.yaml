@@ -4,9 +4,20 @@ names:
   ja: 津島善子
   rom: Yoshiko Tsushima
   ko: 츠시마 요시코
+family_name:
+  ja: 津島
+  rom: Tsushima
+  ko: 츠시마
+given_name:
+  ja: 善子
+  rom: Yoshiko
+  ko: 요시코
 casting:
   - {person: aika-kobayashi}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

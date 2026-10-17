@@ -3,7 +3,13 @@ names:
   ja: 水野谷怜
   rom: Ren Mizunoya
   ko: 미즈노야 렌
+aliases:
+  - {text: 水野谷 怜}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/composer/50681/
+    checked: 2026-10-17

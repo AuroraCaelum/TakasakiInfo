@@ -4,9 +4,20 @@ names:
   ja: 葉月恋
   rom: Ren Hazuki
   ko: 하즈키 렌
+family_name:
+  ja: 葉月
+  rom: Hazuki
+  ko: 하즈키
+given_name:
+  ja: 恋
+  rom: Ren
+  ko: 렌
 casting:
   - {person: nagisa-aoyama}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

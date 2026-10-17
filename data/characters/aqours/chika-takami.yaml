@@ -4,9 +4,20 @@ names:
   ja: 高海千歌
   rom: Chika Takami
   ko: 타카미 치카
+family_name:
+  ja: 高海
+  rom: Takami
+  ko: 타카미
+given_name:
+  ja: 千歌
+  rom: Chika
+  ko: 치카
 casting:
   - {person: anju-inami}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

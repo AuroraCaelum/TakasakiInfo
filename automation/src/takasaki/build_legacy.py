@@ -109,12 +109,18 @@ def render_performers(ds: Dataset, performers: list[m.Performer]) -> list[str]:
     return [_join([getattr(n, lang) or "" for n in names]) for lang in LANGS]
 
 
+def _credit_names(ds: Dataset, c: m.Credit) -> m.Names:
+    if c.person:
+        return ds.persons[c.person].names
+    return ds.characters[c.character].names  # type: ignore[index]
+
+
 def render_credits(ds: Dataset, credits: list[m.Credit]) -> list[str]:
     out = []
     for lang in LANGS:
         parts = []
         for c in credits:
-            name = getattr(ds.persons[c.person].names, lang) or ""
+            name = getattr(_credit_names(ds, c), lang) or ""
             role = getattr(c.role, lang) if c.role else None
             parts.append(render_credit_name(name, lang, c.affiliation, role))
         out.append(_join(parts))

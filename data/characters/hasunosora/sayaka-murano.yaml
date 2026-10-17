@@ -4,9 +4,20 @@ names:
   ja: 村野さやか
   rom: Sayaka Murano
   ko: 무라노 사야카
+family_name:
+  ja: 村野
+  rom: Murano
+  ko: 무라노
+given_name:
+  ja: さやか
+  rom: Sayaka
+  ko: 사야카
 casting:
   - {person: kokona-nonaka}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

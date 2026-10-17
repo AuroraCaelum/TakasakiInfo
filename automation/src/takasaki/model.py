@@ -91,9 +91,14 @@ class Casting(Strict):
 
 
 class Character(Strict):
+    """``names.ja`` is written without a space (渡辺曜); the split lives in ``family_name`` /
+    ``given_name`` (D26)."""
+
     id: str
     project: str
     names: Names
+    family_name: Names | None = None
+    given_name: Names | None = None
     casting: list[Casting] = []
     distinct_from: list[str] = []
     evidence: dict[str, Evidence] = {}
@@ -126,12 +131,24 @@ class Artist(Strict):
 
 
 class Credit(Strict):
-    """One credited person. ``role`` holds the character a cast member is credited as
-    (e.g. musical cast credited as lyricists: ``堀内まり菜（椿 ルリカ役）``)."""
+    """One credited person, or a character credited in-story (高咲侑 on Hurray Hurray, D27).
+    ``role`` holds the character a cast member is credited as (e.g. musical cast credited as
+    lyricists: ``堀内まり菜（椿 ルリカ役）``)."""
 
-    person: str
+    person: str | None = None
+    character: str | None = None
     affiliation: str | None = None
     role: Names | None = None
+
+    @model_validator(mode="after")
+    def _exactly_one(self) -> Credit:
+        if (self.person is None) == (self.character is None):
+            raise ValueError("credit needs exactly one of person / character")
+        return self
+
+    @property
+    def ref(self) -> tuple[str, str]:
+        return ("person", self.person) if self.person else ("character", self.character)  # type: ignore[return-value]
 
 
 class Performer(Strict):

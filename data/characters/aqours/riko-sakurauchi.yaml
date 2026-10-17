@@ -4,9 +4,20 @@ names:
   ja: 桜内梨子
   rom: Riko Sakurauchi
   ko: 사쿠라우치 리코
+family_name:
+  ja: 桜内
+  rom: Sakurauchi
+  ko: 사쿠라우치
+given_name:
+  ja: 梨子
+  rom: Riko
+  ko: 리코
 casting:
   - {person: rikako-aida}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)
