@@ -1,0 +1,46 @@
+id: ikizulive/himitsu-michi
+project: ikizulive
+title:
+  ja: ヒミツミチ
+  rom: Himitsu Michi
+  ko: 비밀 길
+credits:
+  lyricist:
+    - {person: ameko-kodama}
+  composer:
+    - {person: takashi-fukuda}
+recordings:
+  - id: original
+    performers:
+      - {artist: ikizuraibu}
+    arranger:
+      - {person: takashi-fukuda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ヒミツミチ (Off Vocal)
+      rom: Himitsu Michi (Off Vocal)
+      ko: 비밀 길 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takashi-fukuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+    checked: 2026-10-18

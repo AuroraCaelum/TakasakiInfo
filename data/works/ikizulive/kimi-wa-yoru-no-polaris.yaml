@@ -1,0 +1,48 @@
+id: ikizulive/kimi-wa-yoru-no-polaris
+project: ikizulive
+title:
+  ja: キミは夜のポラリス
+  rom: Kimi wa Yoru no Polaris
+  ko: 너는 밤의 폴라리스
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: takaaki-kimura, affiliation: KEYTONE}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/aurora-konohana}
+    arranger:
+      - {person: takaaki-kimura}
+      - {person: mikanmodoki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: キミは夜のポラリス (Off Vocal)
+      rom: Kimi wa Yoru no Polaris (Off Vocal)
+      ko: 너는 밤의 폴라리스 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takaaki-kimura}
+      - {person: mikanmodoki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-18

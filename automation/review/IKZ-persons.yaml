@@ -1,0 +1,573 @@
+type: new-names
+project: ikizulive
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름(필명 등)은 family_name/given_name을 지우고 names만 채운다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+- kind: person
+  printed: 児玉雨子
+  family_name:
+    ja: 児玉
+    rom: Kodama
+    ko: 코다마
+  given_name:
+    ja: 雨子
+    rom: Ameko
+    ko: 아메코
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['ヒミツミチ: lyricist']
+  ref: person:ameko-kodama
+- kind: person
+  printed: 福田貴史
+  family_name:
+    ja: 福田
+    rom: Fukuda
+    ko: 후쿠다
+  given_name:
+    ja: 貴史
+    rom: Takashi
+    ko: 타카시
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['ヒミツミチ: composer', 'ヒミツミチ: arranger']
+  ref: person:takashi-fukuda
+- kind: person
+  printed: 公野櫻子
+  family_name:
+    ja: 公野
+    rom: Kimino
+    ko: 키미노
+  given_name:
+    ja: 櫻子
+    rom: Sakurako
+    ko: 사쿠라코
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in:
+  - '浅草Guilty Girlの歌: lyricist'
+  - 'Public Style: lyricist'
+  - 'いつか碧: lyricist'
+  - 'HIBANA―火花―: lyricist'
+  - 'HomeRun Queen!!: lyricist'
+  - '恋のワンタイムパスワード: lyricist'
+  - 'Pray for love: lyricist'
+  - 'キミは夜のポラリス: lyricist'
+  - 'Little Green委員会: lyricist'
+  - 'イキタクナイevery day: lyricist'
+  ref: person:sakurako-kimino
+- kind: person
+  printed: 田村優太
+  family_name:
+    ja: 田村
+    rom: Tamura
+    ko: 타무라
+  given_name:
+    ja: 優太
+    rom: Yuta
+    ko: 유타
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['浅草Guilty Girlの歌: composer', '浅草Guilty Girlの歌: arranger']
+  ref: person:yuta-tamura
+- kind: person
+  printed: 佐野仁美
+  family_name:
+    ja: 佐野
+    rom: Sano
+    ko: 사노
+  given_name:
+    ja: 仁美
+    rom: Hitomi
+    ko: 히토미
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['オドルポルカ: composer', 'Daitan Party Time: lyricist', 'Daitan Party Time: composer', '青春ソーダ: lyricist', '青春ソーダ: composer']
+  ref: person:hitomi-sano
+- kind: person
+  printed: つちやみさと
+  family_name:
+    ja: つちや
+    rom: Tsuchiya
+    ko: 츠치야
+  given_name:
+    ja: みさと
+    rom: Misato
+    ko: 미사토
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['オドルポルカ: arranger', '青春ソーダ: arranger']
+  warn: 나무위키 음반 문서는 '츠치야 마사토', 솔로 싱글 문서는 '츠치야미사토'. みさと의 읽기대로 미사토로 제안
+  ref: person:misato-tsuchiya
+- kind: person
+  printed: サクマリョウ
+  family_name:
+    ja: サクマ
+    rom: Sakuma
+    ko: 사쿠마
+  given_name:
+    ja: リョウ
+    rom: Ryo
+    ko: 료
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['Public Style: composer', 'Public Style: arranger']
+  ref: person:ryo-sakuma
+- kind: person
+  printed: 川島亮祐
+  family_name:
+    ja: 川島
+    rom: Kawashima
+    ko: 카와시마
+  given_name:
+    ja: 亮祐
+    rom: Ryosuke
+    ko: 료스케
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['ひっさつマイマイモード: lyricist']
+  warn: 나무위키는 '카와시마 시료'. 亮祐의 보통 읽기(りょうすけ)로 제안. 본인 표기 미확인
+  ref: person:ryosuke-kawashima
+- kind: person
+  printed: 5u5h1
+  names:
+    ja: 5u5h1
+    rom: 5u5h1
+    ko: 5u5h1
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['ひっさつマイマイモード: composer']
+  ref: person:5u5h1
+- kind: person
+  printed: 矢吹香那
+  family_name:
+    ja: 矢吹
+    rom: Yabuki
+    ko: 야부키
+  given_name:
+    ja: 香那
+    rom: Kana
+    ko: 카나
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['いつか碧: composer']
+  ref: person:kana-yabuki
+- kind: person
+  printed: 前口ワタル
+  family_name:
+    ja: 前口
+    rom: Maeguchi
+    ko: 마에구치
+  given_name:
+    ja: ワタル
+    rom: Wataru
+    ko: 와타루
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['いつか碧: arranger']
+  id: wataru-maeguchi-2
+  warn: 기존 인물 前口 渉(wataru-maeguchi)와 읽기가 같음. 같은 사람인지 IKZ-same-person-maeguchi.yaml에서 결정 (그동안 id는 wataru-maeguchi-2)
+  ref: person:wataru-maeguchi-2
+- kind: person
+  printed: 新谷風太
+  family_name:
+    ja: 新谷
+    rom: Shintani
+    ko: 신타니
+  given_name:
+    ja: 風太
+    rom: Futa
+    ko: 후타
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['ジェットスターター: lyricist']
+  warn: 나무위키는 '신타니 후카'. 風太의 보통 읽기(ふうた)로 제안. 본인 표기 미확인
+  ref: person:futa-shintani
+- kind: person
+  printed: GAK-amazuti-
+  names:
+    ja: GAK-amazuti-
+    rom: GAK-amazuti-
+    ko: GAK-amazuti-
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['HIBANA―火花―: composer']
+  ref: person:gak-amazuti
+- kind: person
+  printed: tim
+  names:
+    ja: tim
+    rom: tim
+    ko: tim
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['First Ride: lyricist']
+  ref: person:tim
+- kind: person
+  printed: オノシ
+  names:
+    ja: オノシ
+    rom: Onoshi
+    ko: 오노시
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['First Ride: composer', 'First Ride: arranger']
+  ref: person:onoshi
+- kind: person
+  printed: こむぎ
+  names:
+    ja: こむぎ
+    rom: Komugi
+    ko: 코무기
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['マジカル♡レシピ・シルブプレ！: lyricist', 'チュリ♡CHUちゅきらり♪: lyricist']
+  ref: person:komugi
+- kind: person
+  printed: Agasa.K
+  names:
+    ja: Agasa.K
+    rom: Agasa.K
+    ko: Agasa.K
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['恋のワンタイムパスワード: composer']
+  ref: person:agasa-k
+- kind: person
+  printed: 東乃カノ
+  family_name:
+    ja: 東乃
+    rom: Tono
+    ko: 토노
+  given_name:
+    ja: カノ
+    rom: Kano
+    ko: 카노
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['センチメートル・ランデヴー: lyricist', 'シンメトリー: lyricist']
+  ref: person:kano-tono
+- kind: person
+  printed: 藤井健太郎
+  family_name:
+    ja: 藤井
+    rom: Fujii
+    ko: 후지이
+  given_name:
+    ja: 健太郎
+    rom: Kentaro
+    ko: 켄타로
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['二人はいつでも Happy End: composer', '二人はいつでも Happy End: arranger']
+  ref: person:kentaro-fujii
+- kind: person
+  printed: 木村孝明
+  family_name:
+    ja: 木村
+    rom: Kimura
+    ko: 키무라
+  given_name:
+    ja: 孝明
+    rom: Takaaki
+    ko: 타카아키
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['キミは夜のポラリス: composer', 'キミは夜のポラリス: arranger']
+  ref: person:takaaki-kimura
+- kind: person
+  printed: 真崎エリカ
+  family_name:
+    ja: 真崎
+    rom: Masaki
+    ko: 마사키
+  given_name:
+    ja: エリカ
+    rom: Erika
+    ko: 에리카
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['クラリトブライト: lyricist', 'Darling Wanted!: lyricist']
+  ref: person:erika-masaki
+- kind: person
+  printed: Nika Lenz
+  names:
+    ja: Nika Lenz
+    rom: Nika Lenz
+    ko: Nika Lenz
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['クラリトブライト: composer']
+  ref: person:nika-lenz
+- kind: person
+  printed: OzaShin
+  names:
+    ja: OzaShin
+    rom: OzaShin
+    ko: OzaShin
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['Little Green委員会: composer']
+  ref: person:ozashin
+- kind: person
+  printed: 叶人
+  names:
+    ja: 叶人
+    rom: Kanato
+    ko: 카나토
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['LOVE♡YOU♡Save the EARTH!!: lyricist', '全力Calling!! I LOVE YOU!!: lyricist']
+  ref: person:kanato
+- kind: person
+  printed: えとゆま
+  names:
+    ja: えとゆま
+    rom: Etoyuma
+    ko: 에토유마
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['LOVE♡YOU♡Save the EARTH!!: composer', 'LOVE♡YOU♡Save the EARTH!!: arranger']
+  ref: person:etoyuma
+- kind: person
+  printed: Yuta Sakai
+  names:
+    ja: Yuta Sakai
+    rom: Yuta Sakai
+    ko: Yuta Sakai
+  native_script: latin
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  used_in: ['Trick or Toxic: lyricist']
+  ref: person:yuta-sakai
+- kind: person
+  printed: 牧野太洋
+  family_name:
+    ja: 牧野
+    rom: Makino
+    ko: 마키노
+  given_name:
+    ja: 太洋
+    rom: Taiyo
+    ko: 타이요
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['シンメトリー: arranger']
+  ref: person:taiyo-makino
+- kind: person
+  printed: 中村純一
+  family_name:
+    ja: 中村
+    rom: Nakamura
+    ko: 나카무라
+  given_name:
+    ja: 純一
+    rom: Junichi
+    ko: 준이치
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['Daitan Party Time: arranger']
+  ref: person:junichi-nakamura
+- kind: person
+  printed: 吸血亭 賛美
+  family_name:
+    ja: 吸血亭
+    rom: Kyuketsutei
+    ko: 큐우케츠테이
+  given_name:
+    ja: 賛美
+    rom: Zabi
+    ko: 자비
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['Silent Stella: lyricist']
+  warn: 필명. 나무위키 '큐우케츠테이자비' 그대로 나눔. 賛美의 읽기(ざび?)는 확인하지 못함
+  ref: person:zabi-kyuketsutei
+- kind: person
+  printed: 信政誠
+  family_name:
+    ja: 信政
+    rom: Nobumasa
+    ko: 노부마사
+  given_name:
+    ja: 誠
+    rom: Makoto
+    ko: 마코토
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['全力Calling!! I LOVE YOU!!: composer', '全力Calling!! I LOVE YOU!!: arranger']
+  ref: person:makoto-nobumasa
+- kind: person
+  printed: シノミヤ
+  names:
+    ja: シノミヤ
+    rom: Shinomiya
+    ko: 시노미야
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ["tap tap tappin'!!: lyricist", "tap tap tappin'!!: composer", "tap tap tappin'!!: arranger"]
+  ref: person:shinomiya
+- kind: person
+  printed: 青柳諒
+  family_name:
+    ja: 青柳
+    rom: Aoyagi
+    ko: 아오야기
+  given_name:
+    ja: 諒
+    rom: Makoto
+    ko: 마코토
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['POP LOVE: lyricist', 'POP LOVE: composer', 'POP LOVE: arranger']
+  warn: 諒은 りょう로도 읽음. 나무위키 '아오야기 마코토'를 따름. 본인 표기 미확인
+  ref: person:makoto-aoyagi
+- kind: person
+  printed: 堀川大翼
+  family_name:
+    ja: 堀川
+    rom: Horikawa
+    ko: 호리카와
+  given_name:
+    ja: 大翼
+    rom: Daisuke
+    ko: 다이스케
+  names:
+    ja: ''
+    rom: ''
+    ko: ''
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['Spinning Parade: lyricist', 'Spinning Parade: composer', 'Spinning Parade: arranger']
+  warn: 나무위키 '호리카와 다이스케'를 따름. 읽기 확인하지 못함
+  ref: person:daisuke-horikawa
+- kind: person
+  printed: みかんもどき
+  names:
+    ja: みかんもどき
+    rom: Mikanmodoki
+    ko: 미칸모도키
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
+  used_in: ['キミは夜のポラリス: arranger']
+  warn: 나무위키에 한글 표기 없음(원문 그대로). ko는 음역 제안
+  ref: person:mikanmodoki

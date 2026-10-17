@@ -1,0 +1,28 @@
+id: ikizulive/mai-azabu
+project: ikizulive
+names:
+  ja: 麻布 麻衣
+  kana: あざぶ まい
+  rom: Mai Azabu
+  ko: 아자부 마이
+family_name:
+  ja: 麻布
+  kana: あざぶ
+  rom: Azabu
+  ko: 아자부
+given_name:
+  ja: 麻衣
+  kana: まい
+  rom: Mai
+  ko: 마이
+casting:
+  - {person: rina-endo}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

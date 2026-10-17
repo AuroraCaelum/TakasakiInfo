@@ -1,0 +1,47 @@
+id: ikizulive/spinning-parade
+project: ikizulive
+title:
+  ja: Spinning Parade
+  rom: Spinning Parade
+  ko: Spinning Parade
+credits:
+  lyricist:
+    - {person: daisuke-horikawa, affiliation: Elements Garden}
+  composer:
+    - {person: daisuke-horikawa, affiliation: Elements Garden}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/polka-takahashi}
+      - {character: ikizulive/yukuri-harumiya}
+    arranger:
+      - {person: daisuke-horikawa, affiliation: Elements Garden}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6518
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Spinning Parade (Off Vocal)
+      rom: Spinning Parade (Off Vocal)
+      ko: Spinning Parade (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: daisuke-horikawa, affiliation: Elements Garden}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6518
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6518
+    checked: 2026-10-18

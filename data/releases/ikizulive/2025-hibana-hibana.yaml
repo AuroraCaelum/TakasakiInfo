@@ -1,0 +1,62 @@
+id: ikizulive/2025-hibana-hibana
+type: single
+title:
+  ja: HIBANA―火花―
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/hanabi-komagata}
+label: Lantis
+release_date: 2025-09-10
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34754
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24754
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/hibana-hibana#original}
+      - {no: 2, recording: ikizulive/first-ride#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#hanabi-komagata-solo-ver}
+      - {no: 4, recording: ikizulive/hibana-hibana#off-vocal}
+      - {no: 5, recording: ikizulive/first-ride#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_ID3TNHWizzw
+    tracks:
+      1-1: 68bAAOkdg20
+      1-2: imFv34lxAtM
+      1-3: CkjdY90WEcs
+      1-4: uZ-ynp1X1Vc
+      1-5: ZQ2QD_6dLaI
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+  smartlink: https://lnk.to/LACM-24754d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: HIBANA―火花―}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは9月18日(木)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ID3TNHWizzw
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

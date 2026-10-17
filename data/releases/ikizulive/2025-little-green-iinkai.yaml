@@ -1,0 +1,62 @@
+id: ikizulive/2025-little-green-iinkai
+type: single
+title:
+  ja: Little Green委員会
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/midori-yamada}
+label: Lantis
+release_date: 2025-10-29
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34759
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24759
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/little-green-iinkai#original}
+      - {no: 2, recording: ikizulive/love-you-save-the-earth#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#midori-yamada-solo-ver}
+      - {no: 4, recording: ikizulive/little-green-iinkai#off-vocal}
+      - {no: 5, recording: ikizulive/love-you-save-the-earth#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_cT84gH8mxPj
+    tracks:
+      1-1: 0knFLXzyGak
+      1-2: XqBCHxABPbc
+      1-3: s-8_5q4ttQA
+      1-4: RI33ml_TdLs
+      1-5: mE5_2Ksrb8o
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
+  smartlink: https://lnk.to/LACM-24759d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: Little Green委員会}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは11月7日(金)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_cT84gH8mxPj
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

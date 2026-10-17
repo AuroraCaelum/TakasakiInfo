@@ -1,0 +1,46 @@
+id: ikizulive/zenryoku-calling-i-love-you
+project: ikizulive
+title:
+  ja: 全力Calling!! I LOVE YOU!!
+  rom: Zenryoku Calling!! I LOVE YOU!!
+  ko: 전력 Calling!! I LOVE YOU!!
+credits:
+  lyricist:
+    - {person: kanato}
+  composer:
+    - {person: makoto-nobumasa}
+recordings:
+  - id: original
+    performers:
+      - {artist: call-me}
+    arranger:
+      - {person: makoto-nobumasa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6312
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 全力Calling!! I LOVE YOU!! (Off Vocal)
+      rom: Zenryoku Calling!! I LOVE YOU!! (Off Vocal)
+      ko: 전력 Calling!! I LOVE YOU!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: makoto-nobumasa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6312
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6312
+    checked: 2026-10-18

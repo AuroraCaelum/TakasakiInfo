@@ -1,0 +1,444 @@
+type: new-names
+project: ikizulive
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름(필명 등)은 family_name/given_name을 지우고 names만 채운다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+- kind: work
+  printed: What is my LIFE?
+  title:
+    ja: What is my LIFE?
+    rom: What is my LIFE?
+    ko: What is my LIFE?
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [What is my LIFE? (01_4661), '01_4661 #1']
+  ref: work:ikizulive/what-is-my-life
+- kind: work
+  printed: ヒミツミチ
+  title:
+    ja: ヒミツミチ
+    rom: Himitsu Michi
+    ko: 비밀 길
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [ヒミツミチ (01_4661), ヒミツミチ (Off Vocal) (01_4661), '01_4661 #2']
+  ref: work:ikizulive/himitsu-michi
+- kind: work
+  printed: 浅草Guilty Girlの歌
+  title:
+    ja: 浅草Guilty Girlの歌
+    rom: Asakusa Guilty Girl no Uta
+    ko: 아사쿠사 Guilty Girl의 노래
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [浅草Guilty Girlの歌 (01_4697), 浅草Guilty Girlの歌 (Off Vocal) (01_4697), '01_4697 #1']
+  ref: work:ikizulive/asakusa-guilty-girl-no-uta
+- kind: work
+  printed: オドルポルカ
+  title:
+    ja: オドルポルカ
+    rom: Odoru Polka
+    ko: 춤추는폴카
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [オドルポルカ (01_4697), オドルポルカ (Off Vocal) (01_4697), '01_4697 #2']
+  warn: 나무위키 표기 그대로(붙여 씀). 띄어 쓰면 '춤추는 폴카'
+  ref: work:ikizulive/odoru-polka
+- kind: work
+  printed: Public Style
+  title:
+    ja: Public Style
+    rom: Public Style
+    ko: Public Style
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Public Style (01_4698), '01_4698 #1']
+  ref: work:ikizulive/public-style
+- kind: work
+  printed: ひっさつマイマイモード
+  title:
+    ja: ひっさつマイマイモード
+    rom: Hissatsu Maimai Mode
+    ko: 필살 마이마이 모드
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [ひっさつマイマイモード (01_4698), ひっさつマイマイモード (Off Vocal) (01_4698), '01_4698 #2']
+  ref: work:ikizulive/hissatsu-maimai-mode
+- kind: work
+  printed: いつか碧
+  title:
+    ja: いつか碧
+    rom: Itsuka Ao
+    ko: 언젠가 파랑
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [いつか碧 (01_4699), いつか碧 (Off Vocal) (01_4699), '01_4699 #1']
+  ref: work:ikizulive/itsuka-ao
+- kind: work
+  printed: ジェットスターター
+  title:
+    ja: ジェットスターター
+    rom: Jet Starter
+    ko: 제트 스타터
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [ジェットスターター (01_4699), ジェットスターター (Off Vocal) (01_4699), '01_4699 #2']
+  ref: work:ikizulive/jet-starter
+- kind: work
+  printed: HIBANA―火花―
+  title:
+    ja: HIBANA―火花―
+    rom: HIBANA―Hibana―
+    ko: HIBANA―히바나―
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [HIBANA―火花― (01_4700), HIBANA―火花― (Off Vocal) (01_4700), '01_4700 #1']
+  warn: 나무위키는 'HIBANAー히바나ー'(장음 부호). 공식 제목의 대시(―)에 맞춤
+  ref: work:ikizulive/hibana-hibana
+- kind: work
+  printed: First Ride
+  title:
+    ja: First Ride
+    rom: First Ride
+    ko: First Ride
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [First Ride (01_4700), '01_4700 #2']
+  ref: work:ikizulive/first-ride
+- kind: work
+  printed: HomeRun Queen!!
+  title:
+    ja: HomeRun Queen!!
+    rom: HomeRun Queen!!
+    ko: HomeRun Queen!!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [HomeRun Queen!! (01_4701), '01_4701 #1']
+  ref: work:ikizulive/homerun-queen
+- kind: work
+  printed: マジカル♡レシピ・シルブプレ！
+  title:
+    ja: マジカル♡レシピ・シルブプレ！
+    rom: Magical♡Recipe・S'il vous plaît!
+    ko: 매지컬♡레시피・실부플레!
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [マジカル♡レシピ・シルブプレ！ (01_4701), マジカル♡レシピ・シルブプレ！ (Off Vocal) (01_4701), '01_4701 #2']
+  ref: work:ikizulive/magical-recipe-s-il-vous-plait
+- kind: work
+  printed: 恋のワンタイムパスワード
+  title:
+    ja: 恋のワンタイムパスワード
+    rom: Koi no One Time Password
+    ko: 사랑의 원타임 패스워드
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [恋のワンタイムパスワード (01_4702), 恋のワンタイムパスワード (Off Vocal) (01_4702), '01_4702 #1']
+  ref: work:ikizulive/koi-no-one-time-password
+- kind: work
+  printed: センチメートル・ランデヴー
+  title:
+    ja: センチメートル・ランデヴー
+    rom: Centimeter・Rendez-vous
+    ko: 센티멘털・랑데부
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [センチメートル・ランデヴー (01_4702), センチメートル・ランデヴー (Off Vocal) (01_4702), '01_4702 #2']
+  warn: "오역 소지: センチメートル는 센티미터(centimeter). 나무위키는 '센티멘털'. 고친다면 '센티미터・랑데부'"
+  ref: work:ikizulive/centimeter-rendez-vous
+- kind: work
+  printed: Pray for love
+  title:
+    ja: Pray for love
+    rom: Pray for love
+    ko: Pray for love
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Pray for love (01_4703), '01_4703 #1']
+  ref: work:ikizulive/pray-for-love
+- kind: work
+  printed: 二人はいつでも Happy End
+  title:
+    ja: 二人はいつでも Happy End
+    rom: Futari wa Itsudemo Happy End
+    ko: 둘은 언제나 Happy End
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [二人はいつでも Happy End (01_4703), 二人はいつでも Happy End (Off Vocal) (01_4703), '01_4703 #2']
+  ref: work:ikizulive/futari-wa-itsudemo-happy-end
+- kind: work
+  printed: キミは夜のポラリス
+  title:
+    ja: キミは夜のポラリス
+    rom: Kimi wa Yoru no Polaris
+    ko: 너는 밤의 폴라리스
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [キミは夜のポラリス (01_4704), キミは夜のポラリス (Off Vocal) (01_4704), '01_4704 #1']
+  ref: work:ikizulive/kimi-wa-yoru-no-polaris
+- kind: work
+  printed: クラリトブライト
+  title:
+    ja: クラリトブライト
+    rom: Clarito Bright
+    ko: 클라리테 브라이트
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [クラリトブライト (01_4704), クラリトブライト (Off Vocal) (01_4704), '01_4704 #2']
+  warn: クラリト를 나무위키는 '클라리테'로 적음(음역이면 '클라리토'). rom도 추정
+  ref: work:ikizulive/clarito-bright
+- kind: work
+  printed: Little Green委員会
+  title:
+    ja: Little Green委員会
+    rom: Little Green Iinkai
+    ko: Little Green 위원회
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [Little Green委員会 (01_4705), Little Green委員会 (Off Vocal) (01_4705), '01_4705 #1']
+  ref: work:ikizulive/little-green-iinkai
+- kind: work
+  printed: LOVE♡YOU♡Save the EARTH!!
+  title:
+    ja: LOVE♡YOU♡Save the EARTH!!
+    rom: LOVE♡YOU♡Save the EARTH!!
+    ko: LOVE♡YOU♡Save the EARTH!!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [LOVE♡YOU♡Save the EARTH!! (01_4705), '01_4705 #2']
+  ref: work:ikizulive/love-you-save-the-earth
+- kind: work
+  printed: イキタクナイevery day
+  title:
+    ja: イキタクナイevery day
+    rom: Ikitakunai every day
+    ko: 살기 싫은 every day
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [イキタクナイevery day (01_4706), イキタクナイevery day (Off Vocal) (01_4706), '01_4706 #1']
+  warn: "나무위키 안에서 엇갈림: 솔로 싱글 문서 '살기 싫은', 음반 문서 '가고 싶지 않은'. イキタクナイ는 生きたくない/行きたくない 둘 다로 읽힘. 솔로 싱글 문서를 따름"
+  ref: work:ikizulive/ikitakunai-every-day
+- kind: work
+  printed: Trick or Toxic
+  title:
+    ja: Trick or Toxic
+    rom: Trick or Toxic
+    ko: Trick or Toxic
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Trick or Toxic (01_4706), '01_4706 #2']
+  ref: work:ikizulive/trick-or-toxic
+- kind: work
+  printed: REGAIN AGAIN LLLLOVE
+  title:
+    ja: REGAIN AGAIN LLLLOVE
+    rom: REGAIN AGAIN LLLLOVE
+    ko: REGAIN AGAIN LLLLOVE
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [REGAIN AGAIN LLLLOVE (01_5832), '01_5832 #1']
+  ref: work:ikizulive/regain-again-llllove
+- kind: work
+  printed: Dou-Da? DOING!
+  title:
+    ja: Dou-Da? DOING!
+    rom: Dou-Da? DOING!
+    ko: Dou-Da? DOING!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Dou-Da? DOING! (01_5861), '01_5861 #1']
+  ref: work:ikizulive/dou-da-doing
+- kind: work
+  printed: 凸凹Quartet
+  title:
+    ja: 凸凹Quartet
+    rom: Dekoboko Quartet
+    ko: 울퉁불퉁 Quartet
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [凸凹Quartet (01_5925), 凸凹Quartet (Off Vocal) (01_5925), 凸凹Quartet (01_6523), '01_5925 #1', '01_6523 #1']
+  ref: work:ikizulive/dekoboko-quartet
+- kind: work
+  printed: シンメトリー
+  title:
+    ja: シンメトリー
+    rom: Symmetry
+    ko: 시메트리
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [シンメトリー (01_5927), シンメトリー (Off Vocal) (01_5927), シンメトリー (01_6523), '01_5927 #1', '01_6523 #2']
+  ref: work:ikizulive/symmetry
+- kind: work
+  printed: Daitan Party Time
+  title:
+    ja: Daitan Party Time
+    rom: Daitan Party Time
+    ko: Daitan Party Time
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Daitan Party Time (01_5926), '01_5926 #1']
+  ref: work:ikizulive/daitan-party-time
+- kind: work
+  printed: Silent Stella
+  title:
+    ja: Silent Stella
+    rom: Silent Stella
+    ko: Silent Stella
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Silent Stella (01_5928), '01_5928 #1']
+  ref: work:ikizulive/silent-stella
+- kind: work
+  printed: SUPER SUMMER SENSATION!!
+  title:
+    ja: SUPER SUMMER SENSATION!!
+    rom: SUPER SUMMER SENSATION!!
+    ko: SUPER SUMMER SENSATION!!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [SUPER SUMMER SENSATION!! (01_5830), '01_5830 #3']
+  ref: work:ikizulive/super-summer-sensation
+- kind: work
+  printed: 全力Calling!! I LOVE YOU!!
+  title:
+    ja: 全力Calling!! I LOVE YOU!!
+    rom: Zenryoku Calling!! I LOVE YOU!!
+    ko: 전력 Calling!! I LOVE YOU!!
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in:
+  - 全力Calling!! I LOVE YOU!! (01_6312)
+  - 全力Calling!! I LOVE YOU!! (Off Vocal) (01_6312)
+  - 全力Calling!! I LOVE YOU!! (01_6523)
+  - '01_6312 #1'
+  - '01_6523 #5'
+  ref: work:ikizulive/zenryoku-calling-i-love-you
+- kind: work
+  printed: tap tap tappin'!!
+  title:
+    ja: tap tap tappin'!!
+    rom: tap tap tappin'!!
+    ko: tap tap tappin'!!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [tap tap tappin'!! (01_6313), '01_6313 #1']
+  ref: work:ikizulive/tap-tap-tappin
+- kind: work
+  printed: 未完成なラブレター
+  title:
+    ja: 未完成なラブレター
+    rom: Mikansei na Love Letter
+    ko: 미완성된 러브레터
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [未完成なラブレター (01_6314), 未完成なラブレター (Off Vocal) (01_6314), 未完成なラブレター (01_6523), '01_6314 #1', '01_6523 #7']
+  ref: work:ikizulive/mikansei-na-love-letter
+- kind: work
+  printed: POP LOVE
+  title:
+    ja: POP LOVE
+    rom: POP LOVE
+    ko: POP LOVE
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [POP LOVE (01_6517), '01_6517 #1']
+  ref: work:ikizulive/pop-love
+- kind: work
+  printed: Spinning Parade
+  title:
+    ja: Spinning Parade
+    rom: Spinning Parade
+    ko: Spinning Parade
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Spinning Parade (01_6518), '01_6518 #1']
+  ref: work:ikizulive/spinning-parade
+- kind: work
+  printed: チュリ♡CHUちゅきらり♪
+  title:
+    ja: チュリ♡CHUちゅきらり♪
+    rom: Churi♡CHU Chukirari♪
+    ko: 츄리♡CHU츄키라리♪
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [チュリ♡CHUちゅきらり♪ (01_6519), チュリ♡CHUちゅきらり♪ (Off Vocal) (01_6519), チュリ♡CHUちゅきらり♪ (01_6523), '01_6519 #1', '01_6523 #12']
+  ref: work:ikizulive/churi-chu-chukirari
+- kind: work
+  printed: Darling Wanted!
+  title:
+    ja: Darling Wanted!
+    rom: Darling Wanted!
+    ko: Darling Wanted!
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Darling Wanted! (01_6514), '01_6514 #1']
+  ref: work:ikizulive/darling-wanted
+- kind: work
+  printed: 青春ソーダ
+  title:
+    ja: 青春ソーダ
+    rom: Seishun Soda
+    ko: 청춘 소다
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: [青春ソーダ (01_6516), 青春ソーダ (Off Vocal) (01_6516), 青春ソーダ (01_6523), '01_6516 #1', '01_6523 #9']
+  ref: work:ikizulive/seishun-soda
+- kind: work
+  printed: Tale of Primavera
+  title:
+    ja: Tale of Primavera
+    rom: Tale of Primavera
+    ko: Tale of Primavera
+  status: derived
+  source: ''
+  note: '라틴 제목: rom·ko는 ja와 같음'
+  used_in: [Tale of Primavera (01_6602), '01_6602 #1']
+  ref: work:ikizulive/tale-of-primavera
+- kind: release
+  printed: いきづらい部！ あつまれユニットソング！ vol.1
+  title:
+    ja: いきづらい部！ あつまれユニットソング！ vol.1
+    rom: Ikizuraibu! Atsumare Unit Song! vol.1
+    ko: 이키즈라이부! 모여라 유닛 송! vol.1
+  status: derived
+  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
+  note: 'ko: 나무위키 번역 (D30), rom: 제안'
+  used_in: ['01_6523']
+  ref: release:ikizulive/2026-ikizuraibu-atsumare-unit-song-vol-1

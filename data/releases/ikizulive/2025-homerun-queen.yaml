@@ -1,0 +1,62 @@
+id: ikizulive/2025-homerun-queen
+type: single
+title:
+  ja: HomeRun Queen!!
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/miracle-kanazawa}
+label: Lantis
+release_date: 2025-09-24
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34755
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24755
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/homerun-queen#original}
+      - {no: 2, recording: ikizulive/magical-recipe-s-il-vous-plait#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#miracle-kanazawa-solo-ver}
+      - {no: 4, recording: ikizulive/homerun-queen#off-vocal}
+      - {no: 5, recording: ikizulive/magical-recipe-s-il-vous-plait#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_bB1zD1f6Ehw
+    tracks:
+      1-1: Ac10-urP8tc
+      1-2: osSJTwrBWwg
+      1-3: lb4FfBvyfFM
+      1-4: JmaO91FCcWU
+      1-5: lb7g6wQLBWA
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+  smartlink: https://lnk.to/LACM-24755d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: HomeRun Queen!!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは10月3日(金)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_bB1zD1f6Ehw
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

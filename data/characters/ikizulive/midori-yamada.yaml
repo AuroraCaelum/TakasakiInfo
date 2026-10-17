@@ -1,0 +1,28 @@
+id: ikizulive/midori-yamada
+project: ikizulive
+names:
+  ja: 山田 真緑
+  kana: やまだ みどり
+  rom: Midori Yamada
+  ko: 야마다 미도리
+family_name:
+  ja: 山田
+  kana: やまだ
+  rom: Yamada
+  ko: 야마다
+given_name:
+  ja: 真緑
+  kana: みどり
+  rom: Midori
+  ko: 미도리
+casting:
+  - {person: honoka-kotomori}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

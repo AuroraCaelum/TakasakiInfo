@@ -1,0 +1,46 @@
+id: ikizulive/jet-starter
+project: ikizulive
+title:
+  ja: ジェットスターター
+  rom: Jet Starter
+  ko: 제트 스타터
+credits:
+  lyricist:
+    - {person: futa-shintani}
+  composer:
+    - {person: rei-kamiya}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/akira-goto}
+    arranger:
+      - {person: rei-kamiya}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ジェットスターター (Off Vocal)
+      rom: Jet Starter (Off Vocal)
+      ko: 제트 스타터 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rei-kamiya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18

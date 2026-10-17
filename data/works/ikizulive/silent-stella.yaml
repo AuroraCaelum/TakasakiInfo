@@ -1,0 +1,46 @@
+id: ikizulive/silent-stella
+project: ikizulive
+title:
+  ja: Silent Stella
+  rom: Silent Stella
+  ko: Silent Stella
+credits:
+  lyricist:
+    - {person: zabi-kyuketsutei}
+  composer:
+    - {person: yuta-sakai}
+recordings:
+  - id: original
+    performers:
+      - {artist: sh1on}
+    arranger:
+      - {person: yuta-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5928
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Silent Stella (Off Vocal)
+      rom: Silent Stella (Off Vocal)
+      ko: Silent Stella (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuta-sakai}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5928
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5928
+    checked: 2026-10-18

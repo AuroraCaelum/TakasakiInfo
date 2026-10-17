@@ -1,0 +1,10 @@
+type: merge
+title: '동일 인물 후보: 前口ワタル / 前口 渉'
+note: >-
+  이키즈라이브 「いつか碧」 편곡 크레딧 前口ワタル(공식 표기)는 기존 인물 前口 渉(Wataru Maeguchi)와 읽기가 같다. 같은 사람이라는 근거는 찾지 못했다
+  (uta-net 등에는 前口渉 명의만 나온다). 같은 사람이면 merge:person:wataru-maeguchi(前口ワタル는 별칭으로 남는다), 다른 사람이면 distinct.
+  IKZ-persons.yaml 승인과는 따로 결정한다.
+items:
+  - {ref: person:wataru-maeguchi, ja: 前口 渉, rom: Wataru Maeguchi, ko: 마에구치 와타루}
+  - {ref: person:wataru-maeguchi-2, ja: 前口ワタル, rom: Wataru Maeguchi, ko: 마에구치 와타루}
+decision:

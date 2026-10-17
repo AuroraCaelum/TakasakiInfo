@@ -1,0 +1,28 @@
+id: ikizulive/shion-sasaki
+project: ikizulive
+names:
+  ja: 佐々木 翔音
+  kana: ささき しおん
+  rom: Shion Sasaki
+  ko: 사사키 시온
+family_name:
+  ja: 佐々木
+  kana: ささき
+  rom: Sasaki
+  ko: 사사키
+given_name:
+  ja: 翔音
+  kana: しおん
+  rom: Shion
+  ko: 시온
+casting:
+  - {person: aoi-suzunose}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

@@ -1,0 +1,18 @@
+id: plumina
+kind: unit
+projects: [ikizulive]
+names:
+  ja: Plumina
+  rom: Plumina
+  ko: Plumina
+lineups:
+  - members: [ikizulive/yukuri-harumiya, ikizulive/aurora-konohana, ikizulive/midori-yamada]
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-artists.yaml
+    note: 승인 대기 (new-names 리뷰)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
+    checked: 2026-10-18

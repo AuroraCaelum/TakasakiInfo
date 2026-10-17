@@ -1,0 +1,28 @@
+id: ikizulive/akira-goto
+project: ikizulive
+names:
+  ja: 五桐 玲
+  kana: ごとう あきら
+  rom: Akira Goto
+  ko: 고토 아키라
+family_name:
+  ja: 五桐
+  kana: ごとう
+  rom: Goto
+  ko: 고토
+given_name:
+  ja: 玲
+  kana: あきら
+  rom: Akira
+  ko: 아키라
+casting:
+  - {person: seri-miyano}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

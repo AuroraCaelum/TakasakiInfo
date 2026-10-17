@@ -1,0 +1,18 @@
+id: call-me
+kind: unit
+projects: [ikizulive]
+names:
+  ja: こーるみー!!!
+  rom: Call me!!!
+  ko: 콜 미!!!
+lineups:
+  - members: [ikizulive/polka-takahashi, ikizulive/akira-goto, ikizulive/miracle-kanazawa]
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-artists.yaml
+    note: 승인 대기 (new-names 리뷰)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6312
+    checked: 2026-10-18

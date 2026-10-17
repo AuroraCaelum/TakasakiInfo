@@ -1,0 +1,62 @@
+id: ikizulive/2025-pray-for-love
+type: single
+title:
+  ja: Pray for love
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/yukuri-harumiya}
+label: Lantis
+release_date: 2025-10-08
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34757
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24757
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/pray-for-love#original}
+      - {no: 2, recording: ikizulive/futari-wa-itsudemo-happy-end#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#yukuri-harumiya-solo-ver}
+      - {no: 4, recording: ikizulive/pray-for-love#off-vocal}
+      - {no: 5, recording: ikizulive/futari-wa-itsudemo-happy-end#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_KX96Hnyrg4o
+    tracks:
+      1-1: wQlUEGqrqmc
+      1-2: JEGXyNLeRGc
+      1-3: kM-4PfHG1aE
+      1-4: PNPlwmtdEDg
+      1-5: F0Zy7OjXxyg
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+  smartlink: https://lnk.to/LACM-24757d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: Pray for love}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは10月20日(月)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KX96Hnyrg4o
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

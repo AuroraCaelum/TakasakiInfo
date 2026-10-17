@@ -1,0 +1,28 @@
+id: ikizulive/aurora-konohana
+project: ikizulive
+names:
+  ja: 此花 輝夜
+  kana: このはな おーろら
+  rom: Aurora Konohana
+  ko: 코노하나 오로라
+family_name:
+  ja: 此花
+  kana: このはな
+  rom: Konohana
+  ko: 코노하나
+given_name:
+  ja: 輝夜
+  kana: おーろら
+  rom: Aurora
+  ko: 오로라
+casting:
+  - {person: akane-amasawa}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

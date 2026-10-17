@@ -1,0 +1,28 @@
+id: ikizulive/noriko-chofu
+project: ikizulive
+names:
+  ja: 調布のりこ
+  kana: ちょうふ のりこ
+  rom: Noriko Chofu
+  ko: 쵸후 노리코
+family_name:
+  ja: 調布
+  kana: ちょうふ
+  rom: Chofu
+  ko: 쵸후
+given_name:
+  ja: のりこ
+  kana: のりこ
+  rom: Noriko
+  ko: 노리코
+casting:
+  - {person: ria-seko}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

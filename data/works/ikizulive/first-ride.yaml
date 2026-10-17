@@ -1,0 +1,46 @@
+id: ikizulive/first-ride
+project: ikizulive
+title:
+  ja: First Ride
+  rom: First Ride
+  ko: First Ride
+credits:
+  lyricist:
+    - {person: tim}
+  composer:
+    - {person: onoshi, affiliation: 24chocolate}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/hanabi-komagata}
+    arranger:
+      - {person: onoshi, affiliation: 24chocolate}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: First Ride (Off Vocal)
+      rom: First Ride (Off Vocal)
+      ko: First Ride (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: onoshi, affiliation: 24chocolate}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-18

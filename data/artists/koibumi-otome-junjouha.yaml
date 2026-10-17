@@ -1,0 +1,18 @@
+id: koibumi-otome-junjouha
+kind: unit
+projects: [ikizulive]
+names:
+  ja: 恋文乙女純情派
+  rom: Koibumi Otome Junjouha
+  ko: 연문처녀순정파
+lineups:
+  - members: [ikizulive/hanabi-komagata, ikizulive/noriko-chofu, ikizulive/yukuri-harumiya, ikizulive/midori-yamada]
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-artists.yaml
+    note: 승인 대기 (new-names 리뷰)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6314
+    checked: 2026-10-18

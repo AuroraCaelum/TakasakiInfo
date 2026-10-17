@@ -1,0 +1,46 @@
+id: ikizulive/itsuka-ao
+project: ikizulive
+title:
+  ja: いつか碧
+  rom: Itsuka Ao
+  ko: 언젠가 파랑
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: kana-yabuki}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/akira-goto}
+    arranger:
+      - {person: wataru-maeguchi-2}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いつか碧 (Off Vocal)
+      rom: Itsuka Ao (Off Vocal)
+      ko: 언젠가 파랑 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: wataru-maeguchi-2}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18

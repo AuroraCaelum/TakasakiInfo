@@ -1,0 +1,47 @@
+id: ikizulive/churi-chu-chukirari
+project: ikizulive
+title:
+  ja: チュリ♡CHUちゅきらり♪
+  rom: Churi♡CHU Chukirari♪
+  ko: 츄리♡CHU츄키라리♪
+credits:
+  lyricist:
+    - {person: komugi}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/hanabi-komagata}
+      - {character: ikizulive/midori-yamada}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: チュリ♡CHUちゅきらり♪ (Off Vocal)
+      rom: Churi♡CHU Chukirari♪ (Off Vocal)
+      ko: 츄리♡CHU츄키라리♪ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+    checked: 2026-10-18

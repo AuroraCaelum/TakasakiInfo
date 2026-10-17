@@ -1,0 +1,48 @@
+id: ikizulive/futari-wa-itsudemo-happy-end
+project: ikizulive
+title:
+  ja: 二人はいつでも Happy End
+  rom: Futari wa Itsudemo Happy End
+  ko: 둘은 언제나 Happy End
+credits:
+  lyricist:
+    - {person: shun-aratame}
+  composer:
+    - {person: kentaro-fujii}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/yukuri-harumiya}
+    arranger:
+      - {person: kentaro-fujii}
+      - {person: yuya-hirosawa, affiliation: HANO}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 二人はいつでも Happy End (Off Vocal)
+      rom: Futari wa Itsudemo Happy End (Off Vocal)
+      ko: 둘은 언제나 Happy End (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kentaro-fujii}
+      - {person: yuya-hirosawa, affiliation: HANO}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+        checked: 2026-10-18
+evidence:
+  title:
+    status: draft
+    source: automation/review/IKZ-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+    checked: 2026-10-18

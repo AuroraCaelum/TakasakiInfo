@@ -1,0 +1,18 @@
+id: chaki
+kind: unit
+projects: [ikizulive]
+names:
+  ja: CHAKI！
+  rom: CHAKI!
+  ko: CHAKI!
+lineups:
+  - members: [ikizulive/polka-takahashi, ikizulive/mai-azabu, ikizulive/akira-goto, ikizulive/hanabi-komagata]
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-artists.yaml
+    note: 승인 대기 (new-names 리뷰)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
+    checked: 2026-10-18

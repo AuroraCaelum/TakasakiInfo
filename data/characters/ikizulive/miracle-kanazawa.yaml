@@ -1,0 +1,28 @@
+id: ikizulive/miracle-kanazawa
+project: ikizulive
+names:
+  ja: 金澤 奇跡
+  kana: かなざわ みらくる
+  rom: Miracle Kanazawa
+  ko: 카나자와 미라클
+family_name:
+  ja: 金澤
+  kana: かなざわ
+  rom: Kanazawa
+  ko: 카나자와
+given_name:
+  ja: 奇跡
+  kana: みらくる
+  rom: Miracle
+  ko: 미라클
+casting:
+  - {person: aiha-sakano}
+evidence:
+  names:
+    status: draft
+    source: automation/review/IKZ-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    checked: 2026-10-18

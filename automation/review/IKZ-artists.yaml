@@ -1,0 +1,96 @@
+type: new-names
+project: ikizulive
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름(필명 등)은 family_name/given_name을 지우고 names만 채운다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+- kind: artist
+  printed: いきづらい部！
+  names:
+    ja: いきづらい部！
+    rom: Ikizuraibu!
+    ko: 이키즈라이부!
+  artist_kind: group
+  status: derived
+  source: ''
+  note: 'ko: 결정 D14, rom: 사용자 결정 (2026-10-18)'
+  ref: artist:ikizuraibu
+- kind: artist
+  printed: CHAKI！
+  names:
+    ja: CHAKI！
+    rom: CHAKI!
+    ko: CHAKI!
+  artist_kind: unit
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  ref: artist:chaki
+- kind: artist
+  printed: Mi×Nori=Tea
+  names:
+    ja: Mi×Nori=Tea
+    rom: Mi×Nori=Tea
+    ko: Mi×Nori=Tea
+  artist_kind: unit
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  ref: artist:mi-nori-tea
+- kind: artist
+  printed: Plumina
+  names:
+    ja: Plumina
+    rom: Plumina
+    ko: Plumina
+  artist_kind: unit
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  ref: artist:plumina
+- kind: artist
+  printed: SH1ON
+  names:
+    ja: SH1ON
+    rom: SH1ON
+    ko: SH1ON
+  artist_kind: unit
+  status: derived
+  source: ''
+  note: '라틴 표기: rom·ko는 ja와 같음 (latin-ko 규칙)'
+  ref: artist:sh1on
+- kind: artist
+  printed: こーるみー!!!
+  names:
+    ja: こーるみー!!!
+    rom: Call me!!!
+    ko: 콜 미!!!
+  artist_kind: unit
+  status: derived
+  source: https://namu.wiki/w/이키즈라이부!
+  note: 'ko: 나무위키 병기'
+  warn: '나무위키는 원어 뒤에 번역을 병기. 음역(코루미!!!)으로 할지 선택 (하스노소라 유닛은 음역: 스리즈 부케)'
+  ref: artist:call-me
+- kind: artist
+  printed: 既読待ちLovers
+  names:
+    ja: 既読待ちLovers
+    rom: Kidoku Machi Lovers
+    ko: 읽음대기표시Lovers
+  artist_kind: unit
+  status: derived
+  source: https://namu.wiki/w/이키즈라이부!
+  note: 'ko: 나무위키 병기'
+  warn: 나무위키 병기 번역. 음역(키도쿠마치 Lovers)으로 할지 선택
+  ref: artist:kidoku-machi-lovers
+- kind: artist
+  printed: 恋文乙女純情派
+  names:
+    ja: 恋文乙女純情派
+    rom: Koibumi Otome Junjouha
+    ko: 연문처녀순정파
+  artist_kind: unit
+  status: derived
+  source: https://namu.wiki/w/이키즈라이부!
+  note: 'ko: 나무위키 병기'
+  warn: 나무위키 병기 번역. 음역(코이부미 오토메 쥰죠하)으로 할지 선택
+  ref: artist:koibumi-otome-junjouha
