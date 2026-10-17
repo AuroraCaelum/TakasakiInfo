@@ -946,7 +946,7 @@ wikitext 예:
 | E7  | `native_script: latin`인 인물의 `ko`가 원문과 다름 (예외 선언이 없을 때)                                                                               |
 | E8  | 레거시 골든 테스트 실패: 데이터가 바뀌지 않은 영역의 산출물이 바이트 단위로 달라짐                                                                         |
 | E9  | 공연 세트리스트의 곡 항목이 Work로 해석되지 않음                                                                                                       |
-| E10 | 생성물(`albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json`)을 직접 수정한 커밋                                                           |
+| E10 | 생성물(`albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json`)을 직접 수정한 커밋. 별도 규칙 없이 CI의 `takasaki check`(E8)가 겸한다. 생성물만 고치면 빌드 결과와 달라져 실패한다 |
 | E11 | 서로 다른 Track의 **자기 URL**이 같은 YouTube videoId임 (`streaming.editions`로 공유를 명시한 경우 제외. 메인 URL 대체로 출력된 값은 비교 대상이 아님) |
 | E12 | 인물·캐릭터의 `family_name`·`given_name`을 합친 것이 전체 이름과 다름(언어별, 어순 무관, `・` 무시), 또는 ja·kana의 띄어쓰기가 5.2·5.5절 규칙과 다름 (결정 D26, D28) |
 | E13 | 이름·제목의 앞뒤에 공백이 있음 (레거시 칸에 그대로 새어 나간다) |
@@ -1033,6 +1033,8 @@ wikitext 예:
 11. 레거시에 REMIX 한 행씩만 있던 Aqours 유닛 1st 풀앨범 3장(CYaRon!「ある日…永遠みたいに！」, AZALEA「We'll get the next dream!!!」, Guilty Kiss「Shooting Star Warrior」)을 전체 14트랙으로 채운다. REMIX는 원곡 Work의 Recording(`#remix`)이고, 제목은 공식 트랙리스트 표기(`GENKI ZENKAI DAY!DAY!DAY! REMIX` 등)를 따른다. 기존 곡은 ISRC로 원래 음원과 같은지 확인했다.
 12. Note 열을 부분에서 다시 만든다(M3, 결정 D32). `Disc.N`·`Drama Part`·`Link is from the [...]`는 빌더가 만들고, 발매물 전체에 공통인 설명은 레거시 앨범의 `note`, 트랙 고유 설명은 트랙의 `note`에 둔다. `Link is from the [...]`는 메인 URL로 대체된 모든 행에 붙고(출처는 레거시 앨범 제목), 손으로 적던 표기 차이(`.`/`,`, 대괄호 유무, `We‘ll`)는 통일된다. CHRONICLE(2015~2017)은 실제 4장으로 나누되 레거시는 연속 번호를 유지한다(`flatten_discs`).
 13. YouTube Music 링크를 고친다. 기존 videoId 대부분이 "Video unavailable"이다(2026-10-17 확인). 로그인 세션으로 앨범을 다시 조회해, 이번에 다룬 발매물 6개(2021 유닛 풀앨범 3장, `HAPPY PARTY TRAIN`, `始まりは君の空` 두 에디션, `Feel Alive / Go Our Way！`)의 URL을 현재 videoId로 바꾸고 빠진 것(Off Vocal 포함)을 채웠다.
+14. `members/Hasunosora.csv`를 고친다(M5): `村野さやか`·`乙宗 梢`의 유닛이 서로 뒤바뀌어 있었다(실제는 さやか가 DOLLCHESTRA, 梢가 スリーズブーケ). 104期(百生 吟子, 徒町 小鈴, 安養寺 姫芽)와 105期(セラス 柳田 リリエンフェルト, 桂城 泉)를 뒤에 붙인다(D7).
+15. 그 밖의 인명: `Giga＆TeddyLoid` → `Giga;TeddyLoid`(두 사람), rom 순서 `An Juria`·`Kushita Mine`·`Tanaka Mush` → 이름-성(D4), `藤井 万利子`의 ko `후지` → `후지이`.
 
 `songs/*.json`은 지금처럼 수록마다 한 행을 유지한다. 행마다 URL이 다르기 때문이다.
 
@@ -1338,10 +1340,10 @@ TakasakiInfo/
 | M2 인명 사전       | (ja, rom, ko) 3-튜플 365개를 클러스터링한다. [부록 A](#부록-a-이관-시-1회-결정이-필요한-표기-변형)의 13건은 사람이 한 번 결정한다                                                                                                                                                                                                                                        | `persons/`                |
 | M3 Work/Recording  | 4.2·7.2의 판정표를 적용한다. Note 열의 자유 텍스트(`Kanon Ver.`, `Drama Part`, `Solo Concert Album`, `TVA1 BD Vol.1`, `Disc.1, …`)를 매핑표로 구조화한다 (2026-10-17 완료, 결정 D32)                                                                                                                                                                                                                 | `works/`                  |
 | M4 Release/Edition | `【…盤】` 앨범 그룹을 Release 1개 + Edition N개로 묶는다. 에디션마다 URL이 다르면 `streaming` 항목을 에디션별로 만든다. 그룹 파일 간 중복 발매물(`LIVE with a smile!`, `異次元★♥BIGBANG`)을 합친다(URL까지 같은 진짜 중복이므로 Track도 하나). 다른 발매물의 메인 URL을 복사해 넣은 행은 자기 URL을 비운다(빌더가 메인 URL을 계산하므로 출력은 같아야 하고, M7에서 확인) | `releases/`               |
-| M5 멤버            | `members/*.csv`에 공식 사이트 정보를 더해 라인업·CV 기간을 보강한다 (하스노소라 기수, せつ菜 CV)                                                                                                                                                                                                                                                                         | `characters/`, `artists/` |
-| M6 공연            | 세트리스트 문자열을 매칭 키로 Work ID에 해석한다(`Trick ＆ Cute`, `(Liella! ver.)` 같은 표기 차이를 흡수). `::` 표식은 타입으로 바꾼다. 회장과 도시는 사전으로 추출한다. 곡별 가창자는 Fandom에서 보강하는데, `draft`로 넣고 리뷰한다                                                                                                                                    | `concerts/`, `venues/`    |
+| M5 멤버            | `members/*.csv`에 공식 사이트 정보를 더해 라인업·CV 기간을 보강한다 (하스노소라 기수, せつ菜 CV). 2026-10-17 완료(D33)                                                                                                                                                                                                                                                                         | `characters/`, `artists/` |
+| M6 공연            | 세트리스트 문자열을 매칭 키로 Work ID에 해석한다(`Trick ＆ Cute`, `(Liella! ver.)` 같은 표기 차이를 흡수). `::` 표식은 타입으로 바꾼다. 회장과 도시는 사전으로 추출한다. 곡별 가창자는 Fandom에서 보강하는데, `draft`로 넣고 리뷰한다. 곡별 가창자는 Phase 3(Fandom 세트리스트 어댑터)으로 넘겼다                                                                                                                                    | `concerts/`, `venues/`    |
 | M7 골든 라운드트립 | 레거시 파일을 재생성해 현행 파일과 비교한다. 허용되는 차이는 10.1의 "의도된 내용 변화"뿐이다                                                                                                                                                                                                                                                                                      | diff 보고서               |
-| M8 컷오버          | 이후 레거시 파일 직접 편집을 금지한다 (E10)                                                                                                                                                                                                                                                                                                                                  | —                         |
+| M8 컷오버          | 이후 레거시 파일 직접 편집을 금지한다 (E10, CI의 E8 검사가 겸한다). 2026-10-17 완료                                                                                                                                                                                                                                                                                                                                  | —                         |
 
 ---
 
@@ -1435,7 +1437,7 @@ TakasakiInfo/
 | 0. 기반        | Pydantic 스키마, 디렉터리 구조, `validate`/`build` CLI, PR CI                                                                                                                                                                                                                                  | 빈 데이터로 레거시 빌드 성공             |
 | 1. 이관·배포   | M1~M8, 부록 A 결정. 배포 파이프라인(10.4절: `infra/`, OIDC 역할, `deploy.yml`, 스모크 테스트, 롤백)                                                                                                                                                                                                 | **레거시 골든 라운드트립 통과**, Actions로 S3 배포·스모크 테스트 성공 |
 | 2. 파일럿      | 이키즈라이브: 공식 사이트 어댑터, YTM 어댑터, 리뷰 흐름, README 생성. SQLite 빌드(10.5절)와 품질 지표 | Ikizulive 레거시·v1·SQLite 산출물 병합          |
-| 3. 공백 백필   | 음반: Hasunosora → Liella → Nijigaku → Musical → Aqours 결측 보완 → Yohane·크로스 프로젝트(AiScReam, LIVE with a smile! 등) → μ's. 프로젝트별 공식 사이트 어댑터 추가. 공연: 각 프로젝트의 음반 백필이 끝난 뒤에 진행한다(세트리스트가 Work를 참조하므로). Fandom 세트리스트 어댑터를 추가하고, 나무위키 비교 어댑터는 스파이크로 가능성을 확인한 뒤 추가한다(7.7절 ④) | 프로젝트별 최신 발매분·공연까지 반영 |
+| 3. 공백 백필   | 음반: Hasunosora → Liella → Nijigaku → Musical → Aqours 결측 보완 → Yohane·크로스 프로젝트(AiScReam, LIVE with a smile! 등) → μ's. 프로젝트별 공식 사이트 어댑터 추가. 공연: 각 프로젝트의 음반 백필이 끝난 뒤에 진행한다(세트리스트가 Work를 참조하므로). Fandom 세트리스트 어댑터를 추가하고 이관 때 넘긴 곡별 가창자(M6)를 채우며, 나무위키 비교 어댑터는 스파이크로 가능성을 확인한 뒤 추가한다(7.7절 ④) | 프로젝트별 최신 발매분·공연까지 반영 |
 | 4. 상시 운영   | 일일 sync, 주간 링크 검사, 월간 재검증, 이슈 템플릿                                                                                                                                                                                                                                            | 신규 발매 후 1일 안에 PR 생성        |
 | 5. 자동화 확대 | L0 자동 병합 → 조건 충족 시 L1                                                                                                                                                                                                                                                                 | 사람 개입이 L2에 집중됨              |
 | 6. API         | `infra/`의 인프라 위에 SQLite 기반 API(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개, 기존 API Gateway 엔드포인트 폐기(D17) |
@@ -1495,6 +1497,7 @@ TakasakiInfo/
 | D30 | —         | 2026-10-17 | 신곡의 한국어 제목은 나무위키 문서의 번역을 기본값으로 쓴다. 나무위키 번역에 오역 소지가 있을 때만 경고한다 | 5.4절, 15절 |
 | D31 | —         | 2026-10-17 | 크레딧 소속은 언어별 이름을 가질 수 있다(`ミト(クラムボン)` → rom·ko `Mito(clammbon)`, `미토(clammbon)`). 라틴 문자 소속은 지금처럼 문자열 하나 | 4.2절, 8절(E6) |
 | D32 | —         | 2026-10-17 | 레거시 Note를 구조화한다(M3). `Disc.N`(여러 장을 한 앨범으로 펼친 경우), `Drama Part`(음원 종류), `Link is from the [...]`(메인 URL 대체 행 전부, 출처는 레거시 앨범 제목)는 빌더가 만들고, 앨범 공통 설명과 트랙 고유 설명만 저장한다. 앨범 공통 설명이 발매물 종류를 가리키면 `type`도 채운다 | 4.2절, 8절(E14), 10.1절 |
+| D33 | —         | 2026-10-17 | 하스노소라 라인업 기간은 期(학년도) 단위로 적고 시작·끝을 4/1·3/31로 표기한다(실제 졸업·해산일이 있으면 그 날짜). 발표만 되고 활동 전인 기수(106期, 2027-01 시작)는 합류 시점에 반영한다 | 4.1절, 12절 M5 |
 
 ### 16.2 결정 필요 사항
 

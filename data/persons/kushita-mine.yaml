@@ -1,7 +1,7 @@
 id: kushita-mine
 names:
   ja: 久下 真音
-  rom: Kushita Mine
+  rom: Mine Kushita
   ko: 쿠시타 마인
 family_name:
   ja: 久下
@@ -18,3 +18,6 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.rom:
+    status: derived
+    note: 저장소 순서(이름-성)로 정렬 (D4). 이름 철자 Mine은 미확인

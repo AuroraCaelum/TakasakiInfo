@@ -1689,7 +1689,7 @@
 			},
 			{
 				"ja": "田中マッシュ",
-				"rom": "Tanaka Mush",
+				"rom": "Mush Tanaka",
 				"ko": "타나카 맛슈"
 			}
 		],
@@ -1701,7 +1701,7 @@
 			},
 			{
 				"ja": "田中マッシュ",
-				"rom": "Tanaka Mush",
+				"rom": "Mush Tanaka",
 				"ko": "타나카 맛슈"
 			}
 		],
@@ -3055,13 +3055,13 @@
 			},
 			{
 				"ja": "田中マッシュ",
-				"rom": "Tanaka Mush",
+				"rom": "Mush Tanaka",
 				"ko": "타나카 맛슈"
 			}
 		],
 		"arranger": {
 			"ja": "田中マッシュ",
-			"rom": "Tanaka Mush",
+			"rom": "Mush Tanaka",
 			"ko": "타나카 맛슈"
 		},
 		"album": "TVA1 BD Vol.6",
@@ -3810,13 +3810,13 @@
 			},
 			{
 				"ja": "田中マッシュ",
-				"rom": "Tanaka Mush",
+				"rom": "Mush Tanaka",
 				"ko": "타나카 맛슈"
 			}
 		],
 		"arranger": {
 			"ja": "田中マッシュ",
-			"rom": "Tanaka Mush",
+			"rom": "Mush Tanaka",
 			"ko": "타나카 맛슈"
 		},
 		"album": "L！ L！ L！ (Love the Life We Live)",
@@ -5670,17 +5670,17 @@
 		},
 		"lyricist": {
 			"ja": "田中マッシュ",
-			"rom": "Tanaka Mush",
+			"rom": "Mush Tanaka",
 			"ko": "타나카 맛슈"
 		},
 		"composer": {
 			"ja": "田中マッシュ",
-			"rom": "Tanaka Mush",
+			"rom": "Mush Tanaka",
 			"ko": "타나카 맛슈"
 		},
 		"arranger": {
 			"ja": "田中マッシュ",
-			"rom": "Tanaka Mush",
+			"rom": "Mush Tanaka",
 			"ko": "타나카 맛슈"
 		},
 		"album": "Blue!",
@@ -6289,16 +6289,30 @@
 				"ko": "Konnie Aoki"
 			}
 		],
-		"composer": {
-			"ja": "Giga＆TeddyLoid",
-			"rom": "Giga＆TeddyLoid",
-			"ko": "Giga＆TeddyLoid"
-		},
-		"arranger": {
-			"ja": "Giga＆TeddyLoid",
-			"rom": "Giga＆TeddyLoid",
-			"ko": "Giga＆TeddyLoid"
-		},
+		"composer": [
+			{
+				"ja": "Giga",
+				"rom": "Giga",
+				"ko": "Giga"
+			},
+			{
+				"ja": "TeddyLoid",
+				"rom": "TeddyLoid",
+				"ko": "TeddyLoid"
+			}
+		],
+		"arranger": [
+			{
+				"ja": "Giga",
+				"rom": "Giga",
+				"ko": "Giga"
+			},
+			{
+				"ja": "TeddyLoid",
+				"rom": "TeddyLoid",
+				"ko": "TeddyLoid"
+			}
+		],
 		"album": "Feel Alive / Go Our Way！（R3BIRTH盤）",
 		"track": "2",
 		"release": "2023-06-28",
@@ -6369,16 +6383,30 @@
 				"ko": "Konnie Aoki"
 			}
 		],
-		"composer": {
-			"ja": "Giga＆TeddyLoid",
-			"rom": "Giga＆TeddyLoid",
-			"ko": "Giga＆TeddyLoid"
-		},
-		"arranger": {
-			"ja": "Giga＆TeddyLoid",
-			"rom": "Giga＆TeddyLoid",
-			"ko": "Giga＆TeddyLoid"
-		},
+		"composer": [
+			{
+				"ja": "Giga",
+				"rom": "Giga",
+				"ko": "Giga"
+			},
+			{
+				"ja": "TeddyLoid",
+				"rom": "TeddyLoid",
+				"ko": "TeddyLoid"
+			}
+		],
+		"arranger": [
+			{
+				"ja": "Giga",
+				"rom": "Giga",
+				"ko": "Giga"
+			},
+			{
+				"ja": "TeddyLoid",
+				"rom": "TeddyLoid",
+				"ko": "TeddyLoid"
+			}
+		],
 		"album": "Feel Alive / Go Our Way！（虹ヶ咲学園スクールアイドル同好会盤）",
 		"track": "2",
 		"release": "2023-06-28",

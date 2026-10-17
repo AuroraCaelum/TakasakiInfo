@@ -13,8 +13,8 @@ given_name:
   rom: Setsuna
   ko: 세츠나
 casting:
-  - {person: tomori-kusunoki}
-  - {person: coco-hayashi}
+  - {person: tomori-kusunoki, until: 2023-03-31}
+  - {person: coco-hayashi, from: 2023-04-01}
 evidence:
   names:
     status: legacy
@@ -22,3 +22,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  casting:
+    status: established
+    source: https://www.famitsu.com/news/202303/25297378.html
+    checked: 2026-10-17
+    note: 楠木ともり는 2023-03-31로 활동 종료, 林鼓子가 4/1부터 (2023-03-25 발표)
