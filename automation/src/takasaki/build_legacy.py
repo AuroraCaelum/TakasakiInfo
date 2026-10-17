@@ -148,7 +148,9 @@ def video_owners(ds: Dataset) -> dict[str, str]:
     """Video id -> title of the legacy album whose track owns it (for "Link is from the [...]")."""
     owners: dict[str, str] = {}
     for rel in ds.releases.values():
-        for la in rel.legacy.albums:
+        # a release kept only as a link source (not in the legacy files) is named by its title
+        albums = rel.legacy.albums or [m.LegacyAlbum(title=rel.title.ja or rel.id)]
+        for la in albums:
             for disc, pos, _ in edition_tracks(rel, la.edition, la.disc):
                 vid = own_video(rel, la.edition, disc, pos)
                 if vid:

@@ -16,10 +16,17 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yoshiaki-dewa}
+    external_ids:
+      isrc: JPI102301530
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/isrc/JPI102301530
+        checked: 2026-10-17
+        note: 클럽 CD(2023-07-01)와 디지털 싱글(2023-08-02)이 같은 음원
   - id: off-vocal
     kind: off_vocal
     title:

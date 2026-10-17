@@ -241,8 +241,21 @@ def _performer_names(ds: Dataset, rel: m.Release) -> list[m.Names]:
         if ent and ent.id not in seen:
             seen.add(ent.id)
             out.append(ent.names)
-    groups = [a.names for a in ds.artists.values() if a.kind == "group" and set(a.projects) & set(rel.projects) and a.id not in seen]
-    return out[:4] + groups[:1]
+    return out[:4] + [ds.artists[g].names for g in main_groups(ds, rel.projects) if g not in seen][:1]
+
+
+def main_groups(ds: Dataset, projects: list[str]) -> list[str]:
+    """Group artists of the projects, the one singing the most recordings first (Liella! before Sunny Passion)."""
+    sung: dict[str, int] = {}
+    for w in ds.works.values():
+        if w.project not in projects:
+            continue
+        for r in w.recordings:
+            for p in r.performers:
+                if p.artist:
+                    sung[p.artist] = sung.get(p.artist, 0) + 1
+    groups = [a.id for a in ds.artists.values() if a.kind == "group" and set(a.projects) & set(projects)]
+    return sorted(groups, key=lambda g: -sung.get(g, 0))
 
 
 def match_edition(client: Client, ds: Dataset, rel: m.Release, edition: str | None) -> EditionMatch:

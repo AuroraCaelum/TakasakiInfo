@@ -1035,7 +1035,7 @@ wikitext 예:
 13. YouTube Music 링크를 고친다. 기존 videoId 대부분이 "Video unavailable"이다(2026-10-17 확인). 로그인 세션으로 앨범을 다시 조회해, 이번에 다룬 발매물 6개(2021 유닛 풀앨범 3장, `HAPPY PARTY TRAIN`, `始まりは君の空` 두 에디션, `Feel Alive / Go Our Way！`)의 URL을 현재 videoId로 바꾸고 빠진 것(Off Vocal 포함)을 채웠다.
 14. `members/Hasunosora.csv`를 고친다(M5): `村野さやか`·`乙宗 梢`의 유닛이 서로 뒤바뀌어 있었다(실제는 さやか가 DOLLCHESTRA, 梢가 スリーズブーケ). 104期(百生 吟子, 徒町 小鈴, 安養寺 姫芽)와 105期(セラス 柳田 リリエンフェルト, 桂城 泉)를 뒤에 붙인다(D7).
 15. 그 밖의 인명: `Giga＆TeddyLoid` → `Giga;TeddyLoid`(두 사람), rom 순서 `An Juria`·`Kushita Mine`·`Tanaka Mush` → 이름-성(D4), `藤井 万利子`의 ko `후지` → `후지이`.
-16. YouTube Music 링크를 다시 채운다(Phase 2 어댑터, 결정 D34). 레거시 1,112행 중 죽은 URL → 현재 URL 592행, `NA` → URL 101행(대부분 Off Vocal: 지금의 YouTube Music 앨범에는 Off Vocal도 있다), URL → `NA` 14행(BD 특전에 복사돼 있던 죽은 값 13개와 스트리밍이 없는 `Liella! CLUB CD SET 2023`, 원래 앨범이 아직 데이터에 없음). 대표 에디션 하나만 올라간 싱글의 나머지 에디션과 니지가사키판 `not ALONE not HITORI` 58행에는 `Link is from the [...]`가 붙는다. 저장된 videoId 709개가 모두 재생된다(2026-10-17).
+16. YouTube Music 링크를 다시 채운다(Phase 2 어댑터, 결정 D34). 레거시 1,112행 중 죽은 URL → 현재 URL 592행, `NA` → URL 101행(대부분 Off Vocal: 지금의 YouTube Music 앨범에는 Off Vocal도 있다), URL → `NA` 13행(BD 특전에 복사돼 있던 죽은 값, 원래 앨범이 아직 데이터에 없음). 스트리밍이 없는 `Liella! CLUB CD SET 2023`의 `UNIVERSE!!`는 같은 음원(ISRC)인 디지털 싱글을 링크 출처로만 두는 발매물로 넣어 메인 URL로 대체한다(레거시 파일에는 행을 추가하지 않음). 대표 에디션 하나만 올라간 싱글의 나머지 에디션과 니지가사키판 `not ALONE not HITORI` 58행에는 `Link is from the [...]`가 붙는다. 저장된 videoId 709개가 모두 재생된다(2026-10-17).
 17. 뮤지컬 `ゆめの羅針盤（文化祭 Ver.）`: 별개의 곡(`ゆめの羅針盤`)으로 이관돼 있던 것을 원곡 `ゆめの羅針盤（コンパス）`의 음원으로 합치고, 제목을 `ゆめの羅針盤（コンパス）（文化祭 Ver.）`로 고친다(YouTube Music 트랙 제목과 같다).
 
 `songs/*.json`은 지금처럼 수록마다 한 행을 유지한다. 행마다 URL이 다르기 때문이다.
