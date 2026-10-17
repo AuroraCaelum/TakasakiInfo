@@ -19,20 +19,21 @@ discs:
       - {no: 12, recording: liella/watashi-no-symphony-2022ver#original}
       - {no: 13, recording: liella/oi-kakeru-yume-no-saki-de#original}
 streaming:
-  - tracks:
-      1-1: XNLmRNuud3s
-      1-2: XZlDeyBmoPs
-      1-3: inksbjoxQpw
-      1-4: C6jJduciSe0
-      1-5: 2kegGtIK4UY
-      1-6: lWz0WrtMMhk
-      1-7: o823ZK_gBlE
-      1-8: kE1c5jLjAIc
-      1-9: wHD1DNV-ZOs
-      1-10: U3udO3oJ-vg
-      1-11: R6GZGsBNQgo
-      1-12: GNyAZZldK84
-      1-13: ZLbanEpXvb0
+  - browse_id: MPREb_wUTKFNxbETV
+    tracks:
+      1-1: oDf8fsxwt8A
+      1-2: mQ_6XB2DnLQ
+      1-3: n7Qp8XpUZ64
+      1-4: RVK3O1Ds5lE
+      1-5: s9ljXp2sj3w
+      1-6: OZGJ98ldW3A
+      1-7: eHnrtBys6NQ
+      1-8: XKv_Hy8wsYg
+      1-9: L9zQf-hdNkk
+      1-10: XxnBa8Q6mtM
+      1-11: q58pgpWK4WM
+      1-12: eT6m0EOV144
+      1-13: pejDh3PfoPc
 legacy:
   category: Liella
   albums:
@@ -41,3 +42,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wUTKFNxbETV
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

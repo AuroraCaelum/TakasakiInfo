@@ -29,15 +29,17 @@ discs:
       - {no: 6, recording: liella/matataki-no-saki-e#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_7BfnlPnkyDH
     tracks:
-      1-1: dd9i50ppx7g
-      1-2: v5v0tUGlwYY
-      1-3: 317eTPkfT-Y
+      1-1: KTV2pGmWhNg
+      1-2: n4JAypndSug
+      1-3: yK00rpQJLF0
   - editions: [e2]
+    browse_id: MPREb_pk2cP0xaGZa
     tracks:
-      1-1: if7Cz6O68iQ
-      1-2: UgVSlQy3CfA
-      1-3: TrifR0_8_iM
+      1-1: Fu7_7cdOkQA
+      1-2: s0iT5r41j4k
+      1-3: B_uFgH-daDw
 legacy:
   category: Liella
   albums:
@@ -47,3 +49,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_7BfnlPnkyDH
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

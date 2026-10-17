@@ -23,23 +23,24 @@ discs:
       - {no: 15, recording: aqours/wake-up-challenger#chika-takami-solo-ver}
       - {no: 16, recording: aqours/never-giving-up#original}
 streaming:
-  - tracks:
-      1-1: jwyBqK_rXYU
-      1-2: l53EmPFo0Ug
-      1-3: -m7U5Mx6dP8
-      1-4: Pga48GLX4RI
-      1-5: JlwXPpdRVus
-      1-6: WjjnCYqUQKY
-      1-7: icOE32TFjeM
-      1-8: OdmYpH_Z2r8
-      1-9: y2IeNGYFDlI
-      1-10: TLGoWWw5Vvk
-      1-11: 24UfYf-aHek
-      1-12: dtiWYm-bjYM
-      1-13: H5q_ZMpMegc
-      1-14: ikMy-P8BcwM
-      1-15: Qa1aVKS9LVw
-      1-16: fj0RDiCZwIk
+  - browse_id: MPREb_pqaWQqPjzgR
+    tracks:
+      1-1: 3fKYC7NdL2k
+      1-2: gY408isRJWg
+      1-3: o42Qn-qDPgw
+      1-4: XGg9pb4h3FE
+      1-5: KR6DVFHwX84
+      1-6: HePmUapJOlk
+      1-7: APsxCedMkHM
+      1-8: gDRKatnu93Q
+      1-9: R9UFOVrwtKY
+      1-10: FwEmW1BM9cI
+      1-11: 8qlqzDwwAtA
+      1-12: 08bEuxyrBto
+      1-13: Kn2jrT2mCBo
+      1-14: zbg0TMJXlhk
+      1-15: D-_4BsWrXjQ
+      1-16: ZXO8YzP0nMk
 legacy:
   category: Aqours
   albums:
@@ -51,3 +52,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

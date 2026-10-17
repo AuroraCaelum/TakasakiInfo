@@ -11,11 +11,13 @@ discs:
       - {no: 4, recording: nijigasaki/live-with-a-smile#liella-ver}
       - {no: 5, recording: nijigasaki/live-with-a-smile#off-vocal}
 streaming:
-  - tracks:
-      1-1: n-4U4iM4CL8
-      1-2: g2pjeFGzNxA
-      1-3: Ks4u5CTpwWI
-      1-4: f2Dv1LPGrWA
+  - browse_id: MPREb_aXwSoWm0nXZ
+    tracks:
+      1-1: WIAyPPlebiw
+      1-2: L9B3M96VNaM
+      1-3: UmJs_FBuzEE
+      1-4: U7HFDu88GyQ
+      1-5: hHVBB7dFsLA
 legacy:
   category: Nijigasaki
   albums:
@@ -24,3 +26,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

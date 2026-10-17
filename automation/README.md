@@ -74,8 +74,10 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 - **Phase 0 (기반)**: 완료. 모델, YAML 저장소, 레거시 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
 - **Phase 1 (이관)**: 완료 (2026-10-17). M1~M8, 이관 리뷰 66건, 부록 A-1·A-2. 출력이 바뀐 곳은 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~15). 결정 D25~D33
   - Phase 3으로 넘긴 것: 공연 곡별 가창자(M6의 Fandom 보강)
-  - 남은 문제: 기존 YouTube Music videoId 644개 중 611개(95%)가 "Video unavailable"이다(2026-10-17, 로그인 세션으로 확인). 살아 있는 것은 2023년 하반기 하스노소라·니지가사키 발매물 5개뿐이다. 이번에 다룬 발매물 6개는 현재 videoId로 바꿨고, 나머지는 YouTube Music 어댑터(Phase 2)로 다시 채운다
   - 로그인 세션: `automation/browser.json`(ytmusicapi 브라우저 인증, git에서 제외)
+- **Phase 2 (파일럿)**: 진행 중 (브랜치 `migration/db-catchup`)
+  - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집 결과, 발매물 119개 중 112개를 반영해 videoId 590개를 현재 값으로 채웠다(죽은 값 508개 교체, 새로 82개). 4개는 원래 스트리밍에 없다(드라마 CD)
+  - 남은 것: YouTube Music 리뷰 3건, E3(`draft` 차단), v1 JSON·JSON Schema·SQLite 빌드와 품질 지표, 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다

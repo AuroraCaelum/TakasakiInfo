@@ -13,9 +13,12 @@ discs:
       - {no: 6, recording: aqours/miwaku-no-road-bike#main}
       - {no: 7, recording: aqours/fencing-tte-nan-daro-na#main}
 streaming:
-  - tracks:
-      1-1: JbvoEhrNwTw
-      1-2: MQ0pWmEMZZQ
+  - browse_id: MPREb_wiFwIgiti2i
+    tracks:
+      1-1: k8zwD_jXLNw
+      1-2: _X9GFvunxeg
+      1-3: JdZ3RGnlIZg
+      1-4: l6kL1LUufRQ
 legacy:
   category: Aqours
   albums:
@@ -24,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wiFwIgiti2i
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

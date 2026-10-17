@@ -17,6 +17,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 import unicodedata
@@ -56,11 +57,23 @@ class Client:
         params = {p["key"]: p["value"] for s in r.get("responseContext", {}).get("serviceTrackingParams", []) for p in s.get("params", [])}
         return params.get("logged_in") == "1"
 
+    def _retry(self, call: Callable[[], Any], attempts: int = 4) -> Any:
+        """Retry transient network errors with backoff (§7.2 ②)."""
+        import requests
+
+        for n in range(attempts):
+            try:
+                return call()
+            except (requests.ConnectionError, requests.Timeout):
+                if n == attempts - 1:
+                    raise
+                time.sleep(2 ** (n + 1))
+
     def _cached(self, kind: str, key: str, fetch: Callable[[], Any]) -> Any:
         path = self.cache_dir / kind / (hashlib.sha1(key.encode()).hexdigest() + ".json")
         if path.exists():
             return json.loads(path.read_text(encoding="utf-8"))
-        data = fetch()
+        data = self._retry(fetch)
         time.sleep(self.pause)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
@@ -119,7 +132,7 @@ class Client:
         return self._cached("artist", query, fetch)
 
     def status(self, video_id: str) -> str:
-        return self.yt.get_song(video_id).get("playabilityStatus", {}).get("status", "UNKNOWN")
+        return self._retry(lambda: self.yt.get_song(video_id)).get("playabilityStatus", {}).get("status", "UNKNOWN")
 
 
 # --- matching -----------------------------------------------------------------
@@ -177,10 +190,11 @@ class Candidate:
     matched: int
     album_tracks: int
     tracks: dict[str, str]  # "<disc>-<pos>" -> video id
+    covers_vocals: bool = True  # every vocal row of the edition is on the album (a one-song digital single is not the CD)
 
     @property
     def complete(self) -> bool:
-        return self.matched == self.album_tracks and self.matched > 0
+        return self.matched == self.album_tracks and self.matched > 0 and self.covers_vocals
 
 
 @dataclass
@@ -204,6 +218,7 @@ def _queries(ds: Dataset, rel: m.Release, edition: str | None) -> list[str]:
     la = next((a for a in rel.legacy.albums if a.edition == edition), rel.legacy.albums[0] if rel.legacy.albums else None)
     titles = [t for t in (la.title if la else None, rel.title.ja) if t]
     titles += [t.replace("／", " / ") for t in titles if "／" in t]  # search misses titles joined with a full-width slash
+    titles += [" ".join(re.sub(r"[★☆♥♡♪]", " ", t).split()) for t in titles if re.search(r"[★☆♥♡♪]", t)]  # and decoration marks
     if rel.discs and rel.discs[0].tracks:
         titles.append(_row_title(ds, rel.discs[0].tracks[0]))
     out = [f"{t} {names[0]}" if names else t for t in titles] + titles  # a character name can hide the album
@@ -213,6 +228,9 @@ def _queries(ds: Dataset, rel: m.Release, edition: str | None) -> list[str]:
 def _label(rel: m.Release, edition: str | None) -> str:
     ed = next((e for e in rel.editions if e.id == edition), None)
     return _key(ed.label.ja) if ed and ed.label and ed.label.ja else ""
+
+
+_EDITION_LABEL = re.compile(r"[【［\[]([^】］\]]*盤)[】］\]]")
 
 
 def _performer_names(ds: Dataset, rel: m.Release) -> list[m.Names]:
@@ -241,15 +259,16 @@ def match_edition(client: Client, ds: Dataset, rel: m.Release, edition: str | No
     for names in _performer_names(ds, rel):
         browse_ids += [a["browse_id"] for a in client.artist_albums(names)
                        if year is None or not a.get("year") or abs(int(a["year"]) - year) <= 1]
+    vocal_rows = {j for j, (_, _, t) in enumerate(rows) if ds.recording(t.recording)[1].kind == "vocal"}
     for bid in dict.fromkeys(browse_ids):
         album = client.album(bid)
         pairs = align([t["title"] for t in album["tracks"]], row_titles)
         tracks = {f"{rows[j][0]}-{rows[j][1]}": album["tracks"][i]["video_id"] for i, j in pairs if album["tracks"][i]["video_id"]}
-        em.candidates.append(Candidate(bid, album["title"] or "", album["year"], len(pairs), len(album["tracks"]), tracks))
-    complete = [c for c in em.candidates if c.complete]
-    # an album named after another edition (【中須かすみ盤】) is never this edition's
-    others = [_label(rel, e.id) for e in rel.editions if e.id != edition and _label(rel, e.id)]
-    complete = [c for c in complete if not any(o in _key(c.title) for o in others)]
+        em.candidates.append(Candidate(bid, album["title"] or "", album["year"], len(pairs), len(album["tracks"]), tracks,
+                                       covers_vocals=vocal_rows <= {j for _, j in pairs}))
+    # an album named after an edition other than this one (【中須かすみ盤】, 【Liella!盤】) is never this edition's
+    mine = _label(rel, edition)
+    complete = [c for c in em.candidates if c.complete and all(_key(lab) == mine for lab in _EDITION_LABEL.findall(c.title))]
     if not complete:
         em.reason = "no album has all of its tracks in this release"
         return em

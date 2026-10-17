@@ -29,15 +29,17 @@ discs:
       - {no: 6, recording: liella/dream-rainbow#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_AmczUr7RSWM
     tracks:
-      1-1: 4_06v7iS7bQ
-      1-2: jE4-qB3YjkQ
-      1-3: 5UfSQq7C26M
+      1-1: bRJRCvKkPqY
+      1-2: 0rZIHIgFBgg
+      1-3: pgYY9LkoJv8
   - editions: [e2]
+    browse_id: MPREb_JY3MjbfxWr7
     tracks:
-      1-1: oSOpK1M59LE
-      1-2: H8PhMQrfEVA
-      1-3: O3HmG2RX0Mk
+      1-1: Aaprpy_WGEM
+      1-2: qI5HnxQ-86E
+      1-3: YXgMoEz4CNM
 legacy:
   category: Liella
   albums:
@@ -47,3 +49,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_AmczUr7RSWM
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

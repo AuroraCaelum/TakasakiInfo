@@ -13,9 +13,11 @@ discs:
       - {no: 6, recording: aqours/senjou-na-merii-kurisumasu#main}
       - {no: 7, recording: aqours/honto-no-kurisumasu-paatii#main}
 streaming:
-  - tracks:
-      1-1: FEi3wdJYIFQ
-      1-2: fREtIttC3LE
+  - browse_id: MPREb_vBlrYeq74nz
+    tracks:
+      1-1: orwtqzAvUwg
+      1-2: oEVdfcjnXOk
+      1-3: ldzIcPdqpw8
 legacy:
   category: Aqours
   albums:
@@ -24,3 +26,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_vBlrYeq74nz
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -10,9 +10,12 @@ discs:
       - {no: 3, recording: aqours/kimetayo-hand-in-hand#off-vocal}
       - {no: 4, recording: aqours/daisuki-dattara-daijoubu#off-vocal}
 streaming:
-  - tracks:
-      1-1: 0xHdXHSsJTQ
-      1-2: JrgM9L3G5jY
+  - browse_id: MPREb_bhAbbaY5jvF
+    tracks:
+      1-1: 3xaCofeigI0
+      1-2: oFP4YY6OAWE
+      1-3: 8pEgd-U9NvA
+      1-4: MqP4vA-HcXA
 legacy:
   category: Aqours
   albums:
@@ -21,3 +24,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_bhAbbaY5jvF
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

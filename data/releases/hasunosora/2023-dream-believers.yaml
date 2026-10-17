@@ -12,13 +12,14 @@ discs:
       - {no: 5, recording: hasunosora/do-do-do#original}
       - {no: 6, recording: hasunosora/eien-no-euphoria#original}
 streaming:
-  - tracks:
-      1-1: pFA9b7PkCOQ
-      1-2: Jqmyvux-ztY
-      1-3: xt8pJ4riNA0
-      1-4: 7mxDqSZH-sA
-      1-5: 5TXxIDBRPEI
-      1-6: hcYTaeVWGgs
+  - browse_id: MPREb_BMeIRFB6pEQ
+    tracks:
+      1-1: 3EWpPP5d2zU
+      1-2: E81kCmanMUs
+      1-3: eyZToz8APoA
+      1-4: bR35CFImmgI
+      1-5: 8N7qPnMR79Q
+      1-6: OETBB1AUUBA
 legacy:
   category: Hasunosora
   albums:
@@ -27,3 +28,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

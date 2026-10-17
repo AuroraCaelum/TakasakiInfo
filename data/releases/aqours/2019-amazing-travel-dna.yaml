@@ -12,10 +12,14 @@ discs:
       - {no: 5, recording: aqours/kuuchuu-ren-ai-ron#off-vocal}
       - {no: 6, recording: aqours/maze-sekai#off-vocal}
 streaming:
-  - tracks:
-      1-1: idD6_8oXQ6E
-      1-2: bI7lgNPf3ok
-      1-3: -vPaA1UqF3Y
+  - browse_id: MPREb_eVxHTRgsups
+    tracks:
+      1-1: 1t0oCI1xhOA
+      1-2: UT9S1AatGqA
+      1-3: Eh8A32YoQ8I
+      1-4: CEG78gt4oi4
+      1-5: _WPeLmzM7ek
+      1-6: fZS269u0jsg
 legacy:
   category: Aqours
   albums:
@@ -24,3 +28,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_eVxHTRgsups
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

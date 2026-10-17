@@ -17,17 +17,19 @@ discs:
       - {no: 10, recording: aqours/landing-action-yeah#mari-ohara-solo-ver}
       - {no: 11, recording: aqours/landing-action-yeah#ruby-kurosawa-solo-ver}
 streaming:
-  - tracks:
-      1-1: I2dTqCBOmN4
-      1-3: vxQbmQwR4vo
-      1-4: mK-lyZd0P-o
-      1-5: Y3xIgNEONsY
-      1-6: 5sz79HWz1OA
-      1-7: OAXU0b29hyo
-      1-8: vBP3pBgBLpM
-      1-9: uYHzAbjhoHM
-      1-10: nON6T5VhnTE
-      1-11: qtf_kug68nY
+  - browse_id: MPREb_UJxpQTE5KNf
+    tracks:
+      1-1: 5rdg3YSSfqU
+      1-2: uQ1BZ1vGaLk
+      1-3: n_F3BpOrHAY
+      1-4: zy4GyjE7rec
+      1-5: 2VsckZbas58
+      1-6: n5eKUqGlA_4
+      1-7: _G3PpeN4-uo
+      1-8: X4O65CjLZpE
+      1-9: y6Uh_CYq7vo
+      1-10: 40iWxmxsVm4
+      1-11: TZjAE3p7ptc
 legacy:
   category: Aqours
   albums:
@@ -36,3 +38,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_UJxpQTE5KNf
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

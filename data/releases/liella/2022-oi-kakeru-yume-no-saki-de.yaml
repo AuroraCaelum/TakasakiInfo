@@ -10,9 +10,10 @@ discs:
       - {no: 3, recording: liella/oi-kakeru-yume-no-saki-de#off-vocal}
       - {no: 4, recording: liella/mizushibuki-no-sign#off-vocal}
 streaming:
-  - tracks:
-      1-1: AKBV8afIcmE
-      1-2: EL619Be7OLU
+  - browse_id: MPREb_kCZboPAjHfv
+    tracks:
+      1-1: e8e7dUSkdhE
+      1-2: Q2zhpqM1DTc
 legacy:
   category: Liella
   albums:
@@ -21,3 +22,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_kCZboPAjHfv
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

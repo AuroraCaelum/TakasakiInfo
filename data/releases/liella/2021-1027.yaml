@@ -18,19 +18,20 @@ discs:
       - {no: 11, recording: liella/dears#sumire-ver, note: Sumire Ver.}
       - {no: 12, recording: liella/departure#original}
 streaming:
-  - tracks:
-      1-1: Y1Dl389GoCo
-      1-2: vKEs-n2BP7c
-      1-3: 2R1OEtTHLcQ
-      1-4: qiX_9lbpfZI
-      1-5: AiVVeTQJiLA
-      1-6: sAF-cLDVqmk
-      1-7: 6NXzNu5leSk
-      1-8: SPM0hSSUh10
-      1-9: RZU9dG1eEAk
-      1-10: Vmzt8gpiVDU
-      1-11: Yz_cx8KkbCA
-      1-12: AuZvn_JEbyA
+  - browse_id: MPREb_V0mJkZGmPMK
+    tracks:
+      1-1: tNEsg3J_3p0
+      1-2: fz1aPFNohkQ
+      1-3: TX4qwmSSVD4
+      1-4: W9-HdozztXc
+      1-5: k5oHy7WRFuM
+      1-6: n0WFAjM6dEI
+      1-7: XtE9dWFGdjs
+      1-8: A6XWs6CIU24
+      1-9: wSWWJ_PW2nU
+      1-10: oQgXWFxvs5I
+      1-11: jLQM0ZD3FLc
+      1-12: melvHdox668
 legacy:
   category: Liella
   albums:
@@ -39,3 +40,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

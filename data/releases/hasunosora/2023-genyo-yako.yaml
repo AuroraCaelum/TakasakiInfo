@@ -12,13 +12,14 @@ discs:
       - {no: 5, recording: hasunosora/kawaii-no-susume#off-vocal}
       - {no: 6, recording: hasunosora/genyo-yako#off-vocal}
 streaming:
-  - tracks:
-      1-1: S0ioLEIPxZk
-      1-2: Fka-LXn0WgE
-      1-3: 1uSVqpAdUPs
-      1-4: fY4kZOH0zZ8
-      1-5: oRRYYVc5nik
-      1-6: x1YAcyWdWCM
+  - browse_id: MPREb_Uy3gOyCfGlp
+    tracks:
+      1-1: 0WBC4Lg-EtA
+      1-2: 1vVZiDRjBj4
+      1-3: ArxRK8_s5U0
+      1-4: 70qx7ZqP-xo
+      1-5: GlwfguT-uJs
+      1-6: RVtEOjCmwmc
 legacy:
   category: Hasunosora
   albums:
@@ -27,3 +28,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Uy3gOyCfGlp
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

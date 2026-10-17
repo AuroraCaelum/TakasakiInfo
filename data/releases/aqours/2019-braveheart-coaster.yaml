@@ -12,10 +12,14 @@ discs:
       - {no: 5, recording: aqours/changeless#off-vocal}
       - {no: 6, recording: aqours/kodoku-teleport#off-vocal}
 streaming:
-  - tracks:
-      1-1: x5Jqvn1mFK4
-      1-2: zw6ag0xKJhI
-      1-3: Tg50XHWos0A
+  - browse_id: MPREb_nL3KKp8ShPZ
+    tracks:
+      1-1: TTy2sbCU-MM
+      1-2: 0gtikMtrOQ0
+      1-3: hVpbkB5PrrM
+      1-4: kb40fCe1th4
+      1-5: Bp2NFrR_4GE
+      1-6: iTkAVEeWKjo
 legacy:
   category: Aqours
   albums:
@@ -24,3 +28,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_nL3KKp8ShPZ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

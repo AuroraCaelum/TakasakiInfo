@@ -23,20 +23,14 @@ discs:
       - {no: 6, recording: nijigasaki/tsunagaru-connect#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_8tgIEXsEGUT
     tracks:
-      1-1: rFol2afue0Q
-      1-2: dnKhhOJ9sq0
-      1-3: i6gGJSezwNw
-  - editions: [e2]
-    tracks:
-      1-1: yU9KatpdBHE
-      1-2: i-NzrXpwJoA
-      1-3: NM9YsusP5WY
-  - editions: [e3]
-    tracks:
-      1-1: gYgjBEjjIvI
-      1-2: jkWA8dHfUU0
-      1-3: Kzr_xuqqh-M
+      1-1: ulp3F-0XXBo
+      1-2: zB74wJWBCx4
+      1-3: GJXzg3J8GR8
+      1-4: WVsARQTosCI
+      1-5: BqB2nlWWzcE
+      1-6: _wOyHeZvfjQ
 legacy:
   category: Nijigasaki
   albums:
@@ -47,3 +41,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8tgIEXsEGUT
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

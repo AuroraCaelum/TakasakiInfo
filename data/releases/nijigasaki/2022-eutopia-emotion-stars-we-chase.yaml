@@ -23,29 +23,14 @@ discs:
       - {no: 6, recording: nijigasaki/stars-we-chase#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_Eg3VUYffuyH
     tracks:
-      1-1: Hk8lDW8JB5c
-      1-2: Z61RRDBCvbc
-      1-3: JIbO5-CZm1A
-      1-4: NPV4l8rylS0
-      1-5: z2y3NDHfgVc
-      1-6: y-vanZ9Sf1U
-  - editions: [e2]
-    tracks:
-      1-1: kP7tLYnAXwE
-      1-2: BctS652B2-g
-      1-3: CRCiAmua-ww
-      1-4: gmlmoBoKkJM
-      1-5: dUQJP_2hZMY
-      1-6: jpYgUxMg_xQ
-  - editions: [e3]
-    tracks:
-      1-1: lbWR2WGoePI
-      1-2: _XrBxZyVLQc
-      1-3: COwb7jyRxQM
-      1-4: tmAyzn1U_Ww
-      1-5: ACe0LKkoe_4
-      1-6: XvJtqUcCJBM
+      1-1: kP2ouGiuSOQ
+      1-2: ajm7blPthhU
+      1-3: vXEYHJZvS-g
+      1-4: pxg_wteN0RI
+      1-5: CHCQ5nd6DiQ
+      1-6: YCfFlwvaDt4
 legacy:
   category: Nijigasaki
   albums:
@@ -56,3 +41,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Eg3VUYffuyH
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

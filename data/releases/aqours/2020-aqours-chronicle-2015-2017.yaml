@@ -58,52 +58,53 @@ discs:
       - {no: 11, recording: aqours/seinaru-hi-no-inori#original}
       - {no: 12, recording: aqours/future-flight#original, note: （みんなで作るAqoursの歌）}
 streaming:
-  - tracks:
-      1-1: masJqqLzkdA
-      1-2: zs3QZW8IXPU
-      1-3: hgS4FSzvomc
-      1-4: BlvEGaV8iX4
-      1-5: KTuC79Z6k2s
-      1-6: nSfhqZgumhM
-      1-7: LYSwCyCF7Y0
-      1-8: 6jzvXPc4iJk
-      1-9: iK3Zk8tDkDQ
-      2-1: 3kwZXC7b7gA
-      2-2: e5D6Yibhk_U
-      2-3: bCC2_OKT1DM
-      2-4: IxjfzoRVXwY
-      2-5: jxsg1PyHbAE
-      2-6: j42AfBdSo44
-      2-7: Y8Ca-ZHT-CA
-      2-8: tdSV539o_yw
-      2-9: A_fOcLUppZw
-      2-10: OprHYSjg5zQ
-      2-11: U6621F-zrUw
-      2-12: 9NOE0rXp8_Q
-      2-13: giSzu1GcsCg
-      2-14: qhOGlyW1D1c
-      2-15: XzCzcYD0zck
-      3-1: ASRpX2TlV7s
-      3-2: D-OXvQxqE5o
-      3-3: c4knYS3caG8
-      3-4: rmBMuC0fdm8
-      3-5: VV1-sanER1M
-      3-6: h7cNOXx4nJE
-      3-7: Wrc3d14umtA
-      3-8: WvlmHd2Xm3k
-      3-9: KpkjThm33Fs
-      4-1: rA3-gFUUzJ8
-      4-2: L9v5n_rpRzU
-      4-3: 4laKO_TUSYM
-      4-4: PAqw4-BACWc
-      4-5: drO1o6KklE0
-      4-6: ybirxigmm0E
-      4-7: OfpUj7x1eaM
-      4-8: mxQ0aKzrDu8
-      4-9: uFcslxvGYf8
-      4-10: lQrIlGGpQR4
-      4-11: 3eHBSakhCes
-      4-12: t-zRteXNP_U
+  - browse_id: MPREb_FzjMHrtzPZM
+    tracks:
+      1-1: Zt-8mG_SBCU
+      1-2: Q0GCaV1hfNw
+      1-3: eahXXefocqs
+      1-4: 8WhCkdGOibY
+      1-5: kn5UD5lr6Z8
+      1-6: ZIuwKxrWnYc
+      1-7: 8h_n_zOhXL4
+      1-8: OQBdOLaucSg
+      1-9: -aKoLmoarvM
+      2-1: xgy3O7KmpNg
+      2-2: m2_Xw2-QnQA
+      2-3: YbCGpRzxmHE
+      2-4: idbhd0OYV0s
+      2-5: Dc8OTyMS0x4
+      2-6: 54Eeh8NB95g
+      2-7: kLBdAOaNj14
+      2-8: qED5jhDXrmc
+      2-9: QCpmkbS8xLA
+      2-10: XADENzE-8F0
+      2-11: xxItytSVVWY
+      2-12: z_vkclJXt90
+      2-13: _GAqZc4qgds
+      2-14: iAbKIimDFqc
+      2-15: XjlAAXaw7J8
+      3-1: J7fDhYCN4CA
+      3-2: mS5P6tAqYoc
+      3-3: PCqKtBJzfhM
+      3-4: QMTYzZvmyik
+      3-5: DlAxqUKtA_w
+      3-6: KKt9217OYK8
+      3-7: Evy1UZGZ6SY
+      3-8: EBybyhLehCM
+      3-9: lmjcqDNGX2c
+      4-1: C-ph2_NxseM
+      4-2: s6KSthD0xmo
+      4-3: Pso6_oCGE04
+      4-4: WbIGfLjDOT0
+      4-5: Wu6H-A27Wus
+      4-6: 8k2hNRlCbxI
+      4-7: X0e-BsxKeO8
+      4-8: 6p0UQZDUTpQ
+      4-9: tdxzgPI9kaI
+      4-10: oe30um7Ke9A
+      4-11: PCIDWrU1DAc
+      4-12: bmUG5DP0NKE
 legacy:
   category: Aqours
   albums:
@@ -112,3 +113,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -10,11 +10,12 @@ discs:
       - {no: 3, recording: musical/mikansei-dream#takizakura-jogakuin-high-school-ver}
       - {no: 4, recording: musical/mikansei-dream#off-vocal}
 streaming:
-  - tracks:
-      1-1: 4PK_yK86Pgg
-      1-2: vSQKKX9feD0
-      1-3: R2mLIuSgeeM
-      1-4: m2vwfJgFmcg
+  - browse_id: MPREb_XnJ43DiHnQJ
+    tracks:
+      1-1: EKUfGCWDFZI
+      1-2: EX63dSnJ3-g
+      1-3: BWtHfUEANNM
+      1-4: sFUo_qqU78U
 legacy:
   category: Musical
   albums:
@@ -23,3 +24,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_XnJ43DiHnQJ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

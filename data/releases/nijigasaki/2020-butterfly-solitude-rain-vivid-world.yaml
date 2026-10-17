@@ -22,21 +22,15 @@ discs:
       - {no: 5, recording: nijigasaki/solitude-rain#off-vocal}
       - {no: 6, recording: nijigasaki/vivid-world#off-vocal}
 streaming:
-  - editions: [e1]
-    tracks:
-      1-1: aoRBp5C_ZyI
-      1-2: weUHyj4qUFg
-      1-3: ZvmrO1tRgdc
   - editions: [e2]
+    browse_id: MPREb_cth082hzH6n
     tracks:
-      1-1: m34ajkqlK2U
-      1-2: 8yyMnAK2Ki4
-      1-3: 8XNh57Vzq-g
-  - editions: [e3]
-    tracks:
-      1-1: hTTTatPBo_0
-      1-2: MM8YLUc85kI
-      1-3: FFyWNOU82Vw
+      1-1: BmSrzKUUZJg
+      1-2: GYvcrNJVkwE
+      1-3: W3eKiFQnRUA
+      1-4: -urt2guM3y8
+      1-5: 4wYzRwQlAVg
+      1-6: yuXBLhCezh8
 legacy:
   category: Nijigasaki
   albums:
@@ -47,3 +41,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_cth082hzH6n
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

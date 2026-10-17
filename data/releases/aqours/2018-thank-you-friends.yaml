@@ -13,9 +13,12 @@ discs:
       - {no: 6, recording: aqours/kyokugen-sabaibu-ayutsubo-no-taki#main}
       - {no: 7, recording: aqours/konshin-atakku-dai-ryuuguujou#main}
 streaming:
-  - tracks:
-      1-1: t_IThrVKPyE
-      1-2: kv-Zp30IC8A
+  - browse_id: MPREb_nDsfGAbvQJf
+    tracks:
+      1-1: pg9XPEuaQ_M
+      1-2: dwcUOoiHVgY
+      1-3: 98GsLp9m_Vo
+      1-4: 2g-XPHqTlvE
 legacy:
   category: Aqours
   albums:
@@ -24,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

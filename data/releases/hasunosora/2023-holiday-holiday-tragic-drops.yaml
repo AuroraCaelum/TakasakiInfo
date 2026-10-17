@@ -18,17 +18,12 @@ discs:
       - {no: 4, recording: hasunosora/tragic-drops#original}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_iaJaPy48pwU
     tracks:
-      1-1: 2bmCAQkcZgk
-      1-2: CJacGQqhwAM
-      1-3: dSeW7qZuMl0
-      1-4: vw2lTEmVeEM
-  - editions: [e2]
-    tracks:
-      1-1: UUAlWlg_Bq4
-      1-2: E6cz82WKIEc
-      1-3: kBkWoos0-cY
-      1-4: Son91mCRRWM
+      1-1: lSOw23p1sEs
+      1-2: -ShXD9TpP_8
+      1-3: 6q3bT34uW10
+      1-4: cUAUy89_pFc
 legacy:
   category: Hasunosora
   albums:
@@ -38,3 +33,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_iaJaPy48pwU
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

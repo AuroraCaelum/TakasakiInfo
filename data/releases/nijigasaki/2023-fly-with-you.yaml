@@ -19,7 +19,8 @@ discs:
       - {no: 12, recording: nijigasaki/5201315#original}
       - {no: 13, recording: nijigasaki/fly-with-you#original}
 streaming:
-  - tracks:
+  - browse_id: MPREb_GYaepllp9qQ
+    tracks:
       1-1: dLpd5CFxZ6Y
       1-2: 9Jiv-ixbrdM
       1-3: FykVJBuh4_0
@@ -41,3 +42,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_GYaepllp9qQ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

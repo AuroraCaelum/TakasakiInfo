@@ -13,10 +13,11 @@ discs:
       - {no: 6, recording: aqours/soshite-koko-nite-barentain-shoubu#main}
       - {no: 7, recording: aqours/kagayaku-my-sweet-town#main}
 streaming:
-  - tracks:
-      1-1: Zr7I5l-XPz8
-      1-2: 9FZx2gPq4Fg
-      1-3: Q3HBLj90OTk
+  - browse_id: MPREb_IAfx7Ugw7AO
+    tracks:
+      1-1: 7dRsUSoYCdQ
+      1-2: YqkFce7k7gE
+      1-3: 7IW_gFqotlA
 legacy:
   category: Aqours
   albums:
@@ -25,3 +26,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_IAfx7Ugw7AO
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

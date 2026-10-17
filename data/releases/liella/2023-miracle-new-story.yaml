@@ -10,9 +10,10 @@ discs:
       - {no: 3, recording: liella/miracle-new-story#off-vocal}
       - {no: 4, recording: liella/kirakyun#off-vocal}
 streaming:
-  - tracks:
-      1-1: Yk5ozvTSgwo
-      1-2: eNdP4qEYGa4
+  - browse_id: MPREb_gjEu7vvjuA5
+    tracks:
+      1-1: e7Tlj7EW6FQ
+      1-2: xg0VpG-P7j0
 legacy:
   category: Liella
   albums:
@@ -21,3 +22,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_gjEu7vvjuA5
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

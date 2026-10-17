@@ -16,17 +16,18 @@ discs:
       - {no: 9, recording: hasunosora/asu-no-sora-no-bokutachi-e#original}
       - {no: 10, recording: hasunosora/legato#original}
 streaming:
-  - tracks:
-      1-1: 9unBx6g1BH8
-      1-2: 1W_m5py0egM
-      1-3: f2DQ5HJJ2c0
-      1-4: GwDIWuBT6G0
-      1-5: 1cscakt1bHU
-      1-6: 7bqwkmQh8Zc
-      1-7: yy-wVjE_7Y0
-      1-8: FqYiECR1eq0
-      1-9: 6gPuvbfYHWc
-      1-10: GRnf3OQUjt8
+  - browse_id: MPREb_c95rmywAS0G
+    tracks:
+      1-1: 2UP2M_OiBWI
+      1-2: eew2gzavZgE
+      1-3: I74xWNxq1HY
+      1-4: ePMtIaRgfK8
+      1-5: 9GSgpgQ07Og
+      1-6: ZvxsarVizSM
+      1-7: gme_Ns-ceQ4
+      1-8: AT-Jy5GyZXY
+      1-9: NY4c2TfMRDs
+      1-10: UFyo0W_V81s
 legacy:
   category: Hasunosora
   albums:
@@ -35,3 +36,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

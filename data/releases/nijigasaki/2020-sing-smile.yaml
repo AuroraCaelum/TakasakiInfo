@@ -11,9 +11,12 @@ discs:
       - {no: 4, recording: nijigasaki/beautiful-moonlight#off-vocal, note: QU4RTZ 1st}
       - {no: 5, recording: nijigasaki/valentine-s-party#main}
 streaming:
-  - tracks:
-      1-1: 9SEiiwiiha4
-      1-2: CQdEPi9UJvY
+  - browse_id: MPREb_KUKwlEGkjrq
+    tracks:
+      1-1: SvLpUi3AQEs
+      1-2: 7vvN1kbxjMs
+      1-3: 9MNjOuHbhbE
+      1-4: n3qrnEI8W_E
 legacy:
   category: Nijigasaki
   albums:
@@ -22,3 +25,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KUKwlEGkjrq
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -11,11 +11,13 @@ discs:
       - {no: 4, recording: aqours/hop-step-wai#azalea-ver}
       - {no: 5, recording: aqours/hop-step-wai#guilty-kiss-ver}
 streaming:
-  - tracks:
-      1-1: zpVK5vGNDNI
-      1-3: gSsTtbe8bnw
-      1-4: EAsyHX-H8fU
-      1-5: evu0uohx_Gs
+  - browse_id: MPREb_rErmrvuCOXx
+    tracks:
+      1-1: HIVYwEEUjfQ
+      1-2: MhnmiGv00Zw
+      1-3: 5CGN3opqg94
+      1-4: fMnR1xM_iS8
+      1-5: gN8L9SL9nj4
 legacy:
   category: Aqours
   albums:
@@ -24,3 +26,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

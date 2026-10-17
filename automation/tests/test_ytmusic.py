@@ -94,3 +94,17 @@ def test_ambiguous_release_goes_to_review_and_applies_offline():
     rid, picked = matches_from_review(doc, f"pick:{pick}")
     apply_matches(None, ds.releases[rid], picked, "2026-10-17")
     assert rel.streaming[0].tracks == {"1-1": "2A", "1-2": "2B"}
+
+
+def test_one_song_single_is_not_the_cd():
+    ds = _ds()
+    client = FakeClient({"MPREb_s": _album("曲A", ("曲A", "sA"))})  # every album track is in the release, but 曲B is missing
+    matches, ok = plan_release(client, ds, ds.releases["p/r"])
+    assert not ok and matches[0].chosen is None
+
+
+def test_album_labelled_for_another_edition_is_refused_even_alone():
+    ds = _ds(editions=[m.Edition(id="e1", label=_names("虹ヶ咲学園スクールアイドル同好会盤"))])
+    client = FakeClient({"MPREb_l": _album("曲A / 曲B【Liella!盤】", ("曲A", "lA"), ("曲B", "lB"))})
+    matches, ok = plan_release(client, ds, ds.releases["p/r"])
+    assert not ok and matches[0].chosen is None

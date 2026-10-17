@@ -13,10 +13,12 @@ discs:
       - {no: 6, recording: aqours/shuugou-himono-paatii#main}
       - {no: 7, recording: aqours/tobikome-numazu-jou#main}
 streaming:
-  - tracks:
-      1-1: aL_3dVRDLPU
-      1-2: _csrXZNMEIQ
-      1-3: 6FttCxKBHQs
+  - browse_id: MPREb_f33ss2BhIdt
+    tracks:
+      1-1: BgXbZnoac4w
+      1-2: NqntIkWLKgo
+      1-3: U1V3qQAShsI
+      1-4: 32QBlI5rKMo
 legacy:
   category: Aqours
   albums:
@@ -25,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_f33ss2BhIdt
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -13,11 +13,12 @@ discs:
       - {no: 5, recording: aqours/kaien-master-of-ceremony#main}
       - {no: 6, recording: aqours/uragiri-no-chika-lost-report#main}
 streaming:
-  - tracks:
-      1-1: ZMwXGDNC4i8
-      1-2: TdBaUmBhYJE
-      1-3: _aKtQX0Tax8
-      1-4: OnSXOwljE28
+  - browse_id: MPREb_5O3as8ON9Ra
+    tracks:
+      1-1: -BcCm-3JlyY
+      1-2: RzRinFER8-Q
+      1-3: QbpGmzaajxg
+      1-4: -xVg8pivIwg
 legacy:
   category: Aqours
   albums:
@@ -29,3 +30,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'ラブライブ！サンシャイン!! デュオトリオコレクションCD VOL.2'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_5O3as8ON9Ra
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

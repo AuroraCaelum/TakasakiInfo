@@ -126,6 +126,7 @@ def _write_review(path: Path, doc: dict) -> None:
 
     buf = io.StringIO()
     _yaml().dump(_to_node(doc), buf)
+    path.parent.mkdir(parents=True, exist_ok=True)  # git drops the folder once every item is closed
     path.write_text(buf.getvalue(), encoding="utf-8")
 
 
@@ -166,13 +167,29 @@ def cmd_ytm_match(args: argparse.Namespace) -> int:
         print(f"applied {rel.id}: +{out.added} new, {out.replaced} dead replaced" + (f", {len(out.kept_live)} live kept" if out.kept_live else ""))
         if out.kept_live:
             _write_review(review / f"YTM-change-{slug}.yaml", review_doc(rel, matches, out.kept_live))
+    # bonus CDs are not distributed: a stored id there was copied from another album; drop it once it is dead
+    dropped = 0
+    if args.apply:
+        for rel in ds.releases.values():
+            if rel.type not in SKIP_TYPES or not rel.streaming or (args.release and rel.id not in args.release) \
+                    or (args.project and args.project not in rel.projects):
+                continue
+            for s in rel.streaming:
+                dead = [k for k, v in s.tracks.items() if client.status(v) != "OK"]
+                for k in dead:
+                    del s.tracks[k]
+                dropped += len(dead)
+                if dead:
+                    print(f"dropped {rel.id}: {len(dead)} dead id(s) copied from another album")
+            rel.streaming = [s for s in rel.streaming if s.tracks]
+        applied += bool(dropped)
     if args.apply and applied:
         assert ds.meta is not None
         ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
         save_dataset(ds, data)
     verb = "applied" if args.apply else "would apply"
     print(f"{len(rels)} releases: {verb} {applied if args.apply else len(rels) - len(reviews) - absent}, review {len(reviews)}, absent {absent}"
-          + (f"; {added} ids added, {replaced} dead ids replaced" if args.apply else ""))
+          + (f"; {added} ids added, {replaced} dead ids replaced, {dropped} dead copies dropped" if args.apply else ""))
     return 0
 
 

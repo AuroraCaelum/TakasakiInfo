@@ -19,20 +19,21 @@ discs:
       - {no: 12, recording: nijigasaki/toy-doll#original}
       - {no: 13, recording: nijigasaki/ye-mingzhu#original}
 streaming:
-  - tracks:
-      1-1: wc3cfiS0VaQ
-      1-2: PFibzMXHjqA
-      1-3: ZSLH00pSniQ
-      1-4: L7OXv_BXN5Y
-      1-5: KDnrlBN9DNM
-      1-6: Ji1bBREZ1jg
-      1-7: 0e38ymSmWks
-      1-8: 1lPESUmrbZY
-      1-9: XrUcDvCJq-0
-      1-10: GZCIdi1DI5k
-      1-11: HQaGC6SUK04
-      1-12: 7IlcjWYUUkE
-      1-13: SRvmtD4RpLk
+  - browse_id: MPREb_fRfHONmXLl2
+    tracks:
+      1-1: 0HVJBVbvIbY
+      1-2: qSFla7qYcwY
+      1-3: wLa2_qA8THE
+      1-4: hmjBG184kO0
+      1-5: 9BeF_TyonOA
+      1-6: NzcpOtF0VMU
+      1-7: RdwPV7Mv-4w
+      1-8: B3t4c6ToBGk
+      1-9: HDFhREUtoug
+      1-10: uSkG1THEbDE
+      1-11: swL-8AdoGlg
+      1-12: aogImr2yxt8
+      1-13: jtq96LeRXCk
 legacy:
   category: Nijigasaki
   albums:
@@ -41,3 +42,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_fRfHONmXLl2
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -29,15 +29,17 @@ discs:
       - {no: 6, recording: liella/to-be-continued#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_sig2lvI8fHf
     tracks:
-      1-1: b_Ddvt9GGX4
-      1-2: 0294nPe39iY
-      1-3: AKfw3kU_p8M
+      1-1: V1zsfbHHKzQ
+      1-2: _nDRs-aKYOs
+      1-3: 9K6Rvu97_Tk
   - editions: [e2]
+    browse_id: MPREb_mMe2V6db9MG
     tracks:
-      1-1: hoWh6_ROBiY
-      1-2: _5tDFY2koq4
-      1-3: KyYm4QJrCuo
+      1-1: j_RlMca3rM8
+      1-2: 2XgRtRGDXPc
+      1-3: ruTeMuWWC4o
 legacy:
   category: Liella
   albums:
@@ -47,3 +49,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_sig2lvI8fHf
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
