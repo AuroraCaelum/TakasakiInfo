@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-02-25
 discs:
   - tracks:
-      - {no: 1, recording: liella/tu-tu-tu#original, note: TVA1 BD Vol.6}
-      - {no: 2, recording: liella/tu-tu-tu#off-vocal, note: TVA1 BD Vol.6}
+      - {no: 1, recording: liella/tu-tu-tu#original}
+      - {no: 2, recording: liella/tu-tu-tu#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Vol.6}
+    - {title: TVA1 BD Vol.6, note: TVA1 BD Vol.6}
 evidence:
   tracks:
     status: legacy

@@ -5,11 +5,11 @@ projects: [nijigasaki]
 release_date: 2021-11-03
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/live-with-a-smile#original, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
-      - {no: 2, recording: nijigasaki/live-with-a-smile#aqours-ver, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
-      - {no: 3, recording: nijigasaki/live-with-a-smile#nijigasaki-high-school-idol-club-ver, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
-      - {no: 4, recording: nijigasaki/live-with-a-smile#liella-ver, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
-      - {no: 5, recording: nijigasaki/live-with-a-smile#off-vocal, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
+      - {no: 1, recording: nijigasaki/live-with-a-smile#original}
+      - {no: 2, recording: nijigasaki/live-with-a-smile#aqours-ver}
+      - {no: 3, recording: nijigasaki/live-with-a-smile#nijigasaki-high-school-idol-club-ver}
+      - {no: 4, recording: nijigasaki/live-with-a-smile#liella-ver}
+      - {no: 5, recording: nijigasaki/live-with-a-smile#off-vocal}
 streaming:
   - tracks:
       1-1: n-4U4iM4CL8
@@ -19,7 +19,7 @@ streaming:
 legacy:
   category: Nijigasaki
   albums:
-    - {title: LIVE with a smile!}
+    - {title: LIVE with a smile!, note: 「LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～」テーマソングCD}
 evidence:
   tracks:
     status: legacy

@@ -6,12 +6,12 @@ projects: [nijigasaki]
 release_date: 2022-07-27
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/fuwa-fuwa-hour#original, note: TVA2 BD Vol.2}
-      - {no: 2, recording: nijigasaki/fuwa-fuwa-hour#off-vocal, note: TVA2 BD Vol.2}
+      - {no: 1, recording: nijigasaki/fuwa-fuwa-hour#original}
+      - {no: 2, recording: nijigasaki/fuwa-fuwa-hour#off-vocal}
 legacy:
   category: Nijigasaki
   albums:
-    - {title: TVA2 BD Vol.2}
+    - {title: TVA2 BD Vol.2, note: TVA2 BD Vol.2}
 evidence:
   tracks:
     status: legacy

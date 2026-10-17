@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-02-25
 discs:
   - tracks:
-      - {no: 1, recording: liella/kawaranai-subete#original, note: TVA1 BD Full (Sofmap × Animega)}
-      - {no: 2, recording: liella/kawaranai-subete#off-vocal, note: TVA1 BD Full (Sofmap × Animega)}
+      - {no: 1, recording: liella/kawaranai-subete#original}
+      - {no: 2, recording: liella/kawaranai-subete#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Full (Sofmap × Animega)}
+    - {title: TVA1 BD Full (Sofmap × Animega), note: TVA1 BD Full (Sofmap × Animega)}
 evidence:
   tracks:
     status: legacy

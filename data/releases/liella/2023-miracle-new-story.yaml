@@ -5,10 +5,10 @@ projects: [liella]
 release_date: 2023-05-17
 discs:
   - tracks:
-      - {no: 1, recording: liella/miracle-new-story#original, note: SIF2 MIRACLE LIVE Theme Song}
-      - {no: 2, recording: liella/kirakyun#original, note: SIF2 MIRACLE LIVE Theme Song}
-      - {no: 3, recording: liella/miracle-new-story#off-vocal, note: SIF2 MIRACLE LIVE Theme Song}
-      - {no: 4, recording: liella/kirakyun#off-vocal, note: SIF2 MIRACLE LIVE Theme Song}
+      - {no: 1, recording: liella/miracle-new-story#original}
+      - {no: 2, recording: liella/kirakyun#original}
+      - {no: 3, recording: liella/miracle-new-story#off-vocal}
+      - {no: 4, recording: liella/kirakyun#off-vocal}
 streaming:
   - tracks:
       1-1: Yk5ozvTSgwo
@@ -16,7 +16,7 @@ streaming:
 legacy:
   category: Liella
   albums:
-    - {title: MIRACLE NEW STORY}
+    - {title: MIRACLE NEW STORY, note: SIF2 MIRACLE LIVE Theme Song}
 evidence:
   tracks:
     status: legacy

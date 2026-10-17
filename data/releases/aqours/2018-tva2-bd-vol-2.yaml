@@ -6,15 +6,15 @@ projects: [aqours]
 release_date: 2018-01-26
 discs:
   - tracks:
-      - {no: 1, recording: aqours/oyasuminasan#original, note: 'TVA2 BD Vol.2, Link is from the [Kunikida Hanamaru First Solo Concert Album ～おやすみなさん!～]'}
-      - {no: 2, recording: aqours/oyasuminasan#off-vocal, note: TVA2 BD Vol.2}
+      - {no: 1, recording: aqours/oyasuminasan#original}
+      - {no: 2, recording: aqours/oyasuminasan#off-vocal}
 streaming:
   - tracks:
       1-1: 2fmZqdiTPG4
 legacy:
   category: Aqours
   albums:
-    - {title: TVA2 BD Vol.2}
+    - {title: TVA2 BD Vol.2, note: TVA2 BD Vol.2}
 evidence:
   tracks:
     status: legacy

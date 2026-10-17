@@ -6,15 +6,15 @@ projects: [nijigasaki]
 release_date: 2021-02-25
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/make-up-session-abc#original, note: TVA1 BD Vol.3}
-      - {no: 2, recording: nijigasaki/make-up-session-abc#off-vocal, note: TVA1 BD Vol.3}
+      - {no: 1, recording: nijigasaki/make-up-session-abc#original}
+      - {no: 2, recording: nijigasaki/make-up-session-abc#off-vocal}
 streaming:
   - tracks:
       1-1: zqVgZ7obL5U
 legacy:
   category: Nijigasaki
   albums:
-    - {title: TVA1 BD Vol.3}
+    - {title: TVA1 BD Vol.3, note: TVA1 BD Vol.3}
 evidence:
   tracks:
     status: legacy

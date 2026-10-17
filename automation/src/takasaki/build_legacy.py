@@ -144,7 +144,30 @@ def track_title(work: m.Work, rec: m.Recording, track: m.Track) -> tuple[m.Names
     return base, kana
 
 
-def render_album_rows(ds: Dataset, group: str, mains: dict[str, str]) -> list[Row]:
+def video_owners(ds: Dataset) -> dict[str, str]:
+    """Video id -> title of the legacy album whose track owns it (for "Link is from the [...]")."""
+    owners: dict[str, str] = {}
+    for rel in ds.releases.values():
+        for la in rel.legacy.albums:
+            for disc, pos, _ in edition_tracks(rel, la.edition, la.disc):
+                vid = own_video(rel, la.edition, disc, pos)
+                if vid:
+                    owners.setdefault(vid, la.title)
+    return owners
+
+
+def render_note(la: m.LegacyAlbum, disc: int, rec: m.Recording, track: m.Track, link_from: str | None) -> str:
+    parts = [
+        f"Disc.{disc}" if la.flatten_discs else None,
+        "Drama Part" if rec.kind == "drama" else None,
+        la.note,
+        track.note,
+        f"Link is from the [{link_from}]" if link_from else None,
+    ]
+    return ", ".join(p for p in parts if p)
+
+
+def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: dict[str, str]) -> list[Row]:
     assert ds.layout is not None
     rows: list[Row] = []
     for entry in ds.layout.albums[group].entries:
@@ -152,14 +175,16 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str]) -> list[Ro
         la = rel.legacy.albums[entry.album]
         ed_date = next((e.release_date for e in rel.editions if e.id == la.edition and e.release_date), None)
         day = ed_date or rel.release_date
-        for disc, pos, track in edition_tracks(rel, la.edition, la.disc):
+        for running, (disc, pos, track) in enumerate(edition_tracks(rel, la.edition, la.disc), 1):
             work, rec = ds.recording(track.recording)
             title, kana = track_title(work, rec, track)
             credits = rec.credits_override or work.credits
-            vid = own_video(rel, la.edition, disc, pos) or mains.get(track.recording)
+            own = own_video(rel, la.edition, disc, pos)
+            vid = own or mains.get(track.recording)
+            number = running if la.flatten_discs else track.no
             cells = [
                 la.title,
-                "" if track.no is None else str(track.no),
+                "" if number is None else str(number),
                 title.ja or "", title.rom or "", title.ko or "",
                 *render_performers(ds, rec.performers),
                 *render_credits(ds, credits.lyricist),
@@ -170,7 +195,7 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str]) -> list[Ro
                 track.category if track.category is not None
                 else entry.category if entry.category is not None
                 else (rel.legacy.category or ""),
-                track.note or "",
+                render_note(la, disc, rec, track, owners.get(vid) if vid and not own else None),
                 kana,
             ]
             rows.append(Row(TrackRef(rel.id, la.edition, disc, pos), cells))
@@ -320,12 +345,13 @@ def build_legacy(ds: Dataset) -> dict[str, bytes]:
     assert ds.layout is not None and ds.meta is not None
     out: dict[str, bytes] = {}
     mains = main_videos(ds)
+    owners = video_owners(ds)
     integrated: list[Row] = []
     seen: set[TrackRef] = set()
     for group in ds.layout.integrated_order:
         if group not in ds.layout.albums:
             continue
-        rows = render_album_rows(ds, group, mains)
+        rows = render_album_rows(ds, group, mains, owners)
         cells = [r.cells for r in rows]
         out[f"albums/{group}/{group}.csv"] = write_csv(ALBUM_HEADER, cells, ds.layout.albums[group].bom)
         out[f"albums/{group}/{group}.json"] = dump_json(albums_json(cells))

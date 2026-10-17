@@ -950,6 +950,7 @@ wikitext 예:
 | E11 | 서로 다른 Track의 **자기 URL**이 같은 YouTube videoId임 (`streaming.editions`로 공유를 명시한 경우 제외. 메인 URL 대체로 출력된 값은 비교 대상이 아님) |
 | E12 | 인물·캐릭터의 `family_name`·`given_name`을 합친 것이 전체 이름과 다름(언어별, 어순 무관, `・` 무시), 또는 ja·kana의 띄어쓰기가 5.2·5.5절 규칙과 다름 (결정 D26, D28) |
 | E13 | 이름·제목의 앞뒤에 공백이 있음 (레거시 칸에 그대로 새어 나간다) |
+| E14 | 발매물·트랙의 Note에 빌더가 만드는 부분(`Disc.N`, `Drama Part`, `Link is from`)이 손으로 들어가 있음 (결정 D32) |
 
 **WARN: PR에 표시한다**
 
@@ -1030,6 +1031,8 @@ wikitext 예:
 9. 소속 표기를 정리한다. 이름 안에 남아 있던 소속(`栗原 暁(Jazzin'Park)`, `大熊淳生（Arte Refact）`, `ヒロキ（リリィ、さよなら。）`)을 분리하고, `Arte Refract`(오타)를 `Arte Refact`로 고친다.
 10. 라틴 원어 이름의 ko를 원문으로 둔다(5.4절): `로렌 카오리` → `Lauren Kaori`, `INFX(이노픽스)` → `INFX`.
 11. 레거시에 REMIX 한 행씩만 있던 Aqours 유닛 1st 풀앨범 3장(CYaRon!「ある日…永遠みたいに！」, AZALEA「We'll get the next dream!!!」, Guilty Kiss「Shooting Star Warrior」)을 전체 14트랙으로 채운다. REMIX는 원곡 Work의 Recording(`#remix`)이고, 제목은 공식 트랙리스트 표기(`GENKI ZENKAI DAY!DAY!DAY! REMIX` 등)를 따른다. 기존 곡은 ISRC로 원래 음원과 같은지 확인했다.
+12. Note 열을 부분에서 다시 만든다(M3, 결정 D32). `Disc.N`·`Drama Part`·`Link is from the [...]`는 빌더가 만들고, 발매물 전체에 공통인 설명은 레거시 앨범의 `note`, 트랙 고유 설명은 트랙의 `note`에 둔다. `Link is from the [...]`는 메인 URL로 대체된 모든 행에 붙고(출처는 레거시 앨범 제목), 손으로 적던 표기 차이(`.`/`,`, 대괄호 유무, `We‘ll`)는 통일된다. CHRONICLE(2015~2017)은 실제 4장으로 나누되 레거시는 연속 번호를 유지한다(`flatten_discs`).
+13. YouTube Music 링크를 고친다. 기존 videoId 대부분이 "Video unavailable"이다(2026-10-17 확인). 로그인 세션으로 앨범을 다시 조회해, 이번에 다룬 발매물 6개(2021 유닛 풀앨범 3장, `HAPPY PARTY TRAIN`, `始まりは君の空` 두 에디션, `Feel Alive / Go Our Way！`)의 URL을 현재 videoId로 바꾸고 빠진 것(Off Vocal 포함)을 채웠다.
 
 `songs/*.json`은 지금처럼 수록마다 한 행을 유지한다. 행마다 URL이 다르기 때문이다.
 
@@ -1333,7 +1336,7 @@ TakasakiInfo/
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
 | M1 임포터          | `albums/*/*.csv`를 원천으로 읽어 `source: legacy` Observation으로 변환한다. JSON은 CSV에서 생성된 것이므로 대조용으로만 쓴다. **기존 행 1개는 Track 1개가 되고 URL은 그대로 보존한다**                                                                                                                                                                                   | Observation               |
 | M2 인명 사전       | (ja, rom, ko) 3-튜플 365개를 클러스터링한다. [부록 A](#부록-a-이관-시-1회-결정이-필요한-표기-변형)의 13건은 사람이 한 번 결정한다                                                                                                                                                                                                                                        | `persons/`                |
-| M3 Work/Recording  | 4.2·7.2의 판정표를 적용한다. Note 열의 자유 텍스트(`Kanon Ver.`, `Drama Part`, `Solo Concert Album`, `TVA1 BD Vol.1`, `Disc.1, …`)를 매핑표로 구조화한다                                                                                                                                                                                                                 | `works/`                  |
+| M3 Work/Recording  | 4.2·7.2의 판정표를 적용한다. Note 열의 자유 텍스트(`Kanon Ver.`, `Drama Part`, `Solo Concert Album`, `TVA1 BD Vol.1`, `Disc.1, …`)를 매핑표로 구조화한다 (2026-10-17 완료, 결정 D32)                                                                                                                                                                                                                 | `works/`                  |
 | M4 Release/Edition | `【…盤】` 앨범 그룹을 Release 1개 + Edition N개로 묶는다. 에디션마다 URL이 다르면 `streaming` 항목을 에디션별로 만든다. 그룹 파일 간 중복 발매물(`LIVE with a smile!`, `異次元★♥BIGBANG`)을 합친다(URL까지 같은 진짜 중복이므로 Track도 하나). 다른 발매물의 메인 URL을 복사해 넣은 행은 자기 URL을 비운다(빌더가 메인 URL을 계산하므로 출력은 같아야 하고, M7에서 확인) | `releases/`               |
 | M5 멤버            | `members/*.csv`에 공식 사이트 정보를 더해 라인업·CV 기간을 보강한다 (하스노소라 기수, せつ菜 CV)                                                                                                                                                                                                                                                                         | `characters/`, `artists/` |
 | M6 공연            | 세트리스트 문자열을 매칭 키로 Work ID에 해석한다(`Trick ＆ Cute`, `(Liella! ver.)` 같은 표기 차이를 흡수). `::` 표식은 타입으로 바꾼다. 회장과 도시는 사전으로 추출한다. 곡별 가창자는 Fandom에서 보강하는데, `draft`로 넣고 리뷰한다                                                                                                                                    | `concerts/`, `venues/`    |
@@ -1491,6 +1494,7 @@ TakasakiInfo/
 | D29 | —         | 2026-10-17 | 뮤지컬 출연진처럼 배우가 배역으로 노래하면 가창자는 Person, 배역은 Character 참조(`role`). 앙상블은 Person만. 레거시는 `배우（배역役）` 형식을 유지 | 4.1절 |
 | D30 | —         | 2026-10-17 | 신곡의 한국어 제목은 나무위키 문서의 번역을 기본값으로 쓴다. 나무위키 번역에 오역 소지가 있을 때만 경고한다 | 5.4절, 15절 |
 | D31 | —         | 2026-10-17 | 크레딧 소속은 언어별 이름을 가질 수 있다(`ミト(クラムボン)` → rom·ko `Mito(clammbon)`, `미토(clammbon)`). 라틴 문자 소속은 지금처럼 문자열 하나 | 4.2절, 8절(E6) |
+| D32 | —         | 2026-10-17 | 레거시 Note를 구조화한다(M3). `Disc.N`(여러 장을 한 앨범으로 펼친 경우), `Drama Part`(음원 종류), `Link is from the [...]`(메인 URL 대체 행 전부, 출처는 레거시 앨범 제목)는 빌더가 만들고, 앨범 공통 설명과 트랙 고유 설명만 저장한다. 앨범 공통 설명이 발매물 종류를 가리키면 `type`도 채운다 | 4.2절, 8절(E14), 10.1절 |
 
 ### 16.2 결정 필요 사항
 
@@ -1573,12 +1577,12 @@ TakasakiInfo/
 
 | 대상 | 결과 |
 | --- | --- |
-| `SKY JOURNEY` | 잘못된 URL은 비웠다. 올바른 videoId는 미확인(YouTube Music 앨범 `MPREb_cgBDmXWpCi7`의 2번. 이 환경에서는 재생 불가로 나와 받지 못함). 지금은 CHRONICLE의 메인 URL로 대체 |
+| `SKY JOURNEY` | 로그인 세션으로 YouTube Music 앨범 `MPREb_cgBDmXWpCi7`에서 자기 URL을 채웠다 |
 | `シュガーメルト (Off Vocal)` | 고침 (a7e1d3d) |
 | `わちゅごなどぅー (Off Vocal)` | `NA` (D2) |
 | TVA BD 특전 11곡 | 10곡은 MusicBrainz에서 BD 특전 CD와 메인 URL 쪽 수록이 같은 음원(같은 ISRC)이라 대체 유지. `One More Sunshine Story`는 BD 음원이 솔로 앨범의 `(Album Version)`과 다른 음원이라 `NA` |
 | `Feel Alive / Go Our Way！（R3BIRTH盤）` | YouTube Music에 앨범이 하나뿐이고 두 에디션이 공유 → `streaming.editions: [e1, e2]`로 명시. 출력 URL은 같다 |
-| `始まりは君の空 [私を叶える物語盤]` 1·2번 | 에디션별 앨범이 따로 있다(`MPREb_X8vDiEYaCi5`). 자기 videoId는 미확인이라 아직 다른 에디션의 URL로 대체 |
+| `始まりは君の空 [私を叶える物語盤]` 1·2번 | 에디션별 앨범이 따로 있다(`MPREb_X8vDiEYaCi5`). 자기 URL을 채웠다 |
 | 매장 특전 CD 6장 (TVA1·TVA2 BD Full) | 저장돼 있던 URL은 2021 유닛 풀앨범 트랙의 것이었다(같은 ISRC). 앨범 트랙의 자기 URL로 옮기고 특전 CD는 메인 URL로 대체. 출력은 같다 |
 
 ## 부록 B. 참고

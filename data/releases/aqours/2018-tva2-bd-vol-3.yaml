@@ -6,17 +6,17 @@ projects: [aqours]
 release_date: 2018-02-23
 discs:
   - tracks:
-      - {no: 1, recording: aqours/in-this-unstable-world#original, note: 'TVA2 BD Vol.3, Link is from the [Tsushima Yoshiko First Solo Concert Album ～in this unstable world～]'}
-      - {no: 2, recording: aqours/pianoforte-monologue#original, note: 'TVA2 BD Vol.3, Link is from the [Sakurauchi Riko First Solo Concert Album ～Pianoforte Monologue～]'}
-      - {no: 3, recording: aqours/in-this-unstable-world#off-vocal, note: TVA2 BD Vol.3}
-      - {no: 4, recording: aqours/pianoforte-monologue#off-vocal, note: TVA2 BD Vol.3}
+      - {no: 1, recording: aqours/in-this-unstable-world#original}
+      - {no: 2, recording: aqours/pianoforte-monologue#original}
+      - {no: 3, recording: aqours/in-this-unstable-world#off-vocal}
+      - {no: 4, recording: aqours/pianoforte-monologue#off-vocal}
 streaming:
   - tracks:
       1-1: bc0dF6XPeHY
 legacy:
   category: Aqours
   albums:
-    - {title: TVA2 BD Vol.3}
+    - {title: TVA2 BD Vol.3, note: TVA2 BD Vol.3}
 evidence:
   tracks:
     status: legacy

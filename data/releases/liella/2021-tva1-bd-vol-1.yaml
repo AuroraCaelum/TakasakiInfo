@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2021-09-28
 discs:
   - tracks:
-      - {no: 1, recording: liella/kokoro-kirarara#original, note: TVA1 BD Vol.1}
-      - {no: 2, recording: liella/kokoro-kirarara#off-vocal, note: TVA1 BD Vol.1}
+      - {no: 1, recording: liella/kokoro-kirarara#original}
+      - {no: 2, recording: liella/kokoro-kirarara#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Vol.1}
+    - {title: TVA1 BD Vol.1, note: TVA1 BD Vol.1}
 evidence:
   tracks:
     status: legacy

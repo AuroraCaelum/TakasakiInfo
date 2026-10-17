@@ -233,6 +233,16 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for r in w.recordings:
             padded(f"recording:{w.id}#{r.id}", r.title)
 
+    # E14: notes hold only what the builder cannot derive (M3)
+    derived = ("Drama Part", "Link is from", "Disc.")
+    for rel in ds.releases.values():
+        texts = [(f"release:{rel.id} legacy album {la.title!r}", la.note) for la in rel.legacy.albums]
+        texts += [(f"release:{rel.id} track {t.no}", t.note) for d in rel.discs for t in d.tracks]
+        for where, text in texts:
+            hit = next((x for x in derived if text and x in text), None)
+            if hit:
+                add("E14", where, f"note repeats the derived part {hit!r}: {text!r}")
+
     # E11: one owner per YouTube video
     owners: dict[str, list[str]] = defaultdict(list)
     for rel in ds.releases.values():

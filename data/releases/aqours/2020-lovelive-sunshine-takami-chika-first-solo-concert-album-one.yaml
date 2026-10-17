@@ -1,26 +1,27 @@
 id: aqours/2020-lovelive-sunshine-takami-chika-first-solo-concert-album-one
+type: album
 title:
   ja: LoveLive! Sunshine!! Takami Chika First Solo Concert Album ～One More Sunshine Story～
 projects: [aqours]
 release_date: 2020-08-01
 discs:
   - tracks:
-      - {no: 1, recording: aqours/one-more-sunshine-story#album-version, note: Solo Concert Album}
-      - {no: 2, recording: aqours/kimi-no-kokoro-wa-kagayaiteru-kai#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 3, recording: aqours/step-zero-to-one#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 4, recording: aqours/aqours-heroes#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 5, recording: aqours/koi-ni-naritai-aquarium#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 6, recording: aqours/matte-te-ai-no-uta#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 7, recording: aqours/todoka-nai-hoshi-da-to-shi-te-mo#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 8, recording: aqours/happy-party-train#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 9, recording: aqours/sky-journey#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 10, recording: aqours/shojo-ijo-no-koi-ga-shitai#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 11, recording: aqours/mitaiken-horizon#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 12, recording: aqours/deep-resonance#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 13, recording: aqours/dance-with-minotaurus#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 14, recording: aqours/kokoro-magic-a-to-z#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 15, recording: aqours/wake-up-challenger#chika-takami-solo-ver, note: Solo Concert Album}
-      - {no: 16, recording: aqours/never-giving-up#original, note: Solo Concert Album}
+      - {no: 1, recording: aqours/one-more-sunshine-story#album-version}
+      - {no: 2, recording: aqours/kimi-no-kokoro-wa-kagayaiteru-kai#chika-takami-solo-ver}
+      - {no: 3, recording: aqours/step-zero-to-one#chika-takami-solo-ver}
+      - {no: 4, recording: aqours/aqours-heroes#chika-takami-solo-ver}
+      - {no: 5, recording: aqours/koi-ni-naritai-aquarium#chika-takami-solo-ver}
+      - {no: 6, recording: aqours/matte-te-ai-no-uta#chika-takami-solo-ver}
+      - {no: 7, recording: aqours/todoka-nai-hoshi-da-to-shi-te-mo#chika-takami-solo-ver}
+      - {no: 8, recording: aqours/happy-party-train#chika-takami-solo-ver}
+      - {no: 9, recording: aqours/sky-journey#chika-takami-solo-ver}
+      - {no: 10, recording: aqours/shojo-ijo-no-koi-ga-shitai#chika-takami-solo-ver}
+      - {no: 11, recording: aqours/mitaiken-horizon#chika-takami-solo-ver}
+      - {no: 12, recording: aqours/deep-resonance#chika-takami-solo-ver}
+      - {no: 13, recording: aqours/dance-with-minotaurus#chika-takami-solo-ver}
+      - {no: 14, recording: aqours/kokoro-magic-a-to-z#chika-takami-solo-ver}
+      - {no: 15, recording: aqours/wake-up-challenger#chika-takami-solo-ver}
+      - {no: 16, recording: aqours/never-giving-up#original}
 streaming:
   - tracks:
       1-1: jwyBqK_rXYU
@@ -42,8 +43,11 @@ streaming:
 legacy:
   category: Aqours
   albums:
-    - {title: LoveLive! Sunshine!! Takami Chika First Solo Concert Album ～One More Sunshine Story～}
+    - {title: LoveLive! Sunshine!! Takami Chika First Solo Concert Album ～One More Sunshine Story～, note: Solo Concert Album}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'Solo Concert Album'에서 (M3)

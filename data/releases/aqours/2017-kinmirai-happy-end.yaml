@@ -1,15 +1,16 @@
 id: aqours/2017-kinmirai-happy-end
+type: single
 title:
   ja: 近未来ハッピーエンド
 projects: [aqours]
 release_date: 2017-05-10
 discs:
   - tracks:
-      - {no: 1, recording: aqours/kinmirai-happy-end#original, note: CYaRon! 2nd Single}
-      - {no: 2, recording: aqours/kaigandori-de-matteru-yo#original, note: CYaRon! 2nd Single}
-      - {no: 3, recording: aqours/kinmirai-happy-end#off-vocal, note: CYaRon! 2nd Single}
-      - {no: 4, recording: aqours/kaigandori-de-matteru-yo#off-vocal, note: CYaRon! 2nd Single}
-      - {no: 5, recording: aqours/rea-na-numazu-o-meshiagare#main, note: 'Drama Part, CYaRon! 2nd Single'}
+      - {no: 1, recording: aqours/kinmirai-happy-end#original}
+      - {no: 2, recording: aqours/kaigandori-de-matteru-yo#original}
+      - {no: 3, recording: aqours/kinmirai-happy-end#off-vocal}
+      - {no: 4, recording: aqours/kaigandori-de-matteru-yo#off-vocal}
+      - {no: 5, recording: aqours/rea-na-numazu-o-meshiagare#main}
 streaming:
   - tracks:
       1-1: abrfiTxZG9Q
@@ -17,8 +18,11 @@ streaming:
 legacy:
   category: Aqours
   albums:
-    - {title: 近未来ハッピーエンド}
+    - {title: 近未来ハッピーエンド, note: CYaRon! 2nd Single}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'CYaRon! 2nd Single'에서 (M3)

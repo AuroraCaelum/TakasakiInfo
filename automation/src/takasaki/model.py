@@ -237,7 +237,7 @@ class Track(Strict):
     no: int | None = None
     recording: str  # "<work id>#<recording id>"
     title_as_printed: Names | None = None
-    note: str | None = None
+    note: str | None = None  # what is true of this track only (tie-in, act, version label); see LegacyAlbum
     category: str | None = None  # legacy category override
 
 
@@ -255,9 +255,15 @@ class Streaming(Strict):
 
 
 class LegacyAlbum(Strict):
+    """One album in the legacy files. Its Note column is built from parts (M3): ``Disc.N`` when
+    ``flatten_discs``, ``Drama Part`` from the recording kind, ``note`` (the whole album), the
+    track's own note, then ``Link is from the [...]`` when the URL is a main-URL fallback."""
+
     title: str
     edition: str | None = None
     disc: int | None = None
+    note: str | None = None
+    flatten_discs: bool = False  # several discs listed as one album: running track numbers + "Disc.N"
 
 
 class ReleaseLegacy(Strict):

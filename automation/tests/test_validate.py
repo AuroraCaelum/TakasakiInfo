@@ -127,3 +127,23 @@ def test_no_padding_in_names():
     ds = _ds()
     ds.works["p/w"].title.rom = "Kyoku "
     assert "E13" in _rules(ds)
+
+
+def test_note_is_built_from_parts():
+    # M3: Disc.N / Drama Part / Link is from are derived; the album and the track keep only their own text
+    from takasaki.build_legacy import render_note
+
+    la = m.LegacyAlbum(title="CHRONICLE", note=None, flatten_discs=True)
+    drama, vocal = m.Recording(id="main", kind="drama"), m.Recording(id="original")
+    assert render_note(la, 2, vocal, m.Track(recording="w#original", note="（第1話挿入歌）"), None) == "Disc.2, （第1話挿入歌）"
+    single = m.LegacyAlbum(title="S", note="CYaRon! 1st Single")
+    assert render_note(single, 1, drama, m.Track(recording="w#main"), None) == "Drama Part, CYaRon! 1st Single"
+    bd = m.LegacyAlbum(title="BD", note="TVA1 BD Vol.1")
+    assert render_note(bd, 1, vocal, m.Track(recording="w#original"), "CHRONICLE") == "TVA1 BD Vol.1, Link is from the [CHRONICLE]"
+
+
+def test_notes_do_not_repeat_derived_parts():
+    ds = _ds(recordings=[m.Recording(id="original")])
+    ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],
+                                   discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original", note="Drama Part")])])
+    assert "E14" in _rules(ds)

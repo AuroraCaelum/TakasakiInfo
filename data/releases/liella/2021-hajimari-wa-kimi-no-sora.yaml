@@ -19,8 +19,8 @@ discs:
       - {no: 4, recording: liella/hajimari-wa-kimi-no-sora#off-vocal}
       - {no: 5, recording: liella/dancing-heart-la-pa-pa-pa#off-vocal}
       - {no: 6, recording: liella/dreaming-energy#off-vocal}
-      - {no: 7, recording: liella/an-outing-with-everyone-the-plan#main, note: Drama Part}
-      - {no: 8, recording: liella/an-outing-with-everyone-the-gathering#main, note: Drama Part}
+      - {no: 7, recording: liella/an-outing-with-everyone-the-plan#main}
+      - {no: 8, recording: liella/an-outing-with-everyone-the-gathering#main}
   - editions: [e2]
     tracks:
       - {no: 1, recording: liella/hajimari-wa-kimi-no-sora#original}
@@ -29,22 +29,24 @@ discs:
       - {no: 4, recording: liella/hajimari-wa-kimi-no-sora#off-vocal}
       - {no: 5, recording: liella/dancing-heart-la-pa-pa-pa#off-vocal}
       - {no: 6, recording: liella/watashi-no-symphony#off-vocal}
-      - {no: 7, recording: liella/konnichiwa-shibuya-kanon#main, note: Drama Part}
-      - {no: 8, recording: liella/doumo-tang-keke#main, note: Drama Part}
-      - {no: 9, recording: liella/uissu-arashi-chisato#main, note: Drama Part}
-      - {no: 10, recording: liella/omataseshimashita-heanna-sumire#main, note: Drama Part}
-      - {no: 11, recording: liella/hajimemashite-hazuki-ren#main, note: Drama Part}
+      - {no: 7, recording: liella/konnichiwa-shibuya-kanon#main}
+      - {no: 8, recording: liella/doumo-tang-keke#main}
+      - {no: 9, recording: liella/uissu-arashi-chisato#main}
+      - {no: 10, recording: liella/omataseshimashita-heanna-sumire#main}
+      - {no: 11, recording: liella/hajimemashite-hazuki-ren#main}
 streaming:
   - editions: [e1]
     browse_id: MPREb_wWSYQj1ZsYr
     tracks:
-      1-1: bjIRLovzc80
-      1-2: tRwSxoz0JzU
-      1-3: 7u-i_OyaLaY
+      1-1: pg2Qehu5TpU
+      1-2: Wc561liswks
+      1-3: NnkORWKtmyo
   - editions: [e2]
     browse_id: MPREb_X8vDiEYaCi5
     tracks:
-      1-3: 6IdwHfgIzOQ
+      1-1: l13M2LWA2w8
+      1-2: b9bfAJ6zz20
+      1-3: _rZKe_5Xx70
 legacy:
   category: Liella
   albums:
@@ -58,4 +60,4 @@ evidence:
     status: established
     source: https://music.youtube.com/browse/MPREb_X8vDiEYaCi5
     checked: 2026-10-17
-    note: 에디션별 앨범. e2의 1·2번 videoId는 미확인
+    note: 로그인 세션으로 앨범 트랙 순서·제목 대조. 기존 videoId는 재생 불가(Video unavailable)라 교체

@@ -6,15 +6,15 @@ projects: [nijigasaki]
 release_date: 2021-01-27
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/kakushiaji#original, note: TVA1 BD Vol.2}
-      - {no: 2, recording: nijigasaki/kakushiaji#off-vocal, note: TVA1 BD Vol.2}
+      - {no: 1, recording: nijigasaki/kakushiaji#original}
+      - {no: 2, recording: nijigasaki/kakushiaji#off-vocal}
 streaming:
   - tracks:
       1-1: tn5iqBFBJRw
 legacy:
   category: Nijigasaki
   albums:
-    - {title: TVA1 BD Vol.2}
+    - {title: TVA1 BD Vol.2, note: TVA1 BD Vol.2}
 evidence:
   tracks:
     status: legacy
