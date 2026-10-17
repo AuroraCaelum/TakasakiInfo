@@ -113,6 +113,93 @@ def cmd_deploy(args: argparse.Namespace) -> int:
     return 0
 
 
+def _ytm_client(root: Path):  # noqa: ANN202 - ytmusicapi is an optional dependency (uv sync --group sync)
+    from .ytmusic import Client, default_auth
+
+    return Client(default_auth(root / "automation"), root / "automation" / ".cache" / "ytm")
+
+
+def _write_review(path: Path, doc: dict) -> None:
+    import io
+
+    from .store import _to_node, _yaml
+
+    buf = io.StringIO()
+    _yaml().dump(_to_node(doc), buf)
+    path.write_text(buf.getvalue(), encoding="utf-8")
+
+
+def cmd_ytm_match(args: argparse.Namespace) -> int:
+    """Find each release's YouTube Music album and fill its tracks' own video ids (§7.2, L0)."""
+    from .ytmusic import SKIP_TYPES, apply_matches, plan_release, review_doc
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    client = _ytm_client(root)
+    rels = [r for r in ds.releases.values()
+            if (not args.release or r.id in args.release) and (not args.project or args.project in r.projects)
+            and r.type not in SKIP_TYPES]
+    today = dt.date.today().isoformat()
+    applied = added = replaced = absent = 0
+    reviews: list[str] = []
+    for rel in rels:
+        matches, ok = plan_release(client, ds, rel)
+        slug = rel.id.replace("/", "-")
+        if not ok:
+            reviews.append(rel.id)
+            print(f"review  {rel.id}: " + "; ".join(f"{mt.edition or '-'}: {mt.reason}" for mt in matches if not mt.chosen))
+            if args.apply:
+                _write_review(review / f"YTM-{slug}.yaml", review_doc(rel, matches))
+            continue
+        if all(mt.reason == "absent" for mt in matches):
+            absent += 1
+            print(f"absent  {rel.id}: not on YouTube Music, nothing stored")
+            continue
+        if not args.apply:
+            print(f"match   {rel.id}: " + "; ".join(f"{mt.edition or '-'} → {mt.chosen.title}" if mt.chosen else f"{mt.edition}: no own album"
+                                                for mt in matches))
+            continue
+        out = apply_matches(client, rel, matches, today)
+        applied += 1
+        added += out.added
+        replaced += out.replaced
+        print(f"applied {rel.id}: +{out.added} new, {out.replaced} dead replaced" + (f", {len(out.kept_live)} live kept" if out.kept_live else ""))
+        if out.kept_live:
+            _write_review(review / f"YTM-change-{slug}.yaml", review_doc(rel, matches, out.kept_live))
+    if args.apply and applied:
+        assert ds.meta is not None
+        ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_dataset(ds, data)
+    verb = "applied" if args.apply else "would apply"
+    print(f"{len(rels)} releases: {verb} {applied if args.apply else len(rels) - len(reviews) - absent}, review {len(reviews)}, absent {absent}"
+          + (f"; {added} ids added, {replaced} dead ids replaced" if args.apply else ""))
+    return 0
+
+
+def cmd_ytm_links(args: argparse.Namespace) -> int:
+    """W7: check that every stored own video id still plays (needs the logged-in session)."""
+    import collections
+    import json
+
+    root, data, _ = _paths()
+    ds = load_dataset(data)
+    client = _ytm_client(root)
+    seen: dict[str, tuple[str, str]] = {}
+    for rel in ds.releases.values():
+        for s in rel.streaming:
+            for key, vid in s.tracks.items():
+                seen.setdefault(vid, (rel.id, key))
+    report = [{"video_id": vid, "release": r, "key": k, "status": client.status(vid)} for vid, (r, k) in seen.items()]
+    by_project = collections.Counter((r["release"].split("/")[0], r["status"] == "OK") for r in report)
+    for proj in sorted({p for p, _ in by_project}):
+        print(f"{proj:12s} playable {by_project[(proj, True)]:4d} / {by_project[(proj, True)] + by_project[(proj, False)]}")
+    dead = [r for r in report if r["status"] != "OK"]
+    print(f"[W7] {len(dead)} of {len(report)} video ids do not play")
+    if args.json:
+        Path(args.json).write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+    return 0
+
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
     from .report import write_migration_report
@@ -150,6 +237,16 @@ def main(argv: list[str] | None = None) -> int:
     dp.add_argument("--sha", required=True, help="git commit of the release")
     dp.add_argument("--promote", action="store_true", help="copy into data/ + site/, invalidate, smoke test")
     dp.set_defaults(func=cmd_deploy)
+    yt = sub.add_parser("ytm", help="YouTube Music adapter (§7.2); needs `uv sync --group sync` and automation/browser.json")
+    yt_sub = yt.add_subparsers(dest="ytm_cmd", required=True)
+    ym = yt_sub.add_parser("match", help="find release albums and fill own video ids (dry run unless --apply)")
+    ym.add_argument("--release", action="append", help="release id (repeatable)")
+    ym.add_argument("--project")
+    ym.add_argument("--apply", action="store_true", help="write data/ and review items")
+    ym.set_defaults(func=cmd_ytm_match)
+    yl = yt_sub.add_parser("links", help="W7: report stored video ids that no longer play")
+    yl.add_argument("--json", help="write the full report here")
+    yl.set_defaults(func=cmd_ytm_links)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)

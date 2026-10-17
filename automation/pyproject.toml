@@ -11,6 +11,9 @@ dependencies = [
 [dependency-groups]
 dev = ["pytest>=8"]
 deploy = ["boto3>=1.35"]
+sync = [
+    "ytmusicapi>=1.12.3",
+]
 
 [project.scripts]
 takasaki = "takasaki.cli:main"

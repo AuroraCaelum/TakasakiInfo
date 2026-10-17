@@ -27,6 +27,13 @@ uv run takasaki check         # 커밋된 레거시 파일이 빌드 결과와 �
 uv run pytest -q
 ```
 
+YouTube Music 어댑터(`takasaki ytm …`)는 추가 의존성과 로그인 세션이 필요하다. 로그인하지 않으면 Lantis 앨범이 재생 불가로 나와 videoId를 받지 못한다.
+
+```sh
+uv sync --group sync
+uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙여 넣으면 browser.json이 생긴다 (automation/에 두거나 TAKASAKI_YTM_AUTH로 지정, git 제외)
+```
+
 | 명령 | 하는 일 |
 | --- | --- |
 | `takasaki build [--out DIR]` | 레거시 파일 생성. 기본 출력 위치는 저장소 루트 |
@@ -34,6 +41,8 @@ uv run pytest -q
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
+| `takasaki ytm match [--release ID …] [--project P] [--apply]` | YouTube Music 어댑터(§7.2). 발매물·에디션마다 앨범을 찾아 트랙을 순서·제목으로 맞추고 자기 videoId를 채운다. 후보가 하나뿐이고 모든 트랙이 맞을 때만 반영하고, 죽은 값은 교체·살아 있는 값은 유지한다(`ytm-change` 리뷰). 애매하면 `ytm-album` 리뷰 항목을 남긴다. `--apply` 없이는 미리보기 |
+| `takasaki ytm links [--json PATH]` | W7: 저장된 videoId가 지금도 재생되는지 확인 |
 | `takasaki migrate [--force]` | 레거시 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
 | `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
@@ -55,6 +64,7 @@ uv run pytest -q
 | `kind:<종류>` | classify | 아티스트 종류 지정: `group` `unit` `solo` `cross_unit` `collab` `special` |
 | `rule` | latin-ko | 라틴 원어 이름의 ko를 원문으로 (§5.4) |
 | `keep:official` / `keep:established` | latin-ko | 지금 ko를 승인된 예외로 유지. `decision_note:`에 근거를 적는다 |
+| `pick:<n>` / `pick:<edition>=<n>,…` / `none` | ytm-album | 후보 앨범을 고른다. 항목에 트랙 대응이 저장돼 있어 네트워크 없이 반영된다. 고르지 않은 에디션은 자기 URL 없음 |
 | `done` | 전부 | `data/`를 직접 고친 뒤 항목을 닫는다 |
 
 캐릭터의 표기 변형으로 들어온 가창자(예: `渡辺 曜`)는 classify가 아니라 merge 항목에서 캐릭터로 병합한다(`merge:character:aqours/you-watanabe`).
