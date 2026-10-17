@@ -221,7 +221,10 @@ def _queries(ds: Dataset, rel: m.Release, edition: str | None) -> list[str]:
     titles += [" ".join(re.sub(r"[★☆♥♡♪]", " ", t).split()) for t in titles if re.search(r"[★☆♥♡♪]", t)]  # and decoration marks
     if rel.discs and rel.discs[0].tracks:
         titles.append(_row_title(ds, rel.discs[0].tracks[0]))
-    out = [f"{t} {names[0]}" if names else t for t in titles] + titles  # a character name can hide the album
+    # a character name can hide the album, and members' songs are often listed under the group: try both
+    group = next((ds.artists[g].names.ja for g in main_groups(ds, rel.projects) if ds.artists[g].names.ja), None)
+    tags = list(dict.fromkeys(n for n in names[:1] + [group] if n))
+    out = [f"{t} {n}" for t in titles for n in tags] + titles
     return list(dict.fromkeys(out))
 
 

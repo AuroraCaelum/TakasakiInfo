@@ -109,7 +109,7 @@ def test_import_waits_for_names_then_creates_drafts_and_approves(ds, tmp_path):
         "綾咲穂音": {"family_name": {"ja": "綾咲", "rom": "Ayasaki", "ko": "아야사키"}, "given_name": {"ja": "穂音", "rom": "Honon", "ko": "호논"}},
         "高橋ポルカ": {"family_name": {"ja": "高橋", "rom": "Takahashi", "ko": "타카하시"}, "given_name": {"ja": "ポルカ", "rom": "Polka", "ko": "폴카"}},
     })
-    _fill(tmp_path, "IKZ-artists.yaml", {"いきづらい部！": {"names": {"ja": "いきづらい部！", "rom": "Ikizurai-bu!", "ko": "이키즈라이부!"}}})
+    _fill(tmp_path, "IKZ-artists.yaml", {"いきづらい部！": {"names": {"ja": "いきづらい部！", "rom": "Ikizuraibu!", "ko": "이키즈라이부!"}}})
     _fill(tmp_path, "IKZ-titles.yaml", {"ヒミツミチ": {"title": {"ja": "ヒミツミチ", "rom": "Himitsu Michi", "ko": "비밀 길"}}})
     rep = ik.import_site(ds, _site(), tmp_path, today)
     assert not rep.pending and not rep.conflicts

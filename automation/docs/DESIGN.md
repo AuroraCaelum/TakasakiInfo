@@ -304,7 +304,7 @@ credits:
   composer: [{ person: mitsumasu-hajime, affiliation: FirstCall }]
 recordings:
   - id: original
-    performers: [{ artist: ikizurai-bu }]
+    performers: [{ artist: ikizuraibu }]
     arranger: [{ person: mitsumasu-hajime, affiliation: FirstCall }]
   - id: off-vocal
     kind: off_vocal
@@ -328,7 +328,7 @@ type: single # single | album | mini_album | digital_single | bd_bonus | compila
 status: released # announced | released | verified (7.4절)
 title:
   ja: Dou-Da? DOING! / REGAIN AGAIN LLLLOVE
-artist_credit: [{ artist: ikizurai-bu }]
+artist_credit: [{ artist: ikizuraibu }]
 label: Lantis
 release_date: 2026-06-10
 editions:
@@ -432,7 +432,7 @@ legacy:
 - 형식. slug는 rom 표기를 적힌 순서 그대로 소문자·하이픈으로 바꾼 것이다.
   - Person: `aki-hata`
   - Character: `<project>/<slug>` (예: `nijigasaki/ayumu-uehara`)
-  - Artist: `ikizurai-bu`
+  - Artist: `ikizuraibu`
   - Work: `<project>/<slug>`
   - Recording: `<work-id>#<variant>` (variant 예: `original`, `off-vocal`, `kanon-ver`, `chika-takami-solo-ver`)
   - Release: `<project>/<yyyy>-<slug>`. 제목이 일본어뿐이면 대표곡의 rom, 그것도 없으면 발매 월일(`2021-0602`)
@@ -488,7 +488,7 @@ status: performed # announced | performed | settled | confirmed (7.7절)
 title:
   ja: いきづらい部！ 1st LIVE ～ What is my L ? ～
 legacy: { event_code: Ikizu_1st }
-cast: [{ artist: ikizurai-bu }] # 공연일 기준 라인업으로 전개
+cast: [{ artist: ikizuraibu }] # 공연일 기준 라인업으로 전개
 stops:
   - id: chiba
     venue: makuhari-event-hall

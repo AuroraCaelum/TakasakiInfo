@@ -154,7 +154,7 @@ def cmd_ytm_match(args: argparse.Namespace) -> int:
     client = _ytm_client(root)
     rels = [r for r in ds.releases.values()
             if (not args.release or r.id in args.release) and (not args.project or args.project in r.projects)
-            and r.type not in SKIP_TYPES]
+            and r.type not in SKIP_TYPES and r.status != "announced"]  # not out yet: nothing to find
     today = dt.date.today().isoformat()
     applied = added = replaced = absent = 0
     reviews: list[str] = []
