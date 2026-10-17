@@ -44,6 +44,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
 | `takasaki ytm match [--release ID …] [--project P] [--apply]` | YouTube Music 어댑터(§7.2). 발매물·에디션마다 앨범을 찾아 트랙을 순서·제목으로 맞추고 자기 videoId를 채운다. 후보가 하나뿐이고 모든 트랙이 맞을 때만 반영하고, 죽은 값은 교체·살아 있는 값은 유지한다(`ytm-change` 리뷰). 애매하면 `ytm-album` 리뷰 항목을 남긴다. `--apply` 없이는 미리보기 |
 | `takasaki ytm links [--json PATH]` | W7: 저장된 videoId가 지금도 재생되는지 확인 |
+| `takasaki official ikizulive [--apply] [--fresh] [--offline]` | 공식 사이트 어댑터(§7.2 ③). 음악 목록·상세·멤버 페이지를 읽어 캐릭터·성우·그룹·유닛·곡·발매물을 넣거나 고친다. 사전에 없는 이름은 `new-names` 리뷰 파일(`review/IKZ-*.yaml`)에 먼저 올라가고, 읽기를 채운 뒤 다시 돌리면 `draft`로 들어간다. 페이지는 3초 간격으로 받아 `.cache/official/`에 7일 보관한다(`/common/`은 받지 않음, 원문은 커밋하지 않음). `--apply` 없이는 미리보기 |
 | `takasaki migrate [--force]` | 레거시 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
 | `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
@@ -53,6 +54,12 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 2. 손으로 고쳤다면 `takasaki stamp`.
 3. `takasaki build` → `takasaki validate` → `takasaki check`.
 4. `data/`와 생성물을 같은 커밋에 넣는다.
+
+공식 사이트에서 새 발매물을 가져올 때:
+
+1. `takasaki official ikizulive --apply`. 새 이름이 있으면 `review/IKZ-*.yaml`에 빈 칸으로 올라간다.
+2. 빈 칸(성·이름, rom, ko)을 채우고 다시 `--apply`. 엔티티가 `draft`로 생기고 발매물이 들어간다. 이 상태에서는 E3가 레거시 출력을 막는다.
+3. 값을 확인하고 `decision: approve` → `takasaki review apply` → `takasaki ytm match --project ikizulive --apply` → 위 3~4단계.
 
 ## 리뷰 항목
 
@@ -66,6 +73,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | `rule` | latin-ko | 라틴 원어 이름의 ko를 원문으로 (§5.4) |
 | `keep:official` / `keep:established` | latin-ko | 지금 ko를 승인된 예외로 유지. `decision_note:`에 근거를 적는다 |
 | `pick:<n>` / `pick:<edition>=<n>,…` / `none` | ytm-album | 후보 앨범을 고른다. 항목에 트랙 대응이 저장돼 있어 네트워크 없이 반영된다. 고르지 않은 에디션은 자기 URL 없음 |
+| `approve` | new-names | 파일의 모든 항목 값을 (파일에서 고친 대로) 엔티티에 다시 쓰고, `draft`를 항목의 `status`로 바꾼다. id는 처음 만들 때 정해져 바뀌지 않는다 |
 | `done` | 전부 | `data/`를 직접 고친 뒤 항목을 닫는다 |
 
 캐릭터의 표기 변형으로 들어온 가창자(예: `渡辺 曜`)는 classify가 아니라 merge 항목에서 캐릭터로 병합한다(`merge:character:aqours/you-watanabe`).
@@ -80,7 +88,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집으로 발매물 113개의 videoId를 현재 값으로 채웠고, 저장된 709개가 모두 재생된다. 4개는 원래 스트리밍에 없다(드라마 CD)
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
-  - 남은 것: 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
+  - 이키즈라이브 공식 사이트 어댑터(`takasaki official ikizulive`) 완료. 발매물 28개(AiScReam 「NEXT CARD」는 Phase 3), 곡 37개, 캐릭터·성우 각 10명, 그룹·유닛 8개, 새 스태프 34명. 이름은 `review/IKZ-*.yaml` 승인 대기라 데이터는 아직 커밋하지 않았다
+  - 남은 것: 이키즈라이브 이름 승인 → YouTube Music 링크, README 생성
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다

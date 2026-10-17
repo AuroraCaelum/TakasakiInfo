@@ -232,6 +232,33 @@ def cmd_ytm_links(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_official(args: argparse.Namespace) -> int:
+    """Read the project's official site and upsert what it lists (§7.2 ③). New names go to review first."""
+    from .ikizulive import collect, import_site
+    from .official import Fetcher
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    cache = root / "automation" / ".cache" / "official"
+    fetcher = Fetcher(cache, root / "automation" / "inbox" / args.project, offline=args.offline)
+    site = collect(fetcher, fresh=args.fresh)
+    print(f"read {len(site.releases)} releases and {len(site.members)} members from the official site")
+    report = import_site(ds, site, review if args.apply else root / "automation" / ".cache" / "review-dry-run", dt.date.today())
+    for label, rows in (("created", report.created), ("updated", report.updated), ("pending", report.pending),
+                        ("conflict", report.conflicts), ("skipped", report.skipped)):
+        for row in rows:
+            print(f"{label:8} {row}")
+    if report.pending:
+        print(f"{len(report.pending)} names need readings: fill automation/review/IKZ-*.yaml and run again")
+    if args.apply and (report.created or report.updated):
+        assert ds.meta is not None
+        ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_dataset(ds, data)
+    elif not args.apply:
+        print("dry run: nothing written (--apply writes data/ and the review files)")
+    return 1 if report.conflicts else 0
+
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
     from .report import write_migration_report
@@ -282,6 +309,12 @@ def main(argv: list[str] | None = None) -> int:
     yl = yt_sub.add_parser("links", help="W7: report stored video ids that no longer play")
     yl.add_argument("--json", help="write the full report here")
     yl.set_defaults(func=cmd_ytm_links)
+    of = sub.add_parser("official", help="official-site adapter (§7.2 ③): read releases and members, upsert them")
+    of.add_argument("project", choices=["ikizulive"])
+    of.add_argument("--apply", action="store_true", help="write data/ and the new-names review files")
+    of.add_argument("--fresh", action="store_true", help="download pages again even when cached")
+    of.add_argument("--offline", action="store_true", help="use cached pages only")
+    of.set_defaults(func=cmd_official)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)
