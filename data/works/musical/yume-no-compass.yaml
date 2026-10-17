@@ -32,6 +32,43 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: bunkasai-ver
+    title:
+      ja: ゆめの羅針盤（コンパス）（文化祭 Ver.）
+      kana: ゆめのコンパス　ぶんかさい Ver.
+      rom: Yume no Compass (Bunkasai Ver.)
+      ko: 꿈의 나침반 (문화제 Ver.)
+    version: 文化祭 Ver.
+    performers:
+      - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+      - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+      - {person: an-juria, role: musical/yukino-hojo}
+      - {person: rina-koyama, role: musical/hikaru-amakusa}
+      - {person: minami-sato, role: musical/maya-mikasa}
+      - {person: yuuna-sekine, role: musical/anzu-takizawa}
+      - {person: mizuki-saiba, role: musical/misuzu-wakatsuki}
+      - {person: sana-hoshimori, role: musical/toa-kurusu}
+      - {person: ibuki-mita, role: musical/rena-suzuka}
+      - {person: ruri-aoyama, role: musical/sayaka-harukaze}
+      - {person: mayuko-ohara}
+      - {person: kaede-kaneko}
+      - {person: mayuri-suzuki}
+      - {person: kanon-nakazaki}
+      - {person: kurumi-fuzimoto}
+      - {person: tomoe-furusawa}
+      - {person: mei-morimoto}
+      - {person: nanoka-watanabe}
+    arranger:
+      - {person: ryota-kojima}
+    evidence:
+      credits:
+        status: legacy
+        source: migration:legacy
+      title.ja:
+        status: established
+        source: https://music.youtube.com/browse/MPREb_o8ZFCtHGvgY
+        checked: 2026-10-17
+        note: 원곡 제목 ゆめの羅針盤（コンパス）의 文化祭 Ver. YouTube Music 트랙 제목과 같다
 evidence:
   credits:
     status: legacy

@@ -76,8 +76,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - Phase 3으로 넘긴 것: 공연 곡별 가창자(M6의 Fandom 보강)
   - 로그인 세션: `automation/browser.json`(ytmusicapi 브라우저 인증, git에서 제외)
 - **Phase 2 (파일럿)**: 진행 중 (브랜치 `migration/db-catchup`)
-  - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집 결과, 발매물 119개 중 112개를 반영해 videoId 590개를 현재 값으로 채웠다(죽은 값 508개 교체, 새로 82개). 4개는 원래 스트리밍에 없다(드라마 CD)
-  - 남은 것: YouTube Music 리뷰 3건, E3(`draft` 차단), v1 JSON·JSON Schema·SQLite 빌드와 품질 지표, 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
+  - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집으로 발매물 113개의 videoId를 현재 값으로 채웠고, 저장된 709개가 모두 재생된다. 4개는 원래 스트리밍에 없다(드라마 CD)
+  - 남은 것: E3(`draft` 차단), v1 JSON·JSON Schema·SQLite 빌드와 품질 지표, 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다
