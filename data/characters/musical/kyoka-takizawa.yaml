@@ -1,0 +1,23 @@
+id: musical/kyoka-takizawa
+project: musical
+names:
+  ja: 滝沢キョウカ
+  rom: Kyoka Takizawa
+  ko: 타키자와 쿄카
+family_name:
+  ja: 滝沢
+  rom: Takizawa
+  ko: 타키자와
+given_name:
+  ja: キョウカ
+  rom: Kyoka
+  ko: 쿄카
+casting:
+  - {person: sayaka-okamura}
+evidence:
+  names:
+    status: legacy
+    source: migration:legacy
+  name_parts:
+    status: derived
+    note: 성·이름 분리 (D26)

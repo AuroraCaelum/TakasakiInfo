@@ -18,10 +18,17 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    external_ids:
+      isrc: JPI101601880
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/release/0b7c077f-a5ed-421e-9810-8cf30c62b985
+        checked: 2026-10-17
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
   - id: off-vocal
     kind: off_vocal
     title:

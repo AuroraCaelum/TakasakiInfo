@@ -1,9 +1,20 @@
 id: nanaka-suwa
 names:
-  ja: 諏訪 ななか
+  ja: 諏訪ななか
   rom: Nanaka Suwa
   ko: 스와 나나카
+family_name:
+  ja: 諏訪
+  rom: Suwa
+  ko: 스와
+given_name:
+  ja: ななか
+  rom: Nanaka
+  ko: 나나카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

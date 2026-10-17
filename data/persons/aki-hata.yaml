@@ -3,7 +3,18 @@ names:
   ja: 畑 亜貴
   rom: Aki Hata
   ko: 하타 아키
+family_name:
+  ja: 畑
+  rom: Hata
+  ko: 하타
+given_name:
+  ja: 亜貴
+  rom: Aki
+  ko: 아키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

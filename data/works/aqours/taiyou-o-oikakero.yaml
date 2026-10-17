@@ -16,10 +16,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akito-matsuda}
+    external_ids:
+      isrc: JPI101700238
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/release/c074a6f1-5426-4431-9b89-fe0bc2b15afa
+        checked: 2026-10-17
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
   - id: off-vocal
     kind: off_vocal
     title:

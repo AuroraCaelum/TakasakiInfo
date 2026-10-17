@@ -3,7 +3,18 @@ names:
   ja: 鈴木 愛奈
   rom: Aina Suzuki
   ko: 스즈키 아이나
+family_name:
+  ja: 鈴木
+  rom: Suzuki
+  ko: 스즈키
+given_name:
+  ja: 愛奈
+  rom: Aina
+  ko: 아이나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -3,7 +3,18 @@ names:
   ja: 鈴木エレカ
   rom: Ereca Suzuki
   ko: 스즈키 에레카
+family_name:
+  ja: 鈴木
+  rom: Suzuki
+  ko: 스즈키
+given_name:
+  ja: エレカ
+  rom: Ereca
+  ko: 에레카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

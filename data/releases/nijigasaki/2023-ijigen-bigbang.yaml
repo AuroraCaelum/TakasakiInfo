@@ -5,8 +5,8 @@ projects: [nijigasaki]
 release_date: 2023-12-06
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/ijigen-bigbang#original, note: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen}
-      - {no: 2, recording: nijigasaki/ijigen-bigbang#off-vocal, note: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen}
+      - {no: 1, recording: nijigasaki/ijigen-bigbang#original}
+      - {no: 2, recording: nijigasaki/ijigen-bigbang#off-vocal}
 streaming:
   - tracks:
       1-1: 3x8NErsTewM
@@ -14,7 +14,7 @@ streaming:
 legacy:
   category: Others
   albums:
-    - {title: 異次元★♥BIGBANG}
+    - {title: 異次元★♥BIGBANG, note: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen}
 evidence:
   tracks:
     status: legacy

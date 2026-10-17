@@ -4,9 +4,20 @@ names:
   ja: 三笠マーヤ
   rom: Maya Mikasa
   ko: 미카사 마야
+family_name:
+  ja: 三笠
+  rom: Mikasa
+  ko: 미카사
+given_name:
+  ja: マーヤ
+  rom: Maya
+  ko: 마야
 casting:
   - {person: minami-sato}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

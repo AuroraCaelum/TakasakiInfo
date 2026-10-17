@@ -4,9 +4,20 @@ names:
   ja: 中須かすみ
   rom: Kasumi Nakasu
   ko: 나카스 카스미
+family_name:
+  ja: 中須
+  rom: Nakasu
+  ko: 나카스
+given_name:
+  ja: かすみ
+  rom: Kasumi
+  ko: 카스미
 casting:
   - {person: mayu-sagara}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

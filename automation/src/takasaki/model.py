@@ -76,8 +76,13 @@ class Alias(Strict):
 
 
 class Person(Strict):
+    """Japanese names keep the family/given split; ``names.ja`` and ``names.kana`` are written
+    from it by the spacing rule (D28)."""
+
     id: str
     names: Names
+    family_name: Names | None = None
+    given_name: Names | None = None
     native_script: Literal["ja", "latin"] = "ja"
     aliases: list[Alias] = []
     distinct_from: list[str] = []
@@ -91,9 +96,14 @@ class Casting(Strict):
 
 
 class Character(Strict):
+    """The family/given split lives in ``family_name`` / ``given_name`` (D26); ``names.ja`` is
+    written from it by the spacing rule (D28)."""
+
     id: str
     project: str
     names: Names
+    family_name: Names | None = None
+    given_name: Names | None = None
     casting: list[Casting] = []
     distinct_from: list[str] = []
     evidence: dict[str, Evidence] = {}
@@ -126,27 +136,55 @@ class Artist(Strict):
 
 
 class Credit(Strict):
-    """One credited person. ``role`` holds the character a cast member is credited as
-    (e.g. musical cast credited as lyricists: ``堀内まり菜（椿 ルリカ役）``)."""
+    """One credited person, or a character credited in-story (高咲侑 on Hurray Hurray, D27).
+    ``role`` holds the character a cast member is credited as (e.g. musical cast credited as
+    lyricists: ``堀内まり菜（椿 ルリカ役）``)."""
 
-    person: str
-    affiliation: str | None = None
+    person: str | None = None
+    character: str | None = None
+    affiliation: str | Names | None = None  # Names when the spelling differs by language (D31)
     role: Names | None = None
 
-
-class Performer(Strict):
-    artist: str | None = None
-    character: str | None = None
+    def affiliation_in(self, lang: str) -> str | None:
+        if isinstance(self.affiliation, Names):
+            return getattr(self.affiliation, lang)
+        return self.affiliation
 
     @model_validator(mode="after")
-    def _exactly_one(self) -> Performer:
-        if (self.artist is None) == (self.character is None):
-            raise ValueError("performer needs exactly one of artist / character")
+    def _exactly_one(self) -> Credit:
+        if (self.person is None) == (self.character is None):
+            raise ValueError("credit needs exactly one of person / character")
         return self
 
     @property
     def ref(self) -> tuple[str, str]:
-        return ("artist", self.artist) if self.artist else ("character", self.character)  # type: ignore[return-value]
+        return ("person", self.person) if self.person else ("character", self.character)  # type: ignore[return-value]
+
+
+class Performer(Strict):
+    """An artist, a character, or a person. A person singing in a role (musical cast,
+    ``堀内まり菜（椿ルリカ役）``) names the character in ``role`` (D29)."""
+
+    artist: str | None = None
+    character: str | None = None
+    person: str | None = None
+    role: str | None = None  # character id, only with ``person``
+
+    @model_validator(mode="after")
+    def _exactly_one(self) -> Performer:
+        if sum(x is not None for x in (self.artist, self.character, self.person)) != 1:
+            raise ValueError("performer needs exactly one of artist / character / person")
+        if self.role is not None and self.person is None:
+            raise ValueError("role is only for a person")
+        return self
+
+    @property
+    def ref(self) -> tuple[str, str]:
+        if self.artist:
+            return ("artist", self.artist)
+        if self.character:
+            return ("character", self.character)
+        return ("person", self.person)  # type: ignore[return-value]
 
 
 class WorkCredits(Strict):
@@ -199,7 +237,7 @@ class Track(Strict):
     no: int | None = None
     recording: str  # "<work id>#<recording id>"
     title_as_printed: Names | None = None
-    note: str | None = None
+    note: str | None = None  # what is true of this track only (tie-in, act, version label); see LegacyAlbum
     category: str | None = None  # legacy category override
 
 
@@ -217,9 +255,15 @@ class Streaming(Strict):
 
 
 class LegacyAlbum(Strict):
+    """One album in the legacy files. Its Note column is built from parts (M3): ``Disc.N`` when
+    ``flatten_discs``, ``Drama Part`` from the recording kind, ``note`` (the whole album), the
+    track's own note, then ``Link is from the [...]`` when the URL is a main-URL fallback."""
+
     title: str
     edition: str | None = None
     disc: int | None = None
+    note: str | None = None
+    flatten_discs: bool = False  # several discs listed as one album: running track numbers + "Disc.N"
 
 
 class ReleaseLegacy(Strict):

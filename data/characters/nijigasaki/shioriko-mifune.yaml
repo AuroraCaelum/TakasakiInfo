@@ -1,12 +1,23 @@
 id: nijigasaki/shioriko-mifune
 project: nijigasaki
 names:
-  ja: 三船栞子
+  ja: 三船 栞子
   rom: Shioriko Mifune
   ko: 미후네 시오리코
+family_name:
+  ja: 三船
+  rom: Mifune
+  ko: 미후네
+given_name:
+  ja: 栞子
+  rom: Shioriko
+  ko: 시오리코
 casting:
   - {person: moeka-koizumi}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

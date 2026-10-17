@@ -1,9 +1,20 @@
 id: ai-furihata
 names:
-  ja: 降幡愛
+  ja: 降幡 愛
   rom: Ai Furihata
   ko: 후리하타 아이
+family_name:
+  ja: 降幡
+  rom: Furihata
+  ko: 후리하타
+given_name:
+  ja: 愛
+  rom: Ai
+  ko: 아이
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

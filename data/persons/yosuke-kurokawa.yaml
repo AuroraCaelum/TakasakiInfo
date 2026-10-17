@@ -1,9 +1,20 @@
 id: yosuke-kurokawa
 names:
-  ja: 黒川陽介
+  ja: 黒川 陽介
   rom: Yosuke Kurokawa
   ko: 쿠로카와 요스케
+family_name:
+  ja: 黒川
+  rom: Kurokawa
+  ko: 쿠로카와
+given_name:
+  ja: 陽介
+  rom: Yosuke
+  ko: 요스케
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

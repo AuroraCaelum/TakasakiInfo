@@ -6,12 +6,12 @@ projects: [nijigasaki]
 release_date: 2022-09-28
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/look-at-me-now#original, note: TVA2 BD Vol.4}
-      - {no: 2, recording: nijigasaki/look-at-me-now#off-vocal, note: TVA2 BD Vol.4}
+      - {no: 1, recording: nijigasaki/look-at-me-now#original}
+      - {no: 2, recording: nijigasaki/look-at-me-now#off-vocal}
 legacy:
   category: Nijigasaki
   albums:
-    - {title: TVA2 BD Vol.4}
+    - {title: TVA2 BD Vol.4, note: TVA2 BD Vol.4}
 evidence:
   tracks:
     status: legacy

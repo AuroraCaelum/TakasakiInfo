@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-02-25
 discs:
   - tracks:
-      - {no: 1, recording: liella/sagashite-future#original, note: TVA1 BD Full (A-on STORE)}
-      - {no: 2, recording: liella/sagashite-future#off-vocal, note: TVA1 BD Full (A-on STORE)}
+      - {no: 1, recording: liella/sagashite-future#original}
+      - {no: 2, recording: liella/sagashite-future#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Full (A-on STORE)}
+    - {title: TVA1 BD Full (A-on STORE), note: TVA1 BD Full (A-on STORE)}
 evidence:
   tracks:
     status: legacy

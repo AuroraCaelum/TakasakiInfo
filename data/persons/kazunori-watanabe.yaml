@@ -1,9 +1,20 @@
 id: kazunori-watanabe
 names:
-  ja: 渡辺和紀
+  ja: 渡辺 和紀
   rom: Kazunori Watanabe
   ko: 와타나베 카즈노리
+family_name:
+  ja: 渡辺
+  rom: Watanabe
+  ko: 와타나베
+given_name:
+  ja: 和紀
+  rom: Kazunori
+  ko: 카즈노리
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

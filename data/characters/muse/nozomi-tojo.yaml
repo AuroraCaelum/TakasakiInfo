@@ -1,12 +1,23 @@
 id: muse/nozomi-tojo
 project: muse
 names:
-  ja: 東條希
+  ja: 東條 希
   rom: Nozomi Tojo
   ko: 토죠 노조미
+family_name:
+  ja: 東條
+  rom: Tojo
+  ko: 토죠
+given_name:
+  ja: 希
+  rom: Nozomi
+  ko: 노조미
 casting:
   - {person: aina-kusuda}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

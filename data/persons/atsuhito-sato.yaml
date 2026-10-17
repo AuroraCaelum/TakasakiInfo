@@ -1,9 +1,20 @@
 id: atsuhito-sato
 names:
-  ja: 佐藤厚仁
+  ja: 佐藤 厚仁
   rom: Atsuhito Sato
   ko: 사토 아츠히토
+family_name:
+  ja: 佐藤
+  rom: Sato
+  ko: 사토
+given_name:
+  ja: 厚仁
+  rom: Atsuhito
+  ko: 아츠히토
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

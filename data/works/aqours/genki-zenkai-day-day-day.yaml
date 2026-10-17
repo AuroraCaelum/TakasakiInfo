@@ -16,6 +16,8 @@ recordings:
       - {artist: cyaron}
     arranger:
       - {person: kyo-takada}
+    external_ids:
+      isrc: JPI101600836
     evidence:
       credits:
         status: legacy
@@ -37,6 +39,24 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: remix
+    title:
+      ja: GENKI ZENKAI DAY!DAY!DAY! REMIX
+      rom: GENKI ZENKAI DAY!DAY!DAY! REMIX
+      ko: GENKI ZENKAI DAY!DAY!DAY! REMIX
+    version: REMIX
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: dj-kira}
+    external_ids:
+      isrc: JPI102101060
+    evidence:
+      credits:
+        status: established
+        source: https://musicbrainz.org/release/3251d98e-3dd8-44c2-a693-341fe7675990
+        checked: 2026-10-17
+        note: 리믹서
 evidence:
   credits:
     status: legacy

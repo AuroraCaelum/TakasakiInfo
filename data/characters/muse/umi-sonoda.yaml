@@ -1,12 +1,23 @@
 id: muse/umi-sonoda
 project: muse
 names:
-  ja: 園田海未
+  ja: 園田 海未
   rom: Umi Sonoda
   ko: 소노다 우미
+family_name:
+  ja: 園田
+  rom: Sonoda
+  ko: 소노다
+given_name:
+  ja: 海未
+  rom: Umi
+  ko: 우미
 casting:
   - {person: suzuko-mimori}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

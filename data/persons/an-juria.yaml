@@ -1,9 +1,23 @@
 id: an-juria
 names:
   ja: 杏ジュリア
-  rom: An Juria
+  rom: Juria An
   ko: 안 쥬리아
+family_name:
+  ja: 杏
+  rom: An
+  ko: 안
+given_name:
+  ja: ジュリア
+  rom: Juria
+  ko: 쥬리아
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.rom:
+    status: derived
+    note: 저장소 순서(이름-성)로 정렬 (D4)

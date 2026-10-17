@@ -1,9 +1,20 @@
 id: yoshiaki-dewa
 names:
-  ja: 出羽良彰
+  ja: 出羽 良彰
   rom: Yoshiaki Dewa
   ko: 데와 요시아키
+family_name:
+  ja: 出羽
+  rom: Dewa
+  ko: 데와
+given_name:
+  ja: 良彰
+  rom: Yoshiaki
+  ko: 요시아키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

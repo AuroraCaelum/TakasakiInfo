@@ -1,0 +1,27 @@
+id: akimitsu-honma
+names:
+  ja: 本間 昭光
+  rom: Akimitsu Honma
+  ko: 혼마 아키미츠
+family_name:
+  ja: 本間
+  rom: Honma
+  ko: 혼마
+given_name:
+  ja: 昭光
+  rom: Akimitsu
+  ko: 아키미츠
+evidence:
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/song/302865/
+    checked: 2026-10-17
+  names.rom:
+    status: derived
+    note: §5.3 규칙
+  names.ko:
+    status: derived
+    note: §5.4 규칙
+  name_parts:
+    status: derived
+    note: 성·이름 분리 (D28)

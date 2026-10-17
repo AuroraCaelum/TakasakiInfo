@@ -4,9 +4,20 @@ names:
   ja: 矢澤にこ
   rom: Nico Yazawa
   ko: 야자와 니코
+family_name:
+  ja: 矢澤
+  rom: Yazawa
+  ko: 야자와
+given_name:
+  ja: にこ
+  rom: Nico
+  ko: 니코
 casting:
   - {person: sora-tokui}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -1,9 +1,26 @@
 id: kushita-mine
 names:
-  ja: 久下真音
-  rom: Kushita Mine
-  ko: 쿠시타 마인
+  ja: 久下 真音
+  rom: Mine Kushita
+  ko: 쿠시타 미네
+family_name:
+  ja: 久下
+  rom: Kushita
+  ko: 쿠시타
+given_name:
+  ja: 真音
+  rom: Mine
+  ko: 미네
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.rom:
+    status: established
+    note: 읽기 くした みね를 사람이 확인 (2026-10-17). 순서는 이름-성 (D4)
+  names.ko:
+    status: established
+    note: 읽기 くした みね를 사람이 확인 (2026-10-17)

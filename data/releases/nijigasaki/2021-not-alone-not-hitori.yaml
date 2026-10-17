@@ -1,4 +1,5 @@
 id: nijigasaki/2021-not-alone-not-hitori
+type: single
 title:
   ja: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!
 projects: [nijigasaki]
@@ -9,12 +10,12 @@ editions:
       ja: 虹ヶ咲学園スクールアイドル同好会盤
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/not-alone-not-hitori#original, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
-      - {no: 2, recording: nijigasaki/miracle-stay-tune#original, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
-      - {no: 3, recording: nijigasaki/shooting-voice#original, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
-      - {no: 4, recording: nijigasaki/not-alone-not-hitori#off-vocal, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
-      - {no: 5, recording: nijigasaki/miracle-stay-tune#off-vocal, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
-      - {no: 6, recording: nijigasaki/shooting-voice#off-vocal, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
+      - {no: 1, recording: nijigasaki/not-alone-not-hitori#original}
+      - {no: 2, recording: nijigasaki/miracle-stay-tune#original}
+      - {no: 3, recording: nijigasaki/shooting-voice#original}
+      - {no: 4, recording: nijigasaki/not-alone-not-hitori#off-vocal}
+      - {no: 5, recording: nijigasaki/miracle-stay-tune#off-vocal}
+      - {no: 6, recording: nijigasaki/shooting-voice#off-vocal}
 streaming:
   - editions: [e1]
     tracks:
@@ -27,8 +28,11 @@ streaming:
 legacy:
   category: Nijigasaki
   albums:
-    - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【虹ヶ咲学園スクールアイドル同好会盤】, edition: e1}
+    - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【虹ヶ咲学園スクールアイドル同好会盤】, edition: e1, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note '「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル'에서 (M3)

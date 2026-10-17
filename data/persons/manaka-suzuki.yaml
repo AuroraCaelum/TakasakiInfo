@@ -3,7 +3,18 @@ names:
   ja: 鈴木まなか
   rom: Manaka Suzuki
   ko: 스즈키 마나카
+family_name:
+  ja: 鈴木
+  rom: Suzuki
+  ko: 스즈키
+given_name:
+  ja: まなか
+  rom: Manaka
+  ko: 마나카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

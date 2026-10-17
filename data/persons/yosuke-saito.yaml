@@ -1,9 +1,20 @@
 id: yosuke-saito
 names:
-  ja: 齊藤庸介
+  ja: 齊藤 庸介
   rom: Yosuke Saito
   ko: 사이토 요스케
+family_name:
+  ja: 齊藤
+  rom: Saito
+  ko: 사이토
+given_name:
+  ja: 庸介
+  rom: Yosuke
+  ko: 요스케
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

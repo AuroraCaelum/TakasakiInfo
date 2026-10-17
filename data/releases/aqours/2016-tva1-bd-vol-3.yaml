@@ -6,12 +6,12 @@ projects: [aqours]
 release_date: 2016-11-25
 discs:
   - tracks:
-      - {no: 1, recording: aqours/waku-waku-week#original, note: 'TVA1 BD Vol.3, Link is from the [Aqours CHRONICLE (2015~2017)]'}
-      - {no: 2, recording: aqours/waku-waku-week#off-vocal, note: TVA1 BD Vol.3}
+      - {no: 1, recording: aqours/waku-waku-week#original}
+      - {no: 2, recording: aqours/waku-waku-week#off-vocal}
 legacy:
   category: Aqours
   albums:
-    - {title: TVA1 BD Vol.3}
+    - {title: TVA1 BD Vol.3, note: TVA1 BD Vol.3}
 evidence:
   tracks:
     status: legacy

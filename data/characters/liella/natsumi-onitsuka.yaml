@@ -1,12 +1,23 @@
 id: liella/natsumi-onitsuka
 project: liella
 names:
-  ja: 鬼塚夏美
+  ja: 鬼塚 夏美
   rom: Natsumi Onitsuka
   ko: 오니츠카 나츠미
+family_name:
+  ja: 鬼塚
+  rom: Onitsuka
+  ko: 오니츠카
+given_name:
+  ja: 夏美
+  rom: Natsumi
+  ko: 나츠미
 casting:
   - {person: aya-emori}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

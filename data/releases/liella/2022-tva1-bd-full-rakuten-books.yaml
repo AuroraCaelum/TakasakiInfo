@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-02-25
 discs:
   - tracks:
-      - {no: 1, recording: liella/crescendo-yu-ra#original, note: TVA1 BD Full (Rakuten Books)}
-      - {no: 2, recording: liella/crescendo-yu-ra#off-vocal, note: TVA1 BD Full (Rakuten Books)}
+      - {no: 1, recording: liella/crescendo-yu-ra#original}
+      - {no: 2, recording: liella/crescendo-yu-ra#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Full (Rakuten Books)}
+    - {title: TVA1 BD Full (Rakuten Books), note: TVA1 BD Full (Rakuten Books)}
 evidence:
   tracks:
     status: legacy

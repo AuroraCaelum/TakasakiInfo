@@ -1,12 +1,23 @@
 id: nijigasaki/ai-miyashita
 project: nijigasaki
 names:
-  ja: 宮下愛
+  ja: 宮下 愛
   rom: Ai Miyashita
   ko: 미야시타 아이
+family_name:
+  ja: 宮下
+  rom: Miyashita
+  ko: 미야시타
+given_name:
+  ja: 愛
+  rom: Ai
+  ko: 아이
 casting:
   - {person: natsumi-murakami}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

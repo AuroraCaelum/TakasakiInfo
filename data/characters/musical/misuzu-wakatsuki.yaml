@@ -4,9 +4,20 @@ names:
   ja: 若槻ミスズ
   rom: Misuzu Wakatsuki
   ko: 와카츠키 미스즈
+family_name:
+  ja: 若槻
+  rom: Wakatsuki
+  ko: 와카츠키
+given_name:
+  ja: ミスズ
+  rom: Misuzu
+  ko: 미스즈
 casting:
   - {person: mizuki-saiba}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

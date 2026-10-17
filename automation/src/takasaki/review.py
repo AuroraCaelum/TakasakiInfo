@@ -3,7 +3,8 @@
 Decisions:
 
 - ``merge:<kind>:<id>``  merge every ``ref`` in the file into that entity (references are
-  rewritten, the merged spellings become aliases, the merged entities are deleted)
+  rewritten, the merged spellings become aliases, the merged entities are deleted). A person
+  can be merged into a character credited in-story (D27)
 - ``distinct``           the refs are different entities (``distinct_from`` is recorded)
 - ``kind:<artist kind>`` reclassify an artist (classify items)
 - ``rule``               apply the default rule (latin-ko: ko = ja)
@@ -45,9 +46,14 @@ def _table(ds: Dataset, kind: str) -> dict[str, Any]:
 
 
 def _rewrite_performer(p: m.Performer, src: tuple[str, str], dst: tuple[str, str]) -> m.Performer:
+    role = p.role
+    if src[0] == "character" and role == src[1]:
+        role = dst[1]
     if p.ref != src:
-        return p
-    return m.Performer(**{dst[0]: dst[1]})
+        return p if role == p.role else p.model_copy(update={"role": role})
+    if role is not None and dst[0] != "person":
+        raise ReviewError(f"person:{src[1]} sings in a role, cannot merge it into {dst[0]}:{dst[1]}")
+    return m.Performer(**{dst[0]: dst[1]}, role=role)
 
 
 def merge(ds: Dataset, refs: list[str], target: str) -> str:
@@ -62,15 +68,15 @@ def merge(ds: Dataset, refs: list[str], target: str) -> str:
         if ref == target:
             continue
         src = _split_ref(ref)
-        if src[0] == "person" and dst[0] != "person":
+        if src[0] == "person" and dst[0] == "artist":
             raise ReviewError(f"cannot merge person {ref} into {target}")
         ent = _table(ds, src[0]).get(src[1])
         if ent is None:
             raise ReviewError(f"unknown {ref!r}")
+        _rewrite_credits(ds, src, dst)
+        _rewrite_performer_refs(ds, src, dst)
         if src[0] == "person":
-            _rewrite_person(ds, src[1], dst[1])
-        else:
-            _rewrite_performer_refs(ds, src, dst)
+            _rewrite_casting(ds, src[1], dst)
         if hasattr(tgt, "aliases"):
             for lang in ("ja", "rom", "ko"):
                 text = getattr(ent.names, lang)
@@ -81,11 +87,16 @@ def merge(ds: Dataset, refs: list[str], target: str) -> str:
     return f"merged {merged} into {target}"
 
 
-def _rewrite_person(ds: Dataset, src: str, dst: str) -> None:
+def _rewrite_credits(ds: Dataset, src: tuple[str, str], dst: tuple[str, str]) -> None:
+    """Credits name a person or a character (D27), so a person can be merged into a character."""
+
     def fix(credits: list[m.Credit]) -> None:
         for c in credits:
-            if c.person == src:
-                c.person = dst
+            if c.ref != src:
+                continue
+            if dst[0] not in ("person", "character"):
+                raise ReviewError(f"{src[0]}:{src[1]} is credited, cannot merge it into {dst[0]}:{dst[1]}")
+            c.person, c.character = (dst[1], None) if dst[0] == "person" else (None, dst[1])
 
     for w in ds.works.values():
         fix(w.credits.lyricist)
@@ -95,10 +106,15 @@ def _rewrite_person(ds: Dataset, src: str, dst: str) -> None:
             if r.credits_override:
                 fix(r.credits_override.lyricist)
                 fix(r.credits_override.composer)
+
+
+def _rewrite_casting(ds: Dataset, src: str, dst: tuple[str, str]) -> None:
     for c in ds.characters.values():
         for cast in c.casting:
             if cast.person == src:
-                cast.person = dst
+                if dst[0] != "person":
+                    raise ReviewError(f"person:{src} is a voice actor of {c.id}, cannot merge it into {dst[0]}:{dst[1]}")
+                cast.person = dst[1]
 
 
 def _rewrite_performer_refs(ds: Dataset, src: tuple[str, str], dst: tuple[str, str]) -> None:

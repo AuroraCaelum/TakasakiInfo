@@ -1,9 +1,20 @@
 id: tatsuya-kurauchi
 names:
-  ja: 倉内達矢
+  ja: 倉内 達矢
   rom: Tatsuya Kurauchi
   ko: 쿠라우치 타츠야
+family_name:
+  ja: 倉内
+  rom: Kurauchi
+  ko: 쿠라우치
+given_name:
+  ja: 達矢
+  rom: Tatsuya
+  ko: 타츠야
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

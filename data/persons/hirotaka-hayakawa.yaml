@@ -1,9 +1,20 @@
 id: hirotaka-hayakawa
 names:
-  ja: 早川博隆
+  ja: 早川 博隆
   rom: Hirotaka Hayakawa
   ko: 하야카와 히로타카
+family_name:
+  ja: 早川
+  rom: Hayakawa
+  ko: 하야카와
+given_name:
+  ja: 博隆
+  rom: Hirotaka
+  ko: 히로타카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

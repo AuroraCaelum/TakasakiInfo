@@ -1,12 +1,23 @@
 id: aqours/mari-ohara
 project: aqours
 names:
-  ja: 小原鞠莉
+  ja: 小原 鞠莉
   rom: Mari Ohara
   ko: 오하라 마리
+family_name:
+  ja: 小原
+  rom: Ohara
+  ko: 오하라
+given_name:
+  ja: 鞠莉
+  rom: Mari
+  ko: 마리
 casting:
   - {person: aina-suzuki}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -2,11 +2,22 @@ id: liella/margarete-wien
 project: liella
 names:
   ja: ウィーン・マルガレーテ
-  rom: Margarete Wien
-  ko: 유이나
+  rom: Wien Margarete
+  ko: 빈 마르가레테
+family_name:
+  ja: ウィーン
+  rom: Wien
+  ko: 빈
+given_name:
+  ja: マルガレーテ
+  rom: Margarete
+  ko: 마르가레테
 casting:
   - {person: yuina}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

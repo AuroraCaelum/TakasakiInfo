@@ -1,15 +1,16 @@
 id: aqours/2017-galaxy-hide-and-seek
+type: single
 title:
   ja: GALAXY HidE and SeeK
 projects: [aqours]
 release_date: 2017-05-31
 discs:
   - tracks:
-      - {no: 1, recording: aqours/galaxy-hide-and-seek#original, note: AZALEA 2nd Single}
-      - {no: 2, recording: aqours/innocent-bird#original, note: AZALEA 2nd Single}
-      - {no: 3, recording: aqours/galaxy-hide-and-seek#off-vocal, note: AZALEA 2nd Single}
-      - {no: 4, recording: aqours/innocent-bird#off-vocal, note: AZALEA 2nd Single}
-      - {no: 5, recording: aqours/numazu-suiitsu-hantingu#main, note: 'Drama Part, AZALEA 2nd Single'}
+      - {no: 1, recording: aqours/galaxy-hide-and-seek#original}
+      - {no: 2, recording: aqours/innocent-bird#original}
+      - {no: 3, recording: aqours/galaxy-hide-and-seek#off-vocal}
+      - {no: 4, recording: aqours/innocent-bird#off-vocal}
+      - {no: 5, recording: aqours/numazu-suiitsu-hantingu#main}
 streaming:
   - tracks:
       1-1: UJln5-o8jqg
@@ -17,8 +18,11 @@ streaming:
 legacy:
   category: Aqours
   albums:
-    - {title: GALAXY HidE and SeeK}
+    - {title: GALAXY HidE and SeeK, note: AZALEA 2nd Single}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'AZALEA 2nd Single'에서 (M3)

@@ -1,9 +1,28 @@
 id: yuki-kokubo
 names:
-  ja: 小久保祐希
-  rom: Yuki Kokubo
+  ja: 小久保 祐希
+  rom: Yu-ki Kokubo
   ko: 코쿠보 유키
+family_name:
+  ja: 小久保
+  rom: Kokubo
+  ko: 코쿠보
+given_name:
+  ja: 祐希
+  rom: Yu-ki
+  ko: 유키
+aliases:
+  - {text: Yu-Ki Kokubo}
+  - {text: Yuki Kokubo}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.rom:
+    status: established
+    source: https://utaten.com/songWriter/5411/
+    checked: 2026-10-17
+    note: 본인 사용 라틴 표기 (§5.3 우선순위 2)
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

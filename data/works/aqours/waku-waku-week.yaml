@@ -20,10 +20,17 @@ recordings:
     arranger:
       - {person: kotaro-odaka}
       - {person: ramseeni}
+    external_ids:
+      isrc: JPI101602237
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/release/7db6d83c-b9a4-4334-b1cf-1e46f61d0c50
+        checked: 2026-10-17
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
   - id: off-vocal
     kind: off_vocal
     title:

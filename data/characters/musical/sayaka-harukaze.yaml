@@ -4,9 +4,20 @@ names:
   ja: 晴風サヤカ
   rom: Sayaka Harukaze
   ko: 하루카제 사야카
+family_name:
+  ja: 晴風
+  rom: Harukaze
+  ko: 하루카제
+given_name:
+  ja: サヤカ
+  rom: Sayaka
+  ko: 사야카
 casting:
   - {person: ruri-aoyama}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

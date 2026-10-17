@@ -1,9 +1,20 @@
 id: miki-watanabe
 names:
-  ja: 渡辺未来
+  ja: 渡辺 未来
   rom: Miki Watanabe
   ko: 와타나베 미키
+family_name:
+  ja: 渡辺
+  rom: Watanabe
+  ko: 와타나베
+given_name:
+  ja: 未来
+  rom: Miki
+  ko: 미키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

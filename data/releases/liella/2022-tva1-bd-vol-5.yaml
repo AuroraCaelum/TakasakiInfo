@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-01-26
 discs:
   - tracks:
-      - {no: 1, recording: liella/reverb#original, note: TVA1 BD Vol.5}
-      - {no: 2, recording: liella/reverb#off-vocal, note: TVA1 BD Vol.5}
+      - {no: 1, recording: liella/reverb#original}
+      - {no: 2, recording: liella/reverb#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Vol.5}
+    - {title: TVA1 BD Vol.5, note: TVA1 BD Vol.5}
 evidence:
   tracks:
     status: legacy

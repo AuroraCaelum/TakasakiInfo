@@ -1,12 +1,23 @@
 id: nijigasaki/lanzhu-zhong
 project: nijigasaki
 names:
-  ja: 鐘嵐珠
+  ja: 鐘 嵐珠
   rom: Lanzhu Zhong
   ko: 쇼우 란쥬
+family_name:
+  ja: 鐘
+  rom: Zhong
+  ko: 쇼우
+given_name:
+  ja: 嵐珠
+  rom: Lanzhu
+  ko: 란쥬
 casting:
   - {person: akina-homoto}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

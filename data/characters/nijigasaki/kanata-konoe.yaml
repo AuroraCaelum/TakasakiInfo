@@ -1,12 +1,23 @@
 id: nijigasaki/kanata-konoe
 project: nijigasaki
 names:
-  ja: 近江彼方
+  ja: 近江 彼方
   rom: Kanata Konoe
   ko: 코노에 카나타
+family_name:
+  ja: 近江
+  rom: Konoe
+  ko: 코노에
+given_name:
+  ja: 彼方
+  rom: Kanata
+  ko: 카나타
 casting:
   - {person: akari-kito}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

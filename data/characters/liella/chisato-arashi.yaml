@@ -1,12 +1,23 @@
 id: liella/chisato-arashi
 project: liella
 names:
-  ja: 嵐千砂都
+  ja: 嵐 千砂都
   rom: Chisato Arashi
   ko: 아라시 치사토
+family_name:
+  ja: 嵐
+  rom: Arashi
+  ko: 아라시
+given_name:
+  ja: 千砂都
+  rom: Chisato
+  ko: 치사토
 casting:
   - {person: nako-misaki}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

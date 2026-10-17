@@ -1,12 +1,23 @@
 id: hasunosora/tsuzuri-yugiri
 project: hasunosora
 names:
-  ja: 夕霧綴理
+  ja: 夕霧 綴理
   rom: Tsuzuri Yugiri
   ko: 유기리 츠즈리
+family_name:
+  ja: 夕霧
+  rom: Yugiri
+  ko: 유기리
+given_name:
+  ja: 綴理
+  rom: Tsuzuri
+  ko: 츠즈리
 casting:
   - {person: kotoko-sasaki}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

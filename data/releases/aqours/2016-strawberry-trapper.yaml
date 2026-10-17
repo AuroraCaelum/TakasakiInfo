@@ -1,15 +1,16 @@
 id: aqours/2016-strawberry-trapper
+type: single
 title:
   ja: Strawberry Trapper
 projects: [aqours]
 release_date: 2016-06-08
 discs:
   - tracks:
-      - {no: 1, recording: aqours/strawberry-trapper#original, note: Guilty Kiss 1st Single}
-      - {no: 2, recording: aqours/guilty-night-guilty-kiss#original, note: Guilty Kiss 1st Single}
-      - {no: 3, recording: aqours/strawberry-trapper#off-vocal, note: Guilty Kiss 1st Single}
-      - {no: 4, recording: aqours/guilty-night-guilty-kiss#off-vocal, note: Guilty Kiss 1st Single}
-      - {no: 5, recording: aqours/yuuran-sen-de-doko-made-mo#main, note: 'Drama Part, Guilty Kiss 1st Single'}
+      - {no: 1, recording: aqours/strawberry-trapper#original}
+      - {no: 2, recording: aqours/guilty-night-guilty-kiss#original}
+      - {no: 3, recording: aqours/strawberry-trapper#off-vocal}
+      - {no: 4, recording: aqours/guilty-night-guilty-kiss#off-vocal}
+      - {no: 5, recording: aqours/yuuran-sen-de-doko-made-mo#main}
 streaming:
   - tracks:
       1-1: Hkgc54cDwJg
@@ -17,8 +18,11 @@ streaming:
 legacy:
   category: Aqours
   albums:
-    - {title: Strawberry Trapper}
+    - {title: Strawberry Trapper, note: Guilty Kiss 1st Single}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'Guilty Kiss 1st Single'에서 (M3)

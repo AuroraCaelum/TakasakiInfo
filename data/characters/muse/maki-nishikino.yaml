@@ -1,12 +1,23 @@
 id: muse/maki-nishikino
 project: muse
 names:
-  ja: 西木野真姫
+  ja: 西木野 真姫
   rom: Maki Nishikino
   ko: 니시키노 마키
+family_name:
+  ja: 西木野
+  rom: Nishikino
+  ko: 니시키노
+given_name:
+  ja: 真姫
+  rom: Maki
+  ko: 마키
 casting:
   - {person: pile}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

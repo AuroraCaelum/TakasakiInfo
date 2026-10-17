@@ -4,9 +4,20 @@ names:
   ja: エマ・ヴェルデ
   rom: Emma Verde
   ko: 엠마 베르데
+family_name:
+  ja: ヴェルデ
+  rom: Verde
+  ko: 베르데
+given_name:
+  ja: エマ
+  rom: Emma
+  ko: 엠마
 casting:
   - {person: maria-sashide}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

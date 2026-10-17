@@ -1,9 +1,25 @@
 id: yugo-sasakura
 names:
-  ja: 佐々倉有吾
+  ja: 佐々倉 有吾
   rom: Yugo Sasakura
   ko: 사사쿠라 유우고
+family_name:
+  ja: 佐々倉
+  rom: Sasakura
+  ko: 사사쿠라
+given_name:
+  ja: 有吾
+  rom: Yugo
+  ko: 유우고
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Wonder%20zone
+    checked: 2026-10-17
+    note: 나무위키 곡 문서 크레딧 (D5 예외)

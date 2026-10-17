@@ -1,9 +1,20 @@
 id: ryota-nakano
 names:
-  ja: 中野領太
+  ja: 中野 領太
   rom: Ryota Nakano
   ko: 나카노 료타
+family_name:
+  ja: 中野
+  rom: Nakano
+  ko: 나카노
+given_name:
+  ja: 領太
+  rom: Ryota
+  ko: 료타
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

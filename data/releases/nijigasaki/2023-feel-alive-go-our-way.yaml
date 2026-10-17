@@ -17,12 +17,13 @@ discs:
       - {no: 3, recording: nijigasaki/feel-alive#off-vocal}
       - {no: 4, recording: nijigasaki/go-our-way#off-vocal}
 streaming:
-  - editions: [e2]
+  - editions: [e1, e2]
+    browse_id: MPREb_t2GYO9L2a0i
     tracks:
-      1-1: ouBYXbX9E5I
-      1-2: qdpMCYr04vw
-      1-3: ChCM3Nz63SM
-      1-4: iFgAl6ZoqNw
+      1-1: -EtEHaG77bs
+      1-2: m6308RhQwzs
+      1-3: q6XD5gEC_Cc
+      1-4: WUc_-Fs8iLA
 legacy:
   category: Nijigasaki
   albums:
@@ -32,3 +33,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_t2GYO9L2a0i
+    checked: 2026-10-17
+    note: 로그인 세션으로 앨범 트랙 순서·제목 대조. 기존 videoId는 재생 불가(Video unavailable)라 교체

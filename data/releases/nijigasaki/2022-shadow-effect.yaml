@@ -1,14 +1,15 @@
 id: nijigasaki/2022-shadow-effect
+type: single
 title:
   ja: Shadow Effect
 projects: [nijigasaki]
 release_date: 2022-10-05
 discs:
   - tracks:
-      - {no: 1, recording: nijigasaki/shadow-effect#original, note: DiverDiva 3rd}
-      - {no: 2, recording: nijigasaki/kiss-the-sun#original, note: DiverDiva 3rd}
-      - {no: 3, recording: nijigasaki/shadow-effect#off-vocal, note: DiverDiva 3rd}
-      - {no: 4, recording: nijigasaki/kiss-the-sun#off-vocal, note: DiverDiva 3rd}
+      - {no: 1, recording: nijigasaki/shadow-effect#original}
+      - {no: 2, recording: nijigasaki/kiss-the-sun#original}
+      - {no: 3, recording: nijigasaki/shadow-effect#off-vocal}
+      - {no: 4, recording: nijigasaki/kiss-the-sun#off-vocal}
 streaming:
   - tracks:
       1-1: Y4b0oCtma8A
@@ -18,8 +19,11 @@ streaming:
 legacy:
   category: Nijigasaki
   albums:
-    - {title: Shadow Effect}
+    - {title: Shadow Effect, note: DiverDiva 3rd}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'DiverDiva 3rd'에서 (M3)

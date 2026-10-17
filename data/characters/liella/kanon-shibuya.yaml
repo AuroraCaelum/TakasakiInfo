@@ -4,9 +4,20 @@ names:
   ja: 澁谷かのん
   rom: Kanon Shibuya
   ko: 시부야 카논
+family_name:
+  ja: 澁谷
+  rom: Shibuya
+  ko: 시부야
+given_name:
+  ja: かのん
+  rom: Kanon
+  ko: 카논
 casting:
   - {person: sayuri-date}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

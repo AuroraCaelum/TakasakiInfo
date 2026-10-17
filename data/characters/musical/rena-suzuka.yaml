@@ -4,9 +4,20 @@ names:
   ja: 鈴賀レナ
   rom: Rena Suzuka
   ko: 스즈카 레나
+family_name:
+  ja: 鈴賀
+  rom: Suzuka
+  ko: 스즈카
+given_name:
+  ja: レナ
+  rom: Rena
+  ko: 레나
 casting:
   - {person: ibuki-mita}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

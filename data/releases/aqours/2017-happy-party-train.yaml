@@ -9,13 +9,16 @@ discs:
       - {no: 2, recording: aqours/sky-journey#original}
       - {no: 3, recording: aqours/shojo-ijo-no-koi-ga-shitai#original}
       - {no: 4, recording: aqours/happy-party-train#off-vocal}
-      - {no: 5, recording: aqours/danketsu-watashitachi-no-sabaibaru#main, note: Drama Part}
-      - {no: 6, recording: aqours/kaiki-mayonaka-no-misuterii#main, note: Drama Part}
-      - {no: 7, recording: aqours/kiseki-mirai-e-no-torejaa#main, note: Drama Part}
+      - {no: 5, recording: aqours/danketsu-watashitachi-no-sabaibaru#main}
+      - {no: 6, recording: aqours/kaiki-mayonaka-no-misuterii#main}
+      - {no: 7, recording: aqours/kiseki-mirai-e-no-torejaa#main}
 streaming:
-  - tracks:
-      1-1: LGvQ3lscChg
-      1-3: fP5nAQ0ycxM
+  - browse_id: MPREb_cgBDmXWpCi7
+    tracks:
+      1-1: TuBUQVSzYMg
+      1-2: z0V71_j268M
+      1-3: kE33WUvkkeY
+      1-4: rRTkCPBzUZw
 legacy:
   category: Aqours
   albums:
@@ -24,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_cgBDmXWpCi7
+    checked: 2026-10-17
+    note: 로그인 세션으로 앨범 트랙 순서·제목 대조. 기존 videoId는 재생 불가(Video unavailable)라 교체

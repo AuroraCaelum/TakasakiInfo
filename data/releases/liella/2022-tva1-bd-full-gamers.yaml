@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2022-02-25
 discs:
   - tracks:
-      - {no: 1, recording: liella/stella#original, note: TVA1 BD Full (Gamers)}
-      - {no: 2, recording: liella/stella#off-vocal, note: TVA1 BD Full (Gamers)}
+      - {no: 1, recording: liella/stella#original}
+      - {no: 2, recording: liella/stella#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Full (Gamers)}
+    - {title: TVA1 BD Full (Gamers), note: TVA1 BD Full (Gamers)}
 evidence:
   tracks:
     status: legacy

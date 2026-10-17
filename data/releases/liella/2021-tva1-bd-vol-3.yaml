@@ -6,12 +6,12 @@ projects: [liella]
 release_date: 2021-11-26
 discs:
   - tracks:
-      - {no: 1, recording: liella/yuuki-no-kakera#original, note: TVA1 BD Vol.3}
-      - {no: 2, recording: liella/yuuki-no-kakera#off-vocal, note: TVA1 BD Vol.3}
+      - {no: 1, recording: liella/yuuki-no-kakera#original}
+      - {no: 2, recording: liella/yuuki-no-kakera#off-vocal}
 legacy:
   category: Liella
   albums:
-    - {title: TVA1 BD Vol.3}
+    - {title: TVA1 BD Vol.3, note: TVA1 BD Vol.3}
 evidence:
   tracks:
     status: legacy

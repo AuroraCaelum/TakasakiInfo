@@ -1,9 +1,20 @@
 id: koki-kishimoto
 names:
-  ja: 岸本功喜
+  ja: 岸本 功喜
   rom: Koki Kishimoto
   ko: 키시모토 코우키
+family_name:
+  ja: 岸本
+  rom: Kishimoto
+  ko: 키시모토
+given_name:
+  ja: 功喜
+  rom: Koki
+  ko: 코우키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

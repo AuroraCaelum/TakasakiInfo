@@ -4,9 +4,20 @@ names:
   ja: 黒澤ルビィ
   rom: Ruby Kurosawa
   ko: 쿠로사와 루비
+family_name:
+  ja: 黒澤
+  rom: Kurosawa
+  ko: 쿠로사와
+given_name:
+  ja: ルビィ
+  rom: Ruby
+  ko: 루비
 casting:
   - {person: ai-furihata}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

@@ -1,5 +1,6 @@
 from takasaki.text import (
-    has_kana, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify, split_version,
+    has_kana, join_ja_name, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify,
+    split_version,
 )
 
 
@@ -51,3 +52,12 @@ def test_slug_and_scripts():
     assert slugify("Café ∞") == "cafe"
     assert not has_kana("R・O・N")  # the katakana middle dot is punctuation
     assert has_kana("ラブライブ")
+
+
+def test_japanese_name_spacing():
+    # D28: space only between two all-kanji parts
+    assert join_ja_name("渡辺", "曜") == "渡辺 曜"
+    assert join_ja_name("中﨑", "花音") == "中﨑 花音"  # compatibility ideograph
+    assert join_ja_name("光増", "ハジメ") == "光増ハジメ"
+    assert join_ja_name("桜小路", "きな子") == "桜小路きな子"
+    assert join_ja_name("ペイトン", "尚未") == "ペイトン尚未"

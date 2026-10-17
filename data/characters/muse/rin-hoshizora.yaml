@@ -1,12 +1,23 @@
 id: muse/rin-hoshizora
 project: muse
 names:
-  ja: 星空凛
+  ja: 星空 凛
   rom: Rin Hoshizora
   ko: 호시조라 린
+family_name:
+  ja: 星空
+  rom: Hoshizora
+  ko: 호시조라
+given_name:
+  ja: 凛
+  rom: Rin
+  ko: 린
 casting:
   - {person: riho-iida}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

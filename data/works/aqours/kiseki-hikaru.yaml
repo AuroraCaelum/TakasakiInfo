@@ -16,10 +16,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: tatsuya-kato}
+    external_ids:
+      isrc: JPI101801598
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/release/24a7bbf7-00d0-44f3-b8b0-da0d702a0e5f
+        checked: 2026-10-17
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
   - id: off-vocal
     kind: off_vocal
     title:

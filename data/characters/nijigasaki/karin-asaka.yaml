@@ -1,12 +1,23 @@
 id: nijigasaki/karin-asaka
 project: nijigasaki
 names:
-  ja: 朝香果林
+  ja: 朝香 果林
   rom: Karin Asaka
   ko: 아사카 카린
+family_name:
+  ja: 朝香
+  rom: Asaka
+  ko: 아사카
+given_name:
+  ja: 果林
+  rom: Karin
+  ko: 카린
 casting:
   - {person: miyu-kubota}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

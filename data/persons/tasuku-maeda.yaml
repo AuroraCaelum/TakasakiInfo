@@ -3,7 +3,18 @@ names:
   ja: 前田 佑
   rom: Tasuku Maeda
   ko: 마에다 타스쿠
+family_name:
+  ja: 前田
+  rom: Maeda
+  ko: 마에다
+given_name:
+  ja: 佑
+  rom: Tasuku
+  ko: 타스쿠
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

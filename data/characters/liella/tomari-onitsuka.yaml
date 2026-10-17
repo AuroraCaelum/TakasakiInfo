@@ -1,12 +1,23 @@
 id: liella/tomari-onitsuka
 project: liella
 names:
-  ja: 鬼塚冬毬
+  ja: 鬼塚 冬毬
   rom: Tomari Onitsuka
   ko: 오니츠카 토마리
+family_name:
+  ja: 鬼塚
+  rom: Onitsuka
+  ko: 오니츠카
+given_name:
+  ja: 冬毬
+  rom: Tomari
+  ko: 토마리
 casting:
   - {person: sakura-sakakura}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

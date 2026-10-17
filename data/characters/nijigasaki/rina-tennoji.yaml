@@ -1,12 +1,23 @@
 id: nijigasaki/rina-tennoji
 project: nijigasaki
 names:
-  ja: 天王寺璃奈
+  ja: 天王寺 璃奈
   rom: Rina Tennoji
   ko: 텐노지 리나
+family_name:
+  ja: 天王寺
+  rom: Tennoji
+  ko: 텐노지
+given_name:
+  ja: 璃奈
+  rom: Rina
+  ko: 리나
 casting:
   - {person: chiemi-tanaka}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

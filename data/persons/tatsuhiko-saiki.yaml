@@ -1,9 +1,20 @@
 id: tatsuhiko-saiki
 names:
-  ja: 斎木達彦
+  ja: 斎木 達彦
   rom: Tatsuhiko Saiki
   ko: 사이키 타츠히코
+family_name:
+  ja: 斎木
+  rom: Saiki
+  ko: 사이키
+given_name:
+  ja: 達彦
+  rom: Tatsuhiko
+  ko: 타츠히코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

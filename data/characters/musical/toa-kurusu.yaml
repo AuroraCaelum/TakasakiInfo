@@ -4,9 +4,20 @@ names:
   ja: 来栖トア
   rom: Toa Kurusu
   ko: 쿠루스 토아
+family_name:
+  ja: 来栖
+  rom: Kurusu
+  ko: 쿠루스
+given_name:
+  ja: トア
+  rom: Toa
+  ko: 토아
 casting:
   - {person: sana-hoshimori}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

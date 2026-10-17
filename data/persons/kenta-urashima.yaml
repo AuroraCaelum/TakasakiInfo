@@ -1,9 +1,20 @@
 id: kenta-urashima
 names:
-  ja: 浦島健太
+  ja: 浦島 健太
   rom: Kenta Urashima
   ko: 우라시마 켄타
+family_name:
+  ja: 浦島
+  rom: Urashima
+  ko: 우라시마
+given_name:
+  ja: 健太
+  rom: Kenta
+  ko: 켄타
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

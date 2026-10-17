@@ -1,10 +1,20 @@
 id: koudai-iwatsubo
 names:
-  ja: KOUDAI IWATSUBO
+  ja: イワツボコーダイ
   rom: KOUDAI IWATSUBO
-  ko: KOUDAI IWATSUBO
-native_script: latin
+  ko: 이와츠보 코다이
+aliases:
+  - {text: Kodai Iwatsubo}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/song/288195/
+    checked: 2026-10-17
+  names.rom:
+    status: established
+    source: https://www.ehonnavi.net/author.asp?n=77851
+    checked: 2026-10-17
+    note: 본인 사용 라틴 표기 (§5.3 우선순위 2)

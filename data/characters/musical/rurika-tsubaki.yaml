@@ -4,9 +4,20 @@ names:
   ja: 椿ルリカ
   rom: Rurika Tsubaki
   ko: 츠바키 루리카
+family_name:
+  ja: 椿
+  rom: Tsubaki
+  ko: 츠바키
+given_name:
+  ja: ルリカ
+  rom: Rurika
+  ko: 루리카
 casting:
   - {person: marina-horiuchi}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

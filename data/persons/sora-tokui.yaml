@@ -3,7 +3,18 @@ names:
   ja: 徳井 青空
   rom: Sora Tokui
   ko: 토쿠이 소라
+family_name:
+  ja: 徳井
+  rom: Tokui
+  ko: 토쿠이
+given_name:
+  ja: 青空
+  rom: Sora
+  ko: 소라
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

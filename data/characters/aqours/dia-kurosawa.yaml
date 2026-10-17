@@ -4,9 +4,20 @@ names:
   ja: 黒澤ダイヤ
   rom: Dia Kurosawa
   ko: 쿠로사와 다이아
+family_name:
+  ja: 黒澤
+  rom: Kurosawa
+  ko: 쿠로사와
+given_name:
+  ja: ダイヤ
+  rom: Dia
+  ko: 다이아
 casting:
   - {person: arisa-komiya}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

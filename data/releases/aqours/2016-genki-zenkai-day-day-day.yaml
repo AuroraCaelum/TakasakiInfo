@@ -1,15 +1,16 @@
 id: aqours/2016-genki-zenkai-day-day-day
+type: single
 title:
   ja: 元気全開DAY！DAY！DAY！
 projects: [aqours]
 release_date: 2016-05-11
 discs:
   - tracks:
-      - {no: 1, recording: aqours/genki-zenkai-day-day-day#original, note: CYaRon! 1st Single}
-      - {no: 2, recording: aqours/yozorawa-nandemo-shitteruno#original, note: CYaRon! 1st Single}
-      - {no: 3, recording: aqours/genki-zenkai-day-day-day#off-vocal, note: CYaRon! 1st Single}
-      - {no: 4, recording: aqours/yozorawa-nandemo-shitteruno#off-vocal, note: CYaRon! 1st Single}
-      - {no: 5, recording: aqours/shougetsu-pine-moon-o-sagashite#main, note: 'Drama Part, CYaRon! 1st Single'}
+      - {no: 1, recording: aqours/genki-zenkai-day-day-day#original}
+      - {no: 2, recording: aqours/yozorawa-nandemo-shitteruno#original}
+      - {no: 3, recording: aqours/genki-zenkai-day-day-day#off-vocal}
+      - {no: 4, recording: aqours/yozorawa-nandemo-shitteruno#off-vocal}
+      - {no: 5, recording: aqours/shougetsu-pine-moon-o-sagashite#main}
 streaming:
   - tracks:
       1-1: lGUOVwCiG3g
@@ -17,8 +18,11 @@ streaming:
 legacy:
   category: Aqours
   albums:
-    - {title: 元気全開DAY！DAY！DAY！}
+    - {title: 元気全開DAY！DAY！DAY！, note: CYaRon! 1st Single}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'CYaRon! 1st Single'에서 (M3)

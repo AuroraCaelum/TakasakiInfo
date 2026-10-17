@@ -1,12 +1,23 @@
 id: aqours/hanamaru-kunikida
 project: aqours
 names:
-  ja: 国木田花丸
+  ja: 国木田 花丸
   rom: Hanamaru Kunikida
   ko: 쿠니키다 하나마루
+family_name:
+  ja: 国木田
+  rom: Kunikida
+  ko: 쿠니키다
+given_name:
+  ja: 花丸
+  rom: Hanamaru
+  ko: 하나마루
 casting:
   - {person: kanako-takatsuki}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

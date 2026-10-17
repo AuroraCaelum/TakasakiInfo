@@ -3,7 +3,18 @@ names:
   ja: 野中ここな
   rom: Kokona Nonaka
   ko: 노나카 코코나
+family_name:
+  ja: 野中
+  rom: Nonaka
+  ko: 노나카
+given_name:
+  ja: ここな
+  rom: Kokona
+  ko: 코코나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

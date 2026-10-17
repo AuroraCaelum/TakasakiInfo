@@ -1,20 +1,21 @@
 id: aqours/2017-p-s-no-mukougawa
+type: bd_bonus
 title:
   ja: P.S.の向こう側
 projects: [aqours]
 release_date: 2017-03-24
 discs:
   - tracks:
-      - {no: 1, recording: aqours/p-s-no-mukougawa#original, note: 'TVA1 BD Full (Gamers). Link is from the [ある日…永遠みたいに！]'}
-      - {no: 2, recording: aqours/p-s-no-mukougawa#off-vocal, note: TVA1 BD Full (Gamers)}
-streaming:
-  - tracks:
-      1-1: 6u7d7WrJLME
+      - {no: 1, recording: aqours/p-s-no-mukougawa#original}
+      - {no: 2, recording: aqours/p-s-no-mukougawa#off-vocal}
 legacy:
   category: Aqours
   albums:
-    - {title: P.S.の向こう側}
+    - {title: P.S.の向こう側, note: TVA1 BD Full (Gamers)}
 evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  type:
+    status: derived
+    note: 레거시 Note 'TVA1 BD Full (Gamers)'에서 (M3)

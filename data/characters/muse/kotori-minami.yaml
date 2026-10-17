@@ -4,9 +4,20 @@ names:
   ja: 南ことり
   rom: Kotori Minami
   ko: 미나미 코토리
+family_name:
+  ja: 南
+  rom: Minami
+  ko: 미나미
+given_name:
+  ja: ことり
+  rom: Kotori
+  ko: 코토리
 casting:
   - {person: aya-uchida}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

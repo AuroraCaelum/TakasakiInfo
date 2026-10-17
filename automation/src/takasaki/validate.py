@@ -15,7 +15,7 @@ from ruamel.yaml import YAML
 from . import model as m
 from .build_legacy import edition_ids, edition_tracks, own_video
 from .store import Dataset
-from .text import has_kana, has_kana_or_kanji, match_key
+from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
 
 @dataclass
@@ -27,6 +27,11 @@ class Finding:
 
     def __str__(self) -> str:
         return f"[{self.rule}] {self.where}: {self.message}"
+
+
+def _bare(name: str) -> str:
+    """A name without separators, for comparing it with its family/given parts."""
+    return name.replace(" ", "").replace("　", "").replace("・", "")
 
 
 def open_review_refs(review_dir: Path) -> set[str]:
@@ -64,10 +69,13 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     def perf(p: m.Performer, where: str) -> None:
         need(ds.artists, p.artist, where, "artist")
         need(ds.characters, p.character, where, "character")
+        need(ds.persons, p.person, where, "person")
+        need(ds.characters, p.role, where, "character (role)")
 
     def creds(cs: list[m.Credit], where: str) -> None:
         for c in cs:
             need(ds.persons, c.person, where, "person")
+            need(ds.characters, c.character, where, "character")
 
     for c in ds.characters.values():
         need(ds.projects, c.project, f"character:{c.id}", "project")
@@ -173,12 +181,67 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E6", ref, f"rom contains kana/kanji: {n.rom!r}", refs=(ref,))
         if has_kana(n.ko):
             add("E6", ref, f"ko contains kana: {n.ko!r}", refs=(ref,))
+    # an affiliation is printed in every language column, so a Japanese-script one needs per-language names (D31)
+    for w in ds.works.values():
+        lists = [w.credits.lyricist, w.credits.composer] + [r.arranger for r in w.recordings]
+        lists += [cs for r in w.recordings if r.credits_override for cs in (r.credits_override.lyricist, r.credits_override.composer)]
+        for c in (c for cs in lists for c in cs):
+            rom, ko = c.affiliation_in("rom"), c.affiliation_in("ko")
+            if has_kana_or_kanji(rom) or has_kana(ko):
+                add("E6", f"work:{w.id}", f"affiliation {c.affiliation!r} has Japanese script in rom/ko; give it per-language names")
     for p in ds.persons.values():
         ko_ev = p.evidence.get("names.ko")
         approved = ko_ev is not None and ko_ev.status in (m.Status.official, m.Status.established)
         if p.native_script == "latin" and p.names.ko != p.names.ja and not approved:
             add("E7", f"person:{p.id}", f"Latin-native name has ko {p.names.ko!r} (expected {p.names.ja!r})",
                 refs=(f"person:{p.id}",))
+
+    # E12 / W15: name parts and Japanese name spacing (D26, D28)
+    split_names = (
+        [(f"person:{p.id}", p) for p in ds.persons.values()]
+        + [(f"character:{c.id}", c) for c in ds.characters.values()]
+    )
+    for where, ent in split_names:
+        n = ent.names
+        if ent.family_name is None and ent.given_name is None:
+            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2:
+                add("W15", where, f"Japanese name without family/given split: {n.ja!r}")
+            continue
+        fam, giv = ent.family_name or m.Names(), ent.given_name or m.Names()
+        for lang in ("ja", "kana", "rom", "ko"):
+            full, f, g = getattr(n, lang), getattr(fam, lang), getattr(giv, lang)
+            if f is None and g is None:
+                continue
+            if not (f and g and full) or _bare(full) not in (_bare(f + g), _bare(g + f)):
+                add("E12", where, f"{lang}: family {f!r} + given {g!r} does not make {full!r}", refs=(where,))
+            elif lang == "ja" and "・" not in full and (has_kanji(f) or has_kanji(g)) and full != join_ja_name(f, g):
+                # all-kana names follow the official notation, so only names with kanji are checked
+                add("E12", where, f"ja {full!r} breaks the spacing rule (expected {join_ja_name(f, g)!r})", refs=(where,))
+            elif lang == "kana" and full != join_kana_name(f, g):
+                add("E12", where, f"kana {full!r} needs a space (expected {join_kana_name(f, g)!r})", refs=(where,))
+
+    # E13: no leading/trailing whitespace in names and titles (it leaks into the legacy cells)
+    def padded(where: str, n: m.Names | None) -> None:
+        for lang, v in (n.model_dump().items() if n else ()):
+            if v and v != v.strip():
+                add("E13", where, f"{lang} has leading/trailing whitespace: {v!r}")
+
+    for kind, ent in ds.iter_all():
+        for attr in ("names", "title", "family_name", "given_name"):
+            padded(f"{kind}:{ent.id}", getattr(ent, attr, None))
+    for w in ds.works.values():
+        for r in w.recordings:
+            padded(f"recording:{w.id}#{r.id}", r.title)
+
+    # E14: notes hold only what the builder cannot derive (M3)
+    derived = ("Drama Part", "Link is from", "Disc.")
+    for rel in ds.releases.values():
+        texts = [(f"release:{rel.id} legacy album {la.title!r}", la.note) for la in rel.legacy.albums]
+        texts += [(f"release:{rel.id} track {t.no}", t.note) for d in rel.discs for t in d.tracks]
+        for where, text in texts:
+            hit = next((x for x in derived if text and x in text), None)
+            if hit:
+                add("E14", where, f"note repeats the derived part {hit!r}: {text!r}")
 
     # E11: one owner per YouTube video
     owners: dict[str, list[str]] = defaultdict(list)
@@ -202,4 +265,20 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                   if r.kind in ("vocal",) and not ((r.title or w.title).kana))
     if missing:
         add("W8", "recordings", f"{missing} vocal recordings have no pronunciation (kana)")
+
+    # W14: empty credits. "Not applicable" is an empty list (D25), so only vocal recordings are
+    # expected to have every role filled; an empty one there is missing data.
+    empty = []
+    for w in ds.works.values():
+        for r in w.recordings:
+            if r.kind != "vocal":
+                continue
+            credits = r.credits_override or w.credits
+            roles = {"performers": r.performers, "lyricist": credits.lyricist,
+                     "composer": credits.composer, "arranger": r.arranger}
+            gaps = [k for k, v in roles.items() if not v]
+            if gaps:
+                empty.append(f"{w.id}#{r.id} ({', '.join(gaps)})")
+    if empty:
+        add("W14", "recordings", f"{len(empty)} vocal recordings have empty credits, e.g. {empty[:3]}")
     return out

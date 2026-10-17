@@ -1,12 +1,23 @@
 id: liella/keke-tang
 project: liella
 names:
-  ja: 唐可可
+  ja: 唐 可可
   rom: Keke Tang
   ko: 탕 쿠쿠
+family_name:
+  ja: 唐
+  rom: Tang
+  ko: 탕
+given_name:
+  ja: 可可
+  rom: Keke
+  ko: 쿠쿠
 casting:
   - {person: liyuu}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

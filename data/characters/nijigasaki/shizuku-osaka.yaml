@@ -4,9 +4,20 @@ names:
   ja: 桜坂しずく
   rom: Shizuku Osaka
   ko: 오사카 시즈쿠
+family_name:
+  ja: 桜坂
+  rom: Osaka
+  ko: 오사카
+given_name:
+  ja: しずく
+  rom: Shizuku
+  ko: 시즈쿠
 casting:
   - {person: kaori-maeda}
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: 전체 이름에서 분리 (D26)

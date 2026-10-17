@@ -40,6 +40,7 @@ def _yaml() -> YAML:
     y.indent(mapping=2, sequence=4, offset=2)
     y.allow_unicode = True
     y.preserve_quotes = False
+    y.representer.ignore_aliases = lambda *_: True  # a value shared by two fields is written twice, not as &id/*id
     return y
 
 

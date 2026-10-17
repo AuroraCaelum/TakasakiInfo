@@ -1,9 +1,20 @@
 id: mayu-sagara
 names:
-  ja: 相良茉優
+  ja: 相良 茉優
   rom: Mayu Sagara
   ko: 사가라 마유
+family_name:
+  ja: 相良
+  rom: Sagara
+  ko: 사가라
+given_name:
+  ja: 茉優
+  rom: Mayu
+  ko: 마유
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
