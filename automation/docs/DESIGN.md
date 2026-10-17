@@ -1059,6 +1059,12 @@ wikitext 예:
 - 비정규화 뷰 (`tracks.json`: 레거시 행과 같은 평면 구조에 ID, 상태, 출처 추가)
 - `announced` 발매물 포함
 - 같은 빌드에서 SQLite DB(10.5절)와 `graph.json`(10.7절)도 만든다. 세 산출물은 항상 같은 데이터 버전이다.
+- 구현 (`takasaki dist`, 배포 때는 `data/v1/…`·`data/takasakiinfo.sqlite`로 올라간다. `graph.json`은 Phase 7)
+  - 엔티티 파일: `projects.json`, `persons.json`, `characters.json`, `artists.json`, `works.json`(음원 포함), `releases.json`, `cities.json`, `venues.json`, `concerts.json`. 모델 그대로이고 기본값도 넣는다
+  - 뷰: `tracks.json`(Track ID `<release>@<edition 또는 ->/<disc>-<순번>`, 상태, 발매일, 모든 언어의 제목, 가창·크레딧(참조와 이름), 링크와 출처 `own`/`main`/`none`), `recordings.json`(음원별 크레딧, ISRC 등 외부 ID, 메인 URL)
+  - `schema/<엔티티>.json`: 모델에서 만든 JSON Schema
+  - `quality.json`: 엔티티 수, 채움률(발음, ko, rom, 링크), 근거 상태 분포, 미결 리뷰 수, 프로젝트별 최신 발매일·링크율
+  - 모든 파일을 `{"schemaVersion": "1.0.0", "dbLastUpdate", "count", "data"}`로 감싼다. 데이터 파일은 공백 없이 쓴다
 
 ### 10.3 README와 배포
 
@@ -1206,6 +1212,8 @@ flowchart LR
 - **기간이 있는 관계는 `from`/`until`을 가진 행이다.** "2024-05-01 시점의 スリーズブーケ 멤버" 같은 질의가 쿼리 하나로 끝난다.
 - **자주 쓰는 조인은 뷰로 둔다**: `v_track_flat`(레거시 행과 같은 평면 구조), `v_person_credits`, `v_work_performances`.
 - **검색 인덱스**: SQLite FTS5(trigram 토크나이저)로 `label`과 `alias`를 모두 색인한다. 매칭 키(5.1절) 열도 함께 색인한다. 가나, 한자, 로마자, 한국어 어느 쪽으로 입력해도 찾을 수 있고, 부분 문자열로도 찾을 수 있다.
+  - trigram은 세 글자 이상만 찾는다. `渡辺 曜`는 구문(`"渡辺 曜"`)이나 공백을 뺀 매칭 키로 찾고, 두 글자 이하 검색어는 API가 `label`에 `LIKE`로 찾는다.
+- **구현** (`automation/src/takasaki/build_sqlite.py`): 위 테이블 외에 `meta`(스키마 버전, `dbLastUpdate`), 다형 테이블(`label`, `alias`, `evidence`, `external_id`, `entity_project`)의 엔티티 키는 `종류:id`다. 빌드 끝에 외래 키 검사를 돌리고 위반이 있으면 실패한다.
 - **제약 조건**: 외래 키, `UNIQUE`(예: `track`의 발매물·에디션·디스크·번호), `CHECK`(예: `from <= until`)를 DB에도 건다. 8절 검증의 일부를 DB 차원에서 한 번 더 보장하는 셈이다.
 
 **SQLite를 고른 이유**

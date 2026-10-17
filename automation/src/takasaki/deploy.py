@@ -11,13 +11,17 @@ from __future__ import annotations
 
 import html
 import json
+import tempfile
 import time
 import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 from .build_legacy import build_legacy
+from .build_sqlite import build_sqlite
+from .build_v1 import build_v1
 from .store import Dataset
 
 LIVE_PREFIXES = ("data/", "site/")
@@ -59,7 +63,8 @@ def landing_page(version: dict[str, str]) -> str:
     """Placeholder for the connection-map site (§10.7, Phase 7)."""
     rows = "".join(
         f'<li><a href="{html.escape(href)}">{html.escape(href)}</a></li>'
-        for href in ("/data/legacy/TakasakiInfo.json", "/data/version.json", "/api/v1/health")
+        for href in ("/data/legacy/TakasakiInfo.json", "/data/v1/tracks.json", "/data/v1/quality.json",
+                     "/data/takasakiinfo.sqlite", "/data/version.json", "/api/v1/health")
     )
     return (
         "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\">"
@@ -71,9 +76,19 @@ def landing_page(version: dict[str, str]) -> str:
     )
 
 
-def release_files(ds: Dataset, sha: str) -> dict[str, File]:
-    """Every object of one release, keyed by its live path (``data/…`` or ``site/…``)."""
+SQLITE_KEY = "data/takasakiinfo.sqlite"
+QUALITY_KEY = "data/v1/quality.json"
+
+
+def release_files(ds: Dataset, sha: str, review_dir: Path | None = None) -> dict[str, File]:
+    """Every object of one release, keyed by its live path (``data/…`` or ``site/…``): the legacy files,
+    the v1 files and the SQLite database are always the same data version (§10.2)."""
     files = {f"data/legacy/{rel}": File(blob, content_type(rel), DATA_CACHE) for rel, blob in build_legacy(ds).items()}
+    files |= {f"data/{rel}": File(blob, content_type(rel), DATA_CACHE) for rel, blob in build_v1(ds, review_dir).items()}
+    with tempfile.TemporaryDirectory() as tmp:
+        db = Path(tmp) / "takasakiinfo.sqlite"
+        build_sqlite(ds, db)
+        files[SQLITE_KEY] = File(db.read_bytes(), content_type(SQLITE_KEY), DATA_CACHE)
     version = version_doc(ds, sha)
     files["site/index.html"] = File(landing_page(version).encode("utf-8"), content_type("index.html"), DATA_CACHE)
     files[VERSION_KEY] = File(json.dumps(version, ensure_ascii=False).encode("utf-8"),
@@ -157,12 +172,14 @@ class Deployer:
             waited += 10
         self.log(f"invalidated /* ({inv_id})")
 
-    def smoke(self, version: dict[str, str]) -> None:
+    def smoke(self, version: dict[str, str], with_v1: bool = False) -> None:
         checks = [
             ("/data/version.json", lambda d: d.get("sha") == version["sha"]),
             ("/data/legacy/TakasakiInfo.json", lambda d: d.get("dbLastUpdate") == version["dbLastUpdate"]),
             ("/api/v1/health", lambda d: d.get("status") == "ok" and d.get("sha") == version["sha"]),
         ]
+        if with_v1:
+            checks.append(("/" + QUALITY_KEY, lambda d: d.get("dbLastUpdate") == version["dbLastUpdate"]))
         for path, ok in checks:
             last: Any = None
             for attempt in range(self.smoke_attempts):
@@ -188,7 +205,7 @@ class Deployer:
         self.promote(sha)
         self.invalidate(sha)
         try:
-            self.smoke(version)
+            self.smoke(version, with_v1=QUALITY_KEY in files)
         except DeployError:
             if previous and previous != sha:
                 self.log(f"rolling back to {previous}")

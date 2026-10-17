@@ -27,6 +27,21 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_dist(args: argparse.Namespace) -> int:
+    """v1 files, JSON Schema, quality metrics and the SQLite database (§10.2, §10.5) under dist/."""
+    from .build_sqlite import build_sqlite
+    from .build_v1 import build_v1
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    out = Path(args.out).resolve() if args.out else root / "dist"
+    files = build_v1(ds, review)
+    changed = write_outputs(files, out)
+    build_sqlite(ds, out / "takasakiinfo.sqlite")
+    print(f"{len(files)} v1 files ({len(changed)} written) and takasakiinfo.sqlite in {out}")
+    return 0
+
+
 def cmd_check(args: argparse.Namespace) -> int:
     """E8: committed legacy files must equal a fresh build (nobody edits generated files)."""
     root, data, _ = _paths()
@@ -100,7 +115,7 @@ def cmd_deploy(args: argparse.Namespace) -> int:
     from .deploy import Deployer, DeployError, release_files
 
     _, data, _ = _paths()
-    files = release_files(load_dataset(data), args.sha)
+    files = release_files(load_dataset(data), args.sha, _paths()[2])
     deployer = Deployer(
         boto3.client("s3"), boto3.client("cloudfront"),
         bucket=args.bucket, distribution_id=args.distribution, base_url=args.base_url,
@@ -239,6 +254,9 @@ def main(argv: list[str] | None = None) -> int:
     b = sub.add_parser("build", help="generate legacy files from data/")
     b.add_argument("--out", help="output directory (default: repository root)")
     b.set_defaults(func=cmd_build)
+    ds_ = sub.add_parser("dist", help="build the v1 files and the SQLite database (not committed; deploy uploads them)")
+    ds_.add_argument("--out", help="output directory (default: <repo>/dist)")
+    ds_.set_defaults(func=cmd_dist)
     sub.add_parser("check", help="E8: verify committed legacy files equal a fresh build").set_defaults(func=cmd_check)
     v = sub.add_parser("validate", help="run validation rules (DESIGN.md §8)")
     v.add_argument("-v", "--verbose", action="store_true")

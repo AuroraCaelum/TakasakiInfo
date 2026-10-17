@@ -38,6 +38,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | --- | --- |
 | `takasaki build [--out DIR]` | 레거시 파일 생성. 기본 출력 위치는 저장소 루트 |
 | `takasaki check` | E8 검사 |
+| `takasaki dist [--out DIR]` | v1 파일(엔티티 JSON, `tracks.json`·`recordings.json`, JSON Schema, `quality.json`)과 SQLite DB를 `dist/`에 만든다(§10.2, §10.5). 커밋하지 않고, 배포 때 같이 올라간다 |
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
@@ -78,7 +79,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 - **Phase 2 (파일럿)**: 진행 중 (브랜치 `migration/db-catchup`)
   - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집으로 발매물 113개의 videoId를 현재 값으로 채웠고, 저장된 709개가 모두 재생된다. 4개는 원래 스트리밍에 없다(드라마 CD)
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
-  - 남은 것: v1 JSON·JSON Schema·SQLite 빌드와 품질 지표, 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
+  - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
+  - 남은 것: 이키즈라이브 공식 사이트 어댑터와 데이터, README 생성
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다
