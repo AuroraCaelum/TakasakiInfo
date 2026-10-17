@@ -181,3 +181,5 @@ def test_w16_flags_official_fields_sourced_elsewhere():
     w16 = sorted(f.where + " " + f.message.split()[0] for f in validate(ds) if f.rule == "W16")
     assert w16 == ["artist:u lineups", "person:a names.ja"]  # ko and a person's own rom are not official-first
     assert not official_first("work", "same_recording") and official_first("release", "tracks")
+    ds.artists["u"].evidence["lineups"] = wiki.model_copy(update={"note": "공식 멤버 페이지가 갱신되지 않아 위키가 공식보다 최신"})
+    assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]

@@ -337,9 +337,9 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     if empty:
         add("W14", "recordings", f"{len(empty)} vocal recordings have empty credits, e.g. {empty[:3]}")
 
-    # W16: the project's official site comes first (D36). A value it publishes whose only recorded
-    # source is another site (wiki, Fandom, lyrics or database sites) stays flagged until it is
-    # checked against the official page, or its note says the official site does not carry it.
+    # W16: the official site is looked at first (D36). A value sourced only to another site (wiki,
+    # Fandom, lyrics or database sites) is flagged until the official page has been checked: either it
+    # carries the value (cite it) or the note says it does not ("공식 미게재") or is behind ("공식보다 최신").
     for kind, ent in ds.iter_all():
         ident = ent.id  # type: ignore[attr-defined]
         scopes = [(ident, getattr(ent, "evidence", {}))]
@@ -347,13 +347,15 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for where, evidence in scopes:
             for key, ev in evidence.items():
                 if official_first(kind, key) and ev.source and ev.source.startswith("http") and not is_official(ev.source) \
-                        and NOT_ON_OFFICIAL not in (ev.note or ""):
+                        and not any(mark in (ev.note or "") for mark in OFFICIAL_CHECKED):
                     add("W16", f"{kind}:{where}", f"{key} rests on {ev.source.split('/')[2]} only; check the official page")
     return out
 
 
 # project sites and the portal, the label, and the official streaming release (its distributed titles)
-NOT_ON_OFFICIAL = "공식 미게재"  # evidence note: the official site was checked and does not carry the value
+# evidence notes saying the official site was looked at first: it does not carry the value, or it is
+# behind the source that was used (D36)
+OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신")
 OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
 
 
