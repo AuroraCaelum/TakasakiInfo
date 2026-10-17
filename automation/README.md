@@ -63,7 +63,7 @@ uv run pytest -q
 
 - **Phase 0 (기반)**: 완료. 모델, YAML 저장소, 레거시 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
 - **Phase 1 (이관)**: 완료 (2026-10-17). M1~M8과 이관 리뷰 66건, 부록 A-1·A-2를 모두 처리했다. 출력이 바뀐 곳은 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~13). 결정 D25~D32
-  - 남은 문제: 기존 YouTube Music 링크 대부분이 "Video unavailable"이다. 이번에 다룬 발매물 6개만 현재 videoId로 바꿨다. 나머지는 YouTube Music 어댑터(Phase 2)로 다시 채운다
+  - 남은 문제: 기존 YouTube Music videoId 644개 중 611개(95%)가 "Video unavailable"이다(2026-10-17, 로그인 세션으로 확인). 살아 있는 것은 2023년 하반기 하스노소라·니지가사키 발매물 5개뿐이다. 이번에 다룬 발매물 6개는 현재 videoId로 바꿨고, 나머지는 YouTube Music 어댑터(Phase 2)로 다시 채운다
   - 로그인 세션: `automation/browser.json`(ytmusicapi 브라우저 인증, git에서 제외)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
