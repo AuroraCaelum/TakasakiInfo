@@ -131,7 +131,7 @@ def render_credits(ds: Dataset, credits: list[m.Credit]) -> list[str]:
         for c in credits:
             name = getattr(_credit_names(ds, c), lang) or ""
             role = getattr(c.role, lang) if c.role else None
-            parts.append(render_credit_name(name, lang, c.affiliation, role))
+            parts.append(render_credit_name(name, lang, c.affiliation_in(lang), role))
         out.append(_join(parts))
     return out
 

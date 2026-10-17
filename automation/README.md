@@ -62,14 +62,11 @@ uv run pytest -q
 ## 진행 상황
 
 - **Phase 0 (기반)**: 완료. 모델, YAML 저장소, 레거시 빌더, 검증기, CLI, PR CI(`.github/workflows/ci.yml`)
-- **Phase 1 (이관)**: M1~M7 완료. 기존 데이터를 무손실로 옮겼고, 출력이 바뀐 곳은 이미 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~9).
-  - 완료 (2026-10-17, 결정 D25~D30): 이관 리뷰 66건 전부, 부록 A-1 1~12, `NA` 엔티티 정리, 일본어 인명 띄어쓰기 규칙, 뮤지컬 출연진을 배역 있는 Person으로, Aqours 2021 유닛 풀앨범 3장 백필
+- **Phase 1 (이관)**: M1~M7 완료. 기존 데이터를 무손실로 옮겼고, 출력이 바뀐 곳은 이미 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~11).
+  - 완료 (2026-10-17, 결정 D25~D31): 이관 리뷰 66건 전부, 부록 A-1 전부, 부록 A-2 점검, `NA` 엔티티 정리, 일본어 인명 띄어쓰기 규칙, 뮤지컬 출연진을 배역 있는 Person으로, Aqours 2021 유닛 풀앨범 3장 백필, 언어별 소속 표기
   - 남은 것
-    - 부록 A-1 13 (ko 장음의 `established` 근거 확인), 부록 A-2 링크 점검
-    - W14: Aqours `聖良と理亞を…` 3건은 드라마인데 곡으로 분류돼 있다
-    - W15: `小高光太郎・UiNA`는 두 사람이 한 인물로 들어가 있다
-    - 백필한 3장의 자기 YouTube Music URL (REMIX 3건 말고는 비어 있음. 이 지역에서 재생이 막혀 videoId를 못 받았다)
     - Note 열 자유 텍스트의 구조화(M3 일부)
+    - YouTube Music videoId 미확인: `SKY JOURNEY`, `始まりは君の空 [私を叶える物語盤]` 1·2번, 2021 유닛 풀앨범 3장의 33트랙. 이 환경에서는 Lantis 앨범이 모두 재생 불가로 나와 받지 못했다(§부록 A-2)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다

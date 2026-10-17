@@ -181,6 +181,14 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E6", ref, f"rom contains kana/kanji: {n.rom!r}", refs=(ref,))
         if has_kana(n.ko):
             add("E6", ref, f"ko contains kana: {n.ko!r}", refs=(ref,))
+    # an affiliation is printed in every language column, so a Japanese-script one needs per-language names (D31)
+    for w in ds.works.values():
+        lists = [w.credits.lyricist, w.credits.composer] + [r.arranger for r in w.recordings]
+        lists += [cs for r in w.recordings if r.credits_override for cs in (r.credits_override.lyricist, r.credits_override.composer)]
+        for c in (c for cs in lists for c in cs):
+            rom, ko = c.affiliation_in("rom"), c.affiliation_in("ko")
+            if has_kana_or_kanji(rom) or has_kana(ko):
+                add("E6", f"work:{w.id}", f"affiliation {c.affiliation!r} has Japanese script in rom/ko; give it per-language names")
     for p in ds.persons.values():
         ko_ev = p.evidence.get("names.ko")
         approved = ko_ev is not None and ko_ev.status in (m.Status.official, m.Status.established)
@@ -211,6 +219,19 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 add("E12", where, f"ja {full!r} breaks the spacing rule (expected {join_ja_name(f, g)!r})", refs=(where,))
             elif lang == "kana" and full != join_kana_name(f, g):
                 add("E12", where, f"kana {full!r} needs a space (expected {join_kana_name(f, g)!r})", refs=(where,))
+
+    # E13: no leading/trailing whitespace in names and titles (it leaks into the legacy cells)
+    def padded(where: str, n: m.Names | None) -> None:
+        for lang, v in (n.model_dump().items() if n else ()):
+            if v and v != v.strip():
+                add("E13", where, f"{lang} has leading/trailing whitespace: {v!r}")
+
+    for kind, ent in ds.iter_all():
+        for attr in ("names", "title", "family_name", "given_name"):
+            padded(f"{kind}:{ent.id}", getattr(ent, attr, None))
+    for w in ds.works.values():
+        for r in w.recordings:
+            padded(f"recording:{w.id}#{r.id}", r.title)
 
     # E11: one owner per YouTube video
     owners: dict[str, list[str]] = defaultdict(list)

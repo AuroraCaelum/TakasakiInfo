@@ -17,7 +17,8 @@ discs:
       - {no: 3, recording: nijigasaki/feel-alive#off-vocal}
       - {no: 4, recording: nijigasaki/go-our-way#off-vocal}
 streaming:
-  - editions: [e2]
+  - editions: [e1, e2]
+    browse_id: MPREb_t2GYO9L2a0i
     tracks:
       1-1: ouBYXbX9E5I
       1-2: qdpMCYr04vw
@@ -32,3 +33,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_t2GYO9L2a0i
+    checked: 2026-10-17
+    note: YouTube Music 앨범 하나를 두 에디션이 공유

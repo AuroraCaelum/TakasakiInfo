@@ -16,10 +16,17 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kyo-takada}
+    external_ids:
+      isrc: JPI101800906
     evidence:
       credits:
         status: legacy
         source: migration:legacy
+      same_recording:
+        status: established
+        source: https://musicbrainz.org/release/4f1ff5c0-1a3b-467e-b88b-280fa4647e6a
+        checked: 2026-10-17
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
   - id: off-vocal
     kind: off_vocal
     title:

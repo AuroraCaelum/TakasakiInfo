@@ -142,8 +142,13 @@ class Credit(Strict):
 
     person: str | None = None
     character: str | None = None
-    affiliation: str | None = None
+    affiliation: str | Names | None = None  # Names when the spelling differs by language (D31)
     role: Names | None = None
+
+    def affiliation_in(self, lang: str) -> str | None:
+        if isinstance(self.affiliation, Names):
+            return getattr(self.affiliation, lang)
+        return self.affiliation
 
     @model_validator(mode="after")
     def _exactly_one(self) -> Credit:

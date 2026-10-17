@@ -942,13 +942,14 @@ wikitext 예:
 | E3  | 출력 경로에 `draft` 값이 있음                                                                                                                          |
 | E4  | 서로 다른 두 인물의 매칭 키가 같음 (`distinct_from` 선언 시 제외)                                                                                      |
 | E5  | 디스크별 트랙 번호가 1..N이 아님 (중복 또는 누락)                                                                                                      |
-| E6  | `rom`에 가나·한자가 있음, `ko`에 가나가 있음                                                                                                           |
+| E6  | `rom`에 가나·한자가 있음, `ko`에 가나가 있음. 크레딧 소속도 rom·ko 칸에 그대로 찍히므로 같은 검사를 받는다(가나·한자 소속은 언어별 이름으로, D31) |
 | E7  | `native_script: latin`인 인물의 `ko`가 원문과 다름 (예외 선언이 없을 때)                                                                               |
 | E8  | 레거시 골든 테스트 실패: 데이터가 바뀌지 않은 영역의 산출물이 바이트 단위로 달라짐                                                                         |
 | E9  | 공연 세트리스트의 곡 항목이 Work로 해석되지 않음                                                                                                       |
 | E10 | 생성물(`albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json`)을 직접 수정한 커밋                                                           |
 | E11 | 서로 다른 Track의 **자기 URL**이 같은 YouTube videoId임 (`streaming.editions`로 공유를 명시한 경우 제외. 메인 URL 대체로 출력된 값은 비교 대상이 아님) |
 | E12 | 인물·캐릭터의 `family_name`·`given_name`을 합친 것이 전체 이름과 다름(언어별, 어순 무관, `・` 무시), 또는 ja·kana의 띄어쓰기가 5.2·5.5절 규칙과 다름 (결정 D26, D28) |
+| E13 | 이름·제목의 앞뒤에 공백이 있음 (레거시 칸에 그대로 새어 나간다) |
 
 **WARN: PR에 표시한다**
 
@@ -1023,7 +1024,10 @@ wikitext 예:
    - `未完成ドリーム！`: 가창자 rom 열의 `晴風サヤカ`·`鈴賀レナ` 순서가 ja·ko 열과 뒤바뀌어 있었음
    - `CYaRon!` 가창자 ja가 비어 있던 행 1개
    - `杉山勝彦`의 ko가 이름-성 순서(`카츠히코 스기야마`)였음 → `스기야마 카츠히코`
-9. 소속 표기를 정리한다. 이름 안에 남아 있던 소속(`栗原 暁(Jazzin'Park)`, `大熊淳生（Arte Refact）`)을 분리하고, `Arte Refract`(오타)를 `Arte Refact`로 고친다.
+   - `Awaken the power`의 `聖良と理亞を…` 3곡: 드라마 트랙인데 Note가 비어 있었음 → `Drama Part`
+   - 두 사람이 한 칸에 들어가 있던 크레딧 `小高光太郎・UiNA` → `小高 光太郎;UiNA`
+   - 이름·제목 끝의 공백 (`オードリー `, `Dream Land ! Dream World ! `, `Sarah to Leah o Omotenase! `)
+9. 소속 표기를 정리한다. 이름 안에 남아 있던 소속(`栗原 暁(Jazzin'Park)`, `大熊淳生（Arte Refact）`, `ヒロキ（リリィ、さよなら。）`)을 분리하고, `Arte Refract`(오타)를 `Arte Refact`로 고친다.
 10. 라틴 원어 이름의 ko를 원문으로 둔다(5.4절): `로렌 카오리` → `Lauren Kaori`, `INFX(이노픽스)` → `INFX`.
 11. 레거시에 REMIX 한 행씩만 있던 Aqours 유닛 1st 풀앨범 3장(CYaRon!「ある日…永遠みたいに！」, AZALEA「We'll get the next dream!!!」, Guilty Kiss「Shooting Star Warrior」)을 전체 14트랙으로 채운다. REMIX는 원곡 Work의 Recording(`#remix`)이고, 제목은 공식 트랙리스트 표기(`GENKI ZENKAI DAY!DAY!DAY! REMIX` 등)를 따른다. 기존 곡은 ISRC로 원래 음원과 같은지 확인했다.
 
@@ -1486,6 +1490,7 @@ TakasakiInfo/
 | D28 | —         | 2026-10-17 | 일본어 인명의 띄어쓰기 기본값: 성·이름이 모두 한자면 띄어 쓰고, 한쪽이 가나면 붙여 쓴다. 읽기(kana)는 항상 띄어 쓴다. 인물에도 `family_name`·`given_name`을 두고 규칙으로 렌더링한다. 성·이름이 모두 가나면 공식 표기를 따른다 | 5.2절, 5.5절, 8절(E12, W15), 10.1절 |
 | D29 | —         | 2026-10-17 | 뮤지컬 출연진처럼 배우가 배역으로 노래하면 가창자는 Person, 배역은 Character 참조(`role`). 앙상블은 Person만. 레거시는 `배우（배역役）` 형식을 유지 | 4.1절 |
 | D30 | —         | 2026-10-17 | 신곡의 한국어 제목은 나무위키 문서의 번역을 기본값으로 쓴다. 나무위키 번역에 오역 소지가 있을 때만 경고한다 | 5.4절, 15절 |
+| D31 | —         | 2026-10-17 | 크레딧 소속은 언어별 이름을 가질 수 있다(`ミト(クラムボン)` → rom·ko `Mito(clammbon)`, `미토(clammbon)`). 라틴 문자 소속은 지금처럼 문자열 하나 | 4.2절, 8절(E6) |
 
 ### 16.2 결정 필요 사항
 
@@ -1563,6 +1568,18 @@ TakasakiInfo/
 | 발매물                                                           | 트랙                                               | 처리                                                                                              |
 | ---------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | `始まりは君の空` `[みんなで叶える物語盤]` / `[私を叶える物語盤]` | 1 `始まりは君の空`, 2 `Dancing Heart La-Pa-Pa-Pa!` | YTM 앨범이 하나면 `streaming.editions`에 두 에디션을 명시. 에디션별 앨범이 있으면 각자 URL로 교체 |
+
+### A-2 점검 결과 (2026-10-17)
+
+| 대상 | 결과 |
+| --- | --- |
+| `SKY JOURNEY` | 잘못된 URL은 비웠다. 올바른 videoId는 미확인(YouTube Music 앨범 `MPREb_cgBDmXWpCi7`의 2번. 이 환경에서는 재생 불가로 나와 받지 못함). 지금은 CHRONICLE의 메인 URL로 대체 |
+| `シュガーメルト (Off Vocal)` | 고침 (a7e1d3d) |
+| `わちゅごなどぅー (Off Vocal)` | `NA` (D2) |
+| TVA BD 특전 11곡 | 10곡은 MusicBrainz에서 BD 특전 CD와 메인 URL 쪽 수록이 같은 음원(같은 ISRC)이라 대체 유지. `One More Sunshine Story`는 BD 음원이 솔로 앨범의 `(Album Version)`과 다른 음원이라 `NA` |
+| `Feel Alive / Go Our Way！（R3BIRTH盤）` | YouTube Music에 앨범이 하나뿐이고 두 에디션이 공유 → `streaming.editions: [e1, e2]`로 명시. 출력 URL은 같다 |
+| `始まりは君の空 [私を叶える物語盤]` 1·2번 | 에디션별 앨범이 따로 있다(`MPREb_X8vDiEYaCi5`). 자기 videoId는 미확인이라 아직 다른 에디션의 URL로 대체 |
+| 매장 특전 CD 6장 (TVA1·TVA2 BD Full) | 저장돼 있던 URL은 2021 유닛 풀앨범 트랙의 것이었다(같은 ISRC). 앨범 트랙의 자기 URL로 옮기고 특전 CD는 메인 URL로 대체. 출력은 같다 |
 
 ## 부록 B. 참고
 

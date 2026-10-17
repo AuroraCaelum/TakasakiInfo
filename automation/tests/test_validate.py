@@ -109,3 +109,21 @@ def test_credit_may_name_a_character():
     rec = m.Recording(id="original", arranger=[m.Credit(character="p/you")])
     assert "E2" not in _rules(_ds(_you(), recordings=[rec]))
     assert "E2" in _rules(_ds(recordings=[rec]))  # unknown character
+
+
+def test_affiliation_by_language():
+    # D31: an affiliation printed in every language column needs per-language names when it is Japanese script
+    ds = _ds()
+    ds.persons["mito"] = m.Person(id="mito", names=_names("ミト", "Mito", "미토"))
+    band = m.Credit(person="mito", affiliation=m.Names(ja="クラムボン", rom="clammbon", ko="clammbon"))
+    assert render_credits(ds, [band]) == ["ミト(クラムボン)", "Mito(clammbon)", "미토(clammbon)"]
+    assert render_credits(ds, [m.Credit(person="a", affiliation="FirstCall")])[1] == "Aki Hata(FirstCall)"
+    rec = m.Recording(id="original", arranger=[m.Credit(person="mito", affiliation="クラムボン")])
+    ds.works["p/w"].recordings = [rec]
+    assert "E6" in _rules(ds)
+
+
+def test_no_padding_in_names():
+    ds = _ds()
+    ds.works["p/w"].title.rom = "Kyoku "
+    assert "E13" in _rules(ds)
