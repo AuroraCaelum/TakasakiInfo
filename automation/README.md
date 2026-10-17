@@ -89,6 +89,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
   - 이키즈라이브 공식 사이트 어댑터(`takasaki official ikizulive`) 완료. 발매물 28개(AiScReam 「NEXT CARD」는 Phase 3), 곡 37개, 캐릭터·성우 각 10명, 그룹·유닛 8개, 새 스태프 34명. 이름은 `review/IKZ-*.yaml` 승인 대기라 데이터는 아직 커밋하지 않았다
+  - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트가 1순위, 위키·Fandom 등은 공식에 없는 정보와 교차 검증용. `takasaki validate`의 W16이 공식에 나온 값인데 근거가 다른 사이트뿐인 것을 표시한다(공식에 없음을 확인했으면 근거 note에 `공식 미게재`). 하스노소라 캐릭터·성우·라인업과 Aqours 2021 유닛 앨범 크레딧을 공식 페이지로 다시 확인했고, 남은 W16은 5건
   - 남은 것: 이키즈라이브 이름 승인 → YouTube Music 링크, README 생성
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)

@@ -2,14 +2,17 @@ id: hasunosora/rurino-osawa
 project: hasunosora
 names:
   ja: 大沢 瑠璃乃
+  kana: おおさわ るりの
   rom: Rurino Osawa
   ko: 오사와 루리노
 family_name:
   ja: 大沢
+  kana: おおさわ
   rom: Osawa
   ko: 오사와
 given_name:
   ja: 瑠璃乃
+  kana: るりの
   rom: Rurino
   ko: 루리노
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/05/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

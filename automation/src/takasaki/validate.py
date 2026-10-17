@@ -336,4 +336,34 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 empty.append(f"{w.id}#{r.id} ({', '.join(gaps)})")
     if empty:
         add("W14", "recordings", f"{len(empty)} vocal recordings have empty credits, e.g. {empty[:3]}")
+
+    # W16: the project's official site comes first (D36). A value it publishes whose only recorded
+    # source is another site (wiki, Fandom, lyrics or database sites) stays flagged until it is
+    # checked against the official page, or its note says the official site does not carry it.
+    for kind, ent in ds.iter_all():
+        ident = ent.id  # type: ignore[attr-defined]
+        scopes = [(ident, getattr(ent, "evidence", {}))]
+        scopes += [(f"{ident}#{r.id}", r.evidence) for r in getattr(ent, "recordings", [])]
+        for where, evidence in scopes:
+            for key, ev in evidence.items():
+                if official_first(kind, key) and ev.source and ev.source.startswith("http") and not is_official(ev.source) \
+                        and NOT_ON_OFFICIAL not in (ev.note or ""):
+                    add("W16", f"{kind}:{where}", f"{key} rests on {ev.source.split('/')[2]} only; check the official page")
     return out
+
+
+# project sites and the portal, the label, and the official streaming release (its distributed titles)
+NOT_ON_OFFICIAL = "공식 미게재"  # evidence note: the official site was checked and does not carry the value
+OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
+
+
+def is_official(url: str) -> bool:
+    return url.split("/")[2] in OFFICIAL_HOSTS if url.count("/") >= 2 else False
+
+
+def official_first(kind: str, key: str) -> bool:
+    """Evidence keys whose value the official site publishes (DESIGN.md §6.2). Korean spellings,
+    readings, a person's own romanization (§5.3 ②) and recording checks come from elsewhere."""
+    if key.endswith((".ko", ".kana")) or (kind == "person" and key == "names.rom"):
+        return False
+    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date"}

@@ -13,12 +13,14 @@ given_name:
   ko: 렌
 evidence:
   names:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd32.php
+    checked: 2026-10-18
+    note: ja는 공식 크레딧 표기, rom·ko는 라틴 원문 (latin-ko)
   names.ja:
-    status: established
-    source: https://www.uta-net.com/composer/50681/
-    checked: 2026-10-17
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd32.php
+    checked: 2026-10-18
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

@@ -2,14 +2,17 @@ id: hasunosora/sayaka-murano
 project: hasunosora
 names:
   ja: 村野さやか
+  kana: むらの さやか
   rom: Sayaka Murano
   ko: 무라노 사야카
 family_name:
   ja: 村野
+  kana: むらの
   rom: Murano
   ko: 무라노
 given_name:
   ja: さやか
+  kana: さやか
   rom: Sayaka
   ko: 사야카
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/02/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

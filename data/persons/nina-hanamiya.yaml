@@ -1,14 +1,17 @@
 id: nina-hanamiya
 names:
   ja: 花宮 初奈
+  kana: はなみや にいな
   rom: Nina Hanamiya
   ko: 하나미야 니나
 family_name:
   ja: 花宮
+  kana: はなみや
   rom: Hanamiya
   ko: 하나미야
 given_name:
   ja: 初奈
+  kana: にいな
   rom: Nina
   ko: 니나
 evidence:
@@ -18,3 +21,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/03/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

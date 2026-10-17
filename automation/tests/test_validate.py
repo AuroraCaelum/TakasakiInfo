@@ -165,3 +165,19 @@ def test_draft_values_are_not_output():
     ds.releases["p/r"].status = "announced"
     assert "E3" not in _rules(ds)
     assert build_legacy(ds)["albums/P/P.csv"].decode("utf-8-sig").count("\r\n") == 0  # header only
+
+
+def test_w16_flags_official_fields_sourced_elsewhere():
+    from takasaki.validate import official_first
+
+    ds = Dataset()
+    wiki = m.Evidence(status=m.Status.established, source="https://ja.wikipedia.org/wiki/X")
+    namu = m.Evidence(status=m.Status.established, source="https://namu.wiki/w/X")
+    off = m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/hasunosora/member/07/")
+    ds.persons["a"] = m.Person(id="a", names=m.Names(ja="甲", rom="Ko", ko="고"),
+                               evidence={"names.ja": wiki, "names.ko": namu, "names.rom": wiki})
+    ds.artists["u"] = m.Artist(id="u", kind="unit", names=m.Names(ja="U", rom="U", ko="U"),
+                               evidence={"lineups": wiki, "names": off})
+    w16 = sorted(f.where + " " + f.message.split()[0] for f in validate(ds) if f.rule == "W16")
+    assert w16 == ["artist:u lineups", "person:a names.ja"]  # ko and a person's own rom are not official-first
+    assert not official_first("work", "same_recording") and official_first("release", "tracks")
