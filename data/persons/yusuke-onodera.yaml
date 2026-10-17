@@ -1,9 +1,20 @@
 id: yusuke-onodera
 names:
-  ja: 小野寺祐輔
+  ja: 小野寺 祐輔
   rom: Yusuke Onodera
   ko: 오노데라 유스케
+family_name:
+  ja: 小野寺
+  rom: Onodera
+  ko: 오노데라
+given_name:
+  ja: 祐輔
+  rom: Yusuke
+  ko: 유스케
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

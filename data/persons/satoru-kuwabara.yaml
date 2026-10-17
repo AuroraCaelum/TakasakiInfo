@@ -3,7 +3,18 @@ names:
   ja: 桑原 聖
   rom: Satoru Kuwabara
   ko: 쿠와바라 사토루
+family_name:
+  ja: 桑原
+  rom: Kuwabara
+  ko: 쿠와바라
+given_name:
+  ja: 聖
+  rom: Satoru
+  ko: 사토루
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -3,7 +3,18 @@ names:
   ja: 中村 歩
   rom: Ayumu Nakamura
   ko: 나카무라 아유무
+family_name:
+  ja: 中村
+  rom: Nakamura
+  ko: 나카무라
+given_name:
+  ja: 歩
+  rom: Ayumu
+  ko: 아유무
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

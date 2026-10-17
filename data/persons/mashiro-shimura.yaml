@@ -1,0 +1,27 @@
+id: mashiro-shimura
+names:
+  ja: 志村 真白
+  rom: Mashiro Shimura
+  ko: 시무라 마시로
+family_name:
+  ja: 志村
+  rom: Shimura
+  ko: 시무라
+given_name:
+  ja: 真白
+  rom: Mashiro
+  ko: 마시로
+evidence:
+  names.ja:
+    status: established
+    source: https://utaten.com/lyric/mi24011601/
+    checked: 2026-10-17
+  names.rom:
+    status: derived
+    note: §5.3 규칙
+  names.ko:
+    status: derived
+    note: §5.4 규칙
+  name_parts:
+    status: derived
+    note: 성·이름 분리 (D28)

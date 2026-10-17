@@ -3,7 +3,18 @@ names:
   ja: 大西 亜玖璃
   rom: Aguri Onishi
   ko: 오오니시 아구리
+family_name:
+  ja: 大西
+  rom: Onishi
+  ko: 오오니시
+given_name:
+  ja: 亜玖璃
+  rom: Aguri
+  ko: 아구리
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

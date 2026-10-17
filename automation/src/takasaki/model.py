@@ -76,8 +76,13 @@ class Alias(Strict):
 
 
 class Person(Strict):
+    """Japanese names keep the family/given split; ``names.ja`` and ``names.kana`` are written
+    from it by the spacing rule (D28)."""
+
     id: str
     names: Names
+    family_name: Names | None = None
+    given_name: Names | None = None
     native_script: Literal["ja", "latin"] = "ja"
     aliases: list[Alias] = []
     distinct_from: list[str] = []
@@ -91,8 +96,8 @@ class Casting(Strict):
 
 
 class Character(Strict):
-    """``names.ja`` is written without a space (渡辺曜); the split lives in ``family_name`` /
-    ``given_name`` (D26)."""
+    """The family/given split lives in ``family_name`` / ``given_name`` (D26); ``names.ja`` is
+    written from it by the spacing rule (D28)."""
 
     id: str
     project: str
@@ -152,18 +157,29 @@ class Credit(Strict):
 
 
 class Performer(Strict):
+    """An artist, a character, or a person. A person singing in a role (musical cast,
+    ``堀内まり菜（椿ルリカ役）``) names the character in ``role`` (D29)."""
+
     artist: str | None = None
     character: str | None = None
+    person: str | None = None
+    role: str | None = None  # character id, only with ``person``
 
     @model_validator(mode="after")
     def _exactly_one(self) -> Performer:
-        if (self.artist is None) == (self.character is None):
-            raise ValueError("performer needs exactly one of artist / character")
+        if sum(x is not None for x in (self.artist, self.character, self.person)) != 1:
+            raise ValueError("performer needs exactly one of artist / character / person")
+        if self.role is not None and self.person is None:
+            raise ValueError("role is only for a person")
         return self
 
     @property
     def ref(self) -> tuple[str, str]:
-        return ("artist", self.artist) if self.artist else ("character", self.character)  # type: ignore[return-value]
+        if self.artist:
+            return ("artist", self.artist)
+        if self.character:
+            return ("character", self.character)
+        return ("person", self.person)  # type: ignore[return-value]
 
 
 class WorkCredits(Strict):

@@ -3,7 +3,18 @@ names:
   ja: 月音こな
   rom: Kona Tsukine
   ko: 츠키네 코나
+family_name:
+  ja: 月音
+  rom: Tsukine
+  ko: 츠키네
+given_name:
+  ja: こな
+  rom: Kona
+  ko: 코나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

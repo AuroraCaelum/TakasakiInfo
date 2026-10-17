@@ -1,9 +1,20 @@
 id: yoshiaki-fujisawa
 names:
-  ja: 藤澤慶昌
+  ja: 藤澤 慶昌
   rom: Yoshiaki Fujisawa
   ko: 후지사와 요시아키
+family_name:
+  ja: 藤澤
+  rom: Fujisawa
+  ko: 후지사와
+given_name:
+  ja: 慶昌
+  rom: Yoshiaki
+  ko: 요시아키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

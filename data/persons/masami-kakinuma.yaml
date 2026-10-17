@@ -1,9 +1,20 @@
 id: masami-kakinuma
 names:
-  ja: 柿沼雅美
+  ja: 柿沼 雅美
   rom: Masami Kakinuma
   ko: 카키누마 마사미
+family_name:
+  ja: 柿沼
+  rom: Kakinuma
+  ko: 카키누마
+given_name:
+  ja: 雅美
+  rom: Masami
+  ko: 마사미
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

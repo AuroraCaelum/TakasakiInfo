@@ -97,6 +97,8 @@ def main_videos(ds: Dataset) -> dict[str, str]:
 def _names_of(ds: Dataset, perf: m.Performer) -> m.Names:
     if perf.artist:
         return ds.artists[perf.artist].names
+    if perf.person:
+        return ds.persons[perf.person].names
     return ds.characters[perf.character].names  # type: ignore[index]
 
 
@@ -105,8 +107,15 @@ def _join(values: list[str]) -> str:
 
 
 def render_performers(ds: Dataset, performers: list[m.Performer]) -> list[str]:
-    names = [_names_of(ds, p) for p in performers]
-    return [_join([getattr(n, lang) or "" for n in names]) for lang in LANGS]
+    out = []
+    for lang in LANGS:
+        parts = []
+        for p in performers:
+            name = getattr(_names_of(ds, p), lang) or ""
+            role = getattr(ds.characters[p.role].names, lang) if p.role else None
+            parts.append(render_credit_name(name, lang, role=role) if role else name)
+        out.append(_join(parts))
+    return out
 
 
 def _credit_names(ds: Dataset, c: m.Credit) -> m.Names:

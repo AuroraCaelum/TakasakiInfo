@@ -1,9 +1,20 @@
 id: reiji-yamamoto
 names:
-  ja: 山本玲史
+  ja: 山本 玲史
   rom: Reiji Yamamoto
   ko: 야마모토 레이지
+family_name:
+  ja: 山本
+  rom: Yamamoto
+  ko: 야마모토
+given_name:
+  ja: 玲史
+  rom: Reiji
+  ko: 레이지
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

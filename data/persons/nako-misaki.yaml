@@ -3,7 +3,18 @@ names:
   ja: 岬なこ
   rom: Nako Misaki
   ko: 미사키 나코
+family_name:
+  ja: 岬
+  rom: Misaki
+  ko: 미사키
+given_name:
+  ja: なこ
+  rom: Nako
+  ko: 나코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -3,7 +3,18 @@ names:
   ja: 内田 秀
   rom: Shu Uchida
   ko: 우치다 슈우
+family_name:
+  ja: 内田
+  rom: Uchida
+  ko: 우치다
+given_name:
+  ja: 秀
+  rom: Shu
+  ko: 슈우
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

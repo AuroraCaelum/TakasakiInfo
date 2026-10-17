@@ -1,9 +1,20 @@
 id: taishi-noguchi
 names:
-  ja: 野口大志
+  ja: 野口 大志
   rom: Taishi Noguchi
   ko: 노구치 타이시
+family_name:
+  ja: 野口
+  rom: Noguchi
+  ko: 노구치
+given_name:
+  ja: 大志
+  rom: Taishi
+  ko: 타이시
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

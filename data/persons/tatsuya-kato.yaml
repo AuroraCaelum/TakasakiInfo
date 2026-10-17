@@ -1,9 +1,20 @@
 id: tatsuya-kato
 names:
-  ja: 加藤達也
+  ja: 加藤 達也
   rom: Tatsuya Kato
   ko: 카토 타츠야
+family_name:
+  ja: 加藤
+  rom: Kato
+  ko: 카토
+given_name:
+  ja: 達也
+  rom: Tatsuya
+  ko: 타츠야
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

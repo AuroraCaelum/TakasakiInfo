@@ -1,9 +1,20 @@
 id: kotaro-egami
 names:
-  ja: 江上浩太郎
+  ja: 江上 浩太郎
   rom: Kotaro Egami
   ko: 에가미 코타로
+family_name:
+  ja: 江上
+  rom: Egami
+  ko: 에가미
+given_name:
+  ja: 浩太郎
+  rom: Kotaro
+  ko: 코타로
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

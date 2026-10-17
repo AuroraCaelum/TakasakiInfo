@@ -1,9 +1,20 @@
 id: takayuki-yoshimura
 names:
-  ja: 吉村隆行
+  ja: 吉村 隆行
   rom: Takayuki Yoshimura
   ko: 요시무라 타카유키
+family_name:
+  ja: 吉村
+  rom: Yoshimura
+  ko: 요시무라
+given_name:
+  ja: 隆行
+  rom: Takayuki
+  ko: 타카유키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -1,9 +1,20 @@
 id: ryuki-baba
 names:
-  ja: 馬場龍樹
+  ja: 馬場 龍樹
   rom: Ryuki Baba
   ko: 바바 류키
+family_name:
+  ja: 馬場
+  rom: Baba
+  ko: 바바
+given_name:
+  ja: 龍樹
+  rom: Ryuki
+  ko: 류키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

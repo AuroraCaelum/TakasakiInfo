@@ -1,9 +1,20 @@
 id: aika-kobayashi
 names:
-  ja: 小林愛香
+  ja: 小林 愛香
   rom: Aika Kobayashi
   ko: 코바야시 아이카
+family_name:
+  ja: 小林
+  rom: Kobayashi
+  ko: 코바야시
+given_name:
+  ja: 愛香
+  rom: Aika
+  ko: 아이카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

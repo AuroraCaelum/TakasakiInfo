@@ -1,9 +1,20 @@
 id: junko-miyajima
 names:
-  ja: 宮嶋淳子
+  ja: 宮嶋 淳子
   rom: Junko Miyajima
   ko: 미야지마 준코
+family_name:
+  ja: 宮嶋
+  rom: Miyajima
+  ko: 미야지마
+given_name:
+  ja: 淳子
+  rom: Junko
+  ko: 준코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

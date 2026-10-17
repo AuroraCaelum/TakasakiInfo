@@ -16,6 +16,8 @@ recordings:
       - {artist: cyaron}
     arranger:
       - {person: kyo-takada}
+    external_ids:
+      isrc: JPI101901793
     evidence:
       credits:
         status: legacy
@@ -37,6 +39,24 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: remix
+    title:
+      ja: Braveheart Coaster REMIX
+      rom: Braveheart Coaster REMIX
+      ko: Braveheart Coaster REMIX
+    version: REMIX
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: dj-kira}
+    external_ids:
+      isrc: JPI102101062
+    evidence:
+      credits:
+        status: established
+        source: https://musicbrainz.org/release/3251d98e-3dd8-44c2-a693-341fe7675990
+        checked: 2026-10-17
+        note: 리믹서
 evidence:
   credits:
     status: legacy

@@ -1,9 +1,20 @@
 id: miyu-kubota
 names:
-  ja: 久保田未夢
+  ja: 久保田 未夢
   rom: Miyu Kubota
   ko: 쿠보타 미유
+family_name:
+  ja: 久保田
+  rom: Kubota
+  ko: 쿠보타
+given_name:
+  ja: 未夢
+  rom: Miyu
+  ko: 미유
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

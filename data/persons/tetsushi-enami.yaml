@@ -1,9 +1,20 @@
 id: tetsushi-enami
 names:
-  ja: 江並哲志
+  ja: 江並 哲志
   rom: Tetsushi Enami
   ko: 에나미 테츠시
+family_name:
+  ja: 江並
+  rom: Enami
+  ko: 에나미
+given_name:
+  ja: 哲志
+  rom: Tetsushi
+  ko: 테츠시
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

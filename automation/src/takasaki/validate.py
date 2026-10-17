@@ -15,7 +15,7 @@ from ruamel.yaml import YAML
 from . import model as m
 from .build_legacy import edition_ids, edition_tracks, own_video
 from .store import Dataset
-from .text import has_kana, has_kana_or_kanji, match_key
+from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
 
 @dataclass
@@ -69,6 +69,8 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     def perf(p: m.Performer, where: str) -> None:
         need(ds.artists, p.artist, where, "artist")
         need(ds.characters, p.character, where, "character")
+        need(ds.persons, p.person, where, "person")
+        need(ds.characters, p.role, where, "character (role)")
 
     def creds(cs: list[m.Credit], where: str) -> None:
         for c in cs:
@@ -186,20 +188,29 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E7", f"person:{p.id}", f"Latin-native name has ko {p.names.ko!r} (expected {p.names.ja!r})",
                 refs=(f"person:{p.id}",))
 
-    # E12: character name parts (D26)
-    for c in ds.characters.values():
-        where = f"character:{c.id}"
-        if c.names.ja and (" " in c.names.ja or "　" in c.names.ja):
-            add("E12", where, f"ja is written without a space: {c.names.ja!r}", refs=(where,))
-        if c.family_name is None and c.given_name is None:
+    # E12 / W15: name parts and Japanese name spacing (D26, D28)
+    split_names = (
+        [(f"person:{p.id}", p) for p in ds.persons.values()]
+        + [(f"character:{c.id}", c) for c in ds.characters.values()]
+    )
+    for where, ent in split_names:
+        n = ent.names
+        if ent.family_name is None and ent.given_name is None:
+            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2:
+                add("W15", where, f"Japanese name without family/given split: {n.ja!r}")
             continue
-        fam, giv = c.family_name or m.Names(), c.given_name or m.Names()
+        fam, giv = ent.family_name or m.Names(), ent.given_name or m.Names()
         for lang in ("ja", "kana", "rom", "ko"):
-            full, f, g = getattr(c.names, lang), getattr(fam, lang), getattr(giv, lang)
+            full, f, g = getattr(n, lang), getattr(fam, lang), getattr(giv, lang)
             if f is None and g is None:
                 continue
             if not (f and g and full) or _bare(full) not in (_bare(f + g), _bare(g + f)):
                 add("E12", where, f"{lang}: family {f!r} + given {g!r} does not make {full!r}", refs=(where,))
+            elif lang == "ja" and "・" not in full and (has_kanji(f) or has_kanji(g)) and full != join_ja_name(f, g):
+                # all-kana names follow the official notation, so only names with kanji are checked
+                add("E12", where, f"ja {full!r} breaks the spacing rule (expected {join_ja_name(f, g)!r})", refs=(where,))
+            elif lang == "kana" and full != join_kana_name(f, g):
+                add("E12", where, f"kana {full!r} needs a space (expected {join_kana_name(f, g)!r})", refs=(where,))
 
     # E11: one owner per YouTube video
     owners: dict[str, list[str]] = defaultdict(list)

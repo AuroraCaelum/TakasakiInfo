@@ -3,7 +3,18 @@ names:
   ja: 丸谷マナブ
   rom: Manabu Marutani
   ko: 마루타니 마나부
+family_name:
+  ja: 丸谷
+  rom: Marutani
+  ko: 마루타니
+given_name:
+  ja: マナブ
+  rom: Manabu
+  ko: 마나부
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

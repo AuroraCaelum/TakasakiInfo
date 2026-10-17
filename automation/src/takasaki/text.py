@@ -59,6 +59,30 @@ def has_kana_or_kanji(s: str | None) -> bool:
     return bool(s) and bool(re.search(f"[{_KANA}㐀-鿿]", s))  # type: ignore[arg-type]
 
 
+# kanji, including compatibility ideographs (中﨑) and the marks written as part of a kanji name
+_KANJI = "㐀-鿿豈-﫿々〆ヶ"
+
+
+def has_kanji(s: str | None) -> bool:
+    return bool(s) and re.search(f"[{_KANJI}]", s) is not None  # type: ignore[arg-type]
+
+
+def is_all_kanji(s: str | None) -> bool:
+    return bool(s) and re.fullmatch(f"[{_KANJI}]+", s) is not None  # type: ignore[arg-type]
+
+
+def join_ja_name(family: str, given: str) -> str:
+    """Japanese name spacing (DESIGN.md §5.2, D28): a space only when both parts are all kanji
+    (畑 亜貴, 渡辺 曜); none when one part has kana (光増ハジメ, 中須かすみ). All-kana names follow
+    their official notation instead, so this is only the default for them."""
+    return f"{family} {given}" if is_all_kanji(family) and is_all_kanji(given) else family + given
+
+
+def join_kana_name(family: str, given: str) -> str:
+    """Name readings always take a space (わたなべ よう)."""
+    return f"{family} {given}"
+
+
 # --- credits ------------------------------------------------------------------
 
 LANGS = ("ja", "rom", "ko")

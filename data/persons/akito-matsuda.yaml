@@ -1,9 +1,20 @@
 id: akito-matsuda
 names:
-  ja: 松田彬人
+  ja: 松田 彬人
   rom: Akito Matsuda
   ko: 마츠다 아키토
+family_name:
+  ja: 松田
+  rom: Matsuda
+  ko: 마츠다
+given_name:
+  ja: 彬人
+  rom: Akito
+  ko: 아키토
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

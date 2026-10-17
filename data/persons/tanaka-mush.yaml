@@ -3,7 +3,18 @@ names:
   ja: 田中マッシュ
   rom: Tanaka Mush
   ko: 타나카 맛슈
+family_name:
+  ja: 田中
+  rom: Tanaka
+  ko: 타나카
+given_name:
+  ja: マッシュ
+  rom: Mush
+  ko: 맛슈
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

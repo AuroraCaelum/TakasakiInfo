@@ -1,9 +1,20 @@
 id: akihiko-yamaguchi
 names:
-  ja: 山口朗彦
+  ja: 山口 朗彦
   rom: Akihiko Yamaguchi
   ko: 야마구치 아키히코
+family_name:
+  ja: 山口
+  rom: Yamaguchi
+  ko: 야마구치
+given_name:
+  ja: 朗彦
+  rom: Akihiko
+  ko: 아키히코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

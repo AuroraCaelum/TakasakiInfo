@@ -1,9 +1,20 @@
 id: shuka-saito
 names:
-  ja: 斉藤朱夏
+  ja: 斉藤 朱夏
   rom: Shuka Saito
   ko: 사이토 슈카
+family_name:
+  ja: 斉藤
+  rom: Saito
+  ko: 사이토
+given_name:
+  ja: 朱夏
+  rom: Shuka
+  ko: 슈카
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

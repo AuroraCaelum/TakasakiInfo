@@ -46,9 +46,14 @@ def _table(ds: Dataset, kind: str) -> dict[str, Any]:
 
 
 def _rewrite_performer(p: m.Performer, src: tuple[str, str], dst: tuple[str, str]) -> m.Performer:
+    role = p.role
+    if src[0] == "character" and role == src[1]:
+        role = dst[1]
     if p.ref != src:
-        return p
-    return m.Performer(**{dst[0]: dst[1]})
+        return p if role == p.role else p.model_copy(update={"role": role})
+    if role is not None and dst[0] != "person":
+        raise ReviewError(f"person:{src[1]} sings in a role, cannot merge it into {dst[0]}:{dst[1]}")
+    return m.Performer(**{dst[0]: dst[1]}, role=role)
 
 
 def merge(ds: Dataset, refs: list[str], target: str) -> str:
@@ -69,10 +74,9 @@ def merge(ds: Dataset, refs: list[str], target: str) -> str:
         if ent is None:
             raise ReviewError(f"unknown {ref!r}")
         _rewrite_credits(ds, src, dst)
+        _rewrite_performer_refs(ds, src, dst)
         if src[0] == "person":
             _rewrite_casting(ds, src[1], dst)
-        else:
-            _rewrite_performer_refs(ds, src, dst)
         if hasattr(tgt, "aliases"):
             for lang in ("ja", "rom", "ko"):
                 text = getattr(ent.names, lang)

@@ -3,7 +3,18 @@ names:
   ja: 法元 明菜
   rom: Akina Homoto
   ko: 호모토 아키나
+family_name:
+  ja: 法元
+  rom: Homoto
+  ko: 호모토
+given_name:
+  ja: 明菜
+  rom: Akina
+  ko: 아키나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -3,7 +3,18 @@ names:
   ja: 伊達さゆり
   rom: Sayuri Date
   ko: 다테 사유리
+family_name:
+  ja: 伊達
+  rom: Date
+  ko: 다테
+given_name:
+  ja: さゆり
+  rom: Sayuri
+  ko: 사유리
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

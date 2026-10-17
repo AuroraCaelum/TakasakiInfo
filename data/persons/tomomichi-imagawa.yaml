@@ -3,7 +3,18 @@ names:
   ja: 今川トモミチ
   rom: Tomomichi Imagawa
   ko: 이마가와 토모미치
+family_name:
+  ja: 今川
+  rom: Imagawa
+  ko: 이마가와
+given_name:
+  ja: トモミチ
+  rom: Tomomichi
+  ko: 토모미치
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

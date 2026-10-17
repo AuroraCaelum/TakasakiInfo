@@ -1,9 +1,20 @@
 id: rina-koyama
 names:
-  ja: 小山璃奈
+  ja: 小山 璃奈
   rom: Rina Koyama
   ko: 코야마 리나
+family_name:
+  ja: 小山
+  rom: Koyama
+  ko: 코야마
+given_name:
+  ja: 璃奈
+  rom: Rina
+  ko: 리나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

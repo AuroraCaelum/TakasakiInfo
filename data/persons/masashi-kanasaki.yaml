@@ -1,9 +1,20 @@
 id: masashi-kanasaki
 names:
-  ja: 金崎真士
+  ja: 金崎 真士
   rom: Masashi Kanasaki
   ko: 카나사키 마사시
+family_name:
+  ja: 金崎
+  rom: Kanasaki
+  ko: 카나사키
+given_name:
+  ja: 真士
+  rom: Masashi
+  ko: 마사시
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

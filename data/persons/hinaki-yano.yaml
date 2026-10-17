@@ -1,8 +1,16 @@
 id: hinaki-yano
 names:
-  ja: 矢野妃菜喜
+  ja: 矢野 妃菜喜
   rom: Hinaki Yano
   ko: 야노 히나키
+family_name:
+  ja: 矢野
+  rom: Yano
+  ko: 야노
+given_name:
+  ja: 妃菜喜
+  rom: Hinaki
+  ko: 히나키
 evidence:
   names.ja:
     status: established
@@ -14,3 +22,6 @@ evidence:
   names.ko:
     status: derived
     note: §5.4 규칙
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

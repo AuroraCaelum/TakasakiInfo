@@ -1,0 +1,51 @@
+id: aqours/2021-shooting-star-warrior
+type: album
+title:
+  ja: Shooting Star Warrior
+  rom: Shooting Star Warrior
+projects: [aqours]
+artist_credit:
+  - {artist: guilty-kiss}
+label: Lantis
+release_date: 2021-07-28
+editions:
+  - id: e1
+    catalog: LACA-15883
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/shooting-star-warrior#original}
+      - {no: 2, recording: aqours/deep-sea-cocoon#original}
+      - {no: 3, recording: aqours/strawberry-trapper#remix, note: REMIX}
+      - {no: 4, recording: aqours/strawberry-trapper#original}
+      - {no: 5, recording: aqours/guilty-night-guilty-kiss#original}
+      - {no: 6, recording: aqours/guilty-eyes-fever#original}
+      - {no: 7, recording: aqours/kowareyasuki#original}
+      - {no: 8, recording: aqours/shadow-gate-to-love#original}
+      - {no: 9, recording: aqours/nameless-love-song#original}
+      - {no: 10, recording: aqours/new-romantic-sailors#remix, note: REMIX}
+      - {no: 11, recording: aqours/new-romantic-sailors#original}
+      - {no: 12, recording: aqours/love-pulsar#original}
+      - {no: 13, recording: aqours/phantom-rocket-adventure#original}
+      - {no: 14, recording: aqours/guilty-farewell-party#original}
+streaming:
+  - browse_id: MPREb_1vfO0jXAxvv
+    tracks:
+      1-3: -ggh4kotDvo
+links:
+  musicbrainz: https://musicbrainz.org/release/5e302b37-9f2a-4c54-97de-edfccb1ee1b6
+legacy:
+  category: Aqours
+  albums:
+    - {title: Shooting Star Warrior, edition: e1}
+evidence:
+  tracks:
+    status: established
+    source: https://musicbrainz.org/release/5e302b37-9f2a-4c54-97de-edfccb1ee1b6
+    checked: 2026-10-17
+    note: 트랙리스트·ISRC·리믹서
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_1vfO0jXAxvv
+    checked: 2026-10-17
+    note: 이 지역에서 재생 불가라 videoId 미확인. 3번 트랙만 레거시 값

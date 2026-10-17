@@ -1,9 +1,20 @@
 id: mikio-muraki
 names:
-  ja: 村木海季男
+  ja: 村木 海季男
   rom: Mikio Muraki
   ko: 무라키 미키오
+family_name:
+  ja: 村木
+  rom: Muraki
+  ko: 무라키
+given_name:
+  ja: 海季男
+  rom: Mikio
+  ko: 미키오
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

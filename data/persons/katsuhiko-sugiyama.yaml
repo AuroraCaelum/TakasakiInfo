@@ -1,9 +1,20 @@
 id: katsuhiko-sugiyama
 names:
-  ja: 杉山勝彦
+  ja: 杉山 勝彦
   rom: Katsuhiko Sugiyama
-  ko: 카츠히코 스기야마
+  ko: 스기야마 카츠히코
+family_name:
+  ja: 杉山
+  rom: Sugiyama
+  ko: 스기야마
+given_name:
+  ja: 勝彦
+  rom: Katsuhiko
+  ko: 카츠히코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

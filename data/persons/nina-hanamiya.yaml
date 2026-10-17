@@ -3,7 +3,18 @@ names:
   ja: 花宮 初奈
   rom: Nina Hanamiya
   ko: 하나미야 니나
+family_name:
+  ja: 花宮
+  rom: Hanamiya
+  ko: 하나미야
+given_name:
+  ja: 初奈
+  rom: Nina
+  ko: 니나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

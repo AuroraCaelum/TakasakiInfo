@@ -1,9 +1,20 @@
 id: morito-yonezawa
 names:
-  ja: 米澤森人
+  ja: 米澤 森人
   rom: Morito Yonezawa
   ko: 요네자와 모리토
+family_name:
+  ja: 米澤
+  rom: Yonezawa
+  ko: 요네자와
+given_name:
+  ja: 森人
+  rom: Morito
+  ko: 모리토
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

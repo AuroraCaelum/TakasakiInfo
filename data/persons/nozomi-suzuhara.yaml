@@ -1,9 +1,20 @@
 id: nozomi-suzuhara
 names:
-  ja: 鈴原希実
+  ja: 鈴原 希実
   rom: Nozomi Suzuhara
   ko: 스즈하라 노조미
+family_name:
+  ja: 鈴原
+  rom: Suzuhara
+  ko: 스즈하라
+given_name:
+  ja: 希実
+  rom: Nozomi
+  ko: 노조미
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

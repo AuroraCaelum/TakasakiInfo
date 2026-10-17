@@ -1,3 +1,5 @@
+import pytest
+
 from takasaki import model as m
 from takasaki.build_legacy import render_credits, render_performers
 from takasaki.store import Dataset
@@ -23,7 +25,7 @@ def _rules(ds: Dataset) -> list[str]:
 
 
 def _you(**kw) -> m.Character:
-    return m.Character(id="p/you", project="p", names=_names("渡辺曜", "You Watanabe", "와타나베 요우"), **kw)
+    return m.Character(id="p/you", project="p", names=_names("渡辺 曜", "You Watanabe", "와타나베 요우"), **kw)
 
 
 def test_name_parts_match_the_full_name():
@@ -39,9 +41,53 @@ def test_name_parts_match_the_full_name():
     assert "E12" in _rules(_ds(half))
 
 
-def test_character_ja_has_no_space():
-    spaced = m.Character(id="p/you", project="p", names=_names("渡辺 曜", "You Watanabe", "와타나베 요우"))
-    assert "E12" in _rules(_ds(spaced))
+def test_japanese_spacing_rule():
+    # D28: a space only when both parts are kanji; readings always take a space
+    parts = {"family_name": _names("渡辺", "Watanabe", "와타나베"), "given_name": _names("曜", "You", "요우")}
+    unspaced = m.Character(id="p/you", project="p", names=_names("渡辺曜", "You Watanabe", "와타나베 요우"), **parts)
+    assert "E12" in _rules(_ds(unspaced))
+    kasumi = dict(id="p/kasumi", project="p", family_name=_names("中須", "Nakasu", "나카스"),
+                  given_name=_names("かすみ", "Kasumi", "카스미"))
+    assert "E12" not in _rules(_ds(m.Character(names=_names("中須かすみ", "Kasumi Nakasu", "나카스 카스미"), **kasumi)))
+    assert "E12" in _rules(_ds(m.Character(names=_names("中須 かすみ", "Kasumi Nakasu", "나카스 카스미"), **kasumi)))
+    reading = _you(**parts)
+    reading.names.kana, reading.family_name.kana, reading.given_name.kana = "わたなべよう", "わたなべ", "よう"
+    assert "E12" in _rules(_ds(reading))
+    reading.names.kana = "わたなべ よう"
+    assert "E12" not in _rules(_ds(reading))
+    # all-kana names follow the official notation, spaced or not
+    for ja in ("サイトウリョースケ", "サイトウ リョースケ"):
+        ds = _ds()
+        ds.persons["rs"] = m.Person(id="rs", names=_names(ja, "Ryosuke Saito", "사이토 료스케"),
+                                    family_name=_names("サイトウ", "Saito", "사이토"), given_name=_names("リョースケ", "Ryosuke", "료스케"))
+        assert not [f for f in validate(ds) if f.rule == "E12" and "rs" in f.where]
+
+
+def test_japanese_name_without_split_warns():
+    ds = _ds()
+    assert "W15" in _rules(ds)  # 畑亜貴 has no family/given split
+    ds.persons["a"].family_name, ds.persons["a"].given_name = _names("畑", "Hata", "하타"), _names("亜貴", "Aki", "아키")
+    ds.persons["a"].names.ja = "畑 亜貴"
+    assert "W15" not in _rules(ds) and "E12" not in _rules(ds)
+
+
+def test_person_in_a_role_renders_as_cast_credit():
+    # D29: musical cast sing as persons in a role
+    ds = _ds(m.Character(id="p/rurika", project="p", names=_names("椿ルリカ", "Rurika Tsubaki", "츠바키 루리카")))
+    ds.persons["mh"] = m.Person(id="mh", names=_names("堀内まり菜", "Marina Horiuchi", "호리우치 마리나"))
+    perf = m.Performer(person="mh", role="p/rurika")
+    assert render_performers(ds, [perf, m.Performer(person="a")]) == [
+        "堀内まり菜（椿ルリカ役）;畑亜貴", "Marina Horiuchi(as Rurika Tsubaki);Aki Hata", "호리우치 마리나(츠바키 루리카 역);하타 아키"
+    ]
+    rec = m.Recording(id="original", performers=[m.Performer(person="mh", role="p/none")])
+    assert "E2" in _rules(_ds(recordings=[rec]))
+
+
+def test_performer_refs():
+    with pytest.raises(ValueError):
+        m.Performer(character="p/x", role="p/y")  # role is only for a person
+    with pytest.raises(ValueError):
+        m.Performer(person="a", artist="b")
 
 
 def test_empty_credits_warn_only_for_vocal():

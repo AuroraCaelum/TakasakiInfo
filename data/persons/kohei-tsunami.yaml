@@ -1,9 +1,20 @@
 id: kohei-tsunami
 names:
-  ja: 津波幸平
+  ja: 津波 幸平
   rom: Kohei Tsunami
   ko: 츠나미 코헤이
+family_name:
+  ja: 津波
+  rom: Tsunami
+  ko: 츠나미
+given_name:
+  ja: 幸平
+  rom: Kohei
+  ko: 코헤이
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

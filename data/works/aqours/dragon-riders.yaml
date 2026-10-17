@@ -1,0 +1,35 @@
+id: aqours/dragon-riders
+project: aqours
+title:
+  ja: ドラゴンライダーズ
+  rom: Dragon Riders
+  ko: 드래곤 라이더즈
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya}
+    - {person: mito}
+recordings:
+  - id: original
+    performers:
+      - {artist: cyaron}
+    arranger:
+      - {person: mito}
+    external_ids:
+      isrc: JPI102101061
+evidence:
+  credits:
+    status: established
+    source: https://www.uta-net.com/song/302862/
+    checked: 2026-10-17
+  title.rom:
+    status: established
+    source: https://music.youtube.com/
+    checked: 2026-10-17
+    note: 레이블 제공 YouTube Music 로마자 표기
+  title.ko:
+    status: established
+    source: https://namu.wiki/w/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BA
+    checked: 2026-10-17
+    note: 나무위키 번역 (D30)

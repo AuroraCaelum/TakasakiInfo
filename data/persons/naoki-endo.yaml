@@ -3,7 +3,18 @@ names:
   ja: 遠藤ナオキ
   rom: Naoki Endo
   ko: 엔도 나오키
+family_name:
+  ja: 遠藤
+  rom: Endo
+  ko: 엔도
+given_name:
+  ja: ナオキ
+  rom: Naoki
+  ko: 나오키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -1,9 +1,20 @@
 id: yuichiro-tsuru
 names:
-  ja: 水流雄一朗
+  ja: 水流 雄一朗
   rom: Yuichiro Tsuru
   ko: 츠루 유이치로
+family_name:
+  ja: 水流
+  rom: Tsuru
+  ko: 츠루
+given_name:
+  ja: 雄一朗
+  rom: Yuichiro
+  ko: 유이치로
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

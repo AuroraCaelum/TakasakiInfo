@@ -3,7 +3,18 @@ names:
   ja: 宮崎 誠
   rom: Makoto Miyazaki
   ko: 미야자키 마코토
+family_name:
+  ja: 宮崎
+  rom: Miyazaki
+  ko: 미야자키
+given_name:
+  ja: 誠
+  rom: Makoto
+  ko: 마코토
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

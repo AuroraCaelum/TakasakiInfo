@@ -16,6 +16,8 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: ryuhey-yamada}
+    external_ids:
+      isrc: JPI101901799
     evidence:
       credits:
         status: legacy
@@ -37,6 +39,24 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: remix
+    title:
+      ja: Amazing Travel DNA REMIX
+      rom: Amazing Travel DNA REMIX
+      ko: Amazing Travel DNA REMIX
+    version: REMIX
+    performers:
+      - {artist: azalea}
+    arranger:
+      - {person: technoboys-pulcraft-green-fund}
+    external_ids:
+      isrc: JPI102101220
+    evidence:
+      credits:
+        status: established
+        source: https://musicbrainz.org/release/6bcbb916-10ca-40df-9423-29f996f3810d
+        checked: 2026-10-17
+        note: 리믹서
 evidence:
   credits:
     status: legacy

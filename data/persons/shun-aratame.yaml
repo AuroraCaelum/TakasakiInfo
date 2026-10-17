@@ -3,7 +3,18 @@ names:
   ja: 新田目 駿
   rom: Shun Aratame
   ko: 아라타메 슌
+family_name:
+  ja: 新田目
+  rom: Aratame
+  ko: 아라타메
+given_name:
+  ja: 駿
+  rom: Shun
+  ko: 슌
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

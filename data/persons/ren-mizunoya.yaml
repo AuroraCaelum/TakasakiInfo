@@ -1,10 +1,16 @@
 id: ren-mizunoya
 names:
-  ja: 水野谷怜
+  ja: 水野谷 怜
   rom: Ren Mizunoya
   ko: 미즈노야 렌
-aliases:
-  - {text: 水野谷 怜}
+family_name:
+  ja: 水野谷
+  rom: Mizunoya
+  ko: 미즈노야
+given_name:
+  ja: 怜
+  rom: Ren
+  ko: 렌
 evidence:
   names:
     status: legacy
@@ -13,3 +19,6 @@ evidence:
     status: established
     source: https://www.uta-net.com/composer/50681/
     checked: 2026-10-17
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

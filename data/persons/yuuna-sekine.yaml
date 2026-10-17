@@ -1,9 +1,20 @@
 id: yuuna-sekine
 names:
-  ja: 関根優那
+  ja: 関根 優那
   rom: Yuuna Sekine
   ko: 세키네 유우나
+family_name:
+  ja: 関根
+  rom: Sekine
+  ko: 세키네
+given_name:
+  ja: 優那
+  rom: Yuuna
+  ko: 유우나
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

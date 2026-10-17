@@ -1,9 +1,20 @@
 id: mariko-fujii
 names:
-  ja: 藤井万利子
+  ja: 藤井 万利子
   rom: Mariko Fujii
   ko: 후지 마리코
+family_name:
+  ja: 藤井
+  rom: Fujii
+  ko: 후지
+given_name:
+  ja: 万利子
+  rom: Mariko
+  ko: 마리코
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

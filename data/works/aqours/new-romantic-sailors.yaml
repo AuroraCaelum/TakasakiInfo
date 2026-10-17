@@ -17,6 +17,8 @@ recordings:
       - {artist: guilty-kiss}
     arranger:
       - {person: ulala}
+    external_ids:
+      isrc: JPI101901787
     evidence:
       credits:
         status: legacy
@@ -38,6 +40,24 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: remix
+    title:
+      ja: New Romantic Sailors REMIX
+      rom: New Romantic Sailors REMIX
+      ko: New Romantic Sailors REMIX
+    version: REMIX
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: ulala}
+    external_ids:
+      isrc: JPI102101786
+    evidence:
+      credits:
+        status: established
+        source: https://musicbrainz.org/release/5e302b37-9f2a-4c54-97de-edfccb1ee1b6
+        checked: 2026-10-17
+        note: 리믹서
 evidence:
   credits:
     status: legacy

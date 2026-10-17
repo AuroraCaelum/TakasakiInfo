@@ -1,9 +1,20 @@
 id: kotaro-odaka
 names:
-  ja: 小高光太郎
+  ja: 小高 光太郎
   rom: Kotaro Odaka
   ko: 오다카 코타로
+family_name:
+  ja: 小高
+  rom: Odaka
+  ko: 오다카
+given_name:
+  ja: 光太郎
+  rom: Kotaro
+  ko: 코타로
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

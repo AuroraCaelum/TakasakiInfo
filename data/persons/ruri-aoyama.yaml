@@ -3,7 +3,18 @@ names:
   ja: 青山 瑠里
   rom: Ruri Aoyama
   ko: 아오야마 루리
+family_name:
+  ja: 青山
+  rom: Aoyama
+  ko: 아오야마
+given_name:
+  ja: 瑠里
+  rom: Ruri
+  ko: 루리
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

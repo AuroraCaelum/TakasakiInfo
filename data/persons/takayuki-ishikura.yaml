@@ -1,9 +1,20 @@
 id: takayuki-ishikura
 names:
-  ja: 石倉誉之
+  ja: 石倉 誉之
   rom: Takayuki Ishikura
   ko: 이시쿠라 타카유키
+family_name:
+  ja: 石倉
+  rom: Ishikura
+  ko: 이시쿠라
+given_name:
+  ja: 誉之
+  rom: Takayuki
+  ko: 타카유키
 evidence:
   names:
     status: legacy
     source: migration:legacy
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
