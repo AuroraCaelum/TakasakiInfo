@@ -10,6 +10,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+from pydantic import BaseModel
 from ruamel.yaml import YAML
 
 from . import model as m
@@ -48,6 +49,54 @@ def open_review_refs(review_dir: Path) -> set[str]:
                 if isinstance(item, dict) and key in item:
                     refs.add(str(item[key]))
     return refs
+
+
+def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
+    """Every entity whose values end up in the legacy files (E3)."""
+    seen: dict[tuple[str, str], BaseModel] = {}
+
+    def put(kind: str, key: str, ent: BaseModel | None) -> None:
+        if ent is not None:
+            seen.setdefault((kind, key), ent)
+
+    def credit(c: m.Credit) -> None:
+        put("person", c.person or "", ds.persons.get(c.person or ""))
+        put("character", c.character or "", ds.characters.get(c.character or ""))
+
+    def performer(p: m.Performer) -> None:
+        put("artist", p.artist or "", ds.artists.get(p.artist or ""))
+        put("person", p.person or "", ds.persons.get(p.person or ""))
+        for cid in (p.character, p.role):
+            put("character", cid or "", ds.characters.get(cid or ""))
+
+    if not ds.layout:
+        return []
+    for f in ds.layout.albums.values():
+        for e in f.entries:
+            rel = ds.releases.get(e.release)
+            if rel is None or rel.status == "announced" or e.album >= len(rel.legacy.albums):
+                continue
+            put("release", rel.id, rel)
+            la = rel.legacy.albums[e.album]
+            for _, _, t in edition_tracks(rel, la.edition, la.disc):
+                work, rec = ds.recording(t.recording)
+                put("work", work.id, work)
+                put("recording", t.recording, rec)
+                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.arranger:
+                    credit(c)
+                for p in rec.performers:
+                    performer(p)
+    for mf in ds.layout.members.values():
+        for row in mf.rows:
+            ch = ds.characters.get(row.character)
+            put("character", row.character, ch)
+            put("artist", row.unit or "", ds.artists.get(row.unit or ""))
+            for cast in ch.casting if ch else []:
+                put("person", cast.person, ds.persons.get(cast.person))
+    for ids in ds.layout.concerts.values():
+        for cid in ids:
+            put("concert", cid, ds.concerts.get(cid))
+    return [(f"{k}:{i}", ent) for (k, i), ent in seen.items()]
 
 
 def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
@@ -147,6 +196,12 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for group, ids in ds.layout.concerts.items():
             for i in ids:
                 need(ds.concerts, i, f"layout:concerts/{group}", "concert")
+
+    # E3: no draft value in the legacy files (§4.4); announced releases are not output (§7.4)
+    for where, ent in legacy_reach(ds):
+        for field_name, ev in getattr(ent, "evidence", {}).items():
+            if ev.status == m.Status.draft:
+                add("E3", where, f"{field_name} is a draft ({ev.note or ev.source or 'not approved'}) and would be output")
 
     # E4 / W1: one person per name
     by_key: dict[str, list[str]] = defaultdict(list)

@@ -147,3 +147,21 @@ def test_notes_do_not_repeat_derived_parts():
     ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],
                                    discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original", note="Drama Part")])])
     assert "E14" in _rules(ds)
+
+
+def test_draft_values_are_not_output():
+    # E3 (§4.4): a draft on anything the legacy files print blocks the merge; announced releases are not printed (§7.4)
+    from takasaki.build_legacy import build_legacy
+
+    ds = _ds(recordings=[m.Recording(id="original", performers=[m.Performer(person="a")])])
+    ds.works["p/w"].evidence["title.ko"] = m.Evidence(status=m.Status.draft, note="번역안")
+    ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],
+                                   discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original")])],
+                                   legacy=m.ReleaseLegacy(category="P", albums=[m.LegacyAlbum(title="R")]))
+    ds.meta = m.Meta(schema_version="1", db_last_update="x")
+    ds.layout = m.LegacyLayout(integrated_order=["P"], albums={"P": m.LayoutAlbumsFile(entries=[m.LayoutAlbumEntry(release="p/r")])},
+                               members={}, concerts={})
+    assert "E3" in _rules(ds)
+    ds.releases["p/r"].status = "announced"
+    assert "E3" not in _rules(ds)
+    assert build_legacy(ds)["albums/P/P.csv"].decode("utf-8-sig").count("\r\n") == 0  # header only

@@ -174,6 +174,8 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: di
     rows: list[Row] = []
     for entry in ds.layout.albums[group].entries:
         rel = ds.releases[entry.release]
+        if rel.status == "announced":  # §7.4: announced releases are left out of the legacy files
+            continue
         la = rel.legacy.albums[entry.album]
         ed_date = next((e.release_date for e in rel.editions if e.id == la.edition and e.release_date), None)
         day = ed_date or rel.release_date
