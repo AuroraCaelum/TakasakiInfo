@@ -1025,6 +1025,7 @@ wikitext 예:
    - `未完成ドリーム！`: 가창자 rom 열의 `晴風サヤカ`·`鈴賀レナ` 순서가 ja·ko 열과 뒤바뀌어 있었음
    - `CYaRon!` 가창자 ja가 비어 있던 행 1개
    - `杉山勝彦`의 ko가 이름-성 순서(`카츠히코 스기야마`)였음 → `스기야마 카츠히코`
+   - `Liella! CLUB CD SET 2023`의 발매일이 디지털 싱글 배포일(2023-08-02)로 들어가 있었음 → CD 발매일 2023-07-01
    - `Awaken the power`의 `聖良と理亞を…` 3곡: 드라마 트랙인데 Note가 비어 있었음 → `Drama Part`
    - 두 사람이 한 칸에 들어가 있던 크레딧 `小高光太郎・UiNA` → `小高 光太郎;UiNA`
    - 이름·제목 끝의 공백 (`オードリー `, `Dream Land ! Dream World ! `, `Sarah to Leah o Omotenase! `)
