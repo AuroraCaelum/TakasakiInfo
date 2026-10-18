@@ -259,7 +259,8 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     for where, ent in split_names:
         n = ent.names
         if ent.family_name is None and ent.given_name is None:
-            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2:
+            # evidence "name_parts" records why there is no split (an activity name such as 吸血亭 賛美)
+            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2 and "name_parts" not in ent.evidence:
                 add("W15", where, f"Japanese name without family/given split: {n.ja!r}")
             continue
         fam, giv = ent.family_name or m.Names(), ent.given_name or m.Names()

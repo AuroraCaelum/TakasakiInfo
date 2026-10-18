@@ -98,7 +98,8 @@ class Fetcher:
 HOWTO = (
     "공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. "
     "인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). "
-    "한 단어 이름(필명 등)은 family_name/given_name을 지우고 names만 채운다. names에 값을 적으면 그 값이 우선한다. "
+    "한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. "
+    "names에 값을 적으면 그 값이 우선한다. "
     "근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). "
     "status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply."
 )
@@ -245,5 +246,7 @@ def approve_names(ds: Any, doc: dict[str, Any], today: dt.date) -> str:
                                        checked=today, note=it.get("note") or None)
         if values.get("family_name"):
             ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="성·이름 분리: 리뷰에서 확인 (D28)")
+        elif it.get("name_parts"):  # why the name has no family/given split, e.g. an activity name
+            ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note=str(it["name_parts"]))
         done.append(str(ref))
     return f"approved {len(done)} names"

@@ -397,6 +397,8 @@ class Importer:
             raise ValueError(f"{kind} id {ident!r} already exists; set `id:` on the review item for {item['printed']!r}")
         if kind == "person":
             ent: Any = m.Person(id=ident, **values, evidence={"names": m.Evidence(**draft)})
+            if item.get("name_parts") and not values.get("family_name"):
+                ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note=str(item["name_parts"]))
         elif kind == "character":
             ent = m.Character(id=ident, project=PROJECT, **values, evidence={"names": m.Evidence(**draft)})
         elif kind == "artist":

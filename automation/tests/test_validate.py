@@ -183,3 +183,11 @@ def test_w16_flags_official_fields_sourced_elsewhere():
     assert not official_first("work", "same_recording") and official_first("release", "tracks")
     ds.artists["u"].evidence["lineups"] = wiki.model_copy(update={"note": "공식 멤버 페이지가 갱신되지 않아 위키가 공식보다 최신"})
     assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]
+
+
+def test_w15_skips_activity_names_with_a_recorded_reason():
+    ds = Dataset()
+    ds.persons["pen"] = m.Person(id="pen", names=m.Names(ja="吸血亭 賛美", rom="Kyuketsutei Zabi", ko="큐우케츠테이 자비"))
+    assert [f.rule for f in validate(ds)] == ["W15"]
+    ds.persons["pen"].evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="활동명이라 성·이름 없음")
+    assert [f.rule for f in validate(ds)] == []
