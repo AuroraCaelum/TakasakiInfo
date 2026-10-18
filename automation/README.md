@@ -36,8 +36,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 
 | 명령 | 하는 일 |
 | --- | --- |
-| `takasaki build [--out DIR]` | 레거시 파일 생성. 기본 출력 위치는 저장소 루트 |
-| `takasaki check` | E8 검사 |
+| `takasaki build [--out DIR]` | 레거시 파일과 저장소 `README.md` 생성. 기본 출력 위치는 저장소 루트. README 본문은 `src/takasaki/templates/README.md`를 고친다 |
+| `takasaki check` | E8 검사 (레거시 파일과 README가 새 빌드와 같은지) |
 | `takasaki dist [--out DIR]` | v1 파일(엔티티 JSON, `tracks.json`·`recordings.json`, JSON Schema, `quality.json`)과 SQLite DB를 `dist/`에 만든다(§10.2, §10.5). 커밋하지 않고, 배포 때 같이 올라간다 |
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
@@ -90,7 +90,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
   - 이키즈라이브 공식 사이트 어댑터(`takasaki official ikizulive`) 완료. 발매물 28개(AiScReam 「NEXT CARD」는 Phase 3, 유닛송 앨범은 발매 전이라 레거시 제외), 곡 37개, 캐릭터·성우 각 10명, 그룹·유닛 8개, 새 스태프 33명. 이름 100개를 리뷰로 승인했고(2026-10-19) 레거시 `Ikizulive` 파일을 만든다. YouTube Music 링크 150개
   - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(현재 0건). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
-  - 남은 것: README 생성
+  - README 생성(§10.3) 완료: Database Status·통계·JSON 예시·Disclaimer를 데이터에서 만든다. 권리 표기를 공식 포털의 최신 목록으로 갱신했다
+  - Phase 2 작업은 모두 끝났다. 남은 것은 main PR
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다

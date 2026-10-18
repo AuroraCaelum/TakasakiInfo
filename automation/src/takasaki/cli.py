@@ -17,11 +17,13 @@ def _paths() -> tuple[Path, Path, Path]:
 
 
 def cmd_build(args: argparse.Namespace) -> int:
+    from .readme import build_outputs
+
     root, data, _ = _paths()
-    files = build_legacy(load_dataset(data))
+    files = build_outputs(load_dataset(data))
     out = Path(args.out).resolve() if args.out else root
     changed = write_outputs(files, out)
-    print(f"{len(files)} legacy files, {len(changed)} written to {out}")
+    print(f"{len(files)} generated files (legacy files and README), {len(changed)} written to {out}")
     for rel in changed:
         print(f"  {rel}")
     return 0
@@ -43,16 +45,18 @@ def cmd_dist(args: argparse.Namespace) -> int:
 
 
 def cmd_check(args: argparse.Namespace) -> int:
-    """E8: committed legacy files must equal a fresh build (nobody edits generated files)."""
+    """E8: committed legacy files and README must equal a fresh build (nobody edits generated files)."""
+    from .readme import build_outputs
+
     root, data, _ = _paths()
-    files = build_legacy(load_dataset(data))
+    files = build_outputs(load_dataset(data))
     stale = [rel for rel, blob in sorted(files.items()) if not (root / rel).exists() or (root / rel).read_bytes() != blob]
     if stale:
         print("[E8] generated files differ from a fresh build (run `takasaki build`):")
         for rel in stale:
             print(f"  {rel}")
         return 1
-    print(f"[E8] ok: {len(files)} legacy files match the build")
+    print(f"[E8] ok: {len(files)} generated files match the build")
     return 0
 
 
@@ -278,7 +282,7 @@ def cmd_migrate(args: argparse.Namespace) -> int:
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="takasaki", description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
-    b = sub.add_parser("build", help="generate legacy files from data/")
+    b = sub.add_parser("build", help="generate the legacy files and README.md from data/")
     b.add_argument("--out", help="output directory (default: repository root)")
     b.set_defaults(func=cmd_build)
     ds_ = sub.add_parser("dist", help="build the v1 files and the SQLite database (not committed; deploy uploads them)")

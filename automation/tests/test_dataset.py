@@ -29,7 +29,9 @@ def test_yaml_round_trip(ds):
 
 
 def test_legacy_files_match_build(ds):
-    files = build_legacy(ds)
+    from takasaki.readme import build_outputs
+
+    files = build_outputs(ds)
     stale = [rel for rel, blob in files.items() if (ROOT / rel).read_bytes() != blob]
     assert stale == [], "run `takasaki build` and commit the result"
 
