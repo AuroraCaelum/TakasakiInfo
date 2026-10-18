@@ -143,7 +143,7 @@ items:
       ko: ''
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ja: 공식 크레딧, ko: 나무위키, rom: Fandom. 읽기는 사용자 확인 (2026-10-18)'
+    note: "ja: 공식 크레딧, ko: 나무위키, rom: Fandom 'SAKUMARYO' (성·이름으로 나뉘지 않아 전체 rom만. ja는 성·이름에서 'サクマリョウ'로 공식 표기와 같음). 읽기는 사용자 확인 (2026-10-18)"
     used_in: ['Public Style: composer', 'Public Style: arranger']
     ref: person:sakumaryo
   - kind: person
@@ -212,7 +212,7 @@ items:
       ko: ''
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: "ja: 공식 크레딧, ko: 사용자 확인 (나무위키 솔로 싱글 문서는 '신타니 후카'), rom: Fandom. 읽기는 사용자 확인 (2026-10-18)"
+    note: "ja: 공식 크레딧, ko: 사용자 확인 (나무위키 솔로 싱글 문서는 '신타니 후카'), rom: Fandom 'Fuuta Shintani' (장음 포함. 저장소에도 Yuuna Sekine·Shouhei Sumiya처럼 출처 표기를 따른 장음이 있음). 읽기는 사용자 확인 (2026-10-18)"
     used_in: ['ジェットスターター: lyricist']
     ref: person:fuuta-shintani
   - kind: person
@@ -392,7 +392,7 @@ items:
       ko: 에토유마
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ja: 공식 크레딧, ko: 나무위키, rom: Fandom. 읽기는 사용자 확인 (2026-10-18)'
+    note: 'ja: 공식 크레딧, ko: 나무위키, rom: Fandom (다른 출처는 찾지 못함, 2026-10-19 검색). 읽기는 사용자 확인 (2026-10-18)'
     used_in: ['LOVE♡YOU♡Save the EARTH!!: composer', 'LOVE♡YOU♡Save the EARTH!!: arranger']
     ref: person:etoyuma
   - kind: person
@@ -463,21 +463,21 @@ items:
     printed: 吸血亭 賛美
     family_name:
       ja: 吸血亭
-      rom: ''
+      rom: Kyuketsutei
       ko: 큐우케츠테이
     given_name:
       ja: 賛美
-      rom: ''
+      rom: Zabi
       ko: 자비
     names:
       ja: ''
-      rom: Kyuketsu Teizabi
+      rom: ''
       ko: ''
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: "ja: 공식 크레딧, ko: 나무위키 ('큐우케츠테이자비'를 성·이름으로 나눔), rom: Fandom. 읽기는 사용자 확인 (2026-10-18)"
+    note: "ja: 공식 크레딧, ko: 나무위키 ('큐우케츠테이자비'를 성·이름으로 나눔), rom: 공식 표기의 성·이름 분리(吸血亭 / 賛美)대로, 이름-성 순 (D4). Fandom 'Kyuketsu Teizabi'는 亭을 이름 쪽에 붙인 분절 오류 (D38 예외). 읽기는 사용자 확인 (2026-10-18)"
     used_in: ['Silent Stella: lyricist']
-    ref: person:kyuketsu-teizabi
+    ref: person:zabi-kyuketsutei
   - kind: person
     printed: 信政誠
     family_name:
@@ -554,6 +554,6 @@ items:
       ko: 미캉모도키
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ja: 공식 크레딧, ko: 사용자 확인 (나무위키에 한글 표기 없음), rom: Fandom. 읽기는 사용자 확인 (2026-10-18)'
+    note: 'ja: 공식 크레딧, ko: 사용자 확인 (나무위키에 한글 표기 없음), rom: Fandom (다른 출처는 찾지 못함, 2026-10-19 검색). 읽기는 사용자 확인 (2026-10-18)'
     used_in: ['キミは夜のポラリス: arranger']
     ref: person:mican-modoki
