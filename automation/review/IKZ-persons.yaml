@@ -197,27 +197,6 @@ items:
   used_in: ['いつか碧: composer']
   ref: person:kana-yabuki
 - kind: person
-  printed: 前口ワタル
-  family_name:
-    ja: 前口
-    rom: Maeguchi
-    ko: 마에구치
-  given_name:
-    ja: ワタル
-    rom: Wataru
-    ko: 와타루
-  names:
-    ja: ''
-    rom: ''
-    ko: ''
-  status: derived
-  source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-  note: 'ko: 나무위키 음반 문서, rom: 읽기에서'
-  used_in: ['いつか碧: arranger']
-  id: wataru-maeguchi-2
-  warn: 기존 인물 前口 渉(wataru-maeguchi)와 읽기가 같음. 같은 사람인지 IKZ-same-person-maeguchi.yaml에서 결정 (그동안 id는 wataru-maeguchi-2)
-  ref: person:wataru-maeguchi-2
-- kind: person
   printed: 新谷風太
   family_name:
     ja: 新谷
