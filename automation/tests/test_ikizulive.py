@@ -161,3 +161,26 @@ def test_uses_of_existing_drafts_keep_being_recorded(ds, tmp_path):
     titles = YAML(typ="safe").load((tmp_path / "IKZ-titles.yaml").read_text(encoding="utf-8"))
     song_b = next(it for it in titles["items"] if it["printed"] == "Song B")
     assert song_b["used_in"] == ["01_9998 #1"]
+
+
+def test_approved_release_title_is_not_asked_again(ds, tmp_path):
+    site = _site()
+    album = ik.ReleaseObs(URL.replace("9999", "9997"), "Unit Song Album", "Album X", dt.date(2025, 9, 1), site.releases[0].performers,
+                          [ik.EditionObs(None, "LACA-10000", "CDのみ")], [ik.TrackObs(1, "ヒミツミチ")], {})
+    site.releases.append(album)
+    today = dt.date(2026, 10, 19)
+    ik.import_site(ds, site, tmp_path, today)
+    _fill(tmp_path, "IKZ-members.yaml", {
+        "綾咲穂音": {"family_name": {"ja": "綾咲", "rom": "Ayasaki", "ko": "아야사키"}, "given_name": {"ja": "穂音", "rom": "Honon", "ko": "호논"}},
+        "高橋ポルカ": {"family_name": {"ja": "高橋", "rom": "Takahashi", "ko": "타카하시"}, "given_name": {"ja": "ポルカ", "rom": "Polka", "ko": "폴카"}},
+    })
+    _fill(tmp_path, "IKZ-artists.yaml", {"いきづらい部！": {"names": {"ja": "いきづらい部！", "rom": "Ikizuraibu!", "ko": "이키즈라이부!"}}})
+    _fill(tmp_path, "IKZ-titles.yaml", {"ヒミツミチ": {"title": {"ja": "ヒミツミチ", "rom": "Himitsu Michi", "ko": "비밀 길"}},
+                                        "Album X": {"title": {"ja": "Album X", "rom": "Album X", "ko": "앨범 X"}}})
+    ik.import_site(ds, site, tmp_path, today)
+    assert "ikizulive/2025-album-x" in ds.releases
+    for f in list(tmp_path.glob("IKZ-*.yaml")):  # approved and closed
+        approve_names(ds, YAML(typ="safe").load(f.read_text(encoding="utf-8")), today)
+        f.unlink()
+    rep = ik.import_site(ds, site, tmp_path, today)
+    assert not rep.pending and not list(tmp_path.glob("IKZ-*.yaml")) and rep.updated == []

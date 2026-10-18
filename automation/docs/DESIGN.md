@@ -841,7 +841,7 @@ similar: [] # 유사 기존 인물이 있으면 여기에 표시
 decision: ~ # approve | approve:<후보번호> | merge:<기존 id> | edit | reject
 ```
 
-- 공식 사이트에서 처음 나온 이름은 종류별 `new-names` 파일(`IKZ-members.yaml`, `IKZ-artists.yaml`, `IKZ-persons.yaml`, `IKZ-titles.yaml`)에 항목 하나씩 올라간다(결정 D35). 항목에는 성·이름(`family_name`/`given_name`) 또는 한 단어 이름(`names`), 근거 등급(`status`), 출처, 경고(`warn`)를 적는다. 읽기가 빈 항목이 있으면 그 이름을 쓰는 발매물은 들어가지 않는다. 다 채워지면 엔티티가 `draft`로 생기고(`ref`가 채워짐), `decision: approve`로 항목 값과 등급이 확정된다.
+- 공식 사이트에서 처음 나온 이름은 종류별 `new-names` 파일(`IKZ-members.yaml`, `IKZ-artists.yaml`, `IKZ-persons.yaml`, `IKZ-titles.yaml`)에 항목 하나씩 올라간다(결정 D35). 항목에는 성·이름(`family_name`/`given_name`) 또는 한 단어 이름(`names`), 근거 등급(`status`), 출처, 경고(`warn`)를 적는다. 읽기가 빈 항목이 있으면 그 이름을 쓰는 발매물은 들어가지 않는다. 다 채워지면 엔티티가 `draft`로 생기고(`ref`가 채워짐), `decision: approve`로 항목 값과 등급이 확정된다. 항목의 `source`는 그 이름이 실린 공식 페이지이고(공식을 먼저 확인했다는 기록, W16), ko·rom을 가져온 곳은 `note`에 적는다. 이미 있는 발매물의 제목은 다시 묻지 않는다.
 - 사람은 `decision`만 채워서 같은 PR에 커밋한다. 봇이 다시 실행해 `data/`에 반영하고 리뷰 파일을 지운다(`takasaki review apply`).
   - decision 문법: `merge:<종류>:<id>`(병합. 참조를 고쳐 쓰고 다른 표기는 alias로 남김), `distinct`, `kind:<아티스트 종류>`, `rule` / `keep:<status>`(라틴 원어 이름의 ko), `done`(직접 고친 뒤 닫기). 자세한 것은 `automation/README.md`.
 - 모든 리뷰 항목이 처리되고 CI가 통과해야 병합할 수 있다.
@@ -1453,7 +1453,7 @@ TakasakiInfo/
 - 공식 페이지 구조가 정형적이다.
 - 신규 고유명사가 많아 표기 리뷰 흐름을 검증하기 좋다.
 
-### 13.8 가져오기 결과와 모델링 (2026-10-18, 이름 승인 대기)
+### 13.8 가져오기 결과와 모델링 (2026-10-18 가져옴, 2026-10-19 이름 승인)
 
 공식 사이트 음악 목록 29건 중 28건을 넣었다. AiScReam 「NEXT CARD」는 크로스 프로젝트 유닛이라 Phase 3으로 미룬다(13.5).
 

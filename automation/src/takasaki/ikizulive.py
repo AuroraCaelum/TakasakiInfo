@@ -343,6 +343,7 @@ class Importer:
     def __init__(self, ds: Dataset, reviews: NameReviews, today: dt.date, member_names: set[str] = frozenset()) -> None:  # type: ignore[assignment]
         self.ds, self.reviews, self.today = ds, reviews, today
         self.member_keys = {match_key(n) for n in member_names}
+        self.page: str | None = None  # the release page being read
         self.report = Report()
 
     # names ------------------------------------------------------------------------
@@ -445,8 +446,8 @@ class Importer:
     def character(self, printed: str) -> str | None:
         return self._find("character", printed)
 
-    def artist(self, printed: str, *, artist_kind: str = "unit", used_in: str | None = None) -> str | None:
-        seed: dict[str, Any] = {"artist_kind": artist_kind}
+    def artist(self, printed: str, *, artist_kind: str = "unit", used_in: str | None = None, source: str | None = None) -> str | None:
+        seed: dict[str, Any] = {"artist_kind": artist_kind, "source": source or ""}
         if is_latin(printed):
             rom = unicodedata.normalize("NFKC", printed)
             seed["names"] = {"ja": printed, "rom": rom, "ko": rom}
@@ -456,12 +457,12 @@ class Importer:
 
     # credits ----------------------------------------------------------------------
 
-    def credits(self, names: list[CreditName], used_in: str) -> list[m.Credit] | None:
+    def credits(self, names: list[CreditName], used_in: str, source: str) -> list[m.Credit] | None:
         out: list[m.Credit | None] = []
         for c in names:
-            seed: dict[str, Any] = {}
+            seed: dict[str, Any] = {"source": source}
             if is_latin(c.name):
-                seed = {"names": {"ja": c.name, "rom": c.name, "ko": c.name}, "native_script": "latin"}
+                seed |= {"names": {"ja": c.name, "rom": c.name, "ko": c.name}, "native_script": "latin"}
             pid = self.resolve("person", c.name, file=REVIEW_FILES["person"], seed=seed, used_in=used_in)
             out.append(m.Credit(person=pid, affiliation=c.affiliation) if pid else None)
         return None if None in out else out  # every name is looked up, so one run lists them all
@@ -470,7 +471,7 @@ class Importer:
 
     def performers(self, p: Performers, group_id: str | None, used_in: str | None = None) -> list[m.Performer] | None:
         if p.artist:
-            aid = group_id if p.artist == GROUP_NAME else self.artist(p.artist, used_in=used_in)
+            aid = group_id if p.artist == GROUP_NAME else self.artist(p.artist, used_in=used_in, source=self.page)
             return [m.Performer(artist=aid)] if aid else None
         chars = [self.character(name) for name, _ in p.members]
         if not all(chars):
@@ -482,13 +483,15 @@ class Importer:
 
     def release(self, obs: ReleaseObs, group_id: str | None) -> None:
         tracks: list[m.Track] = []
+        self.page = obs.url
         release_perf = self.performers(obs.performers, group_id, obs.page_id)
         complete = release_perf is not None
         title_item = None
-        if not all(p in {split_version(t.title)[0] for t in obs.tracks} for p in obs.title.split(" / ")):
+        known = any(r.links.get("official") == obs.url for r in self.ds.releases.values())
+        if not known and not all(p in {split_version(t.title)[0] for t in obs.tracks} for p in obs.title.split(" / ")):
             # a title that is not made of song titles is named in review (its rom gives the id)
             title_item = self.reviews.item(REVIEW_FILES["release"], "release", obs.title,
-                                           {"title": {"ja": obs.title, "rom": "", "ko": ""}}, obs.page_id)
+                                           {"title": {"ja": obs.title, "rom": "", "ko": ""}, "source": obs.url}, obs.page_id)
             try:
                 item_values(title_item)
             except (KeyError, ValueError) as e:
@@ -499,9 +502,10 @@ class Importer:
             base, ver = split_version(t.title)
             used = f"{obs.page_id} #{t.no}"
             wid = self.resolve("work", base, file=REVIEW_FILES["work"], used_in=used,
-                               seed={"title": {"ja": base, "rom": _rom_title(base), "ko": base if is_latin(base) else ""}})
+                               seed={"title": {"ja": base, "rom": _rom_title(base), "ko": base if is_latin(base) else ""},
+                                     "source": obs.url})
             perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
-            credits = {role: self.credits(names, f"{base}: {role}") for role, names in t.credits.items()}
+            credits = {role: self.credits(names, f"{base}: {role}", obs.url) for role, names in t.credits.items()}
             if wid is None or perf is None or any(v is None for v in credits.values()):
                 complete = False
                 continue
@@ -585,12 +589,12 @@ class Importer:
         evidence = {"tracks": src, "editions": src}
         if obs.note:
             evidence["release_date"] = src.model_copy(update={"note": obs.note})
-        if item is not None:
-            title = item_values(item)["title"]
-        else:  # song titles: their rom gives the id
-            works = {w.title.ja: w for w in (self.ds.recording(t.recording)[0] for t in tracks)}
-            title = m.Names(ja=obs.title, rom=" / ".join(works[p].title.rom or "" for p in obs.title.split(" / ")))
-        if rel is None:
+        if rel is None:  # an existing release keeps its title
+            if item is not None:
+                title = item_values(item)["title"]
+            else:  # song titles: their rom gives the id
+                works = {w.title.ja: w for w in (self.ds.recording(t.recording)[0] for t in tracks)}
+                title = m.Names(ja=obs.title, rom=" / ".join(works[p].title.rom or "" for p in obs.title.split(" / ")))
             ident = f"{PROJECT}/{obs.release_date.year}-{_slug(title.rom or '')}"
             if ident in self.ds.releases:
                 raise ValueError(f"release id {ident!r} already exists ({obs.url})")
@@ -680,7 +684,7 @@ def import_site(ds: Dataset, site: Site, review_dir: Path, today: dt.date) -> Re
     before = {f"{kind}:{ent.id}": ent.model_dump() for kind, ent in ds.iter_all()}  # type: ignore[attr-defined]
     layout_before = ds.layout.model_dump() if ds.layout else None
     members = imp.members(site)
-    group_id = imp.artist(GROUP_NAME, artist_kind="group", used_in="member page")
+    group_id = imp.artist(GROUP_NAME, artist_kind="group", used_in="member page", source=site.member_url)
     for obs in site.releases:  # also when names are pending, so that one run lists every new name
         imp.release(obs, group_id)
     if group_id and all(members):
