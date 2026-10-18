@@ -3,423 +3,363 @@ project: ikizulive
 decision: ''
 how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름(필명 등)은 family_name/given_name을 지우고 names만 채운다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
 items:
-- kind: person
-  printed: 綾咲穂音
-  family_name:
-    ja: 綾咲
-    rom: Ayasaki
-    ko: 아야사키
-    kana: あやさき
-  given_name:
-    ja: 穂音
-    rom: Honon
-    ko: 호논
-    kana: ほのん
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 高橋ポルカ]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:honon-ayasaki
-- kind: character
-  printed: 高橋ポルカ
-  family_name:
-    ja: 高橋
-    rom: Takahashi
-    ko: 타카하시
-    kana: たかはし
-  given_name:
-    ja: ポルカ
-    rom: Polka
-    ko: 폴카
-    kana: ぽるか
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/polka-takahashi
-- kind: person
-  printed: 遠藤璃菜
-  family_name:
-    ja: 遠藤
-    rom: Endo
-    ko: 엔도
-    kana: えんどう
-  given_name:
-    ja: 璃菜
-    rom: Rina
-    ko: 리나
-    kana: りな
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 麻布麻衣]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:rina-endo
-- kind: character
-  printed: 麻布麻衣
-  family_name:
-    ja: 麻布
-    rom: Azabu
-    ko: 아자부
-    kana: あざぶ
-  given_name:
-    ja: 麻衣
-    rom: Mai
-    ko: 마이
-    kana: まい
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/mai-azabu
-- kind: person
-  printed: 宮野芹
-  family_name:
-    ja: 宮野
-    rom: Miyano
-    ko: 미야노
-    kana: みやの
-  given_name:
-    ja: 芹
-    rom: Seri
-    ko: 세리
-    kana: せり
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 五桐 玲]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:seri-miyano
-- kind: character
-  printed: 五桐 玲
-  family_name:
-    ja: 五桐
-    rom: Goto
-    ko: 고토
-    kana: ごとう
-  given_name:
-    ja: 玲
-    rom: Akira
-    ko: 아키라
-    kana: あきら
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/akira-goto
-- kind: person
-  printed: 藤野こころ
-  family_name:
-    ja: 藤野
-    rom: Fujino
-    ko: 후지노
-    kana: ふじの
-  given_name:
-    ja: こころ
-    rom: Kokoro
-    ko: 코코로
-    kana: こころ
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 駒形花火]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:kokoro-fujino
-- kind: character
-  printed: 駒形花火
-  family_name:
-    ja: 駒形
-    rom: Komagata
-    ko: 코마가타
-    kana: こまがた
-  given_name:
-    ja: 花火
-    rom: Hanabi
-    ko: 하나비
-    kana: はなび
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/hanabi-komagata
-- kind: person
-  printed: 坂野愛羽
-  family_name:
-    ja: 坂野
-    rom: Sakano
-    ko: 사카노
-    kana: さかの
-  given_name:
-    ja: 愛羽
-    rom: Aiha
-    ko: 아이하
-    kana: あいは
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 金澤奇跡]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:aiha-sakano
-- kind: character
-  printed: 金澤奇跡
-  family_name:
-    ja: 金澤
-    rom: Kanazawa
-    ko: 카나자와
-    kana: かなざわ
-  given_name:
-    ja: 奇跡
-    rom: Miracle
-    ko: 미라클
-    kana: みらくる
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [2年生, member page (2年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/miracle-kanazawa
-- kind: person
-  printed: 瀬古梨愛
-  family_name:
-    ja: 瀬古
-    rom: Seko
-    ko: 세코
-    kana: せこ
-  given_name:
-    ja: 梨愛
-    rom: Ria
-    ko: 리아
-    kana: りあ
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 調布のりこ]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:ria-seko
-- kind: character
-  printed: 調布のりこ
-  family_name:
-    ja: 調布
-    rom: Chofu
-    ko: 쵸후
-    kana: ちょうふ
-  given_name:
-    ja: のりこ
-    rom: Noriko
-    ko: 노리코
-    kana: のりこ
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/noriko-chofu
-- kind: person
-  printed: 奥村優季
-  family_name:
-    ja: 奥村
-    rom: Okumura
-    ko: 오쿠무라
-    kana: おくむら
-  given_name:
-    ja: 優季
-    rom: Yuki
-    ko: 유키
-    kana: ゆき
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 春宮ゆくり]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:yuki-okumura
-- kind: character
-  printed: 春宮ゆくり
-  family_name:
-    ja: 春宮
-    rom: Harumiya
-    ko: 하루미야
-    kana: はるみや
-  given_name:
-    ja: ゆくり
-    rom: Yukuri
-    ko: 유쿠리
-    kana: ゆくり
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/yukuri-harumiya
-- kind: person
-  printed: 天沢朱音
-  family_name:
-    ja: 天沢
-    rom: Amasawa
-    ko: 아마사와
-    kana: あまさわ
-  given_name:
-    ja: 朱音
-    rom: Akane
-    ko: 아카네
-    kana: あかね
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 此花輝夜]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:akane-amasawa
-- kind: character
-  printed: 此花輝夜
-  family_name:
-    ja: 此花
-    rom: Konohana
-    ko: 코노하나
-    kana: このはな
-  given_name:
-    ja: 輝夜
-    rom: Aurora
-    ko: 오로라
-    kana: おーろら
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [2年生, member page (2年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/aurora-konohana
-- kind: person
-  printed: 小戸森穂花
-  family_name:
-    ja: 小戸森
-    rom: Kotomori
-    ko: 코토모리
-    kana: こともり
-  given_name:
-    ja: 穂花
-    rom: Honoka
-    ko: 호노카
-    kana: ほのか
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 山田真緑]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:honoka-kotomori
-- kind: character
-  printed: 山田真緑
-  family_name:
-    ja: 山田
-    rom: Yamada
-    ko: 야마다
-    kana: やまだ
-  given_name:
-    ja: 真緑
-    rom: Midori
-    ko: 미도리
-    kana: みどり
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/midori-yamada
-- kind: person
-  printed: 涼ノ瀬葵音
-  family_name:
-    ja: 涼ノ瀬
-    rom: Suzunose
-    ko: 스즈노세
-    kana: すずのせ
-  given_name:
-    ja: 葵音
-    rom: Aoi
-    ko: 아오이
-    kana: あおい
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 いきづらい部! 출연진 표의 정렬 키(탁점 생략 관례라 탁점은 이름 표기와 遠藤璃菜 문서로 보완). 공식 사이트에는 읽기가 없음'
-  used_in: [CV of 佐々木翔音]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%8D%E3%81%A5%E3%82%89%E3%81%84%E9%83%A8!
-  ref: person:aoi-suzunose
-- kind: character
-  printed: 佐々木翔音
-  family_name:
-    ja: 佐々木
-    rom: Sasaki
-    ko: 사사키
-    kana: ささき
-  given_name:
-    ja: 翔音
-    rom: Shion
-    ko: 시온
-    kana: しおん
-  status: established
-  source: https://www.lovelive-anime.jp/lovehigh/member/
-  note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), ko: 나무위키, 가나: 위키백과 등장인물 항목. 공식 사이트에는 읽기가 없음'
-  used_in: [1年生, member page (1年生)]
-  sources:
-  - https://www.lovelive-anime.jp/lovehigh/member/
-  - https://namu.wiki/w/이키즈라이부!
-  - https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AD%E3%83%85%E3%83%A9%E3%82%A4%E3%83%96!_LOVELIVE!_BLUEBIRD
-  ref: character:ikizulive/shion-sasaki
+  - kind: person
+    printed: 綾咲穂音
+    family_name:
+      ja: 綾咲
+      rom: Ayasaki
+      ko: 아야사키
+      kana: あやさき
+    given_name:
+      ja: 穂音
+      rom: Honon
+      ko: 호논
+      kana: ほのん
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 高橋ポルカ]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:honon-ayasaki
+  - kind: character
+    printed: 高橋ポルカ
+    family_name:
+      ja: 高橋
+      rom: Takahashi
+      ko: 타카하시
+      kana: たかはし
+    given_name:
+      ja: ポルカ
+      rom: Polka
+      ko: 폴카
+      kana: ぽるか
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/polka-takahashi
+  - kind: person
+    printed: 遠藤璃菜
+    family_name:
+      ja: 遠藤
+      rom: Endo
+      ko: 엔도
+      kana: えんどう
+    given_name:
+      ja: 璃菜
+      rom: Rina
+      ko: 리나
+      kana: りな
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 麻布麻衣]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:rina-endo
+  - kind: character
+    printed: 麻布麻衣
+    family_name:
+      ja: 麻布
+      rom: Azabu
+      ko: 아자부
+      kana: あざぶ
+    given_name:
+      ja: 麻衣
+      rom: Mai
+      ko: 마이
+      kana: まい
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/mai-azabu
+  - kind: person
+    printed: 宮野芹
+    family_name:
+      ja: 宮野
+      rom: Miyano
+      ko: 미야노
+      kana: みやの
+    given_name:
+      ja: 芹
+      rom: Seri
+      ko: 세리
+      kana: せり
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 五桐 玲]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:seri-miyano
+  - kind: character
+    printed: 五桐 玲
+    family_name:
+      ja: 五桐
+      rom: Goto
+      ko: 고토
+      kana: ごとう
+    given_name:
+      ja: 玲
+      rom: Akira
+      ko: 아키라
+      kana: あきら
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/akira-goto
+  - kind: person
+    printed: 藤野こころ
+    family_name:
+      ja: 藤野
+      rom: Fujino
+      ko: 후지노
+      kana: ふじの
+    given_name:
+      ja: こころ
+      rom: Kokoro
+      ko: 코코로
+      kana: こころ
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 駒形花火]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:kokoro-fujino
+  - kind: character
+    printed: 駒形花火
+    family_name:
+      ja: 駒形
+      rom: Komagata
+      ko: 코마가타
+      kana: こまがた
+    given_name:
+      ja: 花火
+      rom: Hanabi
+      ko: 하나비
+      kana: はなび
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/hanabi-komagata
+  - kind: person
+    printed: 坂野愛羽
+    family_name:
+      ja: 坂野
+      rom: Sakano
+      ko: 사카노
+      kana: さかの
+    given_name:
+      ja: 愛羽
+      rom: Aiha
+      ko: 아이하
+      kana: あいは
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 金澤奇跡]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:aiha-sakano
+  - kind: character
+    printed: 金澤奇跡
+    family_name:
+      ja: 金澤
+      rom: Kanazawa
+      ko: 카나자와
+      kana: かなざわ
+    given_name:
+      ja: 奇跡
+      rom: Miracle
+      ko: 미라클
+      kana: みらくる
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (2年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/miracle-kanazawa
+  - kind: person
+    printed: 瀬古梨愛
+    family_name:
+      ja: 瀬古
+      rom: Seko
+      ko: 세코
+      kana: せこ
+    given_name:
+      ja: 梨愛
+      rom: Ria
+      ko: 리아
+      kana: りあ
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 調布のりこ]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:ria-seko
+  - kind: character
+    printed: 調布のりこ
+    family_name:
+      ja: 調布
+      rom: Chofu
+      ko: 쵸후
+      kana: ちょうふ
+    given_name:
+      ja: のりこ
+      rom: Noriko
+      ko: 노리코
+      kana: のりこ
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/noriko-chofu
+  - kind: person
+    printed: 奥村優季
+    family_name:
+      ja: 奥村
+      rom: Okumura
+      ko: 오쿠무라
+      kana: おくむら
+    given_name:
+      ja: 優季
+      rom: Yuki
+      ko: 유키
+      kana: ゆき
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 春宮ゆくり]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:yuki-okumura
+  - kind: character
+    printed: 春宮ゆくり
+    family_name:
+      ja: 春宮
+      rom: Harumiya
+      ko: 하루미야
+      kana: はるみや
+    given_name:
+      ja: ゆくり
+      rom: Yukuri
+      ko: 유쿠리
+      kana: ゆくり
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/yukuri-harumiya
+  - kind: person
+    printed: 天沢朱音
+    family_name:
+      ja: 天沢
+      rom: Amasawa
+      ko: 아마사와
+      kana: あまさわ
+    given_name:
+      ja: 朱音
+      rom: Akane
+      ko: 아카네
+      kana: あかね
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 此花輝夜]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:akane-amasawa
+  - kind: character
+    printed: 此花輝夜
+    family_name:
+      ja: 此花
+      rom: Konohana
+      ko: 코노하나
+      kana: このはな
+    given_name:
+      ja: 輝夜
+      rom: Aurora
+      ko: 오로라
+      kana: おーろら
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (2年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/aurora-konohana
+  - kind: person
+    printed: 小戸森穂花
+    family_name:
+      ja: 小戸森
+      rom: Kotomori
+      ko: 코토모리
+      kana: こともり
+    given_name:
+      ja: 穂花
+      rom: Honoka
+      ko: 호노카
+      kana: ほのか
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 山田真緑]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:honoka-kotomori
+  - kind: character
+    printed: 山田真緑
+    family_name:
+      ja: 山田
+      rom: Yamada
+      ko: 야마다
+      kana: やまだ
+    given_name:
+      ja: 真緑
+      rom: Midori
+      ko: 미도리
+      kana: みどり
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/midori-yamada
+  - kind: person
+    printed: 涼ノ瀬葵音
+    family_name:
+      ja: 涼ノ瀬
+      rom: Suzunose
+      ko: 스즈노세
+      kana: すずのせ
+    given_name:
+      ja: 葵音
+      rom: Aoi
+      ko: 아오이
+      kana: あおい
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [CV of 佐々木翔音]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: person:aoi-suzunose
+  - kind: character
+    printed: 佐々木翔音
+    family_name:
+      ja: 佐々木
+      rom: Sasaki
+      ko: 사사키
+      kana: ささき
+    given_name:
+      ja: 翔音
+      rom: Shion
+      ko: 시온
+      kana: しおん
+    status: established
+    source: https://www.lovelive-anime.jp/lovehigh/member/
+    note: 'ja·rom: 공식 멤버 페이지(성·이름 순 표기를 이름-성으로), 가나: 반다이남코필름웍스 보도자료(2025-05-12, 전격온라인 게재), ko: 나무위키'
+    used_in: [member page (1年生)]
+    sources: [https://www.lovelive-anime.jp/lovehigh/member/, https://dengekionline.com/article/202505/41829, https://namu.wiki/w/이키즈라이부!]
+    ref: character:ikizulive/shion-sasaki

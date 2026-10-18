@@ -372,6 +372,7 @@ class Importer:
         as a draft once the readings are filled in). None while the item is still pending."""
         found = self._find_person(printed) if kind == "person" else self._find(kind, printed)
         if found:
+            self.reviews.note_use(file, kind, printed, used_in)  # a draft created earlier keeps collecting its uses
             return found
         item = self.reviews.item(file, kind, printed, seed or {}, used_in)
         if item.get("ref"):
@@ -442,14 +443,14 @@ class Importer:
     def character(self, printed: str) -> str | None:
         return self._find("character", printed)
 
-    def artist(self, printed: str, *, artist_kind: str = "unit") -> str | None:
+    def artist(self, printed: str, *, artist_kind: str = "unit", used_in: str | None = None) -> str | None:
         seed: dict[str, Any] = {"artist_kind": artist_kind}
         if is_latin(printed):
             rom = unicodedata.normalize("NFKC", printed)
             seed["names"] = {"ja": printed, "rom": rom, "ko": rom}
         else:
             seed["names"] = {"ja": printed, "rom": "", "ko": ""}
-        return self.resolve("artist", printed, file=REVIEW_FILES["artist"], seed=seed)
+        return self.resolve("artist", printed, file=REVIEW_FILES["artist"], seed=seed, used_in=used_in)
 
     # credits ----------------------------------------------------------------------
 
@@ -465,9 +466,9 @@ class Importer:
 
     # works and releases -----------------------------------------------------------
 
-    def performers(self, p: Performers, group_id: str | None) -> list[m.Performer] | None:
+    def performers(self, p: Performers, group_id: str | None, used_in: str | None = None) -> list[m.Performer] | None:
         if p.artist:
-            aid = group_id if p.artist == GROUP_NAME else self.artist(p.artist)
+            aid = group_id if p.artist == GROUP_NAME else self.artist(p.artist, used_in=used_in)
             return [m.Performer(artist=aid)] if aid else None
         chars = [self.character(name) for name, _ in p.members]
         if not all(chars):
@@ -479,7 +480,7 @@ class Importer:
 
     def release(self, obs: ReleaseObs, group_id: str | None) -> None:
         tracks: list[m.Track] = []
-        release_perf = self.performers(obs.performers, group_id)
+        release_perf = self.performers(obs.performers, group_id, obs.page_id)
         complete = release_perf is not None
         title_item = None
         if not all(p in {split_version(t.title)[0] for t in obs.tracks} for p in obs.title.split(" / ")):
@@ -494,10 +495,10 @@ class Importer:
         vocal_of: dict[str, m.Recording] = {}
         for t in obs.tracks:
             base, ver = split_version(t.title)
-            used = f"{obs.page_id} #{t.no}" if ver is None else None
+            used = f"{obs.page_id} #{t.no}"
             wid = self.resolve("work", base, file=REVIEW_FILES["work"], used_in=used,
                                seed={"title": {"ja": base, "rom": _rom_title(base), "ko": base if is_latin(base) else ""}})
-            perf = self.performers(t.performers, group_id) if t.performers else release_perf
+            perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
             credits = {role: self.credits(names, f"{base}: {role}") for role, names in t.credits.items()}
             if wid is None or perf is None or any(v is None for v in credits.values()):
                 complete = False
@@ -677,7 +678,7 @@ def import_site(ds: Dataset, site: Site, review_dir: Path, today: dt.date) -> Re
     before = {f"{kind}:{ent.id}": ent.model_dump() for kind, ent in ds.iter_all()}  # type: ignore[attr-defined]
     layout_before = ds.layout.model_dump() if ds.layout else None
     members = imp.members(site)
-    group_id = imp.artist(GROUP_NAME, artist_kind="group")
+    group_id = imp.artist(GROUP_NAME, artist_kind="group", used_in="member page")
     for obs in site.releases:  # also when names are pending, so that one run lists every new name
         imp.release(obs, group_id)
     if group_id and all(members):

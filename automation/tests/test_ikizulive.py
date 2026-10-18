@@ -143,3 +143,21 @@ def test_item_values_composes_names_and_reports_gaps():
     assert (n.ja, n.rom, n.ko) == ("公野 櫻子", "Sakurako Kimino", "키미노 사쿠라코")
     with pytest.raises(ValueError, match="ko"):
         item_values({"kind": "person", "names": {"ja": "こむぎ", "rom": "Komugi", "ko": ""}})
+
+
+def test_uses_of_existing_drafts_keep_being_recorded(ds, tmp_path):
+    # a Latin name becomes a draft at its first use; later uses must still be listed in its review item
+    site = _site()
+    second = ik.ReleaseObs(URL.replace("9999", "9998"), "Digital Single", "Song B", dt.date(2025, 8, 1), site.releases[0].performers,
+                           [ik.EditionObs(None, "LZC-1000")], [ik.TrackObs(1, "Song B", credits={
+                               "lyricist": [ik.CreditName("Yuta Sakai")], "composer": [ik.CreditName("Yuta Sakai")],
+                               "arranger": [ik.CreditName("Yuta Sakai")]})], {})
+    site.releases.append(second)
+    ik.import_site(ds, site, tmp_path, dt.date(2026, 10, 19))
+    ik.import_site(ds, site, tmp_path, dt.date(2026, 10, 19))  # a rerun lists the uses once, not twice
+    doc = YAML(typ="safe").load((tmp_path / "IKZ-persons.yaml").read_text(encoding="utf-8"))
+    sakai = next(it for it in doc["items"] if it["printed"] == "Yuta Sakai")
+    assert sakai["used_in"] == ["ヒミツミチ: composer", "ヒミツミチ: arranger", "Song B: lyricist", "Song B: composer", "Song B: arranger"]
+    titles = YAML(typ="safe").load((tmp_path / "IKZ-titles.yaml").read_text(encoding="utf-8"))
+    song_b = next(it for it in titles["items"] if it["printed"] == "Song B")
+    assert song_b["used_in"] == ["01_9998 #1"]

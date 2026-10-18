@@ -11,8 +11,20 @@ items:
       ko: What is my LIFE?
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [What is my LIFE? (01_4661), '01_4661 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in:
+      - '01_4661 #1'
+      - '01_4661 #3'
+      - '01_4697 #3'
+      - '01_4698 #3'
+      - '01_4699 #3'
+      - '01_4700 #3'
+      - '01_4701 #3'
+      - '01_4702 #3'
+      - '01_4703 #3'
+      - '01_4704 #3'
+      - '01_4705 #3'
+      - '01_4706 #3'
     ref: work:ikizulive/what-is-my-life
   - kind: work
     printed: ヒミツミチ
@@ -22,8 +34,8 @@ items:
       ko: 비밀 길
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [ヒミツミチ (01_4661), ヒミツミチ (Off Vocal) (01_4661), '01_4661 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4661 #2', '01_4661 #4']
     ref: work:ikizulive/himitsu-michi
   - kind: work
     printed: 浅草Guilty Girlの歌
@@ -33,8 +45,8 @@ items:
       ko: 아사쿠사 Guilty Girl의 노래
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [浅草Guilty Girlの歌 (01_4697), 浅草Guilty Girlの歌 (Off Vocal) (01_4697), '01_4697 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4697 #1', '01_4697 #4']
     ref: work:ikizulive/asakusa-guilty-girl-no-uta
   - kind: work
     printed: オドルポルカ
@@ -44,8 +56,8 @@ items:
       ko: 춤추는 폴카
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), 띄어쓰기만 고침, rom: 제안. 사용자 확인 (2026-10-18)'
-    used_in: [オドルポルカ (01_4697), オドルポルカ (Off Vocal) (01_4697), '01_4697 #2']
+    note: 'ja: 공식, ko: 나무위키 번역, 띄어쓰기만 고침 (사용자 결정), rom: Fandom'
+    used_in: ['01_4697 #2', '01_4697 #5']
     ref: work:ikizulive/odoru-polka
   - kind: work
     printed: Public Style
@@ -55,8 +67,8 @@ items:
       ko: Public Style
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Public Style (01_4698), '01_4698 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4698 #1', '01_4698 #4']
     ref: work:ikizulive/public-style
   - kind: work
     printed: ひっさつマイマイモード
@@ -66,8 +78,8 @@ items:
       ko: 필살 마이마이 모드
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. rom: Fandom 표기'
-    used_in: [ひっさつマイマイモード (01_4698), ひっさつマイマイモード (Off Vocal) (01_4698), '01_4698 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4698 #2', '01_4698 #5']
     ref: work:ikizulive/hissatsu-my-mai-mode
   - kind: work
     printed: いつか碧
@@ -77,8 +89,8 @@ items:
       ko: 언젠가 파랑
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. rom: Fandom 표기'
-    used_in: [いつか碧 (01_4699), いつか碧 (Off Vocal) (01_4699), '01_4699 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4699 #1', '01_4699 #4']
     ref: work:ikizulive/itsuka-ao
   - kind: work
     printed: ジェットスターター
@@ -88,8 +100,8 @@ items:
       ko: 제트 스타터
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [ジェットスターター (01_4699), ジェットスターター (Off Vocal) (01_4699), '01_4699 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4699 #2', '01_4699 #5']
     ref: work:ikizulive/jet-starter
   - kind: work
     printed: HIBANA―火花―
@@ -99,8 +111,8 @@ items:
       ko: HIBANA―히바나―
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. 사용자 확인 (2026-10-18). rom: Fandom 표기'
-    used_in: [HIBANA―火花― (01_4700), HIBANA―火花― (Off Vocal) (01_4700), '01_4700 #1']
+    note: 'ja: 공식, ko: 나무위키 번역, 대시는 공식 제목(―)에 맞춤, rom: Fandom'
+    used_in: ['01_4700 #1', '01_4700 #4']
     ref: work:ikizulive/hibana-hibana
   - kind: work
     printed: First Ride
@@ -110,8 +122,8 @@ items:
       ko: First Ride
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [First Ride (01_4700), '01_4700 #2']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4700 #2', '01_4700 #5']
     ref: work:ikizulive/first-ride
   - kind: work
     printed: HomeRun Queen!!
@@ -121,8 +133,8 @@ items:
       ko: HomeRun Queen!!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [HomeRun Queen!! (01_4701), '01_4701 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4701 #1', '01_4701 #4']
     ref: work:ikizulive/homerun-queen
   - kind: work
     printed: マジカル♡レシピ・シルブプレ！
@@ -132,8 +144,8 @@ items:
       ko: 매지컬♡레시피・실부플레!
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. rom: Fandom 표기'
-    used_in: [マジカル♡レシピ・シルブプレ！ (01_4701), マジカル♡レシピ・シルブプレ！ (Off Vocal) (01_4701), '01_4701 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4701 #2', '01_4701 #5']
     ref: work:ikizulive/magical-recipe-s-il-vous-plait
   - kind: work
     printed: 恋のワンタイムパスワード
@@ -143,8 +155,8 @@ items:
       ko: 사랑의 원타임 패스워드
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. rom: Fandom 표기'
-    used_in: [恋のワンタイムパスワード (01_4702), 恋のワンタイムパスワード (Off Vocal) (01_4702), '01_4702 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4702 #1', '01_4702 #4']
     ref: work:ikizulive/koi-no-one-time-password
   - kind: work
     printed: センチメートル・ランデヴー
@@ -154,8 +166,8 @@ items:
       ko: 센티미터・랑데부
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: "ko: 나무위키 '센티멘털・랑데부'는 오역이라 고침 (センチメートル = 센티미터), rom: 제안. 사용자 확인 (2026-10-18). rom: Fandom 표기"
-    used_in: [センチメートル・ランデヴー (01_4702), センチメートル・ランデヴー (Off Vocal) (01_4702), '01_4702 #2']
+    note: "ja: 공식, ko: 나무위키 '센티멘털・랑데부'는 오역이라 고침 (사용자 결정), rom: Fandom"
+    used_in: ['01_4702 #2', '01_4702 #5']
     ref: work:ikizulive/centimeter-rendezvous
   - kind: work
     printed: Pray for love
@@ -165,8 +177,8 @@ items:
       ko: Pray for love
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Pray for love (01_4703), '01_4703 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4703 #1', '01_4703 #4']
     ref: work:ikizulive/pray-for-love
   - kind: work
     printed: 二人はいつでも Happy End
@@ -176,8 +188,8 @@ items:
       ko: 둘은 언제나 Happy End
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [二人はいつでも Happy End (01_4703), 二人はいつでも Happy End (Off Vocal) (01_4703), '01_4703 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4703 #2', '01_4703 #5']
     ref: work:ikizulive/futari-wa-itsudemo-happy-end
   - kind: work
     printed: キミは夜のポラリス
@@ -187,8 +199,8 @@ items:
       ko: 너는 밤의 폴라리스
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [キミは夜のポラリス (01_4704), キミは夜のポラリス (Off Vocal) (01_4704), '01_4704 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4704 #1', '01_4704 #4']
     ref: work:ikizulive/kimi-wa-yoru-no-polaris
   - kind: work
     printed: クラリトブライト
@@ -198,8 +210,8 @@ items:
       ko: 쿠라리토 브라이트
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: "ko: 나무위키 '클라리테 브라이트'는 오역이라 음역 (사용자 결정 2026-10-19), rom: Fandom"
-    used_in: [クラリトブライト (01_4704), クラリトブライト (Off Vocal) (01_4704), '01_4704 #2']
+    note: "ja: 공식, ko: 나무위키 '클라리테 브라이트'는 오역이라 음역 (사용자 결정), rom: Fandom"
+    used_in: ['01_4704 #2', '01_4704 #5']
     ref: work:ikizulive/kurari-to-bright
   - kind: work
     printed: Little Green委員会
@@ -209,8 +221,8 @@ items:
       ko: Little Green 위원회
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [Little Green委員会 (01_4705), Little Green委員会 (Off Vocal) (01_4705), '01_4705 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_4705 #1', '01_4705 #4']
     ref: work:ikizulive/little-green-iinkai
   - kind: work
     printed: LOVE♡YOU♡Save the EARTH!!
@@ -220,8 +232,8 @@ items:
       ko: LOVE♡YOU♡Save the EARTH!!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [LOVE♡YOU♡Save the EARTH!! (01_4705), '01_4705 #2']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4705 #2', '01_4705 #5']
     ref: work:ikizulive/love-you-save-the-earth
   - kind: work
     printed: イキタクナイevery day
@@ -231,8 +243,8 @@ items:
       ko: 살기 싫은 every day
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. 사용자 확인 (2026-10-18)'
-    used_in: [イキタクナイevery day (01_4706), イキタクナイevery day (Off Vocal) (01_4706), '01_4706 #1']
+    note: "ja: 공식, ko: 나무위키 솔로 싱글 문서 (음반 문서는 '가고 싶지 않은'. 사용자 결정), rom: Fandom"
+    used_in: ['01_4706 #1', '01_4706 #4']
     ref: work:ikizulive/ikitakunai-every-day
   - kind: work
     printed: Trick or Toxic
@@ -242,8 +254,8 @@ items:
       ko: Trick or Toxic
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Trick or Toxic (01_4706), '01_4706 #2']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_4706 #2', '01_4706 #5']
     ref: work:ikizulive/trick-or-toxic
   - kind: work
     printed: REGAIN AGAIN LLLLOVE
@@ -253,8 +265,8 @@ items:
       ko: REGAIN AGAIN LLLLOVE
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [REGAIN AGAIN LLLLOVE (01_5832), '01_5832 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_5832 #1', '01_5832 #2', '01_5830 #2', '01_5830 #5']
     ref: work:ikizulive/regain-again-llllove
   - kind: work
     printed: Dou-Da? DOING!
@@ -264,8 +276,8 @@ items:
       ko: Dou-Da? DOING!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Dou-Da? DOING! (01_5861), '01_5861 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_5861 #1', '01_5861 #2', '01_5830 #1', '01_5830 #4']
     ref: work:ikizulive/dou-da-doing
   - kind: work
     printed: 凸凹Quartet
@@ -275,8 +287,8 @@ items:
       ko: 울퉁불퉁 Quartet
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [凸凹Quartet (01_5925), 凸凹Quartet (Off Vocal) (01_5925), 凸凹Quartet (01_6523), '01_5925 #1', '01_6523 #1']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_5925 #1', '01_5925 #2', '01_6523 #1']
     ref: work:ikizulive/dekoboko-quartet
   - kind: work
     printed: シンメトリー
@@ -286,8 +298,8 @@ items:
       ko: 시메트리
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [シンメトリー (01_5927), シンメトリー (Off Vocal) (01_5927), シンメトリー (01_6523), '01_5927 #1', '01_6523 #2']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_5927 #1', '01_5927 #2', '01_6523 #2']
     ref: work:ikizulive/symmetry
   - kind: work
     printed: Daitan Party Time
@@ -297,8 +309,8 @@ items:
       ko: Daitan Party Time
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Daitan Party Time (01_5926), '01_5926 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_5926 #1', '01_5926 #2', '01_6523 #3']
     ref: work:ikizulive/daitan-party-time
   - kind: work
     printed: Silent Stella
@@ -308,8 +320,8 @@ items:
       ko: Silent Stella
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Silent Stella (01_5928), '01_5928 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_5928 #1', '01_5928 #2', '01_6523 #4']
     ref: work:ikizulive/silent-stella
   - kind: work
     printed: SUPER SUMMER SENSATION!!
@@ -319,8 +331,8 @@ items:
       ko: SUPER SUMMER SENSATION!!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [SUPER SUMMER SENSATION!! (01_5830), '01_5830 #3']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_5830 #3', '01_5830 #6']
     ref: work:ikizulive/super-summer-sensation
   - kind: work
     printed: 全力Calling!! I LOVE YOU!!
@@ -330,13 +342,8 @@ items:
       ko: 전력 Calling!! I LOVE YOU!!
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in:
-      - 全力Calling!! I LOVE YOU!! (01_6312)
-      - 全力Calling!! I LOVE YOU!! (Off Vocal) (01_6312)
-      - 全力Calling!! I LOVE YOU!! (01_6523)
-      - '01_6312 #1'
-      - '01_6523 #5'
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_6312 #1', '01_6312 #2', '01_6523 #5']
     ref: work:ikizulive/zenryoku-calling-i-love-you
   - kind: work
     printed: tap tap tappin'!!
@@ -346,8 +353,8 @@ items:
       ko: tap tap tappin'!!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [tap tap tappin'!! (01_6313), '01_6313 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_6313 #1', '01_6313 #2', '01_6523 #6']
     ref: work:ikizulive/tap-tap-tappin
   - kind: work
     printed: 未完成なラブレター
@@ -357,8 +364,8 @@ items:
       ko: 미완성된 러브레터
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [未完成なラブレター (01_6314), 未完成なラブレター (Off Vocal) (01_6314), 未完成なラブレター (01_6523), '01_6314 #1', '01_6523 #7']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_6314 #1', '01_6314 #2', '01_6523 #7']
     ref: work:ikizulive/mikansei-na-love-letter
   - kind: work
     printed: POP LOVE
@@ -368,8 +375,8 @@ items:
       ko: POP LOVE
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [POP LOVE (01_6517), '01_6517 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_6517 #1', '01_6517 #2', '01_6523 #10']
     ref: work:ikizulive/pop-love
   - kind: work
     printed: Spinning Parade
@@ -379,8 +386,8 @@ items:
       ko: Spinning Parade
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Spinning Parade (01_6518), '01_6518 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_6518 #1', '01_6518 #2', '01_6523 #11']
     ref: work:ikizulive/spinning-parade
   - kind: work
     printed: チュリ♡CHUちゅきらり♪
@@ -390,8 +397,8 @@ items:
       ko: 츄리♡CHU츄키라리♪
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안. rom: Fandom 표기'
-    used_in: [チュリ♡CHUちゅきらり♪ (01_6519), チュリ♡CHUちゅきらり♪ (Off Vocal) (01_6519), チュリ♡CHUちゅきらり♪ (01_6523), '01_6519 #1', '01_6523 #12']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_6519 #1', '01_6519 #2', '01_6523 #12']
     ref: work:ikizulive/churi-chu-chu-kirari
   - kind: work
     printed: Darling Wanted!
@@ -401,8 +408,8 @@ items:
       ko: Darling Wanted!
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Darling Wanted! (01_6514), '01_6514 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_6514 #1', '01_6514 #2', '01_6523 #8']
     ref: work:ikizulive/darling-wanted
   - kind: work
     printed: 青春ソーダ
@@ -412,8 +419,8 @@ items:
       ko: 청춘 소다
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
-    used_in: [青春ソーダ (01_6516), 青春ソーダ (Off Vocal) (01_6516), 青春ソーダ (01_6523), '01_6516 #1', '01_6523 #9']
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom'
+    used_in: ['01_6516 #1', '01_6516 #2', '01_6523 #9']
     ref: work:ikizulive/seishun-soda
   - kind: work
     printed: Tale of Primavera
@@ -423,8 +430,8 @@ items:
       ko: Tale of Primavera
     status: derived
     source: ''
-    note: '라틴 제목: rom·ko는 ja와 같음'
-    used_in: [Tale of Primavera (01_6602), '01_6602 #1']
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    used_in: ['01_6602 #1', '01_6602 #2', '01_6523 #13']
     ref: work:ikizulive/tale-of-primavera
   - kind: release
     printed: いきづらい部！ あつまれユニットソング！ vol.1
@@ -434,6 +441,6 @@ items:
       ko: 이키즈라이부! 모여라 유닛 송! vol.1
     status: derived
     source: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반
-    note: 'ko: 나무위키 번역 (D30), rom: 제안'
+    note: "ja: 공식, rom: 그룹명은 사용자 결정(Ikizuraibu!), 나머지는 원제대로 'Unit Song' (Fandom 본문은 'Atsumare Unit Songs!', 사용자 확인 2026-10-19), ko: 나무위키"
     used_in: ['01_6523']
     ref: release:ikizulive/2026-ikizuraibu-atsumare-unit-song-vol-1

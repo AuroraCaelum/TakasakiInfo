@@ -139,22 +139,38 @@ class NameReviews:
         if file not in self.docs:
             path = self.dir / file
             doc = YAML(typ="safe").load(path.read_text(encoding="utf-8")) if path.exists() else None
-            self.docs[file] = doc or {"type": "new-names", "project": self.project, "decision": "", "how": HOWTO, "items": []}
+            doc = doc or {"type": "new-names", "project": self.project, "decision": "", "how": HOWTO, "items": []}
+            for it in doc["items"]:
+                it["used_in"] = []  # an import reads the whole site, so every run lists the uses afresh
+            self.docs[file] = doc
         return self.docs[file]
 
-    def item(self, file: str, kind: str, printed: str, seed: dict[str, Any], used_in: str | None) -> dict[str, Any]:
-        doc = self.doc(file)
+    def _match(self, doc: dict[str, Any], kind: str, printed: str) -> dict[str, Any] | None:
         key = match_key(printed, person=kind == "person")
-        for it in doc["items"]:
-            if it.get("kind") == kind and match_key(str(it.get("printed")), person=kind == "person") == key:
-                break
-        else:
-            it = _seeded(kind, printed, seed)
-            doc["items"].append(it)
-            self.dirty.add(file)
+        return next((it for it in doc["items"] if it.get("kind") == kind
+                     and match_key(str(it.get("printed")), person=kind == "person") == key), None)
+
+    def _use(self, file: str, it: dict[str, Any], used_in: str | None) -> None:
         if used_in and used_in not in it.setdefault("used_in", []):
             it["used_in"].append(used_in)
             self.dirty.add(file)
+
+    def note_use(self, file: str, kind: str, printed: str, used_in: str | None) -> None:
+        """Record a use of a name whose entity already exists, while its review item is still open."""
+        if file not in self.docs and not (self.dir / file).exists():
+            return
+        it = self._match(self.doc(file), kind, printed)
+        if it is not None:
+            self._use(file, it, used_in)
+
+    def item(self, file: str, kind: str, printed: str, seed: dict[str, Any], used_in: str | None) -> dict[str, Any]:
+        doc = self.doc(file)
+        it = self._match(doc, kind, printed)
+        if it is None:
+            it = _seeded(kind, printed, seed)
+            doc["items"].append(it)
+            self.dirty.add(file)
+        self._use(file, it, used_in)
         return it
 
     def save(self) -> list[Path]:
