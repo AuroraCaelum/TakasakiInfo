@@ -2,7 +2,8 @@
 
 Each CD edition has its own page, listed on ``/yuigaoka/music/``: ``cdNN.php`` (2021–2024) and
 ``detail.php?p=01_NNNN`` (later). A page is one block in the layout of the Nijigasaki site; the
-reader is ``sitepage``. Only the releases already in ``data/`` are checked (``check_only``).
+reader is ``sitepage``. Releases migrated from the legacy files are checked against their pages and
+completed (type, label, editions, artist); the others are imported (Phase 3).
 """
 
 from __future__ import annotations
@@ -14,7 +15,7 @@ from pathlib import Path
 from .importer import Report, Site, Spec
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
-from .sitepage import group_blocks, performers_of, read_block, text_lines, to_release
+from .sitepage import read_block, releases_of, text_lines
 from .store import Dataset
 
 GROUP = "Liella!"
@@ -22,7 +23,11 @@ LIST_PATH = "/yuigaoka/music/"
 MEMBER_PATH = "/yuigaoka/member/"
 
 SPEC = Spec(project="liella", group_name=GROUP, legacy_group="Liella", review_prefix="LLA",
-            lineups_from_site=False, check_only=True)
+            skip={"cd13.php": "LIVE with a smile!: Aqours, Nijigasaki and Liella!, cross-project (Phase 3)",
+                  "cd37.php": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)",
+                  "cd47.php": "AiScReam「愛♡スクリ～ム！」: cross-project unit (Phase 3)",
+                  "01_5904": "AiScReam「NEXT CARD」: cross-project unit (Phase 3)"},
+            lineups_from_site=False)
 
 _PAGE = re.compile(r'href="((?:cd\d+\.php)|(?:detail\.php\?p=01_\d+))"')
 _BOX = re.compile(r'<div class="box" id="([^"]+)">')
@@ -46,9 +51,8 @@ def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:
         b = parse_page(fetcher.get(url, fresh=fresh).html, url)
         if b is not None:
             blocks.append(b)
-    releases = [to_release(g, performers_of(g[0])) for g in group_blocks(blocks)]
-    releases.sort(key=lambda r: (r.release_date, r.url))
-    return Site([], releases, BASE + MEMBER_PATH, [f"{b.url} {p}" for b in blocks for p in b.problems])
+    releases, skipped = releases_of(blocks, SPEC.skip)
+    return Site([], releases, BASE + MEMBER_PATH, skipped)
 
 
 def import_site(ds: Dataset, site: Site, review_dir: Path, today: dt.date) -> Report:

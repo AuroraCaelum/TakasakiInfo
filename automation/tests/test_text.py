@@ -67,3 +67,16 @@ def test_halfwidth_only_folds_width():
     assert halfwidth("～RUN！CAN！FUN！～") == "~RUN!CAN!FUN!~"
     assert halfwidth("37.5℃ Ⅱ……") == "37.5℃ Ⅱ……"  # other compatibility characters stay
     assert is_latin("A・ZU・NA")  # the katakana middle dot is punctuation
+
+
+def test_versions_between_wave_dashes():
+    assert split_version("私のSymphony ～2023Ver.～") == ("私のSymphony", "2023Ver.")
+    assert split_version("What a Wonderful Dream!! ～CatChu! Ver.～") == ("What a Wonderful Dream!!", "CatChu! Ver.")
+    base, ver = split_version("始まりは君の空 ～11 Ver.～(Off Vocal)")
+    assert ver == "Off Vocal" and split_version(base) == ("始まりは君の空", "11 Ver.")
+    assert split_version("みんなでお出かけ！ ～集合編～") == ("みんなでお出かけ！ ～集合編～", None)  # not a version
+    assert match_key("We‘ll get the next dream!!!") == match_key("We'll get the next dream!!!")  # U+2018, a misprint
+
+
+def test_halfwidth_wave_dash():
+    assert halfwidth("Album 〜New winding road〜") == "Album ~New winding road~"  # U+301C, which NFKC keeps

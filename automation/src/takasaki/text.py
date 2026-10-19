@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
-_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～~\-‐–—_!！?？.,，、。:：;；'’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")  # ~: NFKC turns ～ into ~
+_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～~\-‐–—_!！?？.,，、。:：;；'‘’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")  # ~: NFKC turns ～ into ~
 
 
 def nfc(s: str) -> str:
@@ -100,8 +100,9 @@ _AFFILIATION = re.compile(r"^(?P<name>.+?)(?P<space>\s*)\((?P<aff>[^()（）]+)\
 def halfwidth(s: str) -> str:
     """Full-width forms (``！``, ``～``, ``（``, ``Ａ``) and the ideographic space made half-width: rom
     and ko are written this way, ja keeps the official notation (D42). Other compatibility characters
-    (``℃``, ``Ⅱ``, ``…``) stay."""
-    return "".join(unicodedata.normalize("NFKC", c) if "\uff01" <= c <= "\uffef" or c == "\u3000" else c for c in s)
+    (``℃``, ``Ⅱ``, ``…``) stay. The wave dash ``〜`` (U+301C), which NFKC leaves, is ``~`` too."""
+    return "".join("~" if c == "\u301c" else unicodedata.normalize("NFKC", c) if "\uff01" <= c <= "\uffef" or c == "\u3000" else c
+                   for c in s)
 
 
 def render_credit_name(name: str, lang: str, affiliation: str | None = None, role: str | None = None,
@@ -149,13 +150,20 @@ def parse_credit(parts: dict[str, str]) -> tuple[dict[str, str], str | None, dic
 _VERSION_SUFFIX = re.compile(
     r"^(?P<base>.+?)\s*[(（](?P<ver>[^()（）]*(?:[Vv]er\.?|[Vv]ersion|Off Vocal|[Ii]nstrumental))[)）]\s*$"
 )
+# a version between wave dashes: "私のSymphony ～2023Ver.～", "What a Wonderful Dream!! ～CatChu! Ver.～"
+_WAVE_VERSION = re.compile(r"^(?P<base>.+?)\s*[～〜~](?P<ver>[^～〜~]*(?:[Vv]er\.?|[Vv]ersion))\s*[～〜~]\s*$")
 
 
 def split_version(title: str) -> tuple[str, str | None]:
-    m = _VERSION_SUFFIX.match(title)
+    m = _VERSION_SUFFIX.match(title) or _WAVE_VERSION.match(title)
     if not m:
         return title, None
-    return m["base"], m["ver"]
+    return m["base"], m["ver"].strip()
+
+
+def wave_version(title: str) -> bool:
+    """Whether the title prints its version between wave dashes (``～2023Ver.～``) rather than in brackets."""
+    return _VERSION_SUFFIX.match(title) is None and _WAVE_VERSION.match(title) is not None
 
 
 def recording_kind(title_ja: str, note: str) -> str:

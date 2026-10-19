@@ -2,8 +2,8 @@
 
 Each year's site (``/musical/2022/``, ``/musical/2023/``) has a music page listing the same CDs as
 blocks in the layout of the Nijigasaki site; the reader is ``sitepage``. The singers are the cast,
-printed as ``堀内まり菜（椿 ルリカ役）`` with the ensemble after them (D29). Only the releases already in
-``data/`` are checked (``check_only``).
+printed as ``堀内まり菜（椿 ルリカ役）`` with the ensemble after them (D29). Releases migrated from the
+legacy files are checked against their blocks and completed; the others are imported (Phase 3).
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ from pathlib import Path
 from .importer import Report, Site, Spec
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
-from .sitepage import group_blocks, performers_of, read_block, text_lines, to_release
+from .sitepage import read_block, releases_of, text_lines
 from .store import Dataset
 from .text import match_key
 
@@ -24,7 +24,7 @@ PAGES = ("/musical/2023/music.php", "/musical/2022/music.php")  # the newer site
 MEMBER_PATH = "/musical/2023/member.php"
 
 SPEC = Spec(project="musical", group_name=GROUP, legacy_group="Musical", review_prefix="MSC",
-            lineups_from_site=False, check_only=True)
+            lineups_from_site=False, group_artist=False)
 
 _BOX = re.compile(r'<div class="box" id="([^"]+)">')
 
@@ -49,9 +49,8 @@ def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:
             if key not in seen:
                 seen.add(key)
                 blocks.append(b)
-    releases = [to_release(g, performers_of(g[0])) for g in group_blocks(blocks)]
-    releases.sort(key=lambda r: (r.release_date, r.url))
-    return Site([], releases, BASE + MEMBER_PATH, [f"{b.url} {p}" for b in blocks for p in b.problems])
+    releases, skipped = releases_of(blocks, SPEC.skip)
+    return Site([], releases, BASE + MEMBER_PATH, skipped)
 
 
 def import_site(ds: Dataset, site: Site, review_dir: Path, today: dt.date) -> Report:
