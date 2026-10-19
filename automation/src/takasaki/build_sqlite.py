@@ -234,10 +234,11 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
 
     ins("city", *[(c,) for c in ds.cities])
     for c in ds.cities.values():
-        names(f"city:{c.id}", "name", c.names, {})
+        names(f"city:{c.id}", "name", c.names, c.evidence)
+        common(f"city:{c.id}", c)
     for v in ds.venues.values():
         ins("venue", (v.id, v.city))
-        names(f"venue:{v.id}", "name", v.names, {})
+        names(f"venue:{v.id}", "name", v.names, v.evidence)
         common(f"venue:{v.id}", v)
     perf_id = 0
     for c in ds.concerts.values():

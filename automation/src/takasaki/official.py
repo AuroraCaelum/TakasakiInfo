@@ -116,13 +116,16 @@ HOWTO = (
 )
 
 
+TITLED = ("work", "release", "concert")  # kinds named by a title; the rest by names
+
+
 def _blank_names(seed: dict[str, Any] | None) -> dict[str, str]:
     return {"ja": "", "rom": "", "ko": ""} | {k: v for k, v in (seed or {}).items() if v is not None}
 
 
 def _seeded(kind: str, printed: str, seed: dict[str, Any]) -> dict[str, Any]:
     item: dict[str, Any] = {"kind": kind, "printed": printed}
-    if kind in ("work", "release"):
+    if kind in TITLED:
         item["title"] = _blank_names(seed.get("title")) | {"ja": (seed.get("title") or {}).get("ja") or printed}
     elif "names" in seed and not seed.get("family_name"):
         item["names"] = _blank_names(seed["names"])
@@ -208,7 +211,7 @@ def _names(d: dict[str, Any] | None) -> m.Names | None:
 def item_values(item: dict[str, Any]) -> dict[str, Any]:
     """Entity fields from a review item; raises ValueError naming what is still missing."""
     kind = item["kind"]
-    if kind in ("work", "release"):
+    if kind in TITLED:
         title = _names(item.get("title"))
         missing = [k for k in ("ja", "rom", "ko") if not (title and getattr(title, k))]
         if missing:
@@ -252,7 +255,7 @@ def approve_names(ds: Any, doc: dict[str, Any], today: dt.date) -> str:
             values["title"] = m.Names(ja=values["title"].ja, rom=values["title"].rom, ko=values["title"].ko)
         for k, v in values.items():
             setattr(ent, k, v)
-        key = "title" if kind in ("work", "release") else "names"
+        key = "title" if kind in TITLED else "names"
         ent.evidence[key] = m.Evidence(status=m.Status(it.get("status") or "derived"), source=it.get("source") or None,
                                        checked=today, note=it.get("note") or None)
         if values.get("family_name"):

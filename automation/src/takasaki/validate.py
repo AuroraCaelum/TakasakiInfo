@@ -209,6 +209,9 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for group, ids in ds.layout.concerts.items():
             for i in ids:
                 need(ds.concerts, i, f"layout:concerts/{group}", "concert")
+                for s in ds.concerts[i].stops if i in ds.concerts else []:
+                    if s.city is None or s.venue is None:  # the legacy files print both (an online show has neither)
+                        add("E2", f"layout:concerts/{group}", f"{i} stop {s.id} has no city or venue")
 
     # E3: no draft value in the legacy files (§4.4); announced releases are not output (§7.4)
     for where, ent in legacy_reach(ds):

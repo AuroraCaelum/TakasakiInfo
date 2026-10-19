@@ -320,6 +320,7 @@ class Release(Strict):
 class City(Strict):
     id: str
     names: Names
+    evidence: dict[str, Evidence] = {}
 
 
 class Venue(Strict):
@@ -327,6 +328,7 @@ class Venue(Strict):
     city: str | None = None
     names: Names
     external_ids: dict[str, str] = {}
+    evidence: dict[str, Evidence] = {}
 
 
 SetlistType = Literal["song", "mc", "video", "encore", "double_encore", "talk", "other"]
@@ -336,6 +338,7 @@ class SetlistItem(Strict):
     type: SetlistType = "song"
     work: str | None = None
     recording: str | None = None
+    version: str | None = None  # the version sung when no recording of it is linked ("104th Class Ver.", §4.6)
     performers: list[Performer] = []
     label: str | None = None  # literal marker text for unnumbered markers
     title_raw: str | None = None  # unresolved song title (E9)
@@ -345,13 +348,15 @@ class Performance(Strict):
     date: dt.date
     label: str | None = None
     setlist: list[SetlistItem] = []
+    # fandom: the set-list tab this show's list is read from, "<section>|<tab>" (D47)
+    external_ids: dict[str, str] = {}
 
 
 class Stop(Strict):
     id: str
-    city: str
+    city: str | None = None  # None: an online-only show
     label: str | None = None
-    venue: str
+    venue: str | None = None
     performances: list[Performance]
 
 

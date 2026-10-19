@@ -266,6 +266,58 @@ def cmd_official(args: argparse.Namespace) -> int:
     return 1 if report.conflicts else 0
 
 
+def _report(report) -> None:  # type: ignore[no-untyped-def]
+    for label, rows in (("created", report.created), ("updated", report.updated), ("pending", report.pending),
+                        ("conflict", report.conflicts), ("skipped", report.skipped)):
+        for row in rows:
+            print(f"{label:8} {row}")
+
+
+def cmd_fandom_concerts(args: argparse.Namespace) -> int:
+    """Read the set lists of the concerts that name a Fandom page (§7.7 ②, D47)."""
+    from . import fandom
+    from .concerts import import_setlists
+    from .official import Fetcher
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    fetcher = Fetcher(root / "automation" / ".cache" / "fandom", interval=3.0, offline=args.offline)
+    wanted = sorted({c.external_ids["fandom"] for c in ds.concerts.values() if "fandom" in c.external_ids})
+    pages = {t: fandom.parse_response(fetcher.get(fandom.wikitext_url(t), fresh=args.fresh).html) for t in wanted}
+    print(f"read {len(pages)} Fandom concert pages")
+    report = import_setlists(ds, pages, review if args.apply else root / "automation" / ".cache" / "review-dry-run",
+                             dt.date.today())
+    _report(report)
+    if args.apply and report.updated:
+        assert ds.meta is not None
+        ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_dataset(ds, data)
+    elif not args.apply:
+        print("dry run: nothing written (--apply writes data/ and the review file)")
+    return 1 if report.conflicts else 0
+
+
+def cmd_concerts_schedule(args: argparse.Namespace) -> int:
+    """Create the concerts of a schedule file with their venues and cities (D47)."""
+    from ruamel.yaml import YAML
+
+    from .concerts import import_schedule
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    entries = YAML(typ="safe").load(Path(args.file).read_text(encoding="utf-8"))
+    report = import_schedule(ds, entries, review if args.apply else root / "automation" / ".cache" / "review-dry-run",
+                             dt.date.today())
+    _report(report)
+    if args.apply and (report.created or report.updated):
+        assert ds.meta is not None
+        ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_dataset(ds, data)
+    elif not args.apply:
+        print("dry run: nothing written (--apply writes data/ and the review files)")
+    return 1 if report.conflicts else 0
+
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
     from .report import write_migration_report
@@ -322,6 +374,19 @@ def main(argv: list[str] | None = None) -> int:
     of.add_argument("--fresh", action="store_true", help="download pages again even when cached")
     of.add_argument("--offline", action="store_true", help="use cached pages only")
     of.set_defaults(func=cmd_official)
+    fd = sub.add_parser("fandom", help="Love Live! Fandom adapter (§7.7 ②)")
+    fd_sub = fd.add_subparsers(dest="fandom_cmd", required=True)
+    fc = fd_sub.add_parser("concerts", help="read the set lists of the concerts that name a Fandom page")
+    fc.add_argument("--apply", action="store_true", help="write data/ and the unresolved-songs review file")
+    fc.add_argument("--fresh", action="store_true", help="download pages again even when cached")
+    fc.add_argument("--offline", action="store_true", help="use cached pages only")
+    fc.set_defaults(func=cmd_fandom_concerts)
+    co = sub.add_parser("concerts", help="concert schedules (§7.7)")
+    co_sub = co.add_subparsers(dest="concerts_cmd", required=True)
+    cs = co_sub.add_parser("schedule", help="create the concerts of a schedule file (status performed)")
+    cs.add_argument("file")
+    cs.add_argument("--apply", action="store_true", help="write data/ and the LIV-* review files")
+    cs.set_defaults(func=cmd_concerts_schedule)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)
