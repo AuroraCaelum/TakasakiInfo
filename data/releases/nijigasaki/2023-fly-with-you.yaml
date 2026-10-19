@@ -34,14 +34,18 @@ streaming:
       1-11: Z1fnwLbxkHc
       1-12: AXGj8bUr0F4
       1-13: n9FM3ErQ38o
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
 legacy:
   category: Nijigasaki
   albums:
     - {title: Fly with You!!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_GYaepllp9qQ

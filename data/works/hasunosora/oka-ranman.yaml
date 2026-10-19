@@ -18,8 +18,9 @@ recordings:
       - {person: taishi-kawai, affiliation: Arte Refact}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/04/
+        checked: 2026-10-19
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -42,5 +43,6 @@ recordings:
         checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/04/
+    checked: 2026-10-19

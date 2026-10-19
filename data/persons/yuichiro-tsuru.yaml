@@ -12,9 +12,21 @@ given_name:
   rom: Yuichiro
   ko: 유이치로
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/03/
+    checked: 2026-10-19
+    note: 공식 표기 '水流雄一朗' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://ja.wikipedia.org/wiki/水流雄一朗
+    checked: 2026-10-19
+    note: 본인 X 계정 @YuichiroTsuru02 (위키백과 일본어판 수록). 읽기 つる ゆういちろう (위키백과)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/希望的プリズム
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡·편곡)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

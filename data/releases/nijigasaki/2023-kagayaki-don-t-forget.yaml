@@ -16,14 +16,18 @@ streaming:
       1-2: y3TrRJuCe8I
       1-3: EB_ch8YhS-Q
       1-4: 1gAyCQ1sKD4
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd54
 legacy:
   category: Nijigasaki
   albums:
     - {title: KAGAYAKI Don’t forget!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd54
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_kiiDo85ZzFk

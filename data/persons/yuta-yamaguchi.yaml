@@ -12,9 +12,21 @@ given_name:
   rom: Yuta
   ko: 유타
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/arranger/12594/
+    checked: 2026-10-19
+    note: 공식 미게재 (uranohoshi/cd.php의 桜内梨子 First Solo Concert Album 항목은 곡명만 게재). uta-net 크레딧 (PURE PHRASE 작곡·편곡)
+  names.rom:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: §5.3 규칙(장음 생략). 읽기는 Fandom 표기 'Yuuta Yamaguchi'
+  names.ko:
+    status: derived
+    source: https://namu.wiki/w/PURE PHRASE
+    checked: 2026-10-19
+    note: "§5.4 규칙(う 장음 생략). 읽기: やまぐち ゆうた. 나무위키 곡 문서는 '야마구치 유우타' (D5 예외 여부는 리뷰 SRC-names)"
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

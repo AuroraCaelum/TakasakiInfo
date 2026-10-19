@@ -22,8 +22,10 @@ legacy:
     - {title: Liella! CLUB CD SET 2023, note: 'Liella! CLUB 2023 Theme Song. Physical album released early on July, exclusively to the Liella! CLUB members.'}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/UNIVERSE!!
+    checked: 2026-10-19
+    note: '공식 미게재: Liella! CLUB 사이트 https://lovelive-liellaclub.jp/ 는 현재 연도(2026) CD SET만 게재. Fandom 문서의 트랙 목록(11곡)'
   release_date:
     status: established
     source: https://musicbrainz.org/isrc/JPI102301530

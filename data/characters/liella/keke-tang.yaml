@@ -15,9 +15,20 @@ given_name:
 casting:
   - {person: liyuu}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd03.php
+    checked: 2026-10-19
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/worldwide/member/
+    checked: 2026-10-19
+    note: 공식 영문 사이트 멤버 소개 (일본어 공식 페이지 표기 TANG KEKE)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Liella!
+    checked: 2026-10-19
+    note: 나무위키 Liella! 문서 멤버 목록의 표기
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)

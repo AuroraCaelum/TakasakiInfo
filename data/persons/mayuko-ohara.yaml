@@ -12,9 +12,21 @@ given_name:
   rom: Mayuko
   ko: 마유코
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
+    checked: 2026-10-19
+    note: 공식 표기 '大原万由子' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/School_Idol_Musical_Ensemble
+    checked: 2026-10-19
+    note: Fandom 앙상블 문서 표기 (2022년 명단)
+  names.ko:
+    status: derived
+    source: https://namu.wiki/w/스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: "§5.4 규칙(おお→오오). 읽기: おおはら まゆこ. 나무위키는 '오하라 마유코' (D5 예외 여부는 리뷰 SRC-names)"
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)

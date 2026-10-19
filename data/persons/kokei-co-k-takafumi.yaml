@@ -4,6 +4,16 @@ names:
   rom: Kokei "CO-K" Takafumi
   ko: 타카후미 코케이
 evidence:
-  names:
+  names.ja:
     status: legacy
     source: migration:legacy
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 표기 (Watashi no Symphony 행). 활동명이라 표기 순서 유지(§5.2)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/始まりは君の空
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (私のSymphony 작곡·편곡)

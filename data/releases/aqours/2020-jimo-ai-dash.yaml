@@ -30,14 +30,18 @@ streaming:
       1-9: GKnvxVNgb6o
       1-10: f1aONedqcO0
       1-11: QXRV_9bsb04
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd39
 legacy:
   category: Aqours
   albums:
     - {title: JIMO-AI Dash!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd39
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지의 디스크 2~3(37트랙)는 저장하지 않음
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_3MRk44msdTL

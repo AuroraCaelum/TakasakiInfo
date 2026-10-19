@@ -41,14 +41,18 @@ streaming:
       1-14: w8mgI3apfAw
       1-15: 5h0qdWKJ94Y
       1-16: ERVPgg3Ic54
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
 legacy:
   category: Aqours
   albums:
     - {title: LoveLive! Sunshine!! Kurosawa Ruby First Solo Concert Album ～RED GEM WINK～, note: Solo Concert Album}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 2장으로 나눠 트랙 번호를 매김
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)

@@ -10,6 +10,18 @@ copyright:
   - {text: ©PROJECT Lovelive! School Idol Musical, lang: en, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
   - {text: ©プロジェクトラブライブ！スクールアイドルミュージカル, lang: ja, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/member.php
+    checked: 2026-10-19
+    note: 공식 사이트 제목 「スクールアイドルミュージカル」公式サイト
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_School_Idol_Musical
+    checked: 2026-10-19
+    note: Fandom 문서 제목 'Love Live! School Idol Musical'에서 시리즈명 제외 (ja와 같은 범위). 공식 미게재
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 문서 제목 '러브 라이브! 스쿨 아이돌 뮤지컬'('스쿨 아이돌 뮤지컬'에서 넘어옴)에서 시리즈명 제외

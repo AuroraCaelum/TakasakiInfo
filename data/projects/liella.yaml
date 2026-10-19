@@ -10,6 +10,18 @@ copyright:
   - {text: ©2024 PROJECT Lovelive! Superstar!!, lang: en, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
   - {text: ©2024 プロジェクトラブライブ！スーパースター!!, lang: ja, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/member/
+    checked: 2026-10-19
+    note: 공식 멤버 소개 페이지 본문
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/worldwide/news/
+    checked: 2026-10-19
+    note: 공식 영문 사이트 뉴스 ('LoveLive! Superstar!! Liella! 4th LoveLive! Tour ...')
+  names.ko:
+    status: derived
+    source: https://namu.wiki/w/Liella!
+    checked: 2026-10-19
+    note: '라틴 표기: ko는 ja와 같음 (§5.4). 나무위키 문서 제목도 Liella!'

@@ -4,6 +4,17 @@ names:
   rom: Rosa
   ko: 로사
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/BANG_YOU_Gravity
+    checked: 2026-10-19
+    note: Fandom 문서의 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/BANG YOU グラビティ
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기

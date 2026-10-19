@@ -4,6 +4,17 @@ names:
   rom: Pahamutan
   ko: 파하무탄
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd39
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/ロマンスの中で
+    checked: 2026-10-19
+    note: 나무위키 곡 문서의 작사·작곡 표기

@@ -12,9 +12,18 @@ given_name:
   rom: Kurumi
   ko: 쿠루미
 evidence:
-  names:
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
+    checked: 2026-10-19
+  names.rom:
     status: legacy
     source: migration:legacy
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 문서의 앙상블 캐스트 명단 (초회·추가·2024년 공연)
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)

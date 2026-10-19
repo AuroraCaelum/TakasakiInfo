@@ -22,8 +22,10 @@ recordings:
       - {person: diz}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hurray_Hurray
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
   - id: off-vocal
     kind: off_vocal
     title:
@@ -39,9 +41,13 @@ recordings:
     instrumental_of: 9-members-ver
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hurray_Hurray
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://namu.wiki/w/Hurray Hurray
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재, 크레딧 없음). 나무위키 문서의 크레딧 (9인 BD판에 高咲侑 크레딧, 작중 설정으로 추정)

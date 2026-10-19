@@ -33,6 +33,8 @@ discs:
       - {no: 5, recording: nijigasaki/radio-drama-chapter-3-episode-5-shizuku-s-guide-to-kamakura#main}
       - {no: 6, recording: nijigasaki/radio-drama-chapter-3-episode-6-christmas-with-everyone#main}
       - {no: 7, recording: nijigasaki/shizuku-the-ruler-of-the-ground#main}
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd29
 legacy:
   category: Nijigasaki
   albums:
@@ -40,8 +42,10 @@ legacy:
     - {title: 'ドラマCD 青春カプリッチョ [Disc 2]', disc: 2, note: ラブライブ！虹ヶ咲学園 ～おはよう放送室～}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd29
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   title:
     status: derived
     checked: 2026-10-19

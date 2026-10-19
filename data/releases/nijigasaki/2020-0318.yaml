@@ -30,6 +30,8 @@ discs:
       - {no: 7, recording: nijigasaki/radio-drama-chapter-7-episode-7-for-everyone-for-you#main}
       - {no: 8, recording: nijigasaki/radio-drama-chapter-7-episode-8-heart-of-nine#main}
       - {no: 9, recording: nijigasaki/emma-and-ai-s-flower-viewing-party-produce#main}
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd08
 legacy:
   category: Nijigasaki
   albums:
@@ -37,8 +39,10 @@ legacy:
     - {title: 'ドラマCD 日常コンチェルト [Disc 2]', disc: 2, note: ラブライブ！虹ヶ咲学園 ～お昼休み放送室～}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd08
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   title:
     status: derived
     checked: 2026-10-19

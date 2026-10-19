@@ -31,6 +31,8 @@ streaming:
       1-4: wy0VgqsLgc0
       1-5: c9smAB2BD8c
       1-6: UXTKj3sEyRg
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
 legacy:
   category: Nijigasaki
   albums:
@@ -39,8 +41,10 @@ legacy:
     - {title: Dream with You / Poppin' Up! / DIVE!【優木せつ菜盤】, edition: e3}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve

@@ -18,8 +18,9 @@ recordings:
       - {person: effy}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/06/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,8 +36,9 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/06/
+        checked: 2026-10-19
   - id: rec-ver
     title:
       ja: DEEPNESS (ReC Ver.)
@@ -84,5 +86,6 @@ recordings:
         checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/06/
+    checked: 2026-10-19

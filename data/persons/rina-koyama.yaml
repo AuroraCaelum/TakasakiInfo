@@ -12,9 +12,21 @@ given_name:
   rom: Rina
   ko: 리나
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 표기 '小山璃奈' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Rina_Koyama
+    checked: 2026-10-19
+    note: Fandom 문서 제목 (본인 사이트 koyama-rina.com)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/러브 라이브! 스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 뮤지컬 문서의 캐스트 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

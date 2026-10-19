@@ -12,9 +12,21 @@ given_name:
   rom: Sora
   ko: 소라
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/caststaff.html
+    checked: 2026-10-19
+    note: 공식 캐스트&스태프 페이지 표기
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/worldwide/caststaff.php
+    checked: 2026-10-19
+    note: 공식 영문 사이트(Worldwide) 캐스트 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/토쿠이 소라
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

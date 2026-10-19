@@ -15,9 +15,20 @@ given_name:
 casting:
   - {person: arisa-komiya}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01
+    checked: 2026-10-19
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/member.php
+    checked: 2026-10-19
+    note: 공식 영문 사이트 멤버 소개 (이름은 이미지 js/sunshine_member.hyperesources/04.png)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Aqours
+    checked: 2026-10-19
+    note: 나무위키 Aqours 문서 멤버 목록의 표기
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)

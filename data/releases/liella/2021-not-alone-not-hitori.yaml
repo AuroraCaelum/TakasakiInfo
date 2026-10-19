@@ -26,14 +26,18 @@ streaming:
       1-4: 2MzvQbf9DMA
       1-5: ROAyZciwhMg
       1-6: 6tXpHZEWQ3c
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd14.php
 legacy:
   category: Liella
   albums:
     - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【Liella!盤】, edition: e1, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd14.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note '「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル'에서 (M3)

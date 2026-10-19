@@ -14,9 +14,20 @@ given_name:
 aliases:
   - {text: 前口ワタル, note: '前口ワタル 명의 (이키즈라이브 「いつか碧」 편곡, 2025). 같은 사람 (사용자 확인 2026-10-19)'}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/CHANGELESS
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

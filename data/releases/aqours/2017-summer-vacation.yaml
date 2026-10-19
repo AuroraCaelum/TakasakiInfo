@@ -21,14 +21,18 @@ streaming:
       1-2: YLWv9We52G4
       1-3: J3JWPq8LIss
       1-4: l54bKroJvIQ
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd18
 legacy:
   category: Aqours
   albums:
     - {title: SUMMER VACATION, note: Duo Trio Collection Vol.1}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd18
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note 'Duo Trio Collection Vol.1'에서 (M3)

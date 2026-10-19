@@ -20,8 +20,9 @@ recordings:
       - {person: takarot}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,8 +38,9 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+        checked: 2026-10-19
   - id: cyaron-ver
     title:
       ja: Jump up HIGH!! (CYaRon! ver.)
@@ -52,8 +54,9 @@ recordings:
       - {person: takarot}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+        checked: 2026-10-19
   - id: azalea-ver
     title:
       ja: Jump up HIGH!! (AZALEA ver.)
@@ -67,8 +70,9 @@ recordings:
       - {person: takarot}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+        checked: 2026-10-19
   - id: guilty-kiss-ver
     title:
       ja: Jump up HIGH!! (Guilty Kiss ver.)
@@ -82,9 +86,11 @@ recordings:
       - {person: takarot}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
+    checked: 2026-10-19

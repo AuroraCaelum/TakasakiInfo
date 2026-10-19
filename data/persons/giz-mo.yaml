@@ -4,7 +4,21 @@ names:
   rom: Giz'Mo
   ko: Giz'Mo
 native_script: latin
+aliases:
+  - {text: Giz Mo’, kind: misprint, note: ビタミンSUMMER！ 第8話盤 페이지(yuigaoka/music/cd23.php)의 오기. 다른 공식 페이지는 Giz'Mo}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/30/
+    checked: 2026-10-19
+    note: 공식 크레딧 'Giz'Mo（from Jam9）' (ゲッカビジン 작곡). from Jam9는 소속. yuigaoka/music/cd33.php도 'Giz'Mo(from Jam9)'
+  names.rom:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/30/
+    checked: 2026-10-19
+    note: '라틴 표기: rom는 ja와 같음 (§5.4). Fandom 표기와 같음'
+  names.ko:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/30/
+    checked: 2026-10-19
+    note: '라틴 표기: ko는 ja와 같음 (§5.4)'

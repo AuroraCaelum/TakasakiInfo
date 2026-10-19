@@ -20,14 +20,18 @@ streaming:
       1-4: CEG78gt4oi4
       1-5: _WPeLmzM7ek
       1-6: fZS269u0jsg
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
 legacy:
   category: Aqours
   albums:
     - {title: Amazing Travel DNA}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_eVxHTRgsups

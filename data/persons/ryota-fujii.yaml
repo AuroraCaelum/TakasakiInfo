@@ -12,9 +12,21 @@ given_name:
   rom: Ryota
   ko: 료타
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd14
+    checked: 2026-10-19
+    note: 공식 표기 '藤井亮太' (띄어쓰기는 D28)
+  names.rom:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: §5.3 규칙(장음 생략). 읽기는 Fandom 표기 'Ryouta Fujii'
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/近未来ハッピーエンド
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 「近未来ハッピーエンド」의 작곡 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

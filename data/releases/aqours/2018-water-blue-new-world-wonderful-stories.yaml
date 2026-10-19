@@ -16,14 +16,18 @@ streaming:
       1-2: VtNOSDELQ1s
       1-3: iC__TCp3Lt4
       1-4: 53A3igf30p4
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
 legacy:
   category: Aqours
   albums:
     - {title: WATER BLUE NEW WORLD／WONDERFUL STORIES}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_jsPK56rjeol

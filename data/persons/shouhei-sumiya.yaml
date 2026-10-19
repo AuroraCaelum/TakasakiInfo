@@ -12,9 +12,21 @@ given_name:
   rom: Shouhei
   ko: 쇼헤이
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd30.php
+    checked: 2026-10-19
+    note: 공식 표기 '住谷翔平' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Midnight_Rhapsody
+    checked: 2026-10-19
+    note: Fandom 문서의 표기 (장음 ou 포함. D38에 따라 규칙값 'Shohei'보다 우선)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/ミッドナイトラプソディ
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

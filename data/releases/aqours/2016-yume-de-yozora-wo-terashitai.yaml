@@ -16,14 +16,18 @@ streaming:
       1-2: PAagW2_fhrw
       1-3: DZrpgmyKskY
       1-4: dhBSFeWz4MU
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd09
 legacy:
   category: Aqours
   albums:
     - {title: 夢で夜空を照らしたい／未熟DREAMER}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd09
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_fFzxcnpzvrH

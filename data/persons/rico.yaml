@@ -5,6 +5,18 @@ names:
   ko: Rico
 native_script: latin
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: established
+    source: https://love-live.fandom.com/wiki/Twinkle_Town
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 TVA1 BD 페이지 nijigasaki/bd/tv1st/는 'Twinkle Town'의 곡명·가창만 게재). Fandom 곡 문서 크레딧 표기
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Twinkle_Town
+    checked: 2026-10-19
+    note: Fandom 곡 문서 크레딧 표기 (라틴 원어 이름)
+  names.ko:
+    status: derived
+    source: https://namu.wiki/w/Twinkle Town
+    checked: 2026-10-19
+    note: §5.4 라틴 원어 이름 원문 유지. 나무위키 곡 문서도 라틴 원문으로 적음

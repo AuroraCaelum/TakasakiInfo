@@ -14,8 +14,10 @@ legacy:
     - {title: Guilty!? Farewell party, note: TVA2 BD Full (animate)}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Guilty!%3F_Farewell_party
+    checked: 2026-10-19
+    note: '공식 미게재(Off Vocal): 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin는 곡명·가창만 게재. Fandom 곡 문서 Track Listing Regular Edition (BEPC-0026)의 보컬·Off Vocal 트랙. ja.wikipedia Aqours 문서 2期Blu-ray特典CD 목록도 같은 순서'
   type:
     status: derived
     note: 레거시 Note 'TVA2 BD Full (animate)'에서 (M3)

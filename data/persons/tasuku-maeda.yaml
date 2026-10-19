@@ -12,9 +12,20 @@ given_name:
   rom: Tasuku
   ko: 타스쿠
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 (Jibun Diary 등)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/ジブンダイアリー
+    checked: 2026-10-19
+    note: 나무위키 곡 문서(ジブンダイアリー)의 작곡·편곡 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

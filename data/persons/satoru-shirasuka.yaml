@@ -12,9 +12,21 @@ given_name:
   rom: Satoru
   ko: 사토루
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-10-19
+    note: 공식 표기 '白須賀 悟' (国木田花丸 Second Solo Concert Album 「やあ！行雲流水！？」 작곡·편곡)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/おやすみなさん！
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 「おやすみなさん！」의 작곡 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

@@ -18,9 +18,6 @@ given_name:
 casting:
   - {person: kokona-nonaka}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
@@ -29,3 +26,18 @@ evidence:
     source: https://www.lovelive-anime.jp/hasunosora/member/02/
     checked: 2026-10-18
     note: 공식 멤버 페이지 루비
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/02/
+    checked: 2026-10-19
+    note: '공식 멤버 페이지 (가나 이름이라 붙여 씀: D28, 공백만 다름)'
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/02/
+    checked: 2026-10-19
+    note: 공식 멤버 페이지 라틴 표기(성-이름). 순서만 이름-성으로 (D4)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/하스노소라 여학원 스쿨 아이돌 클럽
+    checked: 2026-10-19
+    note: 나무위키 하스노소라 여학원 스쿨 아이돌 클럽 문서 멤버 목록의 표기

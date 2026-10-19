@@ -4,6 +4,15 @@ names:
   rom: Miyata 'Lefty' Ryo
   ko: 미야타 '레프티' 료
 evidence:
-  names:
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd34
+    checked: 2026-10-19
+  names.rom:
     status: legacy
     source: migration:legacy
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/레프티 몬스터
+    checked: 2026-10-19
+    note: 나무위키 문서의 이름 표기 ('미야타 레프티 료'는 이 문서로 넘겨줌)

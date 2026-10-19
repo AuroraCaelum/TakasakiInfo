@@ -20,14 +20,18 @@ streaming:
       1-4: kb40fCe1th4
       1-5: Bp2NFrR_4GE
       1-6: iTkAVEeWKjo
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
 legacy:
   category: Aqours
   albums:
     - {title: Braveheart Coaster}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_nL3KKp8ShPZ

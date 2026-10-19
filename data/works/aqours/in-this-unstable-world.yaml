@@ -18,8 +18,10 @@ recordings:
       - {person: rei-kamiya}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://ja.wikipedia.org/wiki/Aqours#2期Blu-ray特典CD
+        checked: 2026-10-19
+        note: 편곡 공식 미게재(공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd03는 곡명·가창만 게재, 가창은 공식과 일치). ja.wikipedia Aqours 문서 2期Blu-ray特典CD의 편곡·가창 표기(Fandom도 같은 편곡자)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,9 +37,13 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://ja.wikipedia.org/wiki/Aqours#2期Blu-ray特典CD
+        checked: 2026-10-19
+        note: 'Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡 공식 미게재(공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd03는 곡명·가창만 게재, 가창은 공식과 일치). ja.wikipedia Aqours 문서 2期Blu-ray特典CD의 편곡·가창 표기(Fandom도 같은 편곡자)'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://utaten.com/lyric/mi21063035/
+    checked: 2026-10-19
+    note: 공식 미게재(공식 BD·CD 페이지에 작곡 크레딧 없음). utaten 가사 페이지(津島善子(小林愛香) from Aqours)의 작사·작곡 표기

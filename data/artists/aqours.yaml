@@ -6,6 +6,13 @@ names:
   rom: Aqours
   ko: Aqours
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd35
+    checked: 2026-10-19
+  names.rom:
+    status: derived
+    note: '라틴 표기: rom는 ja와 같음 (§5.4)'
+  names.ko:
+    status: derived
+    note: '라틴 표기: ko는 ja와 같음 (§5.4)'

@@ -6,6 +6,18 @@ names:
   rom: Nijigaku with You
   ko: 니지가쿠 with You
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
+    checked: 2026-10-19
+    note: '공식 CD 페이지 OUR P13CES!!! 아티스트란: ”ニジガク with You”！あなたと作る新曲プロジェクト楽曲'
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/OUR_P13CES!!!
+    checked: 2026-10-19
+    note: Fandom OUR P13CES!!! 문서의 기획명 표기 '"Nijigaku with You"! Anata to Tsukuru Shinkyoku'. 공식 미게재
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/OUR P13CES!!!
+    checked: 2026-10-19
+    note: 나무위키 OUR P13CES!!! 문서의 표기 ('아티스트명은 "니지가쿠 with You"! 당신과 만드는 신곡 프로젝트')

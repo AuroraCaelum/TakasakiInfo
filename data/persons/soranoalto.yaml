@@ -4,6 +4,17 @@ names:
   rom: Soranoalto
   ko: 소라노알토
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd31
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/コンセントレイト！
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡)

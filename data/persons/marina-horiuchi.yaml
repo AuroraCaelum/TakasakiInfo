@@ -12,9 +12,20 @@ given_name:
   rom: Marina
   ko: 마리나
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_School_Idol_Musical
+    checked: 2026-10-19
+    note: Fandom 문서의 출연진 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/호리우치 마리나
+    checked: 2026-10-19
+    note: 나무위키 문서 제목
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -14,14 +14,18 @@ streaming:
     tracks:
       1-1: e7Tlj7EW6FQ
       1-2: xg0VpG-P7j0
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd31.php
 legacy:
   category: Liella
   albums:
     - {title: MIRACLE NEW STORY, note: SIF2 MIRACLE LIVE Theme Song}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd31.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_gjEu7vvjuA5

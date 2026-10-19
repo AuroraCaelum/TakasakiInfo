@@ -12,9 +12,21 @@ given_name:
   rom: Yuuna
   ko: 유우나
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 표기 '関根優那' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://www.instagram.com/yuuna__sekine/
+    checked: 2026-10-19
+    note: 본인 표기 (Instagram 표시 이름 '関根優那 / Yuuna Sekine', 5.3절 ②)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/세키네 유우나
+    checked: 2026-10-19
+    note: 나무위키 문서 제목 (関根 優那, せきね ゆうな). 장음 유지 표기라 §5.4 예외
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

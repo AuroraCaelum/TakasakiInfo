@@ -18,8 +18,10 @@ legacy:
     - {title: 異次元★♥BIGBANG, note: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Ijigen★♥BIGBANG
+    checked: 2026-10-19
+    note: '공식 미게재(Off Vocal): 공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창·품번(LACM-24470/LACZ-10180)만 게재. Fandom 문서의 트랙 목록(LACM-24470)'
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_TyJ3MMULi2B

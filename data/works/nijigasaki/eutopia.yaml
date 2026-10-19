@@ -20,8 +20,10 @@ recordings:
       - {person: toshikazu-kadono}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.youtube.com/watch?v=Z2P818AAOn8
+        checked: 2026-10-19
+        note: '공식 계정: 공식 YouTube(ラブライブ！シリーズ公式チャンネル) TV애니 2기 댄스신 영상 설명의 크레딧·가창 표기(같은 곡이 挿入歌シングル에 수록된다고 명기). 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44 는 크레딧만 게재, 곡별 가창은 미게재'
   - id: off-vocal
     kind: off_vocal
     title:
@@ -38,9 +40,12 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.youtube.com/watch?v=Z2P818AAOn8
+        checked: 2026-10-19
+        note: '공식 계정: Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 공식 YouTube(ラブライブ！シリーズ公式チャンネル) TV애니 2기 댄스신 영상 설명의 크레딧·가창 표기(같은 곡이 挿入歌シングル에 수록된다고 명기). 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44 는 크레딧만 게재, 곡별 가창은 미게재'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44
+    checked: 2026-10-19

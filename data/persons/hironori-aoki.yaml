@@ -12,9 +12,19 @@ given_name:
   rom: Hironori
   ko: 히로노리
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: established
+    source: https://www.uta-net.com/song/291186/
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 CD 페이지는 솔로 콘서트 앨범 곡명만 게재). uta-net 작곡·편곡 크레딧
+  names.rom:
+    status: legacy
+    source: migration:legacy
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Pianoforte Monologue
+    checked: 2026-10-19
+    note: 나무위키 곡 문서의 작곡 표기

@@ -15,9 +15,20 @@ given_name:
 casting:
   - {person: minami-sato}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_School_Idol_Musical
+    checked: 2026-10-19
+    note: Fandom 문서(출연진 목록)의 표기. 공식 미게재 (공식 사이트는 일본어 표기만)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 러브 라이브! 스쿨 아이돌 뮤지컬 문서(스쿨 아이돌 뮤지컬에서 넘어옴) 등장인물의 표기
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)

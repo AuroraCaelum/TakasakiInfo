@@ -20,8 +20,9 @@ recordings:
       - {person: shinji-tanaka}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
+        checked: 2026-10-19
   - id: chika-takami-solo-ver
     title:
       ja: 少女以上の恋がしたい (高海千歌 Solo Ver.)
@@ -36,8 +37,10 @@ recordings:
       - {person: shinji-tanaka}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
+        checked: 2026-10-19
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 少女以上の恋がしたい (桜内梨子 Solo Ver.)
@@ -52,8 +55,10 @@ recordings:
       - {person: shinji-tanaka}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
+        checked: 2026-10-19
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 少女以上の恋がしたい (黒澤ルビィ Solo Ver.)
@@ -68,9 +73,12 @@ recordings:
       - {person: shinji-tanaka}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
+        checked: 2026-10-19
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
+    checked: 2026-10-19

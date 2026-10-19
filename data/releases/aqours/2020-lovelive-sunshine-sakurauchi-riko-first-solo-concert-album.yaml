@@ -41,14 +41,18 @@ streaming:
       1-14: VyG_UmHjObI
       1-15: datYvJUGYLM
       1-16: _O75VUq__hk
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
 legacy:
   category: Aqours
   albums:
     - {title: LoveLive! Sunshine!! Sakurauchi Riko First Solo Concert Album ～Pianoforte Monologue～, note: Solo Concert Album}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 2장으로 나눠 트랙 번호를 매김
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)

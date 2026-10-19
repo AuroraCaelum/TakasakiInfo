@@ -15,9 +15,6 @@ given_name:
   rom: Nina
   ko: 니나
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
@@ -26,3 +23,18 @@ evidence:
     source: https://www.lovelive-anime.jp/hasunosora/member/03/
     checked: 2026-10-18
     note: 공식 멤버 페이지 루비
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/103-105/cast-staff/
+    checked: 2026-10-19
+    note: 공식 캐스트&스태프 페이지 표기
+  names.rom:
+    status: established
+    source: https://www.aoni.co.jp/search/hanamiya-niina.html
+    checked: 2026-10-19
+    note: 본인 소속사(아오니 프로덕션) 프로필의 표기. 공식 미게재 (하스노소라 공식 사이트는 캐릭터만 라틴 표기)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/하나미야 니나
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

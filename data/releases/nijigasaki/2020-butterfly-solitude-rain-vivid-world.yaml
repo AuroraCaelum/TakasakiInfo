@@ -31,6 +31,8 @@ streaming:
       1-4: -urt2guM3y8
       1-5: 4wYzRwQlAVg
       1-6: yuXBLhCezh8
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
 legacy:
   category: Nijigasaki
   albums:
@@ -39,8 +41,10 @@ legacy:
     - {title: Butterfly / Solitude Rain / VIVID WORLD【朝香果林盤】, edition: e3}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_cth082hzH6n

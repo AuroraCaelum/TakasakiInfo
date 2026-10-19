@@ -19,8 +19,9 @@ recordings:
       - {person: yuya-mori}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
+        checked: 2026-10-19
   - id: kanon-ver
     version: Kanon Ver.
     performers:
@@ -29,9 +30,11 @@ recordings:
       - {person: yuya-mori}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
+    checked: 2026-10-19
