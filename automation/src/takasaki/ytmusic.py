@@ -76,7 +76,7 @@ class Client:
         data = self._retry(fetch)
         time.sleep(self.pause)
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8", newline="\n")
         return data
 
     def album(self, browse_id: str) -> dict[str, Any]:

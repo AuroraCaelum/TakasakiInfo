@@ -84,7 +84,7 @@ def cmd_stamp(args: argparse.Namespace) -> int:
     ds = load_dataset(data)
     assert ds.meta is not None
     ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
-    (data / "meta.yaml").write_text(dump_model(ds.meta), encoding="utf-8")
+    (data / "meta.yaml").write_text(dump_model(ds.meta), encoding="utf-8", newline="\n")
     print(f"dbLastUpdate = {ds.meta.db_last_update}")
     return 0
 
@@ -146,7 +146,7 @@ def _write_review(path: Path, doc: dict) -> None:
     buf = io.StringIO()
     _yaml().dump(_to_node(doc), buf)
     path.parent.mkdir(parents=True, exist_ok=True)  # git drops the folder once every item is closed
-    path.write_text(buf.getvalue(), encoding="utf-8")
+    path.write_text(buf.getvalue(), encoding="utf-8", newline="\n")
 
 
 def cmd_ytm_match(args: argparse.Namespace) -> int:
@@ -238,9 +238,12 @@ def cmd_ytm_links(args: argparse.Namespace) -> int:
 
 def cmd_official(args: argparse.Namespace) -> int:
     """Read the project's official site and upsert what it lists (§7.2 ③). New names go to review first."""
-    from .ikizulive import collect, import_site
+    import importlib
+
     from .official import Fetcher
 
+    adapter = importlib.import_module(f".{args.project}", __package__)
+    collect, import_site = adapter.collect, adapter.import_site
     root, data, review = _paths()
     ds = load_dataset(data)
     cache = root / "automation" / ".cache" / "official"
@@ -253,7 +256,7 @@ def cmd_official(args: argparse.Namespace) -> int:
         for row in rows:
             print(f"{label:8} {row}")
     if report.pending:
-        print(f"{len(report.pending)} names need readings: fill automation/review/IKZ-*.yaml and run again")
+        print(f"{len(report.pending)} names need readings: fill automation/review/{adapter.SPEC.review_prefix}-*.yaml and run again")
     if args.apply and (report.created or report.updated):
         assert ds.meta is not None
         ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -314,7 +317,7 @@ def main(argv: list[str] | None = None) -> int:
     yl.add_argument("--json", help="write the full report here")
     yl.set_defaults(func=cmd_ytm_links)
     of = sub.add_parser("official", help="official-site adapter (§7.2 ③): read releases and members, upsert them")
-    of.add_argument("project", choices=["ikizulive"])
+    of.add_argument("project", choices=["ikizulive", "hasunosora"])
     of.add_argument("--apply", action="store_true", help="write data/ and the new-names review files")
     of.add_argument("--fresh", action="store_true", help="download pages again even when cached")
     of.add_argument("--offline", action="store_true", help="use cached pages only")
