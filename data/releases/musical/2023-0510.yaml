@@ -1,6 +1,8 @@
 id: musical/2023-0510
 title:
   ja: スクールアイドルミュージカル
+  rom: School Idol Musical
+  ko: 스쿨 아이돌 뮤지컬
 projects: [musical]
 release_date: 2023-05-10
 discs:
@@ -81,3 +83,8 @@ evidence:
     source: https://music.youtube.com/browse/MPREb_o8ZFCtHGvgY
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  title:
+    status: derived
+    source: data/projects/musical.yaml
+    checked: 2026-10-19
+    note: 프로젝트 이름과 같다. Fandom 문서명은 School Idol Musical CD Album. 리뷰 승인

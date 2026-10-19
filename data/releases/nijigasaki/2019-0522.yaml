@@ -2,6 +2,8 @@ id: nijigasaki/2019-0522
 type: drama_cd
 title:
   ja: ドラマCD 放課後ファンタジア
+  rom: Drama CD Houkago Fantasia
+  ko: 드라마 CD 방과 후 판타지아
 projects: [nijigasaki]
 release_date: 2019-05-22
 discs:
@@ -45,3 +47,7 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: rom은 규칙 엔진(Fandom에 문서 없음), ko는 번역(나무위키에서 찾지 못함). 리뷰 승인
