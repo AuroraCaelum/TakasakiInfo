@@ -20,6 +20,41 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: ド！ド！ド！ (104期 Ver.)
+      rom: Do! Do! Do! (104th Ver.)
+      ko: 도! 도! 도! (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

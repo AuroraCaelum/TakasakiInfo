@@ -1,0 +1,48 @@
+id: hasunosora/dakishimeru-hanabira
+project: hasunosora
+title:
+  ja: 抱きしめる花びら
+  rom: Dakishimeru Hanabira
+  ko: 끌어안아 주는 꽃잎
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/16/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 抱きしめる花びら (Off Vocal)
+      rom: Dakishimeru Hanabira (Off Vocal)
+      ko: 끌어안아 주는 꽃잎 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/16/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/16/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E6%8A%B1%E3%81%8D%E3%81%97%E3%82%81%E3%82%8B%E8%8A%B1%E3%81%B3%E3%82%89'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/16/
+    checked: 2026-10-19

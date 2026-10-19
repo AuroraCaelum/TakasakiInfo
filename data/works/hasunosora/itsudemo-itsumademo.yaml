@@ -1,0 +1,47 @@
+id: hasunosora/itsudemo-itsumademo
+project: hasunosora
+title:
+  ja: いつでも、いつまでも
+  rom: Itsudemo, Itsumademo
+  ko: 언제나, 어디까지나
+credits:
+  lyricist:
+    - {person: youth-case}
+  composer:
+    - {person: youth-case}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: hirofumi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/32/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いつでも、いつまでも (Off Vocal)
+      rom: Itsudemo, Itsumademo (Off Vocal)
+      ko: 언제나, 어디까지나 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hirofumi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/32/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/32/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%81%84%E3%81%A4%E3%81%A7%E3%82%82%E3%80%81%E3%81%84%E3%81%A4%E3%81%BE%E3%81%A7%E3%82%82'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/32/
+    checked: 2026-10-19

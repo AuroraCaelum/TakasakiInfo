@@ -1,8 +1,14 @@
 id: hasunosora/2023-natsumeki-pain
+type: album
 title:
   ja: 夏めきペイン
 projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
 release_date: 2023-09-20
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/natsumeki-pain#original}
@@ -16,7 +22,8 @@ discs:
       - {no: 9, recording: hasunosora/asu-no-sora-no-bokutachi-e#original}
       - {no: 10, recording: hasunosora/legato#original}
 streaming:
-  - browse_id: MPREb_c95rmywAS0G
+  - editions: [e1]
+    browse_id: MPREb_c95rmywAS0G
     tracks:
       1-1: 2UP2M_OiBWI
       1-2: eew2gzavZgE
@@ -28,16 +35,24 @@ streaming:
       1-8: AT-Jy5GyZXY
       1-9: NY4c2TfMRDs
       1-10: UFyo0W_V81s
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/08/
 legacy:
   category: Hasunosora
   albums:
     - {title: 夏めきペイン}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/08/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
-    checked: 2026-10-17
+    checked: 2026-10-19
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/08/
+    checked: 2026-10-19

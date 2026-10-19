@@ -1,0 +1,46 @@
+id: hasunosora/step-up
+project: hasunosora
+title:
+  ja: STEP UP !
+  rom: STEP UP !
+  ko: STEP UP !
+credits:
+  lyricist:
+    - {person: koichi-yamagishi}
+  composer:
+    - {person: koichi-yamagishi}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: koichi-yamagishi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/16/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: STEP UP ! (Off Vocal)
+      rom: STEP UP ! (Off Vocal)
+      ko: STEP UP ! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: koichi-yamagishi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/16/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/16/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/16/
+    checked: 2026-10-19

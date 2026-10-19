@@ -1,0 +1,47 @@
+id: hasunosora/garando-flash
+project: hasunosora
+title:
+  ja: ガランドFlash
+  rom: Garando Flash
+  ko: 가란도Flash
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: takenoko-boy}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: takenoko-boy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ガランドFlash (Off Vocal)
+      rom: Garando Flash (Off Vocal)
+      ko: 가란도Flash (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takenoko-boy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 번역을 고침(오역 소지, D30, 사용자 결정) (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%AC%E3%83%A9%E3%83%B3%E3%83%89Flash'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19

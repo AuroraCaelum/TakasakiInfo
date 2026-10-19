@@ -10,7 +10,7 @@
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
 [![Data updated](https://img.shields.io/badge/data%20updated-2026--10--19-e4007f?style=flat-square)](TakasakiInfo.json)
-[![Tracks](https://img.shields.io/badge/tracks-1%2C193-5d9cec?style=flat-square)](#database-status)
+[![Tracks](https://img.shields.io/badge/tracks-1%2C550-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
 
@@ -22,13 +22,13 @@
 > **Updates are back (October 2026).** The database now runs on a rebuilt pipeline: each song, person and release is kept once as an entity in [`data/`](data), and every CSV and JSON file in this repository is generated from it. How it works: [automation/README.md](automation/README.md).
 
 > [!IMPORTANT]
-> The data is still being filled in, so entries may be missing and the structure may change. Not in yet: songs and albums of μ’s. 499 tracks have no pronunciation (kana) yet.
+> The data is still being filled in, so entries may be missing and the structure may change. Not in yet: songs and albums of μ’s. 813 tracks have no pronunciation (kana) yet.
 
 <a id="database-status"></a>
 
 ## Database status
 
-**1,193** tracks · **218** albums · **467** songs · **380** people · **78** characters · **74%** of tracks on YouTube Music · as of 2026-10-19
+**1,550** tracks · **268** albums · **586** songs · **447** people · **78** characters · **79%** of tracks on YouTube Music · as of 2026-10-19
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
@@ -36,7 +36,7 @@
 | **Aqours** | 2021-07-28 | 64 | 400 | 80% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
 | **Nijigasaki High School Idol Club** | 2023-12-06 | 69 | 385 | 65% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
 | **Liella!** | 2023-12-06 | 44 | 225 | 55% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
-| **Hasunosora Girls' High School Idol Club** | 2023-12-06 | 12 | 68 | 100% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
+| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 62 | 425 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
 | **School Idol Musical** | 2023-05-10 | 2 | 34 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
 | **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 27 | 90 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
 

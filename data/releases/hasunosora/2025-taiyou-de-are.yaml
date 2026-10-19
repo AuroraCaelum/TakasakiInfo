@@ -1,0 +1,47 @@
+id: hasunosora/2025-taiyou-de-are
+type: single
+title:
+  ja: 太陽であれ！
+projects: [hasunosora]
+artist_credit:
+  - {artist: dollchestra}
+label: Lantis
+release_date: 2025-08-20
+editions:
+  - id: e1
+    catalog: LACM-24709
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/taiyou-de-are#original}
+      - {no: 2, recording: hasunosora/diamondz#original}
+      - {no: 3, recording: hasunosora/taiyou-de-are#off-vocal}
+      - {no: 4, recording: hasunosora/diamondz#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_LWQfSknubXp
+    tracks:
+      1-1: RPhEisXCYFY
+      1-2: NiizU8M5rlY
+      1-3: SDtqsXrqZ00
+      1-4: 1jTedbsZjpY
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 太陽であれ！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_LWQfSknubXp
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

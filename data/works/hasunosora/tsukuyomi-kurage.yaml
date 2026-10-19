@@ -1,0 +1,67 @@
+id: hasunosora/tsukuyomi-kurage
+project: hasunosora
+title:
+  ja: 月夜見海月
+  rom: Tsukuyomi Kurage
+  ko: 달밤을 보는 해파리
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: kohei-tsukada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/19/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 月夜見海月 (Off Vocal)
+      rom: Tsukuyomi Kurage (Off Vocal)
+      ko: 달밤을 보는 해파리 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kohei-tsukada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/19/
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/19/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E6%9C%88%E5%A4%9C%E8%A6%8B%E6%B5%B7%E6%9C%88'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/19/
+    checked: 2026-10-19

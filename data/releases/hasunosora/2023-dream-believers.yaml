@@ -1,8 +1,14 @@
 id: hasunosora/2023-dream-believers
+type: mini_album
 title:
   ja: Dream Believers
 projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
 release_date: 2023-03-29
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/dream-believers#original}
@@ -12,7 +18,8 @@ discs:
       - {no: 5, recording: hasunosora/do-do-do#original}
       - {no: 6, recording: hasunosora/eien-no-euphoria#original}
 streaming:
-  - browse_id: MPREb_BMeIRFB6pEQ
+  - editions: [e1]
+    browse_id: MPREb_BMeIRFB6pEQ
     tracks:
       1-1: 3EWpPP5d2zU
       1-2: E81kCmanMUs
@@ -20,16 +27,24 @@ streaming:
       1-4: bR35CFImmgI
       1-5: 8N7qPnMR79Q
       1-6: OETBB1AUUBA
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/01/
 legacy:
   category: Hasunosora
   albums:
     - {title: Dream Believers}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
-    checked: 2026-10-17
+    checked: 2026-10-19
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19

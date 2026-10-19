@@ -37,6 +37,56 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-new-ver
+    title:
+      ja: アイデンティティ (104期NEW Ver.)
+      rom: Identity (104th NEW Ver.)
+      ko: 아이덴티티 (104기 NEW Ver.)
+    version: 104期NEW Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/21/
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+  - id: 104th-new-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: アイデンティティ (104期NEW Ver.) (Off Vocal)
+      rom: Identity (104th NEW Ver.) (Off Vocal)
+      ko: 아이덴티티 (104기 NEW Ver.) (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    instrumental_of: 104th-new-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/21/
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

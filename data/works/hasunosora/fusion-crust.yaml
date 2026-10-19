@@ -1,0 +1,47 @@
+id: hasunosora/fusion-crust
+project: hasunosora
+title:
+  ja: フュージョンクラスト
+  rom: Fusion Crust
+  ko: 퓨전 크러스트
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: maiko-iuchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: maiko-iuchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: フュージョンクラスト (Off Vocal)
+      rom: Fusion Crust (Off Vocal)
+      ko: 퓨전 크러스트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: maiko-iuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%95%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%88'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+    checked: 2026-10-19

@@ -1,0 +1,47 @@
+id: hasunosora/a-deru-note
+project: hasunosora
+title:
+  ja: A出るノート
+  rom: A Deru Note
+  ko: A가 나오는 노트
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: skipjack}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: A出るノート (Off Vocal)
+      rom: A Deru Note (Off Vocal)
+      ko: A가 나오는 노트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/A%E5%87%BA%E3%82%8B%E3%83%8E%E3%83%BC%E3%83%88'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
+    checked: 2026-10-19

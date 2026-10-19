@@ -1,0 +1,72 @@
+id: hasunosora/tsubasa-la-liberte
+project: hasunosora
+title:
+  ja: ツバサ・ラ・リベルテ
+  rom: Tsubasa・La・Liberte
+  ko: 날개 la liberté
+credits:
+  lyricist:
+    - {person: arisa-tou}
+  composer:
+    - {person: reiji-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ツバサ・ラ・リベルテ (Off Vocal)
+      rom: Tsubasa・La・Liberte (Off Vocal)
+      ko: 날개 la liberté (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: reiji-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
+  - id: 104th-ver
+    title:
+      ja: ツバサ・ラ・リベルテ (104期 Ver.)
+      rom: Tsubasa・La・Liberte (104th Ver.)
+      ko: 날개 la liberté (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. ko: 나무위키(본문 전체가 소문자), rom: Fandom (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%84%E3%83%90%E3%82%B5%E3%83%BB%E3%83%A9%E3%83%BB%E3%83%AA%E3%83%99%E3%83%AB%E3%83%86'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19

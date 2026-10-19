@@ -1,0 +1,47 @@
+id: hasunosora/2025-henyoku-no-toribaga
+type: single
+title:
+  ja: 片翼のトリバガ
+projects: [hasunosora]
+artist_credit:
+  - {artist: edel-note}
+label: Lantis
+release_date: 2025-10-01
+editions:
+  - id: e1
+    catalog: LACM-24774
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/henyoku-no-toribaga#original}
+      - {no: 2, recording: hasunosora/drive-spade-crazy#original}
+      - {no: 3, recording: hasunosora/henyoku-no-toribaga#off-vocal}
+      - {no: 4, recording: hasunosora/drive-spade-crazy#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_zJyUHqcf71c
+    tracks:
+      1-1: J4jJwYUE48s
+      1-2: BeSK0QtQ1q4
+      1-3: Qv-EEH80Kx4
+      1-4: lw_HTh6JXuw
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 片翼のトリバガ}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_zJyUHqcf71c
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -1,8 +1,14 @@
 id: hasunosora/2023-mirage-voyage
+type: single
 title:
   ja: Mirage Voyage
 projects: [hasunosora]
+artist_credit:
+  - {artist: dollchestra}
 release_date: 2023-08-09
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/deepness#original}
@@ -12,7 +18,8 @@ discs:
       - {no: 5, recording: hasunosora/jibun-diary#off-vocal}
       - {no: 6, recording: hasunosora/mirage-voyage#off-vocal}
 streaming:
-  - browse_id: MPREb_S6U9fLnzkKH
+  - editions: [e1]
+    browse_id: MPREb_S6U9fLnzkKH
     tracks:
       1-1: yUZw948san0
       1-2: gduipbQuBaw
@@ -20,16 +27,24 @@ streaming:
       1-4: ZMmjZIPWwlM
       1-5: ijx5bFRbHsM
       1-6: VPOlEO403fw
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/07/
 legacy:
   category: Hasunosora
   albums:
     - {title: Mirage Voyage}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/07/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_S6U9fLnzkKH
-    checked: 2026-10-17
+    checked: 2026-10-19
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/07/
+    checked: 2026-10-19

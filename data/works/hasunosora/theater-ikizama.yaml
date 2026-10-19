@@ -1,0 +1,47 @@
+id: hasunosora/theater-ikizama
+project: hasunosora
+title:
+  ja: シアター生き様
+  rom: Theater Ikizama
+  ko: 시어터 삶의 길
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: takuya-fujita}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: jun-ichikawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シアター生き様 (Off Vocal)
+      rom: Theater Ikizama (Off Vocal)
+      ko: 시어터 삶의 길 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: jun-ichikawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%B7%E3%82%A2%E3%82%BF%E3%83%BC%E7%94%9F%E3%81%8D%E6%A7%98'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19

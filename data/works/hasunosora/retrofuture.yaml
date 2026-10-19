@@ -1,0 +1,46 @@
+id: hasunosora/retrofuture
+project: hasunosora
+title:
+  ja: Retrofuture
+  rom: Retrofuture
+  ko: Retrofuture
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: jun-ichikawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: jun-ichikawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Retrofuture (Off Vocal)
+      rom: Retrofuture (Off Vocal)
+      ko: Retrofuture (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: jun-ichikawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19

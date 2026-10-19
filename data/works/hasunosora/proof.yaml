@@ -1,0 +1,66 @@
+id: hasunosora/proof
+project: hasunosora
+title:
+  ja: Proof
+  rom: Proof
+  ko: Proof
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: yuuki-houto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/20/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Proof (Off Vocal)
+      rom: Proof (Off Vocal)
+      ko: Proof (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/20/
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/20/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/20/
+    checked: 2026-10-19

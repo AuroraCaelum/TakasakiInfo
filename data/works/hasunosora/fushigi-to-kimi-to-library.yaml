@@ -1,0 +1,72 @@
+id: hasunosora/fushigi-to-kimi-to-library
+project: hasunosora
+title:
+  ja: 不思議と君とライブラリー
+  rom: Fushigi to Kimi to Library
+  ko: 불가사의와 너와 라이브러리
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: kohei-tsukada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+        checked: 2026-10-19
+  - id: b-g-p-ver
+    title:
+      ja: 不思議と君とライブラリー (B. G. P. Ver.)
+      rom: Fushigi to Kimi to Library (B. G. P. Ver.)
+      ko: 불가사의와 너와 라이브러리 (B. G. P. Ver.)
+    version: B. G. P. Ver.
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 不思議と君とライブラリー (Off Vocal)
+      rom: Fushigi to Kimi to Library (Off Vocal)
+      ko: 불가사의와 너와 라이브러리 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kohei-tsukada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%A8%E5%90%9B%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+    checked: 2026-10-19

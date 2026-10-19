@@ -1,0 +1,47 @@
+id: hasunosora/soleil-smile
+project: hasunosora
+title:
+  ja: ソレイユスマイル
+  rom: Soleil Smile
+  ko: 솔레이유 스마일
+credits:
+  lyricist:
+    - {person: nanoha-komatsu}
+  composer:
+    - {person: clear-kila}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6397
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ソレイユスマイル (Off Vocal)
+      rom: Soleil Smile (Off Vocal)
+      ko: 솔레이유 스마일 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6397
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6397
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%BD%E3%83%AC%E3%82%A4%E3%83%A6%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6397
+    checked: 2026-10-19

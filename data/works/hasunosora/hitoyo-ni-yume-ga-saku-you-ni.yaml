@@ -1,0 +1,47 @@
+id: hasunosora/hitoyo-ni-yume-ga-saku-you-ni
+project: hasunosora
+title:
+  ja: 一生に夢が咲くように
+  rom: Hitoyo ni Yume ga Saku You ni
+  ko: 일생에 꿈이 피어나기를
+credits:
+  lyricist:
+    - {person: nanoha-komatsu}
+  composer:
+    - {person: clear-kila}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: seiji-hotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5350
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 一生に夢が咲くように (Off Vocal)
+      rom: Hitoyo ni Yume ga Saku You ni (Off Vocal)
+      ko: 일생에 꿈이 피어나기를 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: seiji-hotta}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5350
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E4%B8%80%E7%94%9F%E3%81%AB%E5%A4%A2%E3%81%8C%E5%92%B2%E3%81%8F%E3%82%88%E3%81%86%E3%81%AB'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5350
+    checked: 2026-10-19

@@ -1,0 +1,56 @@
+id: hasunosora/2025-cho-toutoi-love-n-w-black
+type: single
+title:
+  ja: ちょ、尊いLOVE / Nεw Black
+projects: [hasunosora]
+artist_credit:
+  - {artist: ruri-to}
+  - {artist: prince}
+label: Lantis
+release_date: 2025-12-03
+editions:
+  - id: e1
+    catalog: LACM-24780
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/cho-toutoi-love#original}
+      - {no: 2, recording: hasunosora/heisei-galz#original}
+      - {no: 3, recording: hasunosora/n-w-black#original}
+      - {no: 4, recording: hasunosora/ichigo-milk-love#original}
+      - {no: 5, recording: hasunosora/cho-toutoi-love#off-vocal}
+      - {no: 6, recording: hasunosora/heisei-galz#off-vocal}
+      - {no: 7, recording: hasunosora/n-w-black#off-vocal}
+      - {no: 8, recording: hasunosora/ichigo-milk-love#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_MJD89iQcHIp
+    tracks:
+      1-1: 6lPbo9x8Gy4
+      1-2: XOYW_DEHhJE
+      1-3: kkvPmHcoJEA
+      1-4: WCobCSdk-j0
+      1-5: eGKm5s7SgS0
+      1-6: gWayuSKwEw0
+      1-7: S7NQYK2XtfU
+      1-8: 4K08TP668NU
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ちょ、尊いLOVE / Nεw Black}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_MJD89iQcHIp
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

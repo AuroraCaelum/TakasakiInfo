@@ -1,0 +1,61 @@
+id: hasunosora/2024-dream-believers-104th-ver
+type: mini_album
+title:
+  ja: Dream Believers (104期 Ver.)
+  rom: Dream Believers (104th Ver.)
+  ko: Dream Believers (104기 Ver.)
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+release_date: 2024-04-17
+editions:
+  - id: e1
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/dream-believers#104th-ver}
+      - {no: 2, recording: hasunosora/on-your-mark#104th-ver}
+      - {no: 3, recording: hasunosora/aoku-haruka#original}
+      - {no: 4, recording: hasunosora/ladybug#original}
+      - {no: 5, recording: hasunosora/mira-creation#original}
+      - {no: 6, recording: hasunosora/eien-no-euphoria#104th-ver}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_gml3w3y1ueZ
+    tracks:
+      1-1: yH9EtWjT7uM
+      1-2: V8S7ErzLi7E
+      1-3: tFGGvzFI4q4
+      1-4: X9FsUoz5rrw
+      1-5: Naujk3xv6X0
+      1-6: 6DZxjEPKx2Q
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/17/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Dream Believers (104期 Ver.)}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/17/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/17/
+    checked: 2026-10-19
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/17/
+    checked: 2026-10-19
+    note: 各種音楽配信サービスでは4月24日(水)配信開始予定です。
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/17/
+    checked: 2026-10-19
+    note: 곡명 + 버전 규칙(D40) (재검토 반영 2026-10-19)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_gml3w3y1ueZ
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

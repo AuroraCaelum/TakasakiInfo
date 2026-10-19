@@ -1,0 +1,47 @@
+id: hasunosora/berry-merry-go-round
+project: hasunosora
+title:
+  ja: Berry Merry Go Round
+  rom: Berry Merry Go Round
+  ko: Berry Merry Go Round
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: akira-kabe}
+    - {person: rt2}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: akira-kabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Berry Merry Go Round (Off Vocal)
+      rom: Berry Merry Go Round (Off Vocal)
+      ko: Berry Merry Go Round (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: akira-kabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+    checked: 2026-10-19

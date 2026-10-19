@@ -1,0 +1,67 @@
+id: hasunosora/bang-you-gravity
+project: hasunosora
+title:
+  ja: BANG YOU グラビティ
+  rom: BANG YOU Gravity
+  ko: BANG YOU 그래비티
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: reiji-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: BANG YOU グラビティ (Off Vocal)
+      rom: BANG YOU Gravity (Off Vocal)
+      ko: BANG YOU 그래비티 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: reiji-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: reiji-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/BANG%20YOU%20%E3%82%B0%E3%83%A9%E3%83%93%E3%83%86%E3%82%A3'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19

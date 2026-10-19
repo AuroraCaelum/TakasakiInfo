@@ -1,0 +1,47 @@
+id: hasunosora/2025-itsudemo-itsumademo
+type: single
+title:
+  ja: いつでも、いつまでも
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2025-04-09
+editions:
+  - id: e1
+    catalog: LACM-24685
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/itsudemo-itsumademo#original}
+      - {no: 2, recording: hasunosora/ittan#original}
+      - {no: 3, recording: hasunosora/itsudemo-itsumademo#off-vocal}
+      - {no: 4, recording: hasunosora/ittan#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_FXUwOhoyxdE
+    tracks:
+      1-1: T5qf9NzpZGo
+      1-2: ndbvNeLGlhM
+      1-3: _Aiq65TwOZo
+      1-4: qhxBM_cPLRE
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/32/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: いつでも、いつまでも}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/32/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/32/
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_FXUwOhoyxdE
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

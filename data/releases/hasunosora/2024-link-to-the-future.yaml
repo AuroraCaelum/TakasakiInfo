@@ -1,0 +1,54 @@
+id: hasunosora/2024-link-to-the-future
+type: single
+title:
+  ja: Link to the FUTURE
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+release_date: 2024-01-17
+editions:
+  - id: e1
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/trick-and-cute#original}
+      - {no: 2, recording: hasunosora/tsubasa-la-liberte#original}
+      - {no: 3, recording: hasunosora/link-to-the-future#original}
+      - {no: 4, recording: hasunosora/trick-and-cute#off-vocal}
+      - {no: 5, recording: hasunosora/tsubasa-la-liberte#off-vocal}
+      - {no: 6, recording: hasunosora/link-to-the-future#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_WIre21OOnC9
+    tracks:
+      1-1: mlnzH-rzJd8
+      1-2: v3EZj4mGGSc
+      1-3: 4wdzpZYo4FQ
+      1-4: 9TS91tJjNAo
+      1-5: d9yn4mXDVRg
+      1-6: S8pS7dDEXKA
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/12/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Link to the FUTURE}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19
+    note: 各種音楽配信サービスでは1月24日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_WIre21OOnC9
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

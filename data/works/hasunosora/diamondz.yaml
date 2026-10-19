@@ -1,0 +1,46 @@
+id: hasunosora/diamondz
+project: hasunosora
+title:
+  ja: diamondz
+  rom: diamondz
+  ko: diamondz
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: ryu-sakamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: yasuaki-maejima}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: diamondz (Off Vocal)
+      rom: diamondz (Off Vocal)
+      ko: diamondz (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yasuaki-maejima}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4742
+    checked: 2026-10-19

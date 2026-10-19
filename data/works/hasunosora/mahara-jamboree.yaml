@@ -1,0 +1,62 @@
+id: hasunosora/mahara-jamboree
+project: hasunosora
+title:
+  ja: マハラジャンボリー
+  rom: Mahara Jamboree
+  ko: 마하라 잼버리
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: sakumaryo}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: sakumaryo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: マハラジャンボリー (Off Vocal)
+      rom: Mahara Jamboree (Off Vocal)
+      ko: 마하라 잼버리 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: sakumaryo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: 104th-ver
+    title:
+      ja: マハラジャンボリー (104期 Ver.)
+      rom: Mahara Jamboree (104th Ver.)
+      ko: 마하라 잼버리 (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: sakumaryo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%9E%E3%83%8F%E3%83%A9%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%E3%83%AA%E3%83%BC'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19

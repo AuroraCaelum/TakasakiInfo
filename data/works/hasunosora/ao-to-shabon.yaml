@@ -1,0 +1,67 @@
+id: hasunosora/ao-to-shabon
+project: hasunosora
+title:
+  ja: 青とシャボン
+  rom: Ao to Shabon
+  ko: 푸름과 비눗방울
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: atsuhito-sato}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/13/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 青とシャボン (Off Vocal)
+      rom: Ao to Shabon (Off Vocal)
+      ko: 푸름과 비눗방울 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/13/
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E9%9D%92%E3%81%A8%E3%82%B7%E3%83%A3%E3%83%9C%E3%83%B3'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19

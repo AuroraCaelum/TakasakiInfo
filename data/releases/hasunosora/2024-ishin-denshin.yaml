@@ -1,0 +1,54 @@
+id: hasunosora/2024-ishin-denshin
+type: single
+title:
+  ja: 以心☆電信
+projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
+release_date: 2024-03-27
+editions:
+  - id: e1
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/ishin-denshin#original}
+      - {no: 2, recording: hasunosora/bang-you-gravity#original}
+      - {no: 3, recording: hasunosora/mahara-jamboree#original}
+      - {no: 4, recording: hasunosora/ishin-denshin#off-vocal}
+      - {no: 5, recording: hasunosora/bang-you-gravity#off-vocal}
+      - {no: 6, recording: hasunosora/mahara-jamboree#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_pkzMqtuCqBE
+    tracks:
+      1-1: VsduLlj6sBk
+      1-2: nSLwNA86TRU
+      1-3: -ymckC3DlZ4
+      1-4: quJC199ATKU
+      1-5: NMOLnvlBG3U
+      1-6: gEAn-onJYAw
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/15/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 以心☆電信}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+    note: 各種音楽配信サービスでは4月3日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_pkzMqtuCqBE
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

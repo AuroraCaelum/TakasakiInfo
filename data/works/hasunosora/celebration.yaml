@@ -1,0 +1,41 @@
+id: hasunosora/celebration
+project: hasunosora
+title:
+  ja: Celebration!
+  rom: Celebration!
+  ko: Celebration!
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: kohei-tsukada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: chokkaku}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/34/
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: chokkaku}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19

@@ -1,0 +1,87 @@
+id: hasunosora/2025-star-sign-memories-otomune-kozue
+type: album
+title:
+  ja: ～Star Sign Memories～ Otomune Kozue
+  rom: ~Star Sign Memories~ Otomune Kozue
+  ko: ~Star Sign Memories~ Otomune Kozue
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/kozue-otomune}
+label: Lantis
+release_date: 2025-06-04
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39123~4
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19123~4
+    media: [CD, CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/suisai-sekai#kozue-otomune-solo}
+      - {no: 2, recording: hasunosora/oka-ranman#kozue-otomune-solo}
+      - {no: 3, recording: hasunosora/reflection-in-the-mirror#kozue-otomune-solo}
+      - {no: 4, recording: hasunosora/holiday-holiday#kozue-otomune-solo}
+      - {no: 5, recording: hasunosora/genyo-yako#kozue-otomune-solo}
+      - {no: 6, recording: hasunosora/sugao-no-pixel#kozue-otomune-solo}
+      - {no: 7, recording: hasunosora/senpen-banka#kozue-otomune-solo}
+      - {no: 8, recording: hasunosora/special-thanks#kozue-otomune-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/aoku-haruka#kozue-otomune-solo}
+      - {no: 2, recording: hasunosora/tsukuyomi-kurage#kozue-otomune-solo}
+      - {no: 3, recording: hasunosora/hanamusubi#kozue-otomune-solo}
+      - {no: 4, recording: hasunosora/yume-wazurai#kozue-otomune-solo}
+      - {no: 5, recording: hasunosora/asu-no-sora-no-bokutachi-e#kozue-otomune-solo}
+      - {no: 6, recording: hasunosora/deepness#kozue-otomune-solo}
+      - {no: 7, recording: hasunosora/dream-believers#sakura-ver-kozue-otomune}
+      - {no: 8, recording: hasunosora/be-proud#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_AMjXM5lMYuW
+    tracks:
+      1-1: VJ36RZb65zs
+      1-2: FEscDvUkBlg
+      1-3: qm_LbHZBS68
+      1-4: xwZ20z_rFz4
+      1-5: _LK_NxOtwYs
+      1-6: QiLuvep8ICo
+      1-7: 3vbSBz4gubU
+      1-8: Rs_xI7A2YO4
+      2-1: ieScx6Zh-uA
+      2-2: BaahXdATZIQ
+      2-3: pA8uj_oFtcM
+      2-4: kAZ6zJk84uA
+      2-5: TM0Y2-m2SAY
+      2-6: dxP2EBGy0xE
+      2-7: 6Iz0b5u7mag
+      2-8: vd8VkXjgkBE
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Star Sign Memories～ Otomune Kozue}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_AMjXM5lMYuW
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

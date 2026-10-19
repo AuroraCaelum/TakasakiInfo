@@ -1,0 +1,56 @@
+id: hasunosora/2024-special-thanks-ao-to-shabon-milk
+type: single
+title:
+  ja: Special Thanks / 青とシャボン / ミルク
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+  - {artist: dollchestra}
+  - {artist: mira-cra-park}
+release_date: 2024-02-14
+editions:
+  - id: e1
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/special-thanks#original}
+      - {no: 2, recording: hasunosora/ao-to-shabon#original}
+      - {no: 3, recording: hasunosora/milk#original}
+      - {no: 4, recording: hasunosora/special-thanks#off-vocal}
+      - {no: 5, recording: hasunosora/ao-to-shabon#off-vocal}
+      - {no: 6, recording: hasunosora/milk#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_m9yrdwRvo30
+    tracks:
+      1-1: 4V4B3ddq3NE
+      1-2: nKtGsbOJuOk
+      1-3: B5-HtbjGYws
+      1-4: BKHJwqpGVUo
+      1-5: LI4j19cHprc
+      1-6: 2MafocAr1Zs
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/13/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Special Thanks / 青とシャボン / ミルク}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19
+    note: 各種音楽配信サービスでは2月21日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_m9yrdwRvo30
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

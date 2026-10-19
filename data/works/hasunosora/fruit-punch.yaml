@@ -1,0 +1,57 @@
+id: hasunosora/fruit-punch
+project: hasunosora
+title:
+  ja: フルーツパンチ
+  rom: Fruit Punch
+  ko: 후르츠 펀치
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: masaki-honda, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: masaki-honda, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: フルーツパンチ (Off Vocal)
+      rom: Fruit Punch (Off Vocal)
+      ko: 후르츠 펀치 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaki-honda, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: masaki-honda, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%E3%83%91%E3%83%B3%E3%83%81'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+    checked: 2026-10-19

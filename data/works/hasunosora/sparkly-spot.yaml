@@ -39,6 +39,56 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-new-ver
+    title:
+      ja: Sparkly Spot (104期NEW Ver.)
+      rom: Sparkly Spot (104th NEW Ver.)
+      ko: Sparkly Spot (104기 NEW Ver.)
+    version: 104期NEW Ver.
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/20/
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+  - id: 104th-new-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Sparkly Spot (104期NEW Ver.) (Off Vocal)
+      rom: Sparkly Spot (104th NEW Ver.) (Off Vocal)
+      ko: Sparkly Spot (104기 NEW Ver.) (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+    instrumental_of: 104th-new-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/20/
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

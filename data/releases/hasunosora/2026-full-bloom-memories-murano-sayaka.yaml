@@ -1,0 +1,95 @@
+id: hasunosora/2026-full-bloom-memories-murano-sayaka
+type: album
+title:
+  ja: ～Full Bloom Memories～ Murano Sayaka
+  rom: ~Full Bloom Memories~ Murano Sayaka
+  ko: ~Full Bloom Memories~ Murano Sayaka
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/sayaka-murano}
+label: Lantis
+release_date: 2026-07-01
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39178~9
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19178~9
+    media: [CD, CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/awoke#sayaka-murano-solo}
+      - {no: 2, recording: hasunosora/scapegoat#sayaka-murano-solo}
+      - {no: 3, recording: hasunosora/sparkly-spot#sayaka-murano-solo}
+      - {no: 4, recording: hasunosora/tragic-drops#sayaka-murano-solo}
+      - {no: 5, recording: hasunosora/mirage-voyage#sayaka-murano-solo}
+      - {no: 6, recording: hasunosora/take-it-over#sayaka-murano-solo}
+      - {no: 7, recording: hasunosora/knot#sayaka-murano-solo}
+      - {no: 8, recording: hasunosora/ao-to-shabon#sayaka-murano-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/ladybug#sayaka-murano-solo}
+      - {no: 2, recording: hasunosora/proof#sayaka-murano-solo}
+      - {no: 3, recording: hasunosora/birdcage#sayaka-murano-solo}
+      - {no: 4, recording: hasunosora/compass#sayaka-murano-solo}
+      - {no: 5, recording: hasunosora/ampere#sayaka-murano-solo}
+      - {no: 6, recording: hasunosora/i-my-mayday#sayaka-murano-solo}
+      - {no: 7, recording: hasunosora/taiyou-de-are#sayaka-murano-solo}
+      - {no: 8, recording: hasunosora/icy#sayaka-murano-solo}
+      - {no: 9, recording: hasunosora/hajimari-no-hane-oto#sayaka-murano-solo}
+      - {no: 10, recording: hasunosora/i-do-me#sayaka-murano-solo}
+      - {no: 11, recording: hasunosora/dream-believers#sakura-ver-sayaka-murano}
+      - {no: 12, recording: hasunosora/bless-you#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_8YLtUnwiWWY
+    tracks:
+      1-1: FIMQfEzt0Ks
+      1-2: tDYVVs_GL1Y
+      1-3: aAeiE0AS1lY
+      1-4: NtMVe9SjiQ8
+      1-5: c1dxfhXBh_4
+      1-6: UvXvfQa59b4
+      1-7: syUpD86tAnE
+      1-8: cycbaXja2ok
+      2-1: Zq0hefC9iAk
+      2-2: qYFm3W0ZEbY
+      2-3: sY_ZrQfv8PQ
+      2-4: AIuHdP5QUek
+      2-5: geOHMR1xjWE
+      2-6: 8WRaluDuVlI
+      2-7: ku-sK08u6LA
+      2-8: hqPNwdx3nZg
+      2-9: 8dycs3crqZE
+      2-10: toLmvnuw4HQ
+      2-11: m9xjH3LCMLg
+      2-12: QC9tAkJHyT8
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Full Bloom Memories～ Murano Sayaka}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8YLtUnwiWWY
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
