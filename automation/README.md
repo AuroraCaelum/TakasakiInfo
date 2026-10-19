@@ -16,7 +16,7 @@ TakasakiInfo 데이터 파이프라인. 설계는 [docs/DESIGN.md](docs/DESIGN.m
 
 ## 설치와 실행
 
-[uv](https://docs.astral.sh/uv/)가 필요하다.
+[uv](https://docs.astral.sh/uv/)가 필요하다. 줄바꿈은 저장소의 `.gitattributes`가 정한다(레거시 CSV만 CRLF, 나머지는 LF). PC의 `core.autocrlf` 설정과 관계없이 macOS·Windows 모두 같은 파일을 받는다.
 
 ```sh
 cd automation
