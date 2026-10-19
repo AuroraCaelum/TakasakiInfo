@@ -367,3 +367,22 @@ def test_english_credits_an_own_line_version_and_a_bonus_performer():
         "arranger": [("MEG", None), ("Yusuke Koshiro", None)]}  # "Mixed by" is not a credit we keep
     assert theme.performers.artist == "浦の星交響楽団"
     assert radio.performers.members == [("高海千歌", "伊波杏樹")]
+
+
+def test_a_group_takes_a_song_first_sung_by_some_of_its_members(ds, tmp_path):
+    # START:DASH!!: the three first, then μ's, each with its own Off Vocal
+    ds.characters["p/riko"] = m.Character(id="p/riko", project="p", names=m.Names(ja="桜内梨子"))
+    duo = imp.Performers(None, None, [("高海千歌", "伊波杏樹"), ("桜内梨子", "")])
+    first = _new("https://x/cd.php#cd21", "Song A", [imp.TrackObs(1, "Song A", duo, credits=_cr()), imp.TrackObs(2, "Song A(Off Vocal)")],
+                 perf=duo)
+    again = _new("https://x/cd.php#cd24", "Song A", [imp.TrackObs(1, "Song A", imp.Performers("グループ", None), credits=_cr()),
+                                                     imp.TrackObs(2, "Song A(Off Vocal)")])
+    again.release_date = dt.date(2025, 5, 1)
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    del ds.works["p/a"].recordings[:]
+    del ds.releases["p/2020-a"]
+    rep = imp.import_site(ds, imp.Site([], [first, again], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts, rep.conflicts
+    recs = {r.id: r for r in ds.works["p/a"].recordings}
+    assert set(recs) == {"original", "off-vocal", "g", "g-off-vocal"}
+    assert recs["g"].performers == [m.Performer(artist="g")] and recs["g-off-vocal"].instrumental_of == "g"

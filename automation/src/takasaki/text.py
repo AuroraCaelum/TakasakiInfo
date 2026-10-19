@@ -148,8 +148,8 @@ def parse_credit(parts: dict[str, str]) -> tuple[dict[str, str], str | None, dic
 
 # trailing "(… Ver.)", "(Off Vocal)", "(instrumental)", "(Album Version)"; DESIGN.md §4.2
 _VERSION_SUFFIX = re.compile(
-    r"^(?P<base>.+?)\s*[(（](?P<ver>[^()（）]*(?:[Vv]er\.?|[Vv]ersion|Off Vocal|[Ii]nstrumental))[)）]\s*$"
-)
+    r"^(?P<base>.+?)\s*[(（](?P<ver>[^()（）]*(?:[Vv]er\.?|[Vv]ersion|(?i:off vocal)|[Ii]nstrumental|\s[Mm][Ii][Xx]))[)）]\s*$"
+)  # "(HONOKA Mix)", "(UMI MIX)": the μ's solo albums; "（off vocal）" in lower case on the early μ's pages
 # a version between wave dashes: "私のSymphony ～2023Ver.～", "What a Wonderful Dream!! ～CatChu! Ver.～"
 _WAVE_VERSION = re.compile(r"^(?P<base>.+?)\s*[～〜~](?P<ver>[^～〜~]*(?:[Vv]er\.?|[Vv]ersion))\s*[～〜~]\s*$")
 
@@ -158,7 +158,8 @@ def split_version(title: str) -> tuple[str, str | None]:
     m = _VERSION_SUFFIX.match(title) or _WAVE_VERSION.match(title)
     if not m:
         return title, None
-    return m["base"], m["ver"].strip()
+    ver = m["ver"].strip()
+    return m["base"], "Off Vocal" if ver.lower() == "off vocal" else ver
 
 
 def wave_version(title: str) -> bool:

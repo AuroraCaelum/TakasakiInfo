@@ -199,9 +199,11 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
             if dm := _DISC.match(ln):
                 disc, role, singing, drama = int(dm.group(1)), None, False, False
                 continue
-            if ln in ("[CD]", "［CD］", "【CD】", "＜CD＞", "・CD") or ln.startswith("■") or re.fullmatch(r"第[一二三四五六七八九十]+幕", ln):
+            part = re.fullmatch(r"[\[［]\s*(楽曲|ドラマ)パート\s*[\]］]", ln)  # "[楽曲パート]", "[ドラマパート]" (the early μ's singles)
+            if ln in ("[CD]", "［CD］", "【CD】", "＜CD＞", "・CD") or ln.startswith("■") or part \
+                    or re.fullmatch(r"第[一二三四五六七八九十]+幕", ln):
                 role, singing = None, False
-                drama = ln.startswith("■") and re.search(r"ドラマ|ラジオ", ln) is not None  # "■ドラマパート", "■録り下ろしラジオ"
+                drama = (ln.startswith("■") or bool(part)) and re.search(r"ドラマ|ラジオ", ln) is not None  # "■ドラマパート", "■録り下ろしラジオ"
                 bonus = ln.startswith("■") and "ボーナストラック" in ln
                 continue
             if role:  # the names under a role label

@@ -615,16 +615,22 @@ class Importer:
             fields = {"title": title, "version": ja,
                       "performers": perf, **arranged}
         rec = next((r for r in work.recordings if r.id == rid), None)
+        group_take = False
         if rec is not None and rec.performers and rec.performers != perf:
             # the same song by other singers: a solo of a group song (a graduation album) is its own recording
             if len(perf) == 1 and perf[0].character:
                 rid = f"{rid}-{perf[0].character.split('/', 1)[1]}" if ver else f"{perf[0].character.split('/', 1)[1]}-solo"
                 rec = next((r for r in work.recordings if r.id == rid), None)
+            elif ver is None and len(perf) == 1 and perf[0].artist:
+                # ... and the whole group singing a song first sung by some of its members (START:DASH!! by
+                # the three, then by μ's): a recording named after the group, with its own Off Vocal
+                rid, group_take = perf[0].artist, True
+                rec = next((r for r in work.recordings if r.id == rid), None)
             else:
                 self.report.conflicts.append(f"{work.id}#{rid}: performers on {obs.page_id} differ from the stored ones")
                 return None
         rec = self._upsert_recording(work, rid, fields, src)
-        if ver is None and rid == "original":
+        if ver is None and (rid == "original" or group_take):
             vocal_of[work.id] = rec
         return rec
 
