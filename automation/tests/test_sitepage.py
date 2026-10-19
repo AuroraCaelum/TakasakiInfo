@@ -9,6 +9,7 @@ from takasaki import model as m
 from takasaki.nijigasaki import parse_page as niji_page
 from takasaki.aqours import parse_page as aqours_page
 from takasaki.musical import parse_page as musical_page
+from takasaki.sitepage import editions_of
 from takasaki.store import Dataset
 
 NIJI = """
@@ -386,3 +387,62 @@ def test_a_group_takes_a_song_first_sung_by_some_of_its_members(ds, tmp_path):
     recs = {r.id: r for r in ds.works["p/a"].recordings}
     assert set(recs) == {"original", "off-vocal", "g", "g-off-vocal"}
     assert recs["g"].performers == [m.Performer(artist="g")] and recs["g-off-vocal"].instrumental_of == "g"
+
+
+PORTAL = """<div class="title"><p>R3BIRTH 3rdシングル「BONES BONES BONES」</p></div>
+<dl class="spec"><dt>【アーティスト】</dt><dd>R3BIRTH </dd><dt>【発売日】</dt><dd>2026年10月7日(水)</dd><dt>【品番】</dt><dd>LACM-24853</dd>
+<dt>【仕様】</dt><dd>01 BONES BONES BONES<br />作詞：EMME<br />作曲・編曲：Quemika<br /><br />02 BONES BONES BONES(Off Vocal)</dd></dl>"""
+
+
+class _Fetcher:
+    def __init__(self):
+        self.asked = []
+
+    def get(self, url, payload=None):
+        self.asked.append((url, payload))
+        return type("Page", (), {"html": PORTAL})()
+
+
+def test_a_block_the_script_loads():
+    from takasaki.sitepage import expand_in_elements
+    page = '<div class="box" id="cd02">…</div><div id="cd01_6289" class="in-element box" data-id="01_6289"></div>'
+    f = _Fetcher()
+    html = expand_in_elements(page, "https://x/nijigasaki/cd.php", f, '<div class="box" id="{}">')
+    assert f.asked == [("https://x/nijigasaki/cd_detail.php", "01_6289")]
+    [b] = niji_page(html, "https://x/cd.php")
+    assert (b.url, b.title, b.release_date) == ("https://x/cd.php#cd01_6289", "BONES BONES BONES", dt.date(2026, 10, 7))
+    assert [t.title for t in b.tracks] == ["BONES BONES BONES", "BONES BONES BONES(Off Vocal)"]  # "01 X", no dot
+    assert [c.name for c in b.tracks[0].credits["arranger"]] == ["Quemika"]
+    assert "シングル" in " ".join(b.header) and editions_of(b)[0].catalog == "LACM-24853"  # 【品番】
+
+
+def test_a_cross_project_release(ds, tmp_path):
+    # one adapter imports it for every project; a member of another project sings on it
+    ds.projects["p"] = m.Project(id="p", names=m.Names(ja="P"), legacy=m.ProjectLegacy(category="P", file="P"))
+    ds.projects["q"] = m.Project(id="q", names=m.Names(ja="Q"), legacy=m.ProjectLegacy(category="Q", file="Q"))
+    ds.layout.integrated_order = ["P", "Q"]
+    ds.characters["q/kanon"] = m.Character(id="q/kanon", project="q", names=m.Names(ja="澁谷かのん"))
+    spec = imp.Spec(project="p", group_name="グループ", legacy_group="P", review_prefix="P", lineups_from_site=False,
+                    cross={"cd.php#cd61": ["p", "q"]})
+    duo = imp.Performers(None, None, [("高海千歌", "伊波杏樹"), ("澁谷かのん", "伊達さゆり")])
+    obs = _new("https://x/cd.php#cd61", "Song A", [imp.TrackObs(1, "Song A", duo, credits=_cr())], perf=duo)
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    del ds.works["p/a"].recordings[:]
+    del ds.releases["p/2020-a"]
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), spec)
+    assert not rep.conflicts, rep.conflicts
+    rel = ds.releases["p/2024-song-a"]
+    assert rel.projects == ["p", "q"] and rel.legacy.category == "Others"
+    assert [e.release for e in ds.layout.albums["Q"].entries] == ["p/2024-song-a"]
+    assert ds.works["p/a"].recordings[0].performers == [m.Performer(character="p/chika"), m.Performer(character="q/kanon")]
+
+
+def test_a_version_in_square_brackets(ds, tmp_path):
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    obs = _new("https://x/bd/movie/", "Movie BD", [imp.TrackObs(1, "Song A[YOU & I edit] MOVIE EDITION", credits=_cr())], rtype="bd_bonus")
+    (tmp_path / "P-titles.yaml").write_text(
+        "type: new-names\nproject: p\ndecision: ''\nitems:\n  - {kind: release, printed: Movie BD, title: {ja: Movie BD, rom: Movie BD, ko: Movie BD}}\n",
+        encoding="utf-8")
+    imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    rec = next(r for r in ds.works["p/a"].recordings if r.id == "you-i-edit-movie-edition")
+    assert rec.title.ja == "Song A[YOU & I edit] MOVIE EDITION" and rec.version == "[YOU & I edit] MOVIE EDITION"

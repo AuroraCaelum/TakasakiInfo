@@ -70,3 +70,27 @@ def test_the_blu_ray_cds():
     assert (vol2.title, vol2.tracks[0].title) == ("TVA1 BD Vol.2", "Anemone heart")
     assert (full.title, full.release_date, full.tracks[0].title) == ("TVA1 BD Full (Gamers)", dt.date(2013, 4, 24), "ぷわぷわーお！")
     assert full.performers.artist == "Printemps" and full.url.endswith("#bd00-gamers")
+
+
+def test_a_yohane_single_and_blu_ray_cd():
+    from takasaki import yohane
+    single = """<p>MUSIC</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>x</p><p>MUSIC</p>
+<p>TVアニメ『幻日のヨハネ』 第1話挿入歌/第3話挿入歌</p><p>「Far far away / Be as one!!!」</p><p>＜Far far away盤(A盤)＞</p>
+<p>■楽曲パート映像はこちら</p><p>「Far far away」</p><p>発売日</p><p>2023年8月23日(水)</p><p>アーティスト</p>
+<p>ヨハネ(CV.小林愛香) / ダイヤ(CV.小宮有紗) ,</p><p>ルビィ(CV.降幡 愛)</p><p>価格</p><p>＜Far far away盤(A盤)＞</p>
+<p>LACM-24442 / ￥1,430</p><p>＜Be as one!!!盤(B盤)＞</p><p>LACM-24443 / ￥1,430</p><p>収録内容</p><p>01. Far far away</p>
+<p>作詞：Hayato Yamamoto</p><p>02. Be as one!!!</p><p>作編曲：宮崎 誠</p><p>03. Far far away (Off Vocal)</p><p>BACK TO LIST</p>"""
+    obs, why = yohane.parse_music_page(single, "https://x/music/detail/?id=3")
+    assert why is None and obs.title == "Far far away / Be as one!!!" and obs.release_date == dt.date(2023, 8, 23)
+    assert [(e.label, e.catalog) for e in obs.editions] == [("Far far away盤(A盤)", "LACM-24442"), ("Be as one!!!盤(B盤)", "LACM-24443")]
+    # the artist field names each song's singers, split by "/"
+    assert [[n for n, _ in t.performers.members] for t in obs.tracks[:2]] == [["ヨハネ"], ["ダイヤ", "ルビィ"]]
+    bd = """<p>Blu-ray</p>""" * 11 + """<p>Blu-ray</p><p>TVアニメ「幻日のヨハネ」</p><p>Blu-ray 第1巻</p><p>価格</p><p>4,950円（税込）/ BCXA-1863</p>
+<p>発売日</p><p>2023年9月27日（水）</p><p>封入特典</p><p>・録り下ろしオリジナルソングCD１</p><p>01.ドラマ『夢の都、ゆきゆきて』</p>
+<p>02.テ・キ・ナ ミュージック</p><p>歌 唱：ヨハネ(CV.小林愛香)</p><p>作 詞：Hayato Yamamoto</p><p>03.テ・キ・ナ ミュージック（Off vocal)</p>
+<p>・16pブックレット</p>"""
+    cd = yohane.parse_bd_page(bd, "https://x/bd/detail/?id=1")
+    assert (cd.title, cd.type, cd.editions[0].catalog) == ("TVA1 BD Vol.1", "bd_bonus", "BCXA-1863")
+    drama, song, off = cd.tracks
+    assert drama.drama and drama.title == "夢の都、ゆきゆきて"
+    assert song.performers.members == [("ヨハネ", "小林愛香")] and [c.name for c in song.credits["lyricist"]] == ["Hayato Yamamoto"]

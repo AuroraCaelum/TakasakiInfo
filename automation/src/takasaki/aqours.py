@@ -14,7 +14,7 @@ from pathlib import Path
 from .importer import Report, Site, Spec
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
-from .sitepage import Block, read_block, releases_of, text_lines
+from .sitepage import Block, expand_in_elements, read_block, releases_of, text_lines
 from .store import Dataset
 
 GROUP = "Aqours"
@@ -22,14 +22,12 @@ PAGE = "/uranohoshi/cd.php"
 MEMBER_PATH = "/uranohoshi/member/"
 
 SPEC = Spec(project="aqours", group_name=GROUP, legacy_group="Aqours", review_prefix="AQR",
-            skip={"cd.php#cd68": "LIVE with a smile!: Aqours, Nijigasaki and Liella!, cross-project (Phase 3)",
-                  "cd.php#cd69": "not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!: split single of three groups, "
-                                 "cross-project (Phase 3)",
-                  "cd.php#cd100": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)",
-                  "cd.php#cd101": "AiScReam「愛♡スクリ～ム！」: cross-project unit (Phase 3)"},
+            skip={"cd.php#cd68": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
+                  "cd.php#cd100": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)",
+                  "cd.php#cd101": "AiScReam「愛♡スクリ～ム！」: cross-project, imported with the Nijigasaki page (D45)"},
             lineups_from_site=False)
 
-_ANCHOR = re.compile(r'<a id="(cd\d+)"></a>')
+_ANCHOR = re.compile(r'<a id="(cd[\d_]+)"></a>')  # cd51, and cd01_5621 for a block the script loads
 
 
 def parse_page(html: str, url: str) -> list[Block]:
@@ -45,7 +43,8 @@ def parse_page(html: str, url: str) -> list[Block]:
 
 
 def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:
-    blocks = parse_page(fetcher.get(PAGE, fresh=fresh).html, BASE + PAGE)
+    html = expand_in_elements(fetcher.get(PAGE, fresh=fresh).html, BASE + PAGE, fetcher, '<a id="{}"></a><div>')
+    blocks = parse_page(html, BASE + PAGE)
     releases, skipped = releases_of(blocks, SPEC.skip)
     return Site([], releases, BASE + MEMBER_PATH, skipped)
 

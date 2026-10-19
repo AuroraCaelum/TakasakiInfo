@@ -59,7 +59,7 @@ def parse_credit_line(line: str) -> dict[str, list[CreditName]]:
     out: dict[str, list[CreditName]] = {}
     # a name may contain spaces, so segments are split only before "<roles>：", after a space, a
     # slash ("作詞：畑 亜貴／作曲：…", not the "作曲／編曲：" of joined roles) or an affiliation's bracket
-    for seg in re.split(rf"\s+(?={_ROLES}\s*[：:])|(?<![詞曲])\s*[／/]\s*(?={_ROLES}\s*[：:])|(?<=[)）])(?={_ROLES}\s*[：:])",
+    for seg in re.split(rf"(?<![・／/])\s+(?={_ROLES}\s*[：:])|(?<![詞曲])\s*[／/]\s*(?={_ROLES}\s*[：:])|(?<=[)）])(?={_ROLES}\s*[：:])",
                         line.strip()):
         mt = re.match(rf"^({_ROLES})\s*[：:]\s*(.+)$", seg)
         if not mt:
@@ -199,6 +199,9 @@ class Spec:
     legacy_file: str | None = None  # the file (layout group) when it is named otherwise: Nijigasaki → Nijigaku
     skip: dict[str, str] = field(default_factory=dict)  # page id -> why the release is left to a later phase
     lineups_from_site: bool = True  # False keeps the dated lineups in data/ (Hasunosora, D33)
+    # page id -> every project of a cross-project release this adapter imports (Bring the LOVE！, AiScReam):
+    # the release lists them all, its legacy category is Others (D6) and every project's legacy file lists it
+    cross: dict[str, list[str]] = field(default_factory=dict)
     # False when group_name names the work, not an artist (the musical: its CDs credit
     # 「スクールアイドルミュージカル」, and the cast sings each track)
     group_artist: bool = True
@@ -281,6 +284,7 @@ class Importer:
         self.ds, self.reviews, self.today, self.spec = ds, reviews, today, spec
         self.member_keys = {match_key(n) for n in member_names}
         self.page: str | None = None  # the release page being read
+        self.singers: set[str] = set()  # the artists the track being read names (match keys)
         self.report = Report()
         self.doubts: list[tuple[list[tuple[dict[str, m.Evidence], str]], str]] = []
         # what each page settled of a recording, put together by _settle: (work id, recording id) -> evidence
@@ -308,13 +312,24 @@ class Importer:
         key, project = match_key(printed), self.spec.project
         if kind == "character":
             hits = [c.id for c in self.ds.characters.values() if c.project == project and match_key(c.names.ja) == key]
+            if not hits and self.page and page_id(self.page) in self.spec.cross:  # a member of another project
+                hits = [c.id for c in self.ds.characters.values() if c.project in self.spec.cross[page_id(self.page)]
+                        and match_key(c.names.ja) == key]
+                hits = hits if len(hits) == 1 else []
         elif kind == "artist":
             hits = [a.id for a in self.ds.artists.values() if project in a.projects and match_key(a.names.ja) == key]
+            if not hits:  # another project's group singing on this project's release (the split single's Liella!)
+                hits = [a.id for a in self.ds.artists.values() if match_key(a.names.ja) == key]
+                hits = hits if len(hits) == 1 else []
         elif kind == "work":
             hits = [w.id for w in self.ds.works.values() if w.project == project and match_key(w.title.ja) == key]
             if not hits:  # a song stored under another project, sung by an artist of this one (LIVE with a smile!)
                 hits = [w.id for w in self.ds.works.values() if match_key(w.title.ja) == key
                         and any(p.artist and project in self.ds.artists[p.artist].projects for r in w.recordings for p in r.performers)]
+            if not hits and self.singers:  # ... or by the artist the track names (the split single's Liella!)
+                hits = [w.id for w in self.ds.works.values() if match_key(w.title.ja) == key
+                        and any(p.artist and match_key(self.ds.artists[p.artist].names.ja) in self.singers
+                                for r in w.recordings for p in r.performers)]
         else:
             raise ValueError(kind)
         return hits[0] if hits else None
@@ -511,16 +526,21 @@ class Importer:
                 complete = False
         drama_cd = self._rtype(obs) == "drama_cd"
         vocal_of: dict[str, m.Recording] = {}
+        on_release: dict[str, str] = {}  # the songs found for this release's tracks: its Off Vocals are theirs
         placed_by: list[tuple[str | None, list[tuple[int, m.Track]]]] = []  # (edition label, [(disc, track)])
         for label, tracks in _edition_tracks(obs):
             placed: list[tuple[int, m.Track]] = []
             where = f"{obs.page_id}【{label}】" if label else obs.page_id
             for t in tracks:
                 base, ver, inner = _song(t.title)
+                sung = t.performers or obs.performers
+                self.singers = {match_key(n) for n in (sung.artists or ([sung.artist] if sung.artist else []))}
                 used = f"{where} #{t.disc}-{t.no}" if t.disc > 1 or any(x.disc > 1 for x in tracks) else f"{where} #{t.no}"
-                wid = self.resolve("work", base, file=self.spec.review_file("work"), used_in=used,
-                                   seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)},
-                                         "source": obs.url})
+                wid = on_release.get(match_key(base)) or self.resolve(
+                    "work", base, file=self.spec.review_file("work"), used_in=used,
+                    seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)}, "source": obs.url})
+                if wid:
+                    on_release.setdefault(match_key(base), wid)
                 perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
                 credits = {role: self.credits(names, f"{base}: {role}", obs.url) for role, names in t.credits.items()}
                 if wid is None or perf is None or any(v is None for v in credits.values()):
@@ -535,7 +555,8 @@ class Importer:
                     rec = self._upsert_recording(work, "main", {"kind": "drama", "performers": perf},
                                                  m.Evidence(status=m.Status.official, source=obs.url, checked=self.today))
                 else:
-                    rec = self.recording(work, ver, perf, credits, obs, vocal_of, inner, wave_version(t.title))
+                    rec = self.recording(work, ver, perf, credits, obs, vocal_of, inner,
+                                         t.title[len(base):].strip() if wave_version(t.title) else None)
                 if rec is None:
                     complete = False
                     continue
@@ -548,8 +569,9 @@ class Importer:
 
     def recording(self, work: m.Work, ver: str | None, perf: list[m.Performer], credits: dict[str, list[m.Credit] | None],
                   obs: ReleaseObs, vocal_of: dict[str, m.Recording], inner: str | None = None,
-                  wave: bool = False) -> m.Recording | None:
-        """``wave``: the page prints the version between wave dashes (``～2023Ver.～``), and so does the title."""
+                  printed: str | None = None) -> m.Recording | None:
+        """``printed``: the version as the title prints it when not in round brackets (``～2023Ver.～``,
+        ``[YOU & I edit]``): the recording's title keeps that notation, half-width in rom and ko."""
         lyr, comp = credits.get("lyricist"), credits.get("composer")
         arranged = {k: credits.get(k) or [] for k in ARRANGERS}  # 編曲, 弦編曲, 管編曲 (D42)
         src = m.Evidence(status=m.Status.official, source=obs.url, checked=self.today)
@@ -610,13 +632,14 @@ class Importer:
                 self.report.conflicts.append(f"{work.id}: unhandled version {ver!r} on {obs.page_id}")
                 return None
             rid, ja, rom, ko = labels
-            title = _suffixed(work.title, f" ～{ja}～", f" ~{rom}~", f" ~{ko}~") if wave else \
-                _suffixed(work.title, f" ({ja})", f" ({rom})", f" ({ko})")
+            sep = "" if printed and printed.startswith("[") else " "
+            title = _suffixed(work.title, f"{sep}{printed}", halfwidth(f"{sep}{printed}"), halfwidth(f"{sep}{printed}")) if printed \
+                else _suffixed(work.title, f" ({ja})", f" ({rom})", f" ({ko})")
             fields = {"title": title, "version": ja,
                       "performers": perf, **arranged}
         rec = next((r for r in work.recordings if r.id == rid), None)
         group_take = False
-        if rec is not None and rec.performers and rec.performers != perf:
+        if rec is not None and rec.performers and perf and rec.performers != perf:
             # the same song by other singers: a solo of a group song (a graduation album) is its own recording
             if len(perf) == 1 and perf[0].character:
                 rid = f"{rid}-{perf[0].character.split('/', 1)[1]}" if ver else f"{perf[0].character.split('/', 1)[1]}-solo"
@@ -655,6 +678,8 @@ class Importer:
         for k, v in fields.items():
             if k in ARRANGERS and not v:
                 continue  # a page without credits (the unit album's repeats) keeps what was read before
+            if k == "performers" and not v and rec.performers:
+                continue  # ... nor erases singers a page left out
             if k in ("title", "version") and getattr(rec, k):
                 continue  # a stored title keeps its reading (kana) and the notation chosen first
             if k in ARRANGERS and getattr(rec, k) and not _same_credits(getattr(rec, k), v):
@@ -1114,12 +1139,16 @@ class Importer:
                 item["ref"] = f"release:{ident}"
                 evidence["title"] = m.Evidence(status=m.Status.draft, source=f"automation/review/{self.spec.review_file('release')}",
                                                note="승인 대기 (new-names 리뷰)")
+            projects = self.spec.cross.get(obs.page_id) or [self.spec.project]
             rel = m.Release(id=ident, type=rtype, status=status, title=title if item is not None else m.Names(ja=title.ja),
-                            projects=[self.spec.project], artist_credit=perf, label=label, release_date=obs.release_date,
+                            projects=projects, artist_credit=perf, label=label, release_date=obs.release_date,
                             editions=editions, discs=discs, links=links,
-                            legacy=m.ReleaseLegacy(category=self.spec.legacy_group, albums=albums),
+                            legacy=m.ReleaseLegacy(category="Others" if len(projects) > 1 else self.spec.legacy_group,
+                                                   albums=albums),
                             evidence=evidence)
             self.ds.releases[ident] = rel
+            if len(projects) > 1:
+                self._list_in_legacy_files(rel)
             self.report.created.append(f"release:{ident}")
             return
         before = rel.model_dump()
@@ -1151,6 +1180,18 @@ class Importer:
             if not art.lineups or art.lineups[-1].members != chars:
                 art.lineups = [m.Lineup(members=chars)]  # type: ignore[list-item]
                 art.evidence["lineups"] = m.Evidence(status=m.Status.official, source=obs.url, checked=self.today)
+
+    def _list_in_legacy_files(self, rel: m.Release) -> None:
+        """A cross-project release in the legacy album file of each of its projects (§10.1)."""
+        lay = self.ds.layout
+        assert lay is not None
+        for p in rel.projects:
+            proj = self.ds.projects.get(p)
+            group = proj.legacy.file if proj and proj.legacy else None
+            if group and group in lay.integrated_order:
+                albums = lay.albums.setdefault(group, m.LayoutAlbumsFile(entries=[]))
+                if all(e.release != rel.id for e in albums.entries):
+                    albums.entries.append(m.LayoutAlbumEntry(release=rel.id))
 
     def layout(self, members: list[str]) -> None:
         lay = self.ds.layout

@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import io
+import json
 import time
 import urllib.parse
 import urllib.request
@@ -47,8 +48,9 @@ class Fetcher:
         self.interval, self.max_age, self.offline = interval, max_age, offline
         self._last = 0.0
 
-    def _cache_path(self, url: str) -> Path:
-        return self.cache_dir / (hashlib.sha1(url.encode()).hexdigest() + ".html")
+    def _cache_path(self, url: str, payload: Any = None) -> Path:
+        key = url if payload is None else f"{url}\0{json.dumps(payload)}"
+        return self.cache_dir / (hashlib.sha1(key.encode()).hexdigest() + ".html")
 
     def _inbox_path(self, url: str) -> Path | None:
         if not self.inbox_dir:
@@ -58,16 +60,18 @@ class Fetcher:
         path = self.inbox_dir / f"{name}.html"
         return path if path.exists() else None
 
-    def get(self, url: str, *, fresh: bool = False) -> Page:
+    def get(self, url: str, *, fresh: bool = False, payload: Any = None) -> Page:
+        """The page at ``url``. With ``payload``, what the page's own script loads into it: a POST of the
+        payload as JSON, answered with the HTML as a JSON string (``cd_detail.php`` on the CD pages)."""
         url = urllib.parse.urljoin(BASE, url)
         path = urllib.parse.urlparse(url).path
         if any(path.startswith(d) for d in DISALLOWED):
             raise PermissionError(f"{url}: disallowed by robots.txt")
-        inbox = self._inbox_path(url)
+        inbox = self._inbox_path(url) if payload is None else None
         if inbox:
             html = inbox.read_text(encoding="utf-8")
             return Page(url, html, inbox.stat().st_mtime, hashlib.sha256(html.encode()).hexdigest(), from_inbox=True)
-        cached = self._cache_path(url)
+        cached = self._cache_path(url, payload)
         if cached.exists() and not fresh and time.time() - cached.stat().st_mtime < self.max_age:
             html = cached.read_text(encoding="utf-8")
             return Page(url, html, cached.stat().st_mtime, hashlib.sha256(html.encode()).hexdigest())
@@ -79,9 +83,16 @@ class Fetcher:
         wait = self._last + self.interval - time.monotonic()
         if wait > 0:
             time.sleep(wait)
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ja"})
+        headers = {"User-Agent": USER_AGENT, "Accept-Language": "ja"}
+        data = None
+        if payload is not None:
+            headers |= {"Content-Type": "application/json", "Referer": url.rsplit("/", 1)[0] + "/"}
+            data = json.dumps(payload).encode()
+        req = urllib.request.Request(url, data=data, headers=headers, method="POST" if data else "GET")
         with urllib.request.urlopen(req, timeout=30) as res:
             html = res.read().decode(res.headers.get_content_charset() or "utf-8")
+        if payload is not None:
+            html = json.loads(html)
         self._last = time.monotonic()
         cached.parent.mkdir(parents=True, exist_ok=True)
         cached.write_text(html, encoding="utf-8")

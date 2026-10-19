@@ -37,7 +37,7 @@ STORES = {"アニブロゲーマーズ": "Gamers", "ゲーマーズ": "Gamers", 
 MEMBER_PATH = "/otonokizaka/member/"
 
 SPEC = Spec(project="muse", group_name=GROUP, legacy_group="Muse", review_prefix="MUS",
-            skip={"release.php#cd91": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)",
+            skip={"release.php#cd91": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)",
                   "release.php#cd83": "Memorial CD-BOX「Complete BEST BOX」: a box of the earlier releases that prints no "
                                       "singers (its two START:DASH!! cannot be told apart)",
                   "release.php#cd40": "Solo Live! collection Memorial BOX Ⅱ: a box of the nine Solo Live! III albums "
@@ -199,7 +199,7 @@ def parse_page(html: str, url: str) -> tuple[list[Block], list[str], dict[str, s
             t.drama = t.drama or (anchor, t.no) in DRAMA
             if (anchor, t.title) in CREDIT_MISPRINTS:
                 t.credits = {}
-        why = _video(b) or _soundtrack(b) or ("no tracklist on the page (song names only)" if not b.tracks else None) \
+        why = _video(b) or ("no tracklist on the page (song names only)" if not b.tracks else None) \
             or ("no release date on the page" if b.release_date is None else None)
         if why:
             skipped.append(f"release.php#{anchor} {b.title}: {why}")
@@ -216,10 +216,6 @@ def _video(b: Block) -> str | None:
     if video or re.search(r"Blu-ray|DVD", b.title) and "CD" not in b.title:
         return "a video release (Blu-ray / DVD), not a music release"
     return None
-
-
-def _soundtrack(b: Block) -> str | None:
-    return "soundtrack (score), not in the legacy files" if any("サウンドトラック" in h for h in b.header) else None
 
 
 _BD_BOX = re.compile(r'id="(bd\d+)"')

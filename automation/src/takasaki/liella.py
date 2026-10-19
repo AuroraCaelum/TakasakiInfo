@@ -23,10 +23,10 @@ LIST_PATH = "/yuigaoka/music/"
 MEMBER_PATH = "/yuigaoka/member/"
 
 SPEC = Spec(project="liella", group_name=GROUP, legacy_group="Liella", review_prefix="LLA",
-            skip={"cd13.php": "LIVE with a smile!: Aqours, Nijigasaki and Liella!, cross-project (Phase 3)",
-                  "cd37.php": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)",
-                  "cd47.php": "AiScReam「愛♡スクリ～ム！」: cross-project unit (Phase 3)",
-                  "01_5904": "AiScReam「NEXT CARD」: cross-project unit (Phase 3)"},
+            skip={"cd13.php": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
+                  "cd37.php": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)",
+                  "cd47.php": "AiScReam「愛♡スクリ～ム！」: cross-project, imported with the Nijigasaki page (D45)"},
+            cross={"01_5904": ["liella", "nijigasaki", "hasunosora", "ikizulive"]},  # AiScReam「NEXT CARD」 (D45)
             lineups_from_site=False)
 
 _PAGE = re.compile(r'href="((?:cd\d+\.php)|(?:detail\.php\?p=01_\d+))"')

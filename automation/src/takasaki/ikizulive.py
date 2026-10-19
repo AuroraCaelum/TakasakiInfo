@@ -176,7 +176,7 @@ def parse_members(html: str) -> list[MemberObs]:
 
 # releases left to a later phase; the reason is printed on every run
 SPEC = Spec(project="ikizulive", group_name="いきづらい部！", legacy_group="Ikizulive",  # D3
-            review_prefix="IKZ", skip={"01_5904": "AiScReam「NEXT CARD」: cross-project unit (Phase 3)"})
+            review_prefix="IKZ", skip={"01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"})
 
 
 def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:

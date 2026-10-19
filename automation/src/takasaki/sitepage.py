@@ -19,6 +19,7 @@ import html as htmllib
 import re
 import unicodedata
 from dataclasses import dataclass, field
+from typing import Any
 
 from .hasunosora import parse_artists, parse_singers
 from .importer import (EditionObs, EditionPage, ParseError, Performers, ReleaseObs, TrackObs, is_credit_line, page_id,
@@ -29,7 +30,7 @@ from .text import match_key, split_version
 _BREAKS = re.compile(r"<br\s*/?>|</p>|</div>|</h\d>|</li>|</dt>|</dd>|</tr>|<dl[^>]*>"
                      r"|<span class=\"uta\">(?=\s*(?:作|編|歌|弦|管|菅|ストリングス))")
 _LABEL = re.compile(r"^【\s*([^【】]+?)\s*】\s*(.*)$")
-_TRACK = re.compile(r"^(\d{1,2})\s*[.．]\s*(.+)$")
+_TRACK = re.compile(r"^(\d{1,2})\s*[.．]\s*(.+)$|^(\d{2})\s+(\S.*)$")  # "01. X", or "01 X" in the portal's blocks
 _DISC = re.compile(r"^[\[［【]?\s*(?:Disc|DISC|CD)\s*[.．]?\s*(\d+)\s*[\]］】]?(?:\s*[：:].*)?$")  # "Disc.2 ：スペシャルメモリアルCD"
 _ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|菅編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
 _ROLE_ONLY = re.compile(rf"^({_ROLE_WORD}(?:\s*[／/・]\s*{_ROLE_WORD})*)\s*[：:]$")
@@ -64,6 +65,21 @@ def _ruby(mt: re.Match[str]) -> str:
     羅針盤<rp>（</rp><rt>コンパス</rt><rp>）</rp> → 羅針盤（コンパス）."""
     inner = mt.group(1)
     return inner if "<rp>" in inner else re.sub(r"<rt>.*?</rt>", "", inner, flags=re.S)
+
+
+_IN_ELEMENT = re.compile(r'<div id="(cd[^"]+)" class="in-element box" data-id="([^"]+)"></div>')
+
+
+def expand_in_elements(html: str, page: str, fetcher: Any, opening: str) -> str:
+    """The page with the blocks its script loads (``cd_detail.php``, the newest releases) put in place,
+    each opened as the page's other blocks are (``opening``, formatted with the block's element id)."""
+    endpoint = page.rsplit("/", 1)[0] + "/cd_detail.php"
+
+    def fill(mt: re.Match[str]) -> str:
+        part = fetcher.get(endpoint, payload=mt.group(2)).html
+        return f"{opening.format(mt.group(1))}{part}</div><!-- ! END  -->"
+
+    return _IN_ELEMENT.sub(fill, html)
 
 
 def strip_annotation(title: str) -> str:
@@ -164,8 +180,10 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                 if rest and label == "一般発売日":
                     dates.append(rest)
                 continue
-            if label in ("タイトル", "アーティスト", "発売日", "価格", "収録内容", "収録曲", "CD収録曲", "収録楽曲"):
-                section = {"収録曲": "収録内容", "CD収録曲": "収録内容", "収録楽曲": "収録内容"}.get(label, label)
+            if label in ("タイトル", "アーティスト", "発売日", "価格", "品番", "仕様", "収録内容", "収録曲", "CD収録曲", "収録楽曲"):
+                # the portal's blocks (loaded by cd_detail.php) print the catalog under 品番 and the tracks under 仕様
+                section = {"収録曲": "収録内容", "CD収録曲": "収録内容", "収録楽曲": "収録内容", "品番": "価格",
+                           "仕様": "収録内容"}.get(label, label)
                 if tracks and section != "収録内容":
                     done = True
                 if rest and section in ("価格", "発売日"):
@@ -220,7 +238,8 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                     continue
             tm = _TRACK.match(ln)
             if tm:
-                tracks.append(TrackObs(int(tm.group(1)), strip_annotation(tm.group(2).strip()), disc=disc, drama=drama))
+                no, title = (tm.group(1), tm.group(2)) if tm.group(1) else (tm.group(3), tm.group(4))
+                tracks.append(TrackObs(int(no), strip_annotation(title.strip()), disc=disc, drama=drama))
                 continue
             if not tracks:
                 continue
@@ -267,6 +286,10 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
         alt.append(title)
         _, title, edition = parts
         alt.append(re.sub(r"\s*[／/]\s*[^／/]+$", "", title))  # "君のこころは輝いてるかい？／Aqours"
+    series = re.fullmatch(r"(.+?)\s*「(.+)」", title)  # "R3BIRTH 3rdシングル「BONES BONES BONES」" (the portal's blocks)
+    if series and not title.startswith("「") and re.search(r"シングル|アルバム|テーマ|主題歌|挿入歌|CD|ドラマ|single|Single", series.group(1)):
+        header.append(series.group(1))
+        title = re.sub(r"」\s*[／/]\s*「", " / ", series.group(2))  # "GKSSシングル「WAKE:WOKE」 / 「BURN:BORN」"
     alt = [unquote(a) for a in dict.fromkeys(alt) if a and match_key(a) != match_key(title)]
     for t in tracks:
         if t.credits.pop("unreadable", None) is not None:
@@ -354,6 +377,9 @@ def to_release(blocks: list[Block], performers: Performers, *, series: str = "")
     """The blocks of one release (one per edition, or one): the first one's tracks."""
     first = blocks[0]
     assert first.release_date is not None
+    named = re.fullmatch(r"(.+?)\s*「(.+)」", first.title)  # 'AiScReam「NEXT CARD」': the artist, then the title
+    if named and performers.artist and match_key(named.group(1)) == match_key(performers.artist):
+        first.title = named.group(2)
     # an edition page that prints one catalog number without a label is the edition its title names
     editions = [EditionObs(e.label or (b.edition if len(eds) == 1 else None), e.catalog, e.media)
                 for b in blocks for eds in [editions_of(b)] for e in eds] \
@@ -369,8 +395,10 @@ def skip_reason(block: Block) -> str | None:
     artist = " ".join(block.artist).strip()
     if artist == "V.A.":
         return "V.A.: other franchises' artists (tribute album)"
-    if artist.startswith("音楽："):
+    if artist.startswith("音楽：") or any("サウンドトラック" in h for h in block.header):
         return "soundtrack (score), not in the legacy files"
+    if re.search(r"LIVE CD|ライブCD", " ".join(block.header + [block.title])):
+        return "a live recording album (LIVE CD), like the live Blu-rays not imported"
     if block.title == "タイトル未定" or any(re.fullmatch(r"[?？]+", split_version(t.title)[0].strip()) for t in block.tracks):
         return "announced without its tracklist yet"
     return None

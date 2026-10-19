@@ -152,10 +152,12 @@ _VERSION_SUFFIX = re.compile(
 )  # "(HONOKA Mix)", "(UMI MIX)": the μ's solo albums; "（off vocal）" in lower case on the early μ's pages
 # a version between wave dashes: "私のSymphony ～2023Ver.～", "What a Wonderful Dream!! ～CatChu! Ver.～"
 _WAVE_VERSION = re.compile(r"^(?P<base>.+?)\s*[～〜~](?P<ver>[^～〜~]*(?:[Vv]er\.?|[Vv]ersion))\s*[～〜~]\s*$")
+# a version in square brackets, perhaps with more after it: "BLOOM OF COLORS[YOU & I edit] MOVIE EDITION" (幻日のヨハネ)
+_BRACKET_VERSION = re.compile(r"^(?P<base>.+?)\s*(?P<ver>\[[^\[\]]+\](?:\s+[A-Za-z][A-Za-z ]*)?)\s*$")
 
 
 def split_version(title: str) -> tuple[str, str | None]:
-    m = _VERSION_SUFFIX.match(title) or _WAVE_VERSION.match(title)
+    m = _VERSION_SUFFIX.match(title) or _WAVE_VERSION.match(title) or _BRACKET_VERSION.match(title)
     if not m:
         return title, None
     ver = m["ver"].strip()
@@ -163,8 +165,9 @@ def split_version(title: str) -> tuple[str, str | None]:
 
 
 def wave_version(title: str) -> bool:
-    """Whether the title prints its version between wave dashes (``～2023Ver.～``) rather than in brackets."""
-    return _VERSION_SUFFIX.match(title) is None and _WAVE_VERSION.match(title) is not None
+    """Whether the title prints its version otherwise than in round brackets: between wave dashes
+    (``～2023Ver.～``) or in square ones (``[YOU & I edit]``). Such a version keeps its notation."""
+    return _VERSION_SUFFIX.match(title) is None and (_WAVE_VERSION.match(title) or _BRACKET_VERSION.match(title)) is not None
 
 
 def recording_kind(title_ja: str, note: str) -> str:

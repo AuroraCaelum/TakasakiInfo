@@ -14,7 +14,7 @@ from pathlib import Path
 from .importer import Report, Site, Spec
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
-from .sitepage import read_block, releases_of, text_lines
+from .sitepage import expand_in_elements, read_block, releases_of, text_lines
 from .store import Dataset
 
 GROUP = "虹ヶ咲学園スクールアイドル同好会"
@@ -23,10 +23,13 @@ MEMBER_PATH = "/nijigasaki/member/"
 
 SPEC = Spec(project="nijigasaki", group_name=GROUP, legacy_group="Nijigasaki", legacy_file="Nijigaku",
             review_prefix="NJG",
-            skip={"cd.php#cd61": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)",
-                  "cd.php#cd68": "「珊瑚礁の記憶」: the film's soundtrack and vocal collection, a soundtrack (score)",
-                  "cd.php#cd81": "AiScReam「愛♡スクリ～ム！」: cross-project unit (Phase 3)"},
+            skip={"cd.php#cd68": "「珊瑚礁の記憶」: the film's soundtrack and vocal collection, a soundtrack (score)",
+                  "cd.php#cd01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"},
+            cross={"cd.php#cd61": ["nijigasaki", "aqours", "liella", "hasunosora", "muse"],  # Bring the LOVE！ (D45)
+                   "cd.php#cd81": ["nijigasaki", "aqours", "liella"]},  # AiScReam「愛♡スクリ～ム！」 (its first lineup)
             lineups_from_site=False)
+# drama tracks the page does not mark: (page id, track number)
+DRAMA = {("cd.php#cd81", 2)}  # あまくてたのしい♡AiScReamラジオ！ ("※録り下ろしドラマはCD限定収録")
 
 _BOX = re.compile(r'<div class="box" id="([^"]+)">')
 
@@ -47,8 +50,12 @@ def parse_page(html: str, url: str) -> list:
 def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:
     blocks = []
     for path in PAGES:
-        blocks += parse_page(fetcher.get(path, fresh=fresh).html, BASE + path)
+        html = expand_in_elements(fetcher.get(path, fresh=fresh).html, BASE + path, fetcher, '<div class="box" id="{}">')
+        blocks += parse_page(html, BASE + path)
     releases, skipped = releases_of(blocks, SPEC.skip)
+    for r in releases:
+        for t in r.tracks:
+            t.drama = t.drama or (r.page_id, t.no) in DRAMA
     return Site([], releases, BASE + MEMBER_PATH, skipped)
 
 
