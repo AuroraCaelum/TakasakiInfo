@@ -96,7 +96,7 @@ class Fetcher:
 # ``approve`` writes the values again (edits made in the file win) with the item's status.
 
 HOWTO = (
-    "공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official ikizulive) 초안으로 들어간다. "
+    "공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. "
     "인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). "
     "한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. "
     "names에 값을 적으면 그 값이 우선한다. "
@@ -184,7 +184,7 @@ class NameReviews:
             path = self.dir / file
             path.parent.mkdir(parents=True, exist_ok=True)
             if not path.exists() or path.read_text(encoding="utf-8") != buf.getvalue():
-                path.write_text(buf.getvalue(), encoding="utf-8")
+                path.write_text(buf.getvalue(), encoding="utf-8", newline="\n")
                 out.append(path)
         return out
 

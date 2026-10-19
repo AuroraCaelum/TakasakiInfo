@@ -142,6 +142,17 @@ def test_note_is_built_from_parts():
     assert render_note(bd, 1, vocal, m.Track(recording="w#original"), "CHRONICLE") == "TVA1 BD Vol.1, Link is from the [CHRONICLE]"
 
 
+def test_an_album_without_edition_finds_its_own_video():
+    # a legacy album with no edition stands for the whole release, whichever editions the streaming entry lists
+    from takasaki.build_legacy import own_video
+
+    rel = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"], editions=[m.Edition(id="e1"), m.Edition(id="e2")],
+                    discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original")])],
+                    streaming=[m.Streaming(editions=["e1", "e2"], tracks={"1-1": "vid"})])
+    assert own_video(rel, None, 1, 1) == "vid" and own_video(rel, "e2", 1, 1) == "vid"
+    assert own_video(rel, "e3", 1, 1) is None
+
+
 def test_notes_do_not_repeat_derived_parts():
     ds = _ds(recordings=[m.Recording(id="original")])
     ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],

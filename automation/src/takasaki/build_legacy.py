@@ -59,11 +59,13 @@ def edition_tracks(rel: m.Release, edition: str | None, disc_no: int | None = No
 
 
 def own_video(rel: m.Release, edition: str | None, disc: int, pos: int) -> str | None:
+    """The track's own video. No edition (a legacy album that stands for the whole release) takes
+    the first streaming entry that has the track, whichever editions it lists."""
     key = f"{disc}-{pos}"
     for s in rel.streaming:
         if s.platform != "youtube_music":
             continue
-        if s.editions and edition not in s.editions:
+        if s.editions and edition is not None and edition not in s.editions:
             continue
         if key in s.tracks:
             return s.tracks[key]
