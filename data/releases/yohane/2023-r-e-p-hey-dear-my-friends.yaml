@@ -1,0 +1,46 @@
+id: yohane/2023-r-e-p-hey-dear-my-friends
+type: single
+title:
+  ja: R・E・P / Hey, dear my friends
+projects: [yohane]
+artist_credit:
+  - {character: yohane/hanamaru}
+  - {character: yohane/you}
+  - {character: yohane/kanan}
+  - {character: yohane/yohane}
+  - {character: yohane/riko}
+  - {character: yohane/mari}
+label: Lantis
+release_date: 2023-09-06
+editions:
+  - id: e1
+    label:
+      ja: R・E・P 盤(A盤)
+    catalog: LACM-24444
+    media: [CD]
+  - id: e2
+    label:
+      ja: Hey, dear my friends盤(B盤)
+    catalog: LACM-24445
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/r-e-p#original}
+      - {no: 2, recording: yohane/hey-dear-my-friends#original}
+      - {no: 3, recording: yohane/r-e-p#off-vocal}
+      - {no: 4, recording: yohane/hey-dear-my-friends#off-vocal}
+links:
+  official: https://www.yohane.net/music/detail/?id=7
+legacy:
+  category: Yohane
+  albums:
+    - {title: 'R・E・P / Hey, dear my friends'}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=7
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=7
+    checked: 2026-10-20

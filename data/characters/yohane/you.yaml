@@ -1,0 +1,20 @@
+id: yohane/you
+project: yohane
+names:
+  ja: ヨウ
+  rom: You
+  ko: 요우
+casting:
+  - {person: shuka-saito}
+evidence:
+  names:
+    status: draft
+    source: automation/review/YHN-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 작중 이름(성 없음)
+  casting:
+    status: official
+    source: https://www.yohane.net/character/
+    checked: 2026-10-20

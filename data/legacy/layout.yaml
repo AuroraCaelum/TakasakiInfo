@@ -1,4 +1,4 @@
-integrated_order: [Muse, Aqours, Nijigaku, Liella, Hasunosora, Musical, Ikizulive]
+integrated_order: [Muse, Aqours, Nijigaku, Liella, Hasunosora, Musical, Ikizulive, Yohane]
 albums:
   Aqours:
     entries:
@@ -63,35 +63,38 @@ albums:
       - {release: aqours/2020-lovelive-sunshine-kurosawa-ruby-first-solo-concert-album}
       - {release: aqours/2020-aqours-chronicle-2015-2017}
       - {release: aqours/2020-winter-vacation}
-      - {release: aqours/2021-aru-hi-eien-mitai-ni}
-      - {release: aqours/2021-we-ll-get-the-next-dream}
-      - {release: aqours/2021-shooting-star-warrior}
       - {release: aqours/2021-lovelive-sunshine-kurosawa-dia-first-solo-concert-album-white-first-love}
-      - {release: aqours/2021-lovelive-sunshine-ohara-mari-first-solo-concert-album-new-winding-road}
-      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-takami-chika}
-      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-sakurauchi-riko}
-      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kurosawa-ruby}
-      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kurosawa-dia}
-      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-matsuura-kanan}
-      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-watanabe-you}
-      - {release: aqours/2023-the-blue-swell}
       - {release: aqours/2021-lovelive-sunshine-matsuura-kanan-first-solo-concert-album-sakanakanandaka}
       - {release: aqours/2021-lovelive-sunshine-kunikida-hanamaru-first-solo-concert-album-oyasuminasan}
       - {release: aqours/2021-smile-smile-ship-start}
       - {release: aqours/2021-lovelive-sunshine-watanabe-you-first-solo-concert-album-beginner-s-sailing}
+      - {release: aqours/2021-aru-hi-eien-mitai-ni}
+      - {release: aqours/2021-lovelive-sunshine-ohara-mari-first-solo-concert-album-new-winding-road}
+      - {release: aqours/2021-we-ll-get-the-next-dream}
       - {release: aqours/2021-lovelive-sunshine-tsushima-yoshiko-first-solo-concert-album-in-this-unstable-world}
+      - {release: aqours/2021-shooting-star-warrior}
+      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-takami-chika}
+      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-sakurauchi-riko}
+      - {release: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kurosawa-ruby}
       - {release: aqours/2021-ku-ru-ku-ru-cruller}
       - {release: aqours/2021-love-live-sunshine-aqours-chronicle-2018-2020}
+      - {release: nijigasaki/2021-live-with-a-smile, category: Aqours}
+      - {release: aqours/2021-not-alone-not-hitori}
+      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kurosawa-dia}
+      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-matsuura-kanan}
       - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kunikida-hanamaru}
       - {release: aqours/2022-nando-datte-yakusoku}
+      - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-watanabe-you}
       - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-ohara-mari}
       - {release: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-tsushima-yoshiko}
       - {release: aqours/2022-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-takami-chika}
+      - {release: aqours/2022-banzai-digital-trippers}
       - {release: aqours/2022-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-sakurauchi-riko}
       - {release: aqours/2022-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-kurosawa-ruby}
       - {release: aqours/2022-waai-waiwai-waiwaiwai}
       - {release: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-kurosawa-dia}
       - {release: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-matsuura-kanan}
+      - {release: aqours/2023-the-blue-swell}
       - {release: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-kunikida-hanamaru}
       - {release: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-watanabe-you}
       - {release: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-ohara-mari}
@@ -102,13 +105,27 @@ albums:
       - {release: aqours/2024-deep-blue}
       - {release: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-takami-chika}
       - {release: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-sakurauchi-riko}
+      - {release: nijigasaki/2024-bring-the-love}
       - {release: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-kurosawa-ruby}
       - {release: aqours/2024-eikyuu-hours}
       - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-kurosawa-dia}
       - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-matsuura-kanan}
       - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-kunikida-hanamaru}
       - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-watanabe-you}
-      - {release: aqours/2022-banzai-digital-trippers}
+      - {release: nijigasaki/2025-ai-scream}
+      - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-ohara-mari}
+      - {release: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-tsushima-yoshiko}
+      - {release: aqours/2026-wake-woke-burn-born}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-kunikida-hanamaru}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-kurosawa-dia}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-kurosawa-ruby}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-matsuura-kanan}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-ohara-mari}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-sakurauchi-riko}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-takami-chika}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-tsushima-yoshiko}
+      - {release: aqours/2025-eikyuu-hours-solo-concert-starring-watanabe-you}
+      - {release: aqours/2025-love-live-sunshine-aqours-chronicle-2021-2024}
   Nijigaku:
     entries:
       - {release: nijigasaki/2018-tokimeki-runners}
@@ -181,7 +198,9 @@ albums:
       - {release: nijigasaki/2023-fly-with-you}
       - {release: nijigasaki/2023-ijigen-bigbang}
       - {release: nijigasaki/2023-drama-cd-mugen-grandioso}
+      - {release: nijigasaki/2024-new-year-s-march-radio-taisou-dai-ichi-nijigasaki-high-school-idol-club-ver}
       - {release: nijigasaki/2024-nijigasaki-gakuen-kouka}
+      - {release: nijigasaki/2024-bring-the-love}
       - {release: nijigasaki/2024-doko-ni-itemo-kimi-wa-kimi}
       - {release: nijigasaki/2025-white-delight}
       - {release: nijigasaki/2025-starry-night-serenade}
@@ -189,7 +208,21 @@ albums:
       - {release: nijigasaki/2025-nijiiro-lumiere}
       - {release: nijigasaki/2025-what-a-beautiful-day}
       - {release: nijigasaki/2025-eternalize-love}
-      - {release: nijigasaki/2024-new-year-s-march-radio-taisou-dai-ichi-nijigasaki-high-school-idol-club-ver}
+      - {release: liella/2026-next-card}
+      - {release: nijigasaki/2025-ai-scream}
+      - {release: nijigasaki/2025-dress-code}
+      - {release: nijigasaki/2025-yes-to-tomorrow}
+      - {release: nijigasaki/2025-bravo}
+      - {release: nijigasaki/2026-crowned-soul}
+      - {release: nijigasaki/2025-pichi-chapu-tinton-tanton}
+      - {release: nijigasaki/2025-ride-the-wave}
+      - {release: nijigasaki/2025-summer-warning}
+      - {release: nijigasaki/2025-sanketsu}
+      - {release: nijigasaki/2025-yakusoku-ni-nare-bokura-no-uta}
+      - {release: nijigasaki/2025-nijigaku-flower-music}
+      - {release: nijigasaki/2026-monochrome-labyrinth}
+      - {release: nijigasaki/2026-shiokaze-cycling}
+      - {release: nijigasaki/2026-bones-bones-bones}
   Liella:
     entries:
       - {release: liella/2021-hajimari-wa-kimi-no-sora}
@@ -236,11 +269,12 @@ albums:
       - {release: liella/2023-jump-into-the-new-world}
       - {release: liella/2023-liella-club-cd-set-2023}
       - {release: nijigasaki/2023-ijigen-bigbang}
-      - {release: liella/2024-jellyfish}
-      - {release: liella/2024-daisuki-full-power}
       - {release: liella/2024-shekira}
       - {release: liella/2024-distortion}
+      - {release: liella/2024-jellyfish}
       - {release: liella/2024-neutral}
+      - {release: nijigasaki/2024-bring-the-love}
+      - {release: liella/2024-daisuki-full-power}
       - {release: liella/2024-let-s-be-one}
       - {release: liella/2024-bubble-rise-special-color}
       - {release: liella/2024-zettaiteki-lover-dazzling-game}
@@ -249,8 +283,10 @@ albums:
       - {release: liella/2025-liella-no-uta-3}
       - {release: liella/2025-aspire}
       - {release: liella/2025-open-the-g-te}
+      - {release: liella/2026-next-card}
       - {release: liella/2026-koi-no-tutorial}
       - {release: liella/2026-hyper-glowing}
+      - {release: nijigasaki/2025-ai-scream}
   Hasunosora:
     entries:
       - {release: hasunosora/2023-dream-believers}
@@ -274,6 +310,7 @@ albums:
       - {release: hasunosora/2024-bloom-the-smile-bloom-the-dream}
       - {release: hasunosora/2024-tsukuyomi-kurage}
       - {release: hasunosora/2024-proof}
+      - {release: nijigasaki/2024-bring-the-love}
       - {release: hasunosora/2024-fanfare}
       - {release: hasunosora/2024-hanamusubi-birdcage-joushou-kiryuu}
       - {release: hasunosora/2025-key-of-like}
@@ -309,6 +346,7 @@ albums:
       - {release: hasunosora/2026-tomodachi-ni-nareru-basho}
       - {release: hasunosora/2026-ima-kako-mirai-no-sangenshoku}
       - {release: hasunosora/2026-berry-merry-go-round-freesia-panai-saka-now}
+      - {release: liella/2026-next-card}
       - {release: hasunosora/2026-hana-sakeba-yume-kakeru-hikari-no-naka-de-hana-saite}
       - {release: hasunosora/2026-full-bloom-memories-hinoshita-kaho}
       - {release: hasunosora/2026-full-bloom-memories-murano-sayaka}
@@ -339,6 +377,7 @@ albums:
       - {release: ikizulive/2026-dekoboko-quartet}
       - {release: ikizulive/2026-silent-stella}
       - {release: ikizulive/2026-symmetry}
+      - {release: liella/2026-next-card}
       - {release: ikizulive/2026-dou-da-doing-regain-again-llllove}
       - {release: ikizulive/2026-mikansei-na-love-letter}
       - {release: ikizulive/2026-tap-tap-tappin}
@@ -432,6 +471,21 @@ albums:
       - {release: muse/2024-natsuiro-egao-de-1-2-jump}
       - {release: muse/2024-snow-halation}
       - {release: muse/2024-wonderful-rush}
+      - {release: nijigasaki/2024-bring-the-love}
+  Yohane:
+    entries:
+      - {release: yohane/2023-far-far-away-be-as-one}
+      - {release: yohane/2023-r-e-p-hey-dear-my-friends}
+      - {release: yohane/2023-girls-wonder-sea-breeze}
+      - {release: yohane/2023-tva1-bd-vol-1}
+      - {release: yohane/2023-forever-u-i-la-la-yuuki-no-uta}
+      - {release: yohane/2023-tva1-bd-vol-2}
+      - {release: yohane/2023-tva1-bd-vol-3}
+      - {release: yohane/2023-tva1-bd-vol-4}
+      - {release: yohane/2024-tva1-bd-vol-5}
+      - {release: yohane/2024-tva1-bd-vol-6}
+      - {release: yohane/2024-tva1-bd-vol-7}
+      - {release: yohane/2024-movie-bd}
 members:
   Muse:
     rows:

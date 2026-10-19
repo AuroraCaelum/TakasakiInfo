@@ -1,5 +1,5 @@
 id: muse/2012-raburaibu-radio-kagai-katsudou-nicorinpana-theme-song-djcd
-type: single
+type: album
 title:
   ja: ラブライ部 ラジオ課外活動 にこりんぱな テーマソングDJCD
   rom: Raburaibu Radio Kagai Katsudou NicoRinPana Theme Song DJCD
@@ -8,6 +8,8 @@ projects: [muse]
 artist_credit:
   - {artist: nicorinpana}
 release_date: 2012-10-17
+editions:
+  - {id: e1, catalog: LACA-15244}
 discs:
   - tracks:
       - {no: 1, recording: muse/listen-to-my-heart#original}

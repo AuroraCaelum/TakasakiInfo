@@ -1,0 +1,38 @@
+id: yohane/2024-tva1-bd-vol-5
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.5
+  rom: TVA1 BD Vol.5
+  ko: TVA1 BD Vol.5
+projects: [yohane]
+release_date: 2024-01-26
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1867
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/approach-an-opportunity-the-journey-of-the-heart#main}
+      - {no: 2, recording: yohane/koukishin-journey#original}
+      - {no: 3, recording: yohane/koukishin-journey#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=5
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.5}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=5
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=5
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

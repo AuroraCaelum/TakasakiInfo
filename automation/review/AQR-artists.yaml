@@ -39,3 +39,20 @@ items:
     note: "작중 오케스트라(「smile smile ship Start!」 보너스 트랙 연주). rom: 레이블 배포 메타데이터 표기 'Uranohoshi Symphony Orchestra' https://music.youtube.com/watch?v=xorIYZB71IY, ko: 번역안(D37, '우라노호시 여학원' 표기를 따름. 나무위키 미게재), 확인 필요"
     used_in: ['cd.php#cd52 #7']
     ref: artist:uranohoshi-symphony-orchestra
+  - kind: artist
+    printed: GKSS
+    names:
+      ja: GKSS
+      rom: GKSS
+      ko: GKSS
+    artist_kind: unit
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    note: ''
+    used_in:
+      - cd.php#cd01_5622
+      - 'cd.php#cd01_5622【Guilty Kiss盤】 #1'
+      - 'cd.php#cd01_5622【Guilty Kiss盤】 #2'
+      - 'cd.php#cd01_5622【Saint Snow盤】 #1'
+      - 'cd.php#cd01_5622【Saint Snow盤】 #2'
+    ref: artist:gkss

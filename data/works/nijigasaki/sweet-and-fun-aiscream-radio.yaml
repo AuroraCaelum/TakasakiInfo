@@ -1,0 +1,22 @@
+id: nijigasaki/sweet-and-fun-aiscream-radio
+kind: drama
+project: nijigasaki
+title:
+  ja: あまくてたのしい♡AiScReamラジオ！
+  rom: Sweet and Fun♡AiScReam Radio!
+  ko: 달콤하고 즐거운♡AiScReam 라디오!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: aiscream}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

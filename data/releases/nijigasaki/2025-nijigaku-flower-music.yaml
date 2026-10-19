@@ -1,0 +1,71 @@
+id: nijigasaki/2025-nijigaku-flower-music
+type: album
+title:
+  ja: NIJIGAKU FLOWER MUSIC
+  rom: NIJIGAKU FLOWER MUSIC
+  ko: NIJIGAKU FLOWER MUSIC
+projects: [nijigasaki]
+artist_credit:
+  - {artist: nijigasaki-high-school-idol-club}
+label: Lantis
+release_date: 2025-12-17
+editions:
+  - id: e1
+    label:
+      ja: ハイビスカス盤
+    catalog: LACA-25255
+  - id: e2
+    label:
+      ja: スズラン盤
+    catalog: LACA-25254
+  - id: e3
+    label:
+      ja: サボテン盤
+    catalog: LACA-25253
+  - id: e4
+    label:
+      ja: ヒナギク盤
+    catalog: LACA-25252
+  - id: e5
+    label:
+      ja: アサガオ盤
+    catalog: LACA-25251
+  - id: e6
+    label:
+      ja: タンポポ盤
+    catalog: LACA-25250
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/viva#original}
+      - {no: 2, recording: nijigasaki/dizzy-lily-valley#original}
+      - {no: 3, recording: nijigasaki/savotina#original}
+      - {no: 4, recording: nijigasaki/sol-de-rosa#original}
+      - {no: 5, recording: nijigasaki/wondermates#original}
+      - {no: 6, recording: nijigasaki/fuwa-fuwari#original}
+      - {no: 7, recording: nijigasaki/boooooom-boooooom-bee#original}
+      - {no: 8, recording: nijigasaki/viva#off-vocal}
+      - {no: 9, recording: nijigasaki/dizzy-lily-valley#off-vocal}
+      - {no: 10, recording: nijigasaki/savotina#off-vocal}
+      - {no: 11, recording: nijigasaki/sol-de-rosa#off-vocal}
+      - {no: 12, recording: nijigasaki/wondermates#off-vocal}
+      - {no: 13, recording: nijigasaki/fuwa-fuwari#off-vocal}
+      - {no: 14, recording: nijigasaki/boooooom-boooooom-bee#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: NIJIGAKU FLOWER MUSIC}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

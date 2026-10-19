@@ -1,0 +1,146 @@
+type: new-names
+project: yohane
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: person
+    printed: 日笠陽子
+    family_name:
+      ja: 日笠
+      kana: ひかさ
+      rom: Hikasa
+      ko: 히카사
+    given_name:
+      ja: 陽子
+      kana: ようこ
+      rom: Yoko
+      ko: 요코
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: official
+    source: https://inari-inc.com/talent/yoko-hikasa/
+    note: "ja·rom: 소속사 i.nari 프로필(日笠 陽子, Yoko Hikasa; 공식 영문 게임 크레딧도 같음), 읽기 ひかさ ようこ(전 소속사 I'm Enterprise 프로필, 나무위키 후리가나도 같음), ko: 나무위키 '히카사 요코'(규칙 엔진과 같음). 공식 한국어 게임 사이트는 '히가사 요우코'로 적음, 확인 필요"
+    used_in: ['ライラプス: CV']
+    ref: person:yoko-hikasa
+  - kind: character
+    printed: ヨハネ
+    names:
+      ja: ヨハネ
+      rom: Yohane
+      ko: 요하네
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/yohane
+  - kind: character
+    printed: ライラプス
+    names:
+      ja: ライラプス
+      rom: Lailaps
+      ko: 라일라프스
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/lailaps
+  - kind: character
+    printed: ハナマル
+    names:
+      ja: ハナマル
+      rom: Hanamaru
+      ko: 하나마루
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/hanamaru
+  - kind: character
+    printed: ダイヤ
+    names:
+      ja: ダイヤ
+      rom: Dia
+      ko: 다이아
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/dia
+  - kind: character
+    printed: ルビィ
+    names:
+      ja: ルビィ
+      rom: Ruby
+      ko: 루비
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/ruby
+  - kind: character
+    printed: チカ
+    names:
+      ja: チカ
+      rom: Chika
+      ko: 치카
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/chika
+  - kind: character
+    printed: ヨウ
+    names:
+      ja: ヨウ
+      rom: You
+      ko: 요우
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/you
+  - kind: character
+    printed: カナン
+    names:
+      ja: カナン
+      rom: Kanan
+      ko: 카난
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/kanan
+  - kind: character
+    printed: リコ
+    names:
+      ja: リコ
+      rom: Riko
+      ko: 리코
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/riko
+  - kind: character
+    printed: マリ
+    names:
+      ja: マリ
+      rom: Mari
+      ko: 마리
+    name_parts: 작중 이름(성 없음)
+    status: official
+    source: https://www.yohane.net/character/
+    note: 'ja·rom: 공식 캐릭터 페이지, ko: 공식 한국어 게임 사이트 https://yohane-bid.com/ko/character/ (나무위키도 같음)'
+    used_in: [character page]
+    ref: character:yohane/mari

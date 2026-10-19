@@ -1,0 +1,46 @@
+id: nijigasaki/kokoro-take-off
+project: nijigasaki
+title:
+  ja: ココロ TAKE OFF
+  rom: Kokoro TAKE OFF
+  ko: 마음 TAKE OFF
+credits:
+  lyricist:
+    - {person: shun-nakajima}
+  composer:
+    - {person: shun-nakajima}
+recordings:
+  - id: original
+    performers:
+      - {artist: r3birth}
+    arranger:
+      - {person: shun-nakajima}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ココロ TAKE OFF (Off Vocal)
+      rom: Kokoro TAKE OFF (Off Vocal)
+      ko: 마음 TAKE OFF (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shun-nakajima}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+    checked: 2026-10-20

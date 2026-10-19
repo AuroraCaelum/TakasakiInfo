@@ -1,0 +1,52 @@
+id: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+project: nijigasaki
+title:
+  ja: 約束になれ僕らの歌
+  rom: Yakusoku ni Nare Bokura no Uta
+  ko: 약속이 되어라 우리들의 노래
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: nyanzonudeshi}
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 約束になれ僕らの歌 (Off Vocal)
+      rom: Yakusoku ni Nare Bokura no Uta (Off Vocal)
+      ko: 약속이 되어라 우리들의 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

@@ -1,0 +1,47 @@
+id: nijigasaki/stay
+project: nijigasaki
+title:
+  ja: Stay
+  rom: Stay
+  ko: Stay
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: oni}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: oni}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Stay (Off Vocal)
+      rom: Stay (Off Vocal)
+      ko: Stay (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: oni}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

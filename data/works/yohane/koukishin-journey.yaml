@@ -1,0 +1,47 @@
+id: yohane/koukishin-journey
+project: yohane
+title:
+  ja: 好奇心ジャーニー
+  rom: Koukishin Journey
+  ko: 호기심 저니
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: yuta-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/ruby}
+      - {character: yohane/riko}
+    arranger:
+      - {person: yuta-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=5
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 好奇心ジャーニー (Off Vocal)
+      rom: Koukishin Journey (Off Vocal)
+      ko: 호기심 저니 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuta-yamaguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=5
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=5
+    checked: 2026-10-20

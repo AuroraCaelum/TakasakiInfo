@@ -10,18 +10,23 @@ editions:
   - id: e1
     label:
       ja: オリジナル盤
+    catalog: LACA-25310
   - id: e2
     label:
       ja: フォト盤
+    catalog: LACA-25311
   - id: e3
     label:
       ja: チームこども盤
+    catalog: LACA-25312
   - id: e4
     label:
       ja: チームスポーツ盤
+    catalog: LACA-25313
   - id: e5
     label:
       ja: チームみどり盤
+    catalog: LACA-25314
 discs:
   - tracks:
       - {no: 1, recording: liella/hyper-glowing#original}

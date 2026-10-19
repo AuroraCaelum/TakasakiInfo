@@ -1,0 +1,27 @@
+id: aiscream
+kind: cross_unit
+projects: [nijigasaki, aqours, liella, hasunosora, ikizulive]
+names:
+  ja: AiScReam
+  rom: AiScReam
+  ko: AiScReam
+lineups:
+  - from: 2025-01-22
+    members: [nijigasaki/ayumu-uehara, aqours/ruby-kurosawa, liella/shiki-wakana]
+  - members: [nijigasaki/ayumu-uehara, liella/shiki-wakana, hasunosora/ceras-yanagida-lilienfeld, ikizulive/mai-azabu]
+evidence:
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/special/AiScReam/
+    checked: 2026-10-20
+  names.rom:
+    status: derived
+    note: '라틴 표기: rom는 ja와 같음 (§5.4)'
+  names.ko:
+    status: derived
+    note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/special/AiScReam/
+    checked: 2026-10-20
+    note: 결성 3인(黒澤ルビィ·上原歩夢·若菜四季, 데뷔 싱글 2025-01-22, 특설 페이지의 라디오 소개)과 현재 4인(특설 페이지 멤버란, 「NEXT CARD」 2026-05-23 공식 페이지 아티스트란도 같음). 구성이 바뀐 날짜는 공식 미게재

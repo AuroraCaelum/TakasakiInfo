@@ -1,0 +1,50 @@
+id: yohane/te-ki-na-music
+project: yohane
+title:
+  ja: テ・キ・ナ ミュージック
+  rom: Te・ki・na Music
+  ko: 테키나 뮤직
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: show}
+    - {person: takarot}
+    - {person: shoma-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=1
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: テ・キ・ナ ミュージック (Off Vocal)
+      rom: Te・ki・na Music (Off Vocal)
+      ko: 테키나 뮤직 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=1
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=1
+    checked: 2026-10-20

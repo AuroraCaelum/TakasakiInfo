@@ -227,7 +227,13 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
     note: ''
-    used_in: ['ファボタージュ: composer', 'ファボタージュ: arranger', '僕らの海でまた会おう: composer', '僕らの海でまた会おう: arranger']
+    used_in:
+      - 'ファボタージュ: composer'
+      - 'ファボタージュ: arranger'
+      - '僕らの海でまた会おう: composer'
+      - '僕らの海でまた会おう: arranger'
+      - 'SORA, FUJI, SUNSHINE!: composer'
+      - 'SORA, FUJI, SUNSHINE!: arranger'
     ref: person:rush-eye
   - kind: person
     printed: Dr.Lilcom

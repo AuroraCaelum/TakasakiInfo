@@ -1,0 +1,57 @@
+id: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-tsushima-yoshiko
+type: album
+title:
+  ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Tsushima Yoshiko
+  rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Tsushima Yoshiko
+  ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Tsushima Yoshiko
+projects: [aqours]
+artist_credit:
+  - {character: aqours/yoshiko-tsushima}
+label: Lantis
+release_date: 2025-07-13
+editions:
+  - {id: e1, catalog: LACA-19076~7}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#yoshiko-tsushima-solo}
+      - {no: 2, recording: aqours/no-10#yoshiko-tsushima-solo}
+      - {no: 3, recording: aqours/bouken-type-a-b-c#yoshiko-tsushima-solo}
+      - {no: 4, recording: aqours/fantastic-departure#yoshiko-tsushima-solo}
+      - {no: 5, recording: aqours/aqours-pirates-desire#yoshiko-tsushima-solo}
+      - {no: 6, recording: aqours/future-flight#yoshiko-tsushima-solo}
+      - {no: 7, recording: aqours/smile-smile-ship-start#yoshiko-tsushima-solo}
+      - {no: 8, recording: aqours/kokoro-no-hane-yo-kimi-e-tondeke#yoshiko-tsushima-solo}
+      - {no: 9, recording: aqours/ku-ru-ku-ru-cruller#yoshiko-tsushima-solo}
+      - {no: 10, recording: aqours/suki-for-you-dream-for-you#yoshiko-tsushima-solo}
+      - {no: 11, recording: aqours/namida#yoshiko-tsushima-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: nijigasaki/live-with-a-smile#yoshiko-tsushima-solo}
+      - {no: 2, recording: nijigasaki/not-alone-not-hitori#yoshiko-tsushima-solo}
+      - {no: 3, recording: aqours/gemstone-de-a-i#yoshiko-tsushima-solo}
+      - {no: 4, recording: aqours/banzai-digital-trippers#yoshiko-tsushima-solo}
+      - {no: 5, recording: aqours/ka-ga-ya-ki-ra-ri-ra#yoshiko-tsushima-solo}
+      - {no: 6, recording: aqours/genjitsu-mysterium#yoshiko-tsushima-solo}
+      - {no: 7, recording: aqours/game-on#yoshiko-tsushima-solo}
+      - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#yoshiko-tsushima-solo}
+      - {no: 9, recording: aqours/silent-pain#yoshiko-tsushima-solo}
+      - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#yoshiko-tsushima-solo}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Tsushima Yoshiko, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

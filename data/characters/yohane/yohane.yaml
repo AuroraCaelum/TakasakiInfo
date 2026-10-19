@@ -1,0 +1,20 @@
+id: yohane/yohane
+project: yohane
+names:
+  ja: ヨハネ
+  rom: Yohane
+  ko: 요하네
+casting:
+  - {person: aika-kobayashi}
+evidence:
+  names:
+    status: draft
+    source: automation/review/YHN-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 작중 이름(성 없음)
+  casting:
+    status: official
+    source: https://www.yohane.net/character/
+    checked: 2026-10-20

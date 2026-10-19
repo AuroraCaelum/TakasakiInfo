@@ -1,0 +1,47 @@
+id: yohane/best-wishes
+project: yohane
+title:
+  ja: Best wishes
+  rom: Best wishes
+  ko: Best wishes
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: takayuki-ishikura}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/dia}
+      - {character: yohane/mari}
+    arranger:
+      - {person: takayuki-ishikura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=3
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Best wishes (Off Vocal)
+      rom: Best wishes (Off Vocal)
+      ko: Best wishes (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takayuki-ishikura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=3
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=3
+    checked: 2026-10-20

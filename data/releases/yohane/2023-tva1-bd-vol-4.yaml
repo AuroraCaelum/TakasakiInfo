@@ -1,0 +1,38 @@
+id: yohane/2023-tva1-bd-vol-4
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.4
+  rom: TVA1 BD Vol.4
+  ko: TVA1 BD Vol.4
+projects: [yohane]
+release_date: 2023-12-22
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1866
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/wind-and-a-bright-sun-s-meeting#main}
+      - {no: 2, recording: yohane/special-holidays#original}
+      - {no: 3, recording: yohane/special-holidays#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=4
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.4}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=4
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=4
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

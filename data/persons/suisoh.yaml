@@ -1,0 +1,13 @@
+id: suisoh
+names:
+  ja: 水槽
+  rom: suisoh
+  ko: 수조
+evidence:
+  names:
+    status: draft
+    source: automation/review/NJG-persons.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 활동명(한 단어)

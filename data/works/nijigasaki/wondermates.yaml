@@ -1,0 +1,49 @@
+id: nijigasaki/wondermates
+project: nijigasaki
+title:
+  ja: ワンダーメイツ
+  rom: Wondermates
+  ko: 원더 메이트
+credits:
+  lyricist:
+    - {person: sakiel-kiriya}
+  composer:
+    - {person: bfnk}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: bfnk}
+      - {person: mayson-s-rhythm-team}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ワンダーメイツ (Off Vocal)
+      rom: Wondermates (Off Vocal)
+      ko: 원더 메이트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: bfnk}
+      - {person: mayson-s-rhythm-team}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

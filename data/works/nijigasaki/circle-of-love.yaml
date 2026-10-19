@@ -1,0 +1,46 @@
+id: nijigasaki/circle-of-love
+project: nijigasaki
+title:
+  ja: Circle of Love
+  rom: Circle of Love
+  ko: Circle of Love
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: jin}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ai-miyashita}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Circle of Love (Off Vocal)
+      rom: Circle of Love (Off Vocal)
+      ko: Circle of Love (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

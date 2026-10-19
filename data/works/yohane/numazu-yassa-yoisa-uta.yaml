@@ -1,0 +1,54 @@
+id: yohane/numazu-yassa-yoisa-uta
+project: yohane
+title:
+  ja: ヌマヅやっさよいさ唄
+  rom: Numazu Yassa Yoisa Uta
+  ko: 누마즈 얏사요이사 노래
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: tatsuya-kato}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: tatsuya-kato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=6
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ヌマヅやっさよいさ唄 (Off Vocal)
+      rom: Numazu Yassa Yoisa Uta (Off Vocal)
+      ko: 누마즈 얏사요이사 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=6
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=6
+    checked: 2026-10-20

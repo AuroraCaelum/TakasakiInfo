@@ -1,0 +1,61 @@
+id: yohane/la-la-yuuki-no-uta
+project: yohane
+title:
+  ja: La la 勇気のうた
+  rom: La la Yuuki no Uta
+  ko: La la 용기의 노래
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: fi-ne}
+    - {person: morito-yonezawa}
+    - {person: alura}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: fi-ne}
+      - {person: morito-yonezawa}
+      - {person: alura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=11
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: La la 勇気のうた (Off Vocal)
+      rom: La la Yuuki no Uta (Off Vocal)
+      ko: La la 용기의 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: fi-ne}
+      - {person: morito-yonezawa}
+      - {person: alura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=11
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=11
+    checked: 2026-10-20

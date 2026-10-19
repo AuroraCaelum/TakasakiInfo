@@ -1,0 +1,46 @@
+id: nijigasaki/itoshiki-yume-yo-izanaite
+project: nijigasaki
+title:
+  ja: いとしき夢よ いざないて
+  rom: Itoshiki Yume yo Izanaite
+  ko: 사랑스러운 꿈이여 인도해 줘
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: taku-inoue}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: taku-inoue}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いとしき夢よ いざないて (Off Vocal)
+      rom: Itoshiki Yume yo Izanaite (Off Vocal)
+      ko: 사랑스러운 꿈이여 인도해 줘 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: taku-inoue}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

@@ -1,0 +1,38 @@
+id: yohane/2023-tva1-bd-vol-1
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.1
+  rom: TVA1 BD Vol.1
+  ko: TVA1 BD Vol.1
+projects: [yohane]
+release_date: 2023-09-27
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1863
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/city-of-dreams-come-and-goes#main}
+      - {no: 2, recording: yohane/te-ki-na-music#original}
+      - {no: 3, recording: yohane/te-ki-na-music#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=1
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.1}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=1
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=1
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

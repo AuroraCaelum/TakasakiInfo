@@ -1,0 +1,55 @@
+id: yohane/wonder-sea-breeze
+project: yohane
+title:
+  ja: Wonder sea breeze
+  rom: Wonder sea breeze
+  ko: Wonder sea breeze
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: tatsuya-kurauchi}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=10
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wonder sea breeze (Off Vocal)
+      rom: Wonder sea breeze (Off Vocal)
+      ko: Wonder sea breeze (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=10
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=10
+    checked: 2026-10-20

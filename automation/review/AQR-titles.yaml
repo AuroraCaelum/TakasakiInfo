@@ -80,7 +80,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd52 #1'
-      - 'cd.php#cd52 #3'
       - 'cd.php#cd90 #1-7'
       - 'cd.php#cd91 #1-7'
       - 'cd.php#cd92 #1-7'
@@ -88,6 +87,9 @@ items:
       - 'cd.php#cd94 #1-7'
       - 'cd.php#cd95 #1-7'
       - 'cd.php#cd96 #1-7'
+      - 'cd.php#cd01_4712 #1-7'
+      - 'cd.php#cd01_4722 #1-7'
+      - 'cd.php#cd01_4906 #1-1'
     ref: work:aqours/smile-smile-ship-start
   - kind: work
     printed: 心の羽よ君へ飛んでけ！
@@ -100,7 +102,6 @@ items:
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%BF%83%E3%81%AE%E7%BE%BD%E3%82%88%E5%90%9B%E3%81%B8%E9%A3%9B%E3%82%93%E3%81%A7%E3%81%91%EF%BC%81 https://love-live.fandom.com/wiki/Kokoro_no_Hane_yo_Kimi_e_Tondeke!'
     used_in:
       - 'cd.php#cd52 #2'
-      - 'cd.php#cd52 #4'
       - 'cd.php#cd90 #1-8'
       - 'cd.php#cd91 #1-8'
       - 'cd.php#cd92 #1-8'
@@ -108,6 +109,9 @@ items:
       - 'cd.php#cd94 #1-8'
       - 'cd.php#cd95 #1-8'
       - 'cd.php#cd96 #1-8'
+      - 'cd.php#cd01_4712 #1-8'
+      - 'cd.php#cd01_4722 #1-8'
+      - 'cd.php#cd01_4906 #1-2'
     ref: work:aqours/kokoro-no-hane-yo-kimi-e-tondeke
   - kind: work
     printed: あつまれ！内浦の浜
@@ -285,7 +289,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd66 #1'
-      - 'cd.php#cd66 #3'
       - 'cd.php#cd82 #10'
       - 'cd.php#cd90 #1-9'
       - 'cd.php#cd91 #1-9'
@@ -294,6 +297,9 @@ items:
       - 'cd.php#cd94 #1-9'
       - 'cd.php#cd95 #1-9'
       - 'cd.php#cd96 #1-9'
+      - 'cd.php#cd01_4712 #1-9'
+      - 'cd.php#cd01_4722 #1-9'
+      - 'cd.php#cd01_4906 #1-4'
     ref: work:aqours/ku-ru-ku-ru-cruller
   - kind: work
     printed: SUKI for you, DREAM for you!
@@ -306,7 +312,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd66 #2'
-      - 'cd.php#cd66 #4'
       - 'cd.php#cd90 #1-10'
       - 'cd.php#cd91 #1-10'
       - 'cd.php#cd92 #1-10'
@@ -314,6 +319,9 @@ items:
       - 'cd.php#cd94 #1-10'
       - 'cd.php#cd95 #1-10'
       - 'cd.php#cd96 #1-10'
+      - 'cd.php#cd01_4712 #1-10'
+      - 'cd.php#cd01_4722 #1-10'
+      - 'cd.php#cd01_4906 #1-5'
     ref: work:aqours/suki-for-you-dream-for-you
   - kind: work
     printed: キセキを教えて
@@ -420,6 +428,8 @@ items:
       - 'cd.php#cd94 #1-3'
       - 'cd.php#cd95 #1-3'
       - 'cd.php#cd96 #1-3'
+      - 'cd.php#cd01_4712 #1-3'
+      - 'cd.php#cd01_4722 #1-3'
     ref: work:aqours/bouken-type-a-b-c
   - kind: work
     printed: 涙×
@@ -439,6 +449,8 @@ items:
       - 'cd.php#cd94 #1-11'
       - 'cd.php#cd95 #1-11'
       - 'cd.php#cd96 #1-11'
+      - 'cd.php#cd01_4712 #1-11'
+      - 'cd.php#cd01_4722 #1-11'
     ref: work:aqours/namida
   - kind: release
     printed: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Kurosawa Dia
@@ -515,18 +527,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AA%E3%82%93%E3%81%A9%E3%81%A0%E3%81%A3%E3%81%A6%E7%B4%84%E6%9D%9F%EF%BC%81 https://love-live.fandom.com/wiki/Nando_Datte_Yakusoku!'
-    used_in:
-      - 'cd.php#cd70 #1'
-      - 'cd.php#cd70 #2'
-      - 'cd.php#cd70 #3'
-      - 'cd.php#cd70 #4'
-      - 'cd.php#cd70 #5'
-      - 'cd.php#cd70 #6'
-      - 'cd.php#cd70 #7'
-      - 'cd.php#cd70 #8'
-      - 'cd.php#cd70 #9'
-      - 'cd.php#cd70 #10'
-      - 'cd.php#cd70 #11'
+    used_in: ['cd.php#cd70 #1', 'cd.php#cd01_4906 #1-8']
     ref: work:aqours/nando-datte-yakusoku
   - kind: release
     printed: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Watanabe You
@@ -627,7 +628,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd72 #1'
-      - 'cd.php#cd72 #3'
       - 'cd.php#cd90 #2-15'
       - 'cd.php#cd91 #2-15'
       - 'cd.php#cd92 #2-15'
@@ -635,6 +635,9 @@ items:
       - 'cd.php#cd94 #2-15'
       - 'cd.php#cd95 #2-15'
       - 'cd.php#cd96 #2-15'
+      - 'cd.php#cd01_4712 #2-15'
+      - 'cd.php#cd01_4722 #2-15'
+      - 'cd.php#cd01_4906 #1-10'
     ref: work:aqours/banzai-digital-trippers
   - kind: work
     printed: KA-GA-YA-KI-RA-RI-RA
@@ -647,7 +650,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd72 #2'
-      - 'cd.php#cd72 #4'
       - 'cd.php#cd90 #2-16'
       - 'cd.php#cd91 #2-16'
       - 'cd.php#cd92 #2-16'
@@ -655,6 +657,9 @@ items:
       - 'cd.php#cd94 #2-16'
       - 'cd.php#cd95 #2-16'
       - 'cd.php#cd96 #2-16'
+      - 'cd.php#cd01_4712 #2-16'
+      - 'cd.php#cd01_4722 #2-16'
+      - 'cd.php#cd01_4906 #1-11'
     ref: work:aqours/ka-ga-ya-ki-ra-ri-ra
   - kind: release
     printed: LoveLive! Sunshine!! Third Solo Concert Album ～THE STORY OF “OVER THE RAINBOW”～ starring Sakurauchi Riko
@@ -709,7 +714,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%8F%E3%83%BC%E3%81%84%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%E3%80%80%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%EF%BC%81 https://love-live.fandom.com/wiki/Waai_WaiWai_WaiWaiWai!'
-    used_in: ['cd.php#cd83 #1', 'cd.php#cd83 #3']
+    used_in: ['cd.php#cd83 #1']
     ref: work:aqours/waai-waiwai-waiwaiwai
   - kind: work
     printed: ファボタージュ
@@ -720,7 +725,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%9C%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5 https://love-live.fandom.com/wiki/Fabotage'
-    used_in: ['cd.php#cd83 #2', 'cd.php#cd83 #4']
+    used_in: ['cd.php#cd83 #2']
     ref: work:aqours/fabotage
   - kind: work
     printed: Aqours浦の星女学院RADIO!!! CDでもわいわいわい！
@@ -887,7 +892,6 @@ items:
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B9%BB%E6%97%A5%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A6%E3%83%A0 https://love-live.fandom.com/wiki/Genjitsu_Mysterium'
     used_in:
       - 'cd.php#cd88 #1'
-      - 'cd.php#cd88 #3'
       - 'cd.php#cd90 #2-17'
       - 'cd.php#cd91 #2-17'
       - 'cd.php#cd92 #2-17'
@@ -895,6 +899,9 @@ items:
       - 'cd.php#cd94 #2-17'
       - 'cd.php#cd95 #2-17'
       - 'cd.php#cd96 #2-17'
+      - 'cd.php#cd01_4712 #2-17'
+      - 'cd.php#cd01_4722 #2-17'
+      - 'cd.php#cd01_4906 #2-13'
     ref: work:aqours/genjitsu-mysterium
   - kind: work
     printed: GAME ON！
@@ -907,7 +914,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd88 #2'
-      - 'cd.php#cd88 #4'
       - 'cd.php#cd90 #2-18'
       - 'cd.php#cd91 #2-18'
       - 'cd.php#cd92 #2-18'
@@ -915,6 +921,9 @@ items:
       - 'cd.php#cd94 #2-18'
       - 'cd.php#cd95 #2-18'
       - 'cd.php#cd96 #2-18'
+      - 'cd.php#cd01_4712 #2-18'
+      - 'cd.php#cd01_4722 #2-18'
+      - 'cd.php#cd01_4906 #2-14'
     ref: work:aqours/game-on
   - kind: work
     printed: キミノタメボクノタメ
@@ -927,7 +936,6 @@ items:
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%AD%E3%83%9F%E3%83%8E%E3%82%BF%E3%83%A1%E3%83%9C%E3%82%AF%E3%83%8E%E3%82%BF%E3%83%A1 https://love-live.fandom.com/wiki/Kimi_no_Tame_Boku_no_Tame'
     used_in:
       - 'cd.php#cd89 #1'
-      - 'cd.php#cd89 #3'
       - 'cd.php#cd90 #2-19'
       - 'cd.php#cd91 #2-19'
       - 'cd.php#cd92 #2-19'
@@ -935,6 +943,9 @@ items:
       - 'cd.php#cd94 #2-19'
       - 'cd.php#cd95 #2-19'
       - 'cd.php#cd96 #2-19'
+      - 'cd.php#cd01_4712 #2-19'
+      - 'cd.php#cd01_4722 #2-19'
+      - 'cd.php#cd01_4906 #2-15'
     ref: work:aqours/kimi-no-tame-boku-no-tame
   - kind: work
     printed: SILENT PAIN
@@ -947,7 +958,6 @@ items:
     note: ''
     used_in:
       - 'cd.php#cd89 #2'
-      - 'cd.php#cd89 #4'
       - 'cd.php#cd90 #2-20'
       - 'cd.php#cd91 #2-20'
       - 'cd.php#cd92 #2-20'
@@ -955,6 +965,9 @@ items:
       - 'cd.php#cd94 #2-20'
       - 'cd.php#cd95 #2-20'
       - 'cd.php#cd96 #2-20'
+      - 'cd.php#cd01_4712 #2-20'
+      - 'cd.php#cd01_4722 #2-20'
+      - 'cd.php#cd01_4906 #2-16'
     ref: work:aqours/silent-pain
   - kind: work
     printed: peace piece pizza
@@ -965,7 +978,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd85
     note: ''
-    used_in: ['cd.php#cd85 #1', 'cd.php#cd85 #3']
+    used_in: ['cd.php#cd85 #1']
     ref: work:aqours/peace-piece-pizza
   - kind: work
     printed: U-CYU
@@ -976,7 +989,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd85
     note: ''
-    used_in: ['cd.php#cd85 #2', 'cd.php#cd85 #4']
+    used_in: ['cd.php#cd85 #2']
     ref: work:aqours/u-cyu
   - kind: work
     printed: Deep Blue
@@ -987,7 +1000,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
     note: ''
-    used_in: ['cd.php#cd86 #1', 'cd.php#cd86 #3']
+    used_in: ['cd.php#cd86 #1', 'cd.php#cd01_4906 #2-17']
     ref: work:aqours/deep-blue
   - kind: work
     printed: SAKURA-saku KOKORO-saku
@@ -998,7 +1011,7 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
     note: ''
-    used_in: ['cd.php#cd86 #2', 'cd.php#cd86 #4']
+    used_in: ['cd.php#cd86 #2', 'cd.php#cd01_4906 #2-18']
     ref: work:aqours/sakura-saku-kokoro-saku
   - kind: release
     printed: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Takami Chika
@@ -1020,7 +1033,17 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     note: ''
-    used_in: ['cd.php#cd90 #2-14', 'cd.php#cd91 #2-14', 'cd.php#cd92 #2-14', 'cd.php#cd93 #2-14', 'cd.php#cd94 #2-14', 'cd.php#cd95 #2-14', 'cd.php#cd96 #2-14']
+    used_in:
+      - 'cd.php#cd90 #2-14'
+      - 'cd.php#cd91 #2-14'
+      - 'cd.php#cd92 #2-14'
+      - 'cd.php#cd93 #2-14'
+      - 'cd.php#cd94 #2-14'
+      - 'cd.php#cd95 #2-14'
+      - 'cd.php#cd96 #2-14'
+      - 'cd.php#cd01_4712 #2-14'
+      - 'cd.php#cd01_4722 #2-14'
+      - 'cd.php#cd01_4906 #1-7'
     ref: work:aqours/gemstone-de-a-i
   - kind: work
     printed: 僕らの海でまた会おう
@@ -1031,7 +1054,17 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 표제에는 번역이 없어 같은 위키의 러브 라이브! 선샤인!! 음반 틀에 적힌 번역을 씀) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AE%E6%B5%B7%E3%81%A7%E3%81%BE%E3%81%9F%E4%BC%9A%E3%81%8A%E3%81%86 https://love-live.fandom.com/wiki/Bokura_no_Umi_de_Mata_Aou'
-    used_in: ['cd.php#cd90 #2-21', 'cd.php#cd91 #2-21', 'cd.php#cd92 #2-21', 'cd.php#cd93 #2-21', 'cd.php#cd94 #2-21', 'cd.php#cd95 #2-21', 'cd.php#cd96 #2-21']
+    used_in:
+      - 'cd.php#cd90 #2-21'
+      - 'cd.php#cd91 #2-21'
+      - 'cd.php#cd92 #2-21'
+      - 'cd.php#cd93 #2-21'
+      - 'cd.php#cd94 #2-21'
+      - 'cd.php#cd95 #2-21'
+      - 'cd.php#cd96 #2-21'
+      - 'cd.php#cd01_4712 #2-21'
+      - 'cd.php#cd01_4722 #2-21'
+      - 'cd.php#cd01_4906 #2-19'
     ref: work:aqours/bokura-no-umi-de-mata-aou
   - kind: release
     printed: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Sakurauchi Riko
@@ -1064,7 +1097,18 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
-    used_in: ['cd.php#cd99 #1', 'cd.php#cd99 #3']
+    used_in:
+      - 'cd.php#cd99 #1'
+      - 'cd.php#cd01_4713 #1'
+      - 'cd.php#cd01_4714 #1'
+      - 'cd.php#cd01_4715 #1'
+      - 'cd.php#cd01_4716 #1'
+      - 'cd.php#cd01_4717 #1'
+      - 'cd.php#cd01_4718 #1'
+      - 'cd.php#cd01_4719 #1'
+      - 'cd.php#cd01_4720 #1'
+      - 'cd.php#cd01_4721 #1'
+      - 'cd.php#cd01_4906 #2-20'
     ref: work:aqours/eikyuu-hours
   - kind: work
     printed: 僕らの旅は終わらない
@@ -1075,7 +1119,18 @@ items:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
     note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AE%E6%97%85%E3%81%AF%E7%B5%82%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84 https://love-live.fandom.com/wiki/Bokura_no_Tabi_wa_Owaranai'
-    used_in: ['cd.php#cd99 #2', 'cd.php#cd99 #4']
+    used_in:
+      - 'cd.php#cd99 #2'
+      - 'cd.php#cd01_4713 #2'
+      - 'cd.php#cd01_4714 #2'
+      - 'cd.php#cd01_4715 #2'
+      - 'cd.php#cd01_4716 #2'
+      - 'cd.php#cd01_4717 #2'
+      - 'cd.php#cd01_4718 #2'
+      - 'cd.php#cd01_4719 #2'
+      - 'cd.php#cd01_4720 #2'
+      - 'cd.php#cd01_4721 #2'
+      - 'cd.php#cd01_4906 #2-21'
     ref: work:aqours/bokura-no-tabi-wa-owaranai
   - kind: release
     printed: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Kurosawa Dia
@@ -1121,3 +1176,212 @@ items:
     note: ''
     used_in: []
     ref: release:aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-watanabe-you
+  - kind: release
+    printed: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Ohara Mari
+    title:
+      ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Ohara Mari
+      rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Ohara Mari
+      ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Ohara Mari
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
+    note: ''
+    used_in: []
+    ref: release:aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-ohara-mari
+  - kind: release
+    printed: 永久hours Solo Concert starring Takami Chika
+    title:
+      ja: 永久hours Solo Concert starring Takami Chika
+      rom: Eikyuu hours Solo Concert starring Takami Chika
+      ko: 영구hours Solo Concert starring Takami Chika
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4713
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-takami-chika
+  - kind: release
+    printed: 永久hours Solo Concert starring Sakurauchi Riko
+    title:
+      ja: 永久hours Solo Concert starring Sakurauchi Riko
+      rom: Eikyuu hours Solo Concert starring Sakurauchi Riko
+      ko: 영구hours Solo Concert starring Sakurauchi Riko
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-sakurauchi-riko
+  - kind: release
+    printed: 永久hours Solo Concert starring Matsuura Kanan
+    title:
+      ja: 永久hours Solo Concert starring Matsuura Kanan
+      rom: Eikyuu hours Solo Concert starring Matsuura Kanan
+      ko: 영구hours Solo Concert starring Matsuura Kanan
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4715
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-matsuura-kanan
+  - kind: release
+    printed: 永久hours Solo Concert starring Kurosawa Dia
+    title:
+      ja: 永久hours Solo Concert starring Kurosawa Dia
+      rom: Eikyuu hours Solo Concert starring Kurosawa Dia
+      ko: 영구hours Solo Concert starring Kurosawa Dia
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-kurosawa-dia
+  - kind: release
+    printed: 永久hours Solo Concert starring Watanabe You
+    title:
+      ja: 永久hours Solo Concert starring Watanabe You
+      rom: Eikyuu hours Solo Concert starring Watanabe You
+      ko: 영구hours Solo Concert starring Watanabe You
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4717
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-watanabe-you
+  - kind: release
+    printed: 永久hours Solo Concert starring Tsushima Yoshiko
+    title:
+      ja: 永久hours Solo Concert starring Tsushima Yoshiko
+      rom: Eikyuu hours Solo Concert starring Tsushima Yoshiko
+      ko: 영구hours Solo Concert starring Tsushima Yoshiko
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4718
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-tsushima-yoshiko
+  - kind: release
+    printed: 永久hours Solo Concert starring Kunikida Hanamaru
+    title:
+      ja: 永久hours Solo Concert starring Kunikida Hanamaru
+      rom: Eikyuu hours Solo Concert starring Kunikida Hanamaru
+      ko: 영구hours Solo Concert starring Kunikida Hanamaru
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4719
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-kunikida-hanamaru
+  - kind: release
+    printed: 永久hours Solo Concert starring Ohara Mari
+    title:
+      ja: 永久hours Solo Concert starring Ohara Mari
+      rom: Eikyuu hours Solo Concert starring Ohara Mari
+      ko: 영구hours Solo Concert starring Ohara Mari
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4720
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-ohara-mari
+  - kind: release
+    printed: 永久hours Solo Concert starring Kurosawa Ruby
+    title:
+      ja: 永久hours Solo Concert starring Kurosawa Ruby
+      rom: Eikyuu hours Solo Concert starring Kurosawa Ruby
+      ko: 영구hours Solo Concert starring Kurosawa Ruby
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4721
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyuu-hours의 rom·ko(rom Fandom, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+    used_in: []
+    ref: release:aqours/2025-eikyuu-hours-solo-concert-starring-kurosawa-ruby
+  - kind: release
+    printed: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Tsushima Yoshiko
+    title:
+      ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Tsushima Yoshiko
+      rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Tsushima Yoshiko
+      ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Tsushima Yoshiko
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+    note: ''
+    used_in: []
+    ref: release:aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-tsushima-yoshiko
+  - kind: release
+    printed: ラブライブ！サンシャイン!! Aqours CHRONICLE (2021～2024)
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours CHRONICLE (2021～2024)
+      rom: Love Live! Sunshine!! Aqours CHRONICLE (2021~2024)
+      ko: 러브 라이브! 선샤인!! Aqours CHRONICLE (2021~2024)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
+    note: 'ja: 공식 페이지. rom·ko: 같은 파일의 CHRONICLE (2018～2020) 항목, 승인된 aqours/2020-aqours-chronicle-2015-2017과 같은 형식(시리즈명 rom Love Live! Sunshine!!, ko 러브 라이브! 선샤인!!(D11), ～는 반각 ~). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2021-2024) 외부 근거: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2021-2024)'
+    used_in: []
+    ref: release:aqours/2025-love-live-sunshine-aqours-chronicle-2021-2024
+  - kind: work
+    printed: DREAMY COLOR
+    title:
+      ja: DREAMY COLOR
+      rom: DREAMY COLOR
+      ko: DREAMY COLOR
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
+    note: ''
+    used_in: ['cd.php#cd01_4906 #1-3']
+    ref: work:aqours/dreamy-color
+  - kind: work
+    printed: ユメ+ミライ＝無限大
+    title:
+      ja: ユメ+ミライ＝無限大
+      rom: Yume + Mirai = Mugendai
+      ko: 꿈+미래=무한대
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
+    note: 'ja: 공식 페이지. rom: Fandom(문서명. 본문 굵은 글씨의 전각 ＝는 반각으로, E15. +는 to, ＝는 de로 읽는다는 설명이 Fandom·나무위키에 있으나 표기는 기호 그대로), ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%A6%E3%83%A1%2B%E3%83%9F%E3%83%A9%E3%82%A4%EF%BC%9D%E7%84%A1%E9%99%90%E5%A4%A7 https://love-live.fandom.com/wiki/Yume_%2B_Mirai_%3D_Mugendai'
+    used_in: ['cd.php#cd01_4906 #1-9']
+    ref: work:aqours/yume-mirai-mugendai
+  - kind: work
+    printed: SORA, FUJI, SUNSHINE!
+    title:
+      ja: SORA, FUJI, SUNSHINE!
+      rom: SORA, FUJI, SUNSHINE!
+      ko: SORA, FUJI, SUNSHINE!
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
+    note: ''
+    used_in: ['cd.php#cd01_4906 #2-12']
+    ref: work:aqours/sora-fuji-sunshine
+  - kind: work
+    printed: WAKE:WOKE
+    title:
+      ja: WAKE:WOKE
+      rom: WAKE:WOKE
+      ko: WAKE:WOKE
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    note: ''
+    used_in: ['cd.php#cd01_5622【Guilty Kiss盤】 #1']
+    ref: work:aqours/wake-woke
+  - kind: work
+    printed: BURN:BORN
+    title:
+      ja: BURN:BORN
+      rom: BURN:BORN
+      ko: BURN:BORN
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    note: ''
+    used_in: ['cd.php#cd01_5622【Guilty Kiss盤】 #2']
+    ref: work:aqours/burn-born
+  - kind: work
+    printed: BLACK OUT
+    title:
+      ja: BLACK OUT
+      rom: BLACK OUT
+      ko: BLACK OUT
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    note: ''
+    used_in: ['cd.php#cd01_5622【Guilty Kiss盤】 #3']
+    ref: work:aqours/black-out
+  - kind: work
+    printed: WHITE OUT
+    title:
+      ja: WHITE OUT
+      rom: WHITE OUT
+      ko: WHITE OUT
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    note: ''
+    used_in: ['cd.php#cd01_5622【Saint Snow盤】 #3']
+    ref: work:aqours/white-out

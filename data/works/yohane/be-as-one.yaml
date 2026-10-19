@@ -1,0 +1,48 @@
+id: yohane/be-as-one
+project: yohane
+title:
+  ja: Be as one!!!
+  rom: Be as one!!!
+  ko: Be as one!!!
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: makoto-miyazaki}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=6
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Be as one!!! (Off Vocal)
+      rom: Be as one!!! (Off Vocal)
+      ko: Be as one!!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: makoto-miyazaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=6
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/YHN-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=6
+    checked: 2026-10-20

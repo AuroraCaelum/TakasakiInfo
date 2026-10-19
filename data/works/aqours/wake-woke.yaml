@@ -1,0 +1,47 @@
+id: aqours/wake-woke
+project: aqours
+title:
+  ja: WAKE:WOKE
+  rom: WAKE:WOKE
+  ko: WAKE:WOKE
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: meg}
+    - {person: kanata-okajima}
+recordings:
+  - id: original
+    performers:
+      - {artist: gkss}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: WAKE:WOKE (Off Vocal)
+      rom: WAKE:WOKE (Off Vocal)
+      ko: WAKE:WOKE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: meg}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    checked: 2026-10-20

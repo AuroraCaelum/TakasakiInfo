@@ -1,0 +1,36 @@
+id: aqours/2025-eikyuu-hours-solo-concert-starring-sakurauchi-riko
+type: single
+title:
+  ja: 永久hours Solo Concert starring Sakurauchi Riko
+  rom: Eikyuu hours Solo Concert starring Sakurauchi Riko
+  ko: 영구hours Solo Concert starring Sakurauchi Riko
+projects: [aqours]
+artist_credit:
+  - {character: aqours/riko-sakurauchi}
+label: Lantis
+release_date: 2025-06-21
+editions:
+  - {id: e1, catalog: LACZ-10279}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/eikyuu-hours#riko-sakurauchi-solo}
+      - {no: 2, recording: aqours/bokura-no-tabi-wa-owaranai#riko-sakurauchi-solo}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
+legacy:
+  category: Aqours
+  albums:
+    - {title: 永久hours Solo Concert starring Sakurauchi Riko}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
