@@ -1,0 +1,713 @@
+id: nijigasaki/niji-unit-live
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE!
+  rom: Love Live! Nijigasaki High School Idol Club UNIT LIVE!
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 UNIT LIVE!
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: R3BIRTH R3VOLUTION
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2023-01-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/look-at-me-now
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/bubble-over
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: r3birth}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/ryoran-victory-road
+            version: ~R3BIRTH R3VOLUTION Ver.~
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: r3birth}
+          - {type: video}
+          - work: nijigasaki/queendom
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/i-m-still
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/concentrate
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: r3birth}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {artist: r3birth}
+        external_ids:
+          fandom: R3BIRTH R3VOLUTION|Day 1
+      - date: 2023-01-15
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/look-at-me-now
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/bubble-over
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: r3birth}
+          - {type: video}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/ryoran-victory-road
+            version: ~R3BIRTH R3VOLUTION Ver.~
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: r3birth}
+          - {type: video}
+          - work: nijigasaki/queendom
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/i-m-still
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/concentrate
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: r3birth}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: r3birth}
+        external_ids:
+          fandom: R3BIRTH R3VOLUTION|Day 2
+  - id: 2-tokyo
+    city: tokyo
+    label: A・ZU・NA LAGOON
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2023-02-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/romance-no-naka-de
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/kakushiaji
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/eieisa
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/break-the-system
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/awakening-promise
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: video}
+          - work: nijigasaki/blue
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/dancing-in-the-light
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/poker-face-onegai-fairy
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/folklore-kanki-no-uta
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: a-zu-na}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: a-zu-na}
+        external_ids:
+          fandom: A・ZU・NA LAGOON|Day 1
+      - date: 2023-02-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/romance-no-naka-de
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/kakushiaji
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/awakening-promise
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/eieisa
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/break-the-system
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: video}
+          - work: nijigasaki/blue
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/dancing-in-the-light
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/poker-face-onegai-fairy
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/folklore-kanki-no-uta
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: a-zu-na}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: a-zu-na}
+        external_ids:
+          fandom: A・ZU・NA LAGOON|Day 2
+  - id: 3-tokyo
+    city: tokyo
+    label: DiverDiva GALactic Trip
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2023-02-25
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/kiss-the-sun
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - {type: video}
+          - work: nijigasaki/fashionista
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/fly-into-the-sky
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/saika
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/power-spot
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: diverdiva}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+        external_ids:
+          fandom: DiverDiva GALactic Trip|Day 1
+      - date: 2023-02-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/kiss-the-sun
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - {type: video}
+          - work: nijigasaki/fashionista
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/fly-into-the-sky
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/saika
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/power-spot
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: diverdiva}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+        external_ids:
+          fandom: DiverDiva GALactic Trip|Day 2
+  - id: 4-tokyo
+    city: tokyo
+    label: QU4RTZ Fluffy Magic
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2023-03-18
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/fuwa-fuwa-hour
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/make-up-session-abc
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - {type: video}
+          - work: nijigasaki/itsu-datte-for-you
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/silent-blaze
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - {type: video}
+          - work: nijigasaki/mirai-harmony
+            version: Acoustic ver.
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/nijiiro-passions
+            version: Acoustic ver.
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/michi-no-saki
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - {type: video}
+          - work: nijigasaki/pastel
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/4-seasons
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/not-sad
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: qu4rtz}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/pastel
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: qu4rtz}
+        external_ids:
+          fandom: QU4RTZ Fluffy Magic|Day 1
+      - date: 2023-03-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/fuwa-fuwa-hour
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/make-up-session-abc
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - {type: video}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: video}
+          - work: nijigasaki/nijiiro-passions
+            version: Acoustic ver.
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/yume-ga-koko-kara-hajimaru-yo
+            version: Acoustic ver.
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/michi-no-saki
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/itsu-datte-for-you
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/silent-blaze
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - {type: video}
+          - work: nijigasaki/pastel
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/4-seasons
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/not-sad
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: qu4rtz}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/pastel
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: qu4rtz}
+        external_ids:
+          fandom: QU4RTZ Fluffy Magic|Day 2
+external_ids:
+  fandom: Nijigasaki High School Idol Club UNIT LIVE
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=unitlive2023
+    checked: 2026-10-20
+  setlist.2023-01-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-02-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-02-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-02-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-02-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

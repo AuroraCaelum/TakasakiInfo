@@ -1,0 +1,397 @@
+id: aqours/extra-2023
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! 2023 ～It's a 無限大☆WORLD～
+  rom: Love Live! Sunshine!! Aqours EXTRA LoveLive! 2023 ~It's a Mugendai☆WORLD~
+  ko: 러브 라이브! 선샤인!! Aqours EXTRA LoveLive! 2023 ~It's a 무한대☆WORLD~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: Valentine's Day Concert
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2023-02-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/oyasuminasan
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/yosoku-fukanou-driving
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/marine-border-parasol
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/ka-ga-ya-ki-ra-ri-ra
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Valentine's Day Concert|Day 1
+      - date: 2023-02-12
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/oyasuminasan
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/yosoku-fukanou-driving
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/marine-border-parasol
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/ka-ga-ya-ki-ra-ri-ra
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - {type: mc}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Valentine's Day Concert|Day 2
+  - id: 2-chiba
+    city: chiba
+    label: White Day Concert
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2023-03-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/paradise-chime
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/love-spiral-tower
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/never-giving-up
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/run-kakeru-run
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/shiny-racers
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/motto-zutto-be-with-you
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/akogare-ranraran
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/meimei-tantei-yohane
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/cotton-candy-ei-ei-oh
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/kimetayo-hand-in-hand
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/tousou-meisou-mobius-loop
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hajimari-road
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/ka-ga-ya-ki-ra-ri-ra
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - {type: mc}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: White Day Concert|Day 1
+      - date: 2023-03-12
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/paradise-chime
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/love-spiral-tower
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/never-giving-up
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/run-kakeru-run
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/shiny-racers
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/motto-zutto-be-with-you
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/akogare-ranraran
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/meimei-tantei-yohane
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/cotton-candy-ei-ei-oh
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/kimetayo-hand-in-hand
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/tousou-meisou-mobius-loop
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hajimari-road
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/ka-ga-ya-ki-ra-ri-ra
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {artist: aqours-feat-hatsune-miku}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: White Day Concert|Day 2
+external_ids:
+  fandom: Aqours EXTRA LoveLive! 2023 ~It's a Mugendai☆WORLD~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023
+    checked: 2026-10-20
+  setlist.2023-02-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_2023_~It's_a_Mugendai%E2%98%86WORLD~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-02-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_2023_~It's_a_Mugendai%E2%98%86WORLD~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_2023_~It's_a_Mugendai%E2%98%86WORLD~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_2023_~It's_a_Mugendai%E2%98%86WORLD~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

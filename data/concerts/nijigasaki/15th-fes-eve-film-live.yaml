@@ -1,0 +1,173 @@
+id: nijigasaki/15th-fes-eve-film-live
+projects: [nijigasaki, liella, hasunosora, ikizulive, musical]
+status: performed
+title:
+  ja: LoveLive! Series 15th Anniversary ラブライブ！フェス 前夜祭 FILM LIVE ～未来へ届けるタイムカプセル～
+  rom: LoveLive! Series 15th Anniversary LOVELIVE! FEST PRE-PARTY FILM LIVE ~MIRAI E TODOKERU TIME CAPSULE~
+  ko: LoveLive! Series 15th Anniversary 러브 라이브! 페스 전야제 FILM LIVE ~미래에 전달할 타임캡슐~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: shibuya-lovez
+    performances:
+      - date: 2026-10-10
+        label: Day.1 Day
+        setlist:
+          - {type: video, label: Opening Act}
+          - {work: musical/mikansei-dream}
+          - {work: musical/yume-no-compass}
+          - {type: other, label: FILM LIVE}
+          - {work: muse/bokura-no-live-kimi-to-no-life}
+          - {work: muse/start-dash}
+          - {work: muse/angelic-angel}
+          - {work: aqours/mitaiken-horizon}
+          - {work: aqours/my-mai-tonight}
+          - {work: aqours/brightest-melody}
+          - {work: nijigasaki/vivid-world}
+          - {work: nijigasaki/chase}
+          - {work: nijigasaki/circle-of-love}
+          - {work: liella/start-true-dreams}
+          - {work: liella/nonfiction}
+          - {work: liella/dazzling-game}
+          - {work: hasunosora/proof}
+          - {work: hasunosora/icy}
+          - {work: hasunosora/deepness, version: 4人ver.}
+          - {work: ikizulive/dou-da-doing}
+          - {type: talk, label: 'Talk Part with Nijigasaki, Hasunosora, Marina Horiuchi, and Nanami Asai'}
+          - {type: other, label: Live Segment}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/hello-new-dream
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1 (Day)'
+      - date: 2026-10-10
+        label: Day.1 Night
+        setlist:
+          - {type: video, label: Opening Act}
+          - {work: musical/mikansei-dream}
+          - {work: musical/yume-no-compass}
+          - {type: other, label: FILM LIVE}
+          - {work: nijigasaki/muteki-kyuu-believer}
+          - {work: muse/bokura-wa-ima-no-naka-de}
+          - {work: muse/bokura-no-live-kimi-to-no-life}
+          - {work: muse/no-brand-girls}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/awaken-the-power}
+          - {work: aqours/banzai-digital-trippers}
+          - {work: nijigasaki/tsunagaru-connect}
+          - {work: nijigasaki/la-bella-patria}
+          - {work: liella/we-will}
+          - {work: liella/vitamin-summer}
+          - {work: liella/zettaiteki-lover}
+          - {work: hasunosora/tsukuyomi-kurage}
+          - {work: hasunosora/fushigi-to-kimi-to-library}
+          - {work: hasunosora/trick-and-cute}
+          - {work: ikizulive/dou-da-doing}
+          - {type: talk, label: 'Talk Part with Nijigasaki, Hasunosora, Marina Horiuchi, and Julia An'}
+          - {type: other, label: Live Segment}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1 (Night)'
+      - date: 2026-10-11
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening Act}
+          - {work: musical/mikansei-dream}
+          - {work: musical/yume-no-compass}
+          - {type: other, label: FILM LIVE}
+          - {work: liella/hajimari-wa-kimi-no-sora}
+          - {work: muse/sore-wa-bokutachi-no-kiseki}
+          - {work: muse/yume-no-tobira}
+          - {work: muse/snow-halation}
+          - {work: aqours/mirai-no-bokura-wa-shitteru-yo}
+          - {work: aqours/ku-ru-ku-ru-cruller}
+          - {work: aqours/water-blue-new-world}
+          - {work: nijigasaki/butterfly}
+          - {work: nijigasaki/phoenix}
+          - {work: nijigasaki/stellar-stream}
+          - {work: liella/tiny-stars}
+          - {work: liella/let-s-be-one}
+          - {work: hasunosora/fanfare}
+          - {work: hasunosora/tomodachi-ni-nareru-basho}
+          - {work: hasunosora/hana-sakeba-yume-kakeru}
+          - {work: ikizulive/dou-da-doing}
+          - {type: talk, label: 'Talk Part with Liella!, Ikizurai-Bu!, Marina Horiuchi, and Nanami Asai'}
+          - {type: other, label: Live Segment}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+              - {artist: ikizuraibu}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: liella}
+              - {artist: ikizuraibu}
+        external_ids:
+          fandom: '|Day 2 (Day)'
+      - date: 2026-10-11
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening Act}
+          - {work: musical/mikansei-dream}
+          - {work: musical/yume-no-compass}
+          - {type: other, label: FILM LIVE}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {work: muse/kira-kira-sensation}
+          - {work: muse/happy-maker}
+          - {work: muse/bokutachi-wa-hitotsu-no-hikari}
+          - {work: aqours/omoi-yo-hitotsu-ni-nare}
+          - {work: aqours/mirai-ticket}
+          - {work: nijigasaki/solitude-rain}
+          - {work: nijigasaki/like-a-treasure}
+          - {work: nijigasaki/aoi-canaria}
+          - {work: liella/starlight-prologue}
+          - {work: liella/go-restart}
+          - {work: liella/superstar}
+          - {work: hasunosora/theater-ikizama}
+          - {work: hasunosora/edelinien}
+          - {work: hasunosora/aurora-flower}
+          - {work: ikizulive/dou-da-doing}
+          - {type: talk, label: 'Talk Part with Liella!, Ikizurai-Bu!, Marina Horiuchi, and Julia An'}
+          - {type: other, label: Live Segment}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: liella}
+              - {artist: ikizuraibu}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+              - {artist: ikizuraibu}
+        external_ids:
+          fandom: '|Day 2 (Night)'
+external_ids:
+  fandom: 'LoveLive! Series 15th Anniversary Love Live! Fes Eve Celebration: FILM LIVE ~Mirai e Todokeru Time Capsule~'
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai
+    checked: 2026-10-20
+  setlist.2026-10-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fes_Eve_Celebration:_FILM_LIVE_~Mirai_e_Todokeru_Time_Capsule~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-10-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fes_Eve_Celebration:_FILM_LIVE_~Mirai_e_Todokeru_Time_Capsule~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

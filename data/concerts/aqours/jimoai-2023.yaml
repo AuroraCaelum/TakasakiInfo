@@ -1,0 +1,290 @@
+id: aqours/jimoai-2023
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2023
+  rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2023
+  ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2023
+stops:
+  - id: 1-shizuoka
+    city: shizuoka
+    venue: kira-messe-numazu
+    performances:
+      - date: 2023-10-07
+        label: Day.1 Noon
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+        external_ids:
+          fandom: Day 1 (October 7)|Noon
+      - date: 2023-10-07
+        label: Day.1 Evening
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/future-flight
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+        external_ids:
+          fandom: Day 1 (October 7)|Evening
+      - date: 2023-10-08
+        label: Day.2 Noon
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/happy-party-train
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+        external_ids:
+          fandom: Day 2 (October 8)|Noon
+      - date: 2023-10-08
+        label: Day.2 Evening
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/banzai-digital-trippers
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/dance-with-minotaurus
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/happy-party-train
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+        external_ids:
+          fandom: Day 2 (October 8)|Evening
+      - date: 2023-10-09
+        label: Day.3 Noon
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/jump-up-high
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+        external_ids:
+          fandom: Day 3 (October 9)|Noon
+      - date: 2023-10-09
+        label: Day.3 Evening
+        setlist:
+          - {type: talk, label: Yohane the Parhelion Love Reading Drama Part}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: 15 Minute Break}
+          - {type: other, label: Live Part}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+        external_ids:
+          fandom: Day 3 (October 9)|Evening
+external_ids:
+  fandom: Love Live! Sunshine!! Numazu Jimo Ai Festival 2023
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2023
+    checked: 2026-10-20
+  setlist.2023-10-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2023
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-10-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2023
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-10-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2023
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,93 @@
+id: aqours/extra-2021
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! ～DREAMY CONCERT 2021～
+  rom: Love Live! Sunshine!! Aqours EXTRA LoveLive! ~DREAMY CONCERT 2021~
+  ko: 러브 라이브! 선샤인!! Aqours EXTRA LoveLive! ~DREAMY CONCERT 2021~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2021-12-29
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/smile-smile-ship-start}
+          - {work: aqours/wake-up-challenger}
+          - {work: aqours/dance-with-minotaurus}
+          - {type: mc}
+          - {work: aqours/jimo-ai-dash}
+          - {work: aqours/bouken-type-a-b-c}
+          - {type: video}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/humming-friend}
+          - {work: aqours/pops-heart-de-odorundamon}
+          - {type: mc}
+          - {work: aqours/matte-te-ai-no-uta}
+          - {work: aqours/happy-party-train}
+          - {type: video}
+          - {work: aqours/fantastic-departure}
+          - {work: aqours/deep-resonance}
+          - {type: mc}
+          - {work: aqours/jump-up-high}
+          - {work: aqours/kokoro-no-hane-yo-kimi-e-tondeke}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - {work: aqours/dreamy-color}
+          - {type: mc}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {work: aqours/future-flight}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-12-30
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/smile-smile-ship-start}
+          - {work: aqours/wake-up-challenger}
+          - {work: aqours/dance-with-minotaurus}
+          - {type: mc}
+          - {work: aqours/jimo-ai-dash}
+          - {work: aqours/bouken-type-a-b-c}
+          - {type: video}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/humming-friend}
+          - {work: aqours/pops-heart-de-odorundamon}
+          - {type: mc}
+          - {work: aqours/matte-te-ai-no-uta}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {type: video}
+          - {work: aqours/fantastic-departure}
+          - {work: aqours/deep-resonance}
+          - {type: mc}
+          - {work: aqours/jump-up-high}
+          - {work: aqours/kokoro-no-hane-yo-kimi-e-tondeke}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - {work: aqours/dreamy-color}
+          - {type: mc}
+          - {work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni}
+          - {work: aqours/future-flight}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours EXTRA LoveLive! ~DREAMY CONCERT 2021~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_extra2021.php
+    checked: 2026-10-20
+  setlist.2021-12-29:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_~DREAMY_CONCERT_2021~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-12-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_EXTRA_LoveLive!_~DREAMY_CONCERT_2021~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

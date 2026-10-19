@@ -1,0 +1,1038 @@
+id: liella/liella-unit-tour
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! ユニットライブ＆ファンミーティングツアー 心・技・体！極上大冒険!!
+  rom: Love Live! Superstar!! Liella! UNIT LIVE & FAN Meeting Tour MUSIC, TALK & TEAMWORK! Prime Adventure!!
+  ko: 러브 라이브! 슈퍼스타!! Liella! 유닛 라이브&팬미팅 투어 뮤직 토크 팀워크! 프라임 어드벤처!!
+stops:
+  - id: 1-aichi
+    city: aichi
+    label: CatChu! Chapter 1
+    venue: nagoya-congress-center-century-hall
+    performances:
+      - date: 2024-05-03
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/heroine-s-runway
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/aozora-o-matteru
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 1 (Aichi)|Day 1
+      - date: 2024-05-04
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/kokoro-kirarara
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/mitero
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 1 (Aichi)|Day 2 (Day)
+      - date: 2024-05-04
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/starry-prayer
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/free-flight
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 1 (Aichi)|Day 2 (Night)
+  - id: 2-niigata
+    city: niigata
+    label: KALEIDOSCORE Chapter 1
+    venue: niigata-prefectural-civic-center-main-hall
+    performances:
+      - date: 2024-06-08
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/oh-ready-steady-positive
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/midnight-rhapsody
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 1 (Niigata)|Day 1
+      - date: 2024-06-09
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/binetsu-no-waltz
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/hoshikuzu-cruising
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 1 (Niigata)|Day 2 (Day)
+      - date: 2024-06-09
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/mizuiro-no-sunday
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/reverb
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 1 (Niigata)|Day 2 (Night)
+  - id: 3-osaka
+    city: osaka
+    label: 5yncri5e! Chapter 1
+    venue: orix-theater
+    performances:
+      - date: 2024-06-15
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/flyer-s-high
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/pop-talking
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 1 (Osaka)|Day 1
+      - date: 2024-06-16
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/kimi-o-omou-hana-ni-naru
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/pop-talking
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 1 (Osaka)|Day 2 (Day)
+      - date: 2024-06-16
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/yuuki-no-kakera
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/pop-talking
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 1 (Osaka)|Day 2 (Night)
+  - id: 4-miyagi
+    city: miyagi
+    label: CatChu! Chapter 2
+    venue: sendai-sun-plaza-hall
+    performances:
+      - date: 2024-06-20
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/heroine-s-runway
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/aozora-o-matteru
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 2 (Miyagi)|Day 1
+      - date: 2024-06-21
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/kokoro-kirarara
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/mitero
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 2 (Miyagi)|Day 2 (Day)
+      - date: 2024-06-21
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/starry-prayer
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/free-flight
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - {work: liella/distortion}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#catchu-ver
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+        external_ids:
+          fandom: CatChu! Chapter 2 (Miyagi)|Day 2 (Night)
+  - id: 5-fukuoka
+    city: fukuoka
+    label: 5yncri5e! Chapter 2
+    venue: kitakyushu-soleil-hall
+    performances:
+      - date: 2024-07-06
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/flyer-s-high
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/kirakyun
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 2 (Fukuoka)|Day 1
+      - date: 2024-07-07
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/kimi-o-omou-hana-ni-naru
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/kirakyun
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 2 (Fukuoka)|Day 2 (Day)
+      - date: 2024-07-07
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/yuuki-no-kakera
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/kirakyun
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#5yncri5e-ver
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+        external_ids:
+          fandom: 5yncri5e! Chapter 2 (Fukuoka)|Day 2 (Night)
+  - id: 6-saitama
+    city: saitama
+    label: KALEIDOSCORE Chapter 2
+    venue: westa-kawagoe-main-hall
+    performances:
+      - date: 2024-07-12
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/oh-ready-steady-positive
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/midnight-rhapsody
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/day1
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 2 (Saitama)|Day 1
+      - date: 2024-07-13
+        label: Day.2 Noon
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/binetsu-no-waltz
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/hoshikuzu-cruising
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/day1
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 2 (Saitama)|Day 2 (Day)
+      - date: 2024-07-13
+        label: Day.2 Evening
+        setlist:
+          - work: liella/prime-adventure
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - {type: other, label: Teamwork Portion}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/mizuiro-no-sunday
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/reverb
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/day1
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/what-a-wonderful-dream
+            recording: liella/what-a-wonderful-dream#kaleidoscore-ver
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+        external_ids:
+          fandom: KALEIDOSCORE Chapter 2 (Saitama)|Day 2 (Night)
+  - id: 7-kanagawa
+    city: kanagawa
+    label: Final Chapter
+    venue: k-arena-yokohama
+    performances:
+      - date: 2024-08-03
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/prime-adventure
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Teamwork Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/distortion
+            performers:
+              - {artist: catchu}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/mitero
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/yuuki-no-kakera
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/mizuiro-no-sunday
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/primary
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - {type: video}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Final Chapter (Kanagawa)|Day 1
+      - date: 2024-08-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/prime-adventure
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Portion}
+          - {type: other, label: Music Portion}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/camellia-no-sasayaki
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/distortion
+            performers:
+              - {artist: catchu}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kokoro-kirarara
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+              - {character: liella/mei-yoneme}
+          - work: liella/reverb
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: encore, label: 'ENCORE #1'}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - {type: video}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: 'ENCORE #2'}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Final Chapter (Kanagawa)|Day 2
+external_ids:
+  fandom: 'Liella! Unit Live & Fan Meeting Tour: Music-Talk-Teamwork! Prime Adventure!!'
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive
+    checked: 2026-10-20
+  setlist.2024-05-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-05-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-06-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-07-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-07-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-07-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-07-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-08-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-08-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Unit_Live_&_Fan_Meeting_Tour:_Music-Talk-Teamwork!_Prime_Adventure!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

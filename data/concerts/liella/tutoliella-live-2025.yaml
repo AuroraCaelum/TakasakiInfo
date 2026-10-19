@@ -1,0 +1,188 @@
+id: liella/tutoliella-live-2025
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!!
+  rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE
+  ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!!
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: lala-arena-tokyo-bay
+    performances:
+      - date: 2025-07-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2025-07-06
+        label: Day.2 Noon
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|Day 2 (Day)'
+      - date: 2025-07-06
+        label: Day.2 Evening
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|Day 2 (Night)'
+external_ids:
+  fandom: Liella! no TUTOLiella!! LIVE
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/?page=2
+    checked: 2026-10-20
+  setlist.2025-07-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-07-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

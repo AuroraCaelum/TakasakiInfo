@@ -1,0 +1,171 @@
+id: aqours/azalea-1st
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! AZALEA 1st LoveLive! ～In The Dark /*秘密の物語*/～
+  rom: Love Live! Sunshine!! AZALEA 1st LoveLive! ~In The Dark /*Himitsu no Story*/~
+  ko: 러브 라이브! 선샤인!! AZALEA 1st LoveLive! ~In The Dark /*비밀 이야기*/~
+stops:
+  - id: 1-miyagi
+    city: miyagi
+    venue: xebio-arena-sendai
+    performances:
+      - date: 2021-08-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/we-ll-get-the-next-dream
+            performers:
+              - {artist: azalea}
+          - work: aqours/phoenix-dance
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: azalea}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: azalea}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/perfect-sekai
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/motto-ne
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: azalea}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/metamorphism
+            performers:
+              - {artist: azalea}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - work: aqours/sotsugyou-desu-ne
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-08-15
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/we-ll-get-the-next-dream
+            performers:
+              - {artist: azalea}
+          - work: aqours/phoenix-dance
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: azalea}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: azalea}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/perfect-sekai
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/motto-ne
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: azalea}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/metamorphism
+            performers:
+              - {artist: azalea}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - work: aqours/sotsugyou-desu-ne
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: AZALEA 1st LoveLive! ~In The Dark /*Himitsu no Story*/~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ.php
+    checked: 2026-10-20
+  setlist.2021-08-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AZALEA_1st_LoveLive!_~In_The_Dark_/*Himitsu_no_Story*/~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-08-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AZALEA_1st_LoveLive!_~In_The_Dark_/*Himitsu_no_Story*/~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

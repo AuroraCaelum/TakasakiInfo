@@ -1,0 +1,945 @@
+id: aqours/club-fan-meeting-2018
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 2018 ユニット対抗全国ツアー
+  rom: Love Live! Sunshine!! Aqours Club Katsudou LIVE & FAN MEETING 2018 Unit Taikou Zenkoku Tour
+  ko: 러브 라이브! 선샤인!! Aqours 클럽 활동 LIVE & FAN MEETING 2018 유닛대항전국투어
+stops:
+  - id: 1-aichi
+    city: aichi
+    venue: niterra-japan-specialty-ceramic-industry-civic-center
+    performances:
+      - date: 2018-09-22
+        label: Day.1 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagoya|Day 1 (Noon)
+      - date: 2018-09-22
+        label: Day.1 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagoya|Day 1 (Evening)
+      - date: 2018-09-23
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagoya|Day 2
+  - id: 2-ehime
+    city: ehime
+    venue: matsuyama-civic-hall-main-hall
+    performances:
+      - date: 2018-09-24
+        label: Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Matsuyama|Noon
+      - date: 2018-09-24
+        label: Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Matsuyama|Evening
+  - id: 3-fukuoka
+    city: fukuoka
+    venue: fukuoka-sunpalace-hotel-hall
+    performances:
+      - date: 2018-12-02
+        label: Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Fukuoka|Noon
+      - date: 2018-12-02
+        label: Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Fukuoka|Evening
+  - id: 4-miyagi
+    city: miyagi
+    venue: sendai-sun-plaza-hall
+    performances:
+      - date: 2018-12-15
+        label: Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Sendai|Noon
+      - date: 2018-12-15
+        label: Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Sendai|Evening
+  - id: 5-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2019-01-05
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 1
+      - date: 2019-01-06
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 2 (Noon)
+      - date: 2019-01-06
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 2 (Evening)
+  - id: 6-hiroshima
+    city: hiroshima
+    venue: hiroshima-bunka-gakuen-hbg-hall
+    performances:
+      - date: 2019-01-13
+        label: Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hiroshima|Noon
+      - date: 2019-01-13
+        label: Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hiroshima|Evening
+  - id: 7-ishikawa
+    city: ishikawa
+    venue: honda-no-mori-hall
+    performances:
+      - date: 2019-01-19
+        label: Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Kanazawa|Noon
+      - date: 2019-01-19
+        label: Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Kanazawa|Evening
+  - id: 8-hokkaido
+    city: hokkaido
+    venue: asahikawa-civic-cultural-hall
+    performances:
+      - date: 2019-01-26
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Asahikawa|Day 1
+      - date: 2019-01-27
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Asahikawa|Day 2 (Noon)
+      - date: 2019-01-27
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Asahikawa|Day 2 (Evening)
+  - id: 9-shizuoka
+    city: shizuoka
+    venue: numazu-civic-cultural-center
+    performances:
+      - date: 2019-02-09
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Numazu|Day 1
+      - date: 2019-02-10
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: azalea}
+          - {type: talk, label: Talk portion}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Numazu|Day 2 (Noon)
+      - date: 2019-02-10
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: guilty-kiss}
+          - {type: talk, label: Talk portion}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Numazu|Day 2 (Evening)
+  - id: 10-osaka
+    city: osaka
+    venue: orix-theater
+    performances:
+      - date: 2019-02-16
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2019-02-17
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 2 (Noon)
+      - date: 2019-02-17
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: cyaron}
+          - {type: talk, label: Talk portion}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 2 (Evening)
+  - id: 11-tokyo
+    city: tokyo
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2019-03-02
+        label: Day.1 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Tokyo|Day 1 (Noon & Evening)
+      - date: 2019-03-02
+        label: Day.1 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Tokyo|Day 1 (Noon & Evening)
+      - date: 2019-03-03
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Tokyo|Day 2 (Noon & Evening)
+      - date: 2019-03-03
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/hop-step-wai
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Tokyo|Day 2 (Noon & Evening)
+external_ids:
+  fandom: Aqours Club Activities LIVE & FAN MEETING 2018 Unit Battle Tour
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt2018.php
+    checked: 2026-10-20
+  setlist.2018-09-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-09-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-09-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-12-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-12-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-01-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-02-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-02-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-02-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-02-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-03-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-03-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Club_Activities_LIVE_&_FAN_MEETING_2018_Unit_Battle_Tour
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

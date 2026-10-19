@@ -1,0 +1,171 @@
+id: aqours/gkss-two-man-vs
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+  rom: Love Live! Sunshine!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+  ko: 러브 라이브! 선샤인!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2026-07-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/black-out
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/white-out
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC by Guilty Kiss}
+          - work: aqours/shooting-star-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - {type: mc, label: MC by Saint Snow}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/deep-sea-cocoon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/nameless-love-song
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/wake-woke
+            performers:
+              - {artist: gkss}
+          - work: aqours/burn-born
+            performers:
+              - {artist: gkss}
+          - {type: mc}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: gkss}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2026-07-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/white-out
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/black-out
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - {type: mc, label: MC by Saint Snow}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC by Guilty Kiss}
+          - work: aqours/shooting-star-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/deep-sea-cocoon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/nameless-love-song
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+          - work: aqours/wake-woke
+            performers:
+              - {artist: gkss}
+          - work: aqours/burn-born
+            performers:
+              - {artist: gkss}
+          - {type: mc}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: gkss}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=GKSS_TWO-MAN
+    checked: 2026-10-20
+  setlist.2026-07-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Guilty_Kiss_%C3%97_Saint_Snow_TWO-MAN_LIVE_%22VS%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-07-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Guilty_Kiss_%C3%97_Saint_Snow_TWO-MAN_LIVE_%22VS%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

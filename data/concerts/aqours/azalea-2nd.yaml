@@ -1,0 +1,189 @@
+id: aqours/azalea-2nd
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! AZALEA 2nd LoveLive! ～Amazing Travel DNA Reboot～
+  rom: Love Live! Sunshine!! AZALEA 2nd LoveLive! ~Amazing Travel DNA Reboot~
+  ko: 러브 라이브! 선샤인!! AZALEA 2nd LoveLive! ~Amazing Travel DNA Reboot~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: yokohama-arena
+    performances:
+      - date: 2021-11-15
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/metamorphism
+            performers:
+              - {artist: azalea}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/innocent-bird
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+          - {type: other, label: DJ Dia Time}
+          - {type: video, label: Akogare Ranraran Intermission}
+          - work: aqours/motto-ne
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/perfect-sekai
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - {type: video}
+          - work: aqours/phoenix-dance
+            performers:
+              - {artist: azalea}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: azalea}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - work: aqours/future-flight
+            performers:
+              - {artist: azalea}
+          - work: aqours/we-ll-get-the-next-dream
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: aqours/sotsugyou-desu-ne
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: azalea}
+          - work: aqours/amazing-travel-dna
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-11-16
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - work: aqours/metamorphism
+            performers:
+              - {artist: azalea}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - work: aqours/innocent-bird
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+          - {type: other, label: DJ Dia Time}
+          - {type: video, label: Oyasuminasan! Intermission}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - {type: video}
+          - work: aqours/phoenix-dance
+            performers:
+              - {artist: azalea}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: azalea}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/future-flight
+            performers:
+              - {artist: azalea}
+          - work: aqours/we-ll-get-the-next-dream
+            performers:
+              - {artist: azalea}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: azalea}
+          - work: aqours/amazing-travel-dna
+            version: ~Remix Version~
+            performers:
+              - {artist: azalea}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: AZALEA 2nd LoveLive! ~Amazing Travel DNA Reboot~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ2.php
+    checked: 2026-10-20
+  setlist.2021-11-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AZALEA_2nd_LoveLive!_~Amazing_Travel_DNA_Reboot~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-11-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AZALEA_2nd_LoveLive!_~Amazing_Travel_DNA_Reboot~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

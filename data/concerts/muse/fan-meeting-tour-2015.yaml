@@ -1,0 +1,690 @@
+id: muse/fan-meeting-tour-2015
+projects: [muse]
+status: performed
+title:
+  ja: μ’s Fan Meeting Tour 2015 ～あなたの街でラブライブ！～
+  rom: μ’s Fan Meeting Tour 2015 ~Anata no Machi de Love Live!~
+  ko: μ’s Fan Meeting Tour 2015 ~당신의 거리에서 러브 라이브!~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nakano-sun-plaza-hall
+    performances:
+      - date: 2015-05-30
+        label: Day.1 Noon
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Tokyo|Day 1 (Noon)
+      - date: 2015-05-30
+        label: Day.1 Evening
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Tokyo|Day 1 (Evening)
+      - date: 2015-05-31
+        label: Day.2 Noon
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Tokyo|Day 2 (Noon)
+      - date: 2015-05-31
+        label: Day.2 Evening
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Tokyo|Day 2 (Evening)
+  - id: 2-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2015-06-07
+        label: Noon
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+        external_ids:
+          fandom: Kanagawa|Noon
+      - date: 2015-06-07
+        label: Evening
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Kanagawa|Evening
+  - id: 3-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2015-06-13
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 1 (Evening)
+      - date: 2015-06-14
+        label: Day.2 Noon
+        setlist:
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 2 (Noon)
+      - date: 2015-06-14
+        label: Day.2 Evening
+        setlist:
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Chiba|Day 2 (Evening)
+  - id: 4-fukuoka
+    city: fukuoka
+    venue: fukuoka-civic-hall
+    performances:
+      - date: 2015-06-20
+        label: Noon
+        setlist:
+          - work: muse/listen-to-my-heart
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/niko-puri-joshi-dou
+            version: Short Ver.
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/kururin-miracle
+            version: Short Ver.
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/nawatobi
+            version: Short Ver.
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/after-school-navigators
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: nicorinpana}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Fukuoka|Noon
+      - date: 2015-06-20
+        label: Evening
+        setlist:
+          - work: muse/listen-to-my-heart
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/niko-puri-joshi-dou
+            version: Short Ver.
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/kururin-miracle
+            version: Short Ver.
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/nawatobi
+            version: Short Ver.
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/after-school-navigators
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: nicorinpana}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Fukuoka|Evening
+  - id: 5-nagano
+    city: nagano
+    venue: hokuto-bunka-hall
+    performances:
+      - date: 2015-06-27
+        label: Noon
+        setlist:
+          - work: muse/takaramonozu
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/nozomi-tojo}
+          - work: muse/garasu-no-hanazono
+            performers:
+              - {character: muse/eli-ayase}
+              - {character: muse/nozomi-tojo}
+          - work: muse/ai-wa-taiyou-ja-nai
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/junai-lens
+            version: Short Ver.
+            performers:
+              - {character: muse/nozomi-tojo}
+          - work: muse/arifureta-kanashimi-no-hate
+            version: Short Ver.
+            performers:
+              - {character: muse/eli-ayase}
+          - work: muse/yume-naki-yume-wa-yume-ja-nai
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/nozomi-tojo}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagano|Noon
+      - date: 2015-06-27
+        label: Evening
+        setlist:
+          - work: muse/takaramonozu
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/nozomi-tojo}
+          - work: muse/garasu-no-hanazono
+            performers:
+              - {character: muse/eli-ayase}
+              - {character: muse/nozomi-tojo}
+          - work: muse/ai-wa-taiyou-ja-nai
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/junai-lens
+            version: Short Ver.
+            performers:
+              - {character: muse/nozomi-tojo}
+          - work: muse/arifureta-kanashimi-no-hate
+            version: Short Ver.
+            performers:
+              - {character: muse/eli-ayase}
+          - work: muse/yume-naki-yume-wa-yume-ja-nai
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/nozomi-tojo}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagano|Evening
+  - id: 6-osaka
+    city: osaka
+    venue: grand-cube-osaka-main-hall
+    performances:
+      - date: 2015-07-04
+        label: Day.1 Noon
+        setlist:
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 1 (Noon)
+      - date: 2015-07-04
+        label: Day.1 Evening
+        setlist:
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 1 (Evening)
+      - date: 2015-07-05
+        label: Day.2 Noon
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 2 (Noon)
+      - date: 2015-07-05
+        label: Day.2 Evening
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Osaka|Day 2 (Evening)
+  - id: 7-hiroshima
+    city: hiroshima
+    venue: hiroshima-bunka-gakuen-hbg-hall
+    performances:
+      - date: 2015-07-12
+        label: Noon
+        setlist:
+          - work: muse/eien-friends
+            performers:
+              - {artist: printemps}
+          - work: muse/love-marginal
+            performers:
+              - {artist: printemps}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: printemps}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hiroshima|Noon
+      - date: 2015-07-12
+        label: Evening
+        setlist:
+          - work: muse/eien-friends
+            performers:
+              - {artist: printemps}
+          - work: muse/love-marginal
+            performers:
+              - {artist: printemps}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: printemps}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hiroshima|Evening
+  - id: 8-aichi
+    city: aichi
+    venue: nagoya-congress-center-century-hall
+    performances:
+      - date: 2015-07-19
+        label: Noon
+        setlist:
+          - work: muse/dancing-stars-on-me
+            performers:
+              - {artist: muse}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagoya|Noon
+      - date: 2015-07-19
+        label: Evening
+        setlist:
+          - work: muse/dancing-stars-on-me
+            performers:
+              - {artist: muse}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Nagoya|Evening
+  - id: 9-hokkaido
+    city: hokkaido
+    venue: nitori-bunka-hall
+    performances:
+      - date: 2015-08-01
+        label: Noon
+        setlist:
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/silent-tonight
+            version: Short Ver.
+            performers:
+              - {character: muse/maki-nishikino}
+          - work: muse/someday-of-my-life
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/blueberry-train
+            version: Short Ver.
+            performers:
+              - {character: muse/kotori-minami}
+          - work: muse/watashitachi-wa-mirai-no-hana
+            version: Short Ver.
+            performers:
+              - {character: muse/umi-sonoda}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hokkaido|Noon
+      - date: 2015-08-01
+        label: Evening
+        setlist:
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/silent-tonight
+            version: Short Ver.
+            performers:
+              - {character: muse/maki-nishikino}
+          - work: muse/someday-of-my-life
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/blueberry-train
+            version: Short Ver.
+            performers:
+              - {character: muse/kotori-minami}
+          - work: muse/watashitachi-wa-mirai-no-hana
+            version: Short Ver.
+            performers:
+              - {character: muse/umi-sonoda}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Hokkaido|Evening
+  - id: 10-miyagi
+    city: miyagi
+    venue: sendai-sun-plaza-hall
+    performances:
+      - date: 2015-08-09
+        label: Noon
+        setlist:
+          - work: muse/after-school-navigators
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/listen-to-my-heart
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/mou-hitori-ja-nai-yo
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/mermaid-festa-vol-2-passionate
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/rin-hoshizora}
+          - work: muse/kururin-miracle
+            version: Short Ver.
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/niko-puri-joshi-dou
+            version: Short Ver.
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/nawatobi
+            version: Short Ver.
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Miyagi|Noon
+      - date: 2015-08-09
+        label: Evening
+        setlist:
+          - work: muse/after-school-navigators
+            performers:
+              - {artist: nicorinpana}
+              - {character: muse/honoka-kosaka}
+          - work: muse/listen-to-my-heart
+            performers:
+              - {artist: nicorinpana}
+          - work: muse/mou-hitori-ja-nai-yo
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/mermaid-festa-vol-2-passionate
+            version: Short Ver.
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/rin-hoshizora}
+          - work: muse/kururin-miracle
+            version: Short Ver.
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/niko-puri-joshi-dou
+            version: Short Ver.
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/nawatobi
+            version: Short Ver.
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Miyagi|Evening
+external_ids:
+  fandom: Muse's Fan Meeting Tour 2015 ~ Love Live! in your town ~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_fmt2015.html
+    checked: 2026-10-20
+  setlist.2015-05-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-05-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-06-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-06-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-06-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-06-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-06-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-07-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-07-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-07-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-07-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-08-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-08-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_Tour_2015_~_Love_Live!_in_your_town_~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

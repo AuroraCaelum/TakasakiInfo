@@ -1,0 +1,579 @@
+id: liella/liella-7th
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～
+  rom: Love Live! Superstar!! Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: yokohama-arena
+    performances:
+      - date: 2026-02-07
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/luca
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/over-over
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/rhythm
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/sky-linker
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/fantastic
+            version: Short Ver.
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/musubiba
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/ren-hazuki}
+              - {character: liella/mei-yoneme}
+              - {character: liella/margarete-wien}
+          - work: liella/just-woo
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/wildcard
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/lilia
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/fundamental
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/sagashite-future
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/pastel-collage
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/tekuteku-biyori
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/pop-talking
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/chance-day-chance-way
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: liella/start-true-dreams
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: video, label: Short Intermission}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Kanagawa|Day 1
+      - date: 2026-02-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/luca
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/over-over
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/rhythm
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/sky-linker
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/fantastic
+            version: Short Ver.
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/musubiba
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/ren-hazuki}
+              - {character: liella/mei-yoneme}
+              - {character: liella/margarete-wien}
+          - work: liella/just-woo
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/wildcard
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/lilia
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/fundamental
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/sagashite-future
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/pastel-collage
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/tekuteku-biyori
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/pop-talking
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/chance-day-chance-way
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: liella/start-true-dreams
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: video, label: Short Intermission}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Kanagawa|Day 2
+  - id: 2-aichi
+    city: aichi
+    venue: aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a
+    performances:
+      - date: 2026-02-28
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/luca
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/over-over
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/rhythm
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/sky-linker
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/fantastic
+            version: Short Ver.
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/musubiba
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/ren-hazuki}
+              - {character: liella/mei-yoneme}
+              - {character: liella/margarete-wien}
+          - work: liella/just-woo
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/wildcard
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/lilia
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/fundamental
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/sagashite-future
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/pastel-collage
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/tekuteku-biyori
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/pop-talking
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/chance-day-chance-way
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: liella/start-true-dreams
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: video, label: Short Intermission}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2026-03-01
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/luca
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/over-over
+            performers:
+              - {character: liella/kanon-shibuya}
+          - work: liella/rhythm
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/sky-linker
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/fantastic
+            version: Short Ver.
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/musubiba
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/ren-hazuki}
+              - {character: liella/mei-yoneme}
+              - {character: liella/margarete-wien}
+          - work: liella/just-woo
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/wildcard
+            performers:
+              - {character: liella/tomari-onitsuka}
+          - work: liella/lilia
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/fundamental
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/sagashite-future
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/pastel-collage
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/tekuteku-biyori
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/pop-talking
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/chance-day-chance-way
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: liella/start-true-dreams
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: video, label: Short Intermission}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: double_encore, label: Double Encore}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 2
+external_ids:
+  fandom: Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=7thlive
+    checked: 2026-10-20
+  setlist.2026-02-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_7th_LoveLive!_~Fly!_MUSIC_WORLD%E2%99%AA~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-02-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_7th_LoveLive!_~Fly!_MUSIC_WORLD%E2%99%AA~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-02-28:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_7th_LoveLive!_~Fly!_MUSIC_WORLD%E2%99%AA~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-03-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_7th_LoveLive!_~Fly!_MUSIC_WORLD%E2%99%AA~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

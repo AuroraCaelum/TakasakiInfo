@@ -1,0 +1,191 @@
+id: nijigasaki/niji-1st
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 First Live “with You”
+  rom: Love Live! Nijigasaki High School Idol Club First Live “with You”
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 First Live “with You”
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2019-12-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Love Live All Stars intermission}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - {type: mc}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - {type: mc}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - {type: video, label: Love Live All Stars intermission}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2019-12-15
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Love Live All Stars intermission}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - {type: mc}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - {type: mc}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - {type: video, label: Love Live All Stars intermission}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Nijigasaki High School Idol Club First Live "with You"
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_1stlive.php
+    checked: 2026-10-20
+  setlist.2019-12-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_First_Live_%22with_You%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-12-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_First_Live_%22with_You%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

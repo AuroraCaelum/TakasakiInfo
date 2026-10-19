@@ -1,0 +1,354 @@
+id: muse/final-lovelive
+projects: [muse]
+status: performed
+title:
+  ja: ラブライブ！μ's Final LoveLive!〜μ’sic Forever♪♪♪♪♪♪♪♪♪〜
+  rom: Love Live! μ's Final LoveLive!~μ’sic Forever♪♪♪♪♪♪♪♪♪~
+  ko: 러브 라이브! μ's Final LoveLive!~μ’sic Forever♪♪♪♪♪♪♪♪♪~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-dome
+    performances:
+      - date: 2016-03-31
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - {type: other, label: Medley Part}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/wonder-zone
+            performers:
+              - {artist: muse}
+          - work: muse/korekara-no-someday
+            performers:
+              - {artist: muse}
+          - work: muse/love-wing-bell
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/dancing-stars-on-me
+            performers:
+              - {artist: muse}
+          - work: muse/happy-maker
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/wao-wao-powerful-day
+            performers:
+              - {artist: printemps}
+          - {type: mc, label: Printemps MC}
+          - work: muse/no-exit-orion
+            performers:
+              - {artist: printemps}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/omoide-ijou-ni-naritakute
+            performers:
+              - {artist: lily-white}
+          - work: muse/futari-happiness
+            performers:
+              - {artist: lily-white}
+          - {type: mc, label: lily white MC}
+          - work: muse/shunjou-romantic
+            performers:
+              - {artist: lily-white}
+          - work: muse/cutie-panther
+            performers:
+              - {artist: bibi}
+          - work: muse/psychic-fire
+            performers:
+              - {artist: bibi}
+          - {type: mc, label: BiBi MC}
+          - work: muse/sakkaku-crossroads
+            performers:
+              - {artist: bibi}
+          - {type: video}
+          - work: muse/angelic-angel
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {artist: muse}
+          - work: muse/datte-datte-aa-mujou
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/hello-hoshi-o-kazoete
+            performers:
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/heartbeat
+            performers:
+              - {character: muse/eli-ayase}
+              - {character: muse/nozomi-tojo}
+              - {character: muse/nico-yazawa}
+          - work: muse/future-style
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - {type: video}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/super-love-super-live
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/sunny-day-song
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/oh-love-peace
+            performers:
+              - {artist: muse}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/moment-ring
+            performers:
+              - {artist: muse}
+          - {type: encore, label: W-ENCORE}
+          - {type: video}
+          - work: muse/bokutachi-wa-hitotsu-no-hikari
+            performers:
+              - {artist: muse}
+          - {type: other, label: Ending}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2016-04-01
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - {type: other, label: Medley Part}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/wonder-zone
+            performers:
+              - {artist: muse}
+          - work: muse/korekara-no-someday
+            performers:
+              - {artist: muse}
+          - work: muse/love-wing-bell
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/dancing-stars-on-me
+            performers:
+              - {artist: muse}
+          - work: muse/happy-maker
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/wao-wao-powerful-day
+            performers:
+              - {artist: printemps}
+          - {type: mc, label: Printemps MC}
+          - work: muse/no-exit-orion
+            performers:
+              - {artist: printemps}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/omoide-ijou-ni-naritakute
+            performers:
+              - {artist: lily-white}
+          - work: muse/futari-happiness
+            performers:
+              - {artist: lily-white}
+          - {type: mc, label: lily white MC}
+          - work: muse/shunjou-romantic
+            performers:
+              - {artist: lily-white}
+          - work: muse/cutie-panther
+            performers:
+              - {artist: bibi}
+          - work: muse/psychic-fire
+            performers:
+              - {artist: bibi}
+          - {type: mc, label: BiBi MC}
+          - work: muse/sakkaku-crossroads
+            performers:
+              - {artist: bibi}
+          - {type: video}
+          - work: muse/angelic-angel
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {artist: muse}
+          - work: muse/datte-datte-aa-mujou
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: muse/hello-hoshi-o-kazoete
+            performers:
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/heartbeat
+            performers:
+              - {character: muse/eli-ayase}
+              - {character: muse/nozomi-tojo}
+              - {character: muse/nico-yazawa}
+          - work: muse/future-style
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - {type: video}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/super-love-super-live
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/sunny-day-song
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/oh-love-peace
+            performers:
+              - {artist: muse}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/moment-ring
+            performers:
+              - {artist: muse}
+          - {type: encore, label: W-ENCORE}
+          - {type: video}
+          - work: muse/bokutachi-wa-hitotsu-no-hikari
+            performers:
+              - {artist: muse}
+          - {type: other, label: Ending}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Muse's Final LoveLive! Mu'sic Forever
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_finallive.html
+    checked: 2026-10-20
+  setlist.2016-03-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Final_LoveLive!_Mu'sic_Forever
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2016-04-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Final_LoveLive!_Mu'sic_Forever
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

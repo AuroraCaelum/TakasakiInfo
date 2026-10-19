@@ -1,0 +1,203 @@
+id: aqours/aqours-1st
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours First LoveLive! ~Step! ZERO to ONE~
+  rom: Love Live! Sunshine!! Aqours First LoveLive! ~Step! ZERO to ONE~
+  ko: 러브 라이브! 선샤인!! Aqours First LoveLive! ~Step! ZERO to ONE~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: yokohama-arena
+    performances:
+      - date: 2017-02-25
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimetayo-hand-in-hand
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/daisuki-dattara-daijoubu
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video, label: Intermission Movie 1}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Intermission Movie 2}
+          - {type: mc}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2017-02-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimetayo-hand-in-hand
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/daisuki-dattara-daijoubu
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video, label: Intermission Movie 1}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Intermission Movie 2}
+          - {type: mc}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours First Love Live! ~Step! ZERO to ONE~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_1stlive.php
+    checked: 2026-10-20
+  setlist.2017-02-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_First_Love_Live!_~Step!_ZERO_to_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-02-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_First_Love_Live!_~Step!_ZERO_to_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

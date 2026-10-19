@@ -1,0 +1,301 @@
+id: nijigasaki/niji-flower-music-live
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+  rom: Love Live! Nijigasaki High School Idol Club FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: keio-arena-tokyo
+    performances:
+      - date: 2026-01-17
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/boooooom-boooooom-bee
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/new-year-s-march
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {character: nijigasaki/yu-takasaki}
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/fuwa-fuwari
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/viva
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/dizzy-lily-valley
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/twilight
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+          - {type: video}
+          - work: nijigasaki/nijiiro-lumiere
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/summer-warning
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/starry-night-serenade
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/dress-code
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/sanketsu
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/the-sweetest-time
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/boooooom-boooooom-bee
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2026-01-18
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/boooooom-boooooom-bee
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/new-year-s-march
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {character: nijigasaki/yu-takasaki}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/wondermates
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/savotina
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/sol-de-rosa
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/twilight
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: video}
+          - work: nijigasaki/white-delight
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/pichi-chapu-tinton-tanton
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/ride-the-wave
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/what-a-beautiful-day
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/bravo
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/yes-to-tomorrow
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/boooooom-boooooom-bee
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Nijigasaki High School Idol Club FLOWER MUSIC LIVE "Boooooom Boooooom Bee!!"
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=flower_live
+    checked: 2026-10-20
+  setlist.2026-01-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_FLOWER_MUSIC_LIVE_%22Boooooom_Boooooom_Bee!!%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-01-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_FLOWER_MUSIC_LIVE_%22Boooooom_Boooooom_Bee!!%22
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

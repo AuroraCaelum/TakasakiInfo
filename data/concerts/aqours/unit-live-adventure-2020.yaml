@@ -1,0 +1,335 @@
+id: aqours/unit-live-adventure-2020
+projects: [aqours]
+status: performed
+title:
+  ja: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+  rom: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+  ko: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: New Romantic Sailors
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2020-02-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/love-pulsar
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 1}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc, label: MC - 2}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/phantom-rocket-adventure
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 3}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 4}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 5}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+        external_ids:
+          fandom: New Romantic Sailors|Day 1
+      - date: 2020-02-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/love-pulsar
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 1}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc, label: MC - 2}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/phantom-rocket-adventure
+            performers:
+              - {artist: guilty-kiss}
+          - performers:
+              - {artist: guilty-kiss}
+            title_raw: 3Guilty Eyes Fever
+          - {type: mc, label: MC - 3}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 4}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: MC - 5}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+        external_ids:
+          fandom: New Romantic Sailors|Day 2
+  - id: 2-fukuoka
+    city: fukuoka
+    label: Braveheart Coaster
+    venue: nishinihon-sogo-tenjijo-shinkan
+    performances:
+      - date: 2020-02-22
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 1}
+          - work: aqours/changeless
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - {type: mc, label: MC - 2}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/braveheart-coaster
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kodoku-teleport
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 3}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 4}
+          - work: aqours/sakura-bye-bye
+            performers:
+              - {artist: cyaron}
+        external_ids:
+          fandom: Braveheart Coaster|Day 1
+      - date: 2020-02-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 1}
+          - work: aqours/changeless
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - {type: mc, label: MC - 2}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: cyaron}
+          - {type: video}
+          - work: aqours/braveheart-coaster
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kodoku-teleport
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 3}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: cyaron}
+          - {type: encore, label: Encore}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: MC - 4}
+          - work: aqours/sakura-bye-bye
+            performers:
+              - {artist: cyaron}
+        external_ids:
+          fandom: Braveheart Coaster|Day 2
+external_ids:
+  fandom: Love Live! Sunshine!! Unit Live Adventure 2020
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unitlive.php
+    checked: 2026-10-20
+  setlist.2020-02-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Unit_Live_Adventure_2020
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-02-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Unit_Live_Adventure_2020
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-02-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Unit_Live_Adventure_2020
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-02-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Unit_Live_Adventure_2020
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

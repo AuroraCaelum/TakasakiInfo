@@ -1,0 +1,214 @@
+id: aqours/aqours-online-2020
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours ONLINE LoveLive!
+  rom: Love Live! Sunshine!! Aqours ONLINE LoveLive!
+  ko: 러브 라이브! 선샤인!! Aqours ONLINE LoveLive!
+stops:
+  - id: 1-online
+    label: LOST WORLD
+    performances:
+      - date: 2020-10-10
+        setlist:
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/braveheart-coaster
+            performers:
+              - {artist: cyaron}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - {title_raw: シャゼリア☆キッス☆ダダンダーン}
+          - {type: video, label: Aqours Opening}
+          - work: aqours/fantastic-departure
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: LOST WORLD|Day 1
+      - date: 2020-10-11
+        setlist:
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/braveheart-coaster
+            performers:
+              - {artist: cyaron}
+          - work: aqours/amazing-travel-dna
+            performers:
+              - {artist: azalea}
+          - work: aqours/kuuchuu-ren-ai-ron
+            performers:
+              - {artist: azalea}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - {type: video}
+          - {title_raw: シャゼリア☆キッス☆ダダンダーン}
+          - {type: video, label: Aqours Opening}
+          - work: aqours/fantastic-departure
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/dance-with-minotaurus
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: LOST WORLD|Day 2
+  - id: 2-online
+    label: WHITE ISLAND
+    performances:
+      - date: 2020-12-30
+        setlist:
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {work: aqours/kimochi-mo-yume-mo-issho-da-ne}
+          - {work: aqours/namida-ga-yuki-ni-naru-mae-ni}
+          - {work: aqours/misty-frosty-love}
+          - {work: aqours/party-party-papapaparty}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - {work: aqours/aqours-heroes}
+          - {type: mc}
+          - work: aqours/fantastic-departure
+            performers:
+              - {artist: aqours}
+          - work: aqours/bouken-type-a-b-c
+            performers:
+              - {artist: aqours}
+          - work: aqours/future-flight
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: WHITE ISLAND|Day 1
+      - date: 2020-12-31
+        setlist:
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {work: aqours/party-party-papapaparty}
+          - {work: aqours/kimochi-mo-yume-mo-issho-da-ne}
+          - {work: aqours/misty-frosty-love}
+          - {work: aqours/namida-ga-yuki-ni-naru-mae-ni}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/future-flight
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: WHITE ISLAND|Day 2
+external_ids:
+  fandom: Aqours ONLINE LoveLive!
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule.1-online:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_onlinelive.php
+    checked: 2026-10-20
+  schedule.2-online:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_countdown.php
+    checked: 2026-10-20
+  setlist.2020-10-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_ONLINE_LoveLive!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-10-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_ONLINE_LoveLive!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-12-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_ONLINE_LoveLive!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-12-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_ONLINE_LoveLive!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,142 @@
+id: aqours/countdown-2021-2022
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～
+  rom: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ~LIVE with a smile!~
+  ko: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ~LIVE with a smile!~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2021-12-31
+        setlist:
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - {type: mc, label: Aqours and Nijigasaki High School Idol Club MC}
+          - {type: video, label: Liella! Opening}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Liella! MC}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - {type: video, label: Nijigasaki High School Idol Club Opening}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/aion-no-uta
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc, label: Nijigasaki High School Idol Club MC}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc, label: Nijigasaki High School Idol Club and Liella! MC}
+          - {type: video, label: Aqours Opening}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/dance-with-minotaurus
+            performers:
+              - {artist: aqours}
+          - {type: mc, label: Aqours MC}
+          - work: aqours/fantastic-departure
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - {type: mc, label: Aqours and Liella! MC}
+          - {type: other, label: RADIO with a smile!}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - {type: other, label: RADIO with a smile!}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: RADIO with a smile!}
+          - work: nijigasaki/not-alone-not-hitori
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: nijigasaki/live-with-a-smile
+            performers:
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+        external_ids:
+          fandom: '|'
+external_ids:
+  fandom: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 〜LIVE with a smile!〜
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd13.php
+    checked: 2026-10-20
+  setlist.2021-12-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/LoveLive!_Series_Presents_COUNTDOWN_LoveLive!_2021%E2%86%922022_%E3%80%9CLIVE_with_a_smile!%E3%80%9C
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

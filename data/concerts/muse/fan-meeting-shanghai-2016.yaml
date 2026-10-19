@@ -1,0 +1,58 @@
+id: muse/fan-meeting-shanghai-2016
+projects: [muse]
+status: performed
+title:
+  ja: ラブライブ！μ’s Fan Meeting in 上海～Talk&Live～
+  rom: Love Live! μ’s Fan Meeting in Shanghai ~Talk&Live~
+  ko: 러브 라이브! μ’s Fan Meeting in 상하이 ~Talk&Live~
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: mercedes-benz-arena
+    performances:
+      - date: 2016-01-30
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - {type: talk, label: Talk portion}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {artist: muse}
+        external_ids:
+          fandom: μ's Fan Meeting In Shanghai ~Talk & Live~|
+external_ids:
+  fandom: Muse's Fan Meeting ~Talk & Live~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    checked: 2026-10-20
+  setlist.2016-01-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_~Talk_&_Live~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

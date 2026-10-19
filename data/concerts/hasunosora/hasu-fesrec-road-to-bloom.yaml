@@ -1,0 +1,256 @@
+id: hasunosora/hasu-fesrec-road-to-bloom
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103-105th Fes×ReC：LIVE ～Road to Bloom～
+  rom: Love Live! Hasunosora Girls' High School Idol Club 103-105th Fes×ReC:LIVE ~Road to Bloom~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 103-105th Fes×ReC:LIVE ~Road to Bloom~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: zepp-haneda-tokyo
+    performances:
+      - date: 2026-01-21
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/i-do-me}
+          - {type: mc, label: MC by Mira-Cra Park!}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/zenhoui-kyun
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/wawo
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/compass
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/ampere
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/yume-wazurai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/celebration
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/izayoi-selene
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/colorfulness
+            performers:
+              - {character: hasunosora/tsuzuri-yugiri}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/cho-toutoi-love
+            performers:
+              - {artist: ruri-to}
+          - {type: mc, label: MC with Hasunosora 105th Class}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/dream-believers
+            version: 103rd-105th Versions Medley
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2026-01-22
+        label: Day.2 1st Show
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/i-do-me}
+          - {type: mc, label: MC by Cerise Bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/yume-wazurai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/atarayo-hanabi
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/compass
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/blue-moment
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/zenhoui-kyun
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/very-very-coco-natsu
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/fusion-crust
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/happy-shijou-shugi
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/megumi-fujishima}
+          - work: hasunosora/n-w-black
+            performers:
+              - {artist: prince}
+          - {type: mc, label: MC with Hasunosora 105th Class}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/dream-believers
+            version: 103rd-105th Versions Medley
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2 (11:30am Session)'
+      - date: 2026-01-22
+        label: Day.2 2nd Show
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/i-do-me}
+          - {type: mc, label: MC by DOLLCHESTRA}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/compass
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/yume-wazurai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/zenhoui-kyun
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/nyao-signyal
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/pleasure-feather
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/kozue-otomune}
+          - work: hasunosora/cho-toutoi-love
+            performers:
+              - {artist: ruri-to}
+          - {type: mc, label: MC with Hasunosora 105th Class}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/dream-believers
+            version: 103rd-105th Versions Medley
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2 (2:30pm Session)'
+      - date: 2026-01-22
+        label: Day.2 3rd Show
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/i-do-me}
+          - {type: mc, label: MC by Edel Note}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/colorfulness
+            performers:
+              - {character: hasunosora/tsuzuri-yugiri}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/yume-wazurai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/compass
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/zenhoui-kyun
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/celebration
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/ampere
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/wawo
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/retrofuture
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/n-w-black
+            performers:
+              - {artist: prince}
+          - {type: mc, label: MC with Hasunosora 105th Class}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/dream-believers
+            version: 103rd-105th Versions Medley
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2 (7:00pm Session)'
+external_ids:
+  fandom: "Hasunosora Girls' High School Idol Club 103-105th Fes×ReC: LIVE ~Road to Bloom~"
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RTB
+    checked: 2026-10-20
+  setlist.2026-01-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103-105th_Fes%C3%97ReC:_LIVE_~Road_to_Bloom~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-01-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103-105th_Fes%C3%97ReC:_LIVE_~Road_to_Bloom~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

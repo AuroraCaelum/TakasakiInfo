@@ -1,0 +1,130 @@
+id: hasunosora/hasu-opening
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ OPENING LIVE EVENT～Bloom the Dream～
+  rom: Love Live! Hasunosora Girls' High School Idol Club OPENING LIVE EVENT~Bloom the Dream~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 OPENING LIVE EVENT~Bloom the Dream~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2023-06-04
+        label: Day
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/dream-believers, version: Short Ver.}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - {type: video}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fortune-movie
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tsuki-makase
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kiboteki-prism
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/scapegoat
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - {work: hasunosora/eien-no-euphoria}
+          - {type: encore, label: Encore}
+          - {work: hasunosora/on-your-mark}
+          - {work: hasunosora/dream-believers}
+        external_ids:
+          fandom: '|Day Session'
+      - date: 2023-06-04
+        label: Night
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/dream-believers, version: Short Ver.}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - {type: video}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fortune-movie
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tsuki-makase
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kiboteki-prism
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/oka-ranman
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - {work: hasunosora/eien-no-euphoria}
+          - {type: encore, label: Encore}
+          - {work: hasunosora/on-your-mark}
+          - {work: hasunosora/dream-believers}
+        external_ids:
+          fandom: '|Night Session'
+external_ids:
+  fandom: Hasunosora Girls' High School Idol Club OPENING LIVE EVENT ~Bloom the Dream~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=OLE
+    checked: 2026-10-20
+  setlist.2023-06-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_OPENING_LIVE_EVENT_~Bloom_the_Dream~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

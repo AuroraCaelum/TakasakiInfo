@@ -1,0 +1,517 @@
+id: aqours/aqours-2nd
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+  rom: Love Live! Sunshine!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+  ko: 러브 라이브! 선샤인!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+stops:
+  - id: 1-aichi
+    city: aichi
+    venue: nippon-gaishi-hall
+    performances:
+      - date: 2017-08-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Nagoya|Day 1
+      - date: 2017-08-06
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Nagoya|Day 2
+  - id: 2-hyogo
+    city: hyogo
+    venue: kobe-world-memorial-hall
+    performances:
+      - date: 2017-08-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Kobe|Day 1
+      - date: 2017-08-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Kobe|Day 2
+  - id: 3-saitama
+    city: saitama
+    venue: metlife-dome
+    performances:
+      - date: 2017-09-29
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - {work: aqours/natsu-e-no-tobira-never-end-ver}
+          - {work: aqours/manatsu-wa-dare-no-mono}
+          - {work: aqours/jimo-ai-mantan-summer-life, version: Unicorn Blizzard}
+          - {work: aqours/natsu-no-owari-no-amaoto-ga}
+          - {type: mc}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Saitama|Day 1
+      - date: 2017-09-30
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/pops-heart-de-odorundamon
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - {work: aqours/natsu-e-no-tobira-never-end-ver}
+          - {work: aqours/manatsu-wa-dare-no-mono}
+          - {work: aqours/jimo-ai-mantan-summer-life, version: Unicorn Blizzard}
+          - {work: aqours/natsu-no-owari-no-amaoto-ga}
+          - {type: mc}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Saitama|Day 2
+external_ids:
+  fandom: Aqours 2nd Love Live! HAPPY PARTY TRAIN TOUR
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_2ndlive.php
+    checked: 2026-10-20
+  setlist.2017-08-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-08-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-08-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-08-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-09-29:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-09-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,129 @@
+id: liella/liella-connect-the-stars
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! Special LoveLive! ～Connect the Stars～
+  rom: Love Live! Superstar!! Liella! Special LoveLive! ~Connect the Stars~
+  ko: 러브 라이브! 슈퍼스타!! Liella! Special LoveLive! ~Connect the Stars~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: ariake-arena
+    performances:
+      - date: 2025-08-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+              - {artist: sunny-passion}
+          - {type: mc}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+          - work: liella/star-sengen
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+          - {type: mc, label: MC by Kinako Sakurakoji & Wien Margarete}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: liella/distortion
+            performers:
+              - {artist: catchu}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/hot-passion
+            performers:
+              - {artist: sunny-passion}
+          - {work: liella/till-sunrise, version: Sunny Passion}
+          - {type: mc}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+              - {artist: sunny-passion}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|'
+external_ids:
+  fandom: Liella! Special LoveLive! ~Connect the Stars~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=splive
+    checked: 2026-10-20
+  setlist.2025-08-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Special_LoveLive!_~Connect_the_Stars~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

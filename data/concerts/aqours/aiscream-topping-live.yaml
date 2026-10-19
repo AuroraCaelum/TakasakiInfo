@@ -1,0 +1,222 @@
+id: aqours/aiscream-topping-live
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: AiScReam presents TOPPING LIVE とけちゃう前に会いに来て♡♡♡
+  rom: AiScReam presents "TOPPING LIVE" Come see me before I melt ♡♡♡
+  ko: AiScReam presents TOPPING LIVE 녹기 전에 만나러 와♡♡♡
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2025-09-06
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - {type: mc}
+          - {type: other, label: Topping Members Introduction}
+          - work: liella/hot-passion
+            performers:
+              - {artist: sunny-passion}
+          - {type: mc, label: MC by Sunny Passion}
+          - work: liella/till-sunrise
+            performers:
+              - {artist: sunny-passion}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC by YYY}
+          - work: aqours/peace-piece-pizza
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC with YYY & Shiki Wakana}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc, label: MC with A・ZU・NA}
+          - work: nijigasaki/kakushiaji
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc, label: MC with A・ZU・NA & Ruby Kurosawa}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc, label: MC with 5yncri5e!}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kirakyun
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc, label: MC with 5yncri5e! & Ayumu Uehara}
+          - {type: talk, label: Love Booster Guest Corner}
+          - work: aqours/manatsu-wa-dare-no-mono
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/cotton-candy-ei-ei-oh
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc, label: MC with Dia Kurosawa & Ruby Kurosawa}
+          - work: nijigasaki/stellar-stream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: mc, label: MC with Ayumu Uehara & Yu Takasaki}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+              - {character: liella/mei-yoneme}
+          - {type: mc, label: MC with Mei Yoneme & Shiki Wakana}
+          - {type: talk, label: Can't Choose Just 1 Song!! Love Live! Series BEST 10 Corner}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC by AiScReam}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - {type: mc, label: MC with Saint Snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: nijigasaki/ice-limit
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC with by AiScReam}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC with Everyone}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2025-09-07
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - {type: mc}
+          - {type: other, label: Topping Members Introduction}
+          - work: liella/hot-passion
+            performers:
+              - {artist: sunny-passion}
+          - {type: mc, label: MC by Sunny Passion}
+          - work: liella/till-sunrise
+            performers:
+              - {artist: sunny-passion}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC by YYY}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/peace-piece-pizza
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC with YYY & Ayumu Uehara}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc, label: MC with 5yncri5e!}
+          - work: liella/thank-you-good-morning
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kirakyun
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc, label: MC with 5yncri5e! & Ayumu Uehara}
+          - {type: talk, label: Love Booster Guest Corner}
+          - work: aqours/aikotoba
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: nijigasaki/walking-dream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+              - {character: liella/mei-yoneme}
+          - {type: mc, label: MC with Mei Yoneme & Shiki Wakana}
+          - work: nijigasaki/stellar-stream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: mc, label: MC with Ayumu Uehara & Yu Takasaki}
+          - {type: talk, label: Can't Choose Just 1 Song!! Love Live! Series BEST 10 Corner}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC by AiScReam}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - {type: mc, label: MC with Saint Snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: nijigasaki/ice-limit
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC with by AiScReam}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC with Everyone}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: AiScReam presents TOPPING LIVE ~Tokechau Mae ni Ai ni Kite♡♡♡~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=aiscream
+    checked: 2026-10-20
+  setlist.2025-09-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AiScReam_presents_TOPPING_LIVE_~Tokechau_Mae_ni_Ai_ni_Kite%E2%99%A1%E2%99%A1%E2%99%A1~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-09-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/AiScReam_presents_TOPPING_LIVE_~Tokechau_Mae_ni_Ai_ni_Kite%E2%99%A1%E2%99%A1%E2%99%A1~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

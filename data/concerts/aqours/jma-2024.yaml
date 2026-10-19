@@ -1,0 +1,181 @@
+id: aqours/jma-2024
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局2 ～かえってきたバブ卒達！ラジオとライブでわいわいわい～
+  rom: Love Live! Sunshine!! Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station 2 ~Kaettekita BABU-SOTSU tachi! YYY with RADIO and LIVE~
+  ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! JMA출장방송국2 ~돌아온 밥 졸업생들! 라디오와 라이브로 왁자지껄~
+stops:
+  - id: 1-hyogo
+    city: hyogo
+    label: KOB
+    venue: kobe-international-house-kokusai-hall
+    performances:
+      - date: 2024-04-06
+        label: Noon
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Kobe|Day
+      - date: 2024-04-06
+        label: Evening
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Kobe|Night
+  - id: 2-tokyo
+    city: tokyo
+    label: TYS
+    venue: toyosu-pit
+    performances:
+      - date: 2024-04-13
+        label: Noon
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Tokyo|Day
+      - date: 2024-04-13
+        label: Evening
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Tokyo|Night
+  - id: 3-shizuoka
+    city: shizuoka
+    label: NMZ
+    venue: numazu-civic-cultural-center
+    performances:
+      - date: 2024-07-20
+        label: Noon
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Numazu|Day
+      - date: 2024-07-20
+        label: Evening
+        setlist:
+          - {type: other, label: Radio Part}
+          - {type: video, label: JIMO-AI Dash! Intermission}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/u-cyu
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc}
+          - {work: aqours/peace-piece-pizza}
+        external_ids:
+          fandom: Numazu|Night
+external_ids:
+  fandom: Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station 2 ~Kaettekita Babu Sotsu-Tachi! Radio & Live With YYY~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2024
+    checked: 2026-10-20
+  setlist.2024-04-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Uranohoshi_Girls'_High_School_RADIO!!!_JMA_Local_Broadcasting_Station_2_~Kaettekita_Babu_Sotsu-Tachi!_Radio_&_Live_With_YYY~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-04-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Uranohoshi_Girls'_High_School_RADIO!!!_JMA_Local_Broadcasting_Station_2_~Kaettekita_Babu_Sotsu-Tachi!_Radio_&_Live_With_YYY~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-07-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Uranohoshi_Girls'_High_School_RADIO!!!_JMA_Local_Broadcasting_Station_2_~Kaettekita_Babu_Sotsu-Tachi!_Radio_&_Live_With_YYY~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

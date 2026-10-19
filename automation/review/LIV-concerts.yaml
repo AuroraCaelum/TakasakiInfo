@@ -1,0 +1,962 @@
+type: new-names
+project: concerts
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! AZALEA 1st LoveLive! ～In The Dark /*秘密の物語*/～
+    title:
+      ja: ラブライブ！サンシャイン!! AZALEA 1st LoveLive! ～In The Dark /*秘密の物語*/～
+      rom: Love Live! Sunshine!! AZALEA 1st LoveLive! ~In The Dark /*Himitsu no Story*/~
+      ko: 러브 라이브! 선샤인!! AZALEA 1st LoveLive! ~In The Dark /*비밀 이야기*/~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ.php
+    note: "rom: 공식 월드와이드 뉴스의 영문 제목 그대로(Fandom과 같음). ko: 나무위키 문서명(秘密の物語 → 비밀 이야기) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20AZALEA%201st%20LoveLive!%20~In%20The%20Dark%20/*%EB%B9%84%EB%B0%80%20%EC%9D%B4%EC%95%BC%EA%B8%B0*/~. 일정 조사 메모: The official page prints the title with furigana (秘密(ひみつ)の物語(ストーリー)); the ruby is dropped here. AZALEA's earlier first-live attempts (AZALEA First LOVELIVE! ～Amazing Travel DNA～, Sendai 2020, and ～TRY AGAIN, 2021-02-27/28 at Musashino, sp_azalea1st.php) were not held (COVID-19, per Fandom) and have no set lists."
+    used_in: [aqours/azalea-1st]
+    ref: concert:aqours/azalea-1st
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! AZALEA 2nd LoveLive! ～Amazing Travel DNA Reboot～
+    title:
+      ja: ラブライブ！サンシャイン!! AZALEA 2nd LoveLive! ～Amazing Travel DNA Reboot～
+      rom: Love Live! Sunshine!! AZALEA 2nd LoveLive! ~Amazing Travel DNA Reboot~
+      ko: 러브 라이브! 선샤인!! AZALEA 2nd LoveLive! ~Amazing Travel DNA Reboot~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ2.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/azalea-2nd]
+    ref: concert:aqours/azalea-2nd
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+      rom: Love Live! Sunshine!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+      ko: 러브 라이브! 선샤인!! Aqours 2nd LoveLive! HAPPY PARTY TRAIN TOUR
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_2ndlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the Saitama venue as 「メットライフドーム（旧：西武プリンスドーム）」 and gives the Nagoya/Kobe dates without the year (8/5, 8/19 …); the year 2017 comes from the same page (the 2017年9月29日 notice) and agrees with Fandom.'
+    used_in: [aqours/aqours-2nd]
+    ref: concert:aqours/aqours-2nd
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours 3rd LoveLive! Tour ～WONDERFUL STORIES～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours 3rd LoveLive! Tour ～WONDERFUL STORIES～
+      rom: Love Live! Sunshine!! Aqours 3rd LoveLive! Tour ~WONDERFUL STORIES~
+      ko: 러브 라이브! 선샤인!! Aqours 3rd LoveLive! Tour ~WONDERFUL STORIES~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_3rdlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/aqours-3rd]
+    ref: concert:aqours/aqours-3rd
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours 4th LoveLive! ～Sailing to the Sunshine～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours 4th LoveLive! ～Sailing to the Sunshine～
+      rom: Love Live! Sunshine!! Aqours 4th LoveLive! ~Sailing to the Sunshine~
+      ko: 러브 라이브! 선샤인!! Aqours 4th LoveLive! ~Sailing to the Sunshine~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_4thlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/aqours-4th]
+    ref: concert:aqours/aqours-4th
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours 5th LoveLive! ～Next SPARKLING!!～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours 5th LoveLive! ～Next SPARKLING!!～
+      rom: Love Live! Sunshine!! Aqours 5th LoveLive! ~Next SPARKLING!!~
+      ko: 러브 라이브! 선샤인!! Aqours 5th LoveLive! ~Next SPARKLING!!~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_5thlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/aqours-5th]
+    ref: concert:aqours/aqours-5th
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours 6th LoveLive! ～KU-RU-KU-RU Rock 'n' Roll TOUR～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours 6th LoveLive! ～KU-RU-KU-RU Rock 'n' Roll TOUR～
+      rom: Love Live! Sunshine!! Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
+      ko: 러브 라이브! 선샤인!! Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official pages print the apostrophes as ASCII ('n'), the Fandom title_ja uses ‘n’. WINDY STAGE was announced as an additional show (追加公演) and has its own page (sp_6thlive_w.php). The original 「Aqours 6th LoveLive! DOME TOUR 2020」 (Nagoya/Saitama/Tokyo/Fukuoka/Osaka, 2020-09 to 2021-01, sp_dometour.php) was cancelled and is not included."
+    used_in: [aqours/aqours-6th]
+    ref: concert:aqours/aqours-6th
+  - kind: concert
+    printed: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 〜 Landing action Yeah!! 〜
+    title:
+      ja: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 〜 Landing action Yeah!! 〜
+      rom: Love Live! Sunshine!! Aqours Club Katsudou LIVE & FAN MEETING ~ Landing action Yeah!! ~
+      ko: 러브 라이브! 선샤인!! Aqours 클럽 활동 LIVE & FAN MEETING ~ Landing action Yeah!! ~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    note: "공식 영문 없음. Fandom은 クラブ活動을 'CLUB Activities'로 번역해서 외래어 복원+헵번으로 만듦(Club Katsudou). 〜 안쪽 공백은 공식 표기대로 둠(Fandom·나무위키는 공백 없이 ~Landing action Yeah!!~) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%ED%81%B4%EB%9F%BD%20%ED%99%9C%EB%8F%99%20LIVE%20%26%20FAN%20MEETING%20~Landing%20action%20Yeah!!~. 일정 조사 메모: Two legs on one Fandom page: the Japan leg (official sp_fmt.php) and 「Love Live! Sunshine!! Aqours Club Activity LIVE & FAN MEETING Trip to Asia -Landing action Yeah!!-」 (official worldwide page worldwide/fmt.php, which prints the Seoul/Shanghai/Taipei venues only in Korean/Chinese/English: KBS ARENA; 静安体育中心 体育馆 / JINGAN SPORTS CENTRE; 台北國際會議中心 (TICC); no Japanese notation found, so ja keeps the official non-Japanese form — TICC follows the Japanese notation of the 2019 ASIA TOUR page). Stops are in date order across both legs. Official show numbering ＜1回目＞/＜2回目＞ is written Noon/Evening as on Fandom. Fandom puts the noon and evening set lists of one day in a single tab (headed '''Noon:''' / '''Evening:'''), so those tabs map to both shows; the Taipei tab is ONE undivided list although the official page lists two shows (14:00 and 19:00) — mapped to both, which show it reflects is unknown. Numazu is printed 「沼津市民文化センター 大ホール」 here; the plain 「沼津市民文化センター」 used by the later Aqours pages is kept for one venue. Makuhari is printed 「幕張メッセ イベントホール」."
+    used_in: [aqours/club-fan-meeting-2017]
+    ref: concert:aqours/club-fan-meeting-2017
+  - kind: concert
+    printed: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 2018 ユニット対抗全国ツアー
+    title:
+      ja: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 2018 ユニット対抗全国ツアー
+      rom: Love Live! Sunshine!! Aqours Club Katsudou LIVE & FAN MEETING 2018 Unit Taikou Zenkoku Tour
+      ko: 러브 라이브! 선샤인!! Aqours 클럽 활동 LIVE & FAN MEETING 2018 유닛대항전국투어
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt2018.php
+    note: "공식 영문 없음. Fandom은 'Unit Battle Tour'로 번역해서 규칙으로 만듦(ユニット対抗全国ツアー → Unit Taikou Zenkoku Tour). ko: 나무위키 문서명에서 공식 제목에 없는 '~Hop! Step! Jump!~'는 뺌. 나무위키는 '유닛대항전국투어'를 붙여 씀(띄어 쓰면 '유닛 대항 전국 투어') 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%ED%81%B4%EB%9F%BD%20%ED%99%9C%EB%8F%99%20LIVE%20%26%20FAN%20MEETING%20~Hop!%20Step!%20Jump!~%202018%20%EC%9C%A0%EB%8B%9B%EB%8C%80%ED%95%AD%EC%A0%84%EA%B5%AD%ED%88%AC%EC%96%B4. 일정 조사 메모: Performers per stop (official): AZALEA — Nagoya, Sendai, Hiroshima; CYaRon! — Matsuyama, Kanazawa, Osaka; Guilty Kiss — Fukuoka, Chiba, Asahikawa; Numazu — CYaRon! (Day.1), AZALEA (Day.2 Noon), Guilty Kiss (Day.2 Evening); Tokyo — all three. The opening Sapporo show (ニトリ文化ホール, 2018-09-09, Guilty Kiss) was cancelled after the Hokkaido earthquake and replaced by Asahikawa. The 「最終決戦前夜祭!!」 talk event (2019-03-01, 武蔵野の森総合スポーツプラザ・メインアリーナ, a look-back talk with no live part per the official page) is not listed. Official ＜1回目＞/＜2回目＞ written Noon/Evening as on Fandom; Fandom tabs that hold a day's noon and evening lists (or one list for both, Tokyo) map to both shows. Venue printings: 日本特殊陶業市民会館フォレストホール (the existing venue entry, whose rom uses the post-2023 Niterra name; Fandom says NGK Spark Plug), 松山市民会館・大ホール, 福岡サンパレス ホテル＆ホール, 幕張イベントホール, 武蔵野の森総合スポーツプラザ・メインアリーナ."
+    used_in: [aqours/club-fan-meeting-2018]
+    ref: concert:aqours/club-fan-meeting-2018
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! 2023 ～It's a 無限大☆WORLD～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! 2023 ～It's a 無限大☆WORLD～
+      rom: Love Live! Sunshine!! Aqours EXTRA LoveLive! 2023 ~It's a Mugendai☆WORLD~
+      ko: 러브 라이브! 선샤인!! Aqours EXTRA LoveLive! 2023 ~It's a 무한대☆WORLD~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023
+    note: "rom: 공식 페이지 해외 배신 영문(Fandom과 같음). 공식은 'AqoursEXTRA'로 붙여 써서 오기로 보고 띄움. ko: 나무위키 문서명은 無限大를 한자 그대로 둬서 번역함(무한대) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023 ko: 번역안. 일정 조사 메모: Official venue printings: 武蔵野の森総合スポーツプラザ・メインアリーナ, 幕張メッセイベントホール. The page's <title> writes It’s (U+2019); the heading uses It's."
+    used_in: [aqours/extra-2023]
+    ref: concert:aqours/extra-2023
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! ～DREAMY CONCERT 2021～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours EXTRA LoveLive! ～DREAMY CONCERT 2021～
+      rom: Love Live! Sunshine!! Aqours EXTRA LoveLive! ~DREAMY CONCERT 2021~
+      ko: 러브 라이브! 선샤인!! Aqours EXTRA LoveLive! ~DREAMY CONCERT 2021~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_extra2021.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/extra-2021]
+    ref: concert:aqours/extra-2021
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～
+      rom: LoveLive! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~
+      ko: 러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale
+    note: "rom: 공식 페이지에 실린 영문은 해외 투어 패키지 안내의 'LoveLive! Sunshine!! … ～EIKYU stage～'뿐이라 그대로 씀. 시리즈명 고정형·장음 규칙과 다름. 대안은 Fandom 'Love Live! Sunshine!! Aqours Finale LoveLive! ~Eikyuu stage~'(테마곡 rom 'Eikyuu hours'와 맞음). ko: 나무위키는 永久stage를 한자 그대로 둬서 번역함. 테마곡 ko 초안 '영구hours'와 맞춤 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale ko: 번역안"
+    used_in: [aqours/aqours-finale]
+    ref: concert:aqours/aqours-finale
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours First LoveLive! ~Step! ZERO to ONE~
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours First LoveLive! ~Step! ZERO to ONE~
+      rom: Love Live! Sunshine!! Aqours First LoveLive! ~Step! ZERO to ONE~
+      ko: 러브 라이브! 선샤인!! Aqours First LoveLive! ~Step! ZERO to ONE~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_1stlive.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the title with ASCII tildes (~Step! ZERO to ONE~); Fandom's title_ja uses ～."
+    used_in: [aqours/aqours-1st]
+    ref: concert:aqours/aqours-1st
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours ONLINE LoveLive!
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours ONLINE LoveLive!
+      rom: Love Live! Sunshine!! Aqours ONLINE LoveLive!
+      ko: 러브 라이브! 선샤인!! Aqours ONLINE LoveLive!
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_onlinelive.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Two no-audience paid live streams with their own official titles: 「ラブライブ！サンシャイン!! Aqours ONLINE LoveLive! ～LOST WORLD～」 (sp_onlinelive.php) and 「ラブライブ！サンシャイン!! Aqours COUNTDOWN LoveLive! ～WHITE ISLAND～」 (sp_countdown.php). No official page names both; the umbrella title_ja follows the joint Blu-ray 「ラブライブ！サンシャイン!! Aqours ONLINE LoveLive! Blu-ray Memorial BOX」 (LABX-8480; product title seen on a retailer listing, https://shopping.bookoff.co.jp/used/0019614488). The Fandom page's own {{Nihongo}} is garbled (「ブライブ！サンシャイン!! Aqours ONLINE LoveLive!-」). The official pages name no studio, so venue is only online. Dates are the live-stream dates (Day.2 of WHITE ISLAND started 22:30 on 12-31)."
+    used_in: [aqours/aqours-online-2020]
+    ref: concert:aqours/aqours-online-2020
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局2 ～かえってきたバブ卒達！ラジオとライブでわいわいわい～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局2 ～かえってきたバブ卒達！ラジオとライブでわいわいわい～
+      rom: Love Live! Sunshine!! Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station 2 ~Kaettekita BABU-SOTSU tachi! YYY with RADIO and LIVE~
+      ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! JMA출장방송국2 ~돌아온 밥 졸업생들! 라디오와 라이브로 왁자지껄~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2024
+    note: "rom: 공식 해외 배신 영문인데 '2'가 빠져 있어 넣음(Fandom은 'Station 2'). ko: 나무위키 문서명(러브라이브! → 러브 라이브!, ～ 앞 공백은 ja대로). バブ를 나무위키가 '밥'으로 옮긴 것이 맞는지 확인 필요 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2024 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%EC%9A%B0%EB%9D%BC%EB%85%B8%ED%98%B8%EC%8B%9C%20%EC%97%AC%ED%95%99%EC%9B%90%20RADIO!!!%20JMA%EC%B6%9C%EC%9E%A5%EB%B0%A9%EC%86%A1%EA%B5%AD2~%EB%8F%8C%EC%95%84%EC%98%A8%20%EB%B0%A5%20%EC%A1%B8%EC%97%85%EC%83%9D%EB%93%A4!%20%EB%9D%BC%EB%94%94%EC%98%A4%EC%99%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A1%9C%20%EC%99%81%EC%9E%90%EC%A7%80%EA%BB%84~. 일정 조사 메모: Official stop names are 「… in KOB」, 「… in TYS」, 「… in NMZ」 (labels as Fandom writes them). Shows are ＜昼公演＞/＜夜公演＞ (Fandom tabs Day/Night), written Noon/Evening. The detail page's own <title> omits the ～ around the subtitle; the heading has them. Performers: わいわいわい (斉藤朱夏, 小林愛香, 降幡 愛)."
+    used_in: [aqours/jma-2024]
+    ref: concert:aqours/jma-2024
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局 ～バブ卒大集合！ラジオとライブでわいわいわい～
+    title:
+      ja: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局 ～バブ卒大集合！ラジオとライブでわいわいわい～
+      rom: Love Live! Sunshine!! Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station ~BABU-SOTSU Gathering! YYY with RADIO and LIVE~
+      ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! JMA출장방송국 ~밥졸업대집합! 라디오와 라이브로 왁자지껄~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2023
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom은 'Babu Sotsu Daishuugou! Radio & Live With YYY'). ko: 나무위키 문서명(러브라이브! → 러브 라이브!, ～ 앞 공백은 ja대로). バブ卒 → '밥졸업'이 맞는지 확인 필요 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%EC%9A%B0%EB%9D%BC%EB%85%B8%ED%98%B8%EC%8B%9C%20%EC%97%AC%ED%95%99%EC%9B%90%20RADIO!!!%20JMA%EC%B6%9C%EC%9E%A5%EB%B0%A9%EC%86%A1%EA%B5%AD~%EB%B0%A5%EC%A1%B8%EC%97%85%EB%8C%80%EC%A7%91%ED%95%A9!%20%EB%9D%BC%EB%94%94%EC%98%A4%EC%99%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A1%9C%20%EC%99%81%EC%9E%90%EC%A7%80%EA%BB%84~. 일정 조사 메모: The middle stop 「in NMB」 (大阪・Zepp Namba, 2023-06-03, two shows) was cancelled (official refund notice https://www.lovelive-anime.jp/news/01_2155.html; Fandom says weather) and is left out, so the held stops are numbered 1–2. ＜昼公演＞/＜夜公演＞ written Noon/Evening (Fandom tabs Day/Night). 降幡 愛 did not appear at in NMZ (official notice)."
+    used_in: [aqours/jma-2023]
+    ref: concert:aqours/jma-2023
+  - kind: concert
+    printed: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+    title:
+      ja: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+      rom: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+      ko: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=45
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No Japanese-language official page found; title, date and venue come from the official worldwide (English) news (2018/04/26 and 2018/06/12 items on the Event news list, page offset=45): held 2018-07-04 (local time) at the Microsoft Theater, Los Angeles, as part of Anisong World Matsuri at Anime Expo 2018 (full billing: 「… ~Beyond the Pacific~ Supported by Anisong World Matsuri at Anime Expo 2018」). The title is English on the official site, so title_ja and venue ja keep it.'
+    used_in: [aqours/world-la-2018]
+    ref: concert:aqours/world-la-2018
+  - kind: concert
+    printed: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! ASIA TOUR 2019
+    title:
+      ja: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! ASIA TOUR 2019
+      rom: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! ASIA TOUR 2019
+      ko: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! ASIA TOUR 2019
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_asiatour.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Fandom has only two tabs and states 'These setlists pertained to every leg of the tour', so Day 1 / Day 2 map to that day at all four stops. Seoul: Fandom's KBS Arena is the venue first announced (anime.eiga.com 2018-11-18); the official worldwide news of 2019/02/18 (https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25) announced the change KBS 아레나 → 고려대학교 화정체육관 (dates unchanged), and sp_asiatour.php prints 「高麗大学 化汀体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)」. Shanghai official English: National Exhibition and Convention Center (shanghai) EH. Chiba printed 「幕張イベントホール」. 小宮有紗 missed parts of the tour (hives), per Fandom."
+    used_in: [aqours/world-asia-2019]
+    ref: concert:aqours/world-asia-2019
+  - kind: concert
+    printed: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ～BRAND NEW WAVE～
+    title:
+      ja: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ～BRAND NEW WAVE～
+      rom: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ~BRAND NEW WAVE~
+      ko: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ~BRAND NEW WAVE~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No Japanese-language official page found; from the official worldwide news 「【LA】Aqours announces two days performance in Los Angeles at Anime Expo 2019」 (2019/05/17, Event news list page offset=25): The Novo, downtown Los Angeles, July 5 (7:00pm) and July 6 (1:00pm), 2019 (local dates). 小宮有紗 did not appear (same notice).'
+    used_in: [aqours/world-la-2019]
+    ref: concert:aqours/world-la-2019
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! CYaRon！2nd LoveLive! ～大革命☆Wake Up Kingdom～
+    title:
+      ja: ラブライブ！サンシャイン!! CYaRon！2nd LoveLive! ～大革命☆Wake Up Kingdom～
+      rom: Love Live! Sunshine!! CYaRon! 2nd LoveLive! ~Dai Kakumei☆Wake Up Kingdom~
+      ko: 러브 라이브! 선샤인!! CYaRon! 2nd LoveLive! ~대혁명☆Wake Up Kingdom~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_CYR.php
+    note: "공식 영문 못 찾음. 大革命은 Fandom 표기(Dai Kakumei, 규칙대로면 Daikakumei). 전각 'CYaRon！2nd'는 반각으로 바꾸며 띄움 외부 근거: rom: https://love-live.fandom.com/wiki/CYaRon!_2nd_LoveLive!_~Dai_Kakumei%E2%98%86Wake_Up_Kingdom~ ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20CYaRon!%202nd%20LoveLive!%20~%EB%8C%80%ED%98%81%EB%AA%85%E2%98%86Wake%20Up%20Kingdom~. 일정 조사 메모: Official page prints the title with a full-width ！ and no space (CYaRon！2nd) and the venue as 「幕張メッセ 国際展示場」 without hall numbers; Fandom says International Exhibition Hall 1-3 (not confirmed officially)."
+    used_in: [aqours/cyaron-2nd]
+    ref: concert:aqours/cyaron-2nd
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Guilty Kiss 2nd LoveLive! ～Return To Love ♡ Kiss Kiss Kiss～
+    title:
+      ja: ラブライブ！サンシャイン!! Guilty Kiss 2nd LoveLive! ～Return To Love ♡ Kiss Kiss Kiss～
+      rom: Love Live! Sunshine!! Guilty Kiss 2nd LoveLive! ~Return To Love ♡ Kiss Kiss Kiss~
+      ko: 러브 라이브! 선샤인!! Guilty Kiss 2nd LoveLive! ~Return To Love ♡ Kiss Kiss Kiss~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_GK.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/guilty-kiss-2nd]
+    ref: concert:aqours/guilty-kiss-2nd
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+    title:
+      ja: ラブライブ！サンシャイン!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+      rom: Love Live! Sunshine!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+      ko: 러브 라이브! 선샤인!! Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=GKSS_TWO-MAN
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [aqours/gkss-two-man-vs]
+    ref: concert:aqours/gkss-two-man-vs
+  - kind: concert
+    printed: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+    title:
+      ja: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+      rom: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+      ko: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_uc.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Performers: Saint Snow, CYaRon!, AZALEA, Guilty Kiss. The official heading separates words with an ideographic space and no-break spaces (normalised to plain spaces here); the Fandom page has no {{Nihongo}} title.'
+    used_in: [aqours/hakodate-unit-carnival]
+    ref: concert:aqours/hakodate-unit-carnival
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! 沼津地元愛まつり
+    title:
+      ja: ラブライブ！サンシャイン!! 沼津地元愛まつり
+      rom: Love Live! Sunshine!! Numazu Jimoai Matsuri
+      ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_jimoai2022.php
+    note: "2022 페이지엔 영문이 없어 2023~2025 공식 영문(Numazu Jimoai Matsuri)을 따름. Fandom은 'Jimo Ai Festival'. ko: 나무위키는 地元愛まつり를 번역하지 않고 음역함(번역하면 '지역 사랑 축제') 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC(2022). 일정 조사 메모: Day.1 (2022-08-11, ＜昼公演＞/＜夜公演＞) was 「Aqours浦の星女学院RADIO!!! JMA放送局～スペシャル公開録音～」 (斉藤朱夏, 小林愛香, 降幡 愛), a radio public recording; Fandom says it had no singing portion and gives no set list, so its two shows are listed without fandom — drop them if radio-only shows are not wanted. Days 2-3 were 「Aqours クラブ活動 LIVE & FAN MEETING」. The official page (sp_jimoai2022.php) is linked from live_archive.php, not from the current live list."
+    used_in: [aqours/jimoai-2022]
+    ref: concert:aqours/jimoai-2022
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! 沼津地元愛まつり 2023
+    title:
+      ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2023
+      rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2023
+      ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2023
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2023
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom 'Jimo Ai Festival'). ko: 나무위키 문서명(음역) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC%202023. 일정 조사 메모: Talk, live and a 「幻日のヨハネ」 reading-drama part (official)."
+    used_in: [aqours/jimoai-2023]
+    ref: concert:aqours/jimoai-2023
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! 沼津地元愛まつり 2024
+    title:
+      ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2024
+      rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2024
+      ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2024
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=jimoai2024
+    note: "rom: 공식 해외 배신 영문 그대로. ko: 나무위키 문서명(음역) 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=jimoai2024 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC%202024. 일정 조사 메모: 斉藤朱夏 withdrew from Day.3 (official notice https://www.lovelive-anime.jp/news/01_3847.html); Fandom's intro still lists her."
+    used_in: [aqours/jimoai-2024]
+    ref: concert:aqours/jimoai-2024
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! 沼津地元愛まつり 2025
+    title:
+      ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2025
+      rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2025
+      ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2025
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2025
+    note: 'rom: 공식 해외 배신 영문 그대로. ko: 나무위키 문서명(음역) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2025 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC%202025'
+    used_in: [aqours/jimoai-2025]
+    ref: concert:aqours/jimoai-2025
+  - kind: concert
+    printed: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+    title:
+      ja: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+      rom: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+      ko: LOVELIVE! SUNSHINE!! UNIT LIVE ADVENTURE 2020
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unitlive.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop titles: 「Guilty Kiss First LOVELIVE! ~ New Romantic Sailors ~」 and 「CYaRon！First LOVELIVE! ~ Braveheart Coaster ~」. Venues printed 「東京／武蔵野の森総合スポーツプラザ・メインアリーナ」 and 「福岡／西日本総合展示場 新館 ABC」 (halls A-C of the existing 西日本総合展示場 新館 entry). The page's AZALEA First LOVELIVE! ～Amazing Travel DNA～ (ゼビオアリーナ仙台, 2020-03-07/08, then 06-03/04) and 追加公演 ～PERFECT WORLD～ (さいたまスーパーアリーナ, 2020-05-09/10) were cancelled (COVID-19; official page and Fandom) and are left out."
+    used_in: [aqours/unit-live-adventure-2020]
+    ref: concert:aqours/unit-live-adventure-2020
+  - kind: concert
+    printed: ラブライブ！サンシャイン!! Saint Snow 1st GIG ～Welcome to Dazzling White Town～
+    title:
+      ja: ラブライブ！サンシャイン!! Saint Snow 1st GIG ～Welcome to Dazzling White Town～
+      rom: Love Live! Sunshine!! Saint Snow 1st GIG ~Welcome to Dazzling White Town~
+      ko: 러브 라이브! 선샤인!! Saint Snow 1st GIG ~Welcome to Dazzling White Town~
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_saintsnow1st.php
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official shows: Yokohama Day.1 one show, Day.2 two shows (＜1回目＞13:00, ＜2回目＞18:00); Sapporo Day.1 two shows, Day.2 one show. Fandom's Makomanai Day 1 tab holds both lists (Noon/Evening); its Pia Arena MM Day 2 tab is ONE undivided list although there were two shows — mapped to both, which show it reflects is unknown. The Sapporo venue is the naming-rights name printed in 2020 (真駒内セキスイハイムアイスアリーナ; Fandom: Makomanai Ice Arena). Fandom's title_ja lacks the closing ～."
+    used_in: [aqours/saint-snow-1st]
+    ref: concert:aqours/saint-snow-1st
+  - kind: concert
+    printed: 幻日のヨハネ -The Story of the Sound of Heart-
+    title:
+      ja: 幻日のヨハネ -The Story of the Sound of Heart-
+      rom: Yohane the Parhelion -The Story of the Sound of Heart-
+      ko: 환일의 요하네 -The Story of the Sound of Heart-
+    status: derived
+    source: https://www.yohane.net/event/detail/?page=yohane_sound_of_heart
+    note: "공식 페이지 영문은 'YOHANE THE PARHELION -The Story of the Sound of Heart-'(대문자 표기). 철자가 같아 시리즈명 고정형(프로젝트 rom)으로 씀. Fandom과 같음 외부 근거: rom: https://www.yohane.net/event/detail/?page=yohane_sound_of_heart ko: https://namu.wiki/w/%ED%99%98%EC%9D%BC%EC%9D%98%20%EC%9A%94%ED%95%98%EB%84%A4%20-The%20Story%20of%20the%20Sound%20of%20Heart-. 일정 조사 메모: Official venue printing: 武蔵野の森総合スポーツプラザ・メインアリーナ (existing venue entry reused)."
+    used_in: [yohane/sound-of-heart]
+    ref: concert:yohane/sound-of-heart
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ デビューミニアルバム発売記念イベント「Dream Believers」
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ デビューミニアルバム発売記念イベント「Dream Believers」
+      rom: Love Live! Hasunosora Girls' High School Idol Club Debut Mini Album Hatsubai Kinen Event "Dream Believers"
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 데뷔 미니앨범 발매 기념 이벤트 「Dream Believers」
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RME
+    note: "공식 영문 없음. Fandom은 'Debut Mini Album \"Dream Believers\" Release Memorial Event'로 번역·재배열해서 규칙으로 만듦. 「」는 rom에서 \"\"(기존 데이터 관례). ko: 하스노소라 문서 '라이브 및 이벤트' 문단 표기(별도 문서 없음) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%ED%95%98%EC%8A%A4%EB%85%B8%EC%86%8C%EB%9D%BC%20%EC%97%AC%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%81%B4%EB%9F%BD. 일정 조사 메모: The official list and the page's <title> print the name as 「ラブライブ！蓮ノ空女学院スクールアイドルクラブ デビューミニアルバム発売記念イベント「Dream Believers」特設サイト」, and the page heading prints just 「デビューミニアルバム発売記念イベント「Dream Believers」」. title_ja keeps the series prefix and drops 「特設サイト」 (which means \"special site\"). The event was billed as a talk, a live set and a send-off (トーク＆ライブ＆お見送り会), with one show."
+    used_in: [hasunosora/hasu-debut-event]
+    ref: concert:hasunosora/hasu-debut-event
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103-105th Fes×ReC：LIVE ～Road to Bloom～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103-105th Fes×ReC：LIVE ～Road to Bloom～
+      rom: Love Live! Hasunosora Girls' High School Idol Club 103-105th Fes×ReC:LIVE ~Road to Bloom~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 103-105th Fes×ReC:LIVE ~Road to Bloom~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RTB
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page numbers the four shows straight through: ＜第1回公演＞ on 1/21 at 19:00, then ＜第2回公演＞ at 11:30, ＜第3回公演＞ at 14:30 and ＜第4回公演＞ at 19:00 on 1/22. The labels number the shows within each day instead. This page prints the venue as 「Zepp Haneda（TOKYO）」 with full-width parentheses. It is the same venue as 103期 Fes×ReC (FRL), whose page prints 「Zepp Haneda(TOKYO)」, so both concerts use that one name. A Fes×ReC: LIVE is a virtual live: the characters perform as 3D models.'
+    used_in: [hasunosora/hasu-fesrec-road-to-bloom]
+    ref: concert:hasunosora/hasu-fesrec-road-to-bloom
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103期Fes×ReC：LIVE ～first crossing～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103期Fes×ReC：LIVE ～first crossing～
+      rom: "Love Live! Hasunosora Girls' High School Idol Club 103rd Fes×ReC: LIVE ~first crossing~"
+      ko: '러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 103기 Fes×ReC: LIVE ~first crossing~'
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL
+    note: "공식 영문 없음. 103期 → 103rd/103기는 기존 데이터 관례(104th Ver./104기 Ver.). 전각 ：는 ': '로(Fandom 표기와 같게 뒤에 공백) 외부 근거: rom: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103rd_Fes%C3%97ReC:_LIVE_~first_crossing~ ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%ED%95%98%EC%8A%A4%EB%85%B8%EC%86%8C%EB%9D%BC%20%EC%97%AC%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%81%B4%EB%9F%BD%20103%EA%B8%B0%20Fes%C3%97ReC%EF%BC%9ALIVE%20%EF%BD%9Efirst%20crossing%EF%BD%9E. 일정 조사 메모: The official site gives the Osaka run its own page, 「…103期Fes×ReC：LIVE ～first crossing～【追加公演】」 (p=FRLa, 【追加公演】 = \"additional performance\"). Fandom keeps both runs on one page, so they are two stops of one concert here, and the label translates 【追加公演】. Day 2 of each run had shows starting at 13:00, 16:00 and 19:00 (from the official pages). This is a virtual live."
+    used_in: [hasunosora/hasu-fesrec-first-crossing]
+    ref: concert:hasunosora/hasu-fesrec-first-crossing
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 2nd Live Tour 〜Blooming with ○○○〜
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 2nd Live Tour 〜Blooming with ○○○〜
+      rom: Love Live! Hasunosora Girls' High School Idol Club 2nd Live Tour ~Blooming with ○○○~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 2nd Live Tour ~Blooming with ○○○~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=BLW
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page writes the title with 〜 (U+301C), while the Blu-ray product page writes ～ (U+FF5E). title_ja follows the live page. namu.wiki writes the venues as 「마쿠하리 멧세 전시장 1~3관」 and 「고베 월드 기념홀」; ko follows the Japanese more closely. The 104th-class cast (Sakurai Hina, Hayama Fuka, Kurusu Rin) appeared as guests.'
+    used_in: [hasunosora/hasu-2nd]
+    ref: concert:hasunosora/hasu-2nd
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 3rd Live Tour TRY TRI UNITY!!!
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 3rd Live Tour TRY TRI UNITY!!!
+      rom: Love Live! Hasunosora Girls' High School Idol Club 3rd Live Tour TRY TRI UNITY!!!
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 3rd Live Tour TRY TRI UNITY!!!
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/bd/hasunosora?p=01_4711
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official site has no page for the tour as a whole: each stop has its own live page. The three unit stops are 「3rd Live Tour TRY TRI UNITY!!! with みらくらぱーく！／with DOLLCHESTRA／with スリーズブーケ」. The Ryogoku stop is 「Live & Fan Meeting TRY TRY UNITY!!!」, which the official English text calls \"3rd Live Tour Live & Fan Meeting TRY TRY UNITY!!!\". The Yokohama finale is 「3rd Live Tour TRI TRI UNITY!!!」. The TRY/TRI spellings are intentional: goods and Blu-ray BOX 2 also say \"TRI TRI UNITY!!!\". title_ja and title_source come from Blu-ray Memorial BOX 1, 「…3rd Live Tour TRY TRI UNITY!!! Blu-ray Memorial BOX」. BOX 2, 「…3rd Live Tour TRI TRI UNITY!!! Blu-ray Memorial BOX」 (https://www.lovelive-anime.jp/hasunosora/music/bd/hasunosora?p=01_4710), holds Yokohama Day.1 and Fan Meeting Day.2. The stop labels are the official stop names, with the unit names spelled as Fandom spells them. Fandom's own headers are shorter: Mira-Cra Park! / DOLLCHESTRA / Cerise Bouquet / Live & Fan Meeting / Hasunosora. The official pages prefix the venues with the prefecture (e.g. 「東京・立川ステージガーデン」); that prefix is dropped from venue.ja. Edel Note's Shindou Amane was a guest at Yokohama (from Fandom)."
+    used_in: [hasunosora/hasu-3rd]
+    ref: concert:hasunosora/hasu-3rd
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 4th Live Dream ～Bloom, The Dream Believers～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 4th Live Dream ～Bloom, The Dream Believers～
+      rom: Love Live! Hasunosora Girls' High School Idol Club 4th Live Dream ~Bloom, The Dream Believers~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 4th Live Dream ~Bloom, The Dream Believers~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=BTDB
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page names the stops ＜石川公演＞, ＜兵庫公演＞ and ＜102期卒業公演＞. The third stop's label uses the official English, \"The 102nd Class Graduation Performance\". Fandom's section is \"Kanagawa\", and its trivia calls the stop \"102 Graduation Performance\". The Ｋ in 「Ｋアリーナ横浜」 is full-width, as the page prints it. Edel Note (Miyake Miu, Shindou Amane) appeared as guests. This was the 102nd class's graduation concert. Its cast (Hanamiya Nina, Sasaki Kotoko, Tsukine Kona) came back later for the 6th Live's Bloom Garden Party Stage."
+    used_in: [hasunosora/hasu-4th]
+    ref: concert:hasunosora/hasu-4th
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 5th Live Tour ～4Pair Power Spread!!!!～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 5th Live Tour ～4Pair Power Spread!!!!～
+      rom: Love Live! Hasunosora Girls' High School Idol Club 5th Live Tour ~4Pair Power Spread!!!!~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 5th Live Tour ~4Pair Power Spread!!!!~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=4PPS
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official full name of the Tokyo stop is ＜みらくらぱーく！ presents Heart Stage cross Bloom Days Extra ～Fes×ReC：LIVE～＞ (official English: \"Mira-Cra Park! presents Heart Stage cross Bloom Days Extra ～Fes×ReC：LIVE～\"). The label uses Fandom's shorter form. The page says this stop alone opened with a virtual live by the members. Fandom lists that virtual live as its own section with one untitled tab, marked \"Same on both days\", so it is mapped to both Tokyo shows next to the \"Live\" tabs. The Aichi venue is the existing venue aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a, with its names reused exactly. The 102nd-class cast did not perform on this tour."
+    used_in: [hasunosora/hasu-5th]
+    ref: concert:hasunosora/hasu-5th
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 6th Live Dream ～Bloom Garden Party～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 6th Live Dream ～Bloom Garden Party～
+      rom: Love Live! Hasunosora Girls' High School Idol Club 6th Live Dream ~Bloom Garden Party~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 6th Live Dream ~Bloom Garden Party~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=6thBGP
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official stop names are ＜Bloom Stage／福岡公演＞, ＜Garden Stage／兵庫公演＞, ＜Party Stage／神奈川公演＞ and ＜Bloom Garden Party Stage／埼玉公演＞. Same venue as the 2nd Live Tour's Hyogo stop (神戸ワールド記念ホール), so the same names are used. Cast notes from the official page: Kan Kanna (Osawa Rurino) sat out the Party Stage because of illness, and Hanamiya Nina, Sasaki Kotoko and Tsukine Kona joined the Bloom Garden Party Stage only."
+    used_in: [hasunosora/hasu-6th]
+    ref: concert:hasunosora/hasu-6th
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ OPENING LIVE EVENT～Bloom the Dream～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ OPENING LIVE EVENT～Bloom the Dream～
+      rom: Love Live! Hasunosora Girls' High School Idol Club OPENING LIVE EVENT~Bloom the Dream~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 OPENING LIVE EVENT~Bloom the Dream~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=OLE
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The page lists two shows on the same day: ＜昼公演＞ at 14:30 and ＜夜公演＞ at 18:30. Its English text calls them <DAY> and <NIGHT>. ko follows namu.wiki (「퍼시피코 요코하마 국립 대홀」).'
+    used_in: [hasunosora/hasu-opening]
+    ref: concert:hasunosora/hasu-opening
+  - kind: concert
+    printed: ラブライブ！蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～
+    title:
+      ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～
+      rom: Love Live! Hasunosora Girls' High School Idol Club Mira-Cra Park! Radio Koukai Rokuon ~Natsu no Daihoshuu Matsuri~
+      ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 미라쿠라파크! 라디오 공개 녹음 ~여름의 대보충학습 축제~
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR
+    note: "rom: 공식 영문 없음. 夏の大補習まつり는 Fandom, ラジオ公開録音은 Fandom이 'Radio Public Recording'으로 번역해서 규칙으로(Radio Koukai Rokuon). Fandom이 넣은 ':'는 뺌. ko: 나무위키 표기 없음. 補習은 나무위키 라디오명 '미라쿠라 보충학습실 라디오'에 맞춰 '보충학습', まつり는 번역(축제) 외부 근거: rom: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club:_Mira-Cra_Park!_Radio_Public_Recording_~Natsu_no_Daihoshuu_Matsuri~ ko: 번역안. 일정 조사 메모: This is a public radio recording by Mira-Cra Park! with a live part, which Fandom lists as a set list. It is kept as an event of the franchise's own performers. The page lists 8/24 as ＜昼公演＞ at 14:00 and ＜夜公演＞ at 17:30, and its English text uses [Day.1] and [Day.2] <DAY>/<NIGHT>. Guests: Cerise Bouquet on 8/23 and DOLLCHESTRA at the 8/24 day show."
+    used_in: [hasunosora/hasu-miracra-radio]
+    ref: concert:hasunosora/hasu-miracra-radio
+  - kind: concert
+    printed: いきづらい部！ 1st LIVE ～ What is my L ? ～
+    title:
+      ja: いきづらい部！ 1st LIVE ～ What is my L ? ～
+      rom: Ikizuraibu! 1st LIVE ~ What is my L ? ~
+      ko: 이키즈라이부! 1st LIVE ~ What is my L ? ~
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=WhatismyL
+    note: "그룹명 rom은 저장소 결정 Ikizuraibu!(D38. Fandom과 의뢰 문구는 'Ikizurai-Bu!'). 라틴 부분은 공식 표기 공백 그대로(Fandom '~What is my L?~', 나무위키 '～ What is my L? ～'). ko: 나무위키 문서명 외부 근거: rom: 결정 D38 (그룹명 Ikizuraibu!) ko: https://namu.wiki/w/%EC%9D%B4%ED%82%A4%EC%A6%88%EB%9D%BC%EC%9D%B4%EB%B6%80!%201st%20LIVE%20%EF%BD%9E%20What%20is%20my%20L%3F%20%EF%BD%9E. 일정 조사 메모: The official title has spaces inside the tildes and before the question mark (「～ What is my L ? ～」), and title_ja keeps them. It has no series prefix. Fandom gives one set list for both days, so it is mapped to both shows."
+    used_in: [ikizulive/ikizu-1st]
+    ref: concert:ikizulive/ikizu-1st
+  - kind: concert
+    printed: いきづらい部！ 2nd LIVE Dou-Da? DOING! ～Reply to L～
+    title:
+      ja: いきづらい部！ 2nd LIVE Dou-Da? DOING! ～Reply to L～
+      rom: Ikizuraibu! 2nd LIVE Dou-Da? DOING! ~Reply to L~
+      ko: 이키즈라이부! 2nd LIVE Dou-Da? DOING! ~Reply to L~
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE
+    note: "공식 해외 배신 영문은 'IKIZULIVE! 2nd LIVE Dou-Da? DOING! ～Reply to L～'인데 그룹명 대신 프로젝트명을 넣은 것이라 쓰지 않음(채택할지 확인). 그룹명 rom은 D38(Fandom 'Ikizurai-Bu!'). ko: 나무위키 문서명 외부 근거: rom: 결정 D38 (그룹명 Ikizuraibu!) ko: https://namu.wiki/w/%EC%9D%B4%ED%82%A4%EC%A6%88%EB%9D%BC%EC%9D%B4%EB%B6%80!%202nd%20LIVE%20Dou-Da%3F%20DOING!%20~Reply%20to%20L~. 일정 조사 메모: 京王アリーナTOKYO is the naming-rights name of 武蔵野の森総合スポーツプラザ since 2025-05-01. Keio Electric Railway bought the rights; this is confirmed by press reports and the facility site keio-arena.tokyo. So this is the existing venue musashino-no-mori-sogo-sports-plaza-main-arena (used by the Hasunosora 1st Live Tour in 2023), which needs a second, dated name entry. That is why the venue carries an extra key, \"existing\", which is not part of the brief's schema. The official live page prints 「京王アリーナ TOKYO」 with a space, while the facility writes 「京王アリーナTOKYO」. ko follows namu.wiki (「케이오 아레나 TOKYO」)."
+    used_in: [ikizulive/ikizu-2nd]
+    ref: concert:ikizulive/ikizu-2nd
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 2nd LoveLive! ～What a Wonderful Dream!!～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 2nd LoveLive! ～What a Wonderful Dream!!～
+      rom: Love Live! Superstar!! Liella! 2nd LoveLive! ~What a Wonderful Dream!!~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 2nd LoveLive! ~What a Wonderful Dream!!~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_2ndlive/
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the Osaka run under its own title 「…～What a Wonderful Dream!!～ with Yuigaoka Girls Band」 (kept as the stop label). Fandom has a single Osaka set list marked 'Same on both days', so its one tab is mapped to both Osaka shows."
+    used_in: [liella/liella-2nd]
+    ref: concert:liella/liella-2nd
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 3rd LoveLive! Tour ～WE WILL!!～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 3rd LoveLive! Tour ～WE WILL!!～
+      rom: Love Live! Superstar!! Liella! 3rd LoveLive! Tour ~WE WILL!!~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 3rd LoveLive! Tour ~WE WILL!!~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=3rdlive
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Aichi: the official page prints 「AICHI SKY EXPO ホール A」; the existing venue's names are reused. Fandom's 'Chiba, Tokyo' for Makuhari is wrong (Makuhari Messe is in Chiba City); its section 'Chofu' is the Tokyo stop."
+    used_in: [liella/liella-3rd]
+    ref: concert:liella/liella-3rd
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 4th LoveLive! Tour ～brand new Sparkle～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 4th LoveLive! Tour ～brand new Sparkle～
+      rom: Love Live! Superstar!! Liella! 4th LoveLive! Tour ~brand new Sparkle~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 4th LoveLive! Tour ~brand new Sparkle~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=4thlive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Stop names as Fandom writes them; the official page prints 千葉公演＜KALEIDOSCORE edition＞ / 愛知公演＜CatChu! edition＞ / 東京公演＜5yncri5e! edition＞. The Nagoya venue is printed 「ポートメッセなごや 新第１展示館」 (full-width １, kept as printed); later official pages (8th Tour, 2027) print the same hall as 「ポートメッセなごや 第1展示館」, so it may become one venue with two period names.'
+    used_in: [liella/liella-4th]
+    ref: concert:liella/liella-4th
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 5th LoveLive! ～Twinkle Triangle～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 5th LoveLive! ～Twinkle Triangle～
+      rom: Love Live! Superstar!! Liella! 5th LoveLive! ~Twinkle Triangle~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 5th LoveLive! ~Twinkle Triangle~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=5thlive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [liella/liella-5th]
+    ref: concert:liella/liella-5th
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour ～Let's be ONE～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour ～Let's be ONE～
+      rom: Love Live! Superstar!! Liella! 6th LoveLive! Tour ~Let's be ONE~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 6th LoveLive! Tour ~Let's be ONE~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=6thlive
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Aichi: the official page prints 「AICHI SKY EXPO ホール A」; the existing venue's names are reused. Osaka was Fri-Sat (6/13-6/14), as printed."
+    used_in: [liella/liella-6th]
+    ref: concert:liella/liella-6th
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～
+      rom: Love Live! Superstar!! Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
+      ko: 러브 라이브! 슈퍼스타!! Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=7thlive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the venues with a prefecture prefix (「神奈川・横浜アリーナ」, 「愛知・Aichi Sky Expo（愛知県国際展示場）ホールA」); the prefix is dropped here.'
+    used_in: [liella/liella-7th]
+    ref: concert:liella/liella-7th
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! First Generation LoveLive! ～Wonderful Starlines～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! First Generation LoveLive! ～Wonderful Starlines～
+      rom: Love Live! Superstar!! Liella! First Generation LoveLive! ~Wonderful Starlines~
+      ko: 러브 라이브! 슈퍼스타!! Liella! First Generation LoveLive! ~Wonderful Starlines~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=1stgenlive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Performed by the five first-generation members only (出演: Liella! 1期生).'
+    used_in: [liella/liella-1st-gen]
+    ref: concert:liella/liella-1st-gen
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! ライブ＆ファンミーティングツアー ～Welcome to Yuigaoka!!～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! ライブ＆ファンミーティングツアー ～Welcome to Yuigaoka!!～
+      rom: Love Live! Superstar!! Liella! LIVE & FAN MEETING TOUR ~Welcome to Yuigaoka!!~
+      ko: 러브 라이브! 슈퍼스타!! Liella! LIVE & FAN MEETING TOUR ~Welcome to Yuigaoka!!~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_fmt/
+    note: "공식 영문 없음. ライブ＆ファンミーティングツアー는 Fandom 표기로 원어 복원. ko: 나무위키 문서명은 'LIVE&FAN MEETING Tour'(부제 없음)라 원어 부분을 rom과 같게 맞춤. 유닛 투어 문서처럼 음역하면 '라이브&팬미팅 투어' 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~ ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella!%20LIVE%26FAN%20MEETING%20Tour. 일정 조사 메모: Two shows a day (official wording 1回目/2回目, written Noon/Evening here) except Nagoya Day 1, which had one show. Official start times: Osaka 6/11 15:30・19:00, 6/12 15:00・18:30; Tokyo 6/18 15:00・19:00, 6/19 14:00・18:00; Nagoya 6/25 15:30 only, 6/26 12:00・15:30 (the Nagoya 'Evening' show starts 15:30). Fandom gives one set list per day (its gallery separates 'Day 1 (Noon)'/'Day 1 (Evening)' for Osaka), so each Day tab is mapped to both shows of that day; LiveFans lists Shooting Voice!! (Fandom Day 2 opener) at both 6/12 shows and both 6/26 shows, consistent with that. The official Blu-ray page writes the title 「ラブライブ！スーパースター!! Liella! LIVE & FAN Meeting Tour ～Welcome to Yuigaoka!!～」; title_ja follows the live page. Second-generation members appeared in the talk part only."
+    used_in: [liella/liella-fmt]
+    ref: concert:liella/liella-fmt
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! Special LoveLive! ～Connect the Stars～
+    title:
+      ja: ラブライブ！スーパースター!! Liella! Special LoveLive! ～Connect the Stars～
+      rom: Love Live! Superstar!! Liella! Special LoveLive! ~Connect the Stars~
+      ko: 러브 라이브! 슈퍼스타!! Liella! Special LoveLive! ~Connect the Stars~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=splive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Guest: Sunny Passion. The official page prints the venue as 「東京・有明アリーナ」.'
+    used_in: [liella/liella-connect-the-stars]
+    ref: concert:liella/liella-connect-the-stars
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! ユニットライブ＆ファンミーティングツアー 心・技・体！極上大冒険!!
+    title:
+      ja: ラブライブ！スーパースター!! Liella! ユニットライブ＆ファンミーティングツアー 心・技・体！極上大冒険!!
+      rom: Love Live! Superstar!! Liella! UNIT LIVE & FAN Meeting Tour MUSIC, TALK & TEAMWORK! Prime Adventure!!
+      ko: 러브 라이브! 슈퍼스타!! Liella! 유닛 라이브&팬미팅 투어 뮤직 토크 팀워크! 프라임 어드벤처!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive
+    note: "rom: 공식 해외 배신 영문 그대로(투어 패키지 안내는 'LoveLive! Superstar!!'). Fandom은 'Music-Talk-Teamwork! Prime Adventure!!'. ko: 나무위키 문서명은 心・技・体！極上大冒険!!을 공식 영문에 맞춰 옮김(직역하면 '심·기·체! 극상 대모험!!') 외부 근거: rom: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella!%20%EC%9C%A0%EB%8B%9B%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%26%ED%8C%AC%EB%AF%B8%ED%8C%85%20%ED%88%AC%EC%96%B4%20%EB%AE%A4%EC%A7%81%20%ED%86%A0%ED%81%AC%20%ED%8C%80%EC%9B%8C%ED%81%AC!%20%ED%94%84%EB%9D%BC%EC%9E%84%20%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98!!. 일정 조사 메모: Chapters 1-2: one show on Day 1 and two on Day 2 (official wording １回目/２回目, starts 13:00 and 17:30, written Noon/Evening here; Fandom tabs 'Day 2 (Day)'/'Day 2 (Night)'). Official chapter wording: 第１章 (愛知・新潟・大阪), 第２章 (宮城・福岡・埼玉), 最終章 (神奈川); each unit chapter is performed by one unit (CatChu! / KALEIDOSCORE / 5yncri5e!), the final chapter by all of Liella!. Miyagi (6/20-21) was Thu-Fri and Saitama (7/12-13) Fri-Sat."
+    used_in: [liella/liella-unit-tour]
+    ref: concert:liella/liella-unit-tour
+  - kind: concert
+    printed: ラブライブ！スーパースター!! Liella! 結女体育祭
+    title:
+      ja: ラブライブ！スーパースター!! Liella! 結女体育祭
+      rom: Love Live! Superstar!! Liella! Yuijo Taiikusai
+      ko: 러브 라이브! 슈퍼스타!! Liella! 유이죠 체육대회
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=taiikusai
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom과 같음). ko: 나무위키 문서명(문서명은 Liella 뒤 '!'가 빠져 있어 넣음). 기존 곡 번역 '체육제 대작전'과 달리 '체육대회' 외부 근거: rom: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=taiikusai ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella%20%EC%9C%A0%EC%9D%B4%EC%A3%A0%20%EC%B2%B4%EC%9C%A1%EB%8C%80%ED%9A%8C. 일정 조사 메모: A sports-festival event with songs (official 昼の部 14:00 / 夜の部 18:30 each day). Cheering representatives (応援代表): Sagara Mayu and Tanaka Chiemi of Nijigasaki on Day 1, Saito Shuka and Kobayashi Aika of Aqours on Day 2; Fandom shows them joining the closing song. projects lists only liella because no other group performs as a group; add nijigasaki/aqours if guest members should count. The official page prints the venue as 「東京・東京体育館 メインアリーナ」."
+    used_in: [liella/liella-taiikusai]
+    ref: concert:liella/liella-taiikusai
+  - kind: concert
+    printed: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!!
+    title:
+      ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!!
+      rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE
+      ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/?page=2
+    note: "공식 라틴 표기 없음(로고도 가나). ちゅーとりえらいぶ!!는 Fandom의 말장난 복원 표기(규칙대로면 Chuutorieraibu!!, 萌娘百科는 TUTOLieLIVE!!). ko: 나무위키 문서명에 시리즈명을 붙임 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE ko: https://namu.wiki/w/Liella!%EC%9D%98%20%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%97%98%EB%9D%BC%EC%9D%B4%EB%B8%8C!!. 일정 조사 메모: Dates (2025年7月5日（土）、7月6日（日）) and venue (LaLa arena TOKYO-BAY) from the official Liella! live list; its detail link https://tutoliella-live.jp/ now shows the 2026 edition, so the 2025 show split is not on an official page any more. One show on 7/5 (18:30) and two on 7/6 (13:00, 18:30) per anime.eiga.com event pages 171046-171048 (https://anime.eiga.com/event/171047/) and LiveFans, matching Fandom's three tabs. The 2025 official wording for the two 7/6 shows is unknown (the 2026 edition says 昼公演/夜公演), so the default Noon/Evening labels are used."
+    used_in: [liella/tutoliella-live-2025]
+    ref: concert:liella/tutoliella-live-2025
+  - kind: concert
+    printed: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!! 2026
+    title:
+      ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!! 2026
+      rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE 2026
+      ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!! 2026
+    status: derived
+    source: https://tutoliella-live.jp/
+    note: "2025와 같은 방식. Fandom 문서명은 'LIVE 2', 본문 제목은 'LIVE 2026' 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE_2 ko: https://namu.wiki/w/Liella!%EC%9D%98%20%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%97%98%EB%9D%BC%EC%9D%B4%EB%B8%8C!!%202026. 일정 조사 메모: Official site of the TV programme's live (主催: 「Liella!のちゅーとりえら!!」製作委員会): 8/1 昼公演 12:00 and 夜公演 17:30, 8/2 one show 16:00. Not listed on the Liella! live list. Guest タイムマシーン3号 on the 8/1 shows only."
+    used_in: [liella/tutoliella-live-2026]
+    ref: concert:liella/tutoliella-live-2026
+  - kind: concert
+    printed: 'MTV Unplugged Presents: LoveLive! Superstar!! Liella!'
+    title:
+      ja: 'MTV Unplugged Presents: LoveLive! Superstar!! Liella!'
+      rom: 'MTV Unplugged Presents: LoveLive! Superstar!! Liella!'
+      ko: 'MTV Unplugged Presents: LoveLive! Superstar!! Liella!'
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_mtv/
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Acoustic live (主催: 株式会社エニー / ぴあ株式会社 / プロジェクトラブライブ！スーパースター!!). The official title has no Japanese series prefix.'
+    used_in: [liella/liella-mtv-unplugged]
+    ref: concert:liella/liella-mtv-unplugged
+  - kind: concert
+    printed: ～Anisong World Tour～ Lantis Festival 2015
+    title:
+      ja: ～Anisong World Tour～ Lantis Festival 2015
+      rom: ~Anisong World Tour~ Lantis Festival 2015
+      ko: ~Anisong World Tour~ Lantis Festival 2015
+    status: derived
+    source: https://www.lantis.jp/15th/2015/
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Lantis's own festival (official pages on lantis.jp, not lovelive-anime.jp). Only the shows with μ's are listed: Seoul ran 4/4-4/5 but μ's played only 4/5 (festival Day 2, without Pile: influenza); Shanghai both days; Taipei ran 4/18-4/19 but μ's played only 4/19 (festival Day 2). The other legs (Las Vegas, Hong Kong, Singapore) had no μ's. Title spellings vary on lantis.jp: news headline 「～Anisong World Tour～ Lantis Festival 2015」 (used), header 「ANISONG WORLD TOUR 2015 LANTIS FESTIVAL」, prose 『ANISONG WORLD TOUR 2015 Lantis Festival』. Venue printed 「上海長寧体操中心(Shanghai International Gymnastic Center）」 and 「TICC台北国際会議センター」."
+    used_in: [muse/lantis-festival-2015]
+    ref: concert:muse/lantis-festival-2015
+  - kind: concert
+    printed: AiScReam presents TOPPING LIVE とけちゃう前に会いに来て♡♡♡
+    title:
+      ja: AiScReam presents TOPPING LIVE とけちゃう前に会いに来て♡♡♡
+      rom: AiScReam presents "TOPPING LIVE" Come see me before I melt ♡♡♡
+      ko: AiScReam presents TOPPING LIVE 녹기 전에 만나러 와♡♡♡
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=aiscream
+    note: "rom: 공식 해외 배신 영문(번역) 그대로. 따옴표·♡ 앞 공백도 공식대로. 규칙으로 만들면 'AiScReam presents TOPPING LIVE Tokechau Mae ni Ai ni Kite♡♡♡'(Fandom은 앞뒤에 ~를 붙임). ko: 나무위키 문서명 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=aiscream ko: https://namu.wiki/w/AiScReam%20presents%20TOPPING%20LIVE%20%EB%85%B9%EA%B8%B0%20%EC%A0%84%EC%97%90%20%EB%A7%8C%EB%82%98%EB%9F%AC%20%EC%99%80%E2%99%A1%E2%99%A1%E2%99%A1. 일정 조사 메모: Performers per the official page: AiScReam (Ruby/Aqours, Ayumu/Nijigasaki, Shiki/Liella!) with わいわいわい, Saint Snow, A・ZU・NA, 5yncri5e!, Sunny Passion and guests Arisa Komiya, Hinaki Yano, Akane Yabushima. The official title has no tildes (Fandom writes ~とけちゃう前に会いに来て♡♡♡~)."
+    used_in: [aqours/aiscream-topping-live]
+    ref: concert:aqours/aiscream-topping-live
+  - kind: concert
+    printed: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    title:
+      ja: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      rom: IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen
+      ko: 이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전
+    status: derived
+    source: https://ijigen-fes.jp/utagassen/
+    note: "rom: 공식 해외 안내 페이지 영문. 같은 페이지 큰 제목은 'IJIGEN FES THE IDOLM@STER★♥LOVELIVE! UTAGASSEN', 배신 티켓명은 이 표기라 시리즈명이 맞는 쪽을 고름. Fandom은 'Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen'. ko: 나무위키 문서명(곡 '이차원★♥BIGBANG'과 맞음) 외부 근거: rom: https://www.ijigen-fes.jp/utagassen/overseas.php ko: https://namu.wiki/w/%EC%9D%B4%EC%B0%A8%EC%9B%90%20%ED%8E%98%EC%8A%A4%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%A7%88%EC%8A%A4%ED%84%B0%E2%98%85%E2%99%A5%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%85%B8%EB%9E%98%20%EB%8C%80%ED%95%AD%EC%A0%84. 일정 조사 메모: Joint festival with THE iDOLM@STER series (outside franchise). Official event site is ijigen-fes.jp (production committee), not lovelive-anime.jp. School Idol Musical cast appeared as guests (ゲスト出演) on both days, hence musical in projects. No μ's."
+    used_in: [aqours/ijigen-fes-2023]
+    ref: concert:aqours/ijigen-fes-2023
+  - kind: concert
+    printed: TVアニメ放送10周年記念 LoveLive!
+    title:
+      ja: TVアニメ放送10周年記念 LoveLive!
+      rom: Love Live! Anime 10th Anniversary
+      ko: TV 애니메이션 방송 10주년 기념 LoveLive!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    note: "rom: 공식 페이지 해외 안내의 'Love Live! Anime 10th Anniversary Special Talk Session / Orchestra Concert'에서 공통 부분(Fandom과 같음). ko: 나무위키 표기 'TV 애니메이션 방송 10주년 기념'(나무위키는 앞에 '러브 라이브!'를 붙임) 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/ ko: https://namu.wiki/w/LoveLive!%20Orchestra%20Concert. 일정 조사 메모: No umbrella title is printed: the official events are 「TVアニメ放送10周年記念 LoveLive! Special Talk Session」, 「TVアニメ放送10周年記念 LoveLive! Orchestra Concert」 (and its ＜再演＞) and the kick-off 「TV アニメ放送10 周年記念 「LoveLive! Overseas Events」キックオフミーティング」; title_ja uses their common prefix (= Fandom's Nihongo). VENUE CONFLICT: Fandom puts the Kick-Off Meeting at Tokyo Garden Theater, but its official page (lovelive-overseas.bitfan.id, organizer SPACEY MUSIC ENTERTAINMENT, Project Love Live! cooperation) gives 恵比寿ザ・ガーデンホール, 2024-02-25, 1部 13:00 / 2部 17:00 (printed with Kangxi-radical 「恵⽐寿」, normalized); en_fandom left null for it. Special Talk Session labels follow the official English (DAY / NIGHT on Day.2). The Orchestra Concert revival (2025-01-04/05, same venue, official page) has no Fandom tab, so it is listed without fandom."
+    used_in: [muse/anime-10th-anniversary]
+    ref: concert:muse/anime-10th-anniversary
+  - kind: concert
+    printed: TVアニメ放送10周年記念 「LoveLive! Overseas Events」
+    title:
+      ja: TVアニメ放送10周年記念 「LoveLive! Overseas Events」
+      rom: Love Live! Anime 10th Anniversary Overseas Events
+      ko: TV 애니메이션 방송 10주년 기념 「LoveLive! Overseas Events」
+    status: derived
+    source: https://lovelive-overseas.bitfan.id/
+    note: "공식 영문 없음. 같은 기념 사업의 공식 영문 형식(TVアニメ放送10周年記念 LoveLive! … → Love Live! Anime 10th Anniversary …)을 따름(Fandom은 단수 'Overseas Event'). 규칙으로 만들면 'TV Anime Housou 10 Shuunen Kinen \"LoveLive! Overseas Events\"'. ko: 이 공연 나무위키 문서 없음. 앞부분은 나무위키 'TV 애니메이션 방송 10주년 기념'과 같게 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/ ko: 번역안. 일정 조사 메모: Organizer's official site lovelive-overseas.bitfan.id (SPACEY MUSIC ENTERTAINMENT, Project Love Live! cooperation); it prints 昼の部/夜の部 or 1部/2部, labelled Noon/Evening here. SEOUL 2024 MAPPING: the official page (2024-07-17) gives 7/19 one show only (1部 20:00) and 7/20 two shows (13:00, 17:30); Fandom's three tabs are named Day 1 (Day), Day 1 (Night), Day 2 (Day), which contradicts that. The tabs are mapped in chronological order (1st tab -> 7/19, 2nd -> 7/20 1部, 3rd -> 7/20 2部); a reviewer should confirm. GUANGZHOU 2024: official news gives the dates (contents/152692, 175367) and links the bilibili ticket page, which gives 久米空间LIVEHOUSE, 机场路1733号, four shows 08-24/25 12:30 & 16:30 (no official venue statement; same address as the 2025 Final Stage venue printed officially as 「広州久米空間Livehouse」, so one venue). SHANGHAI 2025: official prints 「万代南梦宫上海文化中心」 (used); the bilibili ticket page it links now shows the venue as 星在文化中心1F梦想剧场 (宜昌路179号) and gives four shows 04-05/06 12:30 & 17:30. SEOUL 2025 (ソウル追加公演): dates official (contents/293615); venue from the linked Ticketlink page's event data (WDG STUDIO HONGDAE, 마포구 와우산로 94, organizer (주)타키엘), confirmed by Sports Kyunghyang 2025-08-19; no source states the number of shows, the 4 performances (day/night x 2) come from Fandom's tabs only. Venue rom/ko for the Chinese venues are romanized by me (no established English names found)."
+    used_in: [muse/anime-10th-overseas-events]
+    ref: concert:muse/anime-10th-overseas-events
+  - kind: concert
+    printed: LoveLive! Series 9th Anniversary ラブライブ！フェス
+    title:
+      ja: LoveLive! Series 9th Anniversary ラブライブ！フェス
+      rom: Love Live! Series 9th Anniversary LOVE LIVE! FEST
+      ko: LoveLive! Series 9th Anniversary 러브 라이브! 페스
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php
+    note: "rom: 공식 월드와이드 뉴스 영문 그대로(ja의 라틴 부분 'LoveLive! Series'를 'Love Live! Series'로 씀). Fandom은 'LoveLive! Series 9th Anniversary Love Live! Fest'. ko: 나무위키 문서명은 어순이 바뀌어 ja 순서로 되돌림 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%ED%8E%98%EC%8A%A4%20LoveLive!%20Series%209th%20Anniversary. 일정 조사 메모: The fest page prints its title only as an image; title_ja is the text on the official Blu-ray entry (otonokizaka/release.php). Venue printed 「さいたまスーパーアリーナ（スタジアムモード）」 (stadium mode). Saint Snow counted under aqours."
+    used_in: [muse/lovelive-fest-2020]
+    ref: concert:muse/lovelive-fest-2020
+  - kind: concert
+    printed: LoveLive! Series Asia Tour 2024 ～みんなで叶える物語 ～
+    title:
+      ja: LoveLive! Series Asia Tour 2024 ～みんなで叶える物語 ～
+      rom: LoveLive! Series Asia Tour 2024 ~Our Story, Our Dreams~
+      ko: LoveLive! Series Asia Tour 2024 ~모두 함께 이뤄가는 이야기~
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=asiatour_2024
+    note: "rom: 공식 페이지 영문(투어 패키지 안내 'LoveLive! Series Asia Tour 2024 ~Our Story, Our Dreams~ in Yokohama'에서 회장명 뺌. 배신명은 '~' 없이 'Our Story, Our Dreams in Yokohama'). Fandom은 'Minna de Kanaeru Monogatari'. ko: 나무위키 문서명인데 라틴 부분은 ja대로 'LoveLive! Series'. ja의 '物語 ～' 앞 공백은 오기로 보고 뺌 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=asiatour_2024 ko: https://namu.wiki/w/Love%20Live!%20Series%20Asia%20Tour%202024%20~%EB%AA%A8%EB%91%90%20%ED%95%A8%EA%BB%98%20%EC%9D%B4%EB%A4%84%EA%B0%80%EB%8A%94%20%EC%9D%B4%EC%95%BC%EA%B8%B0~. 일정 조사 메모: Per stop performers differ: Guangzhou Liella! only; Shanghai μ's/Aqours/Nijigasaki/Liella!; Taipei Aqours (3 members) only; Seoul Nijigasaki (6 members) only; Yokohama all five plus AiScReam. Zepp New Taipei is in New Taipei City (Fandom section 'Taipei'). The live list entry's place text 「②上海国家会展中心／③虹館EH、Zepp New Taipei」 is a split artifact: the detail page prints 「上海国家会展中心・虹館EH」 for Shanghai and 「Zepp New Taipei」 for Taipei. Seoul: Fandom has one 'Both Days' tab (same set list), mapped to both shows."
+    used_in: [muse/asia-tour-2024]
+    ref: concert:muse/asia-tour-2024
+  - kind: concert
+    printed: LoveLive! Series Presents ユニット甲子園 2024
+    title:
+      ja: LoveLive! Series Presents ユニット甲子園 2024
+      rom: LoveLive! Series Presents Unit Koshien 2024
+      ko: LoveLive! Series Presents 유닛 고시엔 2024
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=unitlive2024
+    note: "rom: 공식 페이지 영문(배신 안내·투어 패키지 모두 'Unit Koshien'). Fandom·규칙은 'Koushien'. ko: 나무위키 문서명 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=unitlive2024 ko: https://namu.wiki/w/LoveLive!%20Series%20Presents%20%EC%9C%A0%EB%8B%9B%20%EA%B3%A0%EC%8B%9C%EC%97%94%202024"
+    used_in: [aqours/unit-koushien-2024]
+    ref: concert:aqours/unit-koushien-2024
+  - kind: concert
+    printed: LoveLive! Series 15th Anniversary ラブライブ！フェス 前夜祭 FILM LIVE ～未来へ届けるタイムカプセル～
+    title:
+      ja: LoveLive! Series 15th Anniversary ラブライブ！フェス 前夜祭 FILM LIVE ～未来へ届けるタイムカプセル～
+      rom: LoveLive! Series 15th Anniversary LOVELIVE! FEST PRE-PARTY FILM LIVE ~MIRAI E TODOKERU TIME CAPSULE~
+      ko: LoveLive! Series 15th Anniversary 러브 라이브! 페스 전야제 FILM LIVE ~미래에 전달할 타임캡슐~
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai
+    note: "rom: 공식 해외 배신 영문인데 'MIRAIN E'는 오기로 보고 'MIRAI E'로 고침. Fandom은 'Love Live! Fes Eve Celebration: FILM LIVE ~Mirai e Todokeru Time Capsule~'. ko: 단독 문서 없음. 나무위키 시리즈 라이브 문서의 '러브 라이브! 페스 전야제 FILM LIVE ~미래에 전달할 타임캡슐~' 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20School%20idol%20project%20series/%EB%9D%BC%EC%9D%B4%EB%B8%8C. 일정 조사 메모: Day/Night labels follow the official English (DAY START / NIGHT START; 昼公演/夜公演). 10/10: Nijigasaki + Hasunosora; 10/11: Liella! + Ikizurai-Bu!; School Idol Musical cast (opening act, MC) both days."
+    used_in: [nijigasaki/15th-fes-eve-film-live]
+    ref: concert:nijigasaki/15th-fes-eve-film-live
+  - kind: concert
+    printed: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～
+    title:
+      ja: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ～LIVE with a smile!～
+      rom: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ~LIVE with a smile!~
+      ko: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 ~LIVE with a smile!~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd13.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No live detail page was found on the official site; the date and venue are printed on the official theme song CD page (「LIVE with a smile!」, Liella! site, cd13.php: 開催日程 2021年12月31日(金) / 会場 ぴあアリーナMM).'
+    used_in: [aqours/countdown-2021-2022]
+    ref: concert:aqours/countdown-2021-2022
+  - kind: concert
+    printed: μ’s Fan Meeting Tour 2015 ～あなたの街でラブライブ！～
+    title:
+      ja: μ’s Fan Meeting Tour 2015 ～あなたの街でラブライブ！～
+      rom: μ’s Fan Meeting Tour 2015 ~Anata no Machi de Love Live!~
+      ko: μ’s Fan Meeting Tour 2015 ~당신의 거리에서 러브 라이브!~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_fmt2015.html
+    note: "공식 영문 없음. Fandom은 '~ Love Live! in your town ~'로 번역해서 규칙으로(ラブライブ！는 시리즈명 고정형). ko: 나무위키 '~당신의 거리에서 러브라이브!~'(러브 라이브!로 띄움) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: Official page still online. Every date had 昼の部 14:00 and 夜の部 18:00 except 6/13 Makuhari (「6/13（土）幕張イベントホールの昼の部はございません」). FANDOM TABS HOLD TWO SHOWS: each Fandom tab contains a '''Noon:''' list and an '''Evening:''' list one after the other (Chiba Day 1: Evening only), so each tab is mapped to both shows of its date and the set-list parser must split the tab at those markers. Venue names as printed in the schedule; 「パシフィコ横浜 国立大ホール」 and 「グランキューブ大阪 メインホール」 with the space as printed in the venue list on the same page; 「センチュリーホール」 is the hall of 名古屋国際会議場 (printed without it). Cast varied by stop (sub-unit / partial casts)."
+    used_in: [muse/fan-meeting-tour-2015]
+    ref: concert:muse/fan-meeting-tour-2015
+  - kind: concert
+    printed: ラブライブ！μ’s Fan Meeting in 上海～Talk&Live～
+    title:
+      ja: ラブライブ！μ’s Fan Meeting in 上海～Talk&Live～
+      rom: Love Live! μ’s Fan Meeting in Shanghai ~Talk&Live~
+      ko: 러브 라이브! μ’s Fan Meeting in 상하이 ~Talk&Live~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    note: "공식 영문 못 찾음. 上海 → Shanghai, 라틴 부분은 ja대로 'in', 'Talk&Live'(Fandom은 'In', 'Talk & Live'). 타이베이 공연의 공식 영문은 'LoveLive! μ’s …'라 둘을 맞출지 확인. ko: 나무위키 μ’s Fan Meeting Tour 문서 4절 제목 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: 공식 뉴스(2016-01-18 「μ’s海外ファンミーティングのお知らせ」)의 공연명. Fandom은 상하이·타이베이를 한 문서에 싣는다"
+    used_in: [muse/fan-meeting-shanghai-2016]
+    ref: concert:muse/fan-meeting-shanghai-2016
+  - kind: concert
+    printed: ラブライブ！μ’s Fan Meeting in 台北～Talk&Live～
+    title:
+      ja: ラブライブ！μ’s Fan Meeting in 台北～Talk&Live～
+      rom: LoveLive! μ’s Fan Meeting in Taipei ~Talk&Live~
+      ko: 러브 라이브! μ’s Fan Meeting in 타이베이 ~Talk&Live~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    note: "rom: 공식 월드와이드 뉴스 본문 'LoveLive! μ's Fan Meeting in Taipei ~Talk&Live~'(제목은 대문자 'LOVE LIVE! μ’s FAN MEETING IN TAIPEI ～TALK&LIVE～'). μ’s는 데이터 표기로. 규칙으로 만들면 'Love Live! μ’s …'(상하이와 맞추려면 이쪽). ko: 나무위키 μ’s Fan Meeting Tour 문서 5절 제목 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/worldwide/news.php ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: 공식 뉴스(2016-01-18 「μ’s海外ファンミーティングのお知らせ」)의 공연명. Fandom은 상하이·타이베이를 한 문서에 싣는다"
+    used_in: [muse/fan-meeting-taipei-2016]
+    ref: concert:muse/fan-meeting-taipei-2016
+  - kind: concert
+    printed: ラブライブ！μ's Final LoveLive!〜μ’sic Forever♪♪♪♪♪♪♪♪♪〜
+    title:
+      ja: ラブライブ！μ's Final LoveLive!〜μ’sic Forever♪♪♪♪♪♪♪♪♪〜
+      rom: Love Live! μ's Final LoveLive!~μ’sic Forever♪♪♪♪♪♪♪♪♪~
+      ko: 러브 라이브! μ's Final LoveLive!~μ’sic Forever♪♪♪♪♪♪♪♪♪~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_finallive.html
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official page still online (the last ticket notice). Title copied as printed there (straight ' in μ's, curly ’ in μ’sic)."
+    used_in: [muse/final-lovelive]
+    ref: concert:muse/final-lovelive
+  - kind: concert
+    printed: μ's Go→Go! LoveLive! 2015 ～Dream Sensation!～
+    title:
+      ja: μ's Go→Go! LoveLive! 2015 ～Dream Sensation!～
+      rom: μ's Go→Go! LoveLive! 2015 ~Dream Sensation!~
+      ko: μ's Go→Go! LoveLive! 2015 ~Dream Sensation!~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_5thlive.html
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official page still online. Venue printed 「さいたまスーパーアリーナ（スタジアムモード）」. The live page prints the title without the series prefix; the official Blu-ray entry (otonokizaka/release.php) prints 「ラブライブ！ μ's Go→Go! LoveLive! 2015 ～Dream Sensation!～」."
+    used_in: [muse/muse-5th-gogo-2015]
+    ref: concert:muse/muse-5th-gogo-2015
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 校内マッチングフェスティバル
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 校内マッチングフェスティバル
+      rom: Love Live! Nijigasaki High School Idol Club Kounai Matching Festival
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 교내 매칭 페스티벌
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_kmf.php
+    note: "공식 영문 없음. Fandom은 校内를 'School'로 번역해서 규칙으로(Kounai). ko: 나무위키 문서명 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20%EA%B5%90%EB%82%B4%20%EB%A7%A4%EC%B9%AD%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C. 일정 조사 메모: Official: 2019年3月30日(土) 昼公演 15:30 / 夜公演 19:00, 【場所】品川・ステラボール (printed with the 品川・ area prefix; the hall itself is ステラボール). Fandom's single 'Both Sessions' tab is mapped to both shows. Talk & Live event."
+    used_in: [nijigasaki/school-matching-festival]
+    ref: concert:nijigasaki/school-matching-festival
+  - kind: concert
+    printed: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+    title:
+      ja: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+      rom: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+      ko: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=lovelive-expo2025
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Day 3 of U-NEXT MUSIC FES at Expo 2025 Osaka, Kansai (organizer U-NEXT). Ikizurai-Bu! appeared as the opening act. The official live list titles the entry 「「EXPO 2025 大阪・関西万博」×ラブライブ！シリーズ」; the stage title above is from the detail page's LIVE INFO."
+    used_in: [muse/expo-2025-stage]
+    ref: concert:muse/expo-2025-stage
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 First Live “with You”
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 First Live “with You”
+      rom: Love Live! Nijigasaki High School Idol Club First Live “with You”
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 First Live “with You”
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_1stlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Existing venue musashino-no-mori-sogo-sports-plaza-main-arena; the official page prints it 武蔵野の森総合スポーツプラザ・メインアリーナ (with a middle dot).'
+    used_in: [nijigasaki/niji-1st]
+    ref: concert:nijigasaki/niji-1st
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 2nd Live!
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 2nd Live!
+      rom: Love Live! Nijigasaki High School Idol Club 2nd Live!
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 2nd Live!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 무관객 유료 생배송(無観客有料生配信). The official page lists two separately titled lives, 「…2nd Live! Brand New Story」 (2020-09-12, ＜1回目＞開演12:30 and ＜2回目＞開演18:00) and 「…2nd Live! Back to the TOKIMEKI」 (2020-09-13, 開演16:00), both 「＜無観客有料生配信ライブ＞」 with 【場所】東京ガーデンシアター (existing venue tokyo-garden-theater). Per the brief they are online-only (no audience), so city is null and venue carries online: true; a reviewer may prefer city tokyo since the hall is named. I split the two titled parts into two stops at the same hall (stop label = part name); merge into one stop if one venue run must be one stop. title_ja is the common prefix of the two part titles (the page heading reads 「2nd Live 特設サイト」). Fandom has a single "Brand New Story" tab for both 9/12 shows (its Blu-ray track list is the evening show); no source I found says whether the 1st and 2nd shows had identical set lists, so the tab is mapped to both.'
+    used_in: [nijigasaki/niji-2nd]
+    ref: concert:nijigasaki/niji-2nd
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 校内シャッフルフェスティバル
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 校内シャッフルフェスティバル
+      rom: Love Live! Nijigasaki High School Idol Club Kounai Shuffle Festival
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 교내 셔플 페스티벌
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_splive.php
+    note: "공식 영문 없음. Fandom은 校内를 빼서('Shuffle Festival') 규칙으로(Kounai). ko: 나무위키 문서명 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20%EA%B5%90%EB%82%B4%20%EC%85%94%ED%94%8C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C"
+    used_in: [nijigasaki/niji-shuffle-festival]
+    ref: concert:nijigasaki/niji-shuffle-festival
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 3rd Live! School Idol Festival ～夢の始まり～
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 3rd Live! School Idol Festival ～夢の始まり～
+      rom: Love Live! Nijigasaki High School Idol Club 3rd Live! School Idol Festival ~The beginning of the dream~
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 3rd Live! School Idol Festival ~꿈의 시작~
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_3rdlive.php
+    note: "rom: 공식 월드와이드 뉴스 영문(나무위키도 공식 영문 명칭으로 소개). Fandom은 'Yume no Hajimari'. ko: 나무위키 문서명 외부 근거: rom: https://www.lovelive-anime.jp/nijigasaki/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%203rd%20Live!%20School%20Idol%20Festival%20~%EA%BF%88%EC%9D%98%20%EC%8B%9C%EC%9E%91~. 일정 조사 메모: Venue printed as メットライフドーム (the 2021 naming-rights name of the dome now called ベルーナドーム)."
+    used_in: [nijigasaki/niji-3rd]
+    ref: concert:nijigasaki/niji-3rd
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE & FAN MEETING
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE & FAN MEETING
+      rom: Love Live! Nijigasaki High School Idol Club UNIT LIVE & FAN MEETING
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 UNIT LIVE & FAN MEETING
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_unitlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Each Fandom tab covers both days of its volume (Fandom trivia: "No changes were made to the setlist on either day for all four concerts"), so each tab is mapped to both performances. Official volume titles: 「UNIT LIVE & FAN MEETING vol.1 DiverDiva 〜Big Bang〜」, 「vol.2 QU4RTZ 〜Sweet Cafe〜」, 「vol.3 A・ZU・NA 〜The Night Before〜」, 「vol.4 R3BIRTH 〜First DELIGHT〜」. 幕張メッセイベントホール is the same hall the 2025 Kougai Gakushuu page prints as 幕張イベントホール.'
+    used_in: [nijigasaki/niji-unit-live-fan-meeting]
+    ref: concert:nijigasaki/niji-unit-live-fan-meeting
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 4th Live! ～Love the Life We Live～
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 4th Live! ～Love the Life We Live～
+      rom: Love Live! Nijigasaki High School Idol Club 4th Live! ~Love the Life We Live~
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 4th Live! ~Love the Life We Live~
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_4thlive.php
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+    used_in: [nijigasaki/niji-4th]
+    ref: concert:nijigasaki/niji-4th
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 5th Live! 虹が咲く場所
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 5th Live! 虹が咲く場所
+      rom: Love Live! Nijigasaki High School Idol Club 5th Live! Nijigasaku Basho
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 5th Live! 무지개가 피어나는 장소
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_5thlive.php
+    note: "공식 영문 못 찾음(굿즈 쇼핑몰은 'Where the Rainbow Blooms'). 虹が咲く場所는 Fandom 표기(규칙대로면 'Niji ga Saku Basho'). ko: 나무위키 문서명 외부 근거: rom: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%205th%20Live!%20%EB%AC%B4%EC%A7%80%EA%B0%9C%EA%B0%80%20%ED%94%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9E%A5%EC%86%8C. 일정 조사 메모: Official stop names: ＜Colorful Dreams! Colorful Smiles!公演＞ and ＜Next TOKIMEKI公演＞. Both venues are existing (tokyo-garden-theater, musashino-no-mori-sogo-sports-plaza-main-arena)."
+    used_in: [nijigasaki/niji-5th]
+    ref: concert:nijigasaki/niji-5th
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE!
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE!
+      rom: Love Live! Nijigasaki High School Idol Club UNIT LIVE!
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 UNIT LIVE!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=unitlive2023
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page heading is 「ラブライブ！虹ヶ咲学園スクールアイドル同好会 ユニットライブ 特設サイト」; each part is titled 「ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE! ～R3BIRTH R3VOLUTION～」 (～A・ZU・NA LAGOON～, ～DiverDiva GALactic Trip～, ～QU4RTZ Fluffy Magic～). title_ja uses the common \"UNIT LIVE!\" prefix (matches Fandom's {{Nihongo}}); the umbrella could also be written 「…ユニットライブ」. All four parts at the existing venue tokyo-garden-theater (Fandom intro line says Tokyo Garden Theater too)."
+    used_in: [nijigasaki/niji-unit-live]
+    ref: concert:nijigasaki/niji-unit-live
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 にじたび！ TOKIMEKI FAN MEETING TOUR
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 にじたび！ TOKIMEKI FAN MEETING TOUR
+      rom: Love Live! Nijigasaki High School Idol Club Nijitabi! TOKIMEKI FAN MEETING TOUR
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 니지여행! TOKIMEKI FAN MEETING TOUR
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom과 같음). ko: 나무위키 문서명은 にじたび 뒤 '！'가 없어 공식 ja대로 넣음 외부 근거: rom: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20%EB%8B%88%EC%A7%80%EC%97%AC%ED%96%89%20TOKIMEKI%20FAN%20MEETING%20TOUR. 일정 조사 메모: Day 2 of every stop had two shows (＜昼公演＞ 13:00 / ＜夜公演＞ 17:00; the page's English section writes \"Day.2/DAY\" and \"Day.2/NIGHT\", hence the labels). Fandom has ONE \"Day 2\" tab per stop holding both shows, split inside the tab by the bold lines '''Noon:''' and '''Evening:''' (the two set lists differ), so the parser must cut the tab there: the Noon half is \"Day.2 Day\", the Evening half \"Day.2 Night\". The official detail page prints dates without a year; 2023 comes from the official live list (①2023年4月22日…). Existing venues reused: line-cube-shibuya, kitakyushu-soleil-hall, orix-theater. 愛知県芸術劇場大ホール: rom follows the venue's own English (\"Aichi Prefectural Art Theater Main Theater\", aac.pref.aichi.jp seat charts); the official page's English section calls it \"Aichi Arts Center\" (the whole complex) and Fandom \"Large Hall\". Hokkaido venue: the official English section writes \"Sapporo Cultural Arts Theater hitaru\"."
+    used_in: [nijigasaki/niji-nijitabi]
+    ref: concert:nijigasaki/niji-nijitabi
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me
+      rom: Love Live! Nijigasaki High School Idol Club 6th Live! I love You ⇆ You love Me
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 6th Live! I love You ⇆ You love Me
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_6thlive
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop names ＜愛知公演＞ and ＜神奈川公演＞. Aichi is the existing venue aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a (the page prints \"Aichi Sky Expo(愛知県国際展示場) ホールA\"). The official page prints \"Ｋアリーナ横浜\" with a full-width Ｋ; ja here uses the venue's own half-width spelling Kアリーナ横浜 (NFKC-equal)."
+    used_in: [nijigasaki/niji-6th]
+    ref: concert:nijigasaki/niji-6th
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 7th Live! NEW TOKIMEKI LAND
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 7th Live! NEW TOKIMEKI LAND
+      rom: Love Live! Nijigasaki High School Idol Club 7th Live! NEW TOKIMEKI LAND
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 7th Live! NEW TOKIMEKI LAND
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_7thlive
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints Ｋアリーナ横浜 (full-width Ｋ); ja uses the half-width Kアリーナ横浜, same venue as the 6th Live's Kanagawa stop."
+    used_in: [nijigasaki/niji-7th]
+    ref: concert:nijigasaki/niji-7th
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習 歌おう♪踊ろう♪語ろう♪
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習 歌おう♪踊ろう♪語ろう♪
+      rom: Love Live! Nijigasaki High School Idol Club LIVE & FAN MEETING TOUR Nijigaku Kougai Gakushuu Utaou♪Odorou♪Katarou♪
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 LIVE & FAN MEETING TOUR 니지가쿠 교외학습 노래하자♪춤추자♪이야기하자♪
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025
+    note: "공식 영문 없음. 일본어 부분은 Fandom 표기인데 Fandom이 붙인 '~'와 ♪ 뒤 공백은 공식 ja에 없어 뺌. 전각 ＆는 'LIVE & FAN'으로(다른 공연의 반각 표기와 같게). ko: 나무위키 문서명(니지가사키학원 → 니지가사키 학원) 외부 근거: rom: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20LIVE%EF%BC%86FAN%20MEETING%20TOUR%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%BF%A0%20%EA%B5%90%EC%99%B8%ED%95%99%EC%8A%B5%20%EB%85%B8%EB%9E%98%ED%95%98%EC%9E%90%E2%99%AA%EC%B6%A4%EC%B6%94%EC%9E%90%E2%99%AA%EC%9D%B4%EC%95%BC%EA%B8%B0%ED%95%98%EC%9E%90%E2%99%AA. 일정 조사 메모: Day 2 of every stop had ＜昼公演＞ and ＜夜公演＞ (English section: \"Day.2/DAY\", \"Day.2/NIGHT\"); Fandom has a separate tab for each. Official title has no ～ before 歌おう (Fandom writes \"~Utaou♪…\"). Existing venues: orix-theater, sendai-sun-plaza-hall, and niterra-japan-specialty-ceramic-industry-civic-center, which the 2025 page prints with the newer \"Niterra\" prefix (Liella! 1st in 2021 has it as 日本特殊陶業市民会館フォレストホール): a period name of the same venue. 幕張イベントホール is the same hall as 幕張メッセイベントホール (UNIT LIVE & FAN MEETING 2021); rom/ko kept identical so they can merge. 福岡市民ホール (opened 2025) gives no English name for 大ホール: rom follows the dataset's 大ホール → \"Main Hall\" pattern (Fandom: \"Large Hall\")."
+    used_in: [nijigasaki/niji-kougai-gakushuu]
+    ref: concert:nijigasaki/niji-kougai-gakushuu
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+      rom: Love Live! Nijigasaki High School Idol Club FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=flower_live
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 京王アリーナTOKYO is the naming-rights name (from 2025-05-01, Keio Corporation) of 武蔵野の森総合スポーツプラザ, i.e. the existing venue musashino-no-mori-sogo-sports-plaza-main-arena under a new period name. ja keeps the official page's spacing 「京王アリーナ TOKYO」 (the venue itself writes 京王アリーナTOKYO). Day 1 and Day 2 had different casts (official page), same venue."
+    used_in: [nijigasaki/niji-flower-music-live]
+    ref: concert:nijigasaki/niji-flower-music-live
+  - kind: concert
+    printed: ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express
+    title:
+      ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express
+      rom: Love Live! Nijigasaki High School Idol Club 8th Live! TOKIMEKI Express
+      ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 8th Live! TOKIMEKI Express
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=8thlive
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop names ＜大阪公演＞ and ＜東京公演＞. The list entry is titled 「…8thライブ」; the detail page heading gives the full title 「…8th Live! TOKIMEKI Express 特設サイト」. 京王アリーナ TOKYO = existing venue musashino-no-mori-sogo-sports-plaza-main-arena under its 2025 naming-rights name (see FLOWER MUSIC LIVE).'
+    used_in: [nijigasaki/niji-8th]
+    ref: concert:nijigasaki/niji-8th

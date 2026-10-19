@@ -1,0 +1,261 @@
+id: aqours/jimoai-2024
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2024
+  rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2024
+  ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2024
+stops:
+  - id: 1-shizuoka
+    city: shizuoka
+    venue: kira-messe-numazu
+    performances:
+      - date: 2024-09-14
+        label: Day.1 Noon
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/mata-kimi-ni-aunda
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/tsubomi-season
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/maboroshi-wing
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/mitaiken-horizon
+            recording: aqours/mitaiken-horizon#punk-rock-ver
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+        external_ids:
+          fandom: Day 1 (September 14)|Noon
+      - date: 2024-09-14
+        label: Day.1 Evening
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/mata-kimi-ni-aunda
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/tsubomi-season
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/maboroshi-wing
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            recording: aqours/kimi-no-kokoro-wa-kagayaiteru-kai#hard-rock-ver
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: aqours/kokoro-magic-a-to-z
+            recording: aqours/kokoro-magic-a-to-z#digital-rock-ver
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+        external_ids:
+          fandom: Day 1 (September 14)|Evening
+      - date: 2024-09-15
+        label: Day.2 Noon
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/sentimental-lemonade
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/aikotoba
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/minamo-ni-piano
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            recording: aqours/mirai-no-bokura-wa-shitteru-yo#melodious-hardcore-ver
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 2 (September 15)|Noon
+      - date: 2024-09-15
+        label: Day.2 Evening
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/sentimental-lemonade
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/aikotoba
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/minamo-ni-piano
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            recording: aqours/mirai-no-bokura-wa-shitteru-yo#melodious-hardcore-ver
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 2 (September 15)|Evening
+      - date: 2024-09-16
+        label: Day.3 Noon
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/namioto-refrain
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/pure-heart-pure-wish
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            recording: aqours/yume-kataruyori-yume-utaou#cute-rock-ver
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 3 (September 16)|Noon
+      - date: 2024-09-16
+        label: Day.3 Evening
+        setlist:
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: aqours/namioto-refrain
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/pure-heart-pure-wish
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+          - work: aqours/jimo-ai-dash
+            version: Short Ver.
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/jump-up-high
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/yume-mirai-mugendai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            recording: aqours/yume-kataruyori-yume-utaou#cute-rock-ver
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/dia-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 3 (September 16)|Evening
+external_ids:
+  fandom: Love Live! Sunshine!! Numazu Jimo Ai Festival 2024
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=jimoai2024
+    checked: 2026-10-20
+  setlist.2024-09-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2024
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-09-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2024
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-09-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2024
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

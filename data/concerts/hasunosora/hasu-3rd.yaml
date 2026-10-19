@@ -1,0 +1,805 @@
+id: hasunosora/hasu-3rd
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 3rd Live Tour TRY TRI UNITY!!!
+  rom: Love Live! Hasunosora Girls' High School Idol Club 3rd Live Tour TRY TRI UNITY!!!
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 3rd Live Tour TRY TRI UNITY!!!
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: with Mira-Cra Park!
+    venue: tachikawa-stage-garden
+    performances:
+      - date: 2024-11-16
+        label: Day
+        setlist:
+          - work: hasunosora/identity
+            recording: hasunosora/identity#104th-new-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/do-do-do
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - work: hasunosora/bang-you-gravity
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - {type: mc}
+          - work: hasunosora/mahara-jamboree
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - {type: video}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            recording: hasunosora/non-fiction-hero-show#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: video}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            recording: hasunosora/kokon-touzai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: encore, label: Encore}
+          - work: hasunosora/do-do-do
+            recording: hasunosora/do-do-do#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/tensai-nano-kamo-shirenai
+            recording: hasunosora/tensai-nano-kamo-shirenai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/joushou-kiryuu
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/step-up
+            version: 104期みらくらぱーく！ Ver.
+            performers:
+              - {artist: mira-cra-park}
+        external_ids:
+          fandom: Mira-Cra Park!|Day Session
+      - date: 2024-11-16
+        label: Night
+        setlist:
+          - work: hasunosora/identity
+            recording: hasunosora/identity#104th-new-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/do-do-do
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - {type: mc}
+          - work: hasunosora/mahara-jamboree
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+          - {type: video}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            recording: hasunosora/non-fiction-hero-show#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: video}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            recording: hasunosora/kokon-touzai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: encore, label: Encore}
+          - work: hasunosora/do-do-do
+            recording: hasunosora/do-do-do#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/joushou-kiryuu
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/step-up
+            version: 104期みらくらぱーく！ Ver.
+            performers:
+              - {artist: mira-cra-park}
+        external_ids:
+          fandom: Mira-Cra Park!|Night Session
+  - id: 2-osaka
+    city: osaka
+    label: with DOLLCHESTRA
+    venue: orix-theater
+    performances:
+      - date: 2024-11-24
+        label: Day
+        setlist:
+          - work: hasunosora/sparkly-spot
+            recording: hasunosora/sparkly-spot#104th-new-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc}
+          - work: hasunosora/awoke
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - work: hasunosora/kiboteki-prism
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - {type: mc}
+          - work: hasunosora/take-it-over
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - {type: video}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            recording: hasunosora/mirage-voyage#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            recording: hasunosora/tragic-drops#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: encore, label: Encore}
+          - work: hasunosora/awoke
+            recording: hasunosora/awoke#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/seishun-no-rinkaku
+            recording: hasunosora/seishun-no-rinkaku#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc}
+          - work: hasunosora/birdcage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/365-days
+            version: 104期DOLLCHESTRA Ver.
+            performers:
+              - {artist: dollchestra}
+        external_ids:
+          fandom: DOLLCHESTRA|Day Session
+      - date: 2024-11-24
+        label: Night
+        setlist:
+          - work: hasunosora/sparkly-spot
+            recording: hasunosora/sparkly-spot#104th-new-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc}
+          - work: hasunosora/awoke
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - work: hasunosora/scapegoat
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - {type: mc}
+          - work: hasunosora/take-it-over
+            performers:
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/tsuzuri-yugiri}
+          - {type: video}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            recording: hasunosora/mirage-voyage#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            recording: hasunosora/tragic-drops#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: encore, label: Encore}
+          - work: hasunosora/awoke
+            recording: hasunosora/awoke#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/knot
+            recording: hasunosora/knot#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: mc}
+          - work: hasunosora/birdcage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/365-days
+            version: 104期DOLLCHESTRA Ver.
+            performers:
+              - {artist: dollchestra}
+        external_ids:
+          fandom: DOLLCHESTRA|Night Session
+  - id: 3-aichi
+    city: aichi
+    label: with Cerise Bouquet
+    venue: nagoya-congress-center-century-hall
+    performances:
+      - date: 2024-12-01
+        label: Day
+        setlist:
+          - work: hasunosora/reflection-in-the-mirror
+            recording: hasunosora/reflection-in-the-mirror#104th-new-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - work: hasunosora/oka-ranman
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - {type: mc}
+          - work: hasunosora/special-thanks
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - {type: video}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            recording: hasunosora/senpen-banka#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            recording: hasunosora/genyo-yako#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: encore, label: Encore}
+          - work: hasunosora/suisai-sekai
+            recording: hasunosora/suisai-sekai#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/mix-shake
+            recording: hasunosora/mix-shake#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/hanamusubi
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/eien-no-euphoria
+            version: 104期スリーズブーケ Ver.
+            performers:
+              - {artist: cerise-bouquet}
+        external_ids:
+          fandom: Cerise Bouquet|Day Session
+      - date: 2024-12-01
+        label: Night
+        setlist:
+          - work: hasunosora/reflection-in-the-mirror
+            recording: hasunosora/reflection-in-the-mirror#104th-new-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - work: hasunosora/zanyou
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - {type: mc}
+          - work: hasunosora/special-thanks
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+          - {type: video}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            recording: hasunosora/senpen-banka#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            recording: hasunosora/genyo-yako#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: encore, label: Encore}
+          - work: hasunosora/suisai-sekai
+            recording: hasunosora/suisai-sekai#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: Virtual MC}
+          - work: hasunosora/holiday-holiday
+            recording: hasunosora/holiday-holiday#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/hanamusubi
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/eien-no-euphoria
+            version: 104期スリーズブーケ Ver.
+            performers:
+              - {artist: cerise-bouquet}
+        external_ids:
+          fandom: Cerise Bouquet|Night Session
+  - id: 4-tokyo
+    city: tokyo
+    label: Live & Fan Meeting TRY TRY UNITY!!!
+    venue: ryogoku-kokugikan
+    performances:
+      - date: 2024-12-21
+        setlist:
+          - {type: video, label: Opening}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - {type: video}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: 'MC: Cerise Bouquet'}
+          - work: hasunosora/holiday-holiday
+            recording: hasunosora/holiday-holiday#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: 'MC: Mira-Cra Park'}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: 'MC: DOLLCHESTRA'}
+          - work: hasunosora/knot
+            recording: hasunosora/knot#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/happy-shijou-shugi
+            performers:
+              - {artist: kahomegu-gelato}
+          - work: hasunosora/pleasure-feather
+            performers:
+              - {artist: hasuno-kyuujitsu}
+          - work: hasunosora/colorfulness
+            performers:
+              - {artist: rurino-to-yukai-na-tsuzuri-tachi}
+          - {type: mc, label: MC - 102 and 103 Class}
+          - work: hasunosora/haji-wa-jinsei-no-kakisute
+            performers:
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/hime-anyoji}
+          - {type: mc}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Fan Meeting|Day 1
+      - date: 2024-12-22
+        setlist:
+          - {type: video, label: Opening}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - {type: video}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: 'MC: Cerise Bouquet'}
+          - work: hasunosora/mix-shake
+            recording: hasunosora/mix-shake#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: 'MC: Mira-Cra Park'}
+          - work: hasunosora/tensai-nano-kamo-shirenai
+            recording: hasunosora/tensai-nano-kamo-shirenai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: 'MC: DOLLCHESTRA'}
+          - work: hasunosora/seishun-no-rinkaku
+            recording: hasunosora/seishun-no-rinkaku#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/happy-shijou-shugi
+            performers:
+              - {artist: kahomegu-gelato}
+          - work: hasunosora/pleasure-feather
+            performers:
+              - {artist: hasuno-kyuujitsu}
+          - work: hasunosora/colorfulness
+            performers:
+              - {artist: rurino-to-yukai-na-tsuzuri-tachi}
+          - {type: mc, label: MC - 102 and 103 Class}
+          - work: hasunosora/haji-wa-jinsei-no-kakisute
+            performers:
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/hime-anyoji}
+          - {type: mc}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Fan Meeting|Day 2
+  - id: 5-kanagawa
+    city: kanagawa
+    label: TRI TRI UNITY!!!
+    venue: yokohama-arena
+    performances:
+      - date: 2025-01-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            recording: hasunosora/on-your-mark#104th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/kokon-touzai
+            recording: hasunosora/kokon-touzai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/holiday-holiday
+            recording: hasunosora/holiday-holiday#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/knot
+            recording: hasunosora/knot#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/identity
+            recording: hasunosora/identity#104th-new-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/sparkly-spot
+            recording: hasunosora/sparkly-spot#104th-new-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/reflection-in-the-mirror
+            recording: hasunosora/reflection-in-the-mirror#104th-new-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/do-do-do
+            recording: hasunosora/do-do-do#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/tensai-nano-kamo-shirenai
+            recording: hasunosora/tensai-nano-kamo-shirenai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/suisai-sekai
+            recording: hasunosora/suisai-sekai#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            recording: hasunosora/mix-shake#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            recording: hasunosora/awoke#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/parallel-dancer
+            version: 104期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            recording: hasunosora/genyo-yako#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            recording: hasunosora/tragic-drops#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            recording: hasunosora/non-fiction-hero-show#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/now-or-never
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/step-up
+            version: 104期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: encore, label: Encore}
+          - work: hasunosora/link-to-the-future
+            recording: hasunosora/link-to-the-future#104th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/key-of-like
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 1)}
+          - work: hasunosora/edelied
+            version: ショート Ver.
+            performers:
+              - {artist: edel-note}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 2)}
+          - work: hasunosora/aurora-flower
+            version: ショート Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 3)}
+        external_ids:
+          fandom: Hasunosora|Day 1
+      - date: 2025-01-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            recording: hasunosora/on-your-mark#104th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/kokon-touzai
+            recording: hasunosora/kokon-touzai#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/holiday-holiday
+            recording: hasunosora/holiday-holiday#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/knot
+            recording: hasunosora/knot#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/identity
+            recording: hasunosora/identity#104th-new-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/sparkly-spot
+            recording: hasunosora/sparkly-spot#104th-new-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/reflection-in-the-mirror
+            recording: hasunosora/reflection-in-the-mirror#104th-new-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/do-do-do
+            recording: hasunosora/do-do-do#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            recording: hasunosora/hakuchuu-a-la-mode#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/suisai-sekai
+            recording: hasunosora/suisai-sekai#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kawaii-no-susume
+            version: 104期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            recording: hasunosora/awoke#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/seishun-no-rinkaku
+            recording: hasunosora/seishun-no-rinkaku#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - {type: video}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            recording: hasunosora/senpen-banka#104th-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            recording: hasunosora/mirage-voyage#104th-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/fanfare
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/now-or-never
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/step-up
+            version: 104期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: encore, label: Encore}
+          - work: hasunosora/link-to-the-future
+            recording: hasunosora/link-to-the-future#104th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/key-of-like
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 1)}
+          - work: hasunosora/edelied
+            version: ショート Ver.
+            performers:
+              - {artist: edel-note}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 2)}
+          - work: hasunosora/aurora-flower
+            version: ショート Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video, label: Intermission - Activity Log January 2025 (Part 3)}
+        external_ids:
+          fandom: Hasunosora|Day 2
+external_ids:
+  fandom: Hasunosora Girls' High School Idol Club 3rd Live Tour TRY TRI UNITY!!!
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule.1-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUM
+    checked: 2026-10-20
+  schedule.2-osaka:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUD
+    checked: 2026-10-20
+  schedule.3-aichi:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUC
+    checked: 2026-10-20
+  schedule.4-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTY
+    checked: 2026-10-20
+  schedule.5-kanagawa:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTU
+    checked: 2026-10-20
+  setlist.2024-11-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-11-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-12-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-12-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-12-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-01-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-01-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_3rd_Live_Tour_TRY_TRI_UNITY!!!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,207 @@
+id: nijigasaki/niji-4th
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 4th Live! ～Love the Life We Live～
+  rom: Love Live! Nijigasaki High School Idol Club 4th Live! ~Love the Life We Live~
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 4th Live! ~Love the Life We Live~
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: kyocera-dome-osaka
+    performances:
+      - date: 2022-02-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/break-the-system
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/itsu-datte-for-you
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/silent-blaze
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/eieisa
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/concentrate
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/ye-mingzhu
+            version: 夜明珠
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2022-02-27
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/concentrate
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/silent-blaze
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/itsu-datte-for-you
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/ye-mingzhu
+            version: 夜明珠
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/eieisa
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/break-the-system
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/saika
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Nijigasaki High School Idol Club 4th Live! ~Love the Life We Live~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_4thlive.php
+    checked: 2026-10-20
+  setlist.2022-02-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_4th_Live!_~Love_the_Life_We_Live~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-02-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_4th_Live!_~Love_the_Life_We_Live~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

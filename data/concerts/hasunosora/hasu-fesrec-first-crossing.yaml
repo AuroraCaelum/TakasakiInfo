@@ -1,0 +1,474 @@
+id: hasunosora/hasu-fesrec-first-crossing
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103期Fes×ReC：LIVE ～first crossing～
+  rom: "Love Live! Hasunosora Girls' High School Idol Club 103rd Fes×ReC: LIVE ~first crossing~"
+  ko: '러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 103기 Fes×ReC: LIVE ~first crossing~'
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: zepp-haneda-tokyo
+    performances:
+      - date: 2024-09-12
+        setlist:
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: September 12 & 13, 2024|Day 1
+      - date: 2024-09-13
+        label: Day.2 1st Show
+        setlist:
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: MC with Mira-Cra Park!}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: September 12 & 13, 2024|Day 2 (1pm Session)
+      - date: 2024-09-13
+        label: Day.2 2nd Show
+        setlist:
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: MC with DOLLCHESTRA}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: September 12 & 13, 2024|Day 2 (4pm Session)
+      - date: 2024-09-13
+        label: Day.2 3rd Show
+        setlist:
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: MC with Cerise Bouquet}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: September 12 & 13, 2024|Day 2 (7pm Session)
+  - id: 2-osaka
+    city: osaka
+    label: Additional Performance
+    venue: zepp-osaka-bayside
+    performances:
+      - date: 2025-01-23
+        setlist:
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: January 23 & 24, 2025|Day 1
+      - date: 2025-01-24
+        label: Day.2 1st Show
+        setlist:
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: MC with Mira-Cra Park!}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: January 23 & 24, 2025|Day 2 (1pm Session)
+      - date: 2025-01-24
+        label: Day.2 2nd Show
+        setlist:
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/sparkly-spot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: MC with DOLLCHESTRA}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: January 23 & 24, 2025|Day 2 (4pm Session)
+      - date: 2025-01-24
+        label: Day.2 3rd Show
+        setlist:
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: MC with Cerise Bouquet}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/mirage-voyage
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/deepness
+            recording: hasunosora/deepness#rec-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: January 23 & 24, 2025|Day 2 (7pm Session)
+external_ids:
+  fandom: "Hasunosora Girls' High School Idol Club 103rd Fes×ReC: LIVE ~first crossing~"
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule.1-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRL
+    checked: 2026-10-20
+  schedule.2-osaka:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=FRLa
+    checked: 2026-10-20
+  setlist.2024-09-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103rd_Fes%C3%97ReC:_LIVE_~first_crossing~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-09-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103rd_Fes%C3%97ReC:_LIVE_~first_crossing~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-01-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103rd_Fes%C3%97ReC:_LIVE_~first_crossing~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-01-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_103rd_Fes%C3%97ReC:_LIVE_~first_crossing~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

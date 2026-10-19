@@ -1,0 +1,1027 @@
+id: hasunosora/hasu-6th
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 6th Live Dream ～Bloom Garden Party～
+  rom: Love Live! Hasunosora Girls' High School Idol Club 6th Live Dream ~Bloom Garden Party~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 6th Live Dream ~Bloom Garden Party~
+stops:
+  - id: 1-fukuoka
+    city: fukuoka
+    label: Bloom Stage
+    venue: marine-messe-fukuoka-hall-b
+    performances:
+      - date: 2026-05-02
+        setlist:
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#105th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/yup-yup-yup
+            version: 105th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - {type: other, label: Sayaka Murano & Kosuzu Kachimachi Dance Battle}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/seishun-no-rinkaku
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sugao-no-pixel
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kanazawa-one-side-love
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/umbrella
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/senpai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/meu-amore-meerkat
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: mc}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/eien-no-euphoria
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Bloom Stage|Day 1
+      - date: 2026-05-03
+        setlist:
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#105th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/yup-yup-yup
+            version: 105th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sugao-no-pixel
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/seishun-no-rinkaku
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/my-lucky-clover
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/diamondz
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/heart-ni-q
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/drive-spade-crazy
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: mc}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/eien-no-euphoria
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Bloom Stage|Day 2
+  - id: 2-hyogo
+    city: hyogo
+    label: Garden Stage
+    venue: kobe-world-memorial-hall
+    performances:
+      - date: 2026-05-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/aoku-haruka
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kanazawa-one-side-love
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/umbrella
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/senpai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/meu-amore-meerkat
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/link-to-the-future
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/365-days
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Garden Stage|Day 1
+      - date: 2026-05-24
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/aoku-haruka
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/berry-merry-go-round
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/freesia
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/panai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/saka-now
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/link-to-the-future
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/365-days
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Garden Stage|Day 2
+  - id: 3-kanagawa
+    city: kanagawa
+    label: Party Stage
+    venue: pia-arena-mm
+    performances:
+      - date: 2026-05-30
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kanazawa-one-side-love
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/umbrella
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/panai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/chili-con-carne
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/haji-wa-jinsei-no-kakisute
+            performers:
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/hime-anyoji}
+              - {character: hasunosora/izumi-katsuragi}
+          - work: hasunosora/link-to-the-future
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/hello-new-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Party Stage|Day 1
+      - date: 2026-05-31
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/joker
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/henyoku-no-toribaga
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/reijou-mob
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/otome-anthology
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sayo-shigure
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/blast
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/vital-sign
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/taiyou-de-are
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/garando-flash
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/berry-merry-go-round
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/fruit-punch
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/icy
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/freesia
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/reboot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/panai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hip-hip-hooray
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/saka-now
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - {type: video}
+          - work: hasunosora/haji-wa-jinsei-no-kakisute
+            performers:
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/hime-anyoji}
+              - {character: hasunosora/izumi-katsuragi}
+          - work: hasunosora/link-to-the-future
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/hello-new-dream
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Party Stage|Day 2
+  - id: 4-saitama
+    city: saitama
+    label: Bloom Garden Party Stage
+    venue: belluna-dome
+    performances:
+      - date: 2026-07-11
+        setlist:
+          - work: hasunosora/hana-sakeba-yume-kakeru
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/retrofuture
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/suisai-sekai
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/genyo-yako
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/special-thanks
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/seishun-no-rinkaku
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/parallel-dancer
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/senpai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/joushou-kiryuu
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/ittan
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/step-up
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: other, label: BREAK}
+          - work: hasunosora/i-do-me
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/bless-you
+            performers:
+              - {character: hasunosora/sayaka-murano}
+          - work: hasunosora/mijinko-transformation
+            performers:
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/playlist-ano-hi
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - {type: video}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - {type: mc, label: MC by Edel Note}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            recording: hasunosora/tomodachi-ni-nareru-basho#b-g-p-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/icy
+            recording: hasunosora/icy#b-g-p-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            recording: hasunosora/fushigi-to-kimi-to-library#b-g-p-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/hitoyo-ni-yume-ga-saku-you-ni
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/yuki-mau-sora-to-nibyou-no-eien
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/ima-kako-mirai-no-sangenshoku
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video}
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#b-g-p-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: encore, label: Encore}
+          - work: hasunosora/hikari-no-naka-de-hana-saite
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Bloom Garden Party Stage|Day 1
+      - date: 2026-07-12
+        setlist:
+          - work: hasunosora/hana-sakeba-yume-kakeru
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/fusion-crust
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/a-deru-note
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/suisai-sekai
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/holiday-holiday
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/special-thanks
+            version: 105期 Ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/awoke
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/parallel-dancer
+            version: 105期 Ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kokon-touzai
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/joushou-kiryuu
+            version: 105期 Ver.
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/ittan
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/step-up
+            version: 105期 Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: other, label: BREAK}
+          - work: hasunosora/i-do-me
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/hajimari-no-hane-oto
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/echoes-beyond
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/charming-na-hanataba-o
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/bless-you
+            performers:
+              - {character: hasunosora/sayaka-murano}
+          - work: hasunosora/mijinko-transformation
+            performers:
+              - {character: hasunosora/rurino-osawa}
+          - work: hasunosora/playlist-ano-hi
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+          - work: hasunosora/perennial
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/rurino-osawa}
+          - {type: video}
+          - work: hasunosora/edelinien
+            performers:
+              - {artist: edel-note}
+          - {type: mc, label: MC by Edel Note}
+          - work: hasunosora/tomodachi-ni-nareru-basho
+            recording: hasunosora/tomodachi-ni-nareru-basho#b-g-p-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/icy
+            recording: hasunosora/icy#b-g-p-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            recording: hasunosora/fushigi-to-kimi-to-library#b-g-p-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/hitoyo-ni-yume-ga-saku-you-ni
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/yuki-mau-sora-to-nibyou-no-eien
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/ima-kako-mirai-no-sangenshoku
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video}
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#b-g-p-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: encore, label: Encore}
+          - work: hasunosora/hikari-no-naka-de-hana-saite
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Bloom Garden Party Stage|Day 2
+external_ids:
+  fandom: Hasunosora Girls' High School Idol Club 6th Live Dream ~Bloom Garden Party~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=6thBGP
+    checked: 2026-10-20
+  setlist.2026-05-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-05-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-05-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-05-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-05-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-05-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-07-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-07-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_6th_Live_Dream_~Bloom_Garden_Party~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

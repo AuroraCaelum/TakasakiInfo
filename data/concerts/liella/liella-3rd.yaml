@@ -1,0 +1,1452 @@
+id: liella/liella-3rd
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 3rd LoveLive! Tour ～WE WILL!!～
+  rom: Love Live! Superstar!! Liella! 3rd LoveLive! Tour ~WE WILL!!~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 3rd LoveLive! Tour ~WE WILL!!~
+stops:
+  - id: 1-miyagi
+    city: miyagi
+    venue: xebio-arena-sendai
+    performances:
+      - date: 2022-12-03
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Miyagi|Day 1
+      - date: 2022-12-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Miyagi|Day 2
+  - id: 2-aichi
+    city: aichi
+    venue: aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a
+    performances:
+      - date: 2022-12-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2022-12-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 2
+  - id: 3-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-hall-1-3
+    performances:
+      - date: 2023-01-07
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/unison
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Chiba|Day 1
+      - date: 2023-01-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Chiba|Day 2
+  - id: 4-hokkaido
+    city: hokkaido
+    venue: hokkai-kitayell
+    performances:
+      - date: 2023-01-13
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/unison
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Hokkaido|Day 1
+      - date: 2023-01-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Hokkaido|Day 2
+  - id: 5-osaka
+    city: osaka
+    venue: osaka-jo-hall
+    performances:
+      - date: 2023-01-21
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2023-01-22
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/1-2-3
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 2
+  - id: 6-tokyo
+    city: tokyo
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2023-01-28
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Chofu|Day 1
+      - date: 2023-01-29
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/1-2-3
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Chofu|Day 2
+  - id: 7-saitama
+    city: saitama
+    venue: belluna-dome
+    performances:
+      - date: 2023-03-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/parade-wa-itsumo
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+          - work: liella/meikyu-sanka
+            performers:
+              - {character: liella/ren-hazuki}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/dreamer-coaster
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/kinako-sakurakoji}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/time-to-go
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Saitama|Day 1
+      - date: 2023-03-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video, label: Anime Intermission}
+          - work: liella/go-restart
+            performers:
+              - {artist: liella}
+          - {type: video, label: Liella no Uta Intermission}
+          - work: liella/prime-adventure
+            performers:
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/endless-circuit
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/sumire-heanna}
+          - work: liella/kakeru-merry-go-round
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+          - {type: video, label: Anime Intermission}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/utopia-magic
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/irozuite-tomei
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/edelstein
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+          - work: liella/namae-yobi-au-you-ni
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: 9-Member orchestral version
+            performers:
+              - {artist: liella}
+          - {type: video, label: Anime Intermission}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/unison
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 9-Member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: double_encore, label: Double Encore}
+          - work: liella/to-be-continued
+            version: Short version
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Saitama|Day 2
+external_ids:
+  fandom: Liella! 3rd LoveLive! Tour ~WE WILL!!~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=3rdlive
+    checked: 2026-10-20
+  setlist.2022-12-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-12-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-12-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-12-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-28:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-01-29:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-03-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_3rd_LoveLive!_Tour_~WE_WILL!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

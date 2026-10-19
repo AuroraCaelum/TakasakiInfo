@@ -1,0 +1,292 @@
+id: aqours/unit-koushien-2024
+projects: [aqours, nijigasaki, liella, hasunosora]
+status: performed
+title:
+  ja: LoveLive! Series Presents ユニット甲子園 2024
+  rom: LoveLive! Series Presents Unit Koshien 2024
+  ko: LoveLive! Series Presents 유닛 고시엔 2024
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: k-arena-yokohama
+    performances:
+      - date: 2024-03-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/blue
+            performers:
+              - {artist: a-zu-na}
+          - work: aqours/fabotage
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - work: aqours/we-ll-get-the-next-dream
+            performers:
+              - {artist: azalea}
+          - work: aqours/maze-sekai
+            performers:
+              - {artist: azalea}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - work: liella/hot-passion
+            performers:
+              - {artist: sunny-passion}
+          - work: liella/till-sunrise
+            performers:
+              - {artist: sunny-passion}
+          - {type: mc, label: MC with Yasuo Fujii}
+          - work: nijigasaki/radio-taisou-dai-ichi
+            version: Nijigasaki High School Idol Club Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Liella! Special Unit Medley}
+          - work: liella/distortion
+            performers:
+              - {artist: catchu}
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/jellyfish
+            performers:
+              - {artist: 5yncri5e}
+          - work: nijigasaki/pastel
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+          - {type: encore, label: Encore}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - {work: aqours/matte-te-ai-no-uta}
+          - {work: liella/kirakyun}
+          - {work: hasunosora/asu-no-sora-no-bokutachi-e}
+          - {work: nijigasaki/zensoku-dreamer}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - {type: mc, label: Ending MC}
+          - work: nijigasaki/live-with-a-smile
+            performers:
+              - {artist: aqours}
+              - {artist: saint-snow}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: sunny-passion}
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2024-03-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dragon-riders
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/metamorphism
+            performers:
+              - {artist: azalea}
+          - work: aqours/waai-waiwai-waiwaiwai
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/peace-piece-pizza
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - work: nijigasaki/blue
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/shadow-effect
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/reflection-in-the-mirror
+            performers:
+              - {artist: cerise-bouquet}
+          - work: liella/hot-passion
+            performers:
+              - {artist: sunny-passion}
+          - work: liella/till-sunrise
+            performers:
+              - {artist: sunny-passion}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - work: hasunosora/deepness
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: aqours/shooting-star-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - {type: encore, label: Encore}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - {work: nijigasaki/colorful-dreams-colorful-smiles}
+          - {work: liella/nonfiction}
+          - {work: aqours/deep-resonance}
+          - {work: hasunosora/natsumeki-pain}
+          - {type: mc, label: MC with Hinaki Yano and Yasuo Fujii}
+          - {type: mc, label: Ending MC}
+          - work: nijigasaki/live-with-a-smile
+            performers:
+              - {artist: aqours}
+              - {artist: saint-snow}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: sunny-passion}
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Love Live! Series Presents Unit Koushien 2024
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=unitlive2024
+    checked: 2026-10-20
+  setlist.2024-03-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Series_Presents_Unit_Koushien_2024
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-03-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Series_Presents_Unit_Koushien_2024
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

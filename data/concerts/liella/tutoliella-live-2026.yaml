@@ -1,0 +1,232 @@
+id: liella/tutoliella-live-2026
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!! 2026
+  rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE 2026
+  ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!! 2026
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: lala-arena-tokyo-bay
+    performances:
+      - date: 2026-08-01
+        label: Day.1 Day
+        setlist:
+          - work: liella/koi-no-tutorial
+            version: ショート Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc, label: MC with Liella!}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: mc, label: 'MC with Liella!, Time Machine 3Go & Fujita'}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+        external_ids:
+          fandom: '|Day 1 (Day)'
+      - date: 2026-08-01
+        label: Day.1 Night
+        setlist:
+          - work: liella/koi-no-tutorial
+            version: ショート Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - {type: mc, label: MC with Liella!}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: mc, label: 'MC with Liella!, Time Machine 3Go & Fujita'}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+        external_ids:
+          fandom: '|Day 1 (Night)'
+      - date: 2026-08-02
+        setlist:
+          - work: liella/koi-no-tutorial
+            version: ショート Ver.
+            performers:
+              - {artist: liella}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - {type: mc, label: MC with Liella!}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/high-motivation
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - work: liella/sagashite-future
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: mc, label: 'MC with Liella!, Time Machine 3Go & Fujita'}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - performers:
+              - {artist: liella}
+            title_raw: オレンジのままで
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Liella! no TUTOLiella!! LIVE 2
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://tutoliella-live.jp/
+    checked: 2026-10-20
+  setlist.2026-08-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE_2
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-08-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE_2
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

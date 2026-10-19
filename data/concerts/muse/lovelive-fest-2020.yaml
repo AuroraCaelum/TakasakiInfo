@@ -1,0 +1,230 @@
+id: muse/lovelive-fest-2020
+projects: [muse, aqours, nijigasaki]
+status: performed
+title:
+  ja: LoveLive! Series 9th Anniversary ラブライブ！フェス
+  rom: Love Live! Series 9th Anniversary LOVE LIVE! FEST
+  ko: LoveLive! Series 9th Anniversary 러브 라이브! 페스
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2020-01-18
+        setlist:
+          - work: aqours/mitaiken-horizon
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - {type: mc}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - {type: other, label: Medley Part}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2020-01-19
+        setlist:
+          - work: aqours/mitaiken-horizon
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - performers:
+              - {artist: saint-snow}
+            title_raw: SELF CONTROL!!
+          - {type: mc}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - {type: other, label: Medley Part}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Love Live! Fest
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/9th-anniversary/fest/index.php
+    checked: 2026-10-20
+  setlist.2020-01-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Fest
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-01-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Fest
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,788 @@
+id: nijigasaki/niji-nijitabi
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 にじたび！ TOKIMEKI FAN MEETING TOUR
+  rom: Love Live! Nijigasaki High School Idol Club Nijitabi! TOKIMEKI FAN MEETING TOUR
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 니지여행! TOKIMEKI FAN MEETING TOUR
+stops:
+  - id: 1-hiroshima
+    city: hiroshima
+    venue: hiroshima-bunka-gakuen-hbg-hall
+    performances:
+      - date: 2023-04-22
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hiroshima|Day 1
+      - date: 2023-04-23
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hiroshima|Day 2 (Noon)
+      - date: 2023-04-23
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hiroshima|Day 2 (Evening)
+  - id: 2-tokyo
+    city: tokyo
+    venue: line-cube-shibuya
+    performances:
+      - date: 2023-05-06
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - {type: mc}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2023-05-07
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Tokyo|Day 2 (Noon)
+      - date: 2023-05-07
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - {type: mc}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Tokyo|Day 2 (Evening)
+  - id: 3-aichi
+    city: aichi
+    venue: aichi-prefectural-art-theater-main-theater
+    performances:
+      - date: 2023-05-13
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2023-05-14
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 2 (Noon)
+      - date: 2023-05-14
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 2 (Evening)
+  - id: 4-fukuoka
+    city: fukuoka
+    venue: kitakyushu-soleil-hall
+    performances:
+      - date: 2023-06-17
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 1
+      - date: 2023-06-18
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 2 (Noon)
+      - date: 2023-06-18
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 2 (Evening)
+  - id: 5-osaka
+    city: osaka
+    venue: orix-theater
+    performances:
+      - date: 2023-07-01
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2023-07-02
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/turn-it-up
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 2 (Noon)
+      - date: 2023-07-02
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 2 (Evening)
+  - id: 6-hokkaido
+    city: hokkaido
+    venue: sapporo-cultural-arts-theater-hitaru
+    performances:
+      - date: 2023-07-16
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 1
+      - date: 2023-07-17
+        label: Day.2 Day
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 2 (Noon)
+      - date: 2023-07-17
+        label: Day.2 Night
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            version: short version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/concentrate
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 2 (Evening)
+external_ids:
+  fandom: Nijigasaki High School Idol Club Nijitabi! TOKIMEKI FAN MEETING TOUR
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023
+    checked: 2026-10-20
+  setlist.2023-04-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-04-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-05-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-05-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-05-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-05-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-06-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-06-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-07-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-07-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-07-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-07-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

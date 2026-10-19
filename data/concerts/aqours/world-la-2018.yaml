@@ -1,0 +1,79 @@
+id: aqours/world-la-2018
+projects: [aqours]
+status: performed
+title:
+  ja: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+  rom: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+  ko: LOVELIVE! SUNSHINE!! Aqours World Love Live! in LA ~Beyond the Pacific~
+stops:
+  - id: 1-los-angeles
+    city: los-angeles
+    venue: microsoft-theater
+    performances:
+      - date: 2018-07-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - {type: mc, label: CYaRon! MC}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - {type: mc, label: AZALEA MC}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc, label: Guilty Kiss MC}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|'
+external_ids:
+  fandom: Aqours World Love Live! in LA ~Beyond the Pacific~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=45
+    checked: 2026-10-20
+  setlist.2018-07-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_World_Love_Live!_in_LA_~Beyond_the_Pacific~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

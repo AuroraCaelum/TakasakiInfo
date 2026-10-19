@@ -1,0 +1,105 @@
+id: aqours/cyaron-2nd
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! CYaRon！2nd LoveLive! ～大革命☆Wake Up Kingdom～
+  rom: Love Live! Sunshine!! CYaRon! 2nd LoveLive! ~Dai Kakumei☆Wake Up Kingdom~
+  ko: 러브 라이브! 선샤인!! CYaRon! 2nd LoveLive! ~대혁명☆Wake Up Kingdom~
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - date: 2021-10-16
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/aru-hi-eien-mitai-ni}
+          - {work: aqours/braveheart-coaster}
+          - {work: aqours/my-list-to-you}
+          - {type: mc}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/kaigandori-de-matteru-yo}
+          - {work: aqours/yozorawa-nandemo-shitteruno}
+          - {type: video}
+          - {work: aqours/kodoku-teleport}
+          - {work: aqours/shojo-ijo-no-koi-ga-shitai}
+          - {work: aqours/hop-stop-nonstop}
+          - {type: video, label: CYaRoTOMO's Intermission}
+          - {type: other, label: Riko Jump High!!}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/genki-zenkai-day-day-day}
+          - {type: mc}
+          - {work: aqours/dance-with-minotaurus}
+          - {work: aqours/sakura-bye-bye}
+          - {work: aqours/humming-friend}
+          - {type: video}
+          - {work: aqours/whistle-of-revolution}
+          - {work: aqours/thrilling-one-way}
+          - {type: mc}
+          - {work: aqours/p-s-no-mukougawa}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - {work: aqours/dragon-riders}
+          - {work: aqours/my-mai-tonight}
+          - {type: mc}
+          - {work: aqours/kinmirai-happy-end}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-10-17
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/aru-hi-eien-mitai-ni}
+          - {work: aqours/braveheart-coaster}
+          - {work: aqours/my-list-to-you}
+          - {type: mc}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/kaigandori-de-matteru-yo}
+          - {work: aqours/yozorawa-nandemo-shitteruno}
+          - {type: video}
+          - {work: aqours/changeless}
+          - {work: aqours/shojo-ijo-no-koi-ga-shitai}
+          - {work: aqours/hop-stop-nonstop}
+          - {type: video, label: CYaRoTOMO's Intermission}
+          - {type: other, label: Riko Jump High!!}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/genki-zenkai-day-day-day}
+          - {type: mc}
+          - {work: aqours/dance-with-minotaurus}
+          - {work: aqours/sakura-bye-bye}
+          - {work: aqours/humming-friend}
+          - {type: video}
+          - {work: aqours/whistle-of-revolution}
+          - {work: aqours/thrilling-one-way}
+          - {type: mc}
+          - {work: aqours/p-s-no-mukougawa}
+          - {work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - {work: aqours/dragon-riders}
+          - {work: aqours/my-mai-tonight}
+          - {type: mc}
+          - {work: aqours/kinmirai-happy-end}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: CYaRon! 2nd LoveLive! ~Dai Kakumei☆Wake Up Kingdom~
+evidence:
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_CYR.php
+    checked: 2026-10-20
+  setlist.2021-10-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/CYaRon!_2nd_LoveLive!_~Dai_Kakumei%E2%98%86Wake_Up_Kingdom~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-10-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/CYaRon!_2nd_LoveLive!_~Dai_Kakumei%E2%98%86Wake_Up_Kingdom~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
