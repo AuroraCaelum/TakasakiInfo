@@ -217,6 +217,18 @@ def test_w16_flags_official_fields_sourced_elsewhere():
     assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]
 
 
+def test_w18_flags_values_resting_on_the_migration_only():
+    ds = Dataset()
+    migrated = m.Evidence(status=m.Status.legacy, source=m.MIGRATED)
+    off = m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01")
+    ds.persons["a"] = m.Person(id="a", names=m.Names(ja="NOVECHIKA", rom="NOVECHIKA", ko="NOVECHIKA"),
+                               native_script="latin", evidence={"names.ja": off, "names.ko": migrated})
+    ds.works["p/w"] = m.Work(id="p/w", project="p", title=m.Names(ja="曲", rom="Kyoku", ko="곡"), evidence={"credits": off},
+                             recordings=[m.Recording(id="original", evidence={"credits": migrated})])
+    assert sorted((f.where, f.message.split()[0]) for f in validate(ds) if f.rule == "W18") == [
+        ("person:a", "names.ko"), ("work:p/w#original", "credits")]
+
+
 def test_w15_skips_activity_names_with_a_recorded_reason():
     ds = Dataset()
     ds.persons["pen"] = m.Person(id="pen", names=m.Names(ja="吸血亭 賛美", rom="Kyuketsutei Zabi", ko="큐우케츠테이 자비"))

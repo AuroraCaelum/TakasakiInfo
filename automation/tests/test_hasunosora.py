@@ -40,7 +40,7 @@ def test_detail_page():
     assert [(t.disc, t.no, t.title) for t in p.tracks] == [(1, 1, "Song A"), (1, 2, "Song A（Off Vocal）"), (2, 1, "Song B")]
     a = p.tracks[0]
     assert a.performers.artists == ["スリーズブーケ", "DOLLCHESTRA"]
-    assert set(a.credits) == {"lyricist", "composer", "arranger"}  # 弦編曲 is dropped
+    assert set(a.credits) == {"lyricist", "composer", "arranger", "strings"}  # 弦編曲 is read apart
     assert [(c.name, c.affiliation) for c in a.credits["arranger"]] == [("本田正樹", "Dream Monster")]
     assert p.tracks[2].performers.members == [("乙宗 梢", "花宮初奈")]  # a disc's first track printed without its number
     with pytest.raises(imp.ParseError):  # an unknown line inside a track is not guessed
@@ -143,7 +143,7 @@ def test_migrated_release_gets_the_page_facts_and_keeps_its_tracks(ds, tmp_path)
         assert rel.links == {"official": URL} and rel.type == "single" and rel.label == "Lantis"
         assert [e.catalog for e in rel.editions] == ["LACM-1"] and rel.artist_credit == [m.Performer(artist="cb")]
         assert rel.discs[0].tracks[0].note == "tie-in"  # never rewritten
-        assert rel.evidence["tracks"].status == m.Status.official and rel.evidence["tracks"].note == imp.CHECKED_LEGACY
+        assert rel.evidence["tracks"].status == m.Status.official and rel.evidence["tracks"].note == imp.CHECKED_TRACKS
     assert ds.artists["cb"].lineups == []  # Hasunosora keeps its dated lineups (D33)
 
 

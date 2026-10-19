@@ -317,7 +317,7 @@ def main(argv: list[str] | None = None) -> int:
     yl.add_argument("--json", help="write the full report here")
     yl.set_defaults(func=cmd_ytm_links)
     of = sub.add_parser("official", help="official-site adapter (§7.2 ③): read releases and members, upsert them")
-    of.add_argument("project", choices=["ikizulive", "hasunosora"])
+    of.add_argument("project", choices=["ikizulive", "hasunosora", "nijigasaki", "liella", "aqours", "musical"])
     of.add_argument("--apply", action="store_true", help="write data/ and the new-names review files")
     of.add_argument("--fresh", action="store_true", help="download pages again even when cached")
     of.add_argument("--offline", action="store_true", help="use cached pages only")

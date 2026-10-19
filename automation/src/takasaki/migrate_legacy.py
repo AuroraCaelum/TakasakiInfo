@@ -41,7 +41,7 @@ GROUPS = [
 GROUP_ARTISTS = {"Aqours", "虹ヶ咲学園スクールアイドル同好会", "Liella!", "蓮ノ空女学院スクールアイドルクラブ", "μ's", "μ’s"}
 _EDITION = re.compile(r"^(?P<base>.+?)\s*(?:【(?P<a>[^】]+)】|［(?P<b>[^］]+盤)］|\[(?P<c>[^\]]+盤)\]|（(?P<d>[^）]+盤)）|\((?P<e>[^)]+盤)\))$")
 _DISC = re.compile(r"^(?P<base>.+?)\s*\[Disc (?P<n>\d+)\]$")
-LEGACY = m.Evidence(status=m.Status.legacy, source="migration:legacy")
+LEGACY = m.Evidence(status=m.Status.legacy, source=m.MIGRATED)
 
 
 @dataclass

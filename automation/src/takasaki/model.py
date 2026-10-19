@@ -35,6 +35,10 @@ class Names(Strict):
     ko: str | None = None
 
 
+# the source of a value as migrated from the legacy files (§12) before a source was found for it (D41)
+MIGRATED = "migration:legacy"
+
+
 class Evidence(Strict):
     status: Status
     source: str | None = None

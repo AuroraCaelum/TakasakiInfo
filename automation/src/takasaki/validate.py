@@ -358,18 +358,35 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 if official_first(kind, key) and ev.source and ev.source.startswith("http") and not is_official(ev.source) \
                         and not any(mark in (ev.note or "") for mark in OFFICIAL_CHECKED):
                     add("W16", f"{kind}:{where}", f"{key} rests on {ev.source.split('/')[2]} only; check the official page")
+
+    # W18: a value whose only record is its migration from the legacy files (D41). The legacy files
+    # listed it, which is not a source: find one (official page first, D36) or send it to review
+    for kind, ent in ds.iter_all():
+        ident = ent.id  # type: ignore[attr-defined]
+        scopes = [(ident, getattr(ent, "evidence", {}))]
+        scopes += [(f"{ident}#{r.id}", r.evidence) for r in getattr(ent, "recordings", [])]
+        for where, evidence in scopes:
+            keys = [key for key, ev in evidence.items() if ev.source == m.MIGRATED]
+            if keys:
+                add("W18", f"{kind}:{where}", f"{', '.join(keys)} rest on the migration only; find a source")
     return out
 
 
 # project sites and the portal, the label, and the official streaming release (its distributed titles)
-# evidence notes saying the official site was looked at first: it does not carry the value, or it is
-# behind the source that was used (D36)
-OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신")
+# evidence notes saying the official site was looked at first: it does not carry the value, it is
+# behind the source that was used (D36), or the source is the series' own account off the site
+# (an official YouTube channel's video description, an official X post; D41)
+OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신", "공식 계정")
 OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
+# the rights holders' sites of the other franchises whose characters appear in crossovers (external/*)
+OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com")
 
 
 def is_official(url: str) -> bool:
-    return url.split("/")[2] in OFFICIAL_HOSTS if url.count("/") >= 2 else False
+    if url.count("/") < 2:
+        return False
+    host = url.split("/")[2]
+    return host in OFFICIAL_HOSTS or any(host == d or host.endswith("." + d) for d in OTHER_OFFICIAL_DOMAINS)
 
 
 def official_first(kind: str, key: str) -> bool:
