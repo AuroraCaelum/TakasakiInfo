@@ -23,23 +23,24 @@ discs:
       - {no: 15, recording: aqours/wake-up-challenger#ruby-kurosawa-solo-ver}
       - {no: 16, recording: aqours/cotton-candy-ei-ei-oh#original}
 streaming:
-  - tracks:
-      1-1: qqMhdF3p4ew
-      1-2: i1HHCg8DvmQ
-      1-3: Bb_cKNly5-Y
-      1-4: tV5P4SXTzGU
-      1-5: tjxfyaHEqjg
-      1-6: yd1rjNg-RHk
-      1-7: JeQM7rRp3qU
-      1-8: R3pRxEfl-dQ
-      1-9: QnOkqXaXBz4
-      1-10: BO6LaG7n-N8
-      1-11: UxiS4_EJa9Q
-      1-12: 25dS72Xtd-k
-      1-13: RYxugxfCpfQ
-      1-14: uoTQdQ6JNkI
-      1-15: HO2XJx7dILI
-      1-16: wvA6_u808pk
+  - browse_id: MPREb_dbXcVT1MP5Q
+    tracks:
+      1-1: J9jJ6Feb2wM
+      1-2: eR6_KC5u12M
+      1-3: DmvUjtdLik4
+      1-4: XM-zX3yOUQg
+      1-5: IpTvsANbZCA
+      1-6: YwHoXslQ2fU
+      1-7: EILi-nN3XxE
+      1-8: CrfwGt4OR3M
+      1-9: aZLPKYQczpc
+      1-10: KZdNFuJM9Z8
+      1-11: 2ZM03CsRL2o
+      1-12: bwZ6TFVeWX4
+      1-13: WU7tFjkpFAY
+      1-14: w8mgI3apfAw
+      1-15: 5h0qdWKJ94Y
+      1-16: ERVPgg3Ic54
 legacy:
   category: Aqours
   albums:
@@ -51,3 +52,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

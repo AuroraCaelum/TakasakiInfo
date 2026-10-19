@@ -12,9 +12,12 @@ discs:
       - {no: 4, recording: aqours/yozorawa-nandemo-shitteruno#off-vocal}
       - {no: 5, recording: aqours/shougetsu-pine-moon-o-sagashite#main}
 streaming:
-  - tracks:
-      1-1: lGUOVwCiG3g
-      1-2: -ugxwDzsflE
+  - browse_id: MPREb_axn6AJvOe8F
+    tracks:
+      1-1: 49jF2CX42QU
+      1-2: iSL44Ni9JWI
+      1-3: KVGILdVpIt8
+      1-4: xrTN1OXE7Fs
 legacy:
   category: Aqours
   albums:
@@ -26,3 +29,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'CYaRon! 1st Single'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_axn6AJvOe8F
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

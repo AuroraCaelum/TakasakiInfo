@@ -1,0 +1,47 @@
+id: ikizulive/centimeter-rendezvous
+project: ikizulive
+title:
+  ja: センチメートル・ランデヴー
+  rom: Centimeter・Rendezvous
+  ko: 센티미터・랑데부
+credits:
+  lyricist:
+    - {person: kano-tono}
+  composer:
+    - {person: motokiyo}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/noriko-chofu}
+    arranger:
+      - {person: motokiyo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: センチメートル・ランデヴー (Off Vocal)
+      rom: Centimeter・Rendezvous (Off Vocal)
+      ko: 센티미터・랑데부 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: motokiyo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+    checked: 2026-10-19
+    note: "ja: 공식, ko: 나무위키 '센티멘털・랑데부'는 오역이라 고침 (사용자 결정), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반"
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+    checked: 2026-10-18

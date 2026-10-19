@@ -13,10 +13,12 @@ discs:
       - {no: 6, recording: aqours/sarah-to-leah-o-namiuchigiwa-de#main}
       - {no: 7, recording: aqours/sarah-to-leah-o-numazu-no-aji-de#main}
 streaming:
-  - tracks:
-      1-1: APoKMSuSXlM
-      1-2: ddgVXZnQt8o
-      1-3: OkXsedymTxc
+  - browse_id: MPREb_dtoW0WxBUKi
+    tracks:
+      1-1: X6ufGIN3t-E
+      1-2: CenJwjaMIeg
+      1-3: FCWHBsaQI-Q
+      1-4: RvAVKSn2OKA
 legacy:
   category: Aqours
   albums:
@@ -25,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_dtoW0WxBUKi
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

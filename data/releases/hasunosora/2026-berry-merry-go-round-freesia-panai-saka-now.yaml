@@ -1,0 +1,57 @@
+id: hasunosora/2026-berry-merry-go-round-freesia-panai-saka-now
+type: digital_single
+title:
+  ja: Berry Merry Go Round / フリジア / PANAI☆ / 咲かnow!
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+  - {artist: dollchestra}
+  - {artist: mira-cra-park}
+  - {artist: edel-note}
+release_date: 2026-05-09
+editions:
+  - id: e1
+    catalog: LZC-3492
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/berry-merry-go-round#original}
+      - {no: 2, recording: hasunosora/freesia#original}
+      - {no: 3, recording: hasunosora/panai#original}
+      - {no: 4, recording: hasunosora/saka-now#original}
+      - {no: 5, recording: hasunosora/berry-merry-go-round#off-vocal}
+      - {no: 6, recording: hasunosora/freesia#off-vocal}
+      - {no: 7, recording: hasunosora/panai#off-vocal}
+      - {no: 8, recording: hasunosora/saka-now#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_n8lCAoJeaBJ
+    tracks:
+      1-1: V3DtHIdQToM
+      1-2: nJ7DwkA2K54
+      1-3: nvVdWHLWyD8
+      1-4: ufK14rcy7pk
+      1-5: 7VmsRI_ctgk
+      1-6: 0btMDlVDUWY
+      1-7: 27pxLug0uas
+      1-8: Gwd2AGKC8vI
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Berry Merry Go Round / フリジア / PANAI☆ / 咲かnow!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_n8lCAoJeaBJ
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

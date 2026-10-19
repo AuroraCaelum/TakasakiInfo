@@ -1,0 +1,47 @@
+id: ikizulive/asakusa-guilty-girl-no-uta
+project: ikizulive
+title:
+  ja: 浅草Guilty Girlの歌
+  rom: Asakusa Guilty Girl no Uta
+  ko: 아사쿠사 Guilty Girl의 노래
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: yuta-tamura}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/polka-takahashi}
+    arranger:
+      - {person: yuta-tamura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 浅草Guilty Girlの歌 (Off Vocal)
+      rom: Asakusa Guilty Girl no Uta (Off Vocal)
+      ko: 아사쿠사 Guilty Girl의 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuta-tamura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+    checked: 2026-10-18

@@ -1,0 +1,95 @@
+id: hasunosora/2026-full-bloom-memories-osawa-rurino
+type: album
+title:
+  ja: ～Full Bloom Memories～ Osawa Rurino
+  rom: ~Full Bloom Memories~ Osawa Rurino
+  ko: ~Full Bloom Memories~ Osawa Rurino
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/rurino-osawa}
+label: Lantis
+release_date: 2026-07-01
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39180~1
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19180~1
+    media: [CD, CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/do-do-do#rurino-osawa-solo}
+      - {no: 2, recording: hasunosora/hakuchuu-a-la-mode#rurino-osawa-solo}
+      - {no: 3, recording: hasunosora/kokon-touzai#rurino-osawa-solo}
+      - {no: 4, recording: hasunosora/identity#rurino-osawa-solo}
+      - {no: 5, recording: hasunosora/non-fiction-hero-show#rurino-osawa-solo}
+      - {no: 6, recording: hasunosora/milk#rurino-osawa-solo}
+      - {no: 7, recording: hasunosora/ishin-denshin#rurino-osawa-solo}
+      - {no: 8, recording: hasunosora/bang-you-gravity#rurino-osawa-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/mira-creation#rurino-osawa-solo}
+      - {no: 2, recording: hasunosora/fanfare#rurino-osawa-solo}
+      - {no: 3, recording: hasunosora/joushou-kiryuu#rurino-osawa-solo}
+      - {no: 4, recording: hasunosora/zenhoui-kyun#rurino-osawa-solo}
+      - {no: 5, recording: hasunosora/wawo#rurino-osawa-solo}
+      - {no: 6, recording: hasunosora/blast#rurino-osawa-solo}
+      - {no: 7, recording: hasunosora/nyao-signyal#rurino-osawa-solo}
+      - {no: 8, recording: hasunosora/tomodachi-ni-nareru-basho#rurino-osawa-solo}
+      - {no: 9, recording: hasunosora/echoes-beyond#rurino-osawa-solo}
+      - {no: 10, recording: hasunosora/i-do-me#rurino-osawa-solo}
+      - {no: 11, recording: hasunosora/dream-believers#sakura-ver-rurino-osawa}
+      - {no: 12, recording: hasunosora/mijinko-transformation#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_alwrnwvo7KR
+    tracks:
+      1-1: v8bUt-cofHM
+      1-2: 5WzEFC-d5io
+      1-3: eX5IzPSA1FQ
+      1-4: 1Zha6LppeKQ
+      1-5: InrzHFXKxRw
+      1-6: ob33Bcd381c
+      1-7: LPXuqrQ3NvM
+      1-8: O4At2-wNkVk
+      2-1: LHiAoj-U_34
+      2-2: SRJViq5OG0I
+      2-3: xdKh82NyOP4
+      2-4: oQC2y8DzpQ4
+      2-5: uXJtYa6jzSI
+      2-6: KNi3_Ju3MZc
+      2-7: NB65st03Rzg
+      2-8: cYq6WuR6RFw
+      2-9: 4xyQKjRu6Qs
+      2-10: Mh3aW51XriE
+      2-11: jL2-PacCFOA
+      2-12: zw7wRNlPDMQ
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Full Bloom Memories～ Osawa Rurino}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

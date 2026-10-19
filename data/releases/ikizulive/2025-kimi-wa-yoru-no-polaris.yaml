@@ -1,0 +1,62 @@
+id: ikizulive/2025-kimi-wa-yoru-no-polaris
+type: single
+title:
+  ja: キミは夜のポラリス
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/aurora-konohana}
+label: Lantis
+release_date: 2025-10-08
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34758
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24758
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/kimi-wa-yoru-no-polaris#original}
+      - {no: 2, recording: ikizulive/kurari-to-bright#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#aurora-konohana-solo-ver}
+      - {no: 4, recording: ikizulive/kimi-wa-yoru-no-polaris#off-vocal}
+      - {no: 5, recording: ikizulive/kurari-to-bright#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_eqG9ZewuvEt
+    tracks:
+      1-1: si1oqUjaZJs
+      1-2: _9c0XRlDagk
+      1-3: mhyOGNesDMs
+      1-4: Th_8Cg44EVs
+      1-5: NgR-3wSRpis
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+  smartlink: https://lnk.to/LACM-24758d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: キミは夜のポラリス}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは10月20日(月)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_eqG9ZewuvEt
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

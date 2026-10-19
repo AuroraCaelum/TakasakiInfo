@@ -12,10 +12,14 @@ discs:
       - {no: 5, recording: aqours/love-pulsar#off-vocal}
       - {no: 6, recording: aqours/phantom-rocket-adventure#off-vocal}
 streaming:
-  - tracks:
-      1-1: 0qAaLBbXE-c
-      1-2: ZwO0QFpH5Eg
-      1-3: qr-uy1qL43E
+  - browse_id: MPREb_KJQKPJSOkRF
+    tracks:
+      1-1: ZXmJVnQS7NY
+      1-2: _qxQHYfMjOI
+      1-3: Kx5Og2PwbdY
+      1-4: HOk_KzDSSWg
+      1-5: hYXFO4WA5FI
+      1-6: 2hL6-CAjBg0
 legacy:
   category: Aqours
   albums:
@@ -24,3 +28,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KJQKPJSOkRF
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -2,14 +2,17 @@ id: hasunosora/megumi-fujishima
 project: hasunosora
 names:
   ja: 藤島 慈
+  kana: ふじしま めぐみ
   rom: Megumi Fujishima
   ko: 후지시마 메구미
 family_name:
   ja: 藤島
+  kana: ふじしま
   rom: Fujishima
   ko: 후지시마
 given_name:
   ja: 慈
+  kana: めぐみ
   rom: Megumi
   ko: 메구미
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/06/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

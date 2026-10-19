@@ -1,0 +1,6 @@
+# Line endings are fixed here, not by each machine's core.autocrlf: LF everywhere, so the
+# generated files match a fresh build on every OS (E8)
+* text=auto eol=lf
+
+# The legacy CSVs are CRLF with a BOM by format (DESIGN.md §10.1); never convert them
+*.csv -text

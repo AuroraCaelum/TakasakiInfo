@@ -1,0 +1,46 @@
+id: ikizulive/dou-da-doing
+project: ikizulive
+title:
+  ja: Dou-Da? DOING!
+  rom: Dou-Da? DOING!
+  ko: Dou-Da? DOING!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: ikizuraibu}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5861
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dou-Da? DOING! (Off Vocal)
+      rom: Dou-Da? DOING! (Off Vocal)
+      ko: Dou-Da? DOING! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5861
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5861
+    checked: 2026-10-18

@@ -1,0 +1,47 @@
+id: hasunosora/2025-i-do-me
+type: single
+title:
+  ja: アイドゥーミー！
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2025-07-09
+editions:
+  - id: e1
+    catalog: LACM-24697
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/i-do-me#original}
+      - {no: 2, recording: hasunosora/tohyo-star#original}
+      - {no: 3, recording: hasunosora/i-do-me#off-vocal}
+      - {no: 4, recording: hasunosora/tohyo-star#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_8jAWWorR55y
+    tracks:
+      1-1: 6HHQnA7VukA
+      1-2: bbfnWCsjeRA
+      1-3: 4D74F9LoTOY
+      1-4: eLgeHiopKtk
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4740
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: アイドゥーミー！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4740
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4740
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8jAWWorR55y
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

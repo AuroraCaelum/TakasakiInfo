@@ -1,0 +1,47 @@
+id: hasunosora/2024-tsukuyomi-kurage
+type: single
+title:
+  ja: 月夜見海月
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+label: Lantis
+release_date: 2024-09-04
+editions:
+  - id: e1
+    catalog: LACM-24625
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/tsukuyomi-kurage#original}
+      - {no: 2, recording: hasunosora/reflection-in-the-mirror#104th-new-ver}
+      - {no: 3, recording: hasunosora/tsukuyomi-kurage#off-vocal}
+      - {no: 4, recording: hasunosora/reflection-in-the-mirror#104th-new-ver-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_rYllkmmcqqN
+    tracks:
+      1-1: iPIxvDi_dS0
+      1-2: uY7CRo5eeF8
+      1-3: MwXXcd8vzSo
+      1-4: Kq79agzlkbM
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/19/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 月夜見海月}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/19/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/19/
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_rYllkmmcqqN
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

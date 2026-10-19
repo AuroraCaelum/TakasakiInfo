@@ -1,0 +1,46 @@
+id: ikizulive/daitan-party-time
+project: ikizulive
+title:
+  ja: Daitan Party Time
+  rom: Daitan Party Time
+  ko: Daitan Party Time
+credits:
+  lyricist:
+    - {person: hitomi-sano}
+  composer:
+    - {person: hitomi-sano}
+recordings:
+  - id: original
+    performers:
+      - {artist: plumina}
+    arranger:
+      - {person: jun-ichi-nakamura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Daitan Party Time (Off Vocal)
+      rom: Daitan Party Time (Off Vocal)
+      ko: Daitan Party Time (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: jun-ichi-nakamura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
+    checked: 2026-10-18

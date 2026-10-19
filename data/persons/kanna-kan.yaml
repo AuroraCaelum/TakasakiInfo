@@ -1,14 +1,17 @@
 id: kanna-kan
 names:
   ja: 菅 叶和
+  kana: かん かんな
   rom: Kanna Kan
   ko: 칸 칸나
 family_name:
   ja: 菅
+  kana: かん
   rom: Kan
   ko: 칸
 given_name:
   ja: 叶和
+  kana: かんな
   rom: Kanna
   ko: 칸나
 evidence:
@@ -18,3 +21,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/05/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

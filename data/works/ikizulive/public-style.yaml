@@ -1,0 +1,46 @@
+id: ikizulive/public-style
+project: ikizulive
+title:
+  ja: Public Style
+  rom: Public Style
+  ko: Public Style
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: sakumaryo}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/mai-azabu}
+    arranger:
+      - {person: sakumaryo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4698
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Public Style (Off Vocal)
+      rom: Public Style (Off Vocal)
+      ko: Public Style (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: sakumaryo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4698
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4698
+    checked: 2026-10-18

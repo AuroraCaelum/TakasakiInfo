@@ -1,0 +1,47 @@
+id: hasunosora/2024-fanfare
+type: single
+title:
+  ja: ファンファーレ！！！
+projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
+label: Lantis
+release_date: 2024-10-02
+editions:
+  - id: e1
+    catalog: LACM-24577
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/fanfare#original}
+      - {no: 2, recording: hasunosora/identity#104th-new-ver}
+      - {no: 3, recording: hasunosora/fanfare#off-vocal}
+      - {no: 4, recording: hasunosora/identity#104th-new-ver-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_xkWr3T2E8xJ
+    tracks:
+      1-1: _vrO5vZopM8
+      1-2: hMDZbak0WkY
+      1-3: q0KdVrm9ZWA
+      1-4: 3tzjBeRWzHU
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/21/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ファンファーレ！！！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/21/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/21/
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_xkWr3T2E8xJ
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

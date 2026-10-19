@@ -2,14 +2,17 @@ id: hasunosora/tsuzuri-yugiri
 project: hasunosora
 names:
   ja: 夕霧 綴理
+  kana: ゆうぎり つづり
   rom: Tsuzuri Yugiri
   ko: 유기리 츠즈리
 family_name:
   ja: 夕霧
+  kana: ゆうぎり
   rom: Yugiri
   ko: 유기리
 given_name:
   ja: 綴理
+  kana: つづり
   rom: Tsuzuri
   ko: 츠즈리
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/04/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

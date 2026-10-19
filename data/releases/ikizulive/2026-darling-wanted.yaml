@@ -1,0 +1,48 @@
+id: ikizulive/2026-darling-wanted
+type: digital_single
+title:
+  ja: Darling Wanted!
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/noriko-chofu}
+release_date: 2026-09-17
+editions:
+  - id: e1
+    catalog: LZC-3612
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/darling-wanted#original}
+      - {no: 2, recording: ikizulive/darling-wanted#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_uCbInjvx0vJ
+    tracks:
+      1-1: Qucbon2XOYk
+      1-2: ViRyG_vno64
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: Darling Wanted!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+    checked: 2026-10-18
+    note: ハイレゾ音源は11月25日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_uCbInjvx0vJ
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

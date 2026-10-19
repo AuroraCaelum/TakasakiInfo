@@ -1,13 +1,27 @@
 id: ryosuke-saito
 names:
-  ja: サイトウリョースケ
+  ja: サイトウ リョースケ
   rom: Ryosuke Saito
   ko: 사이토 료스케
+family_name:
+  ja: サイトウ
+  rom: Saito
+  ko: 사이토
+given_name:
+  ja: リョースケ
+  rom: Ryosuke
+  ko: 료스케
+aliases:
+  - {text: サイトウリョースケ}
 evidence:
   names:
     status: legacy
     source: migration:legacy
   names.ja:
-    status: established
-    source: https://www.uta-net.com/song/208377/
-    checked: 2026-10-17
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php
+    checked: 2026-10-18
+    note: 공식 크레딧 표기 (성·이름 모두 가나, D28). 이전 값 サイトウリョースケ(uta-net)
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 공식 표기의 공백 (D28)'

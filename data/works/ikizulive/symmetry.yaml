@@ -1,0 +1,49 @@
+id: ikizulive/symmetry
+project: ikizulive
+title:
+  ja: シンメトリー
+  rom: Symmetry
+  ko: 시메트리
+credits:
+  lyricist:
+    - {person: kano-tono}
+  composer:
+    - {person: shun-aratame}
+recordings:
+  - id: original
+    performers:
+      - {artist: mi-nori-tea}
+    arranger:
+      - {person: shun-aratame}
+      - {person: taiyo-makino}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シンメトリー (Off Vocal)
+      rom: Symmetry (Off Vocal)
+      ko: 시메트리 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shun-aratame}
+      - {person: taiyo-makino}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+    checked: 2026-10-18

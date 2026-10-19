@@ -16,17 +16,18 @@ discs:
       - {no: 9, recording: liella/mirai-wa-kaze-no-you-ni#original}
       - {no: 10, recording: liella/unison#original}
 streaming:
-  - tracks:
-      1-1: NVgf7WuYD70
-      1-2: _RUHUwCINXY
-      1-3: VAOLoxnr7s0
-      1-4: gPrsIjtTYuk
-      1-5: sZ2A0qafxUo
-      1-6: FmIyfiKTP1Q
-      1-7: OxM-4E7V5pY
-      1-8: ElmguCA0SuI
-      1-9: dDc6BXHDhrY
-      1-10: Q3M0lEXnqMs
+  - browse_id: MPREb_wnuvhDB0e8w
+    tracks:
+      1-1: 2wRZwZKD-Ns
+      1-2: 5hRw3Zmoksk
+      1-3: jGkag_pIH74
+      1-4: fDSQmAykWFM
+      1-5: a39-oAXmimg
+      1-6: n90_Z6n3Azg
+      1-7: OcQu6fkc1yw
+      1-8: iqmkWoolNyk
+      1-9: 6vhzVVKqDCE
+      1-10: aKwSdKZJYaU
 legacy:
   category: Liella
   albums:
@@ -35,3 +36,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wnuvhDB0e8w
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

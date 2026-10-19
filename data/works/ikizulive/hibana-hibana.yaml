@@ -1,0 +1,47 @@
+id: ikizulive/hibana-hibana
+project: ikizulive
+title:
+  ja: HIBANA―火花―
+  rom: HIBANA -Hibana-
+  ko: HIBANA―히바나―
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: gak-amazuti}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/hanabi-komagata}
+    arranger:
+      - {person: gak-amazuti}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HIBANA―火花― (Off Vocal)
+      rom: HIBANA -Hibana- (Off Vocal)
+      ko: HIBANA―히바나― (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: gak-amazuti}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역, 대시는 공식 제목(―)에 맞춤, rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+    checked: 2026-10-18

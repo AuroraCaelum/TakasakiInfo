@@ -1,0 +1,47 @@
+id: ikizulive/dekoboko-quartet
+project: ikizulive
+title:
+  ja: 凸凹Quartet
+  rom: Dekoboko Quartet
+  ko: 울퉁불퉁 Quartet
+credits:
+  lyricist:
+    - {person: yuta-sakai}
+  composer:
+    - {person: yuta-sakai}
+recordings:
+  - id: original
+    performers:
+      - {artist: chaki}
+    arranger:
+      - {person: yuta-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 凸凹Quartet (Off Vocal)
+      rom: Dekoboko Quartet (Off Vocal)
+      ko: 울퉁불퉁 Quartet (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuta-sakai}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
+    checked: 2026-10-18

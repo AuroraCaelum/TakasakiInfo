@@ -1,0 +1,47 @@
+id: hasunosora/henyoku-no-toribaga
+project: hasunosora
+title:
+  ja: 片翼のトリバガ
+  rom: Henyoku no Toribaga
+  ko: 한쪽 날개의 털날개나방
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: hinako-tsubakiyama, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: hinako-tsubakiyama, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 片翼のトリバガ (Off Vocal)
+      rom: Henyoku no Toribaga (Off Vocal)
+      ko: 한쪽 날개의 털날개나방 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hinako-tsubakiyama, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 번역을 고침(오역 소지, D30, 사용자 결정) (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E7%89%87%E7%BF%BC%E3%81%AE%E3%83%88%E3%83%AA%E3%83%90%E3%82%AC'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4976
+    checked: 2026-10-19

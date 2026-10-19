@@ -1,0 +1,46 @@
+id: hasunosora/365-days
+project: hasunosora
+title:
+  ja: 365 Days
+  rom: 365 Days
+  ko: 365 Days
+credits:
+  lyricist:
+    - {person: maika-sato}
+  composer:
+    - {person: kentaro-sonoda}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: kentaro-sonoda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/18/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 365 Days (Off Vocal)
+      rom: 365 Days (Off Vocal)
+      ko: 365 Days (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kentaro-sonoda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/18/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/18/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/18/
+    checked: 2026-10-19

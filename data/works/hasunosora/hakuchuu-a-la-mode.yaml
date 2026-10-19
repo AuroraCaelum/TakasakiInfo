@@ -20,6 +20,41 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: ハクチューアラモード (104期 Ver.)
+      rom: Hakuchuu à la Mode (104th Ver.)
+      ko: 한낮 à la Mode (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: nayutalien}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: nayutalien}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: nayutalien}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

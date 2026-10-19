@@ -10,9 +10,12 @@ discs:
       - {no: 3, recording: aqours/water-blue-new-world#off-vocal}
       - {no: 4, recording: aqours/wonderful-stories#off-vocal}
 streaming:
-  - tracks:
-      1-1: fHD4nFHjTOc
-      1-2: Nd_rRH9Fy30
+  - browse_id: MPREb_jsPK56rjeol
+    tracks:
+      1-1: VKCzcuEPrAg
+      1-2: VtNOSDELQ1s
+      1-3: iC__TCp3Lt4
+      1-4: 53A3igf30p4
 legacy:
   category: Aqours
   albums:
@@ -21,3 +24,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_jsPK56rjeol
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

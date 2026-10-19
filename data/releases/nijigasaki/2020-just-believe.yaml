@@ -18,19 +18,20 @@ discs:
       - {no: 11, recording: nijigasaki/tokimeki-runners#sifas-chapter-17-ver, note: 10 Members Ver.}
       - {no: 12, recording: nijigasaki/just-believe#original}
 streaming:
-  - tracks:
-      1-1: vkQ3UdLk3hw
-      1-2: wejUZYmLkqc
-      1-3: JvURKZQdCDs
-      1-4: 8bjQg-RUiRc
-      1-5: ZnyCUODvfKQ
-      1-6: 4PhvNBMo9iY
-      1-7: RINkOGcXJKQ
-      1-8: cbmJLrkdv3c
-      1-9: 5LSOw13RGKs
-      1-10: I8JYMvUpTI4
-      1-11: RMJ1TT5Gh1g
-      1-12: eXdOdtfAv6M
+  - browse_id: MPREb_IHeaiCEiIpp
+    tracks:
+      1-1: RMTT7gena-U
+      1-2: OursvaJXGa0
+      1-3: GKZEL5NLU98
+      1-4: J6mvP8qQ8qk
+      1-5: -5P42FFTxes
+      1-6: pMDmioaxHj0
+      1-7: IuaHhKSK6Ro
+      1-8: g9h5d8HrZU8
+      1-9: m3T890Zvyww
+      1-10: v_g_jC99ajM
+      1-11: oJyODjUY7MU
+      1-12: Ewqd9HF5oWQ
 legacy:
   category: Nijigasaki
   albums:
@@ -39,3 +40,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

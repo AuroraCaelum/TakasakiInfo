@@ -1,0 +1,47 @@
+id: ikizulive/darling-wanted
+project: ikizulive
+title:
+  ja: Darling Wanted!
+  rom: Darling Wanted!
+  ko: Darling Wanted!
+credits:
+  lyricist:
+    - {person: erica-masaki}
+  composer:
+    - {person: yuki-honda, affiliation: EverNest}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/mai-azabu}
+      - {character: ikizulive/noriko-chofu}
+    arranger:
+      - {person: yuki-honda, affiliation: EverNest}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Darling Wanted! (Off Vocal)
+      rom: Darling Wanted! (Off Vocal)
+      ko: Darling Wanted! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuki-honda, affiliation: EverNest}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6514
+    checked: 2026-10-18

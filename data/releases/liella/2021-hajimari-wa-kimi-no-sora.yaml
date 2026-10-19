@@ -58,6 +58,6 @@ evidence:
     source: migration:legacy
   streaming:
     status: established
-    source: https://music.youtube.com/browse/MPREb_X8vDiEYaCi5
+    source: https://music.youtube.com/browse/MPREb_wWSYQj1ZsYr
     checked: 2026-10-17
-    note: 로그인 세션으로 앨범 트랙 순서·제목 대조. 기존 videoId는 재생 불가(Video unavailable)라 교체
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

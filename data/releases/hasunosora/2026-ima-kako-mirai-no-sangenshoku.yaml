@@ -1,0 +1,51 @@
+id: hasunosora/2026-ima-kako-mirai-no-sangenshoku
+type: single
+title:
+  ja: 今、過去、未来の三原色
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2026-04-15
+editions:
+  - id: e1
+    catalog: LACM-24779
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/hitoyo-ni-yume-ga-saku-you-ni#original}
+      - {no: 2, recording: hasunosora/yuki-mau-sora-to-nibyou-no-eien#original}
+      - {no: 3, recording: hasunosora/ima-kako-mirai-no-sangenshoku#original}
+      - {no: 4, recording: hasunosora/hitoyo-ni-yume-ga-saku-you-ni#off-vocal}
+      - {no: 5, recording: hasunosora/yuki-mau-sora-to-nibyou-no-eien#off-vocal}
+      - {no: 6, recording: hasunosora/ima-kako-mirai-no-sangenshoku#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_wR4qtWJcOvq
+    tracks:
+      1-1: gtefbd4kj6k
+      1-2: fkf4BxenKXk
+      1-3: o0x0w8cOD3I
+      1-4: 46NPJOCrTZI
+      1-5: fhRvQJqXVn0
+      1-6: YQ1ao_RM0qY
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 今、過去、未来の三原色}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wR4qtWJcOvq
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

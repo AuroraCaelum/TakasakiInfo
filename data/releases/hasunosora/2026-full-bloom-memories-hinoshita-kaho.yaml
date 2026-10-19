@@ -1,0 +1,95 @@
+id: hasunosora/2026-full-bloom-memories-hinoshita-kaho
+type: album
+title:
+  ja: ～Full Bloom Memories～ Hinoshita Kaho
+  rom: ~Full Bloom Memories~ Hinoshita Kaho
+  ko: ~Full Bloom Memories~ Hinoshita Kaho
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/kaho-hinoshita}
+label: Lantis
+release_date: 2026-07-01
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39176~7
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19176~7
+    media: [CD, CD, BD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/suisai-sekai#kaho-hinoshita-solo}
+      - {no: 2, recording: hasunosora/oka-ranman#kaho-hinoshita-solo}
+      - {no: 3, recording: hasunosora/reflection-in-the-mirror#kaho-hinoshita-solo}
+      - {no: 4, recording: hasunosora/holiday-holiday#kaho-hinoshita-solo}
+      - {no: 5, recording: hasunosora/genyo-yako#kaho-hinoshita-solo}
+      - {no: 6, recording: hasunosora/sugao-no-pixel#kaho-hinoshita-solo}
+      - {no: 7, recording: hasunosora/senpen-banka#kaho-hinoshita-solo}
+      - {no: 8, recording: hasunosora/special-thanks#kaho-hinoshita-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/aoku-haruka#kaho-hinoshita-solo}
+      - {no: 2, recording: hasunosora/tsukuyomi-kurage#kaho-hinoshita-solo}
+      - {no: 3, recording: hasunosora/hanamusubi#kaho-hinoshita-solo}
+      - {no: 4, recording: hasunosora/yume-wazurai#kaho-hinoshita-solo}
+      - {no: 5, recording: hasunosora/celebration#kaho-hinoshita-solo}
+      - {no: 6, recording: hasunosora/fruit-punch#kaho-hinoshita-solo}
+      - {no: 7, recording: hasunosora/otome-anthology#kaho-hinoshita-solo}
+      - {no: 8, recording: hasunosora/fushigi-to-kimi-to-library#kaho-hinoshita-solo}
+      - {no: 9, recording: hasunosora/ima-kako-mirai-no-sangenshoku#kaho-hinoshita-solo}
+      - {no: 10, recording: hasunosora/i-do-me#kaho-hinoshita-solo}
+      - {no: 11, recording: hasunosora/dream-believers#sakura-ver-kaho-hinoshita}
+      - {no: 12, recording: hasunosora/playlist-ano-hi#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_4wNYvxeeJJT
+    tracks:
+      1-1: YtjAUlNwxxU
+      1-2: B2DXsUWvtVE
+      1-3: 4C9K2meOX9Y
+      1-4: d3dNpqXgZvc
+      1-5: l0XCdWBZiSk
+      1-6: JQvI-dNRX0c
+      1-7: tcREOYukYes
+      1-8: bZIuELAiOFM
+      2-1: yAxhRDyJfOA
+      2-2: xIAuL33wQiw
+      2-3: nwqMrE0MpF0
+      2-4: XOqjZqdnXgQ
+      2-5: 47B5XRWA-Cc
+      2-6: N7ABLaQl-Gk
+      2-7: qBLfFPOM9ZI
+      2-8: JIFTfHbQJLI
+      2-9: CAGhF9rRNtE
+      2-10: SoC-qrqZJlM
+      2-11: QJYyCc-Rrj0
+      2-12: zlN4zywCRkU
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Full Bloom Memories～ Hinoshita Kaho}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

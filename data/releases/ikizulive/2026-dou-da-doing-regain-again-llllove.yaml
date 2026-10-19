@@ -1,0 +1,59 @@
+id: ikizulive/2026-dou-da-doing-regain-again-llllove
+type: single
+title:
+  ja: Dou-Da? DOING! / REGAIN AGAIN LLLLOVE
+projects: [ikizulive]
+artist_credit:
+  - {artist: ikizuraibu}
+label: Lantis
+release_date: 2026-06-10
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34819
+    media: [CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24819
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/dou-da-doing#original}
+      - {no: 2, recording: ikizulive/regain-again-llllove#original}
+      - {no: 3, recording: ikizulive/super-summer-sensation#original}
+      - {no: 4, recording: ikizulive/dou-da-doing#off-vocal}
+      - {no: 5, recording: ikizulive/regain-again-llllove#off-vocal}
+      - {no: 6, recording: ikizulive/super-summer-sensation#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_AnzXvRVLQxi
+    tracks:
+      1-1: -8mHzBrFNqg
+      1-2: 9ZfiA-Lqs8o
+      1-3: SVU8m65z2ZI
+      1-4: KwMopVWV2eg
+      1-5: EP1IRTkU2JY
+      1-6: u7PunJhk9aI
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5830
+  smartlink: https://lnk.to/LACM-24819d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: Dou-Da? DOING! / REGAIN AGAIN LLLLOVE}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5830
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5830
+    checked: 2026-10-18
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_AnzXvRVLQxi
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

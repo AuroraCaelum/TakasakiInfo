@@ -16,17 +16,18 @@ discs:
       - {no: 9, recording: nijigasaki/evergreen#original}
       - {no: 10, recording: nijigasaki/doki-pipo-emotion#original}
 streaming:
-  - tracks:
-      1-1: ToT2O8wp0Jo
-      1-2: suWk33wqGrs
-      1-3: dNYPwvpqAuw
-      1-4: WIqYLm9EH6I
-      1-5: 1SpOixerr44
-      1-6: zweAj9PDuo4
-      1-7: wc2QLrW7Gqg
-      1-8: 5R1l0xrtVOc
-      1-9: AQAYnluAxd8
-      1-10: Otar-6a710Y
+  - browse_id: MPREb_BcYUbHql6bp
+    tracks:
+      1-1: sIgjGWAgACQ
+      1-2: L6wDJWGbWic
+      1-3: 5FXomZZl7lI
+      1-4: _VbIB_MZDHE
+      1-5: HwpLYwHkbIs
+      1-6: OMXyFRB-H3s
+      1-7: q_GNL23idUc
+      1-8: Upb-cM_aRtQ
+      1-9: zmwGcKFfZIk
+      1-10: Gv9RY9jV0oM
 legacy:
   category: Nijigasaki
   albums:
@@ -35,3 +36,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_BcYUbHql6bp
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

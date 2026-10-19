@@ -12,9 +12,12 @@ discs:
       - {no: 4, recording: aqours/tokimeki-bunruigaku#off-vocal}
       - {no: 5, recording: aqours/awashima-hoteru-e-youkoso#main}
 streaming:
-  - tracks:
-      1-1: tCdJ6fCkSCw
-      1-2: JFfFJgdhLjg
+  - browse_id: MPREb_4TQ0Gpy6N2P
+    tracks:
+      1-1: LJEB0vzgmLw
+      1-2: KfmJkDiNCck
+      1-3: 3RlIwlPaDcU
+      1-4: zKJwwc7k_qw
 legacy:
   category: Aqours
   albums:
@@ -26,3 +29,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'AZALEA 1st Single'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_4TQ0Gpy6N2P
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

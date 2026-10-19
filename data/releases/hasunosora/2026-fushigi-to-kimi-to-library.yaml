@@ -1,0 +1,49 @@
+id: hasunosora/2026-fushigi-to-kimi-to-library
+type: single
+title:
+  ja: 不思議と君とライブラリー
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+label: Lantis
+release_date: 2026-04-08
+editions:
+  - id: e1
+    catalog: LACM-24815
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/fushigi-to-kimi-to-library#original}
+      - {no: 2, recording: hasunosora/fushigi-to-kimi-to-library#b-g-p-ver}
+      - {no: 3, recording: hasunosora/kanazawa-one-side-love#original}
+      - {no: 4, recording: hasunosora/fushigi-to-kimi-to-library#off-vocal}
+      - {no: 5, recording: hasunosora/kanazawa-one-side-love#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_K64FNn1KhdG
+    tracks:
+      1-1: BHF5MPTRnII
+      1-2: qNec9kTKVYo
+      1-3: UxPD31ymhk0
+      1-4: 9A4ICsnw9No
+      1-5: WKUmV9vdX9M
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 不思議と君とライブラリー}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_K64FNn1KhdG
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

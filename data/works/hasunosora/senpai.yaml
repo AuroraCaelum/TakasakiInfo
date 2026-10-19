@@ -1,0 +1,47 @@
+id: hasunosora/senpai
+project: hasunosora
+title:
+  ja: センパイ
+  rom: Senpai
+  ko: 선배
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: umi-kinami}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: umi-kinami}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: センパイ (Off Vocal)
+      rom: Senpai (Off Vocal)
+      ko: 선배 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: umi-kinami}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%BB%E3%83%B3%E3%83%91%E3%82%A4'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19

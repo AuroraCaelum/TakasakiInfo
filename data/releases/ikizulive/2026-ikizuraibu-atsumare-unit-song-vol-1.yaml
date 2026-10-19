@@ -1,0 +1,58 @@
+id: ikizulive/2026-ikizuraibu-atsumare-unit-song-vol-1
+type: album
+status: announced
+title:
+  ja: いきづらい部！ あつまれユニットソング！ vol.1
+  rom: Ikizuraibu! Atsumare Unit Song! vol.1
+  ko: 이키즈라이부! 모여라 유닛 송! vol.1
+projects: [ikizulive]
+artist_credit:
+  - {artist: ikizuraibu}
+label: Lantis
+release_date: 2026-11-25
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACA-35315
+    media: [CD, BD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-25315
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/dekoboko-quartet#original}
+      - {no: 2, recording: ikizulive/symmetry#original}
+      - {no: 3, recording: ikizulive/daitan-party-time#original}
+      - {no: 4, recording: ikizulive/silent-stella#original}
+      - {no: 5, recording: ikizulive/zenryoku-calling-i-love-you#original}
+      - {no: 6, recording: ikizulive/tap-tap-tappin#original}
+      - {no: 7, recording: ikizulive/mikansei-na-love-letter#original}
+      - {no: 8, recording: ikizulive/darling-wanted#original}
+      - {no: 9, recording: ikizulive/seishun-soda#original}
+      - {no: 10, recording: ikizulive/pop-love#original}
+      - {no: 11, recording: ikizulive/spinning-parade#original}
+      - {no: 12, recording: ikizulive/churi-chu-chu-kirari#original}
+      - {no: 13, recording: ikizulive/tale-of-primavera#original}
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6523
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: いきづらい部！ あつまれユニットソング！ vol.1}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6523
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6523
+    checked: 2026-10-18
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6523
+    checked: 2026-10-19
+    note: "ja: 공식, rom: 그룹명은 사용자 결정(Ikizuraibu!), 나머지는 원제대로 'Unit Song' (Fandom 본문은 'Atsumare Unit Songs!', 사용자 확인 2026-10-19), ko: 나무위키. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반"

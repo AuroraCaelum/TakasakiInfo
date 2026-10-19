@@ -13,12 +13,15 @@ given_name:
   ko: 나오키
 evidence:
   names:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6602
+    checked: 2026-10-18
+    note: ja는 공식 크레딧 표기, rom·ko는 라틴 원문 (latin-ko)
   names.ja:
-    status: established
-    source: https://www.uta-net.com/song/293262/
-    checked: 2026-10-17
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6602
+    checked: 2026-10-18
+    note: 공식 크레딧 표기 (니지가사키 cd.php는 '谷 ナオキ', 띄어쓰기는 D28 규칙)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

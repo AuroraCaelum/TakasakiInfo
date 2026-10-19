@@ -1,0 +1,66 @@
+id: hasunosora/compass
+project: hasunosora
+title:
+  ja: COMPASS
+  rom: COMPASS
+  ko: COMPASS
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: unpyou-yoshida, affiliation: SUPA LOVE}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: masaya-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/28/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: COMPASS (Off Vocal)
+      rom: COMPASS (Off Vocal)
+      ko: COMPASS (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaya-suzuki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/28/
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: masaya-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: masaya-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/28/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/28/
+    checked: 2026-10-19

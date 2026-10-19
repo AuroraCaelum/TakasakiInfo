@@ -17,17 +17,18 @@ discs:
       - {no: 10, recording: nijigasaki/love-u-my-friends#9-members-ver, note: 9 Members Ver.}
       - {no: 11, recording: nijigasaki/kanata-and-rina-s-sports-festival-competition#main}
 streaming:
-  - tracks:
-      1-1: EBnpWRCONnM
-      1-2: 01kjQV-7fQQ
-      1-3: _D8EIlJi7wE
-      1-4: Ifp-5U4VGok
-      1-5: lo3OB-a7TCg
-      1-6: a-WarIBtd3w
-      1-7: PvVgqYSsQ2Y
-      1-8: gIBdVbN5QKs
-      1-9: KZ0Wr3UIvMw
-      1-10: fNEuJHgPMtM
+  - browse_id: MPREb_A8893yKJxi6
+    tracks:
+      1-1: sTZCDaTYcGs
+      1-2: ITrS_i0p8lc
+      1-3: uPzEntEBGcE
+      1-4: sQUQFkf_Wss
+      1-5: r-11KS6FGgE
+      1-6: bAN67a6WA8o
+      1-7: GwGgUm3hsHk
+      1-8: FDEjpakaFbs
+      1-9: mpcJj0P_vJA
+      1-10: 3cmyC4MSIcs
 legacy:
   category: Nijigasaki
   albums:
@@ -36,3 +37,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_A8893yKJxi6
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

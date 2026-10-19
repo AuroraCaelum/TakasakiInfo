@@ -1,0 +1,47 @@
+id: hasunosora/2025-nyao-signyal
+type: single
+title:
+  ja: ニャオシグニャル
+projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
+label: Lantis
+release_date: 2025-10-01
+editions:
+  - id: e1
+    catalog: LACM-24773
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/nyao-signyal#original}
+      - {no: 2, recording: hasunosora/heart-ni-q#original}
+      - {no: 3, recording: hasunosora/nyao-signyal#off-vocal}
+      - {no: 4, recording: hasunosora/heart-ni-q#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_bAjKzHIBKVd
+    tracks:
+      1-1: lXbklyBB9BY
+      1-2: 0EhoG_dM_No
+      1-3: 4ImOFyuSaL8
+      1-4: gb5RYbhhXko
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ニャオシグニャル}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_bAjKzHIBKVd
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

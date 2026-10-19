@@ -13,14 +13,15 @@ discs:
       - {no: 6, recording: liella/dancing-raspberry#original}
       - {no: 7, recording: liella/a-little-love#original}
 streaming:
-  - tracks:
-      1-1: Ev9_X1ouqzQ
-      1-2: dEXGZGhrJNA
-      1-3: Xi-yQIkPWBA
-      1-4: RoZEodNQj94
-      1-5: tevmazXBTFk
-      1-6: DIkBvlR3aDg
-      1-7: KJstA2Npgi8
+  - browse_id: MPREb_8Fl0kOxpXyv
+    tracks:
+      1-1: XvkZdddR0JA
+      1-2: Yo2osE7YdfQ
+      1-3: A2ObO3Oq10o
+      1-4: XN-jBYJc2jU
+      1-5: RZHPDIrxxFc
+      1-6: HhnVvviEV5k
+      1-7: TD5mJofGN9o
 legacy:
   category: Liella
   albums:
@@ -29,3 +30,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8Fl0kOxpXyv
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

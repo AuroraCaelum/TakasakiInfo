@@ -9,11 +9,15 @@ Decisions:
 - ``kind:<artist kind>`` reclassify an artist (classify items)
 - ``rule``               apply the default rule (latin-ko: ko = ja)
 - ``keep:<status>``      keep the value as an approved exception (latin-ko), status official|established
+- ``pick:<n>`` / ``none`` choose the YouTube Music album of a ``ytm-album`` item (``pick:e1=1,e2=2`` per edition)
+- ``approve``            accept a ``new-names`` file from an official-site import: each item's values (as edited
+  in the file) are written to its entity with the item's status, replacing the draft
 - ``done``               the fix was made by hand in data/; just close the item
 """
 
 from __future__ import annotations
 
+import datetime as dt
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -190,6 +194,16 @@ def apply_reviews(ds: Dataset, review_dir: Path) -> list[Applied]:
                         status=status, note=str(doc.get("decision_note") or "approved in review")
                     )
                 msg = f"kept ko as {status.value} exception on {refs}"
+            elif doc.get("type") == "ytm-album":
+                from .ytmusic import apply_matches, matches_from_review
+
+                rid, matches = matches_from_review(doc, decision)
+                out = apply_matches(None, ds.releases[rid], matches, dt.date.today().isoformat())
+                msg = f"set YouTube Music ids on {rid} (+{out.added}, {out.replaced} replaced)"
+            elif doc.get("type") == "new-names" and decision == "approve":
+                from .official import approve_names
+
+                msg = approve_names(ds, doc, dt.date.today())
             elif decision == "done":
                 msg = "closed (fixed by hand)"
             else:

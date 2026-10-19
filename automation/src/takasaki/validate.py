@@ -10,10 +10,11 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+from pydantic import BaseModel
 from ruamel.yaml import YAML
 
 from . import model as m
-from .build_legacy import edition_ids, edition_tracks, own_video
+from .build_legacy import edition_ids, edition_tracks, own_video, release_title
 from .store import Dataset
 from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
@@ -48,6 +49,54 @@ def open_review_refs(review_dir: Path) -> set[str]:
                 if isinstance(item, dict) and key in item:
                     refs.add(str(item[key]))
     return refs
+
+
+def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
+    """Every entity whose values end up in the legacy files (E3)."""
+    seen: dict[tuple[str, str], BaseModel] = {}
+
+    def put(kind: str, key: str, ent: BaseModel | None) -> None:
+        if ent is not None:
+            seen.setdefault((kind, key), ent)
+
+    def credit(c: m.Credit) -> None:
+        put("person", c.person or "", ds.persons.get(c.person or ""))
+        put("character", c.character or "", ds.characters.get(c.character or ""))
+
+    def performer(p: m.Performer) -> None:
+        put("artist", p.artist or "", ds.artists.get(p.artist or ""))
+        put("person", p.person or "", ds.persons.get(p.person or ""))
+        for cid in (p.character, p.role):
+            put("character", cid or "", ds.characters.get(cid or ""))
+
+    if not ds.layout:
+        return []
+    for f in ds.layout.albums.values():
+        for e in f.entries:
+            rel = ds.releases.get(e.release)
+            if rel is None or rel.status == "announced" or e.album >= len(rel.legacy.albums):
+                continue
+            put("release", rel.id, rel)
+            la = rel.legacy.albums[e.album]
+            for _, _, t in edition_tracks(rel, la.edition, la.disc):
+                work, rec = ds.recording(t.recording)
+                put("work", work.id, work)
+                put("recording", t.recording, rec)
+                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.arranger:
+                    credit(c)
+                for p in rec.performers:
+                    performer(p)
+    for mf in ds.layout.members.values():
+        for row in mf.rows:
+            ch = ds.characters.get(row.character)
+            put("character", row.character, ch)
+            put("artist", row.unit or "", ds.artists.get(row.unit or ""))
+            for cast in ch.casting if ch else []:
+                put("person", cast.person, ds.persons.get(cast.person))
+    for ids in ds.layout.concerts.values():
+        for cid in ids:
+            put("concert", cid, ds.concerts.get(cid))
+    return [(f"{k}:{i}", ent) for (k, i), ent in seen.items()]
 
 
 def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
@@ -148,6 +197,12 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             for i in ids:
                 need(ds.concerts, i, f"layout:concerts/{group}", "concert")
 
+    # E3: no draft value in the legacy files (§4.4); announced releases are not output (§7.4)
+    for where, ent in legacy_reach(ds):
+        for field_name, ev in getattr(ent, "evidence", {}).items():
+            if ev.status == m.Status.draft:
+                add("E3", where, f"{field_name} is a draft ({ev.note or ev.source or 'not approved'}) and would be output")
+
     # E4 / W1: one person per name
     by_key: dict[str, list[str]] = defaultdict(list)
     for p in ds.persons.values():
@@ -204,7 +259,8 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     for where, ent in split_names:
         n = ent.names
         if ent.family_name is None and ent.given_name is None:
-            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2:
+            # evidence "name_parts" records why there is no split (an activity name such as 吸血亭 賛美)
+            if has_kanji(n.ja) and n.rom and len(n.rom.split()) == 2 and "name_parts" not in ent.evidence:
                 add("W15", where, f"Japanese name without family/given split: {n.ja!r}")
             continue
         fam, giv = ent.family_name or m.Names(), ent.given_name or m.Names()
@@ -266,6 +322,14 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     if missing:
         add("W8", "recordings", f"{missing} vocal recordings have no pronunciation (kana)")
 
+    # W17: a release title that is not made of its song titles and is not all Latin needs its rom
+    # and ko stored (D39)
+    for rel in ds.releases.values():
+        title, _ = release_title(ds, rel)
+        gaps = [lang for lang in ("rom", "ko") if not getattr(title, lang)]
+        if gaps:
+            add("W17", f"release:{rel.id}", f"title {title.ja!r} has no {'/'.join(gaps)}")
+
     # W14: empty credits. "Not applicable" is an empty list (D25), so only vocal recordings are
     # expected to have every role filled; an empty one there is missing data.
     empty = []
@@ -281,4 +345,36 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 empty.append(f"{w.id}#{r.id} ({', '.join(gaps)})")
     if empty:
         add("W14", "recordings", f"{len(empty)} vocal recordings have empty credits, e.g. {empty[:3]}")
+
+    # W16: the official site is looked at first (D36). A value sourced only to another site (wiki,
+    # Fandom, lyrics or database sites) is flagged until the official page has been checked: either it
+    # carries the value (cite it) or the note says it does not ("공식 미게재") or is behind ("공식보다 최신").
+    for kind, ent in ds.iter_all():
+        ident = ent.id  # type: ignore[attr-defined]
+        scopes = [(ident, getattr(ent, "evidence", {}))]
+        scopes += [(f"{ident}#{r.id}", r.evidence) for r in getattr(ent, "recordings", [])]
+        for where, evidence in scopes:
+            for key, ev in evidence.items():
+                if official_first(kind, key) and ev.source and ev.source.startswith("http") and not is_official(ev.source) \
+                        and not any(mark in (ev.note or "") for mark in OFFICIAL_CHECKED):
+                    add("W16", f"{kind}:{where}", f"{key} rests on {ev.source.split('/')[2]} only; check the official page")
     return out
+
+
+# project sites and the portal, the label, and the official streaming release (its distributed titles)
+# evidence notes saying the official site was looked at first: it does not carry the value, or it is
+# behind the source that was used (D36)
+OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신")
+OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
+
+
+def is_official(url: str) -> bool:
+    return url.split("/")[2] in OFFICIAL_HOSTS if url.count("/") >= 2 else False
+
+
+def official_first(kind: str, key: str) -> bool:
+    """Evidence keys whose value the official site publishes (DESIGN.md §6.2). Korean spellings,
+    readings, a person's own romanization (§5.3 ②) and recording checks come from elsewhere."""
+    if key.endswith((".ko", ".kana")) or (kind == "person" and key == "names.rom"):
+        return False
+    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date"}

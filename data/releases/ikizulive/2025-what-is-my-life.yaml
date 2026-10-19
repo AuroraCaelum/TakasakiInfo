@@ -1,0 +1,55 @@
+id: ikizulive/2025-what-is-my-life
+type: single
+title:
+  ja: What is my LIFE?
+projects: [ikizulive]
+artist_credit:
+  - {artist: ikizuraibu}
+label: Lantis
+release_date: 2025-07-30
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34705
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24705
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/what-is-my-life#original}
+      - {no: 2, recording: ikizulive/himitsu-michi#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#off-vocal}
+      - {no: 4, recording: ikizulive/himitsu-michi#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_OBrSdqTLM5g
+    tracks:
+      1-1: K-GuFKrbfKA
+      1-2: lBHsHFmnWUw
+      1-3: ced2Wr38psA
+      1-4: Tu23-dCxQiI
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+  smartlink: https://lnk.to/LACM-24705d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: What is my LIFE?}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+    checked: 2026-10-18
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_OBrSdqTLM5g
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

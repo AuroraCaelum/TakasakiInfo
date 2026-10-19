@@ -1,0 +1,47 @@
+id: hasunosora/heart-ni-q
+project: hasunosora
+title:
+  ja: ハートにＱ
+  rom: Heart ni Q
+  ko: 하트에 Q
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: 5u5h1}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: 5u5h1}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ハートにＱ (Off Vocal)
+      rom: Heart ni Q (Off Vocal)
+      ko: 하트에 Q (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: 5u5h1}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (문서명 ハートにQ, 괄호 표기) (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%8F%E3%83%BC%E3%83%88%E3%81%ABQ'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19

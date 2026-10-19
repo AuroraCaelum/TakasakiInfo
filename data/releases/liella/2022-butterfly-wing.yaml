@@ -10,9 +10,10 @@ discs:
       - {no: 3, recording: liella/butterfly-wing#off-vocal}
       - {no: 4, recording: liella/edelstein#off-vocal}
 streaming:
-  - tracks:
-      1-1: zmTIs9o7WII
-      1-2: XWT0OrJj80g
+  - browse_id: MPREb_QT7hBAxVG7o
+    tracks:
+      1-1: 2wVWsg7GIYs
+      1-2: kMDHZQCju1s
 legacy:
   category: Liella
   albums:
@@ -21,3 +22,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_QT7hBAxVG7o
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

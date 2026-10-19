@@ -1,0 +1,47 @@
+id: hasunosora/vital-sign
+project: hasunosora
+title:
+  ja: バイタルサイン
+  rom: Vital Sign
+  ko: 바이탈 사인
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: miki-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: masaya-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: バイタルサイン (Off Vocal)
+      rom: Vital Sign (Off Vocal)
+      ko: 바이탈 사인 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaya-suzuki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%90%E3%82%A4%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%B3'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19

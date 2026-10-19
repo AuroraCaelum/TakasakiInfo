@@ -1,0 +1,82 @@
+id: hasunosora/ishin-denshin
+project: hasunosora
+title:
+  ja: 以心☆電信
+  rom: Ishin☆Denshin
+  ko: 이심☆전신
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: kijibato}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: kijibato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 以心☆電信 (Off Vocal)
+      rom: Ishin☆Denshin (Off Vocal)
+      ko: 이심☆전신 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kijibato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/15/
+        checked: 2026-10-19
+  - id: 104th-ver
+    title:
+      ja: 以心☆電信 (104期 Ver.)
+      rom: Ishin☆Denshin (104th Ver.)
+      ko: 이심☆전신 (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: kijibato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: kijibato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: kijibato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E4%BB%A5%E5%BF%83%E2%98%86%E9%9B%BB%E4%BF%A1'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/15/
+    checked: 2026-10-19

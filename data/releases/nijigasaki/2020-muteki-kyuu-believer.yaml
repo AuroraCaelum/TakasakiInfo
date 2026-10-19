@@ -9,9 +9,10 @@ discs:
       - {no: 2, recording: nijigasaki/mirai-harmony#original}
       - {no: 3, recording: nijigasaki/kasumi-s-excitement-carnival#main}
 streaming:
-  - tracks:
-      1-1: -Li6HT1mv0U
-      1-2: H2VuAyjWDyU
+  - browse_id: MPREb_QqxyPG2BfBZ
+    tracks:
+      1-1: LtNmp2w2Wyo
+      1-2: FsBU9Xi-5Xw
 legacy:
   category: Nijigasaki
   albums:
@@ -20,3 +21,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_QqxyPG2BfBZ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

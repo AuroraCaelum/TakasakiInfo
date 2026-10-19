@@ -11,11 +11,12 @@ discs:
       - {no: 4, recording: nijigasaki/bubble-over#off-vocal, note: R3BIRTH 2nd}
       - {no: 5, recording: nijigasaki/a-breeze-blows-through-the-thrilling-canyon-r3birth#main}
 streaming:
-  - tracks:
-      1-1: xp6qQA9VcXQ
-      1-2: BdF0FcC7cNE
-      1-3: UyAfvc3Xk3Y
-      1-4: _HLio_ijxDk
+  - browse_id: MPREb_KYmAPVrQzRa
+    tracks:
+      1-1: FUhdOAtxBf4
+      1-2: qorJ8nZ74K4
+      1-3: fNFKgiQWRVQ
+      1-4: K2WGBDCxIfU
 legacy:
   category: Nijigasaki
   albums:
@@ -24,3 +25,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KYmAPVrQzRa
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

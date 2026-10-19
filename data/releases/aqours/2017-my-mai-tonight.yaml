@@ -10,9 +10,12 @@ discs:
       - {no: 3, recording: aqours/my-mai-tonight#off-vocal}
       - {no: 4, recording: aqours/miracle-wave#off-vocal}
 streaming:
-  - tracks:
-      1-1: NEzMVzPgSF4
-      1-2: h5ih56dzVYw
+  - browse_id: MPREb_lZRjfuU6gtg
+    tracks:
+      1-1: BcpquGam7kE
+      1-2: NIDSQOLdmEY
+      1-3: yNA-MPajhLM
+      1-4: drMm5mcKRiY
 legacy:
   category: Aqours
   albums:
@@ -21,3 +24,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_lZRjfuU6gtg
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

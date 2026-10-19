@@ -37,6 +37,51 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: rec-ver
+    title:
+      ja: DEEPNESS (ReC Ver.)
+      rom: DEEPNESS (ReC Ver.)
+      ko: DEEPNESS (ReC Ver.)
+    version: ReC Ver.
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: yu-furukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: tsuzuri-yugiri-solo
+    performers:
+      - {character: hasunosora/tsuzuri-yugiri}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

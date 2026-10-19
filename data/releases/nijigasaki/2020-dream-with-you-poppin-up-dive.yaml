@@ -22,21 +22,15 @@ discs:
       - {no: 5, recording: nijigasaki/poppin-up#off-vocal}
       - {no: 6, recording: nijigasaki/dive#off-vocal}
 streaming:
-  - editions: [e1]
-    tracks:
-      1-1: 0cGBTbjvwuo
-      1-2: rO1SX_9buJ0
-      1-3: HXXxW8hEF3o
   - editions: [e2]
+    browse_id: MPREb_ElqBdiLn2Ve
     tracks:
-      1-1: oIR7h-hp-p4
-      1-2: vGtXstAHlXU
-      1-3: toYaxJMIh30
-  - editions: [e3]
-    tracks:
-      1-1: Byrl94vX25U
-      1-2: JSqVqFyP1To
-      1-3: krzru9NkedE
+      1-1: PMWu-oLVWWc
+      1-2: OwPQ327hP5o
+      1-3: fiNEBXFBRS0
+      1-4: wy0VgqsLgc0
+      1-5: c9smAB2BD8c
+      1-6: UXTKj3sEyRg
 legacy:
   category: Nijigasaki
   albums:
@@ -47,3 +41,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

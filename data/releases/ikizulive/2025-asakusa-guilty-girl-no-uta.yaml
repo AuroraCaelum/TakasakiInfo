@@ -1,0 +1,62 @@
+id: ikizulive/2025-asakusa-guilty-girl-no-uta
+type: single
+title:
+  ja: 浅草Guilty Girlの歌
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/polka-takahashi}
+label: Lantis
+release_date: 2025-08-27
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34751
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24751
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/asakusa-guilty-girl-no-uta#original}
+      - {no: 2, recording: ikizulive/odoru-polka#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#polka-takahashi-solo-ver}
+      - {no: 4, recording: ikizulive/asakusa-guilty-girl-no-uta#off-vocal}
+      - {no: 5, recording: ikizulive/odoru-polka#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_8hNBtOoTvPN
+    tracks:
+      1-1: g4kcKCXQlGA
+      1-2: gCx5wexZi-U
+      1-3: P7NlHprr-Bc
+      1-4: WntZ-WeydNM
+      1-5: znjRgRvDlds
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+  smartlink: https://lnk.to/LACM-24751d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: 浅草Guilty Girlの歌}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは9月3日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8hNBtOoTvPN
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

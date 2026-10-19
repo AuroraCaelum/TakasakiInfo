@@ -1,0 +1,48 @@
+id: ikizulive/churi-chu-chu-kirari
+project: ikizulive
+title:
+  ja: チュリ♡CHUちゅきらり♪
+  rom: Churi♡CHU Chu Kirari♪
+  ko: 츄리♡CHU츄키라리♪
+credits:
+  lyricist:
+    - {person: komugi}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/hanabi-komagata}
+      - {character: ikizulive/midori-yamada}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: チュリ♡CHUちゅきらり♪ (Off Vocal)
+      rom: Churi♡CHU Chu Kirari♪ (Off Vocal)
+      ko: 츄리♡CHU츄키라리♪ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6519
+    checked: 2026-10-18

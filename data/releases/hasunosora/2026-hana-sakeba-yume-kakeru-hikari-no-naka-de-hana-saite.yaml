@@ -1,0 +1,59 @@
+id: hasunosora/2026-hana-sakeba-yume-kakeru-hikari-no-naka-de-hana-saite
+type: single
+title:
+  ja: ハナ咲けばユメ駆ける / 光の中で花咲いて
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2026-06-03
+editions:
+  - id: e1
+    label:
+      ja: ハナ咲けばユメ駆ける盤
+    catalog: LACM-24717
+    media: [CD]
+  - id: e2
+    label:
+      ja: 光の中で花咲いて盤
+    catalog: LACM-24718
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/hana-sakeba-yume-kakeru#original}
+      - {no: 2, recording: hasunosora/hikari-no-naka-de-hana-saite#original}
+      - {no: 3, recording: hasunosora/dream-believers#b-g-p-ver}
+      - {no: 4, recording: hasunosora/hana-sakeba-yume-kakeru#off-vocal}
+      - {no: 5, recording: hasunosora/hikari-no-naka-de-hana-saite#off-vocal}
+      - {no: 6, recording: hasunosora/dream-believers#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_mEepAhSbklQ
+    tracks:
+      1-1: S-7EqfYcdMg
+      1-2: PVoXSZCXWbY
+      1-3: h_nODL2c05w
+      1-4: BY1X2ZRSXEo
+      1-5: dvAmXk5PWYc
+      1-6: Dq6gISxGSWs
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
+  smartlink: https://lnk.to/LZC-3490
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ハナ咲けばユメ駆ける / 光の中で花咲いて}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_mEepAhSbklQ
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -20,6 +20,21 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: 青春の輪郭 (104期 Ver.)
+      rom: Seishun no Rinkaku (104th Ver.)
+      ko: 청춘의 윤곽 (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: shibu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

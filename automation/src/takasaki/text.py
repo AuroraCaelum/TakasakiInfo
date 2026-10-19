@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
-_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～\-‐–—_!！?？.,，、。:：;；'’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")
+_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～~\-‐–—_!！?？.,，、。:：;；'’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")  # ~: NFKC turns ～ into ~
 
 
 def nfc(s: str) -> str:

@@ -2,7 +2,7 @@ id: liella/2023-liella-club-cd-set-2023
 title:
   ja: Liella! CLUB CD SET 2023
 projects: [liella]
-release_date: 2023-08-02
+release_date: 2023-07-01
 discs:
   - tracks:
       - {no: 1, recording: liella/universe#original}
@@ -16,9 +16,6 @@ discs:
       - {no: 9, recording: liella/universe#mei-yoneme-ver}
       - {no: 10, recording: liella/universe#shiki-wakana-ver}
       - {no: 11, recording: liella/universe#natsumi-onitsuka-ver}
-streaming:
-  - tracks:
-      1-1: 7zI37yBybes
 legacy:
   category: Liella
   albums:
@@ -27,3 +24,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  release_date:
+    status: established
+    source: https://musicbrainz.org/isrc/JPI102301530
+    checked: 2026-10-18
+    note: CD(클럽 회원 한정) 발매일. 2023-08-02는 디지털 싱글 배포일. 공식 미게재 (Liella! 공식 CD 목록에 없음, 2026-10-18 확인)

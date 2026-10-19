@@ -13,10 +13,12 @@ discs:
       - {no: 6, recording: aqours/seinto-sumo-tai-starffin-hakodate-basho#main}
       - {no: 7, recording: aqours/tamesareru-daichi-tamesareru-shimai#main}
 streaming:
-  - tracks:
-      1-1: 3Fw7GqhndZo
-      1-2: _gsPSro8ugo
-      1-3: qi1Z8PYbCys
+  - browse_id: MPREb_JChpVFPtrLs
+    tracks:
+      1-1: 76wW3GcCpkY
+      1-2: PdvYvcTUmGI
+      1-3: d1yy2aqILz8
+      1-4: 355jKL6aRuQ
 legacy:
   category: SaintSnow
   albums:
@@ -25,3 +27,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_JChpVFPtrLs
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

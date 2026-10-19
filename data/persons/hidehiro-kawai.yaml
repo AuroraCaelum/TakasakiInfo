@@ -5,10 +5,12 @@ names:
   ko: 카와이히데히로
 evidence:
   names:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd16.php
+    checked: 2026-10-18
+    note: ja는 공식 크레딧 표기, rom·ko는 라틴 원문 (latin-ko)
   names.ja:
-    status: established
-    source: https://www.billboard-japan.com/goods/detail/718478
-    checked: 2026-10-17
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd16.php
+    checked: 2026-10-18
     note: 공식 표기 (성·이름 모두 가나, D28)

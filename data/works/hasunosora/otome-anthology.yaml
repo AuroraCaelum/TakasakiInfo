@@ -1,0 +1,57 @@
+id: hasunosora/otome-anthology
+project: hasunosora
+title:
+  ja: 乙女詞華集
+  rom: Otome Anthology
+  ko: 오토메 앤솔로지
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: atsuki-okuma, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 乙女詞華集 (Off Vocal)
+      rom: Otome Anthology (Off Vocal)
+      ko: 오토메 앤솔로지 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E4%B9%99%E5%A5%B3%E8%A9%9E%E8%8F%AF%E9%9B%86'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
+    checked: 2026-10-19

@@ -1,0 +1,49 @@
+id: ikizulive/itsuka-ao
+project: ikizulive
+title:
+  ja: いつか碧
+  rom: Itsuka-Ao
+  ko: 언젠가 파랑
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: kana-yabuki}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/akira-goto}
+    arranger:
+      - {person: wataru-maeguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+        note: 편곡 크레딧은 '前口ワタル' 명의 (前口 渉와 같은 사람)
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いつか碧 (Off Vocal)
+      rom: Itsuka-Ao (Off Vocal)
+      ko: 언젠가 파랑 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: wataru-maeguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+        note: 편곡 크레딧은 '前口ワタル' 명의 (前口 渉와 같은 사람)
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18

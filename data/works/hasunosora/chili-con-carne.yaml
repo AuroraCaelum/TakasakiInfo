@@ -1,0 +1,47 @@
+id: hasunosora/chili-con-carne
+project: hasunosora
+title:
+  ja: チリコンカン
+  rom: Chili Con Carne
+  ko: 칠리 콘 카르네
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: atsuhito-sato, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: チリコンカン (Off Vocal)
+      rom: Chili Con Carne (Off Vocal)
+      ko: 칠리 콘 카르네 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%81%E3%83%AA%E3%82%B3%E3%83%B3%E3%82%AB%E3%83%B3'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19

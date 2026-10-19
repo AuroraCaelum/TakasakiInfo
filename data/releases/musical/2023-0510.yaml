@@ -1,6 +1,8 @@
 id: musical/2023-0510
 title:
   ja: スクールアイドルミュージカル
+  rom: School Idol Musical
+  ko: 스쿨 아이돌 뮤지컬
 projects: [musical]
 release_date: 2023-05-10
 discs:
@@ -34,39 +36,40 @@ discs:
       - {no: 27, recording: musical/masshiro-na-canvas#original, note: Act 2}
       - {no: 28, recording: musical/bows-mega-mix#instrumental, note: Act 2}
       - {no: 29, recording: musical/kimi-to-miru-yume#bunkasai-ver, note: Act 2}
-      - {no: 30, recording: musical/yume-no-compass-2#bunkasai-ver, note: Act 2}
+      - {no: 30, recording: musical/yume-no-compass#bunkasai-ver, note: Act 2}
 streaming:
-  - tracks:
-      1-1: F0xhQQxfKoA
-      1-2: mikNJK7JUU0
-      1-3: phu0gJzubl0
-      1-4: ARWN4cKk0Nc
-      1-5: 2GtH8PZDKfU
-      1-6: ZNXZRuR8XjM
-      1-7: kc-1smpEXRY
-      1-8: DC0g3Fdm3WA
-      1-9: CJ5O7Ea5xZc
-      1-10: psd-npljOtw
-      1-11: dJoGhI7Mex8
-      1-12: Jk01v6en-ic
-      1-13: FSPq5FFSdpI
-      1-14: Ljg2bB5XaYQ
-      1-15: aQl_dah7MjQ
-      1-16: EiDxSLz4qW0
-      1-17: 41Lp24zUNjA
-      1-18: CrxE7IM-_2M
-      1-19: wUnZXRbeAqA
-      1-20: 5L2UQ0_RvT8
-      1-21: 9TCMBW4HjQQ
-      1-22: XCUIQzN_x0E
-      1-23: 1IStD-TsFF4
-      1-24: QSChMsz8Wps
-      1-25: quyQf6Z2_q0
-      1-26: pF2dp7QW7Yg
-      1-27: Na5l4u8z_qM
-      1-28: nRGx4BTQIjQ
-      1-29: KxuNRVX0UpM
-      1-30: q2x1upIWmvg
+  - browse_id: MPREb_o8ZFCtHGvgY
+    tracks:
+      1-1: YKJDvbeiXH8
+      1-2: zIwY-0JAlNE
+      1-3: EFKZhL5XOnY
+      1-4: pzgtHjNVpU0
+      1-5: UOOEtCCIFMY
+      1-6: 44d4M5ruWQI
+      1-7: F5GxE8kLw8M
+      1-8: vQIlEzhcbeg
+      1-9: lFDpotXIuu4
+      1-10: 95SdpCdVD-k
+      1-11: Qh7N67GceZQ
+      1-12: aOnIcAw4Uh4
+      1-13: 9IDHy2Qw2jE
+      1-14: FizsXgmhvNY
+      1-15: QgeTAAz-cdE
+      1-16: R2ES8feBVtE
+      1-17: tbh1QP2VMtE
+      1-18: GBiolaOGg-8
+      1-19: siXHGOmzdo8
+      1-20: WRl1z3LghN8
+      1-21: zm3kCFxhnjE
+      1-22: xTh-gRJYTKo
+      1-23: n6CV6GjXqCk
+      1-24: c-OK3KMGD7E
+      1-25: QHsM8rKu_6U
+      1-26: dlpGROevEC4
+      1-27: dwlyA6X69Qg
+      1-28: LGKSBVw6fjA
+      1-29: qmP_rY5rcoo
+      1-30: TXME_0WbeQs
 legacy:
   category: Musical
   albums:
@@ -75,3 +78,13 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_o8ZFCtHGvgY
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  title:
+    status: derived
+    source: data/projects/musical.yaml
+    checked: 2026-10-19
+    note: 프로젝트 이름과 같다. Fandom 문서명은 School Idol Musical CD Album. 리뷰 승인

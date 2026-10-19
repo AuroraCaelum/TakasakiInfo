@@ -1,0 +1,46 @@
+id: hasunosora/colorfulness
+project: hasunosora
+title:
+  ja: Colorfulness
+  rom: Colorfulness
+  ko: Colorfulness
+credits:
+  lyricist:
+    - {person: pa-non}
+  composer:
+    - {person: tomoya-kawasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: rurino-to-yukai-na-tsuzuri-tachi}
+    arranger:
+      - {person: tomoya-kawasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/14/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Colorfulness (Off Vocal)
+      rom: Colorfulness (Off Vocal)
+      ko: Colorfulness (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tomoya-kawasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/14/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/14/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/14/
+    checked: 2026-10-19

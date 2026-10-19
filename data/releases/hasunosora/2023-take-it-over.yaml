@@ -1,8 +1,14 @@
 id: hasunosora/2023-take-it-over
+type: single
 title:
   ja: Take It Over
 projects: [hasunosora]
+artist_credit:
+  - {artist: dollchestra}
 release_date: 2023-11-22
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/take-it-over#original}
@@ -12,18 +18,33 @@ discs:
       - {no: 5, recording: hasunosora/ameiro#off-vocal}
       - {no: 6, recording: hasunosora/knot#off-vocal}
 streaming:
-  - tracks:
+  - editions: [e1]
+    browse_id: MPREb_dFdLjzyHtFU
+    tracks:
       1-1: vKHtRr3Zvj8
       1-2: n1Ep0gAHr2U
       1-3: r0HbxEKeMGs
       1-4: zPlOjSHcaAM
       1-5: SbYzL5tIsjw
       1-6: VEcg0fGuD4A
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/10/
 legacy:
   category: Hasunosora
   albums:
     - {title: Take It Over}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/10/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_dFdLjzyHtFU
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/10/
+    checked: 2026-10-19

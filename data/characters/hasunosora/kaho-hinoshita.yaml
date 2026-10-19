@@ -2,14 +2,17 @@ id: hasunosora/kaho-hinoshita
 project: hasunosora
 names:
   ja: 日野下 花帆
+  kana: ひのした かほ
   rom: Kaho Hinoshita
   ko: 히노시타 카호
 family_name:
   ja: 日野下
+  kana: ひのした
   rom: Hinoshita
   ko: 히노시타
 given_name:
   ja: 花帆
+  kana: かほ
   rom: Kaho
   ko: 카호
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/01/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비

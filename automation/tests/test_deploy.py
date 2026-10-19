@@ -135,3 +135,7 @@ def test_release_files_from_dataset():
     version = json.loads(files[VERSION_KEY].body)
     assert version["sha"] == "abc123"
     assert json.loads(files["data/legacy/TakasakiInfo.json"].body)["dbLastUpdate"] == version["dbLastUpdate"]
+    # the v1 files and the database ship with the same data version (§10.2)
+    assert json.loads(files["data/v1/quality.json"].body)["dbLastUpdate"] == version["dbLastUpdate"]
+    assert json.loads(files["data/v1/tracks.json"].body)["count"] > 1000
+    assert files["data/takasakiinfo.sqlite"].body[:16] == b"SQLite format 3\x00"

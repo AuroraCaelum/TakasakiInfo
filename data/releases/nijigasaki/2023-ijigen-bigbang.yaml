@@ -8,7 +8,8 @@ discs:
       - {no: 1, recording: nijigasaki/ijigen-bigbang#original}
       - {no: 2, recording: nijigasaki/ijigen-bigbang#off-vocal}
 streaming:
-  - tracks:
+  - browse_id: MPREb_TyJ3MMULi2B
+    tracks:
       1-1: 3x8NErsTewM
       1-2: yJov2hZtrzg
 legacy:
@@ -19,3 +20,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_TyJ3MMULi2B
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

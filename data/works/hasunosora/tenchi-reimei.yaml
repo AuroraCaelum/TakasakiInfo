@@ -1,0 +1,47 @@
+id: hasunosora/tenchi-reimei
+project: hasunosora
+title:
+  ja: 天地黎明
+  rom: Tenchi Reimei
+  ko: 천지여명
+credits:
+  lyricist:
+    - {person: skipjack}
+  composer:
+    - {person: skipjack}
+recordings:
+  - id: original
+    performers:
+      - {artist: edel-note}
+    arranger:
+      - {person: tomoki-ishizuka}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 天地黎明 (Off Vocal)
+      rom: Tenchi Reimei (Off Vocal)
+      ko: 천지여명 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tomoki-ishizuka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/36/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E5%A4%A9%E5%9C%B0%E9%BB%8E%E6%98%8E'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19

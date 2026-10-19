@@ -10,13 +10,15 @@ from __future__ import annotations
 import csv
 import io
 import json
+import re
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from . import model as m
 from .store import Dataset
-from .text import render_credit_name
+from .text import is_latin, match_key, render_credit_name
 
 ALBUM_HEADER = [
     "Album", "Track", "日本語", "Romaji", "한국어", "歌", "Singer", "가수", "作詞", "Lyrics", "작사",
@@ -57,11 +59,13 @@ def edition_tracks(rel: m.Release, edition: str | None, disc_no: int | None = No
 
 
 def own_video(rel: m.Release, edition: str | None, disc: int, pos: int) -> str | None:
+    """The track's own video. No edition (a legacy album that stands for the whole release) takes
+    the first streaming entry that has the track, whichever editions it lists."""
     key = f"{disc}-{pos}"
     for s in rel.streaming:
         if s.platform != "youtube_music":
             continue
-        if s.editions and edition not in s.editions:
+        if s.editions and edition is not None and edition not in s.editions:
             continue
         if key in s.tracks:
             return s.tracks[key]
@@ -144,11 +148,37 @@ def track_title(work: m.Work, rec: m.Recording, track: m.Track) -> tuple[m.Names
     return base, kana
 
 
+_TITLE_SEP = re.compile(r"\s*[/／]\s*")
+
+
+def release_title(ds: Dataset, rel: m.Release) -> tuple[m.Names, list[str]]:
+    """The release title in every language, and the languages filled here (D39). A stored value
+    wins. A title made of the release's song titles ("A / B") takes their rom and ko, joined with
+    " / "; an all-Latin title is its own rom and ko (§5.3, §5.4: Latin text stays)."""
+    t = rel.title
+    if not t.ja or (t.rom and t.ko):
+        return t, []
+    works = {match_key(w.title.ja): w for w in (ds.recording(tr.recording)[0] for d in rel.discs for tr in d.tracks)}
+    parts = [t.ja] if match_key(t.ja) in works else _TITLE_SEP.split(t.ja)
+    derived: dict[str, str] = {}
+    if all(match_key(p) in works for p in parts):
+        for lang in ("rom", "ko"):
+            vals = [getattr(works[match_key(p)].title, lang) for p in parts]
+            if all(vals):
+                derived[lang] = " / ".join(vals)  # type: ignore[arg-type]
+    elif is_latin(t.ja):
+        derived = dict.fromkeys(("rom", "ko"), unicodedata.normalize("NFKC", t.ja))
+    filled = [lang for lang in derived if not getattr(t, lang)]
+    return t.model_copy(update={lang: derived[lang] for lang in filled}), filled
+
+
 def video_owners(ds: Dataset) -> dict[str, str]:
     """Video id -> title of the legacy album whose track owns it (for "Link is from the [...]")."""
     owners: dict[str, str] = {}
     for rel in ds.releases.values():
-        for la in rel.legacy.albums:
+        # a release kept only as a link source (not in the legacy files) is named by its title
+        albums = rel.legacy.albums or [m.LegacyAlbum(title=rel.title.ja or rel.id)]
+        for la in albums:
             for disc, pos, _ in edition_tracks(rel, la.edition, la.disc):
                 vid = own_video(rel, la.edition, disc, pos)
                 if vid:
@@ -172,6 +202,8 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: di
     rows: list[Row] = []
     for entry in ds.layout.albums[group].entries:
         rel = ds.releases[entry.release]
+        if rel.status == "announced":  # §7.4: announced releases are left out of the legacy files
+            continue
         la = rel.legacy.albums[entry.album]
         ed_date = next((e.release_date for e in rel.editions if e.id == la.edition and e.release_date), None)
         day = ed_date or rel.release_date

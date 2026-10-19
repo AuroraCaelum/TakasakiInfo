@@ -1,0 +1,47 @@
+id: ikizulive/ikitakunai-every-day
+project: ikizulive
+title:
+  ja: イキタクナイevery day
+  rom: Ikitakunai every day
+  ko: 살기 싫은 every day
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: nika-lenz, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/shion-sasaki}
+    arranger:
+      - {person: nika-lenz, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: イキタクナイevery day (Off Vocal)
+      rom: Ikitakunai every day (Off Vocal)
+      ko: 살기 싫은 every day (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nika-lenz, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
+    checked: 2026-10-19
+    note: "ja: 공식, ko: 나무위키 솔로 싱글 문서 (음반 문서는 '가고 싶지 않은'. 사용자 결정), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반"
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
+    checked: 2026-10-18

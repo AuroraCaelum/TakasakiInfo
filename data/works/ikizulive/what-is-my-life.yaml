@@ -1,0 +1,196 @@
+id: ikizulive/what-is-my-life
+project: ikizulive
+title:
+  ja: What is my LIFE?
+  rom: What is my LIFE?
+  ko: What is my LIFE?
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hajime-mitsumasu, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {artist: ikizuraibu}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: What is my LIFE? (Off Vocal)
+      rom: What is my LIFE? (Off Vocal)
+      ko: What is my LIFE? (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+        checked: 2026-10-18
+  - id: polka-takahashi-solo-ver
+    title:
+      ja: What is my LIFE? (高橋ポルカ Solo Ver.)
+      rom: What is my LIFE? (Polka Takahashi Solo Ver.)
+      ko: What is my LIFE? (타카하시 폴카 Solo Ver.)
+    version: 高橋ポルカ Solo Ver.
+    performers:
+      - {character: ikizulive/polka-takahashi}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
+        checked: 2026-10-18
+  - id: mai-azabu-solo-ver
+    title:
+      ja: What is my LIFE? (麻布麻衣 Solo Ver.)
+      rom: What is my LIFE? (Mai Azabu Solo Ver.)
+      ko: What is my LIFE? (아자부 마이 Solo Ver.)
+    version: 麻布麻衣 Solo Ver.
+    performers:
+      - {character: ikizulive/mai-azabu}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4698
+        checked: 2026-10-18
+  - id: akira-goto-solo-ver
+    title:
+      ja: What is my LIFE? (五桐 玲 Solo Ver.)
+      rom: What is my LIFE? (Akira Goto Solo Ver.)
+      ko: What is my LIFE? (고토 아키라 Solo Ver.)
+    version: 五桐 玲 Solo Ver.
+    performers:
+      - {character: ikizulive/akira-goto}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+  - id: hanabi-komagata-solo-ver
+    title:
+      ja: What is my LIFE? (駒形花火 Solo Ver.)
+      rom: What is my LIFE? (Hanabi Komagata Solo Ver.)
+      ko: What is my LIFE? (코마가타 하나비 Solo Ver.)
+    version: 駒形花火 Solo Ver.
+    performers:
+      - {character: ikizulive/hanabi-komagata}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
+        checked: 2026-10-18
+  - id: miracle-kanazawa-solo-ver
+    title:
+      ja: What is my LIFE? (金澤奇跡 Solo Ver.)
+      rom: What is my LIFE? (Miracle Kanazawa Solo Ver.)
+      ko: What is my LIFE? (카나자와 미라클 Solo Ver.)
+    version: 金澤奇跡 Solo Ver.
+    performers:
+      - {character: ikizulive/miracle-kanazawa}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+        checked: 2026-10-18
+  - id: noriko-chofu-solo-ver
+    title:
+      ja: What is my LIFE? (調布のりこ Solo Ver.)
+      rom: What is my LIFE? (Noriko Chofu Solo Ver.)
+      ko: What is my LIFE? (쵸후 노리코 Solo Ver.)
+    version: 調布のりこ Solo Ver.
+    performers:
+      - {character: ikizulive/noriko-chofu}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+        checked: 2026-10-18
+  - id: yukuri-harumiya-solo-ver
+    title:
+      ja: What is my LIFE? (春宮ゆくり Solo Ver.)
+      rom: What is my LIFE? (Yukuri Harumiya Solo Ver.)
+      ko: What is my LIFE? (하루미야 유쿠리 Solo Ver.)
+    version: 春宮ゆくり Solo Ver.
+    performers:
+      - {character: ikizulive/yukuri-harumiya}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
+        checked: 2026-10-18
+  - id: aurora-konohana-solo-ver
+    title:
+      ja: What is my LIFE? (此花輝夜 Solo Ver.)
+      rom: What is my LIFE? (Aurora Konohana Solo Ver.)
+      ko: What is my LIFE? (코노하나 오로라 Solo Ver.)
+    version: 此花輝夜 Solo Ver.
+    performers:
+      - {character: ikizulive/aurora-konohana}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+        checked: 2026-10-18
+  - id: midori-yamada-solo-ver
+    title:
+      ja: What is my LIFE? (山田真緑 Solo Ver.)
+      rom: What is my LIFE? (Midori Yamada Solo Ver.)
+      ko: What is my LIFE? (야마다 미도리 Solo Ver.)
+    version: 山田真緑 Solo Ver.
+    performers:
+      - {character: ikizulive/midori-yamada}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
+        checked: 2026-10-18
+  - id: shion-sasaki-solo-ver
+    title:
+      ja: What is my LIFE? (佐々木翔音 Solo Ver.)
+      rom: What is my LIFE? (Shion Sasaki Solo Ver.)
+      ko: What is my LIFE? (사사키 시온 Solo Ver.)
+    version: 佐々木翔音 Solo Ver.
+    performers:
+      - {character: ikizulive/shion-sasaki}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4661
+    checked: 2026-10-18

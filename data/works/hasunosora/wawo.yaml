@@ -1,0 +1,41 @@
+id: hasunosora/wawo
+project: hasunosora
+title:
+  ja: WAWO!
+  rom: WAWO!
+  ko: WAWO!
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: mican-modoki, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: ha-j}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/34/
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: ha-j}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19

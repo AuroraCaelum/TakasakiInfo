@@ -1,0 +1,46 @@
+id: ikizulive/homerun-queen
+project: ikizulive
+title:
+  ja: HomeRun Queen!!
+  rom: HomeRun Queen!!
+  ko: HomeRun Queen!!
+credits:
+  lyricist:
+    - {person: sakurako-kimino}
+  composer:
+    - {person: rei-kamiya}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/miracle-kanazawa}
+    arranger:
+      - {person: rei-kamiya}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HomeRun Queen!! (Off Vocal)
+      rom: HomeRun Queen!! (Off Vocal)
+      ko: HomeRun Queen!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rei-kamiya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
+    checked: 2026-10-18

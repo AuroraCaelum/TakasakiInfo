@@ -53,7 +53,7 @@ def write_reviews(res: MigrationResult, review_dir: Path) -> list[Path]:
         doc = {k: v for k, v in doc.items() if v is not None or k == "decision"}
         buf = io.StringIO()
         _yaml().dump(_to_node(doc), buf)
-        path.write_text(buf.getvalue(), encoding="utf-8")
+        path.write_text(buf.getvalue(), encoding="utf-8", newline="\n")
         paths.append(path)
     return paths
 
@@ -123,5 +123,5 @@ def write_migration_report(root: Path, res: MigrationResult, review_dir: Path) -
     out.append("")
     report = root / "automation" / "migration" / "REPORT.md"
     report.parent.mkdir(parents=True, exist_ok=True)
-    report.write_text("\n".join(out), encoding="utf-8")
+    report.write_text("\n".join(out), encoding="utf-8", newline="\n")
     return report

@@ -38,6 +38,41 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: 素顔のピクセル (104期 Ver.)
+      rom: Sugao no Pixel (104th Ver.)
+      ko: 맨얼굴의 픽셀 (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

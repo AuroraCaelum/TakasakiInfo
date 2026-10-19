@@ -11,11 +11,13 @@ discs:
       - {no: 4, recording: nijigasaki/what-you-gonna-do#3nensei-yu-ver}
       - {no: 5, recording: nijigasaki/what-you-gonna-do#off-vocal}
 streaming:
-  - tracks:
-      1-1: bNk3cvlE2cE
-      1-2: Y6Djx6ats6A
-      1-3: kxdbkG_zGOc
-      1-4: wO3roJn_-bM
+  - browse_id: MPREb_yejLXwJPLya
+    tracks:
+      1-1: 7hxVVU4zGuo
+      1-2: NxZcfYm_oVE
+      1-3: L2uJD49_IjQ
+      1-4: y7buDTTYXmQ
+      1-5: qbhaXFMFevc
 legacy:
   category: Nijigasaki
   albums:
@@ -24,3 +26,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_yejLXwJPLya
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

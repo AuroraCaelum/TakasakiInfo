@@ -1,0 +1,62 @@
+id: ikizulive/2025-itsuka-ao
+type: single
+title:
+  ja: いつか碧
+projects: [ikizulive]
+artist_credit:
+  - {character: ikizulive/akira-goto}
+label: Lantis
+release_date: 2025-09-10
+editions:
+  - id: e1
+    label:
+      ja: 初回生産限定盤
+    catalog: LACM-34753
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACM-24753
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/itsuka-ao#original}
+      - {no: 2, recording: ikizulive/jet-starter#original}
+      - {no: 3, recording: ikizulive/what-is-my-life#akira-goto-solo-ver}
+      - {no: 4, recording: ikizulive/itsuka-ao#off-vocal}
+      - {no: 5, recording: ikizulive/jet-starter#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_7YVG9OGk5t8
+    tracks:
+      1-1: Oj0hz2oFFJk
+      1-2: WkakIZ9k2qs
+      1-3: QeAUHBiRXAI
+      1-4: FprfcxDEbKU
+      1-5: lMdl5KwMmL4
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+  smartlink: https://lnk.to/LACM-24753d
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: いつか碧}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18
+    note: 各種音楽配信サービスでは9月18日(木)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_7YVG9OGk5t8
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

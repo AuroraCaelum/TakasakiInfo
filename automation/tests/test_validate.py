@@ -142,8 +142,84 @@ def test_note_is_built_from_parts():
     assert render_note(bd, 1, vocal, m.Track(recording="w#original"), "CHRONICLE") == "TVA1 BD Vol.1, Link is from the [CHRONICLE]"
 
 
+def test_an_album_without_edition_finds_its_own_video():
+    # a legacy album with no edition stands for the whole release, whichever editions the streaming entry lists
+    from takasaki.build_legacy import own_video
+
+    rel = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"], editions=[m.Edition(id="e1"), m.Edition(id="e2")],
+                    discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original")])],
+                    streaming=[m.Streaming(editions=["e1", "e2"], tracks={"1-1": "vid"})])
+    assert own_video(rel, None, 1, 1) == "vid" and own_video(rel, "e2", 1, 1) == "vid"
+    assert own_video(rel, "e3", 1, 1) is None
+
+
 def test_notes_do_not_repeat_derived_parts():
     ds = _ds(recordings=[m.Recording(id="original")])
     ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],
                                    discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original", note="Drama Part")])])
     assert "E14" in _rules(ds)
+
+
+def test_release_titles_come_from_song_titles():
+    # D39: rom and ko of "A／B" come from the song titles (any slash, width-insensitive); all-Latin titles are their own
+    from takasaki.build_legacy import release_title
+
+    ds = _ds(recordings=[m.Recording(id="original")])
+    ds.works["p/x"] = m.Work(id="p/x", project="p", title=_names("Go!!リスタート", "Go!! Restart", "Go!! 리스타트"),
+                             recordings=[m.Recording(id="original")])
+    tracks = [m.Track(no=1, recording="p/w#original"), m.Track(no=2, recording="p/x#original")]
+
+    def rel(ja: str, **names: str) -> m.Release:
+        ds.releases["p/r"] = m.Release(id="p/r", title=m.Names(ja=ja, **names), projects=["p"], discs=[m.Disc(tracks=tracks)])
+        return ds.releases["p/r"]
+
+    assert release_title(ds, rel("曲／Go！！リスタート")) == (_names("曲／Go！！リスタート", "Kyoku / Go!! Restart", "곡 / Go!! 리스타트"), ["rom", "ko"])
+    assert release_title(ds, rel("TVA1 BD Vol.1")) == (_names("TVA1 BD Vol.1", "TVA1 BD Vol.1", "TVA1 BD Vol.1"), ["rom", "ko"])
+    assert release_title(ds, rel("曲", rom="Official")) == (_names("曲", "Official", "곡"), ["ko"])  # a stored value wins
+    assert "W17" not in _rules(ds)
+    rel("リエラのうた")
+    assert [f.message for f in validate(ds) if f.rule == "W17"] == ["title 'リエラのうた' has no rom/ko"]
+
+
+def test_draft_values_are_not_output():
+    # E3 (§4.4): a draft on anything the legacy files print blocks the merge; announced releases are not printed (§7.4)
+    from takasaki.build_legacy import build_legacy
+
+    ds = _ds(recordings=[m.Recording(id="original", performers=[m.Performer(person="a")])])
+    ds.works["p/w"].evidence["title.ko"] = m.Evidence(status=m.Status.draft, note="번역안")
+    ds.releases["p/r"] = m.Release(id="p/r", title=_names("R", "R", "R"), projects=["p"],
+                                   discs=[m.Disc(tracks=[m.Track(no=1, recording="p/w#original")])],
+                                   legacy=m.ReleaseLegacy(category="P", albums=[m.LegacyAlbum(title="R")]))
+    ds.meta = m.Meta(schema_version="1", db_last_update="x")
+    ds.layout = m.LegacyLayout(integrated_order=["P"], albums={"P": m.LayoutAlbumsFile(entries=[m.LayoutAlbumEntry(release="p/r")])},
+                               members={}, concerts={})
+    assert "E3" in _rules(ds)
+    ds.releases["p/r"].status = "announced"
+    assert "E3" not in _rules(ds)
+    assert build_legacy(ds)["albums/P/P.csv"].decode("utf-8-sig").count("\r\n") == 0  # header only
+
+
+def test_w16_flags_official_fields_sourced_elsewhere():
+    from takasaki.validate import official_first
+
+    ds = Dataset()
+    wiki = m.Evidence(status=m.Status.established, source="https://ja.wikipedia.org/wiki/X")
+    namu = m.Evidence(status=m.Status.established, source="https://namu.wiki/w/X")
+    off = m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/hasunosora/member/07/")
+    ds.persons["a"] = m.Person(id="a", names=m.Names(ja="甲", rom="Ko", ko="고"),
+                               evidence={"names.ja": wiki, "names.ko": namu, "names.rom": wiki})
+    ds.artists["u"] = m.Artist(id="u", kind="unit", names=m.Names(ja="U", rom="U", ko="U"),
+                               evidence={"lineups": wiki, "names": off})
+    w16 = sorted(f.where + " " + f.message.split()[0] for f in validate(ds) if f.rule == "W16")
+    assert w16 == ["artist:u lineups", "person:a names.ja"]  # ko and a person's own rom are not official-first
+    assert not official_first("work", "same_recording") and official_first("release", "tracks")
+    ds.artists["u"].evidence["lineups"] = wiki.model_copy(update={"note": "공식 멤버 페이지가 갱신되지 않아 위키가 공식보다 최신"})
+    assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]
+
+
+def test_w15_skips_activity_names_with_a_recorded_reason():
+    ds = Dataset()
+    ds.persons["pen"] = m.Person(id="pen", names=m.Names(ja="吸血亭 賛美", rom="Kyuketsutei Zabi", ko="큐우케츠테이 자비"))
+    assert [f.rule for f in validate(ds)] == ["W15"]
+    ds.persons["pen"].evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="활동명이라 성·이름 없음")
+    assert [f.rule for f in validate(ds)] == []

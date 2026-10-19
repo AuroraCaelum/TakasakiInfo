@@ -1,0 +1,49 @@
+id: hasunosora/2026-icy
+type: single
+title:
+  ja: アイシイ
+projects: [hasunosora]
+artist_credit:
+  - {artist: dollchestra}
+label: Lantis
+release_date: 2026-04-08
+editions:
+  - id: e1
+    catalog: LACM-24816
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/icy#original}
+      - {no: 2, recording: hasunosora/icy#b-g-p-ver}
+      - {no: 3, recording: hasunosora/umbrella#original}
+      - {no: 4, recording: hasunosora/icy#off-vocal}
+      - {no: 5, recording: hasunosora/umbrella#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_GYC0Njc1yae
+    tracks:
+      1-1: _pM1kgypNAA
+      1-2: LxBHWiujABI
+      1-3: ROE9Y9I-3Ts
+      1-4: NQF_TgPDF7c
+      1-5: W0U4PxkA6b0
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: アイシイ}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_GYC0Njc1yae
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

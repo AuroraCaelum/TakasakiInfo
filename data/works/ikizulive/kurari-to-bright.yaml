@@ -1,0 +1,47 @@
+id: ikizulive/kurari-to-bright
+project: ikizulive
+title:
+  ja: クラリトブライト
+  rom: Kurari to Bright
+  ko: 쿠라리토 브라이트
+credits:
+  lyricist:
+    - {person: erica-masaki}
+  composer:
+    - {person: nika-lenz, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/aurora-konohana}
+    arranger:
+      - {person: nika-lenz, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: クラリトブライト (Off Vocal)
+      rom: Kurari to Bright (Off Vocal)
+      ko: 쿠라리토 브라이트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nika-lenz, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-19
+    note: "ja: 공식, ko: 나무위키 '클라리테 브라이트'는 오역이라 음역 (사용자 결정), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반"
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
+    checked: 2026-10-18

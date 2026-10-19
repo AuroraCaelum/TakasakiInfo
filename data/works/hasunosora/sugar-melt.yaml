@@ -37,6 +37,21 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: シュガーメルト (104期 Ver.)
+      rom: Sugar Melt (104th Ver.)
+      ko: 슈가 멜트 (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

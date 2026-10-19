@@ -1,0 +1,52 @@
+id: hasunosora/2025-key-of-like
+type: single
+title:
+  ja: KEY of Like！
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2025-02-05
+editions:
+  - id: e1
+    catalog: LACM-24652
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/key-of-like#original}
+      - {no: 2, recording: hasunosora/now-or-never#original}
+      - {no: 3, recording: hasunosora/key-of-like#off-vocal}
+      - {no: 4, recording: hasunosora/now-or-never#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_kNPLIk3Rx04
+    tracks:
+      1-1: 7jBoRRAk6EQ
+      1-2: MaDdYLb0zfE
+      1-3: 3D-9XcH8qH8
+      1-4: V07-Ti33r_I
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/26/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: KEY of Like！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/26/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/26/
+    checked: 2026-10-19
+  release_date:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/26/
+    checked: 2026-10-19
+    note: 各種音楽配信サービスでは2月12日(水)配信開始予定です。
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_kNPLIk3Rx04
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

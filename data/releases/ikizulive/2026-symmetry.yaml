@@ -1,0 +1,43 @@
+id: ikizulive/2026-symmetry
+type: digital_single
+title:
+  ja: シンメトリー
+projects: [ikizulive]
+artist_credit:
+  - {artist: mi-nori-tea}
+release_date: 2026-03-15
+editions:
+  - id: e1
+    catalog: LZC-3438
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: ikizulive/symmetry#original}
+      - {no: 2, recording: ikizulive/symmetry#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_Xnp3jQqu3Dx
+    tracks:
+      1-1: tESyTrE3ezo
+      1-2: Y2MF_H1RbsE
+links:
+  official: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+  smartlink: https://lnk.to/LZC-3438
+legacy:
+  category: Ikizulive
+  albums:
+    - {title: シンメトリー}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+    checked: 2026-10-18
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
+    checked: 2026-10-18
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Xnp3jQqu3Dx
+    checked: 2026-10-18
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

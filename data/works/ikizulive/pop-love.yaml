@@ -1,0 +1,47 @@
+id: ikizulive/pop-love
+project: ikizulive
+title:
+  ja: POP LOVE
+  rom: POP LOVE
+  ko: POP LOVE
+credits:
+  lyricist:
+    - {person: makoto-aoyagi, affiliation: EverNest}
+  composer:
+    - {person: makoto-aoyagi, affiliation: EverNest}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/miracle-kanazawa}
+      - {character: ikizulive/aurora-konohana}
+    arranger:
+      - {person: makoto-aoyagi, affiliation: EverNest}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6517
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: POP LOVE (Off Vocal)
+      rom: POP LOVE (Off Vocal)
+      ko: POP LOVE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: makoto-aoyagi, affiliation: EverNest}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6517
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6517
+    checked: 2026-10-18

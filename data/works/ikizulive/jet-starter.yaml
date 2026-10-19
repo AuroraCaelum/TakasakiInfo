@@ -1,0 +1,47 @@
+id: ikizulive/jet-starter
+project: ikizulive
+title:
+  ja: ジェットスターター
+  rom: Jet Starter
+  ko: 제트 스타터
+credits:
+  lyricist:
+    - {person: fuuta-shintani}
+  composer:
+    - {person: rei-kamiya}
+recordings:
+  - id: original
+    performers:
+      - {character: ikizulive/akira-goto}
+    arranger:
+      - {person: rei-kamiya}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ジェットスターター (Off Vocal)
+      rom: Jet Starter (Off Vocal)
+      ko: 제트 스타터 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rei-kamiya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+        checked: 2026-10-18
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-19
+    note: 'ja: 공식, ko: 나무위키 번역 (D30), rom: Fandom. ko 출처: https://namu.wiki/w/이키즈라이브! LOVELIVE! BLUEBIRD/음반'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4699
+    checked: 2026-10-18

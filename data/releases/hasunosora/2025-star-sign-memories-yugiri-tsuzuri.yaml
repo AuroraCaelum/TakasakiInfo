@@ -1,0 +1,87 @@
+id: hasunosora/2025-star-sign-memories-yugiri-tsuzuri
+type: album
+title:
+  ja: ～Star Sign Memories～ Yugiri Tsuzuri
+  rom: ~Star Sign Memories~ Yugiri Tsuzuri
+  ko: ~Star Sign Memories~ Yugiri Tsuzuri
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/tsuzuri-yugiri}
+label: Lantis
+release_date: 2025-06-04
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39125~6
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19125~6
+    media: [CD, CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/awoke#tsuzuri-yugiri-solo}
+      - {no: 2, recording: hasunosora/scapegoat#tsuzuri-yugiri-solo}
+      - {no: 3, recording: hasunosora/sparkly-spot#tsuzuri-yugiri-solo}
+      - {no: 4, recording: hasunosora/tragic-drops#tsuzuri-yugiri-solo}
+      - {no: 5, recording: hasunosora/mirage-voyage#tsuzuri-yugiri-solo}
+      - {no: 6, recording: hasunosora/take-it-over#tsuzuri-yugiri-solo}
+      - {no: 7, recording: hasunosora/knot#tsuzuri-yugiri-solo}
+      - {no: 8, recording: hasunosora/ao-to-shabon#tsuzuri-yugiri-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/ladybug#tsuzuri-yugiri-solo}
+      - {no: 2, recording: hasunosora/proof#tsuzuri-yugiri-solo}
+      - {no: 3, recording: hasunosora/birdcage#tsuzuri-yugiri-solo}
+      - {no: 4, recording: hasunosora/compass#tsuzuri-yugiri-solo}
+      - {no: 5, recording: hasunosora/tsubasa-la-liberte#tsuzuri-yugiri-solo}
+      - {no: 6, recording: hasunosora/deepness#tsuzuri-yugiri-solo}
+      - {no: 7, recording: hasunosora/dream-believers#sakura-ver-tsuzuri-yugiri}
+      - {no: 8, recording: hasunosora/shiawase-no-ribbon#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_VWpRi0Ba6I3
+    tracks:
+      1-1: YBs9-6ONvUg
+      1-2: vKWrdYvucBA
+      1-3: VBpycpAMx8U
+      1-4: CbkQ2hxnrXo
+      1-5: -ciyv84THZs
+      1-6: C-OlozBCZlg
+      1-7: ZGnWVt0wDsE
+      1-8: eLPSDAPxsC8
+      2-1: vyqy6W5Qfow
+      2-2: yjW9_nGd6Xg
+      2-3: Wp4rf0Sk1zQ
+      2-4: J25f0y3VnWY
+      2-5: J09a6SpkdNk
+      2-6: 4K-oYqkSIGI
+      2-7: HvH_7lYFW7g
+      2-8: _n9cp_JWf1w
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Star Sign Memories～ Yugiri Tsuzuri}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_VWpRi0Ba6I3
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

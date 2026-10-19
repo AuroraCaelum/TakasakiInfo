@@ -1,0 +1,48 @@
+id: hasunosora/very-very-coco-natsu
+project: hasunosora
+title:
+  ja: Very! Very! COCO夏っ
+  rom: Very! Very! COCO Natsu
+  ko: Very! Very! COCO넛
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: yuu-for-you}
+    - {person: yuki-kokubo}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: yuu-for-you}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Very! Very! COCO夏っ (Off Vocal)
+      rom: Very! Very! COCO Natsu (Off Vocal)
+      ko: Very! Very! COCO넛 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuu-for-you}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/Very%21%20Very%21%20COCO%E5%A4%8F%E3%81%A3'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
+    checked: 2026-10-19

@@ -2,6 +2,8 @@ id: nijigasaki/2021-0224
 type: drama_cd
 title:
   ja: ドラマCD 青春カプリッチョ
+  rom: Drama CD Seishun Capriccio
+  ko: 드라마 CD 청춘 카프리치오
 projects: [nijigasaki]
 release_date: 2021-02-24
 discs:
@@ -40,3 +42,7 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  title:
+    status: derived
+    checked: 2026-10-19
+    note: rom은 규칙 엔진(Fandom에 문서 없음), ko는 번역(나무위키에서 찾지 못함). 리뷰 승인

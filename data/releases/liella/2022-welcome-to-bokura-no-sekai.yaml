@@ -29,15 +29,17 @@ discs:
       - {no: 6, recording: liella/yuragu-wa#off-vocal}
 streaming:
   - editions: [e1]
+    browse_id: MPREb_ZjURZrWEvr7
     tracks:
-      1-1: oDnmWbGsNxA
-      1-2: iJ3aTu3UMBc
-      1-3: ueFfIkQegHw
+      1-1: X-6jxiDgJ-0
+      1-2: dEnReamUuNQ
+      1-3: vXAsy0Z-UyU
   - editions: [e2]
+    browse_id: MPREb_xFlFIWriFiL
     tracks:
-      1-1: KQYGXswWre8
-      1-2: lVdZGvEUno4
-      1-3: V2CXoystsAc
+      1-1: j_8wITp1QHo
+      1-2: _eL8bhDhGDI
+      1-3: Lrdj0p5qUL0
 legacy:
   category: Liella
   albums:
@@ -47,3 +49,8 @@ evidence:
   tracks:
     status: legacy
     source: migration:legacy
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ZjURZrWEvr7
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

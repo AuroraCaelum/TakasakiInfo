@@ -23,23 +23,24 @@ discs:
       - {no: 15, recording: aqours/wake-up-challenger#riko-sakurauchi-solo-ver}
       - {no: 16, recording: aqours/pure-phrase#original}
 streaming:
-  - tracks:
-      1-1: uHELX9ELRQQ
-      1-2: mv1UExMc1_g
-      1-3: mv2HKNzX1Uo
-      1-4: lraF25-3tOs
-      1-5: WIbCsaRzQcs
-      1-6: 0EHPUstvAik
-      1-7: RpEXfU-fXRc
-      1-8: z7H02ftODtw
-      1-9: ZUOKNqmBAfA
-      1-10: o0O6i5RLrBw
-      1-11: YepN7DfQ-Qo
-      1-12: NsAKNQPdHyQ
-      1-13: E3GTMBQfWtY
-      1-14: 9CjYtrIFmuo
-      1-15: SdfofZYjdjY
-      1-16: eguOyIWfq1M
+  - browse_id: MPREb_CU8OeBz87QQ
+    tracks:
+      1-1: RzRRKuDXpwM
+      1-2: v2EqFXKO7oc
+      1-3: gYml5OlFBFQ
+      1-4: DqJXr-ywyMQ
+      1-5: oEXrYQYRdZY
+      1-6: 3Os6wEtbGXQ
+      1-7: PJX1ItQoy1Y
+      1-8: HOcmmLCejWY
+      1-9: 0_HayDDLCBc
+      1-10: sW5yqjoIeSQ
+      1-11: BbpSR0y6Ycg
+      1-12: p2-Q-sZDnNE
+      1-13: Z9ImUWDOqjY
+      1-14: VyG_UmHjObI
+      1-15: datYvJUGYLM
+      1-16: _O75VUq__hk
 legacy:
   category: Aqours
   albums:
@@ -51,3 +52,8 @@ evidence:
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
+    checked: 2026-10-17
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

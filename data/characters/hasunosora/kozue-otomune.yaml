@@ -2,14 +2,17 @@ id: hasunosora/kozue-otomune
 project: hasunosora
 names:
   ja: 乙宗 梢
+  kana: おとむね こずえ
   rom: Kozue Otomune
   ko: 오토무네 코즈에
 family_name:
   ja: 乙宗
+  kana: おとむね
   rom: Otomune
   ko: 오토무네
 given_name:
   ja: 梢
+  kana: こずえ
   rom: Kozue
   ko: 코즈에
 casting:
@@ -21,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/member/03/
+    checked: 2026-10-18
+    note: 공식 멤버 페이지 루비
