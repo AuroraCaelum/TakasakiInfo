@@ -1,7 +1,7 @@
 id: ereca-suzuki
 names:
   ja: 鈴木エレカ
-  rom: Ereca Suzuki
+  rom: Ereka Suzuki
   ko: 스즈키 에레카
 family_name:
   ja: 鈴木
@@ -9,7 +9,7 @@ family_name:
   ko: 스즈키
 given_name:
   ja: エレカ
-  rom: Ereca
+  rom: Ereka
   ko: 에레카
 evidence:
   names.ja:
@@ -17,8 +17,10 @@ evidence:
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01
     checked: 2026-10-19
   names.rom:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 표기 (D38). 본인·공식 라틴 표기 없음
   names.ko:
     status: established
     source: https://namu.wiki/w/翠いカナリア

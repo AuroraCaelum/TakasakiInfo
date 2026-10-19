@@ -10,6 +10,7 @@ discs:
       - {no: 2, recording: nijigasaki/kiss-the-sun#original}
       - {no: 3, recording: nijigasaki/shadow-effect#off-vocal}
       - {no: 4, recording: nijigasaki/kiss-the-sun#off-vocal}
+      - {no: 5, recording: nijigasaki/catch-the-phantom-thief#main}
 streaming:
   - browse_id: MPREb_nTdMdW6CJQ7
     tracks:
@@ -25,8 +26,10 @@ legacy:
     - {title: Shadow Effect, note: DiverDiva 3rd}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd50
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note 'DiverDiva 3rd'에서 (M3)

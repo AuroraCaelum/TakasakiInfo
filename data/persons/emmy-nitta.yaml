@@ -1,7 +1,7 @@
 id: emmy-nitta
 names:
   ja: 新田 恵海
-  rom: Emmy Nitta
+  rom: Emi Nitta
   ko: 닛타 에미
 family_name:
   ja: 新田
@@ -9,7 +9,7 @@ family_name:
   ko: 닛타
 given_name:
   ja: 恵海
-  rom: Emmy
+  rom: Emi
   ko: 에미
 evidence:
   name_parts:
@@ -21,8 +21,10 @@ evidence:
     checked: 2026-10-19
     note: 공식 캐스트&스태프 페이지 표기
   names.rom:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/worldwide/caststaff.php
+    checked: 2026-10-19
+    note: 공식 영문 사이트(Worldwide) 캐스트 표기
   names.ko:
     status: established
     source: https://namu.wiki/w/닛타 에미

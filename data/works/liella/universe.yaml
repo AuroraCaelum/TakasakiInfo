@@ -15,13 +15,17 @@ recordings:
     performers:
       - {artist: liella}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     external_ids:
       isrc: JPI102301530
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa')"
       same_recording:
         status: established
         source: https://musicbrainz.org/isrc/JPI102301530
@@ -38,12 +42,16 @@ recordings:
     performers:
       - {artist: liella}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). Off Vocal: 편곡은 원곡의 것"
   - id: kanon-shibuya-ver
     title:
       ja: UNIVERSE!! (澁谷かのん Ver.)
@@ -54,11 +62,15 @@ recordings:
     performers:
       - {character: liella/kanon-shibuya}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: keke-tang-ver
     title:
       ja: UNIVERSE!! (唐可可 Ver.)
@@ -69,11 +81,15 @@ recordings:
     performers:
       - {character: liella/keke-tang}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: chisato-arashi-ver
     title:
       ja: UNIVERSE!! (嵐千砂都 Ver.)
@@ -84,11 +100,15 @@ recordings:
     performers:
       - {character: liella/chisato-arashi}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: sumire-heanna-ver
     title:
       ja: UNIVERSE!! (平安名すみれ Ver.)
@@ -99,11 +119,15 @@ recordings:
     performers:
       - {character: liella/sumire-heanna}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: ren-hazuki-ver
     title:
       ja: UNIVERSE!! (葉月恋 Ver.)
@@ -114,11 +138,15 @@ recordings:
     performers:
       - {character: liella/ren-hazuki}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: kinako-sakurakoji-ver
     title:
       ja: UNIVERSE!! (桜小路きな子 Ver.)
@@ -129,11 +157,15 @@ recordings:
     performers:
       - {character: liella/kinako-sakurakoji}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: mei-yoneme-ver
     title:
       ja: UNIVERSE!! (米女メイ Ver.)
@@ -144,11 +176,15 @@ recordings:
     performers:
       - {character: liella/mei-yoneme}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: shiki-wakana-ver
     title:
       ja: UNIVERSE!! (若菜四季 Ver.)
@@ -159,11 +195,15 @@ recordings:
     performers:
       - {character: liella/shiki-wakana}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
   - id: natsumi-onitsuka-ver
     title:
       ja: UNIVERSE!! (鬼塚夏美 Ver.)
@@ -174,11 +214,15 @@ recordings:
     performers:
       - {character: liella/natsumi-onitsuka}
     arranger:
+      - {person: yuki-utamaru}
+    strings_arranger:
       - {person: yoshiaki-dewa}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/341912/
+        checked: 2026-10-19
+        note: "공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음, 2026-10-19 확인). 編曲은 uta-net, 弦編曲은 Fandom(https://love-live.fandom.com/wiki/UNIVERSE!! 'arranged by Yuki Utamaru, Strings: Yoshiaki Dewa'). 솔로 Ver.: 두 출처 모두 버전별 편곡을 따로 적지 않아 원곡 편곡을 따름"
 evidence:
   credits:
     status: established

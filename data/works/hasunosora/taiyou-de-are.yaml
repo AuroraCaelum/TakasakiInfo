@@ -8,13 +8,13 @@ credits:
   lyricist:
     - {person: tatsune}
   composer:
-    - {person: hiroaki-suzuki, affiliation: SUPA LOVE}
+    - {person: hiroaki-suzuki, affiliation: SUPA LOVE, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: dollchestra}
     arranger:
-      - {person: hiroaki-suzuki, affiliation: SUPA LOVE}
+      - {person: hiroaki-suzuki, affiliation: SUPA LOVE, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -28,7 +28,7 @@ recordings:
       ko: 태양이어라! (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: hiroaki-suzuki, affiliation: SUPA LOVE}
+      - {person: hiroaki-suzuki, affiliation: SUPA LOVE, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:
@@ -39,7 +39,7 @@ recordings:
     performers:
       - {character: hasunosora/sayaka-murano}
     arranger:
-      - {person: hiroaki-suzuki, affiliation: SUPA LOVE}
+      - {person: hiroaki-suzuki, affiliation: SUPA LOVE, fullwidth: true}
     evidence:
       credits:
         status: official

@@ -9,7 +9,7 @@ credits:
   lyricist:
     - {person: kelly}
   composer:
-    - {person: satoru-kurihara, affiliation: Jazzin'park}
+    - {person: satoru-kurihara, affiliation: Jazzin'park, fullwidth: true}
     - {person: tasuku-maeda}
 recordings:
   - id: original
@@ -17,6 +17,8 @@ recordings:
       - {artist: cerise-bouquet}
     arranger:
       - {person: tasuku-maeda}
+    strings_arranger:
+      - {person: daisuke-kadowaki}
     evidence:
       credits:
         status: official
@@ -42,6 +44,8 @@ recordings:
       - {character: hasunosora/kozue-otomune}
     arranger:
       - {person: tasuku-maeda}
+    strings_arranger:
+      - {person: daisuke-kadowaki}
     evidence:
       credits:
         status: official
@@ -52,6 +56,8 @@ recordings:
       - {character: hasunosora/kaho-hinoshita}
     arranger:
       - {person: tasuku-maeda}
+    strings_arranger:
+      - {person: daisuke-kadowaki}
     evidence:
       credits:
         status: official

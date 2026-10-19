@@ -2,7 +2,7 @@ id: cyaron
 kind: unit
 projects: [aqours]
 names:
-  ja: CYaRon!
+  ja: CYaRon！
   rom: CYaRon!
   ko: CYaRon!
 lineups:
@@ -12,10 +12,9 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd03
     checked: 2026-10-19
-    note: 공식 표기 'CYaRon！' (전각·반각만 다름)
   names.rom:
     status: derived
-    note: '라틴 표기: rom는 ja와 같음 (§5.4)'
+    note: '라틴 표기: rom는 ja의 반각 (§5.4, D42)'
   names.ko:
     status: derived
-    note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+    note: '라틴 표기: ko는 ja의 반각 (§5.4, D42)'

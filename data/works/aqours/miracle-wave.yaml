@@ -9,13 +9,13 @@ credits:
   lyricist:
     - {person: aki-hata}
   composer:
-    - {person: takuya-sakai, affiliation: Arte Refact}
+    - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: aqours}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -32,7 +32,7 @@ recordings:
     performers:
       - {artist: aqours}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:

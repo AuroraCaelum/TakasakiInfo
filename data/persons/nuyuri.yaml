@@ -1,7 +1,7 @@
 id: nuyuri
 names:
   ja: ぬゆり
-  rom: Nuyuri
+  rom: nulut
   ko: 누유리
 evidence:
   names.ja:
@@ -9,8 +9,10 @@ evidence:
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd32.php
     checked: 2026-10-19
   names.rom:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://x.com/nulut
+    checked: 2026-10-19
+    note: 본인 사용 라틴 표기 (X @nulut, §5.3 우선순위 2). Fandom 'nulut', 나무위키 'Nulut'
   names.ko:
     status: established
     source: https://namu.wiki/w/누유리

@@ -17,13 +17,13 @@ recordings:
       - {artist: cerise-bouquet}
     arranger:
       - {person: menma}
+    strings_arranger:
       - {person: yu-manabe}
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/02/
         checked: 2026-10-19
-        note: 편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,6 +36,7 @@ recordings:
       - {artist: cerise-bouquet}
     arranger:
       - {person: menma}
+    strings_arranger:
       - {person: yu-manabe}
     instrumental_of: original
     evidence:
@@ -43,7 +44,6 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/02/
         checked: 2026-10-19
-        note: 편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)
   - id: 104th-new-ver
     title:
       ja: Reflection in the mirror (104期NEW Ver.)
@@ -64,6 +64,8 @@ recordings:
       - {character: hasunosora/kozue-otomune}
     arranger:
       - {person: menma}
+    strings_arranger:
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official
@@ -74,6 +76,8 @@ recordings:
       - {character: hasunosora/kaho-hinoshita}
     arranger:
       - {person: menma}
+    strings_arranger:
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official

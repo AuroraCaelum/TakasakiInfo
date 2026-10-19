@@ -10,6 +10,7 @@ credits:
     - {person: kanata-okajima}
   composer:
     - {person: keisuke-koyama}
+    - {person: shunsuke-harada}
 recordings:
   - id: 9-members-ver
     version: 9 Members Ver.
@@ -39,7 +40,27 @@ recordings:
         source: https://love-live.fandom.com/wiki/Love_U_my_friends
         checked: 2026-10-19
         note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. Fandom 문서의 크레딧·트랙
+  - id: 12nin-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Love U my friends (12人Ver.) [Off Vocal]
+      kana: ラブ・ユー・マイ・フレンズ じゅうににんヴァージョン (オフボーカル)
+      rom: Love U my friends (12nin Ver.) [Off Vocal]
+      ko: Love U my friends (12인 Ver.) [Off Vocal]
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: 12nin-ver
+    evidence:
+      credits:
+        status: established
+        source: https://love-live.fandom.com/wiki/Love_U_my_friends
+        checked: 2026-10-19
+        note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. Fandom 문서의 크레딧·트랙
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd04
+    checked: 2026-10-19

@@ -8,13 +8,13 @@ credits:
   lyricist:
     - {person: tatsune}
   composer:
-    - {person: ryomi-yamashita, affiliation: SUPA LOVE}
+    - {person: ryomi-yamashita, affiliation: SUPA LOVE, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: dollchestra}
     arranger:
-      - {person: shuhei-takahashi, affiliation: SUPA LOVE}
+      - {person: shuhei-takahashi, affiliation: SUPA LOVE, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -28,7 +28,7 @@ recordings:
       ko: 애매 메이데이 (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: shuhei-takahashi, affiliation: SUPA LOVE}
+      - {person: shuhei-takahashi, affiliation: SUPA LOVE, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:
@@ -39,7 +39,7 @@ recordings:
     performers:
       - {character: hasunosora/sayaka-murano}
     arranger:
-      - {person: shuhei-takahashi, affiliation: SUPA LOVE}
+      - {person: shuhei-takahashi, affiliation: SUPA LOVE, fullwidth: true}
     evidence:
       credits:
         status: official

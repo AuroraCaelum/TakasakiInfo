@@ -19,13 +19,14 @@ recordings:
     performers:
       - {artist: a-zu-na}
     arranger:
-      - {person: ayato-fujiwara}
       - {person: ryosuke-saito}
+      - {person: ayato-fujiwara}
       - {person: passion-king}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd31
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,14 +38,15 @@ recordings:
     performers:
       - {artist: a-zu-na}
     arranger:
-      - {person: ayato-fujiwara}
       - {person: ryosuke-saito}
+      - {person: ayato-fujiwara}
       - {person: passion-king}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd31
+        checked: 2026-10-19
 evidence:
   credits:
     status: official

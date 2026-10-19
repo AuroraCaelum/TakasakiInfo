@@ -1,12 +1,12 @@
 id: motoki-matsuda
 names:
   ja: 増田 基生
-  rom: Motoki Matsuda
-  ko: 마츠다 모토키
+  rom: Motoki Masuda
+  ko: 마스다 모토키
 family_name:
   ja: 増田
-  rom: Matsuda
-  ko: 마츠다
+  rom: Masuda
+  ko: 마스다
 given_name:
   ja: 基生
   rom: Motoki
@@ -21,8 +21,12 @@ evidence:
     checked: 2026-10-19
     note: 공식 미게재 (공식 CD 페이지의 国木田花丸 First Solo Concert Album과 TV2기 BD 페이지는 곡명만 게재). Fandom 작곡·편곡자 목록 표기 'Motoki Masuda (増田基生)', 나무위키 「おやすみなさん！」 문서도 '増田基生'
   names.rom:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 'Motoki Masuda (増田基生)'. 増田 = ますだ (레거시 오기 Matsuda)
   names.ko:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://namu.wiki/w/おやすみなさん！
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (레거시 오기 마츠다)

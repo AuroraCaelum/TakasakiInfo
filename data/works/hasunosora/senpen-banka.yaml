@@ -9,17 +9,20 @@ credits:
   lyricist:
     - {person: kelly}
   composer:
-    - {person: atsuki-okuma, affiliation: Arte Refact}
+    - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: cerise-bouquet}
     arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
+    strings_arranger:
       - {person: yu-manabe}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/09/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,12 +34,15 @@ recordings:
     performers:
       - {artist: cerise-bouquet}
     arranger:
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
+    strings_arranger:
       - {person: yu-manabe}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/09/
+        checked: 2026-10-19
   - id: 104th-ver
     title:
       ja: 千変万華 (104期 Ver.)
@@ -56,7 +62,9 @@ recordings:
     performers:
       - {character: hasunosora/kozue-otomune}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
+    strings_arranger:
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official
@@ -66,7 +74,9 @@ recordings:
     performers:
       - {character: hasunosora/kaho-hinoshita}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
+    strings_arranger:
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official

@@ -13,15 +13,17 @@ discs:
       - {no: 5, recording: aqours/koi-ni-naritai-aquarium#chika-takami-solo-ver}
       - {no: 6, recording: aqours/matte-te-ai-no-uta#chika-takami-solo-ver}
       - {no: 7, recording: aqours/todoka-nai-hoshi-da-to-shi-te-mo#chika-takami-solo-ver}
-      - {no: 8, recording: aqours/happy-party-train#chika-takami-solo-ver}
-      - {no: 9, recording: aqours/sky-journey#chika-takami-solo-ver}
-      - {no: 10, recording: aqours/shojo-ijo-no-koi-ga-shitai#chika-takami-solo-ver}
-      - {no: 11, recording: aqours/mitaiken-horizon#chika-takami-solo-ver}
-      - {no: 12, recording: aqours/deep-resonance#chika-takami-solo-ver}
-      - {no: 13, recording: aqours/dance-with-minotaurus#chika-takami-solo-ver}
-      - {no: 14, recording: aqours/kokoro-magic-a-to-z#chika-takami-solo-ver}
-      - {no: 15, recording: aqours/wake-up-challenger#chika-takami-solo-ver}
-      - {no: 16, recording: aqours/never-giving-up#original}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/happy-party-train#chika-takami-solo-ver}
+      - {no: 2, recording: aqours/sky-journey#chika-takami-solo-ver}
+      - {no: 3, recording: aqours/shojo-ijo-no-koi-ga-shitai#chika-takami-solo-ver}
+      - {no: 4, recording: aqours/mitaiken-horizon#chika-takami-solo-ver}
+      - {no: 5, recording: aqours/deep-resonance#chika-takami-solo-ver}
+      - {no: 6, recording: aqours/dance-with-minotaurus#chika-takami-solo-ver}
+      - {no: 7, recording: aqours/kokoro-magic-a-to-z#chika-takami-solo-ver}
+      - {no: 8, recording: aqours/wake-up-challenger#chika-takami-solo-ver}
+      - {no: 9, recording: aqours/never-giving-up#original}
 streaming:
   - browse_id: MPREb_pqaWQqPjzgR
     tracks:
@@ -32,27 +34,27 @@ streaming:
       1-5: KR6DVFHwX84
       1-6: HePmUapJOlk
       1-7: APsxCedMkHM
-      1-8: gDRKatnu93Q
-      1-9: R9UFOVrwtKY
-      1-10: FwEmW1BM9cI
-      1-11: 8qlqzDwwAtA
-      1-12: 08bEuxyrBto
-      1-13: Kn2jrT2mCBo
-      1-14: zbg0TMJXlhk
-      1-15: D-_4BsWrXjQ
-      1-16: ZXO8YzP0nMk
+      2-1: gDRKatnu93Q
+      2-2: R9UFOVrwtKY
+      2-3: FwEmW1BM9cI
+      2-4: 8qlqzDwwAtA
+      2-5: 08bEuxyrBto
+      2-6: Kn2jrT2mCBo
+      2-7: zbg0TMJXlhk
+      2-8: D-_4BsWrXjQ
+      2-9: ZXO8YzP0nMk
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
 legacy:
   category: Aqours
   albums:
-    - {title: LoveLive! Sunshine!! Takami Chika First Solo Concert Album ～One More Sunshine Story～, note: Solo Concert Album}
+    - {title: LoveLive! Sunshine!! Takami Chika First Solo Concert Album ～One More Sunshine Story～, note: Solo Concert Album, flatten_discs: true}
 evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
     checked: 2026-10-19
-    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 2장으로 나눠 트랙 번호를 매김
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note 'Solo Concert Album'에서 (M3)

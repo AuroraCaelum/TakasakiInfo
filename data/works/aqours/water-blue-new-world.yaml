@@ -16,13 +16,13 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takashi-saeki}
+    strings_arranger:
       - {person: tatsuya-kurauchi}
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
         checked: 2026-10-19
-        note: 편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,6 +35,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takashi-saeki}
+    strings_arranger:
       - {person: tatsuya-kurauchi}
     instrumental_of: original
     evidence:
@@ -42,7 +43,6 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
         checked: 2026-10-19
-        note: 편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)
 evidence:
   credits:
     status: official

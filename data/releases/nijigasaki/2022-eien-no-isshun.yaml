@@ -7,10 +7,10 @@ discs:
   - tracks:
       - {no: 1, recording: nijigasaki/eien-no-isshun#original}
       - {no: 2, recording: nijigasaki/our-p13ces#original}
-      - {no: 3, recording: nijigasaki/hurray-hurray-2#12nin-ver, note: 12 Members Ver.}
+      - {no: 3, recording: nijigasaki/hurray-hurray#12nin-ver, note: 12 Members Ver.}
       - {no: 4, recording: nijigasaki/eien-no-isshun#off-vocal}
       - {no: 5, recording: nijigasaki/our-p13ces#off-vocal}
-      - {no: 6, recording: nijigasaki/hurray-hurray-12nin-ver-off-vocal#off-vocal, note: 12 Members Ver.}
+      - {no: 6, recording: nijigasaki/hurray-hurray#12nin-ver-off-vocal, note: 12 Members Ver.}
 streaming:
   - browse_id: MPREb_4kuwrmH7mHc
     tracks:
@@ -28,8 +28,10 @@ legacy:
     - {title: 永遠の一瞬}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_4kuwrmH7mHc

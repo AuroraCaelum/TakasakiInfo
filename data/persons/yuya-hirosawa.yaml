@@ -21,8 +21,10 @@ evidence:
     checked: 2026-10-19
     note: 공식 음악 상품 페이지 크레딧 (二人はいつでも Happy End 편곡)
   names.rom:
-    status: legacy
-    source: migration:legacy
+    status: derived
+    source: https://namu.wiki/w/Pianoforte Monologue
+    checked: 2026-10-19
+    note: "§5.3 규칙. 읽기 ひろさわ ゆうや (나무위키 Pianoforte Monologue '히로사와 유야'). Fandom은 'Yuya Hirozawa', 나무위키 Arte Refact 문서는 '히로자와 유우야'. 사용자 결정 (2026-10-19, SRC-names): 유지"
   names.ko:
     status: established
     source: https://namu.wiki/w/Pianoforte Monologue

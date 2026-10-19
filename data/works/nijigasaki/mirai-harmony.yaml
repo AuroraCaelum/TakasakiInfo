@@ -16,12 +16,13 @@ recordings:
     performers:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
-      - {person: akira-sunset}
       - {person: ulala}
+      - {person: akira-sunset}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd12
+        checked: 2026-10-19
 evidence:
   credits:
     status: official
