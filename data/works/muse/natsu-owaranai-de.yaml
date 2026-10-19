@@ -1,0 +1,46 @@
+id: muse/natsu-owaranai-de
+project: muse
+title:
+  ja: 夏、終わらないで。
+  rom: Natsu, Owaranai de.
+  ko: 여름, 끝나지 말아 줘.
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夏、終わらないで。 (Off Vocal)
+      rom: Natsu, Owaranai de. (Off Vocal)
+      ko: 여름, 끝나지 말아 줘. (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    checked: 2026-10-20

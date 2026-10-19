@@ -1,0 +1,22 @@
+id: muse/if-everyone-were-to-select-swimsuits-together
+kind: drama
+project: muse
+title:
+  ja: みんなで水着を選んだら
+  rom: If Everyone Were To Select Swimsuits Together
+  ko: 다 같이 수영복을 고른다면
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: lily-white}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

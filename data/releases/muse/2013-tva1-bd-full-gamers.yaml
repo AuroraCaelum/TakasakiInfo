@@ -1,0 +1,37 @@
+id: muse/2013-tva1-bd-full-gamers
+type: bd_bonus
+title:
+  ja: TVA1 BD Full (Gamers)
+  rom: TVA1 BD Full (Gamers)
+  ko: TVA1 BD Full (Gamers)
+projects: [muse]
+artist_credit:
+  - {artist: printemps}
+release_date: 2013-09-25
+editions:
+  - id: e1
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/puwa-puwa-o#original}
+      - {no: 2, recording: muse/puwa-puwa-o#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00-gamers
+legacy:
+  category: Muse
+  albums:
+    - {title: TVA1 BD Full (Gamers)}
+evidence:
+  tracks:
+    status: established
+    source: https://love-live.fandom.com/wiki/Puwa_Puwa-O!
+    checked: 2026-10-20
+    note: '공식 미게재(Off Vocal): 곡명·가창은 공식 BD BOX 페이지 https://www.lovelive-anime.jp/otonokizaka/bd/, 매장·유닛은 BD 페이지 법인 특전(https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00). Fandom 곡 문서의 트랙 목록(곡·Off Vocal)'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00-gamers
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

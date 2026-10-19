@@ -1,0 +1,46 @@
+id: muse/happy-maker
+project: muse
+title:
+  ja: Happy maker!
+  rom: Happy maker!
+  ko: Happy maker!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: wataru-maeguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: wataru-maeguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Happy maker! (Off Vocal)
+      rom: Happy maker! (Off Vocal)
+      ko: Happy maker! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: wataru-maeguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    checked: 2026-10-20

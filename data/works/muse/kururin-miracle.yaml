@@ -1,0 +1,52 @@
+id: muse/kururin-miracle
+project: muse
+title:
+  ja: くるりんMIRACLE
+  rom: Kururin MIRACLE
+  ko: 빙그르르 MIRACLE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shintarou-mori}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd03
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=IxXymhpslG8
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: くるりんMIRACLE (Off Vocal)
+      rom: Kururin MIRACLE (Off Vocal)
+      ko: 빙그르르 MIRACLE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shintarou-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd03
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=IxXymhpslG8
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

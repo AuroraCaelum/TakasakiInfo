@@ -1,0 +1,46 @@
+id: muse/wao-wao-powerful-day
+project: muse
+title:
+  ja: WAO-WAO Powerful day!
+  rom: WAO-WAO Powerful day!
+  ko: WAO-WAO Powerful day!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: WAO-WAO Powerful day! (Off Vocal)
+      rom: WAO-WAO Powerful day! (Off Vocal)
+      ko: WAO-WAO Powerful day! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    checked: 2026-10-20

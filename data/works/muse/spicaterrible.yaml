@@ -1,0 +1,37 @@
+id: muse/spicaterrible
+project: muse
+title:
+  ja: スピカテリブル
+  rom: Spicaterrible
+  ko: 스피카 테러블
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: miki-fujisue}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: miki-fujisue}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=27LDRr3h33g
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=27LDRr3h33g
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

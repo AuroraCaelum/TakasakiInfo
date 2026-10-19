@@ -1,0 +1,46 @@
+id: muse/sayounara-e-sayonara
+project: muse
+title:
+  ja: さようならへさよなら！
+  rom: Sayounara e Sayonara!
+  ko: 안녕이라는 말에 안녕!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ken-masutani}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: ken-masutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: さようならへさよなら！ (Off Vocal)
+      rom: Sayounara e Sayonara! (Off Vocal)
+      ko: 안녕이라는 말에 안녕! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ken-masutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
+    checked: 2026-10-20

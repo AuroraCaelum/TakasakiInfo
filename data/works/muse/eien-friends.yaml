@@ -1,0 +1,46 @@
+id: muse/eien-friends
+project: muse
+title:
+  ja: 永遠フレンズ
+  rom: Eien Friends
+  ko: 영원 프렌즈
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tomohiro-nakatsuchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: tomohiro-nakatsuchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 永遠フレンズ (Off Vocal)
+      rom: Eien Friends (Off Vocal)
+      ko: 영원 프렌즈 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tomohiro-nakatsuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    checked: 2026-10-20

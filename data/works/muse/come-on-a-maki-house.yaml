@@ -1,0 +1,22 @@
+id: muse/come-on-a-maki-house
+kind: drama
+project: muse
+title:
+  ja: カモナ！ 真姫ハウス
+  rom: Come On A! Maki House
+  ko: 컴 온 어! 마키 하우스
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: printemps}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

@@ -1,0 +1,22 @@
+id: muse/to-be-by-your-side
+kind: drama
+project: muse
+title:
+  ja: あなたのもとへ
+  rom: To Be By Your Side
+  ko: 당신의 곁으로
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

@@ -1,0 +1,778 @@
+type: new-names
+project: muse
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: person
+    printed: 山田高弘
+    family_name:
+      ja: 山田
+      kana: やまだ
+      rom: Yamada
+      ko: 야마다
+    given_name:
+      ja: 高弘
+      kana: たかひろ
+      rom: Takahiro
+      ko: 타카히로
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. 읽기 やまだ たかひろ(위키백과) rom: 본인 공식 사이트 "山田高弘 / Takahiro Yamada" (Fandom도 같음), ko: 나무위키(僕らのLIVE 君とのLIFE·Snow halation·なってしまった！·LOVELESS WORLD 문서 야마다 타카히로) 외부 근거: http://yamadaman.jp/ https://ja.wikipedia.org/wiki/%E5%B1%B1%E7%94%B0%E9%AB%98%E5%BC%98 https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Composers_and_Arrangers'
+    used_in: ['僕らのLIVE 君とのLIFE: composer', 'Snow halation: composer', 'LOVELESS WORLD: composer', '愛してるばんざーい！: composer', 'なってしまった！: composer']
+    ref: person:takahiro-yamada
+  - kind: person
+    printed: Tron-LM
+    names:
+      ja: Tron-LM
+      rom: Tron-LM
+      ko: Tron-LM
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: ''
+    used_in: ['友情ノーチェンジ: composer', '友情ノーチェンジ: arranger']
+    ref: person:tron-lm
+  - kind: person
+    printed: 中西亮輔
+    family_name:
+      ja: 中西
+      kana: なかにし
+      rom: Nakanishi
+      ko: 나카니시
+    given_name:
+      ja: 亮輔
+      kana: りょうすけ
+      rom: Ryosuke
+      ko: 료스케
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. 읽기 なかにし りょうすけ(위키백과) rom: 소속사 아르타스(株式会社アルタス) 크리에이터 소개 "中西 亮輔 Ryosuke NAKANISHI" (대문자만 고침. Fandom은 Ryousuke Nakanishi), ko: 규칙 (나무위키가 Snow halation 문서 나카니시 료우스케, なってしまった！·μ’s/앨범 문서 나카니시 료스케로 엇갈려 D5대로 장음 생략한 쪽) 외부 근거: https://www.artus.co.jp/ https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%A5%BF%E4%BA%AE%E8%BC%94 https://namu.wiki/w/Snow%20halation https://namu.wiki/w/%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%EF%BC%81'
+    used_in: ['Snow halation: arranger', '微熱からMystery: arranger', 'なってしまった！: arranger']
+    ref: person:ryosuke-nakanishi
+  - kind: person
+    printed: 藤末 樹
+    family_name:
+      ja: 藤末
+      kana: ふじすえ
+      rom: Fujisue
+      ko: 후지스에
+    given_name:
+      ja: 樹
+      kana: みき
+      rom: Miki
+      ko: 미키
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    note: 'ja: 공식 페이지. 읽기 ふじすえ みき(위키백과) rom: 본인 공식 사이트 "藤末樹（Miki Fujisue）" (Fandom도 같음), ko: 나무위키(Love marginal 문서 후지스에 미키) 외부 근거: https://www.mikifujisue.com/ https://ja.wikipedia.org/wiki/%E8%97%A4%E6%9C%AB%E6%A8%B9 https://namu.wiki/w/Love%20marginal'
+    used_in: ['Love marginal: composer', 'Love marginal: arranger']
+    ref: person:miki-fujisue
+  - kind: person
+    printed: 松坂 康司
+    family_name:
+      ja: 松坂
+      rom: Matsuzaka
+      ko: 마츠자카
+    given_name:
+      ja: 康司
+      rom: Koji
+      ko: 코지
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom (Kōji Matsuzaka에서 마크론만 뺌, 인명 장음 생략 §5.3), ko: 나무위키(Love marginal 문서 마츠자카 코지) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/Love%20marginal'
+    used_in: ['Love marginal: arranger']
+    ref: person:koji-matsuzaka
+  - kind: person
+    printed: 吉田勝弥
+    family_name:
+      ja: 吉田
+      rom: Yoshida
+      ko: 요시다
+    given_name:
+      ja: 勝弥
+      rom: Katsuya
+      ko: 카츠야
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    note: 'ja: 공식 페이지. 읽기 미확인 (Fandom이 출처로 든 소속사 페이지 globe-eb.com은 404) rom: Fandom, ko: 나무위키(ダイヤモンドプリンセスの憂鬱 문서 요시다 카츠야) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%81%AE%E6%86%82%E9%AC%B1'
+    used_in: ['ダイヤモンドプリンセスの憂鬱: composer']
+    ref: person:katsuya-yoshida
+  - kind: person
+    printed: 星 和生
+    family_name:
+      ja: 星
+      rom: Hoshi
+      ko: 호시
+    given_name:
+      ja: 和生
+      rom: Kazuo
+      ko: 카즈오
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom, ko: 나무위키(知らないLove*教えてLove 문서 호시 카즈오) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84Love%2A%E6%95%99%E3%81%88%E3%81%A6Love'
+    used_in: ['知らないLove＊教えてLove: composer']
+    ref: person:kazuo-hoshi
+  - kind: person
+    printed: 福富雅之
+    family_name:
+      ja: 福富
+      kana: ふくとみ
+      rom: Fukutomi
+      ko: 후쿠토미
+    given_name:
+      ja: 雅之
+      kana: まさゆき
+      rom: Masayuki
+      ko: 마사유키
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. 읽기 ふくとみ まさゆき(위키백과) rom: Fandom (본인 Facebook 주소 masayuki.fukutomi와도 같음), ko: 나무위키(知らないLove*教えてLove 문서 후쿠토미 마사유키) 외부 근거: https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%AF%8C%E9%9B%85%E4%B9%8B https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84Love%2A%E6%95%99%E3%81%88%E3%81%A6Love'
+    used_in: ['知らないLove＊教えてLove: arranger']
+    ref: person:masayuki-fukutomi
+  - kind: person
+    printed: 青木多果
+    family_name:
+      ja: 青木
+      rom: Aoki
+      ko: 아오키
+    given_name:
+      ja: 多果
+      rom: Taka
+      ko: 타카
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. 읽기 미확인 (Fandom이 출처로 든 본인 사이트 aokitaka.com은 현재 접속 불가) rom: Fandom, ko: 나무위키(あ・の・ね・が・ん・ば・れ！ 문서 아오키 타카) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E3%81%82%E3%83%BB%E3%81%AE%E3%83%BB%E3%81%AD%E3%83%BB%E3%81%8C%E3%83%BB%E3%82%93%E3%83%BB%E3%81%B0%E3%83%BB%E3%82%8C%EF%BC%81'
+    used_in: ['あ・の・ね・が・ん・ば・れ！: composer', 'あ・の・ね・が・ん・ば・れ！: arranger']
+    ref: person:taka-aoki
+  - kind: person
+    printed: 近藤 昭雄
+    family_name:
+      ja: 近藤
+      kana: こんどう
+      rom: Kondo
+      ko: 콘도
+    given_name:
+      ja: 昭雄
+      kana: あきお
+      rom: Akio
+      ko: 아키오
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. 읽기 こんどう あきお(위키백과) rom: 규칙 (Fandom은 夏色えがおで1,2,Jump! 작곡을 奥松誠 Makoto Okumatsu로 적어 이 사람의 표기가 없음. 공식 cd06과 나무위키는 近藤 昭雄. 본인 라틴 표기는 못 찾음), ko: 나무위키(夏色えがおで1,2,Jump！ 싱글 문서 콘도 아키오) 외부 근거: https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E6%98%AD%E9%9B%84 https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in: ['夏色えがおで1,2,Jump!: composer']
+    ref: person:akio-kondo
+  - kind: person
+    printed: 俊龍
+    names:
+      ja: 俊龍
+      kana: しゅんりゅう
+      rom: Shunryu
+      ko: 슌류
+    name_parts: 활동명(한 단어)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. 읽기 しゅんりゅう(업무 제휴 소속사 하트컴퍼니 프로필 "（読み：しゅんりゅう）", 위키백과도 같음) rom: Fandom, ko: 나무위키(Mermaid festa vol.1 문서 슌류. 夏色えがおで1,2,Jump！ 싱글 문서는 성·이름처럼 끊어 "슌 류우 (俊 龍)"로 적어 쓰지 않음) 외부 근거: https://heart-company.co.jp/creator_producer/shunryu/ https://namu.wiki/w/Mermaid%20festa%20vol.1 https://love-live.fandom.com/wiki/Composers_and_Arrangers'
+    used_in: ['Mermaid festa vol.1: composer']
+    ref: person:shunryu
+  - kind: person
+    printed: 松井 望
+    family_name:
+      ja: 松井
+      kana: まつい
+      rom: Matsui
+      ko: 마츠이
+    given_name:
+      ja: 望
+      kana: のぞむ
+      rom: Nozomu
+      ko: 노조무
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지. 읽기 まつい のぞむ(위키백과) rom: Fandom, ko: 나무위키(Mermaid festa vol.2 ~Passionate~ 문서 마츠이 노조무) 외부 근거: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E6%9C%9B https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/Mermaid%20festa%20vol.2%20~Passionate~'
+    used_in: ['Mermaid festa vol.2 ～Passionate～: arranger']
+    ref: person:nozomu-matsui
+  - kind: person
+    printed: 八重樫ゆう一
+    family_name:
+      ja: 八重樫
+      kana: やえがし
+      rom: Yaegashi
+      ko: 야에가시
+    given_name:
+      ja: ゆう一
+      kana: ゆういち
+      rom: Yuuichi
+      ko: 유이치
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지(이름에 가나가 섞여 붙여 씀, D28). 읽기 やえがし ゆういち(위키백과. 본명 八重樫 勇一, 읽기 같음) rom: Fandom (Yuuichi Yaegashi, 장음 uu 포함. D38에 따라 규칙값 Yuichi보다 우선. 본인 라틴 표기는 못 찾음), ko: 나무위키(Someday of my life 문서 야에가시 유이치) 외부 근거: https://ja.wikipedia.org/wiki/%E5%85%AB%E9%87%8D%E6%A8%AB%E3%82%86%E3%81%86%E4%B8%80 https://love-live.fandom.com/wiki/Someday_of_my_life https://namu.wiki/w/Someday%20of%20my%20life'
+    used_in: ['Someday of my life: composer', 'Someday of my life: arranger']
+    ref: person:yuuichi-yaegashi
+  - kind: person
+    printed: 須田真吾
+    family_name:
+      ja: 須田
+      rom: Suda
+      ko: 스다
+    given_name:
+      ja: 真吾
+      rom: Shingo
+      ko: 신고
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom, ko: 나무위키(恋のシグナルRin rin rin! 문서 스다 신고) 외부 근거: https://love-live.fandom.com/wiki/Koi_no_Signal_Rin_rin_rin! https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%ABRin%20rin%20rin%21'
+    used_in: ['恋のシグナルRin rin rin!: composer']
+    ref: person:shingo-suda
+  - kind: person
+    printed: 安藤高弘
+    family_name:
+      ja: 安藤
+      kana: あんどう
+      rom: Ando
+      ko: 안도
+    given_name:
+      ja: 高弘
+      kana: たかひろ
+      rom: Takahiro
+      ko: 타카히로
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지. 읽기 あんどう たかひろ(위키백과) rom: Fandom (Takahiro Andō에서 마크론만 뺌, 인명 장음 생략 §5.3. 소속사 act waii 사이트에 라틴 표기 없음), ko: 나무위키(恋のシグナルRin rin rin! 문서 안도 타카히로) 외부 근거: https://ja.wikipedia.org/wiki/%E5%AE%89%E8%97%A4%E9%AB%98%E5%BC%98 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%ABRin%20rin%20rin%21'
+    used_in: ['恋のシグナルRin rin rin!: arranger']
+    ref: person:takahiro-ando
+  - kind: person
+    printed: 佐々木 裕
+    family_name:
+      ja: 佐々木
+      rom: Sasaki
+      ko: 사사키
+    given_name:
+      ja: 裕
+      rom: Hiroshi
+      ko: 히로시
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    note: 'ja: 공식 페이지 (공식 사이트는 佐々木裕로 붙여 쓴 곳이 더 많음. 소속사 프로필은 佐々木 裕). 읽기 미기재(소속사 프로필은 라틴 표기만) rom: 소속사 스마일컴퍼니 프로필 "HIROSHI SASAKI" (대문자만 고침. Fandom도 같음), ko: 나무위키(乙女式れんあい塾·微熱からMystery·どんなときもずっと·Cutie Panther 문서 사사키 히로시) 외부 근거: https://www.smile-co.jp/archives/creator/425 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/Cutie%20Panther'
+    used_in:
+      - '乙女式れんあい塾: composer'
+      - '乙女式れんあい塾: arranger'
+      - 'START:DASH!!: composer'
+      - 'START:DASH!!: arranger'
+      - '微熱からMystery: composer'
+      - '微熱からMystery: arranger'
+      - 'Cutie Panther: composer'
+      - 'Cutie Panther: arranger'
+      - 'どんなときもずっと: composer'
+      - 'どんなときもずっと: arranger'
+      - 'ふたりハピネス: composer'
+      - 'ふたりハピネス: arranger'
+      - 'WAO-WAO Powerful day!: composer'
+      - 'WAO-WAO Powerful day!: arranger'
+      - '春情ロマンティック: composer'
+      - '春情ロマンティック: arranger'
+    ref: person:hiroshi-sasaki
+  - kind: person
+    printed: 若林 充
+    family_name:
+      ja: 若林
+      kana: わかばやし
+      rom: Wakabayashi
+      ko: 와카바야시
+    given_name:
+      ja: 充
+      kana: みつる
+      rom: Mitsuru
+      ko: 미츠루
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. 읽기 わかばやし みつる(위키백과) rom: Fandom, ko: 나무위키(告白日和、です！·soldier game 문서 와카바야시 미츠루) 외부 근거: https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9E%97%E5%85%85 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/soldier%20game'
+    used_in: ['告白日和、です！: composer', '告白日和、です！: arranger', 'soldier game: composer', 'soldier game: arranger']
+    ref: person:mitsuru-wakabayashi
+  - kind: person
+    printed: 増田達行
+    family_name:
+      ja: 増田
+      rom: Masuda
+      ko: 마스다
+    given_name:
+      ja: 達行
+      rom: Tatsuyuki
+      ko: 타츠유키
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom (본인 X 계정 tatsuyuk1과도 맞음), ko: 나무위키(ぶる~べりぃ♥とれいん·もぎゅっと“love”で接近中！ 문서 마스다 타츠유키) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E3%81%B6%E3%82%8B~%E3%81%B9%E3%82%8A%E3%81%83%E2%99%A5%E3%81%A8%E3%82%8C%E3%81%84%E3%82%93'
+    used_in: ['ぶる～べりぃ♥とれいん: composer', 'もぎゅっと"love"で接近中！: composer']
+    ref: person:tatsuyuki-masuda
+  - kind: person
+    printed: 三浦誠司
+    family_name:
+      ja: 三浦
+      kana: みうら
+      rom: Miura
+      ko: 미우라
+    given_name:
+      ja: 誠司
+      kana: せいじ
+      rom: Seiji
+      ko: 세이지
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. 읽기 みうら せいじ(위키백과) rom: Fandom (본인 블로그 ID seijimiura와도 맞음), ko: 나무위키(ぶる~べりぃ♥とれいん 문서 미우라 세이지) 외부 근거: https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B5%A6%E8%AA%A0%E5%8F%B8 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E3%81%B6%E3%82%8B~%E3%81%B9%E3%82%8A%E3%81%83%E2%99%A5%E3%81%A8%E3%82%8C%E3%81%84%E3%82%93'
+    used_in: ['ぶる～べりぃ♥とれいん: arranger']
+    ref: person:seiji-miura
+  - kind: person
+    printed: 近藤圭一
+    family_name:
+      ja: 近藤
+      kana: こんどう
+      rom: Kondo
+      ko: 콘도
+    given_name:
+      ja: 圭一
+      kana: けいいち
+      rom: Keiichi
+      ko: 케이이치
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: 'ja: 공식 페이지. 읽기 こんどう けいいち(위키백과) rom: 본인 공식 사이트 "近藤圭一（Keiichi Kondo）" (Fandom Keiichi Kondou보다 우선), ko: 나무위키(Daring!! 문서 콘도 케이이치) 외부 근거: https://keiichikondo.wixsite.com/keiichikondowebsite https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E5%9C%AD%E4%B8%80 https://namu.wiki/w/Daring%21%21'
+    used_in: ['Daring!!: composer', 'Daring!!: arranger']
+    ref: person:keiichi-kondo
+  - kind: person
+    printed: 増谷 賢
+    family_name:
+      ja: 増谷
+      rom: Masutani
+      ko: 마스타니
+    given_name:
+      ja: 賢
+      rom: Ken
+      ko: 켄
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom, ko: 나무위키(勇気のReason·さようならへさよなら！ 문서 마스타니 켄) 외부 근거: https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E5%8B%87%E6%B0%97%E3%81%AEReason'
+    used_in: ['勇気のReason: composer', '勇気のReason: arranger', 'さようならへさよなら！: composer', 'さようならへさよなら！: arranger']
+    ref: person:ken-masutani
+  - kind: person
+    printed: 森慎太郎
+    family_name:
+      ja: 森
+      kana: もり
+      rom: Mori
+      ko: 모리
+    given_name:
+      ja: 慎太郎
+      kana: しんたろう
+      rom: Shintarou
+      ko: 신타로
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    note: 'ja: 공식 페이지. 읽기 もり しんたろう(위키백과) rom: Fandom (Shintarou Mori, 장음 ou 포함. D38에 따라 규칙값 Shintaro보다 우선. 대표로 있는 민트포레스트(株式会社ミントフォレスト) 사이트에 라틴 표기 없음), ko: 나무위키(僕らは今のなかで·Love wing bell·Angelic Angel·PSYCHIC FIRE 문서 모리 신타로) 외부 근거: https://ja.wikipedia.org/wiki/%E6%A3%AE%E6%85%8E%E5%A4%AA%E9%83%8E http://mint-forest.co.jp/creator https://love-live.fandom.com/wiki/Love_wing_bell https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AF%E4%BB%8A%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7'
+    used_in:
+      - '僕らは今のなかで: composer'
+      - '僕らは今のなかで: arranger'
+      - 'Love wing bell: composer'
+      - 'Love wing bell: arranger'
+      - 'Angelic Angel: composer'
+      - 'PSYCHIC FIRE: composer'
+      - 'PSYCHIC FIRE: arranger'
+    ref: person:shintarou-mori
+  - kind: person
+    printed: yozuca*
+    names:
+      ja: yozuca*
+      rom: yozuca*
+      ko: yozuca*
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    note: ''
+    used_in: ['これからのSomeday: composer']
+    ref: person:yozuca
+  - kind: person
+    printed: lotta
+    names:
+      ja: lotta
+      rom: lotta
+      ko: lotta
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    note: ''
+    used_in: ['これからのSomeday: arranger']
+    ref: person:lotta
+  - kind: person
+    printed: 杉森 舞
+    family_name:
+      ja: 杉森
+      rom: Sugimori
+      ko: 스기모리
+    given_name:
+      ja: 舞
+      rom: Mai
+      ko: 마이
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+    note: 'ja: 공식 페이지. 현재 작가명은 杉森 夕栞(すぎもり ゆうり)이고 杉森 舞는 옛 작가명(위키백과. Studio☆BooBee 명의로도 활동). 정규 표기(§5.2 ①)를 현재 이름으로 바꿀지 확인 필요. 옛 이름 舞의 읽기는 출처가 없어 kana 비움 rom: Fandom (Mai Sugimori), ko: 나무위키(キミのくせに！ 문서 스기모리 마이) 외부 근거: https://ja.wikipedia.org/wiki/%E6%9D%89%E6%A3%AE%E5%A4%95%E6%A0%9E https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/%E3%82%AD%E3%83%9F%E3%81%AE%E3%81%8F%E3%81%9B%E3%81%AB%EF%BC%81'
+    used_in: ['キミのくせに！: composer', 'キミのくせに!: composer']
+    ref: person:mai-sugimori
+  - kind: person
+    printed: A-bee
+    names:
+      ja: A-bee
+      rom: A-bee
+      ko: A-bee
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    note: ''
+    used_in: ['もぎゅっと"love"で接近中！: arranger']
+    ref: person:a-bee
+  - kind: person
+    printed: 清水哲平
+    family_name:
+      ja: 清水
+      kana: しみず
+      rom: Shimizu
+      ko: 시미즈
+    given_name:
+      ja: 哲平
+      kana: てっぺい
+      rom: Teppei
+      ko: 텟페이
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    note: 'ja: 공식 페이지. 읽기 しみず てっぺい(위키백과) rom: 소속사 스마일컴퍼니 크리에이터 목록 "TEPPEI SHIMIZU 清水哲平" (대문자만 고침. Fandom도 같음), ko: 나무위키(愛してるばんざーい！·SENTIMENTAL StepS 문서 시미즈 텟페이) 외부 근거: https://www.smile-co.jp/archives/creator/427 https://ja.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E5%93%B2%E5%B9%B3 https://namu.wiki/w/SENTIMENTAL%20StepS'
+    used_in: ['愛してるばんざーい！: arranger', 'SENTIMENTAL StepS: arranger']
+    ref: person:teppei-shimizu
+  - kind: person
+    printed: 河原嶺旭
+    family_name:
+      ja: 河原
+      kana: かわはら
+      rom: Kawahara
+      ko: 카와하라
+    given_name:
+      ja: 嶺旭
+      kana: みねあき
+      rom: Mineaki
+      ko: 미네아키
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+    note: 'ja: 공식 페이지. 읽기 かわはら みねあき(위키백과) rom: Fandom (본인 X 계정 MINEAKIKAWAHARA와도 맞음), ko: 나무위키(Listen to my heart!! 문서 카와하라 미네아키) 외부 근거: https://ja.wikipedia.org/wiki/%E6%B2%B3%E5%8E%9F%E5%B6%BA%E6%97%AD https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/Listen%20to%20my%20heart%21%21'
+    used_in: ['Listen to my heart!!: composer', 'Listen to my heart!!: arranger']
+    ref: person:mineaki-kawahara
+  - kind: person
+    printed: 長谷泰宏
+    family_name:
+      ja: 長谷
+      kana: はせ
+      rom: Hase
+      ko: 하세
+    given_name:
+      ja: 泰宏
+      kana: やすひろ
+      rom: Yasuhiro
+      ko: 야스히로
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    note: 'ja: 공식 페이지. 읽기 はせ やすひろ(위키백과) rom: 본인 유닛 ユメトコスメ 공식 사이트 "Yasuhiro Hase" (Fandom도 같음), ko: 규칙 (나무위키 미게재. どんなときもずっと 문서에 현악 편곡 크레딧 없음) 외부 근거: http://www.yumetocosme.com/site/home.html https://ja.wikipedia.org/wiki/%E9%95%B7%E8%B0%B7%E6%B3%B0%E5%AE%8F https://love-live.fandom.com/wiki/Composers_and_Arrangers'
+    used_in: ['どんなときもずっと: strings_arranger']
+    ref: person:yasuhiro-hase
+  - kind: person
+    printed: 高阪昌至
+    family_name:
+      ja: 高阪
+      kana: たかさか
+      rom: Takasaka
+      ko: 타카사카
+    given_name:
+      ja: 昌至
+      kana: まさよし
+      rom: Masayoshi
+      ko: 마사요시
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
+    note: 'ja: 공식 페이지. 읽기 たかさか まさよし(위키백과) rom: Fandom, ko: 나무위키(SENTIMENTAL StepS 문서 타카사카 마사요시) 외부 근거: https://ja.wikipedia.org/wiki/%E9%AB%98%E9%98%AA%E6%98%8C%E8%87%B3 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/SENTIMENTAL%20StepS'
+    used_in: ['SENTIMENTAL StepS: composer']
+    ref: person:masayoshi-takasaka
+  - kind: person
+    printed: 谷島 俊
+    family_name:
+      ja: 谷島
+      rom: Tanishima
+      ko: 타니시마
+    given_name:
+      ja: 俊
+      rom: Shun
+      ko: 슌
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    note: 'ja: 공식 페이지. 읽기 たにしま しゅん으로 보이나 공식 후리가나가 없어 kana 비움 (본인 SoundBetter 프로필 라틴 표기 Tanishima SHUN(AstroNoteS). 위키백과 AstroNoteS 문서는 谷島シュン 명의로 적음. 谷島シュン·AstroNoteS는 data에 없음) rom: 본인 표기 (대문자만 고침, 순서는 D4. Fandom 미게재), ko: 나무위키(μ’s/앨범 문서 리믹서 타니시마 슌) 외부 근거: https://www.soundbetter.com/profiles/652458-astronotes https://ja.wikipedia.org/wiki/AstroNoteS https://namu.wiki/w/%CE%BC%E2%80%99s%2F%EC%95%A8%EB%B2%94'
+    used_in: ['僕らは今のなかで: arranger']
+    ref: person:shun-tanishima
+  - kind: person
+    printed: Adoriano Spinesi
+    names:
+      ja: Adoriano Spinesi
+      rom: Adoriano Spinesi
+      ko: Adoriano Spinesi
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    note: ''
+    used_in: ['No brand girls: arranger']
+    ref: person:adoriano-spinesi
+  - kind: person
+    printed: 関野元規
+    family_name:
+      ja: 関野
+      kana: せきの
+      rom: Sekino
+      ko: 세키노
+    given_name:
+      ja: 元規
+      kana: もとき
+      rom: Motoki
+      ko: 모토키
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    note: 'ja: 공식 페이지. 읽기 せきの もとき(위키백과) rom: 소속사 HAOKK 프로필 "関野 元規 （Motoki Sekino）" (Fandom 미게재), ko: 나무위키(μ’s/앨범 문서 리믹서 세키노 모토키) 외부 근거: https://www.haokk-inc.com/motoki-sekino.html https://ja.wikipedia.org/wiki/%E9%96%A2%E9%87%8E%E5%85%83%E8%A6%8F https://namu.wiki/w/%CE%BC%E2%80%99s%2F%EC%95%A8%EB%B2%94'
+    used_in: ['Pure girls project: arranger']
+    ref: person:motoki-sekino
+  - kind: person
+    printed: 高橋 諒
+    family_name:
+      ja: 高橋
+      kana: たかはし
+      rom: Takahashi
+      ko: 타카하시
+    given_name:
+      ja: 諒
+      kana: りょう
+      rom: Ryo
+      ko: 료
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    note: 'ja: 공식 페이지. 읽기 たかはし りょう(위키백과 高橋諒 (音楽家)) rom: 소속사 아르타스(株式会社アルタス) 크리에이터 소개 "高橋 諒 Ryo TAKAHASHI a.k.a. Void_Chords" (대문자만 고침. Fandom 미게재), ko: 나무위키(μ’s/앨범 문서 리믹서 타카하시 료). Void_Chords 명의로도 활동(data에 없음) 외부 근거: https://www.artus.co.jp/ https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E8%AB%92_%28%E9%9F%B3%E6%A5%BD%E5%AE%B6%29 https://namu.wiki/w/%CE%BC%E2%80%99s%2F%EC%95%A8%EB%B2%94'
+    used_in: ['Cutie Panther: arranger']
+    ref: person:ryo-takahashi
+  - kind: person
+    printed: ZAQ
+    names:
+      ja: ZAQ
+      rom: ZAQ
+      ko: ZAQ
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    note: ''
+    used_in: ['僕たちはひとつの光: composer']
+    ref: person:zaq
+  - kind: person
+    printed: 西岡和哉
+    family_name:
+      ja: 西岡
+      kana: にしおか
+      rom: Nishioka
+      ko: 니시오카
+    given_name:
+      ja: 和哉
+      kana: かずや
+      rom: Kazuya
+      ko: 카즈야
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    note: 'ja: 공식 페이지. 읽기 にしおか かずや(위키백과 동명이인 목록 "西岡和哉 (作曲家) - ポップホリック所属の作曲家") rom: Fandom (본인 X 계정 KazuyaNishioka와도 맞음), ko: 나무위키(HEART to HEART! 문서 니시오카 카즈야) 외부 근거: https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%B2%A1%E5%92%8C%E5%93%89 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/HEART%20to%20HEART%21'
+    used_in: ['HEART to HEART!: composer', 'HEART to HEART!: arranger']
+    ref: person:kazuya-nishioka
+  - kind: person
+    printed: 酒井陽一
+    family_name:
+      ja: 酒井
+      kana: さかい
+      rom: Sakai
+      ko: 사카이
+    given_name:
+      ja: 陽一
+      kana: よういち
+      rom: Yoichi
+      ko: 요이치
+    names:
+      ja: ''
+      rom: ''
+      ko: ''
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    note: 'ja: 공식 페이지. 읽기 さかい よういち(위키백과) rom: 본인 공식 사이트 "YOICHI SAKAI 25 YEARS SONGBOOK"·소속사 HAOKK 크리에이터 목록 "Yoichi Sakai" (Fandom도 같음), ko: 나무위키(嵐のなかの恋だから·思い出以上になりたくて 문서 사카이 요이치) 외부 근거: http://www.ystimes.net/ https://ja.wikipedia.org/wiki/%E9%85%92%E4%BA%95%E9%99%BD%E4%B8%80 https://namu.wiki/w/%E5%B5%90%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%AE%E6%81%8B%E3%81%A0%E3%81%8B%E3%82%89'
+    used_in: ['嵐のなかの恋だから: composer', '嵐のなかの恋だから: arranger', '思い出以上になりたくて: arranger']
+    ref: person:yoichi-sakai
+  - kind: person
+    printed: rino
+    names:
+      ja: rino
+      rom: rino
+      ko: rino
+    native_script: latin
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+    note: ''
+    used_in: ['思い出以上になりたくて: composer']
+    ref: person:rino
+  - kind: person
+    name_parts: 유닛 크레딧(伊藤真澄·ミト·松井洋平, 나무위키·Fandom)
+    names:
+      ja: TO-MAS SOUNDSIGHT FLUORESCENT FOREST
+      ko: TO-MAS SOUNDSIGHT FLUORESCENT FOREST
+      rom: TO-MAS SOUNDSIGHT FLUORESCENT FOREST
+    native_script: latin
+    note: 공식 사이트 미게재(극장판 BD 특전 곡 「これから」 편곡). 레이블 배포 메타데이터의 표기
+    printed: TO-MAS SOUNDSIGHT FLUORESCENT FOREST
+    source: https://music.youtube.com/watch?v=QDt9ttnZuQ8
+    status: official
+    ref: person:to-mas-soundsight-fluorescent-forest
+    used_in: []
+  - family_name:
+      ja: 森谷
+      ko: 모리야
+      rom: Moriya
+    given_name:
+      ja: 敏紀
+      ko: 토시노리
+      rom: Toshinori
+    kind: person
+    note: "공식 사이트 미게재(BD 특전 곡 「もしもからきっと」 편곡). ja: Fandom·나무위키의 한자 표기, rom: 레이블 배포 메타데이터 'Toshinori Moriya'(Fandom도 같음), ko: 나무위키. 읽기는 공식 후리가나 없음"
+    printed: 森谷敏紀
+    source: https://music.youtube.com/watch?v=Udqcpbt7TGw
+    status: established
+    ref: person:toshinori-moriya
+    used_in: []
+  - family_name:
+      ja: 藤田
+      ko: 후지타
+      rom: Fujita
+    given_name:
+      ja: 宜久
+      ko: 요시히사
+      rom: Yoshihisa
+    kind: person
+    note: "공식 사이트 미게재(BD 특전 곡 「なわとび」 편곡). ja: Fandom·나무위키의 한자 표기, rom: 레이블 배포 메타데이터 'Yoshihisa Fujita'(Fandom도 같음), ko: 나무위키 「なわとび」. 읽기는 공식 후리가나 없음"
+    printed: 藤田宜久
+    source: https://music.youtube.com/watch?v=gQkBk9FUUo8
+    status: established
+    ref: person:yoshihisa-fujita
+    used_in: []

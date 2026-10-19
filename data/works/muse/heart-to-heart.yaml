@@ -1,0 +1,46 @@
+id: muse/heart-to-heart
+project: muse
+title:
+  ja: HEART to HEART!
+  rom: HEART to HEART!
+  ko: HEART to HEART!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazuya-nishioka}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kazuya-nishioka}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: HEART to HEART! (Off Vocal)
+      rom: HEART to HEART! (Off Vocal)
+      ko: HEART to HEART! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazuya-nishioka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    checked: 2026-10-20

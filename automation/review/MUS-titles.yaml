@@ -1,0 +1,2377 @@
+type: new-names
+project: muse
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: work
+    printed: 僕らのLIVE 君とのLIFE
+    title:
+      ja: 僕らのLIVE 君とのLIFE
+      rom: Bokura no LIVE Kimi to no LIFE
+      ko: 우리의 LIVE 너와의 LIFE
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 우리들의 LIVE 너와의 LIFE) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE%28%EA%B3%A1%29 https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in:
+      - 'release.php#cd01 #1'
+      - 'release.php#cd01 #3'
+      - 'release.php#cd07 #2'
+      - 'release.php#cd08 #2'
+      - 'release.php#cd09 #3'
+      - 'release.php#cd18 #1-1'
+      - 'release.php#cd86 #1'
+      - 'release.php#cd86 #3'
+    ref: work:muse/bokura-no-live-kimi-to-no-life
+  - kind: work
+    printed: 友情ノーチェンジ
+    title:
+      ja: 友情ノーチェンジ
+      rom: Yuujou No Change
+      ko: 우정 노 체인지
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%8F%8B%E6%83%85%E3%83%8E%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8 https://love-live.fandom.com/wiki/Yuujou_No_Change'
+    used_in:
+      - 'release.php#cd01 #2'
+      - 'release.php#cd01 #4'
+      - 'release.php#cd07 #3'
+      - 'release.php#cd08 #3'
+      - 'release.php#cd09 #4'
+      - 'release.php#cd18 #1-2'
+      - 'release.php#cd86 #2'
+      - 'release.php#cd86 #4'
+    ref: work:muse/yuujou-no-change
+  - kind: work
+    printed: はじめまして -高坂穂乃果-
+    title:
+      ja: はじめまして -高坂穂乃果-
+      rom: Nice to meet you -Honoka Kosaka-
+      ko: 처음 뵙겠습니다 -코사카 호노카-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #5']
+    ref: work:muse/nice-to-meet-you-honoka-kosaka
+  - kind: work
+    printed: はじめまして -絢瀬絵里-
+    title:
+      ja: はじめまして -絢瀬絵里-
+      rom: Nice to meet you -Eli Ayase-
+      ko: 처음 뵙겠습니다 -아야세 에리-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #6']
+    ref: work:muse/nice-to-meet-you-eli-ayase
+  - kind: work
+    printed: はじめまして -南ことり-
+    title:
+      ja: はじめまして -南ことり-
+      rom: Nice to meet you -Kotori Minami-
+      ko: 처음 뵙겠습니다 -미나미 코토리-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #7']
+    ref: work:muse/nice-to-meet-you-kotori-minami
+  - kind: work
+    printed: はじめまして -園田海未-
+    title:
+      ja: はじめまして -園田海未-
+      rom: Nice to meet you -Umi Sonoda-
+      ko: 처음 뵙겠습니다 -소노다 우미-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #8']
+    ref: work:muse/nice-to-meet-you-umi-sonoda
+  - kind: work
+    printed: はじめまして -星空 凛-
+    title:
+      ja: はじめまして -星空 凛-
+      rom: Nice to meet you -Rin Hoshizora-
+      ko: 처음 뵙겠습니다 -호시조라 린-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #9']
+    ref: work:muse/nice-to-meet-you-rin-hoshizora
+  - kind: work
+    printed: はじめまして -西木野真姫-
+    title:
+      ja: はじめまして -西木野真姫-
+      rom: Nice to meet you -Maki Nishikino-
+      ko: 처음 뵙겠습니다 -니시키노 마키-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #10']
+    ref: work:muse/nice-to-meet-you-maki-nishikino
+  - kind: work
+    printed: はじめまして -東條 希-
+    title:
+      ja: はじめまして -東條 希-
+      rom: Nice to meet you -Nozomi Tojo-
+      ko: 처음 뵙겠습니다 -토죠 노조미-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #11']
+    ref: work:muse/nice-to-meet-you-nozomi-tojo
+  - kind: work
+    printed: はじめまして -小泉花陽-
+    title:
+      ja: はじめまして -小泉花陽-
+      rom: Nice to meet you -Hanayo Koizumi-
+      ko: 처음 뵙겠습니다 -코이즈미 하나요-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #12']
+    ref: work:muse/nice-to-meet-you-hanayo-koizumi
+  - kind: work
+    printed: はじめまして -矢澤にこ-
+    title:
+      ja: はじめまして -矢澤にこ-
+      rom: Nice to meet you -Nico Yazawa-
+      ko: 처음 뵙겠습니다 -야자와 니코-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Bokura no LIVE Kimi to no LIFE 문서 트랙 리스트의 lit. 표기 Nice to meet you-<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)으로 바꾸고 인쇄 표기처럼 - 앞에 공백), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AELIVE%20%E5%90%9B%E3%81%A8%E3%81%AELIFE https://love-live.fandom.com/wiki/Bokura_no_LIVE_Kimi_to_no_LIFE'
+    used_in: ['release.php#cd01 #13']
+    ref: work:muse/nice-to-meet-you-nico-yazawa
+  - kind: work
+    printed: Snow halation
+    title:
+      ja: Snow halation
+      rom: Snow halation
+      ko: Snow halation
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: ''
+    used_in:
+      - 'release.php#cd02 #1'
+      - 'release.php#cd02 #3'
+      - 'release.php#cd07 #4'
+      - 'release.php#cd08 #4'
+      - 'release.php#cd09 #5'
+      - 'release.php#cd18 #1-3'
+      - 'release.php#cd87 #1'
+      - 'release.php#cd87 #3'
+    ref: work:muse/snow-halation
+  - kind: work
+    printed: baby maybe 恋のボタン
+    title:
+      ja: baby maybe 恋のボタン
+      rom: baby maybe Koi no Button
+      ko: baby maybe 사랑의 버튼
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom(문서 첫머리 표기. 문서 제목은 첫 글자만 대문자), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/baby%20maybe%20%E6%81%8B%E3%81%AE%E3%83%9C%E3%82%BF%E3%83%B3 https://love-live.fandom.com/wiki/Baby_maybe_Koi_no_Button'
+    used_in:
+      - 'release.php#cd02 #2'
+      - 'release.php#cd02 #4'
+      - 'release.php#cd07 #5'
+      - 'release.php#cd08 #5'
+      - 'release.php#cd09 #6'
+      - 'release.php#cd18 #1-4'
+      - 'release.php#cd87 #2'
+      - 'release.php#cd87 #4'
+    ref: work:muse/baby-maybe-koi-no-button
+  - kind: work
+    printed: 聖夜の女の子たち。…まだ明るいけど
+    title:
+      ja: 聖夜の女の子たち。…まだ明るいけど
+      rom: The Girls On Christmas Eve... Though It's Still Daytime
+      ko: 크리스마스 이브의 소녀들. …아직 밝지만
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 그대로), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #5']
+    ref: work:muse/the-girls-on-christmas-eve-though-it-s-still-daytime
+  - kind: work
+    printed: あなたとクリスマス -高坂穂乃果-
+    title:
+      ja: あなたとクリスマス -高坂穂乃果-
+      rom: Christmas With You -Honoka Kosaka-
+      ko: 당신과 크리스마스 -코사카 호노카-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #6']
+    ref: work:muse/christmas-with-you-honoka-kosaka
+  - kind: work
+    printed: あなたとクリスマス -絢瀬絵里-
+    title:
+      ja: あなたとクリスマス -絢瀬絵里-
+      rom: Christmas With You -Eli Ayase-
+      ko: 당신과 크리스마스 -아야세 에리-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #7']
+    ref: work:muse/christmas-with-you-eli-ayase
+  - kind: work
+    printed: あなたとクリスマス -南ことり-
+    title:
+      ja: あなたとクリスマス -南ことり-
+      rom: Christmas With You -Kotori Minami-
+      ko: 당신과 크리스마스 -미나미 코토리-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #8']
+    ref: work:muse/christmas-with-you-kotori-minami
+  - kind: work
+    printed: あなたとクリスマス -園田海未-
+    title:
+      ja: あなたとクリスマス -園田海未-
+      rom: Christmas With You -Umi Sonoda-
+      ko: 당신과 크리스마스 -소노다 우미-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #9']
+    ref: work:muse/christmas-with-you-umi-sonoda
+  - kind: work
+    printed: あなたとクリスマス -星空 凛-
+    title:
+      ja: あなたとクリスマス -星空 凛-
+      rom: Christmas With You -Rin Hoshizora-
+      ko: 당신과 크리스마스 -호시조라 린-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #10']
+    ref: work:muse/christmas-with-you-rin-hoshizora
+  - kind: work
+    printed: あなたとクリスマス -西木野真姫-
+    title:
+      ja: あなたとクリスマス -西木野真姫-
+      rom: Christmas With You -Maki Nishikino-
+      ko: 당신과 크리스마스 -니시키노 마키-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #11']
+    ref: work:muse/christmas-with-you-maki-nishikino
+  - kind: work
+    printed: あなたとクリスマス -東條 希-
+    title:
+      ja: あなたとクリスマス -東條 希-
+      rom: Christmas With You -Nozomi Tojo-
+      ko: 당신과 크리스마스 -토죠 노조미-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #12']
+    ref: work:muse/christmas-with-you-nozomi-tojo
+  - kind: work
+    printed: あなたとクリスマス -小泉花陽-
+    title:
+      ja: あなたとクリスマス -小泉花陽-
+      rom: Christmas With You -Hanayo Koizumi-
+      ko: 당신과 크리스마스 -코이즈미 하나요-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #13']
+    ref: work:muse/christmas-with-you-hanayo-koizumi
+  - kind: work
+    printed: あなたとクリスマス -矢澤にこ-
+    title:
+      ja: あなたとクリスマス -矢澤にこ-
+      rom: Christmas With You -Nico Yazawa-
+      ko: 당신과 크리스마스 -야자와 니코-
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Snow halation 문서 트랙 리스트의 lit. 표기 Christmas With You -<성 이름>-. 이름은 캐릭터 데이터의 rom(이름-성)), ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #14']
+    ref: work:muse/christmas-with-you-nico-yazawa
+  - kind: work
+    printed: 未来へゴー・ネクスト！
+    title:
+      ja: 未来へゴー・ネクスト！
+      rom: Toward the Future, Go Next!
+      ko: 미래를 향해 고 넥스트!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom lit. 표기 Go Towards The Future; Next Story!는 원문에 없는 Story를 더해 쓰지 않음), 확인 필요, ko: 나무위키(Snow halation 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Snow_halation'
+    used_in: ['release.php#cd02 #15']
+    ref: work:muse/toward-the-future-go-next
+  - kind: work
+    printed: Love marginal
+    title:
+      ja: Love marginal
+      rom: Love marginal
+      ko: Love marginal
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    note: ''
+    used_in: ['release.php#cd03 #1', 'release.php#cd03 #3', 'release.php#cd08 #6', 'release.php#cd09 #7', 'release.php#cd18 #1-5']
+    ref: work:muse/love-marginal
+  - kind: work
+    printed: sweet＆sweet holiday
+    title:
+      ja: sweet＆sweet holiday
+      rom: sweet&sweet holiday
+      ko: sweet&sweet holiday
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    note: ''
+    used_in: ['release.php#cd03 #2', 'release.php#cd03 #4', 'release.php#cd08 #7', 'release.php#cd09 #8', 'release.php#cd18 #1-6']
+    ref: work:muse/sweet-sweet-holiday
+  - kind: work
+    printed: やりたい握手会！
+    title:
+      ja: やりたい握手会！
+      rom: The Handshake Meeting We Want To Do!
+      ko: 하고 싶은 악수회!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Love marginal 문서 트랙 리스트의 lit. 표기), ko: 나무위키(유닛 싱글 문서 Printemps 데뷔 싱글 트랙 리스트) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%9C%A0%EB%8B%9B%20%EC%8B%B1%EA%B8%80 https://love-live.fandom.com/wiki/Love_marginal'
+    used_in: ['release.php#cd03 #5']
+    ref: work:muse/the-handshake-meeting-we-want-to-do
+  - kind: work
+    printed: ダイヤモンドプリンセスの憂鬱
+    title:
+      ja: ダイヤモンドプリンセスの憂鬱
+      rom: Diamond Princess no Yuuutsu
+      ko: 다이아몬드 프린세스의 우울
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%81%AE%E6%86%82%E9%AC%B1 https://love-live.fandom.com/wiki/Diamond_Princess_no_Yuuutsu'
+    used_in: ['release.php#cd04 #1', 'release.php#cd04 #3', 'release.php#cd18 #1-7']
+    ref: work:muse/diamond-princess-no-yuuutsu
+  - kind: work
+    printed: ラブノベルス
+    title:
+      ja: ラブノベルス
+      rom: Love Novels
+      ko: 러브 노벨즈
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%83%A9%E3%83%96%E3%83%8E%E3%83%99%E3%83%AB%E3%82%B9 https://love-live.fandom.com/wiki/Love_Novels'
+    used_in: ['release.php#cd04 #2', 'release.php#cd04 #4', 'release.php#cd18 #1-8']
+    ref: work:muse/love-novels
+  - kind: work
+    printed: 雨の日の練習は
+    title:
+      ja: 雨の日の練習は
+      rom: Training on Rainy Days
+      ko: 비 오는 날의 연습은
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Diamond Princess no Yuuutsu 문서 트랙 리스트의 lit. 표기), ko: 나무위키(유닛 싱글 문서 BiBi 데뷔 싱글 트랙 리스트) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%9C%A0%EB%8B%9B%20%EC%8B%B1%EA%B8%80 https://love-live.fandom.com/wiki/Diamond_Princess_no_Yuuutsu'
+    used_in: ['release.php#cd04 #5']
+    ref: work:muse/training-on-rainy-days
+  - kind: work
+    printed: 知らないLove＊教えてLove
+    title:
+      ja: 知らないLove＊教えてLove
+      rom: Shiranai Love*Oshiete Love
+      ko: 모르겠어 Love*가르쳐 줘 Love
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 음반 문서는 모르겠어 Love*가르쳐줘 Love, 유닛 싱글 문서는 모르는 Love*가르쳐줘 Love로 엇갈림) 외부 근거: https://namu.wiki/w/%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84Love%2A%E6%95%99%E3%81%88%E3%81%A6Love https://love-live.fandom.com/wiki/Shiranai_Love*Oshiete_Love'
+    used_in: ['release.php#cd05 #1', 'release.php#cd05 #3', 'release.php#cd07 #6', 'release.php#cd18 #1-9']
+    ref: work:muse/shiranai-love-oshiete-love
+  - kind: work
+    printed: あ・の・ね・が・ん・ば・れ！
+    title:
+      ja: あ・の・ね・が・ん・ば・れ！
+      rom: A-NO-NE-GA-N-BA-RE!
+      ko: 있・잖・아・힘・을・내!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. rom: Fandom(・를 하이픈으로 쓰는 관용 표기. 규칙 엔진이면 A・no・ne・ga・n・ba・re!), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%83%BB%E3%81%AE%E3%83%BB%E3%81%AD%E3%83%BB%E3%81%8C%E3%83%BB%E3%82%93%E3%83%BB%E3%81%B0%E3%83%BB%E3%82%8C%EF%BC%81 https://love-live.fandom.com/wiki/A-NO-NE-GA-N-BA-RE!'
+    used_in: ['release.php#cd05 #2', 'release.php#cd05 #4', 'release.php#cd07 #7', 'release.php#cd18 #1-10']
+    ref: work:muse/a-no-ne-ga-n-ba-re
+  - kind: work
+    printed: みんなで水着を選んだら
+    title:
+      ja: みんなで水着を選んだら
+      rom: If Everyone Were To Select Swimsuits Together
+      ko: 다 같이 수영복을 고른다면
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Shiranai Love*Oshiete Love 문서 트랙 리스트의 lit. 표기), ko: 나무위키(유닛 싱글 문서 lily white 데뷔 싱글 트랙 리스트) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%9C%A0%EB%8B%9B%20%EC%8B%B1%EA%B8%80 https://love-live.fandom.com/wiki/Shiranai_Love*Oshiete_Love'
+    used_in: ['release.php#cd05 #5']
+    ref: work:muse/if-everyone-were-to-select-swimsuits-together
+  - kind: work
+    printed: 夏色えがおで1,2,Jump!
+    title:
+      ja: 夏色えがおで1,2,Jump!
+      rom: Natsuiro Egao de 1,2,Jump!
+      ko: 여름빛 미소로 1,2,Jump!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 1, 2,로 띄어 씀) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81%28%EA%B3%A1%29 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in:
+      - 'release.php#cd06 #1'
+      - 'release.php#cd06 #3'
+      - 'release.php#cd07 #8'
+      - 'release.php#cd08 #8'
+      - 'release.php#cd09 #9'
+      - 'release.php#cd18 #1-11'
+      - 'release.php#cd88 #1'
+      - 'release.php#cd88 #3'
+    ref: work:muse/natsuiro-egao-de-1-2-jump
+  - kind: work
+    printed: Mermaid festa vol.1
+    title:
+      ja: Mermaid festa vol.1
+      rom: Mermaid festa vol.1
+      ko: Mermaid festa vol.1
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: ''
+    used_in:
+      - 'release.php#cd06 #2'
+      - 'release.php#cd06 #4'
+      - 'release.php#cd07 #9'
+      - 'release.php#cd08 #9'
+      - 'release.php#cd09 #10'
+      - 'release.php#cd18 #1-12'
+      - 'release.php#cd88 #2'
+      - 'release.php#cd88 #4'
+    ref: work:muse/mermaid-festa-vol-1
+  - kind: work
+    printed: 沖縄到着！
+    title:
+      ja: 沖縄到着！
+      rom: Reaching Okinawa!
+      ko: 오키나와 도착!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Natsuiro Egao de 1,2,Jump! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in: ['release.php#cd06 #5']
+    ref: work:muse/reaching-okinawa
+  - kind: work
+    printed: やがてPV撮影に。
+    title:
+      ja: やがてPV撮影に。
+      rom: PV Filming Soon.
+      ko: 이윽고 PV 촬영에.
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Natsuiro Egao de 1,2,Jump! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in: ['release.php#cd06 #6']
+    ref: work:muse/pv-filming-soon
+  - kind: work
+    printed: みんなでBBQ
+    title:
+      ja: みんなでBBQ
+      rom: BBQ With Everyone
+      ko: 다 함께 BBQ
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Natsuiro Egao de 1,2,Jump! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in: ['release.php#cd06 #7']
+    ref: work:muse/bbq-with-everyone
+  - kind: work
+    printed: 波打ち際のパラダイス
+    title:
+      ja: 波打ち際のパラダイス
+      rom: Beach Paradise
+      ko: 해변가의 파라다이스
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Natsuiro Egao de 1,2,Jump! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+    used_in: ['release.php#cd06 #8']
+    ref: work:muse/beach-paradise
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 園田海未 海色少女に魅せられて
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 園田海未 海色少女に魅せられて
+      rom: Love Live! Solo Live! from μ's Umi Sonoda Umiiro Shoujo ni Miserarete
+      ko: 러브 라이브! Solo Live! from μ's 소노다 우미 바닷빛 소녀에게 매료되어
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+    note: 'ja: 공식 페이지. rom·ko: ラブライブ！는 Love Live!/러브 라이브!, 라틴 부분은 원문, 이름은 캐릭터 데이터 umi-sonoda. 부제 rom: Fandom(Love Live! 문서 Solo Albums 절과 Umi Sonoda 문서가 같음), ko: 나무위키(앨범 문서 절 제목. 음반 문서 표는 바닷빛 소녀에 매료되어) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Love_Live!'
+    used_in: []
+    ref: release:muse/2011-love-live-solo-live-from-s-umi-sonoda-umiiro-shoujo-ni-miserarete
+  - kind: work
+    printed: 私たちは未来の花
+    title:
+      ja: 私たちは未来の花
+      rom: Watashitachi wa Mirai no Hana
+      ko: 우리는 미래의 꽃
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서에 제목 행이 없어 같은 문서의 μ’s 멤버별 솔로곡 일람 틀의 번역. 앨범 문서 본문은 우리들은 미래의 꽃) 외부 근거: https://namu.wiki/w/%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%8A%B1 https://love-live.fandom.com/wiki/Watashitachi_wa_Mirai_no_Hana'
+    used_in: ['release.php#cd07 #1']
+    ref: work:muse/watashitachi-wa-mirai-no-hana
+  - kind: work
+    printed: 冬の海にて～Date with 海未～
+    title:
+      ja: 冬の海にて～Date with 海未～
+      rom: At the Winter Sea~Date with Umi~
+      ko: 겨울 바다에서~Date with 우미~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom은 영역 없이 로마자 Fuyu no Umibe Nite ~Date with Umi~만 있고 제목에 辺을 더함. ～ 앞은 인쇄 표기처럼 붙여 씀), ko: 번역안(나무위키 미게재. 앨범 문서 트랙 리스트는 일본어만), 확인 필요 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Watashitachi_wa_Mirai_no_Hana'
+    used_in: ['release.php#cd07 #10']
+    ref: work:muse/at-the-winter-sea-date-with-umi
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 南ことり ことりLovin' you
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 南ことり ことりLovin' you
+      rom: Love Live! Solo Live! from μ's Kotori Minami Kotori Lovin' you
+      ko: 러브 라이브! Solo Live! from μ's 미나미 코토리 코토리 Lovin' you
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+    note: "ja: 공식 페이지. rom·ko: ラブライブ！는 Love Live!/러브 라이브!, 라틴 부분은 원문, 이름은 캐릭터 데이터 kotori-minami. 부제 rom: Fandom(Love Live! 문서 Solo Albums 절. Kotori Minami 문서는 Kotori, Lovin' You로 엇갈려 인쇄 표기에 맞는 쪽), ko: 나무위키(앨범 문서 절 제목. 음반 문서 표는 코토리 Lovin' You) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Love_Live!"
+    used_in: []
+    ref: release:muse/2011-love-live-solo-live-from-s-kotori-minami-kotori-lovin-you
+  - kind: work
+    printed: スピカテリブル
+    title:
+      ja: スピカテリブル
+      rom: Spicaterrible
+      ko: 스피카 테러블
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서에 제목 행이 없어 같은 문서의 μ’s 멤버별 솔로곡 일람 틀의 번역) 외부 근거: https://namu.wiki/w/%E3%82%B9%E3%83%94%E3%82%AB%E3%83%86%E3%83%AA%E3%83%96%E3%83%AB https://love-live.fandom.com/wiki/Spicaterrible'
+    used_in: ['release.php#cd08 #1']
+    ref: work:muse/spicaterrible
+  - kind: work
+    printed: 光輝く遊園地～Date with ことり～
+    title:
+      ja: 光輝く遊園地～Date with ことり～
+      rom: Shining Amusement Park~Date with Kotori~
+      ko: 빛나는 유원지~Date with 코토리~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Spicaterrible 문서 트랙 리스트의 lit. 표기. ～ 앞은 인쇄 표기처럼 붙여 씀), ko: 번역안(나무위키 미게재. 앨범 문서 트랙 리스트는 일본어만), 확인 필요 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Spicaterrible'
+    used_in: ['release.php#cd08 #10']
+    ref: work:muse/shining-amusement-park-date-with-kotori
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 高坂穂乃果 ほんのり穂乃果色！
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 高坂穂乃果 ほんのり穂乃果色！
+      rom: Love Live! Solo Live! from μ's Honoka Kosaka Honnori Honokairo!
+      ko: 러브 라이브! Solo Live! from μ's 코사카 호노카 아련하게 호노카색!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    note: 'ja: 공식 페이지. rom·ko: ラブライブ！는 Love Live!/러브 라이브!, 라틴 부분은 원문, 이름은 캐릭터 데이터 honoka-kosaka. 부제 rom: 규칙(Fandom이 Love Live! 문서는 Honnori Honoka-iro!, Honoka Kosaka 문서는 Honnori Honokairo!로 엇갈림. 규칙 엔진 결과와 같은 쪽), ko: 나무위키(앨범 문서 절 제목, 음반 문서와 같음) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Love_Live! https://love-live.fandom.com/wiki/Honoka_Kosaka'
+    used_in: []
+    ref: release:muse/2012-love-live-solo-live-from-s-honoka-kosaka-honnori-honokairo
+  - kind: work
+    printed: 愛は太陽じゃない？
+    title:
+      ja: 愛は太陽じゃない？
+      rom: Ai wa Taiyou Ja Nai?
+      ko: 사랑은 태양이 아닐까?
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    note: 'ja: 공식 페이지. rom: Fandom(Ja 대문자도 Fandom 표기 그대로. 규칙 엔진이면 Ai wa Taiyou ja Nai?), ko: 나무위키(곡 문서에 제목 행이 없어 같은 문서의 μ’s 멤버별 솔로곡 일람 틀의 번역) 외부 근거: https://namu.wiki/w/%E6%84%9B%E3%81%AF%E5%A4%AA%E9%99%BD%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%3F https://love-live.fandom.com/wiki/Ai_wa_Taiyou_Ja_Nai%3F'
+    used_in: ['release.php#cd09 #1']
+    ref: work:muse/ai-wa-taiyou-ja-nai
+  - kind: work
+    printed: もうひとりじゃないよ
+    title:
+      ja: もうひとりじゃないよ
+      rom: Mou Hitori Ja Nai yo
+      ko: 더 이상 혼자가 아니야
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    note: 'ja: 공식 페이지. rom: Fandom(Ja 대문자도 Fandom 표기 그대로. 규칙 엔진이면 Mou Hitori ja Nai yo), ko: 나무위키(곡 문서에 제목 행이 없어 같은 문서의 μ’s 멤버별 솔로곡 일람 틀의 번역) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%86%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%82%88 https://love-live.fandom.com/wiki/Mou_Hitori_Ja_Nai_yo'
+    used_in: ['release.php#cd09 #2']
+    ref: work:muse/mou-hitori-ja-nai-yo
+  - kind: work
+    printed: ハッピーピクニック！～Date with 穂乃果～
+    title:
+      ja: ハッピーピクニック！～Date with 穂乃果～
+      rom: Happy Picnic!~Date with Honoka~
+      ko: 해피 피크닉!~Date with 호노카~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    note: 'ja: 공식 페이지. rom: Fandom(Ai wa Taiyou Ja Nai? 문서 트랙 리스트. ～ 앞은 인쇄 표기처럼 붙여 씀), ko: 번역안(나무위키 미게재. 앨범 문서 트랙 리스트는 일본어만. 외래어는 음역), 확인 필요 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Ai_wa_Taiyou_Ja_Nai%3F'
+    used_in: ['release.php#cd09 #11']
+    ref: work:muse/happy-picnic-date-with-honoka
+  - kind: work
+    printed: もぎゅっと“love”で接近中！
+    title:
+      ja: もぎゅっと“love”で接近中！
+      rom: Mogyutto "love" de Sekkin Chuu!
+      ko: 꼬옥 "love"로 접근 중!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom(규칙 엔진이면 Sekkinchuu. 따옴표는 Fandom·나무위키 모두 반각 ", 인쇄는 “ ”), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E2%80%9Clove%E2%80%9D%E3%81%A7%E6%8E%A5%E8%BF%91%E4%B8%AD%EF%BC%81%28%EA%B3%A1%29 https://love-live.fandom.com/wiki/Mogyutto_%22love%22_de_Sekkin_Chuu!'
+    used_in:
+      - 'release.php#cd10 #1'
+      - 'release.php#cd10 #3'
+      - 'release.php#cd18 #1-13'
+      - 'release.php#cd31 #1'
+      - 'release.php#cd32 #1'
+      - 'release.php#cd33 #1'
+      - 'release.php#cd34 #1'
+      - 'release.php#cd35 #1'
+      - 'release.php#cd36 #1'
+      - 'release.php#cd37 #1'
+      - 'release.php#cd38 #1'
+      - 'release.php#cd39 #1'
+      - 'release.php#cd89 #1'
+      - 'release.php#cd89 #3'
+    ref: work:muse/mogyutto-love-de-sekkin-chuu
+  - kind: work
+    printed: 愛してるばんざーい！
+    title:
+      ja: 愛してるばんざーい！
+      rom: Aishiteru Banzai!
+      ko: 사랑해 만~세!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom(ばんざーい의 장음 ー를 표기하지 않음), ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 사랑해 만세!) 외부 근거: https://namu.wiki/w/%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%B0%E3%82%93%E3%81%96%E3%83%BC%E3%81%84%EF%BC%81 https://love-live.fandom.com/wiki/Aishiteru_Banzai!'
+    used_in:
+      - 'release.php#cd10 #2'
+      - 'release.php#cd10 #4'
+      - 'release.php#cd18 #1-14'
+      - 'release.php#cd31 #2'
+      - 'release.php#cd32 #2'
+      - 'release.php#cd33 #2'
+      - 'release.php#cd34 #2'
+      - 'release.php#cd35 #2'
+      - 'release.php#cd36 #2'
+      - 'release.php#cd37 #2'
+      - 'release.php#cd38 #2'
+      - 'release.php#cd39 #2'
+      - 'release.php#cd89 #2'
+      - 'release.php#cd89 #4'
+    ref: work:muse/aishiteru-banzai
+  - kind: work
+    printed: もうすぐバレンタイン
+    title:
+      ja: もうすぐバレンタイン
+      rom: It's Almost Valentine's Day
+      ko: 이제 곧 밸런타인
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Mogyutto "love" de Sekkin Chuu! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E2%80%9Clove%E2%80%9D%E3%81%A7%E6%8E%A5%E8%BF%91%E4%B8%AD%EF%BC%81 https://love-live.fandom.com/wiki/Mogyutto_%22love%22_de_Sekkin_Chuu!'
+    used_in: ['release.php#cd10 #5']
+    ref: work:muse/it-s-almost-valentine-s-day
+  - kind: work
+    printed: 準備だ！ バレンタイン
+    title:
+      ja: 準備だ！ バレンタイン
+      rom: Preparing for Valentine's Day!
+      ko: 준비다! 밸런타인
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Mogyutto "love" de Sekkin Chuu! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E2%80%9Clove%E2%80%9D%E3%81%A7%E6%8E%A5%E8%BF%91%E4%B8%AD%EF%BC%81 https://love-live.fandom.com/wiki/Mogyutto_%22love%22_de_Sekkin_Chuu!'
+    used_in: ['release.php#cd10 #6']
+    ref: work:muse/preparing-for-valentine-s-day
+  - kind: work
+    printed: レッツクッキング！
+    title:
+      ja: レッツクッキング！
+      rom: Let's Cook!
+      ko: 렛츠 쿠킹!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Mogyutto "love" de Sekkin Chuu! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E2%80%9Clove%E2%80%9D%E3%81%A7%E6%8E%A5%E8%BF%91%E4%B8%AD%EF%BC%81 https://love-live.fandom.com/wiki/Mogyutto_%22love%22_de_Sekkin_Chuu!'
+    used_in: ['release.php#cd10 #7']
+    ref: work:muse/let-s-cook
+  - kind: work
+    printed: あなたのもとへ
+    title:
+      ja: あなたのもとへ
+      rom: To Be By Your Side
+      ko: 당신의 곁으로
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Mogyutto "love" de Sekkin Chuu! 문서 트랙 리스트의 lit. 표기), ko: 나무위키(싱글 문서 트랙 리스트) 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E2%80%9Clove%E2%80%9D%E3%81%A7%E6%8E%A5%E8%BF%91%E4%B8%AD%EF%BC%81 https://love-live.fandom.com/wiki/Mogyutto_%22love%22_de_Sekkin_Chuu!'
+    used_in: ['release.php#cd10 #8']
+    ref: work:muse/to-be-by-your-side
+  - kind: work
+    printed: Mermaid festa vol.2 ～Passionate～
+    title:
+      ja: Mermaid festa vol.2 ～Passionate～
+      rom: Mermaid festa vol.2 ~Passionate~
+      ko: Mermaid festa vol.2 ~Passionate~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: ''
+    used_in: ['release.php#cd11 #1', 'release.php#cd11 #4', 'release.php#cd18 #2-3', 'release.php#cd31 #3', 'release.php#cd35 #3']
+    ref: work:muse/mermaid-festa-vol-2-passionate
+  - kind: work
+    printed: Someday of my life
+    title:
+      ja: Someday of my life
+      rom: Someday of my life
+      ko: Someday of my life
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: ''
+    used_in: ['release.php#cd11 #2', 'release.php#cd11 #5', 'release.php#cd18 #2-4']
+    ref: work:muse/someday-of-my-life
+  - kind: work
+    printed: 恋のシグナルRin rin rin!
+    title:
+      ja: 恋のシグナルRin rin rin!
+      rom: Koi no Signal Rin rin rin!
+      ko: 사랑의 시그널 Rin rin rin!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%ABRin%20rin%20rin%21 https://love-live.fandom.com/wiki/Koi_no_Signal_Rin_rin_rin!'
+    used_in: ['release.php#cd11 #3', 'release.php#cd11 #6', 'release.php#cd18 #2-5']
+    ref: work:muse/koi-no-signal-rin-rin-rin
+  - kind: work
+    printed: ほのりん、あなたを起こしに来ました！
+    title:
+      ja: ほのりん、あなたを起こしに来ました！
+      rom: HonoRin, here to wake you up!
+      ko: 호노린, 당신을 깨우러 왔습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Mermaid festa vol.2 ~Passionate~ 문서 트랙 리스트의 lit. 표기 그대로), ko: 나무위키(음반 문서 듀오 & 트리오 싱글 트랙 리스트. （ミニドラマ）를 뺀 부분) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Mermaid_festa_vol.2_~Passionate~'
+    used_in: ['release.php#cd11 #7']
+    ref: work:muse/honorin-here-to-wake-you-up
+  - kind: work
+    printed: 乙女式れんあい塾
+    title:
+      ja: 乙女式れんあい塾
+      rom: Otome Shiki Ren'ai Juku
+      ko: 소녀식 연애 학원
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    note: "ja: 공식 페이지. rom: Fandom(규칙 엔진이면 Otomeshiki Ren'ai Juku), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E4%B9%99%E5%A5%B3%E5%BC%8F%E3%82%8C%E3%82%93%E3%81%82%E3%81%84%E5%A1%BE https://love-live.fandom.com/wiki/Otome_Shiki_Ren%27ai_Juku"
+    used_in: ['release.php#cd12 #1', 'release.php#cd12 #4', 'release.php#cd18 #2-6', 'release.php#cd37 #3', 'release.php#cd39 #3']
+    ref: work:muse/otome-shiki-ren-ai-juku
+  - kind: work
+    printed: まほうつかいはじめました！
+    title:
+      ja: まほうつかいはじめました！
+      rom: Mahoutsukai Hajimemashita!
+      ko: 마법사 시작했습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%BE%E3%81%BB%E3%81%86%E3%81%A4%E3%81%8B%E3%81%84%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%21 https://love-live.fandom.com/wiki/Mahoutsukai_Hajimemashita!'
+    used_in: ['release.php#cd12 #2', 'release.php#cd12 #5', 'release.php#cd18 #2-7']
+    ref: work:muse/mahoutsukai-hajimemashita
+  - kind: work
+    printed: 純愛レンズ
+    title:
+      ja: 純愛レンズ
+      rom: Junai Lens
+      ko: 순애 렌즈
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    note: "ja: 공식 페이지. rom: Fandom(헵번식 규칙이면 Jun'ai Lens. Fandom도 乙女式れんあい塾은 Ren'ai로 씀, 기존 데이터 Kuuchuu Ren'ai Ron), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E7%B4%94%E6%84%9B%E3%83%AC%E3%83%B3%E3%82%BA https://love-live.fandom.com/wiki/Junai_Lens"
+    used_in: ['release.php#cd12 #3', 'release.php#cd12 #6', 'release.php#cd18 #2-8']
+    ref: work:muse/junai-lens
+  - kind: work
+    printed: にこのぞ、手作り弁当を持って来ました！
+    title:
+      ja: にこのぞ、手作り弁当を持って来ました！
+      rom: NicoNozo, here with a handmade bento!
+      ko: 니코노조, 직접 만든 도시락을 가지고 왔습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    note: "ja: 공식 페이지. rom: Fandom 영역(Otome Shiki Ren'ai Juku 문서 트랙 리스트의 lit. 표기 그대로), ko: 나무위키(음반 문서 듀오 & 트리오 싱글 트랙 리스트. （ミニドラマ）를 뺀 부분) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Otome_Shiki_Ren%27ai_Juku"
+    used_in: ['release.php#cd12 #7']
+    ref: work:muse/niconozo-here-with-a-handmade-bento
+  - kind: work
+    printed: 告白日和、です！
+    title:
+      ja: 告白日和、です！
+      rom: Kokuhaku Biyori, desu!
+      ko: 고백하기 좋은 날, 이에요!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 음반 문서 트랙 리스트는 고백하기 좋은 날, 입니다!) 외부 근거: https://namu.wiki/w/%E5%91%8A%E7%99%BD%E6%97%A5%E5%92%8C%E3%80%81%E3%81%A7%E3%81%99%EF%BC%81 https://love-live.fandom.com/wiki/Kokuhaku_Biyori,_desu!'
+    used_in: ['release.php#cd13 #1', 'release.php#cd13 #4', 'release.php#cd18 #2-9', 'release.php#cd33 #3', 'release.php#cd38 #3']
+    ref: work:muse/kokuhaku-biyori-desu
+  - kind: work
+    printed: ぶる～べりぃ♥とれいん
+    title:
+      ja: ぶる～べりぃ♥とれいん
+      rom: Blueberry♥Train
+      ko: Blueberry♥Train
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(가나로 적은 영어를 원어로 복원한 표기. 다른 곡 문서의 듀오&트리오 싱글 틀과 같음. 이 곡 문서 안에서는 제목 행 Blueberry ♡ Train(각주: 스쿠페스 한국어판 곡명), 음반 틀 Blueberry ♥ Train, 솔로곡 일람 틀 블루~베리♥트레인으로 엇갈림. 하트는 인쇄 표기 ♥를 따름. 확인 필요) 외부 근거: https://namu.wiki/w/%E3%81%B6%E3%82%8B%E3%80%9C%E3%81%B9%E3%82%8A%E3%81%83%E2%99%A1%E3%81%A8%E3%82%8C%E3%81%84%E3%82%93 https://love-live.fandom.com/wiki/Blueberry%E2%99%A5Train'
+    used_in: ['release.php#cd13 #2', 'release.php#cd13 #5', 'release.php#cd18 #2-10']
+    ref: work:muse/blueberry-train
+  - kind: work
+    printed: 孤独なHeaven
+    title:
+      ja: 孤独なHeaven
+      rom: Kodoku na Heaven
+      ko: 고독한 Heaven
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%AD%A4%E7%8B%AC%E3%81%AAHeaven https://love-live.fandom.com/wiki/Kodoku_na_Heaven'
+    used_in: ['release.php#cd13 #3', 'release.php#cd13 #6', 'release.php#cd18 #2-11']
+    ref: work:muse/kodoku-na-heaven
+  - kind: work
+    printed: ことぱな、お見舞いに来ました！
+    title:
+      ja: ことぱな、お見舞いに来ました！
+      rom: KotoPana, here on a get-well-soon visit!
+      ko: 코토파나, 병문안을 왔습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Kokuhaku Biyori, desu! 문서 트랙 리스트의 lit. 표기 그대로), ko: 나무위키(음반 문서 듀오 & 트리오 싱글 트랙 리스트. （ミニドラマ）를 뺀 부분) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Kokuhaku_Biyori,_desu!'
+    used_in: ['release.php#cd13 #7']
+    ref: work:muse/kotopana-here-on-a-get-well-soon-visit
+  - kind: work
+    printed: soldier game
+    title:
+      ja: soldier game
+      rom: soldier game
+      ko: soldier game
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: ''
+    used_in: ['release.php#cd14 #1', 'release.php#cd14 #5', 'release.php#cd18 #2-12', 'release.php#cd32 #3', 'release.php#cd34 #3', 'release.php#cd36 #3']
+    ref: work:muse/soldier-game
+  - kind: work
+    printed: Daring!!
+    title:
+      ja: Daring!!
+      rom: Daring!!
+      ko: Daring!!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: ''
+    used_in: ['release.php#cd14 #2', 'release.php#cd14 #6', 'release.php#cd18 #2-13']
+    ref: work:muse/daring
+  - kind: work
+    printed: 勇気のReason
+    title:
+      ja: 勇気のReason
+      rom: Yuuki no Reason
+      ko: 용기의 Reason
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%8B%87%E6%B0%97%E3%81%AEReason https://love-live.fandom.com/wiki/Yuuki_no_Reason'
+    used_in: ['release.php#cd14 #3', 'release.php#cd14 #7', 'release.php#cd18 #2-14']
+    ref: work:muse/yuuki-no-reason
+  - kind: work
+    printed: ありふれた悲しみの果て
+    title:
+      ja: ありふれた悲しみの果て
+      rom: Arifureta Kanashimi no Hate
+      ko: 흔한 슬픔의 끝
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E6%82%B2%E3%81%97%E3%81%BF%E3%81%AE%E6%9E%9C%E3%81%A6 https://love-live.fandom.com/wiki/Arifureta_Kanashimi_no_Hate'
+    used_in: ['release.php#cd14 #4', 'release.php#cd14 #8', 'release.php#cd18 #2-15']
+    ref: work:muse/arifureta-kanashimi-no-hate
+  - kind: work
+    printed: まきうみえり、お勉強会しにきました！
+    title:
+      ja: まきうみえり、お勉強会しにきました！
+      rom: MakiUmiEli, here for a study meeting!
+      ko: 마키우미에리, 스터디 그룹을 하러 왔습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    note: 'ja: 공식 페이지. rom: Fandom 영역(Soldier game 문서 트랙 리스트의 lit. 표기 그대로), ko: 나무위키(음반 문서 듀오 & 트리오 싱글 트랙 리스트. （ミニドラマ）를 뺀 부분) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Soldier_game'
+    used_in: ['release.php#cd14 #9']
+    ref: work:muse/makiumieli-here-for-a-study-meeting
+  - kind: work
+    printed: Wonderful Rush
+    title:
+      ja: Wonderful Rush
+      rom: Wonderful Rush
+      ko: Wonderful Rush
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: ''
+    used_in:
+      - 'release.php#cd15 #1'
+      - 'release.php#cd15 #3'
+      - 'release.php#cd18 #2-1'
+      - 'release.php#cd31 #4'
+      - 'release.php#cd32 #4'
+      - 'release.php#cd33 #4'
+      - 'release.php#cd34 #4'
+      - 'release.php#cd35 #4'
+      - 'release.php#cd36 #4'
+      - 'release.php#cd37 #4'
+      - 'release.php#cd38 #4'
+      - 'release.php#cd39 #4'
+      - 'release.php#cd53 #3-10'
+      - 'release.php#cd90 #1'
+      - 'release.php#cd90 #3'
+    ref: work:muse/wonderful-rush
+  - kind: work
+    printed: Oh,Love＆Peace!
+    title:
+      ja: Oh,Love＆Peace!
+      rom: Oh,Love&Peace!
+      ko: Oh,Love&Peace!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: ''
+    used_in:
+      - 'release.php#cd15 #2'
+      - 'release.php#cd15 #4'
+      - 'release.php#cd18 #2-2'
+      - 'release.php#cd31 #5'
+      - 'release.php#cd32 #5'
+      - 'release.php#cd33 #5'
+      - 'release.php#cd34 #5'
+      - 'release.php#cd35 #5'
+      - 'release.php#cd36 #5'
+      - 'release.php#cd37 #5'
+      - 'release.php#cd38 #5'
+      - 'release.php#cd39 #5'
+      - 'release.php#cd90 #2'
+      - 'release.php#cd90 #4'
+    ref: work:muse/oh-love-peace
+  - kind: work
+    printed: 喫茶とメイドな一年生
+    title:
+      ja: 喫茶とメイドな一年生
+      rom: Cafe And First Year Maids
+      ko: 카페와 메이드스러운 1학년
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: 'ja: 공식 페이지. rom: Fandom(Wonderful Rush 문서 트랙 목록의 영역), ko: 나무위키(Wonderful Rush/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Wonderful%20Rush/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Wonderful_Rush'
+    used_in: ['release.php#cd15 #5']
+    ref: work:muse/cafe-and-first-year-maids
+  - kind: work
+    printed: 屋敷にお化けは二年生
+    title:
+      ja: 屋敷にお化けは二年生
+      rom: Haunted Mansion and Second Year Monsters
+      ko: 저택에 유령은 2학년
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: 'ja: 공식 페이지. rom: Fandom(Wonderful Rush 문서 트랙 목록의 영역), ko: 나무위키(Wonderful Rush/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Wonderful%20Rush/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Wonderful_Rush'
+    used_in: ['release.php#cd15 #6']
+    ref: work:muse/haunted-mansion-and-second-year-monsters
+  - kind: work
+    printed: ショーでファッション！三年生
+    title:
+      ja: ショーでファッション！三年生
+      rom: Fashion Show! Third Years
+      ko: 쇼에서 패션! 3학년
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: 'ja: 공식 페이지. rom: Fandom(Wonderful Rush 문서 트랙 목록의 영역), ko: 나무위키(Wonderful Rush/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Wonderful%20Rush/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Wonderful_Rush'
+    used_in: ['release.php#cd15 #7']
+    ref: work:muse/fashion-show-third-years
+  - kind: work
+    printed: ダンス・クライマックス！
+    title:
+      ja: ダンス・クライマックス！
+      rom: Dance Climax!
+      ko: 댄스 클라이맥스!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    note: 'ja: 공식 페이지. rom: Fandom(Wonderful Rush 문서 트랙 목록의 영역), ko: 나무위키(Wonderful Rush/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Wonderful%20Rush/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Wonderful_Rush'
+    used_in: ['release.php#cd15 #8']
+    ref: work:muse/dance-climax
+  - kind: release
+    printed: μ's Best Album Best Live! collection
+    title:
+      ja: μ's Best Album Best Live! collection
+      rom: μ's Best Album Best Live! collection
+      ko: μ's Best Album Best Live! collection
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
+    note: ''
+    used_in: []
+    ref: release:muse/2013-s-best-album-best-live-collection
+  - kind: work
+    printed: Listen to my heart!!
+    title:
+      ja: Listen to my heart!!
+      rom: Listen to my heart!!
+      ko: Listen to my heart!!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
+    note: ''
+    used_in: ['release.php#cd16 #1', 'release.php#cd16 #3', 'release.php#cd18 #2-16', 'release.php#cd35 #6', 'release.php#cd38 #6', 'release.php#cd39 #6']
+    ref: work:muse/listen-to-my-heart
+  - kind: work
+    printed: after school NAVIGATORS
+    title:
+      ja: after school NAVIGATORS
+      rom: after school NAVIGATORS
+      ko: after school NAVIGATORS
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
+    note: ''
+    used_in: ['release.php#cd16 #2', 'release.php#cd16 #4', 'release.php#cd18 #2-17', 'release.php#cd35 #7', 'release.php#cd38 #7', 'release.php#cd39 #7']
+    ref: work:muse/after-school-navigators
+  - kind: work
+    printed: 僕らは今のなかで
+    title:
+      ja: 僕らは今のなかで
+      rom: Bokura wa Ima no Naka de
+      ko: 우리들은 지금 속에서
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AF%E4%BB%8A%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7 https://love-live.fandom.com/wiki/Bokura_wa_Ima_no_Naka_de'
+    used_in:
+      - 'release.php#cd19 #1'
+      - 'release.php#cd19 #3'
+      - 'release.php#cd31 #6'
+      - 'release.php#cd32 #6'
+      - 'release.php#cd33 #6'
+      - 'release.php#cd34 #6'
+      - 'release.php#cd35 #8'
+      - 'release.php#cd36 #6'
+      - 'release.php#cd37 #6'
+      - 'release.php#cd38 #8'
+      - 'release.php#cd39 #8'
+      - 'release.php#cd53 #1-1'
+      - 'release.php#cd53 #3-7'
+    ref: work:muse/bokura-wa-ima-no-naka-de
+  - kind: work
+    printed: WILD STARS
+    title:
+      ja: WILD STARS
+      rom: WILD STARS
+      ko: WILD STARS
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    note: ''
+    used_in:
+      - 'release.php#cd19 #2'
+      - 'release.php#cd19 #4'
+      - 'release.php#cd31 #7'
+      - 'release.php#cd32 #7'
+      - 'release.php#cd33 #7'
+      - 'release.php#cd34 #7'
+      - 'release.php#cd35 #9'
+      - 'release.php#cd36 #7'
+      - 'release.php#cd37 #7'
+      - 'release.php#cd38 #9'
+      - 'release.php#cd39 #9'
+      - 'release.php#cd53 #1-2'
+    ref: work:muse/wild-stars
+  - kind: work
+    printed: きっと青春が聞こえる
+    title:
+      ja: きっと青春が聞こえる
+      rom: Kitto Seishun ga Kikoeru
+      ko: 분명 청춘이 들려올 거야
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%8D%E3%81%A3%E3%81%A8%E9%9D%92%E6%98%A5%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B https://love-live.fandom.com/wiki/Kitto_Seishun_ga_Kikoeru'
+    used_in:
+      - 'release.php#cd20 #1'
+      - 'release.php#cd20 #3'
+      - 'release.php#cd31 #8'
+      - 'release.php#cd32 #8'
+      - 'release.php#cd33 #8'
+      - 'release.php#cd34 #8'
+      - 'release.php#cd35 #10'
+      - 'release.php#cd36 #8'
+      - 'release.php#cd37 #8'
+      - 'release.php#cd38 #10'
+      - 'release.php#cd39 #10'
+      - 'release.php#cd53 #1-3'
+    ref: work:muse/kitto-seishun-ga-kikoeru
+  - kind: work
+    printed: 輝夜の城で踊りたい
+    title:
+      ja: 輝夜の城で踊りたい
+      rom: Kaguya no Shiro de Odoritai
+      ko: 카구야의 성에서 춤추고 싶어
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E8%BC%9D%E5%A4%9C%E3%81%AE%E5%9F%8E%E3%81%A7%E8%B8%8A%E3%82%8A%E3%81%9F%E3%81%84 https://love-live.fandom.com/wiki/Kaguya_no_Shiro_de_Odoritai'
+    used_in:
+      - 'release.php#cd20 #2'
+      - 'release.php#cd20 #4'
+      - 'release.php#cd31 #9'
+      - 'release.php#cd32 #9'
+      - 'release.php#cd33 #9'
+      - 'release.php#cd34 #9'
+      - 'release.php#cd35 #11'
+      - 'release.php#cd36 #9'
+      - 'release.php#cd37 #9'
+      - 'release.php#cd38 #11'
+      - 'release.php#cd39 #11'
+      - 'release.php#cd53 #1-4'
+    ref: work:muse/kaguya-no-shiro-de-odoritai
+  - kind: work
+    printed: ススメ→トゥモロウ
+    title:
+      ja: ススメ→トゥモロウ
+      rom: Susume→Tomorrow
+      ko: 나아가→투모로우
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B9%E3%82%B9%E3%83%A1%E2%86%92%E3%83%88%E3%82%A5%E3%83%A2%E3%83%AD%E3%82%A6 https://love-live.fandom.com/wiki/Susume%E2%86%92Tomorrow'
+    used_in: ['release.php#cd21 #1', 'release.php#cd21 #3', 'release.php#cd31 #10', 'release.php#cd33 #10', 'release.php#cd34 #10', 'release.php#cd53 #1-5']
+    ref: work:muse/susume-tomorrow
+  - kind: work
+    printed: START:DASH!!
+    title:
+      ja: START:DASH!!
+      rom: START:DASH!!
+      ko: START:DASH!!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+    note: ''
+    used_in:
+      - 'release.php#cd21 #2'
+      - 'release.php#cd21 #4'
+      - 'release.php#cd24 #2'
+      - 'release.php#cd24 #4'
+      - 'release.php#cd31 #14'
+      - 'release.php#cd32 #12'
+      - 'release.php#cd33 #14'
+      - 'release.php#cd34 #14'
+      - 'release.php#cd35 #15'
+      - 'release.php#cd36 #13'
+      - 'release.php#cd37 #12'
+      - 'release.php#cd38 #15'
+      - 'release.php#cd39 #15'
+      - 'release.php#cd53 #1-6'
+      - 'release.php#cd53 #1-10'
+      - 'release.php#cd53 #3-9'
+    ref: work:muse/start-dash
+  - kind: work
+    printed: これからのSomeday
+    title:
+      ja: これからのSomeday
+      rom: Korekara no Someday
+      ko: 앞으로 다가올 Someday
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AESomeday https://love-live.fandom.com/wiki/Korekara_no_Someday'
+    used_in:
+      - 'release.php#cd22 #1'
+      - 'release.php#cd22 #3'
+      - 'release.php#cd31 #11'
+      - 'release.php#cd33 #11'
+      - 'release.php#cd34 #11'
+      - 'release.php#cd35 #12'
+      - 'release.php#cd36 #10'
+      - 'release.php#cd38 #12'
+      - 'release.php#cd39 #12'
+      - 'release.php#cd53 #1-7'
+    ref: work:muse/korekara-no-someday
+  - kind: work
+    printed: Wonder zone
+    title:
+      ja: Wonder zone
+      rom: Wonder zone
+      ko: Wonder zone
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    note: ''
+    used_in:
+      - 'release.php#cd22 #2'
+      - 'release.php#cd22 #4'
+      - 'release.php#cd31 #12'
+      - 'release.php#cd32 #10'
+      - 'release.php#cd33 #12'
+      - 'release.php#cd34 #12'
+      - 'release.php#cd35 #13'
+      - 'release.php#cd36 #11'
+      - 'release.php#cd37 #10'
+      - 'release.php#cd38 #13'
+      - 'release.php#cd39 #13'
+      - 'release.php#cd53 #1-8'
+    ref: work:muse/wonder-zone
+  - kind: release
+    printed: TVA1 BD Vol.1
+    title:
+      ja: TVA1 BD Vol.1
+      rom: TVA1 BD Vol.1
+      ko: TVA1 BD Vol.1
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-1
+  - kind: work
+    printed: 夢なき夢は夢じゃない
+    title:
+      ja: 夢なき夢は夢じゃない
+      rom: Yume Naki Yume wa Yume ja nai
+      ko: 꿈이 없는 꿈은 꿈이 아니야
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A4%A2%E3%81%AA%E3%81%8D%E5%A4%A2%E3%81%AF%E5%A4%A2%E3%81%98%E3%82%83%E3%81%AA%E3%81%84 https://love-live.fandom.com/wiki/Yume_Naki_Yume_wa_Yume_ja_nai'
+    used_in: ['#bd01 #1', '#bd01 #2']
+    ref: work:muse/yume-naki-yume-wa-yume-ja-nai
+  - kind: work
+    printed: No brand girls
+    title:
+      ja: No brand girls
+      rom: No brand girls
+      ko: No brand girls
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
+    note: ''
+    used_in:
+      - 'release.php#cd24 #1'
+      - 'release.php#cd24 #3'
+      - 'release.php#cd31 #13'
+      - 'release.php#cd32 #11'
+      - 'release.php#cd33 #13'
+      - 'release.php#cd34 #13'
+      - 'release.php#cd35 #14'
+      - 'release.php#cd36 #12'
+      - 'release.php#cd37 #11'
+      - 'release.php#cd38 #14'
+      - 'release.php#cd39 #14'
+      - 'release.php#cd53 #1-9'
+      - 'release.php#cd53 #3-8'
+    ref: work:muse/no-brand-girls
+  - kind: release
+    printed: TVA1 BD Vol.2
+    title:
+      ja: TVA1 BD Vol.2
+      rom: TVA1 BD Vol.2
+      ko: TVA1 BD Vol.2
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd02
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-2
+  - kind: work
+    printed: Anemone heart
+    title:
+      ja: Anemone heart
+      rom: Anemone heart
+      ko: Anemone heart
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd02
+    note: ''
+    used_in: ['#bd02 #1', '#bd02 #2']
+    ref: work:muse/anemone-heart
+  - kind: release
+    printed: TVA1 BD Vol.3
+    title:
+      ja: TVA1 BD Vol.3
+      rom: TVA1 BD Vol.3
+      ko: TVA1 BD Vol.3
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd03
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-3
+  - kind: work
+    printed: なわとび
+    title:
+      ja: なわとび
+      rom: Nawatobi
+      ko: 줄넘기
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd03
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AA%E3%82%8F%E3%81%A8%E3%81%B3 https://love-live.fandom.com/wiki/Nawatobi'
+    used_in: ['#bd03 #1', '#bd03 #2']
+    ref: work:muse/nawatobi
+  - kind: release
+    printed: TVA1 BD Vol.4
+    title:
+      ja: TVA1 BD Vol.4
+      rom: TVA1 BD Vol.4
+      ko: TVA1 BD Vol.4
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd04
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-4
+  - kind: work
+    printed: Beat in Angel
+    title:
+      ja: Beat in Angel
+      rom: Beat in Angel
+      ko: Beat in Angel
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd04
+    note: ''
+    used_in: ['#bd04 #1', '#bd04 #2']
+    ref: work:muse/beat-in-angel
+  - kind: work
+    printed: 微熱からMystery
+    title:
+      ja: 微熱からMystery
+      rom: Binetsu Kara Mystery
+      ko: 미열에서 Mystery
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+    note: 'ja: 공식 페이지. rom: Fandom(조사 Kara를 대문자로 쓴 Fandom 표기 그대로. 규칙 엔진이면 Binetsu kara Mystery. 기존 Yume ga Koko Kara Hajimaru yo와 같은 처리), ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%BE%AE%E7%86%B1%E3%81%8B%E3%82%89Mystery https://love-live.fandom.com/wiki/Binetsu_Kara_Mystery'
+    used_in: ['release.php#cd25 #1', 'release.php#cd25 #3', 'release.php#cd53 #1-11', 'release.php#cd53 #3-14']
+    ref: work:muse/binetsu-kara-mystery
+  - kind: work
+    printed: キミのくせに！
+    title:
+      ja: キミのくせに！
+      rom: Kimi no Kuse ni!
+      ko: 너 주제에!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%AD%E3%83%9F%E3%81%AE%E3%81%8F%E3%81%9B%E3%81%AB%EF%BC%81 https://love-live.fandom.com/wiki/Kimi_no_Kuse_ni!'
+    used_in: ['release.php#cd25 #2', 'release.php#cd25 #4', 'release.php#cd53 #1-12']
+    ref: work:muse/kimi-no-kuse-ni
+  - kind: work
+    printed: プールでトレーニング！？
+    title:
+      ja: プールでトレーニング！？
+      rom: Training at Pool!?
+      ko: 수영장에서 트레이닝!?
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+    note: 'ja: 공식 페이지. rom: Fandom(Binetsu Kara Mystery 문서 트랙 목록의 영역), ko: 나무위키(微熱からMystery/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/%E5%BE%AE%E7%86%B1%E3%81%8B%E3%82%89Mystery/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Binetsu_Kara_Mystery'
+    used_in: ['release.php#cd25 #5']
+    ref: work:muse/training-at-pool
+  - kind: work
+    printed: Cutie Panther
+    title:
+      ja: Cutie Panther
+      rom: Cutie Panther
+      ko: Cutie Panther
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    note: ''
+    used_in: ['release.php#cd26 #1', 'release.php#cd26 #3', 'release.php#cd53 #1-13', 'release.php#cd53 #3-13']
+    ref: work:muse/cutie-panther
+  - kind: work
+    printed: 夏、終わらないで。
+    title:
+      ja: 夏、終わらないで。
+      rom: Natsu, Owaranai de.
+      ko: 여름, 끝나지 말아 줘.
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A4%8F%E3%80%81%E7%B5%82%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E3%81%A7%E3%80%82 https://love-live.fandom.com/wiki/Natsu,_Owaranai_de.'
+    used_in: ['release.php#cd26 #2', 'release.php#cd26 #4', 'release.php#cd53 #1-14']
+    ref: work:muse/natsu-owaranai-de
+  - kind: work
+    printed: プールでウェイトレス！？
+    title:
+      ja: プールでウェイトレス！？
+      rom: Waitress at Pool!?
+      ko: 수영장에서 웨이트리스!?
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    note: 'ja: 공식 페이지. rom: Fandom(Cutie Panther 문서 트랙 목록의 영역), ko: 나무위키(Cutie Panther/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/Cutie%20Panther/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Cutie_Panther'
+    used_in: ['release.php#cd26 #5']
+    ref: work:muse/waitress-at-pool
+  - kind: release
+    printed: TVA1 BD Vol.5
+    title:
+      ja: TVA1 BD Vol.5
+      rom: TVA1 BD Vol.5
+      ko: TVA1 BD Vol.5
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd05
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-5
+  - kind: work
+    printed: にこぷり♡女子道
+    title:
+      ja: にこぷり♡女子道
+      rom: Niko puri♡Joshi dou
+      ko: 니코프리♡여자의 길
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd05
+    note: 'ja: 공식 페이지. rom: Fandom(Niko puri♥Joshi dou의 ♥를 공식 표기 ♡로), ko: 나무위키(니코프리♥여자의 길의 ♥를 공식 표기 ♡로) 외부 근거: https://namu.wiki/w/%E3%81%AB%E3%81%93%E3%81%B7%E3%82%8A%E2%99%A5%E5%A5%B3%E5%AD%90%E9%81%93 https://love-live.fandom.com/wiki/Niko_puri%E2%99%A5Joshi_dou'
+    used_in: ['#bd05 #1', '#bd05 #2']
+    ref: work:muse/niko-puri-joshi-dou
+  - kind: work
+    printed: Pure girls project
+    title:
+      ja: Pure girls project
+      rom: Pure girls project
+      ko: Pure girls project
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+    note: ''
+    used_in: ['release.php#cd27 #1', 'release.php#cd27 #3', 'release.php#cd53 #1-15', 'release.php#cd53 #3-12']
+    ref: work:muse/pure-girls-project
+  - kind: work
+    printed: UNBALANCED LOVE
+    title:
+      ja: UNBALANCED LOVE
+      rom: UNBALANCED LOVE
+      ko: UNBALANCED LOVE
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+    note: ''
+    used_in: ['release.php#cd27 #2', 'release.php#cd27 #4', 'release.php#cd53 #1-16']
+    ref: work:muse/unbalanced-love
+  - kind: work
+    printed: プールでオンステージ！
+    title:
+      ja: プールでオンステージ！
+      rom: Onstage at Pool!
+      ko: 수영장에서 온 스테이지!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+    note: 'ja: 공식 페이지. rom: Fandom(Pure girls project 문서 트랙 목록의 영역), ko: 나무위키(Pure girls project/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/Pure%20girls%20project/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Pure_girls_project'
+    used_in: ['release.php#cd27 #5']
+    ref: work:muse/onstage-at-pool
+  - kind: release
+    printed: TVA1 BD Vol.6
+    title:
+      ja: TVA1 BD Vol.6
+      rom: TVA1 BD Vol.6
+      ko: TVA1 BD Vol.6
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd06
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-6
+  - kind: work
+    printed: 硝子の花園
+    title:
+      ja: 硝子の花園
+      rom: Garasu no Hanazono
+      ko: 유리의 화원
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd06
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%A1%9D%E5%AD%90%E3%81%AE%E8%8A%B1%E5%9C%92 https://love-live.fandom.com/wiki/Garasu_no_Hanazono'
+    used_in: ['#bd06 #1', '#bd06 #2']
+    ref: work:muse/garasu-no-hanazono
+  - kind: release
+    printed: TVA1 BD Full (Gamers)
+    title:
+      ja: TVA1 BD Full (Gamers)
+      rom: TVA1 BD Full (Gamers)
+      ko: TVA1 BD Full (Gamers)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00-gamers
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-full-gamers
+  - kind: work
+    printed: ぷわぷわーお！
+    title:
+      ja: ぷわぷわーお！
+      rom: Puwa Puwa-O!
+      ko: 푹신푹신~오!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00-gamers
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B7%E3%82%8F%E3%81%B7%E3%82%8F%E3%83%BC%E3%81%8A%EF%BC%81 https://love-live.fandom.com/wiki/Puwa_Puwa-O!'
+    used_in: ['#bd00-gamers #1', '#bd00-gamers #2']
+    ref: work:muse/puwa-puwa-o
+  - kind: release
+    printed: TVA1 BD Vol.7
+    title:
+      ja: TVA1 BD Vol.7
+      rom: TVA1 BD Vol.7
+      ko: TVA1 BD Vol.7
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd07
+    note: ''
+    used_in: []
+    ref: release:muse/2013-tva1-bd-vol-7
+  - kind: work
+    printed: LONELIEST BABY
+    title:
+      ja: LONELIEST BABY
+      rom: LONELIEST BABY
+      ko: LONELIEST BABY
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd07
+    note: ''
+    used_in: ['#bd07 #1', '#bd07 #2']
+    ref: work:muse/loneliest-baby
+  - kind: work
+    printed: Music S.T.A.R.T!!
+    title:
+      ja: Music S.T.A.R.T!!
+      rom: Music S.T.A.R.T!!
+      ko: Music S.T.A.R.T!!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    note: ''
+    used_in: ['release.php#cd28 #1', 'release.php#cd28 #3', 'release.php#cd53 #2-1', 'release.php#cd53 #3-11']
+    ref: work:muse/music-s-t-a-r-t
+  - kind: work
+    printed: LOVELESS WORLD
+    title:
+      ja: LOVELESS WORLD
+      rom: LOVELESS WORLD
+      ko: LOVELESS WORLD
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    note: ''
+    used_in: ['release.php#cd28 #2', 'release.php#cd28 #4', 'release.php#cd53 #2-2']
+    ref: work:muse/loveless-world
+  - kind: work
+    printed: 行こう行こう♪ 雪の国へ
+    title:
+      ja: 行こう行こう♪ 雪の国へ
+      rom: Let's Go Let's Go♪ To The Land Of Snow
+      ko: 가자가자♪ 눈의 나라로
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    note: 'ja: 공식 페이지. rom: Fandom(Music S.T.A.R.T!! 문서 트랙 목록의 영역), ko: 나무위키(Music S.T.A.R.T!!/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Music%20S.T.A.R.T%21%21/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Music_S.T.A.R.T!!'
+    used_in: ['release.php#cd28 #5']
+    ref: work:muse/let-s-go-let-s-go-to-the-land-of-snow
+  - kind: work
+    printed: ゲレンデでサバイバル！？
+    title:
+      ja: ゲレンデでサバイバル！？
+      rom: Survival On The Ski Slope!?
+      ko: 스키 연습장에서 서바이벌!?
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    note: 'ja: 공식 페이지. rom: Fandom(Music S.T.A.R.T!! 문서 트랙 목록의 영역), ko: 나무위키(Music S.T.A.R.T!!/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Music%20S.T.A.R.T%21%21/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Music_S.T.A.R.T!!'
+    used_in: ['release.php#cd28 #6']
+    ref: work:muse/survival-on-the-ski-slope
+  - kind: work
+    printed: 危ない！？ イン・マイ・ドリーム
+    title:
+      ja: 危ない！？ イン・マイ・ドリーム
+      rom: Dangerous!? In My Dream
+      ko: 위험해!? 인 마이 드림
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    note: 'ja: 공식 페이지. rom: Fandom(Music S.T.A.R.T!! 문서 트랙 목록의 영역), ko: 나무위키(Music S.T.A.R.T!!/드라마 CD 문서의 번역) 외부 근거: https://namu.wiki/w/Music%20S.T.A.R.T%21%21/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Music_S.T.A.R.T!!'
+    used_in: ['release.php#cd28 #7']
+    ref: work:muse/dangerous-in-my-dream
+  - kind: work
+    printed: タカラモノズ
+    title:
+      ja: タカラモノズ
+      rom: Takaramonozu
+      ko: 보물들
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%A2%E3%83%8E%E3%82%BA https://love-live.fandom.com/wiki/Takaramonozu'
+    used_in: ['release.php#cd30 #1', 'release.php#cd30 #3', 'release.php#cd53 #2-3']
+    ref: work:muse/takaramonozu
+  - kind: work
+    printed: Paradise Live
+    title:
+      ja: Paradise Live
+      rom: Paradise Live
+      ko: Paradise Live
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+    note: ''
+    used_in: ['release.php#cd30 #2', 'release.php#cd30 #4', 'release.php#cd53 #2-4']
+    ref: work:muse/paradise-live
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 高坂穂乃果 orange cheers!
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 高坂穂乃果 orange cheers!
+      rom: Love Live! Solo Live! from μ's Honoka Kosaka orange cheers!
+      ko: 러브 라이브! Solo Live! from μ's 코사카 호노카 orange cheers!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제는 라틴 원문 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-honoka-kosaka-orange-cheers
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 絢瀬絵里 アイス・ブルーの瞬間
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 絢瀬絵里 アイス・ブルーの瞬間
+      rom: Love Live! Solo Live! from μ's Eli Ayase Ice Blue no Shunkan
+      ko: 러브 라이브! Solo Live! from μ's 아야세 에리 아이스 블루의 순간
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-eli-ayase-ice-blue-no-shunkan
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 南ことり 純白ロマンス
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 南ことり 純白ロマンス
+      rom: Love Live! Solo Live! from μ's Kotori Minami Junpaku Romance
+      ko: 러브 라이브! Solo Live! from μ's 미나미 코토리 순백 로맨스
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-kotori-minami-junpaku-romance
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 園田海未 蒼の神話
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 園田海未 蒼の神話
+      rom: Love Live! Solo Live! from μ's Umi Sonoda Ao no Shinwa
+      ko: 러브 라이브! Solo Live! from μ's 소노다 우미 푸른 신화
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-umi-sonoda-ao-no-shinwa
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 星空 凛 Ring a yellow bell
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 星空 凛 Ring a yellow bell
+      rom: Love Live! Solo Live! from μ's Rin Hoshizora Ring a yellow bell
+      ko: 러브 라이브! Solo Live! from μ's 호시조라 린 Ring a yellow bell
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제는 라틴 원문 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-rin-hoshizora-ring-a-yellow-bell
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 西木野真姫 SCARLET PRINCESS
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 西木野真姫 SCARLET PRINCESS
+      rom: Love Live! Solo Live! from μ's Maki Nishikino SCARLET PRINCESS
+      ko: 러브 라이브! Solo Live! from μ's 니시키노 마키 SCARLET PRINCESS
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제는 라틴 원문 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-maki-nishikino-scarlet-princess
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 東條 希 バイオレットムーン
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 東條 希 バイオレットムーン
+      rom: Love Live! Solo Live! from μ's Nozomi Tojo Violet Moon
+      ko: 러브 라이브! Solo Live! from μ's 토죠 노조미 바이올렛 문
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-nozomi-tojo-violet-moon
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 小泉花陽 若草のSeason
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 小泉花陽 若草のSeason
+      rom: Love Live! Solo Live! from μ's Hanayo Koizumi Wakakusa no Season
+      ko: 러브 라이브! Solo Live! from μ's 코이즈미 하나요 여린 잎의 Season
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-hanayo-koizumi-wakakusa-no-season
+  - kind: release
+    printed: ラブライブ！ Solo Live! from μ's 矢澤にこ ももいろ♡えがお
+    title:
+      ja: ラブライブ！ Solo Live! from μ's 矢澤にこ ももいろ♡えがお
+      rom: Love Live! Solo Live! from μ's Nico Yazawa Momoiro♡Egao
+      ko: 러브 라이브! Solo Live! from μ's 야자와 니코 분홍빛♡미소
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    used_in: []
+    ref: release:muse/2014-love-live-solo-live-from-s-nico-yazawa-momoiro-egao
+  - kind: work
+    printed: それは僕たちの奇跡
+    title:
+      ja: それは僕たちの奇跡
+      rom: Sore wa Bokutachi no Kiseki
+      ko: 그것은 우리의 기적
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9D%E3%82%8C%E3%81%AF%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AE%E5%A5%87%E8%B7%A1 https://love-live.fandom.com/wiki/Sore_wa_Bokutachi_no_Kiseki'
+    used_in: ['release.php#cd41 #1', 'release.php#cd41 #3', 'release.php#cd53 #2-5']
+    ref: work:muse/sore-wa-bokutachi-no-kiseki
+  - kind: work
+    printed: だってだって噫無情
+    title:
+      ja: だってだって噫無情
+      rom: Datte Datte Aa Mujou
+      ko: 그치만 그치만 아아 무정
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A0%E3%81%A3%E3%81%A6%E3%81%A0%E3%81%A3%E3%81%A6%E5%99%AB%E7%84%A1%E6%83%85 https://love-live.fandom.com/wiki/Datte_Datte_Aa_Mujou'
+    used_in: ['release.php#cd41 #2', 'release.php#cd41 #4', 'release.php#cd53 #2-6']
+    ref: work:muse/datte-datte-aa-mujou
+  - kind: work
+    printed: どんなときもずっと
+    title:
+      ja: どんなときもずっと
+      rom: Donna Toki mo Zutto
+      ko: 어떤 때라도 계속
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%82%82%E3%81%9A%E3%81%A3%E3%81%A8 https://love-live.fandom.com/wiki/Donna_Toki_mo_Zutto'
+    used_in: ['release.php#cd42 #1', 'release.php#cd42 #3', 'release.php#cd53 #2-7']
+    ref: work:muse/donna-toki-mo-zutto
+  - kind: work
+    printed: COLORFUL VOICE
+    title:
+      ja: COLORFUL VOICE
+      rom: COLORFUL VOICE
+      ko: COLORFUL VOICE
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    note: ''
+    used_in: ['release.php#cd42 #2', 'release.php#cd42 #4', 'release.php#cd53 #2-8']
+    ref: work:muse/colorful-voice
+  - kind: work
+    printed: ユメノトビラ
+    title:
+      ja: ユメノトビラ
+      rom: Yume no Tobira
+      ko: 꿈의 문
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%A6%E3%83%A1%E3%83%8E%E3%83%88%E3%83%93%E3%83%A9 https://love-live.fandom.com/wiki/Yume_no_Tobira'
+    used_in: ['release.php#cd43 #1', 'release.php#cd43 #3', 'release.php#cd53 #2-9']
+    ref: work:muse/yume-no-tobira
+  - kind: work
+    printed: SENTIMENTAL StepS
+    title:
+      ja: SENTIMENTAL StepS
+      rom: SENTIMENTAL StepS
+      ko: SENTIMENTAL StepS
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
+    note: ''
+    used_in: ['release.php#cd43 #2', 'release.php#cd43 #4', 'release.php#cd53 #2-10']
+    ref: work:muse/sentimental-steps
+  - kind: work
+    printed: Love wing bell
+    title:
+      ja: Love wing bell
+      rom: Love wing bell
+      ko: Love wing bell
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd44
+    note: ''
+    used_in: ['release.php#cd44 #1', 'release.php#cd44 #3', 'release.php#cd53 #2-11']
+    ref: work:muse/love-wing-bell
+  - kind: work
+    printed: Dancing stars on me!
+    title:
+      ja: Dancing stars on me!
+      rom: Dancing stars on me!
+      ko: Dancing stars on me!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd44
+    note: ''
+    used_in: ['release.php#cd44 #2', 'release.php#cd44 #4', 'release.php#cd53 #2-12']
+    ref: work:muse/dancing-stars-on-me
+  - kind: release
+    printed: TVA2 BD Vol.1
+    title:
+      ja: TVA2 BD Vol.1
+      rom: TVA2 BD Vol.1
+      ko: TVA2 BD Vol.1
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-1
+  - kind: work
+    printed: シアワセ行きのSMILING!
+    title:
+      ja: シアワセ行きのSMILING!
+      rom: Shiawase Iki no SMILING!
+      ko: 행복을 향한 SMILING!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B7%E3%82%A2%E3%83%AF%E3%82%BB%E8%A1%8C%E3%81%8D%E3%81%AESMILING%21 https://love-live.fandom.com/wiki/Shiawase_Iki_no_SMILING!'
+    used_in: ['#bd01 #1', '#bd01 #2']
+    ref: work:muse/shiawase-iki-no-smiling
+  - kind: work
+    printed: KiRa-KiRa Sensation!
+    title:
+      ja: KiRa-KiRa Sensation!
+      rom: KiRa-KiRa Sensation!
+      ko: KiRa-KiRa Sensation!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    note: ''
+    used_in: ['release.php#cd46 #1', 'release.php#cd46 #3', 'release.php#cd53 #2-13']
+    ref: work:muse/kira-kira-sensation
+  - kind: work
+    printed: Happy maker!
+    title:
+      ja: Happy maker!
+      rom: Happy maker!
+      ko: Happy maker!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    note: ''
+    used_in: ['release.php#cd46 #2', 'release.php#cd46 #4', 'release.php#cd53 #2-14']
+    ref: work:muse/happy-maker
+  - kind: release
+    printed: TVA2 BD Vol.2
+    title:
+      ja: TVA2 BD Vol.2
+      rom: TVA2 BD Vol.2
+      ko: TVA2 BD Vol.2
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-2
+  - kind: work
+    printed: ずるいよMagnetic today
+    title:
+      ja: ずるいよMagnetic today
+      rom: Zurui yo Magnetic today
+      ko: 치사해 Magnetic today
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9A%E3%82%8B%E3%81%84%E3%82%88Magnetic%20today https://love-live.fandom.com/wiki/Zurui_yo_Magnetic_today'
+    used_in: ['#bd02 #1', '#bd02 #2']
+    ref: work:muse/zurui-yo-magnetic-today
+  - kind: release
+    printed: TVA2 BD Vol.3
+    title:
+      ja: TVA2 BD Vol.3
+      rom: TVA2 BD Vol.3
+      ko: TVA2 BD Vol.3
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd03
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-3
+  - kind: work
+    printed: くるりんMIRACLE
+    title:
+      ja: くるりんMIRACLE
+      rom: Kururin MIRACLE
+      ko: 빙그르르 MIRACLE
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd03
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%8F%E3%82%8B%E3%82%8A%E3%82%93MIRACLE https://love-live.fandom.com/wiki/Kururin_MIRACLE'
+    used_in: ['#bd03 #1', '#bd03 #2']
+    ref: work:muse/kururin-miracle
+  - kind: release
+    printed: TVA2 BD Vol.4
+    title:
+      ja: TVA2 BD Vol.4
+      rom: TVA2 BD Vol.4
+      ko: TVA2 BD Vol.4
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd04
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-4
+  - kind: work
+    printed: Storm in Lover
+    title:
+      ja: Storm in Lover
+      rom: Storm in Lover
+      ko: Storm in Lover
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd04
+    note: ''
+    used_in: ['#bd04 #1', '#bd04 #2']
+    ref: work:muse/storm-in-lover
+  - kind: work
+    printed: Shangri-La Shower
+    title:
+      ja: Shangri-La Shower
+      rom: Shangri-La Shower
+      ko: Shangri-La Shower
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd47
+    note: ''
+    used_in: ['release.php#cd47 #1', 'release.php#cd47 #3', 'release.php#cd53 #2-15']
+    ref: work:muse/shangri-la-shower
+  - kind: work
+    printed: るてしキスキしてる
+    title:
+      ja: るてしキスキしてる
+      rom: Ruteshi Kisuki Shiteru
+      ko: 해아좋아해
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd47
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%8B%E3%81%A6%E3%81%97%E3%82%AD%E3%82%B9%E3%82%AD%E3%81%97%E3%81%A6%E3%82%8B https://love-live.fandom.com/wiki/Ruteshi_Kisuki_Shiteru'
+    used_in: ['release.php#cd47 #2', 'release.php#cd47 #4', 'release.php#cd53 #2-16']
+    ref: work:muse/ruteshi-kisuki-shiteru
+  - kind: release
+    printed: TVA2 BD Vol.5
+    title:
+      ja: TVA2 BD Vol.5
+      rom: TVA2 BD Vol.5
+      ko: TVA2 BD Vol.5
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd05
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-5
+  - kind: work
+    printed: もしもからきっと
+    title:
+      ja: もしもからきっと
+      rom: Moshimo Kara Kitto
+      ko: 만약으로부터 분명
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd05
+    note: 'ja: 공식 페이지. rom: Fandom(조사 Kara를 대문자로 쓴 Fandom 표기 그대로. 규칙 엔진이면 Moshimo kara Kitto. 기존 Yume ga Koko Kara Hajimaru yo와 같은 처리), ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%82%E3%81%97%E3%82%82%E3%81%8B%E3%82%89%E3%81%8D%E3%81%A3%E3%81%A8 https://love-live.fandom.com/wiki/Moshimo_Kara_Kitto'
+    used_in: ['#bd05 #1', '#bd05 #2']
+    ref: work:muse/moshimo-kara-kitto
+  - kind: work
+    printed: 永遠フレンズ
+    title:
+      ja: 永遠フレンズ
+      rom: Eien Friends
+      ko: 영원 프렌즈
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%B0%B8%E9%81%A0%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA https://love-live.fandom.com/wiki/Eien_Friends'
+    used_in: ['release.php#cd49 #1', 'release.php#cd49 #3', 'release.php#cd53 #3-1']
+    ref: work:muse/eien-friends
+  - kind: work
+    printed: 小夜啼鳥恋詩
+    title:
+      ja: 小夜啼鳥恋詩
+      rom: Nightingale Love Song
+      ko: 나이팅게일 러브송
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    note: 'ja: 공식 페이지. rom: Fandom(공식 루비 ナイチンゲールラブソング의 영어), ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B0%8F%E5%A4%9C%E5%95%BC%E9%B3%A5%E6%81%8B%E8%A9%A9 https://love-live.fandom.com/wiki/Nightingale_Love_Song'
+    used_in: ['release.php#cd49 #2', 'release.php#cd49 #4', 'release.php#cd53 #3-2']
+    ref: work:muse/nightingale-love-song
+  - kind: work
+    printed: カモナ！ 真姫ハウス
+    title:
+      ja: カモナ！ 真姫ハウス
+      rom: Come On A! Maki House
+      ko: 컴 온 어! 마키 하우스
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    note: "ja: 공식 페이지. rom: 번역안(Fandom 트랙 목록의 영역 That's Possible! Maki House는 カモナ를 かもな로 읽은 오역. 나무위키 각주대로 Come on a(Come On A My House 패러디)로 옮김), 확인 필요, ko: 나무위키(永遠フレンズ/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/%E6%B0%B8%E9%81%A0%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Eien_Friends"
+    used_in: ['release.php#cd49 #5']
+    ref: work:muse/come-on-a-maki-house
+  - kind: release
+    printed: TVA2 BD Vol.6
+    title:
+      ja: TVA2 BD Vol.6
+      rom: TVA2 BD Vol.6
+      ko: TVA2 BD Vol.6
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-6
+  - kind: work
+    printed: 好きですが好きですか？
+    title:
+      ja: 好きですが好きですか？
+      rom: Suki desu ga Suki desu ka?
+      ko: 좋아하는데 좋아하나요?
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F https://love-live.fandom.com/wiki/Suki_desu_ga_Suki_desu_ka%3F'
+    used_in: ['#bd06 #1', '#bd06 #2']
+    ref: work:muse/suki-desu-ga-suki-desu-ka
+  - kind: work
+    printed: 秋のあなたの空遠く
+    title:
+      ja: 秋のあなたの空遠く
+      rom: Aki no Anata no Sora Tooku
+      ko: 가을의 당신의 하늘 저 멀리
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%A7%8B%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%A9%BA%E9%81%A0%E3%81%8F https://love-live.fandom.com/wiki/Aki_no_Anata_no_Sora_Tooku'
+    used_in: ['release.php#cd50 #1', 'release.php#cd50 #3', 'release.php#cd53 #3-3']
+    ref: work:muse/aki-no-anata-no-sora-tooku
+  - kind: work
+    printed: ふたりハピネス
+    title:
+      ja: ふたりハピネス
+      rom: Futari Happiness
+      ko: 두 사람 해피니스
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%81%9F%E3%82%8A%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9 https://love-live.fandom.com/wiki/Futari_Happiness'
+    used_in: ['release.php#cd50 #2', 'release.php#cd50 #4', 'release.php#cd53 #3-4']
+    ref: work:muse/futari-happiness
+  - kind: work
+    printed: 見たい知りたい！モードチェック
+    title:
+      ja: 見たい知りたい！モードチェック
+      rom: I want to see and know! Mode Check
+      ko: 보고 싶어 알고 싶어! 모드 체크
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    note: 'ja: 공식 페이지. rom: Fandom(Aki no Anata no Sora Tooku 문서 트랙 목록의 영역), ko: 나무위키(秋のあなたの空遠く/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/%E7%A7%8B%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%A9%BA%E9%81%A0%E3%81%8F/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Aki_no_Anata_no_Sora_Tooku'
+    used_in: ['release.php#cd50 #5']
+    ref: work:muse/i-want-to-see-and-know-mode-check
+  - kind: work
+    printed: 冬がくれた予感
+    title:
+      ja: 冬がくれた予感
+      rom: Fuyu ga Kureta Yokan
+      ko: 겨울이 준 예감
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%86%AC%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E4%BA%88%E6%84%9F https://love-live.fandom.com/wiki/Fuyu_ga_Kureta_Yokan'
+    used_in: ['release.php#cd51 #1', 'release.php#cd51 #3', 'release.php#cd53 #3-5']
+    ref: work:muse/fuyu-ga-kureta-yokan
+  - kind: work
+    printed: Trouble Busters
+    title:
+      ja: Trouble Busters
+      rom: Trouble Busters
+      ko: Trouble Busters
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+    note: ''
+    used_in: ['release.php#cd51 #2', 'release.php#cd51 #4', 'release.php#cd53 #3-6']
+    ref: work:muse/trouble-busters
+  - kind: work
+    printed: 夢にときめけ！ 今にふりつけ！
+    title:
+      ja: 夢にときめけ！ 今にふりつけ！
+      rom: Shine Like Our Dreams! Choreography Now!
+      ko: 꿈에 설레어라! 지금 춤춰라!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+    note: 'ja: 공식 페이지. rom: Fandom(Fuyu ga Kureta Yokan 문서 트랙 목록의 영역), ko: 나무위키(冬がくれた予感/드라마 CD 문서의 번역, (미니 드라마) 표시는 인쇄 제목에 없어 뺌) 외부 근거: https://namu.wiki/w/%E5%86%AC%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E4%BA%88%E6%84%9F/%EB%93%9C%EB%9D%BC%EB%A7%88%20CD https://love-live.fandom.com/wiki/Fuyu_ga_Kureta_Yokan'
+    used_in: ['release.php#cd51 #5']
+    ref: work:muse/shine-like-our-dreams-choreography-now
+  - kind: release
+    printed: TVA2 BD Full (animate)
+    title:
+      ja: TVA2 BD Full (animate)
+      rom: TVA2 BD Full (animate)
+      ko: TVA2 BD Full (animate)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-animate
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-full-animate
+  - kind: work
+    printed: Silent tonight
+    title:
+      ja: Silent tonight
+      rom: Silent tonight
+      ko: Silent tonight
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-animate
+    note: ''
+    used_in: ['#bd00-animate #1', '#bd00-animate #2']
+    ref: work:muse/silent-tonight
+  - kind: release
+    printed: TVA2 BD Full (Gamers)
+    title:
+      ja: TVA2 BD Full (Gamers)
+      rom: TVA2 BD Full (Gamers)
+      ko: TVA2 BD Full (Gamers)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-gamers
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-full-gamers
+  - kind: work
+    printed: CheerDay CheerGirl!
+    title:
+      ja: CheerDay CheerGirl!
+      rom: CheerDay CheerGirl!
+      ko: CheerDay CheerGirl!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-gamers
+    note: ''
+    used_in: ['#bd00-gamers #1', '#bd00-gamers #2']
+    ref: work:muse/cheerday-cheergirl
+  - kind: release
+    printed: TVA2 BD Full (Sofmap)
+    title:
+      ja: TVA2 BD Full (Sofmap)
+      rom: TVA2 BD Full (Sofmap)
+      ko: TVA2 BD Full (Sofmap)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-sofmap
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-full-sofmap
+  - kind: work
+    printed: 同じ星が見たい
+    title:
+      ja: 同じ星が見たい
+      rom: Onaji Hoshi ga Mitai
+      ko: 같은 별이 보고 싶어
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-sofmap
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%90%8C%E3%81%98%E6%98%9F%E3%81%8C%E8%A6%8B%E3%81%9F%E3%81%84 https://love-live.fandom.com/wiki/Onaji_Hoshi_ga_Mitai'
+    used_in: ['#bd00-sofmap #1', '#bd00-sofmap #2']
+    ref: work:muse/onaji-hoshi-ga-mitai
+  - kind: release
+    printed: TVA2 BD Vol.7
+    title:
+      ja: TVA2 BD Vol.7
+      rom: TVA2 BD Vol.7
+      ko: TVA2 BD Vol.7
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd07
+    note: ''
+    used_in: []
+    ref: release:muse/2014-tva2-bd-vol-7
+  - kind: work
+    printed: そして最後のページには
+    title:
+      ja: そして最後のページには
+      rom: Soshite Saigo no Page ni wa
+      ko: 그리고 마지막 페이지에는
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd07
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9D%E3%81%97%E3%81%A6%E6%9C%80%E5%BE%8C%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AB%E3%81%AF https://love-live.fandom.com/wiki/Soshite_Saigo_no_Page_ni_wa'
+    used_in: ['#bd07 #1', '#bd07 #2']
+    ref: work:muse/soshite-saigo-no-page-ni-wa
+  - kind: work
+    printed: ミはμ'sicのミ
+    title:
+      ja: ミはμ'sicのミ
+      rom: Mi wa μ'sic no Mi
+      ko: 미는 μ'sic의 미
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+    note: "ja: 공식 페이지. rom: Fandom(Mi wa µ'sic no Mi의 µ(U+00B5)를 인쇄된 μ로), ko: 나무위키(미는 μ’sic의 미의 ’를 인쇄된 '로) 외부 근거: https://namu.wiki/w/%E3%83%9F%E3%81%AF%CE%BC%E2%80%99sic%E3%81%AE%E3%83%9F https://love-live.fandom.com/wiki/Mi_wa_%C2%B5'sic_no_Mi"
+    used_in: ['release.php#cd52 #1', 'release.php#cd52 #3']
+    ref: work:muse/mi-wa-sic-no-mi
+  - kind: work
+    printed: Super LOVE=Super LIVE!
+    title:
+      ja: Super LOVE=Super LIVE!
+      rom: Super LOVE=Super LIVE!
+      ko: Super LOVE=Super LIVE!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+    note: ''
+    used_in: ['release.php#cd52 #2', 'release.php#cd52 #4']
+    ref: work:muse/super-love-super-live
+  - kind: release
+    printed: μ's Best Album Best Live! Collection Ⅱ
+    title:
+      ja: μ's Best Album Best Live! Collection Ⅱ
+      rom: μ's Best Album Best Live! Collection II
+      ko: μ's Best Album Best Live! Collection II
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    note: ''
+    used_in: []
+    ref: release:muse/2015-s-best-album-best-live-collection-ii
+  - kind: work
+    printed: Angelic Angel
+    title:
+      ja: Angelic Angel
+      rom: Angelic Angel
+      ko: Angelic Angel
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    note: ''
+    used_in: ['release.php#cd54 #1', 'release.php#cd54 #3']
+    ref: work:muse/angelic-angel
+  - kind: work
+    printed: Hello,星を数えて
+    title:
+      ja: Hello,星を数えて
+      rom: Hello, Hoshi o Kazoete
+      ko: Hello, 별을 세며
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/Hello%2C%20%E6%98%9F%E3%82%92%E6%95%B0%E3%81%88%E3%81%A6 https://love-live.fandom.com/wiki/Hello,_Hoshi_o_Kazoete'
+    used_in: ['release.php#cd54 #2', 'release.php#cd54 #4']
+    ref: work:muse/hello-hoshi-o-kazoete
+  - kind: work
+    printed: SUNNY DAY SONG
+    title:
+      ja: SUNNY DAY SONG
+      rom: SUNNY DAY SONG
+      ko: SUNNY DAY SONG
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    note: ''
+    used_in: ['release.php#cd55 #1', 'release.php#cd55 #3']
+    ref: work:muse/sunny-day-song
+  - kind: work
+    printed: ？←HEARTBEAT
+    title:
+      ja: ？←HEARTBEAT
+      rom: ?←HEARTBEAT
+      ko: ?←HEARTBEAT
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    note: ''
+    used_in: ['release.php#cd55 #2', 'release.php#cd55 #4']
+    ref: work:muse/heartbeat
+  - kind: work
+    printed: 僕たちはひとつの光
+    title:
+      ja: 僕たちはひとつの光
+      rom: Bokutachi wa Hitotsu no Hikari
+      ko: 우리는 하나의 빛
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AE%E5%85%89 https://love-live.fandom.com/wiki/Bokutachi_wa_Hitotsu_no_Hikari'
+    used_in: ['release.php#cd56 #1', 'release.php#cd56 #3']
+    ref: work:muse/bokutachi-wa-hitotsu-no-hikari
+  - kind: work
+    printed: Future style
+    title:
+      ja: Future style
+      rom: Future style
+      ko: Future style
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    note: ''
+    used_in: ['release.php#cd56 #2', 'release.php#cd56 #4']
+    ref: work:muse/future-style
+  - kind: work
+    printed: HEART to HEART!
+    title:
+      ja: HEART to HEART!
+      rom: HEART to HEART!
+      ko: HEART to HEART!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    note: ''
+    used_in: ['release.php#cd63 #1', 'release.php#cd63 #3']
+    ref: work:muse/heart-to-heart
+  - kind: work
+    printed: 嵐のなかの恋だから
+    title:
+      ja: 嵐のなかの恋だから
+      rom: Arashi no Naka no Koi dakara
+      ko: 폭풍 속의 사랑이니까
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B5%90%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%AE%E6%81%8B%E3%81%A0%E3%81%8B%E3%82%89 https://love-live.fandom.com/wiki/Arashi_no_Naka_no_Koi_dakara'
+    used_in: ['release.php#cd63 #2', 'release.php#cd63 #4']
+    ref: work:muse/arashi-no-naka-no-koi-dakara
+  - kind: work
+    printed: WAO-WAO Powerful day!
+    title:
+      ja: WAO-WAO Powerful day!
+      rom: WAO-WAO Powerful day!
+      ko: WAO-WAO Powerful day!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    note: ''
+    used_in: ['release.php#cd64 #1', 'release.php#cd64 #3']
+    ref: work:muse/wao-wao-powerful-day
+  - kind: work
+    printed: NO EXIT ORION
+    title:
+      ja: NO EXIT ORION
+      rom: NO EXIT ORION
+      ko: NO EXIT ORION
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    note: ''
+    used_in: ['release.php#cd64 #2', 'release.php#cd64 #4']
+    ref: work:muse/no-exit-orion
+  - kind: release
+    printed: Movie BD
+    title:
+      ja: Movie BD
+      rom: Movie BD
+      ko: Movie BD
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01
+    note: ''
+    used_in: []
+    ref: release:muse/2015-movie-bd
+  - kind: work
+    printed: これから
+    title:
+      ja: これから
+      rom: Korekara
+      ko: 지금부터
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89 https://love-live.fandom.com/wiki/Korekara'
+    used_in: ['#bd01 #1', '#bd01 #2']
+    ref: work:muse/korekara
+  - kind: work
+    printed: 思い出以上になりたくて
+    title:
+      ja: 思い出以上になりたくて
+      rom: Omoide Ijou ni Naritakute
+      ko: 추억 이상이 되고 싶어서
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%80%9D%E3%81%84%E5%87%BA%E4%BB%A5%E4%B8%8A%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6 https://love-live.fandom.com/wiki/Omoide_Ijou_ni_Naritakute'
+    used_in: ['release.php#cd65 #1', 'release.php#cd65 #3']
+    ref: work:muse/omoide-ijou-ni-naritakute
+  - kind: work
+    printed: 春情ロマンティック
+    title:
+      ja: 春情ロマンティック
+      rom: Shunjou Romantic
+      ko: 춘정 로맨틱
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%98%A5%E6%83%85%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF https://love-live.fandom.com/wiki/Shunjou_Romantic'
+    used_in: ['release.php#cd65 #2', 'release.php#cd65 #4']
+    ref: work:muse/shunjou-romantic
+  - kind: work
+    printed: 錯覚CROSSROADS
+    title:
+      ja: 錯覚CROSSROADS
+      rom: Sakkaku CROSSROADS
+      ko: 착각 CROSSROADS
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E9%8C%AF%E8%A6%9ACROSSROADS https://love-live.fandom.com/wiki/Sakkaku_CROSSROADS'
+    used_in: ['release.php#cd66 #1', 'release.php#cd66 #3']
+    ref: work:muse/sakkaku-crossroads
+  - kind: work
+    printed: PSYCHIC FIRE
+    title:
+      ja: PSYCHIC FIRE
+      rom: PSYCHIC FIRE
+      ko: PSYCHIC FIRE
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+    note: ''
+    used_in: ['release.php#cd66 #2', 'release.php#cd66 #4']
+    ref: work:muse/psychic-fire
+  - kind: work
+    printed: MOMENT RING
+    title:
+      ja: MOMENT RING
+      rom: MOMENT RING
+      ko: MOMENT RING
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
+    note: ''
+    used_in: ['release.php#cd67 #1', 'release.php#cd67 #3']
+    ref: work:muse/moment-ring
+  - kind: work
+    printed: さようならへさよなら！
+    title:
+      ja: さようならへさよなら！
+      rom: Sayounara e Sayonara!
+      ko: 안녕이라는 말에 안녕!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%95%E3%82%88%E3%81%86%E3%81%AA%E3%82%89%E3%81%B8%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%EF%BC%81 https://love-live.fandom.com/wiki/Sayounara_e_Sayonara!'
+    used_in: ['release.php#cd67 #2', 'release.php#cd67 #4']
+    ref: work:muse/sayounara-e-sayonara
+  - kind: work
+    printed: A song for You! You? You!!
+    title:
+      ja: A song for You! You? You!!
+      rom: A song for You! You? You!!
+      ko: A song for You! You? You!!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+    note: ''
+    used_in: ['release.php#cd84 #1', 'release.php#cd84 #3']
+    ref: work:muse/a-song-for-you-you-you
+  - kind: work
+    printed: なってしまった！
+    title:
+      ja: なってしまった！
+      rom: Natte Shimatta!
+      ko: 되어버렸어!
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%EF%BC%81 https://love-live.fandom.com/wiki/Natte_Shimatta!'
+    used_in: ['release.php#cd84 #2', 'release.php#cd84 #4']
+    ref: work:muse/natte-shimatta
+  - kind: work
+    printed: ラブライ部 テーマソングDJCDでもラジオ課外活動～にこりんぱな～
+    title:
+      ja: ラブライ部 テーマソングDJCDでもラジオ課外活動～にこりんぱな～
+      rom: Raburaibu Theme Song DJCD demo Radio Kagai Katsudou ~NicoRinPana~
+      ko: 러브라이부 테마송 DJCD에서도 라디오 과외 활동 ~니코린파나~
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+    note: "ja: 공식 페이지(트랙 표기의 [DJトラック]은 뺌). rom: Fandom 트랙 목록의 로마자 'Raburaibu Tēma Songu DJCD demo Rajio Kagai Katsudou ~NikoRinPana~'에서 외래어를 영어로, 장음 기호 없이(위 발매물 제목과 같은 방식), ko: 번역안(나무위키 미게재), 확인 필요 외부 근거: https://love-live.fandom.com/wiki/Listen_to_my_heart!!"
+    used_in: ['release.php#cd16 #5']
+    ref: work:muse/raburaibu-theme-song-djcd-demo-radio-kagai-katsudou-nicorinpana
+  - kind: release
+    printed: ラブライ部 ラジオ課外活動 にこりんぱな テーマソングDJCD
+    title:
+      ja: ラブライ部 ラジオ課外活動 にこりんぱな テーマソングDJCD
+      rom: Raburaibu Radio Kagai Katsudou NicoRinPana Theme Song DJCD
+      ko: 러브라이부 라디오 과외 활동 니코린파나 테마송 DJCD
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+    note: "ja: 공식 페이지(【タイトル】). rom: 번역안(ドラマCD → Drama CD 선례처럼 외래어는 영어, ラブライ部·課外活動은 로마자, にこりんぱな는 아티스트 rom. Fandom은 'Love Live! Web Radio' 테마 CD로만 적음), ko: 번역안(나무위키 미게재), 확인 필요 외부 근거: https://love-live.fandom.com/wiki/Listen_to_my_heart!!"
+    used_in: []
+    ref: release:muse/2012-raburaibu-radio-kagai-katsudou-nicorinpana-theme-song-djcd

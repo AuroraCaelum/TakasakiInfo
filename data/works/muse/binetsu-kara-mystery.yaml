@@ -1,0 +1,61 @@
+id: muse/binetsu-kara-mystery
+project: muse
+title:
+  ja: 微熱からMystery
+  rom: Binetsu Kara Mystery
+  ko: 미열에서 Mystery
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 微熱からMystery (Off Vocal)
+      rom: Binetsu Kara Mystery (Off Vocal)
+      ko: 미열에서 Mystery (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+        checked: 2026-10-20
+  - id: teke-teke-eleki-mix
+    title:
+      ja: 微熱からMystery (TeKe-TeKe ELEKI Mix)
+      rom: Binetsu Kara Mystery (TeKe-TeKe ELEKI Mix)
+      ko: 미열에서 Mystery (TeKe-TeKe ELEKI Mix)
+    version: TeKe-TeKe ELEKI Mix
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
+    checked: 2026-10-20

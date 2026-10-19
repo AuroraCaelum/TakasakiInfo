@@ -1,0 +1,77 @@
+id: muse/kokuhaku-biyori-desu
+project: muse
+title:
+  ja: 告白日和、です！
+  rom: Kokuhaku Biyori, desu!
+  ko: 고백하기 좋은 날, 이에요!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: mitsuru-wakabayashi}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/kotori-minami}
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 告白日和、です！ (Off Vocal)
+      rom: Kokuhaku Biyori, desu! (Off Vocal)
+      ko: 고백하기 좋은 날, 이에요! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: 告白日和、です！ (KOTORI Mix)
+      rom: Kokuhaku Biyori, desu! (KOTORI Mix)
+      ko: 고백하기 좋은 날, 이에요! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: 告白日和、です！ (HANAYO Mix)
+      rom: Kokuhaku Biyori, desu! (HANAYO Mix)
+      ko: 고백하기 좋은 날, 이에요! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    checked: 2026-10-20

@@ -1,0 +1,41 @@
+id: muse/2011-love-live-solo-live-from-s-umi-sonoda-umiiro-shoujo-ni-miserarete
+type: album
+title:
+  ja: ラブライブ！ Solo Live! from μ's 園田海未 海色少女に魅せられて
+  rom: Love Live! Solo Live! from μ's Umi Sonoda Umiiro Shoujo ni Miserarete
+  ko: 러브 라이브! Solo Live! from μ's 소노다 우미 바닷빛 소녀에게 매료되어
+projects: [muse]
+artist_credit:
+  - {character: muse/umi-sonoda}
+release_date: 2011-11-23
+discs:
+  - tracks:
+      - {no: 1, recording: muse/watashitachi-wa-mirai-no-hana#original}
+      - {no: 2, recording: muse/bokura-no-live-kimi-to-no-life#umi-mix}
+      - {no: 3, recording: muse/yuujou-no-change#umi-mix}
+      - {no: 4, recording: muse/snow-halation#umi-mix}
+      - {no: 5, recording: muse/baby-maybe-koi-no-button#umi-mix}
+      - {no: 6, recording: muse/shiranai-love-oshiete-love#umi-mix}
+      - {no: 7, recording: muse/a-no-ne-ga-n-ba-re#umi-mix}
+      - {no: 8, recording: muse/natsuiro-egao-de-1-2-jump#umi-mix}
+      - {no: 9, recording: muse/mermaid-festa-vol-1#umi-mix}
+      - {no: 10, recording: muse/at-the-winter-sea-date-with-umi#main}
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！ Solo Live! from μ's 園田海未 海色少女に魅せられて}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

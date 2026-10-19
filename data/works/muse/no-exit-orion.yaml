@@ -1,0 +1,46 @@
+id: muse/no-exit-orion
+project: muse
+title:
+  ja: NO EXIT ORION
+  rom: NO EXIT ORION
+  ko: NO EXIT ORION
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ryuhey-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: ryuhey-yamada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: NO EXIT ORION (Off Vocal)
+      rom: NO EXIT ORION (Off Vocal)
+      ko: NO EXIT ORION (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryuhey-yamada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    checked: 2026-10-20

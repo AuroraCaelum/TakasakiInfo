@@ -1,0 +1,22 @@
+id: muse/christmas-with-you-kotori-minami
+kind: drama
+project: muse
+title:
+  ja: あなたとクリスマス -南ことり-
+  rom: Christmas With You -Kotori Minami-
+  ko: 당신과 크리스마스 -미나미 코토리-
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

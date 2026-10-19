@@ -1,0 +1,46 @@
+id: muse/unbalanced-love
+project: muse
+title:
+  ja: UNBALANCED LOVE
+  rom: UNBALANCED LOVE
+  ko: UNBALANCED LOVE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: UNBALANCED LOVE (Off Vocal)
+      rom: UNBALANCED LOVE (Off Vocal)
+      ko: UNBALANCED LOVE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takashi-saeki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
+    checked: 2026-10-20

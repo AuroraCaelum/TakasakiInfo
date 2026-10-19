@@ -1,0 +1,22 @@
+id: muse/pv-filming-soon
+kind: drama
+project: muse
+title:
+  ja: やがてPV撮影に。
+  rom: PV Filming Soon.
+  ko: 이윽고 PV 촬영에.
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

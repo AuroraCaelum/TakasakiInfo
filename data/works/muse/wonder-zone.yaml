@@ -1,0 +1,182 @@
+id: muse/wonder-zone
+project: muse
+title:
+  ja: Wonder zone
+  rom: Wonder zone
+  ko: Wonder zone
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yugo-sasakura}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: Wonder zone (HONOKA Mix)
+      rom: Wonder zone (HONOKA Mix)
+      ko: Wonder zone (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: Wonder zone (ELI Mix)
+      rom: Wonder zone (ELI Mix)
+      ko: Wonder zone (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: Wonder zone (KOTORI Mix)
+      rom: Wonder zone (KOTORI Mix)
+      ko: Wonder zone (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: Wonder zone (UMI Mix)
+      rom: Wonder zone (UMI Mix)
+      ko: Wonder zone (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: Wonder zone (RIN Mix)
+      rom: Wonder zone (RIN Mix)
+      ko: Wonder zone (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: Wonder zone (MAKI Mix)
+      rom: Wonder zone (MAKI Mix)
+      ko: Wonder zone (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: Wonder zone (NOZOMI Mix)
+      rom: Wonder zone (NOZOMI Mix)
+      ko: Wonder zone (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd22)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: Wonder zone (HANAYO Mix)
+      rom: Wonder zone (HANAYO Mix)
+      ko: Wonder zone (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: Wonder zone (NICO Mix)
+      rom: Wonder zone (NICO Mix)
+      ko: Wonder zone (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wonder zone (Off Vocal)
+      rom: Wonder zone (Off Vocal)
+      ko: Wonder zone (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yugo-sasakura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    checked: 2026-10-20

@@ -1,0 +1,94 @@
+id: muse/bokura-no-live-kimi-to-no-life
+project: muse
+title:
+  ja: 僕らのLIVE 君とのLIFE
+  rom: Bokura no LIVE Kimi to no LIFE
+  ko: 우리의 LIVE 너와의 LIFE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕らのLIVE 君とのLIFE (Off Vocal)
+      rom: Bokura no LIVE Kimi to no LIFE (Off Vocal)
+      ko: 우리의 LIVE 너와의 LIFE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 僕らのLIVE 君とのLIFE (UMI MIX)
+      rom: Bokura no LIVE Kimi to no LIFE (UMI MIX)
+      ko: 우리의 LIVE 너와의 LIFE (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: 僕らのLIVE 君とのLIFE (KOTORI Mix)
+      rom: Bokura no LIVE Kimi to no LIFE (KOTORI Mix)
+      ko: 우리의 LIVE 너와의 LIFE (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: 僕らのLIVE 君とのLIFE (HONOKA Mix)
+      rom: Bokura no LIVE Kimi to no LIFE (HONOKA Mix)
+      ko: 우리의 LIVE 너와의 LIFE (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    checked: 2026-10-20

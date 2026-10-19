@@ -1,0 +1,223 @@
+id: muse/start-dash
+project: muse
+title:
+  ja: START:DASH!!
+  rom: START:DASH!!
+  ko: START:DASH!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: START:DASH!! (Off Vocal)
+      rom: START:DASH!! (Off Vocal)
+      ko: START:DASH!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: START:DASH!! (HONOKA Mix)
+      rom: START:DASH!! (HONOKA Mix)
+      ko: START:DASH!! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: START:DASH!! (ELI Mix)
+      rom: START:DASH!! (ELI Mix)
+      ko: START:DASH!! (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: START:DASH!! (KOTORI Mix)
+      rom: START:DASH!! (KOTORI Mix)
+      ko: START:DASH!! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: START:DASH!! (UMI Mix)
+      rom: START:DASH!! (UMI Mix)
+      ko: START:DASH!! (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: START:DASH!! (RIN Mix)
+      rom: START:DASH!! (RIN Mix)
+      ko: START:DASH!! (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: START:DASH!! (MAKI Mix)
+      rom: START:DASH!! (MAKI Mix)
+      ko: START:DASH!! (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: START:DASH!! (NOZOMI Mix)
+      rom: START:DASH!! (NOZOMI Mix)
+      ko: START:DASH!! (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: START:DASH!! (HANAYO Mix)
+      rom: START:DASH!! (HANAYO Mix)
+      ko: START:DASH!! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: START:DASH!! (NICO Mix)
+      rom: START:DASH!! (NICO Mix)
+      ko: START:DASH!! (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+  - id: bitter-sweet-mix
+    title:
+      ja: START:DASH!! (Bitter-Sweet Mix)
+      rom: START:DASH!! (Bitter-Sweet Mix)
+      ko: START:DASH!! (Bitter-Sweet Mix)
+    version: Bitter-Sweet Mix
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: ken-ito}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+        checked: 2026-10-20
+  - id: muse
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
+        checked: 2026-10-20
+  - id: muse-off-vocal
+    kind: off_vocal
+    title:
+      ja: START:DASH!! (Off Vocal)
+      rom: START:DASH!! (Off Vocal)
+      ko: START:DASH!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: muse
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+    checked: 2026-10-20

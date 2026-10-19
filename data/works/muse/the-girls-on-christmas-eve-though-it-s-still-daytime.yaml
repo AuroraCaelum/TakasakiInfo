@@ -1,0 +1,22 @@
+id: muse/the-girls-on-christmas-eve-though-it-s-still-daytime
+kind: drama
+project: muse
+title:
+  ja: 聖夜の女の子たち。…まだ明るいけど
+  rom: The Girls On Christmas Eve... Though It's Still Daytime
+  ko: 크리스마스 이브의 소녀들. …아직 밝지만
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

@@ -1,0 +1,78 @@
+id: muse/sweet-sweet-holiday
+project: muse
+title:
+  ja: sweet＆sweet holiday
+  rom: sweet&sweet holiday
+  ko: sweet&sweet holiday
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: sweet＆sweet holiday (KOTORI Mix)
+      rom: sweet&sweet holiday (KOTORI Mix)
+      ko: sweet&sweet holiday (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: sweet＆sweet holiday (HONOKA Mix)
+      rom: sweet&sweet holiday (HONOKA Mix)
+      ko: sweet&sweet holiday (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: sweet＆sweet holiday (Off Vocal)
+      rom: sweet&sweet holiday (Off Vocal)
+      ko: sweet&sweet holiday (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: akihiko-yamaguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    checked: 2026-10-20

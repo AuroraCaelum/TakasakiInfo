@@ -1,0 +1,94 @@
+id: muse/yuujou-no-change
+project: muse
+title:
+  ja: 友情ノーチェンジ
+  rom: Yuujou No Change
+  ko: 우정 노 체인지
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tron-lm}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: tron-lm}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 友情ノーチェンジ (Off Vocal)
+      rom: Yuujou No Change (Off Vocal)
+      ko: 우정 노 체인지 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tron-lm}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 友情ノーチェンジ (UMI MIX)
+      rom: Yuujou No Change (UMI MIX)
+      ko: 우정 노 체인지 (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: tron-lm}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: 友情ノーチェンジ (KOTORI Mix)
+      rom: Yuujou No Change (KOTORI Mix)
+      ko: 우정 노 체인지 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: tron-lm}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: 友情ノーチェンジ (HONOKA Mix)
+      rom: Yuujou No Change (HONOKA Mix)
+      ko: 우정 노 체인지 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: tron-lm}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    checked: 2026-10-20

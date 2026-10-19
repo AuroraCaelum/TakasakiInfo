@@ -1,0 +1,39 @@
+id: muse/2013-tva1-bd-vol-3
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.3
+  rom: TVA1 BD Vol.3
+  ko: TVA1 BD Vol.3
+projects: [muse]
+artist_credit:
+  - {character: muse/hanayo-koizumi}
+release_date: 2013-05-28
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/nawatobi#original}
+      - {no: 2, recording: muse/nawatobi#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd03
+legacy:
+  category: Muse
+  albums:
+    - {title: TVA1 BD Vol.3}
+evidence:
+  tracks:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nawatobi
+    checked: 2026-10-20
+    note: '공식 미게재(Off Vocal): 곡명·가창은 공식 BD BOX 페이지 https://www.lovelive-anime.jp/otonokizaka/bd/, TV 1기 BD 페이지는 2~7권 블록에 특전 CD를 싣지 않음. Fandom 곡 문서의 트랙 목록(곡·Off Vocal)'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd03
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

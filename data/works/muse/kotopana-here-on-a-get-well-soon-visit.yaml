@@ -1,0 +1,23 @@
+id: muse/kotopana-here-on-a-get-well-soon-visit
+kind: drama
+project: muse
+title:
+  ja: ことぱな、お見舞いに来ました！
+  rom: KotoPana, here on a get-well-soon visit!
+  ko: 코토파나, 병문안을 왔습니다!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: muse/kotori-minami}
+      - {character: muse/hanayo-koizumi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

@@ -1,0 +1,23 @@
+id: muse/honorin-here-to-wake-you-up
+kind: drama
+project: muse
+title:
+  ja: ほのりん、あなたを起こしに来ました！
+  rom: HonoRin, here to wake you up!
+  ko: 호노린, 당신을 깨우러 왔습니다!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/rin-hoshizora}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

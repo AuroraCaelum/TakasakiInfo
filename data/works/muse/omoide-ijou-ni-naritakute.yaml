@@ -1,0 +1,46 @@
+id: muse/omoide-ijou-ni-naritakute
+project: muse
+title:
+  ja: 思い出以上になりたくて
+  rom: Omoide Ijou ni Naritakute
+  ko: 추억 이상이 되고 싶어서
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: rino}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: yoichi-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 思い出以上になりたくて (Off Vocal)
+      rom: Omoide Ijou ni Naritakute (Off Vocal)
+      ko: 추억 이상이 되고 싶어서 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yoichi-sakai}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
+    checked: 2026-10-20

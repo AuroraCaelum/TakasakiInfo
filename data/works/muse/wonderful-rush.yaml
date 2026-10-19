@@ -1,0 +1,201 @@
+id: muse/wonderful-rush
+project: muse
+title:
+  ja: Wonderful Rush
+  rom: Wonderful Rush
+  ko: Wonderful Rush
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=VDBc0cb7NFI
+        checked: 2026-10-20
+        note: 원곡 음원의 편곡은 이 싱글 페이지에 미게재. Solo Live! III 공식 페이지(release.php#cd31 등)의 편곡 크레딧과 같고, 레이블 제공 배포 메타데이터(YouTube Music, D42)도 같음
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wonderful Rush (Off Vocal)
+      rom: Wonderful Rush (Off Vocal)
+      ko: Wonderful Rush (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: Wonderful Rush (HONOKA Mix)
+      rom: Wonderful Rush (HONOKA Mix)
+      ko: Wonderful Rush (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: Wonderful Rush (ELI Mix)
+      rom: Wonderful Rush (ELI Mix)
+      ko: Wonderful Rush (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: Wonderful Rush (KOTORI Mix)
+      rom: Wonderful Rush (KOTORI Mix)
+      ko: Wonderful Rush (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: Wonderful Rush (UMI Mix)
+      rom: Wonderful Rush (UMI Mix)
+      ko: Wonderful Rush (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: Wonderful Rush (RIN Mix)
+      rom: Wonderful Rush (RIN Mix)
+      ko: Wonderful Rush (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: Wonderful Rush (MAKI Mix)
+      rom: Wonderful Rush (MAKI Mix)
+      ko: Wonderful Rush (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: Wonderful Rush (NOZOMI Mix)
+      rom: Wonderful Rush (NOZOMI Mix)
+      ko: Wonderful Rush (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: Wonderful Rush (HANAYO Mix)
+      rom: Wonderful Rush (HANAYO Mix)
+      ko: Wonderful Rush (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: Wonderful Rush (NICO Mix)
+      rom: Wonderful Rush (NICO Mix)
+      ko: Wonderful Rush (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+  - id: hevey-rush-mix
+    title:
+      ja: Wonderful Rush (Hevey-Rush Mix)
+      rom: Wonderful Rush (Hevey-Rush Mix)
+      ko: Wonderful Rush (Hevey-Rush Mix)
+    version: Hevey-Rush Mix
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: atsushi-harada, affiliation: Arte Refact, fullwidth: true}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    checked: 2026-10-20

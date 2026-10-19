@@ -1,0 +1,82 @@
+id: muse/love-marginal
+project: muse
+title:
+  ja: Love marginal
+  rom: Love marginal
+  ko: Love marginal
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: miki-fujisue}
+recordings:
+  - id: kotori-mix
+    title:
+      ja: Love marginal (KOTORI Mix)
+      rom: Love marginal (KOTORI Mix)
+      ko: Love marginal (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: miki-fujisue}
+      - {person: koji-matsuzaka}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: Love marginal (HONOKA Mix)
+      rom: Love marginal (HONOKA Mix)
+      ko: Love marginal (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: miki-fujisue}
+      - {person: koji-matsuzaka}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: miki-fujisue}
+      - {person: koji-matsuzaka}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Love marginal (Off Vocal)
+      rom: Love marginal (Off Vocal)
+      ko: Love marginal (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: miki-fujisue}
+      - {person: koji-matsuzaka}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    checked: 2026-10-20

@@ -1,0 +1,42 @@
+id: muse/2012-love-live-solo-live-from-s-honoka-kosaka-honnori-honokairo
+type: album
+title:
+  ja: ラブライブ！ Solo Live! from μ's 高坂穂乃果 ほんのり穂乃果色！
+  rom: Love Live! Solo Live! from μ's Honoka Kosaka Honnori Honokairo!
+  ko: 러브 라이브! Solo Live! from μ's 코사카 호노카 아련하게 호노카색!
+projects: [muse]
+artist_credit:
+  - {character: muse/honoka-kosaka}
+release_date: 2012-01-25
+discs:
+  - tracks:
+      - {no: 1, recording: muse/ai-wa-taiyou-ja-nai#original}
+      - {no: 2, recording: muse/mou-hitori-ja-nai-yo#original}
+      - {no: 3, recording: muse/bokura-no-live-kimi-to-no-life#honoka-mix}
+      - {no: 4, recording: muse/yuujou-no-change#honoka-mix}
+      - {no: 5, recording: muse/snow-halation#honoka-mix}
+      - {no: 6, recording: muse/baby-maybe-koi-no-button#honoka-mix}
+      - {no: 7, recording: muse/love-marginal#honoka-mix}
+      - {no: 8, recording: muse/sweet-sweet-holiday#honoka-mix}
+      - {no: 9, recording: muse/natsuiro-egao-de-1-2-jump#honoka-mix}
+      - {no: 10, recording: muse/mermaid-festa-vol-1#honoka-mix}
+      - {no: 11, recording: muse/happy-picnic-date-with-honoka#main}
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！ Solo Live! from μ's 高坂穂乃果 ほんのり穂乃果色！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

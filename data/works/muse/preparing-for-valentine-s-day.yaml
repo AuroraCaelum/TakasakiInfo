@@ -1,0 +1,22 @@
+id: muse/preparing-for-valentine-s-day
+kind: drama
+project: muse
+title:
+  ja: 準備だ！ バレンタイン
+  rom: Preparing for Valentine's Day!
+  ko: 준비다! 밸런타인
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

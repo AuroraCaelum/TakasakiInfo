@@ -1,0 +1,46 @@
+id: muse/angelic-angel
+project: muse
+title:
+  ja: Angelic Angel
+  rom: Angelic Angel
+  ko: Angelic Angel
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shintarou-mori}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Angelic Angel (Off Vocal)
+      rom: Angelic Angel (Off Vocal)
+      ko: Angelic Angel (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    checked: 2026-10-20

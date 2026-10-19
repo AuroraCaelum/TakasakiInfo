@@ -1,0 +1,37 @@
+id: muse/mou-hitori-ja-nai-yo
+project: muse
+title:
+  ja: もうひとりじゃないよ
+  rom: Mou Hitori Ja Nai yo
+  ko: 더 이상 혼자가 아니야
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=Y0aSvsAFX5k
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=Y0aSvsAFX5k
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

@@ -1,0 +1,22 @@
+id: muse/at-the-winter-sea-date-with-umi
+kind: drama
+project: muse
+title:
+  ja: 冬の海にて～Date with 海未～
+  rom: At the Winter Sea~Date with Umi~
+  ko: 겨울 바다에서~Date with 우미~
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: muse/umi-sonoda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

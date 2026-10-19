@@ -1,0 +1,93 @@
+id: muse/susume-tomorrow
+project: muse
+title:
+  ja: ススメ→トゥモロウ
+  rom: Susume→Tomorrow
+  ko: 나아가→투모로우
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ススメ→トゥモロウ (Off Vocal)
+      rom: Susume→Tomorrow (Off Vocal)
+      ko: 나아가→투모로우 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: ススメ→トゥモロウ (HONOKA Mix)
+      rom: Susume→Tomorrow (HONOKA Mix)
+      ko: 나아가→투모로우 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: ススメ→トゥモロウ (KOTORI Mix)
+      rom: Susume→Tomorrow (KOTORI Mix)
+      ko: 나아가→투모로우 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: ススメ→トゥモロウ (UMI Mix)
+      rom: Susume→Tomorrow (UMI Mix)
+      ko: 나아가→투모로우 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/MUS-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
+    checked: 2026-10-20

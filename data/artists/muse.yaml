@@ -1,0 +1,35 @@
+id: muse
+kind: group
+projects: [muse]
+names:
+  ja: μ’s
+  rom: μ’s
+  ko: μ’s
+lineups:
+  - members:
+      - muse/honoka-kosaka
+      - muse/eli-ayase
+      - muse/kotori-minami
+      - muse/umi-sonoda
+      - muse/rin-hoshizora
+      - muse/maki-nishikino
+      - muse/nozomi-tojo
+      - muse/hanayo-koizumi
+      - muse/nico-yazawa
+evidence:
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php
+    checked: 2026-10-20
+    note: 공식 CD 릴리스 페이지의 아티스트명 (U+2019. 같은 페이지에 ASCII μ's도 섞여 쓰임)
+  names.rom:
+    status: derived
+    note: '라틴 표기: rom는 ja와 같음 (§5.4)'
+  names.ko:
+    status: derived
+    note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+    checked: 2026-10-20
+    note: 「A song for You! You? You!!」 아티스트란의 9명(같은 순서). 멤버 페이지는 스크립트 애니메이션이라 이름이 HTML에 없음
