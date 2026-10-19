@@ -1,0 +1,46 @@
+id: aqours/deep-blue
+project: aqours
+title:
+  ja: Deep Blue
+  rom: Deep Blue
+  ko: Deep Blue
+credits:
+  lyricist:
+    - {person: r-o-n}
+  composer:
+    - {person: r-o-n}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: r-o-n}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Deep Blue (Off Vocal)
+      rom: Deep Blue (Off Vocal)
+      ko: Deep Blue (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: r-o-n}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+    checked: 2026-10-19

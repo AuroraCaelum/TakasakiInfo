@@ -1,0 +1,57 @@
+id: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-kurosawa-ruby
+type: album
+title:
+  ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Kurosawa Ruby
+  rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Kurosawa Ruby
+  ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Kurosawa Ruby
+projects: [aqours]
+artist_credit:
+  - {character: aqours/ruby-kurosawa}
+label: Lantis
+release_date: 2024-09-21
+editions:
+  - {id: e1, catalog: LACA-19064~5}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#ruby-kurosawa-solo}
+      - {no: 2, recording: aqours/no-10#ruby-kurosawa-solo}
+      - {no: 3, recording: aqours/bouken-type-a-b-c#ruby-kurosawa-solo}
+      - {no: 4, recording: aqours/fantastic-departure#ruby-kurosawa-solo}
+      - {no: 5, recording: aqours/aqours-pirates-desire#ruby-kurosawa-solo}
+      - {no: 6, recording: aqours/future-flight#ruby-kurosawa-solo}
+      - {no: 7, recording: aqours/smile-smile-ship-start#ruby-kurosawa-solo}
+      - {no: 8, recording: aqours/kokoro-no-hane-yo-kimi-e-tondeke#ruby-kurosawa-solo}
+      - {no: 9, recording: aqours/ku-ru-ku-ru-cruller#ruby-kurosawa-solo}
+      - {no: 10, recording: aqours/suki-for-you-dream-for-you#ruby-kurosawa-solo}
+      - {no: 11, recording: aqours/namida#ruby-kurosawa-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: nijigasaki/live-with-a-smile#ruby-kurosawa-solo}
+      - {no: 2, recording: nijigasaki/not-alone-not-hitori#ruby-kurosawa-solo}
+      - {no: 3, recording: aqours/gemstone-de-a-i#ruby-kurosawa-solo}
+      - {no: 4, recording: aqours/banzai-digital-trippers#ruby-kurosawa-solo}
+      - {no: 5, recording: aqours/ka-ga-ya-ki-ra-ri-ra#ruby-kurosawa-solo}
+      - {no: 6, recording: aqours/genjitsu-mysterium#ruby-kurosawa-solo}
+      - {no: 7, recording: aqours/game-on#ruby-kurosawa-solo}
+      - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#ruby-kurosawa-solo}
+      - {no: 9, recording: aqours/silent-pain#ruby-kurosawa-solo}
+      - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#ruby-kurosawa-solo}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Kurosawa Ruby, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

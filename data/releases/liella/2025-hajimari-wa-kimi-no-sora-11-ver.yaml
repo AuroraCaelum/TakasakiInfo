@@ -1,0 +1,36 @@
+id: liella/2025-hajimari-wa-kimi-no-sora-11-ver
+type: single
+title:
+  ja: 始まりは君の空 ～11 Ver.～
+  rom: Hajimari wa Kimi no Sora ~11 Ver.~
+  ko: 시작은 너의 하늘 ~11 Ver.~
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
+release_date: 2025-01-15
+editions:
+  - {id: e1, catalog: LACM-24667}
+discs:
+  - tracks:
+      - {no: 1, recording: liella/hajimari-wa-kimi-no-sora#11-ver}
+      - {no: 2, recording: liella/hajimari-wa-kimi-no-sora#11-ver-off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
+legacy:
+  category: Liella
+  albums:
+    - {title: 始まりは君の空 ～11 Ver.～}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

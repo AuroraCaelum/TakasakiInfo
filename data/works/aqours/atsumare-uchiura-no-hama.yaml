@@ -1,0 +1,22 @@
+id: aqours/atsumare-uchiura-no-hama
+kind: drama
+project: aqours
+title:
+  ja: あつまれ！内浦の浜
+  rom: Atsumare! Uchiura no Hama
+  ko: 모여라! 우치우라 해변
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: aqours}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

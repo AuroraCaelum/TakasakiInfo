@@ -1,0 +1,536 @@
+type: new-names
+project: nijigasaki
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: release
+    printed: ドラマCD 夢幻グランディオーソ
+    title:
+      ja: ドラマCD 夢幻グランディオーソ
+      rom: Drama CD Mugen Grandioso
+      ko: 드라마 CD 몽환 그란디오소
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 규칙(Fandom 문서 없음. グランディオーソ는 원어 grandioso로 복원, 선례 2022-0824 Drama CD Junjou Amabile), ko: 번역안(나무위키 미게재. 나무위키 라디오 문서에 앞선 드라마 CD 4장만 있음), 확인 필요 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C/%EB%9D%BC%EB%94%94%EC%98%A4'
+    used_in: []
+    ref: release:nijigasaki/2023-drama-cd-mugen-grandioso
+  - kind: work
+    printed: ラジオドラマ2章1話 立ち上がれ、かすみ！
+    title:
+      ja: ラジオドラマ2章1話 立ち上がれ、かすみ！
+      rom: Radio Drama Chapter 2 Episode 1 Stand up, Kasumi!
+      ko: 라디오 드라마 2장 1화 일어서라, 카스미!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-1']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-1-stand-up-kasumi
+  - kind: work
+    printed: ラジオドラマ2章2話 チーム結成！
+    title:
+      ja: ラジオドラマ2章2話 チーム結成！
+      rom: Radio Drama Chapter 2 Episode 2 Team formed!
+      ko: 라디오 드라마 2장 2화 팀 결성!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-2']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-2-team-formed
+  - kind: work
+    printed: ラジオドラマ2章3話 受けて立ちます！
+    title:
+      ja: ラジオドラマ2章3話 受けて立ちます！
+      rom: Radio Drama Chapter 2 Episode 3 Challenge accepted!
+      ko: 라디오 드라마 2장 3화 도전을 받아들이겠습니다!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-3']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-3-challenge-accepted
+  - kind: work
+    printed: ラジオドラマ2章4話 かすみんチーム、出動！
+    title:
+      ja: ラジオドラマ2章4話 かすみんチーム、出動！
+      rom: Radio Drama Chapter 2 Episode 4 Team Kasumin, move out!
+      ko: 라디오 드라마 2장 4화 카스밍 팀, 출동!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). かすみん은 선례(7章6話)대로 Kasumin/카스밍'
+    used_in: ['cd.php#cd57 #1-4']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-4-team-kasumin-move-out
+  - kind: work
+    printed: ラジオドラマ2章5話 引き込め、かすみんチーム！
+    title:
+      ja: ラジオドラマ2章5話 引き込め、かすみんチーム！
+      rom: Radio Drama Chapter 2 Episode 5 Reel them in, Team Kasumin!
+      ko: 라디오 드라마 2장 5화 끌어들여라, 카스밍 팀!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). かすみん은 선례(7章6話)대로 Kasumin/카스밍'
+    used_in: ['cd.php#cd57 #1-5']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-5-reel-them-in-team-kasumin
+  - kind: work
+    printed: ラジオドラマ2章6話 誰が笑うか、いたずら勝負！
+    title:
+      ja: ラジオドラマ2章6話 誰が笑うか、いたずら勝負！
+      rom: Radio Drama Chapter 2 Episode 6 Who will laugh? Prank showdown!
+      ko: 라디오 드라마 2장 6화 누가 웃을까, 장난 승부!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-6']
+    ref: work:nijigasaki/radio-drama-chapter-2-episode-6-who-will-laugh-prank-showdown
+  - kind: work
+    printed: ラジオドラマ3章1話 無茶なお願い？
+    title:
+      ja: ラジオドラマ3章1話 無茶なお願い？
+      rom: Radio Drama Chapter 3 Episode 1 An unreasonable request?
+      ko: 라디오 드라마 3장 1화 무리한 부탁?
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-7']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-1-an-unreasonable-request
+  - kind: work
+    printed: ラジオドラマ3章2話 愛おしい我が子！
+    title:
+      ja: ラジオドラマ3章2話 愛おしい我が子！
+      rom: Radio Drama Chapter 3 Episode 2 My precious child!
+      ko: 라디오 드라마 3장 2화 사랑스러운 내 아이!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-8']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-2-my-precious-child
+  - kind: work
+    printed: ラジオドラマ3章3話 私に必要なもの
+    title:
+      ja: ラジオドラマ3章3話 私に必要なもの
+      rom: Radio Drama Chapter 3 Episode 3 What I need
+      ko: 라디오 드라마 3장 3화 나에게 필요한 것
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-9']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-3-what-i-need
+  - kind: work
+    printed: ラジオドラマ3章4話 璃奈ちゃん特製ドリンクの力！
+    title:
+      ja: ラジオドラマ3章4話 璃奈ちゃん特製ドリンクの力！
+      rom: Radio Drama Chapter 3 Episode 4 The power of Rina-chan's special drink!
+      ko: 라디오 드라마 3장 4화 리나 특제 드링크의 힘!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 璃奈ちゃん은 선례(5章4話 迷子の果林ちゃん)처럼 rom은 -chan을 두고 ko는 경칭을 뺌'
+    used_in: ['cd.php#cd57 #1-10']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-4-the-power-of-rina-chan-s-special-drink
+  - kind: work
+    printed: ラジオドラマ3章5話 やりすぎ注意！？
+    title:
+      ja: ラジオドラマ3章5話 やりすぎ注意！？
+      rom: Radio Drama Chapter 3 Episode 5 Careful not to overdo it!?
+      ko: 라디오 드라마 3장 5화 지나치지 않게 주의!?
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-11']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-5-careful-not-to-overdo-it
+  - kind: work
+    printed: ラジオドラマ3章6話 大会の行方
+    title:
+      ja: ラジオドラマ3章6話 大会の行方
+      rom: Radio Drama Chapter 3 Episode 6 The outcome of the tournament
+      ko: 라디오 드라마 3장 6화 대회의 행방
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #1-12']
+    ref: work:nijigasaki/radio-drama-chapter-3-episode-6-the-outcome-of-the-tournament
+  - kind: work
+    printed: ラジオドラマ4章1話 彼方の企み
+    title:
+      ja: ラジオドラマ4章1話 彼方の企み
+      rom: Radio Drama Chapter 4 Episode 1 Kanata's scheme
+      ko: 라디오 드라마 4장 1화 카나타의 꿍꿍이
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-1']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-1-kanata-s-scheme
+  - kind: work
+    printed: ラジオドラマ4章2話 大事なことは……？
+    title:
+      ja: ラジオドラマ4章2話 大事なことは……？
+      rom: Radio Drama Chapter 4 Episode 2 What matters is……?
+      ko: 라디오 드라마 4장 2화 중요한 건……?
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-2']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-2-what-matters-is
+  - kind: work
+    printed: ラジオドラマ4章3話 ちゃんと見たい！
+    title:
+      ja: ラジオドラマ4章3話 ちゃんと見たい！
+      rom: Radio Drama Chapter 4 Episode 3 I want to see it properly!
+      ko: 라디오 드라마 4장 3화 제대로 보고 싶어!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-3']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-3-i-want-to-see-it-properly
+  - kind: work
+    printed: ラジオドラマ4章4話 負けず嫌いのランニング
+    title:
+      ja: ラジオドラマ4章4話 負けず嫌いのランニング
+      rom: Radio Drama Chapter 4 Episode 4 Competitive running
+      ko: 라디오 드라마 4장 4화 승부욕 넘치는 러닝
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-4']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-4-competitive-running
+  - kind: work
+    printed: ラジオドラマ4章5話 暗闇を乗り越えろ！
+    title:
+      ja: ラジオドラマ4章5話 暗闇を乗り越えろ！
+      rom: Radio Drama Chapter 4 Episode 5 Overcome the darkness!
+      ko: 라디오 드라마 4장 5화 어둠을 이겨내라!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-5']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-5-overcome-the-darkness
+  - kind: work
+    printed: ラジオドラマ4章6話 素直な気持ち
+    title:
+      ja: ラジオドラマ4章6話 素直な気持ち
+      rom: Radio Drama Chapter 4 Episode 6 Honest feelings
+      ko: 라디오 드라마 4장 6화 솔직한 마음
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'
+    used_in: ['cd.php#cd57 #2-6']
+    ref: work:nijigasaki/radio-drama-chapter-4-episode-6-honest-feelings
+  - kind: work
+    printed: ラジオドラマ5章1話 愛さんにお任せ！
+    title:
+      ja: ラジオドラマ5章1話 愛さんにお任せ！
+      rom: Radio Drama Chapter 5 Episode 1 Leave it to Ai-san!
+      ko: 라디오 드라마 5장 1화 아이 씨에게 맡겨!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-7']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-1-leave-it-to-ai-san
+  - kind: work
+    printed: ラジオドラマ5章2話 愛さんをお手本に！
+    title:
+      ja: ラジオドラマ5章2話 愛さんをお手本に！
+      rom: Radio Drama Chapter 5 Episode 2 Follow Ai-san's example!
+      ko: 라디오 드라마 5장 2화 아이 씨를 본보기로!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-8']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-2-follow-ai-san-s-example
+  - kind: work
+    printed: ラジオドラマ5章3話 愛さんは物知り！
+    title:
+      ja: ラジオドラマ5章3話 愛さんは物知り！
+      rom: Radio Drama Chapter 5 Episode 3 Ai-san knows a lot!
+      ko: 라디오 드라마 5장 3화 아이 씨는 박식해!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-9']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-3-ai-san-knows-a-lot
+  - kind: work
+    printed: ラジオドラマ5章4話 愛さんは諦めない！
+    title:
+      ja: ラジオドラマ5章4話 愛さんは諦めない！
+      rom: Radio Drama Chapter 5 Episode 4 Ai-san never gives up!
+      ko: 라디오 드라마 5장 4화 아이 씨는 포기하지 않아!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-10']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-4-ai-san-never-gives-up
+  - kind: work
+    printed: ラジオドラマ5章5話 愛さんは協力する！
+    title:
+      ja: ラジオドラマ5章5話 愛さんは協力する！
+      rom: Radio Drama Chapter 5 Episode 5 Ai-san lends a hand!
+      ko: 라디오 드라마 5장 5화 아이 씨는 협력해!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-11']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-5-ai-san-lends-a-hand
+  - kind: work
+    printed: ラジオドラマ5章6話 愛さんはスーパーヒーロー！
+    title:
+      ja: ラジオドラマ5章6話 愛さんはスーパーヒーロー！
+      rom: Radio Drama Chapter 5 Episode 6 Ai-san is a superhero!
+      ko: 라디오 드라마 5장 6화 아이 씨는 슈퍼 히어로!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'
+    used_in: ['cd.php#cd57 #2-12']
+    ref: work:nijigasaki/radio-drama-chapter-5-episode-6-ai-san-is-a-superhero
+  - kind: work
+    printed: 時を翔けるサンタ、ランジュ！
+    title:
+      ja: 時を翔けるサンタ、ランジュ！
+      rom: The Santa who leapt through time, Lanzhu!
+      ko: 시간을 달리는 산타, 란쥬!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 時をかける少女(시간을 달리는 소녀) 패러디로 보고 옮김. ランジュ는 선례(4章1話)대로 Lanzhu/란쥬'
+    used_in: ['cd.php#cd57 #2-13']
+    ref: work:nijigasaki/the-santa-who-leapt-through-time-lanzhu
+  - kind: release
+    printed: New Year's March！ / ラジオ体操第一（虹ヶ咲学園スクールアイドル同好会 Ver.）
+    title:
+      ja: New Year's March！ / ラジオ体操第一（虹ヶ咲学園スクールアイドル同好会 Ver.）
+      rom: New Year's March! / Radio Taisou Dai Ichi (Nijigasaki High School Idol Club Ver.)
+      ko: New Year's March! / 라디오 체조 제1 (니지가사키 학원 스쿨 아이돌 동호회 Ver.)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+    note: "ja: 공식 페이지. rom: Fandom(New Year's March! 문서의 트랙 표기), ko: 나무위키(음반 문서 6.3절의 트랙 표기. 앞 곡은 라틴 원문) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/New_Year%27s_March!"
+    used_in: []
+    ref: release:nijigasaki/2024-new-year-s-march-radio-taisou-dai-ichi-nijigasaki-high-school-idol-club-ver
+  - kind: work
+    printed: New Year’s March！
+    title:
+      ja: New Year’s March！
+      rom: New Year’s March!
+      ko: New Year’s March!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+    note: ''
+    used_in: ['cd.php#cd59 #1', 'cd.php#cd59 #3']
+    ref: work:nijigasaki/new-year-s-march
+  - kind: work
+    printed: ラジオ体操第一
+    title:
+      ja: ラジオ体操第一
+      rom: Radio Taisou Dai Ichi
+      ko: 라디오 체조 제1
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+    note: 'ja: 공식 페이지. rom: Fandom(문서명 Radio Taisou Dai Ichi (Nijigasaki High School Idol Club Ver.)에서 버전 표기를 뺌), ko: 나무위키(곡 문서 없음. 음반 문서의 트랙 표기·둘러보기 틀) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Radio_Taisou_Dai_Ichi_(Nijigasaki_High_School_Idol_Club_Ver.)'
+    used_in: ['cd.php#cd59 #2', 'cd.php#cd59 #4']
+    ref: work:nijigasaki/radio-taisou-dai-ichi
+  - kind: work
+    printed: 虹ヶ咲学園校歌
+    title:
+      ja: 虹ヶ咲学園校歌
+      rom: Nijigasaki Gakuen Kouka
+      ko: 니지가사키 학원 교가
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E6%A0%A1%E6%AD%8C https://love-live.fandom.com/wiki/Nijigasaki_Gakuen_Kouka'
+    used_in: ['cd.php#cd60 #1', 'cd.php#cd60 #2', 'cd.php#cd60 #3', 'cd.php#cd60 #4']
+    ref: work:nijigasaki/nijigasaki-gakuen-kouka
+  - kind: work
+    printed: Rise Up High!
+    title:
+      ja: Rise Up High!
+      rom: Rise Up High!
+      ko: Rise Up High!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: ''
+    used_in: ['cd.php#cd67 #1', 'cd.php#cd67 #7']
+    ref: work:nijigasaki/rise-up-high
+  - kind: work
+    printed: Daydream Mermaid
+    title:
+      ja: Daydream Mermaid
+      rom: Daydream Mermaid
+      ko: Daydream Mermaid
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: ''
+    used_in: ['cd.php#cd67 #2', 'cd.php#cd67 #8']
+    ref: work:nijigasaki/daydream-mermaid
+  - kind: work
+    printed: Cara Tesoro
+    title:
+      ja: Cara Tesoro
+      rom: Cara Tesoro
+      ko: Cara Tesoro
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: ''
+    used_in: ['cd.php#cd67 #3', 'cd.php#cd67 #9']
+    ref: work:nijigasaki/cara-tesoro
+  - kind: work
+    printed: PHOENIX
+    title:
+      ja: PHOENIX
+      rom: PHOENIX
+      ko: PHOENIX
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: ''
+    used_in: ['cd.php#cd67 #4', 'cd.php#cd67 #10']
+    ref: work:nijigasaki/phoenix
+  - kind: work
+    printed: Stellar Stream
+    title:
+      ja: Stellar Stream
+      rom: Stellar Stream
+      ko: Stellar Stream
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: ''
+    used_in: ['cd.php#cd67 #5', 'cd.php#cd67 #11']
+    ref: work:nijigasaki/stellar-stream
+  - kind: work
+    printed: どこにいても君は君
+    title:
+      ja: どこにいても君は君
+      rom: Doko ni Itemo Kimi wa Kimi
+      ko: 어디에 있든 너는 너
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%81%93%E3%81%AB%E3%81%84%E3%81%A6%E3%82%82%E5%90%9B%E3%81%AF%E5%90%9B https://love-live.fandom.com/wiki/Doko_ni_Itemo_Kimi_wa_Kimi'
+    used_in: ['cd.php#cd67 #6', 'cd.php#cd67 #12']
+    ref: work:nijigasaki/doko-ni-itemo-kimi-wa-kimi
+  - kind: work
+    printed: White Delight
+    title:
+      ja: White Delight
+      rom: White Delight
+      ko: White Delight
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    note: ''
+    used_in: ['cd.php#cd69 #1', 'cd.php#cd69 #3']
+    ref: work:nijigasaki/white-delight
+  - kind: work
+    printed: Joy is All Around
+    title:
+      ja: Joy is All Around
+      rom: Joy is All Around
+      ko: Joy is All Around
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    note: ''
+    used_in: ['cd.php#cd69 #2', 'cd.php#cd69 #4']
+    ref: work:nijigasaki/joy-is-all-around
+  - kind: work
+    printed: Starry Night Serenade
+    title:
+      ja: Starry Night Serenade
+      rom: Starry Night Serenade
+      ko: Starry Night Serenade
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+    note: ''
+    used_in: ['cd.php#cd70 #1', 'cd.php#cd70 #3']
+    ref: work:nijigasaki/starry-night-serenade
+  - kind: work
+    printed: ドリーム☆シューター
+    title:
+      ja: ドリーム☆シューター
+      rom: Dream☆Shooter
+      ko: 드림☆슈터
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E2%98%86%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC https://love-live.fandom.com/wiki/Dream%E2%98%86Shooter'
+    used_in: ['cd.php#cd70 #2', 'cd.php#cd70 #4']
+    ref: work:nijigasaki/dream-shooter
+  - kind: work
+    printed: The Sweetest Time♡
+    title:
+      ja: The Sweetest Time♡
+      rom: The Sweetest Time♡
+      ko: The Sweetest Time♡
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd71
+    note: ''
+    used_in: ['cd.php#cd71 #1', 'cd.php#cd71 #3']
+    ref: work:nijigasaki/the-sweetest-time
+  - kind: work
+    printed: secret
+    title:
+      ja: secret
+      rom: secret
+      ko: secret
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd71
+    note: ''
+    used_in: ['cd.php#cd71 #2', 'cd.php#cd71 #4']
+    ref: work:nijigasaki/secret
+  - kind: work
+    printed: にじいろ☆ルミエール
+    title:
+      ja: にじいろ☆ルミエール
+      rom: Nijiiro☆Lumiere
+      ko: 무지개색☆뤼미에르
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AB%E3%81%98%E3%81%84%E3%82%8D%E2%98%86%E3%83%AB%E3%83%9F%E3%82%A8%E3%83%BC%E3%83%AB https://love-live.fandom.com/wiki/Nijiiro%E2%98%86Lumiere'
+    used_in: ['cd.php#cd72 #1', 'cd.php#cd72 #3']
+    ref: work:nijigasaki/nijiiro-lumiere
+  - kind: work
+    printed: Hello! OK??
+    title:
+      ja: Hello! OK??
+      rom: Hello! OK??
+      ko: Hello! OK??
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+    note: ''
+    used_in: ['cd.php#cd72 #2', 'cd.php#cd72 #4']
+    ref: work:nijigasaki/hello-ok
+  - kind: work
+    printed: What a Beautiful Day!
+    title:
+      ja: What a Beautiful Day!
+      rom: What a Beautiful Day!
+      ko: What a Beautiful Day!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd73
+    note: ''
+    used_in: ['cd.php#cd73 #1', 'cd.php#cd73 #3']
+    ref: work:nijigasaki/what-a-beautiful-day
+  - kind: work
+    printed: INNER TRAVEL
+    title:
+      ja: INNER TRAVEL
+      rom: INNER TRAVEL
+      ko: INNER TRAVEL
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd73
+    note: ''
+    used_in: ['cd.php#cd73 #2', 'cd.php#cd73 #4']
+    ref: work:nijigasaki/inner-travel
+  - kind: work
+    printed: Eternalize Love!!
+    title:
+      ja: Eternalize Love!!
+      rom: Eternalize Love!!
+      ko: Eternalize Love!!
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd82
+    note: ''
+    used_in:
+      - 'cd.php#cd82 #1'
+      - 'cd.php#cd82 #2'
+      - 'cd.php#cd82 #3'
+      - 'cd.php#cd82 #4'
+      - 'cd.php#cd82 #5'
+      - 'cd.php#cd82 #6'
+      - 'cd.php#cd82 #7'
+      - 'cd.php#cd82 #8'
+      - 'cd.php#cd82 #9'
+      - 'cd.php#cd82 #10'
+      - 'cd.php#cd82 #11'
+      - 'cd.php#cd82 #12'
+      - 'cd.php#cd82 #13'
+      - 'cd.php#cd82 #14'
+    ref: work:nijigasaki/eternalize-love

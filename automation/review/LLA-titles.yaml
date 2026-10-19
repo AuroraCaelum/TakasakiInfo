@@ -1,0 +1,544 @@
+type: new-names
+project: liella
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: work
+    printed: シェキラ☆☆☆
+    title:
+      ja: シェキラ☆☆☆
+      rom: Shekira☆☆☆
+      ko: 셰키라☆☆☆
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B7%E3%82%A7%E3%82%AD%E3%83%A9%E2%98%86%E2%98%86%E2%98%86 https://love-live.fandom.com/wiki/Shekira%E2%98%86%E2%98%86%E2%98%86'
+    used_in: ['cd33.php #1', 'cd33.php #4']
+    ref: work:liella/shekira
+  - kind: work
+    printed: FANTASTiC
+    title:
+      ja: FANTASTiC
+      rom: FANTASTiC
+      ko: FANTASTiC
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    note: ''
+    used_in: ['cd33.php #2', 'cd33.php #5']
+    ref: work:liella/fantastic
+  - kind: work
+    printed: ディストーション
+    title:
+      ja: ディストーション
+      rom: Distortion
+      ko: 디스토션
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3 https://love-live.fandom.com/wiki/Distortion'
+    used_in: ['cd34.php #1', 'cd34.php #4']
+    ref: work:liella/distortion
+  - kind: work
+    printed: 全力ライオット
+    title:
+      ja: 全力ライオット
+      rom: Zenryoku Riot
+      ko: 전력 라이엇
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%85%A8%E5%8A%9B%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%83%E3%83%88 https://love-live.fandom.com/wiki/Zenryoku_Riot'
+    used_in: ['cd34.php #2', 'cd34.php #5']
+    ref: work:liella/zenryoku-riot
+  - kind: work
+    printed: ニュートラル
+    title:
+      ja: ニュートラル
+      rom: Neutral
+      ko: 뉴트럴
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%A9%E3%83%AB https://love-live.fandom.com/wiki/Neutral'
+    used_in: ['cd35.php #1', 'cd35.php #4']
+    ref: work:liella/neutral
+  - kind: work
+    printed: カメリアの囁き
+    title:
+      ja: カメリアの囁き
+      rom: Camellia no Sasayaki
+      ko: 카멜리아의 속삭임
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%AB%E3%83%A1%E3%83%AA%E3%82%A2%E3%81%AE%E5%9B%81%E3%81%8D https://love-live.fandom.com/wiki/Camellia_no_Sasayaki'
+    used_in: ['cd35.php #2', 'cd35.php #5']
+    ref: work:liella/camellia-no-sasayaki
+  - kind: work
+    printed: Jellyfish
+    title:
+      ja: Jellyfish
+      rom: Jellyfish
+      ko: Jellyfish
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    note: ''
+    used_in: ['cd36.php #1', 'cd36.php #4']
+    ref: work:liella/jellyfish
+  - kind: work
+    printed: Thank you Good morning
+    title:
+      ja: Thank you Good morning
+      rom: Thank you Good morning
+      ko: Thank you Good morning
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    note: ''
+    used_in: ['cd36.php #2', 'cd36.php #5']
+    ref: work:liella/thank-you-good-morning
+  - kind: work
+    printed: Let's be ONE
+    title:
+      ja: Let's be ONE
+      rom: Let's be ONE
+      ko: Let's be ONE
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
+    note: ''
+    used_in: ['cd38.php #1', 'cd38.php #3', '01_4748 #1']
+    ref: work:liella/let-s-be-one
+  - kind: work
+    printed: 青春HOPPERS
+    title:
+      ja: 青春HOPPERS
+      rom: Seishun HOPPERS
+      ko: 청춘 HOPPERS
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (곡 문서 제목 행. 둘러보기 틀은 붙여 쓴 청춘HOPPERS) 외부 근거: https://namu.wiki/w/%E9%9D%92%E6%98%A5HOPPERS https://love-live.fandom.com/wiki/Seishun_HOPPERS'
+    used_in: ['cd38.php #2', 'cd38.php #4']
+    ref: work:liella/seishun-hoppers
+  - kind: work
+    printed: DAISUKI FULL POWER
+    title:
+      ja: DAISUKI FULL POWER
+      rom: DAISUKI FULL POWER
+      ko: DAISUKI FULL POWER
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd39.php
+    note: ''
+    used_in: ['cd39.php #1', 'cd39.php #3', '01_4748 #14']
+    ref: work:liella/daisuki-full-power
+  - kind: work
+    printed: Within a Dream
+    title:
+      ja: Within a Dream
+      rom: Within a Dream
+      ko: Within a Dream
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd39.php
+    note: ''
+    used_in: ['cd39.php #2', 'cd39.php #4']
+    ref: work:liella/within-a-dream
+  - kind: work
+    printed: Bubble Rise
+    title:
+      ja: Bubble Rise
+      rom: Bubble Rise
+      ko: Bubble Rise
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    note: ''
+    used_in: ['cd41.php【第3話盤】 #1', 'cd41.php【第3話盤】 #4', 'cd41.php【第2話盤】 #1', 'cd41.php【第2話盤】 #4']
+    ref: work:liella/bubble-rise
+  - kind: work
+    printed: Special Color
+    title:
+      ja: Special Color
+      rom: Special Color
+      ko: Special Color
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    note: ''
+    used_in: ['cd41.php【第3話盤】 #2', 'cd41.php【第3話盤】 #5', 'cd41.php【第2話盤】 #2', 'cd41.php【第2話盤】 #5']
+    ref: work:liella/special-color
+  - kind: work
+    printed: ファイティングコール
+    title:
+      ja: ファイティングコール
+      rom: Fighting Call
+      ko: 파이팅 콜
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%AB https://love-live.fandom.com/wiki/Fighting_Call'
+    used_in: ['cd41.php【第3話盤】 #3', 'cd41.php【第3話盤】 #6']
+    ref: work:liella/fighting-call
+  - kind: work
+    printed: 絶対的LOVER
+    title:
+      ja: 絶対的LOVER
+      rom: Zettaiteki LOVER
+      ko: 절대적 LOVER
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B5%B6%E5%AF%BE%E7%9A%84LOVER https://love-live.fandom.com/wiki/Zettaiteki_LOVER'
+    used_in: ['cd43.php【第8話盤】 #1', 'cd43.php【第8話盤】 #4', 'cd43.php【第6話盤】 #1', 'cd43.php【第6話盤】 #4']
+    ref: work:liella/zettaiteki-lover
+  - kind: work
+    printed: Dazzling Game
+    title:
+      ja: Dazzling Game
+      rom: Dazzling Game
+      ko: Dazzling Game
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    note: ''
+    used_in: ['cd43.php【第8話盤】 #2', 'cd43.php【第8話盤】 #5', 'cd43.php【第6話盤】 #2', 'cd43.php【第6話盤】 #5']
+    ref: work:liella/dazzling-game
+  - kind: work
+    printed: 真っ赤。
+    title:
+      ja: 真っ赤。
+      rom: Makka.
+      ko: 새빨간.
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%80%82 https://love-live.fandom.com/wiki/Makka.'
+    used_in: ['cd43.php【第8話盤】 #3', 'cd43.php【第8話盤】 #6']
+    ref: work:liella/makka
+  - kind: work
+    printed: 笑顔のPromise
+    title:
+      ja: 笑顔のPromise
+      rom: Egao no Promise
+      ko: 미소의 Promise
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%AC%91%E9%A1%94%E3%81%AEPromise https://love-live.fandom.com/wiki/Egao_no_Promise'
+    used_in: ['cd45.php【第11話盤】 #1', 'cd45.php【第11話盤】 #4', 'cd45.php【第10話盤】 #1', 'cd45.php【第10話盤】 #4']
+    ref: work:liella/egao-no-promise
+  - kind: work
+    printed: スーパースター!!
+    title:
+      ja: スーパースター!!
+      rom: Superstar!!
+      ko: 슈퍼스타!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC!! https://love-live.fandom.com/wiki/Superstar!!'
+    used_in: ['cd45.php【第11話盤】 #2', 'cd45.php【第11話盤】 #5', 'cd45.php【第10話盤】 #2', 'cd45.php【第10話盤】 #5']
+    ref: work:liella/superstar
+  - kind: work
+    printed: 君・街・空・星
+    title:
+      ja: 君・街・空・星
+      rom: Kimi・Machi・Sora・Hoshi
+      ko: 너・거리・하늘・별
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%90%9B%E3%83%BB%E8%A1%97%E3%83%BB%E7%A9%BA%E3%83%BB%E6%98%9F https://love-live.fandom.com/wiki/Kimi%E3%83%BBMachi%E3%83%BBSora%E3%83%BBHoshi'
+    used_in: ['cd45.php【第11話盤】 #3', 'cd45.php【第11話盤】 #6']
+    ref: work:liella/kimi-machi-sora-hoshi
+  - kind: release
+    printed: 始まりは君の空 ～11 Ver.～
+    title:
+      ja: 始まりは君の空 ～11 Ver.～
+      rom: Hajimari wa Kimi no Sora ~11 Ver.~
+      ko: 시작은 너의 하늘 ~11 Ver.~
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
+    note: 'ja: 공식 페이지. rom·ko: 수록 음원 제목(work:liella/hajimari-wa-kimi-no-sora#11-ver)과 같음. ko는 나무위키 음반 문서 표기(시작은 너의 하늘 ~11 Ver.~)와도 같음 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!/%EC%9D%8C%EB%B0%98'
+    used_in: []
+    ref: release:liella/2025-hajimari-wa-kimi-no-sora-11-ver
+  - kind: release
+    printed: リエラのうた3
+    title:
+      ja: リエラのうた3
+      rom: Liella no Uta 3
+      ko: 리에라의 노래 3
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: 'ja: 공식 페이지. rom·ko: リエラのうた·リエラのうた2(liella/2021-1027·2022-1026)와 같은 형식. ko는 나무위키 음반 문서 표기(리에라의 노래 3)와도 같음. Fandom은 문서 없음(파일·영상 이름이 Liella no Uta 3) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!/%EC%9D%8C%EB%B0%98'
+    used_in: []
+    ref: release:liella/2025-liella-no-uta-3
+  - kind: work
+    printed: dolce
+    title:
+      ja: dolce
+      rom: dolce
+      ko: dolce
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: ''
+    used_in: ['cd48.php #1', 'cd48.php #2']
+    ref: work:liella/dolce
+  - kind: work
+    printed: Summer Escape!!
+    title:
+      ja: Summer Escape!!
+      rom: Summer Escape!!
+      ko: Summer Escape!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: ''
+    used_in: ['cd48.php #3']
+    ref: work:liella/summer-escape
+  - kind: work
+    printed: 11th moon
+    title:
+      ja: 11th moon
+      rom: 11th moon
+      ko: 11th moon
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: ''
+    used_in: ['cd48.php #4']
+    ref: work:liella/11th-moon
+  - kind: work
+    printed: ひとひらだけ
+    title:
+      ja: ひとひらだけ
+      rom: Hitohira Dake
+      ko: 한 송이 만큼
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B2%E3%81%A8%E3%81%B2%E3%82%89%E3%81%A0%E3%81%91 https://love-live.fandom.com/wiki/Hitohira_Dake'
+    used_in: ['cd48.php #5']
+    ref: work:liella/hitohira-dake
+  - kind: work
+    printed: 結ぶメロディ
+    title:
+      ja: 結ぶメロディ
+      rom: Musubu Melody
+      ko: 잇는 멜로디
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B5%90%E3%81%B6%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3 https://love-live.fandom.com/wiki/Musubu_Melody'
+    used_in: ['cd48.php #6']
+    ref: work:liella/musubu-melody
+  - kind: work
+    printed: Aspire
+    title:
+      ja: Aspire
+      rom: Aspire
+      ko: Aspire
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #2']
+    ref: work:liella/aspire
+  - kind: work
+    printed: Over Over
+    title:
+      ja: Over Over
+      rom: Over Over
+      ko: Over Over
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #3']
+    ref: work:liella/over-over
+  - kind: work
+    printed: Sky Linker
+    title:
+      ja: Sky Linker
+      rom: Sky Linker
+      ko: Sky Linker
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #4']
+    ref: work:liella/sky-linker
+  - kind: work
+    printed: ワイルドカード
+    title:
+      ja: ワイルドカード
+      rom: Wildcard
+      ko: 와일드 카드
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%82%AB%E3%83%BC%E3%83%89 https://love-live.fandom.com/wiki/Wildcard'
+    used_in: ['01_4748 #5']
+    ref: work:liella/wildcard
+  - kind: work
+    printed: Just woo!!
+    title:
+      ja: Just woo!!
+      rom: Just woo!!
+      ko: Just woo!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #6']
+    ref: work:liella/just-woo
+  - kind: work
+    printed: パステルコラージュ
+    title:
+      ja: パステルコラージュ
+      rom: Pastel Collage
+      ko: 파스텔 콜라주
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%91%E3%82%B9%E3%83%86%E3%83%AB%E3%82%B3%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5 https://love-live.fandom.com/wiki/Pastel_Collage'
+    used_in: ['01_4748 #7']
+    ref: work:liella/pastel-collage
+  - kind: work
+    printed: Rhythm
+    title:
+      ja: Rhythm
+      rom: Rhythm
+      ko: Rhythm
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #8']
+    ref: work:liella/rhythm
+  - kind: work
+    printed: LiLiA
+    title:
+      ja: LiLiA
+      rom: LiLiA
+      ko: LiLiA
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: ''
+    used_in: ['01_4748 #9']
+    ref: work:liella/lilia
+  - kind: work
+    printed: ファンダメンタル
+    title:
+      ja: ファンダメンタル
+      rom: Fundamental
+      ko: 펀더멘탈
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (곡 문서 제목 행. 둘러보기 틀과 음반 문서는 펀더멘털) 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%B3%E3%83%80%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB https://love-live.fandom.com/wiki/Fundamental'
+    used_in: ['01_4748 #10']
+    ref: work:liella/fundamental
+  - kind: work
+    printed: 結び葉
+    title:
+      ja: 結び葉
+      rom: Musubiba
+      ko: 잇는 잎
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B5%90%E3%81%B3%E8%91%89 https://love-live.fandom.com/wiki/Musubiba'
+    used_in: ['01_4748 #11']
+    ref: work:liella/musubiba
+  - kind: work
+    printed: ルカ
+    title:
+      ja: ルカ
+      rom: Luca
+      ko: 루카
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom (Luca. 규칙대로면 Ruka), ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%AB%E3%82%AB https://love-live.fandom.com/wiki/Luca'
+    used_in: ['01_4748 #12']
+    ref: work:liella/luca
+  - kind: work
+    printed: てくてく日和
+    title:
+      ja: てくてく日和
+      rom: Tekuteku Biyori
+      ko: 뚜벅뚜벅 좋은 날
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A6%E3%81%8F%E3%81%A6%E3%81%8F%E6%97%A5%E5%92%8C https://love-live.fandom.com/wiki/Tekuteku_Biyori'
+    used_in: ['01_4748 #13']
+    ref: work:liella/tekuteku-biyori
+  - kind: work
+    printed: OPEN THE G☆TE!!!
+    title:
+      ja: OPEN THE G☆TE!!!
+      rom: OPEN THE G☆TE!!!
+      ko: OPEN THE G☆TE!!!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+    note: ''
+    used_in: ['01_5123 #1', '01_5123 #3']
+    ref: work:liella/open-the-g-te
+  - kind: work
+    printed: High！モチベーション
+    title:
+      ja: High！モチベーション
+      rom: High! Motivation
+      ko: High! 모티베이션
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/High%EF%BC%81%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3 https://love-live.fandom.com/wiki/High!_Motivation'
+    used_in: ['01_5123 #2', '01_5123 #4']
+    ref: work:liella/high-motivation
+  - kind: work
+    printed: 恋のチュートリアル
+    title:
+      ja: 恋のチュートリアル
+      rom: Koi no Tutorial
+      ko: 사랑의 튜토리얼
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB https://love-live.fandom.com/wiki/Koi_no_Tutorial'
+    used_in: ['01_5987 #1', '01_5987 #2']
+    ref: work:liella/koi-no-tutorial
+  - kind: work
+    printed: Hyper Glowing！
+    title:
+      ja: Hyper Glowing！
+      rom: Hyper Glowing!
+      ko: Hyper Glowing!
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    note: ''
+    used_in: ['01_5918 #1', '01_5918 #5']
+    ref: work:liella/hyper-glowing
+  - kind: work
+    printed: トクベツじゃない魔法
+    title:
+      ja: トクベツじゃない魔法
+      rom: Tokubetsu Janai Mahou
+      ko: 특별하지 않은 마법
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%88%E3%82%AF%E3%83%99%E3%83%84%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E9%AD%94%E6%B3%95 https://love-live.fandom.com/wiki/Tokubetsu_Janai_Mahou'
+    used_in: ['01_5918 #2', '01_5918 #6']
+    ref: work:liella/tokubetsu-janai-mahou
+  - kind: work
+    printed: Winds of YELL
+    title:
+      ja: Winds of YELL
+      rom: Winds of YELL
+      ko: Winds of YELL
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    note: ''
+    used_in: ['01_5918 #3', '01_5918 #7']
+    ref: work:liella/winds-of-yell
+  - kind: work
+    printed: 芽生え
+    title:
+      ja: 芽生え
+      rom: Mebae
+      ko: 발아
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E8%8A%BD%E7%94%9F%E3%81%88 https://love-live.fandom.com/wiki/Mebae'
+    used_in: ['01_5918 #4', '01_5918 #8']
+    ref: work:liella/mebae
+  - kind: work
+    printed: いつものピースサイン
+    title:
+      ja: いつものピースサイン
+      rom: Itsumo no Peace Sign
+      ko: 언제나의 피스 사인
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E3%83%94%E3%83%BC%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%B3 https://love-live.fandom.com/wiki/Itsumo_no_Peace_Sign'
+    used_in: ['cd41.php【第2話盤】 #3', 'cd41.php【第2話盤】 #6']
+    ref: work:liella/itsumo-no-peace-sign
+  - kind: work
+    printed: QUESTION99
+    title:
+      ja: QUESTION99
+      rom: QUESTION99
+      ko: QUESTION99
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    note: ''
+    used_in: ['cd43.php【第6話盤】 #3', 'cd43.php【第6話盤】 #6']
+    ref: work:liella/question99

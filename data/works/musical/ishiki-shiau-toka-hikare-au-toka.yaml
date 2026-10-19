@@ -1,0 +1,40 @@
+id: musical/ishiki-shiau-toka-hikare-au-toka
+project: musical
+title:
+  ja: 意識し合うとか惹かれ合うとか
+  rom: Ishiki shiau toka Hikare au toka
+  ko: 의식한다든가 끌린다든가
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+      - {person: yuuna-sekine, role: musical/anzu-takizawa}
+      - {person: yuki-aono, role: musical/madoka-tsubaki}
+      - {person: sayaka-okamura, role: musical/kyoka-takizawa}
+    arranger:
+      - {person: kentarou}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=g7XOPnIrBlk
+        checked: 2026-10-20
+        note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치
+evidence:
+  title:
+    status: draft
+    source: automation/review/MSC-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=g7XOPnIrBlk
+    checked: 2026-10-20
+    note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치

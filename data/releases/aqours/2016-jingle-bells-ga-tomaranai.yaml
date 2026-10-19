@@ -1,7 +1,10 @@
 id: aqours/2016-jingle-bells-ga-tomaranai
+type: single
 title:
   ja: ジングルベルがとまらない
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
 release_date: 2016-11-23
 discs:
   - tracks:
@@ -28,7 +31,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd11
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established

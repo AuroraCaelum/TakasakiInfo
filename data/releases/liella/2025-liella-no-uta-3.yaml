@@ -1,0 +1,40 @@
+id: liella/2025-liella-no-uta-3
+type: album
+title:
+  ja: リエラのうた3
+  rom: Liella no Uta 3
+  ko: 리에라의 노래 3
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
+release_date: 2025-01-29
+editions:
+  - {id: e1, catalog: LACA-25142}
+discs:
+  - tracks:
+      - {no: 1, recording: liella/dolce#original}
+      - {no: 2, recording: liella/dolce#tomari-onitsuka-solo}
+      - {no: 3, recording: liella/summer-escape#original}
+      - {no: 4, recording: liella/11th-moon#original}
+      - {no: 5, recording: liella/hitohira-dake#original}
+      - {no: 6, recording: liella/musubu-melody#original}
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+legacy:
+  category: Liella
+  albums:
+    - {title: リエラのうた3}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

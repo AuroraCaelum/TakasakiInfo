@@ -1,0 +1,51 @@
+id: liella/high-motivation
+project: liella
+title:
+  ja: High！モチベーション
+  rom: High! Motivation
+  ko: High! 모티베이션
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: masaya-takada}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+      - {character: liella/natsumi-onitsuka}
+      - {character: liella/margarete-wien}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: masaya-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: High！モチベーション (Off Vocal)
+      rom: High! Motivation (Off Vocal)
+      ko: High! 모티베이션 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaya-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+    checked: 2026-10-20

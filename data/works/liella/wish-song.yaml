@@ -39,6 +39,36 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd07.php
         checked: 2026-10-19
+  - id: 11-ver
+    title:
+      ja: Wish Song ～11 Ver.～
+      rom: Wish Song ~11 Ver.~
+      ko: Wish Song ~11 Ver.~
+    version: 11 Ver.
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-19
+  - id: 11-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Wish Song ～11 Ver.～ (Off Vocal)
+      rom: Wish Song ~11 Ver.~ (Off Vocal)
+      ko: Wish Song ~11 Ver.~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shu-kanematsu}
+    instrumental_of: 11-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-20
 evidence:
   credits:
     status: official

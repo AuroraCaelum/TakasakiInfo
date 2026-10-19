@@ -1,0 +1,32 @@
+id: aqours/paradise-chime
+project: aqours
+title:
+  ja: Paradise Chime
+  rom: Paradise Chime
+  ko: Paradise Chime
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: funk-uchino}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
+        checked: 2026-10-19
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
+    checked: 2026-10-19

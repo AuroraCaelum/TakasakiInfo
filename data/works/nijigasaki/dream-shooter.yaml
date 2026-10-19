@@ -1,0 +1,47 @@
+id: nijigasaki/dream-shooter
+project: nijigasaki
+title:
+  ja: ドリーム☆シューター
+  rom: Dream☆Shooter
+  ko: 드림☆슈터
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: shingo-hirano}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: shingo-hirano}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ドリーム☆シューター (Off Vocal)
+      rom: Dream☆Shooter (Off Vocal)
+      ko: 드림☆슈터 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shingo-hirano}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+    checked: 2026-10-20

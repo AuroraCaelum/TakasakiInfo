@@ -1,0 +1,65 @@
+id: aqours/hajimari-road
+project: aqours
+title:
+  ja: ハジマリロード
+  rom: Hajimari Road
+  ko: 시작의 길
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: funk-uchino}
+    - {person: ankle-break}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+        checked: 2026-10-20
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
+        checked: 2026-10-20
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
+        checked: 2026-10-20
+  - id: yoshiko-tsushima-solo
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20

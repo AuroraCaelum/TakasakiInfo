@@ -1,0 +1,46 @@
+id: nijigasaki/rise-up-high
+project: nijigasaki
+title:
+  ja: Rise Up High!
+  rom: Rise Up High!
+  ko: Rise Up High!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: hidefumi-kenmochi}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: hidefumi-kenmochi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Rise Up High! (Off Vocal)
+      rom: Rise Up High! (Off Vocal)
+      ko: Rise Up High! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hidefumi-kenmochi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20

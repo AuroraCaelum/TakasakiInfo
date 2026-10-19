@@ -1,0 +1,51 @@
+id: liella/2024-bubble-rise-special-color
+type: single
+title:
+  ja: Bubble Rise / Special Color
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
+release_date: 2024-11-13
+editions:
+  - id: e1
+    label:
+      ja: 第3話盤
+    catalog: LACM-24662
+  - id: e2
+    label:
+      ja: 第2話盤
+    catalog: LACM-24661
+discs:
+  - editions: [e1]
+    tracks:
+      - {no: 1, recording: liella/bubble-rise#original}
+      - {no: 2, recording: liella/special-color#original}
+      - {no: 3, recording: liella/fighting-call#original}
+      - {no: 4, recording: liella/bubble-rise#off-vocal}
+      - {no: 5, recording: liella/special-color#off-vocal}
+      - {no: 6, recording: liella/fighting-call#off-vocal}
+  - editions: [e2]
+    tracks:
+      - {no: 1, recording: liella/bubble-rise#original}
+      - {no: 2, recording: liella/special-color#original}
+      - {no: 3, recording: liella/itsumo-no-peace-sign#original}
+      - {no: 4, recording: liella/bubble-rise#off-vocal}
+      - {no: 5, recording: liella/special-color#off-vocal}
+      - {no: 6, recording: liella/itsumo-no-peace-sign#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+legacy:
+  category: Liella
+  albums:
+    - {title: 'Bubble Rise / Special Color [第3話盤]', edition: e1}
+    - {title: 'Bubble Rise / Special Color [第2話盤]', edition: e2}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
+    checked: 2026-10-20

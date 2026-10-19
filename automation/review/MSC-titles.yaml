@@ -1,0 +1,148 @@
+type: new-names
+project: musical
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: release
+    printed: 椿滝桜女学院高等学校スクールアイドル部 後夜祭アルバム！
+    title:
+      ja: 椿滝桜女学院高等学校スクールアイドル部 後夜祭アルバム！
+      rom: Tsubaki Takizakura Jogakuin High School School Idol Club Koyasai Album!
+      ko: 츠바키타키자쿠라 여학원 고등학교 스쿨 아이돌부 후야제 앨범!
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: "ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom은 영역 Tsubaki Takizakura Girls' High School Idol Club After Party Album!), ko: 나무위키(작품 문서 음반 절 제목) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Tsubaki_Takizakura_Girls%27_High_School_Idol_Club_After_Party_Album!"
+    used_in: []
+    ref: release:musical/2024-tsubaki-takizakura-jogakuin-high-school-school-idol-club-koyasai-album
+  - kind: work
+    printed: 今すぐはじめよ！
+    title:
+      ja: 今すぐはじめよ！
+      rom: Ima Sugu Hajimeyo!
+      ko: 지금 곧 시작해요!
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom Ima Sugu Hajimeyou!는 표기에 없는 う를 더함), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Ima_Sugu_Hajimeyou!'
+    used_in: ['music.php#cd03 #1']
+    ref: work:musical/ima-sugu-hajimeyo
+  - kind: work
+    printed: 応援してね♡
+    title:
+      ja: 応援してね♡
+      rom: Oen shite ne♡
+      ko: 응원해 줘♡
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기 Oen shite ne?. 카탈로그는 일본어 제목도 応援してね?로 적어 ♡가 문자 깨짐으로 ?가 된 것이라 ♡를 되살림. Fandom은 Ouen Shite ne♡), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Ouen_Shite_ne%E2%99%A1'
+    used_in: ['music.php#cd03 #2']
+    ref: work:musical/oen-shite-ne
+  - kind: work
+    printed: 主役になれない主役
+    title:
+      ja: 主役になれない主役
+      rom: Shuyaku ni Narenai Shuyaku
+      ko: 주역이 될 수 없는 주역
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기, Fandom과 같음), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Shuyaku_ni_Narenai_Shuyaku'
+    used_in: ['music.php#cd03 #3']
+    ref: work:musical/shuyaku-ni-narenai-shuyaku
+  - kind: work
+    printed: So My Way
+    title:
+      ja: So My Way
+      rom: So My Way
+      ko: So My Way
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: ''
+    used_in: ['music.php#cd03 #4']
+    ref: work:musical/so-my-way
+  - kind: work
+    printed: 意識し合うとか惹かれ合うとか
+    title:
+      ja: 意識し合うとか惹かれ合うとか
+      rom: Ishiki shiau toka Hikare au toka
+      ko: 의식한다든가 끌린다든가
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom은 Ishiki Shiau Toka Hikareau Toka), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Ishiki_Shiau_Toka_Hikareau_Toka'
+    used_in: ['music.php#cd03 #5']
+    ref: work:musical/ishiki-shiau-toka-hikare-au-toka
+  - kind: work
+    printed: あなたに夢ちゅう
+    title:
+      ja: あなたに夢ちゅう
+      rom: Anata ni Muchu
+      ko: 당신에게 푹 빠진
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom은 Anata ni Muchuu), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Anata_ni_Muchuu'
+    used_in: ['music.php#cd03 #6']
+    ref: work:musical/anata-ni-muchu
+  - kind: work
+    printed: パフェパフェ行進曲
+    title:
+      ja: パフェパフェ行進曲
+      rom: Parfait Parfait Koshinkyoku
+      ko: 파르페 파르페 행진곡
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom은 Parfait Parfait Koushinkyoku), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Parfait_Parfait_Koushinkyoku'
+    used_in: ['music.php#cd03 #7']
+    ref: work:musical/parfait-parfait-koshinkyoku
+  - kind: work
+    printed: わたしの星座
+    title:
+      ja: わたしの星座
+      rom: Watashi no Seiza
+      ko: 나의 성좌
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기, Fandom과 같음), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Watashi_no_Seiza'
+    used_in: ['music.php#cd03 #8']
+    ref: work:musical/watashi-no-seiza
+  - kind: work
+    printed: この先もずっと
+    title:
+      ja: この先もずっと
+      rom: Kono Saki mo Zutto
+      ko: 앞으로도 계속
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기, Fandom과 같음), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Kono_Saki_mo_Zutto'
+    used_in: ['music.php#cd03 #9']
+    ref: work:musical/kono-saki-mo-zutto
+  - kind: work
+    printed: 夢見ガチガール
+    title:
+      ja: 夢見ガチガール
+      rom: Yume Migachi Girl
+      ko: 꿈꾸는 진짜 소녀
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. 夢見がち를 Yume Migachi로 끊어 어색함. Fandom은 Yumemigachi Girl), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역. ガチ를 진짜로 옮겨 夢見がち의 말장난이 빠짐, 오역 소지) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Yumemigachi_Girl'
+    used_in: ['music.php#cd03 #10']
+    ref: work:musical/yume-migachi-girl
+  - kind: work
+    printed: 青春の讃歌
+    title:
+      ja: 青春の讃歌
+      rom: Seishun no Sanka
+      ko: 청춘의 찬가
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기, Fandom과 같음), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Seishun_no_Sanka'
+    used_in: ['music.php#cd03 #11']
+    ref: work:musical/seishun-no-sanka
+  - kind: work
+    printed: 夢はドコカラ
+    title:
+      ja: 夢はドコカラ
+      rom: Yume wa Doko kara
+      ko: 꿈은 어디에서
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    note: 'ja: 공식 페이지. rom: 공식 영문(레이블 카탈로그 EN 표기. Fandom은 Yume wa Doko Kara), ko: 나무위키(작품 문서 2026년 문화제&후야제 특별상연 세트리스트의 번역) 외부 근거: https://catalog.bandainamcomusiclive.co.jp/release/71877/ https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%AE%A4%EC%A7%80%EC%BB%AC https://love-live.fandom.com/wiki/Yume_wa_Doko_Kara'
+    used_in: ['music.php#cd03 #12']
+    ref: work:musical/yume-wa-doko-kara

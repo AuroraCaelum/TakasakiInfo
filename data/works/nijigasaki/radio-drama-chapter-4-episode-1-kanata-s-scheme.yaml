@@ -1,0 +1,22 @@
+id: nijigasaki/radio-drama-chapter-4-episode-1-kanata-s-scheme
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ4章1話 彼方の企み
+  rom: Radio Drama Chapter 4 Episode 1 Kanata's scheme
+  ko: 라디오 드라마 4장 1화 카나타의 꿍꿍이
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

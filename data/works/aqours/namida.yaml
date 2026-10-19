@@ -1,0 +1,101 @@
+id: aqours/namida
+project: aqours
+title:
+  ja: 涙×
+  rom: Namida×
+  ko: 눈물×
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+        checked: 2026-10-20
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-20
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+        checked: 2026-10-20
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+        checked: 2026-10-20
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
+        checked: 2026-10-20
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
+        checked: 2026-10-20
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+        checked: 2026-10-20
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20

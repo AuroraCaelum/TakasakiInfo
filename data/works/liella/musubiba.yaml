@@ -1,0 +1,33 @@
+id: liella/musubiba
+project: liella
+title:
+  ja: 結び葉
+  rom: Musubiba
+  ko: 잇는 잎
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: risa}
+    - {person: masayuki-kondo}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: masayuki-kondo}
+      - {person: risa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-20

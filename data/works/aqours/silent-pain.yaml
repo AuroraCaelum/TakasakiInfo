@@ -1,0 +1,126 @@
+id: aqours/silent-pain
+project: aqours
+title:
+  ja: SILENT PAIN
+  rom: SILENT PAIN
+  ko: SILENT PAIN
+credits:
+  lyricist:
+    - {person: funk-uchino}
+  composer:
+    - {person: takarot}
+    - {person: funk-uchino}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
+        checked: 2026-10-19
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-19
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+        checked: 2026-10-19
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+        checked: 2026-10-19
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
+        checked: 2026-10-19
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
+        checked: 2026-10-19
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+        checked: 2026-10-19
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SILENT PAIN (Off Vocal)
+      rom: SILENT PAIN (Off Vocal)
+      ko: SILENT PAIN (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takarot}
+      - {person: shoma-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
+    checked: 2026-10-19

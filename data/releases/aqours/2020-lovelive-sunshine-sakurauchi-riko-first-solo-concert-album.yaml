@@ -3,7 +3,12 @@ type: album
 title:
   ja: LoveLive! Sunshine!! Sakurauchi Riko First Solo Concert Album ～Pianoforte Monologue～
 projects: [aqours]
+artist_credit:
+  - {character: aqours/riko-sakurauchi}
+label: Lantis
 release_date: 2020-09-19
+editions:
+  - {id: e1, catalog: LACA-9762~3}
 discs:
   - tracks:
       - {no: 1, recording: aqours/pianoforte-monologue#original}
@@ -53,7 +58,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
@@ -63,3 +68,7 @@ evidence:
     source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
+    checked: 2026-10-20

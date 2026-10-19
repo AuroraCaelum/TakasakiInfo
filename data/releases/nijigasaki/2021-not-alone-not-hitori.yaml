@@ -3,11 +3,15 @@ type: single
 title:
   ja: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!
 projects: [nijigasaki]
+artist_credit:
+  - {artist: aqours-nijigasaki-high-school-idol-club-liella}
+label: Lantis
 release_date: 2021-11-24
 editions:
   - id: e1
     label:
       ja: 虹ヶ咲学園スクールアイドル同好会盤
+    catalog: LACM-24201
 discs:
   - tracks:
       - {no: 1, recording: nijigasaki/not-alone-not-hitori#original}
@@ -26,8 +30,12 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note '「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル'에서 (M3)
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    checked: 2026-10-20

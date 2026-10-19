@@ -85,7 +85,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 - **Phase 1 (이관)**: 완료 (2026-10-17). M1~M8, 이관 리뷰 66건, 부록 A-1·A-2. 출력이 바뀐 곳은 승인된 변경뿐이다(`migration/REPORT.md`, 이후 리뷰로 바뀐 것은 DESIGN.md §10.1 6~15). 결정 D25~D33
   - Phase 3으로 넘긴 것: 공연 곡별 가창자(M6의 Fandom 보강)
   - 로그인 세션: `automation/browser.json`(ytmusicapi 브라우저 인증, git에서 제외)
-- **Phase 2 (파일럿)**: 진행 중 (브랜치 `migration/db-catchup`)
+- **Phase 2 (파일럿)**: 완료 (PR #4로 `main`에 병합)
   - YouTube Music 어댑터(`takasaki ytm match` / `links`, D34) 완료. 2026-10-17 재수집으로 발매물 113개의 videoId를 현재 값으로 채웠고, 저장된 709개가 모두 재생된다. 4개는 원래 스트리밍에 없다(드라마 CD)
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
@@ -93,10 +93,13 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(현재 1건: Aqours CHRONICLE 제목의 rom 근거가 Fandom뿐. Phase 3의 Aqours 공식 사이트 어댑터에서 대조). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
   - README 생성(§10.3) 완료: Database Status·통계·JSON 예시·Disclaimer를 데이터에서 만든다. 권리 표기를 공식 포털의 최신 목록으로 갱신했다
   - 발매물 제목 rom·ko(D39): 196개 중 187개는 빌더가 수록곡 제목이나 라틴 원문에서 만든다(v1·SQLite). 나머지 8개는 리뷰(2026-10-19 승인)로 저장했다. 새 발매물이 둘 다에 해당하지 않으면 W17로 표시된다
-  - 남은 것: main PR
-  - Phase 3으로 넘긴 것: 음원 발음(kana) 결측(W8), 이키즈라이브 외 발매물의 메타데이터(공식 페이지·smartlink 링크, 레이블, 에디션·품번, `type`, `artist_credit`)
+  - Phase 3으로 넘긴 것: 음원 발음(kana) 결측(W8), 이키즈라이브 외 발매물의 메타데이터(공식 페이지·smartlink 링크, 레이블, 에디션·품번, `type`, `artist_credit`. 하스노소라·니지가사키·리에라·Aqours·뮤지컬은 Phase 3에서 채움)
 - **Phase 3 (공백 백필)**: 진행 중
-  - 하스노소라 공식 사이트 어댑터(`takasaki official hasunosora`, D40). 공식 페이지 91개 중 발매물 60개를 읽는다(라이브 BD·OST·트리뷰트·제목 미정·크로스 프로젝트 제외). 레거시 발매물 10개는 공식 페이지와 트랙이 모두 같아 근거를 공식으로 바꾸고 링크·종류·에디션·아티스트를 채웠다. 새 이름(곡 84, 인물 49, 유닛 3)은 재검토(2026-10-19)를 거쳐 초안으로 넣었고 새 발매물 50개가 들어갔다. YouTube Music 영상 467개를 연결했다(ソレイユスマイル은 아직 YouTube Music에 없음). `review/HSN-*.yaml` 승인을 기다린다
+  - 하스노소라 공식 사이트 어댑터(`takasaki official hasunosora`, D40). 공식 페이지 91개 중 발매물 60개를 읽는다(라이브 BD·OST·트리뷰트·제목 미정·크로스 프로젝트 제외). 레거시 발매물 10개는 공식 페이지와 트랙이 모두 같아 근거를 공식으로 바꾸고 링크·종류·에디션·아티스트를 채웠다. 새 이름(곡 84, 인물 49, 유닛 3)은 재검토(2026-10-19)를 거쳐 초안으로 넣었고 새 발매물 50개가 들어갔다. YouTube Music 영상 467개를 연결했다(ソレイユスマイル은 아직 YouTube Music에 없음). 새 이름은 `review/HSN-*.yaml`로 승인했다(2026-10-19). 공식 페이지 오기 「Retrofutur（Off Vocal）」로 생긴 초안 곡은 정정표(`TRACK_FIXES`)로 고친 뒤 참조가 없어 지웠다
+  - 니지가사키·리에라·Aqours·뮤지컬 음반 백필(2026-10-20, D43): 네 어댑터(`takasaki official <nijigasaki|liella|aqours|musical>`)를 검사 전용에서 가져오기로 바꿨다. 공식 페이지에만 있던 발매물 69개(리에라 15, 니지가사키 10, Aqours 43, 뮤지컬 1)를 초안으로 넣었고, 레거시 발매물 107개에 종류·레이블·에디션·품번·아티스트를 채웠다. 새 이름은 `review/{LLA,NJG,AQR,MSC}-*.yaml` 승인을 기다린다(승인 전에는 E3가 레거시 출력을 막는다). 공식 페이지에 크레딧이 없는 곡은 레이블 배포 메타데이터(YouTube Music 설명란, D42) 등으로 채웠다
+    - 넣지 않은 것: 사운드트랙, V.A. 트리뷰트, 트랙리스트 미공개 예정작(리에라 「Songbirds」). 크로스 프로젝트(LIVE with a smile!, 세 그룹 스플릿 싱글, Bring the LOVE！, AiScReam)는 다음 단계
+    - 이관 때 갈라진 `私のSymphony ～2022Ver.～`를 원곡의 음원으로 합쳤다
+  - Phase 3에 남은 것: 크로스 프로젝트·『幻日のヨハネ』 공식 사이트·μ's 음반, 백필한 발매물의 YouTube Music 링크(승인 후 `takasaki ytm match`), 음원 발음(kana, W8), 공연 백필. 교차 확인 소스로 LL-Fans(`ll-fans.jp`)를 쓸지 정해야 한다(DESIGN.md §6.1)
 - **이관 값의 출처 확인 (D41)**: 레거시에서 넘어온 값(근거 `migration:legacy`) 2,068개의 출처를 찾았다. 곡·발매물은 공식 CD 페이지와 대조해(`takasaki official <nijigasaki|liella|aqours|musical>`, 검사 전용) 블록 앵커까지 근거로 달았고, 공식에 없는 BD 특전 크레딧·이름의 rom·ko·공연 세트리스트는 Fandom·나무위키·uta-net 등에서 찾아 `공식 미게재`를 적었다. 출처와 값이 다른 61개 엔티티는 `review/SRC-*.yaml`(크레딧, 이름, 트랙 구성, 인물 병합 2건, 弦·管編曲 방침)로 넘겼다. W18이 남은 이관 근거를 표시한다
   - 리뷰 결정 반영(2026-10-19, D42): 編曲·弦編曲·管編曲을 역할로 나눠(`arranger`·`strings_arranger`·`brass_arranger`) 모든 공식 페이지에서 다시 읽었다(弦·管編曲이 있는 음원 77개). 표기 폭은 ja는 공식 그대로, rom·ko는 반각(E15)이고, 크레딧 소속 괄호는 ja에서 근거 페이지의 폭을 따른다. 크레딧·인명·트랙 구성을 공식 표기로 고치고 인물 2쌍을 병합했다(DESIGN.md §10.1 21). 이관 근거만 남은 값은 0개이고, 리뷰 항목도 모두 닫았다(`Happy Nyan! Days` 크레딧은 YouTube Music의 레이블 메타데이터로 확정)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).

@@ -1,0 +1,42 @@
+id: aqours/shiny-racers
+project: aqours
+title:
+  ja: Shiny Racers
+  rom: Shiny Racers
+  ko: Shiny Racers
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiromitsu-kawashima}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: hiromitsu-kawashima}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd48
+        checked: 2026-10-19
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=Kc9LD-3fCao
+        checked: 2026-10-20
+        note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치
+      strings_arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=Kc9LD-3fCao
+        checked: 2026-10-20
+        note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=Kc9LD-3fCao
+    checked: 2026-10-20
+    note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치

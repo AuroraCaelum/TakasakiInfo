@@ -45,6 +45,36 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd08
         checked: 2026-10-19
         note: '가창자: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43'
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
+        checked: 2026-10-19
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
+        checked: 2026-10-19
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
+        checked: 2026-10-19
 evidence:
   credits:
     status: official

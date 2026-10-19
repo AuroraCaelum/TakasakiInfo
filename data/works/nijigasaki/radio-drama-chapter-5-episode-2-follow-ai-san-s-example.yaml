@@ -1,0 +1,22 @@
+id: nijigasaki/radio-drama-chapter-5-episode-2-follow-ai-san-s-example
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ5章2話 愛さんをお手本に！
+  rom: Radio Drama Chapter 5 Episode 2 Follow Ai-san's example!
+  ko: 라디오 드라마 5장 2화 아이 씨를 본보기로!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

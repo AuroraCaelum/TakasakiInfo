@@ -1,0 +1,31 @@
+id: liella/pastel-collage
+project: liella
+title:
+  ja: パステルコラージュ
+  rom: Pastel Collage
+  ko: 파스텔 콜라주
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takamasa-yura}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-20

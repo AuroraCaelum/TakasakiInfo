@@ -1,0 +1,57 @@
+id: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-takami-chika
+type: album
+title:
+  ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Takami Chika
+  rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Takami Chika
+  ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Takami Chika
+projects: [aqours]
+artist_credit:
+  - {character: aqours/chika-takami}
+label: Lantis
+release_date: 2024-08-01
+editions:
+  - {id: e1, catalog: LACA-19060~1}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#chika-takami-solo}
+      - {no: 2, recording: aqours/no-10#chika-takami-solo}
+      - {no: 3, recording: aqours/bouken-type-a-b-c#chika-takami-solo}
+      - {no: 4, recording: aqours/fantastic-departure#chika-takami-solo}
+      - {no: 5, recording: aqours/aqours-pirates-desire#chika-takami-solo}
+      - {no: 6, recording: aqours/future-flight#chika-takami-solo}
+      - {no: 7, recording: aqours/smile-smile-ship-start#chika-takami-solo}
+      - {no: 8, recording: aqours/kokoro-no-hane-yo-kimi-e-tondeke#chika-takami-solo}
+      - {no: 9, recording: aqours/ku-ru-ku-ru-cruller#chika-takami-solo}
+      - {no: 10, recording: aqours/suki-for-you-dream-for-you#chika-takami-solo}
+      - {no: 11, recording: aqours/namida#chika-takami-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: nijigasaki/live-with-a-smile#chika-takami-solo}
+      - {no: 2, recording: nijigasaki/not-alone-not-hitori#chika-takami-solo}
+      - {no: 3, recording: aqours/gemstone-de-a-i#original}
+      - {no: 4, recording: aqours/banzai-digital-trippers#chika-takami-solo}
+      - {no: 5, recording: aqours/ka-ga-ya-ki-ra-ri-ra#chika-takami-solo}
+      - {no: 6, recording: aqours/genjitsu-mysterium#chika-takami-solo}
+      - {no: 7, recording: aqours/game-on#chika-takami-solo}
+      - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#chika-takami-solo}
+      - {no: 9, recording: aqours/silent-pain#chika-takami-solo}
+      - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#original}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Takami Chika, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

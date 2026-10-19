@@ -5,7 +5,19 @@ title:
   rom: Love Live! Sunshine!! Aqours CHRONICLE (2015~2017)
   ko: 러브 라이브! 선샤인!! Aqours CHRONICLE (2015~2017)
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
 release_date: 2020-10-07
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39800~39803
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-9780~9783
 discs:
   - tracks:
       - {no: 1, recording: aqours/kimi-no-kokoro-wa-kagayaiteru-kai#original, note: Aqours 1st Single}
@@ -117,7 +129,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 4장으로 나눠 트랙 번호를 매김
   streaming:
     status: established
@@ -129,3 +141,7 @@ evidence:
     source: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
     checked: 2026-10-19
     note: 시리즈명은 Liella 1st 투어 공연명과 같은 형식(rom Love Live! Superstar!!, ko D11). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017). 리뷰 승인
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
+    checked: 2026-10-20

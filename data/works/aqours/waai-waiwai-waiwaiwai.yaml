@@ -1,0 +1,46 @@
+id: aqours/waai-waiwai-waiwaiwai
+project: aqours
+title:
+  ja: わーいわいわい わいわいわい！
+  rom: Waai WaiWai WaiWaiWai!
+  ko: 와-이와이와이 와이와이와이!
+credits:
+  lyricist:
+    - {person: kenichi-maeyamada}
+  composer:
+    - {person: kenichi-maeyamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: waiwaiwai}
+    arranger:
+      - {person: tota-fujiwara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: わーいわいわい わいわいわい！ (Off Vocal)
+      rom: Waai WaiWai WaiWaiWai! (Off Vocal)
+      ko: 와-이와이와이 와이와이와이! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tota-fujiwara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20

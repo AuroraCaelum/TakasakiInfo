@@ -1,0 +1,31 @@
+id: aqours/ao-no-aurora
+project: aqours
+title:
+  ja: 海空のオーロラ
+  rom: Ao no Aurora
+  ko: 해공의 오로라
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: t4k}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: t4k}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
+    checked: 2026-10-20

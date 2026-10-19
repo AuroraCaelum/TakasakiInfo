@@ -1,0 +1,33 @@
+id: liella/aspire
+project: liella
+title:
+  ja: Aspire
+  rom: Aspire
+  ko: Aspire
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: r-o-n}
+    - {person: james-landino}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: r-o-n}
+      - {person: james-landino}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+        checked: 2026-10-19
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-19

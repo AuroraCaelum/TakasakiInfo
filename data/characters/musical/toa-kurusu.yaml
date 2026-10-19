@@ -14,6 +14,7 @@ given_name:
   ko: 토아
 casting:
   - {person: sana-hoshimori}
+  - {person: arie-nishida}
 evidence:
   names.ja:
     status: official
@@ -32,3 +33,7 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    checked: 2026-10-20

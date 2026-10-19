@@ -1,0 +1,22 @@
+id: nijigasaki/radio-drama-chapter-4-episode-5-overcome-the-darkness
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ4章5話 暗闇を乗り越えろ！
+  rom: Radio Drama Chapter 4 Episode 5 Overcome the darkness!
+  ko: 라디오 드라마 4장 5화 어둠을 이겨내라!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

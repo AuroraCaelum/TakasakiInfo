@@ -1,15 +1,21 @@
 id: liella/2021-hajimari-wa-kimi-no-sora
+type: single
 title:
   ja: 始まりは君の空
 projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
 release_date: 2021-04-07
 editions:
   - id: e1
     label:
       ja: みんなで叶える物語盤
+    catalog: LACM-24100
   - id: e2
     label:
       ja: 私を叶える物語盤
+    catalog: LACM-24101
 discs:
   - editions: [e1]
     tracks:
@@ -58,10 +64,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_wWSYQj1ZsYr
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
+    checked: 2026-10-20

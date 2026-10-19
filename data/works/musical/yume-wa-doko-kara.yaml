@@ -1,0 +1,37 @@
+id: musical/yume-wa-doko-kara
+project: musical
+title:
+  ja: 夢はドコカラ
+  rom: Yume wa Doko kara
+  ko: 꿈은 어디에서
+credits:
+  lyricist:
+    - {person: koki-kishimoto}
+  composer:
+    - {person: ryota-kojima}
+recordings:
+  - id: original
+    performers:
+      - {artist: tsubaki-takizakura-jogakuin-high-school-school-idol-club}
+    arranger:
+      - {person: hiroshi-takaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=hiNl9Ka3qos
+        checked: 2026-10-20
+        note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치
+evidence:
+  title:
+    status: draft
+    source: automation/review/MSC-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=hiNl9Ka3qos
+    checked: 2026-10-20
+    note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치

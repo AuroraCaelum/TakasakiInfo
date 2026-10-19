@@ -1,0 +1,32 @@
+id: liella/tekuteku-biyori
+project: liella
+title:
+  ja: てくてく日和
+  rom: Tekuteku Biyori
+  ko: 뚜벅뚜벅 좋은 날
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: ryuki-koike}
+    - {person: hoffnung}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: hoffnung}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-20

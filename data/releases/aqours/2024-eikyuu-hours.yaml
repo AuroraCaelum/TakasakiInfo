@@ -1,0 +1,39 @@
+id: aqours/2024-eikyuu-hours
+type: single
+title:
+  ja: 永久hours
+projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
+release_date: 2024-12-18
+editions:
+  - id: e1
+    label:
+      ja: ＜初回限定盤(CD+BD)＞
+    catalog: LACM-34640
+  - id: e2
+    label:
+      ja: ＜通常盤(CDのみ)＞
+    catalog: LACM-24640
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/eikyuu-hours#original}
+      - {no: 2, recording: aqours/bokura-no-tabi-wa-owaranai#original}
+      - {no: 3, recording: aqours/eikyuu-hours#off-vocal}
+      - {no: 4, recording: aqours/bokura-no-tabi-wa-owaranai#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+legacy:
+  category: Aqours
+  albums:
+    - {title: 永久hours}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+    checked: 2026-10-20

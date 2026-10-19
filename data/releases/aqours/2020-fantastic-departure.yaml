@@ -1,8 +1,14 @@
 id: aqours/2020-fantastic-departure
+type: single
 title:
   ja: Fantastic Departure!
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
 release_date: 2020-07-22
+editions:
+  - {id: e1, catalog: LACM-14990}
 discs:
   - tracks:
       - {no: 1, recording: aqours/fantastic-departure#original}
@@ -29,10 +35,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_wiFwIgiti2i
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
+    checked: 2026-10-20

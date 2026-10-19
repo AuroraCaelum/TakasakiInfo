@@ -1,0 +1,41 @@
+id: musical/2024-tsubaki-takizakura-jogakuin-high-school-school-idol-club-koyasai-album
+type: album
+title:
+  ja: 椿滝桜女学院高等学校スクールアイドル部 後夜祭アルバム！
+  rom: Tsubaki Takizakura Jogakuin High School School Idol Club Koyasai Album!
+  ko: 츠바키타키자쿠라 여학원 고등학교 스쿨 아이돌부 후야제 앨범!
+projects: [musical]
+release_date: 2024-08-21
+discs:
+  - tracks:
+      - {no: 1, recording: musical/ima-sugu-hajimeyo#original}
+      - {no: 2, recording: musical/oen-shite-ne#original}
+      - {no: 3, recording: musical/shuyaku-ni-narenai-shuyaku#original}
+      - {no: 4, recording: musical/so-my-way#original}
+      - {no: 5, recording: musical/ishiki-shiau-toka-hikare-au-toka#original}
+      - {no: 6, recording: musical/anata-ni-muchu#original}
+      - {no: 7, recording: musical/parfait-parfait-koshinkyoku#original}
+      - {no: 8, recording: musical/watashi-no-seiza#original}
+      - {no: 9, recording: musical/kono-saki-mo-zutto#original}
+      - {no: 10, recording: musical/yume-migachi-girl#original}
+      - {no: 11, recording: musical/seishun-no-sanka#original}
+      - {no: 12, recording: musical/yume-wa-doko-kara#original}
+links:
+  official: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+legacy:
+  category: Musical
+  albums:
+    - {title: 椿滝桜女学院高等学校スクールアイドル部 後夜祭アルバム！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd03
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/MSC-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

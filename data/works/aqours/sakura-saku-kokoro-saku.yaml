@@ -1,0 +1,50 @@
+id: aqours/sakura-saku-kokoro-saku
+project: aqours
+title:
+  ja: SAKURA-saku KOKORO-saku
+  rom: SAKURA-saku KOKORO-saku
+  ko: SAKURA-saku KOKORO-saku
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: junya-maesako}
+    - {person: goro-nakano}
+    - {person: hitoshi-harukawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: goro-nakano}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SAKURA-saku KOKORO-saku (Off Vocal)
+      rom: SAKURA-saku KOKORO-saku (Off Vocal)
+      ko: SAKURA-saku KOKORO-saku (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: goro-nakano}
+      - {person: hitoshi-harukawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+    checked: 2026-10-20

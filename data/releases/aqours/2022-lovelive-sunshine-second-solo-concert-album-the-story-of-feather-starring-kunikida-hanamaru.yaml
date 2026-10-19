@@ -1,0 +1,53 @@
+id: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kunikida-hanamaru
+type: album
+title:
+  ja: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Kunikida Hanamaru
+  rom: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Kunikida Hanamaru
+  ko: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Kunikida Hanamaru
+projects: [aqours]
+artist_credit:
+  - {character: aqours/hanamaru-kunikida}
+label: Lantis
+release_date: 2022-03-04
+editions:
+  - {id: e1, catalog: LACA-9841~2}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/aozora-jumping-heart#hanamaru-kunikida-solo}
+      - {no: 2, recording: aqours/humming-friend#hanamaru-kunikida-solo}
+      - {no: 3, recording: aqours/yume-de-yozora-wo-terashitai#hanamaru-kunikida-solo}
+      - {no: 4, recording: aqours/mijuku-dreamer#hanamaru-kunikida-solo}
+      - {no: 5, recording: aqours/omoi-yo-hitotsu-ni-nare#hanamaru-kunikida-solo}
+      - {no: 6, recording: aqours/mirai-ticket#hanamaru-kunikida-solo}
+      - {no: 7, recording: aqours/sunshine-pikkapika-ondo#hanamaru-kunikida-solo}
+      - {no: 8, recording: aqours/yume-kataruyori-yume-utaou#hanamaru-kunikida-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/mirai-no-bokura-wa-shitteru-yo#hanamaru-kunikida-solo}
+      - {no: 2, recording: aqours/kimi-no-hitomi-o-meguru-boken#hanamaru-kunikida-solo}
+      - {no: 3, recording: aqours/my-mai-tonight#hanamaru-kunikida-solo}
+      - {no: 4, recording: aqours/miracle-wave#hanamaru-kunikida-solo}
+      - {no: 5, recording: aqours/water-blue-new-world#hanamaru-kunikida-solo}
+      - {no: 6, recording: aqours/wonderful-stories#hanamaru-kunikida-solo}
+      - {no: 7, recording: aqours/my-list-to-you#hanamaru-kunikida-solo}
+      - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#hanamaru-kunikida-solo}
+      - {no: 9, recording: aqours/yaa-kouunryuusui#original}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Kunikida Hanamaru, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
+    checked: 2026-10-20
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)

@@ -3,7 +3,12 @@ type: single
 title:
   ja: GALAXY HidE and SeeK
 projects: [aqours]
+artist_credit:
+  - {artist: azalea}
+label: Lantis
 release_date: 2017-05-31
+editions:
+  - {id: e1, catalog: LACM-14602}
 discs:
   - tracks:
       - {no: 1, recording: aqours/galaxy-hide-and-seek#original}
@@ -28,7 +33,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd15
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
@@ -38,3 +43,7 @@ evidence:
     source: https://music.youtube.com/browse/MPREb_d9h5xyGOEDu
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd15
+    checked: 2026-10-20

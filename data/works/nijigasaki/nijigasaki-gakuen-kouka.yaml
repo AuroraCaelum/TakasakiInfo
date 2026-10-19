@@ -1,0 +1,82 @@
+id: nijigasaki/nijigasaki-gakuen-kouka
+project: nijigasaki
+title:
+  ja: 虹ヶ咲学園校歌
+  rom: Nijigasaki Gakuen Kouka
+  ko: 니지가사키 학원 교가
+credits:
+  lyricist:
+    - {person: toshikazu-kadono}
+  composer:
+    - {person: toshikazu-kadono}
+    - {person: masahiro-kawaura}
+recordings:
+  - id: rock-ver
+    title:
+      ja: 虹ヶ咲学園校歌 (Rock Ver.)
+      rom: Nijigasaki Gakuen Kouka (Rock Ver.)
+      ko: 니지가사키 학원 교가 (Rock Ver.)
+    version: Rock Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: rockwell}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+        checked: 2026-10-20
+  - id: piano-ver
+    title:
+      ja: 虹ヶ咲学園校歌 (Piano Ver.)
+      rom: Nijigasaki Gakuen Kouka (Piano Ver.)
+      ko: 니지가사키 학원 교가 (Piano Ver.)
+    version: Piano Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: naoki-endo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+        checked: 2026-10-20
+  - id: rock-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: 虹ヶ咲学園校歌 (Rock Ver.) (Off Vocal)
+      rom: Nijigasaki Gakuen Kouka (Rock Ver.) (Off Vocal)
+      ko: 니지가사키 학원 교가 (Rock Ver.) (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rockwell}
+    instrumental_of: rock-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+        checked: 2026-10-20
+  - id: piano-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: 虹ヶ咲学園校歌 (Piano Ver.) (Off Vocal)
+      rom: Nijigasaki Gakuen Kouka (Piano Ver.) (Off Vocal)
+      ko: 니지가사키 학원 교가 (Piano Ver.) (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: naoki-endo}
+    instrumental_of: piano-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/NJG-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+    checked: 2026-10-20

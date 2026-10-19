@@ -1,0 +1,132 @@
+id: aqours/ku-ru-ku-ru-cruller
+project: aqours
+title:
+  ja: KU-RU-KU-RU Cruller!
+  rom: KU-RU-KU-RU Cruller!
+  ko: KU-RU-KU-RU Cruller!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kanata-okajima}
+    - {person: soma-genda}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KU-RU-KU-RU Cruller! (Off Vocal)
+      rom: KU-RU-KU-RU Cruller! (Off Vocal)
+      ko: KU-RU-KU-RU Cruller! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: soma-genda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+        checked: 2026-10-19
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-19
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+        checked: 2026-10-19
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+        checked: 2026-10-19
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
+        checked: 2026-10-19
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
+        checked: 2026-10-19
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+        checked: 2026-10-19
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: soma-genda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
+        checked: 2026-10-19
+  - id: rockabilly-ver
+    title:
+      ja: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
+      rom: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
+      ko: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
+    version: Rockabilly Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: samoyed}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/AQR-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+    checked: 2026-10-19

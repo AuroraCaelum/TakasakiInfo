@@ -1,0 +1,14 @@
+id: kentarou
+names:
+  ja: Kentarou
+  rom: Kentarou
+  ko: Kentarou
+native_script: latin
+evidence:
+  names:
+    status: draft
+    source: automation/review/MSC-persons.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 활동명(한 단어, 라틴 문자)

@@ -1,10 +1,16 @@
 id: liella/2021-1027
+type: album
 title:
   ja: リエラのうた
   rom: Liella no Uta
   ko: 리에라의 노래
 projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
 release_date: 2021-10-27
+editions:
+  - {id: e1, catalog: LACA-15895}
 discs:
   - tracks:
       - {no: 1, recording: liella/primary#original}
@@ -44,7 +50,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
@@ -55,3 +61,7 @@ evidence:
     status: derived
     checked: 2026-10-19
     note: ko는 번역(나무위키에서 찾지 못함). リエラ는 음역. 리뷰 승인
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
+    checked: 2026-10-20

@@ -1,0 +1,47 @@
+id: liella/camellia-no-sasayaki
+project: liella
+title:
+  ja: カメリアの囁き
+  rom: Camellia no Sasayaki
+  ko: 카멜리아의 속삭임
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: masaki-iehara}
+    - {person: ranasol}
+recordings:
+  - id: original
+    performers:
+      - {artist: kaleidoscore}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: カメリアの囁き (Off Vocal)
+      rom: Camellia no Sasayaki (Off Vocal)
+      ko: 카멜리아의 속삭임 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+    checked: 2026-10-20

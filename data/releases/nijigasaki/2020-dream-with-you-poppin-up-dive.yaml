@@ -1,7 +1,12 @@
 id: nijigasaki/2020-dream-with-you-poppin-up-dive
+type: single
 title:
   ja: Dream with You / Poppin' Up! / DIVE!
 projects: [nijigasaki]
+artist_credit:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/setsuna-yuki}
 release_date: 2020-11-18
 editions:
   - id: e1
@@ -43,10 +48,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
+    checked: 2026-10-20

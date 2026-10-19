@@ -1,0 +1,32 @@
+id: liella/11th-moon
+project: liella
+title:
+  ja: 11th moon
+  rom: 11th moon
+  ko: 11th moon
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/margarete-wien}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+        checked: 2026-10-19
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
+    checked: 2026-10-19

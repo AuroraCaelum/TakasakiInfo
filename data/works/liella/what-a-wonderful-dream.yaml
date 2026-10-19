@@ -21,6 +21,96 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
         checked: 2026-10-19
+  - id: catchu-ver
+    title:
+      ja: What a Wonderful Dream!! ～CatChu! Ver.～
+      rom: What a Wonderful Dream!! ~CatChu! Ver.~
+      ko: What a Wonderful Dream!! ~CatChu! Ver.~
+    version: CatChu! Ver.
+    performers:
+      - {artist: catchu}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+        checked: 2026-10-19
+  - id: 5yncri5e-ver
+    title:
+      ja: What a Wonderful Dream!! ～5yncri5e! Ver.～
+      rom: What a Wonderful Dream!! ~5yncri5e! Ver.~
+      ko: What a Wonderful Dream!! ~5yncri5e! Ver.~
+    version: 5yncri5e! Ver.
+    performers:
+      - {artist: 5yncri5e}
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+        checked: 2026-10-19
+  - id: 5yncri5e-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: What a Wonderful Dream!! ～5yncri5e! Ver.～ (Off Vocal)
+      rom: What a Wonderful Dream!! ~5yncri5e! Ver.~ (Off Vocal)
+      ko: What a Wonderful Dream!! ~5yncri5e! Ver.~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+    instrumental_of: 5yncri5e-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+        checked: 2026-10-19
+  - id: catchu-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: What a Wonderful Dream!! ～CatChu! Ver.～ (Off Vocal)
+      rom: What a Wonderful Dream!! ~CatChu! Ver.~ (Off Vocal)
+      ko: What a Wonderful Dream!! ~CatChu! Ver.~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: menma}
+    instrumental_of: catchu-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+        checked: 2026-10-20
+  - id: kaleidoscore-ver
+    title:
+      ja: What a Wonderful Dream!! ～KALEIDOSCORE Ver.～
+      rom: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~
+      ko: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~
+    version: KALEIDOSCORE Ver.
+    performers:
+      - {artist: kaleidoscore}
+    arranger:
+      - {person: kana-utatane}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
+  - id: kaleidoscore-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: What a Wonderful Dream!! ～KALEIDOSCORE Ver.～ (Off Vocal)
+      rom: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~ (Off Vocal)
+      ko: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kana-utatane}
+    instrumental_of: kaleidoscore-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
 evidence:
   credits:
     status: official

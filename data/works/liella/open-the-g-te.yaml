@@ -1,0 +1,46 @@
+id: liella/open-the-g-te
+project: liella
+title:
+  ja: OPEN THE G☆TE!!!
+  rom: OPEN THE G☆TE!!!
+  ko: OPEN THE G☆TE!!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: kanata-saito}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kanata-saito}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: OPEN THE G☆TE!!! (Off Vocal)
+      rom: OPEN THE G☆TE!!! (Off Vocal)
+      ko: OPEN THE G☆TE!!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kanata-saito}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+    checked: 2026-10-19

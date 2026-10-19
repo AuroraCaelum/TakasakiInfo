@@ -1,0 +1,46 @@
+id: liella/seishun-hoppers
+project: liella
+title:
+  ja: 青春HOPPERS
+  rom: Seishun HOPPERS
+  ko: 청춘 HOPPERS
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: naoto-kiyota}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: masaki-iehara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 青春HOPPERS (Off Vocal)
+      rom: Seishun HOPPERS (Off Vocal)
+      ko: 청춘 HOPPERS (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaki-iehara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
+    checked: 2026-10-20

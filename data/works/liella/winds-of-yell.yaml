@@ -1,0 +1,50 @@
+id: liella/winds-of-yell
+project: liella
+title:
+  ja: Winds of YELL
+  rom: Winds of YELL
+  ko: Winds of YELL
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: gou-ishikuro}
+    - {person: mio-jorakuji}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+      - {character: liella/mei-yoneme}
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Winds of YELL (Off Vocal)
+      rom: Winds of YELL (Off Vocal)
+      ko: Winds of YELL (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: gou-ishikuro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+evidence:
+  title:
+    status: draft
+    source: automation/review/LLA-titles.yaml
+    note: 승인 대기 (new-names 리뷰)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-19
