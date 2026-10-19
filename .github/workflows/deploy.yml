@@ -53,3 +53,11 @@ jobs:
           --base-url "${{ vars.BASE_URL }}"
           --sha "${{ github.sha }}"
           ${{ env.PROMOTE == 'true' && '--promote' || '' }}
+      # tell TakasakiInfo-Graph to rebuild from the data just made live. secrets can't be used in
+      # an `if`, so a missing token is checked in the script and the step does nothing.
+      - if: env.PROMOTE == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GRAPH_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "GRAPH_DISPATCH_TOKEN not set; skipping"; exit 0; fi
+          gh api "repos/${{ github.repository_owner }}/TakasakiInfo-Graph/dispatches" -f event_type=takasaki-data-updated

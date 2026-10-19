@@ -103,6 +103,7 @@ npx aws-cdk@2 deploy --all \
 | 탭 | 이름 | 값 (App 스택 Outputs) |
 | --- | --- | --- |
 | Secrets | `AWS_ROLE_ARN` | `DeployRoleArn` |
+| Secrets | `GRAPH_DISPATCH_TOKEN` | (선택) 아래 토큰 |
 | Variables | `AWS_REGION` | `ap-northeast-2` |
 | Variables | `S3_BUCKET` | `BucketName` |
 | Variables | `DISTRIBUTION_ID` | `DistributionId` |
@@ -110,6 +111,7 @@ npx aws-cdk@2 deploy --all \
 
 - 버킷 이름과 배포 ID는 알려져도 쓸 수 없는 값이라 Variables에 둔다. 버킷은 비공개이고, 배포 ID는 자격 증명 없이는 쓸 수 없다.
 - `S3_BUCKET`이 등록되기 전까지 `deploy` 워크플로는 건너뛴다.
+- `GRAPH_DISPATCH_TOKEN`: 공개 배포가 끝나면 `TakasakiInfo-Graph`에 `repository_dispatch`(`takasaki-data-updated`)를 보내 바로 다시 빌드하게 한다. GitHub → Settings → Developer settings → Fine-grained tokens에서 저장소는 `TakasakiInfo-Graph`만, 권한은 Contents: Read and write로 만든다. 없으면 이 단계는 건너뛰고 Graph는 매일 정해진 시각에 갱신된다.
 - `gh` CLI로도 등록할 수 있다: `gh secret set AWS_ROLE_ARN --body '<값>'`, `gh variable set S3_BUCKET --body '<값>'`.
 
 **계정 정보는 저장소에 남기지 않는다.** 계정 ID와 이메일은 명령줄 `-c`로만 넘기고 `cdk.json`에 적지 않는다. CDK가 계정 정보를 담아 만드는 `cdk.context.json`은 `.gitignore`에 들어 있다.
