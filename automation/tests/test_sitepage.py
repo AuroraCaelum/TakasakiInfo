@@ -62,7 +62,7 @@ def test_a_nijigasaki_block():
     assert first.performers.members == [("上原歩夢", "大西亜玖璃")]
     assert [c.name for c in first.credits["lyricist"]] == ["畑 亜貴"]
     assert [(c.name, c.affiliation) for c in first.credits["arranger"]] == [("矢鴇つかさ", "Arte Refact")]
-    assert [c.name for c in first.credits["strings"]] == ["真部 裕"]  # read apart (D40, D41)
+    assert [c.name for c in first.credits["strings_arranger"]] == ["真部 裕"]  # a role of its own (D42)
 
 
 def test_an_aqours_block_with_inline_credits():
@@ -90,6 +90,12 @@ def test_credit_lines():
         "composer": ["酒井拓也"], "arranger": ["脇 眞富"]}
     assert [c.name for c in imp.parse_credit_line("作詞・作曲：R・O・N")["lyricist"]] == ["R・O・N"]
     assert set(imp.parse_credit_line("作曲／編曲：EFFY")) == {"composer", "arranger"}
+    okuma = imp.parse_credit_line("編曲：大熊淳生（Arte Refact）、光増ハジメ (FirstCall)")["arranger"]
+    assert [(c.name, c.affiliation, c.fullwidth) for c in okuma] == [
+        ("大熊淳生", "Arte Refact", True), ("光増ハジメ", "FirstCall", False)]  # the brackets as printed (D42)
+    both = imp.parse_credit_line("編曲：EFFY　弦管編曲：真部 裕")  # strings and brass by one arranger (D42)
+    assert {k: [c.name for c in v] for k, v in both.items()} == {
+        "arranger": ["EFFY"], "strings_arranger": ["真部 裕"], "brass_arranger": ["真部 裕"]}
 
 
 # --- the check of a migrated release ------------------------------------------------
@@ -139,7 +145,7 @@ def _obs(tracks, perf=None):
 
 def test_the_check_cites_the_page_for_what_it_prints(ds, tmp_path):
     credits = {"lyricist": [imp.CreditName("畑亜貴")], "composer": [imp.CreditName("EFFY")],
-               "arranger": [imp.CreditName("EFFY")], "strings": [imp.CreditName("真部 裕")]}
+               "arranger": [imp.CreditName("EFFY")], "strings_arranger": [imp.CreditName("真部 裕")]}
     site = imp.Site([], [_obs([imp.TrackObs(1, "Song A", credits=credits), imp.TrackObs(2, "Song A (Off Vocal)"),
                                imp.TrackObs(3, "Song A（高海千歌 Solo Ver.）")])], "https://x/member/")
     rep = imp.import_site(ds, site, tmp_path, dt.date(2026, 10, 19), SPEC)
@@ -147,7 +153,11 @@ def test_the_check_cites_the_page_for_what_it_prints(ds, tmp_path):
     work = ds.works["p/a"]
     recs = {r.id: r.evidence["credits"] for r in work.recordings}
     assert work.evidence["credits"].source == URL and work.evidence["credits"].status == m.Status.official
-    assert recs["original"].source == URL and recs["original"].note == imp.WITH_STRINGS  # 弦編曲 kept by the legacy files
+    assert recs["original"].source == URL and recs["original"].note is None
+    # the legacy files mixed the 弦編曲 into the arranger list: the check splits it into its roles (D42),
+    # and the Off Vocal and the solo version follow their vocal
+    for r in work.recordings:
+        assert ([c.person for c in r.arranger], [c.person for c in r.strings_arranger]) == (["effy"], ["manabe"]), r.id
     assert recs["off-vocal"].source == URL  # its arranger is its vocal's
     # the solo version prints neither credits nor a "歌：" line: its singer is in the version, under the credits of X
     assert recs["chika-takami-solo-ver"].status == m.Status.official and recs["chika-takami-solo-ver"].source == URL
@@ -167,7 +177,7 @@ def test_a_solo_album_without_credits_borrows_the_arrangement(ds, tmp_path):
         discs=[m.Disc(tracks=[m.Track(no=1, recording="p/a#chika-takami-solo-ver")])],
         legacy=m.ReleaseLegacy(category="P", albums=[m.LegacyAlbum(title="Solo")]), evidence={"tracks": MIGRATED})
     credits = {"lyricist": [imp.CreditName("畑 亜貴")], "composer": [imp.CreditName("EFFY")],
-               "arranger": [imp.CreditName("EFFY")], "strings": [imp.CreditName("真部 裕")]}
+               "arranger": [imp.CreditName("EFFY")], "strings_arranger": [imp.CreditName("真部 裕")]}
     site = imp.Site([], [
         _obs([imp.TrackObs(1, "Song A", credits=credits), imp.TrackObs(2, "Song A (Off Vocal)")]),
         imp.ReleaseObs(solo, "", "Solo", dt.date(2020, 8, 1), imp.Performers(None, None, [("高海千歌", "伊波杏樹")]),

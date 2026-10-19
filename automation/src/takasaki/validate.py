@@ -7,6 +7,7 @@ reported as warnings instead of errors: the review item is the pending fix.
 from __future__ import annotations
 
 from collections import defaultdict
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -16,7 +17,7 @@ from ruamel.yaml import YAML
 from . import model as m
 from .build_legacy import edition_ids, edition_tracks, own_video, release_title
 from .store import Dataset
-from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
+from .text import halfwidth, has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
 
 @dataclass
@@ -82,7 +83,7 @@ def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
                 work, rec = ds.recording(t.recording)
                 put("work", work.id, work)
                 put("recording", t.recording, rec)
-                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.arranger:
+                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.all_arrangers():
                     credit(c)
                 for p in rec.performers:
                     performer(p)
@@ -97,6 +98,18 @@ def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
         for cid in ids:
             put("concert", cid, ds.concerts.get(cid))
     return [(f"{k}:{i}", ent) for (k, i), ent in seen.items()]
+
+
+def _names_in(obj: object, path: str = "") -> Iterator[tuple[str, m.Names]]:
+    """Every name and title an entity holds, with where it is."""
+    if isinstance(obj, m.Names):
+        yield path, obj
+    elif isinstance(obj, BaseModel):
+        for k in type(obj).model_fields:
+            yield from _names_in(getattr(obj, k), f"{path}.{k}" if path else k)
+    elif isinstance(obj, list):
+        for i, x in enumerate(obj):
+            yield from _names_in(x, f"{path}[{i}]")
 
 
 def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
@@ -144,7 +157,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             where = f"recording:{w.id}#{r.id}"
             for p in r.performers:
                 perf(p, where)
-            creds(r.arranger, where)
+            creds(r.arranger + r.strings_arranger + r.brass_arranger, where)
             if r.credits_override:
                 creds(r.credits_override.lyricist + r.credits_override.composer, where)
             if r.instrumental_of and r.instrumental_of not in ids:
@@ -238,7 +251,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E6", ref, f"ko contains kana: {n.ko!r}", refs=(ref,))
     # an affiliation is printed in every language column, so a Japanese-script one needs per-language names (D31)
     for w in ds.works.values():
-        lists = [w.credits.lyricist, w.credits.composer] + [r.arranger for r in w.recordings]
+        lists = [w.credits.lyricist, w.credits.composer] + [cs for r in w.recordings for cs in (r.arranger, r.strings_arranger, r.brass_arranger)]
         lists += [cs for r in w.recordings if r.credits_override for cs in (r.credits_override.lyricist, r.credits_override.composer)]
         for c in (c for cs in lists for c in cs):
             rom, ko = c.affiliation_in("rom"), c.affiliation_in("ko")
@@ -250,6 +263,15 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         if p.native_script == "latin" and p.names.ko != p.names.ja and not approved:
             add("E7", f"person:{p.id}", f"Latin-native name has ko {p.names.ko!r} (expected {p.names.ja!r})",
                 refs=(f"person:{p.id}",))
+
+    # E15: ja keeps the official notation (full-width ！ and the like, §5.1); rom and ko are half-width
+    # (D42: CYaRon！ is ja, CYaRon! is rom and ko)
+    for kind, ent in ds.iter_all():  # type: ignore[attr-defined]
+        for path, n in _names_in(ent):
+            for lang in ("rom", "ko"):
+                v = getattr(n, lang)
+                if v and halfwidth(v) != v:
+                    add("E15", f"{kind}:{ent.id}", f"{path}.{lang} {v!r} is not half-width ({halfwidth(v)!r})")
 
     # E12 / W15: name parts and Japanese name spacing (D26, D28)
     split_names = (

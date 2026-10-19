@@ -97,7 +97,8 @@ LEFT JOIN label wt_rom ON wt_rom.entity = 'work:' || rec.work AND wt_rom.field =
 LEFT JOIN label wt_ko ON wt_ko.entity = 'work:' || rec.work AND wt_ko.field = 'title' AND wt_ko.lang = 'ko'
 LEFT JOIN stream_link s ON s.track = t.id AND s.platform = 'youtube_music';
 
--- who wrote what: work-level lyricist/composer (or a recording's override) and recording-level arranger
+-- who wrote what: work-level lyricist/composer (or a recording's override) and recording-level arrangers
+-- (arranger, strings_arranger, brass_arranger: 編曲, 弦編曲, 管編曲, D42)
 CREATE VIEW v_person_credits AS
 SELECT c.person, c.role, c.target,
        CASE WHEN c.target IN (SELECT id FROM work) THEN c.target ELSE (SELECT work FROM recording WHERE id = c.target) END AS work
@@ -206,6 +207,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
             names(f"recording:{rid}", "title", r.title, r.evidence)
             common(f"recording:{rid}", r)
             credits(rid, "arranger", r.arranger)
+            credits(rid, "strings_arranger", r.strings_arranger)
+            credits(rid, "brass_arranger", r.brass_arranger)
             if r.credits_override:
                 credits(rid, "lyricist", r.credits_override.lyricist)
                 credits(rid, "composer", r.credits_override.composer)

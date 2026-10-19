@@ -23,11 +23,11 @@ from .text import match_key, split_version
 
 # a credit span starts a line ("<span class="uta">作詞：…"); the same span also holds a title's tail ("(Off Vocal)")
 _BREAKS = re.compile(r"<br\s*/?>|</p>|</div>|</h\d>|</li>|</dt>|</dd>|</tr>|<dl[^>]*>"
-                     r"|<span class=\"uta\">(?=\s*(?:作|編|歌|弦|管|ストリングス))")
+                     r"|<span class=\"uta\">(?=\s*(?:作|編|歌|弦|管|菅|ストリングス))")
 _LABEL = re.compile(r"^【\s*([^【】]+?)\s*】\s*(.*)$")
 _TRACK = re.compile(r"^(\d{1,2})\s*[.．]\s*(.+)$")
 _DISC = re.compile(r"^[\[［【]?\s*(?:Disc|DISC|CD)\s*[.．]?\s*(\d+)\s*[\]］】]?(?:\s*[：:].*)?$")  # "Disc.2 ：スペシャルメモリアルCD"
-_ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
+_ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|菅編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
 _ROLE_ONLY = re.compile(rf"^({_ROLE_WORD}(?:\s*[／/・]\s*{_ROLE_WORD})*)\s*[：:]$")
 _SINGERS = re.compile(r"^歌\s*[：:]\s*(.*)$")
 # a video disc or the bonus items after the tracks: the end of the track list

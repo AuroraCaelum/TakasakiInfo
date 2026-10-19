@@ -1,5 +1,5 @@
 from takasaki.text import (
-    has_kana, join_ja_name, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify,
+    halfwidth, has_kana, is_latin, join_ja_name, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify,
     split_version,
 )
 
@@ -61,3 +61,9 @@ def test_japanese_name_spacing():
     assert join_ja_name("光増", "ハジメ") == "光増ハジメ"
     assert join_ja_name("桜小路", "きな子") == "桜小路きな子"
     assert join_ja_name("ペイトン", "尚未") == "ペイトン尚未"
+
+
+def test_halfwidth_only_folds_width():
+    assert halfwidth("～RUN！CAN！FUN！～") == "~RUN!CAN!FUN!~"
+    assert halfwidth("37.5℃ Ⅱ……") == "37.5℃ Ⅱ……"  # other compatibility characters stay
+    assert is_latin("A・ZU・NA")  # the katakana middle dot is punctuation

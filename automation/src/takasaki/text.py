@@ -43,8 +43,9 @@ def slugify(s: str | None) -> str:
 
 
 def is_latin(s: str) -> bool:
-    """True when the string has no kana/kanji/hangul (Latin-native names, DESIGN.md §5.4)."""
-    return not re.search(r"[぀-ヿ㐀-鿿가-힯ｦ-ﾟ]", s)
+    """True when the string has no kana/kanji/hangul (Latin-native names, DESIGN.md §5.4). The katakana
+    middle dot is punctuation (A・ZU・NA)."""
+    return not re.search(r"[぀-ヺー-ヿ㐀-鿿가-힯ｦ-ﾟ]", s)
 
 
 # kana blocks without the katakana middle dot U+30FB, which is punctuation in any script
@@ -96,7 +97,15 @@ _ROLE = {
 _AFFILIATION = re.compile(r"^(?P<name>.+?)(?P<space>\s*)\((?P<aff>[^()（）]+)\)$")
 
 
-def render_credit_name(name: str, lang: str, affiliation: str | None = None, role: str | None = None) -> str:
+def halfwidth(s: str) -> str:
+    """Full-width forms (``！``, ``～``, ``（``, ``Ａ``) and the ideographic space made half-width: rom
+    and ko are written this way, ja keeps the official notation (D42). Other compatibility characters
+    (``℃``, ``Ⅱ``, ``…``) stay."""
+    return "".join(unicodedata.normalize("NFKC", c) if "\uff01" <= c <= "\uffef" or c == "\u3000" else c for c in s)
+
+
+def render_credit_name(name: str, lang: str, affiliation: str | None = None, role: str | None = None,
+                       fullwidth: bool = False) -> str:
     if role is not None:
         if lang == "ja":
             return f"{name}（{role}役）"
@@ -104,6 +113,8 @@ def render_credit_name(name: str, lang: str, affiliation: str | None = None, rol
             return f"{name}(as {role})"
         return f"{name}({role} 역)"
     if affiliation:
+        if fullwidth and lang == "ja":  # as the official page prints it; rom and ko are half-width (D42)
+            return f"{name}（{affiliation}）"
         return f"{name}({affiliation})"  # DESIGN.md D10: no space before the parenthesis
     return name
 

@@ -40,7 +40,7 @@ def test_detail_page():
     assert [(t.disc, t.no, t.title) for t in p.tracks] == [(1, 1, "Song A"), (1, 2, "Song A（Off Vocal）"), (2, 1, "Song B")]
     a = p.tracks[0]
     assert a.performers.artists == ["スリーズブーケ", "DOLLCHESTRA"]
-    assert set(a.credits) == {"lyricist", "composer", "arranger", "strings"}  # 弦編曲 is read apart
+    assert set(a.credits) == {"lyricist", "composer", "arranger", "strings_arranger"}  # 弦編曲 is a role of its own (D42)
     assert [(c.name, c.affiliation) for c in a.credits["arranger"]] == [("本田正樹", "Dream Monster")]
     assert p.tracks[2].performers.members == [("乙宗 梢", "花宮初奈")]  # a disc's first track printed without its number
     with pytest.raises(imp.ParseError):  # an unknown line inside a track is not guessed

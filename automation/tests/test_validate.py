@@ -123,6 +123,31 @@ def test_affiliation_by_language():
     assert "E6" in _rules(ds)
 
 
+def test_affiliation_brackets_as_printed_in_ja():
+    # D42: ja keeps the full-width brackets the cited official page prints; rom and ko are half-width
+    ds = _ds()
+    okuma = m.Credit(person="a", affiliation="Arte Refact", fullwidth=True)
+    assert render_credits(ds, [okuma]) == ["畑亜貴（Arte Refact）", "Aki Hata(Arte Refact)", "하타 아키(Arte Refact)"]
+    with pytest.raises(ValueError):
+        m.Credit(person="a", fullwidth=True)  # brackets of an affiliation only
+
+
+def test_string_and_brass_arrangers_are_their_own_roles():
+    # D42: 編曲, 弦編曲 and 管編曲 are kept apart; the legacy Arranger column lists them in that order, each once
+    rec = m.Recording(id="original", arranger=[m.Credit(person="a")], strings_arranger=[m.Credit(person="b")],
+                      brass_arranger=[m.Credit(person="b"), m.Credit(person="c")])
+    assert [c.person for c in rec.all_arrangers()] == ["a", "b", "c"]
+
+
+def test_rom_and_ko_are_half_width():
+    # D42: ja is the official notation (CYaRon！), rom and ko are half-width (CYaRon!)
+    ds = _ds()
+    ds.works["p/w"].title = m.Names(ja="CYaRon！", rom="CYaRon!", ko="CYaRon!")
+    assert "E15" not in _rules(ds)
+    ds.works["p/w"].title.ko = "CYaRon！"
+    assert "E15" in _rules(ds)
+
+
 def test_no_padding_in_names():
     ds = _ds()
     ds.works["p/w"].title.rom = "Kyoku "

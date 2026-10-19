@@ -147,6 +147,9 @@ class Credit(Strict):
     person: str | None = None
     character: str | None = None
     affiliation: str | Names | None = None  # Names when the spelling differs by language (D31)
+    # the cited official page prints the affiliation in full-width brackets: ja keeps them, 名前（所属）;
+    # rom and ko are half-width (D42)
+    fullwidth: bool = False
     role: Names | None = None
 
     def affiliation_in(self, lang: str) -> str | None:
@@ -158,6 +161,8 @@ class Credit(Strict):
     def _exactly_one(self) -> Credit:
         if (self.person is None) == (self.character is None):
             raise ValueError("credit needs exactly one of person / character")
+        if self.fullwidth and not self.affiliation:
+            raise ValueError("fullwidth is about the brackets of an affiliation")
         return self
 
     @property
@@ -205,11 +210,22 @@ class Recording(Strict):
     title: Names | None = None  # display title when it differs from the work title
     version: str | None = None
     performers: list[Performer] = []
-    arranger: list[Credit] = []
+    arranger: list[Credit] = []  # 編曲
+    # 弦編曲 and 管編曲, printed apart from 編曲 (D42); 弦管編曲 credits the person in both
+    strings_arranger: list[Credit] = []
+    brass_arranger: list[Credit] = []
     credits_override: WorkCredits | None = None
     instrumental_of: str | None = None
     external_ids: dict[str, str] = {}
     evidence: dict[str, Evidence] = {}
+
+    def all_arrangers(self) -> list[Credit]:
+        """編曲, then 弦編曲 and 管編曲, each person once: the legacy Arranger column (D42)."""
+        out: list[Credit] = []
+        for c in self.arranger + self.strings_arranger + self.brass_arranger:
+            if all(c.ref != x.ref for x in out):
+                out.append(c)
+        return out
 
 
 WorkKind = Literal["song", "drama", "other"]

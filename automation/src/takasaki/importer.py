@@ -24,7 +24,7 @@ from typing import Any
 from . import model as m
 from .official import NameReviews, item_values
 from .store import Dataset
-from .text import is_latin, match_key, slugify, split_version
+from .text import halfwidth, is_latin, match_key, slugify, split_version
 
 
 class ParseError(ValueError):
@@ -33,12 +33,14 @@ class ParseError(ValueError):
 
 # --- credits ----------------------------------------------------------------------
 
-# string and brass arrangements (弦編曲, 管編曲, 弦管編曲) are read as "strings": the importer leaves
-# them out of new releases (D40), and a check accepts them in the arranger list of a migrated recording (D41)
-ROLE = {"作詞": "lyricist", "作曲": "composer", "編曲": "arranger", "弦編曲": "strings", "管編曲": "strings",
-        "弦管編曲": "strings", "ストリングスアレンジ": "strings"}
-_ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
-_COMBINED = {"作編曲": ["作曲", "編曲"]}  # "作編曲：高田 暁" (the early Aqours pages)
+# string and brass arrangements are roles of their own beside 編曲 (D42); 弦管編曲 is both
+ROLE = {"作詞": "lyricist", "作曲": "composer", "編曲": "arranger", "弦編曲": "strings_arranger",
+        "ストリングスアレンジ": "strings_arranger", "管編曲": "brass_arranger",
+        "菅編曲": "brass_arranger"}  # a misprint of 管編曲 (Liella! 1st album 「みてろ！」, yuigaoka cd16/cd17)
+ARRANGERS = ("arranger", "strings_arranger", "brass_arranger")
+_ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|菅編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
+# "作編曲：高田 暁" (the early Aqours pages), "弦管編曲：真部 裕"
+_COMBINED = {"作編曲": ["作曲", "編曲"], "弦管編曲": ["弦編曲", "管編曲"]}
 _ROLES = rf"{_ROLE_WORD}(?:\s*[／/・]\s*{_ROLE_WORD})*"
 _AFFILIATION = re.compile(r"^(.*?)\s*[（(]([^()（）]+)[)）]$")
 
@@ -47,11 +49,13 @@ _AFFILIATION = re.compile(r"^(.*?)\s*[（(]([^()（）]+)[)）]$")
 class CreditName:
     name: str
     affiliation: str | None = None
+    fullwidth: bool = False  # the affiliation in full-width brackets, 名前（所属） (D42)
 
 
 def parse_credit_line(line: str) -> dict[str, list[CreditName]]:
     """``作詞：畑 亜貴　作曲/編曲：光増ハジメ (FirstCall)`` → {lyricist: [畑 亜貴], composer/arranger: [光増ハジメ (FirstCall)]}.
-    Roles may also be joined with ``・`` (``作曲・編曲：…``); ``弦編曲`` and the like are read as ``strings``."""
+    Roles may also be joined with ``・`` (``作曲・編曲：…``); ``弦編曲`` is ``strings_arranger``, ``管編曲``
+    ``brass_arranger`` and ``弦管編曲`` both."""
     out: dict[str, list[CreditName]] = {}
     # a name may contain spaces, so segments are split only before "<roles>：", after a space, a
     # slash ("作詞：畑 亜貴／作曲：…", not the "作曲／編曲：" of joined roles) or an affiliation's bracket
@@ -67,7 +71,7 @@ def parse_credit_line(line: str) -> dict[str, list[CreditName]]:
         for part in _split_names(mt.group(2).strip().rstrip("／/").strip()):
             am = _AFFILIATION.match(part.strip())
             if am:
-                names.append(CreditName(am.group(1).strip(), am.group(2).strip().replace("’", "'")))
+                names.append(CreditName(am.group(1).strip(), am.group(2).strip().replace("’", "'"), part.strip().endswith("）")))
             else:
                 names.append(CreditName(part.strip()))
         for r in roles:
@@ -277,6 +281,7 @@ class Importer:
         # what each page settled of a recording, put together by _settle: (work id, recording id) -> evidence
         self.verified: dict[tuple[str, str], str] = {}  # arranger and singers on one page (its address)
         self.arranged_on: dict[tuple[str, str], m.Evidence] = {}  # the arranger only
+        self.arranged_as: dict[tuple[str, str], dict[str, list[m.Credit] | None]] = {}  # ... as that page printed it
         self.sung_on: dict[tuple[str, str], m.Evidence] = {}  # the singers only, no credits printed
         self.listed: dict[tuple[str, str], m.Evidence] = {}  # an Off Vocal or instrumental the page lists
         # names the checked pages printed: (kind, id) -> (as printed, page)
@@ -408,7 +413,7 @@ class Importer:
             if is_latin(c.name):
                 seed |= {"names": {"ja": c.name, "rom": c.name, "ko": c.name}, "native_script": "latin"}
             pid = self.resolve("person", c.name, file=self.spec.review_file("person"), seed=seed, used_in=used_in)
-            out.append(m.Credit(person=pid, affiliation=c.affiliation) if pid else None)
+            out.append(m.Credit(person=pid, affiliation=c.affiliation, fullwidth=c.fullwidth) if pid else None)
         return None if None in out else out  # every name is looked up, so one run lists them all
 
     # works and releases -----------------------------------------------------------
@@ -476,8 +481,7 @@ class Importer:
                                seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)},
                                      "source": obs.url})
             perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
-            credits = {role: self.credits(names, f"{base}: {role}", obs.url) for role, names in t.credits.items()
-                       if role != "strings"}
+            credits = {role: self.credits(names, f"{base}: {role}", obs.url) for role, names in t.credits.items()}
             if wid is None or perf is None or any(v is None for v in credits.values()):
                 complete = False
                 continue
@@ -496,7 +500,8 @@ class Importer:
 
     def recording(self, work: m.Work, ver: str | None, perf: list[m.Performer], credits: dict[str, list[m.Credit] | None],
                   obs: ReleaseObs, vocal_of: dict[str, m.Recording], inner: str | None = None) -> m.Recording | None:
-        lyr, comp, arr = credits.get("lyricist"), credits.get("composer"), credits.get("arranger")
+        lyr, comp = credits.get("lyricist"), credits.get("composer")
+        arranged = {k: credits.get(k) or [] for k in ARRANGERS}  # 編曲, 弦編曲, 管編曲 (D42)
         src = m.Evidence(status=m.Status.official, source=obs.url, checked=self.today)
         if lyr is not None or comp is not None:
             new = m.WorkCredits(lyricist=lyr or [], composer=comp or [])
@@ -505,6 +510,9 @@ class Importer:
                 work.evidence["credits"] = src
             elif not _same_credits(work.credits.lyricist, new.lyricist) or not _same_credits(work.credits.composer, new.composer):
                 self.report.conflicts.append(f"{work.id}: credits on {obs.page_id} differ from the stored ones")
+            elif work.evidence.get("credits") is not None and work.evidence["credits"].source == obs.url:
+                _printed_as(work.credits.lyricist, new.lyricist)
+                _printed_as(work.credits.composer, new.composer)
         if ver == "Off Vocal":
             if inner:
                 labels = version_labels(inner)
@@ -516,11 +524,13 @@ class Importer:
                 return None
             rid = "off-vocal" if vocal.id == "original" else f"{vocal.id}-off-vocal"
             title = _suffixed(vocal.title or work.title, " (Off Vocal)")
+            # an Off Vocal printed without credits is arranged as its vocal
+            own = credits.get("arranger") is not None
             fields: dict[str, Any] = {"kind": "off_vocal", "title": title, "version": "Off Vocal", "instrumental_of": vocal.id,
-                                      "arranger": arr if arr is not None else vocal.arranger}
+                                      **{k: arranged[k] if own else getattr(vocal, k) for k in ARRANGERS}}
             return self._upsert_recording(work, rid, fields, src)
         if ver is None:
-            rid, fields = "original", {"performers": perf, "arranger": arr or []}
+            rid, fields = "original", {"performers": perf, **arranged}
         elif ver.endswith(" Solo Ver."):
             cid = self.character(ver.removesuffix(" Solo Ver."))
             if cid is None:
@@ -532,7 +542,7 @@ class Importer:
             title = m.Names(ja=f"{work.title.ja} ({ver})",
                             rom=f"{work.title.rom} ({ch.names.rom} Solo Ver.)" if work.title.rom and ch.names.rom else None,
                             ko=f"{work.title.ko} ({ch.names.ko} Solo Ver.)" if work.title.ko and ch.names.ko else None)
-            fields = {"title": title, "version": ver, "performers": perf, "arranger": arr or []}
+            fields = {"title": title, "version": ver, "performers": perf, **arranged}
         else:
             labels = version_labels(ver)
             if labels is None:
@@ -540,7 +550,7 @@ class Importer:
                 return None
             rid, ja, rom, ko = labels
             fields = {"title": _suffixed(work.title, f" ({ja})", f" ({rom})", f" ({ko})"), "version": ja,
-                      "performers": perf, "arranger": arr or []}
+                      "performers": perf, **arranged}
         rec = next((r for r in work.recordings if r.id == rid), None)
         if rec is not None and rec.performers and rec.performers != perf:
             # the same song by other singers: a solo of a group song (a graduation album) is its own recording
@@ -562,13 +572,15 @@ class Importer:
             work.recordings.append(rec)
             return rec
         for k, v in fields.items():
-            if k == "arranger" and not v:
+            if k in ARRANGERS and not v:
                 continue  # a page without credits (the unit album's repeats) keeps what was read before
             if k in ("title", "version") and getattr(rec, k):
                 continue  # a stored title keeps its reading (kana) and the notation chosen first
-            if k == "arranger" and rec.arranger and not _same_credits(rec.arranger, v):
-                self.report.conflicts.append(f"{work.id}#{rid}: arranger on {self.page and page_id(self.page)} differs from the stored one")
+            if k in ARRANGERS and getattr(rec, k) and not _same_credits(getattr(rec, k), v):
+                self.report.conflicts.append(f"{work.id}#{rid}: {k} on {self.page and page_id(self.page)} differs from the stored one")
                 continue
+            if k in ARRANGERS and getattr(rec, k) and (rec.evidence.get("credits") or src).source != src.source:
+                continue  # printed as the page it is cited to (D42)
             setattr(rec, k, v)
         return rec
 
@@ -698,7 +710,7 @@ class Importer:
             if pid is None:
                 return None
             self._saw("person", pid, c.name)
-            out.append(m.Credit(person=pid, affiliation=c.affiliation))
+            out.append(m.Credit(person=pid, affiliation=c.affiliation, fullwidth=c.fullwidth))
         return out
 
     def _saw(self, kind: str, ident: str, printed: str) -> None:
@@ -761,20 +773,22 @@ class Importer:
             if rec.kind == "off_vocal" or rec.instrumental_of:
                 self.listed.setdefault(key, src)  # the page lists it; its arranger is its vocal's
                 continue
-            roles = {role: names for role, names in t.credits.items() if role != "strings"}
+            roles = t.credits
             unknown = [c.name for names in roles.values() for c in names if self._find_person(c.name) is None]
             if unknown:
                 self._doubt([(work.evidence, "credits"), (rec.evidence, "credits")],
                             f"{where}: credited names on {page} not in the dictionary: {unknown}")
                 continue
             printed = {role: self._lookup_credits(names) for role, names in roles.items()}
-            strings = self._lookup_credits(t.credits.get("strings", [])) or []
             lyr, comp, arr = printed.get("lyricist"), printed.get("composer"), printed.get("arranger")
             if lyr is None and comp is not None and rec.kind == "instrumental" and not work.credits.lyricist:
                 lyr = []  # an instrumental piece (an overture) has no lyricist to print
             if lyr is not None and comp is not None:
                 if _same_credits(work.credits.lyricist, lyr) and _same_credits(work.credits.composer, comp):
                     _cite(work.evidence, "credits", src)
+                    if work.evidence["credits"].source == src.source:
+                        _printed_as(work.credits.lyricist, lyr)
+                        _printed_as(work.credits.composer, comp)
                 else:
                     order = _same_people(work.credits.lyricist, lyr) and _same_people(work.credits.composer, comp)
                     self._doubt(
@@ -784,15 +798,7 @@ class Importer:
                         f"{_credit_ids(work.credits.lyricist)}/{_credit_ids(work.credits.composer)}")
             elif not printed and work.kind != "song" and not work.credits.lyricist and not work.credits.composer:
                 _cite(work.evidence, "credits", src)  # a drama track: nothing printed, nothing stored (D25)
-            arranged = arr is not None and _same_credits(rec.arranger, arr)
-            # the legacy files listed the string and brass arrangers (弦編曲, 管編曲) with the arranger
-            extra = [c for c in strings if c.person not in {a.person for a in arr or []}]
-            with_strings = arr is not None and bool(strings) and not arranged and _same_people(rec.arranger, arr + extra)
-            if arr is not None and not arranged and not with_strings:
-                order = " (order only)" if _same_people(rec.arranger, arr) else ""
-                more = f" + strings {_credit_ids(strings)}" if strings else ""
-                self._doubt([(rec.evidence, "credits")], f"{where}: arranger on {page} differs{order}: printed "
-                            f"{_credit_ids(arr)}{more}, stored {_credit_ids(rec.arranger)}")
+            arranged = arr is not None and self._arrangement(rec, arr, printed, where, src)
             if not printed and rec.kind == "drama" and not rec.arranger:
                 arranged = True
             singers = t.performers or self._named_singers(t.title, ver, rec) or release_perf
@@ -804,14 +810,51 @@ class Importer:
                 self._doubt([(rec.evidence, "credits")], f"{where}: singers on {page} differ: printed "
                             f"{[p.ref[1] for p in perf] if perf else t.performers}, stored "
                             f"{[p.ref[1] for p in rec.performers]}")
-            arranged_src = src.model_copy(update={"note": WITH_STRINGS}) if with_strings else src
-            if (arranged or with_strings) and sung:
+            if arranged and sung:
                 self.verified.setdefault(key, src.source or "")
-                _cite(rec.evidence, "credits", arranged_src)
-            elif arranged or with_strings:
-                self.arranged_on.setdefault(key, arranged_src)
+                _cite(rec.evidence, "credits", src)
+                if rec.evidence["credits"].source == src.source:
+                    _printed_arrangers(rec, printed)
+            elif arranged and key not in self.arranged_on:
+                self.arranged_on[key] = src
+                self.arranged_as[key] = printed
             elif sung and not printed and rec.kind == "vocal":
                 self.sung_on.setdefault(key, src)  # "X (Aqours Ver.)", a solo album: the singers only
+
+    def _arrangement(self, rec: m.Recording, arr: list[m.Credit], printed: dict[str, list[m.Credit] | None],
+                     where: str, src: m.Evidence) -> bool:
+        """Whether the 編曲 the page prints is the stored arranger. The 弦編曲 and 管編曲 it prints are
+        stored in their own roles (D42): a migrated arranger list that also held them (the legacy
+        files mixed them in, D41) is split, and a recording without them takes them from the page."""
+        page = page_id(src.source or "")
+        parts = {k: printed.get(k) or [] for k in ARRANGERS[1:]}
+        extra = [c for k in ARRANGERS[1:] for c in parts[k] if c.ref not in {a.ref for a in arr}]
+        if not _same_credits(rec.arranger, arr):
+            mixed = extra and not rec.strings_arranger and not rec.brass_arranger \
+                and _same_people(rec.arranger, arr + list({c.ref: c for c in extra}.values()))
+            if not mixed:
+                order = " (order only)" if _same_people(rec.arranger, arr) else ""
+                more = "".join(f" + {k} {_credit_ids(v)}" for k, v in parts.items() if v)
+                self._doubt([(rec.evidence, "credits")], f"{where}: arranger on {page} differs{order}: printed "
+                            f"{_credit_ids(arr)}{more}, stored {_credit_ids(rec.arranger)}")
+                return False
+            rec.arranger = arr
+            ev = rec.evidence.get("credits")
+            if ev is not None and ev.note == LEGACY_WITH_STRINGS:  # the split leaves nothing to note
+                rec.evidence["credits"] = ev.model_copy(update={"note": None})
+        for k, v in parts.items():
+            if not v:
+                continue  # an album page may leave out what the single printed
+            if not getattr(rec, k):
+                setattr(rec, k, v)
+                ev = rec.evidence.get("credits")
+                if ev is None or ev.source != src.source:
+                    rec.evidence[k] = src
+            elif not _same_credits(getattr(rec, k), v):
+                self._doubt([(rec.evidence, "credits")], f"{where}: {k} on {page} differs: printed "
+                            f"{_credit_ids(v)}, stored {_credit_ids(getattr(rec, k))}")
+                return False
+        return True
 
     def _named_singers(self, title: str, ver: str | None, rec: m.Recording) -> Performers | None:
         """Singers a track names without a "歌：" line: in its version (``X（高海千歌 Solo Ver.）``,
@@ -841,31 +884,46 @@ class Importer:
         for (wid, rid), sung in self.sung_on.items():
             work = self.ds.works[wid]
             rec = next(r for r in work.recordings if r.id == rid)
-            if rec.evidence.get("credits") is not None and rec.evidence["credits"].source != MIGRATED:
+            ev = rec.evidence.get("credits")
+            if ev is not None and ev.source != MIGRATED:
+                if ev.status == m.Status.derived:  # cited before: it keeps following the arrangement it borrowed
+                    _follow(rec, next((r for r in work.recordings if r is not rec and r.kind == "vocal" and _arranged_as(rec, r)
+                                       and r.evidence.get("credits") is not None and r.evidence["credits"].status == m.Status.official
+                                       and r.id in (ev.note or "")), None))
                 continue
             arranged = self.arranged_on.get((wid, rid))
             if arranged is not None:
                 note = "; ".join(n for n in (arranged.note, f"가창자: {sung.source}") if n)
                 _cite(rec.evidence, "credits", arranged.model_copy(update={"note": note}))
+                if rec.evidence["credits"].source == arranged.source:
+                    _printed_arrangers(rec, self.arranged_as[(wid, rid)])
                 continue
             same_page = next((r for r in work.recordings if r is not rec and r.kind == "vocal"
-                              and self.verified.get((wid, r.id)) == sung.source and _same_credits(r.arranger, rec.arranger)), None)
+                              and self.verified.get((wid, r.id)) == sung.source and _arranged_as(rec, r)), None)
             if same_page is not None:  # "X (Aqours Ver.)" under the credits printed for X
+                _follow(rec, same_page)
                 _cite(rec.evidence, "credits", sung)
                 continue
-            other = next((r for r in work.recordings if r is not rec and r.kind == "vocal" and _same_credits(r.arranger, rec.arranger)
+            other = next((r for r in work.recordings if r is not rec and r.kind == "vocal" and _arranged_as(rec, r)
                           and r.evidence.get("credits") is not None and r.evidence["credits"].status == m.Status.official), None)
             if other is not None and rec.arranger:
+                _follow(rec, other)
                 _cite(rec.evidence, "credits", m.Evidence(
                     status=m.Status.derived, source=sung.source, checked=self.today,
                     note=f"가창자는 이 페이지. 편곡은 같은 곡 {other.id}의 공식 크레딧"
                          f"({other.evidence['credits'].source})과 같다고 봄"))
+        for work in self.ds.works.values():
+            if work.project == self.spec.project:
+                for rec in work.recordings:
+                    vocal = next((r for r in work.recordings if r.id == rec.instrumental_of), None)
+                    if vocal is not None and _arranged_as(rec, vocal):  # an Off Vocal is arranged as its vocal
+                        _follow(rec, vocal)
         for (wid, rid), listed in self.listed.items():
             work = self.ds.works[wid]
             rec = next(r for r in work.recordings if r.id == rid)
             vocal = next((r for r in work.recordings if r.id == rec.instrumental_of), None)
             ev = vocal.evidence.get("credits") if vocal else None
-            if vocal is not None and ev is not None and ev.source != MIGRATED and _same_credits(rec.arranger, vocal.arranger) \
+            if vocal is not None and ev is not None and ev.source != MIGRATED and all(_same_credits(getattr(rec, k), getattr(vocal, k)) for k in ARRANGERS) \
                     and rec.performers in ([], vocal.performers):
                 note = ev.note if ev.status == m.Status.official else f"편곡은 {vocal.id}와 같음 (그 근거를 따름)"
                 _cite(rec.evidence, "credits", listed.model_copy(update={"status": ev.status, "note": note}))
@@ -887,16 +945,19 @@ class Importer:
                 note = None
             elif re.sub(r"\s+", "", printed) == re.sub(r"\s+", "", ent.names.ja or ""):
                 note = f"공식 표기 {printed!r} (띄어쓰기는 D28)"
-            else:  # "CYaRon！" for "CYaRon!": the stored display string differs from the official one (§5.1)
-                note = f"공식 표기 {printed!r} (전각·반각만 다름)"
+            else:  # "CYaRon!" for "CYaRon！": ja keeps the official notation (§5.1, D42)
+                self.report.conflicts.append(f"{kind}:{ident}: printed {printed!r} on {page_id(page)}, stored {ent.names.ja!r} "
+                                             "(full-/half-width only)")
+                continue
             fields = {"names.ja": m.Evidence(status=m.Status.official, source=page, checked=self.today, note=note)}
             latin = is_latin(ent.names.ja or "")
             for f in ("kana", "rom", "ko"):
                 value = getattr(ent.names, f)
                 if not value:
                     continue
-                if latin and f in ("rom", "ko") and value == unicodedata.normalize("NFKC", ent.names.ja):
-                    fields[f"names.{f}"] = m.Evidence(status=m.Status.derived, note=f"라틴 표기: {f}는 ja와 같음 (§5.4)")
+                if latin and f in ("rom", "ko") and value == halfwidth(ent.names.ja):
+                    same = "와 같음" if value == ent.names.ja else "의 반각"
+                    fields[f"names.{f}"] = m.Evidence(status=m.Status.derived, note=f"라틴 표기: {f}는 ja{same} (§5.4, D42)")
                 else:
                     fields[f"names.{f}"] = ev  # still to be sourced
             del ent.evidence["names"]
@@ -1004,6 +1065,39 @@ def _song(title: str) -> tuple[str, str | None, str | None]:
     return base, ver, inner
 
 
+def _arranged_as(rec: m.Recording, other: m.Recording) -> bool:
+    """The same arrangement as ``other``, or one that can take its 弦編曲 and 管編曲 (D42): ``rec`` has
+    none and its arranger list is ``other``'s 編曲, or all of ``other``'s arrangers (the legacy mix)."""
+    if all(_same_credits(getattr(rec, k), getattr(other, k)) for k in ARRANGERS):
+        return True
+    return not rec.strings_arranger and not rec.brass_arranger and bool(rec.arranger) \
+        and (_same_credits(rec.arranger, other.arranger) or _same_people(rec.arranger, other.all_arrangers()))
+
+
+def _printed_as(stored: list[m.Credit], printed: list[m.Credit] | None) -> None:
+    """The brackets of the affiliations as the page the credits are cited to prints them (D42)."""
+    for s, p in zip(stored, printed or []):
+        if s.ref == p.ref:
+            s.fullwidth = p.fullwidth and bool(s.affiliation)
+
+
+def _printed_arrangers(rec: m.Recording, printed: dict[str, list[m.Credit] | None]) -> None:
+    for k in ARRANGERS:
+        if printed.get(k):
+            _printed_as(getattr(rec, k), printed[k])
+
+
+def _follow(rec: m.Recording, other: m.Recording | None) -> None:
+    """``rec`` is arranged as ``other`` (``_arranged_as``): it takes the roles as ``other`` stores them."""
+    if other is None or all(getattr(rec, k) == getattr(other, k) for k in ARRANGERS):
+        return
+    for k in ARRANGERS:
+        setattr(rec, k, [c.model_copy() for c in getattr(other, k)])
+    ev = rec.evidence.get("credits")
+    if ev is not None and ev.note == LEGACY_WITH_STRINGS:
+        rec.evidence["credits"] = ev.model_copy(update={"note": None})
+
+
 def _same_credits(a: list[m.Credit], b: list[m.Credit]) -> bool:
     """The same people in the same order; affiliations compared by match key ("Jazzin'park" = "Jazzin’park")."""
     def key(c: m.Credit) -> tuple[Any, ...]:
@@ -1060,8 +1154,9 @@ def _discs(placed: list[tuple[int, m.Track]]) -> list[m.Disc]:
 
 # the tracks evidence of a migrated release whose tracklist the official page confirmed
 CHECKED_TRACKS = "공식 페이지의 트랙리스트와 대조함 (같음)"
-# the credits evidence of a recording whose arranger list also has the string arranger the page prints apart
-WITH_STRINGS = "편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)"
+# the note the first check (D41) left on a migrated arranger list that also held the 弦·管編曲 the page
+# prints apart; the check splits such a list into its roles (D42) and drops the note
+LEGACY_WITH_STRINGS = "편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)"
 MIGRATED = m.MIGRATED
 
 
