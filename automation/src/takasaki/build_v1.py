@@ -16,7 +16,7 @@ from pydantic import BaseModel
 from ruamel.yaml import YAML
 
 from . import model as m
-from .build_legacy import YT, edition_ids, edition_tracks, main_videos, own_video, track_title
+from .build_legacy import YT, edition_ids, edition_tracks, main_videos, own_video, release_title, track_title
 from .store import LAYOUT, Dataset, _plain
 
 V1_FORMAT = "1.0.0"
@@ -116,6 +116,7 @@ def quality(ds: Dataset, review_dir: Path | None = None) -> dict[str, Any]:
     vocal = [(w, r) for w, r in recs if r.kind == "vocal"]
     names = [("person", p.names) for p in ds.persons.values()] + [("character", c.names) for c in ds.characters.values()] \
         + [("artist", a.names) for a in ds.artists.values()]
+    rel_titles = [release_title(ds, r)[0] for r in ds.releases.values()]
     statuses: Counter[str] = Counter(ev.status.value for _, ent in ds.iter_all() for ev in getattr(ent, "evidence", {}).values())
     open_reviews = 0
     if review_dir and review_dir.exists():
@@ -139,6 +140,8 @@ def quality(ds: Dataset, review_dir: Path | None = None) -> dict[str, Any]:
             "vocal_recordings_with_kana": pct(sum(1 for w, r in vocal if (r.title or w.title).kana), len(vocal)),
             "names_with_ko": pct(sum(1 for _, n in names if n.ko), len(names)),
             "names_with_rom": pct(sum(1 for _, n in names if n.rom), len(names)),
+            "release_titles_with_ko": pct(sum(1 for t in rel_titles if t.ko), len(rel_titles)),
+            "release_titles_with_rom": pct(sum(1 for t in rel_titles if t.rom), len(rel_titles)),
             "tracks_with_link": pct(sum(1 for t in tracks if t["link"]["youtube_music"]), len(tracks)),
             "links_own": sum(1 for t in tracks if t["link"]["source"] == "own"),
             "links_main": sum(1 for t in tracks if t["link"]["source"] == "main"),
@@ -155,7 +158,10 @@ def build_v1(ds: Dataset, review_dir: Path | None = None) -> dict[str, bytes]:
     out: dict[str, bytes] = {}
     for kind, (sub, cls, _) in LAYOUT.items():
         ents = sorted(ds.table(kind).values(), key=lambda e: e.id)  # type: ignore[attr-defined]
-        out[f"v1/{sub}.json"] = _wrap(ds, [_dump(e) for e in ents])
+        dumps = [_dump(e) for e in ents]
+        if kind == "release":  # rom and ko made from the song titles (D39)
+            dumps = [d | {"title": _names(release_title(ds, e)[0])} for d, e in zip(dumps, ents)]
+        out[f"v1/{sub}.json"] = _wrap(ds, dumps)
         schema = cls.model_json_schema(by_alias=True)
         schema["$id"] = f"https://github.com/AuroraCaelum/TakasakiInfo/v1/schema/{sub}.json"
         out[f"v1/schema/{sub}.json"] = json.dumps(schema, ensure_ascii=False, indent=1).encode("utf-8")

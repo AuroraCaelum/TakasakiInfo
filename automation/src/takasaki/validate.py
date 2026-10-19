@@ -14,7 +14,7 @@ from pydantic import BaseModel
 from ruamel.yaml import YAML
 
 from . import model as m
-from .build_legacy import edition_ids, edition_tracks, own_video
+from .build_legacy import edition_ids, edition_tracks, own_video, release_title
 from .store import Dataset
 from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
@@ -321,6 +321,14 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                   if r.kind in ("vocal",) and not ((r.title or w.title).kana))
     if missing:
         add("W8", "recordings", f"{missing} vocal recordings have no pronunciation (kana)")
+
+    # W17: a release title that is not made of its song titles and is not all Latin needs its rom
+    # and ko stored (D39)
+    for rel in ds.releases.values():
+        title, _ = release_title(ds, rel)
+        gaps = [lang for lang in ("rom", "ko") if not getattr(title, lang)]
+        if gaps:
+            add("W17", f"release:{rel.id}", f"title {title.ja!r} has no {'/'.join(gaps)}")
 
     # W14: empty credits. "Not applicable" is an empty list (D25), so only vocal recordings are
     # expected to have every role filled; an empty one there is missing data.

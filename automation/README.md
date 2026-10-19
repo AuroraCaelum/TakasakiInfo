@@ -89,9 +89,11 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
   - 이키즈라이브 공식 사이트 어댑터(`takasaki official ikizulive`) 완료. 발매물 28개(AiScReam 「NEXT CARD」는 Phase 3, 유닛송 앨범은 발매 전이라 레거시 제외), 곡 37개, 캐릭터·성우 각 10명, 그룹·유닛 8개, 새 스태프 33명. 이름 100개를 리뷰로 승인했고(2026-10-19) 레거시 `Ikizulive` 파일을 만든다. YouTube Music 링크 150개
-  - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(현재 0건). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
+  - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(현재 1건: Aqours CHRONICLE 제목의 rom 근거가 Fandom뿐. Phase 3의 Aqours 공식 사이트 어댑터에서 대조). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
   - README 생성(§10.3) 완료: Database Status·통계·JSON 예시·Disclaimer를 데이터에서 만든다. 권리 표기를 공식 포털의 최신 목록으로 갱신했다
-  - Phase 2 작업은 모두 끝났다. 남은 것은 main PR
+  - 발매물 제목 rom·ko(D39): 196개 중 187개는 빌더가 수록곡 제목이나 라틴 원문에서 만든다(v1·SQLite). 나머지 8개는 리뷰(2026-10-19 승인)로 저장했다. 새 발매물이 둘 다에 해당하지 않으면 W17로 표시된다
+  - 남은 것: main PR
+  - Phase 3으로 넘긴 것: 음원 발음(kana) 결측(W8), 이키즈라이브 외 발매물의 메타데이터(공식 페이지·smartlink 링크, 레이블, 에디션·품번, `type`, `artist_credit`)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다
