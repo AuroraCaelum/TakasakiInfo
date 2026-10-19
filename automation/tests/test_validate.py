@@ -149,6 +149,27 @@ def test_notes_do_not_repeat_derived_parts():
     assert "E14" in _rules(ds)
 
 
+def test_release_titles_come_from_song_titles():
+    # D39: rom and ko of "A／B" come from the song titles (any slash, width-insensitive); all-Latin titles are their own
+    from takasaki.build_legacy import release_title
+
+    ds = _ds(recordings=[m.Recording(id="original")])
+    ds.works["p/x"] = m.Work(id="p/x", project="p", title=_names("Go!!リスタート", "Go!! Restart", "Go!! 리스타트"),
+                             recordings=[m.Recording(id="original")])
+    tracks = [m.Track(no=1, recording="p/w#original"), m.Track(no=2, recording="p/x#original")]
+
+    def rel(ja: str, **names: str) -> m.Release:
+        ds.releases["p/r"] = m.Release(id="p/r", title=m.Names(ja=ja, **names), projects=["p"], discs=[m.Disc(tracks=tracks)])
+        return ds.releases["p/r"]
+
+    assert release_title(ds, rel("曲／Go！！リスタート")) == (_names("曲／Go！！リスタート", "Kyoku / Go!! Restart", "곡 / Go!! 리스타트"), ["rom", "ko"])
+    assert release_title(ds, rel("TVA1 BD Vol.1")) == (_names("TVA1 BD Vol.1", "TVA1 BD Vol.1", "TVA1 BD Vol.1"), ["rom", "ko"])
+    assert release_title(ds, rel("曲", rom="Official")) == (_names("曲", "Official", "곡"), ["ko"])  # a stored value wins
+    assert "W17" not in _rules(ds)
+    rel("リエラのうた")
+    assert [f.message for f in validate(ds) if f.rule == "W17"] == ["title 'リエラのうた' has no rom/ko"]
+
+
 def test_draft_values_are_not_output():
     # E3 (§4.4): a draft on anything the legacy files print blocks the merge; announced releases are not printed (§7.4)
     from takasaki.build_legacy import build_legacy

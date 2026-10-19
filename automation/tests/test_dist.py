@@ -25,11 +25,15 @@ def test_v1_files_agree_with_the_database(ds, tmp_path):
     assert {t["link"]["source"] for t in tracks["data"]} <= {"own", "main", "none"}
     schema = json.loads(files["v1/schema/works.json"])
     assert "recordings" in schema["properties"]
+    releases = {r["id"]: r for r in json.loads(files["v1/releases.json"])["data"]}
+    assert releases["liella/2022-butterfly-wing"]["title"]["ko"] == "Butterfly Wing / 에델슈타인"  # from the song titles (D39)
 
     db = tmp_path / "t.sqlite"
     build_sqlite(ds, db)  # raises on any foreign key violation
     con = sqlite3.connect(db)
     assert con.execute("select count(*) from track").fetchone()[0] == tracks["count"]
+    assert con.execute("select value, status from label where entity = 'release:liella/2022-butterfly-wing' "
+                       "and lang = 'rom'").fetchone() == ("Butterfly Wing / Edelstein", "derived")
     linked = sum(1 for t in tracks["data"] if t["link"]["youtube_music"])
     assert con.execute("select count(*) from stream_link").fetchone()[0] == linked
     for view in ("v_track_flat", "v_person_credits", "v_work_performances"):

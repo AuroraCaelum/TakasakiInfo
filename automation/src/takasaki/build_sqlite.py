@@ -12,10 +12,12 @@ import sqlite3
 from pathlib import Path
 
 from . import model as m
-from .build_legacy import edition_ids, edition_tracks, main_videos, own_video
+from .build_legacy import edition_ids, edition_tracks, main_videos, own_video, release_title
 from .build_v1 import V1_FORMAT
 from .store import Dataset
 from .text import match_key
+
+DERIVED_TITLE = m.Evidence(status=m.Status.derived, note="수록곡 제목 또는 라틴 원문에서 생성 (D39)")
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -213,7 +215,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
     for rel in ds.releases.values():
         ins("release", (rel.id, rel.type, rel.status, _iso(rel.release_date), rel.label))
         e = f"release:{rel.id}"
-        names(e, "title", rel.title, rel.evidence)
+        title, filled = release_title(ds, rel)
+        names(e, "title", title, rel.evidence | {f"title.{lang}": DERIVED_TITLE for lang in filled})
         ins("entity_project", *[(e, p) for p in rel.projects])
         common(e, rel)
         ins("edition", *[(rel.id, ed.id, ed.catalog, _iso(ed.release_date)) for ed in rel.editions])

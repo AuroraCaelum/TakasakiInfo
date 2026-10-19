@@ -10,13 +10,15 @@ from __future__ import annotations
 import csv
 import io
 import json
+import re
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from . import model as m
 from .store import Dataset
-from .text import render_credit_name
+from .text import is_latin, match_key, render_credit_name
 
 ALBUM_HEADER = [
     "Album", "Track", "日本語", "Romaji", "한국어", "歌", "Singer", "가수", "作詞", "Lyrics", "작사",
@@ -142,6 +144,30 @@ def track_title(work: m.Work, rec: m.Recording, track: m.Track) -> tuple[m.Names
     if track.title_as_printed:
         return track.title_as_printed, kana
     return base, kana
+
+
+_TITLE_SEP = re.compile(r"\s*[/／]\s*")
+
+
+def release_title(ds: Dataset, rel: m.Release) -> tuple[m.Names, list[str]]:
+    """The release title in every language, and the languages filled here (D39). A stored value
+    wins. A title made of the release's song titles ("A / B") takes their rom and ko, joined with
+    " / "; an all-Latin title is its own rom and ko (§5.3, §5.4: Latin text stays)."""
+    t = rel.title
+    if not t.ja or (t.rom and t.ko):
+        return t, []
+    works = {match_key(w.title.ja): w for w in (ds.recording(tr.recording)[0] for d in rel.discs for tr in d.tracks)}
+    parts = [t.ja] if match_key(t.ja) in works else _TITLE_SEP.split(t.ja)
+    derived: dict[str, str] = {}
+    if all(match_key(p) in works for p in parts):
+        for lang in ("rom", "ko"):
+            vals = [getattr(works[match_key(p)].title, lang) for p in parts]
+            if all(vals):
+                derived[lang] = " / ".join(vals)  # type: ignore[arg-type]
+    elif is_latin(t.ja):
+        derived = dict.fromkeys(("rom", "ko"), unicodedata.normalize("NFKC", t.ja))
+    filled = [lang for lang in derived if not getattr(t, lang)]
+    return t.model_copy(update={lang: derived[lang] for lang in filled}), filled
 
 
 def video_owners(ds: Dataset) -> dict[str, str]:
