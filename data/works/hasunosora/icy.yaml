@@ -1,0 +1,72 @@
+id: hasunosora/icy
+project: hasunosora
+title:
+  ja: アイシイ
+  rom: Icy
+  ko: 아이시이
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: michael-super-lassie}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+        checked: 2026-10-19
+  - id: b-g-p-ver
+    title:
+      ja: アイシイ (B. G. P. Ver.)
+      rom: Icy (B. G. P. Ver.)
+      ko: 아이시이 (B. G. P. Ver.)
+    version: B. G. P. Ver.
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: アイシイ (Off Vocal)
+      rom: Icy (Off Vocal)
+      ko: 아이시이 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: atsuhito-sato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: atsuhito-sato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%A2%E3%82%A4%E3%82%B7%E3%82%A4'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
+    checked: 2026-10-19

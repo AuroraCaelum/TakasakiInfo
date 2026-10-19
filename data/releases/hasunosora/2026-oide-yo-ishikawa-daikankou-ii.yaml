@@ -1,0 +1,52 @@
+id: hasunosora/2026-oide-yo-ishikawa-daikankou-ii
+type: album
+title:
+  ja: おいでよ！石川大観光Ⅱ
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2026-09-21
+editions:
+  - id: e1
+    catalog: LACA-25300
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/oide-yo-ishikawa-daikankou-ii#original}
+      - {no: 2, recording: hasunosora/payappa-rhythmic-heart#original}
+      - {no: 3, recording: hasunosora/joou-no-isu#original}
+      - {no: 4, recording: hasunosora/zenbu-harukaze-ni-natta#original}
+      - {no: 5, recording: hasunosora/tsunaida-kyou-no-bokutachi-yori#original}
+      - {no: 6, recording: hasunosora/perennial#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_TootjV55V7Y
+    tracks:
+      1-1: 4dums0LO_fk
+      1-2: 55Iv1nA57tU
+      1-3: BioIHedwmk0
+      1-4: 5-Yz4kLTilY
+      1-5: n1Zz5fs6ULM
+      1-6: ChoPlXWbcYE
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6396
+  smartlink: https://lnk.to/LACA-25300
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: おいでよ！石川大観光Ⅱ}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6396
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6396
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_TootjV55V7Y
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

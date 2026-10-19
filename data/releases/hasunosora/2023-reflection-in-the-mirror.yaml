@@ -1,8 +1,14 @@
 id: hasunosora/2023-reflection-in-the-mirror
+type: single
 title:
   ja: Reflection in the mirror
 projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
 release_date: 2023-04-26
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/reflection-in-the-mirror#original}
@@ -12,7 +18,8 @@ discs:
       - {no: 5, recording: hasunosora/fortune-movie#off-vocal}
       - {no: 6, recording: hasunosora/mix-shake#off-vocal}
 streaming:
-  - browse_id: MPREb_mMXzz9nZZud
+  - editions: [e1]
+    browse_id: MPREb_mMXzz9nZZud
     tracks:
       1-1: eKSKavz2DcQ
       1-2: uhfAutOwebs
@@ -20,16 +27,24 @@ streaming:
       1-4: PMaMtymsX-I
       1-5: snxF7cGndi0
       1-6: fgzF1s51Y44
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/02/
 legacy:
   category: Hasunosora
   albums:
     - {title: Reflection in the mirror}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/02/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_mMXzz9nZZud
-    checked: 2026-10-17
+    checked: 2026-10-19
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/02/
+    checked: 2026-10-19

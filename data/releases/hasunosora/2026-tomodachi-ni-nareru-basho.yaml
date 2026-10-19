@@ -1,0 +1,49 @@
+id: hasunosora/2026-tomodachi-ni-nareru-basho
+type: single
+title:
+  ja: トモダチになれる場所
+projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
+label: Lantis
+release_date: 2026-04-08
+editions:
+  - id: e1
+    catalog: LACM-24817
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/tomodachi-ni-nareru-basho#original}
+      - {no: 2, recording: hasunosora/tomodachi-ni-nareru-basho#b-g-p-ver}
+      - {no: 3, recording: hasunosora/senpai#original}
+      - {no: 4, recording: hasunosora/tomodachi-ni-nareru-basho#off-vocal}
+      - {no: 5, recording: hasunosora/senpai#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_aqTx2ZsEFuV
+    tracks:
+      1-1: f99v_1wveUk
+      1-2: 1kRdvp0c7yg
+      1-3: DpGg1zbhMG4
+      1-4: uhTFapkkrrs
+      1-5: uFQ4ugY_TsE
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: トモダチになれる場所}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aqTx2ZsEFuV
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

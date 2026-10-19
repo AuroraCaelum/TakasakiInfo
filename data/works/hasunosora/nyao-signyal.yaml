@@ -1,0 +1,57 @@
+id: hasunosora/nyao-signyal
+project: hasunosora
+title:
+  ja: ニャオシグニャル
+  rom: Nyao Signyal
+  ko: 냐오 시그냘
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: kijibato, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: kijibato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ニャオシグニャル (Off Vocal)
+      rom: Nyao Signyal (Off Vocal)
+      ko: 냐오 시그냘 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kijibato, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: kijibato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%8B%E3%83%A3%E3%82%AA%E3%82%B7%E3%82%B0%E3%83%8B%E3%83%A3%E3%83%AB'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
+    checked: 2026-10-19

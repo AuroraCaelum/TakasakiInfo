@@ -1,0 +1,66 @@
+id: hasunosora/link-to-the-future
+project: hasunosora
+title:
+  ja: Link to the FUTURE
+  rom: Link to the FUTURE
+  ko: Link to the FUTURE
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: licu}
+    - {person: yu-furukawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+      - {artist: dollchestra}
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
+  - id: 104th-ver
+    title:
+      ja: Link to the FUTURE (104期 Ver.)
+      rom: Link to the FUTURE (104th Ver.)
+      ko: Link to the FUTURE (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: cerise-bouquet}
+      - {artist: dollchestra}
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Link to the FUTURE (Off Vocal)
+      rom: Link to the FUTURE (Off Vocal)
+      ko: Link to the FUTURE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/12/
+    checked: 2026-10-19

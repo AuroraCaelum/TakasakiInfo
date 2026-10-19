@@ -1,0 +1,66 @@
+id: hasunosora/special-thanks
+project: hasunosora
+title:
+  ja: Special Thanks
+  rom: Special Thanks
+  ko: Special Thanks
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: menma}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/13/
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Special Thanks (Off Vocal)
+      rom: Special Thanks (Off Vocal)
+      ko: Special Thanks (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: menma}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/13/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/13/
+    checked: 2026-10-19

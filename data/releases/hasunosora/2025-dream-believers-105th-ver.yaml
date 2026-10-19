@@ -1,0 +1,58 @@
+id: hasunosora/2025-dream-believers-105th-ver
+type: mini_album
+title:
+  ja: Dream Believers（105期Ver.）
+  rom: Dream Believers (105th Ver.)
+  ko: Dream Believers (105기 Ver.)
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+label: Lantis
+release_date: 2025-04-30
+editions:
+  - id: e1
+    catalog: LACA-25154
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/dream-believers#105th-ver}
+      - {no: 2, recording: hasunosora/celebration#original}
+      - {no: 3, recording: hasunosora/ampere#original}
+      - {no: 4, recording: hasunosora/wawo#original}
+      - {no: 5, recording: hasunosora/edelied#original}
+      - {no: 6, recording: hasunosora/hello-new-dream#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_8DHNmAs1dOk
+    tracks:
+      1-1: _JHecYe3F3M
+      1-2: 8VItNxbJNd0
+      1-3: KK4N3PASA18
+      1-4: ChhK4J_KVm8
+      1-5: fT4kYUdyx7o
+      1-6: 31Jwuvx7HpI
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/34/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Dream Believers（105期Ver.）}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+    note: 곡명 + 버전 규칙(D40) (재검토 반영 2026-10-19)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8DHNmAs1dOk
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

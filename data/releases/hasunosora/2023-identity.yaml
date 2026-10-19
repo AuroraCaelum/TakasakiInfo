@@ -1,8 +1,14 @@
 id: hasunosora/2023-identity
+type: single
 title:
   ja: アイデンティティ
 projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
 release_date: 2023-11-29
+editions:
+  - id: e1
+    media: [CD]
 discs:
   - tracks:
       - {no: 1, recording: hasunosora/identity#original}
@@ -12,7 +18,8 @@ discs:
       - {no: 5, recording: hasunosora/tensai-nano-kamo-shirenai#off-vocal}
       - {no: 6, recording: hasunosora/non-fiction-hero-show#off-vocal}
 streaming:
-  - browse_id: MPREb_gJiFp7CIQg3
+  - editions: [e1]
+    browse_id: MPREb_gJiFp7CIQg3
     tracks:
       1-1: h8w8FFo1u9E
       1-2: hfxlyhi6nXY
@@ -20,16 +27,24 @@ streaming:
       1-4: gHPcqEXWtcw
       1-5: sXHvCq4MuDc
       1-6: XMig2pKLVjw
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/11/
 legacy:
   category: Hasunosora
   albums:
     - {title: アイデンティティ}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/11/
+    checked: 2026-10-19
+    note: 레거시 트랙리스트를 공식 페이지와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_gJiFp7CIQg3
-    checked: 2026-10-17
+    checked: 2026-10-19
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/11/
+    checked: 2026-10-19

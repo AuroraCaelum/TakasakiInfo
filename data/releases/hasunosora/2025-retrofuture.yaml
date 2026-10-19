@@ -1,0 +1,51 @@
+id: hasunosora/2025-retrofuture
+type: single
+title:
+  ja: Retrofuture
+projects: [hasunosora]
+artist_credit:
+  - {artist: edel-note}
+label: Lantis
+release_date: 2025-05-21
+editions:
+  - id: e1
+    catalog: LACM-24689
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/retrofuture#original}
+      - {no: 2, recording: hasunosora/tenchi-reimei#original}
+      - {no: 3, recording: hasunosora/chili-con-carne#original}
+      - {no: 4, recording: hasunosora/retrofuture#off-vocal}
+      - {no: 5, recording: hasunosora/tenchi-reimei#off-vocal}
+      - {no: 6, recording: hasunosora/chili-con-carne#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_QgVuZ2s5x20
+    tracks:
+      1-1: 0AOzl2JXAzM
+      1-2: HLBoXT2kZDs
+      1-3: wteiJwqU5lk
+      1-4: sSsvKJUQv84
+      1-5: eZ-BxHTSHuI
+      1-6: 1kRbSyIvC7U
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/36/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: Retrofuture}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/36/
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_QgVuZ2s5x20
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

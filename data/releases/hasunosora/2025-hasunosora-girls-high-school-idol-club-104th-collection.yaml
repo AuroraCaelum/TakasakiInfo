@@ -1,0 +1,105 @@
+id: hasunosora/2025-hasunosora-girls-high-school-idol-club-104th-collection
+type: album
+title:
+  ja: 蓮ノ空女学院スクールアイドルクラブ 104th Collection
+  rom: Hasunosora Girls' High School Idol Club 104th Collection
+  ko: 하스노소라 여학원 스쿨 아이돌 클럽 104th Collection
+projects: [hasunosora]
+artist_credit:
+  - {artist: hasunosora-girls-high-school-idol-club}
+release_date: 2025-05-20
+editions:
+  - id: e1
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/deepness#rec-ver}
+      - {no: 2, recording: hasunosora/natsumeki-pain#104th-ver}
+      - {no: 3, recording: hasunosora/trick-and-cute#104th-ver}
+      - {no: 4, recording: hasunosora/tsubasa-la-liberte#104th-ver}
+      - {no: 5, recording: hasunosora/link-to-the-future#104th-ver}
+      - {no: 6, recording: hasunosora/dream-believers#sakura-ver}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/suisai-sekai#104th-ver}
+      - {no: 2, recording: hasunosora/mix-shake#104th-ver}
+      - {no: 3, recording: hasunosora/holiday-holiday#104th-ver}
+      - {no: 4, recording: hasunosora/genyo-yako#104th-ver}
+      - {no: 5, recording: hasunosora/sugao-no-pixel#104th-ver}
+      - {no: 6, recording: hasunosora/senpen-banka#104th-ver}
+      - {no: 7, recording: hasunosora/sugar-melt#104th-ver}
+  - disc: 3
+    tracks:
+      - {no: 1, recording: hasunosora/awoke#104th-ver}
+      - {no: 2, recording: hasunosora/kiboteki-prism#104th-ver}
+      - {no: 3, recording: hasunosora/tragic-drops#104th-ver}
+      - {no: 4, recording: hasunosora/mirage-voyage#104th-ver}
+      - {no: 5, recording: hasunosora/take-it-over#104th-ver}
+      - {no: 6, recording: hasunosora/knot#104th-ver}
+      - {no: 7, recording: hasunosora/seishun-no-rinkaku#104th-ver}
+  - disc: 4
+    tracks:
+      - {no: 1, recording: hasunosora/do-do-do#104th-ver}
+      - {no: 2, recording: hasunosora/hakuchuu-a-la-mode#104th-ver}
+      - {no: 3, recording: hasunosora/kokon-touzai#104th-ver}
+      - {no: 4, recording: hasunosora/non-fiction-hero-show#104th-ver}
+      - {no: 5, recording: hasunosora/ishin-denshin#104th-ver}
+      - {no: 6, recording: hasunosora/mahara-jamboree#104th-ver}
+      - {no: 7, recording: hasunosora/tensai-nano-kamo-shirenai#104th-ver}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_A17VTZ2aAaq
+    tracks:
+      1-1: 0gHx-pg1HQs
+      1-2: wsD3mgPiPWM
+      1-3: IlUsj6mlvFE
+      1-4: nfys5joRJmg
+      1-5: sK8fbgcgugU
+      1-6: uRKaAuWaKjE
+      2-1: FVr1XX4IZ_g
+      2-2: i1DCtCSdKR4
+      2-3: f695zwkZM6I
+      2-4: hAXTO4uauXM
+      2-5: 7KjgkiBidgo
+      2-6: DBBuiLpucV8
+      2-7: b0QB4H7jKVM
+      3-1: gddTJXnXolU
+      3-2: cO0ucNmGf7Y
+      3-3: U7vd4JuB89Q
+      3-4: f8AIghRByc8
+      3-5: bimKgstvXLE
+      3-6: MjaSlhoB7sg
+      3-7: NBSWelW2ST4
+      4-1: HI3kxnIidOw
+      4-2: 1RD4Si1aiOQ
+      4-3: iB-rMOtfwq4
+      4-4: iclwg96KZ6w
+      4-5: Gq6wDOwHrxU
+      4-6: aiC47NVfEek
+      4-7: lwrjEdjHwGM
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+  smartlink: https://lnk.to/LZC-3130
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 蓮ノ空女学院スクールアイドルクラブ 104th Collection}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+    checked: 2026-10-19
+    note: 그룹명(data) + 라틴 원문 (재검토 반영 2026-10-19)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

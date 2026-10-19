@@ -1,0 +1,48 @@
+id: hasunosora/ichigo-milk-love
+project: hasunosora
+title:
+  ja: IcHiGo milK love
+  rom: IcHiGo milK love
+  ko: IcHiGo milK love
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: sora-tansho}
+    - {person: tomoki-tamatani}
+    - {person: kushita}
+recordings:
+  - id: original
+    performers:
+      - {artist: prince}
+    arranger:
+      - {person: machine-ikuta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: IcHiGo milK love (Off Vocal)
+      rom: IcHiGo milK love (Off Vocal)
+      ko: IcHiGo milK love (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: machine-ikuta}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
+    checked: 2026-10-19

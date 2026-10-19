@@ -1,0 +1,67 @@
+id: hasunosora/joushou-kiryuu
+project: hasunosora
+title:
+  ja: ジョーショーキリュー
+  rom: Joushou Kiryuu
+  ko: 상승기류
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: hamu}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: hamu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/25/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ジョーショーキリュー (Off Vocal)
+      rom: Joushou Kiryuu (Off Vocal)
+      ko: 상승기류 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hamu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/25/
+        checked: 2026-10-19
+  - id: megumi-fujishima-solo
+    performers:
+      - {character: hasunosora/megumi-fujishima}
+    arranger:
+      - {person: hamu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: hamu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/25/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%AD%E3%83%AA%E3%83%A5%E3%83%BC'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/25/
+    checked: 2026-10-19

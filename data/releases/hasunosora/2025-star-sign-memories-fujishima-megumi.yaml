@@ -1,0 +1,87 @@
+id: hasunosora/2025-star-sign-memories-fujishima-megumi
+type: album
+title:
+  ja: ～Star Sign Memories～ Fujishima Megumi
+  rom: ~Star Sign Memories~ Fujishima Megumi
+  ko: ~Star Sign Memories~ Fujishima Megumi
+projects: [hasunosora]
+artist_credit:
+  - {character: hasunosora/megumi-fujishima}
+label: Lantis
+release_date: 2025-06-04
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39127~8
+    media: [CD, CD, BD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-19127~8
+    media: [CD, CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/do-do-do#megumi-fujishima-solo}
+      - {no: 2, recording: hasunosora/hakuchuu-a-la-mode#megumi-fujishima-solo}
+      - {no: 3, recording: hasunosora/kokon-touzai#megumi-fujishima-solo}
+      - {no: 4, recording: hasunosora/identity#megumi-fujishima-solo}
+      - {no: 5, recording: hasunosora/non-fiction-hero-show#megumi-fujishima-solo}
+      - {no: 6, recording: hasunosora/milk#megumi-fujishima-solo}
+      - {no: 7, recording: hasunosora/ishin-denshin#megumi-fujishima-solo}
+      - {no: 8, recording: hasunosora/bang-you-gravity#megumi-fujishima-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: hasunosora/mira-creation#megumi-fujishima-solo}
+      - {no: 2, recording: hasunosora/fanfare#megumi-fujishima-solo}
+      - {no: 3, recording: hasunosora/joushou-kiryuu#megumi-fujishima-solo}
+      - {no: 4, recording: hasunosora/zenhoui-kyun#megumi-fujishima-solo}
+      - {no: 5, recording: hasunosora/natsumeki-pain#megumi-fujishima-solo}
+      - {no: 6, recording: hasunosora/deepness#megumi-fujishima-solo}
+      - {no: 7, recording: hasunosora/dream-believers#sakura-ver-megumi-fujishima}
+      - {no: 8, recording: hasunosora/yappa-tenshi#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_VNXkRWKWLyG
+    tracks:
+      1-1: qUcThpRKWWo
+      1-2: Uic_TiAIpck
+      1-3: UrIOur3GgbM
+      1-4: WP0FLPPkMMM
+      1-5: YAC1AmFelmk
+      1-6: 6Ff_WKHl1EA
+      1-7: f10nlyvTX5Q
+      1-8: dUs01MxRvTU
+      2-1: 2Wky3K5AAHo
+      2-2: S8gl_b8__RA
+      2-3: 0uXQpp_bC4o
+      2-4: OH92gReQg1A
+      2-5: fu0AQDKqCDE
+      2-6: f_AtUpFqiA0
+      2-7: lTuhddyrp-I
+      2-8: j1Ry7MC6g2E
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: ～Star Sign Memories～ Fujishima Megumi}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+    checked: 2026-10-19
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
+    checked: 2026-10-19
+    note: 라틴 원문 (D39)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_VNXkRWKWLyG
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -1,0 +1,47 @@
+id: hasunosora/yuki-mau-sora-to-nibyou-no-eien
+project: hasunosora
+title:
+  ja: 雪舞う空と二秒の永遠
+  rom: Yuki Mau Sora to Nibyou no Eien
+  ko: 눈 흩날리는 하늘과 2초의 영원
+credits:
+  lyricist:
+    - {person: nanoha-komatsu}
+  composer:
+    - {person: clear-kila}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: seiji-hotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 雪舞う空と二秒の永遠 (Off Vocal)
+      rom: Yuki Mau Sora to Nibyou no Eien (Off Vocal)
+      ko: 눈 흩날리는 하늘과 2초의 영원 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: seiji-hotta}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 번역을 고침(오역 소지, D30, 사용자 결정) (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E9%9B%AA%E8%88%9E%E3%81%86%E7%A9%BA%E3%81%A8%E4%BA%8C%E7%A7%92%E3%81%AE%E6%B0%B8%E9%81%A0'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
+    checked: 2026-10-19

@@ -1,0 +1,58 @@
+id: hasunosora/2025-37-5-c-no-fantasy-i-my-mayday-blast-izayoi-selene
+type: single
+title:
+  ja: 37.5℃のファンタジー / アイマイメーデー / BLAST!! / 十六夜セレーネ
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+  - {artist: dollchestra}
+  - {artist: mira-cra-park}
+  - {artist: edel-note}
+label: Lantis
+release_date: 2025-07-02
+editions:
+  - id: e1
+    catalog: LACM-24696
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/37-5-c-no-fantasy#original}
+      - {no: 2, recording: hasunosora/i-my-mayday#original}
+      - {no: 3, recording: hasunosora/blast#original}
+      - {no: 4, recording: hasunosora/izayoi-selene#original}
+      - {no: 5, recording: hasunosora/37-5-c-no-fantasy#off-vocal}
+      - {no: 6, recording: hasunosora/i-my-mayday#off-vocal}
+      - {no: 7, recording: hasunosora/blast#off-vocal}
+      - {no: 8, recording: hasunosora/izayoi-selene#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_ULMXGv3oPJI
+    tracks:
+      1-1: ypRxHfAF7hM
+      1-2: H4B99OWVYgo
+      1-3: FwvOjmXtujQ
+      1-4: siTbqssUsoc
+      1-5: 2MQC9sH59g4
+      1-6: NCAvYO9atEU
+      1-7: EmlX8bUPVHI
+      1-8: ao3aQDjZ57M
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4739
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 37.5℃のファンタジー / アイマイメーデー / BLAST!! / 十六夜セレーネ}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4739
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4739
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ULMXGv3oPJI
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

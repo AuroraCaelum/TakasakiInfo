@@ -1,0 +1,51 @@
+id: hasunosora/key-of-like
+project: hasunosora
+title:
+  ja: KEY of Like！
+  rom: KEY of Like!
+  ko: KEY of Like!
+credits:
+  lyricist:
+    - {person: kelly}
+    - {person: tatsune}
+    - {person: rosa}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+      - {artist: dollchestra}
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/26/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KEY of Like！ (Off Vocal)
+      rom: KEY of Like! (Off Vocal)
+      ko: KEY of Like! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/26/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/26/
+    checked: 2026-10-19
+    note: 라틴 원문, 전각 느낌표는 반각으로 (재검토 반영 2026-10-19)
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/26/
+    checked: 2026-10-19

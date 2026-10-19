@@ -1,0 +1,46 @@
+id: hasunosora/my-lucky-clover
+project: hasunosora
+title:
+  ja: My Lucky Clover
+  rom: My Lucky Clover
+  ko: My Lucky Clover
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: kanji-eguchi, affiliation: SUPA LOVE}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: armyslick}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: My Lucky Clover (Off Vocal)
+      rom: My Lucky Clover (Off Vocal)
+      ko: My Lucky Clover (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: armyslick}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4741
+    checked: 2026-10-19

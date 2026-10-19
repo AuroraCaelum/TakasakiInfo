@@ -1,0 +1,58 @@
+id: hasunosora/2026-sayo-shigure-reboot-hip-hip-hooray-reijou-mob
+type: single
+title:
+  ja: Sayo-Shigure / リブウト / Hip, hip, hooray! / 令嬢モブ！
+projects: [hasunosora]
+artist_credit:
+  - {artist: cerise-bouquet}
+  - {artist: dollchestra}
+  - {artist: mira-cra-park}
+  - {artist: edel-note}
+label: Lantis
+release_date: 2026-02-18
+editions:
+  - id: e1
+    catalog: LACM-24812
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/sayo-shigure#original}
+      - {no: 2, recording: hasunosora/reboot#original}
+      - {no: 3, recording: hasunosora/hip-hip-hooray#original}
+      - {no: 4, recording: hasunosora/reijou-mob#original}
+      - {no: 5, recording: hasunosora/sayo-shigure#off-vocal}
+      - {no: 6, recording: hasunosora/reboot#off-vocal}
+      - {no: 7, recording: hasunosora/hip-hip-hooray#off-vocal}
+      - {no: 8, recording: hasunosora/reijou-mob#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_BkGsEA6yYhf
+    tracks:
+      1-1: av5INTLVc7I
+      1-2: 0zuMFmQVuvo
+      1-3: mpN7GaPuz_0
+      1-4: uNg4fH-kddc
+      1-5: XyNQddHeb_k
+      1-6: tl2M94I1IOA
+      1-7: EN26pLfdXZ0
+      1-8: k97bg6FoTgA
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5506
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 'Sayo-Shigure / リブウト / Hip, hip, hooray! / 令嬢モブ！'}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5506
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5506
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_BkGsEA6yYhf
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

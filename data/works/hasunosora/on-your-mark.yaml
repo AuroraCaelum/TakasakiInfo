@@ -21,6 +21,21 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-ver
+    title:
+      ja: On your mark (104期 Ver.)
+      rom: On your mark (104th Ver.)
+      ko: On your mark (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/17/
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

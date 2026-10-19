@@ -9,7 +9,47 @@ credits:
     - {person: komu}
   composer:
     - {person: mashiro-shimura}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
+  - id: 104th-ver
+    title:
+      ja: Trick & Cute (104期 Ver.)
+      rom: Trick & Cute (104th Ver.)
+      ko: Trick & Cute (104기 Ver.)
+    version: 104期 Ver.
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Trick & Cute (Off Vocal)
+      rom: Trick & Cute (Off Vocal)
+      ko: Trick & Cute (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/12/
+        checked: 2026-10-19
 evidence:
   credits:
     status: established

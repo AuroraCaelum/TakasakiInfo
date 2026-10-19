@@ -1,0 +1,43 @@
+id: hasunosora/ampere
+project: hasunosora
+title:
+  ja: アンペア
+  rom: Ampere
+  ko: 암페어
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/34/
+        checked: 2026-10-19
+  - id: sayaka-murano-solo
+    performers:
+      - {character: hasunosora/sayaka-murano}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%82%A2%E3%83%B3%E3%83%9A%E3%82%A2'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/34/
+    checked: 2026-10-19

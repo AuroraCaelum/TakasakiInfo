@@ -1,0 +1,47 @@
+id: hasunosora/2025-zenhoui-kyun
+type: single
+title:
+  ja: 全方位キュン♡
+projects: [hasunosora]
+artist_credit:
+  - {artist: mira-cra-park}
+label: Lantis
+release_date: 2025-03-19
+editions:
+  - id: e1
+    catalog: LACM-24670
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: hasunosora/zenhoui-kyun#original}
+      - {no: 2, recording: hasunosora/kakurenbo-shiyou#original}
+      - {no: 3, recording: hasunosora/zenhoui-kyun#off-vocal}
+      - {no: 4, recording: hasunosora/kakurenbo-shiyou#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_i4BCkRdWh40
+    tracks:
+      1-1: 20MBYoZZ9Ck
+      1-2: V7UdxnQBXrk
+      1-3: gl0Izd5E0DA
+      1-4: ASRoFBGOkHw
+links:
+  official: https://www.lovelive-anime.jp/hasunosora/music/29/
+legacy:
+  category: Hasunosora
+  albums:
+    - {title: 全方位キュン♡}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/29/
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/29/
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_i4BCkRdWh40
+    checked: 2026-10-19
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

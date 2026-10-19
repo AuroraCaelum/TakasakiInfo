@@ -40,6 +40,56 @@ recordings:
       credits:
         status: legacy
         source: migration:legacy
+  - id: 104th-new-ver
+    title:
+      ja: Reflection in the mirror (104期NEW Ver.)
+      rom: Reflection in the mirror (104th NEW Ver.)
+      ko: Reflection in the mirror (104기 NEW Ver.)
+    version: 104期NEW Ver.
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: armyslick}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/19/
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: menma}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+  - id: 104th-new-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Reflection in the mirror (104期NEW Ver.) (Off Vocal)
+      rom: Reflection in the mirror (104th NEW Ver.) (Off Vocal)
+      ko: Reflection in the mirror (104기 NEW Ver.) (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: armyslick}
+    instrumental_of: 104th-new-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/19/
+        checked: 2026-10-19
 evidence:
   credits:
     status: legacy

@@ -1,0 +1,47 @@
+id: hasunosora/rem
+project: hasunosora
+title:
+  ja: レム
+  rom: Rem
+  ko: 렘
+credits:
+  lyricist:
+    - {person: tatsune}
+  composer:
+    - {person: keita-tanaka}
+recordings:
+  - id: original
+    performers:
+      - {artist: dollchestra}
+    arranger:
+      - {person: ryuichi-takagi, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/28/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: レム (Off Vocal)
+      rom: Rem (Off Vocal)
+      ko: 렘 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryuichi-takagi, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/28/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/28/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%AC%E3%83%A0'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/28/
+    checked: 2026-10-19

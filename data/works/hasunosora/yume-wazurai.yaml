@@ -1,0 +1,67 @@
+id: hasunosora/yume-wazurai
+project: hasunosora
+title:
+  ja: ユメワズライ
+  rom: Yume Wazurai
+  ko: 꿈 앓이
+credits:
+  lyricist:
+    - {person: kelly}
+  composer:
+    - {person: kohei-tsukada}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/27/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ユメワズライ (Off Vocal)
+      rom: Yume Wazurai (Off Vocal)
+      ko: 꿈 앓이 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kohei-tsukada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/27/
+        checked: 2026-10-19
+  - id: kozue-otomune-solo
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
+        checked: 2026-10-19
+  - id: kaho-hinoshita-solo
+    performers:
+      - {character: hasunosora/kaho-hinoshita}
+    arranger:
+      - {person: kohei-tsukada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/27/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%A6%E3%83%A1%E3%83%AF%E3%82%BA%E3%83%A9%E3%82%A4'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/27/
+    checked: 2026-10-19

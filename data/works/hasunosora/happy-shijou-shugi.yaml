@@ -1,0 +1,47 @@
+id: hasunosora/happy-shijou-shugi
+project: hasunosora
+title:
+  ja: ハッピー至上主義！
+  rom: Happy Shijou Shugi!
+  ko: 해피지상주의!
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: takayuki-tomokiyo}
+recordings:
+  - id: original
+    performers:
+      - {artist: kahomegu-gelato}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/14/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ハッピー至上主義！ (Off Vocal)
+      rom: Happy Shijou Shugi! (Off Vocal)
+      ko: 해피지상주의! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/14/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/14/
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%EF%BC%81'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/14/
+    checked: 2026-10-19

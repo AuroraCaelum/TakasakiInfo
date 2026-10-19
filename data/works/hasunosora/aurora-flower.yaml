@@ -1,0 +1,48 @@
+id: hasunosora/aurora-flower
+project: hasunosora
+title:
+  ja: AURORA FLOWER
+  rom: AURORA FLOWER
+  ko: AURORA FLOWER
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yusuke-shirato, affiliation: Dream Monster}
+recordings:
+  - id: original
+    performers:
+      - {artist: cerise-bouquet}
+      - {artist: dollchestra}
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: yusuke-shirato, affiliation: Dream Monster}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/30/
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: AURORA FLOWER (Off Vocal)
+      rom: AURORA FLOWER (Off Vocal)
+      ko: AURORA FLOWER (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yusuke-shirato, affiliation: Dream Monster}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/30/
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/30/
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/30/
+    checked: 2026-10-19

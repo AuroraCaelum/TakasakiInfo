@@ -1,0 +1,46 @@
+id: hasunosora/joker
+project: hasunosora
+title:
+  ja: JOKER.
+  rom: JOKER.
+  ko: JOKER.
+credits:
+  lyricist:
+    - {person: giunonico}
+  composer:
+    - {person: michael-super-lassie}
+recordings:
+  - id: original
+    performers:
+      - {artist: hasunosora-girls-high-school-idol-club}
+    arranger:
+      - {person: masaya-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5505
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: JOKER. (Off Vocal)
+      rom: JOKER. (Off Vocal)
+      ko: JOKER. (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masaya-suzuki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5505
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5505
+    checked: 2026-10-19
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5505
+    checked: 2026-10-19

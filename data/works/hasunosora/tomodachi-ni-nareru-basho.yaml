@@ -1,0 +1,76 @@
+id: hasunosora/tomodachi-ni-nareru-basho
+project: hasunosora
+title:
+  ja: トモダチになれる場所
+  rom: Tomodachi ni Nareru Basho
+  ko: 친구가 될 수 있는 장소
+credits:
+  lyricist:
+    - {person: rosa}
+  composer:
+    - {person: yusuke-kuwabara}
+recordings:
+  - id: original
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: capchii}
+      - {person: yusuke-kuwabara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+        checked: 2026-10-19
+  - id: b-g-p-ver
+    title:
+      ja: トモダチになれる場所 (B. G. P. Ver.)
+      rom: Tomodachi ni Nareru Basho (B. G. P. Ver.)
+      ko: 친구가 될 수 있는 장소 (B. G. P. Ver.)
+    version: B. G. P. Ver.
+    performers:
+      - {artist: mira-cra-park}
+    arranger:
+      - {person: capchii}
+      - {person: yusuke-kuwabara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: トモダチになれる場所 (Off Vocal)
+      rom: Tomodachi ni Nareru Basho (Off Vocal)
+      ko: 친구가 될 수 있는 장소 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: capchii}
+      - {person: yusuke-kuwabara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+        checked: 2026-10-19
+  - id: rurino-osawa-solo
+    performers:
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: capchii}
+      - {person: yusuke-kuwabara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%88%E3%83%A2%E3%83%80%E3%83%81%E3%81%AB%E3%81%AA%E3%82%8C%E3%82%8B%E5%A0%B4%E6%89%80'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
+    checked: 2026-10-19
