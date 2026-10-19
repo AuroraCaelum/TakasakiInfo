@@ -14,14 +14,21 @@ given_name:
 aliases:
   - {text: サイトウリョースケ}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   names.ja:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php
     checked: 2026-10-18
     note: 공식 크레딧 표기 (성·이름 모두 가나, D28). 이전 값 サイトウリョースケ(uta-net)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Kakushiaji!
+    checked: 2026-10-19
+    note: 나무위키 곡 문서(Kakushiaji!)의 작곡·편곡 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 공식 표기의 공백 (D28)'

@@ -12,9 +12,21 @@ given_name:
   rom: Takumi
   ko: 타쿠미
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: established
+    source: https://namu.wiki/w/ロマンスの中で
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 TVA2 BD 페이지 nijigasaki/bd/tv2nd/는 'ロマンスの中で'의 곡명·가창만 게재). 나무위키 곡 문서 크레딧의 일본어 병기
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Romance_no_Naka_de
+    checked: 2026-10-19
+    note: Fandom 곡 문서 표기 (Composers and Arrangers 목록도 같음)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/ロマンスの中で
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡·편곡)

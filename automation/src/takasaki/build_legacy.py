@@ -135,7 +135,7 @@ def render_credits(ds: Dataset, credits: list[m.Credit]) -> list[str]:
         for c in credits:
             name = getattr(_credit_names(ds, c), lang) or ""
             role = getattr(c.role, lang) if c.role else None
-            parts.append(render_credit_name(name, lang, c.affiliation_in(lang), role))
+            parts.append(render_credit_name(name, lang, c.affiliation_in(lang), role, c.fullwidth))
         out.append(_join(parts))
     return out
 
@@ -221,7 +221,7 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: di
                 *render_performers(ds, rec.performers),
                 *render_credits(ds, credits.lyricist),
                 *render_credits(ds, credits.composer),
-                *render_credits(ds, rec.arranger),
+                *render_credits(ds, rec.all_arrangers()),
                 day.isoformat() if day else "",
                 YT + vid if vid else "NA",
                 track.category if track.category is not None

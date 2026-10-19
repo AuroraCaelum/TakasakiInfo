@@ -16,11 +16,14 @@ recordings:
       - {artist: dollchestra}
     arranger:
       - {person: takuya-watanabe}
+    strings_arranger:
+      - {person: takuya-watanabe}
       - {person: yu-manabe}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/03/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,12 +36,15 @@ recordings:
       - {artist: dollchestra}
     arranger:
       - {person: takuya-watanabe}
+    strings_arranger:
+      - {person: takuya-watanabe}
       - {person: yu-manabe}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/03/
+        checked: 2026-10-19
   - id: 104th-new-ver
     title:
       ja: Sparkly Spot (104期NEW Ver.)
@@ -48,7 +54,7 @@ recordings:
     performers:
       - {artist: dollchestra}
     arranger:
-      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -59,6 +65,9 @@ recordings:
       - {character: hasunosora/tsuzuri-yugiri}
     arranger:
       - {person: takuya-watanabe}
+    strings_arranger:
+      - {person: takuya-watanabe}
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official
@@ -69,6 +78,9 @@ recordings:
       - {character: hasunosora/sayaka-murano}
     arranger:
       - {person: takuya-watanabe}
+    strings_arranger:
+      - {person: takuya-watanabe}
+      - {person: yu-manabe}
     evidence:
       credits:
         status: official
@@ -82,7 +94,7 @@ recordings:
       ko: Sparkly Spot (104기 NEW Ver.) (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: 104th-new-ver
     evidence:
       credits:
@@ -91,5 +103,6 @@ recordings:
         checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/03/
+    checked: 2026-10-19

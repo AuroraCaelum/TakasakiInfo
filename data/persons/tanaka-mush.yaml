@@ -1,7 +1,7 @@
 id: tanaka-mush
 names:
   ja: 田中マッシュ
-  rom: Mush Tanaka
+  rom: Mash Tanaka
   ko: 타나카 맛슈
 family_name:
   ja: 田中
@@ -9,15 +9,21 @@ family_name:
   ko: 타나카
 given_name:
   ja: マッシュ
-  rom: Mush
+  rom: Mash
   ko: 맛슈
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd16
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    note: Fandom 표기 (D38, 이관 값에도 적용)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Twinkle Town
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡)
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
-  names.rom:
-    status: derived
-    note: 저장소 순서(이름-성)로 정렬 (D4)

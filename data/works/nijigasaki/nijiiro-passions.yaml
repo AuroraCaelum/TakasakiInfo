@@ -1,7 +1,7 @@
 id: nijigasaki/nijiiro-passions
 project: nijigasaki
 title:
-  ja: 虹色Passions!
+  ja: 虹色Passions！
   kana: にじいろパッションズ!!
   rom: Nijiiro Passions!
   ko: 무지개색 Passions!
@@ -18,12 +18,13 @@ recordings:
       - {person: keisuke-koyama}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd16
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
-      ja: 虹色Passions! (Off Vocal)
+      ja: 虹色Passions！ (Off Vocal)
       kana: にじいろパッションズ!! (オフボーカル)
       rom: Nijiiro Passions! (Off Vocal)
       ko: 무지개색 Passions! (Off Vocal)
@@ -35,9 +36,11 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd16
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd16
+    checked: 2026-10-19

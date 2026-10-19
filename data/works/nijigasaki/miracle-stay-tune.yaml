@@ -1,7 +1,7 @@
 id: nijigasaki/miracle-stay-tune
 project: nijigasaki
 title:
-  ja: ミラクル STAY TUNE!
+  ja: ミラクル STAY TUNE！
   kana: ミラクル ステイ チューン
   rom: Miracle STAY TUNE!
   ko: 미라클 STAY TUNE!
@@ -19,12 +19,13 @@ recordings:
       - {person: naoki-endo}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
-      ja: ミラクル STAY TUNE! (Off Vocal)
+      ja: ミラクル STAY TUNE！ (Off Vocal)
       kana: ミラクル ステイ チューン (オフボーカル)
       rom: Miracle STAY TUNE! (Off Vocal)
       ko: 미라클 STAY TUNE! (Off Vocal)
@@ -36,9 +37,11 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    checked: 2026-10-19

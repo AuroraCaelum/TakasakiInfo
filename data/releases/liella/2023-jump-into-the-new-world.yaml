@@ -22,14 +22,18 @@ streaming:
       1-5: RZHPDIrxxFc
       1-6: HhnVvviEV5k
       1-7: TD5mJofGN9o
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd32.php
 legacy:
   category: Liella
   albums:
     - {title: Jump Into the New World}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd32.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_8Fl0kOxpXyv

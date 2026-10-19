@@ -17,11 +17,12 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
-      - {person: naoki-tani}
+      - {person: naoki-tani, affiliation: HANO}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,13 +35,15 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
-      - {person: naoki-tani}
+      - {person: naoki-tani, affiliation: HANO}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    checked: 2026-10-19

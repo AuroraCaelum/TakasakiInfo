@@ -20,14 +20,18 @@ streaming:
       1-4: HOk_KzDSSWg
       1-5: hYXFO4WA5FI
       1-6: 2hL6-CAjBg0
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
 legacy:
   category: Aqours
   albums:
     - {title: New Romantic Sailors}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_KJQKPJSOkRF

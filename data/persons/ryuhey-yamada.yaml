@@ -1,7 +1,7 @@
 id: ryuhey-yamada
 names:
   ja: 山田 竜平
-  rom: Ryuhey Yamada
+  rom: Ryuhei Yamada
   ko: 야마다 류헤이
 family_name:
   ja: 山田
@@ -9,12 +9,24 @@ family_name:
   ko: 야마다
 given_name:
   ja: 竜平
-  rom: Ryuhey
+  rom: Ryuhei
   ko: 류헤이
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
+    checked: 2026-10-19
+    note: 공식 표기 '山田竜平' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://www.scoop.co.jp/creator/detail.php?cd=26
+    checked: 2026-10-19
+    note: 소속사 프로필 표기 (본인 측, §5.3 우선순위 2). Fandom은 'Ryuuhei Yamada'
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Amazing Travel DNA
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

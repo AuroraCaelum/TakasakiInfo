@@ -7,10 +7,11 @@ title:
   ko: Happy Nyan! Days
 credits:
   lyricist:
-    - {person: nana-hatori}
-  composer:
     - {person: passion-king}
     - {person: rico}
+  composer:
+    - {person: passion-king}
+    - {person: joe}
 recordings:
   - id: original
     performers:
@@ -20,8 +21,10 @@ recordings:
       - {person: joe}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://music.youtube.com/watch?v=IdtU0xFIxxo
+        checked: 2026-10-19
+        note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
   - id: off-vocal
     kind: off_vocal
     title:
@@ -38,9 +41,13 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://music.youtube.com/watch?v=IdtU0xFIxxo
+        checked: 2026-10-19
+        note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://music.youtube.com/watch?v=IdtU0xFIxxo
+    checked: 2026-10-19
+    note: '레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). Fandom·Apple Music도 작사 PASSiON KiNG・Rico. 이전 값(작사 nana hatori, 작곡 PASSiON KiNG・Rico)은 나무위키뿐이었음'

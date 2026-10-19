@@ -12,9 +12,21 @@ given_name:
   rom: Junko
   ko: 준코
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd30.php
+    checked: 2026-10-19
+    note: 공식 표기 '中嶋純子' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Eye_o_Choudai
+    checked: 2026-10-19
+    note: Fandom 곡 문서 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Eyeをちょうだい
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작곡)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

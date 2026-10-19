@@ -4,6 +4,17 @@ names:
   rom: Hiroki
   ko: 히로키
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Aozora_o_Matteru
+    checked: 2026-10-19
+    note: Fandom 곡 문서의 표기 (Aozora o Matteru)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/青空を待ってる
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 「青空を待ってる」의 작곡 표기

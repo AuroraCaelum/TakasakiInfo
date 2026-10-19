@@ -4,11 +4,18 @@ names:
   rom: Hiroo Ooyagi
   ko: 오오야기 히로오
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   names.ja:
     status: established
     source: https://utaten.com/songWriter/8176/
     checked: 2026-10-17
     note: 공식 표기 (성·이름 모두 가나, D28). 공식 미게재 (하스노소라 공식 음악 목록에 해당 크레딧 없음, 2026-10-18 확인)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Eien_no_Euphoria
+    checked: 2026-10-19
+    note: Fandom 문서의 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/永遠のEuphoria
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기

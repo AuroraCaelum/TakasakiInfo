@@ -6,6 +6,8 @@ names:
 lineups:
   - members: [musical/rurika-tsubaki, musical/yukino-hojo, musical/yuzuha-sumeragi, musical/hikaru-amakusa, musical/maya-mikasa]
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2022/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 음악 페이지 곡 버전명 '未完成ドリーム！（椿咲花女子高等学校Ver.）' (2023/member.php에도 같은 학교명)

@@ -10,6 +10,18 @@ copyright:
   - {text: ©2026 PROJECT Lovelive! Hasunosora Jogakuin School Idol Club, lang: en, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
   - {text: ©2026 プロジェクトラブライブ！蓮ノ空女学院スクールアイドルクラブ, lang: ja, source: https://www.lovelive-anime.jp/, checked: 2026-10-19}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/
+    checked: 2026-10-19
+    note: 공식 사이트 og:site_name 「蓮ノ空女学院スクールアイドルクラブ」公式サイト
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club
+    checked: 2026-10-19
+    note: Fandom 문서 제목. 공식 미게재 (공식 사이트는 일본어 표기만)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/하스노소라 여학원 스쿨 아이돌 클럽
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

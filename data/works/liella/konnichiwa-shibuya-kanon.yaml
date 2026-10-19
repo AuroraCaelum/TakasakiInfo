@@ -2,7 +2,7 @@ id: liella/konnichiwa-shibuya-kanon
 kind: drama
 project: liella
 title:
-  ja: こんにちは！ ~澁谷かのん~
+  ja: こんにちは！ ～澁谷かのん～
   kana: こんにちは！ ~シブヤ カノン~
   rom: Konnichiwa! ~Shibuya Kanon~
   ko: 안녕하세요! ~시부야 카논~
@@ -13,9 +13,11 @@ recordings:
       - {character: liella/kanon-shibuya}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
+    checked: 2026-10-19

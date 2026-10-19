@@ -2,12 +2,19 @@ id: a-zu-na
 kind: unit
 projects: [nijigasaki]
 names:
-  ja: A·ZU·NA
-  rom: A·ZU·NA
-  ko: A·ZU·NA
+  ja: A・ZU・NA
+  rom: A・ZU・NA
+  ko: A・ZU・NA
 lineups:
   - members: [nijigasaki/ayumu-uehara, nijigasaki/shizuku-osaka, nijigasaki/setsuna-yuki]
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd06
+    checked: 2026-10-19
+  names.rom:
+    status: derived
+    note: '라틴 표기: rom는 ja와 같음 (§5.4, D42)'
+  names.ko:
+    status: derived
+    note: '라틴 표기: ko는 ja와 같음 (§5.4, D42)'

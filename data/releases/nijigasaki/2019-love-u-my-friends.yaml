@@ -29,14 +29,18 @@ streaming:
       1-8: FDEjpakaFbs
       1-9: mpcJj0P_vJA
       1-10: 3cmyC4MSIcs
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd04
 legacy:
   category: Nijigasaki
   albums:
     - {title: Love U my friends}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd04
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_A8893yKJxi6

@@ -12,9 +12,21 @@ given_name:
   rom: Yuki
   ko: 유키
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
+    checked: 2026-10-19
+    note: 공식 표기 '蒼乃夕妃' (띄어쓰기는 D28)
+  names.rom:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/蒼乃夕妃
+    checked: 2026-10-19
+    note: '§5.3 규칙. 읽기: あおの ゆき (일본어 위키백과). 공식 미게재'
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/러브 라이브! 스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 '러브 라이브! 스쿨 아이돌 뮤지컬' 문서의 캐스트 표기 (개인 문서 없음)
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)

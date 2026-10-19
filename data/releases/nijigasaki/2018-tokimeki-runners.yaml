@@ -28,14 +28,18 @@ streaming:
       1-8: Upb-cM_aRtQ
       1-9: zmwGcKFfZIk
       1-10: Gv9RY9jV0oM
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01
 legacy:
   category: Nijigasaki
   albums:
     - {title: TOKIMEKI Runners}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_BcYUbHql6bp

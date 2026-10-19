@@ -123,6 +123,31 @@ def test_affiliation_by_language():
     assert "E6" in _rules(ds)
 
 
+def test_affiliation_brackets_as_printed_in_ja():
+    # D42: ja keeps the full-width brackets the cited official page prints; rom and ko are half-width
+    ds = _ds()
+    okuma = m.Credit(person="a", affiliation="Arte Refact", fullwidth=True)
+    assert render_credits(ds, [okuma]) == ["畑亜貴（Arte Refact）", "Aki Hata(Arte Refact)", "하타 아키(Arte Refact)"]
+    with pytest.raises(ValueError):
+        m.Credit(person="a", fullwidth=True)  # brackets of an affiliation only
+
+
+def test_string_and_brass_arrangers_are_their_own_roles():
+    # D42: 編曲, 弦編曲 and 管編曲 are kept apart; the legacy Arranger column lists them in that order, each once
+    rec = m.Recording(id="original", arranger=[m.Credit(person="a")], strings_arranger=[m.Credit(person="b")],
+                      brass_arranger=[m.Credit(person="b"), m.Credit(person="c")])
+    assert [c.person for c in rec.all_arrangers()] == ["a", "b", "c"]
+
+
+def test_rom_and_ko_are_half_width():
+    # D42: ja is the official notation (CYaRon！), rom and ko are half-width (CYaRon!)
+    ds = _ds()
+    ds.works["p/w"].title = m.Names(ja="CYaRon！", rom="CYaRon!", ko="CYaRon!")
+    assert "E15" not in _rules(ds)
+    ds.works["p/w"].title.ko = "CYaRon！"
+    assert "E15" in _rules(ds)
+
+
 def test_no_padding_in_names():
     ds = _ds()
     ds.works["p/w"].title.rom = "Kyoku "
@@ -215,6 +240,18 @@ def test_w16_flags_official_fields_sourced_elsewhere():
     assert not official_first("work", "same_recording") and official_first("release", "tracks")
     ds.artists["u"].evidence["lineups"] = wiki.model_copy(update={"note": "공식 멤버 페이지가 갱신되지 않아 위키가 공식보다 최신"})
     assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]
+
+
+def test_w18_flags_values_resting_on_the_migration_only():
+    ds = Dataset()
+    migrated = m.Evidence(status=m.Status.legacy, source=m.MIGRATED)
+    off = m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01")
+    ds.persons["a"] = m.Person(id="a", names=m.Names(ja="NOVECHIKA", rom="NOVECHIKA", ko="NOVECHIKA"),
+                               native_script="latin", evidence={"names.ja": off, "names.ko": migrated})
+    ds.works["p/w"] = m.Work(id="p/w", project="p", title=m.Names(ja="曲", rom="Kyoku", ko="곡"), evidence={"credits": off},
+                             recordings=[m.Recording(id="original", evidence={"credits": migrated})])
+    assert sorted((f.where, f.message.split()[0]) for f in validate(ds) if f.rule == "W18") == [
+        ("person:a", "names.ko"), ("work:p/w#original", "credits")]
 
 
 def test_w15_skips_activity_names_with_a_recorded_reason():

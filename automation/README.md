@@ -45,6 +45,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | `takasaki ytm match [--release ID …] [--project P] [--apply]` | YouTube Music 어댑터(§7.2). 발매물·에디션마다 앨범을 찾아 트랙을 순서·제목으로 맞추고 자기 videoId를 채운다. 후보가 하나뿐이고 모든 트랙이 맞을 때만 반영하고, 죽은 값은 교체·살아 있는 값은 유지한다(`ytm-change` 리뷰). 애매하면 `ytm-album` 리뷰 항목을 남긴다. 발매 전(`announced`) 발매물은 건너뛴다. 검색어에는 가창자와 프로젝트 대표 그룹 이름을 붙인다. `--apply` 없이는 미리보기 |
 | `takasaki ytm links [--json PATH]` | W7: 저장된 videoId가 지금도 재생되는지 확인 |
 | `takasaki official <ikizulive\|hasunosora> [--apply] [--fresh] [--offline]` | 공식 사이트 어댑터(§7.2 ③, D40). 음악 목록·상세(이키즈라이브는 멤버 페이지도)를 읽어 캐릭터·성우·그룹·유닛·곡·발매물을 넣거나 고친다. 레거시에서 넘어온 발매물은 날짜·제목으로 찾아 공식 링크·종류·레이블·에디션·아티스트만 채우고 트랙은 비교한다. 사전에 없는 이름은 `new-names` 리뷰 파일(`review/IKZ-*.yaml`, `review/HSN-*.yaml`)에 먼저 올라가고, 읽기를 채운 뒤 다시 돌리면 `draft`로 들어간다. 페이지는 3초 간격으로 받아 `.cache/official/`에 7일 보관한다(`/common/`은 받지 않음, 원문은 커밋하지 않음). `--apply` 없이는 미리보기 |
+| `takasaki official <nijigasaki\|liella\|aqours\|musical> [--apply] [--fresh] [--offline]` | 이관한 값의 출처 확인(D41, 검사 전용). 공식 CD 페이지(`sitepage.py`가 읽음)와 `data/`의 레거시 발매물을 맞춰 보고, 트랙리스트·크레딧·가창자·이름 표기가 같으면 그 페이지(블록 앵커까지)를 근거로 단다. 편곡만 실린 페이지와 가창자만 실린 페이지는 모든 페이지를 읽은 뒤 합친다. 다른 값은 고치지 않고 `conflict`로 보고한다. 발매물에는 공식 링크만 더하고(종류·레이블·에디션은 건드리지 않음), 새 발매물·새 이름은 만들지 않는다(`skipped`). 하스노소라 어댑터도 같은 대조를 한다 |
 | `takasaki migrate [--force]` | 레거시 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
 | `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
@@ -96,6 +97,8 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - Phase 3으로 넘긴 것: 음원 발음(kana) 결측(W8), 이키즈라이브 외 발매물의 메타데이터(공식 페이지·smartlink 링크, 레이블, 에디션·품번, `type`, `artist_credit`)
 - **Phase 3 (공백 백필)**: 진행 중
   - 하스노소라 공식 사이트 어댑터(`takasaki official hasunosora`, D40). 공식 페이지 91개 중 발매물 60개를 읽는다(라이브 BD·OST·트리뷰트·제목 미정·크로스 프로젝트 제외). 레거시 발매물 10개는 공식 페이지와 트랙이 모두 같아 근거를 공식으로 바꾸고 링크·종류·에디션·아티스트를 채웠다. 새 이름(곡 84, 인물 49, 유닛 3)은 재검토(2026-10-19)를 거쳐 초안으로 넣었고 새 발매물 50개가 들어갔다. YouTube Music 영상 467개를 연결했다(ソレイユスマイル은 아직 YouTube Music에 없음). `review/HSN-*.yaml` 승인을 기다린다
+- **이관 값의 출처 확인 (D41)**: 레거시에서 넘어온 값(근거 `migration:legacy`) 2,068개의 출처를 찾았다. 곡·발매물은 공식 CD 페이지와 대조해(`takasaki official <nijigasaki|liella|aqours|musical>`, 검사 전용) 블록 앵커까지 근거로 달았고, 공식에 없는 BD 특전 크레딧·이름의 rom·ko·공연 세트리스트는 Fandom·나무위키·uta-net 등에서 찾아 `공식 미게재`를 적었다. 출처와 값이 다른 61개 엔티티는 `review/SRC-*.yaml`(크레딧, 이름, 트랙 구성, 인물 병합 2건, 弦·管編曲 방침)로 넘겼다. W18이 남은 이관 근거를 표시한다
+  - 리뷰 결정 반영(2026-10-19, D42): 編曲·弦編曲·管編曲을 역할로 나눠(`arranger`·`strings_arranger`·`brass_arranger`) 모든 공식 페이지에서 다시 읽었다(弦·管編曲이 있는 음원 77개). 표기 폭은 ja는 공식 그대로, rom·ko는 반각(E15)이고, 크레딧 소속 괄호는 ja에서 근거 페이지의 폭을 따른다. 크레딧·인명·트랙 구성을 공식 표기로 고치고 인물 2쌍을 병합했다(DESIGN.md §10.1 21). 이관 근거만 남은 값은 0개이고, 리뷰 항목도 모두 닫았다(`Happy Nyan! Days` 크레딧은 YouTube Music의 레이블 메타데이터로 확정)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).
   - 인프라: `../infra/` (CDK 스택 3개). 배포·운영 방법은 [../infra/README.md](../infra/README.md)
   - 데이터 배포: `.github/workflows/deploy.yml` + `takasaki deploy`. `main`에 push되면 자동으로 실행된다

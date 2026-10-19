@@ -12,9 +12,21 @@ given_name:
   rom: Sakura
   ko: 사쿠라
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/cast/
+    checked: 2026-10-19
+    note: 공식 캐스트 소개 페이지 표기
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/cast/
+    checked: 2026-10-19
+    note: 공식 캐스트 소개 페이지의 라틴 문자 표기 (성-이름 순 대문자)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/사카쿠라 사쿠라
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

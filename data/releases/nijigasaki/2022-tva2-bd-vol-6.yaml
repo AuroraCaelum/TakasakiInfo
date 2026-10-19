@@ -7,12 +7,14 @@ release_date: 2022-11-25
 discs:
   - tracks:
       - {no: 1, recording: nijigasaki/love-u-my-friends#12nin-ver}
-      - {no: 2, recording: nijigasaki/love-u-my-friends-12nin-ver-off-vocal#off-vocal}
+      - {no: 2, recording: nijigasaki/love-u-my-friends#12nin-ver-off-vocal}
 legacy:
   category: Nijigasaki
   albums:
     - {title: TVA2 BD Vol.6, note: TVA2 BD Vol.6}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_U_my_friends
+    checked: 2026-10-19
+    note: '공식 미게재(Off Vocal): 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재. Fandom 문서의 트랙 목록(Anime 2 Blu-ray 6)'

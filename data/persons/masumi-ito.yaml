@@ -1,20 +1,32 @@
 id: masumi-ito
 names:
   ja: 伊藤 真澄
-  rom: Masumi Ito
+  rom: Masumi Itou
   ko: 이토 마스미
 family_name:
   ja: 伊藤
-  rom: Ito
+  rom: Itou
   ko: 이토
 given_name:
   ja: 真澄
   rom: Masumi
   ko: 마스미
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd07
+    checked: 2026-10-19
+    note: 공식 표기 '伊藤真澄' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 표기 (D38, 이관 값에도 적용)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/이토 마스미
+    checked: 2026-10-19
+    note: 나무위키 문서 제목
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

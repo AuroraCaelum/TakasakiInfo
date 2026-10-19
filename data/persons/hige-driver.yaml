@@ -4,6 +4,17 @@ names:
   rom: Hige Driver
   ko: 히게드라이버
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd22.php
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: http://higedriver.com/
+    checked: 2026-10-19
+    note: 본인 공식 사이트 표기 (제목 'Hige Driver official site', 'Hige Driver All Rights Reserved.')
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/히게드라이버
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

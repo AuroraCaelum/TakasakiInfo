@@ -12,9 +12,21 @@ given_name:
   rom: Ryota
   ko: 료타
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: established
+    source: https://namu.wiki/w/探して！Future
+    checked: 2026-10-19
+    note: 공식 미게재 (A-on STORE 1기 BD 전권 구입 특전 CD 수록곡. 공식 음악·BD 페이지에 크레딧 없음, 2026-10-19 확인). 나무위키 곡 문서 크레딧의 한자 표기. 본인 X 프로필 이름도 '中野領太'(@ryotanakano2023, 검색 결과로 확인)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Sagashite!_Future
+    checked: 2026-10-19
+    note: Fandom 문서의 표기
+  names.ko:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Sagashite!_Future
+    checked: 2026-10-19
+    note: "§5.4 규칙. 읽기: なかの りょうた (Fandom 'Ryota Nakano', 본인 X 핸들 ryotanakano)"

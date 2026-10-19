@@ -9,20 +9,21 @@ credits:
   lyricist:
     - {person: junko-miyajima}
   composer:
-    - {person: singo-kubota, affiliation: Jazzin'park}
-    - {person: satoru-kurihara, affiliation: Jazzin'park}
+    - {person: singo-kubota, affiliation: Jazzin'park, fullwidth: true}
+    - {person: satoru-kurihara, affiliation: Jazzin'park, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {character: liella/chisato-arashi}
     arranger:
-      - {person: singo-kubota, affiliation: Jazzin'park}
-      - {person: shu-kanematsu}
+      - {person: singo-kubota, affiliation: Jazzin'park, fullwidth: true}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+    checked: 2026-10-19

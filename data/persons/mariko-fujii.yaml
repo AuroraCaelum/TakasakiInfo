@@ -12,12 +12,19 @@ given_name:
   rom: Mariko
   ko: 마리코
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
-  name_parts:
-    status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd03.php
+    checked: 2026-10-19
+    note: 공식 표기 '藤井万利子' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 (Dakara Bokura wa Narasunda!)
   names.ko:
     status: derived
     note: §5.4 규칙 (藤井亮太와 같은 성 표기)
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

@@ -4,6 +4,17 @@ names:
   rom: Fuwari
   ko: 후와리
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd07.php
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 'Composers and Arrangers' 목록의 표기 (Wish Song 등)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Wish Song
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기

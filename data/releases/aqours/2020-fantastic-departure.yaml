@@ -19,14 +19,18 @@ streaming:
       1-2: _X9GFvunxeg
       1-3: JdZ3RGnlIZg
       1-4: l6kL1LUufRQ
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
 legacy:
   category: Aqours
   albums:
     - {title: Fantastic Departure!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_wiFwIgiti2i

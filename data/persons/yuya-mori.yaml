@@ -2,7 +2,7 @@ id: yuya-mori
 names:
   ja: 森 悠也
   rom: Yuya Mori
-  ko: 모리 유야
+  ko: 모리 유우야
 family_name:
   ja: 森
   rom: Mori
@@ -10,11 +10,22 @@ family_name:
 given_name:
   ja: 悠也
   rom: Yuya
-  ko: 유야
+  ko: 유우야
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Butterfly_Wing
+    checked: 2026-10-19
+    note: Fandom 문서의 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/러브 라이브! 슈퍼스타!!/음반
+    checked: 2026-10-19
+    note: "나무위키 표기(문서에 따라 '모리 유야'도 있음). 읽기 もり ゆうや (사용자 결정 (2026-10-19, SRC-names): D5 예외, 발음에 가까운 장음 표기)"
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

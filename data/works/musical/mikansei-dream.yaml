@@ -13,22 +13,23 @@ credits:
 recordings:
   - id: original
     performers:
-      - {character: musical/rurika-tsubaki}
-      - {character: musical/yukino-hojo}
-      - {character: musical/yuzuha-sumeragi}
-      - {character: musical/hikaru-amakusa}
-      - {character: musical/maya-mikasa}
-      - {character: musical/anzu-takizawa}
-      - {character: musical/toa-kurusu}
-      - {character: musical/misuzu-wakatsuki}
-      - {character: musical/sayaka-harukaze}
-      - {character: musical/rena-suzuka}
+      - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+      - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+      - {person: an-juria, role: musical/yukino-hojo}
+      - {person: rina-koyama, role: musical/hikaru-amakusa}
+      - {person: minami-sato, role: musical/maya-mikasa}
+      - {person: yuuna-sekine, role: musical/anzu-takizawa}
+      - {person: mizuki-saiba, role: musical/misuzu-wakatsuki}
+      - {person: sana-hoshimori, role: musical/toa-kurusu}
+      - {person: ibuki-mita, role: musical/rena-suzuka}
+      - {person: ruri-aoyama, role: musical/sayaka-harukaze}
     arranger:
       - {person: kushita-mine}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+        checked: 2026-10-19
   - id: tsubakisakuhana-joshi-high-school-ver
     title:
       ja: 未完成ドリーム！（椿咲花女子高等学校Ver.）
@@ -37,17 +38,18 @@ recordings:
       ko: 미완성 드림! (츠바키사쿠하나 여자고등학교 Ver.)
     version: 椿咲花女子高等学校Ver.
     performers:
-      - {character: musical/rurika-tsubaki}
-      - {character: musical/yukino-hojo}
-      - {character: musical/yuzuha-sumeragi}
-      - {character: musical/hikaru-amakusa}
-      - {character: musical/maya-mikasa}
+      - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+      - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+      - {person: an-juria, role: musical/yukino-hojo}
+      - {person: rina-koyama, role: musical/hikaru-amakusa}
+      - {person: minami-sato, role: musical/maya-mikasa}
     arranger:
       - {person: kushita-mine}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+        checked: 2026-10-19
   - id: takizakura-jogakuin-high-school-ver
     title:
       ja: 未完成ドリーム！（滝桜女学院高等学校Ver.）
@@ -56,17 +58,18 @@ recordings:
       ko: 미완성 드림! (타키자쿠라 여학원 Ver.)
     version: 滝桜女学院高等学校Ver.
     performers:
-      - {character: musical/anzu-takizawa}
-      - {character: musical/toa-kurusu}
-      - {character: musical/misuzu-wakatsuki}
-      - {character: musical/sayaka-harukaze}
-      - {character: musical/rena-suzuka}
+      - {person: yuuna-sekine, role: musical/anzu-takizawa}
+      - {person: mizuki-saiba, role: musical/misuzu-wakatsuki}
+      - {person: sana-hoshimori, role: musical/toa-kurusu}
+      - {person: ibuki-mita, role: musical/rena-suzuka}
+      - {person: ruri-aoyama, role: musical/sayaka-harukaze}
     arranger:
       - {person: kushita-mine}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -76,24 +79,26 @@ recordings:
       ko: 미완성 드림! (Off Vocal)
     version: Off Vocal
     performers:
-      - {character: musical/rurika-tsubaki}
-      - {character: musical/yukino-hojo}
-      - {character: musical/yuzuha-sumeragi}
-      - {character: musical/hikaru-amakusa}
-      - {character: musical/maya-mikasa}
-      - {character: musical/anzu-takizawa}
-      - {character: musical/toa-kurusu}
-      - {character: musical/misuzu-wakatsuki}
-      - {character: musical/sayaka-harukaze}
-      - {character: musical/rena-suzuka}
+      - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+      - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+      - {person: an-juria, role: musical/yukino-hojo}
+      - {person: rina-koyama, role: musical/hikaru-amakusa}
+      - {person: minami-sato, role: musical/maya-mikasa}
+      - {person: yuuna-sekine, role: musical/anzu-takizawa}
+      - {person: mizuki-saiba, role: musical/misuzu-wakatsuki}
+      - {person: sana-hoshimori, role: musical/toa-kurusu}
+      - {person: ibuki-mita, role: musical/rena-suzuka}
+      - {person: ruri-aoyama, role: musical/sayaka-harukaze}
     arranger:
       - {person: kushita-mine}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19

@@ -16,14 +16,18 @@ streaming:
       1-2: fKX6NOEmre4
       1-3: otuSSHfzRUc
       1-4: NtEY57X0h90
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd27
 legacy:
   category: Nijigasaki
   albums:
     - {title: Awakening Promise / 夢がここからはじまるよ}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd27
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_s1dLatRpg1J

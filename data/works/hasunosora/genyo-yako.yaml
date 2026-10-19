@@ -9,17 +9,18 @@ credits:
   lyricist:
     - {person: kelly}
   composer:
-    - {person: yusuke-onodera, affiliation: Arte Refact}
+    - {person: yusuke-onodera, affiliation: Arte Refact, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: cerise-bouquet}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/06/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,12 +32,13 @@ recordings:
     performers:
       - {artist: cerise-bouquet}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/06/
+        checked: 2026-10-19
   - id: 104th-ver
     title:
       ja: 眩耀夜行 (104期 Ver.)
@@ -56,7 +58,7 @@ recordings:
     performers:
       - {character: hasunosora/kozue-otomune}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -66,7 +68,7 @@ recordings:
     performers:
       - {character: hasunosora/kaho-hinoshita}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -74,5 +76,6 @@ recordings:
         checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/06/
+    checked: 2026-10-19

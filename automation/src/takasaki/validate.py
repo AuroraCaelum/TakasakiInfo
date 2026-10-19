@@ -7,6 +7,7 @@ reported as warnings instead of errors: the review item is the pending fix.
 from __future__ import annotations
 
 from collections import defaultdict
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -16,7 +17,7 @@ from ruamel.yaml import YAML
 from . import model as m
 from .build_legacy import edition_ids, edition_tracks, own_video, release_title
 from .store import Dataset
-from .text import has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
+from .text import halfwidth, has_kana, has_kana_or_kanji, has_kanji, join_ja_name, join_kana_name, match_key
 
 
 @dataclass
@@ -82,7 +83,7 @@ def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
                 work, rec = ds.recording(t.recording)
                 put("work", work.id, work)
                 put("recording", t.recording, rec)
-                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.arranger:
+                for c in (rec.credits_override or work.credits).lyricist + (rec.credits_override or work.credits).composer + rec.all_arrangers():
                     credit(c)
                 for p in rec.performers:
                     performer(p)
@@ -97,6 +98,18 @@ def legacy_reach(ds: Dataset) -> list[tuple[str, BaseModel]]:
         for cid in ids:
             put("concert", cid, ds.concerts.get(cid))
     return [(f"{k}:{i}", ent) for (k, i), ent in seen.items()]
+
+
+def _names_in(obj: object, path: str = "") -> Iterator[tuple[str, m.Names]]:
+    """Every name and title an entity holds, with where it is."""
+    if isinstance(obj, m.Names):
+        yield path, obj
+    elif isinstance(obj, BaseModel):
+        for k in type(obj).model_fields:
+            yield from _names_in(getattr(obj, k), f"{path}.{k}" if path else k)
+    elif isinstance(obj, list):
+        for i, x in enumerate(obj):
+            yield from _names_in(x, f"{path}[{i}]")
 
 
 def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
@@ -144,7 +157,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             where = f"recording:{w.id}#{r.id}"
             for p in r.performers:
                 perf(p, where)
-            creds(r.arranger, where)
+            creds(r.arranger + r.strings_arranger + r.brass_arranger, where)
             if r.credits_override:
                 creds(r.credits_override.lyricist + r.credits_override.composer, where)
             if r.instrumental_of and r.instrumental_of not in ids:
@@ -238,7 +251,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             add("E6", ref, f"ko contains kana: {n.ko!r}", refs=(ref,))
     # an affiliation is printed in every language column, so a Japanese-script one needs per-language names (D31)
     for w in ds.works.values():
-        lists = [w.credits.lyricist, w.credits.composer] + [r.arranger for r in w.recordings]
+        lists = [w.credits.lyricist, w.credits.composer] + [cs for r in w.recordings for cs in (r.arranger, r.strings_arranger, r.brass_arranger)]
         lists += [cs for r in w.recordings if r.credits_override for cs in (r.credits_override.lyricist, r.credits_override.composer)]
         for c in (c for cs in lists for c in cs):
             rom, ko = c.affiliation_in("rom"), c.affiliation_in("ko")
@@ -250,6 +263,15 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         if p.native_script == "latin" and p.names.ko != p.names.ja and not approved:
             add("E7", f"person:{p.id}", f"Latin-native name has ko {p.names.ko!r} (expected {p.names.ja!r})",
                 refs=(f"person:{p.id}",))
+
+    # E15: ja keeps the official notation (full-width ！ and the like, §5.1); rom and ko are half-width
+    # (D42: CYaRon！ is ja, CYaRon! is rom and ko)
+    for kind, ent in ds.iter_all():  # type: ignore[attr-defined]
+        for path, n in _names_in(ent):
+            for lang in ("rom", "ko"):
+                v = getattr(n, lang)
+                if v and halfwidth(v) != v:
+                    add("E15", f"{kind}:{ent.id}", f"{path}.{lang} {v!r} is not half-width ({halfwidth(v)!r})")
 
     # E12 / W15: name parts and Japanese name spacing (D26, D28)
     split_names = (
@@ -358,18 +380,35 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 if official_first(kind, key) and ev.source and ev.source.startswith("http") and not is_official(ev.source) \
                         and not any(mark in (ev.note or "") for mark in OFFICIAL_CHECKED):
                     add("W16", f"{kind}:{where}", f"{key} rests on {ev.source.split('/')[2]} only; check the official page")
+
+    # W18: a value whose only record is its migration from the legacy files (D41). The legacy files
+    # listed it, which is not a source: find one (official page first, D36) or send it to review
+    for kind, ent in ds.iter_all():
+        ident = ent.id  # type: ignore[attr-defined]
+        scopes = [(ident, getattr(ent, "evidence", {}))]
+        scopes += [(f"{ident}#{r.id}", r.evidence) for r in getattr(ent, "recordings", [])]
+        for where, evidence in scopes:
+            keys = [key for key, ev in evidence.items() if ev.source == m.MIGRATED]
+            if keys:
+                add("W18", f"{kind}:{where}", f"{', '.join(keys)} rest on the migration only; find a source")
     return out
 
 
 # project sites and the portal, the label, and the official streaming release (its distributed titles)
-# evidence notes saying the official site was looked at first: it does not carry the value, or it is
-# behind the source that was used (D36)
-OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신")
+# evidence notes saying the official site was looked at first: it does not carry the value, it is
+# behind the source that was used (D36), or the source is the series' own account off the site
+# (an official YouTube channel's video description, an official X post; D41)
+OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신", "공식 계정")
 OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
+# the rights holders' sites of the other franchises whose characters appear in crossovers (external/*)
+OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com")
 
 
 def is_official(url: str) -> bool:
-    return url.split("/")[2] in OFFICIAL_HOSTS if url.count("/") >= 2 else False
+    if url.count("/") < 2:
+        return False
+    host = url.split("/")[2]
+    return host in OFFICIAL_HOSTS or any(host == d or host.endswith("." + d) for d in OTHER_OFFICIAL_DOMAINS)
 
 
 def official_first(kind: str, key: str) -> bool:

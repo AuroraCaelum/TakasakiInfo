@@ -5,6 +5,18 @@ names:
   ko: Add108
 native_script: latin
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: established
+    source: https://love-live.fandom.com/wiki/Look_at_me_now
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 TVA2 BD 페이지 nijigasaki/bd/tv2nd/는 'Look at me now'의 곡명·가창만 게재). Fandom 곡 문서 크레딧 표기
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Look_at_me_now
+    checked: 2026-10-19
+    note: Fandom 곡 문서 크레딧 표기 (라틴 원어 이름)
+  names.ko:
+    status: derived
+    source: https://namu.wiki/w/Look at me now
+    checked: 2026-10-19
+    note: §5.4 라틴 원어 이름 원문 유지. 나무위키 곡 문서도 라틴 원문으로 적음

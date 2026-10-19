@@ -22,8 +22,10 @@ recordings:
       - {person: diz}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hurray_Hurray
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
   - id: off-vocal
     kind: off_vocal
     title:
@@ -39,9 +41,61 @@ recordings:
     instrumental_of: 9-members-ver
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hurray_Hurray
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+  - id: 12nin-ver
+    title:
+      ja: Hurray Hurray (12人 Ver.)
+      kana: フレーフレー じゅうににんヴァージョン
+      rom: Hurray Hurray (12nin Ver.)
+      ko: Hurray Hurray (12인 Ver.)
+    version: 12人 Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: diz}
+    credits_override:
+      lyricist:
+        - {person: ryota-saito}
+      composer:
+        - {person: ryota-saito}
+        - {person: diz}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
+        checked: 2026-10-19
+        note: '작사·작곡은 12人ver. 공식 크레딧 그대로(Ryota Saito / Diz, 高咲侑 없음): 곡의 크레딧과 달라 credits_override'
+  - id: 12nin-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Hurray Hurray (12人 Ver.) [Off Vocal]
+      kana: フレーフレー じゅうににんヴァージョン (オフボーカル)
+      rom: Hurray Hurray (12nin Ver.) [Off Vocal]
+      ko: Hurray Hurray (12인 Ver.) [Off Vocal]
+    version: Off Vocal
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: diz}
+    credits_override:
+      lyricist:
+        - {person: ryota-saito}
+      composer:
+        - {person: ryota-saito}
+        - {person: diz}
+    instrumental_of: 12nin-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
+        checked: 2026-10-19
+        note: '작사·작곡은 12人ver. 공식 크레딧 그대로(Ryota Saito / Diz, 高咲侑 없음): 곡의 크레딧과 달라 credits_override'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://namu.wiki/w/Hurray Hurray
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재, 크레딧 없음). 나무위키 문서의 크레딧 (9인 BD판에 高咲侑 크레딧, 작중 설정으로 추정)

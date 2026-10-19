@@ -12,9 +12,21 @@ given_name:
   rom: Keita
   ko: 케이타
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: established
+    source: https://namu.wiki/w/クレッシェンドゆ・ら
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 TV1기 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv1st/ 는 라쿠텐 북스 특전 CD의 곡명·크레딧 미게재). 나무위키 곡 문서 크레딧 표기 '三好啓太' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 (Crescendo Yu・Ra)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/クレッシェンドゆ・ら
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 「クレッシェンドゆ・ら」의 작곡 표기

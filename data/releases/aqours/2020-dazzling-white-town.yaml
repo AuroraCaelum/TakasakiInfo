@@ -19,14 +19,18 @@ streaming:
       1-2: PdvYvcTUmGI
       1-3: d1yy2aqILz8
       1-4: 355jKL6aRuQ
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
 legacy:
   category: SaintSnow
   albums:
     - {title: Dazzling White Town}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_JChpVFPtrLs

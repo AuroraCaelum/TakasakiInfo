@@ -12,15 +12,17 @@ given_name:
   rom: Mine
   ko: 미네
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
-  name_parts:
-    status: derived
-    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 표기 '久下真音' (띄어쓰기는 D28)
   names.rom:
     status: established
     note: 읽기 くした みね를 사람이 확인 (2026-10-17). 순서는 이름-성 (D4)
   names.ko:
     status: established
     note: 읽기 くした みね를 사람이 확인 (2026-10-17)
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

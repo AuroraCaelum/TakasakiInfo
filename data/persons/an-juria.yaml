@@ -1,7 +1,7 @@
 id: an-juria
 names:
   ja: 杏ジュリア
-  rom: Juria An
+  rom: An Julia
   ko: 안 쥬리아
 family_name:
   ja: 杏
@@ -9,15 +9,22 @@ family_name:
   ko: 안
 given_name:
   ja: ジュリア
-  rom: Juria
+  rom: Julia
   ko: 쥬리아
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 표기 '杏 ジュリア' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    note: 철자는 Fandom·본인 표기 'Julia An'. 순서는 일본어 표기(杏ジュリア) 그대로 (사용자 결정 (2026-10-19, SRC-names), D4 예외)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/러브 라이브! 스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 뮤지컬 문서의 캐스트 표기 (호죠 유키노 역)
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
-  names.rom:
-    status: derived
-    note: 저장소 순서(이름-성)로 정렬 (D4)

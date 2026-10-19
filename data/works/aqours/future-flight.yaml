@@ -18,9 +18,13 @@ recordings:
       - {person: keisuke-koyama}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-19
+        note: 이 녹음(Aqours, CHRONICLE)의 편곡은 공식 미게재 (CHRONICLE https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43 은 '45.Future flight（みんなで作るAqoursの歌） 歌：Aqours'만 게재). 같은 곡 솔로 Ver.의 공식 편곡 표기(Keisuke Koyama)와 같다고 봄. uta-net https://www.uta-net.com/song/292153/ (Aqours, 2020/10/07)도 편곡 Keisuke Koyama
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+    checked: 2026-10-19
+    note: 공식 CD 페이지 Fourth Solo Concert Album starring Takami Chika(솔로 Ver. 재수록)의 작사·작곡 표기. CHRONICLE 페이지(#cd43)는 곡명·가창만 게재

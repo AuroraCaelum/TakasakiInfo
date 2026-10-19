@@ -2,7 +2,7 @@ id: yuki-kato
 names:
   ja: 加藤 優希
   rom: Yuki Kato
-  ko: 카토 유키
+  ko: 카토 유우키
 family_name:
   ja: 加藤
   rom: Kato
@@ -10,11 +10,23 @@ family_name:
 given_name:
   ja: 優希
   rom: Yuki
-  ko: 유키
+  ko: 유우키
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
+    checked: 2026-10-19
+    note: 공식 표기 '加藤優希' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 (Koisuru Sunflower)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/恋するSunflower
+    checked: 2026-10-19
+    note: '나무위키 곡 문서 표기. 읽기 かとう ゆうき (사용자 결정 (2026-10-19, SRC-names): D5 예외, 발음에 가까운 장음 표기)'
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

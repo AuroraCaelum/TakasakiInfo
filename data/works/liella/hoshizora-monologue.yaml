@@ -22,8 +22,10 @@ recordings:
       - {person: yasuhiro-obata}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hoshizora_Monologue
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/는 가창 멤버만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
   - id: off-vocal
     kind: off_vocal
     title:
@@ -43,9 +45,13 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://love-live.fandom.com/wiki/Hoshizora_Monologue
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/는 가창 멤버만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://love-live.fandom.com/wiki/Hoshizora_Monologue
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/는 가창 멤버만 게재, 크레딧 없음). Fandom 문서의 크레딧

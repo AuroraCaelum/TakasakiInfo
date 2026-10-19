@@ -12,14 +12,20 @@ given_name:
   rom: Shu
   ko: 슈우
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
-  name_parts:
-    status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd33
+    checked: 2026-10-19
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/worldwide/cast.php
+    checked: 2026-10-19
+    note: 공식 영문 사이트(Worldwide) 캐스트 표기
   names.ko:
     status: established
     source: https://namu.wiki/w/%EC%9A%B0%EC%B9%98%EB%8B%A4%20%EC%8A%88%EC%9A%B0
     checked: 2026-10-17
     note: 나무위키 문서명 (D5 예외)
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

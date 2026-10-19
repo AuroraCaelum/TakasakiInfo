@@ -15,14 +15,21 @@ aliases:
   - {text: Yu-Ki Kokubo}
   - {text: Yuki Kokubo}
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
+    checked: 2026-10-19
+    note: 공식 표기 '小久保祐希' (띄어쓰기는 D28)
   names.rom:
     status: established
     source: https://utaten.com/songWriter/5411/
     checked: 2026-10-17
     note: 본인 사용 라틴 표기 (§5.3 우선순위 2)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/A Little Love
+    checked: 2026-10-19
+    note: 나무위키 곡 문서의 작곡 표기
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

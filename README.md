@@ -10,7 +10,7 @@
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
 [![Data updated](https://img.shields.io/badge/data%20updated-2026--10--19-e4007f?style=flat-square)](TakasakiInfo.json)
-[![Tracks](https://img.shields.io/badge/tracks-1%2C550-5d9cec?style=flat-square)](#database-status)
+[![Tracks](https://img.shields.io/badge/tracks-1%2C551-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
 
@@ -28,13 +28,13 @@
 
 ## Database status
 
-**1,550** tracks · **268** albums · **586** songs · **447** people · **78** characters · **79%** of tracks on YouTube Music · as of 2026-10-19
+**1,551** tracks · **268** albums · **580** songs · **448** people · **78** characters · **79%** of tracks on YouTube Music · as of 2026-10-19
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
 | **μ’s** | — | — | — | — | Members [CSV](members/Muse.csv) · *songs & albums planned* |
 | **Aqours** | 2021-07-28 | 64 | 400 | 80% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
-| **Nijigasaki High School Idol Club** | 2023-12-06 | 69 | 385 | 65% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
+| **Nijigasaki High School Idol Club** | 2023-12-06 | 69 | 386 | 65% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
 | **Liella!** | 2023-12-06 | 44 | 225 | 55% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
 | **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 62 | 425 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
 | **School Idol Musical** | 2023-05-10 | 2 | 34 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
@@ -115,6 +115,7 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 ### Before you start
 
 - Official sites are always checked first. What they do not publish (Korean names and titles, concert setlists, readings) comes from community sources such as Love Live! Fandom and Namuwiki, checked against each other.
+- The data began as the hand-made lists of this repository (2023–2024). Every value taken from them has since been traced to a source, which the v1 files give with each value; the few that disagree with their sources are under review.
 - Names whose official form is English have no Korean translation.
 - **The data is still being configured: some entries may be missing and the structure may change.**
 - Each file is named after its group:
@@ -343,6 +344,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 ### 시작하기 전에
 
 - 항상 공식 사이트를 먼저 확인합니다. 공식에 없는 정보(한국어 이름·제목, 공연 세트리스트, 읽기 등)는 Love Live! Fandom, 나무위키 같은 커뮤니티 자료에서 가져와 서로 대조합니다.
+- 이 데이터는 이 저장소의 수작업 목록(2023~2024)에서 시작했습니다. 그 값은 모두 출처를 다시 찾았고, v1 파일에는 값마다 출처가 함께 실립니다. 출처와 다른 몇몇 값은 검토 중입니다.
 - 공식 명칭이 영어이면 한국어 번역을 넣지 않습니다.
 - **아직 데이터를 구성하는 중이라 빠진 항목이 있을 수 있고, 구조가 바뀔 수 있습니다.**
 - 파일 이름은 그룹의 영문 이름입니다.
@@ -407,6 +409,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 ### はじめに
 
 - 常に公式サイトを最初に確認します。公式にない情報（韓国語の名前・タイトル、ライブのセットリスト、読みなど）は Love Live! Fandom やナムウィキなどのコミュニティ資料から取り、相互に照合します。
+- このデータは本リポジトリの手作業のリスト（2023〜2024年）から始まりました。その値はすべて出典を確認し直しており、v1 ファイルには値ごとに出典を載せています。出典と食い違う一部の値は確認中です。
 - 公式名称が英語の場合、韓国語訳は含みません。
 - **データはまだ構成中のため、欠けている項目があったり、構造が変わったりすることがあります。**
 - 各ファイルの名前は、グループの英語名です。

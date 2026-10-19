@@ -9,14 +9,14 @@ credits:
     - {person: rosa}
   composer:
     - {person: yuki-kokubo}
-    - {person: eunsol, affiliation: '1008'}
+    - {person: eunsol, affiliation: '1008', fullwidth: true}
     - {person: yhel}
 recordings:
   - id: original
     performers:
       - {artist: prince}
     arranger:
-      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -30,7 +30,7 @@ recordings:
       ko: Nεw Black (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:

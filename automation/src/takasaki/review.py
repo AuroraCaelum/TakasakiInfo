@@ -107,6 +107,8 @@ def _rewrite_credits(ds: Dataset, src: tuple[str, str], dst: tuple[str, str]) ->
         fix(w.credits.composer)
         for r in w.recordings:
             fix(r.arranger)
+            fix(r.strings_arranger)
+            fix(r.brass_arranger)
             if r.credits_override:
                 fix(r.credits_override.lyricist)
                 fix(r.credits_override.composer)

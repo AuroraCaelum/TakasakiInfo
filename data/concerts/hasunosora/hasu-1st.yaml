@@ -2,8 +2,8 @@ id: hasunosora/hasu-1st
 projects: [hasunosora]
 title:
   ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 1st Live Tour ～RUN！CAN！FUN！～
-  rom: Love Live! Hasunosora Girls' High School Idol Club 1st Live Tour ～RUN！CAN！FUN！～
-  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～
+  rom: Love Live! Hasunosora Girls' High School Idol Club 1st Live Tour ~RUN!CAN!FUN!~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ~RUN!CAN!FUN!~
 stops:
   - id: 1-fukuoka
     city: fukuoka
@@ -249,6 +249,33 @@ stops:
 legacy:
   event_code: Hasu_1st
 evidence:
-  setlist:
-    status: legacy
-    source: migration:legacy
+  setlist.2023-10-21:
+    status: official
+    source: https://x.com/hasunosora_SIC/status/1716033463151989106
+    checked: 2026-10-19
+    note: "공식 X(@hasunosora_SIC) 세트리스트 공개 이미지(양일 통합, 날짜 배지로 구분); Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"
+  setlist.2023-10-22:
+    status: official
+    source: https://x.com/hasunosora_SIC/status/1716033463151989106
+    checked: 2026-10-19
+    note: "공식 X(@hasunosora_SIC) 세트리스트 공개 이미지(양일 통합, 날짜 배지로 구분); Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"
+  setlist.2023-11-18:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/23/
+    checked: 2026-10-19
+    note: "공식 BD 수록 내용(곡명·가창만 게재); 공식 X 세트리스트: https://x.com/hasunosora_SIC/status/1726186199008825372; Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"
+  setlist.2023-11-19:
+    status: official
+    source: https://x.com/hasunosora_SIC/status/1726186199008825372
+    checked: 2026-10-19
+    note: "공식 X(@hasunosora_SIC) 세트리스트 공개 이미지(양일 통합, 날짜 배지로 구분); Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"
+  setlist.2023-11-25:
+    status: official
+    source: https://x.com/hasunosora_SIC/status/1728733038409068990
+    checked: 2026-10-19
+    note: "공식 X(@hasunosora_SIC) 세트리스트 공개 이미지(양일 통합, 날짜 배지로 구분); Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"
+  setlist.2023-11-26:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/23/
+    checked: 2026-10-19
+    note: "공식 BD 수록 내용(곡명·가창만 게재); 공식 X 세트리스트: https://x.com/hasunosora_SIC/status/1728733038409068990; Fandom·나무위키 일치: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_1st_Live_Tour_~RUN!_CAN!_FUN!~ , https://namu.wiki/w/러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 1st Live Tour ～RUN！CAN！FUN！～"

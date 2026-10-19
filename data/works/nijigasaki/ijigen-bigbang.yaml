@@ -26,8 +26,10 @@ recordings:
       - {person: naoki-tani}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/347232/
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창만 게재, 가창은 일치). 우타넷 표기
   - id: off-vocal
     kind: off_vocal
     title:
@@ -50,9 +52,13 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: established
+        source: https://www.uta-net.com/song/347232/
+        checked: 2026-10-19
+        note: 편곡은 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창만 게재, 가창은 일치). 우타넷 표기
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: established
+    source: https://www.uta-net.com/song/347232/
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창·품번만 게재). 우타넷 표기

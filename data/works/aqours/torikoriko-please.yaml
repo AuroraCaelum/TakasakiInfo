@@ -20,8 +20,9 @@ recordings:
       isrc: JPI101600921
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,8 +38,9 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
+        checked: 2026-10-19
   - id: remix
     title:
       ja: TORIKORIKO PLEASE!! REMIX
@@ -59,5 +61,6 @@ recordings:
         note: 리믹서
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
+    checked: 2026-10-19

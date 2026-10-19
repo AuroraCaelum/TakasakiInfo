@@ -16,14 +16,18 @@ discs:
       - {no: 4, recording: nijigasaki/not-alone-not-hitori#off-vocal}
       - {no: 5, recording: nijigasaki/miracle-stay-tune#off-vocal}
       - {no: 6, recording: nijigasaki/shooting-voice#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
 legacy:
   category: Nijigasaki
   albums:
     - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【虹ヶ咲学園スクールアイドル同好会盤】, edition: e1, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
     note: 레거시 Note '「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル'에서 (M3)

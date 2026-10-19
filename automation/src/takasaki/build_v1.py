@@ -40,6 +40,8 @@ def _credit(ds: Dataset, c: m.Credit) -> dict[str, Any]:
     out = _ref_names(ds, *c.ref)
     if c.affiliation:
         out["affiliation"] = c.affiliation if isinstance(c.affiliation, str) else _names(c.affiliation)
+    if c.fullwidth:
+        out["fullwidth"] = True  # the official page prints 名前（所属） (D42)
     if c.role:
         out["role"] = _names(c.role)
     return out
@@ -82,6 +84,8 @@ def track_view(ds: Dataset) -> list[dict[str, Any]]:
                     "lyricist": [_credit(ds, c) for c in credits.lyricist],
                     "composer": [_credit(ds, c) for c in credits.composer],
                     "arranger": [_credit(ds, c) for c in rec.arranger],
+                    "strings_arranger": [_credit(ds, c) for c in rec.strings_arranger],
+                    "brass_arranger": [_credit(ds, c) for c in rec.brass_arranger],
                     "link": {"youtube_music": YT + vid if vid else None, "source": "own" if own else "main" if vid else "none"},
                     "note": t.note,
                 })
@@ -102,6 +106,8 @@ def recording_view(ds: Dataset) -> list[dict[str, Any]]:
                 "lyricist": [_credit(ds, c) for c in credits.lyricist],
                 "composer": [_credit(ds, c) for c in credits.composer],
                 "arranger": [_credit(ds, c) for c in rec.arranger],
+                "strings_arranger": [_credit(ds, c) for c in rec.strings_arranger],
+                "brass_arranger": [_credit(ds, c) for c in rec.brass_arranger],
                 "instrumental_of": f"{work.id}#{rec.instrumental_of}" if rec.instrumental_of else None,
                 "external_ids": rec.external_ids or None,
                 "main_link": YT + mains[rid] if rid in mains else None,

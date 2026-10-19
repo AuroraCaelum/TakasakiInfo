@@ -4,6 +4,17 @@ names:
   rom: POLICE PICCADILLY
   ko: 폴리스 피카딜리
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd23
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/폴리스 피카딜리
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

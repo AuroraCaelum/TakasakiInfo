@@ -1,20 +1,31 @@
 id: kurumi-fuzimoto
 names:
   ja: 藤本くるみ
-  rom: Kurumi Fuzimoto
+  rom: Kurumi Fujimoto
   ko: 후지모토 쿠루미
 family_name:
   ja: 藤本
-  rom: Fuzimoto
+  rom: Fujimoto
   ko: 후지모토
 given_name:
   ja: くるみ
   rom: Kurumi
   ko: 쿠루미
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/School_Idol_Musical_Ensemble
+    checked: 2026-10-19
+    note: Fandom 앙상블 문서 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 문서의 앙상블 캐스트 명단 (초회·추가·2024년 공연)
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)

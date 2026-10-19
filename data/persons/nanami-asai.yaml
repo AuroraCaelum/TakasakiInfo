@@ -12,9 +12,21 @@ given_name:
   rom: Nanami
   ko: 나나미
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    checked: 2026-10-19
+    note: 공식 표기 '浅井七海' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nanami_Asai
+    checked: 2026-10-19
+    note: Fandom 문서의 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/아사이 나나미
+    checked: 2026-10-19
+    note: 나무위키 문서 제목 (AKB48 출신, 스메라기 유즈하 역)
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

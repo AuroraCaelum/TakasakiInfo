@@ -12,9 +12,21 @@ given_name:
   rom: Riho
   ko: 리호
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/caststaff.html
+    checked: 2026-10-19
+    note: 공식 캐스트&스태프 페이지 표기
+  names.rom:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/worldwide/caststaff.php
+    checked: 2026-10-19
+    note: 공식 영문 사이트(Worldwide) 캐스트 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/이이다 리호
+    checked: 2026-10-19
+    note: 나무위키 문서 제목

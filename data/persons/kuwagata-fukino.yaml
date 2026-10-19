@@ -12,9 +12,21 @@ given_name:
   rom: Kuwagata
   ko: 쿠와가타
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.ja:
+    status: established
+    source: https://namu.wiki/w/HAPPY TO DO WA！
+    checked: 2026-10-19
+    note: 공식 미게재 (공식 BD 페이지는 애니메이트 전권 특전 곡의 가창 멤버만 게재). 나무위키 곡 문서의 일본어 병기
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기 (HAPPY TO DO WA!)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/HAPPY TO DO WA！
+    checked: 2026-10-19
+    note: 나무위키 곡 문서(HAPPY TO DO WA！)의 작곡·편곡 표기

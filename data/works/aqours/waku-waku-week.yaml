@@ -24,8 +24,10 @@ recordings:
       isrc: JPI101602237
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
+        checked: 2026-10-19
+        note: '같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. 편곡: 공식 CD 페이지 Third Solo Concert Album starring Kurosawa Ruby(솔로 Ver. 재수록)의 편곡 표기(ja.wikipedia·Fandom도 BD 녹음 편곡자를 같게 기재). 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv1st/#bd03 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
       same_recording:
         status: established
         source: https://musicbrainz.org/release/7db6d83c-b9a4-4334-b1cf-1e46f61d0c50
@@ -49,9 +51,13 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
+        checked: 2026-10-19
+        note: '같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡: 공식 CD 페이지 Third Solo Concert Album starring Kurosawa Ruby(솔로 Ver. 재수록)의 편곡 표기(ja.wikipedia·Fandom도 BD 녹음 편곡자를 같게 기재). 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv1st/#bd03 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
+    checked: 2026-10-19
+    note: 공식 CD 페이지 Third Solo Concert Album starring Kurosawa Ruby(솔로 Ver. 재수록)의 작사·작곡 표기. 공식 BD 페이지는 곡명·가창만 게재

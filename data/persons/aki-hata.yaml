@@ -12,9 +12,20 @@ given_name:
   rom: Aki
   ko: 아키
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/하타 아키
+    checked: 2026-10-19
+    note: 나무위키 문서 제목
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

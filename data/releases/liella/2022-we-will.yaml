@@ -14,14 +14,18 @@ streaming:
     tracks:
       1-1: Kd6RcxlTY2o
       1-2: 6XcHFp0f8FM
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd18.php
 legacy:
   category: Liella
   albums:
     - {title: WE WILL!!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd18.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_PIaTJuAFK14

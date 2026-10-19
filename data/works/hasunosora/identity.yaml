@@ -9,17 +9,18 @@ credits:
   lyricist:
     - {person: rosa}
   composer:
-    - {person: atsuki-okuma, affiliation: Arte Refact}
+    - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: mira-cra-park}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/11/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,12 +32,13 @@ recordings:
     performers:
       - {artist: mira-cra-park}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/11/
+        checked: 2026-10-19
   - id: 104th-new-ver
     title:
       ja: アイデンティティ (104期NEW Ver.)
@@ -46,7 +48,7 @@ recordings:
     performers:
       - {artist: mira-cra-park}
     arranger:
-      - {person: atsuhito-sato, affiliation: Dream Monster}
+      - {person: atsuhito-sato, affiliation: Dream Monster, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -56,7 +58,7 @@ recordings:
     performers:
       - {character: hasunosora/megumi-fujishima}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -66,7 +68,7 @@ recordings:
     performers:
       - {character: hasunosora/rurino-osawa}
     arranger:
-      - {person: atsuki-okuma, affiliation: Arte Refact}
+      - {person: atsuki-okuma, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
         status: official
@@ -80,7 +82,7 @@ recordings:
       ko: 아이덴티티 (104기 NEW Ver.) (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: atsuhito-sato, affiliation: Dream Monster}
+      - {person: atsuhito-sato, affiliation: Dream Monster, fullwidth: true}
     instrumental_of: 104th-new-ver
     evidence:
       credits:
@@ -89,5 +91,6 @@ recordings:
         checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/11/
+    checked: 2026-10-19

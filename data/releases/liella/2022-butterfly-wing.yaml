@@ -14,14 +14,18 @@ streaming:
     tracks:
       1-1: 2wVWsg7GIYs
       1-2: kMDHZQCju1s
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd28.php
 legacy:
   category: Liella
   albums:
     - {title: Butterfly Wing / エーデルシュタイン}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd28.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_QT7hBAxVG7o

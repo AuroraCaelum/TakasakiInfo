@@ -4,6 +4,17 @@ names:
   rom: R・O・N
   ko: R・O・N
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd05
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/Guilty Night, Guilty Kiss!
+    checked: 2026-10-19
+    note: 나무위키 곡 문서의 작곡 표기 (나무위키 인물 문서 제목도 R・O・N)

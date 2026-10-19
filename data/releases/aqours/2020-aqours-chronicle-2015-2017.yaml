@@ -107,14 +107,18 @@ streaming:
       4-10: oe30um7Ke9A
       4-11: PCIDWrU1DAc
       4-12: bmUG5DP0NKE
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
 legacy:
   category: Aqours
   albums:
     - {title: ラブライブ!サンシャイン!! Aqours CHRONICLE (2015~2017), flatten_discs: true}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 4장으로 나눠 트랙 번호를 매김
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM

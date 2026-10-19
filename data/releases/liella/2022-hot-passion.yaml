@@ -14,14 +14,18 @@ streaming:
     tracks:
       1-1: JeG33Qp00Mw
       1-2: 0pcCTDC8tt8
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
 legacy:
   category: SunnyPassion
   albums:
     - {title: HOT PASSION!!}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_uV6HDycrmas

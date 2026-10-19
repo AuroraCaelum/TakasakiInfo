@@ -13,9 +13,21 @@ given_name:
   rom: Kogane
   ko: 코가네
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
   name_parts:
     status: derived
     note: 성·이름 분리 (D26)
+  names.ja:
+    status: official
+    source: https://shinycolors.idolmaster-official.jp/idol/lantica/kogane/
+    checked: 2026-10-19
+    note: '공식 아이돌 페이지 (제목: 月岡 恋鐘 つきおか こがね)'
+  names.rom:
+    status: official
+    source: https://shinycolors.idolmaster-official.jp/idol/lantica/kogane/
+    checked: 2026-10-19
+    note: 공식 아이돌 페이지 영문 이름 이미지(name_en.png)의 alt
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/츠키오카 코가네
+    checked: 2026-10-19
+    note: 나무위키 문서 제목 (공식 한국어 표기 미확인)

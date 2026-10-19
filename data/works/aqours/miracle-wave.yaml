@@ -9,17 +9,18 @@ credits:
   lyricist:
     - {person: aki-hata}
   composer:
-    - {person: takuya-sakai, affiliation: Arte Refact}
+    - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
 recordings:
   - id: original
     performers:
       - {artist: aqours}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,13 +32,15 @@ recordings:
     performers:
       - {artist: aqours}
     arranger:
-      - {person: masatomi-waki, affiliation: Arte Refact}
+      - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21
+    checked: 2026-10-19

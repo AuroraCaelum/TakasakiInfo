@@ -9,7 +9,7 @@ credits:
   lyricist:
     - {person: tatsune}
   composer:
-    - {person: satoru-kurihara, affiliation: Jazzin'park}
+    - {person: satoru-kurihara, affiliation: Jazzin'park, fullwidth: true}
     - {person: tasuku-maeda}
 recordings:
   - id: original
@@ -19,8 +19,9 @@ recordings:
       - {person: tasuku-maeda}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/07/
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,9 +37,11 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/07/
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/07/
+    checked: 2026-10-19

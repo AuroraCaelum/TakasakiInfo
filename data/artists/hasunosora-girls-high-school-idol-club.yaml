@@ -39,9 +39,20 @@ lineups:
       - hasunosora/ceras-yanagida-lilienfeld
       - hasunosora/izumi-katsuragi
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/01/
+    checked: 2026-10-19
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club
+    checked: 2026-10-19
+    note: Fandom 문서 제목. 공식 미게재 (공식 사이트는 일본어 표기만)
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/하스노소라 여학원 스쿨 아이돌 클럽
+    checked: 2026-10-19
+    note: 나무위키 문서 제목
   lineups:
     status: established
     source: https://ja.wikipedia.org/wiki/%E8%93%AE%E3%83%8E%E7%A9%BA%E5%A5%B3%E5%AD%A6%E9%99%A2%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%82%AF%E3%83%A9%E3%83%96

@@ -20,8 +20,9 @@ recordings:
       isrc: JPI101801594
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd53
+        checked: 2026-10-19
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,9 +38,12 @@ recordings:
     instrumental_of: original
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd53
+        checked: 2026-10-19
+        note: 'Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡·가창: 공식 CD 페이지 CYaRon！1st フルアルバム「ある日…永遠みたいに！」(같은 녹음 재수록)의 편곡 표기와 아티스트 CYaRon！. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin에도 CYaRon！ 録り下ろし新曲CD로 게재'
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd53
+    checked: 2026-10-19

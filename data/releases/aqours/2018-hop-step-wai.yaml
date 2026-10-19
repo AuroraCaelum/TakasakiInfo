@@ -18,14 +18,18 @@ streaming:
       1-3: 5CGN3opqg94
       1-4: fMnR1xM_iS8
       1-5: gN8L9SL9nj4
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
 legacy:
   category: Aqours
   albums:
     - {title: ホップ・ステップ・ワーイ！}
 evidence:
   tracks:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
+    checked: 2026-10-19
+    note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx

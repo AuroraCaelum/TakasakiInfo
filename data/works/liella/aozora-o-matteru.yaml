@@ -14,6 +14,7 @@ credits:
         ja: リリィ、さよなら。
         rom: Lily, Sayonara.
         ko: 릴리, 사요나라.
+      fullwidth: true
 recordings:
   - id: original
     performers:
@@ -22,9 +23,11 @@ recordings:
       - {person: tatsuhiko-saiki}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+    checked: 2026-10-19

@@ -1,7 +1,7 @@
 id: shutaro-katagiri
 names:
   ja: 片桐 周太郎
-  rom: Shutaro Katagiri
+  rom: Shuutarou Katagiri
   ko: 카타기리 슈타로
 family_name:
   ja: 片桐
@@ -9,12 +9,24 @@ family_name:
   ko: 카타기리
 given_name:
   ja: 周太郎
-  rom: Shutaro
+  rom: Shuutarou
   ko: 슈타로
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd18
+    checked: 2026-10-19
+    note: 공식 표기 '片桐周太郎' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 표기 (D38, 이관 값에도 적용)
+  names.ko:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: "§5.4 규칙(장음 생략). 읽기: かたぎり しゅうたろう (Fandom 'Shuutarou Katagiri')"
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'

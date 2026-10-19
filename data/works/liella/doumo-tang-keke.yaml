@@ -2,7 +2,7 @@ id: liella/doumo-tang-keke
 kind: drama
 project: liella
 title:
-  ja: どうも！ ~唐可可~
+  ja: どうも！ ～唐 可可～
   kana: どうも！ ~タン クゥクゥ~
   rom: Doumo! ~Tang Keke~
   ko: 고마워요! ~탕 쿠쿠~
@@ -13,9 +13,11 @@ recordings:
       - {character: liella/keke-tang}
     evidence:
       credits:
-        status: legacy
-        source: migration:legacy
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
+        checked: 2026-10-19
 evidence:
   credits:
-    status: legacy
-    source: migration:legacy
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
+    checked: 2026-10-19

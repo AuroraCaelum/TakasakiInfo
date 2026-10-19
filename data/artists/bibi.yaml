@@ -6,6 +6,8 @@ names:
 lineups:
   - members: [muse/eli-ayase, muse/maki-nishikino, muse/nico-yazawa]
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php
+    checked: 2026-10-19
+    note: '공식 CD 릴리스 페이지의 유닛명 (예: BiBi(…(CV.…)…))'

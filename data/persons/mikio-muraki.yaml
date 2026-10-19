@@ -12,9 +12,21 @@ given_name:
   rom: Mikio
   ko: 미키오
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd31
+    checked: 2026-10-19
+    note: 공식 표기 '村木海季男' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
+    checked: 2026-10-19
+    note: Fandom 작곡·편곡자 목록의 표기와 같음
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/コンセントレイト！
+    checked: 2026-10-19
+    note: 나무위키 곡 문서 크레딧 표기 (작사)
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'

@@ -12,9 +12,21 @@ given_name:
   rom: Kanon
   ko: 카논
 evidence:
-  names:
-    status: legacy
-    source: migration:legacy
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
+    checked: 2026-10-19
+    note: 공식 표기 '中﨑花音' (띄어쓰기는 D28)
+  names.rom:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_School_Idol_Musical
+    checked: 2026-10-19
+    note: Fandom 문서의 출연진 표기
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/러브 라이브! 스쿨 아이돌 뮤지컬
+    checked: 2026-10-19
+    note: 나무위키 뮤지컬 문서의 앙상블 출연진 표기
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
