@@ -1,0 +1,9 @@
+type: source-check
+decision: ''
+how: >-
+  같은 사람으로 보이는 인물 둘(D41 공식 대조). 공식 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd34
+  (Break The System)는 nana hatori로 적는다. 레거시는 이 곡만 nana hitori로 적었다. 같은 사람이면
+  decision: merge:person:nana-hatori (nana hitori는 alias로 남는다), 다른 사람이면 distinct.
+items:
+  - {ref: 'person:nana-hatori', printed: nana hatori}
+  - {ref: 'person:nana-hitori', printed: nana hitori, used_in: Break The System}

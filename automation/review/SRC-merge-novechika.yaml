@@ -1,0 +1,9 @@
+type: source-check
+decision: ''
+how: >-
+  같은 사람으로 보이는 인물 둘(D41 공식 대조). 공식 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd53
+  (わちゅごなどぅー)는 NOVECHIKA로 적는다. 레거시는 이 곡만 NOVECHICA로 적었다. 같은 사람이면
+  decision: merge:person:novechika (NOVECHICA는 alias로 남는다), 다른 사람이면 distinct.
+items:
+  - {ref: 'person:novechika', printed: NOVECHIKA, used_in: '아날로그하트 등 6곡'}
+  - {ref: 'person:novechica', printed: NOVECHICA, used_in: わちゅごなどぅー}

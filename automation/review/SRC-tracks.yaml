@@ -1,0 +1,41 @@
+type: source-check
+decision: ''
+how: >-
+  공식 사이트 대조(D41)에서 발매물의 트랙 구성이나 곡 모델링이 공식 페이지와 다르게 나온 것. 값은 자동으로 고치지 않았다.
+  고친 뒤 decision: done → takasaki review apply → takasaki official <프로젝트> --apply. 새 곡이 필요하면 rom·ko를 정해야 한다.
+items:
+  - ref: 'release:nijigasaki/2022-shadow-effect'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd50
+    official: '5트랙. 05「怪盗を捕まえろ！？」(드라마)'
+    stored: '4트랙 (드라마 없음)'
+    proposal: '드라마 트랙 05를 더한다 (새 곡 이름: rom·ko 필요)'
+  - ref: 'release:liella/2021-hajimari-wa-kimi-no-sora'
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd01.php
+    official: '07「みんなでお出かけ！ ～計画編～」 08「みんなでお出かけ！ ～集合編～」'
+    stored: '「みんなでお出かけ！ ~計画篇~」「~集合篇~」'
+    proposal: '두 드라마 제목의 篇을 공식 표기 編으로 (곡 ja 제목)'
+  - ref: 'work:nijigasaki/kasumi-s-excitement-carnival'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd12
+    official: 'かすみのトキメキ<ruby>祝祭<rt>カーニバル</rt></ruby>！ (祝祭에 カーニバル 루비)'
+    stored: 'kana かすみのトキメキしゅくさい!'
+    proposal: 'kana를 かすみのトキメキカーニバル! 로 (제목 ja는 같음)'
+  - ref: 'work:nijigasaki/hurray-hurray-2'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
+    official: '「Hurray Hurray(12人ver.)」「Hurray Hurray(Off Vocal)」'
+    stored: '곡 hurray-hurray-2(12人 Ver.)와 곡 hurray-hurray-12nin-ver-off-vocal이 hurray-hurray와 따로 있음 (이관 때 생긴 중복)'
+    proposal: 'hurray-hurray의 녹음 12nin-ver, 12nin-ver-off-vocal(instrumental_of: 12nin-ver)로 합치고 두 곡은 deprecated + replaced_by'
+  - ref: 'work:nijigasaki/dream-land-dream-world-2'
+    official: 'Dream Land ! Dream World !(Off Vocal)'
+    stored: 'Off Vocal만 따로 있는 곡 dream-land-dream-world-2 (instrumental_of 없음)'
+    proposal: 'dream-land-dream-world#off-vocal(instrumental_of: original)로 합친다'
+  - ref: 'work:nijigasaki/just-believe-12nin-ver-off-vocal'
+    proposal: 'just-believe#12nin-ver-off-vocal(instrumental_of: 12nin-ver)로 합친다 (TVA2 BD Vol.7)'
+  - ref: 'work:nijigasaki/love-u-my-friends-12nin-ver-off-vocal'
+    proposal: 'love-u-my-friends#12nin-ver-off-vocal로 합친다 (TVA2 BD Vol.6)'
+  - ref: 'work:nijigasaki/tokimeki-runners-12nin-ver-off-vocal'
+    proposal: 'tokimeki-runners#12nin-ver-off-vocal로 합친다 (TVA2 BD Vol.5)'
+  - ref: 'release:aqours/2020-lovelive-sunshine-takami-chika-first-solo-concert-album-one'
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
+    official: 'CD 2장 (Disc.2는 01부터)'
+    stored: '1장에 16트랙 연번'
+    proposal: '디스크 2장으로 나누고 legacy.albums에 flatten_discs: true (레거시 출력은 그대로). 사쿠라우치 리코(#cd41)·쿠로사와 루비(#cd42) 앨범도 같음. 근거 note에 적어 두었다'

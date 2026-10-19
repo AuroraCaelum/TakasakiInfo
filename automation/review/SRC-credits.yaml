@@ -1,0 +1,63 @@
+type: source-check
+decision: ''
+how: >-
+  공식 사이트 대조(D41)에서 저장된 크레딧이 공식 페이지와 다르게 나온 것. 값은 자동으로 고치지 않았다(§6.3). 항목마다
+  official(공식 페이지가 적은 값)과 proposal을 보고 data/를 고친 뒤 decision: done → takasaki review apply →
+  takasaki official <프로젝트> --apply(고친 값의 근거가 그 페이지로 채워진다). 그대로 둘 항목은 keep과 사유를 적는다.
+  고치기 전까지 이 값들의 근거는 migration:legacy로 남는다(W18).
+items:
+  - ref: 'work:hasunosora/senpen-banka#original'
+    source: https://www.lovelive-anime.jp/hasunosora/music/09/
+    stored: {arranger: [真部 裕]}
+    official: {arranger: [大熊淳生（Arte Refact）], 弦編曲: [真部 裕]}
+    proposal: 'arranger: 大熊 淳生(Arte Refact) (SRC-strings가 (b)면 真部 裕도 함께). 레거시가 주 편곡자를 빠뜨림'
+  - ref: 'work:liella/flyer-s-high#original'
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd17.php
+    stored: {arranger: [久保田 真悟(Jazzin'park), 兼松 衆]}
+    official: {arranger: [久保田真悟（Jazzin'park）]}
+    proposal: 'arranger에서 兼松 衆을 뺀다 (이 곡이 실린 공식 페이지 어디에도 없음)'
+  - ref: 'work:nijigasaki/marchen-star#original'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
+    stored: {arranger: [Ryota Saito, Diz]}
+    official: {arranger: [Diz], 作詞: [Ryota Saito], 作曲: [Ryota Saito, Diz]}
+    proposal: 'arranger: Diz'
+  - ref: 'work:nijigasaki/love-u-my-friends'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd04
+    stored: {composer: [Keisuke Koyama]}
+    official: {composer: [Keisuke Koyama, Shunsuke Harada]}
+    proposal: 'composer에 Shunsuke Harada(shunsuke-harada)를 더한다'
+  - ref: 'work:nijigasaki/not-alone-not-hitori#original'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    stored: {arranger: [小高光太郎, 谷ナオキ]}
+    official: {arranger: [小高光太郎, 谷ナオキ（HANO）]}
+    proposal: '谷ナオキ에 소속 HANO를 붙인다 (리에라 판 yuigaoka/music/cd14.php도 같음)'
+  - ref: 'work:nijigasaki/analog-heart'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
+    stored: {composer: [藤原彩豊, 米澤森人]}
+    official: {composer: [米澤森人, 藤原彩豊]}
+    proposal: '공식 순서로 바꾼다 (순서만 다름)'
+  - ref: 'work:nijigasaki/maze-town#original'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd31
+    stored: {arranger: [藤原彩豊, サイトウ リョースケ, PASSiON KiNG]}
+    official: {arranger: [サイトウ リョースケ, 藤原彩豊, PASSiON KiNG]}
+    proposal: '공식 순서로 바꾼다 (순서만 다름)'
+  - ref: 'work:nijigasaki/mirai-harmony#original'
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd12
+    stored: {arranger: [Akira Sunset, ulala]}
+    official: {arranger: [ulala, Akira Sunset]}
+    proposal: '공식 순서로 바꾼다 (순서만 다름. 작곡은 Akira Sunset、ulala 순서로 저장값과 같음)'
+  - ref: 'work:musical/mikansei-dream'
+    source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
+    stored: {performers: '캐릭터 (musical/rurika-tsubaki 등)'}
+    official: {performers: '배우（배역役）: 堀内まり菜（椿 ルリカ役）、浅井七海（皇 ユズハ役）… (D29 형식)'}
+    proposal: '원곡·두 학교 Ver.·Off Vocal의 가창자를 D29 형식(person + role)으로 바꾼다. 같은 앨범의 다른 곡은 이미 이 형식'
+  - ref: 'work:liella/universe#original'
+    source: https://www.uta-net.com/song/341912/
+    stored: {arranger: [出羽 良彰]}
+    official: '공식 미게재 (Liella! CLUB CD SET 2023은 공식 음악 페이지에 없음). uta-net 編曲 哥丸雄貴, Fandom(https://love-live.fandom.com/wiki/UNIVERSE!!) "arranged by Yuki Utamaru, Strings: Yoshiaki Dewa"'
+    proposal: 'arranger: 哥丸 雄貴 (出羽 良彰은 弦編曲: SRC-strings 결정에 따름). Off Vocal과 솔로 Ver. 9개도 같음'
+  - ref: 'work:nijigasaki/happy-nyan-days'
+    source: https://namu.wiki/w/Happy Nyan! Days
+    stored: {lyricist: [nana hatori], composer: [PASSiON KiNG, Rico]}
+    official: '공식 미게재 (BD 특전). 나무위키는 저장값과 같고, Fandom은 작사 PASSiON KiNG・Rico, 작곡 PASSiON KiNG・JOE'
+    proposal: 'BD 부클릿으로 확인. 근거는 나무위키로 달고 note에 Fandom과 다르다고 적었다'
