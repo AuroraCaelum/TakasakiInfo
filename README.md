@@ -22,7 +22,7 @@
 > **Updates are back (October 2026).** The database now runs on a rebuilt pipeline: each song, person and release is kept once as an entity in [`data/`](data), and every CSV and JSON file in this repository is generated from it. How it works: [automation/README.md](automation/README.md).
 
 > [!IMPORTANT]
-> The data is still being filled in, so entries may be missing and the structure may change. Not in yet: songs and albums of —. 2,202 tracks have no pronunciation (kana) yet.
+> The data is still being filled in, so entries may be missing and the structure may change. 2,202 tracks have no pronunciation (kana) yet.
 
 <a id="database-status"></a>
 

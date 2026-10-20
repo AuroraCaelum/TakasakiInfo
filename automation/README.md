@@ -10,8 +10,8 @@ TakasakiInfo 데이터 파이프라인. 설계는 [docs/DESIGN.md](docs/DESIGN.m
 | `../data/legacy/layout.yaml` | 레거시 파일의 배치 순서 (어느 그룹 파일의 몇 번째에 어떤 앨범이 오는지) |
 | `../data/meta.yaml` | `dbLastUpdate`, 스키마 버전 |
 | `../albums/` `../songs/` `../members/` `../concerts/` `../TakasakiInfo.json` | **생성물(레거시).** 직접 수정하지 않는다. CI가 막는다(E8) |
-| `src/takasaki/` | 모델, 빌더, 검증기, 이관기, 리뷰 처리 |
-| `review/` | 사람이 판단할 리뷰 항목 |
+| `src/takasaki/` | 모델, 빌더, 검증기, 이관기, 리뷰 처리, 공식 사이트·Fandom·YouTube Music 어댑터 |
+| `review/` | 사람이 판단할 리뷰 항목. 결정을 적용하면 처리된 파일은 지워진다 |
 | `migration/REPORT.md` | 레거시 → 정규화 이관 보고서 (이관 전 레거시 파일과 달라진 모든 셀) |
 
 ## 설치와 실행
@@ -42,12 +42,11 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |
 | `takasaki review apply` | 리뷰 항목의 `decision` 적용 → `data/` 갱신, 처리된 항목 삭제, `dbLastUpdate` 갱신 |
 | `takasaki stamp` | `data/`를 손으로 고친 뒤 `dbLastUpdate` 갱신 |
-| `takasaki ytm match [--release ID …] [--project P] [--apply]` | YouTube Music 어댑터(§7.2). 발매물·에디션마다 앨범을 찾아 트랙을 순서·제목으로 맞추고 자기 videoId를 채운다. 후보가 하나뿐이고 모든 트랙이 맞을 때만 반영하고, 죽은 값은 교체·살아 있는 값은 유지한다(`ytm-change` 리뷰). 애매하면 `ytm-album` 리뷰 항목을 남긴다. 발매 전(`announced`) 발매물은 건너뛴다. 검색어에는 가창자와 프로젝트 대표 그룹 이름을 붙인다. `--apply` 없이는 미리보기 |
+| `takasaki ytm match [--release ID …] [--project P] [--apply]` | YouTube Music 어댑터(§7.2). 발매물·에디션마다 앨범을 찾아 트랙을 순서·제목으로 맞추고 자기 videoId를 채운다. 후보가 하나뿐이고 모든 트랙이 맞을 때만 반영하고, 죽은 값은 교체·살아 있는 값은 유지한다(`ytm-change` 리뷰). 애매하면 `ytm-album` 리뷰 항목(`review/YTM-*.yaml`)을 남긴다. 오래된 발매물부터 처리하고, 같은 앨범이 맞는 발매물이 여럿이면 먼저 나온 쪽이 앨범을 갖는다(재발매는 메인 URL, D51). 똑같이 맞는 앨범이 여럿이면 발매물 제목과 같은 앨범을 고르고, 곧은 따옴표·`…`와 공식 표기의 `“ ”`·`・・・`는 같게 본다. 발매 전(`announced`) 발매물은 건너뛴다. 검색어에는 가창자와 프로젝트 대표 그룹 이름을 붙인다. 결과는 `.cache/ytm/`에 남아 미리보기 뒤 `--apply`는 다시 받지 않는다. `--apply` 없이는 미리보기 |
 | `takasaki ytm links [--json PATH]` | W7: 저장된 videoId가 지금도 재생되는지 확인 |
-| `takasaki official <ikizulive\|hasunosora> [--apply] [--fresh] [--offline]` | 공식 사이트 어댑터(§7.2 ③, D40). 음악 목록·상세(이키즈라이브는 멤버 페이지도)를 읽어 캐릭터·성우·그룹·유닛·곡·발매물을 넣거나 고친다. 레거시에서 넘어온 발매물은 날짜·제목으로 찾아 공식 링크·종류·레이블·에디션·아티스트만 채우고 트랙은 비교한다. 사전에 없는 이름은 `new-names` 리뷰 파일(`review/IKZ-*.yaml`, `review/HSN-*.yaml`)에 먼저 올라가고, 읽기를 채운 뒤 다시 돌리면 `draft`로 들어간다. 페이지는 3초 간격으로 받아 `.cache/official/`에 7일 보관한다(`/common/`은 받지 않음, 원문은 커밋하지 않음). `--apply` 없이는 미리보기 |
-| `takasaki official <nijigasaki\|liella\|aqours\|musical> [--apply] [--fresh] [--offline]` | 이관한 값의 출처 확인(D41, 검사 전용). 공식 CD 페이지(`sitepage.py`가 읽음)와 `data/`의 레거시 발매물을 맞춰 보고, 트랙리스트·크레딧·가창자·이름 표기가 같으면 그 페이지(블록 앵커까지)를 근거로 단다. 편곡만 실린 페이지와 가창자만 실린 페이지는 모든 페이지를 읽은 뒤 합친다. 다른 값은 고치지 않고 `conflict`로 보고한다. 발매물에는 공식 링크만 더하고(종류·레이블·에디션은 건드리지 않음), 새 발매물·새 이름은 만들지 않는다(`skipped`). 하스노소라 어댑터도 같은 대조를 한다 |
+| `takasaki official <프로젝트> [--apply] [--fresh] [--offline]` | 공식 사이트 어댑터(§7.2 ③, D40·D43·D44·D46). 프로젝트는 `ikizulive` `hasunosora` `nijigasaki` `liella` `aqours` `musical` `muse` `yohane`. 음악 페이지(이키즈라이브는 멤버 페이지, μ's는 BD 페이지도)를 읽어 캐릭터·성우·그룹·유닛·곡·발매물을 넣거나 고친다. 레거시에서 넘어온 발매물은 날짜·제목으로 찾아 공식 링크·종류·레이블·에디션·아티스트를 채우고, 트랙리스트·크레딧·가창자·이름 표기를 대조해 같으면 그 페이지(블록 앵커까지)를 근거로 달고 다르면 `conflict`로 보고한다(D41). 에디션마다 커플링 곡이 다르면 그 에디션 페이지를 출처로 단다(D49). 피처링(` feat. `)과 공동 명의(`A・B・C`)는 가창자를 나눠 읽는다(D48). 사전에 없는 이름은 `new-names` 리뷰 파일(`review/<접두사>-*.yaml`, 접두사 IKZ·HSN·NJG·LLA·AQR·MSC·MUS·YHN)에 먼저 올라가고, 읽기를 채운 뒤 다시 돌리면 `draft`로 들어간다. 공식 페이지의 오기는 어댑터의 정정표(`TRACK_FIXES`)로 고친다. 페이지는 3초 간격으로 받아 `.cache/official/`에 7일 보관한다(`/common/`은 받지 않음, 원문은 커밋하지 않음). `--apply` 없이는 미리보기 |
 | `takasaki concerts schedule <파일> [--apply]` | 공연 일정 파일(공연·스톱·회장·도시·공연일과 각 공연일의 Fandom 탭)로 공연을 `performed` 상태로 만든다(D47). 새 공연명·회장·도시는 초안과 함께 `review/LIV-concerts.yaml`·`LIV-venues.yaml`에 올라간다. 이미 있는 공연은 Fandom 탭만 연결한다 |
-| `takasaki fandom concerts [--apply] [--fresh] [--offline]` | Fandom 세트리스트 어댑터(§7.7 ②, D47). Fandom 문서(`external_ids.fandom`)를 가진 공연의 각 공연일 탭을 읽어 곡을 Work·가창자를 Artist/Character에 맞춘다. `performed` 공연은 세트리스트를 초안으로 바꿔 쓰고, `settled`·`confirmed` 공연은 곡 순서가 다르면 `conflict`로 보고만 한다. 맞는 곡이 없는 항목은 `title_raw`(E9 경고)로 두고 `review/LIV-setlist-songs.yaml`에 모은다. 문서는 3초 간격으로 받아 `.cache/fandom/`에 7일 보관 |
+| `takasaki fandom concerts [--apply] [--fresh] [--offline]` | Fandom 세트리스트 어댑터(§7.7 ②, D47). Fandom 문서(`external_ids.fandom`)를 가진 공연의 각 공연일 탭을 읽어 곡을 Work·가창자를 Artist/Character에 맞춘다. `performed` 공연은 세트리스트를 초안으로 바꿔 쓰고, `settled`·`confirmed` 공연은 곡 순서가 다르면 `conflict`로 보고만 한다. `feat.`·`featuring` 뒤 가창자는 객원(D48), 체육제 경기처럼 `'''Competition'''` 아래 적힌 항목은 표식으로 읽고(D50), Fandom의 오기는 `concerts.TITLE_FIXES`로 고친다(D49). 맞는 곡이 없는 항목은 `title_raw`(E9 경고)로 두고 `review/LIV-setlist-songs.yaml`에 모은다. 문서는 3초 간격으로 받아 `.cache/fandom/`에 7일 보관 |
 | `takasaki migrate [--force]` | 레거시 → `data/` 1회성 이관 (이미 완료. 다시 돌리면 `data/`를 덮어씀) |
 | `takasaki deploy --bucket … --distribution … --base-url … --sha … [--promote]` | 릴리스를 S3 `releases/<sha>/`에 업로드. `--promote`면 공개 경로 반영 → CloudFront 무효화 → 스모크 테스트, 실패 시 직전 릴리스로 롤백 (§10.4). 보통은 `deploy` 워크플로가 실행한다. `uv sync --group deploy` 필요 |
 
@@ -60,9 +59,9 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 
 공식 사이트에서 새 발매물을 가져올 때:
 
-1. `takasaki official <프로젝트> --apply`. 새 이름이 있으면 `review/<IKZ|HSN>-*.yaml`에 빈 칸으로 올라간다.
+1. `takasaki official <프로젝트> --apply`. 새 이름이 있으면 `review/<접두사>-*.yaml`에 빈 칸으로 올라간다.
 2. 빈 칸(성·이름, rom, ko)을 채우고 다시 `--apply`. 엔티티가 `draft`로 생기고 발매물이 들어간다. 이 상태에서는 E3가 레거시 출력을 막는다.
-3. 값을 확인하고 `decision: approve` → `takasaki review apply` → `takasaki ytm match --project <프로젝트> --apply` → 위 3~4단계.
+3. 값을 확인하고 `decision: approve` → `takasaki review apply` → `takasaki ytm match --project <프로젝트> --apply`(앨범을 정하지 못한 발매물은 `review/YTM-*.yaml`에서 `pick`) → 위 3~4단계.
 
 ## 리뷰 항목
 
@@ -92,23 +91,25 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - E3(`draft` 값 출력 차단, `announced` 발매물은 레거시에서 제외) 완료
   - v1 JSON·JSON Schema·SQLite 빌드와 품질 지표(`takasaki dist`, 배포에 포함) 완료
   - 이키즈라이브 공식 사이트 어댑터(`takasaki official ikizulive`) 완료. 발매물 28개(AiScReam 「NEXT CARD」는 Phase 3, 유닛송 앨범은 발매 전이라 레거시 제외), 곡 37개, 캐릭터·성우 각 10명, 그룹·유닛 8개, 새 스태프 33명. 이름 100개를 리뷰로 승인했고(2026-10-19) 레거시 `Ikizulive` 파일을 만든다. YouTube Music 링크 150개
-  - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(현재 1건: Aqours CHRONICLE 제목의 rom 근거가 Fandom뿐. Phase 3의 Aqours 공식 사이트 어댑터에서 대조). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
+  - 출처 원칙(D36): 모든 프로젝트에서 공식 사이트부터 확인한다. 공식에 없거나 외부 정보가 더 최신이면 외부(위키·Fandom 등)를 쓰고 근거 note에 이유(`공식 미게재`·`공식보다 최신`)를 적는다. `takasaki validate`의 W16이 공식을 확인한 기록이 없는 외부 근거 값을 표시한다(2026-10-21 현재 0건. Aqours CHRONICLE 제목은 공식 페이지로 확인했다, D50). 하스노소라 캐릭터·성우, Aqours 2021 유닛 앨범 크레딧, 스태프 표기를 공식 페이지에서 확인했다
   - README 생성(§10.3) 완료: Database Status·통계·JSON 예시·Disclaimer를 데이터에서 만든다. 권리 표기를 공식 포털의 최신 목록으로 갱신했다
   - 발매물 제목 rom·ko(D39): 196개 중 187개는 빌더가 수록곡 제목이나 라틴 원문에서 만든다(v1·SQLite). 나머지 8개는 리뷰(2026-10-19 승인)로 저장했다. 새 발매물이 둘 다에 해당하지 않으면 W17로 표시된다
   - Phase 3으로 넘긴 것: 음원 발음(kana) 결측(W8), 이키즈라이브 외 발매물의 메타데이터(공식 페이지·smartlink 링크, 레이블, 에디션·품번, `type`, `artist_credit`. 하스노소라·니지가사키·리에라·Aqours·뮤지컬은 Phase 3에서 채움)
 - **Phase 3 (공백 백필)**: 진행 중
   - 하스노소라 공식 사이트 어댑터(`takasaki official hasunosora`, D40). 공식 페이지 91개 중 발매물 60개를 읽는다(라이브 BD·OST·트리뷰트·제목 미정·크로스 프로젝트 제외). 레거시 발매물 10개는 공식 페이지와 트랙이 모두 같아 근거를 공식으로 바꾸고 링크·종류·에디션·아티스트를 채웠다. 새 이름(곡 84, 인물 49, 유닛 3)은 재검토(2026-10-19)를 거쳐 초안으로 넣었고 새 발매물 50개가 들어갔다. YouTube Music 영상 467개를 연결했다(ソレイユスマイル은 아직 YouTube Music에 없음). 새 이름은 `review/HSN-*.yaml`로 승인했다(2026-10-19). 공식 페이지 오기 「Retrofutur（Off Vocal）」로 생긴 초안 곡은 정정표(`TRACK_FIXES`)로 고친 뒤 참조가 없어 지웠다
-  - 니지가사키·리에라·Aqours·뮤지컬 음반 백필(2026-10-20, D43): 네 어댑터(`takasaki official <nijigasaki|liella|aqours|musical>`)를 검사 전용에서 가져오기로 바꿨다. 공식 페이지에만 있던 발매물 69개(리에라 15, 니지가사키 10, Aqours 43, 뮤지컬 1)를 초안으로 넣었고, 레거시 발매물 107개에 종류·레이블·에디션·품번·아티스트를 채웠다. 새 이름은 `review/{LLA,NJG,AQR,MSC}-*.yaml` 승인을 기다린다(승인 전에는 E3가 레거시 출력을 막는다). 공식 페이지에 크레딧이 없는 곡은 레이블 배포 메타데이터(YouTube Music 설명란, D42) 등으로 채웠다
-    - 넣지 않은 것: 사운드트랙, V.A. 트리뷰트, 트랙리스트 미공개 예정작(리에라 「Songbirds」). 크로스 프로젝트(LIVE with a smile!, 세 그룹 스플릿 싱글, Bring the LOVE！, AiScReam)는 다음 단계
+  - 니지가사키·리에라·Aqours·뮤지컬 음반 백필(2026-10-20, D43): 네 어댑터(`takasaki official <nijigasaki|liella|aqours|musical>`)를 검사 전용에서 가져오기로 바꿨다. 공식 페이지에만 있던 발매물 69개(리에라 15, 니지가사키 10, Aqours 43, 뮤지컬 1)를 초안으로 넣었고, 레거시 발매물 107개에 종류·레이블·에디션·품번·아티스트를 채웠다. 새 이름은 `review/{LLA,NJG,AQR,MSC}-*.yaml`에서 검수(D49)를 거쳐 승인했다(2026-10-21). 공식 페이지에 크레딧이 없는 곡은 레이블 배포 메타데이터(YouTube Music 설명란, D42) 등으로 채웠다
+    - 넣지 않은 것: 사운드트랙, V.A. 트리뷰트, 트랙리스트 미공개 예정작(리에라 「Songbirds」). 크로스 프로젝트(LIVE with a smile!, 세 그룹 스플릿 싱글, Bring the LOVE！, AiScReam)는 D45에서 넣었다
     - 이관 때 갈라진 `私のSymphony ～2022Ver.～`를 원곡의 음원으로 합쳤다
-  - μ's 음반(2026-10-20, D44): 새 어댑터 `takasaki official muse`가 CD 릴리스 페이지와 BD 페이지를 읽는다. 레거시에 없던 μ's 발매물 80개(CD 61, BD 특전 19)를 초안으로 넣었고, 새 이름은 `review/MUS-*.yaml` 승인을 기다린다. 곡명만 실린 2018년 Solo Live! collection Memorial BOX Ⅲ와 멤버별 3CD, 앞선 발매물을 묶은 박스 2종, 영상·사운드트랙은 넣지 않았다
+  - μ's 음반(2026-10-20, D44): 새 어댑터 `takasaki official muse`가 CD 릴리스 페이지와 BD 페이지를 읽는다. 레거시에 없던 μ's 발매물 80개(CD 61, BD 특전 19)를 넣었고 새 이름은 리뷰로 승인했다(2026-10-21). 레거시에 μ's 앨범·곡 파일이 처음 생겼다. 곡명만 실린 2018년 Solo Live! collection Memorial BOX Ⅲ와 멤버별 3CD, 앞선 발매물을 묶은 박스 2종, 영상·사운드트랙은 넣지 않았다
   - 크로스 프로젝트(2026-10-20, D45): 「Bring the LOVE！」, AiScReam 「愛♡スクリ～ム！」·「NEXT CARD」를 대표 어댑터 하나가 가져와 관련 프로젝트를 모두 적고(레거시 category Others), 각 그룹 파일에 넣었다. AiScReam(`cross_unit`, 라인업 2개)을 만들었고, 「LIVE with a smile!」을 Aqours·Liella!에 연결, 스플릿 싱글 Aqours盤을 더했다. 니지가사키·Aqours CD 페이지가 스크립트로 불러오는 2024~2026년 블록(니지가사키 14, Aqours 13)도 읽는다. 라이브 CD는 넣지 않았다
-  - 『幻日のヨハネ』(2026-10-20, D46): 새 프로젝트 `yohane`와 어댑터 `takasaki official yohane`(yohane.net). 삽입곡 싱글 4장과 BD 특전 CD 8장, 캐릭터 10명과 日笠陽子. 새 이름은 `review/YHN-*.yaml` 승인을 기다린다
-  - 공연 백필(2026-10-20, D47): Fandom 콘서트 문서 109개 중 세트리스트가 있는 88개(외부 페스·빈 문서 제외)를 공연 87개(공연일 477)로 넣었다. 일정·회장은 공식 라이브 페이지(목록·특설·상세, 없어진 것은 공식 뉴스·BD 페이지·주최사 사이트)에서, 세트리스트는 Fandom에서 읽는다(`takasaki concerts schedule`, `takasaki fandom concerts`). 상태는 `performed`라 레거시 출력은 그대로다(나무위키 대조·승인 후 `settled`). 세트리스트 곡 7,547개 중 Work와 맞지 않은 181개(서로 다른 곡명 103개: BGM, 외부 곡, 게임 코너, 데이터에 없는 곡)는 `review/LIV-setlist-songs.yaml`로 넘겼다. 새 회장 82·도시 15·공연명 87은 `review/LIV-*.yaml` 승인을 기다린다. 이미 있던 Liella! 1st 투어는 Fandom과 6개 공연일의 솔로곡이 달라 보고만 했다
+  - 『幻日のヨハネ』(2026-10-20, D46): 새 프로젝트 `yohane`와 어댑터 `takasaki official yohane`(yohane.net). 삽입곡 싱글 4장과 BD 특전 CD 8장, 캐릭터 10명과 日笠陽子. 새 이름은 리뷰로 승인했다(2026-10-21). 레거시 `Yohane` 파일이 생겼다
+  - 공연 백필(2026-10-20, D47): Fandom 콘서트 문서 109개 중 세트리스트가 있는 88개(외부 페스·빈 문서 제외)를 공연 87개(공연일 477)로 넣었다. 일정·회장은 공식 라이브 페이지(목록·특설·상세, 없어진 것은 공식 뉴스·BD 페이지·주최사 사이트)에서, 세트리스트는 Fandom에서 읽는다(`takasaki concerts schedule`, `takasaki fandom concerts`). 상태는 `performed`라 레거시 출력은 그대로다(나무위키 대조·승인 후 `settled`). 세트리스트 곡 7,547개 중 Work와 맞지 않은 181개(서로 다른 곡명 103개: BGM, 외부 곡, 게임 코너, 데이터에 없는 곡)는 `review/LIV-setlist-songs.yaml`로 넘겼다가 D49·D50에서 모두 Work에 연결했다. 새 회장 82·도시 15·공연명 87은 검수를 거쳐 승인했다(2026-10-21). 이미 있던 Liella! 1st 투어는 Fandom과 6개 공연일의 솔로곡이 달라 보고만 했다
   - 피처링·공동 명의(2026-10-20, D48): `Aqours feat. 初音ミク`, `Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!`를 합친 아티스트 대신 각 가창자로 두고 `featured`·`joint`로 표시한다. 출력 표기는 그대로다
   - new-names 검수 반영(2026-10-20, D49): 19개 리뷰 파일의 ja·ko·rom·출처를 검수 보고서대로 고쳤다. 일본 지명 ko는 외래어 표기법, 승인 전 초안은 rom을 고치면 id도 바꾼다. Work가 없던 공연 곡 8곡을 Recording 없는 Work로 만들고 Fandom 파서·정정표를 고쳐 세트리스트 리뷰 항목이 181개에서 137개로 줄었다
-  - 세트리스트 전곡 연결(2026-10-21, D50): 남은 137건 중 123건을 Recording 없는 Work 80개(애니메이션 BGM은 `kind: bgm`, 아이돌마스터 곡·커버곡은 `project: external`)에 연결하고, 체육제 경기 이름 14건은 표식으로 읽는다. E9가 0건이 되어 `review/LIV-setlist-songs.yaml`은 없어졌다. 새 곡명은 `review/{MUS,AQR,LIV}-titles.yaml`·`MUS-persons.yaml` 승인을 기다린다
-  - Phase 3에 남은 것: 백필한 발매물의 YouTube Music 링크(승인 후 `takasaki ytm match`), 음원 발음(kana, W8), 공연의 `settled` 판정(나무위키 비교 어댑터, §7.7 ④). 교차 확인 소스로 LL-Fans(`ll-fans.jp`)를 쓸지 정해야 한다(DESIGN.md §6.1)
+  - 세트리스트 전곡 연결(2026-10-21, D50): 남은 137건 중 123건을 Recording 없는 Work 80개(애니메이션 BGM은 `kind: bgm`, 아이돌마스터 곡·커버곡은 `project: external`)에 연결하고, 체육제 경기 이름 14건은 표식으로 읽는다. E9가 0건이 되어 `review/LIV-setlist-songs.yaml`은 없어졌다. 새 곡명은 리뷰로 모두 승인했다(2026-10-21)
+  - YouTube Music 링크 백필(2026-10-21, D51): 발매물 361개 중 307개에 videoId 1,112개를 넣어 링크 비율이 41%에서 68%가 됐다. 재발매(μ's 2024 L자켓 싱글 5장)는 원판의 링크를 메인 URL로 쓴다. 앨범을 고르지 못한 47개는 매처 개선(따옴표·말줄임·제목 동률), 공식 오기 정정, 디지털 싱글 9개를 링크 출처 발매물로 넣어 모두 정리했고 최종 링크 비율은 84%다. YouTube Music에 없는 7개(라디오·드라마 CD 등)는 비워 둔다
+  - 현재 상태(2026-10-21): 검증 오류 0건, 경고 2건(W8 발음 결측, W14 「ラジオ体操第一」 크레딧), 리뷰 파일 없음. 레거시 트랙 3,094개, YouTube Music 링크 84%
+  - Phase 3에 남은 것: 음원 발음(kana, W8), 공연의 `settled` 판정(나무위키 비교 어댑터, §7.7 ④). 교차 확인 소스로 LL-Fans(`ll-fans.jp`)를 쓸지 정해야 한다(DESIGN.md §6.1)
 - **이관 값의 출처 확인 (D41)**: 레거시에서 넘어온 값(근거 `migration:legacy`) 2,068개의 출처를 찾았다. 곡·발매물은 공식 CD 페이지와 대조해(`takasaki official <nijigasaki|liella|aqours|musical>`, 검사 전용) 블록 앵커까지 근거로 달았고, 공식에 없는 BD 특전 크레딧·이름의 rom·ko·공연 세트리스트는 Fandom·나무위키·uta-net 등에서 찾아 `공식 미게재`를 적었다. 출처와 값이 다른 61개 엔티티는 `review/SRC-*.yaml`(크레딧, 이름, 트랙 구성, 인물 병합 2건, 弦·管編曲 방침)로 넘겼다. W18이 남은 이관 근거를 표시한다
   - 리뷰 결정 반영(2026-10-19, D42): 編曲·弦編曲·管編曲을 역할로 나눠(`arranger`·`strings_arranger`·`brass_arranger`) 모든 공식 페이지에서 다시 읽었다(弦·管編曲이 있는 음원 77개). 표기 폭은 ja는 공식 그대로, rom·ko는 반각(E15)이고, 크레딧 소속 괄호는 ja에서 근거 페이지의 폭을 따른다. 크레딧·인명·트랙 구성을 공식 표기로 고치고 인물 2쌍을 병합했다(DESIGN.md §10.1 21). 이관 근거만 남은 값은 0개이고, 리뷰 항목도 모두 닫았다(`Happy Nyan! Days` 크레딧은 YouTube Music의 레이블 메타데이터로 확정)
 - **배포 파이프라인 (§10.4)**: 완료. AWS에 배포했고, `main` 병합 후 `deploy` 워크플로가 업로드 → 공개 → 무효화 → 스모크 테스트까지 통과했다(2026-10-17).

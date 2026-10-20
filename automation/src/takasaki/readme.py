@@ -172,7 +172,8 @@ def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
         "CHARACTERS": f"{len(ds.characters):,}",
         "LINKED": _pct(sum(1 for r in integrated if r["link"] != "NA"), len(integrated)),
         "NO_KANA": f"{no_kana:,}",
-        "PLANNED": ", ".join(planned) or "—",
+        # the groups whose songs are not in yet; nothing once every group is
+        "NOT_IN_YET": f" Not in yet: songs and albums of {', '.join(planned)}." if planned else "",
         "FILES_EN": _files(ds, "rom"),
         "FILES_KO": _files(ds, "ko"),
         "FILES_JA": _files(ds, "ja"),
