@@ -21,10 +21,61 @@ from .store import LAYOUT, Dataset, _plain
 
 V1_FORMAT = "1.0.0"
 
+# the views' fields for the README's v1 schema (field -> (type, description)); the entity files are
+# described by the model's field docstrings. A test keeps these keys equal to the rows'.
+_REFS = "**ref**[]"
+TRACK_FIELDS: dict[str, tuple[str, str]] = {
+    "id": ("string", "`<release id>@<edition id, or - without editions>/<disc>-<position>`."),
+    "release": ("string", "Release id."),
+    "edition": ("string", "Edition id; null for a release without editions."),
+    "disc": ("integer", "Disc number."),
+    "position": ("integer", "Position on the disc, counting unnumbered tracks."),
+    "no": ("integer", "Track number as printed; null for an unnumbered track."),
+    "status": ("string", "Status of the release: `announced`, `released`, `verified`."),
+    "release_date": ("date", "Release date of the edition."),
+    "recording": ("string", "Recording id, `<work id>#<recording id>`."),
+    "work": ("string", "Work id."),
+    "kind": ("string", "Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`."),
+    "version": ("string", "Version label of the recording (`Off Vocal`); null for the original."),
+    "title": ("**Names**", "Title as on this track, with the reading (`kana`) when known."),
+    "performers": (_REFS, "Singers."),
+    "lyricist": (_REFS, "作詞."),
+    "composer": (_REFS, "作曲."),
+    "arranger": (_REFS, "編曲."),
+    "strings_arranger": (_REFS, "弦編曲."),
+    "brass_arranger": (_REFS, "管編曲."),
+    "link": ("object", "`youtube_music`: URL of the track, or null. `source`: `own` (a video of this release's "
+                       "album), `main` (the same recording on another release), `none`."),
+    "note": ("string", "What is true of this track only; null when nothing."),
+}
+RECORDING_FIELDS: dict[str, tuple[str, str]] = {
+    "id": ("string", "Recording id, `<work id>#<recording id>`."),
+    "work": ("string", "Work id."),
+    "project": ("string", "Project id of the work."),
+    "kind": ("string", "Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`."),
+    "version": ("string", "Version label (`Off Vocal`); null for the original."),
+    "title": ("**Names**", "Title."),
+    "performers": (_REFS, "Singers."),
+    "lyricist": (_REFS, "作詞."),
+    "composer": (_REFS, "作曲."),
+    "arranger": (_REFS, "編曲."),
+    "strings_arranger": (_REFS, "弦編曲."),
+    "brass_arranger": (_REFS, "管編曲."),
+    "instrumental_of": ("string", "For an off vocal or instrumental: id of the vocal recording; else null."),
+    "external_ids": ("map of string", "Ids elsewhere (`isrc`); null when none."),
+    "main_link": ("string", "Main YouTube Music URL: the earliest released track of the recording that has a video "
+                            "of its own; null when none has."),
+}
+
 
 def _dump(ent: BaseModel) -> dict[str, Any]:
     data = _plain(ent.model_dump(mode="json", by_alias=True, exclude_none=True))
     return {"id": data.pop("id"), **data} if "id" in data else data
+
+
+def release_dump(ds: Dataset, rel: m.Release) -> dict[str, Any]:
+    """A release as in ``releases.json``: the model, with the rom and ko made from the song titles (D39)."""
+    return _dump(rel) | {"title": _names(release_title(ds, rel)[0])}
 
 
 def _names(n: m.Names | None) -> dict[str, str] | None:
@@ -168,9 +219,7 @@ def build_v1(ds: Dataset, review_dir: Path | None = None) -> dict[str, bytes]:
     out: dict[str, bytes] = {}
     for kind, (sub, cls, _) in LAYOUT.items():
         ents = sorted(ds.table(kind).values(), key=lambda e: e.id)  # type: ignore[attr-defined]
-        dumps = [_dump(e) for e in ents]
-        if kind == "release":  # rom and ko made from the song titles (D39)
-            dumps = [d | {"title": _names(release_title(ds, e)[0])} for d, e in zip(dumps, ents)]
+        dumps = [release_dump(ds, e) if kind == "release" else _dump(e) for e in ents]  # type: ignore[arg-type]
         out[f"v1/{sub}.json"] = _wrap(ds, dumps)
         schema = cls.model_json_schema(by_alias=True)
         schema["$id"] = f"https://github.com/AuroraCaelum/TakasakiInfo/v1/schema/{sub}.json"

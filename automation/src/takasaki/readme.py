@@ -2,21 +2,29 @@
 
 The prose lives in ``templates/README.md``; everything that follows the data is filled in here from
 ``data/`` and the freshly built legacy files: the Database Status table, counts and badges, upcoming
-releases, the file-name and category lists, the JSON examples and the Disclaimer. ``takasaki build``
-writes it with the legacy files and ``takasaki check`` (E8) compares it like any other output.
+releases, the file-name and category lists, the JSON examples and the Disclaimer. The v1 schema tables
+are made from the model, with its field docstrings as the descriptions. ``takasaki build`` writes it
+with the legacy files and ``takasaki check`` (E8) compares it like any other output.
 """
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 import re
+import types
 import urllib.parse
+from enum import Enum
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal, Union, get_args, get_origin
+
+from pydantic import BaseModel
+from pydantic.fields import FieldInfo
 
 from . import model as m
 from .build_legacy import edition_tracks
-from .store import Dataset
+from .build_v1 import RECORDING_FIELDS, TRACK_FIELDS, release_dump
+from .store import LAYOUT, Dataset
 
 TEMPLATE = Path(__file__).parent / "templates" / "README.md"
 REPO = "https://github.com/AuroraCaelum/TakasakiInfo"
@@ -138,6 +146,151 @@ def _concert_example(files: dict[str, bytes]) -> str:
     return _example(trimmed)
 
 
+# --- v1 schema ----------------------------------------------------------------
+
+SCHEMA_ORDER = ["release", "work", "person", "character", "artist", "project", "concert", "venue", "city"]
+COMMON: list[type[BaseModel]] = [m.Names, m.Evidence]  # described once, ahead of the files that use them
+EXAMPLE_RELEASE = "ikizulive/2025-homerun-queen"  # two editions, catalog numbers, one album for both, a smart link
+_SCALARS = {str: "string", int: "integer", bool: "boolean", dt.date: "date"}
+
+
+def _variants(ann: Any) -> list[Any]:
+    """The types of an annotation, without None."""
+    if get_origin(ann) in (Union, types.UnionType):
+        return [a for a in get_args(ann) if a is not type(None)]
+    return [ann]
+
+
+def _is_model(a: Any) -> bool:
+    return isinstance(a, type) and issubclass(a, BaseModel)
+
+
+def _nested(ann: Any) -> list[type[BaseModel]]:
+    out: list[type[BaseModel]] = []
+    for a in _variants(ann):
+        if get_origin(a) in (list, dict):
+            out += _nested(get_args(a)[-1])
+        elif _is_model(a):
+            out.append(a)
+    return out
+
+
+def _choices(ann: Any) -> list[str]:
+    for a in _variants(ann):
+        if get_origin(a) is Literal and len(get_args(a)) > 1:
+            return [str(v) for v in get_args(a)]
+        if isinstance(a, type) and issubclass(a, Enum):
+            return [e.value for e in a]
+    return []
+
+
+def _type(ann: Any) -> str:
+    parts = []
+    for a in _variants(ann):
+        origin = get_origin(a)
+        if origin is list:
+            parts.append(_type(get_args(a)[0]) + "[]")
+        elif origin is dict:
+            parts.append("map of " + _type(get_args(a)[1]))
+        elif origin is Literal:
+            values = get_args(a)
+            parts.append(f'`"{values[0]}"`' if len(values) == 1 else "string")
+        elif _is_model(a):
+            parts.append(f"**{a.__name__}**")
+        elif isinstance(a, type) and issubclass(a, Enum):
+            parts.append("string")
+        else:
+            parts.append(_SCALARS[a])
+    return " or ".join(parts)
+
+
+def _default(f: FieldInfo) -> str:
+    if f.is_required():
+        return "*required*"
+    value = f.get_default(call_default_factory=True)
+    if value is None:
+        return "—"
+    if isinstance(value, BaseModel):
+        return "empty"
+    return f"`{json.dumps(value, ensure_ascii=False)}`"
+
+
+def _cell(text: str) -> str:
+    return " ".join(text.split()).replace("|", "\\|")
+
+
+def _model_table(cls: type[BaseModel], home: dict[type[BaseModel], str], here: str) -> str:
+    rows = ["| Field | Type | Default | Description |", "| :-- | :-- | :-- | :-- |"]
+    for name, f in cls.model_fields.items():
+        desc = f.description or ""
+        if choices := _choices(f.annotation):
+            desc += " One of " + ", ".join(f"`{c}`" for c in choices) + "."
+        kind = _type(f.annotation)
+        elsewhere = sorted({home[c] for c in _nested(f.annotation) if c not in COMMON and home.get(c) != here})
+        if elsewhere:  # an object described under another file
+            kind += " (see " + ", ".join(f"`{w}`" for w in elsewhere) + ")"
+        rows.append(f"| `{f.alias or name}` | {kind} | {_default(f)} | {_cell(desc)} |")
+    return "\n".join(rows)
+
+
+def _view_table(fields: dict[str, tuple[str, str]]) -> str:
+    rows = ["| Field | Type | Description |", "| :-- | :-- | :-- |"]
+    rows += [f"| `{k}` | {t} | {_cell(d)} |" for k, (t, d) in fields.items()]
+    return "\n".join(rows)
+
+
+def _details(summary: str, body: list[str]) -> str:
+    return "<details>\n<summary>" + summary + "</summary>\n\n" + "\n\n".join(body) + "\n\n</details>"
+
+
+def v1_schema() -> str:
+    """The v1 schema section: a table per entity file and its nested objects, then the two views. Every
+    nested object is described under the first file that has it; other files name that file."""
+    home: dict[type[BaseModel], str] = {cls: "common" for cls in COMMON}
+    owned: dict[str, list[tuple[type[BaseModel], str]]] = {}  # file -> its nested objects, with where they are used
+    for kind in SCHEMA_ORDER:
+        sub, cls, _ = LAYOUT[kind]
+        here = f"{sub}.json"
+        owned[here] = []
+        queue = [cls]
+        while queue:
+            parent = queue.pop(0)
+            for name, f in parent.model_fields.items():
+                for child in _nested(f.annotation):
+                    if child not in home:
+                        home[child] = here
+                        owned[here].append((child, f"{parent.__name__} `{f.alias or name}`"))
+                        queue.append(child)
+    missing = [f"{c.__name__}.{n}" for c in [*home, *(LAYOUT[k][1] for k in SCHEMA_ORDER)]
+               for n, f in c.model_fields.items() if not f.description]
+    if missing:
+        raise ValueError(f"model fields without a docstring (their description in the v1 schema): {sorted(set(missing))}")
+
+    blocks = [_details("Common objects: <b>Names</b>, <b>Evidence</b>",
+                       [f"**{c.__name__}**: {c.__doc__}\n\n{_model_table(c, home, 'common')}" for c in COMMON])]
+    for kind in SCHEMA_ORDER:
+        sub, cls, _ = LAYOUT[kind]
+        here = f"{sub}.json"
+        body = [_model_table(cls, home, here)]
+        body += [f"**{c.__name__}** (in {used})\n\n{_model_table(c, home, here)}" for c, used in owned[here]]
+        title = ", ".join(f"<b>{c.__name__}</b>" for c in [cls, *(c for c, _ in owned[here])])
+        blocks.append(_details(f"<code>{here}</code>: {title}", body))
+    refs = ("A **ref** is a reference with the names it points to: `{\"ref\": \"<kind>:<id>\", \"names\": {…}}`, "
+            "plus `role`, `featured` and `joint` for a singer or `affiliation`, `fullwidth` and `role` for a credit "
+            "when they are set. A value that is not known is null.")
+    blocks.append(_details("<code>tracks.json</code>: one row per track of each edition, with its credits and link",
+                           [refs, _view_table(TRACK_FIELDS)]))
+    blocks.append(_details("<code>recordings.json</code>: one row per recording, with its credits and main link",
+                           [_view_table(RECORDING_FIELDS)]))
+    return "\n\n".join(blocks)
+
+
+def _release_example(ds: Dataset) -> str:
+    rel = ds.releases.get(EXAMPLE_RELEASE) or next(iter(ds.releases.values()))
+    text = json.dumps(release_dump(ds, rel), ensure_ascii=False, indent=2)
+    return "```json\n" + text + "\n```"
+
+
 def _disclaimer(ds: Dataset, lang: str) -> str:
     assert ds.layout is not None
     order = [p for g in ds.layout.integrated_order if (p := _project(ds, g))]
@@ -181,6 +334,8 @@ def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
         "SONG_EXAMPLE": _song_example(files),
         "ALBUM_EXAMPLE": _album_example(files),
         "CONCERT_EXAMPLE": _concert_example(files),
+        "V1_SCHEMA": v1_schema(),
+        "RELEASE_EXAMPLE": _release_example(ds),
         "DISCLAIMER_EN": _disclaimer(ds, "en"),
         "DISCLAIMER_JA": _disclaimer(ds, "ja"),
         "RIGHTS_EN": ", ".join(RIGHTS_HOLDERS[:-1]) + ", and " + RIGHTS_HOLDERS[-1],

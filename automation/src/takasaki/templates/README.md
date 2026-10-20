@@ -44,7 +44,7 @@ Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 | :-- | :-- |
 | CSV and JSON files | this repository: `albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json` |
 | The same files over a CDN | `{{CDN}}/data/legacy/…`, e.g. [`/data/legacy/TakasakiInfo.json`]({{CDN}}/data/legacy/TakasakiInfo.json) |
-| v1 data: one JSON file per entity, flat track and recording views, JSON Schema, quality metrics | `{{CDN}}/data/v1/`, e.g. `tracks.json`, `works.json`, `persons.json`, `quality.json`, `schema/*.json` |
+| v1 data: one JSON file per entity, flat track and recording views, JSON Schema, quality metrics ([fields](#v1-schema)) | `{{CDN}}/data/v1/`, e.g. `releases.json`, `tracks.json`, `works.json`, `persons.json`, `quality.json`, `schema/*.json` |
 | SQLite database with full-text search | [`/data/takasakiinfo.sqlite`]({{CDN}}/data/takasakiinfo.sqlite) |
 | Data version | [`/data/version.json`]({{CDN}}/data/version.json) |
 
@@ -87,6 +87,27 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 **Love Live! Superstar!! Original Sound Tracks**
 - [ ] Dreams of the Superstar
 - [ ] Twinkle of the Superstar
+
+</details>
+
+<a id="v1-schema"></a>
+
+## v1 schema
+
+The v1 files hold the whole database, with what the CSV and JSON files leave out: each release's editions with catalog numbers and media, its discs, YouTube Music albums, official page and smart link, and the source of every value.
+
+- One file per entity type at `{{CDN}}/data/v1/<file>`, each as `{"schemaVersion": "1.0.0", "dbLastUpdate": "…", "count": n, "data": [ … ]}`.
+- Entities refer to each other by id (`"artist": "ikizuraibu"`, `"recording": "ikizulive/homerun-queen#original"`). An id does not change once made.
+- Dates are `YYYY-MM-DD`. Names and titles are **Names** objects; a language without a value is left out.
+- **Default**: *required* fields are always there, fields marked *—* are left out when not known, and the others hold the value shown when nothing is stored.
+- The same fields as JSON Schema, with these descriptions: `schema/<file>`. The YAML files in [`data/`](data) that the database is built from have the same fields and leave out defaults.
+
+{{V1_SCHEMA}}
+
+<details>
+<summary>Release example (one entry of <code>releases.json</code>)</summary>
+
+{{RELEASE_EXAMPLE}}
 
 </details>
 
@@ -144,6 +165,7 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 - **Albums** (`albums/<Group>/<Group>.json`): each album with its tracks.
 - **Every group** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}` with every track of every group once, by release date, with its `category`.
 - **Concerts** (`concerts/<Group>/<Group>.json`): tours with their stops, venues and setlists. Setlist entries starting with `::` are markers, not songs (`::MC1`, `::VID1`, `::Encore`).
+- **v1 files** (`/data/v1/`, see [Downloads and API](#downloads-and-api)): one JSON file per entity, including what the files above leave out: editions with catalog numbers and media, discs, YouTube Music albums, official pages and smart links, sources. Every field is described in [v1 schema](#v1-schema).
 
 <details>
 <summary>Song example</summary>
@@ -215,6 +237,7 @@ and their rights holders {{RIGHTS_EN}}.
 - **음반** (`albums/<그룹>/<그룹>.json`): 앨범과 수록곡입니다.
 - **전체** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}`. 모든 그룹의 트랙을 한 번씩 발매일순으로, `category`와 함께 담습니다.
 - **공연** (`concerts/<그룹>/<그룹>.json`): 투어와 공연지, 회장, 세트리스트입니다. `::`로 시작하는 항목은 곡이 아니라 표식입니다(`::MC1`, `::VID1`, `::Encore`).
+- **v1 파일** (`/data/v1/`, [Downloads and API](#downloads-and-api) 참고): 엔티티마다 JSON 파일 하나입니다. 위 파일에 없는 에디션(품번·매체), 디스크, YouTube Music 앨범, 공식 페이지·스마트링크, 출처까지 담습니다. 모든 필드의 설명은 [v1 schema](#v1-schema)에 있습니다.
 - 예시는 [English](#english)의 JSON structure를 참고하세요.
 
 ### 피드백
@@ -266,6 +289,7 @@ and their rights holders {{RIGHTS_EN}}.
 - **アルバム** (`albums/<グループ>/<グループ>.json`): アルバムと収録曲です。
 - **全体** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}`。全グループのトラックを1回ずつ発売日順に、`category` 付きで収めます。
 - **ライブ** (`concerts/<グループ>/<グループ>.json`): ツアーと公演地、会場、セットリストです。`::` で始まる項目は曲ではなく目印です（`::MC1`, `::VID1`, `::Encore`）。
+- **v1 ファイル** (`/data/v1/`、[Downloads and API](#downloads-and-api) を参照): エンティティごとに JSON ファイル1つです。上記のファイルにない形態（品番・メディア）、ディスク、YouTube Music のアルバム、公式ページ・スマートリンク、出典まで収めます。全フィールドの説明は [v1 schema](#v1-schema) にあります。
 - 例は [English](#english) の JSON structure をご覧ください。
 
 ### フィードバック
