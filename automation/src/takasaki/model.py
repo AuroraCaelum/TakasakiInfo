@@ -247,7 +247,7 @@ class Recording(Strict):
         return out
 
 
-WorkKind = Literal["song", "drama", "other"]
+WorkKind = Literal["song", "bgm", "drama", "other"]  # bgm: a soundtrack cue played at a concert (D50)
 
 
 class Work(Strict):

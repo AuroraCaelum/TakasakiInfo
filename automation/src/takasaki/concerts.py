@@ -75,7 +75,7 @@ class Resolver:
         self.strict: dict[str, set[str]] = defaultdict(set)
         self.loose: dict[str, set[str]] = defaultdict(set)
         for w in ds.works.values():
-            if w.kind != "song":
+            if w.kind not in ("song", "bgm"):  # a soundtrack cue is played live too (D50)
                 continue
             names = [w.title.ja, w.title.rom, w.external_ids.get("fandom")]
             names += [n for r in w.recordings if r.title for n in (r.title.ja, r.title.rom)]

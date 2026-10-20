@@ -199,6 +199,7 @@ def parse_setlists(wikitext: str) -> list[Tab]:
     (``Set List``, ``Set Lists: Japan``); its subsections are the stops. Under another heading
     (``==μ's Fan Meeting In Taipei==`` / ``===Set Lists===``) that heading is the stop."""
     tabs: list[Tab] = []
+    parent: Item | None = None  # the last item that is not a sub-item ("#*")
     section: str | None = None
     tab: Tab | None = None
     region: int | None = None  # the level of the set list heading we are in
@@ -250,8 +251,21 @@ def parse_setlists(wikitext: str) -> list[Tab]:
             if tab is None:
                 tab = Tab(section, "", [])
                 tabs.append(tab)
+            if not re.match(r"#+\*", line):
+                parent = item
+            elif _competition(parent, item):  # "#'''Competition'''" / "#*{{Nihongo|1.2.3! Tsunahiki|1.2.3！綱引き}}"
+                item = Item("other", item.ja or item.title, raw=item.raw)
             tab.items += split_medley(item)
     return [t for t in tabs if t.items]
+
+
+_GAMES = re.compile(r"competition|games?\b|競技|ゲーム", re.I)
+
+
+def _competition(parent: Item | None, it: Item) -> bool:
+    """A game of a sports festival listed under its marker: a name without singers or an article, not a song."""
+    return parent is not None and parent.kind != "song" and _GAMES.search(parent.title) is not None \
+        and it.kind == "song" and not it.by and not it.linked
 
 
 def split_medley(it: Item) -> list[Item]:

@@ -178,12 +178,32 @@ def test_approving_the_names(tmp_path):
     concerts.import_schedule(ds, [entry], tmp_path, dt.date(2026, 10, 20))
     c = ds.concerts["aqours/x"]
     assert (c.title.rom, c.title.ko) == ("Love Live! Sunshine!! Aqours ~Eikyuu stage~", None)  # Japanese in the title: ko to fill
-    doc = YAML(typ="safe").load((tmp_path / "LIV-concerts.yaml").read_text())
+    doc = YAML(typ="safe").load((tmp_path / "LIV-concerts.yaml").read_text(encoding="utf-8"))
     doc["items"][0]["title"]["ko"] = "러브 라이브! 선샤인!! Aqours ~영구 stage~"
     approve_names(ds, doc, dt.date(2026, 10, 21))
     assert c.title.ko == "러브 라이브! 선샤인!! Aqours ~영구 stage~" and c.evidence["title"].status == m.Status.derived
-    venues = YAML(typ="safe").load((tmp_path / "LIV-venues.yaml").read_text())
+    venues = YAML(typ="safe").load((tmp_path / "LIV-venues.yaml").read_text(encoding="utf-8"))
     assert {i["kind"] for i in venues["items"]} == {"city", "venue"}
     approve_names(ds, venues, dt.date(2026, 10, 21))
     assert ds.venues["belluna-dome"].evidence["names"].status == m.Status.derived
     assert ds.cities["saitama"].names.ko == "사이타마"
+
+
+def test_a_game_is_a_marker_and_a_soundtrack_cue_is_a_work():
+    # D50: a sports festival's games are listed under their marker without singers; a BGM cue is a work too
+    ds = _ds()
+    ds.works["muse/zetsubou"] = m.Work(id="muse/zetsubou", kind="bgm", project="muse", title=m.Names(ja="（絶望）", rom="(Zetsubou)"),
+                                       external_ids={"fandom": "Zetsubou"}, recordings=[])
+    page = "==Set Lists==\n" + "\n".join([
+        "#'''Competition'''",
+        "#*{{Nihongo|1.2.3! Tsunahiki|1.2.3！綱引き}}",
+        "#*[[Mijuku DREAMER]] by Aqours",  # a song under the marker stays a song
+        "#{{Nihongo|Zetsubou|絶望}} by Tokyo Philharmonic Orchestra",
+        "#Rat A Tat!!! TV Size by Million Live!",
+    ])
+    tab = fandom.parse_setlists(page)[0]
+    assert [(i.kind, i.title, i.version) for i in tab.items] == [
+        ("other", "Competition", None), ("other", "1.2.3！綱引き", None), ("song", "Mijuku DREAMER", None),
+        ("song", "Zetsubou", None), ("song", "Rat A Tat!!!", "TV Size")]
+    items, unresolved = concerts.setlist(tab.items, concerts.Resolver(ds), ["muse"])
+    assert items[3].work == "muse/zetsubou" and [u["title_raw"] for u in unresolved] == ["Rat A Tat!!!"]
