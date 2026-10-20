@@ -19,6 +19,15 @@ discs:
       - {no: 5, recording: aqours/atsumare-uchiura-no-hama#main}
       - {no: 6, recording: aqours/arigatou-no-kimochi#main}
       - {no: 7, recording: aqours/main-theme-of-aqours-5th-anniversary#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_3qngXZG8cie
+    tracks:
+      1-1: Q4riyCFYDpo
+      1-2: 4sOG9NNPGaU
+      1-3: sI28hPzjk04
+      1-4: _nbDCQmqDl8
+      1-7: xorIYZB71IY
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
 legacy:
@@ -34,3 +43,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_3qngXZG8cie
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

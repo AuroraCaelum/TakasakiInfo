@@ -31,6 +31,26 @@ discs:
       - {no: 7, recording: aqours/kokoro-magic-a-to-z#you-watanabe-solo}
       - {no: 8, recording: aqours/wake-up-challenger#you-watanabe-solo}
       - {no: 9, recording: aqours/totsuzen-girl#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_RWWZs92qMJn
+    tracks:
+      1-1: pnXDAMpyW2E
+      1-2: zwNETED3Ppc
+      1-3: pK0soQ2q0OU
+      1-4: qLe_f64CeZY
+      1-5: vxldp70G7wU
+      1-6: EFJ_XjocqwU
+      1-7: Rc_b9NQHpxk
+      2-1: 1_oRcl4WNlo
+      2-2: l22VgvhePWg
+      2-3: UciiYwJW-EE
+      2-4: N2kqO_TFa4M
+      2-5: 4BjiDBHtczU
+      2-6: NaiIoH_jlsc
+      2-7: xoP6t9_kDS8
+      2-8: x_yXM1jb_X4
+      2-9: 8o4t8pMgClk
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd47
 legacy:
@@ -50,3 +70,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd47
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

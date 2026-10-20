@@ -17,7 +17,8 @@ discs:
       - {no: 4, recording: aqours/yozorawa-nandemo-shitteruno#off-vocal}
       - {no: 5, recording: aqours/shougetsu-pine-moon-o-sagashite#main}
 streaming:
-  - browse_id: MPREb_axn6AJvOe8F
+  - editions: [e1]
+    browse_id: MPREb_axn6AJvOe8F
     tracks:
       1-1: 49jF2CX42QU
       1-2: iSL44Ni9JWI
@@ -41,7 +42,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_axn6AJvOe8F
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

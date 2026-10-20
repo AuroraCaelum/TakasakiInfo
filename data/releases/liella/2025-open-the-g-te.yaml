@@ -21,6 +21,12 @@ discs:
       - {no: 2, recording: liella/high-motivation#original}
       - {no: 3, recording: liella/open-the-g-te#off-vocal}
       - {no: 4, recording: liella/high-motivation#off-vocal}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_O5OrKA9osK5
+    tracks:
+      1-1: xG2xvxAiHrQ
+      1-2: DfXaQvoohAs
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
 legacy:
@@ -36,3 +42,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_O5OrKA9osK5
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

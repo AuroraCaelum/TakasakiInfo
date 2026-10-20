@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#mari-ohara-solo}
       - {no: 9, recording: aqours/silent-pain#mari-ohara-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#mari-ohara-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_mXt13h6npny
+    tracks:
+      1-1: Sf5W5cmJKkc
+      1-2: iKeFVKXP5MI
+      1-3: 2qyyOtvGRZk
+      1-4: D9xxmkfZTlk
+      1-5: odglFvn6gmo
+      1-6: g29LAMpL1z0
+      1-7: 5v1rSkro4BY
+      1-8: Glr47tZ0jmo
+      1-9: 7xK7OifOUmM
+      1-10: CS3KMlkOLqM
+      1-11: FB75eCZHPig
+      2-1: Sw0cqOjn0FE
+      2-2: nyPcqbZdjWY
+      2-3: imEbBz48rfw
+      2-4: OpyHJmMThv4
+      2-5: ICEAMg17f-o
+      2-6: UrbzqhFFMAc
+      2-7: T1I1pG0cedY
+      2-8: ohq18rUSUOI
+      2-9: yYUGzdVgNc4
+      2-10: yDvw_MAheBA
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_mXt13h6npny
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

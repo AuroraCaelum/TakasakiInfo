@@ -17,7 +17,8 @@ discs:
       - {no: 4, recording: aqours/kaigandori-de-matteru-yo#off-vocal}
       - {no: 5, recording: aqours/rea-na-numazu-o-meshiagare#main}
 streaming:
-  - browse_id: MPREb_aYR9exJgDJ6
+  - editions: [e1]
+    browse_id: MPREb_aYR9exJgDJ6
     tracks:
       1-1: tvNdgIzQKn8
       1-2: FI4Hu29Q6WY
@@ -41,7 +42,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_aYR9exJgDJ6
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

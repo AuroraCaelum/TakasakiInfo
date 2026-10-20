@@ -50,6 +50,24 @@ discs:
       - {no: 12, recording: nijigasaki/wondermates#off-vocal}
       - {no: 13, recording: nijigasaki/fuwa-fuwari#off-vocal}
       - {no: 14, recording: nijigasaki/boooooom-boooooom-bee#off-vocal}
+streaming:
+  - editions: [e1, e2, e3, e4, e5, e6]
+    browse_id: MPREb_raoCZV7VOdM
+    tracks:
+      1-1: 8l_Ez-fJ6A8
+      1-2: hD0MKmIws-o
+      1-3: zThdMVJSao8
+      1-4: euAnLpi7ZNM
+      1-5: hR5jAMeclQY
+      1-6: 9IIvbONBCa8
+      1-7: Uo220kyU0Ac
+      1-8: q1ccskLt11E
+      1-9: eW2fQ0cWrAA
+      1-10: cL8OoVl44QM
+      1-11: w7FeBRDYths
+      1-12: ii1rewsb_Ps
+      1-13: 8YrnfbnLojU
+      1-14: EtFeZMdzhm4
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
 legacy:
@@ -69,3 +87,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_raoCZV7VOdM
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

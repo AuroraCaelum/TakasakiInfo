@@ -19,7 +19,8 @@ discs:
       - {no: 6, recording: aqours/miwaku-no-road-bike#main}
       - {no: 7, recording: aqours/fencing-tte-nan-daro-na#main}
 streaming:
-  - browse_id: MPREb_wiFwIgiti2i
+  - editions: [e1]
+    browse_id: MPREb_wiFwIgiti2i
     tracks:
       1-1: k8zwD_jXLNw
       1-2: _X9GFvunxeg
@@ -40,7 +41,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_wiFwIgiti2i
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

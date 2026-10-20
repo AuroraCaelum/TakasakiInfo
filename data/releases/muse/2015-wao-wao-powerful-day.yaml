@@ -15,6 +15,14 @@ discs:
       - {no: 2, recording: muse/no-exit-orion#original}
       - {no: 3, recording: muse/wao-wao-powerful-day#off-vocal}
       - {no: 4, recording: muse/no-exit-orion#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_SUl4McFaCYm
+    tracks:
+      1-1: tfulkkoqAF0
+      1-2: scQCFN5uu_M
+      1-3: sRcuxgAi624
+      1-4: ny1sTg4Burc
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
 legacy:
@@ -30,3 +38,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_SUl4McFaCYm
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

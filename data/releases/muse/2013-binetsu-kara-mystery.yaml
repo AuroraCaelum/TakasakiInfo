@@ -13,6 +13,13 @@ discs:
       - {no: 3, recording: muse/binetsu-kara-mystery#off-vocal}
       - {no: 4, recording: muse/kimi-no-kuse-ni#off-vocal}
       - {no: 5, recording: muse/training-at-pool#main}
+streaming:
+  - browse_id: MPREb_S8Z1tQEKZyY
+    tracks:
+      1-1: djLJG_43uLY
+      1-2: 13vPSj5Lfdc
+      1-3: wNz2InTxx3Q
+      1-4: M0UVzZPH_xY
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
 legacy:
@@ -28,3 +35,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_S8Z1tQEKZyY
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

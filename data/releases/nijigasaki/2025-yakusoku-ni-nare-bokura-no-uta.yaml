@@ -48,6 +48,24 @@ discs:
       - {no: 12, recording: nijigasaki/burn#off-vocal}
       - {no: 13, recording: nijigasaki/circle-of-love#off-vocal}
       - {no: 14, recording: nijigasaki/yakusoku-ni-nare-bokura-no-uta#off-vocal}
+streaming:
+  - editions: [e1, e2, e3, e4, e5, e6]
+    browse_id: MPREb_lMu3pzNPtkR
+    tracks:
+      1-1: ONFz--21jII
+      1-2: NuaR3MLmdqo
+      1-3: 3XpSrW640mE
+      1-4: h70gaZIxAOM
+      1-5: LF8Kva-tIjM
+      1-6: cziCpbYhpvc
+      1-7: gBUwYvzJocs
+      1-8: vi5Ah48YHvQ
+      1-9: qL-N2Zb6GtQ
+      1-10: x9bxwz_ooSM
+      1-11: -MerYDT2f0E
+      1-12: o8q13tXVBDM
+      1-13: PAItOwlbvt0
+      1-14: MPIKnlS4dy8
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
 legacy:
@@ -63,3 +81,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_lMu3pzNPtkR
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

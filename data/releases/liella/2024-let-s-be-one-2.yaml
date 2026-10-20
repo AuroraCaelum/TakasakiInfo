@@ -1,0 +1,30 @@
+id: liella/2024-let-s-be-one-2
+type: digital_single
+title:
+  ja: Let's be ONE
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
+release_date: 2024-10-23
+discs:
+  - tracks:
+      - {no: 1, recording: liella/let-s-be-one#original}
+streaming:
+  - browse_id: MPREb_JrQWtG14RUD
+    tracks:
+      1-1: SAVMsP2b3Jc
+evidence:
+  tracks:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_JrQWtG14RUD
+    checked: 2026-10-21
+    note: 공식 미게재(공식 CD 목록에 없는 디지털 배포). YouTube Music 앨범의 트랙을 CD 「Let's be ONE」의 같은 음원으로 맞춤. 배포일은 확인하지 못해 CD 발매일로 둠
+  legacy:
+    status: derived
+    note: 레거시 파일에는 넣지 않음. CD 「Let's be ONE」 수록분의 메인 URL 출처(D51, liella/2023-universe와 같은 방식)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_JrQWtG14RUD
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

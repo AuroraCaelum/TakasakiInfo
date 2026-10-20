@@ -30,7 +30,8 @@ discs:
       - {no: 8, recording: aqours/wake-up-challenger#chika-takami-solo-ver}
       - {no: 9, recording: aqours/never-giving-up#original}
 streaming:
-  - browse_id: MPREb_pqaWQqPjzgR
+  - editions: [e1]
+    browse_id: MPREb_pqaWQqPjzgR
     tracks:
       1-1: 3fKYC7NdL2k
       1-2: gY408isRJWg
@@ -66,7 +67,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

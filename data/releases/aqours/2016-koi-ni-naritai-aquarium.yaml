@@ -21,7 +21,8 @@ discs:
       - {no: 7, recording: aqours/yuttari-tappuri-shinkai-suizokukan#main}
       - {no: 8, recording: aqours/watashitachi-no-best-hit-stage#main}
 streaming:
-  - browse_id: MPREb_DyTUFVdmECr
+  - editions: [e1, e2]
+    browse_id: MPREb_DyTUFVdmECr
     tracks:
       1-1: ezbc-NhIg9E
       1-2: x0LC0Z24IzU
@@ -42,7 +43,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_DyTUFVdmECr
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

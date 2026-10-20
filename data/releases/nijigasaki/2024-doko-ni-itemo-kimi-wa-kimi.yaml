@@ -39,6 +39,22 @@ discs:
       - {no: 10, recording: nijigasaki/phoenix#off-vocal}
       - {no: 11, recording: nijigasaki/stellar-stream#off-vocal}
       - {no: 12, recording: nijigasaki/doko-ni-itemo-kimi-wa-kimi#off-vocal}
+streaming:
+  - editions: [e1, e2, e3, e4, e5, e6]
+    browse_id: MPREb_ytBTDd3TM7v
+    tracks:
+      1-1: b5ivAdWXtuU
+      1-2: mjLWze-AzwE
+      1-3: BJwtMlOCiBs
+      1-4: dZO-IOpx1VY
+      1-5: YZtumndpYCE
+      1-6: 68aO_UF0SmU
+      1-7: xa4xeBy6oNY
+      1-8: u9m2pSeTfwU
+      1-9: 5y1d-Unf2og
+      1-10: TAUOWtivDM4
+      1-11: iaWGIrQuHwg
+      1-12: pgRYHu1LKr4
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
 legacy:
@@ -54,3 +70,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -18,7 +18,8 @@ discs:
       - {no: 5, recording: aqours/kaien-master-of-ceremony#main}
       - {no: 6, recording: aqours/uragiri-no-chika-lost-report#main}
 streaming:
-  - browse_id: MPREb_5O3as8ON9Ra
+  - editions: [e1]
+    browse_id: MPREb_5O3as8ON9Ra
     tracks:
       1-1: -BcCm-3JlyY
       1-2: RzRinFER8-Q
@@ -42,7 +43,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_5O3as8ON9Ra
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

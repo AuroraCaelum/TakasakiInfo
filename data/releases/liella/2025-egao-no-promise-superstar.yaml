@@ -33,6 +33,19 @@ discs:
       - {no: 4, recording: liella/egao-no-promise#off-vocal}
       - {no: 5, recording: liella/superstar#off-vocal}
       - {no: 6, recording: liella/wish-song#11-ver-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_1UqjtphIt6a
+    tracks:
+      1-1: 2QbmSb5J_5c
+      1-2: OQjdWVStJKQ
+      1-3: r3A73UwNlIY
+  - editions: [e2]
+    browse_id: MPREb_CZiRbKGxIsM
+    tracks:
+      1-1: i1fXxOkvX4Y
+      1-2: 1RqBZdR9ZJw
+      1-3: pBvZqge4BeU
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
 legacy:
@@ -49,3 +62,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_1UqjtphIt6a
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -32,6 +32,27 @@ discs:
       - {no: 7, recording: aqours/next-sparkling#dia-kurosawa-solo}
       - {no: 8, recording: aqours/i-n-g-i-try#dia-kurosawa-solo}
       - {no: 9, recording: aqours/pure-heart-pure-wish#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_nL0glj7kqlT
+    tracks:
+      1-1: qYt-B4VXxtA
+      1-2: MHbsMdkwbOk
+      1-3: iF-cKRrL0Eo
+      1-4: Hy8cYnCRlSQ
+      1-5: mMaKBL9VDEk
+      1-6: lOavVdKnxV0
+      1-7: XBkDVc4F8do
+      1-8: VunKYp3ZBGQ
+      2-1: Y4a59ldP8rA
+      2-2: _wuBjV--BVU
+      2-3: idxWGmbm6e8
+      2-4: VSEW1_g1ZF8
+      2-5: EshsB2luhpo
+      2-6: atzR53vusak
+      2-7: 7ybH9JgX9hk
+      2-8: lAM5RBXEYhA
+      2-9: YbkmtI_MCQc
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
 legacy:
@@ -51,3 +72,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

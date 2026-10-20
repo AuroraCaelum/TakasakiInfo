@@ -20,7 +20,8 @@ discs:
       - {no: 7, recording: aqours/touten-no-ayauki-you-to-yoshiko#main}
       - {no: 8, recording: aqours/hokuten-no-harukanaru-riko-to-mari-to-hanamaru-to#main}
 streaming:
-  - browse_id: MPREb_5zAe3YvjpkI
+  - editions: [e1]
+    browse_id: MPREb_5zAe3YvjpkI
     tracks:
       1-1: XupWQHI7D4M
       1-2: YLWv9We52G4
@@ -44,7 +45,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_5zAe3YvjpkI
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

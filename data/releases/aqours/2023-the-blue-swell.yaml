@@ -23,6 +23,20 @@ discs:
       - {no: 8, recording: aqours/mitaiken-horizon#punk-rock-ver}
       - {no: 9, recording: aqours/kokoro-magic-a-to-z#digital-rock-ver}
       - {no: 10, recording: aqours/ku-ru-ku-ru-cruller#rockabilly-ver}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_0qGdVS5XpDK
+    tracks:
+      1-1: WKUbpTLCqIw
+      1-2: UQgA9gh_D_c
+      1-3: nMh95Hs3W9g
+      1-4: rc8IE-R3e98
+      1-5: LDaFRof2pB4
+      1-6: Ot3iQSnUxbM
+      1-7: 6JZitB483a4
+      1-8: 30hDgFtVdE8
+      1-9: -dstNwPik6M
+      1-10: fmBOiWEVxYg
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
 legacy:
@@ -42,3 +56,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

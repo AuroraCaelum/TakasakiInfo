@@ -31,6 +31,26 @@ discs:
       - {no: 6, recording: aqours/next-sparkling#hanamaru-kunikida-solo}
       - {no: 7, recording: aqours/i-n-g-i-try#hanamaru-kunikida-solo}
       - {no: 8, recording: aqours/tsubomi-season#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_aei2B7WaMuH
+    tracks:
+      1-1: D9R4Yf9oSMA
+      1-2: XlY7JKpn8PQ
+      1-3: ERPOjP2AiwQ
+      1-4: miN6pqgZMTw
+      1-5: mL9ZMcBy8Ao
+      1-6: uDtXhZi7i_E
+      1-7: VPkxES47S3w
+      1-8: vNqiEqM5KU8
+      2-1: THgl1pacOqE
+      2-2: c3u7kccxGro
+      2-3: _d5gn4a_Cso
+      2-4: ct3ClHlDRVA
+      2-5: NDA8XlTF3eo
+      2-6: QCJ6sLKXRhc
+      2-7: LAcqKHj1B9c
+      2-8: 9py-PLmWZow
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
 legacy:
@@ -50,3 +70,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

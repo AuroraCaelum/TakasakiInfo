@@ -32,6 +32,27 @@ discs:
       - {no: 7, recording: aqours/my-list-to-you#hanamaru-kunikida-solo}
       - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#hanamaru-kunikida-solo}
       - {no: 9, recording: aqours/yaa-kouunryuusui#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_GDpca4lBewI
+    tracks:
+      1-1: ZiD0FeQHqKQ
+      1-2: DJovafYyoQ4
+      1-3: 65_vHgNpnUo
+      1-4: Tl3FL4NJugc
+      1-5: 74ypHJYnDuE
+      1-6: 3f57NSlHmVI
+      1-7: msuxUh29PpA
+      1-8: P2oTsDymKbg
+      2-1: G4txK8CI3F0
+      2-2: drdfFnTxSE4
+      2-3: IG44LWyf5Hw
+      2-4: YOFEcbc032s
+      2-5: aIC6nEHHqis
+      2-6: TyHaJ7__6kI
+      2-7: hTSZucGqfvE
+      2-8: TpTULj1_bSU
+      2-9: zrrMdxw6qtc
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
 legacy:
@@ -51,3 +72,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

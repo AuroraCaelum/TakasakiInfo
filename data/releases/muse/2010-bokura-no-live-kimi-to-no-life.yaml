@@ -21,6 +21,13 @@ discs:
       - {no: 11, recording: muse/nice-to-meet-you-nozomi-tojo#main}
       - {no: 12, recording: muse/nice-to-meet-you-hanayo-koizumi#main}
       - {no: 13, recording: muse/nice-to-meet-you-nico-yazawa#main}
+streaming:
+  - browse_id: MPREb_DY86FQB61Zb
+    tracks:
+      1-1: um5UDiGYA9c
+      1-2: hPLyCHgIk3A
+      1-3: QViaoORlT9I
+      1-4: JM_oo5UjDxQ
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
 legacy:
@@ -36,3 +43,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -15,6 +15,11 @@ discs:
   - tracks:
       - {no: 1, recording: liella/hajimari-wa-kimi-no-sora#11-ver}
       - {no: 2, recording: liella/hajimari-wa-kimi-no-sora#11-ver-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_pprwiBopNwS
+    tracks:
+      1-1: 8i10bZeR64U
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
 legacy:
@@ -35,3 +40,8 @@ evidence:
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
     checked: 2026-10-20
     note: 'ja: 공식 페이지. rom·ko: 수록 음원 제목(work:liella/hajimari-wa-kimi-no-sora#11-ver)과 같음. ko는 나무위키 음반 문서 표기(시작은 너의 하늘 ~11 Ver.~)와도 같음 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!/%EC%9D%8C%EB%B0%98'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_pprwiBopNwS
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

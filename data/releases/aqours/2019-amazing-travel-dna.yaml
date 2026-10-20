@@ -18,7 +18,8 @@ discs:
       - {no: 5, recording: aqours/kuuchuu-ren-ai-ron#off-vocal}
       - {no: 6, recording: aqours/maze-sekai#off-vocal}
 streaming:
-  - browse_id: MPREb_eVxHTRgsups
+  - editions: [e1]
+    browse_id: MPREb_eVxHTRgsups
     tracks:
       1-1: 1t0oCI1xhOA
       1-2: UT9S1AatGqA
@@ -41,7 +42,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_eVxHTRgsups
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

@@ -12,6 +12,13 @@ discs:
       - {no: 2, recording: muse/start-dash#muse}
       - {no: 3, recording: muse/no-brand-girls#off-vocal}
       - {no: 4, recording: muse/start-dash#muse-off-vocal}
+streaming:
+  - browse_id: MPREb_iHXWfIxOXfu
+    tracks:
+      1-1: gglzqan8Sf0
+      1-2: 3-qqxipQhA8
+      1-3: 3_ZhrtT_w_k
+      1-4: zfS8aTIXDMo
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
 legacy:
@@ -27,3 +34,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_iHXWfIxOXfu
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

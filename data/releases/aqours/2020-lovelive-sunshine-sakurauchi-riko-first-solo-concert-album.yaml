@@ -30,7 +30,8 @@ discs:
       - {no: 8, recording: aqours/wake-up-challenger#riko-sakurauchi-solo-ver}
       - {no: 9, recording: aqours/pure-phrase#original}
 streaming:
-  - browse_id: MPREb_CU8OeBz87QQ
+  - editions: [e1]
+    browse_id: MPREb_CU8OeBz87QQ
     tracks:
       1-1: RzRRKuDXpwM
       1-2: v2EqFXKO7oc
@@ -66,7 +67,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

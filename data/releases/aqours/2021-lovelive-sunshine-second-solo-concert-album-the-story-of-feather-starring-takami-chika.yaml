@@ -34,6 +34,29 @@ discs:
       - {no: 7, recording: aqours/my-list-to-you#chika-takami-solo}
       - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#chika-takami-solo}
       - {no: 9, recording: aqours/okawari-happy-life#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_4I3ui51xxPU
+    tracks:
+      1-1: Jc1UX97OlAk
+      1-2: bTzA4-buDwE
+      1-3: TVkFZpvxd9Q
+      1-4: lU8FhO8AJu8
+      1-5: iiGgfihSHaw
+      1-6: _ySfd9ajQ94
+      1-7: 3-5cA6emgKs
+      1-8: aFx9F2NdhzE
+      1-9: --vXAOJlUms
+      1-10: Kh5RxQOShpI
+      2-1: vggc4ZfZRCg
+      2-2: -ibKrcP4lQ8
+      2-3: 0F4axNu2HmU
+      2-4: 305Xdx54rkU
+      2-5: 1kRr3j14arQ
+      2-6: hokpoGtgapk
+      2-7: gFHxQhY8tZU
+      2-8: Cw79nau7cic
+      2-9: 0AUYA-yxDQo
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
 legacy:
@@ -53,3 +76,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

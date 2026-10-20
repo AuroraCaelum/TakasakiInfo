@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#dia-kurosawa-solo}
       - {no: 9, recording: aqours/silent-pain#dia-kurosawa-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#dia-kurosawa-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_gCG52rsvoEa
+    tracks:
+      1-1: rWxDdLwl2g8
+      1-2: _T0Wx03Mnnw
+      1-3: oRfjifLvU4Y
+      1-4: ka2bWF80gCI
+      1-5: lD4eVt7VEtg
+      1-6: 9fRyEH91Kj4
+      1-7: R7hp6W-N3fA
+      1-8: EeWYXgnyDfc
+      1-9: yM5E7ZN1kMs
+      1-10: Qwk-GvK_MFs
+      1-11: io-lBE4KCAw
+      2-1: FYo4R7g-oXI
+      2-2: cWL26-sm8Vg
+      2-3: 4RywsP2y9jE
+      2-4: QHaDj9MHdK4
+      2-5: 0d7LzJIG2mA
+      2-6: JCauOS9Yhqo
+      2-7: VjEgvj6bS6A
+      2-8: qPBMxuyTM1s
+      2-9: bDD-CNHjQzs
+      2-10: SA4WDxhja0I
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

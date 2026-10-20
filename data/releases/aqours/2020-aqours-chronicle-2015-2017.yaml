@@ -72,7 +72,8 @@ discs:
       - {no: 11, recording: aqours/seinaru-hi-no-inori#original}
       - {no: 12, recording: aqours/future-flight#original, note: （みんなで作るAqoursの歌）}
 streaming:
-  - browse_id: MPREb_FzjMHrtzPZM
+  - editions: [e1, e2]
+    browse_id: MPREb_FzjMHrtzPZM
     tracks:
       1-1: Zt-8mG_SBCU
       1-2: Q0GCaV1hfNw
@@ -134,7 +135,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

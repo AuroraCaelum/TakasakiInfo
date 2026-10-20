@@ -12,6 +12,11 @@ discs:
   - tracks:
       - {no: 1, recording: liella/koi-no-tutorial#original}
       - {no: 2, recording: liella/koi-no-tutorial#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_lXSpHs1gvJW
+    tracks:
+      1-1: PO0dSIk0MXQ
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
 legacy:
@@ -27,3 +32,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_lXSpHs1gvJW
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

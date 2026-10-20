@@ -15,6 +15,13 @@ discs:
       - {no: 5, recording: muse/let-s-go-let-s-go-to-the-land-of-snow#main}
       - {no: 6, recording: muse/survival-on-the-ski-slope#main}
       - {no: 7, recording: muse/dangerous-in-my-dream#main}
+streaming:
+  - browse_id: MPREb_Ge67XPk5FUF
+    tracks:
+      1-1: V-GLi9MFNLo
+      1-2: DzYcCtF1QQM
+      1-3: qyId_dLgr8o
+      1-4: 40T1IX89e3Y
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
 legacy:
@@ -30,3 +37,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Ge67XPk5FUF
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

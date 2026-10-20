@@ -15,6 +15,12 @@ discs:
       - {no: 2, recording: liella/within-a-dream#original}
       - {no: 3, recording: liella/daisuki-full-power#off-vocal}
       - {no: 4, recording: liella/within-a-dream#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_vqlZ0z8cook
+    tracks:
+      1-1: uQ-OH9Pek88
+      1-2: WAqqzKSrySk
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/cd39.php
 legacy:
@@ -30,3 +36,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd39.php
     checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_vqlZ0z8cook
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

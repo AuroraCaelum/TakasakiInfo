@@ -15,6 +15,14 @@ discs:
       - {no: 2, recording: nijigasaki/kokoro-take-off#original}
       - {no: 3, recording: nijigasaki/bones-bones-bones#off-vocal}
       - {no: 4, recording: nijigasaki/kokoro-take-off#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_RWC3XrF7l8D
+    tracks:
+      1-1: dvSyrt3Eov8
+      1-2: yV1CY6ofSKM
+      1-3: v-GMYROB9so
+      1-4: 7fZOCNfoeTA
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
 legacy:
@@ -30,3 +38,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_RWC3XrF7l8D
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

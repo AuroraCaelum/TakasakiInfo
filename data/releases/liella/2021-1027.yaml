@@ -26,7 +26,8 @@ discs:
       - {no: 11, recording: liella/dears#sumire-ver, note: Sumire Ver.}
       - {no: 12, recording: liella/departure#original}
 streaming:
-  - browse_id: MPREb_V0mJkZGmPMK
+  - editions: [e1]
+    browse_id: MPREb_V0mJkZGmPMK
     tracks:
       1-1: tNEsg3J_3p0
       1-2: fz1aPFNohkQ
@@ -55,7 +56,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   title:
     status: derived

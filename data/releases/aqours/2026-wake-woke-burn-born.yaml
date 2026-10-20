@@ -33,6 +33,25 @@ discs:
       - {no: 4, recording: aqours/wake-woke#off-vocal}
       - {no: 5, recording: aqours/burn-born#off-vocal}
       - {no: 6, recording: aqours/white-out#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_8xujDP2upka
+    tracks:
+      1-1: HGN3ZPE7B34
+      1-2: AH5vlpCSCtE
+      1-3: lk-rd9lWJaI
+      1-4: TkjRaGKFpZg
+      1-5: Psy0bzKHurc
+      1-6: ngScNG7UWXQ
+  - editions: [e2]
+    browse_id: MPREb_VGfmNPQ0bjz
+    tracks:
+      1-1: saViZFbesUQ
+      1-2: pZHELR9GjRI
+      1-3: fuJLLMJISX0
+      1-4: KluYwL0Vuc0
+      1-5: Kt9QlW8Uto0
+      1-6: Vl3gXsbfG7g
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
 legacy:
@@ -49,3 +68,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8xujDP2upka
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

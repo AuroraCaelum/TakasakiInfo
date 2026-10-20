@@ -43,6 +43,31 @@ discs:
       - {no: 8, recording: aqours/bokura-no-umi-de-mata-aou#aqours}
       - {no: 9, recording: aqours/eikyu-hours#original}
       - {no: 10, recording: aqours/bokura-no-tabi-wa-owaranai#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_GwFaHablV3v
+    tracks:
+      1-1: c3BlaUMFMAE
+      1-2: 47S789P5M8c
+      1-3: RGzPI-PPr9U
+      1-4: nJO6xxzliac
+      1-5: wwu25jpjp30
+      1-6: pintREOFCac
+      1-7: 4Ww78OZ2G-4
+      1-8: CEDStQb60f8
+      1-9: B_jszDOS3lc
+      1-10: SSA8wNbSf4s
+      1-11: BM1CwB6gt2I
+      2-1: 4q4StXzZgCk
+      2-2: CHSJMiwRHS8
+      2-3: 0YhWSNq0BsU
+      2-4: hO9SFA63iqk
+      2-5: ht0nQlVYCz8
+      2-6: _afC9Hqxbgc
+      2-7: BVFGU73YUFw
+      2-8: a2G8Jtb1pPU
+      2-9: tLQnKleg4Z8
+      2-10: r_S0dpHRoxA
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
 legacy:
@@ -63,3 +88,8 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
     checked: 2026-10-20
     note: 'ja: 공식 페이지. rom·ko: 같은 파일의 CHRONICLE (2018～2020) 항목, 승인된 aqours/2020-aqours-chronicle-2015-2017과 같은 형식(시리즈명 rom Love Live! Sunshine!!, ko 러브 라이브! 선샤인!!(D11), ～는 반각 ~). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2021-2024) 외부 근거: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2021-2024)'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_GwFaHablV3v
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

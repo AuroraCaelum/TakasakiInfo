@@ -12,6 +12,13 @@ discs:
       - {no: 2, recording: muse/kaguya-no-shiro-de-odoritai#original}
       - {no: 3, recording: muse/kitto-seishun-ga-kikoeru#off-vocal}
       - {no: 4, recording: muse/kaguya-no-shiro-de-odoritai#off-vocal}
+streaming:
+  - browse_id: MPREb_Mskv3k3fzFG
+    tracks:
+      1-1: qK36YQGHWUs
+      1-2: RBnwuCMv8sc
+      1-3: nc-ip_1OwqQ
+      1-4: hsgdOZFD9NY
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
 legacy:
@@ -27,3 +34,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Mskv3k3fzFG
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

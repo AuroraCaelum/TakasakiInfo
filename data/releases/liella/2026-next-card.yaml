@@ -14,6 +14,12 @@ discs:
   - tracks:
       - {no: 1, recording: liella/next-card#original}
       - {no: 2, recording: liella/next-card#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_pEc9kUP4xqa
+    tracks:
+      1-1: M2k_ugNeAzI
+      1-2: XAe2k3H2nsY
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
 legacy:
@@ -29,3 +35,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_pEc9kUP4xqa
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

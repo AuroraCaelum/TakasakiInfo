@@ -15,6 +15,12 @@ discs:
   - tracks:
       - {no: 1, recording: aqours/eikyu-hours#mari-ohara-solo}
       - {no: 2, recording: aqours/bokura-no-tabi-wa-owaranai#mari-ohara-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_oGplOLOjTr3
+    tracks:
+      1-1: YY5Li7VaFOc
+      1-2: HqHRs49WwvQ
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4720
 legacy:
@@ -35,3 +41,8 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4720
     checked: 2026-10-20
     note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyu-hours의 rom·ko(rom EIKYU hours, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_oGplOLOjTr3
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

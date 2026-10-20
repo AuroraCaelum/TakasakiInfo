@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#you-watanabe-solo}
       - {no: 9, recording: aqours/silent-pain#you-watanabe-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#you-watanabe-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_HU1Ib2Jqunp
+    tracks:
+      1-1: Q69IXgN4Je4
+      1-2: FYbvgehZ-Mo
+      1-3: pDFekfvPAGw
+      1-4: I_w7-PSExA4
+      1-5: 5ST8VGi78xA
+      1-6: YmEN1nhmOPE
+      1-7: GcDPh_uMr3Q
+      1-8: 6zRly-iDRp8
+      1-9: 8fqUDB8w4-Q
+      1-10: TtaBQ6t-FaE
+      1-11: 18WPcnHtKyY
+      2-1: yQppb5BBYk8
+      2-2: -G85nUeukz0
+      2-3: ATbTFkKUHMs
+      2-4: l7KPkgHeC_M
+      2-5: -BWBuDbAnMQ
+      2-6: YuUQraxFVuY
+      2-7: wisWeZOHgFo
+      2-8: a0Eeaxc5eGA
+      2-9: ChIZB2PFTv0
+      2-10: k2kVYsuEeWQ
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_HU1Ib2Jqunp
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

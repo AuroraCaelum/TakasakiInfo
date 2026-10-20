@@ -23,7 +23,8 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_tPNy3U719AK
-    checked: 2026-10-17
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   legacy:
     status: derived
     note: 레거시 파일에는 넣지 않음. 클럽 CD 수록분의 메인 URL 출처 (누락 발매물 백필은 Phase 3)

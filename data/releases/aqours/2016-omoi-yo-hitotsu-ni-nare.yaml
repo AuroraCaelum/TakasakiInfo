@@ -16,7 +16,8 @@ discs:
       - {no: 3, recording: aqours/omoi-yo-hitotsu-ni-nare#off-vocal}
       - {no: 4, recording: aqours/mirai-ticket#off-vocal}
 streaming:
-  - browse_id: MPREb_uqnZrHbKjxg
+  - editions: [e1]
+    browse_id: MPREb_uqnZrHbKjxg
     tracks:
       1-1: 7QDolsGBfMs
       1-2: pzb--qNcw6o
@@ -37,7 +38,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_uqnZrHbKjxg
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

@@ -31,6 +31,26 @@ discs:
       - {no: 7, recording: aqours/my-list-to-you#mari-ohara-solo}
       - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#mari-ohara-solo}
       - {no: 9, recording: aqours/love-is-all-i-sing-love-is-all#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_0aUj1T44aw4
+    tracks:
+      1-1: 3ANXi5GNf4o
+      1-2: muze9Eb1WWM
+      1-3: mk96qwro39I
+      1-4: zSo9N9yW4Nc
+      1-5: koAxTbpcYYs
+      1-6: hHFcKx7ib7k
+      1-7: uCsVi7JbDDo
+      2-1: Sn3IYr8e_o0
+      2-2: ekwZSW7shSQ
+      2-3: 8CLtESj-PKA
+      2-4: 6if5emNg2IE
+      2-5: pzEHCSLVk8U
+      2-6: hx7HMaWaHgA
+      2-7: Aj-ABLYuFTg
+      2-8: T53Ws46L0Aw
+      2-9: -8NBqGvuZv0
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd64
 legacy:
@@ -50,3 +70,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd64
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

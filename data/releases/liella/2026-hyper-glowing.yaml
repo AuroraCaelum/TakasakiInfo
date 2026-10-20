@@ -37,6 +37,14 @@ discs:
       - {no: 6, recording: liella/tokubetsu-janai-mahou#off-vocal}
       - {no: 7, recording: liella/winds-of-yell#off-vocal}
       - {no: 8, recording: liella/mebae#off-vocal}
+streaming:
+  - editions: [e1, e2, e3, e4, e5]
+    browse_id: MPREb_aRAfrbq6NWW
+    tracks:
+      1-1: gS7dlKWPFwc
+      1-2: 0RNvcMX1Jzo
+      1-3: ppzAcNfufgU
+      1-4: 43Aai-L6RWU
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
 legacy:
@@ -52,3 +60,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aRAfrbq6NWW
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

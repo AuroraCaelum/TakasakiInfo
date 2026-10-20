@@ -15,6 +15,14 @@ discs:
       - {no: 2, recording: nijigasaki/bitter-blue#original}
       - {no: 3, recording: nijigasaki/crowned-soul#off-vocal}
       - {no: 4, recording: nijigasaki/bitter-blue#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_VZdhi5EZTs4
+    tracks:
+      1-1: D76qu6z30nw
+      1-2: k43Nyx65JbI
+      1-3: h88cZ6Obj08
+      1-4: UcFLq4ydRdk
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
 legacy:
@@ -30,3 +38,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_VZdhi5EZTs4
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

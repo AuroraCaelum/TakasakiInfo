@@ -34,6 +34,29 @@ discs:
       - {no: 7, recording: aqours/my-list-to-you#riko-sakurauchi-solo}
       - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#riko-sakurauchi-solo}
       - {no: 9, recording: aqours/love-spiral-tower#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_MbAuvc5LKhr
+    tracks:
+      1-1: LK3p4zU7eNo
+      1-2: Y3KhQ8amNxI
+      1-3: tCMo5qj31yM
+      1-4: Vg9JbgpFckY
+      1-5: MTNivy72KFQ
+      1-6: 7HwfrJ1dD-I
+      1-7: PM5jq3anjKY
+      1-8: ayvHP_zp5Tc
+      1-9: KWbulEctC_4
+      1-10: DiLKorvUrPo
+      2-1: 0im_i_imYO8
+      2-2: JS3Kv2dvtC0
+      2-3: OWM0lqNUm-E
+      2-4: Rso32xZem4w
+      2-5: TdbgpV5wuAo
+      2-6: jwVnftcSh5s
+      2-7: KNmBbognFGA
+      2-8: mbdIoE6oDVA
+      2-9: 62B78T0mwI8
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
 legacy:
@@ -53,3 +76,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

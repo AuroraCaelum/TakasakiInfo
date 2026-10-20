@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#kanan-matsuura-solo}
       - {no: 9, recording: aqours/silent-pain#kanan-matsuura-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#kanan-matsuura-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_l127ZhMDm9A
+    tracks:
+      1-1: r_-HnsvSmes
+      1-2: rleSkelp2ic
+      1-3: nDCuEy8HAOk
+      1-4: bi65pbVYHrw
+      1-5: 1bvA-btHDw8
+      1-6: baJ2DBvFqGk
+      1-7: L0Q945IfkBo
+      1-8: 2MCGMnBMDG0
+      1-9: bFZLghv5UCA
+      1-10: qdysPmQ4Dlg
+      1-11: s2WS3t09KJs
+      2-1: c40tnyLiMRk
+      2-2: V0Botlohek8
+      2-3: 1awWYngMfCU
+      2-4: fm_3oEXNHhE
+      2-5: 828FRaGatvU
+      2-6: hcZX-tjQkrc
+      2-7: hkC0j7NqAAE
+      2-8: 0AsHr4s9dB0
+      2-9: rpz0Nf2Uc6Q
+      2-10: 99BaOWcZ_kw
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

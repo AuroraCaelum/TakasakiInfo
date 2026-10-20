@@ -31,6 +31,26 @@ discs:
       - {no: 7, recording: aqours/kokoro-magic-a-to-z#hanamaru-kunikida-solo}
       - {no: 8, recording: aqours/wake-up-challenger#hanamaru-kunikida-solo}
       - {no: 9, recording: aqours/akogare-ranraran#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_0XroaGyHhQb
+    tracks:
+      1-1: QoQh8w26ns0
+      1-2: 0_RlhKgg8XM
+      1-3: N4MTTTVwm6Q
+      1-4: Bn4kLEYS3EY
+      1-5: jQedYR0dZGw
+      1-6: BOGtrIJ_Gyw
+      1-7: dG0P6_12gQc
+      2-1: U7RuQR92mrU
+      2-2: oJZLQQ11pqg
+      2-3: Xa_YzRVJ3QM
+      2-4: 3QK4gPKXno8
+      2-5: JPypC9c7Nt0
+      2-6: 3u2eOBGuR0o
+      2-7: slDXe7mYMUw
+      2-8: 3i1Zxt7-Y9E
+      2-9: DXNDoA0trVY
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
 legacy:
@@ -51,3 +71,8 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
     checked: 2026-10-20
     note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 부제는 기존 곡 aqours/oyasuminasan의 rom·ko(～·！는 반각). 부제 rom은 Fandom, ko는 나무위키 번역과 같음 외부 근거: https://namu.wiki/w/%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%82%93%EF%BC%81 https://love-live.fandom.com/wiki/Oyasuminasan!'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

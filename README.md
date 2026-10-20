@@ -28,18 +28,18 @@
 
 ## Database status
 
-**3,094** tracks · **469** albums · **881** songs · **581** people · **89** characters · **41%** of tracks on YouTube Music · as of 2026-10-20
+**3,094** tracks · **469** albums · **881** songs · **581** people · **89** characters · **84%** of tracks on YouTube Music · as of 2026-10-20
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
-| **μ’s** | 2024-09-20 | 81 | 519 | 0% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
-| **Aqours** | 2026-03-11 | 124 | 1139 | 31% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
-| **Nijigasaki High School Idol Club** | 2026-10-07 | 95 | 546 | 46% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
-| **Liella!** | 2026-07-08 | 62 | 319 | 39% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
-| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 64 | 429 | 98% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
-| **School Idol Musical** | 2024-08-21 | 3 | 46 | 74% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
-| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 28 | 92 | 98% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
-| **Yohane the Parhelion** | 2024-12-25 | 12 | 42 | 0% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
+| **μ’s** | 2024-09-20 | 81 | 519 | 82% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
+| **Aqours** | 2026-03-11 | 124 | 1139 | 93% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
+| **Nijigasaki High School Idol Club** | 2026-10-07 | 95 | 546 | 70% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
+| **Liella!** | 2026-07-08 | 62 | 319 | 57% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
+| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 64 | 429 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
+| **School Idol Musical** | 2024-08-21 | 3 | 46 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
+| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 28 | 92 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
+| **Yohane the Parhelion** | 2024-12-25 | 12 | 42 | 33% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
 
 Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 
@@ -326,7 +326,7 @@ All rights to the material, including songs and lyrics, belong to
 > ©2024 PROJECT Lovelive! Superstar!!<br>
 > ©2026 PROJECT Lovelive! Hasunosora Jogakuin School Idol Club<br>
 > ©PROJECT Lovelive! School Idol Musical<br>
-> ©プロジェクトイキヅライブ！
+> ©PROJECT IKIZULIVE!
 
 and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushiroad.
 
@@ -392,7 +392,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 > ©2024 PROJECT Lovelive! Superstar!!<br>
 > ©2026 PROJECT Lovelive! Hasunosora Jogakuin School Idol Club<br>
 > ©PROJECT Lovelive! School Idol Musical<br>
-> ©プロジェクトイキヅライブ！
+> ©PROJECT IKIZULIVE!
 
 와 그 권리사인 SUNRISE, Bandai Namco Filmworks Inc., Lantis, Bushiroad에 있습니다.
 

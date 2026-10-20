@@ -12,6 +12,13 @@ discs:
       - {no: 2, recording: muse/paradise-live#original}
       - {no: 3, recording: muse/takaramonozu#off-vocal}
       - {no: 4, recording: muse/paradise-live#off-vocal}
+streaming:
+  - browse_id: MPREb_5xzJUEiHrKx
+    tracks:
+      1-1: UT5d6o_vAk4
+      1-2: bVhUICqEQ3I
+      1-3: MZLZtKOOZYg
+      1-4: sX1PjNcwM30
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
 legacy:
@@ -27,3 +34,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_5xzJUEiHrKx
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

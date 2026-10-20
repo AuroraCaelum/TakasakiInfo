@@ -20,7 +20,8 @@ discs:
       - {no: 6, recording: aqours/seinto-sumo-tai-starffin-hakodate-basho#main}
       - {no: 7, recording: aqours/tamesareru-daichi-tamesareru-shimai#main}
 streaming:
-  - browse_id: MPREb_JChpVFPtrLs
+  - editions: [e1, e2]
+    browse_id: MPREb_JChpVFPtrLs
     tracks:
       1-1: 76wW3GcCpkY
       1-2: PdvYvcTUmGI
@@ -41,7 +42,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_JChpVFPtrLs
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

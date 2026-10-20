@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#riko-sakurauchi-solo}
       - {no: 9, recording: aqours/silent-pain#riko-sakurauchi-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#riko-sakurauchi-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_wQoa1lXWtDV
+    tracks:
+      1-1: lHZmxfIp87o
+      1-2: 2xyUdfh9f9I
+      1-3: rM0ayJi6tHg
+      1-4: aapg-NZe_7I
+      1-5: jTGz_xgn_kg
+      1-6: tn7FuylLcVA
+      1-7: XULw1UKNSq0
+      1-8: ReKFXSJjvFo
+      1-9: mw-vaMax8JY
+      1-10: rRRLP7zXlPE
+      1-11: cOpO1MZ7454
+      2-1: _7wyYTac6gM
+      2-2: ydVzxDy4kX8
+      2-3: AG4310kfjWU
+      2-4: aPLd4b9QG_E
+      2-5: v_Mu-w8rx3c
+      2-6: i3sNKkNTc24
+      2-7: qcfy1IBEX3s
+      2-8: 4HpxuSglquc
+      2-9: Sre3vJk7Dik
+      2-10: ZLao8AoGfOg
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

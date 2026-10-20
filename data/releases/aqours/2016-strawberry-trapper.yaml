@@ -17,7 +17,8 @@ discs:
       - {no: 4, recording: aqours/guilty-night-guilty-kiss#off-vocal}
       - {no: 5, recording: aqours/yuuran-sen-de-doko-made-mo#main}
 streaming:
-  - browse_id: MPREb_V0x6zo1DXcN
+  - editions: [e1]
+    browse_id: MPREb_V0x6zo1DXcN
     tracks:
       1-1: NX-IxQ67utk
       1-2: IJ201a0P4y8
@@ -41,7 +42,7 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_V0x6zo1DXcN
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
   editions:
     status: official

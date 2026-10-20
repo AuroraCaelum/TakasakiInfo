@@ -30,6 +30,25 @@ discs:
       - {no: 6, recording: aqours/next-sparkling#riko-sakurauchi-solo}
       - {no: 7, recording: aqours/i-n-g-i-try#riko-sakurauchi-solo}
       - {no: 8, recording: aqours/minamo-ni-piano#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_239tVnc4fvx
+    tracks:
+      1-1: JxGlq1blqRw
+      1-2: __erFSXdkfs
+      1-3: sSNrP9LlPYY
+      1-4: SQmOZAL_KXg
+      1-5: lrZt9h88lXY
+      1-6: on8Ze6__qsA
+      1-7: wIo_XumE3RQ
+      2-1: _Mhky0hVwsQ
+      2-2: wAo9Nh7N6Mc
+      2-3: WcPgrN3YI2s
+      2-4: 7rkVG4zkWhc
+      2-5: 0tho-nlmYGw
+      2-6: CU0R0e3WIrQ
+      2-7: fGDsnIwjMI4
+      2-8: iNU2jsT__pI
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd74
 legacy:
@@ -49,3 +68,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd74
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -31,6 +31,26 @@ discs:
       - {no: 7, recording: aqours/my-list-to-you#dia-kurosawa-solo}
       - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#dia-kurosawa-solo}
       - {no: 9, recording: aqours/motto-zutto-be-with-you#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_IoNpgSISvP2
+    tracks:
+      1-1: kPAWD8HyiEc
+      1-2: XzGCEtH3QaQ
+      1-3: VbUQ-B-pc4U
+      1-4: UZe6uIAwjDQ
+      1-5: olirH8WJqno
+      1-6: bvvmXqoqmjA
+      1-7: yYxsb92oWXI
+      2-1: fLv3tyokEfU
+      2-2: G7nwxwALc9w
+      2-3: -8ZPewecbms
+      2-4: koB2cYGIa74
+      2-5: HmB1t7IQsAU
+      2-6: JKxzwjsZNhg
+      2-7: Cm5qVgFfz-c
+      2-8: T6aTVky0cvA
+      2-9: xkFVA8s32wk
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd60
 legacy:
@@ -50,3 +70,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd60
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -16,6 +16,15 @@ discs:
       - {no: 5, recording: muse/blueberry-train#off-vocal}
       - {no: 6, recording: muse/kodoku-na-heaven#off-vocal}
       - {no: 7, recording: muse/kotopana-here-on-a-get-well-soon-visit#main}
+streaming:
+  - browse_id: MPREb_c3Bh5nziXzb
+    tracks:
+      1-1: Dg6Zcz0aXZw
+      1-2: zovl9CaQlBk
+      1-3: THbiBwPNEVE
+      1-4: y33HyuJFexE
+      1-5: AMHCpxINN7o
+      1-6: zQG5Kt4fgBo
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
 legacy:
@@ -31,3 +40,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

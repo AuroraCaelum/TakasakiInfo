@@ -23,6 +23,22 @@ discs:
       - {no: 11, recording: muse/wonder-zone#maki-mix}
       - {no: 12, recording: muse/no-brand-girls#maki-mix}
       - {no: 13, recording: muse/start-dash#maki-mix}
+streaming:
+  - browse_id: MPREb_slkOsZbg5Be
+    tracks:
+      1-1: iMlIICTX170
+      1-2: zSb5pUp8LZg
+      1-3: zaaYxq_4Z8M
+      1-4: RGOEeVGbvF4
+      1-5: eMg2SLGx198
+      1-6: y3IcscRk6z8
+      1-7: K-4tmF76PU4
+      1-8: yNEE_5Rb5Eg
+      1-9: xEY8ewobj58
+      1-10: 6IQnf7SRn9s
+      1-11: zuGXrcgtP5g
+      1-12: VyYP4OTDGyc
+      1-13: 1XaLnFNStnk
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
 legacy:
@@ -43,3 +59,8 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
     checked: 2026-10-20
     note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제는 라틴 원문 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -21,6 +21,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
         checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Jungle Hunter♡ (Off Vocal)
+      rom: Jungle Hunter♡ (Off Vocal)
+      ko: Jungle Hunter♡ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rauto-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
+        checked: 2026-10-21
+        note: 공식 페이지는 4번을 Jungle Hunter♡로만 적음(Off Vocal 누락). 레이블의 YouTube Music 앨범은 Jungle Hunter♡ (Off Vocal)이고, 3번이 モノクロラビリンス(Off Vocal)인 구성이라 Off Vocal로 둔다(nijigasaki.TRACK_FIXES)
 evidence:
   title:
     status: derived

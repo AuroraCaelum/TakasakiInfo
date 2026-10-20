@@ -12,6 +12,13 @@ discs:
       - {no: 2, recording: muse/wonder-zone#original}
       - {no: 3, recording: muse/korekara-no-someday#off-vocal}
       - {no: 4, recording: muse/wonder-zone#off-vocal}
+streaming:
+  - browse_id: MPREb_lG8QeW7kNyT
+    tracks:
+      1-1: DA5vPFkj_lI
+      1-2: mOxyrJx2IWA
+      1-3: 17VVuaLCI4k
+      1-4: i_JV60VdePg
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
 legacy:
@@ -27,3 +34,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_lG8QeW7kNyT
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

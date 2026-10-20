@@ -14,6 +14,13 @@ discs:
       - {no: 2, recording: muse/start-dash#original}
       - {no: 3, recording: muse/susume-tomorrow#off-vocal}
       - {no: 4, recording: muse/start-dash#off-vocal}
+streaming:
+  - browse_id: MPREb_Ovm66bI6rw4
+    tracks:
+      1-1: L1iGuhoSUjg
+      1-2: qGyLRdMiQfE
+      1-3: IBU3qElyEFc
+      1-4: SsxBCInwxj4
 links:
   official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
 legacy:
@@ -29,3 +36,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

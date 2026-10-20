@@ -36,6 +36,31 @@ discs:
       - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#chika-takami-solo}
       - {no: 9, recording: aqours/silent-pain#chika-takami-solo}
       - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_JNfBdB4Awmp
+    tracks:
+      1-1: 3bBAYUNyFC8
+      1-2: s27AswoaOCU
+      1-3: wRcLoGG7YIo
+      1-4: hHMwCM99sRA
+      1-5: Uy3iw76RCPs
+      1-6: 9RYWiCp87GQ
+      1-7: nmaVLjZ9IQI
+      1-8: ITSiqg-ey-4
+      1-9: qAUURjwnpb8
+      1-10: CiFU262b4H8
+      1-11: QecqqsRH7I8
+      2-1: W2PtWkkAQyA
+      2-2: gqaqQY445QM
+      2-3: 3vW0gtcTfUg
+      2-4: cySeevAf7T4
+      2-5: poxNIv-Lo1c
+      2-6: FyO-N12G-tg
+      2-7: k056GqONnp4
+      2-8: 1AznruB8CCE
+      2-9: LdenUoMDPbI
+      2-10: YlLYHUsGcXw
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
 legacy:
@@ -55,3 +80,8 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

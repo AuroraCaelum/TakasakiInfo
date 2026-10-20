@@ -33,6 +33,19 @@ discs:
       - {no: 4, recording: liella/bubble-rise#off-vocal}
       - {no: 5, recording: liella/special-color#off-vocal}
       - {no: 6, recording: liella/itsumo-no-peace-sign#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_8hEYissx2VG
+    tracks:
+      1-1: uzJRi3n5Pto
+      1-2: Bq_f7tK-teU
+      1-3: oXgxHqOxZpI
+  - editions: [e2]
+    browse_id: MPREb_KoFCoNa8Ytg
+    tracks:
+      1-1: eNtxNLBbZfo
+      1-2: hkzDz8zr3gw
+      1-3: ci617PytD30
 links:
   official: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
 legacy:
@@ -49,3 +62,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_8hEYissx2VG
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
