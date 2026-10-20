@@ -4,7 +4,7 @@ project: nijigasaki
 title:
   ja: ラジオドラマ5章5話 愛さんは協力する！
   rom: Radio Drama Chapter 5 Episode 5 Ai-san lends a hand!
-  ko: 라디오 드라마 5장 5화 아이 씨는 협력해!
+  ko: 라디오 드라마 5장 5화 아이 씨는 협력한다!
 recordings:
   - id: main
     kind: drama
@@ -17,6 +17,7 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/NJG-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4 검수(2026-10-20) 번역안을 다듬음.'

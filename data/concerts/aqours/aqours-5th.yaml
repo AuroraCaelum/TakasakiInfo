@@ -64,9 +64,9 @@ stops:
           - work: aqours/mirai-no-bokura-wa-shitteru-yo
             performers:
               - {artist: aqours}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - work: aqours/believe-again
             performers:
               - {artist: saint-snow}
@@ -149,9 +149,9 @@ stops:
           - work: aqours/mirai-no-bokura-wa-shitteru-yo
             performers:
               - {artist: aqours}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - work: aqours/believe-again
             performers:
               - {artist: saint-snow}
@@ -184,9 +184,10 @@ external_ids:
   fandom: Aqours 5th LoveLive! ～Next SPARKLING!!～
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_5thlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_5thlive.php

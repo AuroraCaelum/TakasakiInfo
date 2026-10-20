@@ -14,7 +14,7 @@ editions:
     media: [CD]
 discs:
   - tracks:
-      - {no: 1, recording: yohane/a-loving-heart-we-ll-go-around-again-today#main}
+      - {no: 1, recording: yohane/a-cherishing-heart-today-coming-around-again#main}
       - {no: 2, recording: yohane/numazu-yassa-yoisa-uta#original}
       - {no: 3, recording: yohane/numazu-yassa-yoisa-uta#off-vocal}
 links:
@@ -33,6 +33,6 @@ evidence:
     source: https://www.yohane.net/bd/detail/?id=6
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/YHN-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=6
+    checked: 2026-10-20

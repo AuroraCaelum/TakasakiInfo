@@ -38,9 +38,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/LLA-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%85%A8%E5%8A%9B%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%83%E3%83%88 https://love-live.fandom.com/wiki/Zenryoku_Riot'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php

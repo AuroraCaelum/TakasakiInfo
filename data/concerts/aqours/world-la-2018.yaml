@@ -65,9 +65,10 @@ external_ids:
   fandom: Aqours World Love Live! in LA ~Beyond the Pacific~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=45
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No Japanese-language official page found; title, date and venue come from the official worldwide (English) news (2018/04/26 and 2018/06/12 items on the Event news list, page offset=45): held 2018-07-04 (local time) at the Microsoft Theater, Los Angeles, as part of Anisong World Matsuri at Anime Expo 2018 (full billing: 「… ~Beyond the Pacific~ Supported by Anisong World Matsuri at Anime Expo 2018」). The title is English on the official site, so title_ja and venue ja keep it.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=45

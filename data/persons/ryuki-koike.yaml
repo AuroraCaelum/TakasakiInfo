@@ -13,6 +13,10 @@ given_name:
   ko: 류키
 evidence:
   names:
-    status: draft
-    source: automation/review/LLA-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지 (소속사 프로필도 小池 竜暉). 읽기 미기재(소속사 프로필은 라틴 표기만) rom: 소속사 공식 프로필 RYUKI KOIKE / Ryuki Koike (avex GENIC. シェキラ☆☆☆·ニュートラル·ファイティングコール·てくてく日和를 작품 목록에 올림. Fandom도 같음), ko: 규칙 (나무위키가 문서마다 코이케 류키/코이케 류우키로 엇갈려 D5대로 장음 생략) 외부 근거: https://avex.jp/genic/profile/detail.php?id=1002098 https://namu.wiki/w/%E3%82%B7%E3%82%A7%E3%82%AD%E3%83%A9%E2%98%86%E2%98%86%E2%98%86 https://namu.wiki/w/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%A9%E3%83%AB'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

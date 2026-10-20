@@ -3,7 +3,7 @@ projects: [liella]
 status: performed
 title:
   ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!!
-  rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE
+  rom: Love Live! Superstar!! Liella! no TUTOLiella LIVE!!
   ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!!
 stops:
   - id: 1-chiba
@@ -169,9 +169,10 @@ external_ids:
   fandom: Liella! no TUTOLiella!! LIVE
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/?page=2
+    checked: 2026-10-20
+    note: "공식 라틴 표기 없음(로고도 가나). ちゅーとりえらいぶ!!는 Fandom의 말장난 복원 표기(규칙대로면 Chuutorieraibu!!, 萌娘百科는 TUTOLieLIVE!!). ko: 나무위키 문서명에 시리즈명을 붙임 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE ko: https://namu.wiki/w/Liella!%EC%9D%98%20%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%97%98%EB%9D%BC%EC%9D%B4%EB%B8%8C!!. 일정 조사 메모: Dates (2025年7月5日（土）、7月6日（日）) and venue (LaLa arena TOKYO-BAY) from the official Liella! live list; its detail link https://tutoliella-live.jp/ now shows the 2026 edition, so the 2025 show split is not on an official page any more. One show on 7/5 (18:30) and two on 7/6 (13:00, 18:30) per anime.eiga.com event pages 171046-171048 (https://anime.eiga.com/event/171047/) and LiveFans, matching Fandom's three tabs. The 2025 official wording for the two 7/6 shows is unknown (the 2026 edition says 昼公演/夜公演), so the default Noon/Evening labels are used. rom: 검수(2026-10-20) ja·ko처럼 !!를 끝에 둠(Fandom 문서명은 TUTOLiella!! LIVE)."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/?page=2

@@ -1,7 +1,7 @@
 id: aqours/2020-aqours-chronicle-2015-2017
 type: compilation
 title:
-  ja: ラブライブ!サンシャイン!! Aqours CHRONICLE (2015~2017)
+  ja: ラブライブ！サンシャイン!! Aqours CHRONICLE (2015～2017)
   rom: Love Live! Sunshine!! Aqours CHRONICLE (2015~2017)
   ko: 러브 라이브! 선샤인!! Aqours CHRONICLE (2015~2017)
 projects: [aqours]
@@ -136,12 +136,20 @@ evidence:
     source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
     checked: 2026-10-17
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
-  title:
-    status: derived
-    source: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
-    checked: 2026-10-19
-    note: 시리즈명은 Liella 1st 투어 공연명과 같은 형식(rom Love Live! Superstar!!, ko D11). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017). 리뷰 승인
   editions:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
     checked: 2026-10-20
+  title.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
+    checked: 2026-10-21
+    note: 공식 페이지의 【タイトル】 표기(전각 ！·～). 레거시 앨범 제목은 반각 그대로
+  title.rom:
+    status: derived
+    checked: 2026-10-21
+    note: 시리즈명 고정 표기 Love Live! Sunshine!! + 라틴 원문(반각, E15). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017) https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
+  title.ko:
+    status: derived
+    checked: 2026-10-21
+    note: 시리즈명 고정 표기 러브 라이브! 선샤인!!(D11) + 라틴 원문(반각)

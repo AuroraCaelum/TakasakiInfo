@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E6%82%B2%E3%81%97%E3%81%BF%E3%81%AE%E6%9E%9C%E3%81%A6 https://love-live.fandom.com/wiki/Arifureta_Kanashimi_no_Hate'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14

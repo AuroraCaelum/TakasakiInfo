@@ -16,6 +16,10 @@ given_name:
   ko: 마사히로
 evidence:
   names:
-    status: draft
-    source: automation/review/NJG-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 かわうら まさひろ(위키백과) rom: Fandom(성-이름 순 Kawaura Masahiro를 이름-성으로, D4), ko: 나무위키(虹ヶ咲学園校歌 문서 카와우라 마사히로) 외부 근거: https://ja.wikipedia.org/wiki/%E5%B7%9D%E6%B5%A6%E6%AD%A3%E5%A4%A7 https://love-live.fandom.com/wiki/Nijigasaki_Gakuen_Kouka https://namu.wiki/w/%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E6%A0%A1%E6%AD%8C'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

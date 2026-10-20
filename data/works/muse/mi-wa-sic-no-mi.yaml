@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+    checked: 2026-10-20
+    note: "ja: 공식 페이지. rom: Fandom(Mi wa µ'sic no Mi의 µ(U+00B5)를 인쇄된 μ로), ko: 나무위키(미는 μ’sic의 미의 ’를 인쇄된 '로) 외부 근거: https://namu.wiki/w/%E3%83%9F%E3%81%AF%CE%BC%E2%80%99sic%E3%81%AE%E3%83%9F https://love-live.fandom.com/wiki/Mi_wa_%C2%B5'sic_no_Mi"
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52

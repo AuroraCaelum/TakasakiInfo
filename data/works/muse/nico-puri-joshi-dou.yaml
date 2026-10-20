@@ -1,0 +1,55 @@
+id: muse/nico-puri-joshi-dou
+project: muse
+title:
+  ja: にこぷり♡女子道
+  rom: Nico puri♡Joshi dou
+  ko: 니코프리♡여자의 길
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tetsushi-enami}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: yusuke-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=Mx6MBdzLstQ
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: にこぷり♡女子道 (Off Vocal)
+      rom: Niko puri♡Joshi dou (Off Vocal)
+      ko: 니코프리♡여자의 길 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yusuke-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd05
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(Niko puri♥Joshi dou의 ♥를 공식 표기 ♡로), ko: 나무위키(니코프리♥여자의 길의 ♥를 공식 표기 ♡로) 외부 근거: https://namu.wiki/w/%E3%81%AB%E3%81%93%E3%81%B7%E3%82%8A%E2%99%A5%E5%A5%B3%E5%AD%90%E9%81%93 https://love-live.fandom.com/wiki/Niko_puri%E2%99%A5Joshi_dou rom: にこ는 캐릭터 rom Nico로(NicoNozo, NicoRinPana와 같음).'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=Mx6MBdzLstQ
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

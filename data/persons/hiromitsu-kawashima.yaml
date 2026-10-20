@@ -13,6 +13,10 @@ given_name:
   ko: 히로미츠
 evidence:
   names:
-    status: draft
-    source: automation/review/AQR-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://music.youtube.com/watch?v=Kc9LD-3fCao
+    checked: 2026-10-20
+    note: "ja: 나무위키·UtaTen의 한자 표기(공식 사이트는 「The Blue Swell」 등에 라틴 'Hiromitsu Kawashima'로 크레딧). rom: 공식 라틴 크레딧(레이블 메타데이터·Fandom도 같음), ko: 나무위키 '카와시마 히로미츠'. 읽기는 공식 후리가나 없음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -177,9 +177,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(ばんざーい의 장음 ー를 표기하지 않음), ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 사랑해 만세!) 외부 근거: https://namu.wiki/w/%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%B0%E3%82%93%E3%81%96%E3%83%BC%E3%81%84%EF%BC%81 https://love-live.fandom.com/wiki/Aishiteru_Banzai!'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31

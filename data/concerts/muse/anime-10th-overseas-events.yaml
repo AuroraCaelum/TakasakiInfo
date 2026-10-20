@@ -1121,9 +1121,10 @@ external_ids:
   fandom: Love Live! Anime 10th Anniversary Overseas Event
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://lovelive-overseas.bitfan.id/
+    checked: 2026-10-20
+    note: "공식 영문 없음. 같은 기념 사업의 공식 영문 형식(TVアニメ放送10周年記念 LoveLive! … → Love Live! Anime 10th Anniversary …)을 따름(Fandom은 단수 'Overseas Event'). 규칙으로 만들면 'TV Anime Housou 10 Shuunen Kinen \"LoveLive! Overseas Events\"'. ko: 이 공연 나무위키 문서 없음. 앞부분은 나무위키 'TV 애니메이션 방송 10주년 기념'과 같게 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/ ko: 번역안. 일정 조사 메모: Organizer's official site lovelive-overseas.bitfan.id (SPACEY MUSIC ENTERTAINMENT, Project Love Live! cooperation); it prints 昼の部/夜の部 or 1部/2部, labelled Noon/Evening here. SEOUL 2024 MAPPING: the official page (2024-07-17) gives 7/19 one show only (1部 20:00) and 7/20 two shows (13:00, 17:30); Fandom's three tabs are named Day 1 (Day), Day 1 (Night), Day 2 (Day), which contradicts that. The tabs are mapped in chronological order (1st tab -> 7/19, 2nd -> 7/20 1部, 3rd -> 7/20 2部); a reviewer should confirm. GUANGZHOU 2024: official news gives the dates (contents/152692, 175367) and links the bilibili ticket page, which gives 久米空间LIVEHOUSE, 机场路1733号, four shows 08-24/25 12:30 & 16:30 (no official venue statement; same address as the 2025 Final Stage venue printed officially as 「広州久米空間Livehouse」, so one venue). SHANGHAI 2025: official prints 「万代南梦宫上海文化中心」 (used); the bilibili ticket page it links now shows the venue as 星在文化中心1F梦想剧场 (宜昌路179号) and gives four shows 04-05/06 12:30 & 17:30. SEOUL 2025 (ソウル追加公演): dates official (contents/293615); venue from the linked Ticketlink page's event data (WDG STUDIO HONGDAE, 마포구 와우산로 94, organizer (주)타키엘), confirmed by Sports Kyunghyang 2025-08-19; no source states the number of shows, the 4 performances (day/night x 2) come from Fandom's tabs only. Venue rom/ko for the Chinese venues are romanized by me (no established English names found)."
   schedule.1-taipei:
     status: official
     source: https://lovelive-overseas.bitfan.id/contents/164914

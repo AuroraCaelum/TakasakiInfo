@@ -237,9 +237,10 @@ external_ids:
   fandom: "Hasunosora Girls' High School Idol Club 103-105th Fes×ReC: LIVE ~Road to Bloom~"
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RTB
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page numbers the four shows straight through: ＜第1回公演＞ on 1/21 at 19:00, then ＜第2回公演＞ at 11:30, ＜第3回公演＞ at 14:30 and ＜第4回公演＞ at 19:00 on 1/22. The labels number the shows within each day instead. This page prints the venue as 「Zepp Haneda（TOKYO）」 with full-width parentheses. It is the same venue as 103期 Fes×ReC (FRL), whose page prints 「Zepp Haneda(TOKYO)」, so both concerts use that one name. A Fes×ReC: LIVE is a virtual live: the characters perform as 3D models.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RTB

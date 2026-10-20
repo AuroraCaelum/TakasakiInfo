@@ -17,55 +17,55 @@ stops:
             version: Short Ver.
             performers:
               - {artist: aqours}
-          - {title_raw: Shine!! Short Ver.}
+          - {work: external/shine, version: Short Ver.}
           - work: nijigasaki/tokimeki-runners
             version: Short Ver.
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - {title_raw: Brand New Theater! Short Ver.}
+          - {work: external/brand-new-theater, version: Short Ver.}
           - work: liella/tokonatsu-sunshine
             version: Short Ver.
             performers:
               - {artist: liella}
-          - {title_raw: Spread the Wings!! Short Ver.}
+          - {work: external/spread-the-wings, version: Short Ver.}
           - work: hasunosora/dream-believers
             version: Short Ver.
             performers:
               - {artist: hasunosora-girls-high-school-idol-club}
           - {type: video, label: 'Intermission #1'}
-          - {title_raw: Eternal Harmony}
+          - {work: external/eternal-harmony}
           - work: nijigasaki/what-you-gonna-do
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - {title_raw: 無重力シャトル}
+          - {work: external/mujuuryoku-shuttle}
           - work: aqours/dreamy-color
             performers:
               - {artist: aqours}
           - work: hasunosora/do-do-do
             performers:
               - {artist: mira-cra-park}
-          - {title_raw: 今しかない瞬間を}
+          - {work: external/ima-shika-nai-shunkan-o}
           - work: liella/alternate
             performers:
               - {artist: catchu}
-          - performers:
+          - work: external/let-s-sail-away
+            performers:
               - {person: shuka-saito}
               - {person: kanna-kan}
-            title_raw: Let's Sail Away!!!
           - work: liella/we-will
             performers:
               - {person: nako-misaki}
               - {person: akina-homoto}
           - {type: video, label: 'Intermission #2'}
-          - {title_raw: fruity love}
+          - {work: external/fruity-love}
           - work: liella/fukashi-na-blue
             performers:
               - {artist: kaleidoscore}
-          - {title_raw: アルストロメリア}
+          - {work: external/alstroemeria}
           - work: hasunosora/holiday-holiday
             performers:
               - {artist: cerise-bouquet}
-          - {title_raw: ラブレター}
+          - {work: external/love-letter}
           - work: nijigasaki/dream-with-you
             version: Short Ver.
             performers:
@@ -81,22 +81,22 @@ stops:
           - work: hasunosora/hakuchuu-a-la-mode
             performers:
               - {person: kanna-kan}
-          - performers:
+          - work: external/love-bon-appetit
+            performers:
               - {person: kanako-takatsuki}
               - {person: maria-sashide}
               - {person: sakura-sakakura}
               - {person: kona-tsukine}
-            title_raw: ラブ・ボナペティート
           - {type: mc, label: 'MC #1'}
           - {work: musical/kirari-hirari-mau-sakura}
           - {work: musical/yume-no-compass}
           - {type: video, label: 'Intermission #3'}
-          - {title_raw: FairyTaleじゃいられない}
+          - {work: external/fairytale-ja-irarenai}
           - work: hasunosora/tragic-drops
             performers:
               - {artist: dollchestra}
-          - {title_raw: abyss of conflict}
-          - {title_raw: OH MY GOD}
+          - {work: external/abyss-of-conflict}
+          - {work: external/oh-my-god}
           - work: nijigasaki/vivid-world
             version: Short Ver.
             performers:
@@ -109,35 +109,35 @@ stops:
             version: Short Ver.
             performers:
               - {person: moeka-koizumi}
-          - {title_raw: 生存本能ヴァルキュリア}
+          - {work: external/seizon-honnou-valkyria}
           - work: liella/jump-into-the-new-world
             performers:
               - {artist: liella}
           - {work: aqours/guilty-night-guilty-kiss}
-          - performers:
+          - work: external/tulip
+            performers:
               - {person: rikako-aida}
               - {person: miyu-kubota}
               - {person: kotoko-sasaki}
-            title_raw: Tulip
           - {type: video, label: 'Intermission #4'}
-          - performers:
+          - work: external/dye-the-sky
+            performers:
               - {person: arisa-komiya}
               - {person: kaori-maeda}
               - {person: naomi-payton}
-            title_raw: Dye the Sky
           - work: liella/miracle-new-story
             performers:
               - {person: nozomi-suzuhara}
               - {person: ai-furihata}
               - {person: mayu-sagara}
               - {person: nina-hanamiya}
-          - performers:
+          - work: external/session
+            performers:
               - {person: anju-inami}
               - {person: natsumi-murakami}
               - {person: sayuri-date}
               - {person: nozomi-nirei}
-            title_raw: SESSION!
-          - {version: 'Azusa Tadokoro, Miyu Tomita, Aya Yamane, Aika Kobayashi, Yuina & Kokona Nonaka', title_raw: アライブファクター}
+          - {work: external/alive-factor, version: 'Azusa Tadokoro, Miyu Tomita, Aya Yamane, Aika Kobayashi, Yuina & Kokona Nonaka'}
           - work: aqours/mitaiken-horizon
             performers:
               - {artist: aqours}
@@ -145,15 +145,15 @@ stops:
           - work: nijigasaki/colorful-dreams-colorful-smiles
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - performers:
+          - work: external/goin
+            performers:
               - {artist: liella}
-            title_raw: GOIN'!!!
-          - performers:
+          - work: external/ready
+            performers:
               - {artist: aqours}
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: liella}
               - {artist: hasunosora-girls-high-school-idol-club}
-            title_raw: READY!!
           - {work: muse/bokura-wa-ima-no-naka-de}
           - {type: mc, label: 'MC #2'}
           - {work: nijigasaki/ijigen-bigbang}
@@ -162,7 +162,7 @@ stops:
       - date: 2023-12-10
         setlist:
           - {type: video, label: Opening}
-          - {title_raw: Yes! Party Time!! Short ver.}
+          - {work: external/yes-party-time, version: Short ver.}
           - work: hasunosora/on-your-mark
             version: Short ver.
             performers:
@@ -171,18 +171,18 @@ stops:
             version: Short ver.
             performers:
               - {artist: liella}
-          - {version: Short ver., title_raw: シャイノグラフィ}
+          - {work: external/shinography, version: Short ver.}
           - work: nijigasaki/love-u-my-friends
             version: Short ver.
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - {title_raw: Rat A Tat!!! TV Size}
+          - {work: external/rat-a-tat, version: TV Size}
           - work: aqours/mirai-no-bokura-wa-shitteru-yo
             version: Short ver.
             performers:
               - {artist: aqours}
           - {type: video, label: 'Intermission #1'}
-          - {title_raw: 流れ星キセキ}
+          - {work: external/nagareboshi-kiseki}
           - work: nijigasaki/chase
             version: Short ver.
             performers:
@@ -198,14 +198,14 @@ stops:
           - work: hasunosora/non-fiction-hero-show
             performers:
               - {artist: mira-cra-park}
-          - {title_raw: 学祭革命夜明け前}
+          - {work: external/gakusai-kakumei-yoakemae}
           - work: aqours/water-blue-new-world
             performers:
               - {artist: aqours}
           - work: liella/star-sengen
             performers:
               - {artist: liella}
-          - {title_raw: ジャングル☆パーティー}
+          - {work: external/jungle-party}
           - work: nijigasaki/nijiiro-passions
             performers:
               - {person: chiemi-tanaka}
@@ -215,7 +215,7 @@ stops:
               - {person: nozomi-nirei}
               - {person: ai-furihata}
           - {type: video, label: 'Intermission #2'}
-          - {title_raw: Sweet Sweet Soul}
+          - {work: external/sweet-sweet-soul}
           - work: nijigasaki/muteki-kyuu-believer
             version: Short ver.
             performers:
@@ -228,22 +228,22 @@ stops:
             version: Short ver.
             performers:
               - {person: maria-sashide}
-          - {title_raw: Happy Funny Lucky}
+          - {work: external/happy-funny-lucky}
           - work: hasunosora/genyo-yako
             performers:
               - {artist: cerise-bouquet}
-          - {title_raw: Shine In the Sky☆}
+          - {work: external/shine-in-the-sky}
           - work: liella/dancing-raspberry
             performers:
               - {artist: 5yncri5e}
           - work: nijigasaki/happy-nyan-days
             performers:
               - {person: aguri-onishi}
-          - performers:
+          - work: external/cat-squad
+            performers:
               - {person: kotoko-sasaki}
               - {person: rikako-aida}
               - {person: akane-yabushima}
-            title_raw: キャットスクワッド
           - {type: mc, label: 'MC #1'}
           - {work: musical/kirari-hirari-mau-sakura}
           - {work: musical/yume-no-compass}
@@ -251,28 +251,28 @@ stops:
           - work: aqours/my-mai-tonight
             performers:
               - {person: nina-hanamiya}
-          - performers:
+          - work: external/kyouki-ranbu
+            performers:
               - {person: arisa-komiya}
               - {person: shu-uchida}
               - {person: nagisa-aoyama}
-            title_raw: 俠気乱舞
-          - {title_raw: Wandering Dream Chaser}
+          - {work: external/wandering-dream-chaser}
           - work: hasunosora/knot
             performers:
               - {artist: dollchestra}
-          - {title_raw: 無自覚アプリオリ}
+          - {work: external/mujikaku-a-priori}
           - work: nijigasaki/just-believe
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - {title_raw: Raise the FLAG}
+          - {work: external/raise-the-flag}
           - work: liella/day1
             performers:
               - {artist: liella}
-          - {title_raw: ガールズ・イン・ザ・フロンティア}
+          - {work: external/girls-in-the-frontier}
           - {type: video, label: 'Intermission #4'}
-          - performers:
+          - work: external/sayonara-andromeda
+            performers:
               - {artist: aqours}
-            title_raw: さよならアンドロメダ
           - work: liella/watashi-no-symphony
             performers:
               - {artist: liella}
@@ -282,17 +282,17 @@ stops:
               - {person: sakura-sakakura}
               - {person: nina-hanamiya}
               - {person: nozomi-nirei}
-          - performers:
+          - work: external/tracing-defender
+            performers:
               - {person: nako-misaki}
               - {person: coco-hayashi}
               - {person: shuka-saito}
               - {person: kokona-nonaka}
-            title_raw: Tracing Defender
-          - performers:
+          - work: external/harmonics
+            performers:
               - {person: arisa-komiya}
               - {person: sayuri-date}
               - {person: kona-tsukine}
-            title_raw: ハーモニクス
           - work: nijigasaki/ryoran-victory-road
             performers:
               - {person: anju-inami}
@@ -306,16 +306,16 @@ stops:
           - work: aqours/cotton-candy-ei-ei-oh
             performers:
               - {person: ai-furihata}
-          - performers:
+          - work: external/thank-you
+            performers:
               - {artist: hasunosora-girls-high-school-idol-club}
-            title_raw: Thank You!
           - {work: muse/snow-halation}
-          - performers:
+          - work: external/m-sterpiece
+            performers:
               - {artist: aqours}
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: liella}
               - {artist: hasunosora-girls-high-school-idol-club}
-            title_raw: M@STERPIECE
           - {type: mc, label: 'MC #2'}
           - {work: nijigasaki/ijigen-bigbang}
         external_ids:
@@ -324,9 +324,10 @@ external_ids:
   fandom: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://ijigen-fes.jp/utagassen/
+    checked: 2026-10-20
+    note: "rom: 공식 해외 안내 페이지 영문. 같은 페이지 큰 제목은 'IJIGEN FES THE IDOLM@STER★♥LOVELIVE! UTAGASSEN', 배신 티켓명은 이 표기라 시리즈명이 맞는 쪽을 고름. Fandom은 'Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen'. ko: 나무위키 문서명(곡 '이차원★♥BIGBANG'과 맞음) 외부 근거: rom: https://www.ijigen-fes.jp/utagassen/overseas.php ko: https://namu.wiki/w/%EC%9D%B4%EC%B0%A8%EC%9B%90%20%ED%8E%98%EC%8A%A4%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%A7%88%EC%8A%A4%ED%84%B0%E2%98%85%E2%99%A5%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%85%B8%EB%9E%98%20%EB%8C%80%ED%95%AD%EC%A0%84. 일정 조사 메모: Joint festival with THE iDOLM@STER series (outside franchise). Official event site is ijigen-fes.jp (production committee), not lovelive-anime.jp. School Idol Musical cast appeared as guests (ゲスト出演) on both days, hence musical in projects. No μ's."
   schedule:
     status: official
     source: https://ijigen-fes.jp/utagassen/

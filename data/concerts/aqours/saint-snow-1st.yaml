@@ -67,9 +67,9 @@ stops:
           - work: aqours/lonely-snow-planet
             performers:
               - {artist: saint-snow}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - work: aqours/after-the-rain
             performers:
               - {artist: saint-snow}
@@ -105,9 +105,9 @@ stops:
           - work: aqours/lonely-snow-planet
             performers:
               - {artist: saint-snow}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - work: aqours/after-the-rain
             performers:
               - {artist: saint-snow}
@@ -154,9 +154,9 @@ stops:
             performers:
               - {artist: saint-snow}
           - {type: video}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - work: aqours/over-the-next-rainbow
             performers:
               - {artist: saint-snow}
@@ -245,9 +245,10 @@ external_ids:
   fandom: Saint Snow 1st GIG ~Welcome to Dazzling White Town~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_saintsnow1st.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official shows: Yokohama Day.1 one show, Day.2 two shows (＜1回目＞13:00, ＜2回目＞18:00); Sapporo Day.1 two shows, Day.2 one show. Fandom's Makomanai Day 1 tab holds both lists (Noon/Evening); its Pia Arena MM Day 2 tab is ONE undivided list although there were two shows — mapped to both, which show it reflects is unknown. The Sapporo venue is the naming-rights name printed in 2020 (真駒内セキスイハイムアイスアリーナ; Fandom: Makomanai Ice Arena). Fandom's title_ja lacks the closing ～."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_saintsnow1st.php

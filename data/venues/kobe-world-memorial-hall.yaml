@@ -3,11 +3,12 @@ city: hyogo
 names:
   ja: 神戸ワールド記念ホール
   rom: Kobe World Memorial Hall
-  ko: 코베 월드 기념 홀
+  ko: 고베 월드 기념홀
 external_ids:
   fandom: World Memorial Hall
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_2ndlive.php
+    checked: 2026-10-20
+    note: 'ja: 공식 표기(공연 당시), rom·ko: 초안 ko: D49: 일본 지명은 외래어 표기법(어두 평음, つ→쓰. 나무위키 표제와 같음).'

@@ -16,6 +16,10 @@ given_name:
   ko: 마사유키
 evidence:
   names:
-    status: draft
-    source: automation/review/LLA-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 こんどう まさゆき(본인 공식 사이트 프로필 "近藤 真之 (コンドウ マサユキ)") rom: 본인 공식 사이트 Masayuki Kondo (Fandom도 같음), ko: 규칙 (나무위키 콘도 마사히코는 읽기 오류) 외부 근거: https://www.masagalaxy.com/blank-1 https://namu.wiki/w/%E7%B5%90%E3%81%B3%E8%91%89'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

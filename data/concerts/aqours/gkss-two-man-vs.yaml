@@ -35,9 +35,9 @@ stops:
           - work: aqours/kowareyasuki
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc, label: MC by Saint Snow}
           - work: aqours/dazzling-white-town
             performers:
@@ -94,9 +94,9 @@ stops:
           - work: aqours/new-romantic-sailors
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc, label: MC by Saint Snow}
           - work: aqours/dazzling-white-town
             performers:
@@ -152,9 +152,10 @@ external_ids:
   fandom: Guilty Kiss × Saint Snow TWO-MAN LIVE "VS"
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=GKSS_TWO-MAN
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=GKSS_TWO-MAN

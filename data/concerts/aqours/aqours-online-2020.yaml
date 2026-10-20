@@ -27,7 +27,7 @@ stops:
             performers:
               - {artist: azalea}
           - {type: video}
-          - {title_raw: シャゼリア☆キッス☆ダダンダーン}
+          - {work: aqours/cyazalea-kiss-dadandaaan}
           - {type: video, label: Aqours Opening}
           - work: aqours/fantastic-departure
             performers:
@@ -73,7 +73,7 @@ stops:
             performers:
               - {artist: azalea}
           - {type: video}
-          - {title_raw: シャゼリア☆キッス☆ダダンダーン}
+          - {work: aqours/cyazalea-kiss-dadandaaan}
           - {type: video, label: Aqours Opening}
           - work: aqours/fantastic-departure
             performers:
@@ -181,9 +181,10 @@ external_ids:
   fandom: Aqours ONLINE LoveLive!
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_onlinelive.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Two no-audience paid live streams with their own official titles: 「ラブライブ！サンシャイン!! Aqours ONLINE LoveLive! ～LOST WORLD～」 (sp_onlinelive.php) and 「ラブライブ！サンシャイン!! Aqours COUNTDOWN LoveLive! ～WHITE ISLAND～」 (sp_countdown.php). No official page names both; the umbrella title_ja follows the joint Blu-ray 「ラブライブ！サンシャイン!! Aqours ONLINE LoveLive! Blu-ray Memorial BOX」 (LABX-8480; product title seen on a retailer listing, https://shopping.bookoff.co.jp/used/0019614488). The Fandom page's own {{Nihongo}} is garbled (「ブライブ！サンシャイン!! Aqours ONLINE LoveLive!-」). The official pages name no studio, so venue is only online. Dates are the live-stream dates (Day.2 of WHITE ISLAND started 22:30 on 12-31)."
   schedule.1-online:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_onlinelive.php

@@ -42,9 +42,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/LLA-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
+    checked: 2026-10-20
+    note: AiScReam의 시리즈 카드게임 테마송이지만 크로스 프로젝트 곡은 대표 어댑터의 프로젝트 아래에 둔다(D45, nijigasaki/bring-the-love와 같음).
   credits:
     status: official
     source: https://music.youtube.com/watch?v=M2k_ugNeAzI

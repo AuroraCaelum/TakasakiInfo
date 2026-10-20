@@ -172,9 +172,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%8D%E3%81%A3%E3%81%A8%E9%9D%92%E6%98%A5%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B https://love-live.fandom.com/wiki/Kitto_Seishun_ga_Kikoeru'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20

@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-2-episode-6-who-ll-laugh-first-prank-showdown
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ2章6話 誰が笑うか、いたずら勝負！
+  rom: Radio Drama Chapter 2 Episode 6 Who'll laugh first, prank showdown!
+  ko: 라디오 드라마 2장 6화 누가 웃을까, 장난 승부!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음) 검수(2026-10-20) 번역안을 다듬음.'

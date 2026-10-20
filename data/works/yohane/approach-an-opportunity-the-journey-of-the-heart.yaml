@@ -4,7 +4,7 @@ project: yohane
 title:
   ja: 接近！好機？心の旅
   rom: Approach! An Opportunity? The Journey Of The Heart
-  ko: 접근! 호기? 마음의 여행
+  ko: 접근! 호기? 심(心)의 여행
 recordings:
   - id: main
     kind: drama
@@ -15,6 +15,7 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/YHN-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=5
+    checked: 2026-10-20
+    note: "ja: 공식 페이지(ドラマ『』 안의 제목). rom: Fandom 영역(Koukishin Journey 문서 트랙 목록의 lit. 표기), ko: 번역안(나무위키 미게재), 확인 필요. 好機+心은 수록곡 好奇心ジャーニー(호기심 저니)에 맞춘 말장난이라 ko도 好機를 호기로 둠 외부 근거: https://love-live.fandom.com/wiki/Koukishin_Journey ko: 검수(2026-10-20) 心도 '심'으로 옮겨 好機+心=好奇心(호기심) 말장난을 살림."

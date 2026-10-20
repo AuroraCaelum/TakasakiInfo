@@ -13,6 +13,10 @@ given_name:
   ko: 토시노리
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://music.youtube.com/watch?v=Udqcpbt7TGw
+    checked: 2026-10-20
+    note: "공식 사이트 미게재(BD 특전 곡 「もしもからきっと」 편곡). ja: Fandom·나무위키의 한자 표기, rom: 레이블 배포 메타데이터 'Toshinori Moriya'(Fandom도 같음), ko: 나무위키. 읽기는 공식 후리가나 없음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

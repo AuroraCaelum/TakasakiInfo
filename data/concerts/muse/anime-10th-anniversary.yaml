@@ -228,7 +228,7 @@ stops:
     performances:
       - date: 2024-03-30
         setlist:
-          - {title_raw: 始まりの朝（メインテーマ）}
+          - {work: muse/hajimari-no-asa-main-theme}
           - work: muse/bokura-wa-ima-no-naka-de
             performers:
               - {character: muse/honoka-kosaka}
@@ -237,32 +237,33 @@ stops:
               - {character: muse/rin-hoshizora}
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
-          - {title_raw: Private Wars / 絶望}
+          - {work: muse/private-wars}
+          - {work: muse/zetsubou}
           - {work: muse/aishiteru-banzai}
-          - {title_raw: 幼き日の夕陽}
+          - {work: muse/osanaki-hi-no-yuuhi}
           - {work: muse/susume-tomorrow}
-          - {title_raw: 気まずい空気}
-          - {title_raw: 憂いの夕暮れ}
+          - {work: muse/kimazui-kuuki}
+          - {work: muse/urei-no-yuugure}
           - {work: muse/start-dash, version: Piano ver.}
-          - {title_raw: 友情}
-          - {title_raw: 作戦開始}
-          - {title_raw: 誰もいない}
+          - {work: muse/yuujou}
+          - {work: muse/sakusen-kaishi}
+          - {work: muse/daremo-inai}
           - {work: muse/start-dash}
-          - {title_raw: 花陽の決意}
-          - {title_raw: 強き者}
-          - {title_raw: にこの過去}
+          - {work: muse/hanayo-no-ketsui}
+          - {work: muse/tsuyoki-mono}
+          - {work: muse/nico-no-kako}
           - {work: muse/korekara-no-someday}
-          - {title_raw: 過ぎ去りし日々}
-          - {title_raw: 絵里のやりたいこと}
-          - {title_raw: μ'sのはじまり}
+          - {work: muse/sugisarishi-hibi}
+          - {work: muse/eli-no-yaritai-koto}
+          - {work: muse/s-no-hajimari}
           - {work: muse/bokura-no-live-kimi-to-no-life}
-          - {title_raw: 大切なもの}
+          - {work: muse/taisetsu-na-mono}
           - {work: muse/wonder-zone}
-          - {title_raw: 逆境からのスタート}
+          - {work: muse/gyakkyou-kara-no-start}
           - {work: muse/no-brand-girls}
-          - {title_raw: 未練}
-          - {title_raw: はなればなれ}
-          - {title_raw: 始まりの朝（メインテーマ）}
+          - {work: muse/miren}
+          - {work: muse/hanarebanare}
+          - {work: muse/hajimari-no-asa-main-theme}
           - {work: muse/start-dash}
           - work: muse/kitto-seishun-ga-kikoeru
             performers:
@@ -273,8 +274,8 @@ stops:
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
           - {type: other, label: Interval}
-          - {title_raw: 新生徒会長登場}
-          - {version: ミュージカルver., title_raw: これまでのラブライブ! ~ミュージカルver.~}
+          - {work: muse/shin-seito-kaichou-toujou}
+          - {work: muse/koremade-no-love-live, version: ミュージカルver.}
           - work: muse/sore-wa-bokutachi-no-kiseki
             performers:
               - {character: muse/honoka-kosaka}
@@ -283,25 +284,25 @@ stops:
               - {character: muse/rin-hoshizora}
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
-          - {title_raw: 大変です!!!}
-          - {title_raw: いつもどんなときも、全員のために}
-          - {title_raw: Shocking Party}
+          - {work: muse/taihen-desu}
+          - {work: muse/itsumo-donna-toki-mo-zen-in-no-tame-ni}
+          - {work: muse/shocking-party}
           - {work: muse/yume-no-tobira}
-          - {title_raw: 凛の戸惑い}
+          - {work: muse/rin-no-tomadoi}
           - {work: muse/love-wing-bell}
-          - {title_raw: ハロウィーン・ストリート}
-          - {title_raw: 軽やかな昼下がりB}
+          - {work: muse/halloween-street}
+          - {work: muse/karoyaka-na-hirusagari-b}
           - {work: muse/dancing-stars-on-me}
-          - {title_raw: 希の胸の内}
-          - {title_raw: みんなが支えてくれる}
-          - {title_raw: 雪の降る街}
+          - {work: muse/nozomi-no-mune-no-uchi}
+          - {work: muse/minna-ga-sasaete-kureru}
+          - {work: muse/yuki-no-furu-machi}
           - {work: muse/snow-halation}
-          - {title_raw: すぐ先にある未来}
-          - {title_raw: 悲しみの夜}
-          - {title_raw: 始まりの朝（メインテーマ）}
-          - {title_raw: ラブライブ! 決勝}
+          - {work: muse/sugu-saki-ni-aru-mirai}
+          - {work: muse/kanashimi-no-yoru}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/love-live-kesshou}
           - {work: muse/kira-kira-sensation}
-          - {title_raw: 夢のあと}
+          - {work: muse/yume-no-ato}
           - {work: muse/bokura-wa-ima-no-naka-de}
           - {work: muse/aishiteru-banzai}
           - {work: muse/oh-love-peace}
@@ -328,7 +329,7 @@ stops:
           fandom: Orchestra Concert|Day 1
       - date: 2024-03-31
         setlist:
-          - {title_raw: 始まりの朝（メインテーマ）}
+          - {work: muse/hajimari-no-asa-main-theme}
           - work: muse/bokura-wa-ima-no-naka-de
             performers:
               - {character: muse/honoka-kosaka}
@@ -337,32 +338,33 @@ stops:
               - {character: muse/rin-hoshizora}
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
-          - {title_raw: Private Wars / 絶望}
+          - {work: muse/private-wars}
+          - {work: muse/zetsubou}
           - {work: muse/aishiteru-banzai}
-          - {title_raw: 幼き日の夕陽}
+          - {work: muse/osanaki-hi-no-yuuhi}
           - {work: muse/susume-tomorrow}
-          - {title_raw: 気まずい空気}
-          - {title_raw: 憂いの夕暮れ}
+          - {work: muse/kimazui-kuuki}
+          - {work: muse/urei-no-yuugure}
           - {work: muse/start-dash, version: Piano ver.}
-          - {title_raw: 友情}
-          - {title_raw: 作戦開始}
-          - {title_raw: 誰もいない}
+          - {work: muse/yuujou}
+          - {work: muse/sakusen-kaishi}
+          - {work: muse/daremo-inai}
           - {work: muse/start-dash}
-          - {title_raw: 花陽の決意}
-          - {title_raw: 強き者}
-          - {title_raw: にこの過去}
+          - {work: muse/hanayo-no-ketsui}
+          - {work: muse/tsuyoki-mono}
+          - {work: muse/nico-no-kako}
           - {work: muse/korekara-no-someday}
-          - {title_raw: 過ぎ去りし日々}
-          - {title_raw: 絵里のやりたいこと}
-          - {title_raw: μ'sのはじまり}
+          - {work: muse/sugisarishi-hibi}
+          - {work: muse/eli-no-yaritai-koto}
+          - {work: muse/s-no-hajimari}
           - {work: muse/bokura-no-live-kimi-to-no-life}
-          - {title_raw: 大切なもの}
+          - {work: muse/taisetsu-na-mono}
           - {work: muse/wonder-zone}
-          - {title_raw: 逆境からのスタート}
+          - {work: muse/gyakkyou-kara-no-start}
           - {work: muse/no-brand-girls}
-          - {title_raw: 未練}
-          - {title_raw: はなればなれ}
-          - {title_raw: 始まりの朝（メインテーマ）}
+          - {work: muse/miren}
+          - {work: muse/hanarebanare}
+          - {work: muse/hajimari-no-asa-main-theme}
           - {work: muse/start-dash}
           - work: muse/kitto-seishun-ga-kikoeru
             performers:
@@ -373,8 +375,8 @@ stops:
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
           - {type: other, label: Interval}
-          - {title_raw: 新生徒会長登場}
-          - {version: ミュージカルver., title_raw: これまでのラブライブ! ~ミュージカルver.~}
+          - {work: muse/shin-seito-kaichou-toujou}
+          - {work: muse/koremade-no-love-live, version: ミュージカルver.}
           - work: muse/sore-wa-bokutachi-no-kiseki
             performers:
               - {character: muse/honoka-kosaka}
@@ -383,25 +385,25 @@ stops:
               - {character: muse/rin-hoshizora}
               - {character: muse/maki-nishikino}
               - {character: muse/nozomi-tojo}
-          - {title_raw: 大変です!!!}
-          - {title_raw: いつもどんなときも、全員のために}
-          - {title_raw: Shocking Party}
+          - {work: muse/taihen-desu}
+          - {work: muse/itsumo-donna-toki-mo-zen-in-no-tame-ni}
+          - {work: muse/shocking-party}
           - {work: muse/yume-no-tobira}
-          - {title_raw: 凛の戸惑い}
+          - {work: muse/rin-no-tomadoi}
           - {work: muse/love-wing-bell}
-          - {title_raw: ハロウィーン・ストリート}
-          - {title_raw: 軽やかな昼下がりB}
+          - {work: muse/halloween-street}
+          - {work: muse/karoyaka-na-hirusagari-b}
           - {work: muse/dancing-stars-on-me}
-          - {title_raw: 希の胸の内}
-          - {title_raw: みんなが支えてくれる}
-          - {title_raw: 雪の降る街}
+          - {work: muse/nozomi-no-mune-no-uchi}
+          - {work: muse/minna-ga-sasaete-kureru}
+          - {work: muse/yuki-no-furu-machi}
           - {work: muse/snow-halation}
-          - {title_raw: すぐ先にある未来}
-          - {title_raw: 悲しみの夜}
-          - {title_raw: 始まりの朝（メインテーマ）}
-          - {title_raw: ラブライブ! 決勝}
+          - {work: muse/sugu-saki-ni-aru-mirai}
+          - {work: muse/kanashimi-no-yoru}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/love-live-kesshou}
           - {work: muse/kira-kira-sensation}
-          - {title_raw: 夢のあと}
+          - {work: muse/yume-no-ato}
           - {work: muse/bokura-wa-ima-no-naka-de}
           - {work: muse/aishiteru-banzai}
           - {work: muse/oh-love-peace}
@@ -437,9 +439,10 @@ external_ids:
   fandom: Love Live! Anime 10th Anniversary
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    checked: 2026-10-20
+    note: "rom: 공식 페이지 해외 안내의 'Love Live! Anime 10th Anniversary Special Talk Session / Orchestra Concert'에서 공통 부분(Fandom과 같음). ko: 나무위키 표기 'TV 애니메이션 방송 10주년 기념'(나무위키는 앞에 '러브 라이브!'를 붙임) 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/ ko: https://namu.wiki/w/LoveLive!%20Orchestra%20Concert. 일정 조사 메모: No umbrella title is printed: the official events are 「TVアニメ放送10周年記念 LoveLive! Special Talk Session」, 「TVアニメ放送10周年記念 LoveLive! Orchestra Concert」 (and its ＜再演＞) and the kick-off 「TV アニメ放送10 周年記念 「LoveLive! Overseas Events」キックオフミーティング」; title_ja uses their common prefix (= Fandom's Nihongo). VENUE CONFLICT: Fandom puts the Kick-Off Meeting at Tokyo Garden Theater, but its official page (lovelive-overseas.bitfan.id, organizer SPACEY MUSIC ENTERTAINMENT, Project Love Live! cooperation) gives 恵比寿ザ・ガーデンホール, 2024-02-25, 1部 13:00 / 2部 17:00 (printed with Kangxi-radical 「恵⽐寿」, normalized); en_fandom left null for it. Special Talk Session labels follow the official English (DAY / NIGHT on Day.2). The Orchestra Concert revival (2025-01-04/05, same venue, official page) has no Fandom tab, so it is listed without fandom."
   schedule.1-tokyo:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/

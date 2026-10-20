@@ -653,7 +653,7 @@ stops:
           fandom: Miyagi|Day 2 (Night)
   - id: 5-aichi
     city: aichi
-    venue: niterra-japan-specialty-ceramic-industry-civic-center-forest-hall
+    venue: niterra-hall-forest-hall
     performances:
       - date: 2025-08-16
         setlist:
@@ -979,9 +979,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club LIVE & FAN MEETING TOUR Nijigaku Kougai Gakushuu ~Utaou♪ Odorou♪ Katarou♪
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025
+    checked: 2026-10-20
+    note: "공식 영문 없음. 일본어 부분은 Fandom 표기인데 Fandom이 붙인 '~'와 ♪ 뒤 공백은 공식 ja에 없어 뺌. 전각 ＆는 'LIVE & FAN'으로(다른 공연의 반각 표기와 같게). ko: 나무위키 문서명(니지가사키학원 → 니지가사키 학원) 외부 근거: rom: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20LIVE%EF%BC%86FAN%20MEETING%20TOUR%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%BF%A0%20%EA%B5%90%EC%99%B8%ED%95%99%EC%8A%B5%20%EB%85%B8%EB%9E%98%ED%95%98%EC%9E%90%E2%99%AA%EC%B6%A4%EC%B6%94%EC%9E%90%E2%99%AA%EC%9D%B4%EC%95%BC%EA%B8%B0%ED%95%98%EC%9E%90%E2%99%AA. 일정 조사 메모: Day 2 of every stop had ＜昼公演＞ and ＜夜公演＞ (English section: \"Day.2/DAY\", \"Day.2/NIGHT\"); Fandom has a separate tab for each. Official title has no ～ before 歌おう (Fandom writes \"~Utaou♪…\"). Existing venues: orix-theater, sendai-sun-plaza-hall, and niterra-japan-specialty-ceramic-industry-civic-center, which the 2025 page prints with the newer \"Niterra\" prefix (Liella! 1st in 2021 has it as 日本特殊陶業市民会館フォレストホール): a period name of the same venue. 幕張イベントホール is the same hall as 幕張メッセイベントホール (UNIT LIVE & FAN MEETING 2021); rom/ko kept identical so they can merge. 福岡市民ホール (opened 2025) gives no English name for 大ホール: rom follows the dataset's 大ホール → \"Main Hall\" pattern (Fandom: \"Large Hall\")."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025

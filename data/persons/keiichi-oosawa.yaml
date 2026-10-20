@@ -13,6 +13,10 @@ given_name:
   ko: 케이이치
 evidence:
   names:
-    status: draft
-    source: automation/review/MSC-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://utaten.com/artist/lyric/46385
+    checked: 2026-10-20
+    note: "ja: 공식 미게재(공식 뮤지컬 페이지는 「パフェパフェ行進曲」에 가창자만 싣고, 레이블 배포 메타데이터의 편곡 크레딧은 라틴 표기뿐). 한자 표기는 UtaTen(Fandom과 일치). rom: 레이블 배포 메타데이터의 라틴 크레딧 'Keiichi Oosawa'(공식 라틴, D42 (3)), ko: 나무위키 앨범 문서 '오오사와 케이이치'. 읽기는 공식 후리가나 없음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

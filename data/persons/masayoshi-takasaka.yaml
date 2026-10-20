@@ -16,6 +16,10 @@ given_name:
   ko: 마사요시
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 たかさか まさよし(위키백과) rom: Fandom, ko: 나무위키(SENTIMENTAL StepS 문서 타카사카 마사요시) 외부 근거: https://ja.wikipedia.org/wiki/%E9%AB%98%E9%98%AA%E6%98%8C%E8%87%B3 https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/SENTIMENTAL%20StepS'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -9,7 +9,7 @@ stops:
   - id: 1-tokyo
     city: tokyo
     label: Mira-Cra Park! presents Heart Stage
-    venue: yoyogi-national-gymnasium-first-gymnasium
+    venue: yoyogi-national-stadium-first-gymnasium
     performances:
       - date: 2025-10-04
         setlist:
@@ -987,9 +987,10 @@ external_ids:
   fandom: Hasunosora Girls' High School Idol Club 5th Live Tour ~4Pair Power Spread!!!!~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=4PPS
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official full name of the Tokyo stop is ＜みらくらぱーく！ presents Heart Stage cross Bloom Days Extra ～Fes×ReC：LIVE～＞ (official English: \"Mira-Cra Park! presents Heart Stage cross Bloom Days Extra ～Fes×ReC：LIVE～\"). The label uses Fandom's shorter form. The page says this stop alone opened with a virtual live by the members. Fandom lists that virtual live as its own section with one untitled tab, marked \"Same on both days\", so it is mapped to both Tokyo shows next to the \"Live\" tabs. The Aichi venue is the existing venue aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a, with its names reused exactly. The 102nd-class cast did not perform on this tour."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=4PPS

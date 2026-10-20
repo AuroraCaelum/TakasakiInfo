@@ -3,11 +3,12 @@ city: tokyo
 names:
   ja: 豊洲PIT
   rom: Toyosu PIT
-  ko: 토요스 PIT
+  ko: 도요스 PIT
 external_ids:
   fandom: Toyosu PIT
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2024
+    checked: 2026-10-20
+    note: 'ja: 공식 표기(공연 당시), rom·ko: 초안 ko: D49: 일본 지명은 외래어 표기법(어두 평음, つ→쓰. 나무위키 표제와 같음).'

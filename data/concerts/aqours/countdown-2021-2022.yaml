@@ -128,9 +128,10 @@ external_ids:
   fandom: LoveLive! Series Presents COUNTDOWN LoveLive! 2021→2022 〜LIVE with a smile!〜
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd13.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No live detail page was found on the official site; the date and venue are printed on the official theme song CD page (「LIVE with a smile!」, Liella! site, cd13.php: 開催日程 2021年12月31日(金) / 会場 ぴあアリーナMM).'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd13.php

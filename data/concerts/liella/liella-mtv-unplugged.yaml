@@ -39,9 +39,9 @@ stops:
               - {character: liella/keke-tang}
               - {character: liella/chisato-arashi}
               - {character: liella/sumire-heanna}
-          - performers:
+          - work: external/hoshi-ni-negai-o
+            performers:
               - {artist: liella}
-            title_raw: 星に願いを
           - work: liella/matataki-no-saki-e
             performers:
               - {artist: liella}
@@ -110,9 +110,9 @@ stops:
               - {character: liella/keke-tang}
               - {character: liella/chisato-arashi}
               - {character: liella/sumire-heanna}
-          - performers:
+          - work: external/hoshi-meguri-no-uta
+            performers:
               - {artist: liella}
-            title_raw: 星巡りの歌
           - work: liella/matataki-no-saki-e
             performers:
               - {artist: liella}
@@ -156,9 +156,10 @@ external_ids:
   fandom: 'MTV Unplugged Presents: LoveLive! Superstar!! Liella!'
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_mtv/
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Acoustic live (主催: 株式会社エニー / ぴあ株式会社 / プロジェクトラブライブ！スーパースター!!). The official title has no Japanese series prefix.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/sp_mtv/

@@ -362,9 +362,9 @@ stops:
     performances:
       - date: 2022-06-25
         setlist:
-          - performers:
+          - work: aqours/main-theme-of-lovelive-sunshine
+            performers:
               - {artist: uranohoshi-symphony-orchestra}
-            title_raw: Main theme of Lovelive! Sunshine!!
           - work: aqours/nando-datte-yakusoku
             performers:
               - {artist: aqours}
@@ -399,9 +399,9 @@ stops:
           - work: aqours/motto-zutto-be-with-you
             performers:
               - {character: aqours/dia-kurosawa}
-          - performers:
+          - work: aqours/zenkai-no-love-live-sunshine
+            performers:
               - {artist: uranohoshi-symphony-orchestra}
-            title_raw: 前回のラブライブ！サンシャイン!!
           - {type: video, label: Kyou no Aqours intermission}
           - {type: video, label: Orchestral intermission}
           - {type: other, label: Maiorita Kiseki (舞い降りた奇跡)}
@@ -423,9 +423,9 @@ stops:
           - work: aqours/i-n-g-i-try
             performers:
               - {artist: aqours}
-          - performers:
+          - work: aqours/zenkai-no-love-live-sunshine
+            performers:
               - {artist: uranohoshi-symphony-orchestra}
-            title_raw: 前回のラブライブ！サンシャイン!!
           - {type: video, label: Kyou no Aqours intermission}
           - {type: video, label: Orchestral intermission}
           - {type: other, label: DETERMINATION}
@@ -466,9 +466,9 @@ stops:
           fandom: WINDY STAGE|Day 1
       - date: 2022-06-26
         setlist:
-          - performers:
+          - work: aqours/main-theme-of-lovelive-sunshine
+            performers:
               - {artist: uranohoshi-symphony-orchestra}
-            title_raw: Main theme of Lovelive! Sunshine!!
           - work: aqours/nando-datte-yakusoku
             performers:
               - {artist: aqours}
@@ -577,9 +577,10 @@ external_ids:
   fandom: Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official pages print the apostrophes as ASCII ('n'), the Fandom title_ja uses ‘n’. WINDY STAGE was announced as an additional show (追加公演) and has its own page (sp_6thlive_w.php). The original 「Aqours 6th LoveLive! DOME TOUR 2020」 (Nagoya/Saitama/Tokyo/Fukuoka/Osaka, 2020-09 to 2021-01, sp_dometour.php) was cancelled and is not included."
   schedule.1-aichi:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php

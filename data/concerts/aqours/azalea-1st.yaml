@@ -152,9 +152,10 @@ external_ids:
   fandom: AZALEA 1st LoveLive! ~In The Dark /*Himitsu no Story*/~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ.php
+    checked: 2026-10-20
+    note: "rom: 공식 월드와이드 뉴스의 영문 제목 그대로(Fandom과 같음). ko: 나무위키 문서명(秘密の物語 → 비밀 이야기) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20AZALEA%201st%20LoveLive!%20~In%20The%20Dark%20/*%EB%B9%84%EB%B0%80%20%EC%9D%B4%EC%95%BC%EA%B8%B0*/~. 일정 조사 메모: The official page prints the title with furigana (秘密(ひみつ)の物語(ストーリー)); the ruby is dropped here. AZALEA's earlier first-live attempts (AZALEA First LOVELIVE! ～Amazing Travel DNA～, Sendai 2020, and ～TRY AGAIN, 2021-02-27/28 at Musashino, sp_azalea1st.php) were not held (COVID-19, per Fandom) and have no set lists."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_AZ.php

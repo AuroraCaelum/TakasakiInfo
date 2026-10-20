@@ -16,6 +16,10 @@ given_name:
   ko: 료
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 たかはし りょう(위키백과 高橋諒 (音楽家)) rom: 소속사 아르타스(株式会社アルタス) 크리에이터 소개 "高橋 諒 Ryo TAKAHASHI a.k.a. Void_Chords" (대문자만 고침. Fandom 미게재), ko: 나무위키(μ’s/앨범 문서 리믹서 타카하시 료). Void_Chords 명의로도 활동(data에 없음) 외부 근거: https://www.artus.co.jp/ https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E8%AB%92_%28%E9%9F%B3%E6%A5%BD%E5%AE%B6%29 https://namu.wiki/w/%CE%BC%E2%80%99s%2F%EC%95%A8%EB%B2%94'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

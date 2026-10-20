@@ -3,7 +3,7 @@ project: liella
 title:
   ja: 真っ赤。
   rom: Makka.
-  ko: 새빨간.
+  ko: 새빨개.
 credits:
   lyricist:
     - {person: junko-miyajima}
@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/LLA-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%80%82 https://love-live.fandom.com/wiki/Makka. ko: 검수(2026-10-20) 마침표로 끝나는 서술이라 서술형으로(나무위키는 새빨간.).'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php

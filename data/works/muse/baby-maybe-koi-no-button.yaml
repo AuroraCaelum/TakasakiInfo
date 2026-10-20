@@ -85,9 +85,10 @@ recordings:
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(문서 첫머리 표기. 문서 제목은 첫 글자만 대문자), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/baby%20maybe%20%E6%81%8B%E3%81%AE%E3%83%9C%E3%82%BF%E3%83%B3 https://love-live.fandom.com/wiki/Baby_maybe_Koi_no_Button'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02

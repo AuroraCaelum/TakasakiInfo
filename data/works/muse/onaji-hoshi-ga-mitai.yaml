@@ -44,9 +44,10 @@ recordings:
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-sofmap
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%90%8C%E3%81%98%E6%98%9F%E3%81%8C%E8%A6%8B%E3%81%9F%E3%81%84 https://love-live.fandom.com/wiki/Onaji_Hoshi_ga_Mitai'
   credits:
     status: official
     source: https://music.youtube.com/watch?v=6GcHmClabIk

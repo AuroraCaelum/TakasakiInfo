@@ -80,6 +80,7 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+    checked: 2026-10-20
+    note: 'rom·ko: Ⅱ(로마 숫자 기호)를 라틴 문자 II로 씀(검색 용이성). ja는 인쇄대로 Ⅱ'

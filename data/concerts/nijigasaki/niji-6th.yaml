@@ -48,12 +48,12 @@ stops:
           - work: nijigasaki/lemonade
             performers:
               - {character: nijigasaki/mia-taylor}
-          - performers:
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
               - {character: nijigasaki/kasumi-nakasu}
               - {character: nijigasaki/shizuku-osaka}
               - {character: nijigasaki/rina-tennoji}
               - {character: nijigasaki/shioriko-mifune}
-            title_raw: Waku Waku! Monday Morning
           - work: nijigasaki/koisuru-sunflower
             performers:
               - {character: nijigasaki/emma-verde}
@@ -66,9 +66,9 @@ stops:
           - work: nijigasaki/twinkle-town
             performers:
               - {artist: qu4rtz}
-          - performers:
+          - work: external/santa-ga-machi-ni-yattekuru
+            performers:
               - {artist: nijigasaki-high-school-idol-club}
-            title_raw: サンタが街にやってくる
           - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
             version: 13-Member version
             performers:
@@ -135,12 +135,12 @@ stops:
           - work: nijigasaki/my-shadow
             performers:
               - {character: nijigasaki/karin-asaka}
-          - performers:
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
               - {character: nijigasaki/kasumi-nakasu}
               - {character: nijigasaki/shizuku-osaka}
               - {character: nijigasaki/rina-tennoji}
               - {character: nijigasaki/shioriko-mifune}
-            title_raw: Waku Waku! Monday Morning
           - work: nijigasaki/5201315
             performers:
               - {character: nijigasaki/lanzhu-zhong}
@@ -174,9 +174,9 @@ stops:
           - work: nijigasaki/twinkle-town
             performers:
               - {artist: qu4rtz}
-          - performers:
+          - work: external/santa-ga-machi-ni-yattekuru
+            performers:
               - {artist: nijigasaki-high-school-idol-club}
-            title_raw: サンタが街にやってくる
           - work: nijigasaki/wawawa-what-s-up
             version: 13-Member version
             performers:
@@ -267,12 +267,12 @@ stops:
           - work: nijigasaki/lemonade
             performers:
               - {character: nijigasaki/mia-taylor}
-          - performers:
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
               - {character: nijigasaki/kasumi-nakasu}
               - {character: nijigasaki/shizuku-osaka}
               - {character: nijigasaki/rina-tennoji}
               - {character: nijigasaki/shioriko-mifune}
-            title_raw: Waku Waku! Monday Morning
           - work: nijigasaki/koisuru-sunflower
             performers:
               - {character: nijigasaki/emma-verde}
@@ -351,12 +351,12 @@ stops:
           - work: nijigasaki/my-shadow
             performers:
               - {character: nijigasaki/karin-asaka}
-          - performers:
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
               - {character: nijigasaki/kasumi-nakasu}
               - {character: nijigasaki/shizuku-osaka}
               - {character: nijigasaki/rina-tennoji}
               - {character: nijigasaki/shioriko-mifune}
-            title_raw: Waku Waku! Monday Morning
           - work: nijigasaki/5201315
             performers:
               - {character: nijigasaki/lanzhu-zhong}
@@ -445,9 +445,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club 6th Live! I love You ⇆ You love Me
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_6thlive
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop names ＜愛知公演＞ and ＜神奈川公演＞. Aichi is the existing venue aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a (the page prints \"Aichi Sky Expo(愛知県国際展示場) ホールA\"). The official page prints \"Ｋアリーナ横浜\" with a full-width Ｋ; ja here uses the venue's own half-width spelling Kアリーナ横浜 (NFKC-equal)."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_6thlive

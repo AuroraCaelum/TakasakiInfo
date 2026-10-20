@@ -13,6 +13,10 @@ given_name:
   ko: 슌
 evidence:
   names:
-    status: draft
-    source: automation/review/NJG-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기는 신뢰할 출처를 찾지 못해 비움 rom: Fandom(Kokoro TAKE OFF 문서 Shun Nakajima), ko: 나무위키(ココロ TAKE OFF 문서 크레딧 나카지마 슌(中島 駿)) 외부 근거: https://love-live.fandom.com/wiki/Kokoro_TAKE_OFF https://namu.wiki/w/%E3%82%B3%E3%82%B3%E3%83%AD%20TAKE%20OFF'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -39,6 +39,7 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제는 라틴 원문 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'

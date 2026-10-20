@@ -87,9 +87,10 @@ external_ids:
   fandom: "Hasunosora Girls' High School Idol Club: Mira-Cra Park! Radio Public Recording ~Natsu no Daihoshuu Matsuri~"
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR
+    checked: 2026-10-20
+    note: "rom: 공식 영문 없음. 夏の大補習まつり는 Fandom, ラジオ公開録音은 Fandom이 'Radio Public Recording'으로 번역해서 규칙으로(Radio Koukai Rokuon). Fandom이 넣은 ':'는 뺌. ko: 나무위키 표기 없음. 補習은 나무위키 라디오명 '미라쿠라 보충학습실 라디오'에 맞춰 '보충학습', まつり는 번역(축제) 외부 근거: rom: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club:_Mira-Cra_Park!_Radio_Public_Recording_~Natsu_no_Daihoshuu_Matsuri~ ko: 번역안. 일정 조사 메모: This is a public radio recording by Mira-Cra Park! with a live part, which Fandom lists as a set list. It is kept as an event of the franchise's own performers. The page lists 8/24 as ＜昼公演＞ at 14:00 and ＜夜公演＞ at 17:30, and its English text uses [Day.1] and [Day.2] <DAY>/<NIGHT>. Guests: Cerise Bouquet on 8/23 and DOLLCHESTRA at the 8/24 day show."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR

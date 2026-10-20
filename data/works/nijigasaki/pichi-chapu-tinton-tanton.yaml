@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/NJG-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%94%E3%83%81%E3%83%81%E3%83%A3%E3%83%97%E3%83%86%E3%82%A3%E3%83%B3%E3%83%88%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%88%E3%83%B3 https://love-live.fandom.com/wiki/Pichi_Chapu_Tinton_Tanton'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726

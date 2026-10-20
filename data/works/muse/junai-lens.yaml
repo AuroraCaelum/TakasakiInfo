@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20
+    note: "ja: 공식 페이지. rom: Fandom(헵번식 규칙이면 Jun'ai Lens. Fandom도 乙女式れんあい塾은 Ren'ai로 씀, 기존 데이터 Kuuchuu Ren'ai Ron), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E7%B4%94%E6%84%9B%E3%83%AC%E3%83%B3%E3%82%BA https://love-live.fandom.com/wiki/Junai_Lens"
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12

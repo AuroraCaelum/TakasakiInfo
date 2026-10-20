@@ -85,9 +85,10 @@ recordings:
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%8F%8B%E6%83%85%E3%83%8E%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8 https://love-live.fandom.com/wiki/Yuujou_No_Change'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01

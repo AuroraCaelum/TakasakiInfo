@@ -16,6 +16,10 @@ given_name:
   ko: 타카히로
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 やまだ たかひろ(위키백과) rom: 본인 공식 사이트 "山田高弘 / Takahiro Yamada" (Fandom도 같음), ko: 나무위키(僕らのLIVE 君とのLIFE·Snow halation·なってしまった！·LOVELESS WORLD 문서 야마다 타카히로) 외부 근거: http://yamadaman.jp/ https://ja.wikipedia.org/wiki/%E5%B1%B1%E7%94%B0%E9%AB%98%E5%BC%98 https://namu.wiki/w/Snow%20halation https://love-live.fandom.com/wiki/Composers_and_Arrangers'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

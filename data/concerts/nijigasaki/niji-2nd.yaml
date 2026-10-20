@@ -294,9 +294,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club 2nd Live!
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 무관객 유료 생배송(無観客有料生配信). The official page lists two separately titled lives, 「…2nd Live! Brand New Story」 (2020-09-12, ＜1回目＞開演12:30 and ＜2回目＞開演18:00) and 「…2nd Live! Back to the TOKIMEKI」 (2020-09-13, 開演16:00), both 「＜無観客有料生配信ライブ＞」 with 【場所】東京ガーデンシアター (existing venue tokyo-garden-theater). Per the brief they are online-only (no audience), so city is null and venue carries online: true; a reviewer may prefer city tokyo since the hall is named. I split the two titled parts into two stops at the same hall (stop label = part name); merge into one stop if one venue run must be one stop. title_ja is the common prefix of the two part titles (the page heading reads 「2nd Live 特設サイト」). Fandom has a single "Brand New Story" tab for both 9/12 shows (its Blu-ray track list is the evening show); no source I found says whether the 1st and 2nd shows had identical set lists, so the tab is mapped to both.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php

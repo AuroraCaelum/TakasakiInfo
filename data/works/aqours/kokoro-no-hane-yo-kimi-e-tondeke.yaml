@@ -128,9 +128,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/AQR-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%BF%83%E3%81%AE%E7%BE%BD%E3%82%88%E5%90%9B%E3%81%B8%E9%A3%9B%E3%82%93%E3%81%A7%E3%81%91%EF%BC%81 https://love-live.fandom.com/wiki/Kokoro_no_Hane_yo_Kimi_e_Tondeke!'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52

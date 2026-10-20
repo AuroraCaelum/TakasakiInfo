@@ -978,9 +978,10 @@ external_ids:
   fandom: Hasunosora Girls' High School Idol Club 6th Live Dream ~Bloom Garden Party~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=6thBGP
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official stop names are ＜Bloom Stage／福岡公演＞, ＜Garden Stage／兵庫公演＞, ＜Party Stage／神奈川公演＞ and ＜Bloom Garden Party Stage／埼玉公演＞. Same venue as the 2nd Live Tour's Hyogo stop (神戸ワールド記念ホール), so the same names are used. Cast notes from the official page: Kan Kanna (Osawa Rurino) sat out the Party Stage because of illness, and Hanamiya Nina, Sasaki Kotoko and Tsukine Kona joined the Bloom Garden Party Stage only."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=6thBGP

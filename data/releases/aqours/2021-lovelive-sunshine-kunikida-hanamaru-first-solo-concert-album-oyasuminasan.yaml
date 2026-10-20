@@ -47,6 +47,7 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/AQR-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 부제는 기존 곡 aqours/oyasuminasan의 rom·ko(～·！는 반각). 부제 rom은 Fandom, ko는 나무위키 번역과 같음 외부 근거: https://namu.wiki/w/%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%82%93%EF%BC%81 https://love-live.fandom.com/wiki/Oyasuminasan!'

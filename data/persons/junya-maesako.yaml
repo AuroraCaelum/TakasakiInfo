@@ -13,6 +13,10 @@ given_name:
   ko: 준야
 evidence:
   names:
-    status: draft
-    source: automation/review/AQR-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+    checked: 2026-10-20
+    note: "ja: 공식 페이지의 한자 크레딧 前迫潤哉(cd80 등). cd99는 라틴 'Junya Maesako'로 표기. rom: 공식 라틴 크레딧(Fandom도 같음), ko: 나무위키 외부 근거: https://namu.wiki/w/SAKURA-saku%20KOKORO-saku"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

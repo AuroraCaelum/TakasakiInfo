@@ -16,6 +16,10 @@ given_name:
   ko: 신타로
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 もり しんたろう(위키백과) rom: Fandom (Shintarou Mori, 장음 ou 포함. D38에 따라 규칙값 Shintaro보다 우선. 대표로 있는 민트포레스트(株式会社ミントフォレスト) 사이트에 라틴 표기 없음), ko: 나무위키(僕らは今のなかで·Love wing bell·Angelic Angel·PSYCHIC FIRE 문서 모리 신타로) 외부 근거: https://ja.wikipedia.org/wiki/%E6%A3%AE%E6%85%8E%E5%A4%AA%E9%83%8E http://mint-forest.co.jp/creator https://love-live.fandom.com/wiki/Love_wing_bell https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AF%E4%BB%8A%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

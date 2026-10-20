@@ -2,13 +2,13 @@ id: muse/fan-meeting-tour-2015
 projects: [muse]
 status: performed
 title:
-  ja: μ’s Fan Meeting Tour 2015 ～あなたの街でラブライブ！～
+  ja: μ’s Fan Meeting Tour 2015 〜あなたの街でラブライブ！〜
   rom: μ’s Fan Meeting Tour 2015 ~Anata no Machi de Love Live!~
   ko: μ’s Fan Meeting Tour 2015 ~당신의 거리에서 러브 라이브!~
 stops:
   - id: 1-tokyo
     city: tokyo
-    venue: nakano-sun-plaza-hall
+    venue: nakano-sunplaza-hall
     performances:
       - date: 2015-05-30
         label: Day.1 Noon
@@ -183,7 +183,7 @@ stops:
           fandom: Chiba|Day 2 (Evening)
   - id: 4-fukuoka
     city: fukuoka
-    venue: fukuoka-civic-hall
+    venue: fukuoka-shimin-kaikan
     performances:
       - date: 2015-06-20
         label: Noon
@@ -191,7 +191,7 @@ stops:
           - work: muse/listen-to-my-heart
             performers:
               - {artist: nicorinpana}
-          - work: muse/niko-puri-joshi-dou
+          - work: muse/nico-puri-joshi-dou
             version: Short Ver.
             performers:
               - {character: muse/nico-yazawa}
@@ -218,7 +218,7 @@ stops:
           - work: muse/listen-to-my-heart
             performers:
               - {artist: nicorinpana}
-          - work: muse/niko-puri-joshi-dou
+          - work: muse/nico-puri-joshi-dou
             version: Short Ver.
             performers:
               - {character: muse/nico-yazawa}
@@ -561,7 +561,7 @@ stops:
             version: Short Ver.
             performers:
               - {character: muse/rin-hoshizora}
-          - work: muse/niko-puri-joshi-dou
+          - work: muse/nico-puri-joshi-dou
             version: Short Ver.
             performers:
               - {character: muse/nico-yazawa}
@@ -598,7 +598,7 @@ stops:
             version: Short Ver.
             performers:
               - {character: muse/rin-hoshizora}
-          - work: muse/niko-puri-joshi-dou
+          - work: muse/nico-puri-joshi-dou
             version: Short Ver.
             performers:
               - {character: muse/nico-yazawa}
@@ -616,9 +616,10 @@ external_ids:
   fandom: Muse's Fan Meeting Tour 2015 ~ Love Live! in your town ~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_fmt2015.html
+    checked: 2026-10-20
+    note: "공식 영문 없음. Fandom은 '~ Love Live! in your town ~'로 번역해서 규칙으로(ラブライブ！는 시리즈명 고정형). ko: 나무위키 '~당신의 거리에서 러브라이브!~'(러브 라이브!로 띄움) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: Official page still online. Every date had 昼の部 14:00 and 夜の部 18:00 except 6/13 Makuhari (「6/13（土）幕張イベントホールの昼の部はございません」). FANDOM TABS HOLD TWO SHOWS: each Fandom tab contains a '''Noon:''' list and an '''Evening:''' list one after the other (Chiba Day 1: Evening only), so each tab is mapped to both shows of its date and the set-list parser must split the tab at those markers. Venue names as printed in the schedule; 「パシフィコ横浜 国立大ホール」 and 「グランキューブ大阪 メインホール」 with the space as printed in the venue list on the same page; 「センチュリーホール」 is the hall of 名古屋国際会議場 (printed without it). Cast varied by stop (sub-unit / partial casts). ja: sp_fmt2015.html은 물결표를 〜(U+301C)로 인쇄."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/sp_fmt2015.html

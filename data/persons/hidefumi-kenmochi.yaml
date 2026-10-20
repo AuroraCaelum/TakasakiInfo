@@ -16,6 +16,10 @@ given_name:
   ko: 히데후미
 evidence:
   names:
-    status: draft
-    source: automation/review/NJG-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지(성·이름 모두 가나라 공식 표기대로 붙여 씀, D28). 읽기 けんもち ひでふみ(위키백과, 본명 釼持英郁) rom: Fandom(Rise Up High! 문서 Hidefumi Kenmochi. 위키백과 라틴 표기 Kenmochi Hidefumi와 철자 같음), ko: 나무위키(水曜日のカンパネラ 문서 켄모치 히데후미. Rise Up High! 문서는 붙여 써서 켄모치히데후미) 외부 근거: https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%B3%E3%83%A2%E3%83%81%E3%83%92%E3%83%87%E3%83%95%E3%83%9F https://love-live.fandom.com/wiki/Rise_Up_High! https://namu.wiki/w/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%82%AB%E3%83%B3%E3%83%91%E3%83%8D%E3%83%A9'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

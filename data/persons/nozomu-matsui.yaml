@@ -16,6 +16,10 @@ given_name:
   ko: 노조무
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 まつい のぞむ(위키백과) rom: Fandom, ko: 나무위키(Mermaid festa vol.2 ~Passionate~ 문서 마츠이 노조무) 외부 근거: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E6%9C%9B https://love-live.fandom.com/wiki/Composers_and_Arrangers https://namu.wiki/w/Mermaid%20festa%20vol.2%20~Passionate~'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

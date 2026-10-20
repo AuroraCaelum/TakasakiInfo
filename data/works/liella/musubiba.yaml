@@ -3,7 +3,7 @@ project: liella
 title:
   ja: 結び葉
   rom: Musubiba
-  ko: 잇는 잎
+  ko: 맞닿은 잎
 credits:
   lyricist:
     - {person: junko-miyajima}
@@ -24,9 +24,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/LLA-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B5%90%E3%81%B3%E8%91%89 https://love-live.fandom.com/wiki/Musubiba ko: 검수(2026-10-20) 結び葉는 어린잎이 겹쳐 맺힌 모양의 계절어(명사)라 맞닿은 잎(나무위키는 잇는 잎).'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748

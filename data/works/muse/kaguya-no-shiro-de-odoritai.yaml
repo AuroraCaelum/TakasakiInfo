@@ -172,9 +172,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E8%BC%9D%E5%A4%9C%E3%81%AE%E5%9F%8E%E3%81%A7%E8%B8%8A%E3%82%8A%E3%81%9F%E3%81%84 https://love-live.fandom.com/wiki/Kaguya_no_Shiro_de_Odoritai'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20

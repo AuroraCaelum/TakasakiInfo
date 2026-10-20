@@ -218,9 +218,10 @@ external_ids:
   fandom: Ikizurai-Bu! 2nd LIVE Dou-Da? DOING! ~Reply to L~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE
+    checked: 2026-10-20
+    note: "공식 해외 배신 영문은 'IKIZULIVE! 2nd LIVE Dou-Da? DOING! ～Reply to L～'인데 그룹명 대신 프로젝트명을 넣은 것이라 쓰지 않음(채택할지 확인). 그룹명 rom은 D38(Fandom 'Ikizurai-Bu!'). ko: 나무위키 문서명 외부 근거: rom: 결정 D38 (그룹명 Ikizuraibu!) ko: https://namu.wiki/w/%EC%9D%B4%ED%82%A4%EC%A6%88%EB%9D%BC%EC%9D%B4%EB%B6%80!%202nd%20LIVE%20Dou-Da%3F%20DOING!%20~Reply%20to%20L~. 일정 조사 메모: 京王アリーナTOKYO is the naming-rights name of 武蔵野の森総合スポーツプラザ since 2025-05-01. Keio Electric Railway bought the rights; this is confirmed by press reports and the facility site keio-arena.tokyo. So this is the existing venue musashino-no-mori-sogo-sports-plaza-main-arena (used by the Hasunosora 1st Live Tour in 2023), which needs a second, dated name entry. That is why the venue carries an extra key, \"existing\", which is not part of the brief's schema. The official live page prints 「京王アリーナ TOKYO」 with a space, while the facility writes 「京王アリーナTOKYO」. ko follows namu.wiki (「케이오 아레나 TOKYO」)."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE

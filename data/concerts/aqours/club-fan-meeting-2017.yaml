@@ -801,9 +801,10 @@ external_ids:
   fandom: Aqours CLUB Activities LIVE & FAN MEETING ～Landing action Yeah!!～
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+    note: "공식 영문 없음. Fandom은 クラブ活動을 'CLUB Activities'로 번역해서 외래어 복원+헵번으로 만듦(Club Katsudou). 〜 안쪽 공백은 공식 표기대로 둠(Fandom·나무위키는 공백 없이 ~Landing action Yeah!!~) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%ED%81%B4%EB%9F%BD%20%ED%99%9C%EB%8F%99%20LIVE%20%26%20FAN%20MEETING%20~Landing%20action%20Yeah!!~. 일정 조사 메모: Two legs on one Fandom page: the Japan leg (official sp_fmt.php) and 「Love Live! Sunshine!! Aqours Club Activity LIVE & FAN MEETING Trip to Asia -Landing action Yeah!!-」 (official worldwide page worldwide/fmt.php, which prints the Seoul/Shanghai/Taipei venues only in Korean/Chinese/English: KBS ARENA; 静安体育中心 体育馆 / JINGAN SPORTS CENTRE; 台北國際會議中心 (TICC); no Japanese notation found, so ja keeps the official non-Japanese form — TICC follows the Japanese notation of the 2019 ASIA TOUR page). Stops are in date order across both legs. Official show numbering ＜1回目＞/＜2回目＞ is written Noon/Evening as on Fandom. Fandom puts the noon and evening set lists of one day in a single tab (headed '''Noon:''' / '''Evening:'''), so those tabs map to both shows; the Taipei tab is ONE undivided list although the official page lists two shows (14:00 and 19:00) — mapped to both, which show it reflects is unknown. Numazu is printed 「沼津市民文化センター 大ホール」 here; the plain 「沼津市民文化センター」 used by the later Aqours pages is kept for one venue. Makuhari is printed 「幕張メッセ イベントホール」."
   schedule.1-osaka:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php

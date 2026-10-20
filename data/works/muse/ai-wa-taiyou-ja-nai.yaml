@@ -27,9 +27,10 @@ recordings:
         note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten'
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(Ja 대문자도 Fandom 표기 그대로. 규칙 엔진이면 Ai wa Taiyou ja Nai?), ko: 나무위키(곡 문서에 제목 행이 없어 같은 문서의 μ’s 멤버별 솔로곡 일람 틀의 번역) 외부 근거: https://namu.wiki/w/%E6%84%9B%E3%81%AF%E5%A4%AA%E9%99%BD%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%3F https://love-live.fandom.com/wiki/Ai_wa_Taiyou_Ja_Nai%3F'
   credits:
     status: official
     source: https://music.youtube.com/watch?v=vvsKOrXFzeM

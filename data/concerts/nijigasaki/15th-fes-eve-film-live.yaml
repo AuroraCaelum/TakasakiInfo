@@ -154,9 +154,10 @@ external_ids:
   fandom: 'LoveLive! Series 15th Anniversary Love Live! Fes Eve Celebration: FILM LIVE ~Mirai e Todokeru Time Capsule~'
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai
+    checked: 2026-10-20
+    note: "rom: 공식 해외 배신 영문인데 'MIRAIN E'는 오기로 보고 'MIRAI E'로 고침. Fandom은 'Love Live! Fes Eve Celebration: FILM LIVE ~Mirai e Todokeru Time Capsule~'. ko: 단독 문서 없음. 나무위키 시리즈 라이브 문서의 '러브 라이브! 페스 전야제 FILM LIVE ~미래에 전달할 타임캡슐~' 외부 근거: rom: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20School%20idol%20project%20series/%EB%9D%BC%EC%9D%B4%EB%B8%8C. 일정 조사 메모: Day/Night labels follow the official English (DAY START / NIGHT START; 昼公演/夜公演). 10/10: Nijigasaki + Hasunosora; 10/11: Liella! + Ikizurai-Bu!; School Idol Musical cast (opening act, MC) both days."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai

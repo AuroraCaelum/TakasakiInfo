@@ -16,6 +16,10 @@ given_name:
   ko: 아키오
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 こんどう あきお(위키백과) rom: 규칙 (Fandom은 夏色えがおで1,2,Jump! 작곡을 奥松誠 Makoto Okumatsu로 적어 이 사람의 표기가 없음. 공식 cd06과 나무위키는 近藤 昭雄. 본인 라틴 표기는 못 찾음), ko: 나무위키(夏色えがおで1,2,Jump！ 싱글 문서 콘도 아키오) 외부 근거: https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E6%98%AD%E9%9B%84 https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -267,9 +267,10 @@ external_ids:
   fandom: 'Yohane the Parhelion: The Story of the Sound of Heart'
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.yohane.net/event/detail/?page=yohane_sound_of_heart
+    checked: 2026-10-20
+    note: "공식 페이지 영문은 'YOHANE THE PARHELION -The Story of the Sound of Heart-'(대문자 표기). 철자가 같아 시리즈명 고정형(프로젝트 rom)으로 씀. Fandom과 같음 외부 근거: rom: https://www.yohane.net/event/detail/?page=yohane_sound_of_heart ko: https://namu.wiki/w/%ED%99%98%EC%9D%BC%EC%9D%98%20%EC%9A%94%ED%95%98%EB%84%A4%20-The%20Story%20of%20the%20Sound%20of%20Heart-. 일정 조사 메모: Official venue printing: 武蔵野の森総合スポーツプラザ・メインアリーナ (existing venue entry reused)."
   schedule:
     status: official
     source: https://www.yohane.net/event/detail/?page=yohane_sound_of_heart

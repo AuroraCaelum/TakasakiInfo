@@ -3,11 +3,12 @@ city: shanghai
 names:
   ja: 国家会展中心（上海）虹館EH
   rom: National Exhibition and Convention Center (Shanghai) Hall EH
-  ko: 국가회의전람센터(상하이) 훙관 EH
+  ko: 국가회의전람센터 (상하이) 홍관 EH
 external_ids:
   fandom: Shanghai National Exhibition and Convention Center
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_asiatour.php
+    checked: 2026-10-20
+    note: 'ja: 공식 표기(공연 당시), rom·ko: 초안'

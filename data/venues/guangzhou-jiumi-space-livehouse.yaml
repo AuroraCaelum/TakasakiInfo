@@ -1,11 +1,12 @@
 id: guangzhou-jiumi-space-livehouse
 city: guangzhou
 names:
-  ja: 広州久米空間Livehouse
-  rom: Guangzhou Jiumi Space Livehouse
-  ko: 광저우 주미 공간 Livehouse
+  ja: 広州久米空間
+  rom: Guangzhou Jiumi Space
+  ko: 광저우 주미 공간
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://lovelive-overseas.bitfan.id/contents/301354
+    checked: 2026-10-21
+    note: "ja: 공식 해외 페이지의 '会場：中国広州久米空間'(일본 회장의 도도부현처럼 앞의 中国는 뺌). 2024 공연은 공식 회장 표기 없이 bilibili 예매 페이지(久米空间LIVEHOUSE, 机场路1733号)뿐인데 주소가 같아 같은 회장. rom·ko: 규칙(久米空間 = Jiumi Space, 주미 공간). id는 승인 뒤라 그대로"

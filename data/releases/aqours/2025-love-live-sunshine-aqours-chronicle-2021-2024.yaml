@@ -41,7 +41,7 @@ discs:
       - {no: 6, recording: aqours/deep-blue#original}
       - {no: 7, recording: aqours/sakura-saku-kokoro-saku#original}
       - {no: 8, recording: aqours/bokura-no-umi-de-mata-aou#aqours}
-      - {no: 9, recording: aqours/eikyuu-hours#original}
+      - {no: 9, recording: aqours/eikyu-hours#original}
       - {no: 10, recording: aqours/bokura-no-tabi-wa-owaranai#original}
 links:
   official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
@@ -59,6 +59,7 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/AQR-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom·ko: 같은 파일의 CHRONICLE (2018～2020) 항목, 승인된 aqours/2020-aqours-chronicle-2015-2017과 같은 형식(시리즈명 rom Love Live! Sunshine!!, ko 러브 라이브! 선샤인!!(D11), ～는 반각 ~). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2021-2024) 외부 근거: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2021-2024)'

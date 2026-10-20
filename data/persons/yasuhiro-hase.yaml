@@ -16,6 +16,10 @@ given_name:
   ko: 야스히로
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 はせ やすひろ(위키백과) rom: 본인 유닛 ユメトコスメ 공식 사이트 "Yasuhiro Hase" (Fandom도 같음), ko: 규칙 (나무위키 미게재. どんなときもずっと 문서에 현악 편곡 크레딧 없음) 외부 근거: http://www.yumetocosme.com/site/home.html https://ja.wikipedia.org/wiki/%E9%95%B7%E8%B0%B7%E6%B3%B0%E5%AE%8F https://love-live.fandom.com/wiki/Composers_and_Arrangers'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

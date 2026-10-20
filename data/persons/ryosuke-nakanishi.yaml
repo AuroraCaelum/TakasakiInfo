@@ -16,6 +16,10 @@ given_name:
   ko: 료스케
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 なかにし りょうすけ(위키백과) rom: 소속사 아르타스(株式会社アルタス) 크리에이터 소개 "中西 亮輔 Ryosuke NAKANISHI" (대문자만 고침. Fandom은 Ryousuke Nakanishi), ko: 규칙 (나무위키가 Snow halation 문서 나카니시 료우스케, なってしまった！·μ’s/앨범 문서 나카니시 료스케로 엇갈려 D5대로 장음 생략한 쪽) 외부 근거: https://www.artus.co.jp/ https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%A5%BF%E4%BA%AE%E8%BC%94 https://namu.wiki/w/Snow%20halation https://namu.wiki/w/%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%EF%BC%81'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

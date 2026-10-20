@@ -8,7 +8,7 @@ title:
 stops:
   - id: 1-tokyo
     city: tokyo
-    venue: yoyogi-national-gymnasium-first-gymnasium
+    venue: yoyogi-national-stadium-first-gymnasium
     performances:
       - date: 2025-03-08
         setlist:
@@ -80,9 +80,9 @@ stops:
               - {character: liella/margarete-wien}
               - {character: liella/tomari-onitsuka}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -182,9 +182,9 @@ stops:
             performers:
               - {artist: liella}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -301,9 +301,9 @@ stops:
               - {character: liella/margarete-wien}
               - {character: liella/tomari-onitsuka}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -403,9 +403,9 @@ stops:
             performers:
               - {artist: liella}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -522,9 +522,9 @@ stops:
               - {character: liella/margarete-wien}
               - {character: liella/tomari-onitsuka}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -624,9 +624,9 @@ stops:
             performers:
               - {artist: liella}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -743,9 +743,9 @@ stops:
               - {character: liella/margarete-wien}
               - {character: liella/tomari-onitsuka}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -845,9 +845,9 @@ stops:
             performers:
               - {artist: liella}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -964,9 +964,9 @@ stops:
               - {character: liella/margarete-wien}
               - {character: liella/natsumi-onitsuka}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -1065,9 +1065,9 @@ stops:
             performers:
               - {artist: liella}
           - {type: video}
-          - performers:
+          - work: liella/afureru-kotoba
+            performers:
               - {character: liella/kinako-sakurakoji}
-            title_raw: あふれる言葉
           - work: liella/egao-no-promise
             performers:
               - {artist: liella}
@@ -1118,9 +1118,10 @@ external_ids:
   fandom: Liella! 6th LoveLive! Tour ~Let's be ONE~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=6thlive
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Aichi: the official page prints 「AICHI SKY EXPO ホール A」; the existing venue's names are reused. Osaka was Fri-Sat (6/13-6/14), as printed."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=6thlive

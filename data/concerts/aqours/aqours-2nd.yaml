@@ -478,9 +478,10 @@ external_ids:
   fandom: Aqours 2nd Love Live! HAPPY PARTY TRAIN TOUR
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_2ndlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the Saitama venue as 「メットライフドーム（旧：西武プリンスドーム）」 and gives the Nagoya/Kobe dates without the year (8/5, 8/19 …); the year 2017 comes from the same page (the 2017年9月29日 notice) and agrees with Fandom.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_2ndlive.php

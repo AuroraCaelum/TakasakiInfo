@@ -16,6 +16,10 @@ given_name:
   ko: 미키
 evidence:
   names:
-    status: draft
-    source: automation/review/MUS-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 ふじすえ みき(위키백과) rom: 본인 공식 사이트 "藤末樹（Miki Fujisue）" (Fandom도 같음), ko: 나무위키(Love marginal 문서 후지스에 미키) 외부 근거: https://www.mikifujisue.com/ https://ja.wikipedia.org/wiki/%E8%97%A4%E6%9C%AB%E6%A8%B9 https://namu.wiki/w/Love%20marginal'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

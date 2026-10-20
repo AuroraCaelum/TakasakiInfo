@@ -116,9 +116,10 @@ external_ids:
   fandom: Hasunosora Girls' High School Idol Club OPENING LIVE EVENT ~Bloom the Dream~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=OLE
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The page lists two shows on the same day: ＜昼公演＞ at 14:30 and ＜夜公演＞ at 18:30. Its English text calls them <DAY> and <NIGHT>. ko follows namu.wiki (「퍼시피코 요코하마 국립 대홀」).'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=OLE

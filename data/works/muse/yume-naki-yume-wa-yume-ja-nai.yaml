@@ -42,9 +42,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A4%A2%E3%81%AA%E3%81%8D%E5%A4%A2%E3%81%AF%E5%A4%A2%E3%81%98%E3%82%83%E3%81%AA%E3%81%84 https://love-live.fandom.com/wiki/Yume_Naki_Yume_wa_Yume_ja_nai'
   credits:
     status: official
     source: https://music.youtube.com/watch?v=IOfUb8qBfIo

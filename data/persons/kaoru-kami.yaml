@@ -13,6 +13,10 @@ given_name:
   ko: 카오루
 evidence:
   names:
-    status: draft
-    source: automation/review/AQR-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20
+    note: "ja: 공식 페이지(전부 가나라 공식 표기대로 붙여 씀, D28). rom: Fandom 'Kaoru Kami', ko: 나무위키 곡 문서 '카미 카오루'. 성·이름 분리는 두 위키의 분절을 따름(본인 프로필은 찾지 못함) 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%9C%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5 https://love-live.fandom.com/wiki/Composers_and_Arrangers"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

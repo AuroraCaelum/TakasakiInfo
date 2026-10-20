@@ -15,7 +15,7 @@ recordings:
     performers:
       - {character: nijigasaki/shioriko-mifune}
     arranger:
-      - {person: 'on'}
+      - {person: oni}
     evidence:
       credits:
         status: official
@@ -29,7 +29,7 @@ recordings:
       ko: 산소 결핍 (Off Vocal)
     version: Off Vocal
     arranger:
-      - {person: 'on'}
+      - {person: oni}
     instrumental_of: original
     evidence:
       credits:
@@ -38,9 +38,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/NJG-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E9%85%B8%E6%AC%A0 https://love-live.fandom.com/wiki/Sanketsu'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729

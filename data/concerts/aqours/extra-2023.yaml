@@ -88,10 +88,12 @@ stops:
           - {type: encore, label: Encore}
           - work: aqours/ka-ga-ya-ki-ra-ri-ra
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - work: aqours/banzai-digital-trippers
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - {type: mc}
           - work: aqours/yume-kataruyori-yume-utaou
             performers:
@@ -175,10 +177,12 @@ stops:
           - {type: encore, label: Encore}
           - work: aqours/ka-ga-ya-ki-ra-ri-ra
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - work: aqours/banzai-digital-trippers
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - {type: mc}
           - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
             performers:
@@ -267,10 +271,12 @@ stops:
           - {type: encore, label: Encore}
           - work: aqours/ka-ga-ya-ki-ra-ri-ra
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - work: aqours/banzai-digital-trippers
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - {type: mc}
           - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
             performers:
@@ -354,10 +360,12 @@ stops:
           - {type: encore, label: Encore}
           - work: aqours/ka-ga-ya-ki-ra-ri-ra
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - work: aqours/banzai-digital-trippers
             performers:
-              - {artist: aqours-feat-hatsune-miku}
+              - {artist: aqours}
+              - {character: external/hatsune-miku, featured: true}
           - {type: mc}
           - work: aqours/yume-kataruyori-yume-utaou
             performers:
@@ -368,9 +376,10 @@ external_ids:
   fandom: Aqours EXTRA LoveLive! 2023 ~It's a Mugendai☆WORLD~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023
+    checked: 2026-10-20
+    note: "rom: 공식 페이지 해외 배신 영문(Fandom과 같음). 공식은 'AqoursEXTRA'로 붙여 써서 오기로 보고 띄움. ko: 나무위키 문서명은 無限大를 한자 그대로 둬서 번역함(무한대) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023 ko: 번역안. 일정 조사 메모: Official venue printings: 武蔵野の森総合スポーツプラザ・メインアリーナ, 幕張メッセイベントホール. The page's <title> writes It’s (U+2019); the heading uses It's."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=extra2023

@@ -184,9 +184,10 @@ external_ids:
   fandom: Aqours First Love Live! ~Step! ZERO to ONE~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_1stlive.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the title with ASCII tildes (~Step! ZERO to ONE~); Fandom's title_ja uses ～."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_1stlive.php

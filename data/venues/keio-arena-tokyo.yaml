@@ -3,11 +3,12 @@ city: tokyo
 names:
   ja: 京王アリーナ TOKYO
   rom: Keio Arena TOKYO
-  ko: 케이오 아레나 TOKYO
+  ko: 게이오 아레나 TOKYO
 external_ids:
   fandom: Keio Arena TOKYO
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE
+    checked: 2026-10-20
+    note: 'ja: 공식 표기(공연 당시), rom·ko: 초안. 武蔵野の森総合スポーツプラザ メインアリーナ(musashino-no-mori-sogo-sports-plaza-main-arena)의 명명권 명칭(2025-05-01~). 회장 이름이 하나뿐인 모델이라 별도 엔티티로 둔다 ko: D49: 일본 지명은 외래어 표기법(어두 평음, つ→쓰. 나무위키 표제와 같음).'

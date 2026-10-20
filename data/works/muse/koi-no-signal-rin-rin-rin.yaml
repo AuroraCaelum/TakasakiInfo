@@ -37,9 +37,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%ABRin%20rin%20rin%21 https://love-live.fandom.com/wiki/Koi_no_Signal_Rin_rin_rin!'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11

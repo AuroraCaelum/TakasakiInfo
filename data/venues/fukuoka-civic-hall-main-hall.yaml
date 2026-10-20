@@ -3,11 +3,12 @@ city: fukuoka
 names:
   ja: 福岡市民ホール 大ホール
   rom: Fukuoka Civic Hall Main Hall
-  ko: 후쿠오카 시민 홀 대극장
+  ko: 후쿠오카 시민 홀 대홀
 external_ids:
   fandom: Fukuoka Civic Hall Large Hall
 evidence:
   names:
-    status: draft
-    source: automation/review/LIV-venues.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025
+    checked: 2026-10-20
+    note: 'ja: 공식 표기(공연 당시), rom·ko: 초안 ko: 大ホール(rom Main Hall)은 대홀(D49). rom: 공식 영문 FUKUOKA CIVIC HALL(후쿠오카시 2024-03-25 발표).'

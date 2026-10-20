@@ -3,7 +3,7 @@ type: album
 title:
   ja: ラブライブ！ Solo Live! from μ's 高坂穂乃果 ほんのり穂乃果色！
   rom: Love Live! Solo Live! from μ's Honoka Kosaka Honnori Honokairo!
-  ko: 러브 라이브! Solo Live! from μ's 코사카 호노카 아련하게 호노카색!
+  ko: 러브 라이브! Solo Live! from μ's 코사카 호노카 은은하게 호노카색!
 projects: [muse]
 artist_credit:
   - {character: muse/honoka-kosaka}
@@ -37,6 +37,7 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+    checked: 2026-10-20
+    note: "ja: 공식 페이지. rom·ko: ラブライブ！는 Love Live!/러브 라이브!, 라틴 부분은 원문, 이름은 캐릭터 데이터 honoka-kosaka. 부제 rom: 규칙(Fandom이 Love Live! 문서는 Honnori Honoka-iro!, Honoka Kosaka 문서는 Honnori Honokairo!로 엇갈림. 규칙 엔진 결과와 같은 쪽), ko: 나무위키(앨범 문서 절 제목, 음반 문서와 같음) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98/%EC%95%A8%EB%B2%94 https://love-live.fandom.com/wiki/Love_Live! https://love-live.fandom.com/wiki/Honoka_Kosaka ko: 검수(2026-10-20) ほんのり는 '은은하게'(나무위키는 아련하게)."

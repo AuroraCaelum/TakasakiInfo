@@ -110,9 +110,9 @@ stops:
           - work: muse/oh-love-peace
             performers:
               - {artist: muse}
-          - performers:
+          - work: muse/dreamin-go-go
+            performers:
               - {artist: muse}
-            title_raw: Dreamin' Go! Go!!
           - {type: mc}
           - work: muse/donna-toki-mo-zutto
             performers:
@@ -221,9 +221,9 @@ stops:
           - work: muse/oh-love-peace
             performers:
               - {artist: muse}
-          - performers:
+          - work: muse/dreamin-go-go
+            performers:
               - {artist: muse}
-            title_raw: Dreamin' Go! Go!!
           - {type: mc}
           - work: muse/aishiteru-banzai
             version: Piano ver.
@@ -239,9 +239,10 @@ external_ids:
   fandom: Muse's Go Go! LoveLive! 2015 Dream Sensation!
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/sp_5thlive.html
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official page still online. Venue printed 「さいたまスーパーアリーナ（スタジアムモード）」. The live page prints the title without the series prefix; the official Blu-ray entry (otonokizaka/release.php) prints 「ラブライブ！ μ's Go→Go! LoveLive! 2015 ～Dream Sensation!～」."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/sp_5thlive.html

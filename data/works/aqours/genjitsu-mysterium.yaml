@@ -139,9 +139,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/AQR-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B9%BB%E6%97%A5%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A6%E3%83%A0 https://love-live.fandom.com/wiki/Genjitsu_Mysterium'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88

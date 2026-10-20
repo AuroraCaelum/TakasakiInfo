@@ -23,9 +23,9 @@ stops:
           - work: nijigasaki/power-spot
             performers:
               - {artist: diverdiva}
-          - performers:
+          - work: nijigasaki/saika
+            performers:
               - {artist: diverdiva}
-            title_raw: Saika -saika-
           - {type: mc}
           - work: nijigasaki/the-secret-night
             performers:
@@ -68,9 +68,9 @@ stops:
           - work: nijigasaki/power-spot
             performers:
               - {artist: diverdiva}
-          - performers:
+          - work: nijigasaki/saika
+            performers:
               - {artist: diverdiva}
-            title_raw: Saika -saika-
           - {type: mc}
           - work: nijigasaki/the-secret-night
             performers:
@@ -416,9 +416,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club UNIT LIVE & FAN MEETING
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_unitlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Each Fandom tab covers both days of its volume (Fandom trivia: "No changes were made to the setlist on either day for all four concerts"), so each tab is mapped to both performances. Official volume titles: 「UNIT LIVE & FAN MEETING vol.1 DiverDiva 〜Big Bang〜」, 「vol.2 QU4RTZ 〜Sweet Cafe〜」, 「vol.3 A・ZU・NA 〜The Night Before〜」, 「vol.4 R3BIRTH 〜First DELIGHT〜」. 幕張メッセイベントホール is the same hall the 2025 Kougai Gakushuu page prints as 幕張イベントホール.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/sp_unitlive.php

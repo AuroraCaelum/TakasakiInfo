@@ -282,9 +282,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club FLOWER MUSIC LIVE "Boooooom Boooooom Bee!!"
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=flower_live
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 京王アリーナTOKYO is the naming-rights name (from 2025-05-01, Keio Corporation) of 武蔵野の森総合スポーツプラザ, i.e. the existing venue musashino-no-mori-sogo-sports-plaza-main-arena under a new period name. ja keeps the official page's spacing 「京王アリーナ TOKYO」 (the venue itself writes 京王アリーナTOKYO). Day 1 and Day 2 had different casts (official page), same venue."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=flower_live

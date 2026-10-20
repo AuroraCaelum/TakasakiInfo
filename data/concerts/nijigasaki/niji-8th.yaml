@@ -115,12 +115,12 @@ stops:
           - work: nijigasaki/bravo
             performers:
               - {character: nijigasaki/lanzhu-zhong}
-          - performers:
+          - work: nijigasaki/coro-coro-lovely-time
+            performers:
               - {character: nijigasaki/karin-asaka}
               - {character: nijigasaki/kanata-konoe}
               - {character: nijigasaki/emma-verde}
               - {character: nijigasaki/mia-taylor}
-            title_raw: CORO CORO ラブリーTIME!!!
           - {type: mc}
           - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
             performers:
@@ -232,12 +232,12 @@ stops:
           - work: nijigasaki/white-delight
             performers:
               - {character: nijigasaki/mia-taylor}
-          - performers:
+          - work: nijigasaki/poka-poka-biyori
+            performers:
               - {character: nijigasaki/ayumu-uehara}
               - {character: nijigasaki/ai-miyashita}
               - {character: nijigasaki/setsuna-yuki}
               - {character: nijigasaki/lanzhu-zhong}
-            title_raw: Poka Poka 日和
           - {type: mc}
           - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
             performers:
@@ -355,12 +355,12 @@ stops:
           - work: nijigasaki/sanketsu
             performers:
               - {character: nijigasaki/shioriko-mifune}
-          - performers:
+          - work: nijigasaki/poka-poka-biyori
+            performers:
               - {character: nijigasaki/ayumu-uehara}
               - {character: nijigasaki/ai-miyashita}
               - {character: nijigasaki/setsuna-yuki}
               - {character: nijigasaki/lanzhu-zhong}
-            title_raw: Poka Poka 日和
           - {type: mc}
           - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
             performers:
@@ -472,12 +472,12 @@ stops:
           - work: nijigasaki/yes-to-tomorrow
             performers:
               - {character: nijigasaki/setsuna-yuki}
-          - performers:
+          - work: nijigasaki/coro-coro-lovely-time
+            performers:
               - {character: nijigasaki/karin-asaka}
               - {character: nijigasaki/kanata-konoe}
               - {character: nijigasaki/emma-verde}
               - {character: nijigasaki/mia-taylor}
-            title_raw: CORO CORO ラブリーTIME!!!
           - {type: mc}
           - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
             performers:
@@ -492,9 +492,10 @@ external_ids:
   fandom: Nijigasaki High School Idol Club 8th Live! TOKIMEKI Express
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=8thlive
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop names ＜大阪公演＞ and ＜東京公演＞. The list entry is titled 「…8thライブ」; the detail page heading gives the full title 「…8th Live! TOKIMEKI Express 特設サイト」. 京王アリーナ TOKYO = existing venue musashino-no-mori-sogo-sports-plaza-main-arena under its 2025 naming-rights name (see FLOWER MUSIC LIVE).'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=8thlive

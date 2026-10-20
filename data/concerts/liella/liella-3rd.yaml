@@ -1373,9 +1373,10 @@ external_ids:
   fandom: Liella! 3rd LoveLive! Tour ~WE WILL!!~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=3rdlive
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Aichi: the official page prints 「AICHI SKY EXPO ホール A」; the existing venue's names are reused. Fandom's 'Chiba, Tokyo' for Makuhari is wrong (Makuhari Messe is in Chiba City); its section 'Chofu' is the Tokyo stop."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=3rdlive

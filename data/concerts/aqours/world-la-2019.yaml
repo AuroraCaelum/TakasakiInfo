@@ -72,9 +72,10 @@ external_ids:
   fandom: Aqours World LoveLive! in LA ～BRAND NEW WAVE～
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No Japanese-language official page found; from the official worldwide news 「【LA】Aqours announces two days performance in Los Angeles at Anime Expo 2019」 (2019/05/17, Event news list page offset=25): The Novo, downtown Los Angeles, July 5 (7:00pm) and July 6 (1:00pm), 2019 (local dates). 小宮有紗 did not appear (same notice).'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25

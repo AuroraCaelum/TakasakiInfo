@@ -14,7 +14,7 @@ editions:
     media: [CD]
 discs:
   - tracks:
-      - {no: 1, recording: yohane/wind-and-a-bright-sun-s-meeting#main}
+      - {no: 1, recording: yohane/wind-a-gathering-under-the-buoyant-sun#main}
       - {no: 2, recording: yohane/special-holidays#original}
       - {no: 3, recording: yohane/special-holidays#off-vocal}
 links:
@@ -33,6 +33,6 @@ evidence:
     source: https://www.yohane.net/bd/detail/?id=4
     checked: 2026-10-20
   title:
-    status: draft
-    source: automation/review/YHN-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=4
+    checked: 2026-10-20

@@ -127,9 +127,9 @@ stops:
               - {artist: liella}
           - {type: encore, label: Encore}
           - {type: video}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
           - work: liella/aspire
             performers:
               - {artist: liella}
@@ -259,9 +259,9 @@ stops:
               - {artist: liella}
           - {type: encore, label: Encore}
           - {type: video}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
           - work: liella/aspire
             performers:
               - {artist: liella}
@@ -395,9 +395,9 @@ stops:
               - {artist: liella}
           - {type: encore, label: Encore}
           - {type: video}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
           - work: liella/aspire
             performers:
               - {artist: liella}
@@ -527,9 +527,9 @@ stops:
               - {artist: liella}
           - {type: encore, label: Encore}
           - {type: video}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
           - work: liella/aspire
             performers:
               - {artist: liella}
@@ -550,9 +550,10 @@ external_ids:
   fandom: Liella! 7th LoveLive! ~Fly! MUSIC WORLD♪~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=7thlive
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page prints the venues with a prefecture prefix (「神奈川・横浜アリーナ」, 「愛知・Aichi Sky Expo（愛知県国際展示場）ホールA」); the prefix is dropped here.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=7thlive

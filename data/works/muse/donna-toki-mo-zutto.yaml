@@ -41,9 +41,10 @@ recordings:
         checked: 2026-10-20
 evidence:
   title:
-    status: draft
-    source: automation/review/MUS-titles.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%82%82%E3%81%9A%E3%81%A3%E3%81%A8 https://love-live.fandom.com/wiki/Donna_Toki_mo_Zutto'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42

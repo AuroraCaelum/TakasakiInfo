@@ -50,9 +50,9 @@ stops:
           - work: aqours/guilty-night-guilty-kiss
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc}
           - work: aqours/yume-kataruyori-yume-utaou
             performers:
@@ -100,9 +100,9 @@ stops:
           - work: aqours/shadow-gate-to-love
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc}
           - work: aqours/yume-kataruyori-yume-utaou
             performers:
@@ -114,9 +114,10 @@ external_ids:
   fandom: HAKODATE UNIT CARNIVAL
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_uc.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Performers: Saint Snow, CYaRon!, AZALEA, Guilty Kiss. The official heading separates words with an ideographic space and no-break spaces (normalised to plain spaces here); the Fandom page has no {{Nihongo}} title.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/sp_uc.php

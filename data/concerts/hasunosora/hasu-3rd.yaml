@@ -745,9 +745,10 @@ external_ids:
   fandom: Hasunosora Girls' High School Idol Club 3rd Live Tour TRY TRI UNITY!!!
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/bd/?p=01_4711
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official site has no page for the tour as a whole: each stop has its own live page. The three unit stops are 「3rd Live Tour TRY TRI UNITY!!! with みらくらぱーく！／with DOLLCHESTRA／with スリーズブーケ」. The Ryogoku stop is 「Live & Fan Meeting TRY TRY UNITY!!!」, which the official English text calls \"3rd Live Tour Live & Fan Meeting TRY TRY UNITY!!!\". The Yokohama finale is 「3rd Live Tour TRI TRI UNITY!!!」. The TRY/TRI spellings are intentional: goods and Blu-ray BOX 2 also say \"TRI TRI UNITY!!!\". title_ja and title_source come from Blu-ray Memorial BOX 1, 「…3rd Live Tour TRY TRI UNITY!!! Blu-ray Memorial BOX」. BOX 2, 「…3rd Live Tour TRI TRI UNITY!!! Blu-ray Memorial BOX」 (https://www.lovelive-anime.jp/hasunosora/music/bd/?p=01_4710), holds Yokohama Day.1 and Fan Meeting Day.2. The stop labels are the official stop names, with the unit names spelled as Fandom spells them. Fandom's own headers are shorter: Mira-Cra Park! / DOLLCHESTRA / Cerise Bouquet / Live & Fan Meeting / Hasunosora. The official pages prefix the venues with the prefecture (e.g. 「東京・立川ステージガーデン」); that prefix is dropped from venue.ja. Edel Note's Shindou Amane was a guest at Yokohama (from Fandom)."
   schedule.1-tokyo:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=TTUM

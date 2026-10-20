@@ -808,7 +808,7 @@ stops:
           - work: liella/akane-gokoro
             performers:
               - {character: liella/mei-yoneme}
-              - {character: liella/shiki-wakana}
+              - {character: liella/shiki-wakana, featured: true}
           - work: liella/yuuki-no-kakera
             performers:
               - {character: liella/chisato-arashi}
@@ -903,7 +903,7 @@ stops:
           - work: liella/glass-ball-rejection
             performers:
               - {character: liella/shiki-wakana}
-              - {character: liella/mei-yoneme}
+              - {character: liella/mei-yoneme, featured: true}
           - work: liella/reverb
             performers:
               - {character: liella/ren-hazuki}
@@ -959,9 +959,10 @@ external_ids:
   fandom: 'Liella! Unit Live & Fan Meeting Tour: Music-Talk-Teamwork! Prime Adventure!!'
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive
+    checked: 2026-10-20
+    note: "rom: 공식 해외 배신 영문 그대로(투어 패키지 안내는 'LoveLive! Superstar!!'). Fandom은 'Music-Talk-Teamwork! Prime Adventure!!'. ko: 나무위키 문서명은 心・技・体！極上大冒険!!을 공식 영문에 맞춰 옮김(직역하면 '심·기·체! 극상 대모험!!') 외부 근거: rom: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella!%20%EC%9C%A0%EB%8B%9B%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%26%ED%8C%AC%EB%AF%B8%ED%8C%85%20%ED%88%AC%EC%96%B4%20%EB%AE%A4%EC%A7%81%20%ED%86%A0%ED%81%AC%20%ED%8C%80%EC%9B%8C%ED%81%AC!%20%ED%94%84%EB%9D%BC%EC%9E%84%20%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98!!. 일정 조사 메모: Chapters 1-2: one show on Day 1 and two on Day 2 (official wording １回目/２回目, starts 13:00 and 17:30, written Noon/Evening here; Fandom tabs 'Day 2 (Day)'/'Day 2 (Night)'). Official chapter wording: 第１章 (愛知・新潟・大阪), 第２章 (宮城・福岡・埼玉), 最終章 (神奈川); each unit chapter is performed by one unit (CatChu! / KALEIDOSCORE / 5yncri5e!), the final chapter by all of Liella!. Miyagi (6/20-21) was Thu-Fri and Saitama (7/12-13) Fri-Sat."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=unitlive

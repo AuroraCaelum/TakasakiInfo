@@ -13,6 +13,10 @@ given_name:
   ko: 쿄헤이
 evidence:
   names:
-    status: draft
-    source: automation/review/AQR-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: established
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+    checked: 2026-10-20
+    note: "ja: 공식 페이지(크레딧 '山本恭平(Arte Refact)', 소속은 affiliation). rom: Fandom 'Kyohei Yamamoto (Arte Refact)', ko: 나무위키 곡 문서 '야마모토 쿄헤이(山本恭平)' 외부 근거: https://namu.wiki/w/%E5%B9%BB%E6%97%A5%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A6%E3%83%A0 https://love-live.fandom.com/wiki/Composers_and_Arrangers"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -3,7 +3,7 @@ projects: [liella]
 status: performed
 title:
   ja: ラブライブ！スーパースター!!Liella!のちゅーとりえらいぶ!! 2026
-  rom: Love Live! Superstar!! Liella! no TUTOLiella!! LIVE 2026
+  rom: Love Live! Superstar!! Liella! no TUTOLiella LIVE!! 2026
   ko: 러브 라이브! 슈퍼스타!! Liella!의 튜토리엘라이브!! 2026
 stops:
   - id: 1-chiba
@@ -72,9 +72,9 @@ stops:
           - work: liella/miracle-new-story
             performers:
               - {artist: liella}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
         external_ids:
           fandom: '|Day 1 (Day)'
       - date: 2026-08-01
@@ -137,9 +137,9 @@ stops:
           - work: liella/superstar
             performers:
               - {artist: liella}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
         external_ids:
           fandom: '|Day 1 (Night)'
       - date: 2026-08-02
@@ -204,18 +204,19 @@ stops:
           - work: liella/daisuki-full-power
             performers:
               - {artist: liella}
-          - performers:
+          - work: liella/orange-no-mama-de
+            performers:
               - {artist: liella}
-            title_raw: オレンジのままで
         external_ids:
           fandom: '|Day 2'
 external_ids:
   fandom: Liella! no TUTOLiella!! LIVE 2
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://tutoliella-live.jp/
+    checked: 2026-10-20
+    note: "2025와 같은 방식. Fandom 문서명은 'LIVE 2', 본문 제목은 'LIVE 2026' 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_no_TUTOLiella!!_LIVE_2 ko: https://namu.wiki/w/Liella!%EC%9D%98%20%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%97%98%EB%9D%BC%EC%9D%B4%EB%B8%8C!!%202026. 일정 조사 메모: Official site of the TV programme's live (主催: 「Liella!のちゅーとりえら!!」製作委員会): 8/1 昼公演 12:00 and 夜公演 17:30, 8/2 one show 16:00. Not listed on the Liella! live list. Guest タイムマシーン3号 on the 8/1 shows only. rom: 검수(2026-10-20) ja·ko처럼 !!를 끝에 둠(Fandom 문서명은 TUTOLiella!! LIVE)."
   schedule:
     status: official
     source: https://tutoliella-live.jp/

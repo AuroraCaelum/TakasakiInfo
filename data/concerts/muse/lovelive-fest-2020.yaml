@@ -54,9 +54,9 @@ stops:
           - work: aqours/guilty-farewell-party
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc}
           - work: aqours/believe-again
             performers:
@@ -154,9 +154,9 @@ stops:
           - work: aqours/guilty-night-guilty-kiss
             performers:
               - {artist: guilty-kiss}
-          - performers:
+          - work: aqours/self-control
+            performers:
               - {artist: saint-snow}
-            title_raw: SELF CONTROL!!
           - {type: mc}
           - work: aqours/believe-again
             performers:
@@ -211,9 +211,10 @@ external_ids:
   fandom: Love Live! Fest
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php
+    checked: 2026-10-20
+    note: "rom: 공식 월드와이드 뉴스 영문 그대로(ja의 라틴 부분 'LoveLive! Series'를 'Love Live! Series'로 씀). Fandom은 'LoveLive! Series 9th Anniversary Love Live! Fest'. ko: 나무위키 문서명은 어순이 바뀌어 ja 순서로 되돌림 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%ED%8E%98%EC%8A%A4%20LoveLive!%20Series%209th%20Anniversary. 일정 조사 메모: The fest page prints its title only as an image; title_ja is the text on the official Blu-ray entry (otonokizaka/release.php). Venue printed 「さいたまスーパーアリーナ（スタジアムモード）」 (stadium mode). Saint Snow counted under aqours."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/9th-anniversary/fest/index.php

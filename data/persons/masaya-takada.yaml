@@ -13,6 +13,10 @@ given_name:
   ko: 마사야
 evidence:
   names:
-    status: draft
-    source: automation/review/LLA-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. 읽기 미확인 (본인·소속사 프로필 못 찾음) rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/High%EF%BC%81%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3 https://love-live.fandom.com/wiki/High!_Motivation'
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

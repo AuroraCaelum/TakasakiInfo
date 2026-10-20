@@ -4,7 +4,7 @@ status: performed
 title:
   ja: ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!! JMA出張放送局 ～バブ卒大集合！ラジオとライブでわいわいわい～
   rom: Love Live! Sunshine!! Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station ~BABU-SOTSU Gathering! YYY with RADIO and LIVE~
-  ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! JMA출장방송국 ~밥졸업대집합! 라디오와 라이브로 왁자지껄~
+  ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! JMA출장방송국 ~바부 졸업 대집합! 라디오와 라이브로 왁자지껄~
 stops:
   - id: 1-shizuoka
     city: shizuoka
@@ -112,9 +112,10 @@ external_ids:
   fandom: Aqours Uranohoshi Girls' High School RADIO!!! JMA Local Broadcasting Station ~Babu Sotsu Daishuugou! Radio & Live With YYY~
 evidence:
   title:
-    status: draft
-    source: automation/review/LIV-concerts.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2023
+    checked: 2026-10-20
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom은 'Babu Sotsu Daishuugou! Radio & Live With YYY'). ko: 나무위키 문서명(러브라이브! → 러브 라이브!, ～ 앞 공백은 ja대로). 검수(2026-10-20) バブ卒는 '바부 졸업'(나무위키 문서명 밥졸업대집합을 고침) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%EC%9A%B0%EB%9D%BC%EB%85%B8%ED%98%B8%EC%8B%9C%20%EC%97%AC%ED%95%99%EC%9B%90%20RADIO!!!%20JMA%EC%B6%9C%EC%9E%A5%EB%B0%A9%EC%86%A1%EA%B5%AD~%EB%B0%A5%EC%A1%B8%EC%97%85%EB%8C%80%EC%A7%91%ED%95%A9!%20%EB%9D%BC%EB%94%94%EC%98%A4%EC%99%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A1%9C%20%EC%99%81%EC%9E%90%EC%A7%80%EA%BB%84~. 일정 조사 메모: The middle stop 「in NMB」 (大阪・Zepp Namba, 2023-06-03, two shows) was cancelled (official refund notice https://www.lovelive-anime.jp/news/01_2155.html; Fandom says weather) and is left out, so the held stops are numbered 1–2. ＜昼公演＞/＜夜公演＞ written Noon/Evening (Fandom tabs Day/Night). 降幡 愛 did not appear at in NMZ (official notice)."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jma2023
