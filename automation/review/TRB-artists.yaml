@@ -1,0 +1,89 @@
+type: new-names
+project: tribute
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: artist
+    printed: Poppin'Party
+    names:
+      ja: Poppin'Party
+      rom: Poppin'Party
+      ko: Poppin'Party
+    artist_kind: group
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: 『BanG Dream!』의 밴드. 공식 표기 https://bang-dream.com/artist/poppinparty/ 그대로. 라틴 문자 이름이라 rom·ko도 원문
+    used_in: ['LACA-25260 #11']
+    ref: artist:poppin-party
+  - kind: artist
+    printed: わか
+    names:
+      ja: わか
+      rom: Waka
+      ko: 와카
+    artist_kind: solo
+    status: derived
+    source: https://www.lovelive-anime.jp/special/15th/
+    note: '『アイカツ！』 星宮いちご의 가창 담당(15주년 특설 사이트의 주석 「わか」は星宮いちご…の歌唱担当, Lantis STAR☆ANIS 소개 https://www.lantis.jp/artist/staranis/bio.html). 크레딧 「わか・るか」는 유닛 이름이 아니라 두 가창자의 공동 명의(D48 joint). 공식 라틴·한국어 표기 없음: rom은 헵번, ko는 음역'
+    used_in: ['LACA-25260 #3']
+    ref: artist:waka
+  - kind: artist
+    printed: るか
+    names:
+      ja: るか
+      rom: Ruka
+      ko: 루카
+    artist_kind: solo
+    status: derived
+    source: https://www.lovelive-anime.jp/special/15th/
+    note: '『アイカツ！』 大空あかり의 가창 담당(15주년 특설 사이트 주석, Lantis STAR☆ANIS 소개). 크레딧 「わか・るか」의 공동 명의(D48 joint). 공식 라틴·한국어 표기 없음: rom은 헵번, ko는 음역'
+    used_in: ['LACA-25260 #3']
+    ref: artist:ruka
+  - kind: artist
+    printed: Ado
+    names:
+      ja: Ado
+      rom: Ado
+      ko: Ado
+    artist_kind: solo
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: 공식 표기(유니버설 뮤직 https://www.universal-music.co.jp/ado/biography/). 라틴 문자 이름이라 ko도 원문(나무위키 문서 제목도 'Ado')
+    used_in: ['LACA-25260 #5']
+    ref: artist:ado
+  - kind: artist
+    printed: V.W.P
+    names:
+      ja: V.W.P
+      rom: V.W.P
+      ko: V.W.P
+    artist_kind: group
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: KAMITSUBAKI STUDIO의 버추얼 아티스트 그룹(花譜·理芽·春猿火·ヰ世界情緒·幸祜, https://kamitsubaki.jp/artist/v-w-p/). 크레딧에 멤버가 없어 라인업은 두지 않음. 라틴 문자 이름이라 ko도 원문
+    used_in: ['LACA-25260 #6']
+    ref: artist:v-w-p
+  - kind: artist
+    printed: しぐれうい
+    names:
+      ja: しぐれうい
+      rom: Ui Shigure
+      ko: 시구레 우이
+    artist_kind: solo
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "일러스트레이터·VTuber. rom: 본인 권리 표기 '©Ui Shigure'(Lantis 특설 페이지 https://lantis.jp/special/loveliveseries15thtribute/). ko: 나무위키 '시구레 우이'"
+    used_in: ['LACA-25260 #7']
+    ref: artist:ui-shigure
+  - kind: artist
+    printed: 樋口楓
+    names:
+      ja: 樋口楓
+      rom: Kaede Higuchi
+      ko: 히구치 카에데
+    artist_kind: solo
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "にじさんじ 소속 VTuber. ja: 공식 표기 '樋口楓'(にじさんじ https://www.nijisanji.jp/talents/l/kaede-higuchi, 아티스트 이름이라 띄어 쓰지 않음. YouTube Music은 '樋口 楓'). rom: 공식 영문 'Higuchi Kaede'(성-이름)의 철자, 순서는 D4(공식 주소 kaede-higuchi, Spotify 'Kaede Higuchi'와 같음). ko: 나무위키 '히구치 카에데'"
+    used_in: ['LACA-25260 #8']
+    ref: artist:kaede-higuchi

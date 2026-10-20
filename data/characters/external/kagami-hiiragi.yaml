@@ -1,0 +1,28 @@
+id: external/kagami-hiiragi
+project: external
+names:
+  ja: 柊かがみ
+  kana: ひいらぎ かがみ
+  rom: Kagami Hiiragi
+  ko: 히이라기 카가미
+family_name:
+  ja: 柊
+  kana: ひいらぎ
+  rom: Hiiragi
+  ko: 히이라기
+given_name:
+  ja: かがみ
+  kana: かがみ
+  rom: Kagami
+  ko: 카가미
+casting:
+  - {person: emiri-kato}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

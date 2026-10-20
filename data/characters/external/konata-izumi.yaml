@@ -1,0 +1,28 @@
+id: external/konata-izumi
+project: external
+names:
+  ja: 泉こなた
+  kana: いずみ こなた
+  rom: Konata Izumi
+  ko: 이즈미 코나타
+family_name:
+  ja: 泉
+  kana: いずみ
+  rom: Izumi
+  ko: 이즈미
+given_name:
+  ja: こなた
+  kana: こなた
+  rom: Konata
+  ko: 코나타
+casting:
+  - {person: aya-hirano}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

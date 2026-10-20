@@ -1,0 +1,28 @@
+id: external/yukiho-hagiwara
+project: external
+names:
+  ja: 萩原 雪歩
+  kana: はぎわら ゆきほ
+  rom: Yukiho Hagiwara
+  ko: 하기와라 유키호
+family_name:
+  ja: 萩原
+  kana: はぎわら
+  rom: Hagiwara
+  ko: 하기와라
+given_name:
+  ja: 雪歩
+  kana: ゆきほ
+  rom: Yukiho
+  ko: 유키호
+casting:
+  - {person: azumi-asakura}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

@@ -1,0 +1,28 @@
+id: external/tae-hanazono
+project: external
+names:
+  ja: 花園たえ
+  kana: はなぞの たえ
+  rom: Tae Hanazono
+  ko: 하나조노 타에
+family_name:
+  ja: 花園
+  kana: はなぞの
+  rom: Hanazono
+  ko: 하나조노
+given_name:
+  ja: たえ
+  kana: たえ
+  rom: Tae
+  ko: 타에
+casting:
+  - {person: sae-otsuka}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

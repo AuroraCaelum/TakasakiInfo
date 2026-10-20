@@ -40,6 +40,17 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/02/
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {artist: ui-shigure}
+    arranger:
+      - {person: yuichiro-tsukagoshi, affiliation: NanosizeMir}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json). 소속: 부클릿 크레딧 '塚越雄一朗(NanosizeMir)'(MONACA Wiki 전사 https://monaca.jp/wiki/LoveLive!_Series_15th_Anniversary_Tribute_Album). 원곡의 弦編曲은 이 커버에 없음"
 evidence:
   credits:
     status: official

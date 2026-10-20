@@ -1,0 +1,19 @@
+id: poppin-party
+kind: group
+projects: [external]
+names:
+  ja: Poppin'Party
+  rom: Poppin'Party
+  ko: Poppin'Party
+lineups:
+  - members: [external/kasumi-toyama, external/tae-hanazono, external/rimi-ushigome, external/saya-yamabuki, external/arisa-ichigaya]
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-artists.yaml
+    note: 승인 대기 (new-names 리뷰)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20
+    note: 공식 페이지의 가창 크레딧 'Poppin'Party [戸山香澄(CV.愛美)、…］' (뱅드림 공식 멤버 순서와 같음)

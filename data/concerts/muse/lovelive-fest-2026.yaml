@@ -1,0 +1,96 @@
+id: muse/lovelive-fest-2026
+projects: [muse, aqours, nijigasaki, liella, hasunosora, ikizulive, musical]
+status: announced
+title:
+  ja: LoveLive! Series 15th Anniversary ラブライブ！フェス
+  rom: LoveLive! Series 15th Anniversary LOVELIVE! FEST
+  ko: LoveLive! Series 15th Anniversary 러브 라이브! 페스
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/kotori-minami}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/you-watanabe}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/hanamaru-kunikida}
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/ai-miyashita}
+  - {character: nijigasaki/kanata-konoe}
+  - {character: nijigasaki/emma-verde}
+  - {character: nijigasaki/rina-tennoji}
+  - {character: nijigasaki/shioriko-mifune}
+  - {character: nijigasaki/mia-taylor}
+  - {character: nijigasaki/lanzhu-zhong}
+  - {character: nijigasaki/yu-takasaki, featured: true}
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+  - {character: hasunosora/kaho-hinoshita}
+  - {character: hasunosora/sayaka-murano}
+  - {character: hasunosora/kozue-otomune}
+  - {character: hasunosora/tsuzuri-yugiri}
+  - {character: hasunosora/rurino-osawa}
+  - {character: hasunosora/megumi-fujishima}
+  - {character: hasunosora/ginko-momose}
+  - {character: hasunosora/kosuzu-kachimachi}
+  - {character: hasunosora/hime-anyoji}
+  - {character: hasunosora/ceras-yanagida-lilienfeld}
+  - {character: hasunosora/izumi-katsuragi}
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/akira-goto}
+  - {character: ikizulive/hanabi-komagata}
+  - {character: ikizulive/miracle-kanazawa}
+  - {character: ikizulive/noriko-chofu}
+  - {character: ikizulive/yukuri-harumiya}
+  - {character: ikizulive/aurora-konohana}
+  - {character: ikizulive/midori-yamada}
+  - {character: ikizulive/shion-sasaki}
+  - {person: marina-horiuchi, role: musical/rurika-tsubaki, featured: true}
+  - {person: karin-miyamoto, role: musical/anzu-takizawa, featured: true}
+  - {person: nanami-asai, role: musical/yuzuha-sumeragi, featured: true}
+  - {person: hana-minamino, role: musical/misuzu-wakatsuki, featured: true}
+  - {person: an-juria, role: musical/yukino-hojo, featured: true}
+  - {person: yui-oikawa, role: musical/toa-kurusu, featured: true}
+  - {person: riko-shimizu, role: musical/hikaru-amakusa, featured: true}
+  - {person: neo-inoue, role: musical/rena-suzuka, featured: true}
+  - {person: akari-yura, role: musical/maya-mikasa, featured: true}
+  - {person: yuuka-murayama, role: musical/sayaka-harukaze, featured: true}
+stops:
+  - id: 1-aichi
+    city: aichi
+    venue: vantelin-dome-nagoya
+    performances:
+      - {date: 2026-11-14}
+      - {date: 2026-11-15}
+external_ids:
+  fandom: LoveLive! Series 15th Anniversary Love Live! Fest
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    checked: 2026-10-21
+    note: '공식 라이브 페이지 「出演者」: 각 그룹의 출연 캐스트(배역 캐릭터로 적음). 矢野妃菜喜（高咲 侑役）는 応援出演, 『スクールアイドルミュージカル2026』 캐스트는 ゲスト出演이라 featured'
+  title:
+    status: draft
+    source: automation/review/LIV-concerts.yaml
+    note: 승인 대기 (new-names 리뷰)
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    checked: 2026-10-21

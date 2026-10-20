@@ -36,6 +36,17 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
         checked: 2026-10-20
+  - id: 15th-tribute
+    performers:
+      - {artist: v-w-p}
+    arranger:
+      - {person: mao-sasagawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: '가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json)와 편곡자 본인 사이트 https://www.maosasagawa.jp/blogs/works/260114lovelivetribute'
 evidence:
   title:
     status: derived

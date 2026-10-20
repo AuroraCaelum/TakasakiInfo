@@ -1,0 +1,28 @@
+id: external/haruka-amami
+project: external
+names:
+  ja: 天海 春香
+  kana: あまみ はるか
+  rom: Haruka Amami
+  ko: 아마미 하루카
+family_name:
+  ja: 天海
+  kana: あまみ
+  rom: Amami
+  ko: 아마미
+given_name:
+  ja: 春香
+  kana: はるか
+  rom: Haruka
+  ko: 하루카
+casting:
+  - {person: eriko-nakamura}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

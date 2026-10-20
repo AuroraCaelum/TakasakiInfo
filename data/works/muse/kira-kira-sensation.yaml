@@ -35,6 +35,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
         checked: 2026-10-20
+  - id: 15th-tribute
+    performers:
+      - {character: external/haruka-amami}
+      - {character: external/chihaya-kisaragi}
+      - {character: external/miki-hoshii}
+      - {character: external/yukiho-hagiwara}
+      - {character: external/makoto-kikuchi}
+    arranger:
+      - {person: ginnojo-hoshi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, 読み ホシギンノジョウ). 부클릿 전사(MONACA Wiki)의 'Strings Arrange: Talich Helfen(Core Creative)'은 공식·레이블 출처에서 확인하지 못해 넣지 않음"
 evidence:
   title:
     status: derived

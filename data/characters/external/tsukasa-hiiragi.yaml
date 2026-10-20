@@ -1,0 +1,28 @@
+id: external/tsukasa-hiiragi
+project: external
+names:
+  ja: 柊つかさ
+  kana: ひいらぎ つかさ
+  rom: Tsukasa Hiiragi
+  ko: 히이라기 츠카사
+family_name:
+  ja: 柊
+  kana: ひいらぎ
+  rom: Hiiragi
+  ko: 히이라기
+given_name:
+  ja: つかさ
+  kana: つかさ
+  rom: Tsukasa
+  ko: 츠카사
+casting:
+  - {person: kaori-fukuhara}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

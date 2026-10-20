@@ -1,0 +1,28 @@
+id: external/chihaya-kisaragi
+project: external
+names:
+  ja: 如月 千早
+  kana: きさらぎ ちはや
+  rom: Chihaya Kisaragi
+  ko: 키사라기 치하야
+family_name:
+  ja: 如月
+  kana: きさらぎ
+  rom: Kisaragi
+  ko: 키사라기
+given_name:
+  ja: 千早
+  kana: ちはや
+  rom: Chihaya
+  ko: 치하야
+casting:
+  - {person: asami-imai}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

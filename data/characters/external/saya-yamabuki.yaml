@@ -1,0 +1,28 @@
+id: external/saya-yamabuki
+project: external
+names:
+  ja: 山吹 沙綾
+  kana: やまぶき さあや
+  rom: Saya Yamabuki
+  ko: 야마부키 사아야
+family_name:
+  ja: 山吹
+  kana: やまぶき
+  rom: Yamabuki
+  ko: 야마부키
+given_name:
+  ja: 沙綾
+  kana: さあや
+  rom: Saya
+  ko: 사아야
+casting:
+  - {person: ayaka-ohashi}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

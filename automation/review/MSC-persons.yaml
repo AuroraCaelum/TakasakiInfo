@@ -1,0 +1,124 @@
+type: new-names
+project: musical
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: person
+    printed: 宮本佳林
+    family_name:
+      ja: 宮本
+      kana: みやもと
+      rom: Miyamoto
+      ko: 미야모토
+    given_name:
+      ja: 佳林
+      kana: かりん
+      rom: Karin
+      ko: 카린
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja·rom: 소속사 J.P ROOM 프로필 https://www.jp-r.co.jp/karin_miyamoto/ ('宮本佳林 / Karin Miyamoto'), 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758 ('みやもと・かりん'), ko: 나무위키 '미야모토 카린'(규칙 엔진과 같음). 『スクールアイドルミュージカル2026』 滝沢アンズ"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:karin-miyamoto
+  - kind: person
+    printed: 南野巴那
+    family_name:
+      ja: 南野
+      kana: みなみの
+      rom: Minamino
+      ko: 미나미노
+    given_name:
+      ja: 巴那
+      kana: はな
+      rom: Hana
+      ko: 하나
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja·읽기·rom: 소속사 오타 프로 프로필 https://www.ohtapro.co.jp/talent/minaminohana.html (루비 みなみの はな, 'Minamino Hana', 순서는 D4). ko: 나무위키 '미나미노 하나'. 『スクールアイドルミュージカル2026』 若槻ミスズ(Wキャスト, 2024년에도 같은 역)"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:hana-minamino
+  - kind: person
+    printed: 及川結依
+    family_name:
+      ja: 及川
+      kana: おいかわ
+      rom: Oikawa
+      ko: 오이카와
+    given_name:
+      ja: 結依
+      kana: ゆい
+      rom: Yui
+      ko: 유이
+    status: established
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja: 공식 페이지 표기(D28 띄어쓰기). 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758. rom: 소속사·본인 라틴 표기를 열어 보지 못해 Fandom https://love-live.fandom.com/wiki/Love_Live!_School_Idol_Musical (본인 X 표시 이름도 'Yui Oikawa'로 검색됨). ko: 나무위키 '오이카와 유이'. 『スクールアイドルミュージカル2026』 来栖トア(Wキャスト)"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:yui-oikawa
+  - kind: person
+    printed: 清水理子
+    family_name:
+      ja: 清水
+      kana: しみず
+      rom: Shimizu
+      ko: 시미즈
+    given_name:
+      ja: 理子
+      kana: りこ
+      rom: Riko
+      ko: 리코
+    status: established
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja: 소속 그룹 B≡FULLEST 공식 프로필 https://b-fullest.com/profile/shimizuriko/ ('清水 理子'). 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758. rom: 본인·소속사 라틴 표기가 없어 Fandom. ko: 나무위키 '시미즈 리코'. 『スクールアイドルミュージカル2026』 天草ヒカル"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:riko-shimizu
+  - kind: person
+    printed: 井上音生
+    family_name:
+      ja: 井上
+      kana: いのうえ
+      rom: Inoue
+      ko: 이노우에
+    given_name:
+      ja: 音生
+      kana: ねお
+      rom: Neo
+      ko: 네오
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja·읽기·rom: 소속사 토호 엔터테인먼트 프로필 https://www.toho-ent.co.jp/actor/1105 ('いのうえ ねお 井上 音生 / Neo Inoue'). ko: 나무위키 '이노우에 네오'. 『スクールアイドルミュージカル2026』 鈴賀レナ"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:neo-inoue
+  - kind: person
+    printed: 由良朱合
+    family_name:
+      ja: 由良
+      kana: ゆら
+      rom: Yura
+      ko: 유라
+    given_name:
+      ja: 朱合
+      kana: あかり
+      rom: Akari
+      ko: 아카리
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja·rom: 소속사 KAMPAI 프로필 https://kampai-kmp.com/talent/1148/ ('由良朱合（Yura Akari）', 순서는 D4), 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758. ko: 나무위키 '유라 아카리'. 『スクールアイドルミュージカル』 三笠マーヤ(2025·2026). 由良 崇将(takamasa-yura)과 다른 사람"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:akari-yura
+  - kind: person
+    printed: 村山結香
+    family_name:
+      ja: 村山
+      kana: むらやま
+      rom: Murayama
+      ko: 무라야마
+    given_name:
+      ja: 結香
+      kana: ゆうか
+      rom: Yuuka
+      ko: 유우카
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "ja·rom: ≒JOY 공식 프로필 https://nearly-equal-joy.jp/feature/profile_murayama_yuuka ('村山 結香 MURAYAMA YUUKA', 본인 표기라 장음 유지, 순서는 D4. Fandom은 'Yuka Murayama'). 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758. ko: 나무위키 '무라야마 유우카'(장음 유지 표기라 §5.4 예외, 세키네 유우나와 같음. 규칙 엔진은 무라야마 유카). 『スクールアイドルミュージカル2026』 晴風サヤカ. 村山☆潤(jun-murayama)과 다른 사람"
+    used_in: [muse/lovelive-fest-2026, nijigasaki/15th-fes-eve-film-live]
+    ref: person:yuuka-murayama

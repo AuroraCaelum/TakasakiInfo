@@ -1,0 +1,133 @@
+type: new-names
+project: tribute
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: person
+    printed: 馬瀬みさき
+    family_name:
+      ja: 馬瀬
+      kana: うませ
+      rom: Umase
+      ko: 우마세
+    given_name:
+      ja: みさき
+      kana: みさき
+      rom: Misaki
+      ko: 미사키
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, 공식 페이지에 편곡 크레딧 없음). 읽기: 같은 메타데이터 'ウマセミサキ'. rom: 소속사 라이츠인 표기 'MISAKI UMASE'(https://www.otonoshigoto.jp/topics/creator/%e9%a6%ac%e7%80%ac%e3%81%bf%e3%81%95%e3%81%8d/). ko: 규칙 엔진(나무위키 문서 없음, 앨범 문서의 음역도 '우마세 미사키')"
+    used_in: ['決めたよHand in Hand (LACA-25260 #1): 編曲']
+    ref: person:misaki-umase
+  - kind: person
+    printed: 東大路憲太
+    family_name:
+      ja: 東大路
+      kana: ひがしおおじ
+      rom: Higashiohji
+      ko: 히가시오오지
+    given_name:
+      ja: 憲太
+      kana: けんた
+      rom: Kenta
+      ko: 켄타
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora), 소속사 이매진 프로필 https://www.imagine-music.co.jp/artist/index/22 ('東大路 憲太 / Kenta Higashiohji'). 읽기: 레이블 메타데이터 'ヒガシオオジケンタ'(오사카음대 교원 페이지도 같음). rom: 본인·소속사 표기 'Higashiohji'(헵번 규칙이면 Higashioji). ko: 규칙 엔진(おお→오오, 나무위키 문서 없음)"
+    used_in: ['僕らは今のなかで (LACA-25260 #2): 編曲']
+    ref: person:kenta-higashiohji
+  - kind: person
+    printed: 石濱 翔
+    family_name:
+      ja: 石濱
+      kana: いしはま
+      rom: Ishihama
+      ko: 이시하마
+    given_name:
+      ja: 翔
+      kana: かける
+      rom: Kakeru
+      ko: 카케루
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora), 소속사 MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：石濱 翔 (MONACA)'). 읽기: 레이블 메타데이터 'イシハマカケル'. rom: MONACA 영문 멤버 페이지 https://monaca.jp/en/member ('Ishihama Kakeru', 순서는 D4). ko: 규칙 엔진(나무위키 문서 없음)"
+    used_in: ['Dream Believers (LACA-25260 #3): 編曲']
+    ref: person:kakeru-ishihama
+  - kind: person
+    printed: 広川恵一
+    family_name:
+      ja: 広川
+      kana: ひろかわ
+      rom: Hirokawa
+      ko: 히로카와
+    given_name:
+      ja: 恵一
+      kana: けいいち
+      rom: Keiichi
+      ko: 케이이치
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora), MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：広川恵一(MONACA)', 띄어쓰기는 D28). 읽기: 레이블 메타데이터 'ヒロカワケイイチ'. rom: MONACA 영문 멤버 페이지 'HIROKAWA KEIICHI'(순서는 D4). ko: 규칙 엔진(나무위키 문서 없음)"
+    used_in: ['キラーキューン☆ (LACA-25260 #4): 編曲']
+    ref: person:keiichi-hirokawa
+  - kind: person
+    printed: Naoki Itai
+    names:
+      ja: Naoki Itai
+      rom: Naoki Itai
+      ko: Naoki Itai
+    native_script: latin
+    name_parts: 라틴 문자 크레딧 표기(본인 표기). 성·이름은 rom 순서 그대로
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: 레이블 배포 메타데이터(mora 'Naoki Itai', Apple Music 'NAOKI ITAI')와 소속사 MUSIC FOR MUSIC 프로필 https://www.musicformusic.jp/creator/itai-naoki/ 의 표기. 라틴 원어 이름이라 ko도 원문(§5.4)
+    used_in: ['soldier game (LACA-25260 #5): 編曲']
+    ref: person:naoki-itai
+  - kind: person
+    printed: 笹川真生
+    family_name:
+      ja: 笹川
+      kana: ささがわ
+      rom: Sasagawa
+      ko: 사사가와
+    given_name:
+      ja: 真生
+      kana: まお
+      rom: Mao
+      ko: 마오
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora)와 본인 사이트 작업 목록 https://www.maosasagawa.jp/blogs/works/260114lovelivetribute ('M6 V.W.P「酸欠」 Arrangement: 笹川真生'). 읽기: 레이블 메타데이터 'ササガワマオ'. rom: 본인 사이트 제목 '笹川真生 -Mao Sasagawa-'. ko: 나무위키 '사사가와 마오'(규칙 엔진과 같음)"
+    used_in: ['酸欠 (LACA-25260 #6): 編曲']
+    ref: person:mao-sasagawa
+  - kind: person
+    printed: 塚越雄一朗
+    family_name:
+      ja: 塚越
+      kana: つかごし
+      rom: Tsukagoshi
+      ko: 츠카고시
+    given_name:
+      ja: 雄一朗
+      kana: ゆういちろう
+      rom: Yuichiro
+      ko: 유이치로
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora), 소속 NanosizeMir 공식 프로필 http://nanosizemir.com/profile ('作編曲 塚越雄一朗'). 읽기: 레이블 메타데이터 'ツカゴシユウイチロウ'. rom: 본인·소속 라틴 표기가 없어 헵번 규칙. ko: 규칙 엔진(나무위키 '츠카고시 유이치로'는 NanosizeMir 문서로 넘어감)"
+    used_in: ['フォーチュンムービー (LACA-25260 #7): 編曲']
+    ref: person:yuichiro-tsukagoshi
+  - kind: person
+    printed: ぐちり
+    names:
+      ja: ぐちり
+      kana: ぐちり
+      rom: Guchiry
+      ko: 구치리
+    name_parts: 한 단어 활동명
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    note: "ja: 레이블 배포 메타데이터(mora, 읽기 'グチリ'). rom: 본인 YouTube 채널 이름 'ぐちり / Guchiry' https://www.youtube.com/@Guchiry. ko: 나무위키 '구치리'"
+    used_in: ['Fly with You!! (LACA-25260 #9): 編曲']
+    ref: person:guchiry

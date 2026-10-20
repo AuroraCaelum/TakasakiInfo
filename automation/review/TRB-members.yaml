@@ -1,0 +1,690 @@
+type: new-names
+project: tribute
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: person
+    printed: 松岡美里
+    family_name:
+      ja: 松岡
+      kana: まつおか
+      rom: Matsuoka
+      ko: 마츠오카
+    given_name:
+      ja: 美里
+      kana: みさと
+      rom: Misato
+      ko: 미사토
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아임엔터프라이즈 프로필 https://www.imenterprise.jp/profile.php?id=83 ('松岡 美里 / まつおか みさと / MATSUOKA MISATO', 순서는 D4). ko: 공식 한국어(카카오게임즈 우마무스메 타니노 김렛 CV '마츠오카 미사토' https://umamusume.kakaogames.com/), 규칙 엔진·나무위키와 같음"
+    used_in: ['キュアアイドル: CV']
+    ref: person:misato-matsuoka
+  - kind: person
+    printed: 髙橋ミナミ
+    family_name:
+      ja: 髙橋
+      kana: たかはし
+      rom: Takahashi
+      ko: 타카하시
+    given_name:
+      ja: ミナミ
+      kana: みなみ
+      rom: Minami
+      ko: 미나미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 하이쿄 프로필 https://haikyo.co.jp/profile/profile.php?ActorID=12532 ('髙橋 ミナミ / タカハシ ミナミ / Minami Takahashi'). 髙(はしご高)는 소속사·토에이·Lantis 표기 그대로(언론은 高橋). 띄어쓰기는 D28(이름이 가나라 붙여 씀). ko: 공식 한국어(카카오게임즈 우마무스메 엘 콘도르 파사 CV '타카하시 미나미'), 나무위키 '타카하시 미나미(성우)'"
+    used_in: ['キュアウインク: CV']
+    ref: person:minami-takahashi
+  - kind: person
+    printed: 高森奈津美
+    family_name:
+      ja: 高森
+      kana: たかもり
+      rom: Takamori
+      ko: 타카모리
+    given_name:
+      ja: 奈津美
+      kana: なつみ
+      rom: Natsumi
+      ko: 나츠미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 라쿤도그 프로필 https://www.raccoon-dog.co.jp/talent/r03-takamori.html ('高森　奈津美 / たかもり　なつみ / Natsumi Takamori'). ko: 나무위키 '타카모리 나츠미'(공식 한국어 미확인, 규칙 엔진과 같음)"
+    used_in: ['キュアキュンキュン: CV']
+    ref: person:natsumi-takamori
+  - kind: person
+    printed: Machico
+    names:
+      ja: Machico
+      rom: Machico
+      ko: Machico
+    native_script: latin
+    name_parts: 라틴 문자 활동명(한 단어)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 VOICE KIT 프로필 https://voicekit.jp/talent/machico/ (공식 후리가나 없음). ko: 라틴 원어 이름이라 원문(§5.4), 카카오게임즈 우마무스메 한국어판도 'Machico'"
+    used_in: ['トウカイテイオー: CV']
+    ref: person:machico
+  - kind: person
+    printed: 高柳知葉
+    family_name:
+      ja: 高柳
+      kana: たかやなぎ
+      rom: Takayanagi
+      ko: 타카야나기
+    given_name:
+      ja: 知葉
+      kana: ともよ
+      rom: Tomoyo
+      ko: 토모요
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 라쿤도그 프로필 https://www.raccoon-dog.co.jp/talent/r13-takayanagi.html ('高柳　知葉 / たかやなぎ　ともよ / Tomoyo Takayanagi'). ko: 공식 한국어(카카오게임즈 우마무스메 오구리 캡 CV '타카야나기 토모요'), 나무위키와 같음"
+    used_in: ['オグリキャップ: CV']
+    ref: person:tomoyo-takayanagi
+  - kind: person
+    printed: 上田 瞳
+    family_name:
+      ja: 上田
+      kana: うえだ
+      rom: Ueda
+      ko: 우에다
+    given_name:
+      ja: 瞳
+      kana: ひとみ
+      rom: Hitomi
+      ko: 히토미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아오니 프로덕션 프로필 https://www.aoni.co.jp/search/ueda-hitomi.html ('上田　瞳 / うえだ ひとみ / Hitomi Ueda'). ko: 공식 한국어(카카오게임즈 우마무스메 골드 쉽 CV '우에다 히토미'), 나무위키와 같음"
+    used_in: ['ゴールドシップ: CV']
+    ref: person:hitomi-ueda
+  - kind: person
+    printed: 宮下早紀
+    family_name:
+      ja: 宮下
+      kana: みやした
+      rom: Miyashita
+      ko: 미야시타
+    given_name:
+      ja: 早紀
+      kana: さき
+      rom: Saki
+      ko: 사키
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 하이쿄 프로필 https://haikyo.co.jp/profile/profile.php?ActorID=13083 ('宮下 早紀 / ミヤシタ サキ / Saki Miyashita'). ko: 공식 한국어(카카오게임즈 우마무스메 스틸 인 러브 CV '미야시타 사키'), 나무위키와 같음"
+    used_in: ['スティルインラブ: CV']
+    ref: person:saki-miyashita
+  - kind: person
+    printed: 石原夏織
+    family_name:
+      ja: 石原
+      kana: いしはら
+      rom: Ishihara
+      ko: 이시하라
+    given_name:
+      ja: 夏織
+      kana: かおり
+      rom: Kaori
+      ko: 카오리
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 스타일큐브 프로필 https://stylecube.jp/talents/kaori/index.html ('石原夏織 / Ishihara Kaori / いしはらかおり', 순서는 D4). ko: 공식 한국어(카카오게임즈 우마무스메 아몬드 아이 CV '이시하라 카오리'), 나무위키와 같음"
+    used_in: ['アーモンドアイ: CV']
+    ref: person:kaori-ishihara
+  - kind: person
+    printed: 愛美
+    names:
+      ja: 愛美
+      rom: Aimi
+      ko: 아이미
+    name_parts: 한 단어 활동명
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 히비키 프로필 https://hibiki-cast.jp/hibiki_f/aimi/ ('Aimi', 뱅드림 영문 게임 사이트도 'VA. Aimi'). 공식 후리가나 없음. ko: 나무위키 '아이미(성우)'"
+    used_in: ['戸山香澄: CV']
+    ref: person:aimi
+  - kind: person
+    printed: 大塚紗英
+    family_name:
+      ja: 大塚
+      rom: Otsuka
+      ko: 오오츠카
+    given_name:
+      ja: 紗英
+      rom: Sae
+      ko: 사에
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja: 뱅드림 공식 https://bang-dream.com/artist/poppinparty/hanazono-tae/ ('大塚 紗英'). rom: 뱅드림 영문 게임 공식 https://bang-dream-gbp-en.bushiroad.com/character/ ('Sae Otsuka', 레이블 avex도 같음). 공식 후리가나 없음. ko: 나무위키 '오오츠카 사에'(규칙 엔진과 같음)"
+    used_in: ['花園たえ: CV']
+    ref: person:sae-otsuka
+  - kind: person
+    printed: 西本りみ
+    family_name:
+      ja: 西本
+      rom: Nishimoto
+      ko: 니시모토
+    given_name:
+      ja: りみ
+      rom: Rimi
+      ko: 리미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 히비키 프로필 https://hibiki-cast.jp/hibiki_f/nishimoto_rimi/ ('西本 りみ / Rimi Nishimoto', 띄어쓰기는 D28). 성의 공식 후리가나 없음. ko: 공식 한국어(카카오게임즈 뱅드림 한국 서비스 '성우.니시모토 리미' https://web.archive.org/web/2022im_/https://bangdream.kakaogames.com/web/images/character/pop/poppin/1.png)"
+    used_in: ['牛込りみ: CV']
+    ref: person:rimi-nishimoto
+  - kind: person
+    printed: 大橋彩香
+    family_name:
+      ja: 大橋
+      rom: Ohashi
+      ko: 오오하시
+    given_name:
+      ja: 彩香
+      rom: Ayaka
+      ko: 아야카
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja: 뱅드림 공식 https://bang-dream.com/artist/poppinparty/yamabuki-saya/ ('大橋 彩香'). rom: 뱅드림 영문 게임 공식 https://bang-dream-gbp-en.bushiroad.com/character/ ('Ayaka Ohashi'). 공식 후리가나 없음. ko: 나무위키 '오오하시 아야카'(규칙 엔진과 같음)"
+    used_in: ['山吹沙綾: CV']
+    ref: person:ayaka-ohashi
+  - kind: person
+    printed: 伊藤彩沙
+    family_name:
+      ja: 伊藤
+      rom: Ito
+      ko: 이토
+    given_name:
+      ja: 彩沙
+      rom: Ayasa
+      ko: 아야사
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 히비키 프로필 https://hibiki-cast.jp/hibiki_f/ito_ayasa/ ('Ayasa Ito'). 공식 후리가나 없음. ko: 나무위키 '이토 아야사'(규칙 엔진과 같음)"
+    used_in: ['市ヶ谷有咲: CV']
+    ref: person:ayasa-ito
+  - kind: person
+    printed: 中村繪里子
+    family_name:
+      ja: 中村
+      kana: なかむら
+      rom: Nakamura
+      ko: 나카무라
+    given_name:
+      ja: 繪里子
+      kana: えりこ
+      rom: Eriko
+      ko: 에리코
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아츠비전 프로필 https://www.artsvision.co.jp/talent/14327/ ('中村 繪里子 / なかむら えりこ / ERIKO NAKAMURA', 繪는 공식 표기 그대로). ko: 나무위키 '나카무라 에리코'(규칙 엔진과 같음)"
+    used_in: ['天海春香: CV']
+    ref: person:eriko-nakamura
+  - kind: person
+    printed: 今井麻美
+    family_name:
+      ja: 今井
+      rom: Imai
+      ko: 이마이
+    given_name:
+      ja: 麻美
+      rom: Asami
+      ko: 아사미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 얼리윙 프로필 https://www.earlywing.co.jp/actordb/catea/talent_imaiasami ('今井 麻美 / Asami Imai'). 공식 후리가나 없음. ko: 나무위키 '이마이 아사미'(규칙 엔진과 같음)"
+    used_in: ['如月千早: CV']
+    ref: person:asami-imai
+  - kind: person
+    printed: 長谷川明子
+    family_name:
+      ja: 長谷川
+      kana: はせがわ
+      rom: Hasegawa
+      ko: 하세가와
+    given_name:
+      ja: 明子
+      kana: あきこ
+      rom: Akiko
+      ko: 아키코
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아츠비전 프로필 https://www.artsvision.co.jp/talent/14300/ ('長谷川 明子 / はせがわ あきこ / AKIKO HASEGAWA'). ko: 나무위키 '하세가와 아키코'(규칙 엔진과 같음)"
+    used_in: ['星井美希: CV']
+    ref: person:akiko-hasegawa
+  - kind: person
+    printed: 浅倉杏美
+    family_name:
+      ja: 浅倉
+      kana: あさくら
+      rom: Asakura
+      ko: 아사쿠라
+    given_name:
+      ja: 杏美
+      kana: あずみ
+      rom: Azumi
+      ko: 아즈미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아츠비전 프로필 https://www.artsvision.co.jp/talent/14219/ ('浅倉 杏美 / あさくら あずみ / AZUMI ASAKURA'). ko: 나무위키 '아사쿠라 아즈미'(규칙 엔진과 같음)"
+    used_in: ['萩原雪歩: CV']
+    ref: person:azumi-asakura
+  - kind: person
+    printed: 平田宏美
+    family_name:
+      ja: 平田
+      kana: ひらた
+      rom: Hirata
+      ko: 히라타
+    given_name:
+      ja: 宏美
+      kana: ひろみ
+      rom: Hiromi
+      ko: 히로미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 아임엔터프라이즈 프로필 https://www.imenterprise.jp/profile.php?id=76 ('平田 宏美 / ひらた ひろみ / HIRATA HIROMI', 순서는 D4). ko: 나무위키 '히라타 히로미'(규칙 엔진과 같음)"
+    used_in: ['菊地 真: CV']
+    ref: person:hiromi-hirata
+  - kind: person
+    printed: 平野 綾
+    family_name:
+      ja: 平野
+      rom: Hirano
+      ko: 히라노
+    given_name:
+      ja: 綾
+      rom: Aya
+      ko: 아야
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 본인 공식 사이트 https://ayahirano.jp/?p=51 ('平野 綾', 'Aya Hirano official site', 2022년부터 소속사 없음). 공식 후리가나 없음. ko: 나무위키 '히라노 아야'(규칙 엔진과 같음)"
+    used_in: ['泉こなた: CV']
+    ref: person:aya-hirano
+  - kind: person
+    printed: 福原香織
+    family_name:
+      ja: 福原
+      kana: ふくはら
+      rom: Fukuhara
+      ko: 후쿠하라
+    given_name:
+      ja: 香織
+      kana: かおり
+      rom: Kaori
+      ko: 카오리
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기·rom: 소속사 브라이트 이데아 프로필 https://bright-idea.jp/talent/kaori-fukuhara/ ('福原 香織 | Kaori Fukuhara', 'ふくはらかおり'). ko: 나무위키 '후쿠하라 카오리'(규칙 엔진과 같음)"
+    used_in: ['柊つかさ: CV']
+    ref: person:kaori-fukuhara
+  - kind: person
+    printed: 加藤英美里
+    family_name:
+      ja: 加藤
+      kana: かとう
+      rom: Kato
+      ko: 카토
+    given_name:
+      ja: 英美里
+      kana: えみり
+      rom: Emiri
+      ko: 에미리
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·읽기: 소속사 스타더스트 프로모션 프로필 https://www.stardust.co.jp/talent/voiceactor/katoemiri/ ('加藤英美里 / カトウエミリ'). rom: 본인·소속사 라틴 표기가 없어 헵번 규칙. ko: 나무위키 '카토 에미리'(규칙 엔진과 같음)"
+    used_in: ['柊かがみ: CV']
+    ref: person:emiri-kato
+  - kind: person
+    printed: 遠藤 綾
+    family_name:
+      ja: 遠藤
+      rom: Endo
+      ko: 엔도
+    given_name:
+      ja: 綾
+      rom: Aya
+      ko: 아야
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "ja·rom: 소속사 인텐션 프로필 https://intention-k.com/profile/aya_endo ('遠藤 綾 / Aya Endo'). 공식 후리가나 없음. ko: 나무위키 '엔도 아야'(규칙 엔진과 같음)"
+    used_in: ['高良みゆき: CV']
+    ref: person:aya-endo
+  - kind: character
+    printed: キュアアイドル
+    names:
+      ja: キュアアイドル
+      rom: Cure Idol
+      ko: 큐어 아이돌
+    name_parts: 프리큐어 변신 이름(한 단위). 평소 이름은 咲良うた
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『キミとアイドルプリキュア♪』. ja: 토에이 애니메이션 공식 캐릭터 페이지 https://www.toei-anim.co.jp/tv/you-and-idol_precure/character/, rom: 토에이 애니메이션 글로벌 공식 'Cure Idol' https://www.toei-animation.com/you-idol-precure-begin-february-2nd/, ko: 국내 정식 더빙 「너랑 아이돌 프리큐어♪」 1화 제목 '큐어 아이돌' https://laftel.net/item/44236"
+    used_in: ['LACA-25260 #1']
+    ref: character:external/cure-idol
+  - kind: character
+    printed: キュアウインク
+    names:
+      ja: キュアウインク
+      rom: Cure Wink
+      ko: 큐어 윙크
+    name_parts: 프리큐어 변신 이름(한 단위). 평소 이름은 蒼風なな
+    status: established
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『キミとアイドルプリキュア♪』. ja: 토에이 공식 캐릭터 페이지 https://www.toei-anim.co.jp/tv/you-and-idol_precure/character/curewink.php. rom: 권리자 라틴 표기 없음, Love Live! Fandom 트리뷰트 앨범 표 'Cure Wink'(D38, 공식 'Cure Idol'과 같은 짜임), ko: 국내 정식 더빙 3화 제목 '큐어 윙크' https://laftel.net/item/44236"
+    used_in: ['LACA-25260 #1']
+    ref: character:external/cure-wink
+  - kind: character
+    printed: キュアキュンキュン
+    names:
+      ja: キュアキュンキュン
+      rom: Cure Kyun-Kyun
+      ko: 큐어 콩콩
+    name_parts: 프리큐어 변신 이름(한 단위). 평소 이름은 紫雨こころ
+    status: established
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『キミとアイドルプリキュア♪』. ja: 토에이 공식 캐릭터 페이지 https://www.toei-anim.co.jp/tv/you-and-idol_precure/character/curekyunkyun.php. rom: 권리자 라틴 표기 없음, Love Live! Fandom 'Cure Kyun-Kyun'(D38). ko: 국내 정식 더빙 7화 제목 '큐어 콩콩' https://laftel.net/item/44236 (공식 한국어. 나무위키·팬 표기는 음역 '큐어 큥큥')"
+    used_in: ['LACA-25260 #1']
+    ref: character:external/cure-kyun-kyun
+  - kind: character
+    printed: トウカイテイオー
+    names:
+      ja: トウカイテイオー
+      rom: Tokai Teio
+      ko: 토카이 테이오
+    name_parts: 경주마 이름(한 단위)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/tokaiteio ('Tokai Teio', 글로벌 https://umamusume.com/characters/ 도 같음), ko: 공식 한국어판(카카오게임즈) https://umamusume.kakaogames.com/ '토카이 테이오'"
+    used_in: ['LACA-25260 #2']
+    ref: character:external/tokai-teio
+  - kind: character
+    printed: オグリキャップ
+    names:
+      ja: オグリキャップ
+      rom: Oguri Cap
+      ko: 오구리 캡
+    name_parts: 경주마 이름(한 단위)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/oguricap ('Oguri Cap'), ko: 공식 한국어판 https://umamusume.kakaogames.com/ '오구리 캡'"
+    used_in: ['LACA-25260 #2']
+    ref: character:external/oguri-cap
+  - kind: character
+    printed: ゴールドシップ
+    names:
+      ja: ゴールドシップ
+      rom: Gold Ship
+      ko: 골드 쉽
+    name_parts: 경주마 이름(한 단위)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/goldship ('Gold Ship'), ko: 공식 한국어판 https://umamusume.kakaogames.com/ '골드 쉽'"
+    used_in: ['LACA-25260 #2']
+    ref: character:external/gold-ship
+  - kind: character
+    printed: スティルインラブ
+    names:
+      ja: スティルインラブ
+      rom: Still in Love
+      ko: 스틸 인 러브
+    name_parts: 경주마 이름(한 단위)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/stillinlove ('Still in Love', 글로벌 사이트에는 아직 없음), ko: 공식 한국어판 https://umamusume.kakaogames.com/ '스틸 인 러브'"
+    used_in: ['LACA-25260 #2']
+    ref: character:external/still-in-love
+  - kind: character
+    printed: アーモンドアイ
+    names:
+      ja: アーモンドアイ
+      rom: Almond Eye
+      ko: 아몬드 아이
+    name_parts: 경주마 이름(한 단위)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/almondeye ('Almond Eye', 글로벌 사이트에는 아직 없음), ko: 공식 한국어판 https://umamusume.kakaogames.com/ '아몬드 아이'"
+    used_in: ['LACA-25260 #2']
+    ref: character:external/almond-eye
+  - kind: character
+    printed: 戸山香澄
+    family_name:
+      ja: 戸山
+      kana: とやま
+      rom: Toyama
+      ko: 토야마
+    given_name:
+      ja: 香澄
+      kana: かすみ
+      rom: Kasumi
+      ko: 카스미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『BanG Dream!』 Poppin'Party. ja·읽기: 공식 캐릭터 페이지 https://bang-dream.com/artist/poppinparty/toyama-kasumi/, rom: 영문 게임 공식 https://bang-dream-gbp-en.bushiroad.com/character/, ko: 공식 한국어 서비스(카카오게임즈, 2018~2024) https://web.archive.org/web/20230615130132/https://bangdream.kakaogames.com/mobile/main.html (나무위키도 같음)"
+    used_in: ['LACA-25260 #11']
+    ref: character:external/kasumi-toyama
+  - kind: character
+    printed: 花園たえ
+    family_name:
+      ja: 花園
+      kana: はなぞの
+      rom: Hanazono
+      ko: 하나조노
+    given_name:
+      ja: たえ
+      kana: たえ
+      rom: Tae
+      ko: 타에
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『BanG Dream!』 Poppin'Party. ja·읽기: 공식 캐릭터 페이지 https://bang-dream.com/artist/poppinparty/hanazono-tae/ ('花園 たえ', 띄어쓰기는 D28), rom: 영문 게임 공식, ko: 공식 한국어 서비스(카카오게임즈)"
+    used_in: ['LACA-25260 #11']
+    ref: character:external/tae-hanazono
+  - kind: character
+    printed: 牛込りみ
+    family_name:
+      ja: 牛込
+      kana: うしごめ
+      rom: Ushigome
+      ko: 우시고메
+    given_name:
+      ja: りみ
+      kana: りみ
+      rom: Rimi
+      ko: 리미
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『BanG Dream!』 Poppin'Party. ja·읽기: 공식 캐릭터 페이지 https://bang-dream.com/artist/poppinparty/ushigome-rimi/ ('牛込 りみ', 띄어쓰기는 D28), rom: 영문 게임 공식, ko: 공식 한국어 서비스(카카오게임즈)"
+    used_in: ['LACA-25260 #11']
+    ref: character:external/rimi-ushigome
+  - kind: character
+    printed: 山吹沙綾
+    family_name:
+      ja: 山吹
+      kana: やまぶき
+      rom: Yamabuki
+      ko: 야마부키
+    given_name:
+      ja: 沙綾
+      kana: さあや
+      rom: Saya
+      ko: 사아야
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『BanG Dream!』 Poppin'Party. ja·읽기: 공식 캐릭터 페이지 https://bang-dream.com/artist/poppinparty/yamabuki-saya/ (読み さあや), rom: 영문 게임 공식 'Saya Yamabuki'(일본어 게임 사이트는 장음 부호 'Sāya'), ko: 공식 한국어 서비스(카카오게임즈) '야마부키 사아야'"
+    used_in: ['LACA-25260 #11']
+    ref: character:external/saya-yamabuki
+  - kind: character
+    printed: 市ヶ谷有咲
+    family_name:
+      ja: 市ヶ谷
+      kana: いちがや
+      rom: Ichigaya
+      ko: 이치가야
+    given_name:
+      ja: 有咲
+      kana: ありさ
+      rom: Arisa
+      ko: 아리사
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『BanG Dream!』 Poppin'Party. ja·읽기: 공식 캐릭터 페이지 https://bang-dream.com/artist/poppinparty/ichigaya-arisa/, rom: 영문 게임 공식, ko: 공식 한국어 서비스(카카오게임즈)"
+    used_in: ['LACA-25260 #11']
+    ref: character:external/arisa-ichigaya
+  - kind: character
+    printed: 天海春香
+    family_name:
+      ja: 天海
+      kana: あまみ
+      rom: Amami
+      ko: 아마미
+    given_name:
+      ja: 春香
+      kana: はるか
+      rom: Haruka
+      ko: 하루카
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『THE IDOLM@STER』 765PRO ALLSTARS. ja·읽기·rom: 공식 아이돌 페이지 https://millionlive-theaterdays.idolmaster-official.jp/idol/haruka/ ('HARUKA / AMAMI', 'あまみ はるか'), ko: 나무위키 '아마미 하루카'(공식 한국어 미확인)"
+    used_in: ['LACA-25260 #10']
+    ref: character:external/haruka-amami
+  - kind: character
+    printed: 如月千早
+    family_name:
+      ja: 如月
+      kana: きさらぎ
+      rom: Kisaragi
+      ko: 키사라기
+    given_name:
+      ja: 千早
+      kana: ちはや
+      rom: Chihaya
+      ko: 치하야
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『THE IDOLM@STER』 765PRO ALLSTARS. ja·읽기·rom: 공식 아이돌 페이지 https://millionlive-theaterdays.idolmaster-official.jp/idol/chihaya/, ko: 나무위키 '키사라기 치하야'(공식 한국어 미확인)"
+    used_in: ['LACA-25260 #10']
+    ref: character:external/chihaya-kisaragi
+  - kind: character
+    printed: 星井美希
+    family_name:
+      ja: 星井
+      kana: ほしい
+      rom: Hoshii
+      ko: 호시이
+    given_name:
+      ja: 美希
+      kana: みき
+      rom: Miki
+      ko: 미키
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『THE IDOLM@STER』 765PRO ALLSTARS. ja·읽기·rom: 공식 아이돌 페이지 https://millionlive-theaterdays.idolmaster-official.jp/idol/miki/ ('MIKI / HOSHII'), ko: 나무위키 '호시이 미키'(공식 한국어 미확인)"
+    used_in: ['LACA-25260 #10']
+    ref: character:external/miki-hoshii
+  - kind: character
+    printed: 萩原雪歩
+    family_name:
+      ja: 萩原
+      kana: はぎわら
+      rom: Hagiwara
+      ko: 하기와라
+    given_name:
+      ja: 雪歩
+      kana: ゆきほ
+      rom: Yukiho
+      ko: 유키호
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『THE IDOLM@STER』 765PRO ALLSTARS. ja·읽기·rom: 공식 아이돌 페이지 https://millionlive-theaterdays.idolmaster-official.jp/idol/yukiho/, ko: 나무위키 '하기와라 유키호'(공식 한국어 미확인)"
+    used_in: ['LACA-25260 #10']
+    ref: character:external/yukiho-hagiwara
+  - kind: character
+    printed: 菊地 真
+    family_name:
+      ja: 菊地
+      kana: きくち
+      rom: Kikuchi
+      ko: 키쿠치
+    given_name:
+      ja: 真
+      kana: まこと
+      rom: Makoto
+      ko: 마코토
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『THE IDOLM@STER』 765PRO ALLSTARS. ja·읽기·rom: 공식 아이돌 페이지 https://millionlive-theaterdays.idolmaster-official.jp/idol/makoto/ (菊地, 菊池 아님), ko: 나무위키 '키쿠치 마코토'(공식 한국어 미확인)"
+    used_in: ['LACA-25260 #10']
+    ref: character:external/makoto-kikuchi
+  - kind: character
+    printed: 泉こなた
+    family_name:
+      ja: 泉
+      kana: いずみ
+      rom: Izumi
+      ko: 이즈미
+    given_name:
+      ja: こなた
+      kana: こなた
+      rom: Konata
+      ko: 코나타
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『らき☆すた』. ja·읽기: 공식 사이트 캐릭터 목록 https://www.lucky-ch.com/luckypedia/index.html ('泉　こなた', 'いずみこなた', 띄어쓰기는 D28). rom: 권리자 영문 표기를 열지 못해 헵번 규칙(나무위키의 영문도 같음). ko: 나무위키 '이즈미 코나타'"
+    used_in: ['LACA-25260 #4']
+    ref: character:external/konata-izumi
+  - kind: character
+    printed: 柊つかさ
+    family_name:
+      ja: 柊
+      kana: ひいらぎ
+      rom: Hiiragi
+      ko: 히이라기
+    given_name:
+      ja: つかさ
+      kana: つかさ
+      rom: Tsukasa
+      ko: 츠카사
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『らき☆すた』. ja·읽기: 공식 사이트 캐릭터 목록 https://www.lucky-ch.com/luckypedia/index.html ('柊 つかさ', 'ひいらぎつかさ'). rom: 헵번 규칙. ko: 나무위키 '히이라기 츠카사'"
+    used_in: ['LACA-25260 #4']
+    ref: character:external/tsukasa-hiiragi
+  - kind: character
+    printed: 柊かがみ
+    family_name:
+      ja: 柊
+      kana: ひいらぎ
+      rom: Hiiragi
+      ko: 히이라기
+    given_name:
+      ja: かがみ
+      kana: かがみ
+      rom: Kagami
+      ko: 카가미
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『らき☆すた』. ja·읽기: 공식 사이트 캐릭터 목록 https://www.lucky-ch.com/luckypedia/index.html ('柊 かがみ', 'ひいらぎかがみ'). rom: 헵번 규칙. ko: 나무위키 '히이라기 카가미'"
+    used_in: ['LACA-25260 #4']
+    ref: character:external/kagami-hiiragi
+  - kind: character
+    printed: 高良みゆき
+    family_name:
+      ja: 高良
+      kana: たから
+      rom: Takara
+      ko: 타카라
+    given_name:
+      ja: みゆき
+      kana: みゆき
+      rom: Miyuki
+      ko: 미유키
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    note: "『らき☆すた』. ja·읽기: 공식 사이트 캐릭터 목록 https://www.lucky-ch.com/luckypedia/index.html ('高良 みゆき', 'たからみゆき'). rom: 헵번 규칙. ko: 나무위키 '타카라 미유키'"
+    used_in: ['LACA-25260 #4']
+    ref: character:external/miyuki-takara

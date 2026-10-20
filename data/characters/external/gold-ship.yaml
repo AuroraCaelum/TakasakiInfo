@@ -1,0 +1,20 @@
+id: external/gold-ship
+project: external
+names:
+  ja: ゴールドシップ
+  rom: Gold Ship
+  ko: 골드 쉽
+casting:
+  - {person: hitomi-ueda}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 경주마 이름(한 단위)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

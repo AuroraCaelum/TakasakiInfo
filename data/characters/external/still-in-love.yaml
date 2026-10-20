@@ -1,0 +1,20 @@
+id: external/still-in-love
+project: external
+names:
+  ja: スティルインラブ
+  rom: Still in Love
+  ko: 스틸 인 러브
+casting:
+  - {person: saki-miyashita}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  name_parts:
+    status: derived
+    note: 경주마 이름(한 단위)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

@@ -1,0 +1,28 @@
+id: external/kasumi-toyama
+project: external
+names:
+  ja: 戸山 香澄
+  kana: とやま かすみ
+  rom: Kasumi Toyama
+  ko: 토야마 카스미
+family_name:
+  ja: 戸山
+  kana: とやま
+  rom: Toyama
+  ko: 토야마
+given_name:
+  ja: 香澄
+  kana: かすみ
+  rom: Kasumi
+  ko: 카스미
+casting:
+  - {person: aimi}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

@@ -1,0 +1,28 @@
+id: external/arisa-ichigaya
+project: external
+names:
+  ja: 市ヶ谷 有咲
+  kana: いちがや ありさ
+  rom: Arisa Ichigaya
+  ko: 이치가야 아리사
+family_name:
+  ja: 市ヶ谷
+  kana: いちがや
+  rom: Ichigaya
+  ko: 이치가야
+given_name:
+  ja: 有咲
+  kana: ありさ
+  rom: Arisa
+  ko: 아리사
+casting:
+  - {person: ayasa-ito}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20

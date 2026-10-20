@@ -1,0 +1,16 @@
+type: new-names
+project: concerts
+decision: ''
+how: '공식 사이트에서 처음 나온 이름. 빈 칸을 채우고 다시 가져오면(takasaki official <프로젝트>) 초안으로 들어간다. 인명은 family_name/given_name(성·이름)을 채우면 names가 D28 규칙으로 만들어진다(rom은 이름-성, ko는 성-이름). 한 단어 이름이나 인명이 아닌 활동명(필명 등)은 family_name/given_name을 지우고 names만 채우고, 그 사유를 name_parts에 적는다. names에 값을 적으면 그 값이 우선한다. 근거는 공식 페이지가 먼저이고, 공식에 없는 값(ko, 읽기)만 나무위키 등에서 가져온다(D36). status는 승인 후 근거 등급(official|established|derived). 확인이 끝나면 decision: approve 후 takasaki review apply.'
+items:
+  - kind: concert
+    printed: LoveLive! Series 15th Anniversary ラブライブ！フェス
+    title:
+      ja: LoveLive! Series 15th Anniversary ラブライブ！フェス
+      rom: LoveLive! Series 15th Anniversary LOVELIVE! FEST
+      ko: LoveLive! Series 15th Anniversary 러브 라이브! 페스
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    note: "rom: 공식 해외 안내(For overseas customers)의 영문 'LoveLive! Series 15th Anniversary LOVELIVE! FEST' 그대로(전야제 FILM LIVE와 같은 표기). ko: 9th 「LoveLive! Series 9th Anniversary 러브 라이브! 페스」와 같은 방식(라틴 부분은 원문, ラブライブ！フェス는 '러브 라이브! 페스'). Fandom: 'LoveLive! Series 15th Anniversary Love Live! Fest'. 일정 조사 메모: Day.1 2026-11-14 (14:30 open / 16:30 start), Day.2 2026-11-15 (13:30 / 15:30), 愛知・バンテリンドーム ナゴヤ. 15th-anniversary series joint live"
+    used_in: [muse/lovelive-fest-2026]
+    ref: concert:muse/lovelive-fest-2026

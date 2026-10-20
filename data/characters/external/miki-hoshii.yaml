@@ -1,0 +1,28 @@
+id: external/miki-hoshii
+project: external
+names:
+  ja: 星井 美希
+  kana: ほしい みき
+  rom: Miki Hoshii
+  ko: 호시이 미키
+family_name:
+  ja: 星井
+  kana: ほしい
+  rom: Hoshii
+  ko: 호시이
+given_name:
+  ja: 美希
+  kana: みき
+  rom: Miki
+  ko: 미키
+casting:
+  - {person: akiko-hasegawa}
+evidence:
+  names:
+    status: draft
+    source: automation/review/TRB-members.yaml
+    note: 승인 대기 (new-names 리뷰)
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20
