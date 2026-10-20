@@ -6,8 +6,8 @@ or ``発売日：…`` or ``2013.11.27 on sale``, ``アーティスト名：…`
 or no label at all, ``[ドラマパート]``, the artist with its reading (``μ's（ミューズ）``) or with its
 members in brackets. The blocks are normalized to the common layout and read by ``sitepage``.
 
-The two newest blocks are loaded by script (``release_detail.php``): a V.A. tribute album and a Blu-ray
-(checked 2026-10-20), so they are not read. μ's has no migrated releases: everything is imported.
+The two newest blocks are loaded by script (``release_detail.php``): a V.A. tribute album (entered by
+hand, D52) and a Blu-ray (checked 2026-10-20), so they are not read. μ's has no migrated releases: everything is imported.
 """
 
 from __future__ import annotations

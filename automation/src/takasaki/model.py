@@ -527,6 +527,8 @@ class Performance(Strict):
     """Day of the show."""
     label: str | None = None
     """Show label (`Day.1`, `Day.2 Noon`)."""
+    cast: PerformerList = []
+    """Cast of this show when it differs from the concert's: the whole list, which replaces the concert's."""
     setlist: list[SetlistItem] = []
     """Set list in order."""
     external_ids: dict[str, str] = {}  # D47
@@ -562,6 +564,10 @@ class Concert(Strict):
     `confirmed` concerts only."""
     title: Names
     """Concert title."""
+    cast: PerformerList = []
+    """Cast of every show as the official live page announces it: a voice actor as the character they play, a
+    stage actor as a person in a role. `featured`: a guest or support appearance (ゲスト出演, 応援出演). A show
+    with another cast lists its own."""
     stops: list[Stop]
     """Stops of the tour (city, venue, shows)."""
     legacy: ConcertLegacy = ConcertLegacy()
@@ -569,7 +575,7 @@ class Concert(Strict):
     external_ids: dict[str, str] = {}
     """Ids elsewhere: `fandom` (title of the concert's Love Live! Fandom article)."""
     evidence: dict[str, Evidence] = {}
-    """Sources, keyed by the field they cover (`title`, `schedule`, `setlist.<date>`, …)."""
+    """Sources, keyed by the field they cover (`title`, `schedule`, `cast`, `setlist.<date>`, …)."""
 
 
 # --- metadata and legacy layout ---------------------------------------------------

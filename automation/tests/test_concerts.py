@@ -2,6 +2,8 @@
 
 import datetime as dt
 
+import pytest
+
 from takasaki import concerts, fandom
 from takasaki import model as m
 from takasaki.store import Dataset
@@ -162,6 +164,57 @@ def test_a_schedule_creates_the_concert_its_venues_and_review_items(tmp_path):
     assert c.evidence["schedule.1-aichi"].status == m.Status.official
     assert c.evidence["schedule.2-online"].status == m.Status.established
     assert r.created and (tmp_path / "LIV-concerts.yaml").exists() and (tmp_path / "LIV-venues.yaml").exists()
+
+
+def test_an_announced_concert_and_the_cast_of_each_show(tmp_path):
+    # §4.6: the concert's cast is every show's unless a show lists its own; a guest is featured
+    ds = Dataset()
+    ds.cities["aichi"] = m.City(id="aichi", names=m.Names(rom="Aichi"))
+    ds.venues["dome"] = m.Venue(id="dome", city="aichi", names=m.Names(ja="バンテリンドーム ナゴヤ", rom="Vantelin Dome Nagoya"))
+    page = "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest"
+    entry = {"id": "muse/fest", "projects": ["muse", "musical"], "status": "announced",
+             "title_ja": "LoveLive! Series 15th Anniversary ラブライブ！フェス", "title_source": page,
+             "stops": [{"id": "1-aichi", "city": {"id": "aichi"}, "venue": {"ja": "バンテリンドーム ナゴヤ"}, "source": page,
+                        "performances": [{"date": dt.date(2026, 11, 14)}, {"date": dt.date(2026, 11, 15)}]}],
+             "cast": [{"character": "muse/honoka-kosaka"}, {"person": "marina-horiuchi", "role": "musical/rurika", "featured": True}],
+             "shows": [{"date": dt.date(2026, 11, 15), "cast": [{"character": "muse/honoka-kosaka"}]}],
+             "cast_source": page}
+    concerts.import_schedule(ds, [entry], tmp_path, dt.date(2026, 10, 20))
+    c = ds.concerts["muse/fest"]
+    assert c.status == "announced" and c.external_ids == {} and c.stops[0].venue == "dome"
+    assert [p.ref for p in c.cast] == [("character", "muse/honoka-kosaka"), ("person", "marina-horiuchi")] and c.cast[1].featured
+    day1, day2 = c.stops[0].performances
+    assert day1.cast == [] and [p.ref for p in day2.cast] == [("character", "muse/honoka-kosaka")]
+    assert c.evidence["cast"].status == m.Status.official
+
+    # an existing concert gets the cast only
+    existing = {"existing": "muse/fest", "cast": [{"character": "muse/kotori-minami"}], "cast_source": page}
+    r = concerts.import_schedule(ds, [existing], tmp_path, dt.date(2026, 10, 21))
+    assert [p.character for p in c.cast] == ["muse/kotori-minami"] and r.updated
+    with pytest.raises(ValueError):  # a show the concert does not have
+        concerts.import_schedule(ds, [existing | {"shows": [{"date": dt.date(2026, 1, 1), "cast": []}]}], tmp_path,
+                                 dt.date(2026, 10, 21))
+
+
+def test_cast_refs_are_checked_and_listed_per_show(tmp_path):
+    import sqlite3
+
+    from takasaki.build_sqlite import build_sqlite
+    from takasaki.validate import validate
+
+    ds = Dataset(meta=m.Meta(schema_version="1", db_last_update="2026-10-20T00:00:00Z"))
+    ds.projects["muse"] = m.Project(id="muse", names=m.Names(ja="μ's"))
+    ds.characters["muse/honoka"] = m.Character(id="muse/honoka", project="muse", names=m.Names(ja="高坂 穂乃果"))
+    shows = [m.Performance(date=dt.date(2026, 11, 14)),
+             m.Performance(date=dt.date(2026, 11, 15), cast=[m.Performer(character="muse/nobody")])]
+    ds.concerts["muse/fest"] = m.Concert(id="muse/fest", projects=["muse"], status="announced", title=m.Names(ja="フェス"),
+                                         cast=[m.Performer(character="muse/honoka")], stops=[m.Stop(id="1", performances=shows)])
+    assert [f.message for f in validate(ds) if f.rule == "E2"] == ["unknown character 'muse/nobody'"]
+    shows[1].cast = []
+    build_sqlite(ds, tmp_path / "t.sqlite")
+    con = sqlite3.connect(tmp_path / "t.sqlite")
+    assert con.execute("select performance, character from cast_member order by performance").fetchall() == [
+        (1, "muse/honoka"), (2, "muse/honoka")]
 
 
 def test_approving_the_names(tmp_path):

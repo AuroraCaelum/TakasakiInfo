@@ -54,7 +54,7 @@ Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 | :-- | :-- |
 | CSV and JSON files | this repository: `albums/`, `songs/`, `members/`, `concerts/`, `TakasakiInfo.json` |
 | The same files over a CDN | `https://d1zzovwupaegwb.cloudfront.net/data/legacy/…`, e.g. [`/data/legacy/TakasakiInfo.json`](https://d1zzovwupaegwb.cloudfront.net/data/legacy/TakasakiInfo.json) |
-| v1 data: one JSON file per entity, flat track and recording views, JSON Schema, quality metrics | `https://d1zzovwupaegwb.cloudfront.net/data/v1/`, e.g. `tracks.json`, `works.json`, `persons.json`, `quality.json`, `schema/*.json` |
+| v1 data: one JSON file per entity, flat track and recording views, JSON Schema, quality metrics ([fields](#v1-schema)) | `https://d1zzovwupaegwb.cloudfront.net/data/v1/`, e.g. `releases.json`, `tracks.json`, `works.json`, `persons.json`, `quality.json`, `schema/*.json` |
 | SQLite database with full-text search | [`/data/takasakiinfo.sqlite`](https://d1zzovwupaegwb.cloudfront.net/data/takasakiinfo.sqlite) |
 | Data version | [`/data/version.json`](https://d1zzovwupaegwb.cloudfront.net/data/version.json) |
 
@@ -97,6 +97,546 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 **Love Live! Superstar!! Original Sound Tracks**
 - [ ] Dreams of the Superstar
 - [ ] Twinkle of the Superstar
+
+</details>
+
+<a id="v1-schema"></a>
+
+## v1 schema
+
+The v1 files hold the whole database, with what the CSV and JSON files leave out: each release's editions with catalog numbers and media, its discs, YouTube Music albums, official page and smart link, and the source of every value.
+
+- One file per entity type at `https://d1zzovwupaegwb.cloudfront.net/data/v1/<file>`, each as `{"schemaVersion": "1.0.0", "dbLastUpdate": "…", "count": n, "data": [ … ]}`.
+- Entities refer to each other by id (`"artist": "ikizuraibu"`, `"recording": "ikizulive/homerun-queen#original"`). An id does not change once made.
+- Dates are `YYYY-MM-DD`. Names and titles are **Names** objects; a language without a value is left out.
+- **Default**: *required* fields are always there, fields marked *—* are left out when not known, and the others hold the value shown when nothing is stored.
+- The same fields as JSON Schema, with these descriptions: `schema/<file>`. The YAML files in [`data/`](data) that the database is built from have the same fields and leave out defaults.
+
+<details>
+<summary>Common objects: <b>Names</b>, <b>Evidence</b></summary>
+
+**Names**: A name or title in each language.
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `ja` | string | — | Japanese, as officially printed. |
+| `kana` | string | — | Reading in kana: song titles (the legacy `pronunciation`) and Japanese names, spaced between family and given name. |
+| `rom` | string | — | Romanization, or the official Latin-script form. People's names are given name first (`Aki Hata`). |
+| `ko` | string | — | Korean. A name whose official form is in Latin script keeps that form. |
+
+**Evidence**: Where a value comes from.
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `status` | string | *required* | How far the value can be trusted. `official`: the rights holder's own; `established`: no official value, a widely used one whose source a person checked; `derived`: made by a rule and approved; `legacy`: from the hand-made lists, source not found yet; `draft`: not approved yet (kept out of the legacy files). One of `official`, `established`, `derived`, `legacy`, `draft`. |
+| `source` | string | — | URL the value was checked against. |
+| `checked` | date | — | When the source was last checked. |
+| `note` | string | — | Why this source, or what differs from other sources (often in Korean). |
+
+</details>
+
+<details>
+<summary><code>releases.json</code>: <b>Release</b>, <b>Performer</b>, <b>Edition</b>, <b>Disc</b>, <b>Streaming</b>, <b>ReleaseLegacy</b>, <b>Track</b>, <b>LegacyAlbum</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | `<project>/<year>-<slug>` (`ikizulive/2025-homerun-queen`). |
+| `type` | string | `"unclassified"` | Kind of release. `digital_single`: released only for download and streaming; `bd_bonus`: a CD that comes with a Blu-ray. One of `single`, `album`, `mini_album`, `digital_single`, `bd_bonus`, `compilation`, `soundtrack`, `drama_cd`, `live_video`, `unclassified`. |
+| `status` | string | `"released"` | `announced`: not out yet (left out of the legacy files); `released`: out; `verified`: checked again after release, with no change. One of `announced`, `released`, `verified`. |
+| `title` | **Names** | *required* | Title. In v1, `rom` and `ko` not stored are filled in from the song titles (`A / B`) or from a Latin-script title. |
+| `projects` | string[] | *required* | Project ids; more than one for a cross-project release. |
+| `artist_credit` | **Performer**[] | `[]` | Artist of the release as a whole, as credited. |
+| `label` | string | — | Record label (`Lantis`). |
+| `release_date` | date | — | Release date. An edition released on another day has its own. |
+| `editions` | **Edition**[] | `[]` | Editions (初回限定盤, 通常盤, …) with their catalog numbers and media. |
+| `discs` | **Disc**[] | *required* | Track list, disc by disc. |
+| `streaming` | **Streaming**[] | `[]` | YouTube Music albums of the release, one entry per album. |
+| `links` | map of string | `{}` | Pages about the release. `official`: its page on the official site; `smartlink`: the label's link page to every download and streaming service (`https://lnk.to/…`, the 楽曲配信 link of the official page); `musicbrainz`: its MusicBrainz release. |
+| `legacy` | **ReleaseLegacy** | empty | How the release appears in the legacy files. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`tracks`, `editions`, `release_date`, `streaming`, `title`, …). |
+
+**Performer** (in Release `artist_credit`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `artist` | string | — | Artist id. Exactly one of `artist`, `character` and `person` is set. |
+| `character` | string | — | Character id, for a credit that lists characters rather than a group name. |
+| `person` | string | — | Person id: a cast member singing in a role (see `role`) or as themselves. |
+| `role` | string | — | Character id of the role sung; only with `person`. |
+| `featured` | boolean | `false` | A guest, printed after `feat.` (`Aqours feat. 初音ミク`). |
+| `joint` | boolean | `false` | One of the performers of a joint name, printed joined with `・` (`Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!`). |
+
+**Edition** (in Release `editions`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Id within the release (`e1`, `e2`, …). |
+| `label` | **Names** | — | Edition name as printed (`初回生産限定盤`, `通常盤`, `【上原歩夢盤】`). |
+| `catalog` | string | — | Catalog number (品番), as printed (`LACM-24755`). |
+| `media` | string[] | `[]` | Discs in the package in order, one entry per disc: `CD`, `BD`, `DVD`; `digital` for a digital-only edition (`[CD, BD, BD]`). |
+| `release_date` | date | — | Release date of this edition, when it differs from the release's. |
+
+**Disc** (in Release `discs`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `disc` | integer | `1` | Disc number. |
+| `editions` | `"all"` or string[] | `"all"` | `all`, or the ids of the editions with this disc, when the editions' track lists differ. |
+| `tracks` | **Track**[] | *required* | Tracks in order. A track's streaming key is `<disc>-<position in this list>`. |
+
+**Streaming** (in Release `streaming`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `platform` | `"youtube_music"` | `"youtube_music"` | Streaming service. |
+| `editions` | string[] | `[]` | Ids of the editions this album stands for; empty: every edition. |
+| `browse_id` | string | — | YouTube Music album id (`MPREb_…`): `https://music.youtube.com/browse/<browse_id>`. |
+| `tracks` | map of string | `{}` | Video id of each track on this album, keyed `<disc>-<position>` (`1-1`): `https://youtu.be/<video id>`. Only the album's own videos: a track missing here falls back to the same recording on another release (`tracks.json` gives which). |
+
+**ReleaseLegacy** (in Release `legacy`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `category` | string | — | Legacy `Category` of the release's tracks. |
+| `albums` | **LegacyAlbum**[] | `[]` | The albums the release is listed as in the legacy files; empty: not in them. |
+
+**Track** (in Disc `tracks`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `no` | integer | — | Track number as printed; absent for an unnumbered track. |
+| `recording` | string | *required* | Recording id, `<work id>#<recording id>`. |
+| `title_as_printed` | **Names** | — | Title as printed on this release, when it differs from the recording's. |
+| `note` | string | — | What is true of this track only (tie-in, act, version label); goes into the legacy `Note`. |
+| `category` | string | — | Legacy `Category` of this track, when it differs from the release's. |
+
+**LegacyAlbum** (in ReleaseLegacy `albums`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `title` | string | *required* | Album name in the legacy files. |
+| `edition` | string | — | Edition id whose tracks the album lists; absent: the discs every edition shares. |
+| `disc` | integer | — | Only this disc. |
+| `note` | string | — | Legacy `Note` for every track of the album. |
+| `flatten_discs` | boolean | `false` | Several discs listed as one album, with running track numbers and `Disc.N` in the Note. |
+
+</details>
+
+<details>
+<summary><code>works.json</code>: <b>Work</b>, <b>WorkCredits</b>, <b>Recording</b>, <b>Credit</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | `<project>/<slug>` (`ikizulive/dou-da-doing`). |
+| `kind` | string | `"song"` | What the work is. `bgm`: a soundtrack cue played at a concert. One of `song`, `bgm`, `drama`, `other`. |
+| `project` | string | *required* | Project id; `external` for a song from outside the series (a cover, a song of another franchise). |
+| `title` | **Names** | *required* | Title. |
+| `credits` | **WorkCredits** | empty | Lyricist and composer. Arrangers and singers are on each recording. |
+| `recordings` | **Recording**[] | *required* | Recordings of the work. Empty for a song with no recording in the data (performed live only so far, or released only on a release not in the data, such as a soundtrack or a fan club CD). |
+| `external_ids` | map of string | `{}` | Ids elsewhere: `fandom` (title of the Love Live! Fandom article, for matching set lists). |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`title`, `title.ko`, `credits`, …). |
+
+**WorkCredits** (in Work `credits`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `lyricist` | **Credit**[] | `[]` | 作詞. |
+| `composer` | **Credit**[] | `[]` | 作曲. |
+
+**Recording** (in Work `recordings`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Id within the work (`original`, `off-vocal`, `kanon-ver`). The full recording id is `<work id>#<id>`. |
+| `kind` | string | `"vocal"` | What the recording is. Credits that do not apply (no singer on an off vocal) are empty lists. One of `vocal`, `off_vocal`, `instrumental`, `drama`, `other`. |
+| `title` | **Names** | — | Title as printed, when it differs from the work title. |
+| `version` | string | — | Version label as printed (`Off Vocal`, `104期 Ver.`, `高海千歌 Solo Ver.`). |
+| `performers` | **Performer**[] (see `releases.json`) | `[]` | Singers. |
+| `arranger` | **Credit**[] | `[]` | 編曲. |
+| `strings_arranger` | **Credit**[] | `[]` | 弦編曲 (strings arrangement). |
+| `brass_arranger` | **Credit**[] | `[]` | 管編曲 (brass arrangement). |
+| `credits_override` | **WorkCredits** | — | Lyricist and composer of this recording when they differ from the work's (rare; the evidence says why). |
+| `instrumental_of` | string | — | For an off vocal or instrumental: id of the vocal recording in the same work. |
+| `external_ids` | map of string | `{}` | Ids elsewhere: `isrc`. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+**Credit** (in WorkCredits `lyricist`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `person` | string | — | Person id. Exactly one of `person` and `character` is set. |
+| `character` | string | — | Character id, for a character credited in-story (高咲 侑 on Hurray Hurray). |
+| `affiliation` | string or **Names** | — | Affiliation printed after the name, `名前(所属)`; a names object when the spelling differs by language. |
+| `fullwidth` | boolean | `false` | The cited official page prints the affiliation in full-width brackets, `名前（所属）`; `ja` keeps them, `rom` and `ko` are half-width. |
+| `role` | **Names** | — | The role a cast member is credited as (`椿 ルリカ役`). |
+
+</details>
+
+<details>
+<summary><code>persons.json</code>: <b>Person</b>, <b>Alias</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Slug of the romanized name (`aki-hata`). |
+| `names` | **Names** | *required* | Name. `ja` and `kana` are spaced from `family_name` and `given_name`. |
+| `family_name` | **Names** | — | Family name in each language. |
+| `given_name` | **Names** | — | Given name in each language. |
+| `native_script` | string | `"ja"` | `latin` for a name whose original form is in Latin script; its `ko` is then the original. One of `ja`, `latin`. |
+| `aliases` | **Alias**[] | `[]` | Other spellings seen in credits. Used to match credits, never printed. |
+| `distinct_from` | string[] | `[]` | Ids of people with a similar name who are known to be someone else. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`names.ja`, `names.ko`, `name_parts`, …). |
+
+**Alias** (in Person `aliases`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `text` | string | *required* | The spelling as seen in a credit. |
+| `kind` | string | `"variant"` | `variant`: another spelling in use; `misprint`: a printing error; `former`: a former name. One of `variant`, `misprint`, `former`. |
+| `note` | string | — | Where the spelling was seen. |
+
+</details>
+
+<details>
+<summary><code>characters.json</code>: <b>Character</b>, <b>Casting</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | `<project>/<slug>` (`nijigasaki/setsuna-yuki`). |
+| `project` | string | *required* | Project id; `external` for a character from outside the series. |
+| `names` | **Names** | *required* | Name. `ja` is spaced from `family_name` and `given_name`. |
+| `family_name` | **Names** | — | Family name in each language. |
+| `given_name` | **Names** | — | Given name in each language. |
+| `casting` | **Casting**[] | `[]` | Voice actors over time. |
+| `distinct_from` | string[] | `[]` | Ids of characters with a similar name who are known to be someone else. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+**Casting** (in Character `casting`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `person` | string | *required* | Person id of the voice actor. |
+| `from` | date | — | First day of the casting; absent: from the start. |
+| `until` | date | — | Last day of the casting; absent: to date. |
+
+</details>
+
+<details>
+<summary><code>artists.json</code>: <b>Artist</b>, <b>Lineup</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Slug of the romanized name (`ikizuraibu`, `cerise-bouquet`). |
+| `kind` | string | *required* | What the artist is. `cross_unit`: a unit of members from several projects (AiScReam); `collab`: two artists singing as one (Saint Aqours Snow); `special`: a one-off ensemble (浦の星交響楽団). One of `group`, `unit`, `solo`, `cross_unit`, `collab`, `special`, `unclassified`. |
+| `projects` | string[] | `[]` | Project ids the artist belongs to. |
+| `names` | **Names** | *required* | Name. |
+| `lineups` | **Lineup**[] | `[]` | Members over time. |
+| `distinct_from` | string[] | `[]` | Ids of artists with a similar name that are known to be another. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+**Lineup** (in Artist `lineups`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `from` | date | — | First day of this lineup; absent: from the start. |
+| `until` | date | — | Last day of this lineup; absent: to date. |
+| `members` | string[] | *required* | Character ids of the members. |
+
+</details>
+
+<details>
+<summary><code>projects.json</code>: <b>Project</b>, <b>ProjectLegacy</b>, <b>Copyright</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Project id (`aqours`, `ikizulive`); `external` holds songs and characters from outside the series. |
+| `names` | **Names** | *required* | Project name. |
+| `legacy` | **ProjectLegacy** | — | How the project appears in the legacy files; absent for a project without files of its own. |
+| `copyright` | **Copyright**[] | `[]` | Copyright notices of the project, as in the README's Disclaimer. |
+| `official` | map of string | `{}` | Official accounts by kind: `site`, `youtube`, `x`. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+**ProjectLegacy** (in Project `legacy`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `category` | string | *required* | `Category` value of the project in the legacy files. |
+| `file` | string | *required* | Name of the project's legacy files (`albums/<file>/<file>.csv`, `members/<file>.csv`, …). |
+
+**Copyright** (in Project `copyright`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `text` | string | *required* | Copyright notice as printed. |
+| `lang` | string | *required* | Language of the notice (`ja`, `en`). |
+| `source` | string | — | Page the notice is printed on. |
+| `checked` | date | — | When the page was last checked. |
+
+</details>
+
+<details>
+<summary><code>concerts.json</code>: <b>Concert</b>, <b>Stop</b>, <b>ConcertLegacy</b>, <b>Performance</b>, <b>SetlistItem</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | `<project>/<slug>`. |
+| `projects` | string[] | *required* | Project ids. |
+| `status` | string | `"settled"` | `announced`: schedule only; `performed`: set lists drafted from Fandom; `settled`: set lists cross-checked and approved; `confirmed`: set lists as on the official Blu-ray or stream. The legacy files list `settled` and `confirmed` concerts only. One of `announced`, `performed`, `settled`, `confirmed`. |
+| `title` | **Names** | *required* | Concert title. |
+| `cast` | **Performer**[] (see `releases.json`) | `[]` | Cast of every show as the official live page announces it: a voice actor as the character they play, a stage actor as a person in a role. `featured`: a guest or support appearance (ゲスト出演, 応援出演). A show with another cast lists its own. |
+| `stops` | **Stop**[] | *required* | Stops of the tour (city, venue, shows). |
+| `legacy` | **ConcertLegacy** | empty | How the concert appears in the legacy files. |
+| `external_ids` | map of string | `{}` | Ids elsewhere: `fandom` (title of the concert's Love Live! Fandom article). |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`title`, `schedule`, `cast`, `setlist.<date>`, …). |
+
+**Stop** (in Concert `stops`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Id within the concert, `<n>-<city>` (`1-osaka`). |
+| `city` | string | — | City id; absent for an online-only show. |
+| `label` | string | — | Stop label (`Trip to Asia`, `with DOLLCHESTRA`). |
+| `venue` | string | — | Venue id. |
+| `performances` | **Performance**[] | *required* | Shows at this stop, day by day. |
+
+**ConcertLegacy** (in Concert `legacy`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `event_code` | string | — | `eventCode` in the legacy concert files (`Liella_1st`). |
+
+**Performance** (in Stop `performances`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `date` | date | *required* | Day of the show. |
+| `label` | string | — | Show label (`Day.1`, `Day.2 Noon`). |
+| `cast` | **Performer**[] (see `releases.json`) | `[]` | Cast of this show when it differs from the concert's: the whole list, which replaces the concert's. |
+| `setlist` | **SetlistItem**[] | `[]` | Set list in order. |
+| `external_ids` | map of string | `{}` | Ids elsewhere: `fandom` (the set-list tab the list is read from, `<section>\|<tab>`). |
+
+**SetlistItem** (in Performance `setlist`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `type` | string | `"song"` | A song, or a marker: `mc`, `video`, `encore` (start of the encore), `double_encore`, `talk` (a character talk), `other` (a game, a sports-day event). One of `song`, `mc`, `video`, `encore`, `double_encore`, `talk`, `other`. |
+| `work` | string | — | Work id of the song. |
+| `recording` | string | — | Recording id, when the version sung is a released recording. |
+| `version` | string | — | Version sung, when no recording of it is linked (`104th Class Ver.`). |
+| `performers` | **Performer**[] (see `releases.json`) | `[]` | Who sang it. |
+| `label` | string | — | Marker text as listed (`Encore`, `Opening`, `Talk Portion`). |
+| `title_raw` | string | — | Song title as listed, when it is not matched to a work yet. |
+
+</details>
+
+<details>
+<summary><code>venues.json</code>: <b>Venue</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Slug of the romanized name (`makuhari-event-hall`). |
+| `city` | string | — | City id. |
+| `names` | **Names** | *required* | Name at the time of the shows. |
+| `external_ids` | map of string | `{}` | Ids elsewhere: `fandom` (title of the venue's Love Live! Fandom article). |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+</details>
+
+<details>
+<summary><code>cities.json</code>: <b>City</b></summary>
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `id` | string | *required* | Slug of the romanized name (`tokyo`, `seoul`). |
+| `names` | **Names** | *required* | Name. |
+| `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
+
+</details>
+
+<details>
+<summary><code>tracks.json</code>: one row per track of each edition, with its credits and link</summary>
+
+A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "names": {…}}`, plus `role`, `featured` and `joint` for a singer or `affiliation`, `fullwidth` and `role` for a credit when they are set. A value that is not known is null.
+
+| Field | Type | Description |
+| :-- | :-- | :-- |
+| `id` | string | `<release id>@<edition id, or - without editions>/<disc>-<position>`. |
+| `release` | string | Release id. |
+| `edition` | string | Edition id; null for a release without editions. |
+| `disc` | integer | Disc number. |
+| `position` | integer | Position on the disc, counting unnumbered tracks. |
+| `no` | integer | Track number as printed; null for an unnumbered track. |
+| `status` | string | Status of the release: `announced`, `released`, `verified`. |
+| `release_date` | date | Release date of the edition. |
+| `recording` | string | Recording id, `<work id>#<recording id>`. |
+| `work` | string | Work id. |
+| `kind` | string | Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`. |
+| `version` | string | Version label of the recording (`Off Vocal`); null for the original. |
+| `title` | **Names** | Title as on this track, with the reading (`kana`) when known. |
+| `performers` | **ref**[] | Singers. |
+| `lyricist` | **ref**[] | 作詞. |
+| `composer` | **ref**[] | 作曲. |
+| `arranger` | **ref**[] | 編曲. |
+| `strings_arranger` | **ref**[] | 弦編曲. |
+| `brass_arranger` | **ref**[] | 管編曲. |
+| `link` | object | `youtube_music`: URL of the track, or null. `source`: `own` (a video of this release's album), `main` (the same recording on another release), `none`. |
+| `note` | string | What is true of this track only; null when nothing. |
+
+</details>
+
+<details>
+<summary><code>recordings.json</code>: one row per recording, with its credits and main link</summary>
+
+| Field | Type | Description |
+| :-- | :-- | :-- |
+| `id` | string | Recording id, `<work id>#<recording id>`. |
+| `work` | string | Work id. |
+| `project` | string | Project id of the work. |
+| `kind` | string | Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`. |
+| `version` | string | Version label (`Off Vocal`); null for the original. |
+| `title` | **Names** | Title. |
+| `performers` | **ref**[] | Singers. |
+| `lyricist` | **ref**[] | 作詞. |
+| `composer` | **ref**[] | 作曲. |
+| `arranger` | **ref**[] | 編曲. |
+| `strings_arranger` | **ref**[] | 弦編曲. |
+| `brass_arranger` | **ref**[] | 管編曲. |
+| `instrumental_of` | string | For an off vocal or instrumental: id of the vocal recording; else null. |
+| `external_ids` | map of string | Ids elsewhere (`isrc`); null when none. |
+| `main_link` | string | Main YouTube Music URL: the earliest released track of the recording that has a video of its own; null when none has. |
+
+</details>
+
+<details>
+<summary>Release example (one entry of <code>releases.json</code>)</summary>
+
+```json
+{
+  "id": "ikizulive/2025-homerun-queen",
+  "type": "single",
+  "status": "released",
+  "title": {
+    "ja": "HomeRun Queen!!",
+    "rom": "HomeRun Queen!!",
+    "ko": "HomeRun Queen!!"
+  },
+  "projects": [
+    "ikizulive"
+  ],
+  "artist_credit": [
+    {
+      "character": "ikizulive/miracle-kanazawa",
+      "featured": false,
+      "joint": false
+    }
+  ],
+  "label": "Lantis",
+  "release_date": "2025-09-24",
+  "editions": [
+    {
+      "id": "e1",
+      "label": {
+        "ja": "初回生産限定盤"
+      },
+      "catalog": "LACM-34755",
+      "media": [
+        "CD"
+      ]
+    },
+    {
+      "id": "e2",
+      "label": {
+        "ja": "通常盤"
+      },
+      "catalog": "LACM-24755",
+      "media": [
+        "CD"
+      ]
+    }
+  ],
+  "discs": [
+    {
+      "disc": 1,
+      "editions": "all",
+      "tracks": [
+        {
+          "no": 1,
+          "recording": "ikizulive/homerun-queen#original"
+        },
+        {
+          "no": 2,
+          "recording": "ikizulive/magical-recipe-s-il-vous-plait#original"
+        },
+        {
+          "no": 3,
+          "recording": "ikizulive/what-is-my-life#miracle-kanazawa-solo-ver"
+        },
+        {
+          "no": 4,
+          "recording": "ikizulive/homerun-queen#off-vocal"
+        },
+        {
+          "no": 5,
+          "recording": "ikizulive/magical-recipe-s-il-vous-plait#off-vocal"
+        }
+      ]
+    }
+  ],
+  "streaming": [
+    {
+      "platform": "youtube_music",
+      "editions": [
+        "e1",
+        "e2"
+      ],
+      "browse_id": "MPREb_bB1zD1f6Ehw",
+      "tracks": {
+        "1-1": "Ac10-urP8tc",
+        "1-2": "osSJTwrBWwg",
+        "1-3": "lb4FfBvyfFM",
+        "1-4": "JmaO91FCcWU",
+        "1-5": "lb7g6wQLBWA"
+      }
+    }
+  ],
+  "links": {
+    "official": "https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701",
+    "smartlink": "https://lnk.to/LACM-24755d"
+  },
+  "legacy": {
+    "category": "Ikizulive",
+    "albums": [
+      {
+        "title": "HomeRun Queen!!",
+        "flatten_discs": false
+      }
+    ]
+  },
+  "evidence": {
+    "tracks": {
+      "status": "official",
+      "source": "https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701",
+      "checked": "2026-10-18"
+    },
+    "editions": {
+      "status": "official",
+      "source": "https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701",
+      "checked": "2026-10-18"
+    },
+    "release_date": {
+      "status": "official",
+      "source": "https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701",
+      "checked": "2026-10-18",
+      "note": "各種音楽配信サービスでは10月3日(金)配信開始予定です。"
+    },
+    "streaming": {
+      "status": "established",
+      "source": "https://music.youtube.com/browse/MPREb_bB1zD1f6Ehw",
+      "checked": "2026-10-20",
+      "note": "YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지"
+    }
+  }
+}
+```
 
 </details>
 
@@ -161,6 +701,7 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 - **Albums** (`albums/<Group>/<Group>.json`): each album with its tracks.
 - **Every group** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}` with every track of every group once, by release date, with its `category`.
 - **Concerts** (`concerts/<Group>/<Group>.json`): tours with their stops, venues and setlists. Setlist entries starting with `::` are markers, not songs (`::MC1`, `::VID1`, `::Encore`).
+- **v1 files** (`/data/v1/`, see [Downloads and API](#downloads-and-api)): one JSON file per entity, including what the files above leave out: editions with catalog numbers and media, discs, YouTube Music albums, official pages and smart links, sources. Every field is described in [v1 schema](#v1-schema).
 
 <details>
 <summary>Song example</summary>
@@ -374,6 +915,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - **음반** (`albums/<그룹>/<그룹>.json`): 앨범과 수록곡입니다.
 - **전체** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}`. 모든 그룹의 트랙을 한 번씩 발매일순으로, `category`와 함께 담습니다.
 - **공연** (`concerts/<그룹>/<그룹>.json`): 투어와 공연지, 회장, 세트리스트입니다. `::`로 시작하는 항목은 곡이 아니라 표식입니다(`::MC1`, `::VID1`, `::Encore`).
+- **v1 파일** (`/data/v1/`, [Downloads and API](#downloads-and-api) 참고): 엔티티마다 JSON 파일 하나입니다. 위 파일에 없는 에디션(품번·매체), 디스크, YouTube Music 앨범, 공식 페이지·스마트링크, 출처까지 담습니다. 모든 필드의 설명은 [v1 schema](#v1-schema)에 있습니다.
 - 예시는 [English](#english)의 JSON structure를 참고하세요.
 
 ### 피드백
@@ -440,6 +982,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - **アルバム** (`albums/<グループ>/<グループ>.json`): アルバムと収録曲です。
 - **全体** (`TakasakiInfo.json`): `{"dbLastUpdate", "data"}`。全グループのトラックを1回ずつ発売日順に、`category` 付きで収めます。
 - **ライブ** (`concerts/<グループ>/<グループ>.json`): ツアーと公演地、会場、セットリストです。`::` で始まる項目は曲ではなく目印です（`::MC1`, `::VID1`, `::Encore`）。
+- **v1 ファイル** (`/data/v1/`、[Downloads and API](#downloads-and-api) を参照): エンティティごとに JSON ファイル1つです。上記のファイルにない形態（品番・メディア）、ディスク、YouTube Music のアルバム、公式ページ・スマートリンク、出典まで収めます。全フィールドの説明は [v1 schema](#v1-schema) にあります。
 - 例は [English](#english) の JSON structure をご覧ください。
 
 ### フィードバック

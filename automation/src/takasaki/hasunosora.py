@@ -145,7 +145,7 @@ def _skip_reason(lead: str, title: str, category: str, artist: list[str]) -> str
     if category not in ("CD", "配信") or "Blu-ray" in lead + title:
         return f"{category}: a video release, not a music release"
     if joined.strip() == "V.A.":
-        return "V.A.: other franchises' artists (tribute album)"
+        return "V.A.: other franchises' artists (tribute album, entered by hand: D52)"
     if joined.startswith("音楽："):
         return "soundtrack (score), not in the legacy files"
     if title == "タイトル未定":

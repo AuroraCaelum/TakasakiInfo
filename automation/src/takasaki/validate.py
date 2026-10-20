@@ -180,10 +180,14 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             if la.edition and la.edition not in eds:
                 add("E2", f"release:{rel.id}", f"legacy album names unknown edition {la.edition!r}")
     for c in ds.concerts.values():
+        for p in c.cast:
+            perf(p, f"concert:{c.id} cast")
         for s in c.stops:
             need(ds.cities, s.city, f"concert:{c.id}", "city")
             need(ds.venues, s.venue, f"concert:{c.id}", "venue")
             for p in s.performances:
+                for cast in p.cast:
+                    perf(cast, f"concert:{c.id} {p.date} cast")
                 for item in p.setlist:
                     where = f"concert:{c.id} {p.date}"
                     need(ds.works, item.work, where, "work")
@@ -403,6 +407,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
 # (an official YouTube channel's video description, an official X post; D41)
 OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신", "공식 계정")
 OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com",
+                  "catalog.bandainamcomusiclive.co.jp",  # the label's release catalog (lantis.jp/release-item moved there)
                   "www.yohane.net", "yohane.net", "yohane-bid.com",  # 幻日のヨハネ: its own site and its game's (D46)
                   # the official sites of the events the rights holders organize, as the concert adapter reads them (D47)
                   "ijigen-fes.jp", "tutoliella-live.jp", "lovelive-overseas.bitfan.id")
@@ -422,4 +427,5 @@ def official_first(kind: str, key: str) -> bool:
     readings, a person's own romanization (§5.3 ②) and recording checks come from elsewhere."""
     if key.endswith((".ko", ".kana")) or (kind == "person" and key == "names.rom"):
         return False
-    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date"}
+    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date",
+                                 "cast"}

@@ -325,8 +325,9 @@ def _official(url: str | None) -> bool:
 
 
 def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path, today: dt.date) -> Report:
-    """Create the concerts of a schedule file (status ``performed``), their venues and cities. New names
-    go to the ``LIV-*`` review files with drafts filled in. Existing concerts only get their Fandom keys."""
+    """Create the concerts of a schedule file (status ``performed``, or ``announced`` for a concert still
+    to come), their venues and cities. New names go to the ``LIV-*`` review files with drafts filled in.
+    Existing concerts only get their Fandom keys and the cast the entry lists (§4.6)."""
     report = Report()
     reviews = NameReviews(review_dir, "concerts")
     venue_by_ja = {match_key(v.names.ja): v.id for v in ds.venues.values() if v.names.ja}
@@ -335,7 +336,11 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
             report.skipped.append(f"{e['fandom']}: {e['exclude']}")
             continue
         if e.get("existing"):
-            _link_existing(ds, ds.concerts[e["existing"]], e, report)
+            c = ds.concerts[e["existing"]]
+            if e.get("sections"):
+                _link_existing(ds, c, e, report)
+            if _set_cast(c, e, today):
+                report.updated.append(f"{c.id}: cast from the official live page")
             continue
         cid = e["id"]
         if cid in ds.concerts:
@@ -358,8 +363,9 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
         if e.get("title_rom") or e.get("title_ko"):  # drafts researched for the schedule
             rom, ko, how = e.get("title_rom") or rom, e.get("title_ko") or ko, e.get("title_note") or how
         title = m.Names(ja=e["title_ja"], rom=rom, ko=ko)
-        c = m.Concert(id=cid, projects=e["projects"], status="performed", title=title, stops=stops,
-                      external_ids={"fandom": e["fandom"]})
+        c = m.Concert(id=cid, projects=e["projects"], status=e.get("status", "performed"), title=title, stops=stops,
+                      external_ids={"fandom": e["fandom"]} if e.get("fandom") else {})
+        _set_cast(c, e, today)
         file = f"{REVIEW_PREFIX}-concerts.yaml"
         it = reviews.item(file, "concert", e["title_ja"], {"title": title.model_dump(exclude_none=True),
                                                             "source": e.get("title_source") or ""}, cid)
@@ -376,6 +382,23 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
         report.created.append(f"concert {cid}: {len(stops)} stops, {sum(len(s.performances) for s in stops)} shows")
     reviews.save()
     return report
+
+
+def _set_cast(c: m.Concert, e: dict[str, Any], today: dt.date) -> bool:
+    """The cast an entry lists (performer ids, researched from the official live page): ``cast`` for every
+    show, and a show's own ``cast`` by date and label. Returns whether anything was set."""
+    if not e.get("cast") and not e.get("shows"):
+        return False
+    c.cast = [m.Performer(**p) for p in e.get("cast") or []]
+    shows = {(s["date"], s.get("label")): s for s in e.get("shows") or []}
+    for perf in (p for st in c.stops for p in st.performances):
+        show = shows.pop((perf.date, perf.label), None)
+        if show is not None:
+            perf.cast = [m.Performer(**p) for p in show["cast"]]
+    if shows:
+        raise ValueError(f"{c.id}: no show on {sorted(map(str, shows))}")
+    c.evidence["cast"] = _schedule_ev(e["cast_source"], e.get("cast_note"), today)
+    return True
 
 
 def _schedule_ev(source: str | None, note: str | None, today: dt.date) -> m.Evidence:

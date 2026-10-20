@@ -69,6 +69,13 @@ CREATE TABLE setlist_item (
   performance INTEGER NOT NULL REFERENCES performance(id), seq INTEGER NOT NULL, type TEXT NOT NULL,
   work TEXT REFERENCES work(id), recording TEXT REFERENCES recording(id), label TEXT, title_raw TEXT,
   PRIMARY KEY (performance, seq));
+-- who appeared in each show: the show's own cast, else the concert's (§4.6)
+CREATE TABLE cast_member (
+  performance INTEGER NOT NULL REFERENCES performance(id), seq INTEGER NOT NULL,
+  artist TEXT REFERENCES artist(id), character TEXT REFERENCES character(id), person TEXT REFERENCES person(id),
+  role TEXT REFERENCES character(id),
+  featured INTEGER NOT NULL DEFAULT 0 CHECK (featured IN (0, 1)),  -- a guest or a support appearance
+  PRIMARY KEY (performance, seq));
 CREATE TABLE label (
   entity TEXT NOT NULL, field TEXT NOT NULL, lang TEXT NOT NULL, value TEXT NOT NULL, status TEXT,
   PRIMARY KEY (entity, field, lang));
@@ -258,3 +265,5 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
                 ins("performance", (perf_id, c.id, s.id, p.date.isoformat(), p.label))
                 ins("setlist_item", *[(perf_id, i, it.type, it.work, it.recording, it.label, it.title_raw)
                                       for i, it in enumerate(p.setlist, 1)])
+                ins("cast_member", *[(perf_id, i, x.artist, x.character, x.person, x.role, int(x.featured))
+                                     for i, x in enumerate(p.cast or c.cast, 1)])

@@ -8,7 +8,7 @@ out, and a credit line that cannot be read is listed as a problem.
 A release migrated from the legacy files is checked: the tracks, the credits and the singers the
 page prints get it as their evidence (D41), and the page fills in its type, label, editions and
 artist. The releases the sites list beyond them are imported (Phase 3), except soundtracks, tribute
-albums and releases without a tracklist yet (``skip_reason``), and the cross-project releases each
+albums (entered by hand, D52) and releases without a tracklist yet (``skip_reason``), and the cross-project releases each
 adapter names in ``Spec.skip``.
 """
 
@@ -391,10 +391,11 @@ def to_release(blocks: list[Block], performers: Performers, *, series: str = "")
 
 def skip_reason(block: Block) -> str | None:
     """Why a release is not imported, as on the Hasunosora site (D40): a soundtrack (score), a
-    tribute album of other franchises' artists, or a release announced before its tracklist."""
+    tribute album of other franchises' artists (the 15th-anniversary one is entered by hand, D52), or a
+    release announced before its tracklist."""
     artist = " ".join(block.artist).strip()
     if artist == "V.A.":
-        return "V.A.: other franchises' artists (tribute album)"
+        return "V.A.: other franchises' artists (tribute album, entered by hand: D52)"
     if artist.startswith("音楽：") or any("サウンドトラック" in h for h in block.header):
         return "soundtrack (score), not in the legacy files"
     if re.search(r"LIVE CD|ライブCD", " ".join(block.header + [block.title])):

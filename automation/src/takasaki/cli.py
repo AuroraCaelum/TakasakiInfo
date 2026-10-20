@@ -385,7 +385,8 @@ def main(argv: list[str] | None = None) -> int:
     fc.set_defaults(func=cmd_fandom_concerts)
     co = sub.add_parser("concerts", help="concert schedules (§7.7)")
     co_sub = co.add_subparsers(dest="concerts_cmd", required=True)
-    cs = co_sub.add_parser("schedule", help="create the concerts of a schedule file (status performed)")
+    cs = co_sub.add_parser("schedule", help="create the concerts of a schedule file (status performed, or announced), "
+                                            "or add the cast of existing ones")
     cs.add_argument("file")
     cs.add_argument("--apply", action="store_true", help="write data/ and the LIV-* review files")
     cs.set_defaults(func=cmd_concerts_schedule)
