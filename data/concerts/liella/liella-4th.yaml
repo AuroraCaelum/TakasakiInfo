@@ -1,0 +1,539 @@
+id: liella/liella-4th
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 4th LoveLive! Tour ～brand new Sparkle～
+  rom: Love Live! Superstar!! Liella! 4th LoveLive! Tour ~brand new Sparkle~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 4th LoveLive! Tour ~brand new Sparkle~
+stops:
+  - id: 1-chiba
+    city: chiba
+    label: KALEIDOSCORE Edition
+    venue: makuhari-messe-international-exhibition-hall-9-11
+    performances:
+      - date: 2023-08-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/midnight-rhapsody
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/hoshikuzu-cruising
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/starry-prayer
+            performers:
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: kaleidoscore}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: KALEIDOSCORE Edition|Day 1
+      - date: 2023-08-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/kimi-o-omou-hana-ni-naru
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/free-flight
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: video}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: kaleidoscore}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: KALEIDOSCORE Edition|Day 2
+  - id: 2-aichi
+    city: aichi
+    label: CatChu! Edition
+    venue: portmesse-nagoya-new-exhibition-hall-1
+    performances:
+      - date: 2023-08-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/midnight-rhapsody
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/hoshikuzu-cruising
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/starry-prayer
+            performers:
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: CatChu! Edition|Day 1
+      - date: 2023-08-27
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/kimi-o-omou-hana-ni-naru
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/free-flight
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: video}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: CatChu! Edition|Day 2
+  - id: 3-tokyo
+    city: tokyo
+    label: 5yncri5e! Edition
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2023-09-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/butterfly-wing
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/beginner-s-rock
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/midnight-rhapsody
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/hoshikuzu-cruising
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/starry-prayer
+            performers:
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: 5yncri5e}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: 5yncri5e! Edition|Day 1
+      - date: 2023-09-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/eye-o-choudai
+            performers:
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/akane-gokoro
+            performers:
+              - {character: liella/mei-yoneme}
+          - work: liella/glass-ball-rejection
+            performers:
+              - {character: liella/shiki-wakana}
+          - work: liella/kimi-o-omou-hana-ni-naru
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/free-flight
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: video}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: 5yncri5e}
+          - {type: video}
+          - work: liella/hoshizora-monologue
+            performers:
+              - {artist: liella}
+          - work: liella/including-you
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-no-oto-ga-kikoeru
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: 5yncri5e! Edition|Day 2
+external_ids:
+  fandom: Liella! 4th LoveLive! Tour ~brand new Sparkle~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=4thlive
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Stop names as Fandom writes them; the official page prints 千葉公演＜KALEIDOSCORE edition＞ / 愛知公演＜CatChu! edition＞ / 東京公演＜5yncri5e! edition＞. The Nagoya venue is printed 「ポートメッセなごや 新第１展示館」 (full-width １, kept as printed); later official pages (8th Tour, 2027) print the same hall as 「ポートメッセなごや 第1展示館」, so it may become one venue with two period names.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=4thlive
+    checked: 2026-10-20
+  setlist.2023-08-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-08-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-08-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-08-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-09-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-09-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_4th_LoveLive!_Tour_~brand_new_Sparkle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

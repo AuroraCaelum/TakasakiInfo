@@ -1,0 +1,107 @@
+id: hasunosora/hasu-miracra-radio
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！ラジオ公開録音 ～夏の大補習まつり～
+  rom: Love Live! Hasunosora Girls' High School Idol Club Mira-Cra Park! Radio Koukai Rokuon ~Natsu no Daihoshuu Matsuri~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 미라쿠라파크! 라디오 공개 녹음 ~여름의 대보충학습 축제~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: hulic-hall-tokyo
+    performances:
+      - date: 2024-08-23
+        setlist:
+          - {type: mc}
+          - {type: talk, label: "TALK #1: Hasunosora Girls' High School's Suggestion Box"}
+          - {type: talk, label: 'TALK #2: Prince Shōtoku​ Game'}
+          - {type: video}
+          - work: hasunosora/mahara-jamboree
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: cerise-bouquet}
+              - {artist: mira-cra-park}
+          - {type: mc}
+        external_ids:
+          fandom: '|August 23'
+      - date: 2024-08-24
+        label: Day.2 Day
+        setlist:
+          - {type: mc}
+          - {type: talk, label: 'TALK #1: Dominant Profile! Two-Choice Bowling!'}
+          - {type: talk, label: 'TALK #2: All-Out! Rock-Paper-Scissors Showdown!'}
+          - {type: talk, label: "TALK #3: Hasunosora Girls' High School's Suggestion Box"}
+          - {type: video}
+          - work: hasunosora/bang-you-gravity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: dollchestra}
+              - {artist: mira-cra-park}
+          - {type: mc}
+        external_ids:
+          fandom: '|August 24 (Day)'
+      - date: 2024-08-24
+        label: Day.2 Night
+        setlist:
+          - {type: mc}
+          - {type: talk, label: "TALK #1: Hasunosora Girls' High School's Suggestion Box"}
+          - {type: talk, label: 'TALK #2: MiraPa! Werewolf'}
+          - {type: video}
+          - work: hasunosora/mahara-jamboree
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ishin-denshin
+            recording: hasunosora/ishin-denshin#104th-ver
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/identity
+            recording: hasunosora/identity#104th-new-ver
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+        external_ids:
+          fandom: '|August 24 (Night)'
+external_ids:
+  fandom: "Hasunosora Girls' High School Idol Club: Mira-Cra Park! Radio Public Recording ~Natsu no Daihoshuu Matsuri~"
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR
+    checked: 2026-10-20
+    note: "rom: 공식 영문 없음. 夏の大補習まつり는 Fandom, ラジオ公開録音은 Fandom이 'Radio Public Recording'으로 번역해서 규칙으로(Radio Koukai Rokuon). Fandom이 넣은 ':'는 뺌. ko: 나무위키 표기 없음. 補習은 나무위키 라디오명 '미라쿠라 보충학습실 라디오'에 맞춰 '보충학습', まつり는 번역(축제) 외부 근거: rom: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club:_Mira-Cra_Park!_Radio_Public_Recording_~Natsu_no_Daihoshuu_Matsuri~ ko: 번역안. 일정 조사 메모: This is a public radio recording by Mira-Cra Park! with a live part, which Fandom lists as a set list. It is kept as an event of the franchise's own performers. The page lists 8/24 as ＜昼公演＞ at 14:00 and ＜夜公演＞ at 17:30, and its English text uses [Day.1] and [Day.2] <DAY>/<NIGHT>. Guests: Cerise Bouquet on 8/23 and DOLLCHESTRA at the 8/24 day show."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=MPR
+    checked: 2026-10-20
+  setlist.2024-08-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club:_Mira-Cra_Park!_Radio_Public_Recording_~Natsu_no_Daihoshuu_Matsuri~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-08-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club:_Mira-Cra_Park!_Radio_Public_Recording_~Natsu_no_Daihoshuu_Matsuri~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

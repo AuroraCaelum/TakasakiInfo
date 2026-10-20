@@ -1,0 +1,49 @@
+id: nijigasaki/stellar-stream
+project: nijigasaki
+title:
+  ja: Stellar Stream
+  rom: Stellar Stream
+  ko: Stellar Stream
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: kz}
+    - {person: teddyloid}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: kz}
+      - {person: teddyloid}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Stellar Stream (Off Vocal)
+      rom: Stellar Stream (Off Vocal)
+      ko: Stellar Stream (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kz}
+      - {person: teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-19

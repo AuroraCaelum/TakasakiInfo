@@ -83,6 +83,35 @@ def test_person_in_a_role_renders_as_cast_credit():
     assert "E2" in _rules(_ds(recordings=[rec]))
 
 
+def test_a_featured_guest_renders_after_feat():
+    # D48: "Aqours feat. 初音ミク" is the group and a featured guest, not one joint artist
+    ds = _ds(m.Character(id="external/miku", project="external", names=_names("初音ミク", "Hatsune Miku", "하츠네 미쿠")))
+    ds.artists["aqours"] = m.Artist(id="aqours", kind="group", names=_names("Aqours", "Aqours", "Aqours"))
+    perf = [m.Performer(character="external/miku", featured=True), m.Performer(artist="aqours")]
+    assert render_performers(ds, perf) == ["Aqours feat. 初音ミク", "Aqours feat. Hatsune Miku", "Aqours feat. 하츠네 미쿠"]
+    with pytest.raises(ValueError):
+        m.Recording(id="original", performers=perf[:1])  # a guest needs someone to feature it
+
+
+def test_a_joint_name_renders_its_performers_joined():
+    # D48: "Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!" is the three groups under one joint name
+    ds = _ds()
+    for aid, ja, rom, ko in [("aqours", "Aqours", "Aqours", "Aqours"),
+                             ("niji", "虹ヶ咲学園スクールアイドル同好会", "Nijigasaki High School Idol Club", "니지가사키 학원 스쿨 아이돌 동호회"),
+                             ("liella", "Liella!", "Liella!", "Liella!")]:
+        ds.artists[aid] = m.Artist(id=aid, kind="group", names=_names(ja, rom, ko))
+    joint = [m.Performer(artist=a, joint=True) for a in ("aqours", "niji", "liella")]
+    assert render_performers(ds, joint) == ["Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!",
+                                            "Aqours・Nijigasaki High School Idol Club・Liella!",
+                                            "Aqours・니지가사키 학원 스쿨 아이돌 동호회・Liella!"]
+    assert render_performers(ds, [*joint[:2], m.Performer(person="a")])[0] == "Aqours・虹ヶ咲学園スクールアイドル同好会;畑亜貴"
+    for bad in ([joint[0]], [joint[0], m.Performer(person="a"), joint[1]]):  # one alone, or not next to each other
+        with pytest.raises(ValueError):
+            m.Recording(id="original", performers=bad)
+    with pytest.raises(ValueError):
+        m.Performer(artist="aqours", joint=True, featured=True)
+
+
 def test_performer_refs():
     with pytest.raises(ValueError):
         m.Performer(character="p/x", role="p/y")  # role is only for a person

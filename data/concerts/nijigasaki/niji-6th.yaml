@@ -1,0 +1,475 @@
+id: nijigasaki/niji-6th
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me
+  rom: Love Live! Nijigasaki High School Idol Club 6th Live! I love You ⇆ You love Me
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 6th Live! I love You ⇆ You love Me
+stops:
+  - id: 1-aichi
+    city: aichi
+    venue: aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a
+    performances:
+      - date: 2023-12-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/koufukuron
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/senobi-shitatte
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/request-for-u
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cooking-with-love
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/feel-alive
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/walking-dream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/my-shadow
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/lemonade
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/5201315
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - work: external/santa-ga-machi-ni-yattekuru
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/go-our-way
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/margaret
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/ye-mingzhu
+            version: 夜明珠
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/say-good-bye-namida
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/sweet-eyes
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/our-p13ces
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2023-12-24
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/cooking-with-love
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/my-shadow
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/5201315
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/request-for-u
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/senobi-shitatte
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/feel-alive
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/walking-dream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/lemonade
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/koufukuron
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - work: external/santa-ga-machi-ni-yattekuru
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/wawawa-what-s-up
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/go-our-way
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/sweet-eyes
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/our-p13ces
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Aichi|Day 2
+  - id: 2-kanagawa
+    city: kanagawa
+    venue: k-arena-yokohama
+    performances:
+      - date: 2024-01-13
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/koufukuron
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/senobi-shitatte
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/request-for-u
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cooking-with-love
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/feel-alive
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/walking-dream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/my-shadow
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/lemonade
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/5201315
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/new-year-s-march
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/happy-nyan-days
+            version: New Year's Day version
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/go-our-way
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/our-p13ces
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Special Performance}
+          - {work: nijigasaki/ryoran-victory-road}
+        external_ids:
+          fandom: Yokohama|Day 1
+      - date: 2024-01-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/cooking-with-love
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/my-shadow
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/waku-waku-monday-morning
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/5201315
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/request-for-u
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/senobi-shitatte
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/feel-alive
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/walking-dream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/lemonade
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/koufukuron
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/new-year-s-march
+            version: 13-Member version
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/happy-nyan-days
+            version: New Year's Day version
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/go-our-way
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/our-p13ces
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: double_encore, label: Double Encore}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Yokohama|Day 2
+external_ids:
+  fandom: Nijigasaki High School Idol Club 6th Live! I love You ⇆ You love Me
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_6thlive
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official stop names ＜愛知公演＞ and ＜神奈川公演＞. Aichi is the existing venue aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a (the page prints \"Aichi Sky Expo(愛知県国際展示場) ホールA\"). The official page prints \"Ｋアリーナ横浜\" with a full-width Ｋ; ja here uses the venue's own half-width spelling Kアリーナ横浜 (NFKC-equal)."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=sp_6thlive
+    checked: 2026-10-20
+  setlist.2023-12-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_6th_Live!_I_love_You_%E2%87%86_You_love_Me
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-12-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_6th_Live!_I_love_You_%E2%87%86_You_love_Me
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-01-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_6th_Live!_I_love_You_%E2%87%86_You_love_Me
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-01-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_6th_Live!_I_love_You_%E2%87%86_You_love_Me
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

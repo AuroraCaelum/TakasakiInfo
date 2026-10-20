@@ -1,0 +1,41 @@
+id: aqours/2024-deep-blue
+type: single
+title:
+  ja: Deep Blue
+projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+release_date: 2024-05-29
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/deep-blue#original}
+      - {no: 2, recording: aqours/sakura-saku-kokoro-saku#original}
+      - {no: 3, recording: aqours/deep-blue#off-vocal}
+      - {no: 4, recording: aqours/sakura-saku-kokoro-saku#off-vocal}
+streaming:
+  - browse_id: MPREb_IExcXSGfQmZ
+    tracks:
+      1-1: 093lrnBMM_Q
+      1-2: oSHsBB1Mt7g
+      1-3: xYgfM8iyhug
+      1-4: buwNPGp-DO4
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+legacy:
+  category: Aqours
+  albums:
+    - {title: Deep Blue}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_IExcXSGfQmZ
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

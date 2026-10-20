@@ -1,0 +1,69 @@
+id: liella/2024-zettaiteki-lover-dazzling-game
+type: single
+title:
+  ja: 絶対的LOVER / Dazzling Game
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+label: Lantis
+release_date: 2024-12-11
+editions:
+  - id: e1
+    label:
+      ja: 第8話盤
+    catalog: LACM-24664
+  - id: e2
+    label:
+      ja: 第6話盤
+    catalog: LACM-24663
+discs:
+  - editions: [e1]
+    tracks:
+      - {no: 1, recording: liella/zettaiteki-lover#original}
+      - {no: 2, recording: liella/dazzling-game#original}
+      - {no: 3, recording: liella/makka#original}
+      - {no: 4, recording: liella/zettaiteki-lover#off-vocal}
+      - {no: 5, recording: liella/dazzling-game#off-vocal}
+      - {no: 6, recording: liella/makka#off-vocal}
+  - editions: [e2]
+    tracks:
+      - {no: 1, recording: liella/zettaiteki-lover#original}
+      - {no: 2, recording: liella/dazzling-game#original}
+      - {no: 3, recording: liella/question99#original}
+      - {no: 4, recording: liella/zettaiteki-lover#off-vocal}
+      - {no: 5, recording: liella/dazzling-game#off-vocal}
+      - {no: 6, recording: liella/question99#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_6t6IBhYyAGe
+    tracks:
+      1-1: Kl_sjQWox4k
+      1-2: P3o4cG5t0oM
+      1-3: h7dyqVTGPwA
+  - editions: [e2]
+    browse_id: MPREb_bCmUaUHAIbo
+    tracks:
+      1-1: d_IBO05_gWA
+      1-2: y-muIDCOpQw
+      1-3: UR6MuPfhMYU
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+legacy:
+  category: Liella
+  albums:
+    - {title: '絶対的LOVER / Dazzling Game [第8話盤]', edition: e1}
+    - {title: '絶対的LOVER / Dazzling Game [第6話盤]', edition: e2}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_6t6IBhYyAGe
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

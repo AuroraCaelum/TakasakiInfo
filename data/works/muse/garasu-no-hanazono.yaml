@@ -1,0 +1,56 @@
+id: muse/garasu-no-hanazono
+project: muse
+title:
+  ja: 硝子の花園
+  rom: Garasu no Hanazono
+  ko: 유리의 화원
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: satomi-kawasaki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/eli-ayase}
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=KZs0Rp_Pj48
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 硝子の花園 (Off Vocal)
+      rom: Garasu no Hanazono (Off Vocal)
+      ko: 유리의 화원 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeshi-masuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd06
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%A1%9D%E5%AD%90%E3%81%AE%E8%8A%B1%E5%9C%92 https://love-live.fandom.com/wiki/Garasu_no_Hanazono'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=KZs0Rp_Pj48
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

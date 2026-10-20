@@ -1,0 +1,46 @@
+id: nijigasaki/ice-limit
+project: nijigasaki
+title:
+  ja: ICE LIMIT
+  rom: ICE LIMIT
+  ko: ICE LIMIT
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: aiscream}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ICE LIMIT (Off Vocal)
+      rom: ICE LIMIT (Off Vocal)
+      ko: ICE LIMIT (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20

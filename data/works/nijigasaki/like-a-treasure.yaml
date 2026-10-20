@@ -1,0 +1,47 @@
+id: nijigasaki/like-a-treasure
+project: nijigasaki
+title:
+  ja: Like a Treasure
+  rom: Like a Treasure
+  ko: Like a Treasure
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+    - {person: konnie-aoki}
+  composer:
+    - {person: teddyloid}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: teddyloid}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Like a Treasure (Off Vocal)
+      rom: Like a Treasure (Off Vocal)
+      ko: Like a Treasure (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

@@ -1,0 +1,48 @@
+id: aqours/2025-eikyu-hours-solo-concert-starring-kurosawa-dia
+type: single
+title:
+  ja: 永久hours Solo Concert starring Kurosawa Dia
+  rom: EIKYU hours Solo Concert starring Kurosawa Dia
+  ko: 영구hours Solo Concert starring Kurosawa Dia
+projects: [aqours]
+artist_credit:
+  - {character: aqours/dia-kurosawa}
+label: Lantis
+release_date: 2025-06-21
+editions:
+  - {id: e1, catalog: LACZ-10281}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/eikyu-hours#dia-kurosawa-solo}
+      - {no: 2, recording: aqours/bokura-no-tabi-wa-owaranai#dia-kurosawa-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_aYfGfEQy6ji
+    tracks:
+      1-1: 0WXaQfTjA9Q
+      1-2: _9KXxWq9e2A
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+legacy:
+  category: Aqours
+  albums:
+    - {title: 永久hours Solo Concert starring Kurosawa Dia}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 永久hours는 같은 파일의 곡 aqours/eikyu-hours의 rom·ko(rom EIKYU hours, ko 나무위키). Fandom·나무위키에 이 발매물 문서 없음 외부 근거: https://namu.wiki/w/%E6%B0%B8%E4%B9%85hours https://love-live.fandom.com/wiki/Eikyuu_hours'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aYfGfEQy6ji
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

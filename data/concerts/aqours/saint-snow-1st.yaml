@@ -1,0 +1,275 @@
+id: aqours/saint-snow-1st
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Saint Snow 1st GIG ～Welcome to Dazzling White Town～
+  rom: Love Live! Sunshine!! Saint Snow 1st GIG ~Welcome to Dazzling White Town~
+  ko: 러브 라이브! 선샤인!! Saint Snow 1st GIG ~Welcome to Dazzling White Town~
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2020-10-17
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - {type: other, label: Angel Session (matching answers + drawing)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Pia Arena MM|Day 1
+      - date: 2020-10-18
+        label: Day.2 Noon
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Pia Arena MM|Day 2
+      - date: 2020-10-18
+        label: Day.2 Evening
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Pia Arena MM|Day 2
+  - id: 2-hokkaido
+    city: hokkaido
+    venue: makomanai-sekisui-heim-ice-arena
+    performances:
+      - date: 2020-11-07
+        label: Day.1 Noon
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Makomanai Ice Arena|Day 1 (Noon)
+      - date: 2020-11-07
+        label: Day.1 Evening
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Makomanai Ice Arena|Day 1 (Evening)
+      - date: 2020-11-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: talk, label: Talk Part}
+          - {type: other, label: Introductions}
+          - {type: talk, label: Gig Talk (fan messages)}
+          - work: aqours/lonely-snow-planet
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/after-the-rain
+            performers:
+              - {artist: saint-snow}
+          - {type: video}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-snow}
+          - {type: encore, label: Encore}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+        external_ids:
+          fandom: Makomanai Ice Arena|Day 2
+external_ids:
+  fandom: Saint Snow 1st GIG ~Welcome to Dazzling White Town~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_saintsnow1st.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Official shows: Yokohama Day.1 one show, Day.2 two shows (＜1回目＞13:00, ＜2回目＞18:00); Sapporo Day.1 two shows, Day.2 one show. Fandom's Makomanai Day 1 tab holds both lists (Noon/Evening); its Pia Arena MM Day 2 tab is ONE undivided list although there were two shows — mapped to both, which show it reflects is unknown. The Sapporo venue is the naming-rights name printed in 2020 (真駒内セキスイハイムアイスアリーナ; Fandom: Makomanai Ice Arena). Fandom's title_ja lacks the closing ～."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_saintsnow1st.php
+    checked: 2026-10-20
+  setlist.2020-10-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Saint_Snow_1st_GIG_~Welcome_to_Dazzling_White_Town~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-10-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Saint_Snow_1st_GIG_~Welcome_to_Dazzling_White_Town~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-11-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Saint_Snow_1st_GIG_~Welcome_to_Dazzling_White_Town~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-11-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Saint_Snow_1st_GIG_~Welcome_to_Dazzling_White_Town~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

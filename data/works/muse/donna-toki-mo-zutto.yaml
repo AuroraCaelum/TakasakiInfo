@@ -1,0 +1,51 @@
+id: muse/donna-toki-mo-zutto
+project: muse
+title:
+  ja: どんなときもずっと
+  rom: Donna Toki mo Zutto
+  ko: 어떤 때라도 계속
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: hiroshi-sasaki}
+    strings_arranger:
+      - {person: yasuhiro-hase}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: どんなときもずっと (Off Vocal)
+      rom: Donna Toki mo Zutto (Off Vocal)
+      ko: 어떤 때라도 계속 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    strings_arranger:
+      - {person: yasuhiro-hase}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%82%82%E3%81%9A%E3%81%A3%E3%81%A8 https://love-live.fandom.com/wiki/Donna_Toki_mo_Zutto'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20

@@ -1,0 +1,206 @@
+id: aqours/aqours-4th
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours 4th LoveLive! ～Sailing to the Sunshine～
+  rom: Love Live! Sunshine!! Aqours 4th LoveLive! ~Sailing to the Sunshine~
+  ko: 러브 라이브! 선샤인!! Aqours 4th LoveLive! ~Sailing to the Sunshine~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-dome
+    performances:
+      - date: 2018-11-17
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/kimetayo-hand-in-hand
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/kiseki-hikaru
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/no-10
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/thank-you-friends
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2018-11-18
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/daisuki-dattara-daijoubu
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/waku-waku-week
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/g-senjou-no-cinderella
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Orchestral intermission}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/kiseki-hikaru
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/no-10
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/thank-you-friends
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours 4th LoveLive! ～Sailing to the Sunshine～
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_4thlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_4thlive.php
+    checked: 2026-10-20
+  setlist.2018-11-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_4th_LoveLive!_%EF%BD%9ESailing_to_the_Sunshine%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-11-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_4th_LoveLive!_%EF%BD%9ESailing_to_the_Sunshine%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

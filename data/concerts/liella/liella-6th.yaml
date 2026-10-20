@@ -1,0 +1,1178 @@
+id: liella/liella-6th
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour ～Let's be ONE～
+  rom: Love Live! Superstar!! Liella! 6th LoveLive! Tour ~Let's be ONE~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 6th LoveLive! Tour ~Let's be ONE~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: yoyogi-national-stadium-first-gymnasium
+    performances:
+      - date: 2025-03-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/11th-moon
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2025-03-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - work: liella/hitohira-dake
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 2
+  - id: 2-aichi
+    city: aichi
+    venue: aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a
+    performances:
+      - date: 2025-03-22
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/11th-moon
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2025-03-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - work: liella/hitohira-dake
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Aichi|Day 2
+  - id: 3-miyagi
+    city: miyagi
+    venue: sekisui-heim-super-arena
+    performances:
+      - date: 2025-04-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/11th-moon
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Miyagi|Day 1
+      - date: 2025-04-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - work: liella/hitohira-dake
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Miyagi|Day 2
+  - id: 4-fukuoka
+    city: fukuoka
+    venue: marine-messe-fukuoka-hall-b
+    performances:
+      - date: 2025-05-03
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/11th-moon
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Fukuoka|Day 1
+      - date: 2025-05-04
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - work: liella/hitohira-dake
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Fukuoka|Day 2
+  - id: 5-osaka
+    city: osaka
+    venue: osaka-jo-hall
+    performances:
+      - date: 2025-06-13
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/summer-escape
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/kanon-shibuya}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/11th-moon
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2025-06-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/let-s-be-one
+            version: TV Size Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/butterfly-wing
+            version: ~Piano Ver.~
+            performers:
+              - {character: liella/margarete-wien}
+          - work: liella/itsumo-no-peace-sign
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - {work: liella/bubble-rise}
+          - work: liella/dolce
+            performers:
+              - {character: liella/margarete-wien}
+          - {type: video}
+          - work: liella/special-color
+            performers:
+              - {artist: liella}
+          - work: liella/fighting-call
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - {type: video}
+          - work: liella/hoshikuzu-cruising
+            version: ~Shanghai Ver.~
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            version: TV Size Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/zettaiteki-lover
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/makka
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/kanon-shibuya}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/afureru-kotoba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+          - work: liella/egao-no-promise
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - work: liella/hitohira-dake
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+          - {type: video}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/musubu-melody
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            recording: liella/hajimari-wa-kimi-no-sora#11-ver
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/question99
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kimi-machi-sora-hoshi
+            performers:
+              - {artist: liella}
+          - {type: double_encore, label: Double Encore}
+          - work: liella/superstar
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 2
+external_ids:
+  fandom: Liella! 6th LoveLive! Tour ~Let's be ONE~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=6thlive
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Aichi: the official page prints 「AICHI SKY EXPO ホール A」; the existing venue's names are reused. Osaka was Fri-Sat (6/13-6/14), as printed."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=6thlive
+    checked: 2026-10-20
+  setlist.2025-03-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-03-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-03-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-03-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-04-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-04-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-06-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-06-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_6th_LoveLive!_Tour_~Let's_be_ONE~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

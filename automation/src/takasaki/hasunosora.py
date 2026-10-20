@@ -33,8 +33,8 @@ LISTS = ("/hasunosora/music/cd/", "/hasunosora/music/str/")
 MEMBER_PATH = "/hasunosora/member/"
 
 SPEC = Spec(project="hasunosora", group_name=GROUP, legacy_group="Hasunosora", review_prefix="HSN",
-            skip={"01_5904": "AiScReam「NEXT CARD」: cross-project unit (Phase 3)",
-                  "22": "「Bring the LOVE！」: LoveLive! Series Asia Tour theme song, cross-project (Phase 3)"},
+            skip={"01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)",
+                  "22": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)"},
             lineups_from_site=False)
 
 # misprints on the official pages, corrected with the source that settles them: (page id, track as printed) -> track

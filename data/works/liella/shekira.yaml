@@ -1,0 +1,50 @@
+id: liella/shekira
+project: liella
+title:
+  ja: シェキラ☆☆☆
+  rom: Shekira☆☆☆
+  ko: 셰키라☆☆☆
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: ryuki-koike}
+    - {person: hoffnung}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ryuki-koike}
+      - {person: hoffnung}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シェキラ☆☆☆ (Off Vocal)
+      rom: Shekira☆☆☆ (Off Vocal)
+      ko: 셰키라☆☆☆ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryuki-koike}
+      - {person: hoffnung}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B7%E3%82%A7%E3%82%AD%E3%83%A9%E2%98%86%E2%98%86%E2%98%86 https://love-live.fandom.com/wiki/Shekira%E2%98%86%E2%98%86%E2%98%86'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    checked: 2026-10-20

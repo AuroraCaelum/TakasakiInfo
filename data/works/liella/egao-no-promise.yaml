@@ -1,0 +1,47 @@
+id: liella/egao-no-promise
+project: liella
+title:
+  ja: 笑顔のPromise
+  rom: Egao no Promise
+  ko: 미소의 Promise
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: fuwari}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 笑顔のPromise (Off Vocal)
+      rom: Egao no Promise (Off Vocal)
+      ko: 미소의 Promise (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shu-kanematsu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%AC%91%E9%A1%94%E3%81%AEPromise https://love-live.fandom.com/wiki/Egao_no_Promise'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    checked: 2026-10-20

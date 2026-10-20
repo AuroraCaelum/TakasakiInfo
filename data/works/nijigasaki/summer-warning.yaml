@@ -1,0 +1,46 @@
+id: nijigasaki/summer-warning
+project: nijigasaki
+title:
+  ja: SUMMER WARNING
+  rom: SUMMER WARNING
+  ko: SUMMER WARNING
+credits:
+  lyricist:
+    - {person: quemika}
+  composer:
+    - {person: quemika}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: quemika}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SUMMER WARNING (Off Vocal)
+      rom: SUMMER WARNING (Off Vocal)
+      ko: SUMMER WARNING (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: quemika}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+    checked: 2026-10-20

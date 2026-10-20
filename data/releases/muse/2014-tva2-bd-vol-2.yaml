@@ -1,0 +1,39 @@
+id: muse/2014-tva2-bd-vol-2
+type: bd_bonus
+title:
+  ja: TVA2 BD Vol.2
+  rom: TVA2 BD Vol.2
+  ko: TVA2 BD Vol.2
+projects: [muse]
+artist_credit:
+  - {character: muse/maki-nishikino}
+  - {character: muse/nico-yazawa}
+release_date: 2014-07-25
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/zurui-yo-magnetic-today#original}
+      - {no: 2, recording: muse/zurui-yo-magnetic-today#off-vocal}
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+legacy:
+  category: Muse
+  albums:
+    - {title: TVA2 BD Vol.2}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    checked: 2026-10-20

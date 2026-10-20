@@ -48,6 +48,45 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
         checked: 2026-10-19
+  - id: 2022ver
+    title:
+      ja: 私のSymphony ～2022Ver.～
+      kana: わたしのシンフォニー (2022ねん ヴァージョン)
+      rom: Watashi no Symphony ~2022Ver.~
+      ko: 나의 Symphony ~2022Ver.~
+    version: 2022Ver.
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kokei-co-k-takafumi}
+    strings_arranger:
+      - {person: shu-kanematsu}
+    brass_arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd30.php
+        checked: 2026-10-19
+  - id: 2023ver
+    title:
+      ja: 私のSymphony ～2023Ver.～
+      rom: Watashi no Symphony ~2023Ver.~
+      ko: 나의 Symphony ~2023Ver.~
+    version: 2023Ver.
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: kokei-co-k-takafumi}
+    strings_arranger:
+      - {person: shu-kanematsu}
+    brass_arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+        checked: 2026-10-19
 evidence:
   credits:
     status: official

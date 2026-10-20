@@ -1,0 +1,46 @@
+id: nijigasaki/hello-ok
+project: nijigasaki
+title:
+  ja: Hello! OK??
+  rom: Hello! OK??
+  ko: Hello! OK??
+credits:
+  lyricist:
+    - {person: emiuru-hane}
+  composer:
+    - {person: rockwell}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+    arranger:
+      - {person: rockwell}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hello! OK?? (Off Vocal)
+      rom: Hello! OK?? (Off Vocal)
+      ko: Hello! OK?? (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rockwell}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd72
+    checked: 2026-10-20

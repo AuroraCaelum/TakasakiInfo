@@ -1,0 +1,149 @@
+id: aqours/genjitsu-mysterium
+project: aqours
+title:
+  ja: 幻日ミステリウム
+  rom: Genjitsu Mysterium
+  ko: 환일 미스테리움
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-sakai, affiliation: Arte Refact}
+    - {person: kyohei-yamamoto, affiliation: Arte Refact}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 幻日ミステリウム (Off Vocal)
+      rom: Genjitsu Mysterium (Off Vocal)
+      ko: 환일 미스테리움 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+        checked: 2026-10-20
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-20
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+        checked: 2026-10-20
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+        checked: 2026-10-20
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
+        checked: 2026-10-20
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
+        checked: 2026-10-20
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+        checked: 2026-10-20
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
+        checked: 2026-10-20
+  - id: mari-ohara-solo
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
+        checked: 2026-10-20
+  - id: yoshiko-tsushima-solo
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B9%BB%E6%97%A5%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A6%E3%83%A0 https://love-live.fandom.com/wiki/Genjitsu_Mysterium'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
+    checked: 2026-10-20

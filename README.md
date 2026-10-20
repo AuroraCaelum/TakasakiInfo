@@ -9,8 +9,8 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--10--19-e4007f?style=flat-square)](TakasakiInfo.json)
-[![Tracks](https://img.shields.io/badge/tracks-1%2C551-5d9cec?style=flat-square)](#database-status)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--10--20-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Tracks](https://img.shields.io/badge/tracks-3%2C094-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
 
@@ -22,23 +22,24 @@
 > **Updates are back (October 2026).** The database now runs on a rebuilt pipeline: each song, person and release is kept once as an entity in [`data/`](data), and every CSV and JSON file in this repository is generated from it. How it works: [automation/README.md](automation/README.md).
 
 > [!IMPORTANT]
-> The data is still being filled in, so entries may be missing and the structure may change. Not in yet: songs and albums of μ’s. 813 tracks have no pronunciation (kana) yet.
+> The data is still being filled in, so entries may be missing and the structure may change. 2,202 tracks have no pronunciation (kana) yet.
 
 <a id="database-status"></a>
 
 ## Database status
 
-**1,551** tracks · **268** albums · **580** songs · **448** people · **78** characters · **79%** of tracks on YouTube Music · as of 2026-10-19
+**3,094** tracks · **469** albums · **881** songs · **581** people · **89** characters · **84%** of tracks on YouTube Music · as of 2026-10-20
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
-| **μ’s** | — | — | — | — | Members [CSV](members/Muse.csv) · *songs & albums planned* |
-| **Aqours** | 2021-07-28 | 64 | 400 | 80% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
-| **Nijigasaki High School Idol Club** | 2023-12-06 | 69 | 386 | 65% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
-| **Liella!** | 2023-12-06 | 44 | 225 | 55% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
-| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 62 | 425 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
-| **School Idol Musical** | 2023-05-10 | 2 | 34 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
-| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 27 | 90 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
+| **μ’s** | 2024-09-20 | 81 | 519 | 82% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
+| **Aqours** | 2026-03-11 | 124 | 1139 | 93% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
+| **Nijigasaki High School Idol Club** | 2026-10-07 | 95 | 546 | 70% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
+| **Liella!** | 2026-07-08 | 62 | 319 | 57% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
+| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 64 | 429 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
+| **School Idol Musical** | 2024-08-21 | 3 | 46 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
+| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 28 | 92 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
+| **Yohane the Parhelion** | 2024-12-25 | 12 | 42 | 33% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
 
 Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 
@@ -126,7 +127,8 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
   - Hasunosora Girls' High School Idol Club → `Hasunosora`
   - School Idol Musical → `Musical`
   - Ikizulive! LOVELIVE! BLUEBIRD → `Ikizulive`
-- `Category` values: `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Others` (`Others` is for cross-project units and collaborations).
+  - Yohane the Parhelion → `Yohane`
+- `Category` values: `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Yohane`, `Others` (`Others` is for cross-project units and collaborations).
 
 ### CSV structure
 
@@ -286,7 +288,7 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
         "venue": {
           "ja": "ベイシア文化ホール 大ホール",
           "rom": "Beisia Bunka Hall Main Hall",
-          "ko": "베이시아 문화 홀 대극장"
+          "ko": "베이시아 문화 홀 대홀"
         }
       }
     ],
@@ -324,7 +326,7 @@ All rights to the material, including songs and lyrics, belong to
 > ©2024 PROJECT Lovelive! Superstar!!<br>
 > ©2026 PROJECT Lovelive! Hasunosora Jogakuin School Idol Club<br>
 > ©PROJECT Lovelive! School Idol Musical<br>
-> ©プロジェクトイキヅライブ！
+> ©PROJECT IKIZULIVE!
 
 and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushiroad.
 
@@ -355,7 +357,8 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
   - 하스노소라 여학원 스쿨 아이돌 클럽 → `Hasunosora`
   - 스쿨 아이돌 뮤지컬 → `Musical`
   - 이키즈라이부! LOVELIVE! BLUEBIRD → `Ikizulive`
-- `카테고리` 값: `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Others` (`Others`는 여러 프로젝트에 걸친 유닛과 콜라보)
+  - 환일의 요하네 → `Yohane`
+- `카테고리` 값: `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Yohane`, `Others` (`Others`는 여러 프로젝트에 걸친 유닛과 콜라보)
 
 ### CSV 구조
 
@@ -389,7 +392,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 > ©2024 PROJECT Lovelive! Superstar!!<br>
 > ©2026 PROJECT Lovelive! Hasunosora Jogakuin School Idol Club<br>
 > ©PROJECT Lovelive! School Idol Musical<br>
-> ©プロジェクトイキヅライブ！
+> ©PROJECT IKIZULIVE!
 
 와 그 권리사인 SUNRISE, Bandai Namco Filmworks Inc., Lantis, Bushiroad에 있습니다.
 
@@ -420,7 +423,8 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
   - 蓮ノ空女学院スクールアイドルクラブ → `Hasunosora`
   - スクールアイドルミュージカル → `Musical`
   - イキヅライブ！ LOVELIVE! BLUEBIRD → `Ikizulive`
-- `Category`（分類）の値: `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Others`（`Others` はプロジェクトをまたぐユニットとコラボ）
+  - 幻日のヨハネ → `Yohane`
+- `Category`（分類）の値: `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Yohane`, `Others`（`Others` はプロジェクトをまたぐユニットとコラボ）
 
 ### CSV の構造
 

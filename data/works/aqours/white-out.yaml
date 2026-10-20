@@ -1,0 +1,46 @@
+id: aqours/white-out
+project: aqours
+title:
+  ja: WHITE OUT
+  rom: WHITE OUT
+  ko: WHITE OUT
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: naozumi-mabuchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: saint-snow}
+    arranger:
+      - {person: naozumi-mabuchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5623
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: WHITE OUT (Off Vocal)
+      rom: WHITE OUT (Off Vocal)
+      ko: WHITE OUT (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: naozumi-mabuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5623
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5623
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5623
+    checked: 2026-10-20

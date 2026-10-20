@@ -1,0 +1,209 @@
+id: nijigasaki/niji-3rd
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 3rd Live! School Idol Festival ～夢の始まり～
+  rom: Love Live! Nijigasaki High School Idol Club 3rd Live! School Idol Festival ~The beginning of the dream~
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 3rd Live! School Idol Festival ~꿈의 시작~
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: metlife-dome
+    performances:
+      - date: 2021-05-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: video}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/poppin-up
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - {type: video}
+          - work: nijigasaki/awakening-promise
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/yume-ga-koko-kara-hajimaru-yo
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-05-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: video}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/poppin-up
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - {type: video}
+          - work: nijigasaki/awakening-promise
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/yume-ga-koko-kara-hajimaru-yo
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Nijigasaki High School Idol Club 3rd Live! School Idol Festival ~Yume no Hajimari~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_3rdlive.php
+    checked: 2026-10-20
+    note: "rom: 공식 월드와이드 뉴스 영문(나무위키도 공식 영문 명칭으로 소개). Fandom은 'Yume no Hajimari'. ko: 나무위키 문서명 외부 근거: rom: https://www.lovelive-anime.jp/nijigasaki/worldwide/news.php ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%203rd%20Live!%20School%20Idol%20Festival%20~%EA%BF%88%EC%9D%98%20%EC%8B%9C%EC%9E%91~. 일정 조사 메모: Venue printed as メットライフドーム (the 2021 naming-rights name of the dome now called ベルーナドーム)."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_3rdlive.php
+    checked: 2026-10-20
+  setlist.2021-05-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_3rd_Live!_School_Idol_Festival_~Yume_no_Hajimari~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-05-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_3rd_Live!_School_Idol_Festival_~Yume_no_Hajimari~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

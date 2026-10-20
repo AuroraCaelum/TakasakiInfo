@@ -1,0 +1,47 @@
+id: nijigasaki/starry-night-serenade
+project: nijigasaki
+title:
+  ja: Starry Night Serenade
+  rom: Starry Night Serenade
+  ko: Starry Night Serenade
+credits:
+  lyricist:
+    - {person: ryota-saito}
+  composer:
+    - {person: ryota-saito}
+    - {person: ryota-kato}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: ryota-kato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Starry Night Serenade (Off Vocal)
+      rom: Starry Night Serenade (Off Vocal)
+      ko: Starry Night Serenade (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryota-kato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd70
+    checked: 2026-10-20

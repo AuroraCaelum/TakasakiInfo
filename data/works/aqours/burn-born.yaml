@@ -1,0 +1,47 @@
+id: aqours/burn-born
+project: aqours
+title:
+  ja: BURN:BORN
+  rom: BURN:BORN
+  ko: BURN:BORN
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+  composer:
+    - {person: meg}
+    - {person: kanata-okajima}
+recordings:
+  - id: original
+    performers:
+      - {artist: gkss}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: BURN:BORN (Off Vocal)
+      rom: BURN:BORN (Off Vocal)
+      ko: BURN:BORN (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: meg}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    checked: 2026-10-20

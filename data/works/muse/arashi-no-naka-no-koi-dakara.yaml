@@ -1,0 +1,47 @@
+id: muse/arashi-no-naka-no-koi-dakara
+project: muse
+title:
+  ja: 嵐のなかの恋だから
+  rom: Arashi no Naka no Koi dakara
+  ko: 폭풍 속의 사랑이니까
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yoichi-sakai}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: yoichi-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 嵐のなかの恋だから (Off Vocal)
+      rom: Arashi no Naka no Koi dakara (Off Vocal)
+      ko: 폭풍 속의 사랑이니까 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yoichi-sakai}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B5%90%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%AE%E6%81%8B%E3%81%A0%E3%81%8B%E3%82%89 https://love-live.fandom.com/wiki/Arashi_no_Naka_no_Koi_dakara'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    checked: 2026-10-20

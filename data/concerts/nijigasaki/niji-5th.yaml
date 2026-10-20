@@ -1,0 +1,472 @@
+id: nijigasaki/niji-5th
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 5th Live! 虹が咲く場所
+  rom: Love Live! Nijigasaki High School Idol Club 5th Live! Nijigasaku Basho
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 5th Live! 무지개가 피어나는 장소
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: Colorful Dreams! Colorful Smiles!
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2022-09-10
+        setlist:
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video, label: Opening}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/love-u-my-friends
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: other, label: First Live with You! Medley}
+          - work: nijigasaki/ye-mingzhu
+            version: 夜明珠
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: video}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/poker-face-onegai-fairy
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/4-seasons
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Colorful Dreams! Colorful Smiles!|Day 1
+      - date: 2022-09-11
+        setlist:
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video, label: Opening}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/love-u-my-friends
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: other, label: First Live with You! Medley}
+          - work: nijigasaki/koe-tsunagou-yo
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/yuu-ai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/melody
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/ye-mingzhu
+            version: 夜明珠
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: video}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/koi-suru-magic
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/poker-face-onegai-fairy
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/4-seasons
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Colorful Dreams! Colorful Smiles!|Day 2
+  - id: 2-tokyo
+    city: tokyo
+    label: Next TOKIMEKI
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2022-09-17
+        setlist:
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video, label: Opening}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/love-u-my-friends
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/poppin-up
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Next TOKIMEKI|Day 1
+      - date: 2022-09-18
+        setlist:
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video, label: Opening}
+          - {type: video}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/enjoy-it
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/eternal-light
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/infinity-our-wings
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/emotion
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/tokimeki-runners
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/stars-we-chase
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/love-u-my-friends
+            version: TV Anime Insert Song Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - {type: video}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - {type: other, label: TV Anime Medley}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/butterfly
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/dive
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/solitude-rain
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/saikou-heart
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/la-bella-patria
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/poppin-up
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dream-with-you
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/twilight
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: video}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: double_encore, label: Double Encore}
+          - work: nijigasaki/future-parade
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: Next TOKIMEKI|Day 2
+external_ids:
+  fandom: Nijigasaki High School Idol Club 5th Live! Nijigasaku Basho
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_5thlive.php
+    checked: 2026-10-20
+    note: "공식 영문 못 찾음(굿즈 쇼핑몰은 'Where the Rainbow Blooms'). 虹が咲く場所는 Fandom 표기(규칙대로면 'Niji ga Saku Basho'). ko: 나무위키 문서명 외부 근거: rom: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%205th%20Live!%20%EB%AC%B4%EC%A7%80%EA%B0%9C%EA%B0%80%20%ED%94%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9E%A5%EC%86%8C. 일정 조사 메모: Official stop names: ＜Colorful Dreams! Colorful Smiles!公演＞ and ＜Next TOKIMEKI公演＞. Both venues are existing (tokyo-garden-theater, musashino-no-mori-sogo-sports-plaza-main-arena)."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_5thlive.php
+    checked: 2026-10-20
+  setlist.2022-09-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-09-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-09-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-09-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_5th_Live!_Nijigasaku_Basho
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

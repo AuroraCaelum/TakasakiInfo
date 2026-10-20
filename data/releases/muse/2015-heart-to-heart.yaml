@@ -1,0 +1,45 @@
+id: muse/2015-heart-to-heart
+type: single
+title:
+  ja: HEART to HEART!
+projects: [muse]
+artist_credit:
+  - {artist: muse}
+label: Lantis
+release_date: 2015-10-28
+editions:
+  - {id: e1, catalog: LACM-14412}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/heart-to-heart#original}
+      - {no: 2, recording: muse/arashi-no-naka-no-koi-dakara#original}
+      - {no: 3, recording: muse/heart-to-heart#off-vocal}
+      - {no: 4, recording: muse/arashi-no-naka-no-koi-dakara#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_pfcqb8EJMYD
+    tracks:
+      1-1: dkl6n38q3r0
+      1-2: tQ1i0g4GJxI
+      1-3: BJAUz1qNPTg
+      1-4: QRtJWris7Rs
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+legacy:
+  category: Muse
+  albums:
+    - {title: HEART to HEART!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd63
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_pfcqb8EJMYD
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

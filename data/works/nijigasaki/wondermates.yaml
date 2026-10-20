@@ -1,0 +1,50 @@
+id: nijigasaki/wondermates
+project: nijigasaki
+title:
+  ja: ワンダーメイツ
+  rom: Wondermates
+  ko: 원더메이츠
+credits:
+  lyricist:
+    - {person: sakiel-kiriya}
+  composer:
+    - {person: bfnk}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: bfnk}
+      - {person: mayson-s-rhythm-team}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ワンダーメイツ (Off Vocal)
+      rom: Wondermates (Off Vocal)
+      ko: 원더 메이트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: bfnk}
+      - {person: mayson-s-rhythm-team}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 검수(2026-10-20) メイツ(mates)의 복수와 rom Wondermates에 맞춤(나무위키는 원더 메이트) 외부 근거: https://namu.wiki/w/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A1%E3%82%A4%E3%83%84 https://love-live.fandom.com/wiki/Wondermates'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

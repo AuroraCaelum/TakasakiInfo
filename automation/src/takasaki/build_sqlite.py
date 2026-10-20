@@ -47,7 +47,10 @@ CREATE TABLE credit (
 CREATE TABLE performer (
   recording TEXT NOT NULL REFERENCES recording(id), seq INTEGER NOT NULL,
   artist TEXT REFERENCES artist(id), character TEXT REFERENCES character(id), person TEXT REFERENCES person(id),
-  role TEXT REFERENCES character(id), PRIMARY KEY (recording, seq));
+  role TEXT REFERENCES character(id),
+  featured INTEGER NOT NULL DEFAULT 0 CHECK (featured IN (0, 1)),  -- a guest after "feat." (D48)
+  joint INTEGER NOT NULL DEFAULT 0 CHECK (joint IN (0, 1)),  -- one of the performers of a joint name (D48)
+  PRIMARY KEY (recording, seq));
 CREATE TABLE lineup_member (
   artist TEXT NOT NULL REFERENCES artist(id), character TEXT NOT NULL REFERENCES character(id),
   "from" TEXT, until TEXT, CHECK ("from" IS NULL OR until IS NULL OR "from" <= until));
@@ -212,7 +215,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
             if r.credits_override:
                 credits(rid, "lyricist", r.credits_override.lyricist)
                 credits(rid, "composer", r.credits_override.composer)
-            ins("performer", *[(rid, i, p.artist, p.character, p.person, p.role) for i, p in enumerate(r.performers, 1)])
+            ins("performer", *[(rid, i, p.artist, p.character, p.person, p.role, int(p.featured), int(p.joint))
+                               for i, p in enumerate(r.performers, 1)])
 
     mains = main_videos(ds)
     for rel in ds.releases.values():
@@ -234,10 +238,11 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
 
     ins("city", *[(c,) for c in ds.cities])
     for c in ds.cities.values():
-        names(f"city:{c.id}", "name", c.names, {})
+        names(f"city:{c.id}", "name", c.names, c.evidence)
+        common(f"city:{c.id}", c)
     for v in ds.venues.values():
         ins("venue", (v.id, v.city))
-        names(f"venue:{v.id}", "name", v.names, {})
+        names(f"venue:{v.id}", "name", v.names, v.evidence)
         common(f"venue:{v.id}", v)
     perf_id = 0
     for c in ds.concerts.values():

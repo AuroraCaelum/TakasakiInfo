@@ -1,0 +1,65 @@
+id: aqours/yosoku-fukanou-driving
+project: aqours
+title:
+  ja: 予測不可能Driving!
+  rom: Yosoku Fukanou Driving!
+  ko: 예측불가능 Driving!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: pw-a}
+    - {person: tomomi-ogata}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: pw-a}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+        checked: 2026-10-20
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: pw-a}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
+        checked: 2026-10-20
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: pw-a}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
+        checked: 2026-10-20
+  - id: mari-ohara-solo
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: pw-a}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E4%BA%88%E6%B8%AC%E4%B8%8D%E5%8F%AF%E8%83%BDDriving%21 https://love-live.fandom.com/wiki/Yosoku_Fukanou_Driving!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20

@@ -1,0 +1,314 @@
+id: nijigasaki/niji-2nd
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 2nd Live!
+  rom: Love Live! Nijigasaki High School Idol Club 2nd Live!
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 2nd Live!
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: Brand New Story
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2020-09-12
+        label: 1st Show
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: video}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/say-good-bye-namida
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/yagate-hitotsu-no-monogatari
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/margaret
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/aion-no-uta
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Brand New Story'
+      - date: 2020-09-12
+        label: 2nd Show
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: video}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/say-good-bye-namida
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/yagate-hitotsu-no-monogatari
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/margaret
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/aion-no-uta
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - {type: other, label: Medley Part}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+        external_ids:
+          fandom: '|Brand New Story'
+  - id: 2-tokyo
+    city: tokyo
+    label: Back to the TOKIMEKI
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2020-09-13
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - {type: mc}
+          - work: nijigasaki/starlight
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/nemureru-mori-ni-ikitai-na
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - {type: mc}
+          - work: nijigasaki/evergreen
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - {type: mc}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - {type: video}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc}
+        external_ids:
+          fandom: '|Back to the TOKIMEKI'
+external_ids:
+  fandom: Nijigasaki High School Idol Club 2nd Live!
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 무관객 유료 생배송(無観客有料生配信). The official page lists two separately titled lives, 「…2nd Live! Brand New Story」 (2020-09-12, ＜1回目＞開演12:30 and ＜2回目＞開演18:00) and 「…2nd Live! Back to the TOKIMEKI」 (2020-09-13, 開演16:00), both 「＜無観客有料生配信ライブ＞」 with 【場所】東京ガーデンシアター (existing venue tokyo-garden-theater). Per the brief they are online-only (no audience), so city is null and venue carries online: true; a reviewer may prefer city tokyo since the hall is named. I split the two titled parts into two stops at the same hall (stop label = part name); merge into one stop if one venue run must be one stop. title_ja is the common prefix of the two part titles (the page heading reads 「2nd Live 特設サイト」). Fandom has a single "Brand New Story" tab for both 9/12 shows (its Blu-ray track list is the evening show); no source I found says whether the 1st and 2nd shows had identical set lists, so the tab is mapped to both.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
+    checked: 2026-10-20
+  setlist.2020-09-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_2nd_Live!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2020-09-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_2nd_Live!
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

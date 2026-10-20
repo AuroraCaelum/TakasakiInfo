@@ -1,0 +1,60 @@
+id: nijigasaki/what-a-beautiful-day
+project: nijigasaki
+title:
+  ja: What a Beautiful Day!
+  rom: What a Beautiful Day!
+  ko: What a Beautiful Day!
+credits:
+  lyricist:
+    - {person: zumita}
+    - {person: daichi}
+  composer:
+    - {person: zumita}
+    - {person: daichi}
+    - {person: ryo-mizutani}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: ryo-mizutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd73
+        checked: 2026-10-19
+      arranger:
+        status: official
+        source: https://www.youtube.com/watch?v=eaAdtLfQdqw
+        checked: 2026-10-20
+        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+      strings_arranger:
+        status: official
+        source: https://www.youtube.com/watch?v=eaAdtLfQdqw
+        checked: 2026-10-20
+        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: What a Beautiful Day! (Off Vocal)
+      rom: What a Beautiful Day! (Off Vocal)
+      ko: What a Beautiful Day! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryo-mizutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd73
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd73
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.youtube.com/watch?v=eaAdtLfQdqw
+    checked: 2026-10-20
+    note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'

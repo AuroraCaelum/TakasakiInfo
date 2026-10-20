@@ -1,0 +1,51 @@
+id: liella/tokubetsu-janai-mahou
+project: liella
+title:
+  ja: トクベツじゃない魔法
+  rom: Tokubetsu Janai Mahou
+  ko: 특별하지 않은 마법
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: fuji}
+    - {person: ryosuke-saito}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: hoffnung}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: トクベツじゃない魔法 (Off Vocal)
+      rom: Tokubetsu Janai Mahou (Off Vocal)
+      ko: 특별하지 않은 마법 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hoffnung}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%88%E3%82%AF%E3%83%99%E3%83%84%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E9%AD%94%E6%B3%95 https://love-live.fandom.com/wiki/Tokubetsu_Janai_Mahou'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20

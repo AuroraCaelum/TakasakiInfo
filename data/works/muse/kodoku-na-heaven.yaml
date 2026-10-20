@@ -1,0 +1,47 @@
+id: muse/kodoku-na-heaven
+project: muse
+title:
+  ja: 孤独なHeaven
+  rom: Kodoku na Heaven
+  ko: 고독한 Heaven
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: wataru-maeguchi}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 孤独なHeaven (Off Vocal)
+      rom: Kodoku na Heaven (Off Vocal)
+      ko: 고독한 Heaven (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeshi-masuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%AD%A4%E7%8B%AC%E3%81%AAHeaven https://love-live.fandom.com/wiki/Kodoku_na_Heaven'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
+    checked: 2026-10-20

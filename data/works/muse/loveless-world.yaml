@@ -1,0 +1,46 @@
+id: muse/loveless-world
+project: muse
+title:
+  ja: LOVELESS WORLD
+  rom: LOVELESS WORLD
+  ko: LOVELESS WORLD
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: LOVELESS WORLD (Off Vocal)
+      rom: LOVELESS WORLD (Off Vocal)
+      ko: LOVELESS WORLD (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
+    checked: 2026-10-20

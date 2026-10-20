@@ -1,0 +1,47 @@
+id: liella/fantastic
+project: liella
+title:
+  ja: FANTASTiC
+  rom: FANTASTiC
+  ko: FANTASTiC
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuu-for-you}
+    - {person: giz-mo, affiliation: from Jam9}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yuu-for-you}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: FANTASTiC (Off Vocal)
+      rom: FANTASTiC (Off Vocal)
+      ko: FANTASTiC (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuu-for-you}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
+    checked: 2026-10-19

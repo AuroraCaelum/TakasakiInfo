@@ -1,0 +1,47 @@
+id: liella/itsumo-no-peace-sign
+project: liella
+title:
+  ja: いつものピースサイン
+  rom: Itsumo no Peace Sign
+  ko: 언제나의 피스 사인
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuki-utamaru}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: armyslick}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd40.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いつものピースサイン (Off Vocal)
+      rom: Itsumo no Peace Sign (Off Vocal)
+      ko: 언제나의 피스 사인 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: armyslick}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd40.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd40.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E3%83%94%E3%83%BC%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%B3 https://love-live.fandom.com/wiki/Itsumo_no_Peace_Sign'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd40.php
+    checked: 2026-10-20

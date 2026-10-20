@@ -1,0 +1,79 @@
+id: aqours/2023-lovelive-sunshine-third-solo-concert-album-the-story-of-over-the-rainbow-starring-ohara-mari
+type: album
+title:
+  ja: LoveLive! Sunshine!! Third Solo Concert Album ～THE STORY OF “OVER THE RAINBOW”～ starring Ohara Mari
+  rom: LoveLive! Sunshine!! Third Solo Concert Album ~THE STORY OF “OVER THE RAINBOW”~ starring Ohara Mari
+  ko: LoveLive! Sunshine!! Third Solo Concert Album ~THE STORY OF “OVER THE RAINBOW”~ starring Ohara Mari
+projects: [aqours]
+artist_credit:
+  - {character: aqours/mari-ohara}
+label: Lantis
+release_date: 2023-06-13
+editions:
+  - {id: e1, catalog: LACA-9934~5}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/pops-heart-de-odorundamon#mari-ohara-solo}
+      - {no: 2, recording: aqours/sora-mo-kokoro-mo-hareru-kara#mari-ohara-solo}
+      - {no: 3, recording: aqours/daydream-warrior#mari-ohara-solo}
+      - {no: 4, recording: aqours/g-senjou-no-cinderella#mari-ohara-solo}
+      - {no: 5, recording: aqours/thrilling-one-way#mari-ohara-solo}
+      - {no: 6, recording: aqours/taiyou-o-oikakero#mari-ohara-solo}
+      - {no: 7, recording: aqours/jingle-bells-ga-tomaranai#mari-ohara-solo}
+      - {no: 8, recording: aqours/seinaru-hi-no-inori#mari-ohara-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/yosoku-fukanou-driving#mari-ohara-solo}
+      - {no: 2, recording: aqours/bokura-no-hashittekita-michi-wa#mari-ohara-solo}
+      - {no: 3, recording: aqours/tousou-meisou-mobius-loop#mari-ohara-solo}
+      - {no: 4, recording: aqours/hop-stop-nonstop#mari-ohara-solo}
+      - {no: 5, recording: aqours/brightest-melody#mari-ohara-solo}
+      - {no: 6, recording: aqours/kiseki-hikaru#mari-ohara-solo}
+      - {no: 7, recording: aqours/next-sparkling#mari-ohara-solo}
+      - {no: 8, recording: aqours/i-n-g-i-try#mari-ohara-solo}
+      - {no: 9, recording: aqours/mata-kimi-ni-aunda#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_vJaGo0Ue1bp
+    tracks:
+      1-1: ZEEnYTtSTak
+      1-2: E2A8BWO5pH4
+      1-3: IPmLQ78Hpo4
+      1-4: WsTU2-5DxTI
+      1-5: agguaLH0dtA
+      1-6: rD-cRO6dIBQ
+      1-7: BcCo52uoYrg
+      1-8: uttXzYl-M-8
+      2-1: sf6FuQbdVV4
+      2-2: Cz5s5Irp3ic
+      2-3: dVT1GKLAH4I
+      2-4: KyIgCqQdNUE
+      2-5: oaC6znVVZD4
+      2-6: 9IcIeOzGbzs
+      2-7: a6Tsw7WdQD0
+      2-8: VQ7LFf-7Ajw
+      2-9: dOz5EeLto_Y
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Third Solo Concert Album ～THE STORY OF “OVER THE RAINBOW”～ starring Ohara Mari, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

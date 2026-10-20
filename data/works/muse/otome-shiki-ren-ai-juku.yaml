@@ -1,0 +1,78 @@
+id: muse/otome-shiki-ren-ai-juku
+project: muse
+title:
+  ja: 乙女式れんあい塾
+  rom: Otome Shiki Ren'ai Juku
+  ko: 소녀식 연애 학원
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/nico-yazawa}
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 乙女式れんあい塾 (Off Vocal)
+      rom: Otome Shiki Ren'ai Juku (Off Vocal)
+      ko: 소녀식 연애 학원 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: 乙女式れんあい塾 (NOZOMI Mix)
+      rom: Otome Shiki Ren'ai Juku (NOZOMI Mix)
+      ko: 소녀식 연애 학원 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: 乙女式れんあい塾 (NICO Mix)
+      rom: Otome Shiki Ren'ai Juku (NICO Mix)
+      ko: 소녀식 연애 학원 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20
+    note: "ja: 공식 페이지. rom: Fandom(규칙 엔진이면 Otomeshiki Ren'ai Juku), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E4%B9%99%E5%A5%B3%E5%BC%8F%E3%82%8C%E3%82%93%E3%81%82%E3%81%84%E5%A1%BE https://love-live.fandom.com/wiki/Otome_Shiki_Ren%27ai_Juku"
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20

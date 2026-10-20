@@ -209,6 +209,9 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for group, ids in ds.layout.concerts.items():
             for i in ids:
                 need(ds.concerts, i, f"layout:concerts/{group}", "concert")
+                for s in ds.concerts[i].stops if i in ds.concerts else []:
+                    if s.city is None or s.venue is None:  # the legacy files print both (an online show has neither)
+                        add("E2", f"layout:concerts/{group}", f"{i} stop {s.id} has no city or venue")
 
     # E3: no draft value in the legacy files (§4.4); announced releases are not output (§7.4)
     for where, ent in legacy_reach(ds):
@@ -399,7 +402,10 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
 # behind the source that was used (D36), or the source is the series' own account off the site
 # (an official YouTube channel's video description, an official X post; D41)
 OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신", "공식 계정")
-OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com")
+OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com",
+                  "www.yohane.net", "yohane.net", "yohane-bid.com",  # 幻日のヨハネ: its own site and its game's (D46)
+                  # the official sites of the events the rights holders organize, as the concert adapter reads them (D47)
+                  "ijigen-fes.jp", "tutoliella-live.jp", "lovelive-overseas.bitfan.id")
 # the rights holders' sites of the other franchises whose characters appear in crossovers (external/*)
 OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com")
 

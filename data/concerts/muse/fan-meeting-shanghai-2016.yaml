@@ -1,0 +1,59 @@
+id: muse/fan-meeting-shanghai-2016
+projects: [muse]
+status: performed
+title:
+  ja: ラブライブ！μ’s Fan Meeting in 上海～Talk&Live～
+  rom: Love Live! μ’s Fan Meeting in Shanghai ~Talk&Live~
+  ko: 러브 라이브! μ’s Fan Meeting in 상하이 ~Talk&Live~
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: mercedes-benz-arena-shanghai
+    performances:
+      - date: 2016-01-30
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - {type: talk, label: Talk portion}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {artist: muse}
+        external_ids:
+          fandom: μ's Fan Meeting In Shanghai ~Talk & Live~|
+external_ids:
+  fandom: Muse's Fan Meeting ~Talk & Live~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    checked: 2026-10-20
+    note: "공식 영문 못 찾음. 上海 → Shanghai, 라틴 부분은 ja대로 'in', 'Talk&Live'(Fandom은 'In', 'Talk & Live'). 타이베이 공연의 공식 영문은 'LoveLive! μ’s …'라 둘을 맞출지 확인. ko: 나무위키 μ’s Fan Meeting Tour 문서 4절 제목 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: 공식 뉴스(2016-01-18 「μ’s海外ファンミーティングのお知らせ」)의 공연명. Fandom은 상하이·타이베이를 한 문서에 싣는다"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    checked: 2026-10-20
+  setlist.2016-01-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_~Talk_&_Live~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

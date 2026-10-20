@@ -1,0 +1,47 @@
+id: muse/futari-happiness
+project: muse
+title:
+  ja: ふたりハピネス
+  rom: Futari Happiness
+  ko: 두 사람 해피니스
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ふたりハピネス (Off Vocal)
+      rom: Futari Happiness (Off Vocal)
+      ko: 두 사람 해피니스 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%81%9F%E3%82%8A%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9 https://love-live.fandom.com/wiki/Futari_Happiness'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    checked: 2026-10-20

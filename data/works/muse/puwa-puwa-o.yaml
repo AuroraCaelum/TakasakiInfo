@@ -1,0 +1,55 @@
+id: muse/puwa-puwa-o
+project: muse
+title:
+  ja: ぷわぷわーお！
+  rom: Puwa Puwa-O!
+  ko: 푹신푹신~오!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yugo-sasakura}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=cEwaG2odTYk
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ぷわぷわーお！ (Off Vocal)
+      rom: Puwa Puwa-O! (Off Vocal)
+      ko: 푹신푹신~오! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yugo-sasakura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd00-gamers
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B7%E3%82%8F%E3%81%B7%E3%82%8F%E3%83%BC%E3%81%8A%EF%BC%81 https://love-live.fandom.com/wiki/Puwa_Puwa-O!'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=cEwaG2odTYk
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

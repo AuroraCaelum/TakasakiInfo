@@ -1,0 +1,47 @@
+id: nijigasaki/bravo
+project: nijigasaki
+title:
+  ja: Bravo!
+  rom: Bravo!
+  ko: Bravo!
+credits:
+  lyricist:
+    - {person: miyakei}
+  composer:
+    - {person: ryo-mizutani}
+    - {person: zumita}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/lanzhu-zhong}
+    arranger:
+      - {person: ryo-mizutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Bravo! (Off Vocal)
+      rom: Bravo! (Off Vocal)
+      ko: Bravo! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryo-mizutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
+    checked: 2026-10-20

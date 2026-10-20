@@ -1,0 +1,158 @@
+id: muse/korekara-no-someday
+project: muse
+title:
+  ja: これからのSomeday
+  rom: Korekara no Someday
+  ko: 앞으로 다가올 Someday
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yozuca}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: これからのSomeday (Off Vocal)
+      rom: Korekara no Someday (Off Vocal)
+      ko: 앞으로 다가올 Someday (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: lotta}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: これからのSomeday (HONOKA Mix)
+      rom: Korekara no Someday (HONOKA Mix)
+      ko: 앞으로 다가올 Someday (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: これからのSomeday (KOTORI Mix)
+      rom: Korekara no Someday (KOTORI Mix)
+      ko: 앞으로 다가올 Someday (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: これからのSomeday (UMI Mix)
+      rom: Korekara no Someday (UMI Mix)
+      ko: 앞으로 다가올 Someday (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: これからのSomeday (RIN Mix)
+      rom: Korekara no Someday (RIN Mix)
+      ko: 앞으로 다가올 Someday (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: これからのSomeday (MAKI Mix)
+      rom: Korekara no Someday (MAKI Mix)
+      ko: 앞으로 다가올 Someday (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: これからのSomeday (HANAYO Mix)
+      rom: Korekara no Someday (HANAYO Mix)
+      ko: 앞으로 다가올 Someday (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: これからのSomeday (NICO Mix)
+      rom: Korekara no Someday (NICO Mix)
+      ko: 앞으로 다가올 Someday (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AESomeday https://love-live.fandom.com/wiki/Korekara_no_Someday'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
+    checked: 2026-10-20

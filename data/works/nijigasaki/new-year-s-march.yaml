@@ -1,0 +1,51 @@
+id: nijigasaki/new-year-s-march
+project: nijigasaki
+title:
+  ja: New Year’s March！
+  rom: New Year’s March!
+  ko: New Year’s March!
+credits:
+  lyricist:
+    - {person: ayumu-nakamura}
+    - {person: hiroto-kikuchi}
+  composer:
+    - {person: ayumu-nakamura}
+    - {person: hiroto-kikuchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: New Year’s March！ (Off Vocal)
+      rom: New Year’s March! (Off Vocal)
+      ko: New Year’s March! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+    checked: 2026-10-20
+    note: 공식 페이지가 음반 제목은 '(New Year's), 트랙 제목은 ’(New Year’s)로 인쇄해 둘 다 인쇄대로 둠.
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
+    checked: 2026-10-19

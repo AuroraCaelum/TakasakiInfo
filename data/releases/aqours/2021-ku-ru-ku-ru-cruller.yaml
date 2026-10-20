@@ -1,0 +1,48 @@
+id: aqours/2021-ku-ru-ku-ru-cruller
+type: single
+title:
+  ja: KU-RU-KU-RU Cruller!
+projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
+release_date: 2021-09-22
+editions:
+  - {id: e1, catalog: LACM-24170}
+  - {id: e2, catalog: LACM-24171}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/ku-ru-ku-ru-cruller#original}
+      - {no: 2, recording: aqours/suki-for-you-dream-for-you#original}
+      - {no: 3, recording: aqours/ku-ru-ku-ru-cruller#off-vocal}
+      - {no: 4, recording: aqours/suki-for-you-dream-for-you#off-vocal}
+      - {no: 5, recording: aqours/kiseki-o-oshiete#main}
+      - {no: 6, recording: aqours/ugokidasu-kiseki#main}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_tgeLv43Tfl7
+    tracks:
+      1-1: yNJtqA5EJF4
+      1-2: YHMc-Ij1xuo
+      1-3: FmF5c6qSEVE
+      1-4: k1oLD3InDmA
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+legacy:
+  category: Aqours
+  albums:
+    - {title: KU-RU-KU-RU Cruller!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_tgeLv43Tfl7
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

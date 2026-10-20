@@ -1,0 +1,41 @@
+id: nijigasaki/2025-white-delight
+type: single
+title:
+  ja: White Delight
+projects: [nijigasaki]
+artist_credit:
+  - {character: nijigasaki/mia-taylor}
+release_date: 2025-01-29
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/white-delight#original}
+      - {no: 2, recording: nijigasaki/joy-is-all-around#original}
+      - {no: 3, recording: nijigasaki/white-delight#off-vocal}
+      - {no: 4, recording: nijigasaki/joy-is-all-around#off-vocal}
+streaming:
+  - browse_id: MPREb_ChXNUGrY74w
+    tracks:
+      1-1: quEno3fQX9s
+      1-2: j6nx1nUCX5A
+      1-3: H3hRI8Y8T54
+      1-4: AFx1TBcL_gA
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: White Delight}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ChXNUGrY74w
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

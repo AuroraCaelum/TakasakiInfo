@@ -1,0 +1,493 @@
+id: hasunosora/hasu-2nd
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ 2nd Live Tour 〜Blooming with ○○○〜
+  rom: Love Live! Hasunosora Girls' High School Idol Club 2nd Live Tour ~Blooming with ○○○~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 2nd Live Tour ~Blooming with ○○○~
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-hall-1-3
+    performances:
+      - date: 2024-04-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/trick-and-cute
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/tsubasa-la-liberte
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/ishin-denshin
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/take-it-over
+            performers:
+              - {artist: dollchestra}
+          - {type: video, label: Cards Intermission}
+          - work: hasunosora/link-to-the-future
+            performers:
+              - {artist: cerise-bouquet}
+              - {artist: dollchestra}
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/parallel-dancer
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/runway
+            performers:
+              - {character: hasunosora/sayaka-murano}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/identity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sugar-melt
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/dakishimeru-hanabira
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/legato
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: Virtual Girls MC}
+          - {type: encore, label: Encore}
+          - work: hasunosora/deepness
+            version: 6 Members Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/colorfulness
+            performers:
+              - {artist: rurino-to-yukai-na-tsuzuri-tachi}
+          - work: hasunosora/pleasure-feather
+            performers:
+              - {artist: hasuno-kyuujitsu}
+          - work: hasunosora/happy-shijou-shugi
+            performers:
+              - {artist: kahomegu-gelato}
+          - {type: mc}
+          - work: hasunosora/dream-believers
+            version: 104 ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: double_encore, label: Double Encore}
+          - work: hasunosora/step-up
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Chiba|Day 1
+      - date: 2024-04-21
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/trick-and-cute
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/tsubasa-la-liberte
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/mix-shake
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/tsuki-makase
+            performers:
+              - {artist: dollchestra}
+          - {type: video, label: Cards Intermission}
+          - work: hasunosora/link-to-the-future
+            performers:
+              - {artist: cerise-bouquet}
+              - {artist: dollchestra}
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/ameiro
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/runway
+            performers:
+              - {character: hasunosora/sayaka-murano}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/tensai-nano-kamo-shirenai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/dear-my-future
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/dakishimeru-hanabira
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/legato
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: Virtual Girls MC}
+          - {type: encore, label: Encore}
+          - work: hasunosora/deepness
+            version: 6 Members Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/colorfulness
+            performers:
+              - {artist: rurino-to-yukai-na-tsuzuri-tachi}
+          - work: hasunosora/pleasure-feather
+            performers:
+              - {artist: hasuno-kyuujitsu}
+          - work: hasunosora/happy-shijou-shugi
+            performers:
+              - {artist: kahomegu-gelato}
+          - {type: mc}
+          - work: hasunosora/dream-believers
+            version: 104 ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: double_encore, label: Double Encore}
+          - work: hasunosora/step-up
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Chiba|Day 2
+  - id: 2-hyogo
+    city: hyogo
+    venue: kobe-world-memorial-hall
+    performances:
+      - date: 2024-05-18
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/natsumeki-pain
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/tsubasa-la-liberte
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/bang-you-gravity
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/kiboteki-prism
+            performers:
+              - {artist: dollchestra}
+          - {type: video, label: Cards Intermission}
+          - work: hasunosora/link-to-the-future
+            performers:
+              - {artist: cerise-bouquet}
+              - {artist: dollchestra}
+              - {artist: mira-cra-park}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/seishun-no-rinkaku
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/runway
+            performers:
+              - {character: hasunosora/sayaka-murano}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sugar-melt
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/dakishimeru-hanabira
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/legato
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: Virtual Girls MC}
+          - {type: encore, label: Encore}
+          - work: hasunosora/deepness
+            version: 6 Members Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/asu-no-sora-no-bokutachi-e
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: double_encore, label: Double Encore}
+          - work: hasunosora/dream-believers
+            version: 104th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/reflection-in-the-mirror
+            version: 104th ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sparkly-spot
+            version: 104th ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/identity
+            version: 104 ver.
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            version: 104th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Hyogo|Day 1
+      - date: 2024-05-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: hasunosora/on-your-mark
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/natsumeki-pain
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/senpen-banka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/tsubasa-la-liberte
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/fortune-movie
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/kokon-touzai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/parallel-dancer
+            performers:
+              - {artist: dollchestra}
+          - {type: video, label: Cards Intermission}
+          - work: hasunosora/link-to-the-future
+            performers:
+              - {artist: cerise-bouquet}
+              - {artist: dollchestra}
+              - {artist: mira-cra-park}
+          - work: hasunosora/ao-to-shabon
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/ameiro
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/milk
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/tensai-nano-kamo-shirenai
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/special-thanks
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sugao-no-pixel
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: video, label: Animated Intermission}
+          - work: hasunosora/dakishimeru-hanabira
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/legato
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: Virtual Girls MC}
+          - {type: encore, label: Encore}
+          - work: hasunosora/deepness
+            version: 6 Members Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc}
+          - work: hasunosora/asu-no-sora-no-bokutachi-e
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: double_encore, label: Double Encore}
+          - work: hasunosora/dream-believers
+            version: 104th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/reflection-in-the-mirror
+            version: 104th ver.
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/sparkly-spot
+            version: 104th ver.
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/identity
+            version: 104th ver.
+            performers:
+              - {artist: mira-cra-park}
+          - {type: mc}
+          - work: hasunosora/365-days
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: hasunosora/eien-no-euphoria
+            version: 104th ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: Hyogo|Day 2
+external_ids:
+  fandom: Hasunosora Girls' High School Idol Club 2nd Live Tour ~Blooming with ○○○~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=BLW
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official page writes the title with 〜 (U+301C), while the Blu-ray product page writes ～ (U+FF5E). title_ja follows the live page. namu.wiki writes the venues as 「마쿠하리 멧세 전시장 1~3관」 and 「고베 월드 기념홀」; ko follows the Japanese more closely. The 104th-class cast (Sakurai Hina, Hayama Fuka, Kurusu Rin) appeared as guests.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=BLW
+    checked: 2026-10-20
+  setlist.2024-04-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_2nd_Live_Tour_~Blooming_with_%E2%97%8B%E2%97%8B%E2%97%8B~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-04-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_2nd_Live_Tour_~Blooming_with_%E2%97%8B%E2%97%8B%E2%97%8B~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-05-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_2nd_Live_Tour_~Blooming_with_%E2%97%8B%E2%97%8B%E2%97%8B~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-05-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Hasunosora_Girls'_High_School_Idol_Club_2nd_Live_Tour_~Blooming_with_%E2%97%8B%E2%97%8B%E2%97%8B~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

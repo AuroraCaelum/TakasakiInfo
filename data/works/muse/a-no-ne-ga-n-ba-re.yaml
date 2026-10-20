@@ -1,0 +1,63 @@
+id: muse/a-no-ne-ga-n-ba-re
+project: muse
+title:
+  ja: あ・の・ね・が・ん・ば・れ！
+  rom: A-NO-NE-GA-N-BA-RE!
+  ko: 있・잖・아・힘・을・내!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: taka-aoki}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: taka-aoki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: あ・の・ね・が・ん・ば・れ！ (Off Vocal)
+      rom: A-NO-NE-GA-N-BA-RE! (Off Vocal)
+      ko: 있・잖・아・힘・을・내! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: taka-aoki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: あ・の・ね・が・ん・ば・れ！ (UMI MIX)
+      rom: A-NO-NE-GA-N-BA-RE! (UMI MIX)
+      ko: 있・잖・아・힘・을・내! (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: taka-aoki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(・를 하이픈으로 쓰는 관용 표기. 규칙 엔진이면 A・no・ne・ga・n・ba・re!), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%83%BB%E3%81%AE%E3%83%BB%E3%81%AD%E3%83%BB%E3%81%8C%E3%83%BB%E3%82%93%E3%83%BB%E3%81%B0%E3%83%BB%E3%82%8C%EF%BC%81 https://love-live.fandom.com/wiki/A-NO-NE-GA-N-BA-RE!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    checked: 2026-10-20

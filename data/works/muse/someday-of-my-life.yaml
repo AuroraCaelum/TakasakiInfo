@@ -1,0 +1,57 @@
+id: muse/someday-of-my-life
+project: muse
+title:
+  ja: Someday of my life
+  rom: Someday of my life
+  ko: Someday of my life
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yuuichi-yaegashi}
+recordings:
+  - id: honoka-kosaka-solo
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: yuuichi-yaegashi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd11)과 같다고 봄
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: yuuichi-yaegashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Someday of my life (Off Vocal)
+      rom: Someday of my life (Off Vocal)
+      ko: Someday of my life (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuuichi-yaegashi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20

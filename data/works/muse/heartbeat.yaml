@@ -1,0 +1,48 @@
+id: muse/heartbeat
+project: muse
+title:
+  ja: ？←HEARTBEAT
+  rom: ?←HEARTBEAT
+  ko: ?←HEARTBEAT
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: koshiro-honda}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/eli-ayase}
+      - {character: muse/nozomi-tojo}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ？←HEARTBEAT (Off Vocal)
+      rom: ?←HEARTBEAT (Off Vocal)
+      ko: ?←HEARTBEAT (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: koshiro-honda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    checked: 2026-10-20

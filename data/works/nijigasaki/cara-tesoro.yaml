@@ -1,0 +1,46 @@
+id: nijigasaki/cara-tesoro
+project: nijigasaki
+title:
+  ja: Cara Tesoro
+  rom: Cara Tesoro
+  ko: Cara Tesoro
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Cara Tesoro (Off Vocal)
+      rom: Cara Tesoro (Off Vocal)
+      ko: Cara Tesoro (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-19

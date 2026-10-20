@@ -1,0 +1,55 @@
+id: yohane/numazu-yassa-yoisa-uta
+project: yohane
+title:
+  ja: ヌマヅやっさよいさ唄
+  rom: Numazu Yassa Yoisa Uta
+  ko: 누마즈 얏사요이사 노래
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: tatsuya-kato}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: tatsuya-kato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=6
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ヌマヅやっさよいさ唄 (Off Vocal)
+      rom: Numazu Yassa Yoisa Uta (Off Vocal)
+      ko: 누마즈 얏사요이사 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=6
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=6
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%8C%E3%83%9E%E3%83%85%E3%82%84%E3%81%A3%E3%81%95%E3%82%88%E3%81%84%E3%81%95%E5%94%84 https://love-live.fandom.com/wiki/Numazu_Yassa_Yoisa_Uta'
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=6
+    checked: 2026-10-20

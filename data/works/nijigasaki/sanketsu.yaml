@@ -1,0 +1,48 @@
+id: nijigasaki/sanketsu
+project: nijigasaki
+title:
+  ja: 酸欠
+  rom: Sanketsu
+  ko: 산소 결핍
+credits:
+  lyricist:
+    - {person: ereca-suzuki}
+  composer:
+    - {person: ereca-suzuki}
+    - {person: oni}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: oni}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 酸欠 (Off Vocal)
+      rom: Sanketsu (Off Vocal)
+      ko: 산소 결핍 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: oni}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E9%85%B8%E6%AC%A0 https://love-live.fandom.com/wiki/Sanketsu'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20

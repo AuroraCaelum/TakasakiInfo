@@ -1,0 +1,48 @@
+id: liella/zenryoku-riot
+project: liella
+title:
+  ja: 全力ライオット
+  rom: Zenryoku Riot
+  ko: 전력 라이엇
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: armyslick}
+    - {person: mio-jorakuji}
+recordings:
+  - id: original
+    performers:
+      - {artist: catchu}
+    arranger:
+      - {person: armyslick}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 全力ライオット (Off Vocal)
+      rom: Zenryoku Riot (Off Vocal)
+      ko: 전력 라이엇 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: armyslick}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%85%A8%E5%8A%9B%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%83%E3%83%88 https://love-live.fandom.com/wiki/Zenryoku_Riot'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
+    checked: 2026-10-20

@@ -1,0 +1,47 @@
+id: muse/natte-shimatta
+project: muse
+title:
+  ja: なってしまった！
+  rom: Natte Shimatta!
+  ko: 되어버렸어!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: なってしまった！ (Off Vocal)
+      rom: Natte Shimatta! (Off Vocal)
+      ko: 되어버렸어! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryosuke-nakanishi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%EF%BC%81 https://love-live.fandom.com/wiki/Natte_Shimatta!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
+    checked: 2026-10-20

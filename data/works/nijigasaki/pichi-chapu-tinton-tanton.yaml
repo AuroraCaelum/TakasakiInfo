@@ -1,0 +1,47 @@
+id: nijigasaki/pichi-chapu-tinton-tanton
+project: nijigasaki
+title:
+  ja: ピチチャプティントンタントン
+  rom: Pichi Chapu Tinton Tanton
+  ko: 똑똑 참방참방 딩동댕동
+credits:
+  lyricist:
+    - {person: quemika}
+  composer:
+    - {person: quemika}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ピチチャプティントンタントン (Off Vocal)
+      rom: Pichi Chapu Tinton Tanton (Off Vocal)
+      ko: 똑똑 참방참방 딩동댕동 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%94%E3%83%81%E3%83%81%E3%83%A3%E3%83%97%E3%83%86%E3%82%A3%E3%83%B3%E3%83%88%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%88%E3%83%B3 https://love-live.fandom.com/wiki/Pichi_Chapu_Tinton_Tanton'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+    checked: 2026-10-20

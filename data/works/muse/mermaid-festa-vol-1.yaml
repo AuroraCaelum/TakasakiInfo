@@ -1,0 +1,94 @@
+id: muse/mermaid-festa-vol-1
+project: muse
+title:
+  ja: Mermaid festa vol.1
+  rom: Mermaid festa vol.1
+  ko: Mermaid festa vol.1
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shunryu}
+recordings:
+  - id: umi-mix
+    title:
+      ja: Mermaid festa vol.1 (UMI MIX)
+      rom: Mermaid festa vol.1 (UMI MIX)
+      ko: Mermaid festa vol.1 (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: Mermaid festa vol.1 (KOTORI MIX)
+      rom: Mermaid festa vol.1 (KOTORI MIX)
+      ko: Mermaid festa vol.1 (KOTORI MIX)
+    version: KOTORI MIX
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: Mermaid festa vol.1 (HONOKA Mix)
+      rom: Mermaid festa vol.1 (HONOKA Mix)
+      ko: Mermaid festa vol.1 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Mermaid festa vol.1 (Off Vocal)
+      rom: Mermaid festa vol.1 (Off Vocal)
+      ko: Mermaid festa vol.1 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    checked: 2026-10-20

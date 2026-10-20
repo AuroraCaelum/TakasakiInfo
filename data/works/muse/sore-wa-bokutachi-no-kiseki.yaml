@@ -1,0 +1,47 @@
+id: muse/sore-wa-bokutachi-no-kiseki
+project: muse
+title:
+  ja: それは僕たちの奇跡
+  rom: Sore wa Bokutachi no Kiseki
+  ko: 그것은 우리의 기적
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: katsuhiko-kurosu}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: それは僕たちの奇跡 (Off Vocal)
+      rom: Sore wa Bokutachi no Kiseki (Off Vocal)
+      ko: 그것은 우리의 기적 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: katsuhiko-kurosu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9D%E3%82%8C%E3%81%AF%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AE%E5%A5%87%E8%B7%A1 https://love-live.fandom.com/wiki/Sore_wa_Bokutachi_no_Kiseki'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    checked: 2026-10-20

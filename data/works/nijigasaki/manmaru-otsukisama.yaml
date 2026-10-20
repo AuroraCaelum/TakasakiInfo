@@ -1,0 +1,47 @@
+id: nijigasaki/manmaru-otsukisama
+project: nijigasaki
+title:
+  ja: まんまるお月さま
+  rom: Manmaru Otsukisama
+  ko: 동그란 달님
+credits:
+  lyricist:
+    - {person: yumika-kondo}
+  composer:
+    - {person: yumika-kondo}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ai-miyashita}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: まんまるお月さま (Off Vocal)
+      rom: Manmaru Otsukisama (Off Vocal)
+      ko: 동그란 달님 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%BE%E3%82%93%E3%81%BE%E3%82%8B%E3%81%8A%E6%9C%88%E3%81%95%E3%81%BE https://love-live.fandom.com/wiki/Manmaru_Otsukisama'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
+    checked: 2026-10-20

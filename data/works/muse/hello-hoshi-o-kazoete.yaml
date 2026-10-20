@@ -1,0 +1,49 @@
+id: muse/hello-hoshi-o-kazoete
+project: muse
+title:
+  ja: Hello,星を数えて
+  rom: Hello, Hoshi o Kazoete
+  ko: Hello, 별을 세며
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akihiko-yamaguchi}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hello,星を数えて (Off Vocal)
+      rom: Hello, Hoshi o Kazoete (Off Vocal)
+      ko: Hello, 별을 세며 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: akihiko-yamaguchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/Hello%2C%20%E6%98%9F%E3%82%92%E6%95%B0%E3%81%88%E3%81%A6 https://love-live.fandom.com/wiki/Hello,_Hoshi_o_Kazoete'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    checked: 2026-10-20

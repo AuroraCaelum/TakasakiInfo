@@ -1,0 +1,157 @@
+id: muse/expo-2025-stage
+projects: [muse, aqours, nijigasaki, liella, hasunosora, ikizulive]
+status: performed
+title:
+  ja: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+  rom: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+  ko: U-NEXT MUSIC FES LoveLive! Series EXPO 2025 STAGE ~Right now!~
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: expo-arena-matsuri
+    performances:
+      - date: 2025-08-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc, label: MC with Ikizurai-Bu!}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/maki-nishikino}
+          - {type: mc, label: MC with μ's}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/maki-nishikino}
+          - work: muse/no-brand-girls
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/maki-nishikino}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC with YYY}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: waiwaiwai}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: waiwaiwai}
+          - {type: mc, label: MC with Aqours}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: waiwaiwai}
+              - {character: muse/maki-nishikino}
+              - {character: nijigasaki/karin-asaka}
+              - {character: liella/mei-yoneme}
+              - {character: hasunosora/ceras-yanagida-lilienfeld}
+              - {character: ikizulive/mai-azabu}
+          - {type: mc}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/chase
+            version: Short Ver.
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/vivid-world
+            version: Short Ver.
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/la-bella-patria
+            version: Short Ver.
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            version: Short Ver.
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            version: Short Ver.
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - {type: mc, label: MC with Nijigasaki}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/just-believe
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - {type: mc, label: MC with CatChu!}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: catchu}
+          - work: liella/distortion
+            performers:
+              - {artist: catchu}
+          - {type: mc, label: MC with CatChu!}
+          - work: liella/zenryoku-riot
+            performers:
+              - {artist: catchu}
+          - work: hasunosora/i-do-me
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: MC with Hasunosora}
+          - {type: other, label: Hasunosora Medley}
+          - work: hasunosora/celebration
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/ampere
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/wawo
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/edelied
+            performers:
+              - {artist: edel-note}
+          - {type: mc, label: MC with Hasunosora}
+          - work: hasunosora/dream-believers
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+        external_ids:
+          fandom: '|'
+external_ids:
+  fandom: U-NEXT MUSIC FES - Love Live! Series EXPO 2025 STAGE ~Right now!~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=lovelive-expo2025
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Day 3 of U-NEXT MUSIC FES at Expo 2025 Osaka, Kansai (organizer U-NEXT). Ikizurai-Bu! appeared as the opening act. The official live list titles the entry 「「EXPO 2025 大阪・関西万博」×ラブライブ！シリーズ」; the stage title above is from the detail page's LIVE INFO."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=lovelive-expo2025
+    checked: 2026-10-20
+  setlist.2025-08-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/U-NEXT_MUSIC_FES_-_Love_Live!_Series_EXPO_2025_STAGE_~Right_now!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,0 +1,47 @@
+id: nijigasaki/white-delight
+project: nijigasaki
+title:
+  ja: White Delight
+  rom: White Delight
+  ko: White Delight
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+    - {person: konnie-aoki}
+  composer:
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: White Delight (Off Vocal)
+      rom: White Delight (Off Vocal)
+      ko: White Delight (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-19

@@ -1,0 +1,234 @@
+id: ikizulive/ikizu-1st
+projects: [ikizulive]
+status: performed
+title:
+  ja: いきづらい部！ 1st LIVE ～ What is my L ? ～
+  rom: Ikizuraibu! 1st LIVE ~ What is my L ? ~
+  ko: 이키즈라이부! 1st LIVE ~ What is my L ? ~
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2026-02-14
+        setlist:
+          - {type: other, label: Love High School Online Meeting}
+          - {type: video, label: Opening}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/public-style
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/itsuka-ao
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/hibana-hibana
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/dekoboko-quartet
+            performers:
+              - {artist: chaki}
+          - work: ikizulive/pray-for-love
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/little-green-iinkai
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/daitan-party-time
+            performers:
+              - {artist: plumina}
+          - work: ikizulive/homerun-queen
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/koi-no-one-time-password
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/ikitakunai-every-day
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/symmetry
+            performers:
+              - {artist: mi-nori-tea}
+          - work: ikizulive/silent-stella
+            performers:
+              - {artist: sh1on}
+          - {type: video}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/odoru-polka
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/trick-or-toxic
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/centimeter-rendezvous
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/love-you-save-the-earth
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/kurari-to-bright
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/magical-recipe-s-il-vous-plait
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/futari-wa-itsudemo-happy-end
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/first-ride
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/jet-starter
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/hissatsu-my-mai-mode
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: other, label: Love High School Online Meeting}
+        external_ids:
+          fandom: '|Both Days'
+      - date: 2026-02-15
+        setlist:
+          - {type: other, label: Love High School Online Meeting}
+          - {type: video, label: Opening}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/public-style
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/itsuka-ao
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/hibana-hibana
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/dekoboko-quartet
+            performers:
+              - {artist: chaki}
+          - work: ikizulive/pray-for-love
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/little-green-iinkai
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/daitan-party-time
+            performers:
+              - {artist: plumina}
+          - work: ikizulive/homerun-queen
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/koi-no-one-time-password
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/ikitakunai-every-day
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/symmetry
+            performers:
+              - {artist: mi-nori-tea}
+          - work: ikizulive/silent-stella
+            performers:
+              - {artist: sh1on}
+          - {type: video}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/odoru-polka
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/trick-or-toxic
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/centimeter-rendezvous
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/love-you-save-the-earth
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/kurari-to-bright
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/magical-recipe-s-il-vous-plait
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/futari-wa-itsudemo-happy-end
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/first-ride
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/jet-starter
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/hissatsu-my-mai-mode
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: other, label: Love High School Online Meeting}
+        external_ids:
+          fandom: '|Both Days'
+external_ids:
+  fandom: Ikizurai-Bu! 1st LIVE ~What is my L?~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=WhatismyL
+    checked: 2026-10-20
+    note: "그룹명 rom은 저장소 결정 Ikizuraibu!(D38. Fandom과 의뢰 문구는 'Ikizurai-Bu!'). 라틴 부분은 공식 표기 공백 그대로(Fandom '~What is my L?~', 나무위키 '～ What is my L? ～'). ko: 나무위키 문서명 외부 근거: rom: 결정 D38 (그룹명 Ikizuraibu!) ko: https://namu.wiki/w/%EC%9D%B4%ED%82%A4%EC%A6%88%EB%9D%BC%EC%9D%B4%EB%B6%80!%201st%20LIVE%20%EF%BD%9E%20What%20is%20my%20L%3F%20%EF%BD%9E. 일정 조사 메모: The official title has spaces inside the tildes and before the question mark (「～ What is my L ? ～」), and title_ja keeps them. It has no series prefix. Fandom gives one set list for both days, so it is mapped to both shows."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=WhatismyL
+    checked: 2026-10-20
+  setlist.2026-02-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_1st_LIVE_~What_is_my_L%3F~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-02-15:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_1st_LIVE_~What_is_my_L%3F~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

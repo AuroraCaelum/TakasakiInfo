@@ -1,0 +1,51 @@
+id: hasunosora/hasu-debut-event
+projects: [hasunosora]
+status: performed
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ デビューミニアルバム発売記念イベント「Dream Believers」
+  rom: Love Live! Hasunosora Girls' High School Idol Club Debut Mini Album Hatsubai Kinen Event "Dream Believers"
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 데뷔 미니앨범 발매 기념 이벤트 「Dream Believers」
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: toyosu-pit
+    performances:
+      - date: 2023-04-21
+        setlist:
+          - {type: video, label: Opening}
+          - {work: hasunosora/on-your-mark}
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - {type: video}
+          - work: hasunosora/awoke
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/suisai-sekai
+            performers:
+              - {artist: cerise-bouquet}
+          - {work: hasunosora/eien-no-euphoria}
+          - {type: mc}
+          - {work: hasunosora/dream-believers}
+          - {type: mc}
+        external_ids:
+          fandom: '|Event'
+external_ids:
+  fandom: Debut Mini Album "Dream Believers" Release Memorial Event
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RME
+    checked: 2026-10-20
+    note: "공식 영문 없음. Fandom은 'Debut Mini Album \"Dream Believers\" Release Memorial Event'로 번역·재배열해서 규칙으로 만듦. 「」는 rom에서 \"\"(기존 데이터 관례). ko: 하스노소라 문서 '라이브 및 이벤트' 문단 표기(별도 문서 없음) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%ED%95%98%EC%8A%A4%EB%85%B8%EC%86%8C%EB%9D%BC%20%EC%97%AC%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%81%B4%EB%9F%BD. 일정 조사 메모: The official list and the page's <title> print the name as 「ラブライブ！蓮ノ空女学院スクールアイドルクラブ デビューミニアルバム発売記念イベント「Dream Believers」特設サイト」, and the page heading prints just 「デビューミニアルバム発売記念イベント「Dream Believers」」. title_ja keeps the series prefix and drops 「特設サイト」 (which means \"special site\"). The event was billed as a talk, a live set and a send-off (トーク＆ライブ＆お見送り会), with one show."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RME
+    checked: 2026-10-20
+  setlist.2023-04-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Debut_Mini_Album_%22Dream_Believers%22_Release_Memorial_Event
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

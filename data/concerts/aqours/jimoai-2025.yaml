@@ -1,0 +1,255 @@
+id: aqours/jimoai-2025
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! 沼津地元愛まつり 2025
+  rom: Love Live! Sunshine!! Numazu Jimoai Matsuri 2025
+  ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리 2025
+stops:
+  - id: 1-shizuoka
+    city: shizuoka
+    venue: kira-messe-numazu
+    performances:
+      - date: 2025-11-01
+        label: Day.1 Noon
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/deep-resonance
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/metamorphism
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/kowareyasuki
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc}
+          - work: aqours/humming-friend
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: yohane/wonder-sea-breeze
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 1|Noon
+      - date: 2025-11-01
+        label: Day.1 Evening
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/deep-resonance
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/metamorphism
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/kowareyasuki
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc}
+          - work: aqours/sora-fuji-sunshine
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - work: yohane/wonder-sea-breeze
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+        external_ids:
+          fandom: Day 1|Evening
+      - date: 2025-11-02
+        label: Day.2 Noon
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/fantastic-departure
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/next-sparkling
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+        external_ids:
+          fandom: Day 2|Noon
+      - date: 2025-11-02
+        label: Day.2 Evening
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/fantastic-departure
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+          - work: aqours/next-sparkling
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/mari-ohara}
+          - {type: mc}
+        external_ids:
+          fandom: Day 2|Evening
+      - date: 2025-11-03
+        label: Day.3 Noon
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/bokura-no-hashittekita-michi-wa
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/ao-no-aurora
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/akogare-ranraran
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/thank-you-friends
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - {type: mc}
+        external_ids:
+          fandom: Day 3|Noon
+      - date: 2025-11-03
+        label: Day.3 Evening
+        setlist:
+          - {type: talk, label: Reading Performance}
+          - {type: mc}
+          - {type: talk, label: Talk Part}
+          - work: aqours/bokura-no-hashittekita-michi-wa
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/ao-no-aurora
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/akogare-ranraran
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - {type: mc}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/nando-datte-yakusoku
+            performers:
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/hanamaru-kunikida}
+          - {type: mc}
+        external_ids:
+          fandom: Day 3|Evening
+external_ids:
+  fandom: Love Live! Sunshine!! Numazu Jimo Ai Festival 2025
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2025
+    checked: 2026-10-20
+    note: 'rom: 공식 해외 배신 영문 그대로. ko: 나무위키 문서명(음역) 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2025 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC%202025'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2025
+    checked: 2026-10-20
+  setlist.2025-11-01:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2025
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-11-02:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2025
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-11-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival_2025
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

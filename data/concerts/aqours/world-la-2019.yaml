@@ -1,0 +1,92 @@
+id: aqours/world-la-2019
+projects: [aqours]
+status: performed
+title:
+  ja: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ～BRAND NEW WAVE～
+  rom: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ~BRAND NEW WAVE~
+  ko: LOVE LIVE! SUNSHINE!! Aqours World LoveLive! in LA ~BRAND NEW WAVE~
+stops:
+  - id: 1-los-angeles
+    city: los-angeles
+    venue: the-novo
+    performances:
+      - date: 2019-07-05
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/bokura-no-hashittekita-michi-wa}
+          - {work: aqours/thrilling-one-way}
+          - {work: aqours/aozora-jumping-heart}
+          - {type: mc}
+          - {work: aqours/matte-te-ai-no-uta}
+          - {work: aqours/shojo-ijo-no-koi-ga-shitai}
+          - {type: video}
+          - {work: aqours/sky-journey}
+          - {work: aqours/daydream-warrior}
+          - {work: aqours/todoka-nai-hoshi-da-to-shi-te-mo}
+          - {type: video}
+          - {work: aqours/brightest-melody}
+          - {type: mc}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/kimi-no-hitomi-o-meguru-boken}
+          - {work: aqours/mirai-no-bokura-wa-shitteru-yo}
+          - {type: mc}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {type: encore, label: Encore}
+          - {work: aqours/hop-stop-nonstop}
+          - {type: mc}
+          - {work: aqours/no-10}
+          - {work: aqours/thank-you-friends}
+          - {work: aqours/jump-up-high}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2019-07-06
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/bokura-no-hashittekita-michi-wa}
+          - {work: aqours/thrilling-one-way}
+          - {work: aqours/aozora-jumping-heart}
+          - {type: mc}
+          - {work: aqours/matte-te-ai-no-uta}
+          - {work: aqours/shojo-ijo-no-koi-ga-shitai}
+          - {type: video}
+          - {work: aqours/sky-journey}
+          - {work: aqours/daydream-warrior}
+          - {work: aqours/todoka-nai-hoshi-da-to-shi-te-mo}
+          - {type: video}
+          - {work: aqours/brightest-melody}
+          - {type: mc}
+          - {work: aqours/happy-party-train}
+          - {work: aqours/my-list-to-you}
+          - {work: aqours/mirai-no-bokura-wa-shitteru-yo}
+          - {type: mc}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {type: encore, label: Encore}
+          - {work: aqours/hop-stop-nonstop}
+          - {type: mc}
+          - {work: aqours/no-10}
+          - {work: aqours/thank-you-friends}
+          - {work: aqours/jump-up-high}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours World LoveLive! in LA ～BRAND NEW WAVE～
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: No Japanese-language official page found; from the official worldwide news 「【LA】Aqours announces two days performance in Los Angeles at Anime Expo 2019」 (2019/05/17, Event news list page offset=25): The Novo, downtown Los Angeles, July 5 (7:00pm) and July 6 (1:00pm), 2019 (local dates). 小宮有紗 did not appear (same notice).'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php?offset=25
+    checked: 2026-10-20
+  setlist.2019-07-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_World_LoveLive!_in_LA_%EF%BD%9EBRAND_NEW_WAVE%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-07-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_World_LoveLive!_in_LA_%EF%BD%9EBRAND_NEW_WAVE%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

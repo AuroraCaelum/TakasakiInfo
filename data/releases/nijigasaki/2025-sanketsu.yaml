@@ -1,0 +1,45 @@
+id: nijigasaki/2025-sanketsu
+type: single
+title:
+  ja: 酸欠
+projects: [nijigasaki]
+artist_credit:
+  - {character: nijigasaki/shioriko-mifune}
+label: Lantis
+release_date: 2025-09-17
+editions:
+  - {id: e1, catalog: LACM-24679}
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/sanketsu#original}
+      - {no: 2, recording: nijigasaki/yoin#original}
+      - {no: 3, recording: nijigasaki/sanketsu#off-vocal}
+      - {no: 4, recording: nijigasaki/yoin#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_mZSh5DvP4UQ
+    tracks:
+      1-1: V--F-Zg1sG8
+      1-2: Iu572KcX7E0
+      1-3: Y0WfD5DTaQ4
+      1-4: -xX7W4lmtrI
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: 酸欠}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_mZSh5DvP4UQ
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

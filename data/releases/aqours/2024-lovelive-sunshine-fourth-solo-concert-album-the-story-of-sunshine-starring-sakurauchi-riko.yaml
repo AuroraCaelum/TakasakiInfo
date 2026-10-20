@@ -1,0 +1,87 @@
+id: aqours/2024-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-sakurauchi-riko
+type: album
+title:
+  ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Sakurauchi Riko
+  rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Sakurauchi Riko
+  ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Sakurauchi Riko
+projects: [aqours]
+artist_credit:
+  - {character: aqours/riko-sakurauchi}
+label: Lantis
+release_date: 2024-09-19
+editions:
+  - {id: e1, catalog: LACA-19062~3}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#riko-sakurauchi-solo}
+      - {no: 2, recording: aqours/no-10#riko-sakurauchi-solo}
+      - {no: 3, recording: aqours/bouken-type-a-b-c#riko-sakurauchi-solo}
+      - {no: 4, recording: aqours/fantastic-departure#riko-sakurauchi-solo}
+      - {no: 5, recording: aqours/aqours-pirates-desire#riko-sakurauchi-solo}
+      - {no: 6, recording: aqours/future-flight#riko-sakurauchi-solo}
+      - {no: 7, recording: aqours/smile-smile-ship-start#riko-sakurauchi-solo}
+      - {no: 8, recording: aqours/kokoro-no-hane-yo-kimi-e-tondeke#riko-sakurauchi-solo}
+      - {no: 9, recording: aqours/ku-ru-ku-ru-cruller#riko-sakurauchi-solo}
+      - {no: 10, recording: aqours/suki-for-you-dream-for-you#riko-sakurauchi-solo}
+      - {no: 11, recording: aqours/namida#riko-sakurauchi-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: nijigasaki/live-with-a-smile#riko-sakurauchi-solo}
+      - {no: 2, recording: nijigasaki/not-alone-not-hitori#riko-sakurauchi-solo}
+      - {no: 3, recording: aqours/gemstone-de-a-i#riko-sakurauchi-solo}
+      - {no: 4, recording: aqours/banzai-digital-trippers#riko-sakurauchi-solo}
+      - {no: 5, recording: aqours/ka-ga-ya-ki-ra-ri-ra#riko-sakurauchi-solo}
+      - {no: 6, recording: aqours/genjitsu-mysterium#riko-sakurauchi-solo}
+      - {no: 7, recording: aqours/game-on#riko-sakurauchi-solo}
+      - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#riko-sakurauchi-solo}
+      - {no: 9, recording: aqours/silent-pain#riko-sakurauchi-solo}
+      - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#riko-sakurauchi-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_wQoa1lXWtDV
+    tracks:
+      1-1: lHZmxfIp87o
+      1-2: 2xyUdfh9f9I
+      1-3: rM0ayJi6tHg
+      1-4: aapg-NZe_7I
+      1-5: jTGz_xgn_kg
+      1-6: tn7FuylLcVA
+      1-7: XULw1UKNSq0
+      1-8: ReKFXSJjvFo
+      1-9: mw-vaMax8JY
+      1-10: rRRLP7zXlPE
+      1-11: cOpO1MZ7454
+      2-1: _7wyYTac6gM
+      2-2: ydVzxDy4kX8
+      2-3: AG4310kfjWU
+      2-4: aPLd4b9QG_E
+      2-5: v_Mu-w8rx3c
+      2-6: i3sNKkNTc24
+      2-7: qcfy1IBEX3s
+      2-8: 4HpxuSglquc
+      2-9: Sre3vJk7Dik
+      2-10: ZLao8AoGfOg
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Sakurauchi Riko, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

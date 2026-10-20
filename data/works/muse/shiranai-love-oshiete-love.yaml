@@ -1,0 +1,63 @@
+id: muse/shiranai-love-oshiete-love
+project: muse
+title:
+  ja: 知らないLove＊教えてLove
+  rom: Shiranai Love*Oshiete Love
+  ko: 모르겠어 Love*가르쳐 줘 Love
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazuo-hoshi}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: masayuki-fukutomi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 知らないLove＊教えてLove (Off Vocal)
+      rom: Shiranai Love*Oshiete Love (Off Vocal)
+      ko: 모르겠어 Love*가르쳐 줘 Love (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: masayuki-fukutomi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 知らないLove＊教えてLove (UMI MIX)
+      rom: Shiranai Love*Oshiete Love (UMI MIX)
+      ko: 모르겠어 Love*가르쳐 줘 Love (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: masayuki-fukutomi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 음반 문서는 모르겠어 Love*가르쳐줘 Love, 유닛 싱글 문서는 모르는 Love*가르쳐줘 Love로 엇갈림) 외부 근거: https://namu.wiki/w/%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84Love%2A%E6%95%99%E3%81%88%E3%81%A6Love https://love-live.fandom.com/wiki/Shiranai_Love*Oshiete_Love'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
+    checked: 2026-10-20

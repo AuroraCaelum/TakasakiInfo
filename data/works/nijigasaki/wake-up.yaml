@@ -1,0 +1,50 @@
+id: nijigasaki/wake-up
+project: nijigasaki
+title:
+  ja: Wake Up!!
+  rom: Wake Up!!
+  ko: Wake Up!!
+credits:
+  lyricist:
+    - {person: nana-hatori}
+  composer:
+    - {person: eunsol, affiliation: '1008'}
+    - {person: passion-king}
+    - {person: es2}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+      - {person: es2}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Wake Up!! (Off Vocal)
+      rom: Wake Up!! (Off Vocal)
+      ko: Wake Up!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+      - {person: es2}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+    checked: 2026-10-20

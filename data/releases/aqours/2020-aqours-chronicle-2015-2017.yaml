@@ -1,11 +1,23 @@
 id: aqours/2020-aqours-chronicle-2015-2017
 type: compilation
 title:
-  ja: ラブライブ!サンシャイン!! Aqours CHRONICLE (2015~2017)
+  ja: ラブライブ！サンシャイン!! Aqours CHRONICLE (2015～2017)
   rom: Love Live! Sunshine!! Aqours CHRONICLE (2015~2017)
   ko: 러브 라이브! 선샤인!! Aqours CHRONICLE (2015~2017)
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
 release_date: 2020-10-07
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39800~39803
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-9780~9783
 discs:
   - tracks:
       - {no: 1, recording: aqours/kimi-no-kokoro-wa-kagayaiteru-kai#original, note: Aqours 1st Single}
@@ -60,7 +72,8 @@ discs:
       - {no: 11, recording: aqours/seinaru-hi-no-inori#original}
       - {no: 12, recording: aqours/future-flight#original, note: （みんなで作るAqoursの歌）}
 streaming:
-  - browse_id: MPREb_FzjMHrtzPZM
+  - editions: [e1, e2]
+    browse_id: MPREb_FzjMHrtzPZM
     tracks:
       1-1: Zt-8mG_SBCU
       1-2: Q0GCaV1hfNw
@@ -117,15 +130,27 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 4장으로 나눠 트랙 번호를 매김
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
-  title:
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
+    checked: 2026-10-20
+  title.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
+    checked: 2026-10-21
+    note: 공식 페이지의 【タイトル】 표기(전각 ！·～). 레거시 앨범 제목은 반각 그대로
+  title.rom:
     status: derived
-    source: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
-    checked: 2026-10-19
-    note: 시리즈명은 Liella 1st 투어 공연명과 같은 형식(rom Love Live! Superstar!!, ko D11). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017). 리뷰 승인
+    checked: 2026-10-21
+    note: 시리즈명 고정 표기 Love Live! Sunshine!! + 라틴 원문(반각, E15). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017) https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
+  title.ko:
+    status: derived
+    checked: 2026-10-21
+    note: 시리즈명 고정 표기 러브 라이브! 선샤인!!(D11) + 라틴 원문(반각)

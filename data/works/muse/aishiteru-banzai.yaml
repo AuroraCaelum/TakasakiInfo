@@ -1,0 +1,187 @@
+id: muse/aishiteru-banzai
+project: muse
+title:
+  ja: 愛してるばんざーい！
+  rom: Aishiteru Banzai!
+  ko: 사랑해 만~세!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-yamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=hU6RfYnjvGI
+        checked: 2026-10-20
+        note: 원곡 음원의 편곡은 이 싱글 페이지에 미게재. Solo Live! III 공식 페이지(release.php#cd31 등)의 편곡 크레딧과 같고, 레이블 제공 배포 메타데이터(YouTube Music, D42)도 같음
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 愛してるばんざーい！ (Off Vocal)
+      rom: Aishiteru Banzai! (Off Vocal)
+      ko: 사랑해 만~세! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: teppei-shimizu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: 愛してるばんざーい！ (HONOKA Mix)
+      rom: Aishiteru Banzai! (HONOKA Mix)
+      ko: 사랑해 만~세! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: 愛してるばんざーい！ (ELI Mix)
+      rom: Aishiteru Banzai! (ELI Mix)
+      ko: 사랑해 만~세! (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: 愛してるばんざーい！ (KOTORI Mix)
+      rom: Aishiteru Banzai! (KOTORI Mix)
+      ko: 사랑해 만~세! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 愛してるばんざーい！ (UMI Mix)
+      rom: Aishiteru Banzai! (UMI Mix)
+      ko: 사랑해 만~세! (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: 愛してるばんざーい！ (RIN Mix)
+      rom: Aishiteru Banzai! (RIN Mix)
+      ko: 사랑해 만~세! (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: 愛してるばんざーい！ (MAKI Mix)
+      rom: Aishiteru Banzai! (MAKI Mix)
+      ko: 사랑해 만~세! (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: 愛してるばんざーい！ (NOZOMI Mix)
+      rom: Aishiteru Banzai! (NOZOMI Mix)
+      ko: 사랑해 만~세! (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: 愛してるばんざーい！ (HANAYO Mix)
+      rom: Aishiteru Banzai! (HANAYO Mix)
+      ko: 사랑해 만~세! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: 愛してるばんざーい！ (NICO Mix)
+      rom: Aishiteru Banzai! (NICO Mix)
+      ko: 사랑해 만~세! (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd10
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(ばんざーい의 장음 ー를 표기하지 않음), ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 사랑해 만세!) 외부 근거: https://namu.wiki/w/%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%B0%E3%82%93%E3%81%96%E3%83%BC%E3%81%84%EF%BC%81 https://love-live.fandom.com/wiki/Aishiteru_Banzai!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    checked: 2026-10-20

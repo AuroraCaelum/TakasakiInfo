@@ -1,0 +1,46 @@
+id: muse/super-love-super-live
+project: muse
+title:
+  ja: Super LOVE=Super LIVE!
+  rom: Super LOVE=Super LIVE!
+  ko: Super LOVE=Super LIVE!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Super LOVE=Super LIVE! (Off Vocal)
+      rom: Super LOVE=Super LIVE! (Off Vocal)
+      ko: Super LOVE=Super LIVE! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
+    checked: 2026-10-20

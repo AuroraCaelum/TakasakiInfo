@@ -3,7 +3,12 @@ type: album
 title:
   ja: LoveLive! Sunshine!! Kurosawa Ruby First Solo Concert Album ～RED GEM WINK～
 projects: [aqours]
+artist_credit:
+  - {character: aqours/ruby-kurosawa}
+label: Lantis
 release_date: 2020-09-21
+editions:
+  - {id: e1, catalog: LACA-9764~5}
 discs:
   - tracks:
       - {no: 1, recording: aqours/red-gem-wink#original}
@@ -25,7 +30,8 @@ discs:
       - {no: 8, recording: aqours/wake-up-challenger#ruby-kurosawa-solo-ver}
       - {no: 9, recording: aqours/cotton-candy-ei-ei-oh#original}
 streaming:
-  - browse_id: MPREb_dbXcVT1MP5Q
+  - editions: [e1]
+    browse_id: MPREb_dbXcVT1MP5Q
     tracks:
       1-1: J9jJ6Feb2wM
       1-2: eR6_KC5u12M
@@ -53,7 +59,7 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   type:
     status: derived
@@ -61,5 +67,9 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
+    checked: 2026-10-20

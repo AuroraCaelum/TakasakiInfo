@@ -1,0 +1,46 @@
+id: liella/thank-you-good-morning
+project: liella
+title:
+  ja: Thank you Good morning
+  rom: Thank you Good morning
+  ko: Thank you Good morning
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuki-utamaru}
+recordings:
+  - id: original
+    performers:
+      - {artist: 5yncri5e}
+    arranger:
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Thank you Good morning (Off Vocal)
+      rom: Thank you Good morning (Off Vocal)
+      ko: Thank you Good morning (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: gou-ishikuro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    checked: 2026-10-19

@@ -1,0 +1,77 @@
+id: aqours/2022-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-matsuura-kanan
+type: album
+title:
+  ja: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Matsuura Kanan
+  rom: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Matsuura Kanan
+  ko: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Matsuura Kanan
+projects: [aqours]
+artist_credit:
+  - {character: aqours/kanan-matsuura}
+label: Lantis
+release_date: 2022-02-10
+editions:
+  - {id: e1, catalog: LACA-9839~40}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/aozora-jumping-heart#kanan-matsuura-solo}
+      - {no: 2, recording: aqours/humming-friend#kanan-matsuura-solo}
+      - {no: 3, recording: aqours/mijuku-dreamer#kanan-matsuura-solo}
+      - {no: 4, recording: aqours/omoi-yo-hitotsu-ni-nare#kanan-matsuura-solo}
+      - {no: 5, recording: aqours/mirai-ticket#kanan-matsuura-solo}
+      - {no: 6, recording: aqours/sunshine-pikkapika-ondo#kanan-matsuura-solo}
+      - {no: 7, recording: aqours/yume-kataruyori-yume-utaou#kanan-matsuura-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/mirai-no-bokura-wa-shitteru-yo#kanan-matsuura-solo}
+      - {no: 2, recording: aqours/kimi-no-hitomi-o-meguru-boken#kanan-matsuura-solo}
+      - {no: 3, recording: aqours/my-mai-tonight#kanan-matsuura-solo}
+      - {no: 4, recording: aqours/miracle-wave#kanan-matsuura-solo}
+      - {no: 5, recording: aqours/water-blue-new-world#kanan-matsuura-solo}
+      - {no: 6, recording: aqours/wonderful-stories#kanan-matsuura-solo}
+      - {no: 7, recording: aqours/my-list-to-you#kanan-matsuura-solo}
+      - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#kanan-matsuura-solo}
+      - {no: 9, recording: aqours/run-kakeru-run#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_HxFC8x0rUZk
+    tracks:
+      1-1: w_-iBsIvmKg
+      1-2: oE78wJkoZoc
+      1-3: Gz-4FzI2VBI
+      1-4: 7kzzJK2rh4g
+      1-5: dQO7NqnssC8
+      1-6: -55CZwDfMzw
+      1-7: iK7K7HDjkhI
+      2-1: LxdZss2pdxg
+      2-2: wZkQStm5jqs
+      2-3: NTprwxq5gEM
+      2-4: 2K6ncO54A2Y
+      2-5: M2qOmhaw3_w
+      2-6: gVNoAIelvQY
+      2-7: _65KUcjcCnw
+      2-8: v0Hmxs90z0o
+      2-9: as-Y_e1dpmE
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Matsuura Kanan, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

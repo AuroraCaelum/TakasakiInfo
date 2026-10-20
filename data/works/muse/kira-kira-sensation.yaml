@@ -1,0 +1,46 @@
+id: muse/kira-kira-sensation
+project: muse
+title:
+  ja: KiRa-KiRa Sensation!
+  rom: KiRa-KiRa Sensation!
+  ko: KiRa-KiRa Sensation!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: koshiro-honda}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: KiRa-KiRa Sensation! (Off Vocal)
+      rom: KiRa-KiRa Sensation! (Off Vocal)
+      ko: KiRa-KiRa Sensation! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: koshiro-honda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    checked: 2026-10-20

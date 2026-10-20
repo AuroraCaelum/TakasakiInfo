@@ -1,0 +1,47 @@
+id: yohane/tick-tack-tick-tack
+project: yohane
+title:
+  ja: Tick-Tack, Tick-Tack
+  rom: Tick-Tack, Tick-Tack
+  ko: Tick-Tack, Tick-Tack
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: kentaro-fujii, affiliation: HANO}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+    arranger:
+      - {person: kentaro-fujii, affiliation: HANO}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=2
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Tick-Tack, Tick-Tack (Off Vocal)
+      rom: Tick-Tack, Tick-Tack (Off Vocal)
+      ko: Tick-Tack, Tick-Tack (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kentaro-fujii, affiliation: HANO}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=2
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=2
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=2
+    checked: 2026-10-20

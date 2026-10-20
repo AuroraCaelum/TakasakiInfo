@@ -1,0 +1,52 @@
+id: yohane/hey-dear-my-friends
+project: yohane
+title:
+  ja: Hey, dear my friends
+  rom: Hey, dear my friends
+  ko: Hey, dear my friends
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+    - {person: kaiki}
+    - {person: nao-nishimura}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=7
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hey, dear my friends (Off Vocal)
+      rom: Hey, dear my friends (Off Vocal)
+      ko: Hey, dear my friends (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=7
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/music/detail/?id=7
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=7
+    checked: 2026-10-20

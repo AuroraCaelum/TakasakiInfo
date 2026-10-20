@@ -1,8 +1,14 @@
 id: aqours/2017-yuki-wa-doko-ni-kimi-no-mune-ni
+type: single
 title:
   ja: 勇気はどこに？君の胸に！
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
 release_date: 2017-11-15
+editions:
+  - {id: e1, catalog: LACM-14681}
 discs:
   - tracks:
       - {no: 1, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#original}
@@ -10,7 +16,8 @@ discs:
       - {no: 3, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#off-vocal}
       - {no: 4, recording: aqours/my-list-to-you#off-vocal}
 streaming:
-  - browse_id: MPREb_JxBU6JHI3nt
+  - editions: [e1]
+    browse_id: MPREb_JxBU6JHI3nt
     tracks:
       1-1: NSaZOHjq9TQ
       1-2: RkLndAqfZjU
@@ -26,10 +33,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd20
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd20
+    checked: 2026-10-20

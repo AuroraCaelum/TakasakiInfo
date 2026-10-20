@@ -1,8 +1,14 @@
 id: aqours/2019-new-romantic-sailors
+type: single
 title:
   ja: New Romantic Sailors
 projects: [aqours]
+artist_credit:
+  - {artist: guilty-kiss}
+label: Lantis
 release_date: 2019-11-27
+editions:
+  - {id: e1, catalog: LACM-14931}
 discs:
   - tracks:
       - {no: 1, recording: aqours/new-romantic-sailors#original}
@@ -12,7 +18,8 @@ discs:
       - {no: 5, recording: aqours/love-pulsar#off-vocal}
       - {no: 6, recording: aqours/phantom-rocket-adventure#off-vocal}
 streaming:
-  - browse_id: MPREb_KJQKPJSOkRF
+  - editions: [e1]
+    browse_id: MPREb_KJQKPJSOkRF
     tracks:
       1-1: ZXmJVnQS7NY
       1-2: _qxQHYfMjOI
@@ -30,10 +37,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_KJQKPJSOkRF
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
+    checked: 2026-10-20

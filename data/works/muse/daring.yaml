@@ -1,0 +1,57 @@
+id: muse/daring
+project: muse
+title:
+  ja: Daring!!
+  rom: Daring!!
+  ko: Daring!!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: keiichi-kondo}
+recordings:
+  - id: maki-nishikino-solo
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: keiichi-kondo}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd14)과 같다고 봄
+  - id: original
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: keiichi-kondo}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Daring!! (Off Vocal)
+      rom: Daring!! (Off Vocal)
+      ko: Daring!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: keiichi-kondo}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20

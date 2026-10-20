@@ -1,0 +1,46 @@
+id: nijigasaki/dress-code
+project: nijigasaki
+title:
+  ja: Dress Code
+  rom: Dress Code
+  ko: Dress Code
+credits:
+  lyricist:
+    - {person: beatnine}
+  composer:
+    - {person: beatnine}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: beatnine}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Dress Code (Off Vocal)
+      rom: Dress Code (Off Vocal)
+      ko: Dress Code (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: beatnine}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
+    checked: 2026-10-20

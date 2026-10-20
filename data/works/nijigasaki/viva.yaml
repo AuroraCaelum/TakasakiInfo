@@ -1,0 +1,49 @@
+id: nijigasaki/viva
+project: nijigasaki
+title:
+  ja: VIVA！
+  rom: VIVA!
+  ko: VIVA!
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: antonio-lucio-vivaldi}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: em-me}
+      - {person: chibanyan}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: VIVA！ (Off Vocal)
+      rom: VIVA! (Off Vocal)
+      ko: VIVA! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+      - {person: chibanyan}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

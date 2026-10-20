@@ -1,0 +1,186 @@
+id: muse/oh-love-peace
+project: muse
+title:
+  ja: Oh,Love＆Peace!
+  rom: Oh,Love&Peace!
+  ko: Oh,Love&Peace!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: katsuhiko-kurosu}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=JC9utUW3S-s
+        checked: 2026-10-20
+        note: 원곡 음원의 편곡은 이 싱글 페이지에 미게재. Solo Live! III 공식 페이지(release.php#cd31 등)의 편곡 크레딧과 같고, 레이블 제공 배포 메타데이터(YouTube Music, D42)도 같음
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Oh,Love＆Peace! (Off Vocal)
+      rom: Oh,Love&Peace! (Off Vocal)
+      ko: Oh,Love&Peace! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: katsuhiko-kurosu}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: Oh,Love＆Peace! (HONOKA Mix)
+      rom: Oh,Love&Peace! (HONOKA Mix)
+      ko: Oh,Love&Peace! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: Oh,Love＆Peace! (ELI Mix)
+      rom: Oh,Love&Peace! (ELI Mix)
+      ko: Oh,Love&Peace! (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: Oh,Love＆Peace! (KOTORI Mix)
+      rom: Oh,Love&Peace! (KOTORI Mix)
+      ko: Oh,Love&Peace! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: Oh,Love＆Peace! (UMI Mix)
+      rom: Oh,Love&Peace! (UMI Mix)
+      ko: Oh,Love&Peace! (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: Oh,Love＆Peace! (RIN Mix)
+      rom: Oh,Love&Peace! (RIN Mix)
+      ko: Oh,Love&Peace! (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: Oh,Love＆Peace! (MAKI Mix)
+      rom: Oh,Love&Peace! (MAKI Mix)
+      ko: Oh,Love&Peace! (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: Oh,Love＆Peace! (NOZOMI Mix)
+      rom: Oh,Love&Peace! (NOZOMI Mix)
+      ko: Oh,Love&Peace! (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: Oh,Love＆Peace! (HANAYO Mix)
+      rom: Oh,Love&Peace! (HANAYO Mix)
+      ko: Oh,Love&Peace! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: Oh,Love＆Peace! (NICO Mix)
+      rom: Oh,Love&Peace! (NICO Mix)
+      ko: Oh,Love&Peace! (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd15
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+    checked: 2026-10-20

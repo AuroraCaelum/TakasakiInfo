@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
-_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～~\-‐–—_!！?？.,，、。:：;；'’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")  # ~: NFKC turns ～ into ~
+_MATCH_DROP = re.compile(r"[\s・·☆★♡♥♪〜～~\-‐–—_!！?？.,，、。:：;；'‘’\"“”()（）\[\]［］【】「」『』/／&＆+＋*＊]+")  # ~: NFKC turns ～ into ~
 
 
 def nfc(s: str) -> str:
@@ -100,8 +100,9 @@ _AFFILIATION = re.compile(r"^(?P<name>.+?)(?P<space>\s*)\((?P<aff>[^()（）]+)\
 def halfwidth(s: str) -> str:
     """Full-width forms (``！``, ``～``, ``（``, ``Ａ``) and the ideographic space made half-width: rom
     and ko are written this way, ja keeps the official notation (D42). Other compatibility characters
-    (``℃``, ``Ⅱ``, ``…``) stay."""
-    return "".join(unicodedata.normalize("NFKC", c) if "\uff01" <= c <= "\uffef" or c == "\u3000" else c for c in s)
+    (``℃``, ``Ⅱ``, ``…``) stay. The wave dash ``〜`` (U+301C), which NFKC leaves, is ``~`` too."""
+    return "".join("~" if c == "\u301c" else unicodedata.normalize("NFKC", c) if "\uff01" <= c <= "\uffef" or c == "\u3000" else c
+                   for c in s)
 
 
 def render_credit_name(name: str, lang: str, affiliation: str | None = None, role: str | None = None,
@@ -147,15 +148,26 @@ def parse_credit(parts: dict[str, str]) -> tuple[dict[str, str], str | None, dic
 
 # trailing "(… Ver.)", "(Off Vocal)", "(instrumental)", "(Album Version)"; DESIGN.md §4.2
 _VERSION_SUFFIX = re.compile(
-    r"^(?P<base>.+?)\s*[(（](?P<ver>[^()（）]*(?:[Vv]er\.?|[Vv]ersion|Off Vocal|[Ii]nstrumental))[)）]\s*$"
-)
+    r"^(?P<base>.+?)\s*[(（](?P<ver>[^()（）]*(?:[Vv]er\.?|[Vv]ersion|(?i:off vocal)|[Ii]nstrumental|\s[Mm][Ii][Xx]))[)）]\s*$"
+)  # "(HONOKA Mix)", "(UMI MIX)": the μ's solo albums; "（off vocal）" in lower case on the early μ's pages
+# a version between wave dashes: "私のSymphony ～2023Ver.～", "What a Wonderful Dream!! ～CatChu! Ver.～"
+_WAVE_VERSION = re.compile(r"^(?P<base>.+?)\s*[～〜~](?P<ver>[^～〜~]*(?:[Vv]er\.?|[Vv]ersion))\s*[～〜~]\s*$")
+# a version in square brackets, perhaps with more after it: "BLOOM OF COLORS[YOU & I edit] MOVIE EDITION" (幻日のヨハネ)
+_BRACKET_VERSION = re.compile(r"^(?P<base>.+?)\s*(?P<ver>\[[^\[\]]+\](?:\s+[A-Za-z][A-Za-z ]*)?)\s*$")
 
 
 def split_version(title: str) -> tuple[str, str | None]:
-    m = _VERSION_SUFFIX.match(title)
+    m = _VERSION_SUFFIX.match(title) or _WAVE_VERSION.match(title) or _BRACKET_VERSION.match(title)
     if not m:
         return title, None
-    return m["base"], m["ver"]
+    ver = m["ver"].strip()
+    return m["base"], "Off Vocal" if ver.lower() == "off vocal" else ver
+
+
+def wave_version(title: str) -> bool:
+    """Whether the title prints its version otherwise than in round brackets: between wave dashes
+    (``～2023Ver.～``) or in square ones (``[YOU & I edit]``). Such a version keeps its notation."""
+    return _VERSION_SUFFIX.match(title) is None and (_WAVE_VERSION.match(title) or _BRACKET_VERSION.match(title)) is not None
 
 
 def recording_kind(title_ja: str, note: str) -> str:

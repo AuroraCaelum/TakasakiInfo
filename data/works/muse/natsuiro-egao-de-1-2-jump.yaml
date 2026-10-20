@@ -1,0 +1,95 @@
+id: muse/natsuiro-egao-de-1-2-jump
+project: muse
+title:
+  ja: 夏色えがおで1,2,Jump!
+  rom: Natsuiro Egao de 1,2,Jump!
+  ko: 여름빛 미소로 1,2,Jump!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akio-kondo}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夏色えがおで1,2,Jump! (Off Vocal)
+      rom: Natsuiro Egao de 1,2,Jump! (Off Vocal)
+      ko: 여름빛 미소로 1,2,Jump! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 夏色えがおで1,2,Jump! (UMI MIX)
+      rom: Natsuiro Egao de 1,2,Jump! (UMI MIX)
+      ko: 여름빛 미소로 1,2,Jump! (UMI MIX)
+    version: UMI MIX
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: 夏色えがおで1,2,Jump! (KOTORI MIX)
+      rom: Natsuiro Egao de 1,2,Jump! (KOTORI MIX)
+      ko: 여름빛 미소로 1,2,Jump! (KOTORI MIX)
+    version: KOTORI MIX
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: 夏色えがおで1,2,Jump! (HONOKA Mix)
+      rom: Natsuiro Egao de 1,2,Jump! (HONOKA Mix)
+      ko: 여름빛 미소로 1,2,Jump! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행. 싱글 문서 트랙 리스트는 1, 2,로 띄어 씀) 외부 근거: https://namu.wiki/w/%E5%A4%8F%E8%89%B2%E3%81%88%E3%81%8C%E3%81%8A%E3%81%A71%2C2%2CJump%EF%BC%81%28%EA%B3%A1%29 https://love-live.fandom.com/wiki/Natsuiro_Egao_de_1,2,Jump!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
+    checked: 2026-10-20

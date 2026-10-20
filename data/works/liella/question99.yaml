@@ -1,0 +1,46 @@
+id: liella/question99
+project: liella
+title:
+  ja: QUESTION99
+  rom: QUESTION99
+  ko: QUESTION99
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takeru-yoda}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: takeru-yoda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: QUESTION99 (Off Vocal)
+      rom: QUESTION99 (Off Vocal)
+      ko: QUESTION99 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeru-yoda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
+    checked: 2026-10-19

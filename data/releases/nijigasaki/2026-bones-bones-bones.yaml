@@ -1,0 +1,45 @@
+id: nijigasaki/2026-bones-bones-bones
+type: single
+title:
+  ja: BONES BONES BONES
+projects: [nijigasaki]
+artist_credit:
+  - {artist: r3birth}
+label: Lantis
+release_date: 2026-10-07
+editions:
+  - {id: e1, catalog: LACM-24853}
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/bones-bones-bones#original}
+      - {no: 2, recording: nijigasaki/kokoro-take-off#original}
+      - {no: 3, recording: nijigasaki/bones-bones-bones#off-vocal}
+      - {no: 4, recording: nijigasaki/kokoro-take-off#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_RWC3XrF7l8D
+    tracks:
+      1-1: dvSyrt3Eov8
+      1-2: yV1CY6ofSKM
+      1-3: v-GMYROB9so
+      1-4: 7fZOCNfoeTA
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: BONES BONES BONES}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_RWC3XrF7l8D
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -1,0 +1,452 @@
+id: liella/liella-5th
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 5th LoveLive! ～Twinkle Triangle～
+  rom: Love Live! Superstar!! Liella! 5th LoveLive! ~Twinkle Triangle~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 5th LoveLive! ~Twinkle Triangle~
+stops:
+  - id: 1-fukuoka
+    city: fukuoka
+    venue: nishinihon-sogo-tenjijo-shinkan
+    performances:
+      - date: 2024-01-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/starlight-prologue
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/stella
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/crescendo-yu-ra
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/ren-hazuki}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/sing-shine-smile
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/start-true-dreams
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            version: 11-member version
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Fukuoka|Day 1
+      - date: 2024-01-21
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/starlight-prologue
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/stella
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/crescendo-yu-ra
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/ren-hazuki}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/sing-shine-smile
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/we-will
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            version: 11-member version
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Fukuoka|Day 2
+  - id: 2-tokyo
+    city: tokyo
+    venue: musashino-no-mori-sogo-sports-plaza-main-arena
+    performances:
+      - date: 2024-02-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/starlight-prologue
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/stella
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/crescendo-yu-ra
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/ren-hazuki}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kage-asobi
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/sing-shine-smile
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/start-true-dreams
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            version: 11-member version
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2024-02-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/starlight-prologue
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/welcome-to-bokura-no-sekai
+            performers:
+              - {artist: liella}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/blooming-dance-dance
+            performers:
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+          - work: liella/1-2-3
+            performers:
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+          - work: liella/stella
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/crescendo-yu-ra
+            performers:
+              - {character: liella/keke-tang}
+              - {character: liella/ren-hazuki}
+          - work: liella/velour
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - {type: video}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/sing-shine-smile
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - work: liella/we-will
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            version: 11-member version
+            performers:
+              - {artist: liella}
+          - {type: double_encore, label: Double Encore}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 2
+external_ids:
+  fandom: Liella! 5th LoveLive! ~Twinkle Triangle~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=5thlive
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=5thlive
+    checked: 2026-10-20
+  setlist.2024-01-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_5th_LoveLive!_~Twinkle_Triangle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-01-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_5th_LoveLive!_~Twinkle_Triangle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-02-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_5th_LoveLive!_~Twinkle_Triangle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-02-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_5th_LoveLive!_~Twinkle_Triangle~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

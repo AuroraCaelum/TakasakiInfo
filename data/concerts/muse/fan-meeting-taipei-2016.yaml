@@ -1,0 +1,91 @@
+id: muse/fan-meeting-taipei-2016
+projects: [muse]
+status: performed
+title:
+  ja: ラブライブ！μ’s Fan Meeting in 台北～Talk&Live～
+  rom: Love Live! μ’s Fan Meeting in Taipei ~Talk&Live~
+  ko: 러브 라이브! μ’s Fan Meeting in 타이베이 ~Talk&Live~
+stops:
+  - id: 1-taipei
+    city: taipei
+    venue: taipei-nangang-exhibition-center
+    performances:
+      - date: 2016-03-19
+        label: Noon
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - {type: talk, label: Talk portion}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {artist: muse}
+        external_ids:
+          fandom: Noon|
+      - date: 2016-03-19
+        label: Evening
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - {type: talk, label: Talk portion}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {artist: muse}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {artist: muse}
+        external_ids:
+          fandom: Evening|
+external_ids:
+  fandom: Muse's Fan Meeting ~Talk & Live~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    checked: 2026-10-20
+    note: "rom: 공식 월드와이드 뉴스 본문 'LoveLive! μ's Fan Meeting in Taipei ~Talk&Live~'(제목은 대문자 'LOVE LIVE! μ’s FAN MEETING IN TAIPEI ～TALK&LIVE～'). μ’s는 데이터 표기로. 규칙으로 만들면 'Love Live! μ’s …'(상하이와 맞추려면 이쪽). ko: 나무위키 μ’s Fan Meeting Tour 문서 5절 제목 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/worldwide/news.php ko: https://namu.wiki/w/%CE%BC%E2%80%99s%20Fan%20Meeting%20Tour. 일정 조사 메모: 공식 뉴스(2016-01-18 「μ’s海外ファンミーティングのお知らせ」)의 공연명. Fandom은 상하이·타이베이를 한 문서에 싣는다 rom: 검수(2026-10-20) 시리즈명은 고정형 Love Live!(상하이 공연과 같음)."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news.php?id=10060
+    checked: 2026-10-20
+  setlist.2016-03-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Muse's_Fan_Meeting_~Talk_&_Live~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

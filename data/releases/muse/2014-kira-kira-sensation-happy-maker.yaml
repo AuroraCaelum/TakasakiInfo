@@ -1,0 +1,45 @@
+id: muse/2014-kira-kira-sensation-happy-maker
+type: single
+title:
+  ja: KiRa-KiRa Sensation! / Happy maker!
+projects: [muse]
+artist_credit:
+  - {artist: muse}
+label: Lantis
+release_date: 2014-07-09
+editions:
+  - {id: e1, catalog: LACM-14243}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/kira-kira-sensation#original}
+      - {no: 2, recording: muse/happy-maker#original}
+      - {no: 3, recording: muse/kira-kira-sensation#off-vocal}
+      - {no: 4, recording: muse/happy-maker#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_18vE6WvSRwP
+    tracks:
+      1-1: btm-6Bl7QVg
+      1-2: 9FJpnhckrB4
+      1-3: PQFzL1sTch8
+      1-4: P1vm5I1Y9wU
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+legacy:
+  category: Muse
+  albums:
+    - {title: KiRa-KiRa Sensation! / Happy maker!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_18vE6WvSRwP
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

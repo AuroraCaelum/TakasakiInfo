@@ -1,0 +1,152 @@
+id: muse/lantis-festival-2015
+projects: [muse]
+status: performed
+title:
+  ja: ～Anisong World Tour～ Lantis Festival 2015
+  rom: ~Anisong World Tour~ Lantis Festival 2015
+  ko: ~Anisong World Tour~ Lantis Festival 2015
+stops:
+  - id: 1-seoul
+    city: seoul
+    venue: ax-korea
+    performances:
+      - date: 2015-04-05
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Seoul|
+  - id: 2-shanghai
+    city: shanghai
+    venue: shanghai-international-gymnastic-center
+    performances:
+      - date: 2015-04-11
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Shanghai|Day 1
+      - date: 2015-04-12
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/dancing-stars-on-me
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Shanghai|Day 2
+  - id: 3-taipei
+    city: taipei
+    venue: taipei-international-convention-center-ticc
+    performances:
+      - date: 2015-04-19
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+        external_ids:
+          fandom: Taipei|
+external_ids:
+  fandom: ANISONG World Tour Lantis Festival 2015
+evidence:
+  title:
+    status: derived
+    source: https://www.lantis.jp/15th/2015/
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Lantis's own festival (official pages on lantis.jp, not lovelive-anime.jp). Only the shows with μ's are listed: Seoul ran 4/4-4/5 but μ's played only 4/5 (festival Day 2, without Pile: influenza); Shanghai both days; Taipei ran 4/18-4/19 but μ's played only 4/19 (festival Day 2). The other legs (Las Vegas, Hong Kong, Singapore) had no μ's. Title spellings vary on lantis.jp: news headline 「～Anisong World Tour～ Lantis Festival 2015」 (used), header 「ANISONG WORLD TOUR 2015 LANTIS FESTIVAL」, prose 『ANISONG WORLD TOUR 2015 Lantis Festival』. Venue printed 「上海長寧体操中心(Shanghai International Gymnastic Center）」 and 「TICC台北国際会議センター」."
+  schedule.1-seoul:
+    status: official
+    source: https://www.lantis.jp/15th/2015/seoul.html
+    checked: 2026-10-20
+  schedule.2-shanghai:
+    status: official
+    source: https://www.lantis.jp/15th/2015/shanghai.html
+    checked: 2026-10-20
+  schedule.3-taipei:
+    status: official
+    source: https://www.lantis.jp/15th/2015/taipei.html
+    checked: 2026-10-20
+  setlist.2015-04-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/ANISONG_World_Tour_Lantis_Festival_2015
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-04-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/ANISONG_World_Tour_Lantis_Festival_2015
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-04-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/ANISONG_World_Tour_Lantis_Festival_2015
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2015-04-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/ANISONG_World_Tour_Lantis_Festival_2015
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

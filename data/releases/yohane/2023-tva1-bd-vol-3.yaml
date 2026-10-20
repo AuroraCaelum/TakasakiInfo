@@ -1,0 +1,38 @@
+id: yohane/2023-tva1-bd-vol-3
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.3
+  rom: TVA1 BD Vol.3
+  ko: TVA1 BD Vol.3
+projects: [yohane]
+release_date: 2023-11-22
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1865
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/words-to-you#main}
+      - {no: 2, recording: yohane/best-wishes#original}
+      - {no: 3, recording: yohane/best-wishes#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=3
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.3}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=3
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=3
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=3
+    checked: 2026-10-20

@@ -1,8 +1,18 @@
 id: nijigasaki/2023-fly-with-you
+type: album
 title:
   ja: Fly with You!!
 projects: [nijigasaki]
+artist_credit:
+  - {artist: nijigasaki-high-school-idol-club}
 release_date: 2023-10-04
+editions:
+  - id: e1
+    label:
+      ja: 通常盤
+  - id: e2
+    label:
+      ja: 初回限定盤
 discs:
   - tracks:
       - {no: 1, recording: nijigasaki/walking-dream#original}
@@ -19,7 +29,8 @@ discs:
       - {no: 12, recording: nijigasaki/5201315#original}
       - {no: 13, recording: nijigasaki/fly-with-you#original}
 streaming:
-  - browse_id: MPREb_GYaepllp9qQ
+  - editions: [e1, e2]
+    browse_id: MPREb_GYaepllp9qQ
     tracks:
       1-1: dLpd5CFxZ6Y
       1-2: 9Jiv-ixbrdM
@@ -44,10 +55,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_GYaepllp9qQ
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
+    checked: 2026-10-20

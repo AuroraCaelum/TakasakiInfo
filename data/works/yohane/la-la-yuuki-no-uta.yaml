@@ -1,0 +1,62 @@
+id: yohane/la-la-yuuki-no-uta
+project: yohane
+title:
+  ja: La la 勇気のうた
+  rom: La la Yuuki no Uta
+  ko: La la 용기의 노래
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: fi-ne}
+    - {person: morito-yonezawa}
+    - {person: alura}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: fi-ne}
+      - {person: morito-yonezawa}
+      - {person: alura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=11
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: La la 勇気のうた (Off Vocal)
+      rom: La la Yuuki no Uta (Off Vocal)
+      ko: La la 용기의 노래 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: fi-ne}
+      - {person: morito-yonezawa}
+      - {person: alura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=11
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/music/detail/?id=11
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/La%20la%20%E5%8B%87%E6%B0%97%E3%81%AE%E3%81%86%E3%81%9F https://love-live.fandom.com/wiki/La_la_Yuuki_no_Uta'
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=11
+    checked: 2026-10-20

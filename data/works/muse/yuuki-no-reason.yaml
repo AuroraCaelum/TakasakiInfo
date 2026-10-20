@@ -1,0 +1,47 @@
+id: muse/yuuki-no-reason
+project: muse
+title:
+  ja: 勇気のReason
+  rom: Yuuki no Reason
+  ko: 용기의 Reason
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: ken-masutani}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: ken-masutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 勇気のReason (Off Vocal)
+      rom: Yuuki no Reason (Off Vocal)
+      ko: 용기의 Reason (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ken-masutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E5%8B%87%E6%B0%97%E3%81%AEReason https://love-live.fandom.com/wiki/Yuuki_no_Reason'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20

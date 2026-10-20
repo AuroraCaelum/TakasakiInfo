@@ -1,0 +1,238 @@
+id: ikizulive/ikizu-2nd
+projects: [ikizulive]
+status: performed
+title:
+  ja: いきづらい部！ 2nd LIVE Dou-Da? DOING! ～Reply to L～
+  rom: Ikizuraibu! 2nd LIVE Dou-Da? DOING! ~Reply to L~
+  ko: 이키즈라이부! 2nd LIVE Dou-Da? DOING! ~Reply to L~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: keio-arena-tokyo
+    performances:
+      - date: 2026-09-19
+        setlist:
+          - {type: video, label: Opening}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/jet-starter
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/love-you-save-the-earth
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/churi-chu-chu-kirari
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/pop-love
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/kurari-to-bright
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/trick-or-toxic
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/seishun-soda
+            performers:
+              - {character: ikizulive/akira-goto}
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/darling-wanted
+            performers:
+              - {character: ikizulive/mai-azabu}
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/odoru-polka
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/spinning-parade
+            performers:
+              - {character: ikizulive/polka-takahashi}
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - {type: video}
+          - work: ikizulive/super-summer-sensation
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/zenryoku-calling-i-love-you
+            performers:
+              - {artist: call-me}
+          - work: ikizulive/tap-tap-tappin
+            performers:
+              - {artist: kidokumachi-lovers}
+          - {work: ikizulive/mikansei-na-love-letter}
+          - work: ikizulive/symmetry
+            performers:
+              - {artist: mi-nori-tea}
+          - work: ikizulive/silent-stella
+            performers:
+              - {artist: sh1on}
+          - work: ikizulive/pray-for-love
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/dekoboko-quartet
+            performers:
+              - {artist: chaki}
+          - work: ikizulive/koi-no-one-time-password
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/public-style
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/daitan-party-time
+            performers:
+              - {artist: plumina}
+          - work: ikizulive/homerun-queen
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/hibana-hibana
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: ikizulive/tale-of-primavera
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: other, label: Love High School Online Meeting}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2026-09-20
+        setlist:
+          - {type: video, label: Opening}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/hissatsu-my-mai-mode
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/first-ride
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - work: ikizulive/churi-chu-chu-kirari
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/pop-love
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/magical-recipe-s-il-vous-plait
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/centimeter-rendezvous
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/seishun-soda
+            performers:
+              - {character: ikizulive/akira-goto}
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/darling-wanted
+            performers:
+              - {character: ikizulive/mai-azabu}
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/futari-wa-itsudemo-happy-end
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/spinning-parade
+            performers:
+              - {character: ikizulive/polka-takahashi}
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - {type: video}
+          - work: ikizulive/super-summer-sensation
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/zenryoku-calling-i-love-you
+            performers:
+              - {artist: call-me}
+          - work: ikizulive/tap-tap-tappin
+            performers:
+              - {artist: kidokumachi-lovers}
+          - {work: ikizulive/mikansei-na-love-letter}
+          - work: ikizulive/symmetry
+            performers:
+              - {artist: mi-nori-tea}
+          - work: ikizulive/silent-stella
+            performers:
+              - {artist: sh1on}
+          - work: ikizulive/itsuka-ao
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/dekoboko-quartet
+            performers:
+              - {artist: chaki}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/little-green-iinkai
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/daitan-party-time
+            performers:
+              - {artist: plumina}
+          - work: ikizulive/ikitakunai-every-day
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: ikizulive/tale-of-primavera
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: other, label: Love High School Online Meeting}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Ikizurai-Bu! 2nd LIVE Dou-Da? DOING! ~Reply to L~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE
+    checked: 2026-10-20
+    note: "공식 해외 배신 영문은 'IKIZULIVE! 2nd LIVE Dou-Da? DOING! ～Reply to L～'인데 그룹명 대신 프로젝트명을 넣은 것이라 쓰지 않음(채택할지 확인). 그룹명 rom은 D38(Fandom 'Ikizurai-Bu!'). ko: 나무위키 문서명 외부 근거: rom: 결정 D38 (그룹명 Ikizuraibu!) ko: https://namu.wiki/w/%EC%9D%B4%ED%82%A4%EC%A6%88%EB%9D%BC%EC%9D%B4%EB%B6%80!%202nd%20LIVE%20Dou-Da%3F%20DOING!%20~Reply%20to%20L~. 일정 조사 메모: 京王アリーナTOKYO is the naming-rights name of 武蔵野の森総合スポーツプラザ since 2025-05-01. Keio Electric Railway bought the rights; this is confirmed by press reports and the facility site keio-arena.tokyo. So this is the existing venue musashino-no-mori-sogo-sports-plaza-main-arena (used by the Hasunosora 1st Live Tour in 2023), which needs a second, dated name entry. That is why the venue carries an extra key, \"existing\", which is not part of the brief's schema. The official live page prints 「京王アリーナ TOKYO」 with a space, while the facility writes 「京王アリーナTOKYO」. ko follows namu.wiki (「케이오 아레나 TOKYO」)."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=2ndLIVE
+    checked: 2026-10-20
+  setlist.2026-09-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_2nd_LIVE_Dou-Da%3F_DOING!_~Reply_to_L~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-09-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_2nd_LIVE_Dou-Da%3F_DOING!_~Reply_to_L~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

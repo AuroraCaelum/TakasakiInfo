@@ -1,0 +1,46 @@
+id: nijigasaki/2025-ai-scream
+type: single
+title:
+  ja: 愛♡スクリ～ム！
+projects: [nijigasaki, aqours, liella]
+artist_credit:
+  - {artist: aiscream}
+label: Lantis
+release_date: 2025-01-22
+editions:
+  - {id: e1, catalog: LACM-24620}
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/ai-scream#original}
+      - {no: 2, recording: nijigasaki/sweet-and-fun-aiscream-radio#main}
+      - {no: 3, recording: nijigasaki/ice-limit#original}
+      - {no: 4, recording: nijigasaki/ai-scream#off-vocal}
+      - {no: 5, recording: nijigasaki/ice-limit#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_ULdRG3Nov9o
+    tracks:
+      1-1: 3yaab2_EEHM
+      1-3: NDuV7F5Ms5Y
+      1-4: XqhJbuHLGQc
+      1-5: pf9XZi9WCv0
+links:
+  official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+legacy:
+  category: Others
+  albums:
+    - {title: 愛♡スクリ～ム！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ULdRG3Nov9o
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

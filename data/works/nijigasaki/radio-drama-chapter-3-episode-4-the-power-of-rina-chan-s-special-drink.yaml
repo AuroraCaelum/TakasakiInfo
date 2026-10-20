@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-3-episode-4-the-power-of-rina-chan-s-special-drink
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ3章4話 璃奈ちゃん特製ドリンクの力！
+  rom: Radio Drama Chapter 3 Episode 4 The power of Rina-chan's special drink!
+  ko: 라디오 드라마 3장 4화 리나 특제 드링크의 힘!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 璃奈ちゃん은 선례(2022-0824 발매물의 5章4話 ~迷子の果林ちゃん~)처럼 rom은 -chan을 두고 ko는 경칭을 뺌 화수는 시리즈마다 겹치고(5章4話는 2020-0318·2022-0824·이 CD에 각각) 부제로 구별한다.'

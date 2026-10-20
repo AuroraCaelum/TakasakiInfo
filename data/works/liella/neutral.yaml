@@ -1,0 +1,50 @@
+id: liella/neutral
+project: liella
+title:
+  ja: ニュートラル
+  rom: Neutral
+  ko: 뉴트럴
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: ryuki-koike}
+    - {person: hoffnung}
+recordings:
+  - id: original
+    performers:
+      - {artist: kaleidoscore}
+    arranger:
+      - {person: hoffnung}
+      - {person: ryuki-koike}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ニュートラル (Off Vocal)
+      rom: Neutral (Off Vocal)
+      ko: 뉴트럴 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hoffnung}
+      - {person: ryuki-koike}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%A9%E3%83%AB https://love-live.fandom.com/wiki/Neutral'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
+    checked: 2026-10-20

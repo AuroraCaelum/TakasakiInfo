@@ -1,0 +1,109 @@
+id: aqours/2021-love-live-sunshine-aqours-chronicle-2018-2020
+type: compilation
+title:
+  ja: ラブライブ！サンシャイン!! Aqours CHRONICLE (2018～2020)
+  rom: Love Live! Sunshine!! Aqours CHRONICLE (2018~2020)
+  ko: 러브 라이브! 선샤인!! Aqours CHRONICLE (2018~2020)
+projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
+release_date: 2021-10-07
+editions:
+  - id: e1
+    label:
+      ja: 初回限定盤
+    catalog: LACA-39860~1
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-9860~1
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/hop-step-wai#original}
+      - {no: 2, recording: aqours/thank-you-friends#original}
+      - {no: 3, recording: aqours/no-10#original}
+      - {no: 4, recording: aqours/hajimari-road#original}
+      - {no: 5, recording: aqours/marine-border-parasol#original}
+      - {no: 6, recording: aqours/yosoku-fukanou-driving#original}
+      - {no: 7, recording: aqours/bokura-no-hashittekita-michi-wa#original}
+      - {no: 8, recording: aqours/tousou-meisou-mobius-loop#original}
+      - {no: 9, recording: aqours/hop-stop-nonstop#original}
+      - {no: 10, recording: aqours/brightest-melody#original}
+      - {no: 11, recording: aqours/next-sparkling#original}
+      - {no: 12, recording: aqours/over-the-next-rainbow#original}
+      - {no: 13, recording: aqours/i-n-g-i-try#original}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/jump-up-high#original}
+      - {no: 2, recording: aqours/bouken-type-a-b-c#original}
+      - {no: 3, recording: aqours/mitaiken-horizon#original}
+      - {no: 4, recording: aqours/deep-resonance#original}
+      - {no: 5, recording: aqours/dance-with-minotaurus#original}
+      - {no: 6, recording: aqours/kokoro-magic-a-to-z#original}
+      - {no: 7, recording: aqours/wake-up-challenger#original}
+      - {no: 8, recording: aqours/fantastic-departure#original}
+      - {no: 9, recording: aqours/aqours-pirates-desire#original}
+      - {no: 10, recording: aqours/jimo-ai-dash#original}
+      - {no: 11, recording: aqours/kimochi-mo-yume-mo-issho-da-ne#original}
+      - {no: 12, recording: aqours/namida-ga-yuki-ni-naru-mae-ni#original}
+      - {no: 13, recording: aqours/misty-frosty-love#original}
+      - {no: 14, recording: aqours/party-party-papapaparty#original}
+      - {no: 15, recording: aqours/namida#original}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_KnOk2rerb1B
+    tracks:
+      1-1: JXsgP-nRnc8
+      1-2: MtYpuj38Zzg
+      1-3: YjbPikDSCfU
+      1-4: lQHYpvz8xMk
+      1-5: e9xR2owNjQY
+      1-6: 12Y8oTGlFVI
+      1-7: wRq-5BbmuZI
+      1-8: n-pVHmHfxqI
+      1-9: UW3uCeyJ7mI
+      1-10: PUOYhGzwXng
+      1-11: WuhaZ6LMNLY
+      1-12: 7lZljrJ3A40
+      1-13: 4Dvk6UAfUUA
+      2-1: dIdjJHt1e2k
+      2-2: MLBvOdcBS5M
+      2-3: D2sHZyyuOk4
+      2-4: 3eim9Hg8pLg
+      2-5: Nhp7hTWXyQI
+      2-6: D_n8qbnp5jg
+      2-7: TtokKqS5qL8
+      2-8: Y0-e_M2o1Y0
+      2-9: k5BclQNNEcM
+      2-10: 65xYAcFgH-o
+      2-11: ZdXuV2LuLOw
+      2-12: CsyoFwOj56I
+      2-13: TyZHDYGIn0w
+      2-14: yIOBEpG9uwE
+      2-15: Hy-ETFDBesQ
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+legacy:
+  category: Aqours
+  albums:
+    - {title: ラブライブ！サンシャイン!! Aqours CHRONICLE (2018～2020), flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom·ko: 승인된 aqours/2020-aqours-chronicle-2015-2017과 같은 형식(시리즈명 rom Love Live! Sunshine!!, ko 러브 라이브! 선샤인!!(D11), ～는 반각 ~). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2018-2020) 외부 근거: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2018-2020)'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KnOk2rerb1B
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

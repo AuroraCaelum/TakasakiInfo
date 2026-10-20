@@ -1,0 +1,47 @@
+id: muse/mahoutsukai-hajimemashita
+project: muse
+title:
+  ja: まほうつかいはじめました！
+  rom: Mahoutsukai Hajimemashita!
+  ko: 마법사 시작했습니다!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroaki-suzuki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: hiroaki-suzuki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: まほうつかいはじめました！ (Off Vocal)
+      rom: Mahoutsukai Hajimemashita! (Off Vocal)
+      ko: 마법사 시작했습니다! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroaki-suzuki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%BE%E3%81%BB%E3%81%86%E3%81%A4%E3%81%8B%E3%81%84%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%21 https://love-live.fandom.com/wiki/Mahoutsukai_Hajimemashita!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20

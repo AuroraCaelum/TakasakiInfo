@@ -1,0 +1,47 @@
+id: nijigasaki/mamimume-motor-girl
+project: nijigasaki
+title:
+  ja: まみむめMotor Girl
+  rom: MaMiMuMe Motor Girl
+  ko: 마미무메 Motor Girl
+credits:
+  lyricist:
+    - {person: miyakei}
+  composer:
+    - {person: keisuke-koyama}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: まみむめMotor Girl (Off Vocal)
+      rom: MaMiMuMe Motor Girl (Off Vocal)
+      ko: 마미무메 Motor Girl (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(대소문자 MaMiMuMe는 Fandom 표기. 규칙 엔진이면 Mamimume Motor Girl), ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%BE%E3%81%BF%E3%82%80%E3%82%81Motor%20Girl https://love-live.fandom.com/wiki/MaMiMuMe_Motor_Girl'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
+    checked: 2026-10-20

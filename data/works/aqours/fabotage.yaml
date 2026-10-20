@@ -1,0 +1,49 @@
+id: aqours/fabotage
+project: aqours
+title:
+  ja: ファボタージュ
+  rom: Fabotage
+  ko: 파보타주
+credits:
+  lyricist:
+    - {person: kaoru-kami}
+  composer:
+    - {person: tophamhat-kyo, affiliation: FAKE TYPE.}
+    - {person: takarot}
+    - {person: rush-eye}
+recordings:
+  - id: original
+    performers:
+      - {artist: waiwaiwai}
+    arranger:
+      - {person: rush-eye}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ファボタージュ (Off Vocal)
+      rom: Fabotage (Off Vocal)
+      ko: 파보타주 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rush-eye}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%9C%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5 https://love-live.fandom.com/wiki/Fabotage'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20

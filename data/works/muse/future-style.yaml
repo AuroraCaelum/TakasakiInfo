@@ -1,0 +1,48 @@
+id: muse/future-style
+project: muse
+title:
+  ja: Future style
+  rom: Future style
+  ko: Future style
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: koshiro-honda}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Future style (Off Vocal)
+      rom: Future style (Off Vocal)
+      ko: Future style (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: koshiro-honda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    checked: 2026-10-20

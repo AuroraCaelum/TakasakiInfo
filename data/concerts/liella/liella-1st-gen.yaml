@@ -1,0 +1,434 @@
+id: liella/liella-1st-gen
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! First Generation LoveLive! ～Wonderful Starlines～
+  rom: Love Live! Superstar!! Liella! First Generation LoveLive! ~Wonderful Starlines~
+  ko: 러브 라이브! 슈퍼스타!! Liella! First Generation LoveLive! ~Wonderful Starlines~
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: osaka-jo-hall
+    performances:
+      - date: 2025-07-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/primary
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - {type: other, label: Dance Battle}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dream-rainbow
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: ~What a Wonderful Dream!! Ver.~
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/unison
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/flyer-s-high
+            version: Short Ver.
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/aozora-o-matteru
+            version: Short Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: mc}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2025-07-27
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/primary
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - {type: other, label: Dance Battle}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dream-rainbow
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: ~What a Wonderful Dream!! Ver.~
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/unison
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/mitero
+            version: Short Ver.
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/mizuiro-no-sunday
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/binetsu-no-waltz
+            version: Short Ver.
+            performers:
+              - {character: liella/ren-hazuki}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 2
+  - id: 2-tokyo
+    city: tokyo
+    venue: ariake-arena
+    performances:
+      - date: 2025-08-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/primary
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - {type: other, label: Dance Battle}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dream-rainbow
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: ~What a Wonderful Dream!! Ver.~
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/unison
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/flyer-s-high
+            version: Short Ver.
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/aozora-o-matteru
+            version: Short Ver.
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: mc}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2025-08-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/bye-bye-shichaeba
+            performers:
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - {type: video}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/primary
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - {type: other, label: Dance Battle}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dream-rainbow
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            version: ~What a Wonderful Dream!! Ver.~
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - {type: video}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/unison
+            performers:
+              - {artist: liella}
+          - {type: encore, label: Encore}
+          - {type: video}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/mitero
+            version: Short Ver.
+            performers:
+              - {character: liella/sumire-heanna}
+          - work: liella/mizuiro-no-sunday
+            version: Short Ver.
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/binetsu-no-waltz
+            version: Short Ver.
+            performers:
+              - {character: liella/ren-hazuki}
+          - {type: mc}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 2
+external_ids:
+  fandom: Liella! First Generation LoveLive! ~Wonderful Starlines~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=1stgenlive
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Performed by the five first-generation members only (出演: Liella! 1期生).'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=1stgenlive
+    checked: 2026-10-20
+  setlist.2025-07-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_First_Generation_LoveLive!_~Wonderful_Starlines~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-07-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_First_Generation_LoveLive!_~Wonderful_Starlines~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_First_Generation_LoveLive!_~Wonderful_Starlines~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_First_Generation_LoveLive!_~Wonderful_Starlines~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

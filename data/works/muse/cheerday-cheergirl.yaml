@@ -1,0 +1,54 @@
+id: muse/cheerday-cheergirl
+project: muse
+title:
+  ja: CheerDay CheerGirl!
+  rom: CheerDay CheerGirl!
+  ko: CheerDay CheerGirl!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=7vC_N_pdLC0
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: CheerDay CheerGirl! (Off Vocal)
+      rom: CheerDay CheerGirl! (Off Vocal)
+      ko: CheerDay CheerGirl! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd00-gamers
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=7vC_N_pdLC0
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, namu'

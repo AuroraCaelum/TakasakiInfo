@@ -1,0 +1,222 @@
+id: aqours/jimoai-2022
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! 沼津地元愛まつり
+  rom: Love Live! Sunshine!! Numazu Jimoai Matsuri
+  ko: 러브 라이브! 선샤인!! 누마즈 지모아이 마츠리
+stops:
+  - id: 1-shizuoka
+    city: shizuoka
+    venue: kira-messe-numazu
+    performances:
+      - {date: 2022-08-11, label: Day.1 Noon}
+      - {date: 2022-08-11, label: Day.1 Evening}
+      - date: 2022-08-13
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video}
+          - {type: video, label: Live Opening}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/fantastic-departure
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+        external_ids:
+          fandom: Day 2 (August 13)|Noon
+      - date: 2022-08-13
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video}
+          - {type: video, label: Live Opening}
+          - work: aqours/happy-party-train
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - {type: mc}
+          - work: aqours/fantastic-departure
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+          - work: aqours/hop-step-wai
+            performers:
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/you-watanabe}
+        external_ids:
+          fandom: Day 2 (August 13)|Evening
+      - date: 2022-08-14
+        label: Day.3 Noon
+        setlist:
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video}
+          - {type: video, label: Live Opening}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/cyazalea-kiss-dadandaaan
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/aqours-heroes
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+        external_ids:
+          fandom: Day 3 (August 14)|Noon
+      - date: 2022-08-14
+        label: Day.3 Evening
+        setlist:
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video}
+          - {type: video, label: Live Opening}
+          - work: aqours/sunshine-pikkapika-ondo
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/cyazalea-kiss-dadandaaan
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - {type: mc}
+          - work: aqours/aqours-heroes
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/mari-ohara}
+              - {character: aqours/ruby-kurosawa}
+        external_ids:
+          fandom: Day 3 (August 14)|Evening
+external_ids:
+  fandom: Love Live! Sunshine!! Numazu Jimo Ai Festival
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_jimoai2022.php
+    checked: 2026-10-20
+    note: "2022 페이지엔 영문이 없어 2023~2025 공식 영문(Numazu Jimoai Matsuri)을 따름. Fandom은 'Jimo Ai Festival'. ko: 나무위키는 地元愛まつり를 번역하지 않고 음역함(번역하면 '지역 사랑 축제') 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20%EB%88%84%EB%A7%88%EC%A6%88%20%EC%A7%80%EB%AA%A8%EC%95%84%EC%9D%B4%20%EB%A7%88%EC%B8%A0%EB%A6%AC(2022). 일정 조사 메모: Day.1 (2022-08-11, ＜昼公演＞/＜夜公演＞) was 「Aqours浦の星女学院RADIO!!! JMA放送局～スペシャル公開録音～」 (斉藤朱夏, 小林愛香, 降幡 愛), a radio public recording; Fandom says it had no singing portion and gives no set list, so its two shows are listed without fandom — drop them if radio-only shows are not wanted. Days 2-3 were 「Aqours クラブ活動 LIVE & FAN MEETING」. The official page (sp_jimoai2022.php) is linked from live_archive.php, not from the current live list."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_jimoai2022.php
+    checked: 2026-10-20
+  setlist.2022-08-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-08-14:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Numazu_Jimo_Ai_Festival
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

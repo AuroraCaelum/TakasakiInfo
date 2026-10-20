@@ -1,0 +1,44 @@
+id: yohane/2023-far-far-away-be-as-one
+type: single
+title:
+  ja: Far far away / Be as one!!!
+projects: [yohane]
+artist_credit:
+  - {character: yohane/yohane}
+  - {character: yohane/dia}
+  - {character: yohane/ruby}
+  - {character: yohane/chika}
+label: Lantis
+release_date: 2023-08-23
+editions:
+  - id: e1
+    label:
+      ja: Far far away盤(A盤)
+    catalog: LACM-24442
+    media: [CD]
+  - id: e2
+    label:
+      ja: Be as one!!!盤(B盤)
+    catalog: LACM-24443
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/far-far-away#original}
+      - {no: 2, recording: yohane/be-as-one#original}
+      - {no: 3, recording: yohane/far-far-away#off-vocal}
+      - {no: 4, recording: yohane/be-as-one#off-vocal}
+links:
+  official: https://www.yohane.net/music/detail/?id=6
+legacy:
+  category: Yohane
+  albums:
+    - {title: Far far away / Be as one!!!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=6
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=6
+    checked: 2026-10-20

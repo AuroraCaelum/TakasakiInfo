@@ -1,0 +1,67 @@
+id: liella/2026-hyper-glowing
+type: mini_album
+title:
+  ja: Hyper Glowing！
+projects: [liella]
+artist_credit:
+  - {artist: liella}
+release_date: 2026-07-08
+editions:
+  - id: e1
+    label:
+      ja: オリジナル盤
+    catalog: LACA-25310
+  - id: e2
+    label:
+      ja: フォト盤
+    catalog: LACA-25311
+  - id: e3
+    label:
+      ja: チームこども盤
+    catalog: LACA-25312
+  - id: e4
+    label:
+      ja: チームスポーツ盤
+    catalog: LACA-25313
+  - id: e5
+    label:
+      ja: チームみどり盤
+    catalog: LACA-25314
+discs:
+  - tracks:
+      - {no: 1, recording: liella/hyper-glowing#original}
+      - {no: 2, recording: liella/tokubetsu-janai-mahou#original}
+      - {no: 3, recording: liella/winds-of-yell#original}
+      - {no: 4, recording: liella/mebae#original}
+      - {no: 5, recording: liella/hyper-glowing#off-vocal}
+      - {no: 6, recording: liella/tokubetsu-janai-mahou#off-vocal}
+      - {no: 7, recording: liella/winds-of-yell#off-vocal}
+      - {no: 8, recording: liella/mebae#off-vocal}
+streaming:
+  - editions: [e1, e2, e3, e4, e5]
+    browse_id: MPREb_aRAfrbq6NWW
+    tracks:
+      1-1: gS7dlKWPFwc
+      1-2: 0RNvcMX1Jzo
+      1-3: ppzAcNfufgU
+      1-4: 43Aai-L6RWU
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+legacy:
+  category: Liella
+  albums:
+    - {title: Hyper Glowing！}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_aRAfrbq6NWW
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

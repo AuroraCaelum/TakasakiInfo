@@ -1,0 +1,45 @@
+id: muse/2014-donna-toki-mo-zutto
+type: single
+title:
+  ja: どんなときもずっと
+projects: [muse]
+artist_credit:
+  - {artist: muse}
+label: Lantis
+release_date: 2014-05-08
+editions:
+  - {id: e1, catalog: LACM-14230}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/donna-toki-mo-zutto#original}
+      - {no: 2, recording: muse/colorful-voice#original}
+      - {no: 3, recording: muse/donna-toki-mo-zutto#off-vocal}
+      - {no: 4, recording: muse/colorful-voice#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_R2hpUOLrYnh
+    tracks:
+      1-1: rNA1tbBkqto
+      1-2: EA1xWp-vi7I
+      1-3: 7wmtMWfVmdY
+      1-4: LzZWXmGdJV4
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+legacy:
+  category: Muse
+  albums:
+    - {title: どんなときもずっと}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd42
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_R2hpUOLrYnh
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

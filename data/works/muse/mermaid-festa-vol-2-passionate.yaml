@@ -1,0 +1,77 @@
+id: muse/mermaid-festa-vol-2-passionate
+project: muse
+title:
+  ja: Mermaid festa vol.2 ～Passionate～
+  rom: Mermaid festa vol.2 ~Passionate~
+  ko: Mermaid festa vol.2 ~Passionate~
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shingo-yamazaki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: nozomu-matsui}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Mermaid festa vol.2 ～Passionate～ (Off Vocal)
+      rom: Mermaid festa vol.2 ~Passionate~ (Off Vocal)
+      ko: Mermaid festa vol.2 ~Passionate~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nozomu-matsui}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: Mermaid festa vol.2 ～Passionate～ (HONOKA Mix)
+      rom: Mermaid festa vol.2 ~Passionate~ (HONOKA Mix)
+      ko: Mermaid festa vol.2 ~Passionate~ (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: nozomu-matsui}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: Mermaid festa vol.2 ～Passionate～ (RIN Mix)
+      rom: Mermaid festa vol.2 ~Passionate~ (RIN Mix)
+      ko: Mermaid festa vol.2 ~Passionate~ (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: nozomu-matsui}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
+    checked: 2026-10-20

@@ -1,0 +1,150 @@
+id: aqours/bokura-no-tabi-wa-owaranai
+project: aqours
+title:
+  ja: 僕らの旅は終わらない
+  rom: Bokura no Tabi wa Owaranai
+  ko: 우리의 여행은 끝나지 않아
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: junya-maesako}
+    - {person: dr-lilcom}
+    - {person: hitoshi-harukawa}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕らの旅は終わらない (Off Vocal)
+      rom: Bokura no Tabi wa Owaranai (Off Vocal)
+      ko: 우리의 여행은 끝나지 않아 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+        checked: 2026-10-20
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4713
+        checked: 2026-10-20
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
+        checked: 2026-10-20
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4715
+        checked: 2026-10-20
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
+        checked: 2026-10-20
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4717
+        checked: 2026-10-20
+  - id: yoshiko-tsushima-solo
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4718
+        checked: 2026-10-20
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4719
+        checked: 2026-10-20
+  - id: mari-ohara-solo
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4720
+        checked: 2026-10-20
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: dr-lilcom}
+      - {person: hitoshi-harukawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4721
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AE%E6%97%85%E3%81%AF%E7%B5%82%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84 https://love-live.fandom.com/wiki/Bokura_no_Tabi_wa_Owaranai'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
+    checked: 2026-10-20

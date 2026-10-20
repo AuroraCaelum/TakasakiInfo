@@ -1,0 +1,134 @@
+id: aqours/hakodate-unit-carnival
+projects: [aqours]
+status: performed
+title:
+  ja: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+  rom: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+  ko: Saint Snow PRESENTS LOVELIVE! SUNSHINE!! HAKODATE UNIT CARNIVAL
+stops:
+  - id: 1-hokkaido
+    city: hokkaido
+    venue: hakodate-arena-main-arena
+    performances:
+      - date: 2018-04-27
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: mc}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/lonely-tuning
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/tokimeki-bunruigaku
+            performers:
+              - {artist: azalea}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/p-s-no-mukougawa
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/yozorawa-nandemo-shitteruno
+            performers:
+              - {artist: cyaron}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+              - {artist: saint-snow}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2018-04-28
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - {type: mc}
+          - work: aqours/crash-mind
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/galaxy-hide-and-seek
+            performers:
+              - {artist: azalea}
+          - {type: mc}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kinmirai-happy-end
+            performers:
+              - {artist: cyaron}
+          - {type: mc}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - {type: mc}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+              - {artist: saint-snow}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: HAKODATE UNIT CARNIVAL
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_uc.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Performers: Saint Snow, CYaRon!, AZALEA, Guilty Kiss. The official heading separates words with an ideographic space and no-break spaces (normalised to plain spaces here); the Fandom page has no {{Nihongo}} title.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_uc.php
+    checked: 2026-10-20
+  setlist.2018-04-27:
+    status: draft
+    source: https://love-live.fandom.com/wiki/HAKODATE_UNIT_CARNIVAL
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-04-28:
+    status: draft
+    source: https://love-live.fandom.com/wiki/HAKODATE_UNIT_CARNIVAL
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

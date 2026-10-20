@@ -1,0 +1,93 @@
+id: muse/soldier-game
+project: muse
+title:
+  ja: soldier game
+  rom: soldier game
+  ko: soldier game
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: mitsuru-wakabayashi}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/maki-nishikino}
+      - {character: muse/umi-sonoda}
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: soldier game (Off Vocal)
+      rom: soldier game (Off Vocal)
+      ko: soldier game (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: soldier game (ELI Mix)
+      rom: soldier game (ELI Mix)
+      ko: soldier game (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: soldier game (UMI Mix)
+      rom: soldier game (UMI Mix)
+      ko: soldier game (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: soldier game (MAKI Mix)
+      rom: soldier game (MAKI Mix)
+      ko: soldier game (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: mitsuru-wakabayashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20

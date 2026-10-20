@@ -1,0 +1,461 @@
+id: liella/liella-fmt
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! ライブ＆ファンミーティングツアー ～Welcome to Yuigaoka!!～
+  rom: Love Live! Superstar!! Liella! LIVE & FAN MEETING TOUR ~Welcome to Yuigaoka!!~
+  ko: 러브 라이브! 슈퍼스타!! Liella! LIVE & FAN MEETING TOUR ~Welcome to Yuigaoka!!~
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: orix-theater
+    performances:
+      - date: 2022-06-11
+        label: Day.1 Noon
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oh-ready-steady-positive
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - {type: mc}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2022-06-11
+        label: Day.1 Evening
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oh-ready-steady-positive
+            performers:
+              - {character: liella/keke-tang}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - {type: mc}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2022-06-12
+        label: Day.2 Noon
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuuki-no-kakera
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 2
+      - date: 2022-06-12
+        label: Day.2 Evening
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/yuuki-no-kakera
+            performers:
+              - {character: liella/chisato-arashi}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Osaka|Day 2
+  - id: 2-tokyo
+    city: tokyo
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2022-06-18
+        label: Day.1 Noon
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - work: liella/kokoro-kirarara
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: mc}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2022-06-18
+        label: Day.1 Evening
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - work: liella/kokoro-kirarara
+            performers:
+              - {character: liella/kanon-shibuya}
+          - {type: mc}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 1
+      - date: 2022-06-19
+        label: Day.2 Noon
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/reverb
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 2
+      - date: 2022-06-19
+        label: Day.2 Evening
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/reverb
+            performers:
+              - {character: liella/ren-hazuki}
+          - work: liella/matataki-no-saki-e
+            performers:
+              - {artist: liella}
+          - work: liella/wish-song
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Tokyo|Day 2
+  - id: 3-aichi
+    city: aichi
+    venue: niterra-japan-specialty-ceramic-industry-civic-center
+    performances:
+      - date: 2022-06-25
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Nagoya|Day 1
+      - date: 2022-06-26
+        label: Day.2 Noon
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/heroine-s-runway
+            performers:
+              - {character: liella/sumire-heanna}
+          - {type: mc}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Nagoya|Day 2
+      - date: 2022-06-26
+        label: Day.2 Evening
+        setlist:
+          - work: liella/dancing-heart-la-pa-pa-pa
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - {type: other, label: Fan Meeting}
+          - {type: video, label: Live Opening}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/heroine-s-runway
+            performers:
+              - {character: liella/sumire-heanna}
+          - {type: mc}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/tu-tu-tu
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: Nagoya|Day 2
+external_ids:
+  fandom: Liella! LIVE & FAN MEETING TOUR ~Welcome to Yuigaoka!!~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_fmt/
+    checked: 2026-10-20
+    note: "공식 영문 없음. ライブ＆ファンミーティングツアー는 Fandom 표기로 원어 복원. ko: 나무위키 문서명은 'LIVE&FAN MEETING Tour'(부제 없음)라 원어 부분을 rom과 같게 맞춤. 유닛 투어 문서처럼 음역하면 '라이브&팬미팅 투어' 외부 근거: rom: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~ ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella!%20LIVE%26FAN%20MEETING%20Tour. 일정 조사 메모: Two shows a day (official wording 1回目/2回目, written Noon/Evening here) except Nagoya Day 1, which had one show. Official start times: Osaka 6/11 15:30・19:00, 6/12 15:00・18:30; Tokyo 6/18 15:00・19:00, 6/19 14:00・18:00; Nagoya 6/25 15:30 only, 6/26 12:00・15:30 (the Nagoya 'Evening' show starts 15:30). Fandom gives one set list per day (its gallery separates 'Day 1 (Noon)'/'Day 1 (Evening)' for Osaka), so each Day tab is mapped to both shows of that day; LiveFans lists Shooting Voice!! (Fandom Day 2 opener) at both 6/12 shows and both 6/26 shows, consistent with that. The official Blu-ray page writes the title 「ラブライブ！スーパースター!! Liella! LIVE & FAN Meeting Tour ～Welcome to Yuigaoka!!～」; title_ja follows the live page. Second-generation members appeared in the talk part only."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_fmt/
+    checked: 2026-10-20
+  setlist.2022-06-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-19:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_LIVE_&_FAN_MEETING_TOUR_~Welcome_to_Yuigaoka!!~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

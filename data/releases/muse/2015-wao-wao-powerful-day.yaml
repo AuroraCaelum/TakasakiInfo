@@ -1,0 +1,45 @@
+id: muse/2015-wao-wao-powerful-day
+type: single
+title:
+  ja: WAO-WAO Powerful day!
+projects: [muse]
+artist_credit:
+  - {artist: printemps}
+label: Lantis
+release_date: 2015-11-25
+editions:
+  - {id: e1, catalog: LACM-14413}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/wao-wao-powerful-day#original}
+      - {no: 2, recording: muse/no-exit-orion#original}
+      - {no: 3, recording: muse/wao-wao-powerful-day#off-vocal}
+      - {no: 4, recording: muse/no-exit-orion#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_SUl4McFaCYm
+    tracks:
+      1-1: tfulkkoqAF0
+      1-2: scQCFN5uu_M
+      1-3: sRcuxgAi624
+      1-4: ny1sTg4Burc
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+legacy:
+  category: Muse
+  albums:
+    - {title: WAO-WAO Powerful day!}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_SUl4McFaCYm
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

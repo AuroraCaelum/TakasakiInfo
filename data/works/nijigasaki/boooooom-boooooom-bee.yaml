@@ -1,0 +1,50 @@
+id: nijigasaki/boooooom-boooooom-bee
+project: nijigasaki
+title:
+  ja: Boooooom Boooooom Bee!!
+  rom: Boooooom Boooooom Bee!!
+  ko: Boooooom Boooooom Bee!!
+credits:
+  lyricist:
+    - {person: chibanyan}
+    - {person: em-me}
+  composer:
+    - {person: chibanyan}
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: chibanyan}
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Boooooom Boooooom Bee!! (Off Vocal)
+      rom: Boooooom Boooooom Bee!! (Off Vocal)
+      ko: Boooooom Boooooom Bee!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: chibanyan}
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

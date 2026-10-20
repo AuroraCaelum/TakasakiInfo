@@ -1,0 +1,45 @@
+id: muse/2015-angelic-angel-hello-hoshi-o-kazoete
+type: single
+title:
+  ja: Angelic Angel／Hello,星を数えて
+projects: [muse]
+artist_credit:
+  - {artist: muse}
+label: Lantis
+release_date: 2015-07-01
+editions:
+  - {id: e1, catalog: LACM-14361}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/angelic-angel#original}
+      - {no: 2, recording: muse/hello-hoshi-o-kazoete#original}
+      - {no: 3, recording: muse/angelic-angel#off-vocal}
+      - {no: 4, recording: muse/hello-hoshi-o-kazoete#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_4mNN3d8u0mK
+    tracks:
+      1-1: 3KbFjEGq9GM
+      1-2: YErKL8h7eUQ
+      1-3: vDjUrN89a90
+      1-4: p9a7iPkeN8k
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+legacy:
+  category: Muse
+  albums:
+    - {title: 'Angelic Angel／Hello,星を数えて'}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_4mNN3d8u0mK
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

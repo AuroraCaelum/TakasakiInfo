@@ -1,0 +1,53 @@
+id: nijigasaki/doko-ni-itemo-kimi-wa-kimi
+project: nijigasaki
+title:
+  ja: どこにいても君は君
+  rom: Doko ni Itemo Kimi wa Kimi
+  ko: 어디에 있든 너는 너
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: nyanzonudeshi}
+    - {person: morito-yonezawa}
+    - {person: ayato-fujiwara}
+recordings:
+  - id: original
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: どこにいても君は君 (Off Vocal)
+      rom: Doko ni Itemo Kimi wa Kimi (Off Vocal)
+      ko: 어디에 있든 너는 너 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%81%93%E3%81%AB%E3%81%84%E3%81%A6%E3%82%82%E5%90%9B%E3%81%AF%E5%90%9B https://love-live.fandom.com/wiki/Doko_ni_Itemo_Kimi_wa_Kimi'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
+    checked: 2026-10-20

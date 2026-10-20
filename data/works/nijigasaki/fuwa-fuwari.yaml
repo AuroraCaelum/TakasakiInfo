@@ -1,0 +1,48 @@
+id: nijigasaki/fuwa-fuwari
+project: nijigasaki
+title:
+  ja: ふわふわり
+  rom: Fuwa Fuwari
+  ko: 둥실 두둥실
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: teddyloid}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: teddyloid}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ふわふわり (Off Vocal)
+      rom: Fuwa Fuwari (Off Vocal)
+      ko: 둥실 두둥실 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: teddyloid}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%82%8A https://love-live.fandom.com/wiki/Fuwa_Fuwari'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

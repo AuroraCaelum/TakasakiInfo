@@ -1,0 +1,46 @@
+id: muse/sunny-day-song
+project: muse
+title:
+  ja: SUNNY DAY SONG
+  rom: SUNNY DAY SONG
+  ko: SUNNY DAY SONG
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tatsuya-kurauchi}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SUNNY DAY SONG (Off Vocal)
+      rom: SUNNY DAY SONG (Off Vocal)
+      ko: SUNNY DAY SONG (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
+    checked: 2026-10-20

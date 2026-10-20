@@ -3,10 +3,13 @@ Aqours and the musical. They list a release as a block of labelled sections (``�
 ``【発売日】``, ``【価格】``, ``【収録内容】``), several blocks on one page (each with an anchor) or one
 block per edition page. The reader turns a block into lines of text and reads them by section,
 keeping the strings as printed; a line inside a track that is neither a credit nor a singer is left
-out, since the check compares what it read with the stored values instead of writing them.
+out, and a credit line that cannot be read is listed as a problem.
 
-These adapters only check the releases already in ``data/`` (``Spec.check_only``): the tracks, the
-credits and the singers the pages print get the page as their evidence.
+A release migrated from the legacy files is checked: the tracks, the credits and the singers the
+page prints get it as their evidence (D41), and the page fills in its type, label, editions and
+artist. The releases the sites list beyond them are imported (Phase 3), except soundtracks, tribute
+albums and releases without a tracklist yet (``skip_reason``), and the cross-project releases each
+adapter names in ``Spec.skip``.
 """
 
 from __future__ import annotations
@@ -16,23 +19,31 @@ import html as htmllib
 import re
 import unicodedata
 from dataclasses import dataclass, field
+from typing import Any
 
 from .hasunosora import parse_artists, parse_singers
-from .importer import (EditionObs, EditionPage, ParseError, Performers, ReleaseObs, TrackObs, is_credit_line, parse_credit_line)
+from .importer import (EditionObs, EditionPage, ParseError, Performers, ReleaseObs, TrackObs, is_credit_line, page_id,
+                       parse_credit_line)
 from .text import match_key, split_version
 
 # a credit span starts a line ("<span class="uta">作詞：…"); the same span also holds a title's tail ("(Off Vocal)")
 _BREAKS = re.compile(r"<br\s*/?>|</p>|</div>|</h\d>|</li>|</dt>|</dd>|</tr>|<dl[^>]*>"
                      r"|<span class=\"uta\">(?=\s*(?:作|編|歌|弦|管|菅|ストリングス))")
 _LABEL = re.compile(r"^【\s*([^【】]+?)\s*】\s*(.*)$")
-_TRACK = re.compile(r"^(\d{1,2})\s*[.．]\s*(.+)$")
+_TRACK = re.compile(r"^(\d{1,2})\s*[.．]\s*(.+)$|^(\d{2})\s+(\S.*)$")  # "01. X", or "01 X" in the portal's blocks
 _DISC = re.compile(r"^[\[［【]?\s*(?:Disc|DISC|CD)\s*[.．]?\s*(\d+)\s*[\]］】]?(?:\s*[：:].*)?$")  # "Disc.2 ：スペシャルメモリアルCD"
 _ROLE_WORD = r"(?:弦管編曲|弦編曲|管編曲|菅編曲|ストリングスアレンジ|作編曲|作詞|作曲|編曲)"
 _ROLE_ONLY = re.compile(rf"^({_ROLE_WORD}(?:\s*[／/・]\s*{_ROLE_WORD})*)\s*[：:]$")
-_SINGERS = re.compile(r"^歌\s*[：:]\s*(.*)$")
+_SINGERS = re.compile(r"^(?:歌|掛け声)\s*[：:]\s*(.*)$")  # 掛け声: the voice calling the radio exercises (cd58, cd59)
+# credits in English (the Aqours rock re-arrangement album): "Lyric：Aki Hata", "Arranged by EFFY(FirstCall)"
+_EN_CREDIT = re.compile(r"^(Lyrics?|Music|Arranged by|Arrange(?:ment)?)\s*[：:]?\s*(.+)$")
+_EN_ROLE = {"Lyric": "作詞", "Lyrics": "作詞", "Music": "作曲", "Arranged by": "編曲", "Arrange": "編曲", "Arrangement": "編曲"}
+_OWN_VERSION = re.compile(r"^[A-Za-z][A-Za-z0-9 '&.-]{0,40}\sVer\.?$")  # "Hard Rock Ver." on a line of its own
 # a video disc or the bonus items after the tracks: the end of the track list
-_VIDEO = re.compile(r"^(?:[\[［【■]\s*)?(?:同梱)?(?:DVD|BD|Blu-ray|ＢＤ|ＤＶＤ)(?:\s*/\s*(?:DVD|BD))?(?:収録内容)?\s*[\]］】]?$")
-_AFTER = ("特典", "封入", "店舗別", "試聴", "リリースイベント", "応募期間", "収録内容・商品仕様")
+# ("＜Blu-ray＞ ※初回限定盤のみ収録", "・BD" on the Aqours page)
+_VIDEO = re.compile(r"^(?:[\[［【■＜<・]\s*)?(?:同梱)?(?:DVD|BD|Blu-ray|ＢＤ|ＤＶＤ)(?:\s*/\s*(?:DVD|BD))?(?:収録内容)?\s*[\]］】＞>]?"
+                    r"(?:\s*※.*)?$")
+_AFTER = ("特典", "封入", "店舗別", "試聴", "リリースイベント", "応募期間", "収録内容・商品仕様", "ご注文")
 # an annotation after a title in a compilation's track list: "（Aqours 1st Single）"
 _ANNOTATION_WORDS = r"Single|シングル|挿入歌|主題歌|テーマ|Blu-ray|特典|アルバム|Album|楽曲|コラボ|×|の歌"
 _ANNOTATION = re.compile(rf"^(.+?)\s*[（(]([^()（）]*(?:{_ANNOTATION_WORDS})[^()（）]*)[)）]\s*$")
@@ -54,6 +65,21 @@ def _ruby(mt: re.Match[str]) -> str:
     羅針盤<rp>（</rp><rt>コンパス</rt><rp>）</rp> → 羅針盤（コンパス）."""
     inner = mt.group(1)
     return inner if "<rp>" in inner else re.sub(r"<rt>.*?</rt>", "", inner, flags=re.S)
+
+
+_IN_ELEMENT = re.compile(r'<div id="(cd[^"]+)" class="in-element box" data-id="([^"]+)"></div>')
+
+
+def expand_in_elements(html: str, page: str, fetcher: Any, opening: str) -> str:
+    """The page with the blocks its script loads (``cd_detail.php``, the newest releases) put in place,
+    each opened as the page's other blocks are (``opening``, formatted with the block's element id)."""
+    endpoint = page.rsplit("/", 1)[0] + "/cd_detail.php"
+
+    def fill(mt: re.Match[str]) -> str:
+        part = fetcher.get(endpoint, payload=mt.group(2)).html
+        return f"{opening.format(mt.group(1))}{part}</div><!-- ! END  -->"
+
+    return _IN_ELEMENT.sub(fill, html)
 
 
 def strip_annotation(title: str) -> str:
@@ -140,7 +166,7 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
     section: str | None = None
     titles, artist, dates, prices = [], [], [], []
     tracks: list[TrackObs] = []
-    disc, role, singing, done = 1, None, False, False
+    disc, role, singing, done, drama, bonus = 1, None, False, False, False, False
     problems: list[str] = []
     # "森 悠也 歌：Liella!": the names of a role and the singers on one line
     lines = [part for ln in lines for part in re.split(r"\s+(?=歌\s*[：:])", ln)]
@@ -154,8 +180,10 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                 if rest and label == "一般発売日":
                     dates.append(rest)
                 continue
-            if label in ("タイトル", "アーティスト", "発売日", "価格", "収録内容", "収録曲", "CD収録曲", "収録楽曲"):
-                section = {"収録曲": "収録内容", "CD収録曲": "収録内容", "収録楽曲": "収録内容"}.get(label, label)
+            if label in ("タイトル", "アーティスト", "発売日", "価格", "品番", "仕様", "収録内容", "収録曲", "CD収録曲", "収録楽曲"):
+                # the portal's blocks (loaded by cd_detail.php) print the catalog under 品番 and the tracks under 仕様
+                section = {"収録曲": "収録内容", "CD収録曲": "収録内容", "収録楽曲": "収録内容", "品番": "価格",
+                           "仕様": "収録内容"}.get(label, label)
                 if tracks and section != "収録内容":
                     done = True
                 if rest and section in ("価格", "発売日"):
@@ -187,10 +215,14 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                 done = True
                 continue
             if dm := _DISC.match(ln):
-                disc, role, singing = int(dm.group(1)), None, False
+                disc, role, singing, drama = int(dm.group(1)), None, False, False
                 continue
-            if ln in ("[CD]", "［CD］", "【CD】") or ln.startswith("■") or re.fullmatch(r"第[一二三四五六七八九十]+幕", ln):
+            part = re.fullmatch(r"[\[［]\s*(楽曲|ドラマ)パート\s*[\]］]", ln)  # "[楽曲パート]", "[ドラマパート]" (the early μ's singles)
+            if ln in ("[CD]", "［CD］", "【CD】", "＜CD＞", "・CD") or ln.startswith("■") or part \
+                    or re.fullmatch(r"第[一二三四五六七八九十]+幕", ln):
                 role, singing = None, False
+                drama = (ln.startswith("■") or bool(part)) and re.search(r"ドラマ|ラジオ", ln) is not None  # "■ドラマパート", "■録り下ろしラジオ"
+                bonus = ln.startswith("■") and "ボーナストラック" in ln
                 continue
             if role:  # the names under a role label
                 if _ROLE_ONLY.match(ln) or _SINGERS.match(ln):
@@ -206,7 +238,8 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                     continue
             tm = _TRACK.match(ln)
             if tm:
-                tracks.append(TrackObs(int(tm.group(1)), strip_annotation(tm.group(2).strip()), disc=disc))
+                no, title = (tm.group(1), tm.group(2)) if tm.group(1) else (tm.group(3), tm.group(4))
+                tracks.append(TrackObs(int(no), strip_annotation(title.strip()), disc=disc, drama=drama))
                 continue
             if not tracks:
                 continue
@@ -219,13 +252,24 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
                     singing = True
             elif is_credit_line(ln):
                 _credit(tracks[-1], ln, problems)
+            elif em := _EN_CREDIT.match(ln):
+                _credit(tracks[-1], f"{_EN_ROLE[em.group(1)]}：{em.group(2)}", problems)
+            elif _OWN_VERSION.match(ln) and not split_version(tracks[-1].title)[1]:
+                tracks[-1].title = f"{tracks[-1].title} ({ln})"
+            elif bonus and tracks[-1].performers is None and not tracks[-1].credits and not ln.startswith(("・", "※", "★", "●")) \
+                    and not any(w in ln for w in _AFTER):
+                tracks[-1].performers = Performers(ln, None)  # the bonus track's performer ("浦の星交響楽団")
+            elif any(w in ln for w in _AFTER):
+                done = True
             elif "(CV." in ln.replace("（", "(") and tracks[-1].performers and not tracks[-1].performers.artists:
                 more = _singers(ln)  # singers continued on the next line
                 tracks[-1].performers.members += more.members
             elif tracks[-1].performers and tracks[-1].performers.cast and not _LABEL.match(ln):
                 tracks[-1].performers.members += _cast(ln).members  # the cast continued (the ensemble)
-            elif any(w in ln for w in _AFTER):
-                done = True
+            elif cast and tracks[-1].performers is None and not _LABEL.match(ln):
+                # the cast printed under the title without "歌：" (the 2024 album), or the school idol club
+                # that sings it, with its cast in brackets on the next line
+                tracks[-1].performers = _cast(ln) if re.search(r"役[)）]|[、,，]", ln) else Performers(ln.strip(), None, cast=True)
     title_line = " ".join(titles) if titles else (header[-1] if header else "")
     title, edition = split_edition(title_line)
     if not titles and len(header) >= 2 and (edition is None or not title):
@@ -242,6 +286,10 @@ def read_block(lines: list[str], url: str, block_html: str | None = None, *, cas
         alt.append(title)
         _, title, edition = parts
         alt.append(re.sub(r"\s*[／/]\s*[^／/]+$", "", title))  # "君のこころは輝いてるかい？／Aqours"
+    series = re.fullmatch(r"(.+?)\s*「(.+)」", title)  # "R3BIRTH 3rdシングル「BONES BONES BONES」" (the portal's blocks)
+    if series and not title.startswith("「") and re.search(r"シングル|アルバム|テーマ|主題歌|挿入歌|CD|ドラマ|single|Single", series.group(1)):
+        header.append(series.group(1))
+        title = re.sub(r"」\s*[／/]\s*「", " / ", series.group(2))  # "GKSSシングル「WAKE:WOKE」 / 「BURN:BORN」"
     alt = [unquote(a) for a in dict.fromkeys(alt) if a and match_key(a) != match_key(title)]
     for t in tracks:
         if t.credits.pop("unreadable", None) is not None:
@@ -266,6 +314,11 @@ def _cast(text: str) -> Performers:
     text = text.strip()
     if re.fullmatch(r"[（(].*[)）]", text):  # the cast of a group in brackets: "(堀内まり菜（椿 ルリカ役）、…)"
         text = text[1:-1]
+    depth = len(re.findall(r"[（(]", text)) - len(re.findall(r"[)）]", text))
+    if depth > 0 and text[:1] in "(（":  # ... over two lines: the bracket opens on the first
+        text = text[1:]
+    elif depth < 0 and text[-1:] in ")）":  # and closes on the last
+        text = text[:-1]
     for part in re.split(r"\s*[、,，]\s*", text):
         if not part:
             continue
@@ -305,14 +358,67 @@ def editions_of(block: Block) -> list[EditionObs]:
     return out
 
 
+def release_type(block: Block) -> str | None:
+    """The release type the block's series line says (``Aqours ベストアルバム``, ``主題歌ミニアルバム``);
+    None leaves it to the catalog number."""
+    lead = " ".join(block.header + [block.title])
+    if "ドラマCD" in lead:
+        return "drama_cd"
+    if "ミニアルバム" in lead:
+        return "mini_album"
+    if "ベストアルバム" in lead:
+        return "compilation"
+    if re.search(r"アルバム|Album", lead):
+        return "album"
+    return None
+
+
 def to_release(blocks: list[Block], performers: Performers, *, series: str = "") -> ReleaseObs:
     """The blocks of one release (one per edition, or one): the first one's tracks."""
     first = blocks[0]
     assert first.release_date is not None
-    editions = [e for b in blocks for e in editions_of(b)] or [EditionObs(b.edition, None) for b in blocks if b.edition]
+    named = re.fullmatch(r"(.+?)\s*「(.+)」", first.title)  # 'AiScReam「NEXT CARD」': the artist, then the title
+    if named and performers.artist and match_key(named.group(1)) == match_key(performers.artist):
+        first.title = named.group(2)
+    # an edition page that prints one catalog number without a label is the edition its title names
+    editions = [EditionObs(e.label or (b.edition if len(eds) == 1 else None), e.catalog, e.media)
+                for b in blocks for eds in [editions_of(b)] for e in eds] \
+        or [EditionObs(b.edition, None) for b in blocks if b.edition]
     return ReleaseObs(first.url, series, first.title, first.release_date, performers, editions, first.tracks, {},
-                      urls=[b.url for b in blocks], edition_pages=[EditionPage(b.edition, b.url, b.tracks) for b in blocks],
-                      alt_titles=first.alt_titles)
+                      type=release_type(first), urls=[b.url for b in blocks],
+                      edition_pages=[EditionPage(b.edition, b.url, b.tracks) for b in blocks], alt_titles=first.alt_titles)
+
+
+def skip_reason(block: Block) -> str | None:
+    """Why a release is not imported, as on the Hasunosora site (D40): a soundtrack (score), a
+    tribute album of other franchises' artists, or a release announced before its tracklist."""
+    artist = " ".join(block.artist).strip()
+    if artist == "V.A.":
+        return "V.A.: other franchises' artists (tribute album)"
+    if artist.startswith("音楽：") or any("サウンドトラック" in h for h in block.header):
+        return "soundtrack (score), not in the legacy files"
+    if re.search(r"LIVE CD|ライブCD", " ".join(block.header + [block.title])):
+        return "a live recording album (LIVE CD), like the live Blu-rays not imported"
+    if block.title == "タイトル未定" or any(re.fullmatch(r"[?？]+", split_version(t.title)[0].strip()) for t in block.tracks):
+        return "announced without its tracklist yet"
+    return None
+
+
+def releases_of(blocks: list[Block], skip: dict[str, str]) -> tuple[list[ReleaseObs], list[str]]:
+    """The releases of the blocks, oldest first, and the ones left out with the reason. A page id in
+    ``skip`` (a cross-project release, left to a later phase) is reported by the importer."""
+    releases, skipped = [], []
+    for g in group_blocks(blocks):
+        pid = page_id(g[0].url)
+        if pid in skip:
+            continue
+        why = skip_reason(g[0])
+        if why:
+            skipped.append(f"{pid} {g[0].title}: {why}")
+            continue
+        releases.append(to_release(g, performers_of(g[0])))
+    releases.sort(key=lambda r: (r.release_date, r.url))
+    return releases, skipped + [f"{b.url} {p}" for b in blocks for p in b.problems]
 
 
 def performers_of(block: Block) -> Performers:

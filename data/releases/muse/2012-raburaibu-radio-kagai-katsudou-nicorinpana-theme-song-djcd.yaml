@@ -1,0 +1,52 @@
+id: muse/2012-raburaibu-radio-kagai-katsudou-nicorinpana-theme-song-djcd
+type: album
+title:
+  ja: ラブライ部 ラジオ課外活動 にこりんぱな テーマソングDJCD
+  rom: Raburaibu Radio Kagai Katsudou NicoRinPana Theme Song DJCD
+  ko: 러브라이부 라디오 과외 활동 니코린파나 테마송 DJCD
+projects: [muse]
+artist_credit:
+  - {artist: nicorinpana}
+release_date: 2012-10-17
+editions:
+  - {id: e1, catalog: LACA-15244}
+discs:
+  - tracks:
+      - {no: 1, recording: muse/listen-to-my-heart#original}
+      - {no: 2, recording: muse/after-school-navigators#original}
+      - {no: 3, recording: muse/listen-to-my-heart#off-vocal}
+      - {no: 4, recording: muse/after-school-navigators#off-vocal}
+      - {no: 5, recording: muse/raburaibu-theme-song-djcd-demo-radio-kagai-katsudou-nicorinpana#main}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_FYCRSDdnDkA
+    tracks:
+      1-1: 2csVf6zUXDw
+      1-2: FtoafrZWmkk
+      1-3: chYnLjQ0n5g
+      1-4: dSA7-IFbe64
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライ部 ラジオ課外活動 にこりんぱな テーマソングDJCD}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
+    checked: 2026-10-20
+    note: "ja: 공식 페이지(【タイトル】). rom: 번역안(ドラマCD → Drama CD 선례처럼 외래어는 영어, ラブライ部·課外活動은 로마자, にこりんぱな는 아티스트 rom. Fandom은 'Love Live! Web Radio' 테마 CD로만 적음), ko: 번역안(나무위키 미게재), 확인 필요 외부 근거: https://love-live.fandom.com/wiki/Listen_to_my_heart!!"
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_FYCRSDdnDkA
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

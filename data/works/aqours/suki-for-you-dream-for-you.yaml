@@ -1,0 +1,136 @@
+id: aqours/suki-for-you-dream-for-you
+project: aqours
+title:
+  ja: SUKI for you, DREAM for you!
+  rom: SUKI for you, DREAM for you!
+  ko: SUKI for you, DREAM for you!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takuya-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SUKI for you, DREAM for you! (Off Vocal)
+      rom: SUKI for you, DREAM for you! (Off Vocal)
+      ko: SUKI for you, DREAM for you! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+        checked: 2026-10-19
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
+        checked: 2026-10-19
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
+        checked: 2026-10-19
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
+        checked: 2026-10-19
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
+        checked: 2026-10-19
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
+        checked: 2026-10-19
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+        checked: 2026-10-19
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
+        checked: 2026-10-19
+  - id: mari-ohara-solo
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
+        checked: 2026-10-20
+  - id: yoshiko-tsushima-solo
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
+    checked: 2026-10-19

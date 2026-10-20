@@ -1,0 +1,115 @@
+id: yohane/bloom-of-colors
+project: yohane
+title:
+  ja: BLOOM OF COLORS
+  rom: BLOOM OF COLORS
+  ko: BLOOM OF COLORS
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: hajime-mitsumasu, affiliation: FirstCall}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/lailaps}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=7
+        checked: 2026-10-20
+  - id: you-i-edit
+    title:
+      ja: BLOOM OF COLORS[YOU & I edit]
+      rom: BLOOM OF COLORS[YOU & I edit]
+      ko: BLOOM OF COLORS[YOU & I edit]
+    version: '[YOU & I edit]'
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/lailaps}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.yohane.net/bd/movie/
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
+      performers:
+        status: derived
+        source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
+        checked: 2026-10-20
+        note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+  - id: you-i-edit-movie-edition
+    title:
+      ja: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
+      rom: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
+      ko: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
+    version: '[YOU & I edit] MOVIE EDITION'
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/lailaps}
+      - {character: yohane/hanamaru}
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.yohane.net/bd/movie/
+        checked: 2026-10-20
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
+      performers:
+        status: derived
+        source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
+        checked: 2026-10-20
+        note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: BLOOM OF COLORS (Off Vocal)
+      rom: BLOOM OF COLORS (Off Vocal)
+      ko: BLOOM OF COLORS (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=7
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=7
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=7
+    checked: 2026-10-20

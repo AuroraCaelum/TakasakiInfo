@@ -1,0 +1,47 @@
+id: muse/datte-datte-aa-mujou
+project: muse
+title:
+  ja: だってだって噫無情
+  rom: Datte Datte Aa Mujou
+  ko: 그치만 그치만 아아 무정
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: tetsushi-enami}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: だってだって噫無情 (Off Vocal)
+      rom: Datte Datte Aa Mujou (Off Vocal)
+      ko: 그치만 그치만 아아 무정 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeshi-masuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A0%E3%81%A3%E3%81%A6%E3%81%A0%E3%81%A3%E3%81%A6%E5%99%AB%E7%84%A1%E6%83%85 https://love-live.fandom.com/wiki/Datte_Datte_Aa_Mujou'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
+    checked: 2026-10-20

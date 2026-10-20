@@ -1,0 +1,46 @@
+id: nijigasaki/cheer-mode
+project: nijigasaki
+title:
+  ja: Cheer Mode
+  rom: Cheer Mode
+  ko: Cheer Mode
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: chibanyan}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-l-a-n}
+    arranger:
+      - {person: chibanyan}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Cheer Mode (Off Vocal)
+      rom: Cheer Mode (Off Vocal)
+      ko: Cheer Mode (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: chibanyan}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

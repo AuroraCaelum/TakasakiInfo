@@ -1,0 +1,46 @@
+id: aqours/black-out
+project: aqours
+title:
+  ja: BLACK OUT
+  rom: BLACK OUT
+  ko: BLACK OUT
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: takahiro-kawata}
+recordings:
+  - id: original
+    performers:
+      - {artist: guilty-kiss}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: BLACK OUT (Off Vocal)
+      rom: BLACK OUT (Off Vocal)
+      ko: BLACK OUT (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
+    checked: 2026-10-20

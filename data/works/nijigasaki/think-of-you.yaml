@@ -1,0 +1,46 @@
+id: nijigasaki/think-of-you
+project: nijigasaki
+title:
+  ja: think of you
+  rom: think of you
+  ko: think of you
+credits:
+  lyricist:
+    - {person: nana-hatori}
+  composer:
+    - {person: carlos-k}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: carlos-k}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: think of you (Off Vocal)
+      rom: think of you (Off Vocal)
+      ko: think of you (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: carlos-k}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+    checked: 2026-10-20

@@ -1,0 +1,54 @@
+id: nijigasaki/bitter-blue
+project: nijigasaki
+title:
+  ja: Bitter Blue
+  rom: Bitter Blue
+  ko: Bitter Blue
+credits:
+  lyricist:
+    - {person: nyanzonudeshi}
+    - {person: morito-yonezawa}
+    - {person: ryotaro}
+  composer:
+    - {person: nyanzonudeshi}
+    - {person: morito-yonezawa}
+    - {person: ryotaro}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ryotaro}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Bitter Blue (Off Vocal)
+      rom: Bitter Blue (Off Vocal)
+      ko: Bitter Blue (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ryotaro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+    checked: 2026-10-20

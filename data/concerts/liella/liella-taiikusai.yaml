@@ -1,0 +1,100 @@
+id: liella/liella-taiikusai
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! 結女体育祭
+  rom: Love Live! Superstar!! Liella! Yuijo Taiikusai
+  ko: 러브 라이브! 슈퍼스타!! Liella! 유이죠 체육대회
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-metropolitan-gymnasium-main-arena
+    performances:
+      - date: 2026-09-05
+        label: Day.1 Day
+        setlist:
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - {type: other, label: Competition}
+          - {type: other, label: 絶対的COSTUME}
+          - {type: other, label: ターゲットが揺らぐわ}
+          - {type: other, label: だから僕らは借りるんだ}
+          - {type: other, label: パン食らいず！Running Bakery}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|Day 1 (Day)'
+      - date: 2026-09-05
+        label: Day.1 Night
+        setlist:
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - {type: other, label: Competition}
+          - {type: other, label: 笑顔のポニーレース}
+          - {type: other, label: '一緒Day,真逆Way！'}
+          - {type: other, label: ファイティングボール}
+          - {type: other, label: 揃えてスコア！不可視なラブカ}
+          - work: aqours/aikotoba
+            performers:
+              - {artist: liella}
+          - {type: other, label: Announcements}
+        external_ids:
+          fandom: '|Day 1 (Night)'
+      - date: 2026-09-06
+        label: Day.2 Day
+        setlist:
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - {type: other, label: Competition}
+          - {type: other, label: Drawing Energy}
+          - {type: other, label: 1.2.3！綱引き}
+          - {type: other, label: 探して！ジェスチャー}
+          - {type: other, label: 未来のイントロが聴こえる}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+        external_ids:
+          fandom: '|Day 2 (Day)'
+      - date: 2026-09-06
+        label: Day.2 Night
+        setlist:
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - {type: other, label: Competition}
+          - {type: other, label: ビタミンANSWER！}
+          - {type: other, label: Dancing 玉入れ La-Pa-Pa-Pa!}
+          - {type: other, label: OPEN THE W☆VE!!!}
+          - {type: other, label: キャッキャ!みんなで影遊び}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - {type: other, label: Announcements}
+        external_ids:
+          fandom: '|Day 2 (Night)'
+external_ids:
+  fandom: Liella! Yuijo Taiikusai
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=taiikusai
+    checked: 2026-10-20
+    note: "rom: 공식 해외 배신 영문 그대로(Fandom과 같음). ko: 나무위키 문서명(문서명은 Liella 뒤 '!'가 빠져 있어 넣음). 기존 곡 번역 '체육제 대작전'과 달리 '체육대회' 외부 근거: rom: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=taiikusai ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%8A%88%ED%8D%BC%EC%8A%A4%ED%83%80!!%20Liella%20%EC%9C%A0%EC%9D%B4%EC%A3%A0%20%EC%B2%B4%EC%9C%A1%EB%8C%80%ED%9A%8C. 일정 조사 메모: A sports-festival event with songs (official 昼の部 14:00 / 夜の部 18:30 each day). Cheering representatives (応援代表): Sagara Mayu and Tanaka Chiemi of Nijigasaki on Day 1, Saito Shuka and Kobayashi Aika of Aqours on Day 2; Fandom shows them joining the closing song. projects lists only liella because no other group performs as a group; add nijigasaki/aqours if guest members should count. The official page prints the venue as 「東京・東京体育館 メインアリーナ」."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=taiikusai
+    checked: 2026-10-20
+  setlist.2026-09-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Yuijo_Taiikusai
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2026-09-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Liella!_Yuijo_Taiikusai
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

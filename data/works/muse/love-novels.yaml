@@ -1,0 +1,47 @@
+id: muse/love-novels
+project: muse
+title:
+  ja: ラブノベルス
+  rom: Love Novels
+  ko: 러브 노벨즈
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yugo-sasakura}
+recordings:
+  - id: original
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ラブノベルス (Off Vocal)
+      rom: Love Novels (Off Vocal)
+      ko: 러브 노벨즈 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yugo-sasakura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%83%A9%E3%83%96%E3%83%8E%E3%83%99%E3%83%AB%E3%82%B9 https://love-live.fandom.com/wiki/Love_Novels'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
+    checked: 2026-10-20

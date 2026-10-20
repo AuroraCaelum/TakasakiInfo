@@ -1,0 +1,49 @@
+id: liella/hyper-glowing
+project: liella
+title:
+  ja: Hyper Glowing！
+  rom: Hyper Glowing!
+  ko: Hyper Glowing!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yumika-ido}
+    - {person: kanato-imakiire}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yumika-ido}
+      - {person: kanato-imakiire}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Hyper Glowing！ (Off Vocal)
+      rom: Hyper Glowing! (Off Vocal)
+      ko: Hyper Glowing! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yumika-ido}
+      - {person: kanato-imakiire}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20

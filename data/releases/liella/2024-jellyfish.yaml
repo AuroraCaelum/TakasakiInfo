@@ -1,0 +1,46 @@
+id: liella/2024-jellyfish
+type: single
+title:
+  ja: Jellyfish
+projects: [liella]
+artist_credit:
+  - {artist: 5yncri5e}
+label: Lantis
+release_date: 2024-04-24
+editions:
+  - {id: e1, catalog: LACM-24592}
+discs:
+  - tracks:
+      - {no: 1, recording: liella/jellyfish#original}
+      - {no: 2, recording: liella/thank-you-good-morning#original}
+      - {no: 3, recording: liella/what-a-wonderful-dream#5yncri5e-ver}
+      - {no: 4, recording: liella/jellyfish#off-vocal}
+      - {no: 5, recording: liella/thank-you-good-morning#off-vocal}
+      - {no: 6, recording: liella/what-a-wonderful-dream#5yncri5e-ver-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_Kt0l4VJ0XYc
+    tracks:
+      1-1: 4WAoe8VlhXM
+      1-2: tDuEnVtfpH0
+      1-3: Eet2RH9Q-ks
+links:
+  official: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+legacy:
+  category: Liella
+  albums:
+    - {title: Jellyfish}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    checked: 2026-10-19
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
+    checked: 2026-10-19
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Kt0l4VJ0XYc
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

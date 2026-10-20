@@ -1,0 +1,110 @@
+id: aqours/aqours-finale
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～
+  rom: Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~
+  ko: 러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: belluna-dome
+    performances:
+      - date: 2025-06-21
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/dreamy-color}
+          - {work: aqours/gemstone-de-a-i}
+          - {work: aqours/step-zero-to-one}
+          - {work: aqours/todoka-nai-hoshi-da-to-shi-te-mo}
+          - {type: mc}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/deep-blue}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - {work: aqours/thrilling-one-way}
+          - {type: video}
+          - {type: other, label: TV Anime Season 1 Special Medley}
+          - {work: aqours/aozora-jumping-heart}
+          - {work: aqours/kimetayo-hand-in-hand}
+          - {work: aqours/daisuki-dattara-daijoubu}
+          - {work: aqours/yume-de-yozora-wo-terashitai}
+          - {work: aqours/mijuku-dreamer}
+          - {work: aqours/omoi-yo-hitotsu-ni-nare}
+          - {work: aqours/mirai-ticket}
+          - {type: video}
+          - {work: aqours/happy-party-train}
+          - {work: aqours/bokura-no-umi-de-mata-aou}
+          - {work: aqours/bokura-no-tabi-wa-owaranai}
+          - {work: aqours/mitaiken-horizon}
+          - {type: video}
+          - {work: aqours/brightest-melody}
+          - {work: aqours/sakura-saku-kokoro-saku}
+          - {work: aqours/eikyu-hours}
+          - {type: encore, label: Encore}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {type: mc}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {type: other, label: Credits}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2025-06-22
+        setlist:
+          - {type: video, label: Opening}
+          - {work: aqours/dreamy-color}
+          - {work: aqours/gemstone-de-a-i}
+          - {work: aqours/aqours-heroes}
+          - {work: aqours/todoka-nai-hoshi-da-to-shi-te-mo}
+          - {type: mc}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/deep-blue}
+          - {work: aqours/daydream-warrior}
+          - {work: aqours/thrilling-one-way}
+          - {type: video}
+          - {type: other, label: TV Anime Season 2 Special Medley}
+          - {work: aqours/mirai-no-bokura-wa-shitteru-yo}
+          - {work: aqours/my-mai-tonight}
+          - {work: aqours/miracle-wave}
+          - {work: aqours/sora-mo-kokoro-mo-hareru-kara}
+          - {work: aqours/water-blue-new-world}
+          - {work: aqours/wonderful-stories}
+          - {work: aqours/kiseki-hikaru}
+          - {type: video}
+          - {work: aqours/happy-party-train}
+          - {work: aqours/bokura-no-umi-de-mata-aou}
+          - {work: aqours/bokura-no-tabi-wa-owaranai}
+          - {work: aqours/mitaiken-horizon}
+          - {type: video}
+          - {work: aqours/brightest-melody}
+          - {work: aqours/sakura-saku-kokoro-saku}
+          - {work: aqours/eikyu-hours}
+          - {type: encore, label: Encore}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {type: mc}
+          - {work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni}
+          - {type: other, label: Credits}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours Finale LoveLive! ~Eikyuu stage~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale
+    checked: 2026-10-20
+    note: "rom: 공식 페이지에 실린 영문은 해외 투어 패키지 안내의 'LoveLive! Sunshine!! … ～EIKYU stage～'뿐이라 따름. 시리즈명만 고정형 Love Live! Sunshine!!로(다른 선샤인 공연과 같음). ~EIKYU stage~는 공식 표기대로(테마곡 rom도 EIKYU hours). 대안은 Fandom 'Love Live! Sunshine!! Aqours Finale LoveLive! ~Eikyuu stage~'(테마곡 rom 'Eikyuu hours'와 맞음). ko: 나무위키는 永久stage를 한자 그대로 둬서 번역함. 테마곡 ko 초안 '영구hours'와 맞춤 외부 근거: rom: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale ko: 번역안"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale
+    checked: 2026-10-20
+  setlist.2025-06-21:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Finale_LoveLive!_~Eikyuu_stage~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-06-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_Finale_LoveLive!_~Eikyuu_stage~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

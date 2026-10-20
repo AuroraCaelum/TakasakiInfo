@@ -1,0 +1,486 @@
+id: muse/anime-10th-anniversary
+projects: [muse]
+status: performed
+title:
+  ja: TVアニメ放送10周年記念 LoveLive!
+  rom: Love Live! Anime 10th Anniversary
+  ko: TV 애니메이션 방송 10주년 기념 LoveLive!
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: Special Talk Session
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2024-02-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-wa-ima-no-naka-de
+            version: TV size
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: other, label: Medley}
+          - {work: muse/wonder-zone}
+          - {work: muse/love-wing-bell}
+          - {work: muse/kira-kira-sensation}
+          - {work: muse/kitto-seishun-ga-kikoeru}
+          - {type: mc}
+          - work: muse/no-brand-girls
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+        external_ids:
+          fandom: Special Talk Session|Day 1
+      - date: 2024-02-24
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-wa-ima-no-naka-de
+            version: TV size
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: other, label: Medley}
+          - {work: muse/susume-tomorrow}
+          - {work: muse/yume-no-tobira}
+          - {work: muse/happy-maker}
+          - {work: muse/kitto-seishun-ga-kikoeru}
+          - {type: mc}
+          - work: muse/no-brand-girls
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+        external_ids:
+          fandom: Special Talk Session|Day 2 (Day Performance)
+      - date: 2024-02-24
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-wa-ima-no-naka-de
+            version: TV size
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: talk, label: Talk Session}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: other, label: Medley}
+          - {work: muse/start-dash}
+          - {work: muse/korekara-no-someday}
+          - {work: muse/dancing-stars-on-me}
+          - {work: muse/donna-toki-mo-zutto}
+          - {type: mc}
+          - work: muse/no-brand-girls
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+        external_ids:
+          fandom: Special Talk Session|Day 2 (Night Performance)
+  - id: 2-tokyo
+    city: tokyo
+    label: Overseas Events Kick-Off Meeting
+    venue: yebisu-the-garden-hall
+    performances:
+      - date: 2024-02-25
+        label: Noon
+        setlist:
+          - {type: video, label: Opening}
+          - {type: talk, label: Talk Session}
+          - work: muse/daring
+            performers:
+              - {character: muse/maki-nishikino}
+          - work: muse/someday-of-my-life
+            performers:
+              - {character: muse/honoka-kosaka}
+          - {type: mc}
+          - {type: other, label: Medley}
+          - {work: muse/susume-tomorrow}
+          - {work: muse/yume-no-tobira}
+          - {work: muse/happy-maker}
+          - {work: muse/kitto-seishun-ga-kikoeru}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+        external_ids:
+          fandom: Overseas Events Kick-Off Meeting|Day Performance
+      - date: 2024-02-25
+        label: Evening
+        setlist:
+          - {type: video, label: Opening}
+          - {type: talk, label: Talk Session}
+          - work: muse/mou-hitori-ja-nai-yo
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/daring
+            performers:
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - {type: other, label: Medley}
+          - {work: muse/start-dash}
+          - {work: muse/korekara-no-someday}
+          - {work: muse/dancing-stars-on-me}
+          - {work: muse/donna-toki-mo-zutto}
+          - {type: mc}
+          - work: muse/mi-wa-sic-no-mi
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: encore, label: Encore}
+          - {type: mc}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/maki-nishikino}
+          - {type: mc}
+        external_ids:
+          fandom: Overseas Events Kick-Off Meeting|Night Performance
+  - id: 3-kanagawa
+    city: kanagawa
+    label: Orchestra Concert
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2024-03-30
+        setlist:
+          - {work: muse/hajimari-no-asa-main-theme}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {work: muse/private-wars}
+          - {work: muse/zetsubou}
+          - {work: muse/aishiteru-banzai}
+          - {work: muse/osanaki-hi-no-yuuhi}
+          - {work: muse/susume-tomorrow}
+          - {work: muse/kimazui-kuuki}
+          - {work: muse/urei-no-yuugure}
+          - {work: muse/start-dash, version: Piano ver.}
+          - {work: muse/yuujou}
+          - {work: muse/sakusen-kaishi}
+          - {work: muse/daremo-inai}
+          - {work: muse/start-dash}
+          - {work: muse/hanayo-no-ketsui}
+          - {work: muse/tsuyoki-mono}
+          - {work: muse/nico-no-kako}
+          - {work: muse/korekara-no-someday}
+          - {work: muse/sugisarishi-hibi}
+          - {work: muse/eli-no-yaritai-koto}
+          - {work: muse/s-no-hajimari}
+          - {work: muse/bokura-no-live-kimi-to-no-life}
+          - {work: muse/taisetsu-na-mono}
+          - {work: muse/wonder-zone}
+          - {work: muse/gyakkyou-kara-no-start}
+          - {work: muse/no-brand-girls}
+          - {work: muse/miren}
+          - {work: muse/hanarebanare}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/start-dash}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: other, label: Interval}
+          - {work: muse/shin-seito-kaichou-toujou}
+          - {work: muse/koremade-no-love-live, version: ミュージカルver.}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {work: muse/taihen-desu}
+          - {work: muse/itsumo-donna-toki-mo-zen-in-no-tame-ni}
+          - {work: muse/shocking-party}
+          - {work: muse/yume-no-tobira}
+          - {work: muse/rin-no-tomadoi}
+          - {work: muse/love-wing-bell}
+          - {work: muse/halloween-street}
+          - {work: muse/karoyaka-na-hirusagari-b}
+          - {work: muse/dancing-stars-on-me}
+          - {work: muse/nozomi-no-mune-no-uchi}
+          - {work: muse/minna-ga-sasaete-kureru}
+          - {work: muse/yuki-no-furu-machi}
+          - {work: muse/snow-halation}
+          - {work: muse/sugu-saki-ni-aru-mirai}
+          - {work: muse/kanashimi-no-yoru}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/love-live-kesshou}
+          - {work: muse/kira-kira-sensation}
+          - {work: muse/yume-no-ato}
+          - {work: muse/bokura-wa-ima-no-naka-de}
+          - {work: muse/aishiteru-banzai}
+          - {work: muse/oh-love-peace}
+          - {work: muse/happy-maker}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: video}
+          - work: muse/snow-halation
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: mc}
+        external_ids:
+          fandom: Orchestra Concert|Day 1
+      - date: 2024-03-31
+        setlist:
+          - {work: muse/hajimari-no-asa-main-theme}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {work: muse/private-wars}
+          - {work: muse/zetsubou}
+          - {work: muse/aishiteru-banzai}
+          - {work: muse/osanaki-hi-no-yuuhi}
+          - {work: muse/susume-tomorrow}
+          - {work: muse/kimazui-kuuki}
+          - {work: muse/urei-no-yuugure}
+          - {work: muse/start-dash, version: Piano ver.}
+          - {work: muse/yuujou}
+          - {work: muse/sakusen-kaishi}
+          - {work: muse/daremo-inai}
+          - {work: muse/start-dash}
+          - {work: muse/hanayo-no-ketsui}
+          - {work: muse/tsuyoki-mono}
+          - {work: muse/nico-no-kako}
+          - {work: muse/korekara-no-someday}
+          - {work: muse/sugisarishi-hibi}
+          - {work: muse/eli-no-yaritai-koto}
+          - {work: muse/s-no-hajimari}
+          - {work: muse/bokura-no-live-kimi-to-no-life}
+          - {work: muse/taisetsu-na-mono}
+          - {work: muse/wonder-zone}
+          - {work: muse/gyakkyou-kara-no-start}
+          - {work: muse/no-brand-girls}
+          - {work: muse/miren}
+          - {work: muse/hanarebanare}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/start-dash}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: other, label: Interval}
+          - {work: muse/shin-seito-kaichou-toujou}
+          - {work: muse/koremade-no-love-live, version: ミュージカルver.}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {work: muse/taihen-desu}
+          - {work: muse/itsumo-donna-toki-mo-zen-in-no-tame-ni}
+          - {work: muse/shocking-party}
+          - {work: muse/yume-no-tobira}
+          - {work: muse/rin-no-tomadoi}
+          - {work: muse/love-wing-bell}
+          - {work: muse/halloween-street}
+          - {work: muse/karoyaka-na-hirusagari-b}
+          - {work: muse/dancing-stars-on-me}
+          - {work: muse/nozomi-no-mune-no-uchi}
+          - {work: muse/minna-ga-sasaete-kureru}
+          - {work: muse/yuki-no-furu-machi}
+          - {work: muse/snow-halation}
+          - {work: muse/sugu-saki-ni-aru-mirai}
+          - {work: muse/kanashimi-no-yoru}
+          - {work: muse/hajimari-no-asa-main-theme}
+          - {work: muse/love-live-kesshou}
+          - {work: muse/kira-kira-sensation}
+          - {work: muse/yume-no-ato}
+          - {work: muse/bokura-wa-ima-no-naka-de}
+          - {work: muse/aishiteru-banzai}
+          - {work: muse/oh-love-peace}
+          - {work: muse/happy-maker}
+          - work: muse/donna-toki-mo-zutto
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: video}
+          - work: muse/snow-halation
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/nozomi-tojo}
+          - {type: mc}
+        external_ids:
+          fandom: Orchestra Concert|Day 2
+  - id: 4-kanagawa
+    city: kanagawa
+    label: Orchestra Concert (Revival)
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - {date: 2025-01-04}
+      - {date: 2025-01-05}
+external_ids:
+  fandom: Love Live! Anime 10th Anniversary
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    checked: 2026-10-20
+    note: "rom: 공식 페이지 해외 안내의 'Love Live! Anime 10th Anniversary Special Talk Session / Orchestra Concert'에서 공통 부분(Fandom과 같음). ko: 나무위키 표기 'TV 애니메이션 방송 10주년 기념'(나무위키는 앞에 '러브 라이브!'를 붙임) 외부 근거: rom: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/ ko: https://namu.wiki/w/LoveLive!%20Orchestra%20Concert. 일정 조사 메모: No umbrella title is printed: the official events are 「TVアニメ放送10周年記念 LoveLive! Special Talk Session」, 「TVアニメ放送10周年記念 LoveLive! Orchestra Concert」 (and its ＜再演＞) and the kick-off 「TV アニメ放送10 周年記念 「LoveLive! Overseas Events」キックオフミーティング」; title_ja uses their common prefix (= Fandom's Nihongo). VENUE CONFLICT: Fandom puts the Kick-Off Meeting at Tokyo Garden Theater, but its official page (lovelive-overseas.bitfan.id, organizer SPACEY MUSIC ENTERTAINMENT, Project Love Live! cooperation) gives 恵比寿ザ・ガーデンホール, 2024-02-25, 1部 13:00 / 2部 17:00 (printed with Kangxi-radical 「恵⽐寿」, normalized); en_fandom left null for it. Special Talk Session labels follow the official English (DAY / NIGHT on Day.2). The Orchestra Concert revival (2025-01-04/05, same venue, official page) has no Fandom tab, so it is listed without fandom."
+  schedule.1-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    checked: 2026-10-20
+  schedule.2-tokyo:
+    status: official
+    source: https://lovelive-overseas.bitfan.id/contents/146239
+    checked: 2026-10-20
+  schedule.3-kanagawa:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    checked: 2026-10-20
+  schedule.4-kanagawa:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/event/10thanniversary/
+    checked: 2026-10-20
+  setlist.2024-02-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Anime_10th_Anniversary
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-02-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Anime_10th_Anniversary
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-02-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Anime_10th_Anniversary
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-03-30:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Anime_10th_Anniversary
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2024-03-31:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Love_Live!_Anime_10th_Anniversary
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

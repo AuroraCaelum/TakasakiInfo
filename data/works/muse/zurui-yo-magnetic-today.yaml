@@ -1,0 +1,54 @@
+id: muse/zurui-yo-magnetic-today
+project: muse
+title:
+  ja: ずるいよMagnetic today
+  rom: Zurui yo Magnetic today
+  ko: 치사해 Magnetic today
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kensuke-okamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/maki-nishikino}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: kensuke-okamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=vHDKPMajBc4
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ずるいよMagnetic today (Off Vocal)
+      rom: Zurui yo Magnetic today (Off Vocal)
+      ko: 치사해 Magnetic today (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kensuke-okamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9A%E3%82%8B%E3%81%84%E3%82%88Magnetic%20today https://love-live.fandom.com/wiki/Zurui_yo_Magnetic_today'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=vHDKPMajBc4
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

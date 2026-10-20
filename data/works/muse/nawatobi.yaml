@@ -1,0 +1,55 @@
+id: muse/nawatobi
+project: muse
+title:
+  ja: なわとび
+  rom: Nawatobi
+  ko: 줄넘기
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: rino}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: yoshihisa-fujita}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=gQkBk9FUUo8
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: なわとび (Off Vocal)
+      rom: Nawatobi (Off Vocal)
+      ko: 줄넘기 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yoshihisa-fujita}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/
+        checked: 2026-10-20
+        note: '가창: 공식 BD BOX 페이지의 곡 목록'
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd03
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%AA%E3%82%8F%E3%81%A8%E3%81%B3 https://love-live.fandom.com/wiki/Nawatobi'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=gQkBk9FUUo8
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

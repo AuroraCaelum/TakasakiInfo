@@ -1,0 +1,83 @@
+id: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-takami-chika
+type: album
+title:
+  ja: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Takami Chika
+  rom: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Takami Chika
+  ko: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Takami Chika
+projects: [aqours]
+artist_credit:
+  - {character: aqours/chika-takami}
+label: Lantis
+release_date: 2021-08-01
+editions:
+  - {id: e1, catalog: LACA-9831~2}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/aozora-jumping-heart#chika-takami-solo}
+      - {no: 2, recording: aqours/humming-friend#chika-takami-solo}
+      - {no: 3, recording: aqours/kimetayo-hand-in-hand#chika-takami-solo}
+      - {no: 4, recording: aqours/daisuki-dattara-daijoubu#chika-takami-solo}
+      - {no: 5, recording: aqours/yume-de-yozora-wo-terashitai#chika-takami-solo}
+      - {no: 6, recording: aqours/mijuku-dreamer#chika-takami-solo}
+      - {no: 7, recording: aqours/omoi-yo-hitotsu-ni-nare#chika-takami-solo}
+      - {no: 8, recording: aqours/mirai-ticket#chika-takami-solo}
+      - {no: 9, recording: aqours/sunshine-pikkapika-ondo#chika-takami-solo}
+      - {no: 10, recording: aqours/yume-kataruyori-yume-utaou#chika-takami-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/mirai-no-bokura-wa-shitteru-yo#chika-takami-solo}
+      - {no: 2, recording: aqours/kimi-no-hitomi-o-meguru-boken#chika-takami-solo}
+      - {no: 3, recording: aqours/my-mai-tonight#chika-takami-solo}
+      - {no: 4, recording: aqours/miracle-wave#chika-takami-solo}
+      - {no: 5, recording: aqours/water-blue-new-world#chika-takami-solo}
+      - {no: 6, recording: aqours/wonderful-stories#chika-takami-solo}
+      - {no: 7, recording: aqours/my-list-to-you#chika-takami-solo}
+      - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#chika-takami-solo}
+      - {no: 9, recording: aqours/okawari-happy-life#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_4I3ui51xxPU
+    tracks:
+      1-1: Jc1UX97OlAk
+      1-2: bTzA4-buDwE
+      1-3: TVkFZpvxd9Q
+      1-4: lU8FhO8AJu8
+      1-5: iiGgfihSHaw
+      1-6: _ySfd9ajQ94
+      1-7: 3-5cA6emgKs
+      1-8: aFx9F2NdhzE
+      1-9: --vXAOJlUms
+      1-10: Kh5RxQOShpI
+      2-1: vggc4ZfZRCg
+      2-2: -ibKrcP4lQ8
+      2-3: 0F4axNu2HmU
+      2-4: 305Xdx54rkU
+      2-5: 1kRr3j14arQ
+      2-6: hokpoGtgapk
+      2-7: gFHxQhY8tZU
+      2-8: Cw79nau7cic
+      2-9: 0AUYA-yxDQo
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Takami Chika, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

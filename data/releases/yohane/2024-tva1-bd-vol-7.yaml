@@ -1,0 +1,38 @@
+id: yohane/2024-tva1-bd-vol-7
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.7
+  rom: TVA1 BD Vol.7
+  ko: TVA1 BD Vol.7
+projects: [yohane]
+release_date: 2024-03-27
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1869
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/blooming-memories-the-sound-of-the-heart#main}
+      - {no: 2, recording: yohane/bloom-of-colors#original}
+      - {no: 3, recording: yohane/bloom-of-colors#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=7
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.7}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=7
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=7
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=7
+    checked: 2026-10-20

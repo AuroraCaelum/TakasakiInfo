@@ -1,0 +1,625 @@
+id: aqours/aqours-6th
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours 6th LoveLive! ～KU-RU-KU-RU Rock 'n' Roll TOUR～
+  rom: Love Live! Sunshine!! Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
+  ko: 러브 라이브! 선샤인!! Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
+stops:
+  - id: 1-aichi
+    city: aichi
+    label: OCEAN STAGE
+    venue: vantelin-dome-nagoya
+    performances:
+      - date: 2022-02-12
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/my-list-to-you
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - {work: aqours/namida-ga-yuki-ni-naru-mae-ni}
+          - {work: aqours/misty-frosty-love}
+          - {work: aqours/kimochi-mo-yume-mo-issho-da-ne}
+          - {work: aqours/party-party-papapaparty}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/happy-party-train}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/mitaiken-horizon}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {work: aqours/ku-ru-ku-ru-cruller}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/bouken-type-a-b-c
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/namida
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/not-alone-not-hitori
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: OCEAN STAGE|Day 1
+      - date: 2022-02-13
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - {work: aqours/namida-ga-yuki-ni-naru-mae-ni}
+          - {work: aqours/kimochi-mo-yume-mo-issho-da-ne}
+          - {work: aqours/misty-frosty-love}
+          - {work: aqours/party-party-papapaparty}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/happy-party-train}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/mitaiken-horizon}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {work: aqours/ku-ru-ku-ru-cruller}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/bouken-type-a-b-c
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/namida
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/not-alone-not-hitori
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: OCEAN STAGE|Day 2
+  - id: 2-saitama
+    city: saitama
+    label: SUNNY STAGE
+    venue: belluna-dome
+    performances:
+      - date: 2022-03-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/my-list-to-you
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/pure-phrase
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/never-giving-up
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/totsuzen-girl
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/perfect-sekai
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/happy-party-train}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/mitaiken-horizon}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {work: aqours/ku-ru-ku-ru-cruller}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/namida
+            performers:
+              - {artist: aqours}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/not-alone-not-hitori
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: SUNNY STAGE|Day 1
+      - date: 2022-03-06
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/cotton-candy-ei-ei-oh
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/akogare-ranraran
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/tatehoko-tsubasa
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/motto-ne
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/shiny-racers
+            performers:
+              - {character: aqours/mari-ohara}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
+          - {work: aqours/koi-ni-naritai-aquarium}
+          - {work: aqours/happy-party-train}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Rock Medley Intermission}
+          - {work: aqours/mitaiken-horizon}
+          - {work: aqours/yume-kataruyori-yume-utaou}
+          - {work: aqours/ku-ru-ku-ru-cruller}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/namida
+            performers:
+              - {artist: aqours}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: nijigasaki/not-alone-not-hitori
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: SUNNY STAGE|Day 2
+  - id: 3-tokyo
+    city: tokyo
+    label: WINDY STAGE
+    venue: tokyo-dome
+    performances:
+      - date: 2022-06-25
+        setlist:
+          - work: aqours/main-theme-of-lovelive-sunshine
+            performers:
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/nando-datte-yakusoku
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/mitaiken-horizon
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/okawari-happy-life
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/love-spiral-tower
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/1star
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/motto-zutto-be-with-you
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/zenkai-no-love-live-sunshine
+            performers:
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: video, label: Kyou no Aqours intermission}
+          - {type: video, label: Orchestral intermission}
+          - {type: other, label: Maiorita Kiseki (舞い降りた奇跡)}
+          - {type: other, label: Kagayaki o Mezashite (輝きを目指して)}
+          - {type: other, label: Hello New Season!}
+          - {type: other, label: 'Buon giorno, Italia!'}
+          - {type: other, label: Atarashii Aqours o Mitsuketai (新しいAqoursを見つけたい)}
+          - {type: other, label: 'Riko no Omoi, Chika no Omoi (梨子の想い、千歌の想い)'}
+          - work: aqours/kokoro-magic-a-to-z
+            performers:
+              - {artist: aqours}
+          - work: aqours/gemstone-de-a-i
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/next-sparkling
+            performers:
+              - {artist: aqours}
+          - work: aqours/i-n-g-i-try
+            performers:
+              - {artist: aqours}
+          - work: aqours/zenkai-no-love-live-sunshine
+            performers:
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: video, label: Kyou no Aqours intermission}
+          - {type: video, label: Orchestral intermission}
+          - {type: other, label: DETERMINATION}
+          - {type: other, label: ONE FOR ALL}
+          - {type: other, label: Everything is here}
+          - {type: other, label: Okosou Kiseki o! (起こそうキセキを！)}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/kokoro-no-hane-yo-kimi-e-tondeke
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: encore, label: Encore}
+          - {type: video, label: Kyou no Aqours intermission}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: WINDY STAGE|Day 1
+      - date: 2022-06-26
+        setlist:
+          - work: aqours/main-theme-of-lovelive-sunshine
+            performers:
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/nando-datte-yakusoku
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/mitaiken-horizon
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/future-flight
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/run-kakeru-run
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/yaa-kouunryuusui
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/paradise-chime
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/love-is-all-i-sing-love-is-all
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/meimei-tantei-yohane
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: video, label: Kyou no Aqours intermission}
+          - {type: video, label: Orchestral intermission}
+          - {type: other, label: Minna de FuriMa! (みんなでフリマ！)}
+          - {type: other, label: Gentenkaiki de Mou Ichido (原点回帰でもう一度)}
+          - {type: other, label: Kitaguni no Sora (北国の空)}
+          - {type: other, label: Circle of Friendship}
+          - {type: other, label: Watashitachi no Kagayaki wa Soko ni (私たちの輝きはそこに)}
+          - work: aqours/kokoro-magic-a-to-z
+            performers:
+              - {artist: aqours}
+          - work: aqours/gemstone-de-a-i
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/next-sparkling
+            performers:
+              - {artist: aqours}
+          - work: aqours/i-n-g-i-try
+            performers:
+              - {artist: aqours}
+          - {type: video, label: Kyou no Aqours intermission}
+          - {type: video, label: Orchestral intermission}
+          - {type: other, label: DETERMINATION}
+          - {type: other, label: ONE FOR ALL}
+          - {type: other, label: Everything is here}
+          - {type: other, label: Okosou Kiseki o! (起こそうキセキを！)}
+          - work: aqours/ku-ru-ku-ru-cruller
+            performers:
+              - {artist: aqours}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/kiseki-hikaru
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: encore, label: Encore}
+          - {type: video, label: Kyou no Aqours intermission}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+          - {type: mc}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+          - {type: double_encore, label: Double Encore}
+          - {type: mc}
+          - work: aqours/nando-datte-yakusoku
+            performers:
+              - {artist: aqours}
+              - {artist: uranohoshi-symphony-orchestra}
+        external_ids:
+          fandom: WINDY STAGE|Day 2
+external_ids:
+  fandom: Aqours 6th LoveLive! ~KU-RU-KU-RU Rock 'n' Roll TOUR~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php
+    checked: 2026-10-20
+    note: "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: The official pages print the apostrophes as ASCII ('n'), the Fandom title_ja uses ‘n’. WINDY STAGE was announced as an additional show (追加公演) and has its own page (sp_6thlive_w.php). The original 「Aqours 6th LoveLive! DOME TOUR 2020」 (Nagoya/Saitama/Tokyo/Fukuoka/Osaka, 2020-09 to 2021-01, sp_dometour.php) was cancelled and is not included."
+  schedule.1-aichi:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php
+    checked: 2026-10-20
+  schedule.2-saitama:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive.php
+    checked: 2026-10-20
+  schedule.3-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_6thlive_w.php
+    checked: 2026-10-20
+  setlist.2022-02-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-02-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-03-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-03-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-06-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_6th_LoveLive!_~KU-RU-KU-RU_Rock_'n'_Roll_TOUR~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

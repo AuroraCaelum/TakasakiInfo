@@ -1,0 +1,50 @@
+id: nijigasaki/savotina
+project: nijigasaki
+title:
+  ja: SAVOTINA!!
+  rom: SAVOTINA!!
+  ko: SAVOTINA!!
+credits:
+  lyricist:
+    - {person: konnie-aoki}
+  composer:
+    - {person: bfnk}
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: bfnk}
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: SAVOTINA!! (Off Vocal)
+      rom: SAVOTINA!! (Off Vocal)
+      ko: SAVOTINA!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: bfnk}
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
+    checked: 2026-10-20

@@ -1,0 +1,61 @@
+id: muse/cutie-panther
+project: muse
+title:
+  ja: Cutie Panther
+  rom: Cutie Panther
+  ko: Cutie Panther
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: hiroshi-sasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Cutie Panther (Off Vocal)
+      rom: Cutie Panther (Off Vocal)
+      ko: Cutie Panther (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hiroshi-sasaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+        checked: 2026-10-20
+  - id: metal-panther-mix
+    title:
+      ja: Cutie Panther (Metal-Panther Mix)
+      rom: Cutie Panther (Metal-Panther Mix)
+      ko: Cutie Panther (Metal-Panther Mix)
+    version: Metal-Panther Mix
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: ryo-takahashi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
+    checked: 2026-10-20

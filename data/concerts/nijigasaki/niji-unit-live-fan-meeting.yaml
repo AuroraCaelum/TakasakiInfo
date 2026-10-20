@@ -1,0 +1,466 @@
+id: nijigasaki/niji-unit-live-fan-meeting
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 UNIT LIVE & FAN MEETING
+  rom: Love Live! Nijigasaki High School Idol Club UNIT LIVE & FAN MEETING
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 UNIT LIVE & FAN MEETING
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    label: Vol.1 DiverDiva ~Big Bang~
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2021-09-11
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/power-spot
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/saika
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/fly-into-the-sky
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+        external_ids:
+          fandom: '|~Big Bang~'
+      - date: 2021-09-12
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/power-spot
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/saika
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/fly-into-the-sky
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - {type: video}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/meccha-going
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+          - work: nijigasaki/love-triangle
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: diverdiva}
+          - {type: mc}
+        external_ids:
+          fandom: '|~Big Bang~'
+  - id: 2-chiba
+    city: chiba
+    label: Vol.2 QU4RTZ ~Sweet Cafe~
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2021-10-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/make-up-session-abc
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/not-sad
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: qu4rtz}
+          - {work: nijigasaki/sing-smile}
+          - {type: video}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/margaret
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/aion-no-uta
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: qu4rtz}
+        external_ids:
+          fandom: '|~Sweet Café~'
+      - date: 2021-10-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/beautiful-moonlight
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/twinkle-town
+            performers:
+              - {artist: qu4rtz}
+          - {type: mc}
+          - work: nijigasaki/make-up-session-abc
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/not-sad
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: qu4rtz}
+          - {work: nijigasaki/sing-smile}
+          - {type: video}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/margaret
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/analog-heart
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/aion-no-uta
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - {type: mc}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: qu4rtz}
+        external_ids:
+          fandom: '|~Sweet Café~'
+  - id: 3-chiba
+    city: chiba
+    label: Vol.3 A・ZU・NA ~The Night Before~
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2021-10-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/kakushiaji
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - {type: other, label: Ghost DJ Time}
+          - work: nijigasaki/yagate-hitotsu-no-monogatari
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/say-good-bye-namida
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/shizuku-osaka}
+          - {type: video}
+          - work: nijigasaki/folklore-kanki-no-uta
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: a-zu-na}
+        external_ids:
+          fandom: '|~The Night Before~'
+      - date: 2021-10-24
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/kakushiaji
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/cheer-for-you
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {artist: a-zu-na}
+          - {type: other, label: Ghost DJ Time}
+          - work: nijigasaki/yagate-hitotsu-no-monogatari
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/like-it-love-it
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/say-good-bye-namida
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/shizuku-osaka}
+          - {type: video}
+          - work: nijigasaki/folklore-kanki-no-uta
+            performers:
+              - {artist: a-zu-na}
+          - {type: mc}
+          - work: nijigasaki/dream-land-dream-world
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: a-zu-na}
+        external_ids:
+          fandom: '|~The Night Before~'
+  - id: 4-tokyo
+    city: tokyo
+    label: Vol.4 R3BIRTH ~First DELIGHT~
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2022-01-22
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: r3birth}
+          - {type: other, label: Dance Break}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+        external_ids:
+          fandom: '|~First DELIGHT~'
+      - date: 2022-01-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/ketsui-no-hikari
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/queendom
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: video}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/zensoku-dreamer
+            performers:
+              - {artist: r3birth}
+          - {type: other, label: Dance Break}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: r3birth}
+          - {type: mc}
+        external_ids:
+          fandom: '|~First DELIGHT~'
+external_ids:
+  fandom: Nijigasaki High School Idol Club UNIT LIVE & FAN MEETING
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_unitlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: Each Fandom tab covers both days of its volume (Fandom trivia: "No changes were made to the setlist on either day for all four concerts"), so each tab is mapped to both performances. Official volume titles: 「UNIT LIVE & FAN MEETING vol.1 DiverDiva 〜Big Bang〜」, 「vol.2 QU4RTZ 〜Sweet Cafe〜」, 「vol.3 A・ZU・NA 〜The Night Before〜」, 「vol.4 R3BIRTH 〜First DELIGHT〜」. 幕張メッセイベントホール is the same hall the 2025 Kougai Gakushuu page prints as 幕張イベントホール.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_unitlive.php
+    checked: 2026-10-20
+  setlist.2021-09-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-09-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-10-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-10-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-10-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-10-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-01-22:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2022-01-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_UNIT_LIVE_&_FAN_MEETING
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

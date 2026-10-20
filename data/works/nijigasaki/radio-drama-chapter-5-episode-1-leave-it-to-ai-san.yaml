@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-5-episode-1-leave-it-to-ai-san
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ5章1話 愛さんにお任せ！
+  rom: Radio Drama Chapter 5 Episode 1 Leave it to Ai-san!
+  ko: 라디오 드라마 5장 1화 아이 씨에게 맡겨!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). 愛さん(아이의 일인칭)은 나무위키 미야시타 아이 문서의 아이 씨, rom은 Ai-san 외부 근거: https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EC%8B%9C%ED%83%80%20%EC%95%84%EC%9D%B4'

@@ -1,0 +1,52 @@
+id: yohane/special-holidays
+project: yohane
+title:
+  ja: Special Holidays
+  rom: Special Holidays
+  ko: Special Holidays
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: yuuki-sano}
+    - {person: takarot}
+    - {person: shoma-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/chika}
+      - {character: yohane/you}
+      - {character: yohane/kanan}
+    arranger:
+      - {person: shoma-yamamoto}
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=4
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Special Holidays (Off Vocal)
+      rom: Special Holidays (Off Vocal)
+      ko: Special Holidays (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shoma-yamamoto}
+      - {person: takarot}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/detail/?id=4
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=4
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=4
+    checked: 2026-10-20

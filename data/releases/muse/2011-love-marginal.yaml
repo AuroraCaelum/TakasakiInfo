@@ -1,0 +1,42 @@
+id: muse/2011-love-marginal
+type: single
+title:
+  ja: Love marginal
+projects: [muse]
+artist_credit:
+  - {artist: printemps}
+release_date: 2011-05-25
+discs:
+  - tracks:
+      - {no: 1, recording: muse/love-marginal#original}
+      - {no: 2, recording: muse/sweet-sweet-holiday#original}
+      - {no: 3, recording: muse/love-marginal#off-vocal}
+      - {no: 4, recording: muse/sweet-sweet-holiday#off-vocal}
+      - {no: 5, recording: muse/the-handshake-meeting-we-want-to-do#main}
+streaming:
+  - browse_id: MPREb_d1JNJtdnsWI
+    tracks:
+      1-1: -MY-9-VbBXc
+      1-2: 4vLEcyzdb1E
+      1-3: e5-RUc44W54
+      1-4: QzLtkTUGMuo
+links:
+  official: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+legacy:
+  category: Muse
+  albums:
+    - {title: Love marginal}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_d1JNJtdnsWI
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

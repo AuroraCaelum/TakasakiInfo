@@ -51,6 +51,10 @@ def _performer(ds: Dataset, p: m.Performer) -> dict[str, Any]:
     out = _ref_names(ds, *p.ref)
     if p.role:
         out["role"] = _ref_names(ds, "character", p.role)
+    if p.featured:
+        out["featured"] = True  # the credit prints it after "feat." (D48)
+    if p.joint:
+        out["joint"] = True  # one of the performers of a joint name, printed joined with "・" (D48)
     return out
 
 

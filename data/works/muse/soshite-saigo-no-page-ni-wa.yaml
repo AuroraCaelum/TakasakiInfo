@@ -1,0 +1,53 @@
+id: muse/soshite-saigo-no-page-ni-wa
+project: muse
+title:
+  ja: そして最後のページには
+  rom: Soshite Saigo no Page ni wa
+  ko: 그리고 마지막 페이지에는
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd07
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=Z_yXV_u9omY
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: そして最後のページには (Off Vocal)
+      rom: Soshite Saigo no Page ni wa (Off Vocal)
+      ko: 그리고 마지막 페이지에는 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd07
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd07
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%9D%E3%81%97%E3%81%A6%E6%9C%80%E5%BE%8C%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AB%E3%81%AF https://love-live.fandom.com/wiki/Soshite_Saigo_no_Page_ni_wa'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=Z_yXV_u9omY
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

@@ -1,0 +1,47 @@
+id: muse/fuyu-ga-kureta-yokan
+project: muse
+title:
+  ja: 冬がくれた予感
+  rom: Fuyu ga Kureta Yokan
+  ko: 겨울이 준 예감
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 冬がくれた予感 (Off Vocal)
+      rom: Fuyu ga Kureta Yokan (Off Vocal)
+      ko: 겨울이 준 예감 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takashi-saeki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%86%AC%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E4%BA%88%E6%84%9F https://love-live.fandom.com/wiki/Fuyu_ga_Kureta_Yokan'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
+    checked: 2026-10-20

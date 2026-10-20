@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-4-episode-6-honest-feelings
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ4章6話 素直な気持ち
+  rom: Radio Drama Chapter 4 Episode 6 Honest feelings
+  ko: 라디오 드라마 4장 6화 솔직한 마음
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'

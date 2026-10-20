@@ -1,0 +1,201 @@
+id: muse/bokura-wa-ima-no-naka-de
+project: muse
+title:
+  ja: 僕らは今のなかで
+  rom: Bokura wa Ima no Naka de
+  ko: 우리들은 지금 속에서
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: shintarou-mori}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: shintarou-mori}
+    strings_arranger:
+      - {person: yoshiaki-fujisawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕らは今のなかで (Off Vocal)
+      rom: Bokura wa Ima no Naka de (Off Vocal)
+      ko: 우리들은 지금 속에서 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shintarou-mori}
+    strings_arranger:
+      - {person: yoshiaki-fujisawa}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+        checked: 2026-10-20
+  - id: honoka-mix
+    title:
+      ja: 僕らは今のなかで (HONOKA Mix)
+      rom: Bokura wa Ima no Naka de (HONOKA Mix)
+      ko: 우리들은 지금 속에서 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
+        checked: 2026-10-20
+  - id: eli-mix
+    title:
+      ja: 僕らは今のなかで (ELI Mix)
+      rom: Bokura wa Ima no Naka de (ELI Mix)
+      ko: 우리들은 지금 속에서 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
+        checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: 僕らは今のなかで (KOTORI Mix)
+      rom: Bokura wa Ima no Naka de (KOTORI Mix)
+      ko: 우리들은 지금 속에서 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
+        checked: 2026-10-20
+  - id: umi-mix
+    title:
+      ja: 僕らは今のなかで (UMI Mix)
+      rom: Bokura wa Ima no Naka de (UMI Mix)
+      ko: 우리들은 지금 속에서 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
+        checked: 2026-10-20
+  - id: rin-mix
+    title:
+      ja: 僕らは今のなかで (RIN Mix)
+      rom: Bokura wa Ima no Naka de (RIN Mix)
+      ko: 우리들은 지금 속에서 (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
+        checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: 僕らは今のなかで (MAKI Mix)
+      rom: Bokura wa Ima no Naka de (MAKI Mix)
+      ko: 우리들은 지금 속에서 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
+        checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: 僕らは今のなかで (NOZOMI Mix)
+      rom: Bokura wa Ima no Naka de (NOZOMI Mix)
+      ko: 우리들은 지금 속에서 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
+        checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: 僕らは今のなかで (HANAYO Mix)
+      rom: Bokura wa Ima no Naka de (HANAYO Mix)
+      ko: 우리들은 지금 속에서 (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
+        checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: 僕らは今のなかで (NICO Mix)
+      rom: Bokura wa Ima no Naka de (NICO Mix)
+      ko: 우리들은 지금 속에서 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
+        checked: 2026-10-20
+  - id: littlemore-rock-mix
+    title:
+      ja: 僕らは今のなかで (LittleMore-Rock Mix)
+      rom: Bokura wa Ima no Naka de (LittleMore-Rock Mix)
+      ko: 우리들은 지금 속에서 (LittleMore-Rock Mix)
+    version: LittleMore-Rock Mix
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: shun-tanishima}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%82%89%E3%81%AF%E4%BB%8A%E3%81%AE%E3%81%AA%E3%81%8B%E3%81%A7 https://love-live.fandom.com/wiki/Bokura_wa_Ima_no_Naka_de'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
+    checked: 2026-10-20

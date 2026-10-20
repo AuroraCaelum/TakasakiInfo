@@ -1,0 +1,485 @@
+id: aqours/aqours-3rd
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours 3rd LoveLive! Tour ～WONDERFUL STORIES～
+  rom: Love Live! Sunshine!! Aqours 3rd LoveLive! Tour ~WONDERFUL STORIES~
+  ko: 러브 라이브! 선샤인!! Aqours 3rd LoveLive! Tour ~WONDERFUL STORIES~
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: metlife-dome
+    performances:
+      - date: 2018-06-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/oyasuminasan
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Saitama|Day 1
+      - date: 2018-06-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Saitama|Day 2
+  - id: 2-osaka
+    city: osaka
+    venue: osaka-jo-hall
+    performances:
+      - date: 2018-06-16
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/oyasuminasan
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2018-06-17
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Osaka|Day 2
+  - id: 3-fukuoka
+    city: fukuoka
+    venue: marine-messe-fukuoka
+    performances:
+      - date: 2018-07-07
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/one-more-sunshine-story
+            performers:
+              - {character: aqours/chika-takami}
+          - work: aqours/oyasuminasan
+            performers:
+              - {character: aqours/hanamaru-kunikida}
+          - work: aqours/in-this-unstable-world
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - work: aqours/pianoforte-monologue
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kiseki-hikaru
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Fukuoka|Day 1
+      - date: 2018-07-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/miracle-wave
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/beginner-s-sailing
+            performers:
+              - {character: aqours/you-watanabe}
+          - work: aqours/red-gem-wink
+            performers:
+              - {character: aqours/ruby-kurosawa}
+          - work: aqours/white-first-love
+            performers:
+              - {character: aqours/dia-kurosawa}
+          - work: aqours/new-winding-road
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/sakanakanandaka
+            performers:
+              - {character: aqours/kanan-matsuura}
+          - work: aqours/sora-mo-kokoro-mo-hareru-kara
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/awaken-the-power
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kiseki-hikaru
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Fukuoka|Day 2
+external_ids:
+  fandom: Aqours 3rd LoveLive! Tour ～WONDERFUL STORIES～
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_3rdlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_3rdlive.php
+    checked: 2026-10-20
+  setlist.2018-06-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-06-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-06-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-06-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-07-07:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-07-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_3rd_LoveLive!_Tour_%EF%BD%9EWONDERFUL_STORIES%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

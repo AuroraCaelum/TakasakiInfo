@@ -1,0 +1,47 @@
+id: muse/arifureta-kanashimi-no-hate
+project: muse
+title:
+  ja: ありふれた悲しみの果て
+  rom: Arifureta Kanashimi no Hate
+  ko: 흔한 슬픔의 끝
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takashi-saeki}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ありふれた悲しみの果て (Off Vocal)
+      rom: Arifureta Kanashimi no Hate (Off Vocal)
+      ko: 흔한 슬픔의 끝 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takashi-saeki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E6%82%B2%E3%81%97%E3%81%BF%E3%81%AE%E6%9E%9C%E3%81%A6 https://love-live.fandom.com/wiki/Arifureta_Kanashimi_no_Hate'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
+    checked: 2026-10-20

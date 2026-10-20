@@ -43,6 +43,8 @@ stops:
           - {work: hasunosora/legato, recording: hasunosora/legato#original}
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: mc, label: Ending MC}
+        external_ids:
+          fandom: Fukuoka|Day 1
       - date: 2023-10-22
         setlist:
           - {work: hasunosora/dream-believers, recording: hasunosora/dream-believers#original}
@@ -77,6 +79,8 @@ stops:
           - {work: hasunosora/legato, recording: hasunosora/legato#original}
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: mc, label: Ending MC}
+        external_ids:
+          fandom: Fukuoka|Day 2
   - id: 2-tokyo
     city: tokyo
     venue: musashino-no-mori-sogo-sports-plaza-main-arena
@@ -121,6 +125,8 @@ stops:
           - {work: hasunosora/legato, recording: hasunosora/legato#original}
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: mc, label: Ending MC}
+        external_ids:
+          fandom: Tokyo|Day 1
       - date: 2023-11-19
         setlist:
           - {work: hasunosora/dream-believers, recording: hasunosora/dream-believers#original}
@@ -161,6 +167,8 @@ stops:
           - {work: hasunosora/legato, recording: hasunosora/legato#original}
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: mc, label: Ending MC}
+        external_ids:
+          fandom: Tokyo|Day 2
   - id: 3-aichi
     city: aichi
     venue: aichi-sky-expo-aichi-ken-kokusai-tenjijo-hall-a
@@ -205,6 +213,8 @@ stops:
           - {work: hasunosora/legato, recording: hasunosora/legato#original}
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: mc, label: Ending MC}
+        external_ids:
+          fandom: Aichi|Day 1
       - date: 2023-11-26
         setlist:
           - {work: hasunosora/dream-believers, recording: hasunosora/dream-believers#original}
@@ -246,8 +256,12 @@ stops:
           - {work: hasunosora/eien-no-euphoria, recording: hasunosora/eien-no-euphoria#original}
           - {type: double_encore, label: Double Encore}
           - {work: hasunosora/dream-believers, recording: hasunosora/dream-believers#original}
+        external_ids:
+          fandom: Aichi|Day 2
 legacy:
   event_code: Hasu_1st
+external_ids:
+  fandom: Hasunosora Girls' High School Idol Club 1st Live Tour ~RUN! CAN! FUN!~
 evidence:
   setlist.2023-10-21:
     status: official

@@ -1,0 +1,47 @@
+id: nijigasaki/joy-is-all-around
+project: nijigasaki
+title:
+  ja: Joy is All Around
+  rom: Joy is All Around
+  ko: Joy is All Around
+credits:
+  lyricist:
+    - {person: konnie-aoki}
+  composer:
+    - {person: daichi}
+    - {person: ryo-mizutani}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: ryo-mizutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+        checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Joy is All Around (Off Vocal)
+      rom: Joy is All Around (Off Vocal)
+      ko: Joy is All Around (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryo-mizutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
+    checked: 2026-10-19

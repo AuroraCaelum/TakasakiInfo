@@ -1,0 +1,54 @@
+id: muse/suki-desu-ga-suki-desu-ka
+project: muse
+title:
+  ja: 好きですが好きですか？
+  rom: Suki desu ga Suki desu ka?
+  ko: 좋아하는데 좋아하나요?
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/kotori-minami}
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=06tJu65l81E
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 好きですが好きですか？ (Off Vocal)
+      rom: Suki desu ga Suki desu ka? (Off Vocal)
+      ko: 좋아하는데 좋아하나요? (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F https://love-live.fandom.com/wiki/Suki_desu_ga_Suki_desu_ka%3F'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=06tJu65l81E
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

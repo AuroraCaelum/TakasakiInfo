@@ -1,0 +1,46 @@
+id: nijigasaki/my-untold-diary
+project: nijigasaki
+title:
+  ja: My Untold Diary
+  rom: My Untold Diary
+  ko: My Untold Diary
+credits:
+  lyricist:
+    - {person: hyne}
+  composer:
+    - {person: hyne}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: hyne}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: My Untold Diary (Off Vocal)
+      rom: My Untold Diary (Off Vocal)
+      ko: My Untold Diary (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hyne}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
+    checked: 2026-10-20

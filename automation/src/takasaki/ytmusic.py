@@ -138,8 +138,17 @@ class Client:
 # --- matching -----------------------------------------------------------------
 
 
+# YouTube Music writes straight quotes and dots where the official track lists print curly quotes and
+# an ellipsis or ・・・ (KOKORO Magic “A to Z”, 僕らの走ってきた道は…)
+_QUOTES = str.maketrans({"“": '"', "”": '"', "„": '"', "″": '"', "‘": "'", "’": "'", "′": "'"})
+
+
+def _norm(title: str) -> str:
+    return unicodedata.normalize("NFKC", title.translate(_QUOTES)).replace("・・・", "...")
+
+
 def _key(title: str) -> str:
-    return match_key(title)
+    return match_key(_norm(title))
 
 
 def _row_title(ds: Dataset, track: m.Track) -> str:
@@ -148,13 +157,14 @@ def _row_title(ds: Dataset, track: m.Track) -> str:
 
 
 def _plain(s: str) -> str:
-    return " ".join(unicodedata.normalize("NFKC", s).casefold().split())
+    return " ".join(_norm(s).casefold().split())
 
 
 def _same_title(album_title: str, row_title: str) -> bool:
     """Equal match keys, or the album omits a bracketed version marker the release prints
-    (``One More Sunshine Story`` vs ``One More Sunshine Story (Album Version)``)."""
-    for a in (album_title, album_title.split(" - ")[0]):  # some locales append " - <romanized>"
+    (``One More Sunshine Story`` vs ``One More Sunshine Story (Album Version)``). Some locales append
+    `` - <romanized>``; some albums keep the soundtrack's note (``START:DASH!! [第13話挿入歌]``)."""
+    for a in (album_title, album_title.split(" - ")[0], re.sub(r"\s*\[[^\[\]]*\]\s*$", "", album_title)):
         if _key(a) and _key(a) == _key(row_title):
             return True
         pa, pr = _plain(a), _plain(row_title)
@@ -296,6 +306,13 @@ def match_edition(client: Client, ds: Dataset, rel: m.Release, edition: str | No
     if len(top) > 1 and rel.release_date:
         dated = [c for c in top if c.year == str(rel.release_date.year)]
         top = dated or top
+    if len(top) > 1:  # albums of the same songs (永久hours Solo Concert starring …): the one named as this release
+        names = [t for t in (rel.title.ja, *(a.title for a in rel.legacy.albums)) if t]
+        for same in (lambda a, b: " ".join(_norm(a).split()) == " ".join(_norm(b).split()), lambda a, b: _key(a) == _key(b)):
+            named = [c for c in top if any(same(c.title or "", n) for n in names)]
+            if named:
+                top = named
+                break
     if len(top) == 1:
         em.chosen = top[0]
     else:
@@ -316,10 +333,31 @@ class Outcome:
     review: list[EditionMatch] = field(default_factory=list)
 
 
-def plan_release(client: Client, ds: Dataset, rel: m.Release) -> tuple[list[EditionMatch], bool]:
+def _release_order(rel: m.Release) -> tuple[dt.date, str]:
+    return rel.release_date or dt.date.max, rel.id
+
+
+def album_owner(ds: Dataset, rel: m.Release, browse_id: str, claimed: dict[str, str]) -> str | None:
+    """An earlier release that has this album already (stored, or chosen earlier in this run). A later
+    CD of the same recordings (a reissue) has no YouTube Music album of its own, so its rows take
+    the main URL of the earlier one (D2)."""
+    holders = {r.id for r in ds.releases.values() if r.id != rel.id and any(s.browse_id == browse_id for s in r.streaming)}
+    if claimed.get(browse_id, rel.id) != rel.id:
+        holders.add(claimed[browse_id])
+    earlier = [h for h in holders if _release_order(ds.releases[h]) < _release_order(rel)]
+    return min(earlier, key=lambda h: _release_order(ds.releases[h])) if earlier else None
+
+
+def plan_release(client: Client, ds: Dataset, rel: m.Release, claimed: dict[str, str] | None = None) -> tuple[list[EditionMatch], bool]:
     """Match every edition. An edition with no album of its own, while another edition with the same
-    track list has one, simply has no own ids: its rows fall back to the main URL (D2)."""
+    track list has one, simply has no own ids: its rows fall back to the main URL (D2). So does an
+    edition whose album an earlier release has (a reissue). ``claimed``: the albums chosen so far in
+    this run (album → release), for a run that goes through the releases oldest first."""
+    claimed = {} if claimed is None else claimed
     matches = [match_edition(client, ds, rel, ed) for ed in edition_ids(rel)]
+    for mt in matches:
+        if mt.chosen and (owner := album_owner(ds, rel, mt.chosen.browse_id, claimed)):
+            mt.chosen, mt.reason = None, f"reissue of {owner}"
     for mt in matches:
         if mt.chosen or not mt.reason.startswith("no album"):
             continue
@@ -329,7 +367,10 @@ def plan_release(client: Client, ds: Dataset, rel: m.Release) -> tuple[list[Edit
     if not rel.streaming and all(not mt.chosen and max((c.matched for c in mt.candidates), default=0) == 0 for mt in matches):
         for mt in matches:
             mt.reason = "absent"  # not on YouTube Music and nothing stored: nothing to do
-    return matches, all(mt.chosen or mt.reason in ("sibling", "absent") for mt in matches)
+    for mt in matches:
+        if mt.chosen:
+            claimed.setdefault(mt.chosen.browse_id, rel.id)
+    return matches, all(mt.chosen or mt.reason in ("sibling", "absent") or mt.reason.startswith("reissue of") for mt in matches)
 
 
 def apply_matches(client: Client | None, rel: m.Release, matches: list[EditionMatch], checked: str) -> Outcome:

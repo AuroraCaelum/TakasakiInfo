@@ -1,0 +1,47 @@
+id: aqours/waai-waiwai-waiwaiwai
+project: aqours
+title:
+  ja: わーいわいわい わいわいわい！
+  rom: Waai WaiWai WaiWaiWai!
+  ko: 와-이와이와이 와이와이와이!
+credits:
+  lyricist:
+    - {person: kenichi-maeyamada}
+  composer:
+    - {person: kenichi-maeyamada}
+recordings:
+  - id: original
+    performers:
+      - {artist: waiwaiwai}
+    arranger:
+      - {person: tota-fujiwara}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: わーいわいわい わいわいわい！ (Off Vocal)
+      rom: Waai WaiWai WaiWaiWai! (Off Vocal)
+      ko: 와-이와이와이 와이와이와이! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tota-fujiwara}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%8F%E3%83%BC%E3%81%84%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%E3%80%80%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%EF%BC%81 https://love-live.fandom.com/wiki/Waai_WaiWai_WaiWaiWai!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
+    checked: 2026-10-20

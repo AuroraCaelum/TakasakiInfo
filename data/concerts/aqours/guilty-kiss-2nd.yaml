@@ -1,0 +1,172 @@
+id: aqours/guilty-kiss-2nd
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Guilty Kiss 2nd LoveLive! ～Return To Love ♡ Kiss Kiss Kiss～
+  rom: Love Live! Sunshine!! Guilty Kiss 2nd LoveLive! ~Return To Love ♡ Kiss Kiss Kiss~
+  ko: 러브 라이브! 선샤인!! Guilty Kiss 2nd LoveLive! ~Return To Love ♡ Kiss Kiss Kiss~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2021-09-25
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shooting-star-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/phantom-rocket-adventure
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/love-pulsar
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/shiny-racers
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/pure-phrase
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/tatehoko-tsubasa
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/deep-sea-cocoon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/nameless-love-song
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2021-09-26
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/shooting-star-warrior
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/phantom-rocket-adventure
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-eyes-fever
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/love-pulsar
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/shiny-racers
+            performers:
+              - {character: aqours/mari-ohara}
+          - work: aqours/pure-phrase
+            performers:
+              - {character: aqours/riko-sakurauchi}
+          - work: aqours/tatehoko-tsubasa
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+          - {type: mc}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - {type: video}
+          - work: aqours/deep-sea-cocoon
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/deep-resonance
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/nameless-love-song
+            performers:
+              - {artist: guilty-kiss}
+          - {type: encore, label: Encore}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - {type: mc}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Guilty Kiss 2nd LoveLive! ~Return To Love ♡ Kiss Kiss Kiss~
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_GK.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_unit2021_GK.php
+    checked: 2026-10-20
+  setlist.2021-09-25:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Guilty_Kiss_2nd_LoveLive!_~Return_To_Love_%E2%99%A1_Kiss_Kiss_Kiss~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2021-09-26:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Guilty_Kiss_2nd_LoveLive!_~Return_To_Love_%E2%99%A1_Kiss_Kiss_Kiss~
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

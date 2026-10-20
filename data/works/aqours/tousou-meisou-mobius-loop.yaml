@@ -43,6 +43,36 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd28
         checked: 2026-10-19
+  - id: dia-kurosawa-solo
+    performers:
+      - {character: aqours/dia-kurosawa}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
+        checked: 2026-10-19
+  - id: kanan-matsuura-solo
+    performers:
+      - {character: aqours/kanan-matsuura}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
+        checked: 2026-10-19
+  - id: mari-ohara-solo
+    performers:
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
+        checked: 2026-10-19
 evidence:
   credits:
     status: official

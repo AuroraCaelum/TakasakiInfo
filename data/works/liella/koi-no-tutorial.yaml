@@ -1,0 +1,51 @@
+id: liella/koi-no-tutorial
+project: liella
+title:
+  ja: 恋のチュートリアル
+  rom: Koi no Tutorial
+  ko: 사랑의 튜토리얼
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuki-kokubo}
+    - {person: eunsol, affiliation: '1008'}
+    - {person: gou-ishikuro}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+      - {person: gou-ishikuro}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 恋のチュートリアル (Off Vocal)
+      rom: Koi no Tutorial (Off Vocal)
+      ko: 사랑의 튜토리얼 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: eunsol, affiliation: '1008'}
+      - {person: gou-ishikuro}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%81%8B%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB https://love-live.fandom.com/wiki/Koi_no_Tutorial'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
+    checked: 2026-10-20

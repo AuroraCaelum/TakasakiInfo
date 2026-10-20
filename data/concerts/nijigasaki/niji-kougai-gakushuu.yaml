@@ -1,0 +1,1049 @@
+id: nijigasaki/niji-kougai-gakushuu
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習 歌おう♪踊ろう♪語ろう♪
+  rom: Love Live! Nijigasaki High School Idol Club LIVE & FAN MEETING TOUR Nijigaku Kougai Gakushuu Utaou♪Odorou♪Katarou♪
+  ko: 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 LIVE & FAN MEETING TOUR 니지가쿠 교외학습 노래하자♪춤추자♪이야기하자♪
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: orix-theater
+    performances:
+      - date: 2025-04-05
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/stellar-stream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2025-04-06
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/stellar-stream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 2 (Day)
+      - date: 2025-04-06
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/miracle-stay-tune
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/sugar-sugar-yummy-yummy-parfait
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/yume-ga-bokura-no-taiyo-sa
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Osaka|Day 2 (Night)
+  - id: 2-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2025-04-12
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/phoenix
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Chiba|Day 1
+      - date: 2025-04-13
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/phoenix
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Chiba|Day 2 (Day)
+      - date: 2025-04-13
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cara-tesoro
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/sweet-eyes
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/hurray-hurray
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Chiba|Day 2 (Night)
+  - id: 3-fukuoka
+    city: fukuoka
+    venue: fukuoka-civic-hall-main-hall
+    performances:
+      - date: 2025-05-10
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/concentrate
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 1
+      - date: 2025-05-11
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/concentrate
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 2 (Day)
+      - date: 2025-05-11
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/audrey
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/daydream-mermaid
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/kagayaki-don-t-forget
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/singing-dreaming-now
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/shioriko-mifune}
+          - {type: mc}
+        external_ids:
+          fandom: Fukuoka|Day 2 (Night)
+  - id: 4-miyagi
+    city: miyagi
+    venue: sendai-sun-plaza-hall
+    performances:
+      - date: 2025-05-17
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - {type: mc}
+        external_ids:
+          fandom: Miyagi|Day 1
+      - date: 2025-05-18
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - work: nijigasaki/diabolic-mulier
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/teletelepathy
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/yada
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - {type: mc}
+        external_ids:
+          fandom: Miyagi|Day 2 (Day)
+      - date: 2025-05-18
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/tanoshii-no-tensai
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/watashi-wa-magnet
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cherry-bomb
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/yu-takasaki}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/setsuna-yuki}
+              - {character: nijigasaki/rina-tennoji}
+          - {type: mc}
+        external_ids:
+          fandom: Miyagi|Day 2 (Night)
+  - id: 5-aichi
+    city: aichi
+    venue: niterra-hall-forest-hall
+    performances:
+      - date: 2025-08-16
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/daydream-mermaid
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/just-believe
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 1
+      - date: 2025-08-17
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/daydream-mermaid
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/kaika-sengen
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/ye-mingzhu
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/wish
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/just-believe
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 2 (Day)
+      - date: 2025-08-17
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/phoenix
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/stellar-stream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/my-own-fairy-tale
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/fire-bird
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/eien-no-isshun
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/just-believe
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/lanzhu-zhong}
+          - {type: mc}
+        external_ids:
+          fandom: Aichi|Day 2 (Night)
+  - id: 6-hokkaido
+    city: hokkaido
+    venue: kanamoto-hall-sapporo-civic-hall
+    performances:
+      - date: 2025-08-23
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cara-tesoro
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/doko-ni-itemo-kimi-wa-kimi
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 1
+      - date: 2025-08-24
+        label: Day.2 Day
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/doko-ni-itemo-kimi-wa-kimi
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/toy-doll
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/first-love-again
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/cara-tesoro
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/wonderland
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 2 (Day)
+      - date: 2025-08-24
+        label: Day.2 Night
+        setlist:
+          - {type: video, label: Opening}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - {type: talk, label: Talk Portion}
+          - {type: video}
+          - work: nijigasaki/to-be-yourself
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/i-m-still
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/koisuru-sunflower
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/level-oops-adventures
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/l-l-l-love-the-life-we-live
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+          - work: nijigasaki/eternalize-love
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/doko-ni-itemo-kimi-wa-kimi
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+          - {type: mc}
+        external_ids:
+          fandom: Hokkaido|Day 2 (Night)
+external_ids:
+  fandom: Nijigasaki High School Idol Club LIVE & FAN MEETING TOUR Nijigaku Kougai Gakushuu ~Utaou♪ Odorou♪ Katarou♪
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025
+    checked: 2026-10-20
+    note: "공식 영문 없음. 일본어 부분은 Fandom 표기인데 Fandom이 붙인 '~'와 ♪ 뒤 공백은 공식 ja에 없어 뺌. 전각 ＆는 'LIVE & FAN'으로(다른 공연의 반각 표기와 같게). ko: 나무위키 문서명(니지가사키학원 → 니지가사키 학원) 외부 근거: rom: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20LIVE%EF%BC%86FAN%20MEETING%20TOUR%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%BF%A0%20%EA%B5%90%EC%99%B8%ED%95%99%EC%8A%B5%20%EB%85%B8%EB%9E%98%ED%95%98%EC%9E%90%E2%99%AA%EC%B6%A4%EC%B6%94%EC%9E%90%E2%99%AA%EC%9D%B4%EC%95%BC%EA%B8%B0%ED%95%98%EC%9E%90%E2%99%AA. 일정 조사 메모: Day 2 of every stop had ＜昼公演＞ and ＜夜公演＞ (English section: \"Day.2/DAY\", \"Day.2/NIGHT\"); Fandom has a separate tab for each. Official title has no ～ before 歌おう (Fandom writes \"~Utaou♪…\"). Existing venues: orix-theater, sendai-sun-plaza-hall, and niterra-japan-specialty-ceramic-industry-civic-center, which the 2025 page prints with the newer \"Niterra\" prefix (Liella! 1st in 2021 has it as 日本特殊陶業市民会館フォレストホール): a period name of the same venue. 幕張イベントホール is the same hall as 幕張メッセイベントホール (UNIT LIVE & FAN MEETING 2021); rom/ko kept identical so they can merge. 福岡市民ホール (opened 2025) gives no English name for 大ホール: rom follows the dataset's 大ホール → \"Main Hall\" pattern (Fandom: \"Large Hall\")."
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2025
+    checked: 2026-10-20
+  setlist.2025-04-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-04-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-04-12:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-04-13:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-05-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-17:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-23:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2025-08-24:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_LIVE_&_FAN_MEETING_TOUR_Nijigaku_Kougai_Gakushuu_~Utaou%E2%99%AA_Odorou%E2%99%AA_Katarou%E2%99%AA
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

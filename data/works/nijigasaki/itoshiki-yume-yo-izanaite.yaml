@@ -1,0 +1,47 @@
+id: nijigasaki/itoshiki-yume-yo-izanaite
+project: nijigasaki
+title:
+  ja: いとしき夢よ いざないて
+  rom: Itoshiki Yume yo Izanaite
+  ko: 사랑스러운 꿈이여 인도해 줘
+credits:
+  lyricist:
+    - {person: ayaka-miyake}
+  composer:
+    - {person: taku-inoue}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: taku-inoue}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: いとしき夢よ いざないて (Off Vocal)
+      rom: Itoshiki Yume yo Izanaite (Off Vocal)
+      ko: 사랑스러운 꿈이여 인도해 줘 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: taku-inoue}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%84%E3%81%A8%E3%81%97%E3%81%8D%E5%A4%A2%E3%82%88%20%E3%81%84%E3%81%96%E3%81%AA%E3%81%84%E3%81%A6 https://love-live.fandom.com/wiki/Itoshiki_Yume_yo_Izanaite'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
+    checked: 2026-10-20

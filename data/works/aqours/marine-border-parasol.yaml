@@ -1,0 +1,64 @@
+id: aqours/marine-border-parasol
+project: aqours
+title:
+  ja: Marine Border Parasol
+  rom: Marine Border Parasol
+  ko: Marine Border Parasol
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: akira-sunset}
+    - {person: ulala}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+        checked: 2026-10-19
+  - id: chika-takami-solo
+    performers:
+      - {character: aqours/chika-takami}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
+        checked: 2026-10-19
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd74
+        checked: 2026-10-19
+  - id: you-watanabe-solo
+    performers:
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
+        checked: 2026-10-19
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-19

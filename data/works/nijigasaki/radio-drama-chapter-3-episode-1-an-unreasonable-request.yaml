@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-3-episode-1-an-unreasonable-request
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ3章1話 無茶なお願い？
+  rom: Radio Drama Chapter 3 Episode 1 An unreasonable request?
+  ko: 라디오 드라마 3장 1화 무리한 부탁?
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음)'

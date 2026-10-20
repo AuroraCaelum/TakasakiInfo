@@ -1,0 +1,66 @@
+id: aqours/hajimari-road
+project: aqours
+title:
+  ja: ハジマリロード
+  rom: Hajimari Road
+  ko: 시작의 길
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takarot}
+    - {person: funk-uchino}
+    - {person: ankle-break}
+recordings:
+  - id: original
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+        checked: 2026-10-20
+  - id: ruby-kurosawa-solo
+    performers:
+      - {character: aqours/ruby-kurosawa}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
+        checked: 2026-10-20
+  - id: hanamaru-kunikida-solo
+    performers:
+      - {character: aqours/hanamaru-kunikida}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
+        checked: 2026-10-20
+  - id: yoshiko-tsushima-solo
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+    arranger:
+      - {person: takarot}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(문서 표제는 하지마리로드(시작의 길), 음반 틀은 시작의 길. 번역 부분만 씀. 문서는 ハジマリ+リロード 말장난이라고 설명) 외부 근거: https://namu.wiki/w/%E3%83%8F%E3%82%B8%E3%83%9E%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89 https://love-live.fandom.com/wiki/Hajimari_Road'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
+    checked: 2026-10-20

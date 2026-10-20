@@ -1,0 +1,53 @@
+id: liella/next-card
+project: liella
+title:
+  ja: NEXT CARD
+  rom: NEXT CARD
+  ko: NEXT CARD
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: aiscream}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=M2k_ugNeAzI
+        checked: 2026-10-20
+        note: 공식 사이트 미게재(공식 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키와 일치
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: NEXT CARD (Off Vocal)
+      rom: NEXT CARD (Off Vocal)
+      ko: NEXT CARD (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
+    checked: 2026-10-20
+    note: AiScReam의 시리즈 카드게임 테마송이지만 크로스 프로젝트 곡은 대표 어댑터의 프로젝트 아래에 둔다(D45, nijigasaki/bring-the-love와 같음).
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=M2k_ugNeAzI
+    checked: 2026-10-20
+    note: 공식 사이트 미게재(공식 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키와 일치

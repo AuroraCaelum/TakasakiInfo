@@ -1,0 +1,40 @@
+id: yohane/2023-la-la-yuuki-no-uta
+type: digital_single
+title:
+  ja: La la 勇気のうた
+projects: [yohane]
+artist_credit:
+  - {character: yohane/yohane}
+  - {character: yohane/hanamaru}
+  - {character: yohane/dia}
+  - {character: yohane/ruby}
+  - {character: yohane/chika}
+  - {character: yohane/you}
+  - {character: yohane/kanan}
+  - {character: yohane/riko}
+  - {character: yohane/mari}
+label: Lantis
+release_date: 2023-10-11
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/la-la-yuuki-no-uta#original}
+      - {no: 2, recording: yohane/la-la-yuuki-no-uta#off-vocal}
+streaming:
+  - browse_id: MPREb_KlH8CVNSnGc
+    tracks:
+      1-1: XzYEI4rWdBQ
+      1-2: XQ6QvwZC46Q
+evidence:
+  tracks:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KlH8CVNSnGc
+    checked: 2026-10-21
+    note: 공식 미게재(공식 CD 목록에 없는 디지털 배포). YouTube Music 앨범의 트랙을 CD 「Forever U & I / La la 勇気のうた」의 같은 음원으로 맞춤. 배포일은 확인하지 못해 CD 발매일로 둠
+  legacy:
+    status: derived
+    note: 레거시 파일에는 넣지 않음. CD 「Forever U & I / La la 勇気のうた」 수록분의 메인 URL 출처(D51, liella/2023-universe와 같은 방식)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KlH8CVNSnGc
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

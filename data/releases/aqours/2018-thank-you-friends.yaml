@@ -1,8 +1,14 @@
 id: aqours/2018-thank-you-friends
+type: single
 title:
   ja: Thank you, FRIENDS!!
 projects: [aqours]
+artist_credit:
+  - {artist: aqours}
+label: Lantis
 release_date: 2018-08-01
+editions:
+  - {id: e1, catalog: LACM-14800}
 discs:
   - tracks:
       - {no: 1, recording: aqours/thank-you-friends#original}
@@ -13,7 +19,8 @@ discs:
       - {no: 6, recording: aqours/kyokugen-sabaibu-ayutsubo-no-taki#main}
       - {no: 7, recording: aqours/konshin-atakku-dai-ryuuguujou#main}
 streaming:
-  - browse_id: MPREb_nDsfGAbvQJf
+  - editions: [e1]
+    browse_id: MPREb_nDsfGAbvQJf
     tracks:
       1-1: pg9XPEuaQ_M
       1-2: dwcUOoiHVgY
@@ -29,10 +36,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
+    checked: 2026-10-20

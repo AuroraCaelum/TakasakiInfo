@@ -1,0 +1,32 @@
+id: yohane/2023-girls
+type: digital_single
+title:
+  ja: GIRLS!!
+projects: [yohane]
+artist_credit:
+  - {character: yohane/yohane}
+label: Lantis
+release_date: 2023-09-27
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/girls#original}
+      - {no: 2, recording: yohane/girls#off-vocal}
+streaming:
+  - browse_id: MPREb_Sra8GVpOLg1
+    tracks:
+      1-1: SjVV0EmimzA
+      1-2: jJv21kD65p8
+evidence:
+  tracks:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Sra8GVpOLg1
+    checked: 2026-10-21
+    note: 공식 미게재(공식 CD 목록에 없는 디지털 배포). YouTube Music 앨범의 트랙을 CD 「GIRLS!! / Wonder sea breeze」의 같은 음원으로 맞춤. 배포일은 확인하지 못해 CD 발매일로 둠
+  legacy:
+    status: derived
+    note: 레거시 파일에는 넣지 않음. CD 「GIRLS!! / Wonder sea breeze」 수록분의 메인 URL 출처(D51, liella/2023-universe와 같은 방식)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Sra8GVpOLg1
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

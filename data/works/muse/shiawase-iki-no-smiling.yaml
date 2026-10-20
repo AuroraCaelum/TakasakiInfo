@@ -1,0 +1,53 @@
+id: muse/shiawase-iki-no-smiling
+project: muse
+title:
+  ja: シアワセ行きのSMILING!
+  rom: Shiawase Iki no SMILING!
+  ko: 행복을 향한 SMILING!
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: miki-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: miki-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=td_3vwq0XA8
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シアワセ行きのSMILING! (Off Vocal)
+      rom: Shiawase Iki no SMILING! (Off Vocal)
+      ko: 행복을 향한 SMILING! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: miki-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B7%E3%82%A2%E3%83%AF%E3%82%BB%E8%A1%8C%E3%81%8D%E3%81%AESMILING%21 https://love-live.fandom.com/wiki/Shiawase_Iki_no_SMILING!'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=td_3vwq0XA8
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

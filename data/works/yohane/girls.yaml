@@ -1,0 +1,47 @@
+id: yohane/girls
+project: yohane
+title:
+  ja: GIRLS!!
+  rom: GIRLS!!
+  ko: GIRLS!!
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=10
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: GIRLS!! (Off Vocal)
+      rom: GIRLS!! (Off Vocal)
+      ko: GIRLS!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=10
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/music/detail/?id=10
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=10
+    checked: 2026-10-20

@@ -1,0 +1,47 @@
+id: nijigasaki/yes-to-tomorrow
+project: nijigasaki
+title:
+  ja: YES! to Tomorrow
+  rom: YES! to Tomorrow
+  ko: YES! to Tomorrow
+credits:
+  lyricist:
+    - {person: ryo-mizutani}
+    - {person: miyakei}
+  composer:
+    - {person: ryo-mizutani}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: ryo-mizutani}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: YES! to Tomorrow (Off Vocal)
+      rom: YES! to Tomorrow (Off Vocal)
+      ko: YES! to Tomorrow (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryo-mizutani}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4731
+    checked: 2026-10-20

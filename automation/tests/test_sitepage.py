@@ -9,6 +9,7 @@ from takasaki import model as m
 from takasaki.nijigasaki import parse_page as niji_page
 from takasaki.aqours import parse_page as aqours_page
 from takasaki.musical import parse_page as musical_page
+from takasaki.sitepage import editions_of
 from takasaki.store import Dataset
 
 NIJI = """
@@ -198,3 +199,282 @@ def test_the_check_reports_what_differs_and_cites_nothing_for_it(ds, tmp_path):
     assert ds.releases["p/2020-a"].evidence["tracks"] == MIGRATED
     assert ds.works["p/a"].evidence["credits"].source == URL  # the tracks at their place still settle the song's credits
     assert ds.works["p/a"].recordings[0].evidence["credits"] == MIGRATED
+
+
+# --- the import of the releases beyond the migrated ones (Phase 3) ---------------------
+
+IMPORT = imp.Spec(project="p", group_name="グループ", legacy_group="P", review_prefix="P", lineups_from_site=False)
+
+
+def _new(url, title, tracks, *, editions=None, pages=None, perf=None, rtype=None):
+    return imp.ReleaseObs(url, "", title, dt.date(2024, 4, 24), perf or imp.Performers("グループ", None),
+                          editions or [imp.EditionObs(None, "LACM-2", "CD")], tracks, {}, type=rtype,
+                          edition_pages=pages or [])
+
+
+def _cr():
+    return {"lyricist": [imp.CreditName("畑 亜貴")], "composer": [imp.CreditName("EFFY")], "arranger": [imp.CreditName("EFFY")]}
+
+
+def test_editions_with_their_own_coupling_song_get_a_disc_each(ds, tmp_path):
+    a = [imp.TrackObs(1, "Song A (Off Vocal)"), imp.TrackObs(2, "Song B", credits=_cr())]
+    b = [imp.TrackObs(1, "Song A (Off Vocal)"), imp.TrackObs(2, "Song C", credits=_cr())]
+    url = "https://x/music/cd41.php"
+    obs = _new(url, "Song A", a, editions=[imp.EditionObs("第2話盤", "LACM-3"), imp.EditionObs("通常盤", "LACM-4")],
+               pages=[imp.EditionPage("第2話盤", url, a), imp.EditionPage("通常盤", url + "?2", b)])
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts and not rep.pending
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == url)
+    assert [(d.editions, [t.recording for t in d.tracks]) for d in rel.discs] == [
+        (["e1"], ["p/a#off-vocal", "p/song-b#original"]), (["e2"], ["p/a#off-vocal", "p/song-c#original"])]
+    assert [(a.title, a.edition) for a in rel.legacy.albums] == [("Song A [第2話盤]", "e1"), ("Song A [通常盤]", "e2")]
+    # each edition's coupling song cites the edition's own page, not the release's first page
+    assert ds.works["p/song-c"].evidence["credits"].source == url + "?2"
+    assert ds.works["p/song-b"].evidence["credits"].source == url
+
+
+def test_a_drama_cd_and_a_version_between_wave_dashes(ds, tmp_path):
+    drama = _new("https://x/cd.php#cd57", "ドラマCD Fantasia", [imp.TrackObs(1, "Radio Drama 1"), imp.TrackObs(2, "Radio Drama 2")],
+                 rtype="drama_cd")
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    wave = _new("https://x/cd.php#cd33", "Song A", [imp.TrackObs(1, "Song A ～2023Ver.～", credits=_cr())])
+    site = imp.Site([], [wave, drama], "https://x/member/")
+    (tmp_path / "P-titles.yaml").write_text(  # the drama CD's title, named in review
+        "type: new-names\nproject: p\ndecision: ''\nitems:\n  - {kind: release, printed: ドラマCD Fantasia, "
+        "title: {ja: ドラマCD Fantasia, rom: Drama CD Fantasia, ko: 드라마 CD 판타지아}}\n", encoding="utf-8")
+    rep = imp.import_site(ds, site, tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts and not rep.pending, rep
+    work = ds.works["p/radio-drama-1"]
+    assert work.kind == "drama" and [(r.id, r.kind, r.performers) for r in work.recordings] == [
+        ("main", "drama", [m.Performer(artist="g")])]
+    rel = ds.releases["p/2024-drama-cd-fantasia"]
+    assert rel.type == "drama_cd"
+    ver = next(r for r in ds.works["p/a"].recordings if r.id == "2023ver")
+    assert ver.title == m.Names(ja="Song A ～2023Ver.～", rom="Song A ~2023Ver.~", ko="Song A ~2023Ver.~") and ver.version == "2023Ver."
+
+
+def test_a_song_of_another_project_and_a_sourced_release(ds, tmp_path):
+    # LIVE with a smile! is stored under one project and sung by an artist of several
+    ds.artists["all"] = m.Artist(id="all", kind="collab", projects=["q", "p"], names=m.Names(ja="みんな"))
+    ds.works["q/smile"] = m.Work(id="q/smile", project="q", title=m.Names(ja="Smile"),
+                                 credits=m.WorkCredits(lyricist=[m.Credit(person="hata")], composer=[m.Credit(person="effy", affiliation="FirstCall")]),
+                                 recordings=[m.Recording(id="original", performers=[m.Performer(artist="all")])],
+                                 evidence={"credits": m.Evidence(status=m.Status.official, source="https://x/q")})
+    solo = imp.Performers(None, None, [("高海千歌", "伊波杏樹")])
+    obs = _new("https://x/cd.php#cd90", "Solo Album", [imp.TrackObs(1, "Smile", credits={
+        "lyricist": [imp.CreditName("畑 亜貴")], "composer": [imp.CreditName("EFFY")], "arranger": [imp.CreditName("EFFY")]})], perf=solo)
+    (tmp_path / "P-titles.yaml").write_text(
+        "type: new-names\nproject: p\ndecision: ''\nitems:\n  - {kind: release, printed: Solo Album, "
+        "title: {ja: Solo Album, rom: Solo Album, ko: Solo Album}}\n", encoding="utf-8")
+    # a migrated release whose tracks were sourced without an official link (D36): compared, never rewritten
+    ds.releases["p/2020-a"].evidence["tracks"] = m.Evidence(status=m.Status.official, source=URL, note="대조 일치")
+    remix = _obs([imp.TrackObs(1, "Song A REMIX")])
+    rep = imp.import_site(ds, imp.Site([], [obs, remix], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts, rep.conflicts  # the composer's affiliation as the cover album prints it is no conflict
+    assert "q/smile" in ds.works and not any(w.startswith("p/smile") for w in ds.works)
+    assert [r.id for r in ds.works["q/smile"].recordings] == ["original", "chika-solo"]
+    rel = ds.releases["p/2020-a"]
+    assert [t.recording for t in rel.discs[0].tracks][0] == "p/a#original" and rel.type == "single" and "official" not in rel.links
+
+
+MUSICAL_2024 = """
+<div class="box" id="cd03"><div class="title"><p><span class="subname">CDアルバム</span>後夜祭アルバム！</p></div>
+<dl class="spec"><dt>【アーティスト】</dt><dd>スクールアイドルミュージカル</dd><dt>【発売日】</dt><dd>2024年8月21日(水)</dd>
+<dt>【収録内容】</dt><dd>01.今すぐはじめよ！<br>堀内まり菜（椿 ルリカ役）、西田有愛（来栖トア役）、<br>金子 楓、森本めい<br>
+12．夢はドコカラ<br>椿滝桜女学院高等学校スクールアイドル部<br>(堀内まり菜（椿 ルリカ役）、<br>金子楓)<br>ご注文はこちらから</dd></dl></div>
+"""
+
+
+def test_a_cast_printed_without_a_singers_label():
+    [b] = musical_page(MUSICAL_2024, "https://x/music.php")
+    first, last = b.tracks
+    assert first.performers.cast and first.performers.members == [
+        ("椿 ルリカ", "堀内まり菜"), ("来栖トア", "西田有愛"), ("", "金子 楓"), ("", "森本めい")]
+    assert last.performers.artist == "椿滝桜女学院高等学校スクールアイドル部"  # the club, its cast in brackets
+    assert last.performers.members == [("椿 ルリカ", "堀内まり菜"), ("", "金子楓")]  # and not the order link
+
+
+def test_skip_reasons_and_types():
+    from takasaki.sitepage import Block, release_type, skip_reason
+
+    def block(header, title, artist, tracks=("A",)):
+        return Block("u", header, title, None, dt.date(2024, 1, 1), artist, [], [imp.TrackObs(i, t) for i, t in enumerate(tracks, 1)])
+
+    assert "soundtrack" in skip_reason(block([], "OST", ["音楽：藤澤慶昌"]))
+    assert "tribute" in skip_reason(block([], "Tribute", ["V.A."]))
+    assert "tracklist" in skip_reason(block([], "Songbirds", ["Liella!"], ("Songbirds", "???", "???(Off Vocal)")))
+    assert skip_reason(block([], "Jellyfish", ["5yncri5e!"])) is None
+    assert release_type(block(["Aqours ベストアルバム"], "Aqours CHRONICLE", [])) == "compilation"
+    assert release_type(block(["主題歌ミニアルバム"], "どこにいても君は君", [])) == "mini_album"
+    assert release_type(block(["ラブライブ！虹ヶ咲学園 ～放課後放送室～"], "ドラマCD 夢幻グランディオーソ", [])) == "drama_cd"
+    assert release_type(block(["CatChu! 1stシングル"], "ディストーション", [])) is None  # the catalog number decides
+
+
+def test_the_video_disc_ends_the_track_list():
+    page = AQOURS.replace("【初回生産特典】<br>01. カード<br>", "＜Blu-ray＞　※初回限定盤のみ収録<br>01. PV<br>")
+    [b] = aqours_page(page, "https://x/cd.php")
+    assert [t.title for t in b.tracks][-1] == "君のこころは輝いてるかい？"
+
+
+def test_a_drama_part_and_discs_numbered_on(ds, tmp_path):
+    page = AQOURS.replace("03. HAPPY PARTY TRAIN<span class=\"uta\">(Off Vocal)</span><br>",
+                          "03. HAPPY PARTY TRAIN<span class=\"uta\">(Off Vocal)</span><br>■ドラマパート<br>04. 浦の星の夏<br>")
+    [b] = aqours_page(page, "https://x/cd.php")
+    assert [(t.no, t.drama) for t in b.tracks] == [(1, False), (2, False), (3, False), (4, True), (1, False)]
+    # a solo album numbered on across its discs: stored from 1 on each disc, listed on in the legacy files (D42)
+    solo = imp.Performers(None, None, [("高海千歌", "伊波杏樹")])
+    obs = _new("https://x/cd.php#cd57", "Solo", [imp.TrackObs(1, "Song A"), imp.TrackObs(2, "Song A", disc=2)], perf=solo)
+    (tmp_path / "P-titles.yaml").write_text(
+        "type: new-names\nproject: p\ndecision: ''\nitems:\n  - {kind: release, printed: Solo, title: {ja: Solo, rom: Solo, ko: Solo}}\n",
+        encoding="utf-8")
+    ds.works["p/a"].evidence["credits"] = ds.works["p/a"].recordings[0].evidence["credits"] = m.Evidence(
+        status=m.Status.official, source=URL)
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts
+    rel = ds.releases["p/2024-solo"]
+    assert [(d.disc, [t.no for t in d.tracks]) for d in rel.discs] == [(1, [1]), (2, [1])]
+    assert rel.legacy.albums[0].flatten_discs
+    # the cover printed without credits is arranged as the song's credited recording (D41), as derived
+    cover = next(r for r in ds.works["p/a"].recordings if r.id == "chika-solo")
+    assert [c.person for c in cover.arranger] == ["effy", "manabe"] and cover.evidence["credits"].status == m.Status.derived
+
+
+def test_an_artist_version_and_an_original_waiting_for_its_single(ds, tmp_path):
+    ds.artists["g"].names = m.Names(ja="グループ", rom="Group", ko="그룹")
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    ver = _new("https://x/cd.php#cd59", "Song A", [imp.TrackObs(1, "Song A（グループ Ver.）", credits=_cr()),
+                                                   imp.TrackObs(2, "Song A（グループ Ver.）(Off Vocal)")])
+    # a single credited to an artist still waiting for its name, then a solo cover of its song
+    single = _new("https://x/cd.php#cd72", "New Song", [imp.TrackObs(1, "New Song", credits=_cr())],
+                  perf=imp.Performers("Somebody feat. 誰か", None))
+    solo = _new("https://x/cd.php#cd90", "New Song", [imp.TrackObs(1, "New Song")], perf=imp.Performers(None, None, [("高海千歌", "伊波杏樹")]))
+    solo.release_date = dt.date(2025, 1, 1)
+    rep = imp.import_site(ds, imp.Site([], [ver, single, solo], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    recs = {r.id: r for r in ds.works["p/a"].recordings}
+    assert recs["group-ver"].title == m.Names(ja="Song A (グループ Ver.)", rom="Song A (Group Ver.)", ko="Song A (그룹 Ver.)")
+    assert recs["group-ver-off-vocal"].instrumental_of == "group-ver"
+    assert [r.id for r in ds.works["p/new-song"].recordings] == ["chika-solo"]  # the original stays the single's
+    # the guest after "feat." is a name of its own (D48): the Latin one is a draft at once, the other waits for its readings
+    assert "artist:somebody" in rep.created and any(p.startswith("artist 誰か:") for p in rep.pending)
+
+
+def test_a_featured_guest_is_a_performer_of_its_own(ds, tmp_path):
+    # D48: "グループ feat. 初音ミク" is the group and the featured 初音ミク (a character from outside the series)
+    assert imp.split_featured(["A feat. B", "C"]) == (["A", "C"], ["B"])
+    ds.characters["external/miku"] = m.Character(id="external/miku", project="external", names=m.Names(ja="初音ミク"))
+    url = "https://x/cd.php#cd72"
+    obs = _new(url, "New Song", [imp.TrackObs(1, "New Song", credits=_cr())], perf=imp.Performers("グループ feat. 初音ミク", None))
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.pending and not rep.conflicts
+    guest = [m.Performer(artist="g"), m.Performer(character="external/miku", featured=True)]
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == url)
+    assert rel.artist_credit == guest
+    assert ds.works["p/new-song"].recordings[0].performers == guest
+    assert not imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT).conflicts
+
+
+def test_a_joint_name_is_its_artists(ds, tmp_path):
+    # D48: "グループ・ユニット" names two artists jointly when each part is one; otherwise it is a name of its own
+    ds.artists["u"] = m.Artist(id="u", kind="group", projects=["q"], names=m.Names(ja="ユニット"))
+    joint = _new("https://x/cd.php#cd35", "New Song", [imp.TrackObs(1, "New Song", credits=_cr())],
+                 perf=imp.Performers("グループ・ユニット", None))
+    other = _new("https://x/cd.php#cd36", "Other Song", [imp.TrackObs(1, "Other Song", credits=_cr())],
+                 perf=imp.Performers("グループ・誰か", None))
+    rep = imp.import_site(ds, imp.Site([], [joint, other], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == "https://x/cd.php#cd35")
+    assert rel.artist_credit == [m.Performer(artist="g", joint=True), m.Performer(artist="u", joint=True)]
+    assert any(p.startswith("artist グループ・誰か:") for p in rep.pending)
+
+
+def test_english_credits_an_own_line_version_and_a_bonus_performer():
+    page = AQOURS.replace(
+        "02. Step! ZERO to ONE<br><span class=\"uta\">作詞：畑 亜貴 作編曲：高田 暁</span><br>",
+        "02. Step! ZERO to ONE<br>Lyric：Aki Hata<br>Music：Ken Ito , Hajime Mitsumasu(FirstCall)<br>Heavy Metal Ver.<br>"
+        "Arranged by MEG , Yusuke Koshiro<br>Mixed by MEG<br>■ボーナストラック<br>03. Main theme<br><span class=\"uta\">浦の星交響楽団</span><br>"
+        "・アニメーションPV DISC付き<br>04. ラジオ体操第一<br><span class=\"uta\">掛け声：高海千歌(CV.伊波杏樹)</span><br>")
+    [b] = aqours_page(page, "https://x/cd.php")
+    step, theme, radio = b.tracks[1:4]
+    assert step.title == "Step! ZERO to ONE (Heavy Metal Ver.)"
+    assert {k: [(c.name, c.affiliation) for c in v] for k, v in step.credits.items()} == {
+        "lyricist": [("Aki Hata", None)], "composer": [("Ken Ito", None), ("Hajime Mitsumasu", "FirstCall")],
+        "arranger": [("MEG", None), ("Yusuke Koshiro", None)]}  # "Mixed by" is not a credit we keep
+    assert theme.performers.artist == "浦の星交響楽団"
+    assert radio.performers.members == [("高海千歌", "伊波杏樹")]
+
+
+def test_a_group_takes_a_song_first_sung_by_some_of_its_members(ds, tmp_path):
+    # START:DASH!!: the three first, then μ's, each with its own Off Vocal
+    ds.characters["p/riko"] = m.Character(id="p/riko", project="p", names=m.Names(ja="桜内梨子"))
+    duo = imp.Performers(None, None, [("高海千歌", "伊波杏樹"), ("桜内梨子", "")])
+    first = _new("https://x/cd.php#cd21", "Song A", [imp.TrackObs(1, "Song A", duo, credits=_cr()), imp.TrackObs(2, "Song A(Off Vocal)")],
+                 perf=duo)
+    again = _new("https://x/cd.php#cd24", "Song A", [imp.TrackObs(1, "Song A", imp.Performers("グループ", None), credits=_cr()),
+                                                     imp.TrackObs(2, "Song A(Off Vocal)")])
+    again.release_date = dt.date(2025, 5, 1)
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    del ds.works["p/a"].recordings[:]
+    del ds.releases["p/2020-a"]
+    rep = imp.import_site(ds, imp.Site([], [first, again], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.conflicts, rep.conflicts
+    recs = {r.id: r for r in ds.works["p/a"].recordings}
+    assert set(recs) == {"original", "off-vocal", "g", "g-off-vocal"}
+    assert recs["g"].performers == [m.Performer(artist="g")] and recs["g-off-vocal"].instrumental_of == "g"
+
+
+PORTAL = """<div class="title"><p>R3BIRTH 3rdシングル「BONES BONES BONES」</p></div>
+<dl class="spec"><dt>【アーティスト】</dt><dd>R3BIRTH </dd><dt>【発売日】</dt><dd>2026年10月7日(水)</dd><dt>【品番】</dt><dd>LACM-24853</dd>
+<dt>【仕様】</dt><dd>01 BONES BONES BONES<br />作詞：EMME<br />作曲・編曲：Quemika<br /><br />02 BONES BONES BONES(Off Vocal)</dd></dl>"""
+
+
+class _Fetcher:
+    def __init__(self):
+        self.asked = []
+
+    def get(self, url, payload=None):
+        self.asked.append((url, payload))
+        return type("Page", (), {"html": PORTAL})()
+
+
+def test_a_block_the_script_loads():
+    from takasaki.sitepage import expand_in_elements
+    page = '<div class="box" id="cd02">…</div><div id="cd01_6289" class="in-element box" data-id="01_6289"></div>'
+    f = _Fetcher()
+    html = expand_in_elements(page, "https://x/nijigasaki/cd.php", f, '<div class="box" id="{}">')
+    assert f.asked == [("https://x/nijigasaki/cd_detail.php", "01_6289")]
+    [b] = niji_page(html, "https://x/cd.php")
+    assert (b.url, b.title, b.release_date) == ("https://x/cd.php#cd01_6289", "BONES BONES BONES", dt.date(2026, 10, 7))
+    assert [t.title for t in b.tracks] == ["BONES BONES BONES", "BONES BONES BONES(Off Vocal)"]  # "01 X", no dot
+    assert [c.name for c in b.tracks[0].credits["arranger"]] == ["Quemika"]
+    assert "シングル" in " ".join(b.header) and editions_of(b)[0].catalog == "LACM-24853"  # 【品番】
+
+
+def test_a_cross_project_release(ds, tmp_path):
+    # one adapter imports it for every project; a member of another project sings on it
+    ds.projects["p"] = m.Project(id="p", names=m.Names(ja="P"), legacy=m.ProjectLegacy(category="P", file="P"))
+    ds.projects["q"] = m.Project(id="q", names=m.Names(ja="Q"), legacy=m.ProjectLegacy(category="Q", file="Q"))
+    ds.layout.integrated_order = ["P", "Q"]
+    ds.characters["q/kanon"] = m.Character(id="q/kanon", project="q", names=m.Names(ja="澁谷かのん"))
+    spec = imp.Spec(project="p", group_name="グループ", legacy_group="P", review_prefix="P", lineups_from_site=False,
+                    cross={"cd.php#cd61": ["p", "q"]})
+    duo = imp.Performers(None, None, [("高海千歌", "伊波杏樹"), ("澁谷かのん", "伊達さゆり")])
+    obs = _new("https://x/cd.php#cd61", "Song A", [imp.TrackObs(1, "Song A", duo, credits=_cr())], perf=duo)
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    del ds.works["p/a"].recordings[:]
+    del ds.releases["p/2020-a"]
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), spec)
+    assert not rep.conflicts, rep.conflicts
+    rel = ds.releases["p/2024-song-a"]
+    assert rel.projects == ["p", "q"] and rel.legacy.category == "Others"
+    assert [e.release for e in ds.layout.albums["Q"].entries] == ["p/2024-song-a"]
+    assert ds.works["p/a"].recordings[0].performers == [m.Performer(character="p/chika"), m.Performer(character="q/kanon")]
+
+
+def test_a_version_in_square_brackets(ds, tmp_path):
+    ds.works["p/a"].title = m.Names(ja="Song A", rom="Song A", ko="Song A")
+    obs = _new("https://x/bd/movie/", "Movie BD", [imp.TrackObs(1, "Song A[YOU & I edit] MOVIE EDITION", credits=_cr())], rtype="bd_bonus")
+    (tmp_path / "P-titles.yaml").write_text(
+        "type: new-names\nproject: p\ndecision: ''\nitems:\n  - {kind: release, printed: Movie BD, title: {ja: Movie BD, rom: Movie BD, ko: Movie BD}}\n",
+        encoding="utf-8")
+    imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    rec = next(r for r in ds.works["p/a"].recordings if r.id == "you-i-edit-movie-edition")
+    assert rec.title.ja == "Song A[YOU & I edit] MOVIE EDITION" and rec.version == "[YOU & I edit] MOVIE EDITION"

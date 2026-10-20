@@ -1,0 +1,48 @@
+id: nijigasaki/yoin
+project: nijigasaki
+title:
+  ja: 余韻
+  rom: Yoin
+  ko: 여운
+credits:
+  lyricist:
+    - {person: ereca}
+  composer:
+    - {person: ereca}
+    - {person: pw-a}
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: pw-a}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 余韻 (Off Vocal)
+      rom: Yoin (Off Vocal)
+      ko: 여운 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: pw-a}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E4%BD%99%E9%9F%BB https://love-live.fandom.com/wiki/Yoin'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
+    checked: 2026-10-20

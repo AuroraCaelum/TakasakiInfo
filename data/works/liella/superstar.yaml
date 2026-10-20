@@ -1,0 +1,47 @@
+id: liella/superstar
+project: liella
+title:
+  ja: スーパースター!!
+  rom: Superstar!!
+  ko: 슈퍼스타!!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yasuhiro-obata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: スーパースター!! (Off Vocal)
+      rom: Superstar!! (Off Vocal)
+      ko: 슈퍼스타!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yasuhiro-obata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC!! https://love-live.fandom.com/wiki/Superstar!!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
+    checked: 2026-10-20

@@ -9,9 +9,9 @@ from __future__ import annotations
 
 import datetime as dt
 from enum import StrEnum
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import AfterValidator, BaseModel, ConfigDict, Field, model_validator
 
 
 class Strict(BaseModel):
@@ -172,12 +172,17 @@ class Credit(Strict):
 
 class Performer(Strict):
     """An artist, a character, or a person. A person singing in a role (musical cast,
-    ``堀内まり菜（椿ルリカ役）``) names the character in ``role`` (D29)."""
+    ``堀内まり菜（椿ルリカ役）``) names the character in ``role`` (D29). A credit that names several
+    performers as one is not an artist of its own (D48): a guest after ``feat.`` is ``featured``
+    (``Aqours feat. 初音ミク``), and the performers of a joint name are each ``joint``
+    (``Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!``). The builders print the credit from them."""
 
     artist: str | None = None
     character: str | None = None
     person: str | None = None
     role: str | None = None  # character id, only with ``person``
+    featured: bool = False
+    joint: bool = False
 
     @model_validator(mode="after")
     def _exactly_one(self) -> Performer:
@@ -185,6 +190,8 @@ class Performer(Strict):
             raise ValueError("performer needs exactly one of artist / character / person")
         if self.role is not None and self.person is None:
             raise ValueError("role is only for a person")
+        if self.featured and self.joint:
+            raise ValueError("a performer is featured or part of a joint name, not both")
         return self
 
     @property
@@ -194,6 +201,18 @@ class Performer(Strict):
         if self.character:
             return ("character", self.character)
         return ("person", self.person)  # type: ignore[return-value]
+
+
+def _credit_shape(performers: list[Performer]) -> list[Performer]:
+    if performers and all(p.featured for p in performers):
+        raise ValueError("featured performers need a performer to feature them (D48)")
+    joint = [i for i, p in enumerate(performers) if p.joint]
+    if joint and (len(joint) < 2 or joint != list(range(joint[0], joint[-1] + 1))):
+        raise ValueError("a joint name credits two or more performers next to each other (D48)")
+    return performers
+
+
+PerformerList = Annotated[list[Performer], AfterValidator(_credit_shape)]
 
 
 class WorkCredits(Strict):
@@ -209,7 +228,7 @@ class Recording(Strict):
     kind: RecordingKind = "vocal"
     title: Names | None = None  # display title when it differs from the work title
     version: str | None = None
-    performers: list[Performer] = []
+    performers: PerformerList = []
     arranger: list[Credit] = []  # 編曲
     # 弦編曲 and 管編曲, printed apart from 編曲 (D42); 弦管編曲 credits the person in both
     strings_arranger: list[Credit] = []
@@ -228,7 +247,7 @@ class Recording(Strict):
         return out
 
 
-WorkKind = Literal["song", "drama", "other"]
+WorkKind = Literal["song", "bgm", "drama", "other"]  # bgm: a soundtrack cue played at a concert (D50)
 
 
 class Work(Strict):
@@ -303,7 +322,7 @@ class Release(Strict):
     status: Literal["announced", "released", "verified"] = "released"
     title: Names
     projects: list[str]
-    artist_credit: list[Performer] = []
+    artist_credit: PerformerList = []
     label: str | None = None
     release_date: dt.date | None = None
     editions: list[Edition] = []
@@ -320,6 +339,7 @@ class Release(Strict):
 class City(Strict):
     id: str
     names: Names
+    evidence: dict[str, Evidence] = {}
 
 
 class Venue(Strict):
@@ -327,6 +347,7 @@ class Venue(Strict):
     city: str | None = None
     names: Names
     external_ids: dict[str, str] = {}
+    evidence: dict[str, Evidence] = {}
 
 
 SetlistType = Literal["song", "mc", "video", "encore", "double_encore", "talk", "other"]
@@ -336,7 +357,8 @@ class SetlistItem(Strict):
     type: SetlistType = "song"
     work: str | None = None
     recording: str | None = None
-    performers: list[Performer] = []
+    version: str | None = None  # the version sung when no recording of it is linked ("104th Class Ver.", §4.6)
+    performers: PerformerList = []
     label: str | None = None  # literal marker text for unnumbered markers
     title_raw: str | None = None  # unresolved song title (E9)
 
@@ -345,13 +367,15 @@ class Performance(Strict):
     date: dt.date
     label: str | None = None
     setlist: list[SetlistItem] = []
+    # fandom: the set-list tab this show's list is read from, "<section>|<tab>" (D47)
+    external_ids: dict[str, str] = {}
 
 
 class Stop(Strict):
     id: str
-    city: str
+    city: str | None = None  # None: an online-only show
     label: str | None = None
-    venue: str
+    venue: str | None = None
     performances: list[Performance]
 
 

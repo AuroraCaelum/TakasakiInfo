@@ -1,0 +1,47 @@
+id: muse/aki-no-anata-no-sora-tooku
+project: muse
+title:
+  ja: 秋のあなたの空遠く
+  rom: Aki no Anata no Sora Tooku
+  ko: 가을의 당신의 하늘 저 멀리
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: takeshi-masuda}
+recordings:
+  - id: original
+    performers:
+      - {artist: lily-white}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 秋のあなたの空遠く (Off Vocal)
+      rom: Aki no Anata no Sora Tooku (Off Vocal)
+      ko: 가을의 당신의 하늘 저 멀리 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeshi-masuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%A7%8B%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%A9%BA%E9%81%A0%E3%81%8F https://love-live.fandom.com/wiki/Aki_no_Anata_no_Sora_Tooku'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
+    checked: 2026-10-20

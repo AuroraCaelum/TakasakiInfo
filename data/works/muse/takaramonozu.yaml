@@ -1,0 +1,47 @@
+id: muse/takaramonozu
+project: muse
+title:
+  ja: タカラモノズ
+  rom: Takaramonozu
+  ko: 보물들
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: タカラモノズ (Off Vocal)
+      rom: Takaramonozu (Off Vocal)
+      ko: 보물들 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%A2%E3%83%8E%E3%82%BA https://love-live.fandom.com/wiki/Takaramonozu'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
+    checked: 2026-10-20

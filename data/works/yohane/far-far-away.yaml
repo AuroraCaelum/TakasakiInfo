@@ -1,0 +1,51 @@
+id: yohane/far-far-away
+project: yohane
+title:
+  ja: Far far away
+  rom: Far far away
+  ko: Far far away
+credits:
+  lyricist:
+    - {person: kanata-okajima}
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: kanata-okajima}
+    - {person: meg}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+    arranger:
+      - {person: meg}
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=6
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Far far away (Off Vocal)
+      rom: Far far away (Off Vocal)
+      ko: Far far away (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: meg}
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/music/detail/?id=6
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/music/detail/?id=6
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://www.yohane.net/music/detail/?id=6
+    checked: 2026-10-20

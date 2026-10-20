@@ -1,0 +1,32 @@
+id: yohane/2023-far-far-away
+type: digital_single
+title:
+  ja: Far far away
+projects: [yohane]
+artist_credit:
+  - {character: yohane/yohane}
+label: Lantis
+release_date: 2023-08-23
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/far-far-away#original}
+      - {no: 2, recording: yohane/far-far-away#off-vocal}
+streaming:
+  - browse_id: MPREb_re1WwCFpFkC
+    tracks:
+      1-1: Wx7ss-cxaKw
+      1-2: Kk2d7nh4Ujc
+evidence:
+  tracks:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_re1WwCFpFkC
+    checked: 2026-10-21
+    note: 공식 미게재(공식 CD 목록에 없는 디지털 배포). YouTube Music 앨범의 트랙을 CD 「Far far away / Be as one!!!」의 같은 음원으로 맞춤. 배포일은 확인하지 못해 CD 발매일로 둠
+  legacy:
+    status: derived
+    note: 레거시 파일에는 넣지 않음. CD 「Far far away / Be as one!!!」 수록분의 메인 URL 출처(D51, liella/2023-universe와 같은 방식)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_re1WwCFpFkC
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -1,0 +1,53 @@
+id: muse/yume-naki-yume-wa-yume-ja-nai
+project: muse
+title:
+  ja: 夢なき夢は夢じゃない
+  rom: Yume Naki Yume wa Yume ja nai
+  ko: 꿈이 없는 꿈은 꿈이 아니야
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kyo-takada}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=IOfUb8qBfIo
+        checked: 2026-10-20
+        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 夢なき夢は夢じゃない (Off Vocal)
+      rom: Yume Naki Yume wa Yume ja nai (Off Vocal)
+      ko: 꿈이 없는 꿈은 꿈이 아니야 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kyo-takada}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd01
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A4%A2%E3%81%AA%E3%81%8D%E5%A4%A2%E3%81%AF%E5%A4%A2%E3%81%98%E3%82%83%E3%81%AA%E3%81%84 https://love-live.fandom.com/wiki/Yume_Naki_Yume_wa_Yume_ja_nai'
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=IOfUb8qBfIo
+    checked: 2026-10-20
+    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'

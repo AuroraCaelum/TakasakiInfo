@@ -1,0 +1,47 @@
+id: muse/nightingale-love-song
+project: muse
+title:
+  ja: 小夜啼鳥恋詩
+  rom: Nightingale Love Song
+  ko: 나이팅게일 러브송
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: kazunori-watanabe}
+recordings:
+  - id: original
+    performers:
+      - {artist: printemps}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 小夜啼鳥恋詩 (Off Vocal)
+      rom: Nightingale Love Song (Off Vocal)
+      ko: 나이팅게일 러브송 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom(공식 루비 ナイチンゲールラブソング의 영어), ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%B0%8F%E5%A4%9C%E5%95%BC%E9%B3%A5%E6%81%8B%E8%A9%A9 https://love-live.fandom.com/wiki/Nightingale_Love_Song'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
+    checked: 2026-10-20

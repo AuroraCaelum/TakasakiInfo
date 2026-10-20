@@ -1,0 +1,204 @@
+id: aqours/aqours-5th
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours 5th LoveLive! ～Next SPARKLING!!～
+  rom: Love Live! Sunshine!! Aqours 5th LoveLive! ~Next SPARKLING!!~
+  ko: 러브 라이브! 선샤인!! Aqours 5th LoveLive! ~Next SPARKLING!!~
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: metlife-dome
+    performances:
+      - date: 2019-06-08
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/bokura-no-hashittekita-michi-wa
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/tousou-meisou-mobius-loop
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/yosoku-fukanou-driving
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/marine-border-parasol
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/hajimari-road
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - {type: video}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: aqours}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sotsugyou-desu-ne
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/sakura-bye-bye
+            performers:
+              - {artist: cyaron}
+          - work: aqours/next-sparkling
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2019-06-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/bokura-no-hashittekita-michi-wa
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - {type: mc}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/tousou-meisou-mobius-loop
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/yosoku-fukanou-driving
+            performers:
+              - {character: aqours/kanan-matsuura}
+              - {character: aqours/dia-kurosawa}
+              - {character: aqours/mari-ohara}
+          - work: aqours/marine-border-parasol
+            performers:
+              - {character: aqours/chika-takami}
+              - {character: aqours/riko-sakurauchi}
+              - {character: aqours/you-watanabe}
+          - work: aqours/hajimari-road
+            performers:
+              - {character: aqours/yoshiko-tsushima}
+              - {character: aqours/hanamaru-kunikida}
+              - {character: aqours/ruby-kurosawa}
+          - {type: video}
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {artist: aqours}
+          - {type: video}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-list-to-you
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: aqours}
+          - work: aqours/over-the-next-rainbow
+            performers:
+              - {artist: saint-aqours-snow}
+          - {type: mc}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: aqours}
+          - {type: encore, label: Encore}
+          - work: aqours/sotsugyou-desu-ne
+            performers:
+              - {artist: azalea}
+          - work: aqours/guilty-farewell-party
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/sakura-bye-bye
+            performers:
+              - {artist: cyaron}
+          - work: aqours/next-sparkling
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Aqours 5th LoveLive! ～Next SPARKLING!!～
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_5thlive.php
+    checked: 2026-10-20
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_5thlive.php
+    checked: 2026-10-20
+  setlist.2019-06-08:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_5th_LoveLive!_%EF%BD%9ENext_SPARKLING!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2019-06-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_5th_LoveLive!_%EF%BD%9ENext_SPARKLING!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

@@ -1,7 +1,12 @@
 id: nijigasaki/2020-butterfly-solitude-rain-vivid-world
+type: single
 title:
   ja: Butterfly / Solitude Rain / VIVID WORLD
 projects: [nijigasaki]
+artist_credit:
+  - {character: nijigasaki/kanata-konoe}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/karin-asaka}
 release_date: 2020-12-16
 editions:
   - id: e1
@@ -43,10 +48,14 @@ evidence:
   tracks:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
-    checked: 2026-10-19
+    checked: 2026-10-20
     note: 공식 페이지의 트랙리스트와 대조함 (같음)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_cth082hzH6n
-    checked: 2026-10-17
+    checked: 2026-10-20
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
+    checked: 2026-10-20

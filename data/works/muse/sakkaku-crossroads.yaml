@@ -1,0 +1,47 @@
+id: muse/sakkaku-crossroads
+project: muse
+title:
+  ja: 錯覚CROSSROADS
+  rom: Sakkaku CROSSROADS
+  ko: 착각 CROSSROADS
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: satomi-kawasaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: bibi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 錯覚CROSSROADS (Off Vocal)
+      rom: Sakkaku CROSSROADS (Off Vocal)
+      ko: 착각 CROSSROADS (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kazunori-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E9%8C%AF%E8%A6%9ACROSSROADS https://love-live.fandom.com/wiki/Sakkaku_CROSSROADS'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
+    checked: 2026-10-20

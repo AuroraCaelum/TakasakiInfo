@@ -1,0 +1,49 @@
+id: liella/mebae
+project: liella
+title:
+  ja: 芽生え
+  rom: Mebae
+  ko: 발아
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yasuhiro-obata}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/ren-hazuki}
+      - {character: liella/shiki-wakana}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 芽生え (Off Vocal)
+      rom: Mebae (Off Vocal)
+      ko: 발아 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuya-mori}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E8%8A%BD%E7%94%9F%E3%81%88 https://love-live.fandom.com/wiki/Mebae'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5918
+    checked: 2026-10-20

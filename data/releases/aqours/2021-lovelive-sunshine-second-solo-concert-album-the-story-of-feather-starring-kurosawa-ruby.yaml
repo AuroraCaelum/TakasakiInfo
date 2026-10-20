@@ -1,0 +1,79 @@
+id: aqours/2021-lovelive-sunshine-second-solo-concert-album-the-story-of-feather-starring-kurosawa-ruby
+type: album
+title:
+  ja: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Kurosawa Ruby
+  rom: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Kurosawa Ruby
+  ko: LoveLive! Sunshine!! Second Solo Concert Album ~THE STORY OF FEATHER~ starring Kurosawa Ruby
+projects: [aqours]
+artist_credit:
+  - {character: aqours/ruby-kurosawa}
+label: Lantis
+release_date: 2021-09-21
+editions:
+  - {id: e1, catalog: LACA-9835~6}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/aozora-jumping-heart#ruby-kurosawa-solo}
+      - {no: 2, recording: aqours/humming-friend#ruby-kurosawa-solo}
+      - {no: 3, recording: aqours/yume-de-yozora-wo-terashitai#ruby-kurosawa-solo}
+      - {no: 4, recording: aqours/mijuku-dreamer#ruby-kurosawa-solo}
+      - {no: 5, recording: aqours/omoi-yo-hitotsu-ni-nare#ruby-kurosawa-solo}
+      - {no: 6, recording: aqours/mirai-ticket#ruby-kurosawa-solo}
+      - {no: 7, recording: aqours/sunshine-pikkapika-ondo#ruby-kurosawa-solo}
+      - {no: 8, recording: aqours/yume-kataruyori-yume-utaou#ruby-kurosawa-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: aqours/mirai-no-bokura-wa-shitteru-yo#ruby-kurosawa-solo}
+      - {no: 2, recording: aqours/kimi-no-hitomi-o-meguru-boken#ruby-kurosawa-solo}
+      - {no: 3, recording: aqours/my-mai-tonight#ruby-kurosawa-solo}
+      - {no: 4, recording: aqours/miracle-wave#ruby-kurosawa-solo}
+      - {no: 5, recording: aqours/water-blue-new-world#ruby-kurosawa-solo}
+      - {no: 6, recording: aqours/wonderful-stories#ruby-kurosawa-solo}
+      - {no: 7, recording: aqours/my-list-to-you#ruby-kurosawa-solo}
+      - {no: 8, recording: aqours/yuki-wa-doko-ni-kimi-no-mune-ni#ruby-kurosawa-solo}
+      - {no: 9, recording: aqours/1star#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_HpOIgxK8I32
+    tracks:
+      1-1: Wqp7OtMU2wQ
+      1-2: YMweA4_Nva8
+      1-3: 3h8Ip-tgP5Q
+      1-4: VMfinIBUx_0
+      1-5: w4rXvImzQdk
+      1-6: AwJtBeAGp_U
+      1-7: tTLmum3KNBc
+      1-8: RjRXckh23jE
+      2-1: Is0Q_ocJdlg
+      2-2: xADZOEu0qmg
+      2-3: PgLnOIBBggo
+      2-4: K42TdaCcZ2s
+      2-5: aFEVrcRhEMc
+      2-6: d1kLAea5V4c
+      2-7: BDqhGg1FYZ8
+      2-8: ZWq3Wx5wGZY
+      2-9: 32PS9r8lLuo
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Second Solo Concert Album ～THE STORY OF FEATHER～ starring Kurosawa Ruby, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

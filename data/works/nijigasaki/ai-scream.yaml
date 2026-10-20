@@ -1,0 +1,50 @@
+id: nijigasaki/ai-scream
+project: nijigasaki
+title:
+  ja: 愛♡スクリ～ム！
+  rom: Ai♡Scream!
+  ko: 아이♡스크~림!
+credits:
+  lyricist:
+    - {person: aim}
+  composer:
+    - {person: dj-chika-a-k-a-inherit}
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {artist: aiscream}
+    arranger:
+      - {person: hayato-yamamoto}
+      - {person: dj-chika-a-k-a-inherit}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 愛♡スクリ～ム！ (Off Vocal)
+      rom: Ai♡Scream! (Off Vocal)
+      ko: 아이♡스크~림! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+      - {person: dj-chika-a-k-a-inherit}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%EF%BD%9E%E3%83%A0%EF%BC%81 https://love-live.fandom.com/wiki/Ai%E2%99%A1Scream!'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd81
+    checked: 2026-10-20

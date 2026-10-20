@@ -1,0 +1,49 @@
+id: nijigasaki/monochrome-labyrinth
+project: nijigasaki
+title:
+  ja: モノクロラビリンス
+  rom: Monochrome Labyrinth
+  ko: 모노크롬 라비린스
+credits:
+  lyricist:
+    - {person: anomaism}
+  composer:
+    - {person: anomaism}
+recordings:
+  - id: original
+    performers:
+      - {artist: a-zu-na}
+    arranger:
+      - {person: anomaism}
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: モノクロラビリンス (Off Vocal)
+      rom: Monochrome Labyrinth (Off Vocal)
+      ko: 모노크롬 라비린스 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: anomaism}
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD%E3%83%A9%E3%83%93%E3%83%AA%E3%83%B3%E3%82%B9 https://love-live.fandom.com/wiki/Monochrome_Labyrinth'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
+    checked: 2026-10-20

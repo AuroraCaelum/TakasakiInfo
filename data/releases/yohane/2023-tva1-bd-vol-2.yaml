@@ -1,0 +1,38 @@
+id: yohane/2023-tva1-bd-vol-2
+type: bd_bonus
+title:
+  ja: TVA1 BD Vol.2
+  rom: TVA1 BD Vol.2
+  ko: TVA1 BD Vol.2
+projects: [yohane]
+release_date: 2023-10-27
+editions:
+  - id: e1
+    label:
+      ja: 特装限定版
+    catalog: BCXA-1864
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: yohane/things-that-flow-between-two-people#main}
+      - {no: 2, recording: yohane/tick-tack-tick-tack#original}
+      - {no: 3, recording: yohane/tick-tack-tick-tack#off-vocal}
+links:
+  official: https://www.yohane.net/bd/detail/?id=2
+legacy:
+  category: Yohane
+  albums:
+    - {title: TVA1 BD Vol.2}
+evidence:
+  tracks:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=2
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.yohane.net/bd/detail/?id=2
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/detail/?id=2
+    checked: 2026-10-20

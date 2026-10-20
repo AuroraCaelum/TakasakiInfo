@@ -1,0 +1,903 @@
+id: aqours/club-fan-meeting-2017
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!!Aqours クラブ活動 LIVE & FAN MEETING 〜 Landing action Yeah!! 〜
+  rom: Love Live! Sunshine!! Aqours Club Katsudou LIVE & FAN MEETING ~ Landing action Yeah!! ~
+  ko: 러브 라이브! 선샤인!! Aqours 클럽 활동 LIVE & FAN MEETING ~ Landing action Yeah!! ~
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: orix-theater
+    performances:
+      - date: 2017-11-04
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Osaka|Day 1
+      - date: 2017-11-05
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Osaka|Day 2 (Noon)
+      - date: 2017-11-05
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Osaka|Day 2 (Evening)
+  - id: 2-seoul
+    city: seoul
+    label: Trip to Asia
+    venue: kbs-arena
+    performances:
+      - date: 2017-11-18
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Seoul|Noon
+      - date: 2017-11-18
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Seoul|Evening
+  - id: 3-hokkaido
+    city: hokkaido
+    venue: nitori-bunka-hall
+    performances:
+      - date: 2017-12-09
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/shojo-ijo-no-koi-ga-shitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Sapporo|Day 1
+      - date: 2017-12-10
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Sapporo|Day 2 (Noon)
+      - date: 2017-12-10
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Sapporo|Day 2 (Evening)
+  - id: 4-shizuoka
+    city: shizuoka
+    venue: numazu-civic-cultural-center
+    performances:
+      - date: 2017-12-16
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Numazu|Noon
+      - date: 2017-12-16
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/jingle-bells-ga-tomaranai
+            performers:
+              - {artist: aqours}
+          - work: aqours/seinaru-hi-no-inori
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Numazu|Evening
+  - id: 5-fukuoka
+    city: fukuoka
+    venue: fukuoka-sunpalace-hotel-hall
+    performances:
+      - date: 2018-01-06
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Fukuoka|Noon
+      - date: 2018-01-06
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Fukuoka|Evening
+  - id: 6-shanghai
+    city: shanghai
+    label: Trip to Asia
+    venue: jingan-sports-centre-gymnasium
+    performances:
+      - date: 2018-01-20
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Shanghai|Noon
+      - date: 2018-01-20
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Shanghai|Evening
+  - id: 7-aichi
+    city: aichi
+    venue: nagoya-congress-center-century-hall
+    performances:
+      - date: 2018-02-03
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/taiyou-o-oikakero
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Nagoya|Noon
+      - date: 2018-02-03
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/mirai-ticket
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Nagoya|Evening
+  - id: 8-taipei
+    city: taipei
+    label: Trip to Asia
+    venue: taipei-international-convention-center-ticc
+    performances:
+      - date: 2018-02-10
+        label: Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV anime version
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Taipei|
+      - date: 2018-02-10
+        label: Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV anime version
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Taipei|
+  - id: 9-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2018-03-10
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/matte-te-ai-no-uta
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV anime version
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Chiba|Day 1
+      - date: 2018-03-11
+        label: Day.2 Noon
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV anime version
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Chiba|Day 2 (Noon)
+      - date: 2018-03-11
+        label: Day.2 Evening
+        setlist:
+          - work: aqours/landing-action-yeah
+            version: short version
+            performers:
+              - {artist: aqours}
+          - {type: talk, label: Talk portion}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: short version
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/daydream-warrior
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/humming-friend
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV anime version
+            performers:
+              - {artist: aqours}
+        external_ids:
+          fandom: Chiba|Day 2 (Evening)
+external_ids:
+  fandom: Aqours CLUB Activities LIVE & FAN MEETING ～Landing action Yeah!!～
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+    note: "공식 영문 없음. Fandom은 クラブ活動을 'CLUB Activities'로 번역해서 외래어 복원+헵번으로 만듦(Club Katsudou). 〜 안쪽 공백은 공식 표기대로 둠(Fandom·나무위키는 공백 없이 ~Landing action Yeah!!~) 외부 근거: rom: 규칙 엔진 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EC%84%A0%EC%83%A4%EC%9D%B8!!%20Aqours%20%ED%81%B4%EB%9F%BD%20%ED%99%9C%EB%8F%99%20LIVE%20%26%20FAN%20MEETING%20~Landing%20action%20Yeah!!~. 일정 조사 메모: Two legs on one Fandom page: the Japan leg (official sp_fmt.php) and 「Love Live! Sunshine!! Aqours Club Activity LIVE & FAN MEETING Trip to Asia -Landing action Yeah!!-」 (official worldwide page worldwide/fmt.php, which prints the Seoul/Shanghai/Taipei venues only in Korean/Chinese/English: KBS ARENA; 静安体育中心 体育馆 / JINGAN SPORTS CENTRE; 台北國際會議中心 (TICC); no Japanese notation found, so ja keeps the official non-Japanese form — TICC follows the Japanese notation of the 2019 ASIA TOUR page). Stops are in date order across both legs. Official show numbering ＜1回目＞/＜2回目＞ is written Noon/Evening as on Fandom. Fandom puts the noon and evening set lists of one day in a single tab (headed '''Noon:''' / '''Evening:'''), so those tabs map to both shows; the Taipei tab is ONE undivided list although the official page lists two shows (14:00 and 19:00) — mapped to both, which show it reflects is unknown. Numazu is printed 「沼津市民文化センター 大ホール」 here; the plain 「沼津市民文化センター」 used by the later Aqours pages is kept for one venue. Makuhari is printed 「幕張メッセ イベントホール」."
+  schedule.1-osaka:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  schedule.2-seoul:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/fmt.php
+    checked: 2026-10-20
+  schedule.3-hokkaido:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  schedule.4-shizuoka:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  schedule.5-fukuoka:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  schedule.6-shanghai:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/fmt.php
+    checked: 2026-10-20
+  schedule.7-aichi:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  schedule.8-taipei:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/fmt.php
+    checked: 2026-10-20
+  schedule.9-chiba:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/sp_fmt.php
+    checked: 2026-10-20
+  setlist.2017-11-04:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-11-05:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-11-18:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-12-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-12-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2017-12-16:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-01-06:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-01-20:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-02-03:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-02-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-03-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2018-03-11:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Aqours_CLUB_Activities_LIVE_&_FAN_MEETING_%EF%BD%9ELanding_action_Yeah!!%EF%BD%9E
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

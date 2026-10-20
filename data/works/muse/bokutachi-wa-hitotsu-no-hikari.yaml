@@ -1,0 +1,47 @@
+id: muse/bokutachi-wa-hitotsu-no-hikari
+project: muse
+title:
+  ja: 僕たちはひとつの光
+  rom: Bokutachi wa Hitotsu no Hikari
+  ko: 우리는 하나의 빛
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: zaq}
+recordings:
+  - id: original
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕たちはひとつの光 (Off Vocal)
+      rom: Bokutachi wa Hitotsu no Hikari (Off Vocal)
+      ko: 우리는 하나의 빛 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AE%E5%85%89 https://love-live.fandom.com/wiki/Bokutachi_wa_Hitotsu_no_Hikari'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
+    checked: 2026-10-20

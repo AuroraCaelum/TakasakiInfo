@@ -1,0 +1,47 @@
+id: liella/makka
+project: liella
+title:
+  ja: 真っ赤。
+  rom: Makka.
+  ko: 새빨개.
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takaaki-kimura}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ren-mizunoya}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 真っ赤。 (Off Vocal)
+      rom: Makka. (Off Vocal)
+      ko: 새빨간. (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ren-mizunoya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%80%82 https://love-live.fandom.com/wiki/Makka. ko: 검수(2026-10-20) 마침표로 끝나는 서술이라 서술형으로(나무위키는 새빨간.).'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20

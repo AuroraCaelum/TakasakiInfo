@@ -1,0 +1,49 @@
+id: liella/zettaiteki-lover
+project: liella
+title:
+  ja: 絶対的LOVER
+  rom: Zettaiteki LOVER
+  ko: 절대적 LOVER
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: rasmus-faber}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/margarete-wien}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: rasmus-faber}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 絶対的LOVER (Off Vocal)
+      rom: Zettaiteki LOVER (Off Vocal)
+      ko: 절대적 LOVER (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rasmus-faber}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B5%B6%E5%AF%BE%E7%9A%84LOVER https://love-live.fandom.com/wiki/Zettaiteki_LOVER'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
+    checked: 2026-10-20

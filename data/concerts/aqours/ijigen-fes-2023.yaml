@@ -1,0 +1,344 @@
+id: aqours/ijigen-fes-2023
+projects: [aqours, nijigasaki, liella, hasunosora, musical]
+status: performed
+title:
+  ja: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+  rom: IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen
+  ko: 이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-dome
+    performances:
+      - date: 2023-12-09
+        setlist:
+          - {type: video, label: Opening}
+          - work: aqours/aozora-jumping-heart
+            version: Short Ver.
+            performers:
+              - {artist: aqours}
+          - {work: external/shine, version: Short Ver.}
+          - work: nijigasaki/tokimeki-runners
+            version: Short Ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {work: external/brand-new-theater, version: Short Ver.}
+          - work: liella/tokonatsu-sunshine
+            version: Short Ver.
+            performers:
+              - {artist: liella}
+          - {work: external/spread-the-wings, version: Short Ver.}
+          - work: hasunosora/dream-believers
+            version: Short Ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: video, label: 'Intermission #1'}
+          - {work: external/eternal-harmony}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {work: external/mujuuryoku-shuttle}
+          - work: aqours/dreamy-color
+            performers:
+              - {artist: aqours}
+          - work: hasunosora/do-do-do
+            performers:
+              - {artist: mira-cra-park}
+          - {work: external/ima-shika-nai-shunkan-o}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: external/let-s-sail-away
+            performers:
+              - {person: shuka-saito}
+              - {person: kanna-kan}
+          - work: liella/we-will
+            performers:
+              - {person: nako-misaki}
+              - {person: akina-homoto}
+          - {type: video, label: 'Intermission #2'}
+          - {work: external/fruity-love}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - {work: external/alstroemeria}
+          - work: hasunosora/holiday-holiday
+            performers:
+              - {artist: cerise-bouquet}
+          - {work: external/love-letter}
+          - work: nijigasaki/dream-with-you
+            version: Short Ver.
+            performers:
+              - {person: aguri-onishi}
+          - work: nijigasaki/butterfly
+            version: Short Ver.
+            performers:
+              - {person: akari-kito}
+          - work: nijigasaki/tsunagaru-connect
+            version: Short Ver.
+            performers:
+              - {person: chiemi-tanaka}
+          - work: hasunosora/hakuchuu-a-la-mode
+            performers:
+              - {person: kanna-kan}
+          - work: external/love-bon-appetit
+            performers:
+              - {person: kanako-takatsuki}
+              - {person: maria-sashide}
+              - {person: sakura-sakakura}
+              - {person: kona-tsukine}
+          - {type: mc, label: 'MC #1'}
+          - {work: musical/kirari-hirari-mau-sakura}
+          - {work: musical/yume-no-compass}
+          - {type: video, label: 'Intermission #3'}
+          - {work: external/fairytale-ja-irarenai}
+          - work: hasunosora/tragic-drops
+            performers:
+              - {artist: dollchestra}
+          - {work: external/abyss-of-conflict}
+          - {work: external/oh-my-god}
+          - work: nijigasaki/vivid-world
+            version: Short Ver.
+            performers:
+              - {person: miyu-kubota}
+          - work: nijigasaki/eutopia
+            version: Short Ver.
+            performers:
+              - {person: akina-homoto}
+          - work: nijigasaki/ketsui-no-hikari
+            version: Short Ver.
+            performers:
+              - {person: moeka-koizumi}
+          - {work: external/seizon-honnou-valkyria}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - {work: aqours/guilty-night-guilty-kiss}
+          - work: external/tulip
+            performers:
+              - {person: rikako-aida}
+              - {person: miyu-kubota}
+              - {person: kotoko-sasaki}
+          - {type: video, label: 'Intermission #4'}
+          - work: external/dye-the-sky
+            performers:
+              - {person: arisa-komiya}
+              - {person: kaori-maeda}
+              - {person: naomi-payton}
+          - work: liella/miracle-new-story
+            performers:
+              - {person: nozomi-suzuhara}
+              - {person: ai-furihata}
+              - {person: mayu-sagara}
+              - {person: nina-hanamiya}
+          - work: external/session
+            performers:
+              - {person: anju-inami}
+              - {person: natsumi-murakami}
+              - {person: sayuri-date}
+              - {person: nozomi-nirei}
+          - {work: external/alive-factor, version: 'Azusa Tadokoro, Miyu Tomita, Aya Yamane, Aika Kobayashi, Yuina & Kokona Nonaka'}
+          - work: aqours/mitaiken-horizon
+            performers:
+              - {artist: aqours}
+          - {work: hasunosora/eien-no-euphoria, version: Hasunosora Girls' High School Idol Club & Cinderella Girls}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: external/goin
+            performers:
+              - {artist: liella}
+          - work: external/ready
+            performers:
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {work: muse/bokura-wa-ima-no-naka-de}
+          - {type: mc, label: 'MC #2'}
+          - {work: nijigasaki/ijigen-bigbang}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2023-12-10
+        setlist:
+          - {type: video, label: Opening}
+          - {work: external/yes-party-time, version: Short ver.}
+          - work: hasunosora/on-your-mark
+            version: Short ver.
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: liella/vitamin-summer
+            version: Short ver.
+            performers:
+              - {artist: liella}
+          - {work: external/shinography, version: Short ver.}
+          - work: nijigasaki/love-u-my-friends
+            version: Short ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {work: external/rat-a-tat, version: TV Size}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: Short ver.
+            performers:
+              - {artist: aqours}
+          - {type: video, label: 'Intermission #1'}
+          - {work: external/nagareboshi-kiseki}
+          - work: nijigasaki/chase
+            version: Short ver.
+            performers:
+              - {person: coco-hayashi}
+          - work: nijigasaki/meccha-going
+            version: Short ver.
+            performers:
+              - {person: natsumi-murakami}
+          - work: nijigasaki/toy-doll
+            version: Short ver.
+            performers:
+              - {person: shu-uchida}
+          - work: hasunosora/non-fiction-hero-show
+            performers:
+              - {artist: mira-cra-park}
+          - {work: external/gakusai-kakumei-yoakemae}
+          - work: aqours/water-blue-new-world
+            performers:
+              - {artist: aqours}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - {work: external/jungle-party}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {person: chiemi-tanaka}
+              - {person: aya-emori}
+          - work: hasunosora/mix-shake
+            performers:
+              - {person: nozomi-nirei}
+              - {person: ai-furihata}
+          - {type: video, label: 'Intermission #2'}
+          - {work: external/sweet-sweet-soul}
+          - work: nijigasaki/muteki-kyuu-believer
+            version: Short ver.
+            performers:
+              - {person: mayu-sagara}
+          - work: nijigasaki/audrey
+            version: Short ver.
+            performers:
+              - {person: kaori-maeda}
+          - work: nijigasaki/aion-no-uta
+            version: Short ver.
+            performers:
+              - {person: maria-sashide}
+          - {work: external/happy-funny-lucky}
+          - work: hasunosora/genyo-yako
+            performers:
+              - {artist: cerise-bouquet}
+          - {work: external/shine-in-the-sky}
+          - work: liella/dancing-raspberry
+            performers:
+              - {artist: 5yncri5e}
+          - work: nijigasaki/happy-nyan-days
+            performers:
+              - {person: aguri-onishi}
+          - work: external/cat-squad
+            performers:
+              - {person: kotoko-sasaki}
+              - {person: rikako-aida}
+              - {person: akane-yabushima}
+          - {type: mc, label: 'MC #1'}
+          - {work: musical/kirari-hirari-mau-sakura}
+          - {work: musical/yume-no-compass}
+          - {type: video, label: 'Intermission #3'}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {person: nina-hanamiya}
+          - work: external/kyouki-ranbu
+            performers:
+              - {person: arisa-komiya}
+              - {person: shu-uchida}
+              - {person: nagisa-aoyama}
+          - {work: external/wandering-dream-chaser}
+          - work: hasunosora/knot
+            performers:
+              - {artist: dollchestra}
+          - {work: external/mujikaku-a-priori}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {work: external/raise-the-flag}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - {work: external/girls-in-the-frontier}
+          - {type: video, label: 'Intermission #4'}
+          - work: external/sayonara-andromeda
+            performers:
+              - {artist: aqours}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: hasunosora/fortune-movie
+            performers:
+              - {person: aya-emori}
+              - {person: sakura-sakakura}
+              - {person: nina-hanamiya}
+              - {person: nozomi-nirei}
+          - work: external/tracing-defender
+            performers:
+              - {person: nako-misaki}
+              - {person: coco-hayashi}
+              - {person: shuka-saito}
+              - {person: kokona-nonaka}
+          - work: external/harmonics
+            performers:
+              - {person: arisa-komiya}
+              - {person: sayuri-date}
+              - {person: kona-tsukine}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {person: anju-inami}
+              - {person: kanako-takatsuki}
+              - {person: akari-kito}
+              - {person: moeka-koizumi}
+              - {person: naomi-payton}
+              - {person: liyuu}
+              - {person: kotoko-sasaki}
+              - {person: kanna-kan}
+          - work: aqours/cotton-candy-ei-ei-oh
+            performers:
+              - {person: ai-furihata}
+          - work: external/thank-you
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {work: muse/snow-halation}
+          - work: external/m-sterpiece
+            performers:
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - {type: mc, label: 'MC #2'}
+          - {work: nijigasaki/ijigen-bigbang}
+        external_ids:
+          fandom: '|Day 2'
+external_ids:
+  fandom: Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen
+evidence:
+  title:
+    status: derived
+    source: https://ijigen-fes.jp/utagassen/
+    checked: 2026-10-20
+    note: "rom: 공식 해외 안내 페이지 영문. 같은 페이지 큰 제목은 'IJIGEN FES THE IDOLM@STER★♥LOVELIVE! UTAGASSEN', 배신 티켓명은 이 표기라 시리즈명이 맞는 쪽을 고름. Fandom은 'Ijigen Fes IDOLM@STER★♥Love Live! Uta Gassen'. ko: 나무위키 문서명(곡 '이차원★♥BIGBANG'과 맞음) 외부 근거: rom: https://www.ijigen-fes.jp/utagassen/overseas.php ko: https://namu.wiki/w/%EC%9D%B4%EC%B0%A8%EC%9B%90%20%ED%8E%98%EC%8A%A4%20%EC%95%84%EC%9D%B4%EB%8F%8C%EB%A7%88%EC%8A%A4%ED%84%B0%E2%98%85%E2%99%A5%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%85%B8%EB%9E%98%20%EB%8C%80%ED%95%AD%EC%A0%84. 일정 조사 메모: Joint festival with THE iDOLM@STER series (outside franchise). Official event site is ijigen-fes.jp (production committee), not lovelive-anime.jp. School Idol Musical cast appeared as guests (ゲスト出演) on both days, hence musical in projects. No μ's."
+  schedule:
+    status: official
+    source: https://ijigen-fes.jp/utagassen/
+    checked: 2026-10-20
+  setlist.2023-12-09:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ijigen_Fes_IDOLM%40STER%E2%98%85%E2%99%A5Love_Live!_Uta_Gassen
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  setlist.2023-12-10:
+    status: draft
+    source: https://love-live.fandom.com/wiki/Ijigen_Fes_IDOLM%40STER%E2%98%85%E2%99%A5Love_Live!_Uta_Gassen
+    checked: 2026-10-20
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'

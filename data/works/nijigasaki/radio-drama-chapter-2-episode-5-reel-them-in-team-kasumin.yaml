@@ -1,0 +1,23 @@
+id: nijigasaki/radio-drama-chapter-2-episode-5-reel-them-in-team-kasumin
+kind: drama
+project: nijigasaki
+title:
+  ja: ラジオドラマ2章5話 引き込め、かすみんチーム！
+  rom: Radio Drama Chapter 2 Episode 5 Reel them in, Team Kasumin!
+  ko: 라디오 드라마 2장 5화 끌어들여라, 카스밍 팀!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd57
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: 영어 번역안(Fandom 미게재), ko: 번역안(나무위키 미게재), 확인 필요. 형식은 선례 radio-drama-*.yaml(ja에 ~가 없어 rom·ko에도 넣지 않음). かすみん은 선례(2020-0318 발매물의 7章6話 ~レボリューション・かすみん！~)대로 Kasumin/카스밍 화수는 시리즈마다 겹치고(5章4話는 2020-0318·2022-0824·이 CD에 각각) 부제로 구별한다.'

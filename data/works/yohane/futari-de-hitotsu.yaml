@@ -1,0 +1,48 @@
+id: yohane/futari-de-hitotsu
+project: yohane
+title:
+  ja: ふたりでひとつ
+  rom: Futari de Hitotsu
+  ko: 둘이서 하나
+credits:
+  lyricist:
+    - {person: hayato-yamamoto}
+  composer:
+    - {person: hayato-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/lailaps}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/movie/
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ふたりでひとつ (Off Vocal)
+      rom: Futari de Hitotsu (Off Vocal)
+      ko: 둘이서 하나 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hayato-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.yohane.net/bd/movie/
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.yohane.net/bd/movie/
+    checked: 2026-10-20
+    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서·음반 문서의 러브 라이브! 선샤인!! 음반 틀 번역) 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E3%81%B2%E3%81%A8%E3%81%A4 https://love-live.fandom.com/wiki/Futari_de_Hitotsu'
+  credits:
+    status: official
+    source: https://www.yohane.net/bd/movie/
+    checked: 2026-10-20

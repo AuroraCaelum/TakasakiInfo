@@ -1,0 +1,87 @@
+id: aqours/2025-lovelive-sunshine-fourth-solo-concert-album-the-story-of-sunshine-starring-kunikida-hanamaru
+type: album
+title:
+  ja: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Kunikida Hanamaru
+  rom: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Kunikida Hanamaru
+  ko: LoveLive! Sunshine!! Fourth Solo Concert Album ~THE STORY OF SUNSHINE!!~ starring Kunikida Hanamaru
+projects: [aqours]
+artist_credit:
+  - {character: aqours/hanamaru-kunikida}
+label: Lantis
+release_date: 2025-03-04
+editions:
+  - {id: e1, catalog: LACA-19070~1}
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/thank-you-friends#hanamaru-kunikida-solo}
+      - {no: 2, recording: aqours/no-10#hanamaru-kunikida-solo}
+      - {no: 3, recording: aqours/bouken-type-a-b-c#hanamaru-kunikida-solo}
+      - {no: 4, recording: aqours/fantastic-departure#hanamaru-kunikida-solo}
+      - {no: 5, recording: aqours/aqours-pirates-desire#hanamaru-kunikida-solo}
+      - {no: 6, recording: aqours/future-flight#hanamaru-kunikida-solo}
+      - {no: 7, recording: aqours/smile-smile-ship-start#hanamaru-kunikida-solo}
+      - {no: 8, recording: aqours/kokoro-no-hane-yo-kimi-e-tondeke#hanamaru-kunikida-solo}
+      - {no: 9, recording: aqours/ku-ru-ku-ru-cruller#hanamaru-kunikida-solo}
+      - {no: 10, recording: aqours/suki-for-you-dream-for-you#hanamaru-kunikida-solo}
+      - {no: 11, recording: aqours/namida#hanamaru-kunikida-solo}
+  - disc: 2
+    tracks:
+      - {no: 1, recording: nijigasaki/live-with-a-smile#hanamaru-kunikida-solo}
+      - {no: 2, recording: nijigasaki/not-alone-not-hitori#hanamaru-kunikida-solo}
+      - {no: 3, recording: aqours/gemstone-de-a-i#hanamaru-kunikida-solo}
+      - {no: 4, recording: aqours/banzai-digital-trippers#hanamaru-kunikida-solo}
+      - {no: 5, recording: aqours/ka-ga-ya-ki-ra-ri-ra#hanamaru-kunikida-solo}
+      - {no: 6, recording: aqours/genjitsu-mysterium#hanamaru-kunikida-solo}
+      - {no: 7, recording: aqours/game-on#hanamaru-kunikida-solo}
+      - {no: 8, recording: aqours/kimi-no-tame-boku-no-tame#hanamaru-kunikida-solo}
+      - {no: 9, recording: aqours/silent-pain#hanamaru-kunikida-solo}
+      - {no: 10, recording: aqours/bokura-no-umi-de-mata-aou#hanamaru-kunikida-solo}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_lxBGxzrHurk
+    tracks:
+      1-1: t1qIVIQWH_o
+      1-2: 0TNVT5-eM9Y
+      1-3: pQIA-RteDSs
+      1-4: Vz23zb2XtWQ
+      1-5: rRlQP2jFxXo
+      1-6: o3IHfF9NSc0
+      1-7: Bujb0qV2W8c
+      1-8: 86Hdle6nm3Q
+      1-9: cQA3IAFPyBk
+      1-10: 6UHJ0XktiaU
+      1-11: f2uJDVN_u2M
+      2-1: U4GXIjnYg0M
+      2-2: G7SA0gmRrpo
+      2-3: df3czkqR2AU
+      2-4: nFoQwM7AZ3Y
+      2-5: dD44ZdydKGo
+      2-6: FQKlINJwPe8
+      2-7: E8IJxSRnBdM
+      2-8: C9o9sIGhSl8
+      2-9: eRVXTjp3lXw
+      2-10: qQIN4JjHMs4
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+legacy:
+  category: Aqours
+  albums:
+    - {title: LoveLive! Sunshine!! Fourth Solo Concert Album ～THE STORY OF SUNSHINE!!～ starring Kunikida Hanamaru, flatten_discs: true}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+    checked: 2026-10-20
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+    checked: 2026-10-20
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
+    checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
+    checked: 2026-10-20
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

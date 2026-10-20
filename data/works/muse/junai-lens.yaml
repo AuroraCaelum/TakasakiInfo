@@ -1,0 +1,47 @@
+id: muse/junai-lens
+project: muse
+title:
+  ja: 純愛レンズ
+  rom: Junai Lens
+  ko: 순애 렌즈
+credits:
+  lyricist:
+    - {person: aki-hata}
+  composer:
+    - {person: yusuke-yamamoto}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: yusuke-yamamoto}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 純愛レンズ (Off Vocal)
+      rom: Junai Lens (Off Vocal)
+      ko: 순애 렌즈 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yusuke-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20
+    note: "ja: 공식 페이지. rom: Fandom(헵번식 규칙이면 Jun'ai Lens. Fandom도 乙女式れんあい塾은 Ren'ai로 씀, 기존 데이터 Kuuchuu Ren'ai Ron), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E7%B4%94%E6%84%9B%E3%83%AC%E3%83%B3%E3%82%BA https://love-live.fandom.com/wiki/Junai_Lens"
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
+    checked: 2026-10-20

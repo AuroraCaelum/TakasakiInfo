@@ -1,0 +1,56 @@
+id: nijigasaki/crowned-soul
+project: nijigasaki
+title:
+  ja: CROWNed SOUL
+  rom: CROWNed SOUL
+  ko: CROWNed SOUL
+credits:
+  lyricist:
+    - {person: teddyloid}
+    - {person: em-me}
+  composer:
+    - {person: teddyloid}
+    - {person: em-me}
+recordings:
+  - id: original
+    performers:
+      - {artist: diverdiva}
+    arranger:
+      - {person: teddyloid}
+      - {person: em-me}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+        checked: 2026-10-20
+      arranger:
+        status: official
+        source: https://music.youtube.com/watch?v=D76qu6z30nw
+        checked: 2026-10-20
+        note: 공식 페이지는 오기 「作詞：作曲・編曲：TeddyLoid、EMME」(cd.php#cd01_6287). 레이블 제공 배포 메타데이터(YouTube Music, D42)는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 일치
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: CROWNed SOUL (Off Vocal)
+      rom: CROWNed SOUL (Off Vocal)
+      ko: CROWNed SOUL (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: teddyloid}
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+        checked: 2026-10-20
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6287
+    checked: 2026-10-20
+  credits:
+    status: official
+    source: https://music.youtube.com/watch?v=D76qu6z30nw
+    checked: 2026-10-20
+    note: 공식 페이지는 오기 「作詞：作曲・編曲：TeddyLoid、EMME」(cd.php#cd01_6287). 레이블 제공 배포 메타데이터(YouTube Music, D42)는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 일치
