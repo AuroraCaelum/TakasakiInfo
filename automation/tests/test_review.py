@@ -50,6 +50,14 @@ def test_merge_artist_variant_into_character(ds):
     assert render_performers(ds, rec.performers)[0] == "渡辺曜"
 
 
+def test_a_merged_guest_stays_featured(ds):
+    # D48: the featured flag belongs to the credit, not to the entity merged away
+    ds.artists["g"] = m.Artist(id="g", kind="group", names=_names("G", "G", "G"))
+    ds.works["p/song"].recordings[0].performers = [m.Performer(artist="g"), m.Performer(artist="you-variant", featured=True)]
+    merge(ds, ["artist:you-variant", "character:p/you"], "character:p/you")
+    assert ds.works["p/song"].recordings[0].performers[1] == m.Performer(character="p/you", featured=True)
+
+
 def test_merge_person_into_character_rewrites_credits(ds):
     # D27: a character credited in-story (高咲侑 as lyricist) is a character, not a person
     merge(ds, ["person:yu", "character:p/yu"], "character:p/yu")

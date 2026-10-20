@@ -82,6 +82,17 @@ def test_songs_resolve_to_works_and_singers():
     assert items[7].title_raw == "セイントスノーの歌" and items[7].work is None
 
 
+def test_a_guest_after_feat_is_featured():
+    # D48: Aqours and the featured 初音ミク, not one joint artist; "with" joins singers as before
+    ds = _ds()
+    ds.characters["external/miku"] = m.Character(id="external/miku", project="external",
+                                                 names=m.Names(ja="初音ミク", rom="Hatsune Miku"))
+    page = "==Set Lists==\n#[[HAPPY PARTY TRAIN]] by [[Aqours]] feat. [[Hatsune Miku]]\n#[[Duo]] by Aqours with Cerise Bouquet\n"
+    items, _ = concerts.setlist(fandom.parse_setlists(page)[0].items, concerts.Resolver(ds), ["aqours"])
+    assert items[0].performers == [m.Performer(artist="aqours"), m.Performer(character="external/miku", featured=True)]
+    assert items[1].performers == [m.Performer(artist="aqours"), m.Performer(artist="cerise-bouquet")]
+
+
 def _concert(status: str) -> m.Concert:
     return m.Concert(id="aqours/aqours-2nd", projects=["aqours"], status=status, title=m.Names(ja="Aqours 2nd"),  # type: ignore[arg-type]
                      external_ids={"fandom": "Aqours 2nd"},

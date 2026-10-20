@@ -111,14 +111,25 @@ def _join(values: list[str]) -> str:
 
 
 def render_performers(ds: Dataset, performers: list[m.Performer]) -> list[str]:
+    """One string per language. A joint name is its performers joined with ``・``, as the official
+    pages print it; featured guests follow the others after ``feat.`` (D48)."""
     out = []
     for lang in LANGS:
-        parts = []
+        main: list[str] = []
+        guests: list[str] = []
+        joint = False  # the performer before was part of a joint name
         for p in performers:
             name = getattr(_names_of(ds, p), lang) or ""
             role = getattr(ds.characters[p.role].names, lang) if p.role else None
-            parts.append(render_credit_name(name, lang, role=role) if role else name)
-        out.append(_join(parts))
+            text = render_credit_name(name, lang, role=role) if role else name
+            if p.featured:
+                guests.append(text)
+            elif p.joint and joint:
+                main[-1] += "・" + text
+            else:
+                main.append(text)
+            joint = p.joint
+        out.append(f"{_join(main)} feat. {_join(guests)}" if guests else _join(main))
     return out
 
 

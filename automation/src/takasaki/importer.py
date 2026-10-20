@@ -115,6 +115,20 @@ class Performers:
     cast: bool = False
 
 
+_FEAT = re.compile(r"\s+(?:feat\.|featuring)\s+", re.I)
+
+
+def split_featured(names: list[str]) -> tuple[list[str], list[str]]:
+    """``Aqours feat. 初音ミク`` → ``(["Aqours"], ["初音ミク"])``: the guest after ``feat.`` is a
+    performer of its own, marked ``featured``, not part of a joint artist name (D48)."""
+    main, guests = [], []
+    for n in names:
+        head, *rest = _FEAT.split(n)
+        main.append(head.strip())
+        guests += [g.strip() for g in rest if g.strip()]
+    return main, guests
+
+
 @dataclass
 class TrackObs:
     no: int
@@ -443,14 +457,53 @@ class Importer:
 
     # works and releases -----------------------------------------------------------
 
+    def _find_guest(self, printed: str) -> m.Performer | None:
+        """A featured guest (D48) in the dictionary: an artist or a character of any project (one
+        from outside the series is under ``external``), else a person."""
+        key = match_key(printed)
+        hits = [("artist", a.id) for a in self.ds.artists.values() if match_key(a.names.ja) == key] \
+            or [("character", c.id) for c in self.ds.characters.values() if match_key(c.names.ja) == key]
+        if hits:
+            return m.Performer(**{hits[0][0]: hits[0][1]}, featured=True)
+        pid = self._find_person(printed)
+        return m.Performer(person=pid, featured=True) if pid else None
+
+    def _guest(self, printed: str, used_in: str | None) -> m.Performer | None:
+        found = self._find_guest(printed)
+        if found:
+            kind = found.ref[0]
+            self.reviews.note_use(self.spec.review_file(kind), kind, printed, used_in)
+            return found
+        aid = self.artist(printed, artist_kind="solo", used_in=used_in, source=self.page)  # a new name: reviewed as an artist
+        return m.Performer(artist=aid, featured=True) if aid else None
+
     def performers(self, p: Performers, group_id: str | None, used_in: str | None = None) -> list[m.Performer] | None:
-        names = p.artists or ([p.artist] if p.artist else [])
+        names, guests = split_featured(p.artists or ([p.artist] if p.artist else []))
+        featured = [self._guest(g, used_in) for g in guests]
+        sung = self._sung_by(p, names, group_id, used_in)
+        return None if sung is None or None in featured else sung + featured  # type: ignore[operator]
+
+    def _with_joint(self, names: list[str]) -> list[tuple[str, bool]]:
+        """The artist names a credit prints, each with whether it is part of a joint name (D48).
+        ``Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!`` is split into its artists when the whole
+        is no artist of its own and every part is one (``R・O・N`` stays a name)."""
         group_key = match_key(self.spec.group_name)
+        out: list[tuple[str, bool]] = []
+        for n in names:
+            parts = [x.strip() for x in n.split("・")]
+            joint = len(parts) > 1 and not self._find("artist", n) \
+                and all(match_key(x) == group_key or self._find("artist", x) for x in parts)
+            out += [(x, True) for x in parts] if joint else [(n, False)]
+        return out
+
+    def _sung_by(self, p: Performers, names: list[str], group_id: str | None, used_in: str | None) -> list[m.Performer] | None:
+        group_key = match_key(self.spec.group_name)
+        named = self._with_joint(names)
         if not self.spec.group_artist:
-            names = [n for n in names if match_key(n) != group_key]
-        if names:
-            ids = [group_id if match_key(n) == group_key else self.artist(n, used_in=used_in, source=self.page) for n in names]
-            return [m.Performer(artist=a) for a in ids] if all(ids) else None
+            named = [(n, j) for n, j in named if match_key(n) != group_key]
+        if named:
+            ids = [group_id if match_key(n) == group_key else self.artist(n, used_in=used_in, source=self.page) for n, _ in named]
+            return [m.Performer(artist=a, joint=j) for a, (_, j) in zip(ids, named)] if all(ids) else None
         if p.cast:
             return self._cast(p, used_in)
         chars = [self.character(name) for name, _ in p.members]
@@ -534,7 +587,8 @@ class Importer:
             for t in tracks:
                 base, ver, inner = _song(t.title)
                 sung = t.performers or obs.performers
-                self.singers = {match_key(n) for n in (sung.artists or ([sung.artist] if sung.artist else []))}
+                main, guests = split_featured(sung.artists or ([sung.artist] if sung.artist else []))
+                self.singers = {match_key(n) for n, _ in self._with_joint(main + guests)}
                 used = f"{where} #{t.disc}-{t.no}" if t.disc > 1 or any(x.disc > 1 for x in tracks) else f"{where} #{t.no}"
                 wid = on_release.get(match_key(base)) or self.resolve(
                     "work", base, file=self.spec.review_file("work"), used_in=used,
@@ -834,7 +888,15 @@ class Importer:
     def _lookup_performers(self, p: Performers | None, group_id: str | None) -> list[m.Performer] | None:
         if p is None:
             return None
-        names = p.artists or ([p.artist] if p.artist else [])
+        names, guests = split_featured(p.artists or ([p.artist] if p.artist else []))
+        featured = [self._find_guest(g) for g in guests]
+        for g, f in zip(guests, featured):
+            if f:
+                self._saw(*f.ref, g)
+        sung = self._lookup_sung_by(p, names, group_id)
+        return None if sung is None or None in featured else sung + featured  # type: ignore[operator]
+
+    def _lookup_sung_by(self, p: Performers, names: list[str], group_id: str | None) -> list[m.Performer] | None:
         for name, voice in p.members:  # "上原歩夢(CV.大西亜玖璃)", "堀内まり菜（椿 ルリカ役）": both names are printed
             cid, pid = self.character(name) if name else None, self._find_person(voice) if voice else None
             if cid:
@@ -843,11 +905,12 @@ class Importer:
                 self._saw("person", pid, voice)
         if names:
             group_key = match_key(self.spec.group_name)
-            ids = [group_id if match_key(n) == group_key else self._find("artist", n) for n in names]
-            for n, a in zip(names, ids):
+            named = self._with_joint(names)
+            ids = [group_id if match_key(n) == group_key else self._find("artist", n) for n, _ in named]
+            for (n, _), a in zip(named, ids):
                 if a:
                     self._saw("artist", a, n)
-            return [m.Performer(artist=a) for a in ids] if all(ids) else None
+            return [m.Performer(artist=a, joint=j) for a, (_, j) in zip(ids, named)] if all(ids) else None
         if p.cast:
             out = []
             for role, actor in p.members:

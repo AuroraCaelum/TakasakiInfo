@@ -351,7 +351,36 @@ def test_an_artist_version_and_an_original_waiting_for_its_single(ds, tmp_path):
     assert recs["group-ver"].title == m.Names(ja="Song A (グループ Ver.)", rom="Song A (Group Ver.)", ko="Song A (그룹 Ver.)")
     assert recs["group-ver-off-vocal"].instrumental_of == "group-ver"
     assert [r.id for r in ds.works["p/new-song"].recordings] == ["chika-solo"]  # the original stays the single's
-    assert any("Somebody feat. 誰か" in p for p in rep.pending)
+    # the guest after "feat." is a name of its own (D48): the Latin one is a draft at once, the other waits for its readings
+    assert "artist:somebody" in rep.created and any(p.startswith("artist 誰か:") for p in rep.pending)
+
+
+def test_a_featured_guest_is_a_performer_of_its_own(ds, tmp_path):
+    # D48: "グループ feat. 初音ミク" is the group and the featured 初音ミク (a character from outside the series)
+    assert imp.split_featured(["A feat. B", "C"]) == (["A", "C"], ["B"])
+    ds.characters["external/miku"] = m.Character(id="external/miku", project="external", names=m.Names(ja="初音ミク"))
+    url = "https://x/cd.php#cd72"
+    obs = _new(url, "New Song", [imp.TrackObs(1, "New Song", credits=_cr())], perf=imp.Performers("グループ feat. 初音ミク", None))
+    rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    assert not rep.pending and not rep.conflicts
+    guest = [m.Performer(artist="g"), m.Performer(character="external/miku", featured=True)]
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == url)
+    assert rel.artist_credit == guest
+    assert ds.works["p/new-song"].recordings[0].performers == guest
+    assert not imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT).conflicts
+
+
+def test_a_joint_name_is_its_artists(ds, tmp_path):
+    # D48: "グループ・ユニット" names two artists jointly when each part is one; otherwise it is a name of its own
+    ds.artists["u"] = m.Artist(id="u", kind="group", projects=["q"], names=m.Names(ja="ユニット"))
+    joint = _new("https://x/cd.php#cd35", "New Song", [imp.TrackObs(1, "New Song", credits=_cr())],
+                 perf=imp.Performers("グループ・ユニット", None))
+    other = _new("https://x/cd.php#cd36", "Other Song", [imp.TrackObs(1, "Other Song", credits=_cr())],
+                 perf=imp.Performers("グループ・誰か", None))
+    rep = imp.import_site(ds, imp.Site([], [joint, other], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), IMPORT)
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == "https://x/cd.php#cd35")
+    assert rel.artist_credit == [m.Performer(artist="g", joint=True), m.Performer(artist="u", joint=True)]
+    assert any(p.startswith("artist グループ・誰か:") for p in rep.pending)
 
 
 def test_english_credits_an_own_line_version_and_a_bonus_performer():

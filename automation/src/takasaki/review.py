@@ -57,7 +57,8 @@ def _rewrite_performer(p: m.Performer, src: tuple[str, str], dst: tuple[str, str
         return p if role == p.role else p.model_copy(update={"role": role})
     if role is not None and dst[0] != "person":
         raise ReviewError(f"person:{src[1]} sings in a role, cannot merge it into {dst[0]}:{dst[1]}")
-    return m.Performer(**{dst[0]: dst[1]}, role=role)
+    # a featured guest or a part of a joint name stays one (D48)
+    return m.Performer(**{dst[0]: dst[1]}, role=role, featured=p.featured, joint=p.joint)
 
 
 def merge(ds: Dataset, refs: list[str], target: str) -> str:

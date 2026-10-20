@@ -114,12 +114,15 @@ class Resolver:
         out: list[m.Performer] = []
         missing: list[str] = []
         for s in it.singers:
-            for part in re.split(r"\s+(?:feat\.|featuring|with)\s+", _feat(s)):
+            parts = re.split(r"\s+(feat\.|featuring|with)\s+", _feat(s))
+            featured = False
+            for sep, part in zip([None, *parts[1::2]], parts[::2]):
+                featured = featured or sep in ("feat.", "featuring")  # the guests after "feat." (D48)
                 ref = self._one(part, projects)
                 if ref is None:
                     missing.append(part)
                 elif all(p.ref != ref for p in out):
-                    out.append(m.Performer(**{ref[0]: ref[1]}))
+                    out.append(m.Performer(**{ref[0]: ref[1]}, featured=featured))
         return out, missing
 
     @staticmethod
