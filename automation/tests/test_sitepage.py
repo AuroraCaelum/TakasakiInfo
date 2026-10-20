@@ -228,6 +228,9 @@ def test_editions_with_their_own_coupling_song_get_a_disc_each(ds, tmp_path):
     assert [(d.editions, [t.recording for t in d.tracks]) for d in rel.discs] == [
         (["e1"], ["p/a#off-vocal", "p/song-b#original"]), (["e2"], ["p/a#off-vocal", "p/song-c#original"])]
     assert [(a.title, a.edition) for a in rel.legacy.albums] == [("Song A [第2話盤]", "e1"), ("Song A [通常盤]", "e2")]
+    # each edition's coupling song cites the edition's own page, not the release's first page
+    assert ds.works["p/song-c"].evidence["credits"].source == url + "?2"
+    assert ds.works["p/song-b"].evidence["credits"].source == url
 
 
 def test_a_drama_cd_and_a_version_between_wave_dashes(ds, tmp_path):

@@ -17,6 +17,7 @@ from typing import Any, Iterator, TypeVar
 from pydantic import BaseModel
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
+from ruamel.yaml.scalarstring import SingleQuotedScalarString
 
 from . import model as m
 
@@ -70,7 +71,14 @@ def _to_node(v: Any, in_list: bool = False) -> Any:
         if v and all(isinstance(x, str) for x in v) and len(v) <= 12 and sum(len(x) for x in v) < 120:
             seq.fa.set_flow_style()
         return seq
+    if isinstance(v, str) and v in _YAML11_BOOLS:
+        return SingleQuotedScalarString(v)
     return v
+
+
+# plain words a YAML 1.1 reader (PyYAML) takes for booleans although YAML 1.2 does not: the person
+# credited as "on" would come back as true, so they are written quoted
+_YAML11_BOOLS = {w for b in ("y", "yes", "n", "no", "on", "off") for w in (b, b.capitalize(), b.upper())}
 
 
 def dump_model(obj: BaseModel) -> str:

@@ -581,9 +581,9 @@ class Importer:
         vocal_of: dict[str, m.Recording] = {}
         on_release: dict[str, str] = {}  # the songs found for this release's tracks: its Off Vocals are theirs
         placed_by: list[tuple[str | None, list[tuple[int, m.Track]]]] = []  # (edition label, [(disc, track)])
-        for label, tracks in _edition_tracks(obs):
+        for label, tracks, url in _edition_tracks(obs):
             placed: list[tuple[int, m.Track]] = []
-            where = f"{obs.page_id}【{label}】" if label else obs.page_id
+            where = f"{page_id(url)}【{label}】" if label else obs.page_id  # an edition's songs are on its own page
             for t in tracks:
                 base, ver, inner = _song(t.title)
                 sung = t.performers or obs.performers
@@ -592,11 +592,11 @@ class Importer:
                 used = f"{where} #{t.disc}-{t.no}" if t.disc > 1 or any(x.disc > 1 for x in tracks) else f"{where} #{t.no}"
                 wid = on_release.get(match_key(base)) or self.resolve(
                     "work", base, file=self.spec.review_file("work"), used_in=used,
-                    seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)}, "source": obs.url})
+                    seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)}, "source": url})
                 if wid:
                     on_release.setdefault(match_key(base), wid)
                 perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
-                credits = {role: self.credits(names, f"{base}: {role}", obs.url) for role, names in t.credits.items()}
+                credits = {role: self.credits(names, f"{base}: {role}", url) for role, names in t.credits.items()}
                 if wid is None or perf is None or any(v is None for v in credits.values()):
                     complete = False
                     continue
@@ -607,10 +607,10 @@ class Importer:
                     if not work.recordings:
                         work.kind = "drama"  # type: ignore[assignment]
                     rec = self._upsert_recording(work, "main", {"kind": "drama", "performers": perf},
-                                                 m.Evidence(status=m.Status.official, source=obs.url, checked=self.today))
+                                                 m.Evidence(status=m.Status.official, source=url, checked=self.today))
                 else:
                     rec = self.recording(work, ver, perf, credits, obs, vocal_of, inner,
-                                         t.title[len(base):].strip() if wave_version(t.title) else None)
+                                         t.title[len(base):].strip() if wave_version(t.title) else None, source=url)
                 if rec is None:
                     complete = False
                     continue
@@ -623,12 +623,14 @@ class Importer:
 
     def recording(self, work: m.Work, ver: str | None, perf: list[m.Performer], credits: dict[str, list[m.Credit] | None],
                   obs: ReleaseObs, vocal_of: dict[str, m.Recording], inner: str | None = None,
-                  printed: str | None = None) -> m.Recording | None:
+                  printed: str | None = None, source: str | None = None) -> m.Recording | None:
         """``printed``: the version as the title prints it when not in round brackets (``～2023Ver.～``,
-        ``[YOU & I edit]``): the recording's title keeps that notation, half-width in rom and ko."""
+        ``[YOU & I edit]``): the recording's title keeps that notation, half-width in rom and ko.
+        ``source``: the page the track is on, an edition's own page when the editions differ."""
         lyr, comp = credits.get("lyricist"), credits.get("composer")
         arranged = {k: credits.get(k) or [] for k in ARRANGERS}  # 編曲, 弦編曲, 管編曲 (D42)
-        src = m.Evidence(status=m.Status.official, source=obs.url, checked=self.today)
+        source = source or obs.url
+        src = m.Evidence(status=m.Status.official, source=source, checked=self.today)
         if lyr is not None or comp is not None:
             new = m.WorkCredits(lyricist=lyr or [], composer=comp or [])
             if not work.credits.lyricist and not work.credits.composer:
@@ -638,7 +640,7 @@ class Importer:
                 if _refs(work.credits.lyricist) != _refs(new.lyricist) or _refs(work.credits.composer) != _refs(new.composer):
                     self.report.conflicts.append(f"{work.id}: credits on {obs.page_id} differ from the stored ones")
                 # else the same people with other affiliations (a cover album prints its own): the stored ones stay
-            elif work.evidence.get("credits") is not None and work.evidence["credits"].source == obs.url:
+            elif work.evidence.get("credits") is not None and work.evidence["credits"].source == source:
                 _printed_as(work.credits.lyricist, new.lyricist)
                 _printed_as(work.credits.composer, new.composer)
         if ver == "Off Vocal":
@@ -1275,14 +1277,14 @@ class Importer:
             rows.rows += [m.LayoutMemberRow(character=c) for c in members if c not in known]
 
 
-def _edition_tracks(obs: ReleaseObs) -> list[tuple[str | None, list[TrackObs]]]:
-    """The tracks to store: the release's, or each edition's when the edition pages list different
-    tracks (a single whose editions have their own coupling song)."""
+def _edition_tracks(obs: ReleaseObs) -> list[tuple[str | None, list[TrackObs], str]]:
+    """The tracks to store with the page they are on: the release's, or each edition's when the
+    edition pages list different tracks (a single whose editions have their own coupling song)."""
     pages = obs.edition_pages
     if len(pages) > 1 and all(p.label for p in pages) \
             and any([(t.disc, t.no, t.title) for t in p.tracks] != [(t.disc, t.no, t.title) for t in pages[0].tracks] for p in pages):
-        return [(p.label, p.tracks) for p in pages]
-    return [(None, obs.tracks)]
+        return [(p.label, p.tracks, p.url) for p in pages]
+    return [(None, obs.tracks, obs.url)]
 
 
 def _song(title: str) -> tuple[str, str | None, str | None]:

@@ -82,6 +82,24 @@ def test_songs_resolve_to_works_and_singers():
     assert items[7].title_raw == "セイントスノーの歌" and items[7].work is None
 
 
+def test_lines_the_wiki_writes_oddly():
+    items = fandom.parse_setlists("==Set Lists==\n" + "\n".join([
+        "#3[[Guilty Eyes Fever]] by Guilty Kiss",  # a stray digit before the link
+        "#{{w|Santa Claus Is Comin' to Town|Santa ga Machi ni Yattekuru}} (サンタが街にやってくる) by Nijigasaki High School Idol Club",
+        "#{{Nihongo|Hajimari no Asa (Main Theme|始まりの朝（メインテーマ）}} by Tokyo Philharmonic Orchestra",  # no closing bracket
+        "#{{Nihongo|[[Private Wars]] / Zetsubou|Private Wars / 絶望}} by Tokyo Philharmonic Orchestra",  # two songs
+        "#Shine!! Short Ver. by Cinderella Girls",
+    ]))[0].items
+    assert [(i.title, i.ja, i.version) for i in items] == [
+        ("Guilty Eyes Fever", None, None), ("Santa ga Machi ni Yattekuru", "サンタが街にやってくる", None),
+        ("Hajimari no Asa (Main Theme)", "始まりの朝（メインテーマ）", None), ("Private Wars", "Private Wars", None),
+        ("Zetsubou", "絶望", None), ("Shine!!", None, "Short Ver.")]
+    assert items[4].singers == ["Tokyo Philharmonic Orchestra"]
+    # what the wiki writes wrong is corrected by title (TITLE_FIXES)
+    fixed = concerts._fixed(fandom.parse_item("#{{Nihongo|Ima Shiknai Shunkan o|今しかない瞬間を}} by noctchill"))
+    assert (fixed.title, fixed.ja) == ("Ima Shika Nai Shunkan o", "今しかない瞬間を")
+
+
 def test_a_guest_after_feat_is_featured():
     # D48: Aqours and the featured 初音ミク, not one joint artist; "with" joins singers as before
     ds = _ds()

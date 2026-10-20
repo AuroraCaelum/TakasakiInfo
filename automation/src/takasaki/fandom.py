@@ -25,7 +25,7 @@ from __future__ import annotations
 import json
 import re
 import urllib.parse
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 API = "https://love-live.fandom.com/api.php"
 CATEGORY = "Category:Live_Concerts"
@@ -133,9 +133,21 @@ def _template(text: str) -> tuple[list[str], str]:
     return [], text
 
 
+_WIKIPEDIA = re.compile(r"\{\{\s*w\s*\|([^{}|]*)(?:\|([^{}|]*))?\}\}")  # {{w|article|label}}, a link to Wikipedia
+# "Shine!! Short Ver.", "Rat A Tat!!! TV Size"
+_SIZE_VERSION = re.compile(r"(.+?)\s+((?:Short|TV|Game|Movie|Full)\s*(?:size|Ver\.?)(?:\s*Ver\.?)?)", re.I)
+
+
+def _closed(title: str) -> str:
+    """A title whose closing bracket the wiki left out: ``Hajimari no Asa (Main Theme``."""
+    return title + ")" * (title.count("(") - title.count(")")) if title.count("(") > title.count(")") else title
+
+
 def parse_item(line: str) -> Item | None:
     text = re.sub(r"^[#*:]+\s*", "", line).strip()  # "#*" is a song of a medley
     text = re.sub(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>|<br\s*/?>", "", text).strip()
+    text = _WIKIPEDIA.sub(lambda mt: mt.group(2) or mt.group(1), text)
+    text = re.sub(r"^\d+(?=\[\[)", "", text)  # "#3[[Guilty Eyes Fever]]": a stray digit before the link
     if not text:
         return None
     if re.match(r"\{\{\s*[Nn]ihongo\s*\|", text):
@@ -144,8 +156,10 @@ def parse_item(line: str) -> Item | None:
             return Item("other", _unlink(text), raw=line)
         lm = _LINK.search(args[0])
         linked = lm is not None
-        title = lm.group(1).strip() if lm else _unlink(args[0])
+        title = _closed(lm.group(1).strip() if lm else _unlink(args[0]))
         ja = _unlink(args[1]) if len(args) > 1 and args[1] else None
+        if ja and " / " in ja and _unlink(args[0]).count(" / ") == ja.count(" / "):  # two songs in one item (split_medley)
+            title = _unlink(args[0])
         if args[0].startswith("'''") and not re.search(r"\s+by\s+", rest):  # a marker: {{Nihongo|'''Drama'''|ドラマ}}
             return Item(marker_type(title), title, ja, raw=line)
     elif m := _LINK.match(text):
@@ -157,14 +171,17 @@ def parse_item(line: str) -> Item | None:
     else:  # a song without an article: "#Song (歌) by X"
         title, rest, ja, linked = "", text, None, False
     by = ""
+    size = None
     if re.search(r"\s+by\s+", rest):
         rest, by = re.split(r"\s+by\s+", rest, maxsplit=1)
     if not title:  # the title is the text before "by"
         jm = re.search(r"[(（]([^()（）]*[^\x00-\x7f][^()（）]*)[)）]\s*$", rest)
         title, ja, rest = _unlink(rest[:jm.start()] if jm else rest), (jm.group(1).strip() if jm else None), ""
+        if sm := _SIZE_VERSION.fullmatch(title):
+            title, size = sm.group(1), sm.group(2)
     elif ja is None and (jm := re.search(r"[(（]([^()（）]*[^\x00-\x7f][^()（）]*)[)）]", rest)):  # "[[X]] (日本語)"
         ja, rest = jm.group(1).strip(), rest[:jm.start()] + rest[jm.end():]
-    version = _unlink(rest).strip(" -–") or None
+    version = _unlink(rest).strip(" -–") or size
     if version and (vm := re.fullmatch(r"[(（](.+)[)）]", version)):
         version = vm.group(1).strip()
     singers, note = _singers(by)
@@ -233,8 +250,17 @@ def parse_setlists(wikitext: str) -> list[Tab]:
             if tab is None:
                 tab = Tab(section, "", [])
                 tabs.append(tab)
-            tab.items.append(item)
+            tab.items += split_medley(item)
     return [t for t in tabs if t.items]
+
+
+def split_medley(it: Item) -> list[Item]:
+    """``{{Nihongo|[[Private Wars]] / Zetsubou|Private Wars / 絶望}}``: two songs played as one item, each
+    with the item's singers. A title with one ``/`` and no Japanese one to match stays a song."""
+    titles, jas = it.title.split(" / "), (it.ja or "").split(" / ")
+    if it.kind != "song" or len(titles) < 2 or len(titles) != len(jas):
+        return [it]
+    return [replace(it, title=t.strip(), ja=j.strip()) for t, j in zip(titles, jas)]
 
 
 def nihongo_title(wikitext: str) -> tuple[str | None, str | None]:

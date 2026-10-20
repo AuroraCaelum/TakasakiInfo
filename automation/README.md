@@ -76,7 +76,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | `rule` | latin-ko | 라틴 원어 이름의 ko를 원문으로 (§5.4) |
 | `keep:official` / `keep:established` | latin-ko | 지금 ko를 승인된 예외로 유지. `decision_note:`에 근거를 적는다 |
 | `pick:<n>` / `pick:<edition>=<n>,…` / `none` | ytm-album | 후보 앨범을 고른다. 항목에 트랙 대응이 저장돼 있어 네트워크 없이 반영된다. 고르지 않은 에디션은 자기 URL 없음 |
-| `approve` | new-names | 파일의 모든 항목 값을 (파일에서 고친 대로) 엔티티에 다시 쓰고, `draft`를 항목의 `status`로 바꾼다. id는 처음 만들 때 정해져 바뀌지 않는다 |
+| `approve` | new-names | 파일의 모든 항목 값을 (파일에서 고친 대로) 엔티티에 다시 쓰고, `draft`를 항목의 `status`로 바꾼다. id는 처음 만들 때 정해져 바뀌지 않는다(승인 전에 rom을 고친 초안만 id도 따라 바꾼다, D49) |
 | `done` | 전부 | `data/`를 직접 고친 뒤 항목을 닫는다. `setlist-songs`(Fandom 곡명이 Work와 맞지 않은 세트리스트 항목)는 Work를 만들거나 `external_ids.fandom`을 적고 `takasaki fandom concerts --apply`를 다시 돌리면 줄어든다 |
 
 캐릭터의 표기 변형으로 들어온 가창자(예: `渡辺 曜`)는 classify가 아니라 merge 항목에서 캐릭터로 병합한다(`merge:character:aqours/you-watanabe`).
@@ -106,6 +106,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
   - 『幻日のヨハネ』(2026-10-20, D46): 새 프로젝트 `yohane`와 어댑터 `takasaki official yohane`(yohane.net). 삽입곡 싱글 4장과 BD 특전 CD 8장, 캐릭터 10명과 日笠陽子. 새 이름은 `review/YHN-*.yaml` 승인을 기다린다
   - 공연 백필(2026-10-20, D47): Fandom 콘서트 문서 109개 중 세트리스트가 있는 88개(외부 페스·빈 문서 제외)를 공연 87개(공연일 477)로 넣었다. 일정·회장은 공식 라이브 페이지(목록·특설·상세, 없어진 것은 공식 뉴스·BD 페이지·주최사 사이트)에서, 세트리스트는 Fandom에서 읽는다(`takasaki concerts schedule`, `takasaki fandom concerts`). 상태는 `performed`라 레거시 출력은 그대로다(나무위키 대조·승인 후 `settled`). 세트리스트 곡 7,547개 중 Work와 맞지 않은 181개(서로 다른 곡명 103개: BGM, 외부 곡, 게임 코너, 데이터에 없는 곡)는 `review/LIV-setlist-songs.yaml`로 넘겼다. 새 회장 82·도시 15·공연명 87은 `review/LIV-*.yaml` 승인을 기다린다. 이미 있던 Liella! 1st 투어는 Fandom과 6개 공연일의 솔로곡이 달라 보고만 했다
   - 피처링·공동 명의(2026-10-20, D48): `Aqours feat. 初音ミク`, `Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!`를 합친 아티스트 대신 각 가창자로 두고 `featured`·`joint`로 표시한다. 출력 표기는 그대로다
+  - new-names 검수 반영(2026-10-20, D49): 19개 리뷰 파일의 ja·ko·rom·출처를 검수 보고서대로 고쳤다. 일본 지명 ko는 외래어 표기법, 승인 전 초안은 rom을 고치면 id도 바꾼다. Work가 없던 공연 곡 8곡을 Recording 없는 Work로 만들고 Fandom 파서·정정표를 고쳐 세트리스트 리뷰 항목이 181개에서 137개로 줄었다
   - Phase 3에 남은 것: 백필한 발매물의 YouTube Music 링크(승인 후 `takasaki ytm match`), 음원 발음(kana, W8), 공연의 `settled` 판정(나무위키 비교 어댑터, §7.7 ④). 교차 확인 소스로 LL-Fans(`ll-fans.jp`)를 쓸지 정해야 한다(DESIGN.md §6.1)
 - **이관 값의 출처 확인 (D41)**: 레거시에서 넘어온 값(근거 `migration:legacy`) 2,068개의 출처를 찾았다. 곡·발매물은 공식 CD 페이지와 대조해(`takasaki official <nijigasaki|liella|aqours|musical>`, 검사 전용) 블록 앵커까지 근거로 달았고, 공식에 없는 BD 특전 크레딧·이름의 rom·ko·공연 세트리스트는 Fandom·나무위키·uta-net 등에서 찾아 `공식 미게재`를 적었다. 출처와 값이 다른 61개 엔티티는 `review/SRC-*.yaml`(크레딧, 이름, 트랙 구성, 인물 병합 2건, 弦·管編曲 방침)로 넘겼다. W18이 남은 이관 근거를 표시한다
   - 리뷰 결정 반영(2026-10-19, D42): 編曲·弦編曲·管編曲을 역할로 나눠(`arranger`·`strings_arranger`·`brass_arranger`) 모든 공식 페이지에서 다시 읽었다(弦·管編曲이 있는 음원 77개). 표기 폭은 ja는 공식 그대로, rom·ko는 반각(E15)이고, 크레딧 소속 괄호는 ja에서 근거 페이지의 폭을 따른다. 크레딧·인명·트랙 구성을 공식 표기로 고치고 인물 2쌍을 병합했다(DESIGN.md §10.1 21). 이관 근거만 남은 값은 0개이고, 리뷰 항목도 모두 닫았다(`Happy Nyan! Days` 크레딧은 YouTube Music의 레이블 메타데이터로 확정)

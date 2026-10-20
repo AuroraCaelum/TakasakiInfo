@@ -16,6 +16,7 @@ import datetime as dt
 import io
 import re
 from collections import defaultdict
+from dataclasses import replace
 from pathlib import Path
 from typing import Any
 
@@ -35,6 +36,27 @@ OFFICIAL = ("lovelive-anime.jp", "yohane.net", "lantis.jp", "bandainamco", "tuto
 
 # Fandom's names for artists the dataset writes otherwise
 ALIASES = {"YYY": "waiwaiwai", "Mi&Nori=Tea": "mi-nori-tea"}
+
+# what Fandom's set lists write wrong, by the item's title there: the corrected title and Japanese title
+TITLE_FIXES: dict[str, dict[str, str | None]] = {
+    "Ima Shiknai Shunkan o": {"title": "Ima Shika Nai Shunkan o"},  # 今しかない
+    "Dancing Tamahaire La-Pa-Pa-Pa!": {"title": "Dancing Tamaire La-Pa-Pa-Pa!"},  # 玉入れ is たまいれ
+    "Niko no Kako": {"title": "Nico no Kako"},  # the characters' rom (Nico, Eli)
+    "Eri no Yaritai Koto": {"title": "Eli no Yaritai Koto"},
+    # the soundtrack's own spelling (otonokizaka release.php#cd48)
+    "Love Live! Kesshou": {"ja": "ラブライブ！決勝"},
+    "Koremade no Love Live! ~Musical Ver.~": {"ja": "これまでのラブライブ！ ～ミュージカルver.～"},
+    "Zetsubou": {"ja": "絶望"},
+    # songs of other series, as their own releases write them
+    "Dye the Sky": {"title": "Dye the sky."},
+    "Shine In the Sky☆": {"title": "Shine In The Sky☆"},
+    "Hoshi Meguri no Uta": {"ja": "星めぐりの歌"},
+}
+
+
+def _fixed(it: fandom.Item) -> fandom.Item:
+    fix = TITLE_FIXES.get(it.title)
+    return replace(it, **fix) if fix else it  # type: ignore[arg-type]
 
 _GENERIC = {"mc": {"mc"}, "video": {"intermission", "video", "vtr", "movie", "animation"}}
 
@@ -164,6 +186,7 @@ def setlist(items: list[fandom.Item], res: Resolver, projects: list[str]) -> tup
         if it.kind != "song":
             out.append(_marker(it))
             continue
+        it = _fixed(it)
         work, why = res.work(it, projects)
         perf, _ = res.performers(it, projects)
         version = _version(it)
