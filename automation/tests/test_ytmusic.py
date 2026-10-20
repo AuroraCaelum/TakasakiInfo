@@ -62,6 +62,47 @@ def test_single_album_is_applied_and_dead_ids_replaced():
     assert rel.streaming[0].tracks == {"1-1": "newA", "1-2": "newB"} and rel.streaming[0].browse_id == "MPREb_1"
 
 
+def test_quotes_dots_and_soundtrack_notes():
+    # the official lists print curly quotes and ・・・; YouTube Music straight quotes, … and the soundtrack's note
+    rows = ["KOKORO Magic “A to Z”", "僕らの走ってきた道は・・・", "START:DASH!!"]
+    album = ['KOKORO Magic "A to Z" (国木田花丸 Solo Ver.)', "僕らの走ってきた道は… (黒澤ルビィ Solo Ver.)", "START:DASH!! [第13話挿入歌]"]
+    assert align(album, rows) == [(0, 0), (1, 1), (2, 2)]
+
+
+def test_albums_of_the_same_songs_are_told_apart_by_title():
+    # 永久hours Solo Concert starring …: every member's album has the same songs
+    ds = _ds()
+    rel = ds.releases["p/r"]
+    rel.title = _names("Solo Concert starring A")
+    client = FakeClient({"MPREb_b": _album("Solo Concert starring B", ("曲A", "bA"), ("曲B", "bB")),
+                         "MPREb_a": _album("Solo Concert starring A", ("曲A", "aA"), ("曲B", "aB"))})
+    matches, ok = plan_release(client, ds, rel)
+    assert ok and matches[0].chosen.browse_id == "MPREb_a"
+
+
+def test_a_reissue_has_no_album_of_its_own():
+    # μ's 2024 L-jacket reissues: the same recordings, the album is the 2010 single's; the reissue takes its main URL
+    import datetime as dt
+    ds = _ds()
+    old = ds.releases["p/r"]
+    old.release_date = dt.date(2010, 1, 1)
+    new = old.model_copy(update={"id": "p/r2", "release_date": dt.date(2024, 3, 27)}, deep=True)
+    ds.releases["p/r2"] = new
+    client = FakeClient({"MPREb_1": _album("曲A / 曲B", ("曲A", "vA"), ("曲B", "vB"))})
+    claimed: dict[str, str] = {}
+    for rel in (old, new):  # oldest first, as the command runs
+        matches, ok = plan_release(client, ds, rel, claimed)
+        assert ok
+        apply_matches(client, rel, matches, "2026-10-21")
+    assert old.streaming[0].browse_id == "MPREb_1" and new.streaming == []
+    assert matches[0].reason == "reissue of p/r"
+    # a reissue that took the album in an earlier run gives it up
+    new.streaming = [m.Streaming(browse_id="MPREb_1", tracks={"1-1": "vA", "1-2": "vB"})]
+    matches, ok = plan_release(client, ds, new)
+    apply_matches(client, new, matches, "2026-10-21")
+    assert ok and new.streaming == []
+
+
 def test_live_stored_id_is_kept():
     ds = _ds(streaming=[m.Streaming(tracks={"1-1": "liveA"})])
     client = FakeClient({"MPREb_1": _album("曲A / 曲B", ("曲A", "newA"), ("曲B", "newB"))})

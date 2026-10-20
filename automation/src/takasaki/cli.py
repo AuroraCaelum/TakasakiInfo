@@ -159,11 +159,13 @@ def cmd_ytm_match(args: argparse.Namespace) -> int:
     rels = [r for r in ds.releases.values()
             if (not args.release or r.id in args.release) and (not args.project or args.project in r.projects)
             and r.type not in SKIP_TYPES and r.status != "announced"]  # not out yet: nothing to find
+    rels.sort(key=lambda r: (r.release_date or dt.date.max, r.id))  # oldest first: an album belongs to its first release
     today = dt.date.today().isoformat()
     applied = added = replaced = absent = 0
     reviews: list[str] = []
+    claimed: dict[str, str] = {}
     for rel in rels:
-        matches, ok = plan_release(client, ds, rel)
+        matches, ok = plan_release(client, ds, rel, claimed)
         slug = rel.id.replace("/", "-")
         if not ok:
             reviews.append(rel.id)
@@ -176,8 +178,8 @@ def cmd_ytm_match(args: argparse.Namespace) -> int:
             print(f"absent  {rel.id}: not on YouTube Music, nothing stored")
             continue
         if not args.apply:
-            print(f"match   {rel.id}: " + "; ".join(f"{mt.edition or '-'} → {mt.chosen.title}" if mt.chosen else f"{mt.edition}: no own album"
-                                                for mt in matches))
+            print(f"match   {rel.id}: " + "; ".join(f"{mt.edition or '-'} → {mt.chosen.title}" if mt.chosen
+                                                else f"{mt.edition or '-'}: no own album ({mt.reason})" for mt in matches))
             continue
         out = apply_matches(client, rel, matches, today)
         applied += 1

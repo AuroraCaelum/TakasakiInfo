@@ -30,6 +30,12 @@ SPEC = Spec(project="nijigasaki", group_name=GROUP, legacy_group="Nijigasaki", l
             lineups_from_site=False)
 # drama tracks the page does not mark: (page id, track number)
 DRAMA = {("cd.php#cd81", 2)}  # あまくてたのしい♡AiScReamラジオ！ ("※録り下ろしドラマはCD限定収録")
+# misprints on the page, corrected with the source that settles them: (page id, track number) -> track
+TRACK_FIXES = {
+    # 「モノクロラビリンス」 prints track 4 as Jungle Hunter♡; the label's YouTube Music album and the layout
+    # (3 is モノクロラビリンス(Off Vocal)) make it the Off Vocal
+    ("cd.php#cd01_6286", 4): "Jungle Hunter♡(Off Vocal)",
+}
 
 _BOX = re.compile(r'<div class="box" id="([^"]+)">')
 
@@ -56,6 +62,7 @@ def collect(fetcher: Fetcher, *, fresh: bool = False) -> Site:
     for r in releases:
         for t in r.tracks:
             t.drama = t.drama or (r.page_id, t.no) in DRAMA
+            t.title = TRACK_FIXES.get((r.page_id, t.no), t.title)
     return Site([], releases, BASE + MEMBER_PATH, skipped)
 
 
