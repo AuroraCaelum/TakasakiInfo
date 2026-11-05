@@ -62,6 +62,7 @@ RECORDING_FIELDS: dict[str, tuple[str, str]] = {
     "strings_arranger": (_REFS, "弦編曲."),
     "brass_arranger": (_REFS, "管編曲."),
     "instrumental_of": ("string", "For an off vocal or instrumental: id of the vocal recording; else null."),
+    "live": ("object", "For a live recording: the show it was recorded at (`concert`, `date`, `label`); else null."),
     "external_ids": ("map of string", "Ids elsewhere (`isrc`); null when none."),
     "main_link": ("string", "Main YouTube Music URL: the earliest released track of the recording that has a video "
                             "of its own; null when none has."),
@@ -164,6 +165,7 @@ def recording_view(ds: Dataset) -> list[dict[str, Any]]:
                 "strings_arranger": [_credit(ds, c) for c in rec.strings_arranger],
                 "brass_arranger": [_credit(ds, c) for c in rec.brass_arranger],
                 "instrumental_of": f"{work.id}#{rec.instrumental_of}" if rec.instrumental_of else None,
+                "live": rec.live.model_dump(mode="json") if rec.live else None,
                 "external_ids": rec.external_ids or None,
                 "main_link": YT + mains[rid] if rid in mains else None,
             })

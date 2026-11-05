@@ -28,11 +28,13 @@ from .importer import Report
 from .official import NameReviews
 from .store import Dataset
 from .text import halfwidth, is_latin, match_key, slugify, split_version
+from .validate import ORGANIZER_DOMAINS
 
 REVIEW_PREFIX = "LIV"
-# the rights holders' sites and the official sites of events they organize
+# the rights holders' sites and the official sites of events they organize, and the organizers' sites of
+# the outside festivals a group played (D55)
 OFFICIAL = ("lovelive-anime.jp", "yohane.net", "lantis.jp", "bandainamco", "tutoliella-live.jp", "ijigen-fes.jp",
-            "lovelive-overseas.bitfan.id")
+            "lovelive-overseas.bitfan.id") + ORGANIZER_DOMAINS
 
 # Fandom's names for artists the dataset writes otherwise
 ALIASES = {"YYY": "waiwaiwai", "Mi&Nori=Tea": "mi-nori-tea"}
@@ -87,6 +89,8 @@ class Resolver:
         for c in ds.characters.values():
             rom = c.names.rom or ""
             self.singers[match_key(rom, person=True)].add(("character", c.id))
+            if c.names.ja:  # a set list from an official track list names the singer in Japanese
+                self.singers[match_key(c.names.ja, person=True)].add(("character", c.id))
             if " " in rom:
                 given, family = rom.rsplit(" ", 1)
                 self.singers[match_key(f"{family} {given}", person=True)].add(("character", c.id))
@@ -199,6 +203,30 @@ def setlist(items: list[fandom.Item], res: Resolver, projects: list[str]) -> tup
         rec = res.recording(work, version)
         out.append(m.SetlistItem(work=work.id, recording=rec, version=None if rec else version, performers=perf))
     return out, unresolved
+
+
+_BARE = {"mc": "MC", "video": "Video", "encore": "Encore", "double_encore": "Double Encore", "talk": "Talk", "other": ""}
+_MARKERS = tuple(_BARE)
+
+
+def written_items(rows: list[Any], by: str | None) -> list[fandom.Item]:
+    """A set list written in a schedule file (from an official Blu-ray track list, D53), as Fandom items:
+    a song is its title as printed, or ``{song, by, version}`` (``by`` defaults to the list's singer);
+    a marker is ``{mc: <label>}`` (``video``, ``encore``, ``double_encore``, ``talk``, ``other`` alike)
+    or the bare type."""
+    out = []
+    for row in rows:
+        if isinstance(row, str) and row in _MARKERS:
+            row = {row: _BARE[row]}
+        if isinstance(row, dict) and (kind := next((k for k in _MARKERS if k in row), None)):
+            out.append(fandom.Item(kind, str(row[kind])))
+            continue
+        row = {"song": row} if isinstance(row, str) else row
+        singer = row.get("by") or by or ""
+        singers = [s.strip() for s in re.split(r"[、,，&＆]", singer) if s.strip()]
+        out.append(fandom.Item("song", str(row["song"]), ja=str(row["song"]), version=row.get("version"),
+                               singers=singers, by=singer, raw=str(row["song"])))
+    return out
 
 
 def _songs(items: list[m.SetlistItem]) -> list[str]:
@@ -327,10 +355,13 @@ def _official(url: str | None) -> bool:
 def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path, today: dt.date) -> Report:
     """Create the concerts of a schedule file (status ``performed``, or ``announced`` for a concert still
     to come), their venues and cities. New names go to the ``LIV-*`` review files with drafts filled in.
-    Existing concerts only get their Fandom keys and the cast the entry lists (§4.6)."""
+    A show whose set list Fandom does not tab gets the one the entry writes from an official track list
+    (``setlist``, D53; the concert is then ``confirmed``). Existing concerts only get their Fandom keys and
+    the cast the entry lists (§4.6)."""
     report = Report()
-    reviews = NameReviews(review_dir, "concerts")
+    reviews = NameReviews(review_dir, "concerts", partial=True)  # a schedule file adds concerts to the ones there
     venue_by_ja = {match_key(v.names.ja): v.id for v in ds.venues.values() if v.names.ja}
+    res: Resolver | None = None
     for e in entries:
         if e.get("exclude"):
             report.skipped.append(f"{e['fandom']}: {e['exclude']}")
@@ -347,6 +378,7 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
             report.skipped.append(f"{cid}: already in the dataset")
             continue
         stops = []
+        written: list[tuple[m.Performance, dict[str, Any]]] = []  # the shows whose set list the entry writes
         sources = {s.get("source") for s in e["stops"]}
         for n, s in enumerate(e["stops"], 1):
             city = _city(ds, s.get("city"), reviews, cid)
@@ -357,6 +389,8 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
                 key = "; ".join(f"{f.get('section') or ''}|{f.get('tab') or ''}" for f in p.get("fandom") or [])
                 label = p.get("label") if dates.count(p["date"]) > 1 else None  # the date names a single show
                 perfs.append(m.Performance(date=p["date"], label=label, external_ids={"fandom": key} if key else {}))
+                if p.get("setlist"):
+                    written.append((perfs[-1], p))
             stops.append(m.Stop(id=s.get("id") or f"{n}-{city or 'online'}", city=city, label=s.get("label"), venue=venue,
                                 performances=perfs))
         rom, ko, how = title_drafts(e["title_ja"], e.get("title_en"))
@@ -366,6 +400,9 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
         c = m.Concert(id=cid, projects=e["projects"], status=e.get("status", "performed"), title=title, stops=stops,
                       external_ids={"fandom": e["fandom"]} if e.get("fandom") else {})
         _set_cast(c, e, today)
+        for perf, p in written:
+            res = res or Resolver(ds)
+            _set_written(c, perf, p, e, res, today, report)
         file = f"{REVIEW_PREFIX}-concerts.yaml"
         it = reviews.item(file, "concert", e["title_ja"], {"title": title.model_dump(exclude_none=True),
                                                             "source": e.get("title_source") or ""}, cid)
@@ -382,6 +419,30 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
         report.created.append(f"concert {cid}: {len(stops)} stops, {sum(len(s.performances) for s in stops)} shows")
     reviews.save()
     return report
+
+
+def _set_written(c: m.Concert, perf: m.Performance, p: dict[str, Any], e: dict[str, Any], res: Resolver,
+                 today: dt.date, report: Report) -> None:
+    """The set list a show's entry writes (``setlist``, read by ``written_items``), cited to the track list
+    it was copied from (``setlist_source``, the show's or the entry's) with its note (``setlist_note``)."""
+    items, unresolved = setlist(written_items(p["setlist"], p.get("setlist_by") or e.get("setlist_by")), res, c.projects)
+    where = f"{c.id} {perf.date}{' ' + perf.label if perf.label else ''}"
+    if unresolved:
+        raise ValueError(f"{where}: no work for {[u['title_raw'] for u in unresolved]}")
+    for x in items:  # a list that names no singers (Fandom's event pages): the song's studio singers
+        if x.type == "song" and not x.performers and x.work:
+            recs = [r for r in res.ds.works[x.work].recordings if r.kind == "vocal" and r.performers and r.live is None]
+            studio = next((r for r in recs if r.id == "original"), recs[0] if recs else None)
+            x.performers = [p.model_copy() for p in studio.performers] if studio else []
+    if missing := [x.work for x in items if x.type == "song" and not x.performers]:
+        raise ValueError(f"{where}: no singer for {missing}")
+    perf.setlist = items
+    source = p.get("setlist_source") or e["setlist_source"]
+    note = p.get("setlist_note") or e.get("setlist_note")
+    c.evidence[f"setlist.{perf.date}"] = m.Evidence(
+        status=m.Status.official if _official(source) else m.Status.established, source=source, checked=today,
+        note=note if _official(source) else f"공식 미게재{': ' + note if note else ''}")
+    report.updated.append(f"{where}: {sum(x.type == 'song' for x in items)} songs from {source}")
 
 
 def _set_cast(c: m.Concert, e: dict[str, Any], today: dt.date) -> bool:
@@ -434,6 +495,8 @@ def _venue(ds: Dataset, v: dict[str, Any] | None, city: str | None, reviews: Nam
         reviews.note_use(file, "venue", v["ja"], cid)
         return vid
     vid = slugify(v.get("rom") or v["ja"])
+    if not vid:  # a Japanese-only name slugs to nothing
+        raise ValueError(f"{cid}: new venue {v['ja']!r} needs a rom")
     while vid in ds.venues:
         vid += "-2"
     names = m.Names(ja=v["ja"], rom=v.get("rom"), ko=v.get("ko"))

@@ -21,7 +21,7 @@ from pathlib import Path
 from .importer import EditionObs, Performers, ReleaseObs, Report, Site, Spec, TrackObs, parse_credit_line
 from .importer import import_site as _import_site
 from .official import Fetcher
-from .sitepage import parse_date, read_block, skip_reason, text_lines
+from .sitepage import is_soundtrack, parse_date, read_block, score_of, skip_reason, text_lines
 from .store import Dataset
 
 SITE = "https://www.yohane.net"
@@ -87,8 +87,9 @@ def parse_music_page(html: str, url: str) -> tuple[ReleaseObs | None, str | None
             eds.append(EditionObs(label, cm.group(0), "CD"))
             label = None
     perf = _singers(artist)
+    ost = is_soundtrack(b)  # the anime's soundtrack: "音楽：加藤達也" (D53)
     return ReleaseObs(url, " ".join(b.header[:-1]), b.title, b.release_date, perf, eds, b.tracks, {},  # type: ignore[arg-type]
-                      type="single"), None
+                      type="soundtrack" if ost else "single", score=score_of(b.artist) if ost else []), None
 
 
 def parse_bd_page(html: str, url: str) -> ReleaseObs | None:

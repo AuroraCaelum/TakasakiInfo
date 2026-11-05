@@ -66,13 +66,18 @@ def test_singers():
 
 @pytest.mark.parametrize("kw,reason", [
     ({"blocks": [("アーティスト", ["V.A."]), ("発売日", ["2026年1月14日"]), ("CD", ["01.X", "キミとアイドル"])]}, "V.A."),
-    ({"blocks": [("アーティスト", ["音楽：藤澤慶昌／蓮ノ空女学院スクールアイドルクラブ"]), ("発売日", ["2026年7月22日"]), ("CD", ["01. 録画開始！"])]},
-     "soundtrack"),
     ({"category": "Blu-ray", "blocks": [("発売日", ["2026年1月1日"])]}, "video"),
     ({"main": "タイトル未定", "blocks": [("発売日", ["2026年12月30日"]), ("仕様", ["新規楽曲4曲＋Off Vocalを収録予定"])]}, "announced"),
 ])
 def test_pages_left_out(kw, reason):
     assert reason in hs.parse_page(_page(**kw), URL).skip
+
+
+def test_a_soundtrack_is_read():  # D53: the composer after 音楽：, the singers after the slash
+    p = hs.parse_page(_page(blocks=[("アーティスト", ["音楽：藤澤慶昌／蓮ノ空女学院スクールアイドルクラブ"]), ("発売日", ["2026年7月22日"]),
+                                    ("CD", ["01. 録画開始！"])]), URL)
+    assert p.skip is None and p.score == ["藤澤慶昌"] and p.performers.artist == "蓮ノ空女学院スクールアイドルクラブ"
+    assert hs._type(p.lead, p.title, p.category, p.score) == "soundtrack"
 
 
 def test_editions_are_one_release():

@@ -90,7 +90,7 @@ def main_videos(ds: Dataset) -> dict[str, str]:
             for disc, pos, track in edition_tracks(rel, ed):
                 vid = own_video(rel, ed, disc, pos)
                 if vid:
-                    key = (day_key, rel.type == "compilation", ed_index, rel.id, disc, pos, vid)
+                    key = (day_key, rel.type in ("compilation", "box_set"), ed_index, rel.id, disc, pos, vid)
                     candidates.setdefault(track.recording, []).append(key)
     return {rec: min(keys)[-1] for rec, keys in candidates.items()}
 
@@ -197,10 +197,12 @@ def video_owners(ds: Dataset) -> dict[str, str]:
     return owners
 
 
-def render_note(la: m.LegacyAlbum, disc: int, rec: m.Recording, track: m.Track, link_from: str | None) -> str:
+def render_note(la: m.LegacyAlbum, disc: int, rec: m.Recording, track: m.Track, link_from: str | None,
+                work: m.Work | None = None) -> str:
     parts = [
         f"Disc.{disc}" if la.flatten_discs else None,
         "Drama Part" if rec.kind == "drama" else None,
+        "BGM" if work is not None and work.kind == "bgm" else None,  # a soundtrack cue (D53)
         la.note,
         track.note,
         f"Link is from the [{link_from}]" if link_from else None,
@@ -238,7 +240,7 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: di
                 track.category if track.category is not None
                 else entry.category if entry.category is not None
                 else (rel.legacy.category or ""),
-                render_note(la, disc, rec, track, owners.get(vid) if vid and not own else None),
+                render_note(la, disc, rec, track, owners.get(vid) if vid and not own else None, work),
                 kana,
             ]
             rows.append(Row(TrackRef(rel.id, la.edition, disc, pos), cells))
@@ -311,7 +313,8 @@ def albums_json(rows: list[list[str]]) -> list[dict[str, Any]]:
 
 
 def is_song(c: list[str]) -> bool:
-    return "Off Vocal" not in c[2] and "Drama Part" not in c[20]
+    """A row of the songs files: not an Off Vocal, a drama track or a soundtrack cue (``BGM``, D53)."""
+    return "Off Vocal" not in c[2] and "Drama Part" not in c[20] and "BGM" not in c[20].split(", ")
 
 
 def dump_json(obj: Any, indent: Any = "\t") -> bytes:

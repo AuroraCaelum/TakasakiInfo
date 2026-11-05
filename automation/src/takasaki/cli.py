@@ -320,6 +320,27 @@ def cmd_concerts_schedule(args: argparse.Namespace) -> int:
     return 1 if report.conflicts else 0
 
 
+def cmd_manual(args: argparse.Namespace) -> int:
+    """Releases no official music page lists, from a curated file (D53)."""
+    from ruamel.yaml import YAML
+
+    from .manual import import_manual
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    entries = YAML(typ="safe").load(Path(args.file).read_text(encoding="utf-8"))
+    report = import_manual(ds, entries, review if args.apply else root / "automation" / ".cache" / "review-dry-run",
+                           dt.date.today())
+    _report(report)
+    if args.apply and (report.created or report.updated):
+        assert ds.meta is not None
+        ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_dataset(ds, data)
+    elif not args.apply:
+        print("dry run: nothing written (--apply writes data/ and the review files)")
+    return 1 if report.conflicts else 0
+
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
     from .report import write_migration_report
@@ -390,6 +411,10 @@ def main(argv: list[str] | None = None) -> int:
     cs.add_argument("file")
     cs.add_argument("--apply", action="store_true", help="write data/ and the LIV-* review files")
     cs.set_defaults(func=cmd_concerts_schedule)
+    mn = sub.add_parser("manual", help="releases no official music page lists, from a curated file (D53)")
+    mn.add_argument("file", nargs="?", default=str(Path(__file__).resolve().parents[2] / "manual" / "releases.yaml"))
+    mn.add_argument("--apply", action="store_true", help="write data/ and the new-names review files")
+    mn.set_defaults(func=cmd_manual)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)

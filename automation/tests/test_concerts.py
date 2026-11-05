@@ -165,6 +165,11 @@ def test_a_schedule_creates_the_concert_its_venues_and_review_items(tmp_path):
     assert c.evidence["schedule.2-online"].status == m.Status.established
     assert r.created and (tmp_path / "LIV-concerts.yaml").exists() and (tmp_path / "LIV-venues.yaml").exists()
 
+    # a new venue with a Japanese name only has no id to slug to
+    bare = entry | {"fandom": None, "id": "aqours/bare", "stops": [entry["stops"][0] | {"venue": {"ja": "有楽町よみうりホール"}}]}
+    with pytest.raises(ValueError, match="needs a rom"):
+        concerts.import_schedule(ds, [bare], tmp_path, dt.date(2026, 10, 20))
+
 
 def test_an_announced_concert_and_the_cast_of_each_show(tmp_path):
     # §4.6: the concert's cast is every show's unless a show lists its own; a guest is featured
@@ -235,7 +240,16 @@ def test_approving_the_names(tmp_path):
     doc["items"][0]["title"]["ko"] = "러브 라이브! 선샤인!! Aqours ~영구 stage~"
     approve_names(ds, doc, dt.date(2026, 10, 21))
     assert c.title.ko == "러브 라이브! 선샤인!! Aqours ~영구 stage~" and c.evidence["title"].status == m.Status.derived
-    venues = YAML(typ="safe").load((tmp_path / "LIV-venues.yaml").read_text(encoding="utf-8"))
+    # another concert under the same printed title (a programme's next episode) shares the item and is approved with it
+    again = entry | {"id": "aqours/x-2", "stops": [entry["stops"][0] | {"performances": [{"date": dt.date(2026, 6, 21)}]}]}
+    concerts.import_schedule(ds, [again], tmp_path, dt.date(2026, 10, 22))
+    doc = YAML(typ="safe").load((tmp_path / "LIV-concerts.yaml").read_text(encoding="utf-8"))
+    assert doc["items"][0]["used_in"] == ["aqours/x", "aqours/x-2"] and doc["items"][0]["ref"] == "concert:aqours/x-2"
+    doc["items"][0]["title"]["ko"] = "러브 라이브! 선샤인!! Aqours ~영구 stage~"
+    ds.concerts["aqours/x"].evidence["title"] = m.Evidence(status=m.Status.draft)
+    approve_names(ds, doc, dt.date(2026, 10, 22))
+    assert {ds.concerts[i].evidence["title"].status for i in ("aqours/x", "aqours/x-2")} == {m.Status.derived}
+    venues =YAML(typ="safe").load((tmp_path / "LIV-venues.yaml").read_text(encoding="utf-8"))
     assert {i["kind"] for i in venues["items"]} == {"city", "venue"}
     approve_names(ds, venues, dt.date(2026, 10, 21))
     assert ds.venues["belluna-dome"].evidence["names"].status == m.Status.derived
@@ -260,3 +274,57 @@ def test_a_game_is_a_marker_and_a_soundtrack_cue_is_a_work():
         ("song", "Zetsubou", None), ("song", "Rat A Tat!!!", "TV Size")]
     items, unresolved = concerts.setlist(tab.items, concerts.Resolver(ds), ["muse"])
     assert items[3].work == "muse/zetsubou" and [u["title_raw"] for u in unresolved] == ["Rat A Tat!!!"]
+
+
+def test_a_set_list_written_from_an_official_track_list(tmp_path):
+    # D53: a concert Fandom does not tab gets the set list its entry copies from the official Blu-ray page
+    ds = _ds()
+    ds.cities["aichi"] = m.City(id="aichi", names=m.Names(rom="Aichi"))
+    ds.characters["aqours/chika-takami"] = m.Character(id="aqours/chika-takami", project="aqours",
+                                                       names=m.Names(ja="高海千歌", rom="Chika Takami"))
+    bd = "https://www.lovelive-anime.jp/uranohoshi/release.php#bd1"
+    entry = {"id": "aqours/early", "projects": ["aqours"], "status": "confirmed", "title_ja": "Aqours Early LoveLive!",
+             "stops": [{"city": {"id": "aichi"}, "venue": {"ja": "日本ガイシホール", "rom": "Nippon Gaishi Hall"}, "source": bd,
+                        "performances": [{"date": dt.date(2016, 1, 1), "setlist_source": bd, "setlist_note": "BD 수록 내용",
+                                          "setlist": [{"video": "オープニング"}, "HAPPY PARTY TRAIN", "mc", {"mc": "MC（CYaRon！）"},
+                                                      {"song": "未熟DREAMER", "by": "高海千歌"}, "encore",
+                                                      {"song": "HAPPY PARTY TRAIN", "version": "Finale"}, "double_encore",
+                                                      {"other": "Finale"}]}]}],
+             "setlist_by": "Aqours"}
+    r = concerts.import_schedule(ds, [entry], tmp_path, dt.date(2026, 10, 27))
+    c = ds.concerts["aqours/early"]
+    items = c.stops[0].performances[0].setlist
+    assert items[0] == m.SetlistItem(type="video", label="オープニング")
+    assert items[1] == m.SetlistItem(work="aqours/happy-party-train", performers=[m.Performer(artist="aqours")])
+    assert items[2] == m.SetlistItem(type="mc") and items[3] == m.SetlistItem(type="mc", label="MC（CYaRon！）")
+    assert items[4].performers == [m.Performer(character="aqours/chika-takami")]  # the singer by the Japanese name
+    assert items[5] == m.SetlistItem(type="encore", label="Encore")
+    assert items[6].version == "Finale"
+    assert items[7] == m.SetlistItem(type="double_encore", label="Double Encore")
+    assert items[8] == m.SetlistItem(type="other", label="Finale")
+    assert c.status == "confirmed" and c.evidence["setlist.2016-01-01"].status == m.Status.official
+    assert c.evidence["setlist.2016-01-01"].note == "BD 수록 내용" and any("from " + bd in u for u in r.updated)
+
+    # a song no work matches, or one without a singer, stops the import
+    bad = entry | {"id": "aqours/bad", "stops": [entry["stops"][0] | {"performances": [
+        {"date": dt.date(2016, 1, 2), "setlist_source": bd, "setlist": ["Not a song"]}]}]}
+    with pytest.raises(ValueError):
+        concerts.import_schedule(ds, [bad], tmp_path, dt.date(2026, 10, 27))
+    with pytest.raises(ValueError):
+        concerts.import_schedule(ds, [bad | {"setlist_by": None, "stops": [entry["stops"][0] | {"performances": [
+            {"date": dt.date(2016, 1, 2), "setlist_source": bd, "setlist": ["HAPPY PARTY TRAIN"]}]}]}],
+            tmp_path, dt.date(2026, 10, 27))
+
+
+def test_a_written_list_without_singers_takes_the_studio_singers(tmp_path):
+    ds = _ds()
+    ds.cities["aichi"] = m.City(id="aichi", names=m.Names(rom="Aichi"))
+    ds.works["aqours/happy-party-train"].recordings[0].performers = [m.Performer(artist="aqours")]
+    src = "https://love-live.fandom.com/wiki/Aqours_Extracurricular_Activities"
+    entry = {"id": "aqours/event", "projects": ["aqours"], "title_ja": "Aqours Event",
+             "stops": [{"city": {"id": "aichi"}, "venue": None, "source": src,
+                        "performances": [{"date": dt.date(2016, 1, 1), "setlist_source": src, "setlist": ["HAPPY PARTY TRAIN"]}]}]}
+    concerts.import_schedule(ds, [entry], tmp_path, dt.date(2026, 11, 4))
+    c = ds.concerts["aqours/event"]
+    assert c.stops[0].performances[0].setlist[0].performers == [m.Performer(artist="aqours")]
+    assert c.evidence["setlist.2016-01-01"].status == m.Status.established  # not an official page

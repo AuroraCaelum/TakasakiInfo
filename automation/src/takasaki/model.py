@@ -299,6 +299,15 @@ class WorkCredits(Strict):
 RecordingKind = Literal["vocal", "off_vocal", "instrumental", "drama", "other"]
 
 
+class LiveOf(Strict):
+    concert: str
+    """Concert id."""
+    date: dt.date | None = None
+    """Day of the show; null when the release does not say which of the concert's shows."""
+    label: str | None = None
+    """The show's label, when the day had more than one (`Day.2 Evening`)."""
+
+
 class Recording(Strict):
     id: str
     """Id within the work (`original`, `off-vocal`, `kanon-ver`). The full recording id is `<work id>#<id>`."""
@@ -321,6 +330,8 @@ class Recording(Strict):
     """Lyricist and composer of this recording when they differ from the work's (rare; the evidence says why)."""
     instrumental_of: str | None = None
     """For an off vocal or instrumental: id of the vocal recording in the same work."""
+    live: LiveOf | None = None
+    """For a live recording (a live CD's track): the show it was recorded at, when the release says which (D54)."""
     external_ids: dict[str, str] = {}
     """Ids elsewhere: `isrc`."""
     evidence: dict[str, Evidence] = {}
@@ -412,8 +423,9 @@ class Streaming(Strict):
 
 class LegacyAlbum(Strict):
     """One album in the legacy files. Its Note column is built from parts (M3): ``Disc.N`` when
-    ``flatten_discs``, ``Drama Part`` from the recording kind, ``note`` (the whole album), the
-    track's own note, then ``Link is from the [...]`` when the URL is a main-URL fallback."""
+    ``flatten_discs``, ``Drama Part`` from the recording kind, ``BGM`` for a soundtrack cue (D53),
+    ``note`` (the whole album), the track's own note, then ``Link is from the [...]`` when the URL is a
+    main-URL fallback."""
 
     title: str
     """Album name in the legacy files."""
@@ -436,7 +448,7 @@ class ReleaseLegacy(Strict):
 
 ReleaseType = Literal[
     "single", "album", "mini_album", "digital_single", "bd_bonus", "compilation",
-    "soundtrack", "drama_cd", "live_video", "unclassified",
+    "soundtrack", "drama_cd", "radio_cd", "live_album", "box_set", "live_video", "unclassified",
 ]
 
 
@@ -445,7 +457,8 @@ class Release(Strict):
     """`<project>/<year>-<slug>` (`ikizulive/2025-homerun-queen`)."""
     type: ReleaseType = "unclassified"
     """Kind of release. `digital_single`: released only for download and streaming; `bd_bonus`: a CD that comes
-    with a Blu-ray."""
+    with a Blu-ray; `live_album`: recorded at a concert; `box_set`: a box of discs (the earlier releases it
+    bundles keep their own entries); `radio_cd`: a radio program's CD."""
     status: Literal["announced", "released", "verified"] = "released"
     """`announced`: not out yet (left out of the legacy files); `released`: out; `verified`: checked again after
     release, with no change."""

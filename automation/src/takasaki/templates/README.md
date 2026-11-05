@@ -66,27 +66,36 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 </details>
 
 <details>
-<summary><b>Backlog</b>: original soundtracks (last priority, but someday… maybe)</summary>
+<summary><b>Original soundtracks</b>: in the album files since 2026-10 (cues are noted <code>BGM</code> and left out of the songs files)</summary>
 
 <br>
 
 **Love Live! Original Sound Tracks**
-- [ ] Notes of School idol days
-- [ ] Notes of School idol days ~Glory~
-- [ ] Notes of School idol days ~Curtain Call~
+- [x] Notes of School idol days
+- [x] Notes of School idol days ~Glory~
+- [x] Notes of School idol days ~Curtain Call~
 
 **Love Live! Sunshine!! Original Sound Tracks**
-- [ ] Sailing to the Sunshine
-- [ ] Journey to the Sunshine
-- [ ] Sailing to the Rainbow
+- [x] Sailing to the Sunshine
+- [x] Journey to the Sunshine
+- [x] Sailing to the Rainbow
 
 **Love Live! Nijigasaki High School Idol Club Original Sound Tracks**
-- [ ] Sound of TOKIMEKI
-- [ ] Bound of TOKIMEKI
+- [x] Sound of TOKIMEKI
+- [x] Bound for TOKIMEKI
+- [x] 珊瑚礁の記憶 (the movie's OST & vocal collection)
+- [x] さざめきの街角
 
 **Love Live! Superstar!! Original Sound Tracks**
-- [ ] Dreams of the Superstar
-- [ ] Twinkle of the Superstar
+- [x] Dreams of the Superstar
+- [x] Twinkle of the Superstar
+- [x] The beginning of the Superstar
+
+**Love Live! Hasunosora Girls' High School Idol Club Original Sound Track**
+- [x] Petals of History
+
+**Yohane the Parhelion Original Sound Track**
+- [x] みんなの音
 
 </details>
 

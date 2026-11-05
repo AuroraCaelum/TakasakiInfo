@@ -29,7 +29,8 @@ CREATE TABLE artist (id TEXT PRIMARY KEY, kind TEXT NOT NULL);
 CREATE TABLE work (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), kind TEXT NOT NULL);
 CREATE TABLE recording (
   id TEXT PRIMARY KEY, work TEXT NOT NULL REFERENCES work(id), kind TEXT NOT NULL, version TEXT,
-  instrumental_of TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED);
+  instrumental_of TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED,
+  live_concert TEXT REFERENCES concert(id) DEFERRABLE INITIALLY DEFERRED, live_date TEXT, live_label TEXT);
 CREATE TABLE release (id TEXT PRIMARY KEY, type TEXT NOT NULL, status TEXT NOT NULL, release_date TEXT, label TEXT);
 CREATE TABLE edition (release TEXT NOT NULL REFERENCES release(id), id TEXT NOT NULL, catalog TEXT, release_date TEXT,
   PRIMARY KEY (release, id));
@@ -213,7 +214,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
         credits(w.id, "composer", w.credits.composer)
         for r in w.recordings:
             rid = f"{w.id}#{r.id}"
-            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None))
+            live = (r.live.concert, r.live.date.isoformat() if r.live.date else None, r.live.label) if r.live else (None, None, None)
+            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None, *live))
             names(f"recording:{rid}", "title", r.title, r.evidence)
             common(f"recording:{rid}", r)
             credits(rid, "arranger", r.arranger)

@@ -50,7 +50,13 @@ DATE_FIXES = {
     **{f"cd{n}": dt.date(2014, 4, 2) for n in range(31, 41)},
     "cd52": dt.date(2015, 4, 22),  # 「ミはμ’sicのミ」 (LACM-14341): no date on the page; label metadata, Lantis catalog
     "cd16": dt.date(2012, 10, 17),  # にこりんぱな テーマソングDJCD (LACA-15244): no date on the page; Lantis catalog, Fandom
+    # the film's soundtrack 「Notes of School Idol Days ～Curtain Call～」 (LACA-15498): no date on the page;
+    # Fandom, the label's distribution (2015-08-05)
+    "cd57": dt.date(2015, 8, 5),
 }
+# artists the page prints otherwise than the other blocks: the film's soundtrack names its composer
+# without 音楽： (``藤澤慶昌、μ's``)
+ARTIST_FIXES = {"cd57": ["音楽：藤澤慶昌", "μ's"]}
 # drama and monologue tracks the page does not mark: (block, track number)
 DRAMA = {("cd07", 10), ("cd08", 10), ("cd28", 5), ("cd28", 6), ("cd28", 7)}
 # track titles as printed, corrected: (block, track number) -> title
@@ -191,6 +197,7 @@ def parse_page(html: str, url: str) -> tuple[list[Block], list[str], dict[str, s
             b.alt_titles = [t for t in (b.title,) if t and t != named[0]]
             b.title, b.edition = named[0], named[1] or b.edition
         b.release_date = b.release_date or DATE_FIXES.get(anchor) or _head_date(lines)
+        b.artist = ARTIST_FIXES.get(anchor, b.artist)
         for t in b.tracks:
             t.title = TRACK_FIXES.get((anchor, t.no), _clean_track(t.title))
             if am := _ANNOTATED.match(t.title):

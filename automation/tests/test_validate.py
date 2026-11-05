@@ -271,6 +271,17 @@ def test_w16_flags_official_fields_sourced_elsewhere():
     assert [f.where for f in validate(ds) if f.rule == "W16"] == ["person:a"]
 
 
+def test_an_outside_festivals_own_site_is_official():
+    from takasaki.validate import is_official
+
+    # the organizer's site for its own festival (D55), not a news site reporting on it
+    assert is_official("https://anisama.tv/2019/setlist/") and is_official("https://www.idolfes.com/2020/about/")
+    assert not is_official("https://www.famitsu.com/news/202205/16261529.html")
+    # a broadcaster's page for its own programme (D56); a press-release site is not an organizer
+    assert is_official("https://www.nhk.or.jp/kouhaku/") and is_official("https://www.fujitv.co.jp/FNS/")
+    assert not is_official("https://prtimes.jp/main/html/rd/p/000000209.000006348.html")
+
+
 def test_w18_flags_values_resting_on_the_migration_only():
     ds = Dataset()
     migrated = m.Evidence(status=m.Status.legacy, source=m.MIGRATED)
@@ -289,3 +300,15 @@ def test_w15_skips_activity_names_with_a_recorded_reason():
     assert [f.rule for f in validate(ds)] == ["W15"]
     ds.persons["pen"].evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="활동명이라 성·이름 없음")
     assert [f.rule for f in validate(ds)] == []
+
+
+def test_a_live_recording_names_a_show_the_concert_has():
+    # D54: a live CD's take points at its show (E2 checks the concert and the day)
+    live = m.Recording(id="live-1st-2026-01-01", live=m.LiveOf(concert="p/1st", date="2026-01-01"))
+    ds = _ds(recordings=[m.Recording(id="original"), live])
+    assert any(f.rule == "E2" and "unknown concert" in f.message for f in validate(ds))
+    ds.concerts["p/1st"] = m.Concert(id="p/1st", projects=["p"], title=m.Names(ja="1st"),
+                                     stops=[m.Stop(id="1-online", performances=[m.Performance(date="2026-01-02")])])
+    assert any(f.rule == "E2" and "has no show on 2026-01-01" in f.message for f in validate(ds))
+    live.live = m.LiveOf(concert="p/1st")  # the release does not say which show
+    assert not any("live:" in f.message for f in validate(ds))

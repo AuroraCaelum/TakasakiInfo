@@ -95,3 +95,18 @@ def test_apply_reviews_reads_decisions(ds, tmp_path):
     assert [x.path.name for x in applied] == ["x.yaml"]
     assert "kikuchi-2" not in ds.persons
     assert isinstance(ds.persons["kikuchi"], m.Person)
+
+
+def test_a_partial_import_adds_to_the_uses_a_site_import_listed(tmp_path):
+    # D53: the hand entries and schedule files add uses; an import of the whole site lists them afresh
+    from takasaki.official import NameReviews
+
+    site = NameReviews(tmp_path, "muse")
+    site.item("MUS-titles.yaml", "work", "朝練", {"title": {"ja": "朝練"}}, "release.php#cd23 #1-8")
+    site.save()
+    hand = NameReviews(tmp_path, "muse", partial=True)
+    hand.note_use("MUS-titles.yaml", "work", "朝練", "manual #1")
+    hand.save()
+    assert NameReviews(tmp_path, "muse", partial=True).doc("MUS-titles.yaml")["items"][0]["used_in"] == [
+        "release.php#cd23 #1-8", "manual #1"]
+    assert NameReviews(tmp_path, "muse").doc("MUS-titles.yaml")["items"][0]["used_in"] == []

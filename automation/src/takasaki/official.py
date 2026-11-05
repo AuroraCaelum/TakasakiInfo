@@ -145,8 +145,9 @@ def _seeded(kind: str, printed: str, seed: dict[str, Any]) -> dict[str, Any]:
 class NameReviews:
     """The ``new-names`` review files of one project, keyed by file name under ``review_dir``."""
 
-    def __init__(self, review_dir: Path, project: str) -> None:
+    def __init__(self, review_dir: Path, project: str, *, partial: bool = False) -> None:
         self.dir, self.project = review_dir, project
+        self.partial = partial  # the import reads part of what uses the names (a curated file): uses are added
         self.docs: dict[str, dict[str, Any]] = {}
         self.dirty: set[str] = set()
 
@@ -156,7 +157,8 @@ class NameReviews:
             doc = YAML(typ="safe").load(path.read_text(encoding="utf-8")) if path.exists() else None
             doc = doc or {"type": "new-names", "project": self.project, "decision": "", "how": HOWTO, "items": []}
             for it in doc["items"]:
-                it["used_in"] = []  # an import reads the whole site, so every run lists the uses afresh
+                if not self.partial:
+                    it["used_in"] = []  # an import reads the whole site, so every run lists the uses afresh
             self.docs[file] = doc
         return self.docs[file]
 
@@ -249,18 +251,22 @@ def approve_names(ds: Any, doc: dict[str, Any], today: dt.date) -> str:
         if not ref:
             raise ValueError(f"{it.get('printed')!r} has not been imported yet; run the importer first")
         kind, _, ident = str(ref).partition(":")
-        ent = ds.table(kind)[ident]
+        idents = [ident]
+        if kind == "concert":  # concerts sharing a printed title (a programme's episodes) share one item: approve them all
+            idents += [u for u in it.get("used_in") or [] if u != ident and u in ds.concerts]
         values = item_values(it)
         if kind == "release":
             values["title"] = m.Names(ja=values["title"].ja, rom=values["title"].rom, ko=values["title"].ko)
-        for k, v in values.items():
-            setattr(ent, k, v)
-        key = "title" if kind in TITLED else "names"
-        ent.evidence[key] = m.Evidence(status=m.Status(it.get("status") or "derived"), source=it.get("source") or None,
-                                       checked=today, note=it.get("note") or None)
-        if values.get("family_name"):
-            ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="성·이름 분리: 리뷰에서 확인 (D28)")
-        elif it.get("name_parts"):  # why the name has no family/given split, e.g. an activity name
-            ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note=str(it["name_parts"]))
+        for ident in idents:
+            ent = ds.table(kind)[ident]
+            for k, v in values.items():
+                setattr(ent, k, v)
+            key = "title" if kind in TITLED else "names"
+            ent.evidence[key] = m.Evidence(status=m.Status(it.get("status") or "derived"), source=it.get("source") or None,
+                                           checked=today, note=it.get("note") or None)
+            if values.get("family_name"):
+                ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="성·이름 분리: 리뷰에서 확인 (D28)")
+            elif it.get("name_parts"):  # why the name has no family/given split, e.g. an activity name
+                ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note=str(it["name_parts"]))
         done.append(str(ref))
     return f"approved {len(done)} names"
