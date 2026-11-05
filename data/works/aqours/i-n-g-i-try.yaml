@@ -110,6 +110,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: i-n-g, I TRY!! (Off Vocal)
+      rom: i-n-g, I TRY!! (Off Vocal)
+      ko: i-n-g, I TRY!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takeshi-masuda}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/bd/movie/
+        checked: 2026-10-27
 evidence:
   title:
     status: derived

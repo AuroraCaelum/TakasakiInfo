@@ -171,6 +171,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Wonder zone (TVサイズ)
+      rom: Wonder zone (TV Size)
+      ko: Wonder zone (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

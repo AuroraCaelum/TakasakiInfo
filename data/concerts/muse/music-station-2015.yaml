@@ -1,0 +1,44 @@
+id: muse/music-station-2015
+projects: [muse]
+status: performed
+title:
+  ja: ミュージックステーション
+  rom: Music Station
+  ko: 뮤직 스테이션
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2015-12-04
+        setlist:
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: http://www.tv-asahi.co.jp/music/contents/m_after/cur/
+    checked: 2026-11-05
+    note: '출연란: 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ)'
+  setlist.2015-12-04:
+    status: established
+    source: https://ja.wikipedia.org/wiki/μ%27s
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: http://www.tv-asahi.co.jp/music/contents/m_after/cur/
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2015-12-04] 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ). Live broadcast (Friday 20:00 slot). Song and the eight-member line-up are from jawiki only; tv-asahi page confirms the appearance but not the song. / 근거: http://www.tv-asahi.co.jp/music/contents/m_after/cur/ (Mステ アフターＭステ (Wayback 20151212141249): 2015/12/04 [Alexandros]・AKB48・μ's・コブクロ — μ's flip)"
+  schedule:
+    status: official
+    source: http://www.tv-asahi.co.jp/music/contents/m_after/cur/
+    checked: 2026-11-05

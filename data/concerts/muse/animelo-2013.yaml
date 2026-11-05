@@ -1,0 +1,42 @@
+id: muse/animelo-2013
+projects: [muse]
+status: performed
+title:
+  ja: Animelo Summer Live 2013 -FLAG NINE-
+  rom: Animelo Summer Live 2013 -FLAG NINE-
+  ko: Animelo Summer Live 2013 -FLAG NINE-
+cast:
+  - {artist: muse}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2013-08-23
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=195
+    checked: 2026-11-04
+    note: "출연란: μ's"
+  setlist.2013-08-23:
+    status: official
+    source: https://anisama.tv/2013/special/index.html
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=195
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2013-08-23 DAY1] μ's. Running order 24-25 of DAY1. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=195 (2013/05/02 μ’s アニサマ2013出演決定！ — 8月23日（金）3daysの初日; 会場 さいたまスーパーアリーナ); https://anisama.tv/2013/special/index.html (organizer 8月23日(金)セットリスト: 24 僕らは今のなかで / μ's, 25 START:DASH!! / μ's)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=195
+    checked: 2026-11-04

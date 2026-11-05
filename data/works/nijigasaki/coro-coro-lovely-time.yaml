@@ -4,7 +4,31 @@ title:
   ja: CORO CORO ラブリーTIME!!!
   rom: CORO CORO Lovely TIME!!!
   ko: CORO CORO 러블리 TIME!!!
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/karin-asaka}
+      - {character: nijigasaki/kanata-konoe}
+      - {character: nijigasaki/emma-verde}
+      - {character: nijigasaki/mia-taylor}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd/
+        checked: 2026-10-27
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: CORO CORO ラブリーTIME!!! (Off Vocal)
+      rom: CORO CORO Lovely TIME!!! (Off Vocal)
+      ko: CORO CORO 러블리 TIME!!! (Off Vocal)
+    version: Off Vocal
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd/
+        checked: 2026-10-27
 external_ids:
   fandom: CORO CORO Lovely TIME!!!
 evidence:

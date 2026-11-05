@@ -1,0 +1,56 @@
+id: aqours/animelo-2025
+projects: [aqours]
+status: performed
+title:
+  ja: Animelo Summer Live 2025 "ThanXX!"
+  rom: Animelo Summer Live 2025 "ThanXX!"
+  ko: Animelo Summer Live 2025 "ThanXX!"
+cast:
+  - {artist: saint-snow}
+  - {artist: guilty-kiss}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2025-08-30
+        setlist:
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/believe-again
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: guilty-kiss}
+              - {artist: saint-snow}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2025/setlist/
+    checked: 2026-11-04
+    note: '출연란: Saint Snow; Guilty Kiss; Guilty Kiss×Saint Snow from LoveLive! Sunshine!!'
+  setlist.2025-08-30:
+    status: official
+    source: https://anisama.tv/2025/setlist/
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://anisama.tv/2025/setlist/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2025-08-30 DAY2] Saint Snow; Guilty Kiss; Guilty Kiss×Saint Snow from LoveLive! Sunshine!!. NEW (not in input rows). Saint Snow's #05 is one running number with three songs (medley). Venue assumed さいたまスーパーアリーナ (not printed on the setlist page). Cast not printed on organizer page. / 근거: https://anisama.tv/2025/setlist/ (organizer setlist, 8/30(土) block: #05 Saint Snow medley (SELF CONTROL!! / Believe again / Dazzling White Town), #06 Strawberry Trapper, #07 )"
+  schedule:
+    status: official
+    source: https://anisama.tv/2025/setlist/
+    checked: 2026-11-04

@@ -35,6 +35,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: スーパースター!! ～TV Size～
+      rom: Superstar!! ~TV Size~
+      ko: 슈퍼스타!! ~TV Size~
+    version: TV Size
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yasuhiro-obata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

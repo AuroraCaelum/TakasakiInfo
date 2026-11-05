@@ -16,6 +16,10 @@ given_name:
   ko: 미사토
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·읽기·rom: 소속사 아임엔터프라이즈 프로필 https://www.imenterprise.jp/profile.php?id=83 ('松岡 美里 / まつおか みさと / MATSUOKA MISATO', 순서는 D4). ko: 공식 한국어(카카오게임즈 우마무스메 타니노 김렛 CV '마츠오카 미사토' https://umamusume.kakaogames.com/), 규칙 엔진·나무위키와 같음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

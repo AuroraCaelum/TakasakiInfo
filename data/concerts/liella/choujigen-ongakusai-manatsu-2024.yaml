@@ -1,0 +1,40 @@
+id: liella/choujigen-ongakusai-manatsu-2024
+projects: [liella]
+status: performed
+title:
+  ja: オダイバ！！超次元音楽祭〜真夏の冒険王LIVE2024〜
+  rom: Odaiba!! Choujigen Ongakusai ~Manatsu no Boukenou LIVE 2024~
+  ko: 오다이바!! 초차원 음악제 ~한여름의 모험왕 LIVE 2024~
+cast:
+  - {artist: kaleidoscore}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: island-stadium
+    performances:
+      - date: 2024-08-21
+        setlist:
+          - work: liella/neutral
+            performers:
+              - {artist: kaleidoscore}
+evidence:
+  cast:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Manatsu_no_Bouken_Ou_LIVE2024~
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: KALEIDOSCORE'
+  setlist.2024-08-21:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Manatsu_no_Bouken_Ou_LIVE2024~
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Manatsu_no_Bouken_Ou_LIVE2024~
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2024-08-21] KALEIDOSCORE. Unit appearance (KALEIDOSCORE), part of Fuji TV's summer event お台場冒険王2024 (stage アイランド♡スタジアム per ORICON on that event). No official lineup or press found for this specific show; title/date from Fandom only. Mostly talk + one song. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Manatsu_no_Bouken_Ou_LIVE2024~
+    checked: 2026-11-04
+    note: 공식 미게재

@@ -1,0 +1,35 @@
+id: liella/liella-radio-2022
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! リエラジ！公開録音＆公開生放送
+  rom: Love Live! Superstar!! Liella! Lieradi! Public Recording & Public Live Broadcast
+  ko: 러브 라이브! 슈퍼스타!! Liella! 리에라지! 공개 녹음 & 공개 생방송
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: sanrio-puroland-entertainment-hall
+    performances:
+      - {date: 2022-01-29, label: リエラジ公開録音1回目}
+      - {date: 2022-01-29, label: リエラジ公開録音2回目}
+      - {date: 2022-01-29, label: Liella! 生放送SP}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_radio/
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_radio/
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Third part is a public live broadcast (Liella! 生放送SP), streamed on YouTube LIVE, バンダイチャンネル, LINE LIVE, ニコニコ生放送, bilibili. Cast listed once for the whole event (same for all parts). Title has no year suffix on the official page. / 근거: https://www.lovelive-anime.jp/yuigaoka/live/sp_radio/ (event special page (read via Wayback Machine snapshot 2023))'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_radio/
+    checked: 2026-11-04

@@ -23,6 +23,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd04
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 声繋ごうよ (Off Vocal)
+      rom: Koe Tsunagou yo (Off Vocal)
+      ko: 목소리를 잇자 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: kenta-urashima}
+      - {person: takumi-yamamoto}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/73508/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

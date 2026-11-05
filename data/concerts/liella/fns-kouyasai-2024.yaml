@@ -1,0 +1,38 @@
+id: liella/fns-kouyasai-2024
+projects: [liella]
+status: performed
+title:
+  ja: 週刊ナイナイミュージックプレゼンツ FNS後夜祭
+  rom: Shuukan Nainai Music Presents FNS Kouyasai
+  ko: 주간 나이나이 뮤직 프레젠츠 FNS 후야제
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2024-12-11
+        setlist:
+          - {type: other, label: サンタが町にやって来る (커버)}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4097
+    checked: 2026-11-05
+    note: '출연란: Liella!'
+  setlist.2024-12-11:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Weekly_Ninety-Nine_Music_Presents_FNS_After-Party
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4097
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2024-12-11 23:00-23:40 live broadcast] Liella!. Fuji TV live TV broadcast (guest appearance), not a public live event. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4097 (Liella! official news 2024-11-27 (via Wayback 20250616063347): フジテレビ系「週刊ナイナイミュージックプレゼンツ FNS後夜祭」2024-12-11 23:00-23:40 生放送, Liella! guest)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4097
+    checked: 2026-11-05

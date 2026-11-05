@@ -1,0 +1,46 @@
+id: nijigasaki/radio-2021-nijiga-listen
+projects: [nijigasaki]
+status: performed
+title:
+  ja: 「ラブライブ！虹ヶ咲学園 ～お昼休み＆おはよう放送室～」公開録音～にじがリッスン♪とみちりりりーず！～
+  rom: '"Love Live! Nijigasaki Gakuen ~Ohiruyasumi & Ohayou Housoushitsu~" Public Recording ~Nijiga Listen♪ Tomichiririrīzu!~'
+  ko: 「러브 라이브! 니지가사키 학원 ~점심시간 & 아침 방송실~」 공개 녹음 ~니지가 리슨♪ 토미치리리리즈!~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: yurakucho-yomiuri-hall
+    performances:
+      - date: 2021-05-23
+        label: １回目
+        cast:
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/rina-tennoji}
+      - date: 2021-05-23
+        label: ２回目
+        cast:
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+      - date: 2021-05-23
+        label: ３回目
+        cast:
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/rina-tennoji}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_gasaraji.php
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_gasaraji.php
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Official page heading: 「ラブライブ！虹ヶ咲学園 ～お昼休み＆おはよう放送室～」公開録音～にじがリッスン♪とみちりりりーず！～特設サイト; HTML <title>: お昼休み＆おはよう放送室公開録音～にじがリッスン♪とみちりりりーず！～. 全３回公演. / 근거: https://www.lovelive-anime.jp/nijigasaki/sp_gasaraji.php (event special site (Wayback snapshot 2021)); https://anime.eiga.com/event/146197/ (アニメハック listing, 1回目); https://anime.eiga.com/event/147802/ (アニメハック listing, 2回目); https://anime.eiga.com/event/147803/ (アニメハック listing, 3回目)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_gasaraji.php
+    checked: 2026-11-04

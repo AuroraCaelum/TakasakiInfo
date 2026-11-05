@@ -1,0 +1,37 @@
+id: aqours/fns-uta-no-natsu-matsuri-2018
+projects: [aqours]
+status: performed
+title:
+  ja: 2018 FNSうたの夏まつり
+  rom: 2018 FNS Uta no Natsu Matsuri
+  ko: 2018 FNS 노래의 여름 축제
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2018-07-25
+        setlist:
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  setlist.2018-07-25:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2018-07-25] Aqours. Live broadcast; part of an anime-song medley per jawiki. / 근거: http://www.lovelive-anime.jp/uranohoshi/news43.php (Aqours official news 2018/07/10「フジテレビ系列「2018 FNSうたの夏まつり」にAqoursが歌唱ゲストで出演決定！」 (Wayback 20180731101847): 7月25日（水）19:00～23:28); http://www.fujitv.co.jp/FNS/s/ (Fuji TV programme page (Wayback 20180726141933): ラブライブ！サンシャイン!! Aqours『君のこころは輝いてるかい？』)'
+  schedule:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05

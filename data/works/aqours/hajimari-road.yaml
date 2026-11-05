@@ -54,6 +54,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
         checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ハジマリロード (Off Vocal)
+      rom: Hajimari Road (Off Vocal)
+      ko: 시작의 길 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takarot}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/68115/
+        checked: 2026-10-27
 evidence:
   title:
     status: derived

@@ -9,8 +9,8 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--10--20-e4007f?style=flat-square)](TakasakiInfo.json)
-[![Tracks](https://img.shields.io/badge/tracks-3%2C094-5d9cec?style=flat-square)](#database-status)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--05-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Tracks](https://img.shields.io/badge/tracks-4%2C598-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
 
@@ -22,29 +22,29 @@
 > **Updates are back (October 2026).** The database now runs on a rebuilt pipeline: each song, person and release is kept once as an entity in [`data/`](data), and every CSV and JSON file in this repository is generated from it. How it works: [automation/README.md](automation/README.md).
 
 > [!IMPORTANT]
-> The data is still being filled in, so entries may be missing and the structure may change. 2,202 tracks have no pronunciation (kana) yet.
+> The data is still being filled in, so entries may be missing and the structure may change. 3,686 tracks have no pronunciation (kana) yet.
 
 <a id="database-status"></a>
 
 ## Database status
 
-**3,094** tracks · **469** albums · **881** songs · **581** people · **89** characters · **84%** of tracks on YouTube Music · as of 2026-10-20
+**4,598** tracks · **559** albums · **933** songs · **633** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-05
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
-| **μ’s** | 2024-09-20 | 81 | 519 | 82% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
-| **Aqours** | 2026-03-11 | 124 | 1139 | 93% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
-| **Nijigasaki High School Idol Club** | 2026-10-07 | 95 | 546 | 70% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
-| **Liella!** | 2026-07-08 | 62 | 319 | 57% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
-| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 64 | 429 | 99% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
-| **School Idol Musical** | 2024-08-21 | 3 | 46 | 100% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
+| **μ’s** | 2026-01-14 | 118 | 1112 | 90% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
+| **Aqours** | 2026-03-11 | 144 | 1464 | 91% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
+| **Nijigasaki High School Idol Club** | 2026-10-07 | 111 | 875 | 78% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
+| **Liella!** | 2026-07-08 | 74 | 598 | 55% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
+| **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 67 | 499 | 93% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
+| **School Idol Musical** | 2024-08-21 | 4 | 82 | 56% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
 | **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 28 | 92 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
-| **Yohane the Parhelion** | 2024-12-25 | 12 | 42 | 33% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
+| **Yohane the Parhelion** | 2024-12-25 | 13 | 102 | 73% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
 
 Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 
 > [!TIP]
-> Coming up, listed once released: **いきづらい部！ あつまれユニットソング！ vol.1** (Ikizulive! LOVELIVE! BLUEBIRD, 2026-11-25)
+> Coming up, listed once released: **Songbirds** (Liella!, 2026-11-18); **いきづらい部！ あつまれユニットソング！ vol.1** (Ikizulive! LOVELIVE! BLUEBIRD, 2026-11-25)
 
 <a id="downloads-and-api"></a>
 
@@ -76,27 +76,36 @@ Endpoint: `https://5upr8uavx8.execute-api.ap-northeast-2.amazonaws.com/takasakiI
 </details>
 
 <details>
-<summary><b>Backlog</b>: original soundtracks (last priority, but someday… maybe)</summary>
+<summary><b>Original soundtracks</b>: in the album files since 2026-10 (cues are noted <code>BGM</code> and left out of the songs files)</summary>
 
 <br>
 
 **Love Live! Original Sound Tracks**
-- [ ] Notes of School idol days
-- [ ] Notes of School idol days ~Glory~
-- [ ] Notes of School idol days ~Curtain Call~
+- [x] Notes of School idol days
+- [x] Notes of School idol days ~Glory~
+- [x] Notes of School idol days ~Curtain Call~
 
 **Love Live! Sunshine!! Original Sound Tracks**
-- [ ] Sailing to the Sunshine
-- [ ] Journey to the Sunshine
-- [ ] Sailing to the Rainbow
+- [x] Sailing to the Sunshine
+- [x] Journey to the Sunshine
+- [x] Sailing to the Rainbow
 
 **Love Live! Nijigasaki High School Idol Club Original Sound Tracks**
-- [ ] Sound of TOKIMEKI
-- [ ] Bound of TOKIMEKI
+- [x] Sound of TOKIMEKI
+- [x] Bound for TOKIMEKI
+- [x] 珊瑚礁の記憶 (the movie's OST & vocal collection)
+- [x] さざめきの街角
 
 **Love Live! Superstar!! Original Sound Tracks**
-- [ ] Dreams of the Superstar
-- [ ] Twinkle of the Superstar
+- [x] Dreams of the Superstar
+- [x] Twinkle of the Superstar
+- [x] The beginning of the Superstar
+
+**Love Live! Hasunosora Girls' High School Idol Club Original Sound Track**
+- [x] Petals of History
+
+**Yohane the Parhelion Original Sound Track**
+- [x] みんなの音
 
 </details>
 
@@ -141,7 +150,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | Field | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | `id` | string | *required* | `<project>/<year>-<slug>` (`ikizulive/2025-homerun-queen`). |
-| `type` | string | `"unclassified"` | Kind of release. `digital_single`: released only for download and streaming; `bd_bonus`: a CD that comes with a Blu-ray. One of `single`, `album`, `mini_album`, `digital_single`, `bd_bonus`, `compilation`, `soundtrack`, `drama_cd`, `live_video`, `unclassified`. |
+| `type` | string | `"unclassified"` | Kind of release. `digital_single`: released only for download and streaming; `bd_bonus`: a CD that comes with a Blu-ray; `live_album`: recorded at a concert; `box_set`: a box of discs (the earlier releases it bundles keep their own entries); `radio_cd`: a radio program's CD. One of `single`, `album`, `mini_album`, `digital_single`, `bd_bonus`, `compilation`, `soundtrack`, `drama_cd`, `radio_cd`, `live_album`, `box_set`, `live_video`, `unclassified`. |
 | `status` | string | `"released"` | `announced`: not out yet (left out of the legacy files); `released`: out; `verified`: checked again after release, with no change. One of `announced`, `released`, `verified`. |
 | `title` | **Names** | *required* | Title. In v1, `rom` and `ko` not stored are filled in from the song titles (`A / B`) or from a Latin-script title. |
 | `projects` | string[] | *required* | Project ids; more than one for a cross-project release. |
@@ -223,7 +232,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 </details>
 
 <details>
-<summary><code>works.json</code>: <b>Work</b>, <b>WorkCredits</b>, <b>Recording</b>, <b>Credit</b></summary>
+<summary><code>works.json</code>: <b>Work</b>, <b>WorkCredits</b>, <b>Recording</b>, <b>Credit</b>, <b>LiveOf</b></summary>
 
 | Field | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
@@ -257,6 +266,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `brass_arranger` | **Credit**[] | `[]` | 管編曲 (brass arrangement). |
 | `credits_override` | **WorkCredits** | — | Lyricist and composer of this recording when they differ from the work's (rare; the evidence says why). |
 | `instrumental_of` | string | — | For an off vocal or instrumental: id of the vocal recording in the same work. |
+| `live` | **LiveOf** | — | For a live recording (a live CD's track): the show it was recorded at, when the release says which (D54). |
 | `external_ids` | map of string | `{}` | Ids elsewhere: `isrc`. |
 | `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
 
@@ -269,6 +279,14 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `affiliation` | string or **Names** | — | Affiliation printed after the name, `名前(所属)`; a names object when the spelling differs by language. |
 | `fullwidth` | boolean | `false` | The cited official page prints the affiliation in full-width brackets, `名前（所属）`; `ja` keeps them, `rom` and `ko` are half-width. |
 | `role` | **Names** | — | The role a cast member is credited as (`椿 ルリカ役`). |
+
+**LiveOf** (in Recording `live`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `concert` | string | *required* | Concert id. |
+| `date` | date | — | Day of the show; null when the release does not say which of the concert's shows. |
+| `label` | string | — | The show's label, when the day had more than one (`Day.2 Evening`). |
 
 </details>
 
@@ -501,6 +519,7 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
 | `strings_arranger` | **ref**[] | 弦編曲. |
 | `brass_arranger` | **ref**[] | 管編曲. |
 | `instrumental_of` | string | For an off vocal or instrumental: id of the vocal recording; else null. |
+| `live` | object | For a live recording: the show it was recorded at (`concert`, `date`, `label`); else null. |
 | `external_ids` | map of string | Ids elsewhere (`isrc`); null when none. |
 | `main_link` | string | Main YouTube Music URL: the earliest released track of the recording that has a video of its own; null when none has. |
 
@@ -631,7 +650,7 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
     "streaming": {
       "status": "established",
       "source": "https://music.youtube.com/browse/MPREb_bB1zD1f6Ehw",
-      "checked": "2026-10-20",
+      "checked": "2026-10-27",
       "note": "YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지"
     }
   }

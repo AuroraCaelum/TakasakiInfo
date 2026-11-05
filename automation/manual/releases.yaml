@@ -1,0 +1,3918 @@
+# Releases no official music page lists, entered by hand (D53). Read by `takasaki manual [--apply]`;
+# the format is in automation/src/takasaki/manual.py. Titles, singers and credits are written as the
+# source prints them; `note` says which source gives what (공식 미게재 where nothing official does).
+
+# --- 虹ヶ咲学園スクールアイドル同好会 -------------------------------------------------------------
+
+- project: nijigasaki
+  source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php
+  note: "공식 BD 페이지(곡명·가창자, 특장한정판 BCXA-1854 봉입 특전 오리지널 송 CD). 극장 선행 판매 2023-06-23, 일반 발매 2023-08-30. 크레딧은 공식 미게재라 같은 음원의 디지털 싱글(LZC-3120) 레이블 배포 메타데이터(mora)를 따름(D42). Off Vocal 트랙은 공식 미게재: MusicBrainz(https://musicbrainz.org/release/87d613cb-ea75-4233-b412-404dc0d300df)"
+  title: NEXT SKY BD
+  date: 2023-08-30
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1854, media: CD}]
+  tracks:
+    - title: Waku Waku! Monday Morning
+      singers: 中須かすみ(CV.相良茉優)、桜坂しずく(CV.前田佳織里)、天王寺璃奈(CV.田中ちえ美)、三船栞子(CV.小泉萌香)
+      credits: 作詞・作曲・編曲：中村 歩・菊池博人
+    - Waku Waku! Monday Morning（Off Vocal）
+
+- project: nijigasaki
+  source: https://www.lovelive-anime.jp/nijigasaki/bd_movie.php
+  note: "공식 BD 페이지(곡명·가창자, 특장한정판 BCXA-1968 봉입 특전 오리지널 송 CD). 크레딧은 공식 미게재라 같은 음원의 디지털 싱글(LZC-3653) 레이블 배포 메타데이터(mora)를 따름(D42). Off Vocal 트랙은 공식 미게재: Fandom(https://love-live.fandom.com/wiki/Poka_Poka_Biyori)"
+  title: Movie Chapter 1 BD
+  date: 2025-01-29
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1968, media: CD}]
+  tracks:
+    - title: Poka Poka 日和
+      singers: 上原歩夢(CV.大西亜玖璃)、宮下 愛(CV.村上奈津実)、優木せつ菜(CV.林 鼓子)、鐘 嵐珠(CV.法元明菜)
+      credits: 作詞：NOVECHIKA・にゃんぞぬデシ・米澤森人 作曲：にゃんぞぬデシ・米澤森人・星 銀乃丈 編曲：星 銀乃丈
+    - Poka Poka 日和（Off Vocal）
+
+- project: nijigasaki
+  source: https://www.lovelive-anime.jp/nijigasaki/bd/
+  note: "공식 BD 페이지(곡명·가창자, 특장한정판 BCXA-2005 봉입 특전 오리지널 송 CD). 크레딧은 공식·레이블 모두 미게재라 비워 둠. Off Vocal 트랙은 공식 미게재: MusicBrainz(https://musicbrainz.org/release/dad893cc-7332-4b03-b56c-7981acb96ddb)"
+  title: Movie Chapter 2 BD
+  date: 2026-03-25
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-2005, media: CD}]
+  tracks:
+    - title: CORO CORO ラブリーTIME!!!
+      singers: 朝香果林(CV.久保田未夢)、近江彼方(CV.鬼頭明里)、エマ・ヴェルデ(CV.指出毬亜)、ミア・テイラー(CV.内田 秀)
+    - CORO CORO ラブリーTIME!!!（Off Vocal）
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73671/
+  note: "레이블 카탈로그(디지털 싱글 LZC-3120). NEXT SKY BD 특전 CD와 같은 음원(MusicBrainz 길이 3:09)이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: Waku Waku! Monday Morning
+  date: 2025-06-23
+  type: digital_single
+  editions: [{catalog: LZC-3120, media: 配信}]
+  tracks:
+    - title: Waku Waku! Monday Morning
+      singers: 中須かすみ(CV.相良茉優)、桜坂しずく(CV.前田佳織里)、天王寺璃奈(CV.田中ちえ美)、三船栞子(CV.小泉萌香)
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/94461/
+  note: "레이블 카탈로그(디지털 싱글 LZC-3653). 완결편 제1장 BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: Poka Poka 日和
+  date: 2026-08-28
+  type: digital_single
+  editions: [{catalog: LZC-3653, media: 配信}]
+  smartlink: https://lnk.to/LZC-3653
+  tracks:
+    - title: Poka Poka 日和
+      singers: 上原歩夢(CV.大西亜玖璃)、宮下 愛(CV.村上奈津実)、優木せつ菜(CV.林 鼓子)、鐘 嵐珠(CV.法元明菜)
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73345/
+  note: "레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2789). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774740208/, 카탈로그 페이지는 ä·♡ 같은 문자가 깨짐). 편곡은 각 보컬 음원과 같음"
+  title: NIJIGAKU Instrumental Collection Vol.1 ～TOKIMEKI Runners～
+  date: 2024-05-22
+  type: compilation
+  editions: [{catalog: LZC-2789, media: 配信}]
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks: [TOKIMEKI Runners (Off Vocal), 夢への一歩 (Off Vocal), ダイアモンド (Off Vocal), あなたの理想のヒロイン (Off Vocal),
+           Starlight (Off Vocal), めっちゃGoing!! (Off Vocal), 眠れる森に行きたいな (Off Vocal), CHASE! (Off Vocal),
+           Evergreen (Off Vocal), ドキピポ☆エモーション (Off Vocal)]
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73508/
+  note: "레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2898). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774741670/). 편곡은 각 보컬 음원과 같음"
+  title: NIJIGAKU Instrumental Collection Vol.2 ～Love U my friends～
+  date: 2024-11-06
+  type: compilation
+  editions: [{catalog: LZC-2898, media: 配信}]
+  smartlink: https://lnk.to/LZC-2898
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks: [開花宣言 (Off Vocal), ☆ワンダーランド☆ (Off Vocal), オードリー (Off Vocal), Wish (Off Vocal), 友 & 愛 (Off Vocal),
+           My Own Fairy-Tale (Off Vocal), MELODY (Off Vocal), 声繋ごうよ (Off Vocal), テレテレパシー (Off Vocal),
+           Love U my friends (Off Vocal)]
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
+  note: "레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2989). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774742912/). 편곡은 각 보컬 음원과 같음"
+  title: NIJIGAKU Instrumental Collection Vol.3 ～Just Believe!!!～
+  date: 2025-02-05
+  type: compilation
+  editions: [{catalog: LZC-2989, media: 配信}]
+  smartlink: https://lnk.to/LZC-2989
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks: [Say Good-Bye 涙 (Off Vocal), Margaret (Off Vocal), やがてひとつの物語 (Off Vocal), Fire Bird (Off Vocal),
+           楽しいの天才 (Off Vocal), Märchen Star (Off Vocal), LIKE IT！LOVE IT！ (Off Vocal), 哀温ノ詩 (Off Vocal),
+           アナログハート (Off Vocal), 決意の光 (Off Vocal), TOKIMEKI Runners (スクスタストーリー17章挿入歌Ver.) (Off Vocal),
+           Just Believe!!! (Off Vocal)]
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73614/
+  note: "레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-3059). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774743872/). 편곡은 각 보컬 음원과 같음"
+  title: NIJIGAKU Instrumental Collection Vol.4 ～L！L！L！ (Love the Life We Live)～
+  date: 2025-04-23
+  type: compilation
+  editions: [{catalog: LZC-3059, media: 配信}]
+  smartlink: https://lnk.to/LZC-3059
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks: [L！L！L！ (Love the Life We Live) (Off Vocal), Break The System (Off Vocal), TO BE YOURSELF (Off Vocal),
+           エイエ戦サー (Off Vocal), Turn it Up! (Off Vocal), Diabolic mulier (Off Vocal), Silent Blaze (Off Vocal),
+           ヤダ！ (Off Vocal), いつだってfor you! (Off Vocal), First Love Again (Off Vocal), コンセントレイト！ (Off Vocal),
+           Toy Doll (Off Vocal), 夜明珠 (Off Vocal)]
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
+  note: "레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-3195). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774745463/). 편곡은 각 보컬 음원과 같음"
+  title: NIJIGAKU Instrumental Collection Vol.5 ～Fly with You!!～
+  date: 2025-08-20
+  type: compilation
+  editions: [{catalog: LZC-3195, media: 配信}]
+  smartlink: https://lnk.to/LZC-3195
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks: [Walking Dream (Off Vocal), 背伸びしたって (Off Vocal), 小悪魔LOVE♡ (Off Vocal), My Shadow (Off Vocal),
+           Request for U (Off Vocal), Cooking with Love (Off Vocal), チェリーボム (Off Vocal), 恋するSunflower (Off Vocal),
+           私はマグネット (Off Vocal), 咬福論 (Off Vocal), Lemonade (Off Vocal), 5201314 (Off Vocal), Fly with You!! (Off Vocal)]
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73048/
+  note: "레이블 카탈로그(디지털 전용 모음, LZC-2337). BD·매장 특전 CD에만 있던 곡을 모은 것. 곡명·가창은 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774734733/)"
+  title: ニジガク ボーナストラック コレクション Vol.1
+  date: 2022-12-24
+  type: compilation
+  editions: [{catalog: LZC-2337, media: 配信}]
+  smartlink: https://lnk.to/LZC-2337
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks:
+    - {title: POWER SPOT!!, singers: DiverDiva}
+    - {title: Kakushiaji！, singers: A・ZU・NA}
+    - {title: Make-up session ABC, singers: QU4RTZ}
+    - {title: 祭花 -saika-, singers: DiverDiva}
+    - {title: Happy Nyan! Days, singers: A・ZU・NA}
+    - {title: Twinkle Town, singers: QU4RTZ}
+    - {title: Hurray Hurray, singers: 虹ヶ咲学園スクールアイドル同好会}
+
+- project: nijigasaki
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73425/
+  note: "레이블 카탈로그(디지털 전용 모음, LZC-2872). BD 특전 CD에만 있던 곡을 모은 것. 곡명·가창은 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774741236/)"
+  title: ニジガク ボーナストラック コレクション Vol.2
+  date: 2024-08-14
+  type: compilation
+  editions: [{catalog: LZC-2872, media: 配信}]
+  artist: 虹ヶ咲学園スクールアイドル同好会
+  tracks:
+    - {title: Fashionista, singers: DiverDiva}
+    - {title: Fuwa Fuwa アワー！, singers: QU4RTZ}
+    - {title: ロマンスの中で, singers: A・ZU・NA}
+    - {title: Look at me now, singers: R3BIRTH}
+    - {title: TOKIMEKI Runners (12人 Ver.), singers: 虹ヶ咲学園スクールアイドル同好会}
+    - {title: Love U my friends (12人 Ver.), singers: 虹ヶ咲学園スクールアイドル同好会}
+    - {title: Just Believe!!! (12人 Ver.), singers: 虹ヶ咲学園スクールアイドル同好会}
+
+# --- Liella! -----------------------------------------------------------------------------------------
+
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+  status: established
+  note: "공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz"
+  title: Liella! CLUB CD SET 2024
+  date: 2024-07-26
+  type: single
+  editions: [{label: プレミアコース盤, catalog: LAPE-1003～1006, media: CD+3BD}, {label: レギュラーコース盤, media: CD}]
+  tracks:
+    - {title: アイコトバ！, singers: Liella!, credits: 作詞：宮嶋淳子 作曲・編曲：大畑拓也}
+    - アイコトバ！（Off Vocal）
+    - {title: アイコトバ！（澁谷かのん Solo Ver.）, singers: 澁谷かのん(CV.伊達さゆり)}
+    - {title: アイコトバ！（唐 可可 Solo Ver.）, singers: 唐 可可(CV.Liyuu)}
+    - {title: アイコトバ！（嵐 千砂都 Solo Ver.）, singers: 嵐 千砂都(CV.岬 なこ)}
+    - {title: アイコトバ！（平安名すみれ Solo Ver.）, singers: 平安名すみれ(CV.ペイトン尚未)}
+    - {title: アイコトバ！（葉月 恋 Solo Ver.）, singers: 葉月 恋(CV.青山なぎさ)}
+    - {title: アイコトバ！（桜小路きな子 Solo Ver.）, singers: 桜小路きな子(CV.鈴原希実)}
+    - {title: アイコトバ！（米女メイ Solo Ver.）, singers: 米女メイ(CV.薮島朱音)}
+    - {title: アイコトバ！（若菜四季 Solo Ver.）, singers: 若菜四季(CV.大熊和奏)}
+    - {title: アイコトバ！（鬼塚夏美 Solo Ver.）, singers: 鬼塚夏美(CV.絵森 彩)}
+    - {title: アイコトバ！（ウィーン・マルガレーテ Solo Ver.）, singers: ウィーン・マルガレーテ(CV.結那)}
+    - {title: アイコトバ！（鬼塚冬毬 Solo Ver.）, singers: 鬼塚冬毬(CV.坂倉 花)}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73427/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2411, Liella! 버전만). CLUB CD SET 2024와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: アイコトバ！
+  date: 2024-08-01
+  type: digital_single
+  editions: [{catalog: LZC-2411, media: 配信}]
+  smartlink: https://lnk.to/LZC-2411
+  tracks:
+    - {title: アイコトバ！, singers: Liella!, credits: 作詞：宮嶋淳子 作曲・編曲：大畑拓也}
+
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+  status: established
+  note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/39f79ab1-6dc2-48e7-af1a-c690), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3254의 레이블 배포 메타데이터(mora). 품번 LAPE-1020(어느 코스인지 미상)은 MusicBrainz"
+  title: Liella! CLUB CD SET 2025
+  date: 2025-07-01
+  type: single
+  editions: [{label: プレミアコース盤}, {label: レギュラーコース盤}]
+  tracks:
+    - {title: オレンジのままで, singers: Liella!, credits: 作詞：宮嶋淳子 作曲・編曲：渡辺拓也}
+    - オレンジのままで（Off Vocal）
+    - {title: オレンジのままで（澁谷かのん Solo Ver.）, singers: 澁谷かのん(CV.伊達さゆり)}
+    - {title: オレンジのままで（唐 可可 Solo Ver.）, singers: 唐 可可(CV.Liyuu)}
+    - {title: オレンジのままで（嵐 千砂都 Solo Ver.）, singers: 嵐 千砂都(CV.岬 なこ)}
+    - {title: オレンジのままで（平安名すみれ Solo Ver.）, singers: 平安名すみれ(CV.ペイトン尚未)}
+    - {title: オレンジのままで（葉月 恋 Solo Ver.）, singers: 葉月 恋(CV.青山なぎさ)}
+    - {title: オレンジのままで（桜小路きな子 Solo Ver.）, singers: 桜小路きな子(CV.鈴原希実)}
+    - {title: オレンジのままで（米女メイ Solo Ver.）, singers: 米女メイ(CV.薮島朱音)}
+    - {title: オレンジのままで（若菜四季 Solo Ver.）, singers: 若菜四季(CV.大熊和奏)}
+    - {title: オレンジのままで（鬼塚夏美 Solo Ver.）, singers: 鬼塚夏美(CV.絵森 彩)}
+    - {title: オレンジのままで（ウィーン・マルガレーテ Solo Ver.）, singers: ウィーン・マルガレーテ(CV.結那)}
+    - {title: オレンジのままで（鬼塚冬毬 Solo Ver.）, singers: 鬼塚冬毬(CV.坂倉 花)}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/84139/
+  note: "레이블 카탈로그(디지털 싱글 LZC-3254, Liella! 버전만). CLUB CD SET 2025와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: オレンジのままで
+  date: 2025-08-07
+  type: digital_single
+  editions: [{catalog: LZC-3254, media: 配信}]
+  smartlink: https://lnk.to/LZC-3254
+  tracks:
+    - {title: オレンジのままで, singers: Liella!, credits: 作詞：宮嶋淳子 作曲・編曲：渡辺拓也}
+
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+  status: established
+  note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+  title: Liella! CLUB CD SET 2026
+  date: 2026-07-01
+  type: single
+  editions: [{label: プレミアコース盤}, {label: レギュラーコース盤}]
+  tracks:
+    - {title: スキップ・カプセル, singers: Liella!, credits: 作詞：宮嶋淳子 作曲：南 直博 編曲：EFFY}
+    - スキップ・カプセル（Off Vocal）
+    - {title: スキップ・カプセル（澁谷かのん Solo Ver.）, singers: 澁谷かのん(CV.伊達さゆり)}
+    - {title: スキップ・カプセル（唐 可可 Solo Ver.）, singers: 唐 可可(CV.Liyuu)}
+    - {title: スキップ・カプセル（嵐 千砂都 Solo Ver.）, singers: 嵐 千砂都(CV.岬 なこ)}
+    - {title: スキップ・カプセル（平安名すみれ Solo Ver.）, singers: 平安名すみれ(CV.ペイトン尚未)}
+    - {title: スキップ・カプセル（葉月 恋 Solo Ver.）, singers: 葉月 恋(CV.青山なぎさ)}
+    - {title: スキップ・カプセル（桜小路きな子 Solo Ver.）, singers: 桜小路きな子(CV.鈴原希実)}
+    - {title: スキップ・カプセル（米女メイ Solo Ver.）, singers: 米女メイ(CV.薮島朱音)}
+    - {title: スキップ・カプセル（若菜四季 Solo Ver.）, singers: 若菜四季(CV.大熊和奏)}
+    - {title: スキップ・カプセル（鬼塚夏美 Solo Ver.）, singers: 鬼塚夏美(CV.絵森 彩)}
+    - {title: スキップ・カプセル（ウィーン・マルガレーテ Solo Ver.）, singers: ウィーン・マルガレーテ(CV.結那)}
+    - {title: スキップ・カプセル（鬼塚冬毬 Solo Ver.）, singers: 鬼塚冬毬(CV.坂倉 花)}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/94474/
+  note: "레이블 카탈로그(디지털 싱글 LZC-3642, Liella! 버전만). CLUB CD SET 2026와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: スキップ・カプセル
+  date: 2026-09-16
+  type: digital_single
+  editions: [{catalog: LZC-3642, media: 配信}]
+  smartlink: https://lnk.to/LZC-3642d
+  tracks:
+    - {title: スキップ・カプセル, singers: Liella!, credits: 作詞：宮嶋淳子 作曲：南 直博 編曲：EFFY}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73472/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2930). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "心キラララ"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2930, media: 配信}]
+  tracks:
+    - {title: "心キラララ", recording: liella/kokoro-kirarara#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73473/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2931). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Oh！レディ・ステディ・ポジティブ"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2931, media: 配信}]
+  tracks:
+    - {title: "Oh！レディ・ステディ・ポジティブ", recording: liella/oh-ready-steady-positive#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73474/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2932). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "勇気のカケラ"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2932, media: 配信}]
+  tracks:
+    - {title: "勇気のカケラ", recording: liella/yuuki-no-kakera#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73475/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2933). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "ヒロインズ☆ランウェイ"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2933, media: 配信}]
+  tracks:
+    - {title: "ヒロインズ☆ランウェイ", recording: liella/heroine-s-runway#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73476/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2934). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "リバーブ"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2934, media: 配信}]
+  tracks:
+    - {title: "リバーブ", recording: liella/reverb#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73482/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2943). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "トゥトゥトゥ！"
+  date: 2024-09-29
+  type: digital_single
+  editions: [{catalog: LZC-2943, media: 配信}]
+  tracks:
+    - {title: "トゥトゥトゥ！", recording: liella/tu-tu-tu#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73477/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2935). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "探して！Future"
+  date: 2024-10-01
+  type: digital_single
+  editions: [{catalog: LZC-2935, media: 配信}]
+  tracks:
+    - {title: "探して！Future", recording: liella/sagashite-future#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73478/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2936). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "HAPPY TO DO WA！"
+  date: 2024-10-01
+  type: digital_single
+  editions: [{catalog: LZC-2936, media: 配信}]
+  tracks:
+    - {title: "HAPPY TO DO WA！", recording: liella/happy-to-do-wa#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73479/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2937). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Stella!"
+  date: 2024-10-01
+  type: digital_single
+  editions: [{catalog: LZC-2937, media: 配信}]
+  tracks:
+    - {title: "Stella!", recording: liella/stella#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73480/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2938). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "クレッシェンドゆ・ら"
+  date: 2024-10-01
+  type: digital_single
+  editions: [{catalog: LZC-2938, media: 配信}]
+  tracks:
+    - {title: "クレッシェンドゆ・ら", recording: liella/crescendo-yu-ra#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73481/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2939). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "変わらないすべて"
+  date: 2024-10-01
+  type: digital_single
+  editions: [{catalog: LZC-2939, media: 配信}]
+  tracks:
+    - {title: "変わらないすべて", recording: liella/kawaranai-subete#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73483/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2940). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Hoshizora Monologue"
+  date: 2024-10-03
+  type: digital_single
+  editions: [{catalog: LZC-2940, media: 配信}]
+  tracks:
+    - {title: "Hoshizora Monologue", recording: liella/hoshizora-monologue#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73484/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2941). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Blooming Dance！Dance！"
+  date: 2024-10-03
+  type: digital_single
+  editions: [{catalog: LZC-2941, media: 配信}]
+  tracks:
+    - {title: "Blooming Dance！Dance！", recording: liella/blooming-dance-dance#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73485/
+  note: "레이블 카탈로그(디지털 싱글 LZC-2942). 공식 뉴스(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3889)가 알린 1·2기 BD 특전곡 배신. BD 특전 CD와 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Including you"
+  date: 2024-10-03
+  type: digital_single
+  editions: [{catalog: LZC-2942, media: 配信}]
+  tracks:
+    - {title: "Including you", recording: liella/including-you#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73491/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2893). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Bubble Rise"
+  date: 2024-10-21
+  type: digital_single
+  editions: [{catalog: LZC-2893, media: 配信}]
+  tracks:
+    - {title: "Bubble Rise", recording: liella/bubble-rise#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73492/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2895). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Special Color"
+  date: 2024-10-28
+  type: digital_single
+  editions: [{catalog: LZC-2895, media: 配信}]
+  tracks:
+    - {title: "Special Color", recording: liella/special-color#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73519/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2899). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "絶対的LOVER"
+  date: 2024-11-18
+  type: digital_single
+  editions: [{catalog: LZC-2899, media: 配信}]
+  tracks:
+    - {title: "絶対的LOVER", recording: liella/zettaiteki-lover#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73520/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2950). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "Dazzling Game"
+  date: 2024-12-02
+  type: digital_single
+  editions: [{catalog: LZC-2950, media: 配信}]
+  tracks:
+    - {title: "Dazzling Game", recording: liella/dazzling-game#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73537/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2951). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "笑顔のPromise"
+  date: 2024-12-16
+  type: digital_single
+  editions: [{catalog: LZC-2951, media: 配信}]
+  tracks:
+    - {title: "笑顔のPromise", recording: liella/egao-no-promise#original}
+
+- project: liella
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73538/
+  note: "레이블 카탈로그(선행 배신 디지털 싱글 LZC-2961). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)"
+  legacy: false
+  title: "スーパースター!!"
+  date: 2024-12-23
+  type: digital_single
+  editions: [{catalog: LZC-2961, media: 配信}]
+  smartlink: https://lnk.to/LZC-2961
+  tracks:
+    - {title: "スーパースター!!", recording: liella/superstar#original}
+
+- project: liella
+  source: https://www.youtube.com/watch?v=hNtM9AhsFWw
+  credits_note: "공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음"
+  sources: [https://www.lovelive-anime.jp/yuigaoka/bd/tv3rd/]
+  note: "공식 BD 페이지(3기 Blu-ray 제4권 특장한정판 BCXA-1957 봉입 특전 録り下ろしLiella! オリジナルソングCD①, 가창자)와 공식 YouTube 채널의 미리 듣기 영상 설명(곡명·가창자·크레딧, 공식 계정). Off Vocal 트랙은 공식 미게재: Fandom(https://love-live.fandom.com/wiki/Tsumi_DA・YO・NE)"
+  title: TVA3 BD Vol.4
+  date: 2025-03-26
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1957, media: CD}]
+  tracks:
+    - {title: 罪DA・YO・NE, singers: 米女メイ(CV.薮島朱音)、若菜四季(CV.大熊和奏), credits: 作詞：宮嶋淳子 作曲：小池竜暉・Hoffnung 編曲：Hoffnung}
+    - 罪DA・YO・NE（Off Vocal）
+
+- project: liella
+  source: https://www.youtube.com/watch?v=CH2ugMWA1JM
+  credits_note: "공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음"
+  sources: [https://www.lovelive-anime.jp/yuigaoka/bd/tv3rd/]
+  note: "공식 BD 페이지(3기 Blu-ray 제5권 특장한정판 BCXA-1958 봉입 특전 録り下ろしLiella! オリジナルソングCD②, 가창자)와 공식 YouTube 채널의 미리 듣기 영상 설명(곡명·가창자·크레딧, 공식 계정). Off Vocal 트랙은 공식 미게재: Fandom·MusicBrainz"
+  title: TVA3 BD Vol.5
+  date: 2025-04-23
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1958, media: CD}]
+  tracks:
+    - {title: 想われマリオネット, singers: 澁谷かのん(CV.伊達さゆり)、嵐 千砂都(CV.岬 なこ)、葉月 恋(CV.青山なぎさ)、鬼塚夏美(CV.絵森 彩)、ウィーン・マルガレーテ(CV.結那), credits: 作詞：宮嶋淳子 作曲・編曲：大畑拓也}
+    - 想われマリオネット（Off Vocal）
+
+- project: liella
+  source: https://www.youtube.com/watch?v=dxX2hsip-xE
+  credits_note: "공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음"
+  sources: [https://www.lovelive-anime.jp/yuigaoka/bd/tv3rd/]
+  note: "공식 BD 페이지(3기 Blu-ray 제6권 특장한정판 BCXA-1959 봉입 특전 録り下ろしLiella! オリジナルソングCD③, 가창자)와 공식 YouTube 채널의 미리 듣기 영상 설명(곡명·가창자·크레딧, 공식 계정). Off Vocal 트랙은 공식 미게재: Fandom·MusicBrainz"
+  title: TVA3 BD Vol.6
+  date: 2025-05-28
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1959, media: CD}]
+  tracks:
+    - {title: ティーンエイジ・ロンリネス, singers: 唐 可可(CV.Liyuu)、平安名すみれ(CV.ペイトン尚未)、桜小路きな子(CV.鈴原希実)、鬼塚冬毬(CV.坂倉 花), credits: 作詞：宮嶋淳子 作曲・編曲：小幡康裕}
+    - ティーンエイジ・ロンリネス（Off Vocal）
+
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/
+  note: "공식 BD 페이지(2기 Blu-ray Amazon.co.jp 전권 구입 특전 録り下ろしドラマCD, 출연: Liella!). 드라마 제목과 출연은 공식 페이지의 [ ドラマCD収録内容 ], 트랙 번호는 인쇄되지 않아 실린 순서로 둠. 마지막 권(2023-02-24)과 함께 전달"
+  title: TVA2 BD Full (Amazon)
+  date: 2023-02-24
+  type: bd_bonus
+  editions: [{label: Amazon.co.jp 全巻購入特典}]
+  tracks:
+    - {title: ふたりで楽器屋さんへ, singers: 澁谷かのん、桜小路きな子, drama: true}
+    - {title: 『好き』の理由, singers: 嵐 千砂都、若菜四季, drama: true}
+    - {title: ゲームスタート！, singers: 葉月 恋、米女メイ, drama: true}
+    - {title: ３人でごはん♪, singers: 唐 可可、平安名すみれ、鬼塚夏美, drama: true}
+
+# --- Aqours -------------------------------------------------------------------------------------------
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68115/
+  note: "레이블 카탈로그(곡명·가창, CD付前売券【1年生】 LACZ-10008). 극장판 전매권(종이 티켓)을 넣은 CD로 세븐일레븐·세븐넷 한정 판매(2018-11-24 선행 수령 시작, 판매 방식은 ja.wikipedia·제3자 블로그. 세븐넷 페이지는 사라짐). 크레딧은 공식 CHRONICLE (2018～2020) 블록(cd.php#cd67)"
+  title: ハジマリロード
+  date: 2018-11-24
+  type: single
+  editions: [{label: CD付前売券【1年生】, catalog: LACZ-10008, media: CD}]
+  tracks:
+    - {title: ハジマリロード, singers: 津島善子(CV.小林愛香)、国木田花丸(CV.高槻かなこ)、黒澤ルビィ(CV.降幡 愛)}
+    - ハジマリロード（Off Vocal）
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68116/
+  note: "레이블 카탈로그(곡명·가창, CD付前売券【2年生】 LACZ-10009). 극장판 전매권(종이 티켓)을 넣은 CD로 세븐일레븐·세븐넷 한정 판매(2018-11-24 선행 수령 시작, 판매 방식은 ja.wikipedia·제3자 블로그. 세븐넷 페이지는 사라짐). 크레딧은 공식 CHRONICLE (2018～2020) 블록(cd.php#cd67)"
+  title: Marine Border Parasol
+  date: 2018-11-24
+  type: single
+  editions: [{label: CD付前売券【2年生】, catalog: LACZ-10009, media: CD}]
+  tracks:
+    - {title: Marine Border Parasol, singers: 高海千歌(CV.伊波杏樹)、桜内梨子(CV.逢田梨香子)、渡辺 曜(CV.斉藤朱夏)}
+    - Marine Border Parasol（Off Vocal）
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68117/
+  note: "레이블 카탈로그(곡명·가창, CD付前売券【3年生】 LACZ-10010). 극장판 전매권(종이 티켓)을 넣은 CD로 세븐일레븐·세븐넷 한정 판매(2018-11-24 선행 수령 시작, 판매 방식은 ja.wikipedia·제3자 블로그. 세븐넷 페이지는 사라짐). 크레딧은 공식 CHRONICLE (2018～2020) 블록(cd.php#cd67)"
+  title: 予測不可能Driving!
+  date: 2018-11-24
+  type: single
+  editions: [{label: CD付前売券【3年生】, catalog: LACZ-10010, media: CD}]
+  tracks:
+    - {title: 予測不可能Driving!, singers: 松浦果南(CV.諏訪ななか)、黒澤ダイヤ(CV.小宮有紗)、小原鞠莉(CV.鈴木愛奈)}
+    - 予測不可能Driving!（Off Vocal）
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
+  note: "레이블 카탈로그(곡명·가창, LACZ-10012). 공식 뉴스(https://www.lovelive-anime.jp/uranohoshi/news.php?id=4990): 4th LoveLive! 회장(2018-11-16～18)에서 판매한 뒤 사후 통판. 솔로 버전이 Fourth Solo Concert Album의 같은 이름 음원과 같은 음원인지는 확인하지 못함(같은 음원으로 둠)"
+  title: Thank you, FRIENDS!! SOLO CONCERT
+  date: 2018-11-16
+  type: single
+  editions: [{catalog: LACZ-10012, media: CD}]
+  tracks:
+    - {title: "Thank you, FRIENDS!!（高海千歌 Solo Ver.）", singers: "高海千歌(CV.伊波杏樹)"}
+    - {title: "Thank you, FRIENDS!!（桜内梨子 Solo Ver.）", singers: "桜内梨子(CV.逢田梨香子)"}
+    - {title: "Thank you, FRIENDS!!（松浦果南 Solo Ver.）", singers: "松浦果南(CV.諏訪ななか)"}
+    - {title: "Thank you, FRIENDS!!（黒澤ダイヤ Solo Ver.）", singers: "黒澤ダイヤ(CV.小宮有紗)"}
+    - {title: "Thank you, FRIENDS!!（渡辺 曜 Solo Ver.）", singers: "渡辺 曜(CV.斉藤朱夏)"}
+    - {title: "Thank you, FRIENDS!!（津島善子 Solo Ver.）", singers: "津島善子(CV.小林愛香)"}
+    - {title: "Thank you, FRIENDS!!（国木田花丸 Solo Ver.）", singers: "国木田花丸(CV.高槻かなこ)"}
+    - {title: "Thank you, FRIENDS!!（小原鞠莉 Solo Ver.）", singers: "小原鞠莉(CV.鈴木愛奈)"}
+    - {title: "Thank you, FRIENDS!!（黒澤ルビィ Solo Ver.）", singers: "黒澤ルビィ(CV.降幡 愛)"}
+
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/movie/
+  note: "공식 BD 페이지(극장판 Blu-ray 특장한정판 BCXA-1441 봉입 특전 新録AqoursオリジナルソングCD「i-n-g, I TRY!!」). 크레딧·가창은 공식 CHRONICLE (2018～2020) 블록(cd.php#cd67). Off Vocal 트랙은 공식 미게재: Fandom(https://love-live.fandom.com/wiki/I-n-g,_I_TRY!!)·ja.wikipedia"
+  title: Movie BD
+  date: 2019-07-26
+  type: bd_bonus
+  editions: [{label: 特装限定版, catalog: BCXA-1441, media: CD}]
+  tracks:
+    - {title: "i-n-g, I TRY!!", singers: Aqours}
+    - i-n-g, I TRY!!（Off Vocal）
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68424/
+  note: "레이블 카탈로그(곡명·가창, 비매품 LACZ-10019). 「リアル脱出ゲーム×ラブライブ！サンシャイン!!」(2019-07-26～09-29) 참가자 배포(ja.wikipedia·Fandom). 3번 「シークレットボイス」(보이스 트랙)는 출연 미상"
+  title: 冒険Type A, B, C!!
+  date: 2019-07-26
+  type: single
+  editions: [{label: 非売品, catalog: LACZ-10019, media: CD}]
+  tracks:
+    - {title: "冒険Type A, B, C!!", singers: Aqours}
+    - 冒険Type A, B, C!!（Off Vocal）
+    - {title: シークレットボイス, drama: true}
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
+  status: established
+  note: "레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)"
+  title: シャゼリア☆キッス☆ダダンダーン
+  date: 2020-05-08
+  type: single
+  editions: [{label: 「シャゼリア☆キッス」奇跡の！？CDセット, catalog: LACZ-10030, media: CD}]
+  tracks:
+    - {title: シャゼリア☆キッス☆ダダンダーン, singers: シャゼリア☆キッス, credits: 作詞：畑 亜貴 作曲・編曲：河田貴央}
+    - シャゼリア☆キッス☆ダダンダーン（Off Vocal）
+
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/news.php?id=8377
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/69865/]
+  note: "공식 뉴스(스플릿 싱글 「not ALONE not HITORI」 세븐넷 한정판 특전 CD, 내용은 공통). 품번 LACZ-10083은 레이블 카탈로그. 출연은 공식 미게재"
+  title: Aqoursドラマ＆ラジオスペシャルCD
+  date: 2021-11-24
+  type: drama_cd
+  editions: [{label: セブンネット限定版特典, catalog: LACZ-10083, media: CD}]
+  tracks:
+    - {title: GO！キャンディウェーブ！, drama: true}
+    - {title: ラブライブ！シリーズのオールナイトニッポンGOLD出張版, drama: true}
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/73606/
+  note: "레이블 카탈로그(디지털 싱글 LZC-3057). Blu-ray BOX(2022) 특전 CD의 곡을 디지털로 처음 배포. Off Vocal은 이 디지털 싱글이 처음"
+  title: GEMSTONE "DE‐A‐I"
+  date: 2025-03-29
+  type: digital_single
+  editions: [{catalog: LZC-3057, media: 配信}]
+  tracks:
+    - {title: 'GEMSTONE "DE‐A‐I"', singers: Aqours}
+    - GEMSTONE "DE‐A‐I"（Off Vocal）
+
+# --- μ's ----------------------------------------------------------------------------------------------
+
+- project: muse
+  source: https://love-live.fandom.com/wiki/MUSEUM_de_Dou_Shitai%3F
+  sources: [https://web.archive.org/web/20150508162522/http://www.lovelive-anime.jp/sp_movie_ticket05.html]
+  status: established
+  note: "극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2126·크레딧은 공식 미게재: Fandom·ja.wikipedia"
+  title: "MUSEUMでどうしたい？"
+  date: 2015-05-23
+  type: single
+  editions: [{label: 特典付前売券第3弾, catalog: LZM-2126, media: CD}]
+  tracks:
+    - {title: "MUSEUMでどうしたい？", singers: "Printemps", credits: "作詞：畑 亜貴 作曲・編曲：増田武史"}
+    - "MUSEUMでどうしたい？（Off Vocal）"
+
+- project: muse
+  source: https://love-live.fandom.com/wiki/Saitei_de_Saikou_no_Paradiso
+  sources: [https://web.archive.org/web/20150508162522/http://www.lovelive-anime.jp/sp_movie_ticket05.html]
+  status: established
+  note: "극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2127·크레딧은 공식 미게재: Fandom·ja.wikipedia"
+  title: "最低で最高のParadiso"
+  date: 2015-05-23
+  type: single
+  editions: [{label: 特典付前売券第3弾, catalog: LZM-2127, media: CD}]
+  tracks:
+    - {title: "最低で最高のParadiso", singers: "BiBi", credits: "作詞：畑 亜貴 作曲・編曲：木村有希"}
+    - "最低で最高のParadiso（Off Vocal）"
+
+- project: muse
+  source: https://love-live.fandom.com/wiki/Otohime_Heart_de_Love_Kyuuden
+  sources: [https://web.archive.org/web/20150508162522/http://www.lovelive-anime.jp/sp_movie_ticket05.html]
+  status: established
+  note: "극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재: Fandom·ja.wikipedia"
+  title: "乙姫心で恋宮殿"
+  date: 2015-05-23
+  type: single
+  editions: [{label: 特典付前売券第3弾, catalog: LZM-2128, media: CD}]
+  tracks:
+    - {title: "乙姫心で恋宮殿", singers: "lily white", credits: "作詞：畑 亜貴 作曲・編曲：三浦誠司"}
+    - "乙姫心で恋宮殿（Off Vocal）"
+
+- project: muse
+  source: https://web.archive.org/web/20140209202922/http://www.lovelive-anime.jp/sp_4thlive.html
+  status: established
+  note: "μ's →NEXT LoveLive! 2014 「音ノ木坂学院体験入学セット付きプレミアムチケット」 특전 録りおろし新曲収録CD(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LAPP-1054·발송일·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric. 같은 특전의 スペシャルドラマCD는 날짜·품번을 몰라 넣지 않음"
+  title: ENDLESS PARADE
+  date: 2014-02-03
+  type: single
+  editions: [{label: 音ノ木坂学院体験入学セット付きプレミアムチケット特典, catalog: LAPP-1054, media: CD}]
+  tracks:
+    - {title: ENDLESS PARADE, singers: "μ's", credits: 作詞：畑 亜貴 作曲・編曲：矢吹香那}
+    - ENDLESS PARADE（Off Vocal）
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/sp_5thlive.html
+  status: established
+  note: "공식 공연 페이지(μ's Go→Go! LoveLive! 2015 プレミアムチケット: 「スペシャルCD付き（μ's 9人による録り下ろし新曲＆ドラマ収録）」). 트랙(곡+Off Vocal+드라마 3편)·품번 NEODAI-9646·발송일(Fandom 2015-01-15, ja.wikipedia는 1월 14일부터 순차 발송)·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric"
+  title: "Dreamin' Go! Go!!"
+  date: 2015-01-15
+  type: single
+  editions: [{label: プレミアムチケット特典スペシャルCD, catalog: NEODAI-9646, media: CD}]
+  tracks:
+    - {title: "Dreamin' Go! Go!!", singers: "μ's", credits: 作詞：畑 亜貴 作曲：TSUKASA 編曲：Kon-K}
+    - "Dreamin' Go! Go!!（Off Vocal）"
+    - {title: ワンデイ・ポリスストーリー, singers: "μ's", drama: true}
+    - {title: ネクスト・アイドル・ジェネレーション, singers: "μ's", drama: true}
+    - {title: ホーム・ラブリー・ホーム, singers: "μ's", drama: true}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/63074/
+  note: "레이블 카탈로그(곡명·가창: PS3 게임 『神様と運命革命のパラドクス』 캐릭터송을 μ's 멤버가 부름, 배역은 1. 早乙女リリエル(CV.矢澤にこ(徳井青空)), 竜崎クロウエル(CV.高坂穂乃果(新田恵海)), 白鳥ラナエル(CV.絢瀬絵里(南條愛乃)), 綾小路シェリエル(CV.東條 希(楠田亜衣奈)), 東條ネルエル(CV.小泉花陽(久保ユリカ)); 2. 早乙女リリエル(CV.矢澤にこ(徳井青空)); 3. 竜崎クロウエル(CV.高坂穂乃果(新田恵海)); 4. 白鳥ラナエル(CV.絢瀬絵里(南條愛乃)); 5. 綾小路シェリエル(CV.東條 希(楠田亜衣奈)); 6. 東條ネルエル(CV.小泉花陽(久保ユリカ)); 7. 恋塚フルーネティ(CV.西木野真姫(Pile)); 8. 神楽坂ミナモ(CV.星空 凛(飯田里穂)); 9. アサギ(CV.南ことり(内田 彩)); 10. ミザリィ(CV.園田海未(三森すずこ))). 가창자는 배역을 맡은 μ's 멤버로 둠"
+  credits_note: "공식 미게재: ja.wikipedia·Fandom(소속 표기는 레이블 카탈로그를 따름)"
+  title: "天使たちの福音 ～feat.μ's"
+  date: 2013-04-24
+  type: album
+  editions: [{catalog: LACA-15293, media: CD}]
+  tracks:
+    - {title: "革命ですね？神様！", singers: "矢澤にこ(CV.徳井青空)、高坂穂乃果(CV.新田恵海)、絢瀬絵里(CV.南條愛乃)、東條 希(CV.楠田亜衣奈)、小泉花陽(CV.久保ユリカ)", credits: "作詞：畑 亜貴 作曲：矢鴇つかさ（Arte Refact） 編曲：矢鴇つかさ（Arte Refact）"}
+    - {title: "羽は知ってしまったの?", singers: "矢澤にこ(CV.徳井青空)", credits: "作詞：畑 亜貴 作曲：原田篤（Arte Refact） 編曲：fandelmale（Arte Refact）"}
+    - {title: "閃光Resolution", singers: "高坂穂乃果(CV.新田恵海)", credits: "作詞：畑 亜貴 作曲：五条下位（Arte Refact） 編曲：五条下位（Arte Refact）"}
+    - {title: "斯くも憂美な日となりて", singers: "絢瀬絵里(CV.南條愛乃)", credits: "作詞：畑 亜貴 作曲：原田篤（Arte Refact） 編曲：fandelmale（Arte Refact）"}
+    - {title: "I'll smile for yours", singers: "東條 希(CV.楠田亜衣奈)", credits: "作詞：畑 亜貴 作曲：矢鴇つかさ（Arte Refact） 編曲：矢鴇つかさ（Arte Refact）"}
+    - {title: "コドクの回廊", singers: "小泉花陽(CV.久保ユリカ)", credits: "作詞：畑 亜貴 作曲：酒井拓也（Arte Refact） 編曲：酒井拓也（Arte Refact）"}
+    - {title: "秘密と花園", singers: "西木野真姫(CV.Pile)", credits: "作詞：畑 亜貴 作曲：原田篤（Arte Refact） 編曲：fandelmale（Arte Refact）"}
+    - {title: "ここで待ってるよ", singers: "星空 凛(CV.飯田里穂)", credits: "作詞：畑 亜貴 作曲：酒井拓也（Arte Refact） 編曲：酒井拓也（Arte Refact）"}
+    - {title: "夢☆ONCE AGAIN", singers: "南ことり(CV.内田 彩)", credits: "作詞：畑 亜貴 作曲：西添健（Arte Refact） 編曲：fandelmale（Arte Refact）"}
+    - {title: "NEURON,NEURON!!", singers: "園田海未(CV.三森すずこ)", credits: "作詞：畑 亜貴 作曲：矢鴇つかさ（Arte Refact） 編曲：矢鴇つかさ（Arte Refact）"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15407의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2057은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 東條 希 ノゾミ♪カナエテ"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2057, media: CD}, {label: 通常盤, catalog: LACA-15407, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "友情ノーチェンジ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "Snow halation (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "baby maybe 恋のボタン (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "知らないLove*教えてLove (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "あ・の・ね・が・ん・ば・れ！ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "夏色えがおで1,2,Jump! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "Mermaid festa vol.1 (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15408의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2058은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2058, media: CD}, {label: 通常盤, catalog: LACA-15408, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "友情ノーチェンジ (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "Snow halation (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "baby maybe 恋のボタン (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "ダイヤモンドプリンセスの憂鬱 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "ラブノベルス (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "夏色えがおで1,2,Jump! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "Mermaid festa vol.1 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15409의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2059은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 西木野真姫 TRUE DIVA"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2059, media: CD}, {label: 通常盤, catalog: LACA-15409, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "友情ノーチェンジ (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "Snow halation (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "baby maybe 恋のボタン (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "ダイヤモンドプリンセスの憂鬱 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "ラブノベルス (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "夏色えがおで1,2,Jump! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "Mermaid festa vol.1 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15410의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2060은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 絢瀬絵里 Beloved Ellie"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2060, media: CD}, {label: 通常盤, catalog: LACA-15410, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "友情ノーチェンジ (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "Snow halation (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "baby maybe 恋のボタン (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "ダイヤモンドプリンセスの憂鬱 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "ラブノベルス (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "夏色えがおで1,2,Jump! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "Mermaid festa vol.1 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15411의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2061은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 星空 凛 THE BRILLIANT STAR☆"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2061, media: CD}, {label: 通常盤, catalog: LACA-15411, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "友情ノーチェンジ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "Snow halation (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "baby maybe 恋のボタン (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "知らないLove*教えてLove (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "あ・の・ね・が・ん・ば・れ！ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "夏色えがおで1,2,Jump! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "Mermaid festa vol.1 (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
+  note: "레이블 카탈로그(2014-04-02 개별 재발매 LACA-15412의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2062은 Fandom. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！ Solo Live! Collection from μ's 小泉花陽 あなただけの太陽になりたい"
+  date: 2012-02-19
+  type: album
+  editions: [{label: Memorial BOX Ⅰ, catalog: LZM-2062, media: CD}, {label: 通常盤, catalog: LACA-15412, media: CD, date: 2014-04-02}]
+  tracks:
+    - {title: "僕らのLIVE 君とのLIFE (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "友情ノーチェンジ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "Snow halation (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "baby maybe 恋のボタン (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "Love marginal (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "sweet&sweet holiday (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "夏色えがおで1,2,Jump! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "Mermaid festa vol.1 (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67619/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 高坂穂乃果 Memories with Honoka"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9600～02, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "LOVELESS WORLD (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "タカラモノズ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Paradise Live (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "それは僕たちの奇跡 (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "だってだって噫無情 (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "どんなときもずっと (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "COLORFUL VOICE (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "ユメノトビラ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "SENTIMENTAL StepS (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Dancing stars on me! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "KiRa-KiRa Sensation! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Happy maker! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "るてしキスキしてる (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "ミはμ’sicのミ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Super LOVE=Super LIVE! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Angelic Angel (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "SUNNY DAY SONG (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "僕たちはひとつの光 (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "Future style (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - disc: 3
+      tracks:
+        - {title: "Pure girls project (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "UNBALANCED LOVE (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "永遠フレンズ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "小夜啼鳥恋詩 (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "WAO-WAO Powerful day! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "NO EXIT ORION (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "HEART to HEART! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "嵐のなかの恋だから (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "MOMENT RING (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+        - {title: "さようならへさよなら！ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67623/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 絢瀬絵里 Memories with Eli"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9603～05, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "LOVELESS WORLD (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "タカラモノズ (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Paradise Live (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "それは僕たちの奇跡 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "だってだって噫無情 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "どんなときもずっと (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "COLORFUL VOICE (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "ユメノトビラ (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "SENTIMENTAL StepS (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Love wing bell (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Dancing stars on me! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "KiRa-KiRa Sensation! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Happy maker! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "るてしキスキしてる (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "ミはμ’sicのミ (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Super LOVE=Super LIVE! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Angelic Angel (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "SUNNY DAY SONG (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "僕たちはひとつの光 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "？←HEARTBEAT (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - disc: 3
+      tracks:
+        - {title: "Cutie Panther (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "夏、終わらないで。 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "冬がくれた予感 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "Trouble Busters (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "錯覚CROSSROADS (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "PSYCHIC FIRE (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "HEART to HEART! (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "嵐のなかの恋だから (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "MOMENT RING (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+        - {title: "さようならへさよなら！ (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67626/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 南ことり Memories with Kotori"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9606～08, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "LOVELESS WORLD (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "タカラモノズ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Paradise Live (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "それは僕たちの奇跡 (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "だってだって噫無情 (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "どんなときもずっと (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "COLORFUL VOICE (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "ユメノトビラ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "SENTIMENTAL StepS (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Dancing stars on me! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "KiRa-KiRa Sensation! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Happy maker! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "るてしキスキしてる (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "ミはμ’sicのミ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Super LOVE=Super LIVE! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Angelic Angel (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "SUNNY DAY SONG (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "僕たちはひとつの光 (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "Future style (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - disc: 3
+      tracks:
+        - {title: "Pure girls project (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "UNBALANCED LOVE (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "永遠フレンズ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "小夜啼鳥恋詩 (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "WAO-WAO Powerful day! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "NO EXIT ORION (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "HEART to HEART! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "嵐のなかの恋だから (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "MOMENT RING (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+        - {title: "さようならへさよなら！ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67632/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 園田海未 Memories with Umi"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9609～11, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "LOVELESS WORLD (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "タカラモノズ (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Paradise Live (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "それは僕たちの奇跡 (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "だってだって噫無情 (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "どんなときもずっと (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "COLORFUL VOICE (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "ユメノトビラ (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "SENTIMENTAL StepS (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Dancing stars on me! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "KiRa-KiRa Sensation! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Happy maker! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "るてしキスキしてる (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "ミはμ’sicのミ (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Super LOVE=Super LIVE! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Angelic Angel (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "SUNNY DAY SONG (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "僕たちはひとつの光 (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "Future style (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - disc: 3
+      tracks:
+        - {title: "微熱からMystery (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "キミのくせに! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "秋のあなたの空遠く (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "ふたりハピネス (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "思い出以上になりたくて (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "春情ロマンティック (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "HEART to HEART! (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "嵐のなかの恋だから (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "MOMENT RING (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+        - {title: "さようならへさよなら！ (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67635/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 星空 凛 Memories with Rin"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9612～14, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "LOVELESS WORLD (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "タカラモノズ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Paradise Live (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "それは僕たちの奇跡 (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "だってだって噫無情 (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "どんなときもずっと (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "COLORFUL VOICE (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "ユメノトビラ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "SENTIMENTAL StepS (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Love wing bell (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Dancing stars on me! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "KiRa-KiRa Sensation! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Happy maker! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "るてしキスキしてる (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "ミはμ’sicのミ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Super LOVE=Super LIVE! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Angelic Angel (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "SUNNY DAY SONG (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "僕たちはひとつの光 (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "Hello,星を数えて (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - disc: 3
+      tracks:
+        - {title: "微熱からMystery (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "キミのくせに! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "秋のあなたの空遠く (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "ふたりハピネス (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "思い出以上になりたくて (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "春情ロマンティック (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "HEART to HEART! (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "嵐のなかの恋だから (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "MOMENT RING (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+        - {title: "さようならへさよなら！ (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67640/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 西木野真姫 Memories with Maki"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9615～17, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "LOVELESS WORLD (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "タカラモノズ (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Paradise Live (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "それは僕たちの奇跡 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "だってだって噫無情 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "どんなときもずっと (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "COLORFUL VOICE (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "ユメノトビラ (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "SENTIMENTAL StepS (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Love wing bell (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Dancing stars on me! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "KiRa-KiRa Sensation! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Happy maker! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "るてしキスキしてる (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "ミはμ’sicのミ (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Super LOVE=Super LIVE! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Angelic Angel (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "SUNNY DAY SONG (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "僕たちはひとつの光 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Hello,星を数えて (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - disc: 3
+      tracks:
+        - {title: "Cutie Panther (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "夏、終わらないで。 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "冬がくれた予感 (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "Trouble Busters (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "錯覚CROSSROADS (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "PSYCHIC FIRE (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "HEART to HEART! (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "嵐のなかの恋だから (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "MOMENT RING (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+        - {title: "さようならへさよなら！ (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67645/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 東條 希 Memories with Nozomi"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9618～20, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "LOVELESS WORLD (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "タカラモノズ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Paradise Live (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "それは僕たちの奇跡 (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "だってだって噫無情 (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "どんなときもずっと (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "COLORFUL VOICE (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "ユメノトビラ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "SENTIMENTAL StepS (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Love wing bell (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Dancing stars on me! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "KiRa-KiRa Sensation! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Happy maker! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "るてしキスキしてる (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "ミはμ’sicのミ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Super LOVE=Super LIVE! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "Angelic Angel (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "SUNNY DAY SONG (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "僕たちはひとつの光 (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "？←HEARTBEAT (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - disc: 3
+      tracks:
+        - {title: "微熱からMystery (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "キミのくせに! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "秋のあなたの空遠く (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "ふたりハピネス (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "思い出以上になりたくて (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "春情ロマンティック (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "HEART to HEART! (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "嵐のなかの恋だから (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "MOMENT RING (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+        - {title: "さようならへさよなら！ (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67650/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 小泉花陽 Memories with Hanayo"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9621～23, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "LOVELESS WORLD (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "タカラモノズ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Paradise Live (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "それは僕たちの奇跡 (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "だってだって噫無情 (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "どんなときもずっと (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "COLORFUL VOICE (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "ユメノトビラ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "SENTIMENTAL StepS (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Love wing bell (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Dancing stars on me! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "KiRa-KiRa Sensation! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Happy maker! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "るてしキスキしてる (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "ミはμ’sicのミ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Super LOVE=Super LIVE! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Angelic Angel (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "SUNNY DAY SONG (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "僕たちはひとつの光 (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "Hello,星を数えて (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - disc: 3
+      tracks:
+        - {title: "Pure girls project (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "UNBALANCED LOVE (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "永遠フレンズ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "小夜啼鳥恋詩 (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "WAO-WAO Powerful day! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "NO EXIT ORION (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "HEART to HEART! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "嵐のなかの恋だから (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "MOMENT RING (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+        - {title: "さようならへさよなら！ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+  sources: [https://catalog.bandainamcomusiclive.co.jp/release/67657/]
+  note: "공식 CD 페이지는 곡명만 실음. 디스크 구분과 곡명의 (… Mix) 표기는 레이블 카탈로그·Apple Music. 같은 날 나온 27장 박스 「Solo Live! collection Memorial BOX Ⅲ」(LACA-39600～26)는 이 9세트를 묶은 것이라 따로 넣지 않음. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ’s 矢澤にこ Memories with Nico"
+  date: 2018-03-28
+  type: album
+  editions: [{catalog: LACA-9624～26, media: 3CD}]
+  discs:
+    - disc: 1
+      tracks:
+        - {title: "Music S.T.A.R.T!! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "LOVELESS WORLD (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "タカラモノズ (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Paradise Live (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "それは僕たちの奇跡 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "だってだって噫無情 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "どんなときもずっと (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "COLORFUL VOICE (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "ユメノトビラ (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "SENTIMENTAL StepS (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Love wing bell (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Dancing stars on me! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "KiRa-KiRa Sensation! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Happy maker! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - disc: 2
+      tracks:
+        - {title: "Shangri-La Shower (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "るてしキスキしてる (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "ミはμ’sicのミ (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Super LOVE=Super LIVE! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Angelic Angel (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "SUNNY DAY SONG (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "僕たちはひとつの光 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "？←HEARTBEAT (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - disc: 3
+      tracks:
+        - {title: "Cutie Panther (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "夏、終わらないで。 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "冬がくれた予感 (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "Trouble Busters (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "錯覚CROSSROADS (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "PSYCHIC FIRE (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "HEART to HEART! (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "嵐のなかの恋だから (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "MOMENT RING (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+        - {title: "さようならへさよなら！ (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72703/
+  note: "레이블 카탈로그(디지털 LZC-1691, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 高坂穂乃果 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1691, media: 配信}]
+  tracks:
+    - {title: "LONELIEST BABY (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - {title: "ぷわぷわーお！ (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - {title: "そして最後のページには (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - {title: "CheerDay CheerGirl! (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+    - {title: "これから (HONOKA Mix)", singers: "高坂穂乃果(CV.新田恵海)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72705/
+  note: "레이블 카탈로그(디지털 LZC-1692, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 絢瀬絵里 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1692, media: 配信}]
+  tracks:
+    - {title: "硝子の花園 (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "LONELIEST BABY (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "Storm in Lover (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "そして最後のページには (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "Silent tonight (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+    - {title: "これから (ELI Mix)", singers: "絢瀬絵里(CV.南條愛乃)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
+  note: "레이블 카탈로그(디지털 LZC-1693, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 南ことり Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1693, media: 配信}]
+  tracks:
+    - {title: "Anemone heart (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "LONELIEST BABY (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "ぷわぷわーお！ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "好きですが好きですか？ (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "そして最後のページには (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "CheerDay CheerGirl! (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+    - {title: "これから (KOTORI Mix)", singers: "南ことり(CV.内田 彩)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72707/
+  note: "레이블 카탈로그(디지털 LZC-1694, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 園田海未 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1694, media: 配信}]
+  tracks:
+    - {title: "Anemone heart (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - {title: "LONELIEST BABY (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - {title: "Storm in Lover (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - {title: "そして最後のページには (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - {title: "同じ星が見たい (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+    - {title: "これから (UMI Mix)", singers: "園田海未(CV.三森すずこ)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+  note: "레이블 카탈로그(디지털 LZC-1695, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 星空 凛 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1695, media: 配信}]
+  tracks:
+    - {title: "Beat in Angel (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "LONELIEST BABY (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "そして最後のページには (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "同じ星が見たい (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+    - {title: "これから (RIN Mix)", singers: "星空 凛(CV.飯田里穂)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+  note: "레이블 카탈로그(디지털 LZC-1733, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 西木野真姫 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1733, media: 配信}]
+  tracks:
+    - {title: "Beat in Angel (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "LONELIEST BABY (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "ずるいよMagnetic today (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "そして最後のページには (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "Silent tonight (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+    - {title: "これから (MAKI Mix)", singers: "西木野真姫(CV.Pile)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72710/
+  note: "레이블 카탈로그(디지털 LZC-1734, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 東條 希 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1734, media: 配信}]
+  tracks:
+    - {title: "硝子の花園 (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "LONELIEST BABY (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "そして最後のページには (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "同じ星が見たい (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+    - {title: "これから (NOZOMI Mix)", singers: "東條 希(CV.楠田亜衣奈)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
+  note: "레이블 카탈로그(디지털 LZC-1735, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 小泉花陽 Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1735, media: 配信}]
+  tracks:
+    - {title: "LONELIEST BABY (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "ぷわぷわーお！ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "好きですが好きですか？ (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "そして最後のページには (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "CheerDay CheerGirl! (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+    - {title: "これから (HANAYO Mix)", singers: "小泉花陽(CV.久保ユリカ)"}
+
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
+  note: "레이블 카탈로그(디지털 LZC-1736, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름"
+  title: "ラブライブ！Solo Live! from μ's 矢澤にこ Extra"
+  date: 2020-09-09
+  type: album
+  editions: [{catalog: LZC-1736, media: 配信}]
+  tracks:
+    - {title: "LONELIEST BABY (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "ずるいよMagnetic today (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "そして最後のページには (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "Silent tonight (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+    - {title: "これから (NICO Mix)", singers: "矢澤にこ(CV.徳井青空)"}
+
+# --- live CDs (D54) -------------------------------------------------------------------------------
+
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+  status: official
+  sources:
+  - https://love-live.fandom.com/wiki/Aqours_Finale_LoveLive!_~Eikyuu_stage~_LIVE_CD
+  note: '레이블 카탈로그(85214): 제목·발매일·트랙(모든 곡에 「(… ～永久stage～ Ver.)」), 설명 「Day2のライブ音源に加え、日替わり楽曲」. 곡마다의 공연일은 공식 미게재: 양일 곡은 레이블 설명대로 Day.2, Day.1에만 부른 곡은 Fandom 세트리스트 대조로 Day.1. 품번 범위 ～1(2CD)은 Fandom'
+  title: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ LIVE CD
+  title_rom: Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ LIVE CD
+  title_ko: 러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ LIVE CD
+  date: 2026-03-11
+  type: live_album
+  artist: Aqours
+  editions:
+  - label: 通常盤
+    catalog: LACA-19170～1
+    media: 2CD
+  discs:
+  - tracks:
+    - title: DREAMY COLOR
+      work: aqours/dreamy-color
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: GEMSTONE "DE‐A‐I"
+      work: aqours/gemstone-de-a-i
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: Step! ZERO to ONE
+      work: aqours/step-zero-to-one
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: Aqours☆HEROES
+      work: aqours/aqours-heroes
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 届かない星だとしても
+      work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 恋になりたいAQUARIUM
+      work: aqours/koi-ni-naritai-aquarium
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: Deep Blue
+      work: aqours/deep-blue
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: Daydream Warrior
+      work: aqours/daydream-warrior
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: スリリング・ワンウェイ
+      work: aqours/thrilling-one-way
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 青空Jumping Heart
+      work: aqours/aozora-jumping-heart
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: 決めたよHand in Hand
+      work: aqours/kimetayo-hand-in-hand
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: ダイスキだったらダイジョウブ！
+      work: aqours/daisuki-dattara-daijoubu
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: 夢で夜空を照らしたい
+      work: aqours/yume-de-yozora-wo-terashitai
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: 未熟DREAMER
+      work: aqours/mijuku-dreamer
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: 想いよひとつになれ
+      work: aqours/omoi-yo-hitotsu-ni-nare
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: MIRAI TICKET
+      work: aqours/mirai-ticket
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+  - tracks:
+    - title: 未来の僕らは知ってるよ
+      work: aqours/mirai-no-bokura-wa-shitteru-yo
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: MY舞☆TONIGHT
+      work: aqours/my-mai-tonight
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: MIRACLE WAVE
+      work: aqours/miracle-wave
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 空も心も晴れるから
+      work: aqours/sora-mo-kokoro-mo-hareru-kara
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: WATER BLUE NEW WORLD
+      work: aqours/water-blue-new-world
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: WONDERFUL STORIES
+      work: aqours/wonderful-stories
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: キセキヒカル
+      work: aqours/kiseki-hikaru
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: HAPPY PARTY TRAIN
+      work: aqours/happy-party-train
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 僕らの海でまた会おう
+      work: aqours/bokura-no-umi-de-mata-aou
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 僕らの旅は終わらない
+      work: aqours/bokura-no-tabi-wa-owaranai
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 未体験HORIZON
+      work: aqours/mitaiken-horizon
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: Brightest Melody
+      work: aqours/brightest-melody
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: SAKURA-saku KOKORO-saku
+      work: aqours/sakura-saku-kokoro-saku
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 永久hours
+      work: aqours/eikyu-hours
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: 君のこころは輝いてるかい？
+      work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+    - title: ユメ語るよりユメ歌おう
+      work: aqours/yume-kataruyori-yume-utaou
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-21
+    - title: 勇気はどこに？君の胸に！
+      work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+      singers: Aqours
+      version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+      live:
+        concert: aqours/aqours-finale
+        date: 2025-06-22
+- project: aqours
+  source: https://ijigen-fes.jp/utagassen/cd.php
+  status: official
+  sources:
+  - https://catalog.bandainamcomusiclive.co.jp/release/71904/
+  note: '공식 사이트(ijigen-fes.jp): 제목·발매일·품번·가격. 트랙·가창은 레이블 카탈로그(71904, ★?는 ★♥, ?気乱舞는 BD 페이지의 俠気乱舞로). 가창은 러브라이브 측 캐릭터와 그룹만 적고 아이돌마스터 아이돌은 넣지 않음(D50의 범위). 디스크=공연일(Disc 1 Day.1, Disc 2 Day.2)은 Fandom, 異次元★♥BIGBANG 두 곡만 공식 표기'
+  title: 「異次元フェス アイドルマスター★♥ラブライブ！歌合戦」LIVE CD
+  title_rom: '"Ijigen Fes THE IDOLM@STER★♥Love Live! Uta Gassen" LIVE CD'
+  title_ko: 「이차원 페스 아이돌마스터★♥러브 라이브! 노래 대결」 LIVE CD
+  date: 2024-08-07
+  type: live_album
+  cross:
+  - aqours
+  - nijigasaki
+  - liella
+  - hasunosora
+  - musical
+  editions:
+  - label: 通常盤
+    catalog: LACA-19080～1
+    media: 2CD
+  discs:
+  - tracks:
+    - title: Let's Sail Away!!!
+      work: external/let-s-sail-away
+      singers: 渡辺 曜(CV.斉藤朱夏)、大沢瑠璃乃(CV.菅 叶和)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: WE WILL!!
+      work: liella/we-will
+      singers: 鐘 嵐珠(CV.法元明菜)、嵐 千砂都(CV.岬 なこ)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: ハクチューアラモード
+      work: hasunosora/hakuchuu-a-la-mode
+      singers: 大沢瑠璃乃(CV.菅 叶和)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: ラブ・ボナペティート
+      work: external/love-bon-appetit
+      singers: 国木田花丸(CV.高槻かなこ)、エマ・ヴェルデ(CV.指出毬亜)、鬼塚冬毬(CV.坂倉 花)、藤島 慈(CV.月音こな)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: Guilty Night, Guilty Kiss!
+      work: aqours/guilty-night-guilty-kiss
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: Tulip
+      work: external/tulip
+      singers: 桜内梨子(CV.逢田梨香子)、朝香果林(CV.久保田未夢)、若菜四季(CV.大熊和奏)、夕霧綴理(CV.佐々木琴子)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: Dye the sky.
+      work: external/dye-the-sky
+      singers: 黒澤ダイヤ(CV.小宮有紗)、桜坂しずく(CV.前田佳織里)、平安名すみれ(CV.ペイトン尚未)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: MIRACLE NEW STORY
+      work: liella/miracle-new-story
+      singers: 黒澤ルビィ(CV.降幡 愛)、中須かすみ(CV.相良茉優)、桜小路きな子(CV.鈴原希実)、乙宗 梢(CV.花宮初奈)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: SESSION!
+      work: external/session
+      singers: 高海千歌(CV.伊波杏樹)、宮下 愛(CV.村上奈津実)、澁谷かのん(CV.伊達さゆり)、日野下花帆(CV.楡井希実)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: アライブファクター
+      work: external/alive-factor
+      singers: 津島善子(CV.小林愛香)、ウィーン・マルガレーテ(CV.結那)、村野さやか(CV.野中ここな)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: 未体験HORIZON
+      work: aqours/mitaiken-horizon
+      singers: MILLIONSTARS・Aqours
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: 永遠のEuphoria
+      work: hasunosora/eien-no-euphoria
+      singers: CINDERELLA GIRLS・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: Colorful Dreams! Colorful Smiles!
+      work: nijigasaki/colorful-dreams-colorful-smiles
+      singers: シャイニーカラーズ・虹ヶ咲学園スクールアイドル同好会
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: GOIN'!!!
+      work: external/goin
+      singers: MILLIONSTARS・Liella!
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: READY!!
+      work: external/ready
+      singers: Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: 僕らは今のなかで
+      work: muse/bokura-wa-ima-no-naka-de
+      singers: CINDERELLA GIRLS・MILLIONSTARS・シャイニーカラーズ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+    - title: 異次元★♥BIGBANG
+      work: nijigasaki/ijigen-bigbang
+      singers: CINDERELLA GIRLS・MILLIONSTARS・シャイニーカラーズ・Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-09
+  - tracks:
+    - title: 虹色Passions！
+      work: nijigasaki/nijiiro-passions
+      singers: 天王寺璃奈(CV.田中ちえ美)、鬼塚夏美(CV.絵森 彩)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Mix shake!!
+      work: hasunosora/mix-shake
+      singers: 黒澤ルビィ(CV.降幡 愛)、日野下花帆(CV.楡井希実)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Happy Nyan! Days
+      work: nijigasaki/happy-nyan-days
+      singers: 上原歩夢(CV.大西亜玖璃)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: キャットスクワッド
+      work: external/cat-squad
+      singers: 桜内梨子(CV.逢田梨香子)、米女メイ(CV.薮島朱音)、夕霧綴理(CV.佐々木琴子)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: MY舞☆TONIGHT
+      work: aqours/my-mai-tonight
+      singers: 乙宗 梢(CV.花宮初奈)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: 俠気乱舞
+      work: external/kyouki-ranbu
+      singers: 黒澤ダイヤ(CV.小宮有紗)、ミア・テイラー(CV.内田 秀)、葉月 恋(CV.青山なぎさ)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Raise the FLAG
+      work: external/raise-the-flag
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: ガールズ・イン・ザ・フロンティア
+      work: external/girls-in-the-frontier
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: さよならアンドロメダ
+      work: external/sayonara-andromeda
+      singers: MILLIONSTARS・Aqours
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: 私のSymphony
+      work: liella/watashi-no-symphony
+      singers: CINDERELLA GIRLS・Liella!
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: フォーチュンムービー
+      work: hasunosora/fortune-movie
+      singers: 鬼塚夏美(CV.絵森 彩)、鬼塚冬毬(CV.坂倉 花)、日野下花帆(CV.楡井希実)、乙宗 梢(CV.花宮初奈)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Tracing Defender
+      work: external/tracing-defender
+      singers: 渡辺 曜(CV.斉藤朱夏)、優木せつ菜(CV.林 鼓子)、嵐 千砂都(CV.岬 なこ)、若菜四季(CV.大熊和奏)、村野さやか(CV.野中ここな)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: ハーモニクス
+      work: external/harmonics
+      singers: 黒澤ダイヤ(CV.小宮有紗)、澁谷かのん(CV.伊達さゆり)、藤島 慈(CV.月音こな)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: 繚乱！ビクトリーロード
+      work: nijigasaki/ryoran-victory-road
+      singers: 高海千歌(CV.伊波杏樹)、国木田花丸(CV.高槻かなこ)、近江彼方(CV.鬼頭明里)、三船栞子(CV.小泉萌香)、唐 可可(CV.Liyuu)、平安名すみれ(CV.ペイトン尚未)、夕霧綴理(CV.佐々木琴子)、大沢瑠璃乃(CV.菅 叶和)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: コットンキャンディえいえいおー！
+      work: aqours/cotton-candy-ei-ei-oh
+      singers: 黒澤ルビィ(CV.降幡 愛)
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Thank You!
+      work: external/thank-you
+      singers: シャイニーカラーズ・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: Snow halation
+      work: muse/snow-halation
+      singers: CINDERELLA GIRLS・MILLIONSTARS・シャイニーカラーズ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: M@STERPIECE
+      work: external/m-sterpiece
+      singers: Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+    - title: 異次元★♥BIGBANG
+      work: nijigasaki/ijigen-bigbang
+      singers: CINDERELLA GIRLS・MILLIONSTARS・シャイニーカラーズ・Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!・蓮ノ空女学院スクールアイドルクラブ
+      version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.2
+      live:
+        concert: aqours/ijigen-fes-2023
+        date: 2023-12-10
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5813
+  status: official
+  sources:
+  - https://catalog.bandainamcomusiclive.co.jp/release/86470/
+  note: 'Blu-ray BOX(LABX-38970～2) 동봉 카세트테이프. 공식 사양란은 「A面：1期生Ver. / B面：2・3期生Ver.」만 인쇄. 면마다의 공연·가창은 같은 BOX의 BD 수록 내용으로 추정(A: First Generation 東京 Day.2 앙코르, B: Connect the Stars M4의 5명)'
+  title: 「Shooting Voice!!」ライブVer.カセットテープ
+  title_rom: '"Shooting Voice!!" Live Ver. Cassette Tape'
+  title_ko: 「Shooting Voice!!」 라이브 Ver. 카세트테이프
+  date: 2026-06-24
+  type: bd_bonus
+  legacy: false
+  editions:
+  - label: Blu-ray BOX同梱
+    catalog: LABX-38970～2
+    media: カセットテープ
+  tracks:
+  - title: Shooting Voice!!
+    singers: 澁谷かのん(CV.伊達さゆり)、唐 可可(CV.Liyuu)、嵐 千砂都(CV.岬 なこ)、平安名すみれ(CV.ペイトン尚未)、葉月 恋(CV.青山なぎさ)
+    version: 1期生Ver.
+    live:
+      concert: liella/liella-1st-gen
+      date: 2025-08-10
+  - title: Shooting Voice!!
+    singers: 桜小路きな子(CV.鈴原希実)、米女メイ(CV.薮島朱音)、若菜四季(CV.大熊和奏)、鬼塚夏美(CV.絵森 彩)、ウィーン・マルガレーテ(CV.結那)
+    version: 2・3期生Ver.
+    live:
+      concert: liella/liella-connect-the-stars
+      date: 2025-08-11
+
+# --- box sets and CDs with no track list published (D54) --------------------------------------------
+
+- project: muse
+  source: https://love-live.fandom.com/wiki/Solo_Live!_collection
+  status: established
+  note: Not in the label catalog (pre-2014 LZM mail-order numbers). Disc order by catalog number (Fandom). Discs = the six existing 2012 collection albums (edition e1 "Memorial BOX Ⅰ" of each DB entry), no new disc. 
+    Exact printed box title not re-verified (Wayback offline during research); title as recorded in the existing DB note.
+  title: ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection
+  title_rom: Love Live! μ’s Memorial BOX I Solo Live! collection
+  title_ko: 러브 라이브! μ’s Memorial BOX Ⅰ Solo Live! collection
+  date: 2012-02-19
+  type: box_set
+  editions:
+  - label: Memorial BOX Ⅰ
+    catalog: LZM-2057～62
+    media: 6CD
+  legacy: false
+  discs:
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (NOZOMI Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#nozomi-mix
+    - title: 友情ノーチェンジ (NOZOMI Mix)
+      recording: muse/yuujou-no-change#nozomi-mix
+    - title: Snow halation (NOZOMI Mix)
+      recording: muse/snow-halation#nozomi-mix
+    - title: baby maybe 恋のボタン (NOZOMI Mix)
+      recording: muse/baby-maybe-koi-no-button#nozomi-mix
+    - title: 知らないLove＊教えてLove (NOZOMI Mix)
+      recording: muse/shiranai-love-oshiete-love#nozomi-mix
+    - title: あ・の・ね・が・ん・ば・れ！ (NOZOMI Mix)
+      recording: muse/a-no-ne-ga-n-ba-re#nozomi-mix
+    - title: 夏色えがおで1,2,Jump! (NOZOMI Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#nozomi-mix
+    - title: Mermaid festa vol.1 (NOZOMI Mix)
+      recording: muse/mermaid-festa-vol-1#nozomi-mix
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (NICO Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#nico-mix
+    - title: 友情ノーチェンジ (NICO Mix)
+      recording: muse/yuujou-no-change#nico-mix
+    - title: Snow halation (NICO Mix)
+      recording: muse/snow-halation#nico-mix
+    - title: baby maybe 恋のボタン (NICO Mix)
+      recording: muse/baby-maybe-koi-no-button#nico-mix
+    - title: ダイヤモンドプリンセスの憂鬱 (NICO Mix)
+      recording: muse/diamond-princess-no-yuuutsu#nico-mix
+    - title: ラブノベルス (NICO Mix)
+      recording: muse/love-novels#nico-mix
+    - title: 夏色えがおで1,2,Jump! (NICO Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#nico-mix
+    - title: Mermaid festa vol.1 (NICO Mix)
+      recording: muse/mermaid-festa-vol-1#nico-mix
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (MAKI Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#maki-mix
+    - title: 友情ノーチェンジ (MAKI Mix)
+      recording: muse/yuujou-no-change#maki-mix
+    - title: Snow halation (MAKI Mix)
+      recording: muse/snow-halation#maki-mix
+    - title: baby maybe 恋のボタン (MAKI Mix)
+      recording: muse/baby-maybe-koi-no-button#maki-mix
+    - title: ダイヤモンドプリンセスの憂鬱 (MAKI Mix)
+      recording: muse/diamond-princess-no-yuuutsu#maki-mix
+    - title: ラブノベルス (MAKI Mix)
+      recording: muse/love-novels#maki-mix
+    - title: 夏色えがおで1,2,Jump! (MAKI Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#maki-mix
+    - title: Mermaid festa vol.1 (MAKI Mix)
+      recording: muse/mermaid-festa-vol-1#maki-mix
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (ELI Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#eli-mix
+    - title: 友情ノーチェンジ (ELI Mix)
+      recording: muse/yuujou-no-change#eli-mix
+    - title: Snow halation (ELI Mix)
+      recording: muse/snow-halation#eli-mix
+    - title: baby maybe 恋のボタン (ELI Mix)
+      recording: muse/baby-maybe-koi-no-button#eli-mix
+    - title: ダイヤモンドプリンセスの憂鬱 (ELI Mix)
+      recording: muse/diamond-princess-no-yuuutsu#eli-mix
+    - title: ラブノベルス (ELI Mix)
+      recording: muse/love-novels#eli-mix
+    - title: 夏色えがおで1,2,Jump! (ELI Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#eli-mix
+    - title: Mermaid festa vol.1 (ELI Mix)
+      recording: muse/mermaid-festa-vol-1#eli-mix
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (RIN Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#rin-mix
+    - title: 友情ノーチェンジ (RIN Mix)
+      recording: muse/yuujou-no-change#rin-mix
+    - title: Snow halation (RIN Mix)
+      recording: muse/snow-halation#rin-mix
+    - title: baby maybe 恋のボタン (RIN Mix)
+      recording: muse/baby-maybe-koi-no-button#rin-mix
+    - title: 知らないLove＊教えてLove (RIN Mix)
+      recording: muse/shiranai-love-oshiete-love#rin-mix
+    - title: あ・の・ね・が・ん・ば・れ！ (RIN Mix)
+      recording: muse/a-no-ne-ga-n-ba-re#rin-mix
+    - title: 夏色えがおで1,2,Jump! (RIN Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#rin-mix
+    - title: Mermaid festa vol.1 (RIN Mix)
+      recording: muse/mermaid-festa-vol-1#rin-mix
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE (HANAYO Mix)
+      recording: muse/bokura-no-live-kimi-to-no-life#hanayo-mix
+    - title: 友情ノーチェンジ (HANAYO Mix)
+      recording: muse/yuujou-no-change#hanayo-mix
+    - title: Snow halation (HANAYO Mix)
+      recording: muse/snow-halation#hanayo-mix
+    - title: baby maybe 恋のボタン (HANAYO Mix)
+      recording: muse/baby-maybe-koi-no-button#hanayo-mix
+    - title: Love marginal (HANAYO Mix)
+      recording: muse/love-marginal#hanayo-mix
+    - title: sweet＆sweet holiday (HANAYO Mix)
+      recording: muse/sweet-sweet-holiday#hanayo-mix
+    - title: 夏色えがおで1,2,Jump! (HANAYO Mix)
+      recording: muse/natsuiro-egao-de-1-2-jump#hanayo-mix
+    - title: Mermaid festa vol.1 (HANAYO Mix)
+      recording: muse/mermaid-festa-vol-1#hanayo-mix
+  credits_note: 박스에 묶인 앨범의 음원 그대로(각 앨범의 근거)
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/63234/
+  status: official
+  sources:
+  - https://catalog.bandainamcomusiclive.co.jp/release/63234/
+  note: 'Two printed titles: official site 「ラブライブ！ Solo Live! collection Memorial BOX Ⅱ」, label catalog 「ラブライブ！Memorial BOXⅡ Solo Live! collection」. Per-disc track counts in the label catalog (14,12,14,14,15,13,12,15,15) match
+    the nine 2014 individual albums already in the DB; no new disc. Track lists not repeated here.'
+  title: ラブライブ！ Solo Live! collection Memorial BOX Ⅱ
+  title_rom: Love Live! Solo Live! collection Memorial BOX II
+  title_ko: 러브 라이브! Solo Live! collection Memorial BOX Ⅱ
+  date: 2014-04-02
+  type: box_set
+  editions:
+  - label: 完全限定
+    catalog: LACA-39331～39339
+    media: 9CD
+  legacy: false
+  discs:
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (HONOKA Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#honoka-mix
+    - title: 愛してるばんざーい！ (HONOKA Mix)
+      recording: muse/aishiteru-banzai#honoka-mix
+    - title: Mermaid festa vol.2 ～Passionate～ (HONOKA Mix)
+      recording: muse/mermaid-festa-vol-2-passionate#honoka-mix
+    - title: Wonderful Rush (HONOKA Mix)
+      recording: muse/wonderful-rush#honoka-mix
+    - title: Oh,Love＆Peace! (HONOKA Mix)
+      recording: muse/oh-love-peace#honoka-mix
+    - title: 僕らは今のなかで (HONOKA Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#honoka-mix
+    - title: WILD STARS (HONOKA Mix)
+      recording: muse/wild-stars#honoka-mix
+    - title: きっと青春が聞こえる (HONOKA Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#honoka-mix
+    - title: 輝夜の城で踊りたい (HONOKA Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#honoka-mix
+    - title: ススメ→トゥモロウ (HONOKA Mix)
+      recording: muse/susume-tomorrow#honoka-mix
+    - title: これからのSomeday (HONOKA Mix)
+      recording: muse/korekara-no-someday#honoka-mix
+    - title: Wonder zone (HONOKA Mix)
+      recording: muse/wonder-zone#honoka-mix
+    - title: No brand girls (HONOKA Mix)
+      recording: muse/no-brand-girls#honoka-mix
+    - title: START:DASH!! (HONOKA Mix)
+      recording: muse/start-dash#honoka-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (ELI Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#eli-mix
+    - title: 愛してるばんざーい！ (ELI Mix)
+      recording: muse/aishiteru-banzai#eli-mix
+    - title: soldier game (ELI Mix)
+      recording: muse/soldier-game#eli-mix
+    - title: Wonderful Rush (ELI Mix)
+      recording: muse/wonderful-rush#eli-mix
+    - title: Oh,Love＆Peace! (ELI Mix)
+      recording: muse/oh-love-peace#eli-mix
+    - title: 僕らは今のなかで (ELI Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#eli-mix
+    - title: WILD STARS (ELI Mix)
+      recording: muse/wild-stars#eli-mix
+    - title: きっと青春が聞こえる (ELI Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#eli-mix
+    - title: 輝夜の城で踊りたい (ELI Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#eli-mix
+    - title: Wonder zone (ELI Mix)
+      recording: muse/wonder-zone#eli-mix
+    - title: No brand girls (ELI Mix)
+      recording: muse/no-brand-girls#eli-mix
+    - title: START:DASH!! (ELI Mix)
+      recording: muse/start-dash#eli-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (KOTORI Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#kotori-mix
+    - title: 愛してるばんざーい！ (KOTORI Mix)
+      recording: muse/aishiteru-banzai#kotori-mix
+    - title: 告白日和、です！ (KOTORI Mix)
+      recording: muse/kokuhaku-biyori-desu#kotori-mix
+    - title: Wonderful Rush (KOTORI Mix)
+      recording: muse/wonderful-rush#kotori-mix
+    - title: Oh,Love＆Peace! (KOTORI Mix)
+      recording: muse/oh-love-peace#kotori-mix
+    - title: 僕らは今のなかで (KOTORI Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#kotori-mix
+    - title: WILD STARS (KOTORI Mix)
+      recording: muse/wild-stars#kotori-mix
+    - title: きっと青春が聞こえる (KOTORI Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#kotori-mix
+    - title: 輝夜の城で踊りたい (KOTORI Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#kotori-mix
+    - title: ススメ→トゥモロウ (KOTORI Mix)
+      recording: muse/susume-tomorrow#kotori-mix
+    - title: これからのSomeday (KOTORI Mix)
+      recording: muse/korekara-no-someday#kotori-mix
+    - title: Wonder zone (KOTORI Mix)
+      recording: muse/wonder-zone#kotori-mix
+    - title: No brand girls (KOTORI Mix)
+      recording: muse/no-brand-girls#kotori-mix
+    - title: START:DASH!! (KOTORI Mix)
+      recording: muse/start-dash#kotori-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (UMI Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#umi-mix
+    - title: 愛してるばんざーい！ (UMI Mix)
+      recording: muse/aishiteru-banzai#umi-mix
+    - title: soldier game (UMI Mix)
+      recording: muse/soldier-game#umi-mix
+    - title: Wonderful Rush (UMI Mix)
+      recording: muse/wonderful-rush#umi-mix
+    - title: Oh,Love＆Peace! (UMI Mix)
+      recording: muse/oh-love-peace#umi-mix
+    - title: 僕らは今のなかで (UMI Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#umi-mix
+    - title: WILD STARS (UMI Mix)
+      recording: muse/wild-stars#umi-mix
+    - title: きっと青春が聞こえる (UMI Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#umi-mix
+    - title: 輝夜の城で踊りたい (UMI Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#umi-mix
+    - title: ススメ→トゥモロウ (UMI Mix)
+      recording: muse/susume-tomorrow#umi-mix
+    - title: これからのSomeday (UMI Mix)
+      recording: muse/korekara-no-someday#umi-mix
+    - title: Wonder zone (UMI Mix)
+      recording: muse/wonder-zone#umi-mix
+    - title: No brand girls (UMI Mix)
+      recording: muse/no-brand-girls#umi-mix
+    - title: START:DASH!! (UMI Mix)
+      recording: muse/start-dash#umi-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (RIN Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#rin-mix
+    - title: 愛してるばんざーい！ (RIN Mix)
+      recording: muse/aishiteru-banzai#rin-mix
+    - title: Mermaid festa vol.2 ～Passionate～ (RIN Mix)
+      recording: muse/mermaid-festa-vol-2-passionate#rin-mix
+    - title: Wonderful Rush (RIN Mix)
+      recording: muse/wonderful-rush#rin-mix
+    - title: Oh,Love＆Peace! (RIN Mix)
+      recording: muse/oh-love-peace#rin-mix
+    - title: Listen to my heart!! (RIN Mix)
+      recording: muse/listen-to-my-heart#rin-mix
+    - title: after school NAVIGATORS (RIN Mix)
+      recording: muse/after-school-navigators#rin-mix
+    - title: 僕らは今のなかで (RIN Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#rin-mix
+    - title: WILD STARS (RIN Mix)
+      recording: muse/wild-stars#rin-mix
+    - title: きっと青春が聞こえる (RIN Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#rin-mix
+    - title: 輝夜の城で踊りたい (RIN Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#rin-mix
+    - title: これからのSomeday (RIN Mix)
+      recording: muse/korekara-no-someday#rin-mix
+    - title: Wonder zone (RIN Mix)
+      recording: muse/wonder-zone#rin-mix
+    - title: No brand girls (RIN Mix)
+      recording: muse/no-brand-girls#rin-mix
+    - title: START:DASH!! (RIN Mix)
+      recording: muse/start-dash#rin-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (MAKI Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#maki-mix
+    - title: 愛してるばんざーい！ (MAKI Mix)
+      recording: muse/aishiteru-banzai#maki-mix
+    - title: soldier game (MAKI Mix)
+      recording: muse/soldier-game#maki-mix
+    - title: Wonderful Rush (MAKI Mix)
+      recording: muse/wonderful-rush#maki-mix
+    - title: Oh,Love＆Peace! (MAKI Mix)
+      recording: muse/oh-love-peace#maki-mix
+    - title: 僕らは今のなかで (MAKI Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#maki-mix
+    - title: WILD STARS (MAKI Mix)
+      recording: muse/wild-stars#maki-mix
+    - title: きっと青春が聞こえる (MAKI Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#maki-mix
+    - title: 輝夜の城で踊りたい (MAKI Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#maki-mix
+    - title: これからのSomeday (MAKI Mix)
+      recording: muse/korekara-no-someday#maki-mix
+    - title: Wonder zone (MAKI Mix)
+      recording: muse/wonder-zone#maki-mix
+    - title: No brand girls (MAKI Mix)
+      recording: muse/no-brand-girls#maki-mix
+    - title: START:DASH!! (MAKI Mix)
+      recording: muse/start-dash#maki-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (NOZOMI Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#nozomi-mix
+    - title: 愛してるばんざーい！ (NOZOMI Mix)
+      recording: muse/aishiteru-banzai#nozomi-mix
+    - title: 乙女式れんあい塾 (NOZOMI Mix)
+      recording: muse/otome-shiki-ren-ai-juku#nozomi-mix
+    - title: Wonderful Rush (NOZOMI Mix)
+      recording: muse/wonderful-rush#nozomi-mix
+    - title: Oh,Love＆Peace! (NOZOMI Mix)
+      recording: muse/oh-love-peace#nozomi-mix
+    - title: 僕らは今のなかで (NOZOMI Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#nozomi-mix
+    - title: WILD STARS (NOZOMI Mix)
+      recording: muse/wild-stars#nozomi-mix
+    - title: きっと青春が聞こえる (NOZOMI Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#nozomi-mix
+    - title: 輝夜の城で踊りたい (NOZOMI Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#nozomi-mix
+    - title: Wonder zone (NOZOMI Mix)
+      recording: muse/wonder-zone#nozomi-mix
+    - title: No brand girls (NOZOMI Mix)
+      recording: muse/no-brand-girls#nozomi-mix
+    - title: START:DASH!! (NOZOMI Mix)
+      recording: muse/start-dash#nozomi-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (HANAYO Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#hanayo-mix
+    - title: 愛してるばんざーい！ (HANAYO Mix)
+      recording: muse/aishiteru-banzai#hanayo-mix
+    - title: 告白日和、です！ (HANAYO Mix)
+      recording: muse/kokuhaku-biyori-desu#hanayo-mix
+    - title: Wonderful Rush (HANAYO Mix)
+      recording: muse/wonderful-rush#hanayo-mix
+    - title: Oh,Love＆Peace! (HANAYO Mix)
+      recording: muse/oh-love-peace#hanayo-mix
+    - title: Listen to my heart!! (HANAYO Mix)
+      recording: muse/listen-to-my-heart#hanayo-mix
+    - title: after school NAVIGATORS (HANAYO Mix)
+      recording: muse/after-school-navigators#hanayo-mix
+    - title: 僕らは今のなかで (HANAYO Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#hanayo-mix
+    - title: WILD STARS (HANAYO Mix)
+      recording: muse/wild-stars#hanayo-mix
+    - title: きっと青春が聞こえる (HANAYO Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#hanayo-mix
+    - title: 輝夜の城で踊りたい (HANAYO Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#hanayo-mix
+    - title: これからのSomeday (HANAYO Mix)
+      recording: muse/korekara-no-someday#hanayo-mix
+    - title: Wonder zone (HANAYO Mix)
+      recording: muse/wonder-zone#hanayo-mix
+    - title: No brand girls (HANAYO Mix)
+      recording: muse/no-brand-girls#hanayo-mix
+    - title: START:DASH!! (HANAYO Mix)
+      recording: muse/start-dash#hanayo-mix
+  - tracks:
+    - title: もぎゅっと“love”で接近中！ (NICO Mix)
+      recording: muse/mogyutto-love-de-sekkin-chuu#nico-mix
+    - title: 愛してるばんざーい！ (NICO Mix)
+      recording: muse/aishiteru-banzai#nico-mix
+    - title: 乙女式れんあい塾 (NICO Mix)
+      recording: muse/otome-shiki-ren-ai-juku#nico-mix
+    - title: Wonderful Rush (NICO Mix)
+      recording: muse/wonderful-rush#nico-mix
+    - title: Oh,Love＆Peace! (NICO Mix)
+      recording: muse/oh-love-peace#nico-mix
+    - title: Listen to my heart!! (NICO Mix)
+      recording: muse/listen-to-my-heart#nico-mix
+    - title: after school NAVIGATORS (NICO Mix)
+      recording: muse/after-school-navigators#nico-mix
+    - title: 僕らは今のなかで (NICO Mix)
+      recording: muse/bokura-wa-ima-no-naka-de#nico-mix
+    - title: WILD STARS (NICO Mix)
+      recording: muse/wild-stars#nico-mix
+    - title: きっと青春が聞こえる (NICO Mix)
+      recording: muse/kitto-seishun-ga-kikoeru#nico-mix
+    - title: 輝夜の城で踊りたい (NICO Mix)
+      recording: muse/kaguya-no-shiro-de-odoritai#nico-mix
+    - title: これからのSomeday (NICO Mix)
+      recording: muse/korekara-no-someday#nico-mix
+    - title: Wonder zone (NICO Mix)
+      recording: muse/wonder-zone#nico-mix
+    - title: No brand girls (NICO Mix)
+      recording: muse/no-brand-girls#nico-mix
+    - title: START:DASH!! (NICO Mix)
+      recording: muse/start-dash#nico-mix
+  credits_note: 박스에 묶인 앨범의 음원 그대로(각 앨범의 근거)
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/67757/
+  status: official
+  sources:
+  - https://catalog.bandainamcomusiclive.co.jp/release/67757/
+  note: 'Label catalog disc order: Honoka (1-3), Eli (4-6), Kotori (7-9), Umi (10-12), Rin (13-15), Maki (16-18), Nozomi (19-21), Hanayo (22-24), Nico (25-27); per-disc track counts match the nine existing 3CD sets (e.g. Honoka
+    13/8/10, Eli 14/8/10). No new disc. The individual sets are titled 「ラブライブ！Solo Live! from μ’s <name> Memories with X」 on the official site but 「ラブライブ！Solo Live! collection Memories with X」 in the label catalog.'
+  title: ラブライブ！Solo Live! collection Memorial BOX Ⅲ
+  title_rom: Love Live! Solo Live! collection Memorial BOX III
+  title_ko: 러브 라이브! Solo Live! collection Memorial BOX Ⅲ
+  date: 2018-03-28
+  type: box_set
+  editions:
+  - catalog: LACA-39600～26
+    media: 27CD
+  legacy: false
+  discs:
+  - tracks:
+    - title: Music S.T.A.R.T!! (HONOKA Mix)
+      recording: muse/music-s-t-a-r-t#honoka-mix
+    - title: LOVELESS WORLD (HONOKA Mix)
+      recording: muse/loveless-world#honoka-mix
+    - title: タカラモノズ (HONOKA Mix)
+      recording: muse/takaramonozu#honoka-mix
+    - title: Paradise Live (HONOKA Mix)
+      recording: muse/paradise-live#honoka-mix
+    - title: それは僕たちの奇跡 (HONOKA Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#honoka-mix
+    - title: だってだって噫無情 (HONOKA Mix)
+      recording: muse/datte-datte-aa-mujou#honoka-mix
+    - title: どんなときもずっと (HONOKA Mix)
+      recording: muse/donna-toki-mo-zutto#honoka-mix
+    - title: COLORFUL VOICE (HONOKA Mix)
+      recording: muse/colorful-voice#honoka-mix
+    - title: ユメノトビラ (HONOKA Mix)
+      recording: muse/yume-no-tobira#honoka-mix
+    - title: SENTIMENTAL StepS (HONOKA Mix)
+      recording: muse/sentimental-steps#honoka-mix
+    - title: Dancing stars on me! (HONOKA Mix)
+      recording: muse/dancing-stars-on-me#honoka-mix
+    - title: KiRa-KiRa Sensation! (HONOKA Mix)
+      recording: muse/kira-kira-sensation#honoka-mix
+    - title: Happy maker! (HONOKA Mix)
+      recording: muse/happy-maker#honoka-mix
+    - title: Shangri-La Shower (HONOKA Mix)
+      recording: muse/shangri-la-shower#honoka-mix
+    - title: るてしキスキしてる (HONOKA Mix)
+      recording: muse/ruteshi-kisuki-shiteru#honoka-mix
+    - title: ミはμ'sicのミ (HONOKA Mix)
+      recording: muse/mi-wa-sic-no-mi#honoka-mix
+    - title: Super LOVE=Super LIVE! (HONOKA Mix)
+      recording: muse/super-love-super-live#honoka-mix
+    - title: Angelic Angel (HONOKA Mix)
+      recording: muse/angelic-angel#honoka-mix
+    - title: SUNNY DAY SONG (HONOKA Mix)
+      recording: muse/sunny-day-song#honoka-mix
+    - title: 僕たちはひとつの光 (HONOKA Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#honoka-mix
+    - title: Future style (HONOKA Mix)
+      recording: muse/future-style#honoka-mix
+    - title: Pure girls project (HONOKA Mix)
+      recording: muse/pure-girls-project#honoka-mix
+    - title: UNBALANCED LOVE (HONOKA Mix)
+      recording: muse/unbalanced-love#honoka-mix
+    - title: 永遠フレンズ (HONOKA Mix)
+      recording: muse/eien-friends#honoka-mix
+    - title: 小夜啼鳥恋詩 (HONOKA Mix)
+      recording: muse/nightingale-love-song#honoka-mix
+    - title: WAO-WAO Powerful day! (HONOKA Mix)
+      recording: muse/wao-wao-powerful-day#honoka-mix
+    - title: NO EXIT ORION (HONOKA Mix)
+      recording: muse/no-exit-orion#honoka-mix
+    - title: HEART to HEART! (HONOKA Mix)
+      recording: muse/heart-to-heart#honoka-mix
+    - title: 嵐のなかの恋だから (HONOKA Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#honoka-mix
+    - title: MOMENT RING (HONOKA Mix)
+      recording: muse/moment-ring#honoka-mix
+    - title: さようならへさよなら！ (HONOKA Mix)
+      recording: muse/sayounara-e-sayonara#honoka-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (ELI Mix)
+      recording: muse/music-s-t-a-r-t#eli-mix
+    - title: LOVELESS WORLD (ELI Mix)
+      recording: muse/loveless-world#eli-mix
+    - title: タカラモノズ (ELI Mix)
+      recording: muse/takaramonozu#eli-mix
+    - title: Paradise Live (ELI Mix)
+      recording: muse/paradise-live#eli-mix
+    - title: それは僕たちの奇跡 (ELI Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#eli-mix
+    - title: だってだって噫無情 (ELI Mix)
+      recording: muse/datte-datte-aa-mujou#eli-mix
+    - title: どんなときもずっと (ELI Mix)
+      recording: muse/donna-toki-mo-zutto#eli-mix
+    - title: COLORFUL VOICE (ELI Mix)
+      recording: muse/colorful-voice#eli-mix
+    - title: ユメノトビラ (ELI Mix)
+      recording: muse/yume-no-tobira#eli-mix
+    - title: SENTIMENTAL StepS (ELI Mix)
+      recording: muse/sentimental-steps#eli-mix
+    - title: Love wing bell (ELI Mix)
+      recording: muse/love-wing-bell#eli-mix
+    - title: Dancing stars on me! (ELI Mix)
+      recording: muse/dancing-stars-on-me#eli-mix
+    - title: KiRa-KiRa Sensation! (ELI Mix)
+      recording: muse/kira-kira-sensation#eli-mix
+    - title: Happy maker! (ELI Mix)
+      recording: muse/happy-maker#eli-mix
+    - title: Shangri-La Shower (ELI Mix)
+      recording: muse/shangri-la-shower#eli-mix
+    - title: るてしキスキしてる (ELI Mix)
+      recording: muse/ruteshi-kisuki-shiteru#eli-mix
+    - title: ミはμ'sicのミ (ELI Mix)
+      recording: muse/mi-wa-sic-no-mi#eli-mix
+    - title: Super LOVE=Super LIVE! (ELI Mix)
+      recording: muse/super-love-super-live#eli-mix
+    - title: Angelic Angel (ELI Mix)
+      recording: muse/angelic-angel#eli-mix
+    - title: SUNNY DAY SONG (ELI Mix)
+      recording: muse/sunny-day-song#eli-mix
+    - title: 僕たちはひとつの光 (ELI Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#eli-mix
+    - title: ？←HEARTBEAT (ELI Mix)
+      recording: muse/heartbeat#eli-mix
+    - title: Cutie Panther (ELI Mix)
+      recording: muse/cutie-panther#eli-mix
+    - title: 夏、終わらないで。 (ELI Mix)
+      recording: muse/natsu-owaranai-de#eli-mix
+    - title: 冬がくれた予感 (ELI Mix)
+      recording: muse/fuyu-ga-kureta-yokan#eli-mix
+    - title: Trouble Busters (ELI Mix)
+      recording: muse/trouble-busters#eli-mix
+    - title: 錯覚CROSSROADS (ELI Mix)
+      recording: muse/sakkaku-crossroads#eli-mix
+    - title: PSYCHIC FIRE (ELI Mix)
+      recording: muse/psychic-fire#eli-mix
+    - title: HEART to HEART! (ELI Mix)
+      recording: muse/heart-to-heart#eli-mix
+    - title: 嵐のなかの恋だから (ELI Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#eli-mix
+    - title: MOMENT RING (ELI Mix)
+      recording: muse/moment-ring#eli-mix
+    - title: さようならへさよなら！ (ELI Mix)
+      recording: muse/sayounara-e-sayonara#eli-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (KOTORI Mix)
+      recording: muse/music-s-t-a-r-t#kotori-mix
+    - title: LOVELESS WORLD (KOTORI Mix)
+      recording: muse/loveless-world#kotori-mix
+    - title: タカラモノズ (KOTORI Mix)
+      recording: muse/takaramonozu#kotori-mix
+    - title: Paradise Live (KOTORI Mix)
+      recording: muse/paradise-live#kotori-mix
+    - title: それは僕たちの奇跡 (KOTORI Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#kotori-mix
+    - title: だってだって噫無情 (KOTORI Mix)
+      recording: muse/datte-datte-aa-mujou#kotori-mix
+    - title: どんなときもずっと (KOTORI Mix)
+      recording: muse/donna-toki-mo-zutto#kotori-mix
+    - title: COLORFUL VOICE (KOTORI Mix)
+      recording: muse/colorful-voice#kotori-mix
+    - title: ユメノトビラ (KOTORI Mix)
+      recording: muse/yume-no-tobira#kotori-mix
+    - title: SENTIMENTAL StepS (KOTORI Mix)
+      recording: muse/sentimental-steps#kotori-mix
+    - title: Dancing stars on me! (KOTORI Mix)
+      recording: muse/dancing-stars-on-me#kotori-mix
+    - title: KiRa-KiRa Sensation! (KOTORI Mix)
+      recording: muse/kira-kira-sensation#kotori-mix
+    - title: Happy maker! (KOTORI Mix)
+      recording: muse/happy-maker#kotori-mix
+    - title: Shangri-La Shower (KOTORI Mix)
+      recording: muse/shangri-la-shower#kotori-mix
+    - title: るてしキスキしてる (KOTORI Mix)
+      recording: muse/ruteshi-kisuki-shiteru#kotori-mix
+    - title: ミはμ'sicのミ (KOTORI Mix)
+      recording: muse/mi-wa-sic-no-mi#kotori-mix
+    - title: Super LOVE=Super LIVE! (KOTORI Mix)
+      recording: muse/super-love-super-live#kotori-mix
+    - title: Angelic Angel (KOTORI Mix)
+      recording: muse/angelic-angel#kotori-mix
+    - title: SUNNY DAY SONG (KOTORI Mix)
+      recording: muse/sunny-day-song#kotori-mix
+    - title: 僕たちはひとつの光 (KOTORI Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#kotori-mix
+    - title: Future style (KOTORI Mix)
+      recording: muse/future-style#kotori-mix
+    - title: Pure girls project (KOTORI Mix)
+      recording: muse/pure-girls-project#kotori-mix
+    - title: UNBALANCED LOVE (KOTORI Mix)
+      recording: muse/unbalanced-love#kotori-mix
+    - title: 永遠フレンズ (KOTORI Mix)
+      recording: muse/eien-friends#kotori-mix
+    - title: 小夜啼鳥恋詩 (KOTORI Mix)
+      recording: muse/nightingale-love-song#kotori-mix
+    - title: WAO-WAO Powerful day! (KOTORI Mix)
+      recording: muse/wao-wao-powerful-day#kotori-mix
+    - title: NO EXIT ORION (KOTORI Mix)
+      recording: muse/no-exit-orion#kotori-mix
+    - title: HEART to HEART! (KOTORI Mix)
+      recording: muse/heart-to-heart#kotori-mix
+    - title: 嵐のなかの恋だから (KOTORI Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#kotori-mix
+    - title: MOMENT RING (KOTORI Mix)
+      recording: muse/moment-ring#kotori-mix
+    - title: さようならへさよなら！ (KOTORI Mix)
+      recording: muse/sayounara-e-sayonara#kotori-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (UMI Mix)
+      recording: muse/music-s-t-a-r-t#umi-mix
+    - title: LOVELESS WORLD (UMI Mix)
+      recording: muse/loveless-world#umi-mix
+    - title: タカラモノズ (UMI Mix)
+      recording: muse/takaramonozu#umi-mix
+    - title: Paradise Live (UMI Mix)
+      recording: muse/paradise-live#umi-mix
+    - title: それは僕たちの奇跡 (UMI Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#umi-mix
+    - title: だってだって噫無情 (UMI Mix)
+      recording: muse/datte-datte-aa-mujou#umi-mix
+    - title: どんなときもずっと (UMI Mix)
+      recording: muse/donna-toki-mo-zutto#umi-mix
+    - title: COLORFUL VOICE (UMI Mix)
+      recording: muse/colorful-voice#umi-mix
+    - title: ユメノトビラ (UMI Mix)
+      recording: muse/yume-no-tobira#umi-mix
+    - title: SENTIMENTAL StepS (UMI Mix)
+      recording: muse/sentimental-steps#umi-mix
+    - title: Dancing stars on me! (UMI Mix)
+      recording: muse/dancing-stars-on-me#umi-mix
+    - title: KiRa-KiRa Sensation! (UMI Mix)
+      recording: muse/kira-kira-sensation#umi-mix
+    - title: Happy maker! (UMI Mix)
+      recording: muse/happy-maker#umi-mix
+    - title: Shangri-La Shower (UMI Mix)
+      recording: muse/shangri-la-shower#umi-mix
+    - title: るてしキスキしてる (UMI Mix)
+      recording: muse/ruteshi-kisuki-shiteru#umi-mix
+    - title: ミはμ'sicのミ (UMI Mix)
+      recording: muse/mi-wa-sic-no-mi#umi-mix
+    - title: Super LOVE=Super LIVE! (UMI Mix)
+      recording: muse/super-love-super-live#umi-mix
+    - title: Angelic Angel (UMI Mix)
+      recording: muse/angelic-angel#umi-mix
+    - title: SUNNY DAY SONG (UMI Mix)
+      recording: muse/sunny-day-song#umi-mix
+    - title: 僕たちはひとつの光 (UMI Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#umi-mix
+    - title: Future style (UMI Mix)
+      recording: muse/future-style#umi-mix
+    - title: 微熱からMystery (UMI Mix)
+      recording: muse/binetsu-kara-mystery#umi-mix
+    - title: キミのくせに！ (UMI Mix)
+      recording: muse/kimi-no-kuse-ni#umi-mix
+    - title: 秋のあなたの空遠く (UMI Mix)
+      recording: muse/aki-no-anata-no-sora-tooku#umi-mix
+    - title: ふたりハピネス (UMI Mix)
+      recording: muse/futari-happiness#umi-mix
+    - title: 思い出以上になりたくて (UMI Mix)
+      recording: muse/omoide-ijou-ni-naritakute#umi-mix
+    - title: 春情ロマンティック (UMI Mix)
+      recording: muse/shunjou-romantic#umi-mix
+    - title: HEART to HEART! (UMI Mix)
+      recording: muse/heart-to-heart#umi-mix
+    - title: 嵐のなかの恋だから (UMI Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#umi-mix
+    - title: MOMENT RING (UMI Mix)
+      recording: muse/moment-ring#umi-mix
+    - title: さようならへさよなら！ (UMI Mix)
+      recording: muse/sayounara-e-sayonara#umi-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (RIN Mix)
+      recording: muse/music-s-t-a-r-t#rin-mix
+    - title: LOVELESS WORLD (RIN Mix)
+      recording: muse/loveless-world#rin-mix
+    - title: タカラモノズ (RIN Mix)
+      recording: muse/takaramonozu#rin-mix
+    - title: Paradise Live (RIN Mix)
+      recording: muse/paradise-live#rin-mix
+    - title: それは僕たちの奇跡 (RIN Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#rin-mix
+    - title: だってだって噫無情 (RIN Mix)
+      recording: muse/datte-datte-aa-mujou#rin-mix
+    - title: どんなときもずっと (RIN Mix)
+      recording: muse/donna-toki-mo-zutto#rin-mix
+    - title: COLORFUL VOICE (RIN Mix)
+      recording: muse/colorful-voice#rin-mix
+    - title: ユメノトビラ (RIN Mix)
+      recording: muse/yume-no-tobira#rin-mix
+    - title: SENTIMENTAL StepS (RIN Mix)
+      recording: muse/sentimental-steps#rin-mix
+    - title: Love wing bell (RIN Mix)
+      recording: muse/love-wing-bell#rin-mix
+    - title: Dancing stars on me! (RIN Mix)
+      recording: muse/dancing-stars-on-me#rin-mix
+    - title: KiRa-KiRa Sensation! (RIN Mix)
+      recording: muse/kira-kira-sensation#rin-mix
+    - title: Happy maker! (RIN Mix)
+      recording: muse/happy-maker#rin-mix
+    - title: Shangri-La Shower (RIN Mix)
+      recording: muse/shangri-la-shower#rin-mix
+    - title: るてしキスキしてる (RIN Mix)
+      recording: muse/ruteshi-kisuki-shiteru#rin-mix
+    - title: ミはμ'sicのミ (RIN Mix)
+      recording: muse/mi-wa-sic-no-mi#rin-mix
+    - title: Super LOVE=Super LIVE! (RIN Mix)
+      recording: muse/super-love-super-live#rin-mix
+    - title: Angelic Angel (RIN Mix)
+      recording: muse/angelic-angel#rin-mix
+    - title: SUNNY DAY SONG (RIN Mix)
+      recording: muse/sunny-day-song#rin-mix
+    - title: 僕たちはひとつの光 (RIN Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#rin-mix
+    - title: Hello,星を数えて (RIN Mix)
+      recording: muse/hello-hoshi-o-kazoete#rin-mix
+    - title: 微熱からMystery (RIN Mix)
+      recording: muse/binetsu-kara-mystery#rin-mix
+    - title: キミのくせに！ (RIN Mix)
+      recording: muse/kimi-no-kuse-ni#rin-mix
+    - title: 秋のあなたの空遠く (RIN Mix)
+      recording: muse/aki-no-anata-no-sora-tooku#rin-mix
+    - title: ふたりハピネス (RIN Mix)
+      recording: muse/futari-happiness#rin-mix
+    - title: 思い出以上になりたくて (RIN Mix)
+      recording: muse/omoide-ijou-ni-naritakute#rin-mix
+    - title: 春情ロマンティック (RIN Mix)
+      recording: muse/shunjou-romantic#rin-mix
+    - title: HEART to HEART! (RIN Mix)
+      recording: muse/heart-to-heart#rin-mix
+    - title: 嵐のなかの恋だから (RIN Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#rin-mix
+    - title: MOMENT RING (RIN Mix)
+      recording: muse/moment-ring#rin-mix
+    - title: さようならへさよなら！ (RIN Mix)
+      recording: muse/sayounara-e-sayonara#rin-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (MAKI Mix)
+      recording: muse/music-s-t-a-r-t#maki-mix
+    - title: LOVELESS WORLD (MAKI Mix)
+      recording: muse/loveless-world#maki-mix
+    - title: タカラモノズ (MAKI Mix)
+      recording: muse/takaramonozu#maki-mix
+    - title: Paradise Live (MAKI Mix)
+      recording: muse/paradise-live#maki-mix
+    - title: それは僕たちの奇跡 (MAKI Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#maki-mix
+    - title: だってだって噫無情 (MAKI Mix)
+      recording: muse/datte-datte-aa-mujou#maki-mix
+    - title: どんなときもずっと (MAKI Mix)
+      recording: muse/donna-toki-mo-zutto#maki-mix
+    - title: COLORFUL VOICE (MAKI Mix)
+      recording: muse/colorful-voice#maki-mix
+    - title: ユメノトビラ (MAKI Mix)
+      recording: muse/yume-no-tobira#maki-mix
+    - title: SENTIMENTAL StepS (MAKI Mix)
+      recording: muse/sentimental-steps#maki-mix
+    - title: Love wing bell (MAKI Mix)
+      recording: muse/love-wing-bell#maki-mix
+    - title: Dancing stars on me! (MAKI Mix)
+      recording: muse/dancing-stars-on-me#maki-mix
+    - title: KiRa-KiRa Sensation! (MAKI Mix)
+      recording: muse/kira-kira-sensation#maki-mix
+    - title: Happy maker! (MAKI Mix)
+      recording: muse/happy-maker#maki-mix
+    - title: Shangri-La Shower (MAKI Mix)
+      recording: muse/shangri-la-shower#maki-mix
+    - title: るてしキスキしてる (MAKI Mix)
+      recording: muse/ruteshi-kisuki-shiteru#maki-mix
+    - title: ミはμ'sicのミ (MAKI Mix)
+      recording: muse/mi-wa-sic-no-mi#maki-mix
+    - title: Super LOVE=Super LIVE! (MAKI Mix)
+      recording: muse/super-love-super-live#maki-mix
+    - title: Angelic Angel (MAKI Mix)
+      recording: muse/angelic-angel#maki-mix
+    - title: SUNNY DAY SONG (MAKI Mix)
+      recording: muse/sunny-day-song#maki-mix
+    - title: 僕たちはひとつの光 (MAKI Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#maki-mix
+    - title: Hello,星を数えて (MAKI Mix)
+      recording: muse/hello-hoshi-o-kazoete#maki-mix
+    - title: Cutie Panther (MAKI Mix)
+      recording: muse/cutie-panther#maki-mix
+    - title: 夏、終わらないで。 (MAKI Mix)
+      recording: muse/natsu-owaranai-de#maki-mix
+    - title: 冬がくれた予感 (MAKI Mix)
+      recording: muse/fuyu-ga-kureta-yokan#maki-mix
+    - title: Trouble Busters (MAKI Mix)
+      recording: muse/trouble-busters#maki-mix
+    - title: 錯覚CROSSROADS (MAKI Mix)
+      recording: muse/sakkaku-crossroads#maki-mix
+    - title: PSYCHIC FIRE (MAKI Mix)
+      recording: muse/psychic-fire#maki-mix
+    - title: HEART to HEART! (MAKI Mix)
+      recording: muse/heart-to-heart#maki-mix
+    - title: 嵐のなかの恋だから (MAKI Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#maki-mix
+    - title: MOMENT RING (MAKI Mix)
+      recording: muse/moment-ring#maki-mix
+    - title: さようならへさよなら！ (MAKI Mix)
+      recording: muse/sayounara-e-sayonara#maki-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (NOZOMI Mix)
+      recording: muse/music-s-t-a-r-t#nozomi-mix
+    - title: LOVELESS WORLD (NOZOMI Mix)
+      recording: muse/loveless-world#nozomi-mix
+    - title: タカラモノズ (NOZOMI Mix)
+      recording: muse/takaramonozu#nozomi-mix
+    - title: Paradise Live (NOZOMI Mix)
+      recording: muse/paradise-live#nozomi-mix
+    - title: それは僕たちの奇跡 (NOZOMI Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#nozomi-mix
+    - title: だってだって噫無情 (NOZOMI Mix)
+      recording: muse/datte-datte-aa-mujou#nozomi-mix
+    - title: どんなときもずっと (NOZOMI Mix)
+      recording: muse/donna-toki-mo-zutto#nozomi-mix
+    - title: COLORFUL VOICE (NOZOMI Mix)
+      recording: muse/colorful-voice#nozomi-mix
+    - title: ユメノトビラ (NOZOMI Mix)
+      recording: muse/yume-no-tobira#nozomi-mix
+    - title: SENTIMENTAL StepS (NOZOMI Mix)
+      recording: muse/sentimental-steps#nozomi-mix
+    - title: Love wing bell (NOZOMI Mix)
+      recording: muse/love-wing-bell#nozomi-mix
+    - title: Dancing stars on me! (NOZOMI Mix)
+      recording: muse/dancing-stars-on-me#nozomi-mix
+    - title: KiRa-KiRa Sensation! (NOZOMI Mix)
+      recording: muse/kira-kira-sensation#nozomi-mix
+    - title: Happy maker! (NOZOMI Mix)
+      recording: muse/happy-maker#nozomi-mix
+    - title: Shangri-La Shower (NOZOMI Mix)
+      recording: muse/shangri-la-shower#nozomi-mix
+    - title: るてしキスキしてる (NOZOMI Mix)
+      recording: muse/ruteshi-kisuki-shiteru#nozomi-mix
+    - title: ミはμ'sicのミ (NOZOMI Mix)
+      recording: muse/mi-wa-sic-no-mi#nozomi-mix
+    - title: Super LOVE=Super LIVE! (NOZOMI Mix)
+      recording: muse/super-love-super-live#nozomi-mix
+    - title: Angelic Angel (NOZOMI Mix)
+      recording: muse/angelic-angel#nozomi-mix
+    - title: SUNNY DAY SONG (NOZOMI Mix)
+      recording: muse/sunny-day-song#nozomi-mix
+    - title: 僕たちはひとつの光 (NOZOMI Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#nozomi-mix
+    - title: ？←HEARTBEAT (NOZOMI Mix)
+      recording: muse/heartbeat#nozomi-mix
+    - title: 微熱からMystery (NOZOMI Mix)
+      recording: muse/binetsu-kara-mystery#nozomi-mix
+    - title: キミのくせに！ (NOZOMI Mix)
+      recording: muse/kimi-no-kuse-ni#nozomi-mix
+    - title: 秋のあなたの空遠く (NOZOMI Mix)
+      recording: muse/aki-no-anata-no-sora-tooku#nozomi-mix
+    - title: ふたりハピネス (NOZOMI Mix)
+      recording: muse/futari-happiness#nozomi-mix
+    - title: 思い出以上になりたくて (NOZOMI Mix)
+      recording: muse/omoide-ijou-ni-naritakute#nozomi-mix
+    - title: 春情ロマンティック (NOZOMI Mix)
+      recording: muse/shunjou-romantic#nozomi-mix
+    - title: HEART to HEART! (NOZOMI Mix)
+      recording: muse/heart-to-heart#nozomi-mix
+    - title: 嵐のなかの恋だから (NOZOMI Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#nozomi-mix
+    - title: MOMENT RING (NOZOMI Mix)
+      recording: muse/moment-ring#nozomi-mix
+    - title: さようならへさよなら！ (NOZOMI Mix)
+      recording: muse/sayounara-e-sayonara#nozomi-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (HANAYO Mix)
+      recording: muse/music-s-t-a-r-t#hanayo-mix
+    - title: LOVELESS WORLD (HANAYO Mix)
+      recording: muse/loveless-world#hanayo-mix
+    - title: タカラモノズ (HANAYO Mix)
+      recording: muse/takaramonozu#hanayo-mix
+    - title: Paradise Live (HANAYO Mix)
+      recording: muse/paradise-live#hanayo-mix
+    - title: それは僕たちの奇跡 (HANAYO Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#hanayo-mix
+    - title: だってだって噫無情 (HANAYO Mix)
+      recording: muse/datte-datte-aa-mujou#hanayo-mix
+    - title: どんなときもずっと (HANAYO Mix)
+      recording: muse/donna-toki-mo-zutto#hanayo-mix
+    - title: COLORFUL VOICE (HANAYO Mix)
+      recording: muse/colorful-voice#hanayo-mix
+    - title: ユメノトビラ (HANAYO Mix)
+      recording: muse/yume-no-tobira#hanayo-mix
+    - title: SENTIMENTAL StepS (HANAYO Mix)
+      recording: muse/sentimental-steps#hanayo-mix
+    - title: Love wing bell (HANAYO Mix)
+      recording: muse/love-wing-bell#hanayo-mix
+    - title: Dancing stars on me! (HANAYO Mix)
+      recording: muse/dancing-stars-on-me#hanayo-mix
+    - title: KiRa-KiRa Sensation! (HANAYO Mix)
+      recording: muse/kira-kira-sensation#hanayo-mix
+    - title: Happy maker! (HANAYO Mix)
+      recording: muse/happy-maker#hanayo-mix
+    - title: Shangri-La Shower (HANAYO Mix)
+      recording: muse/shangri-la-shower#hanayo-mix
+    - title: るてしキスキしてる (HANAYO Mix)
+      recording: muse/ruteshi-kisuki-shiteru#hanayo-mix
+    - title: ミはμ'sicのミ (HANAYO Mix)
+      recording: muse/mi-wa-sic-no-mi#hanayo-mix
+    - title: Super LOVE=Super LIVE! (HANAYO Mix)
+      recording: muse/super-love-super-live#hanayo-mix
+    - title: Angelic Angel (HANAYO Mix)
+      recording: muse/angelic-angel#hanayo-mix
+    - title: SUNNY DAY SONG (HANAYO Mix)
+      recording: muse/sunny-day-song#hanayo-mix
+    - title: 僕たちはひとつの光 (HANAYO Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#hanayo-mix
+    - title: Hello,星を数えて (HANAYO Mix)
+      recording: muse/hello-hoshi-o-kazoete#hanayo-mix
+    - title: Pure girls project (HANAYO Mix)
+      recording: muse/pure-girls-project#hanayo-mix
+    - title: UNBALANCED LOVE (HANAYO Mix)
+      recording: muse/unbalanced-love#hanayo-mix
+    - title: 永遠フレンズ (HANAYO Mix)
+      recording: muse/eien-friends#hanayo-mix
+    - title: 小夜啼鳥恋詩 (HANAYO Mix)
+      recording: muse/nightingale-love-song#hanayo-mix
+    - title: WAO-WAO Powerful day! (HANAYO Mix)
+      recording: muse/wao-wao-powerful-day#hanayo-mix
+    - title: NO EXIT ORION (HANAYO Mix)
+      recording: muse/no-exit-orion#hanayo-mix
+    - title: HEART to HEART! (HANAYO Mix)
+      recording: muse/heart-to-heart#hanayo-mix
+    - title: 嵐のなかの恋だから (HANAYO Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#hanayo-mix
+    - title: MOMENT RING (HANAYO Mix)
+      recording: muse/moment-ring#hanayo-mix
+    - title: さようならへさよなら！ (HANAYO Mix)
+      recording: muse/sayounara-e-sayonara#hanayo-mix
+  - tracks:
+    - title: Music S.T.A.R.T!! (NICO Mix)
+      recording: muse/music-s-t-a-r-t#nico-mix
+    - title: LOVELESS WORLD (NICO Mix)
+      recording: muse/loveless-world#nico-mix
+    - title: タカラモノズ (NICO Mix)
+      recording: muse/takaramonozu#nico-mix
+    - title: Paradise Live (NICO Mix)
+      recording: muse/paradise-live#nico-mix
+    - title: それは僕たちの奇跡 (NICO Mix)
+      recording: muse/sore-wa-bokutachi-no-kiseki#nico-mix
+    - title: だってだって噫無情 (NICO Mix)
+      recording: muse/datte-datte-aa-mujou#nico-mix
+    - title: どんなときもずっと (NICO Mix)
+      recording: muse/donna-toki-mo-zutto#nico-mix
+    - title: COLORFUL VOICE (NICO Mix)
+      recording: muse/colorful-voice#nico-mix
+    - title: ユメノトビラ (NICO Mix)
+      recording: muse/yume-no-tobira#nico-mix
+    - title: SENTIMENTAL StepS (NICO Mix)
+      recording: muse/sentimental-steps#nico-mix
+    - title: Love wing bell (NICO Mix)
+      recording: muse/love-wing-bell#nico-mix
+    - title: Dancing stars on me! (NICO Mix)
+      recording: muse/dancing-stars-on-me#nico-mix
+    - title: KiRa-KiRa Sensation! (NICO Mix)
+      recording: muse/kira-kira-sensation#nico-mix
+    - title: Happy maker! (NICO Mix)
+      recording: muse/happy-maker#nico-mix
+    - title: Shangri-La Shower (NICO Mix)
+      recording: muse/shangri-la-shower#nico-mix
+    - title: るてしキスキしてる (NICO Mix)
+      recording: muse/ruteshi-kisuki-shiteru#nico-mix
+    - title: ミはμ'sicのミ (NICO Mix)
+      recording: muse/mi-wa-sic-no-mi#nico-mix
+    - title: Super LOVE=Super LIVE! (NICO Mix)
+      recording: muse/super-love-super-live#nico-mix
+    - title: Angelic Angel (NICO Mix)
+      recording: muse/angelic-angel#nico-mix
+    - title: SUNNY DAY SONG (NICO Mix)
+      recording: muse/sunny-day-song#nico-mix
+    - title: 僕たちはひとつの光 (NICO Mix)
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#nico-mix
+    - title: ？←HEARTBEAT (NICO Mix)
+      recording: muse/heartbeat#nico-mix
+    - title: Cutie Panther (NICO Mix)
+      recording: muse/cutie-panther#nico-mix
+    - title: 夏、終わらないで。 (NICO Mix)
+      recording: muse/natsu-owaranai-de#nico-mix
+    - title: 冬がくれた予感 (NICO Mix)
+      recording: muse/fuyu-ga-kureta-yokan#nico-mix
+    - title: Trouble Busters (NICO Mix)
+      recording: muse/trouble-busters#nico-mix
+    - title: 錯覚CROSSROADS (NICO Mix)
+      recording: muse/sakkaku-crossroads#nico-mix
+    - title: PSYCHIC FIRE (NICO Mix)
+      recording: muse/psychic-fire#nico-mix
+    - title: HEART to HEART! (NICO Mix)
+      recording: muse/heart-to-heart#nico-mix
+    - title: 嵐のなかの恋だから (NICO Mix)
+      recording: muse/arashi-no-naka-no-koi-dakara#nico-mix
+    - title: MOMENT RING (NICO Mix)
+      recording: muse/moment-ring#nico-mix
+    - title: さようならへさよなら！ (NICO Mix)
+      recording: muse/sayounara-e-sayonara#nico-mix
+  credits_note: 박스에 묶인 앨범의 음원 그대로(각 앨범의 근거)
+- project: muse
+  source: https://catalog.bandainamcomusiclive.co.jp/release/68547/
+  status: official
+  sources:
+  - https://catalog.bandainamcomusiclive.co.jp/release/68547/
+  note: "New compilation discs (re-issue of existing recordings: μ's, unit, duo/trio and solo songs in release order). Singers are not printed per track on either official source (left null). Disc 2 lists START:DASH!! twice
+    (track 6 and track 10) on both sources, presumably the 3-member and the 9-member versions; the version mark is not printed. Disc 12 track 4 「SUNNY DAY SONG（Movie Edit）」."
+  title: μ'ｓ Memorial CD-BOX「Complete BEST BOX」
+  title_rom: μ’s Memorial CD-BOX "Complete BEST BOX"
+  title_ko: μ’s Memorial CD-BOX 「Complete BEST BOX」
+  date: 2019-12-25
+  type: box_set
+  editions:
+  - label: 期間限定生産
+    catalog: LACA-9721～32
+    media: 12CD
+  legacy: false
+  discs:
+  - tracks:
+    - title: 僕らのLIVE 君とのLIFE
+      recording: muse/bokura-no-live-kimi-to-no-life#original
+    - title: 友情ノーチェンジ
+      recording: muse/yuujou-no-change#original
+    - title: Snow halation
+      recording: muse/snow-halation#original
+    - title: baby maybe 恋のボタン
+      recording: muse/baby-maybe-koi-no-button#original
+    - title: 夏色えがおで1,2,Jump!
+      recording: muse/natsuiro-egao-de-1-2-jump#original
+    - title: Mermaid festa vol.1
+      recording: muse/mermaid-festa-vol-1#original
+    - title: もぎゅっと"love"で接近中！
+      recording: muse/mogyutto-love-de-sekkin-chuu#original
+    - title: 愛してるばんざーい!
+      recording: muse/aishiteru-banzai#original
+    - title: Wonderful Rush
+      recording: muse/wonderful-rush#original
+    - title: Oh,Love&Peace!
+      recording: muse/oh-love-peace#original
+    - title: Music S.T.A.R.T!!
+      recording: muse/music-s-t-a-r-t#original
+    - title: LOVELESS WORLD
+      recording: muse/loveless-world#original
+  - tracks:
+    - title: 僕らは今のなかで
+      recording: muse/bokura-wa-ima-no-naka-de#original
+    - title: WILD STARS
+      recording: muse/wild-stars#original
+    - title: きっと青春が聞こえる
+      recording: muse/kitto-seishun-ga-kikoeru#original
+    - title: 輝夜の城で踊りたい
+      recording: muse/kaguya-no-shiro-de-odoritai#original
+    - title: ススメ→トゥモロウ
+      recording: muse/susume-tomorrow#original
+    - title: START:DASH!!
+      recording: muse/start-dash#original
+    - title: これからのSomeday
+      recording: muse/korekara-no-someday#original
+    - title: Wonder zone
+      recording: muse/wonder-zone#original
+    - title: No brand girls
+      recording: muse/no-brand-girls#original
+    - title: START:DASH!!
+      recording: muse/start-dash#muse
+  - tracks:
+    - title: 夢なき夢は夢じゃない
+      recording: muse/yume-naki-yume-wa-yume-ja-nai#original
+    - title: Anemone heart
+      recording: muse/anemone-heart#original
+    - title: なわとび
+      recording: muse/nawatobi#original
+    - title: Beat in Angel
+      recording: muse/beat-in-angel#original
+    - title: にこぷり♡女子道
+      recording: muse/nico-puri-joshi-dou#original
+    - title: 硝子の花園
+      recording: muse/garasu-no-hanazono#original
+    - title: LONELIEST BABY
+      recording: muse/loneliest-baby#original
+  - tracks:
+    - title: それは僕たちの奇跡
+      recording: muse/sore-wa-bokutachi-no-kiseki#original
+    - title: だってだって噫無情
+      recording: muse/datte-datte-aa-mujou#original
+    - title: どんなときもずっと
+      recording: muse/donna-toki-mo-zutto#original
+    - title: COLORFUL VOICE
+      recording: muse/colorful-voice#original
+    - title: ユメノトビラ
+      recording: muse/yume-no-tobira#original
+    - title: SENTIMENTAL StepS
+      recording: muse/sentimental-steps#original
+    - title: Love wing bell
+      recording: muse/love-wing-bell#original
+    - title: Dancing stars on me!
+      recording: muse/dancing-stars-on-me#original
+    - title: KiRa-KiRa Sensation!
+      recording: muse/kira-kira-sensation#original
+    - title: Happy maker!
+      recording: muse/happy-maker#original
+  - tracks:
+    - title: シアワセ行きのSMILING!
+      recording: muse/shiawase-iki-no-smiling#original
+    - title: ずるいよMagnetic today
+      recording: muse/zurui-yo-magnetic-today#original
+    - title: くるりんMIRACLE
+      recording: muse/kururin-miracle#original
+    - title: Storm in Lover
+      recording: muse/storm-in-lover#original
+    - title: もしもからきっと
+      recording: muse/moshimo-kara-kitto#original
+    - title: 好きですが好きですか？
+      recording: muse/suki-desu-ga-suki-desu-ka#original
+    - title: そして最後のページには
+      recording: muse/soshite-saigo-no-page-ni-wa#original
+  - tracks:
+    - title: タカラモノズ
+      recording: muse/takaramonozu#original
+    - title: Paradise Live
+      recording: muse/paradise-live#original
+    - title: Shangri-La Shower
+      recording: muse/shangri-la-shower#original
+    - title: るてしキスキしてる
+      recording: muse/ruteshi-kisuki-shiteru#original
+    - title: ミはμ’sicのミ
+      recording: muse/mi-wa-sic-no-mi#original
+    - title: Super LOVE=Super LIVE!
+      recording: muse/super-love-super-live#original
+    - title: HEART to HEART!
+      recording: muse/heart-to-heart#original
+    - title: 嵐のなかの恋だから
+      recording: muse/arashi-no-naka-no-koi-dakara#original
+    - title: ENDLESS PARADE
+      recording: muse/endless-parade#original
+    - title: Dreamin' Go! Go!!
+      recording: muse/dreamin-go-go#original
+  - tracks:
+    - title: Love marginal
+      recording: muse/love-marginal#original
+    - title: sweet&sweet holiday
+      recording: muse/sweet-sweet-holiday#original
+    - title: Pure girls project
+      recording: muse/pure-girls-project#original
+    - title: UNBALANCED LOVE
+      recording: muse/unbalanced-love#original
+    - title: 永遠フレンズ
+      recording: muse/eien-friends#original
+    - title: 小夜啼鳥恋詩
+      recording: muse/nightingale-love-song#original
+    - title: WAO-WAO Powerful day!
+      recording: muse/wao-wao-powerful-day#original
+    - title: NO EXIT ORION
+      recording: muse/no-exit-orion#original
+    - title: ぷわぷわーお！
+      recording: muse/puwa-puwa-o#original
+    - title: CheerDay CheerGirl!
+      recording: muse/cheerday-cheergirl#original
+    - title: MUSEUMでどうしたい？
+      recording: muse/museum-de-dou-shitai#original
+  - tracks:
+    - title: ダイヤモンドプリンセスの憂鬱
+      recording: muse/diamond-princess-no-yuuutsu#original
+    - title: ラブノベルス
+      recording: muse/love-novels#original
+    - title: Cutie Panther
+      recording: muse/cutie-panther#original
+    - title: 夏、終わらないで。
+      recording: muse/natsu-owaranai-de#original
+    - title: 冬がくれた予感
+      recording: muse/fuyu-ga-kureta-yokan#original
+    - title: Trouble Busters
+      recording: muse/trouble-busters#original
+    - title: 錯覚CROSSROADS
+      recording: muse/sakkaku-crossroads#original
+    - title: PSYCHIC FIRE
+      recording: muse/psychic-fire#original
+    - title: Silent tonight
+      recording: muse/silent-tonight#original
+    - title: 最低で最高のParadiso
+      recording: muse/saitei-de-saikou-no-paradiso#original
+  - tracks:
+    - title: 知らないLove*教えてLove
+      recording: muse/shiranai-love-oshiete-love#original
+    - title: あ・の・ね・が・ん・ば・れ!
+      recording: muse/a-no-ne-ga-n-ba-re#original
+    - title: 微熱からMystery
+      recording: muse/binetsu-kara-mystery#original
+    - title: キミのくせに!
+      recording: muse/kimi-no-kuse-ni#original
+    - title: 秋のあなたの空遠く
+      recording: muse/aki-no-anata-no-sora-tooku#original
+    - title: ふたりハピネス
+      recording: muse/futari-happiness#original
+    - title: 思い出以上になりたくて
+      recording: muse/omoide-ijou-ni-naritakute#original
+    - title: 春情ロマンティック
+      recording: muse/shunjou-romantic#original
+    - title: 同じ星が見たい
+      recording: muse/onaji-hoshi-ga-mitai#original
+    - title: 乙姫心で恋宮殿
+      recording: muse/otohime-heart-de-love-kyuuden#original
+  - tracks:
+    - title: Mermaid festa vol.2 ～Passionate～
+      recording: muse/mermaid-festa-vol-2-passionate#original
+    - title: Someday of my life
+      recording: muse/someday-of-my-life#original
+    - title: 恋のシグナルRin rin rin!
+      recording: muse/koi-no-signal-rin-rin-rin#original
+    - title: 乙女式れんあい塾
+      recording: muse/otome-shiki-ren-ai-juku#original
+    - title: まほうつかいはじめました!
+      recording: muse/mahoutsukai-hajimemashita#original
+    - title: 純愛レンズ
+      recording: muse/junai-lens#original
+    - title: 告白日和、です!
+      recording: muse/kokuhaku-biyori-desu#original
+    - title: ぶる～べりぃ♡とれいん
+      recording: muse/blueberry-train#original
+    - title: 孤独なHeaven
+      recording: muse/kodoku-na-heaven#original
+  - tracks:
+    - title: soldier game
+      recording: muse/soldier-game#original
+    - title: Daring!!
+      recording: muse/daring#original
+    - title: 勇気のReason
+      recording: muse/yuuki-no-reason#original
+    - title: ありふれた悲しみの果て
+      recording: muse/arifureta-kanashimi-no-hate#original
+    - title: 愛は太陽じゃない?
+      recording: muse/ai-wa-taiyou-ja-nai#original
+    - title: もうひとりじゃないよ
+      recording: muse/mou-hitori-ja-nai-yo#original
+    - title: スピカテリブル
+      recording: muse/spicaterrible#original
+    - title: 私たちは未来の花
+      recording: muse/watashitachi-wa-mirai-no-hana#original
+    - title: Listen to my heart!!
+      recording: muse/listen-to-my-heart#original
+    - title: after school NAVIGATORS
+      recording: muse/after-school-navigators#original
+  - tracks:
+    - title: Angelic Angel
+      recording: muse/angelic-angel#original
+    - title: Hello,星を数えて
+      recording: muse/hello-hoshi-o-kazoete#original
+    - title: SUNNY DAY SONG
+      recording: muse/sunny-day-song#original
+    - title: SUNNY DAY SONG (Movie Edit)
+      recording: muse/sunny-day-song#movie-edit
+    - title: ？←HEARTBEAT
+      recording: muse/heartbeat#original
+    - title: 僕たちはひとつの光
+      recording: muse/bokutachi-wa-hitotsu-no-hikari#original
+    - title: Future style
+      recording: muse/future-style#original
+    - title: これから
+      recording: muse/korekara#original
+    - title: MOMENT RING
+      recording: muse/moment-ring#original
+    - title: さようならへさよなら！
+      recording: muse/sayounara-e-sayonara#original
+  credits_note: "가창 미기재: 수록 음원은 각 곡의 원곡(START:DASH!!는 Disc 2 #6이 3인, #10이 μ's 버전)으로 봄"
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/bd/#forever-edition-bonus-cd
+  status: official
+  sources:
+  - https://love-live.fandom.com/wiki/Solo_Live!_collection_Extra
+  note: Number of discs and per-disc order not published on the official page (listed in page order, disc/no null). The 51 new solo versions = the nine 「Solo Live! from μ's <name> Extra」 albums already in the DB as 
+    digital releases (LZC-1691～1695, 1733～1736, 2020-09-09). Fandom also says the complete μ's New Year LoveLive! 2013 is in this BOX (video).
+  title: ラブライブ！9th Anniversary Blu-ray BOX【Forever Edition】特典CD
+  title_rom: Love Live! 9th Anniversary Blu-ray BOX [Forever Edition] Bonus CD
+  title_ko: 러브 라이브! 9th Anniversary Blu-ray BOX 【Forever Edition】 특전 CD
+  date: 2019-10-25
+  type: bd_bonus
+  editions:
+  - label: Blu-ray BOX【Forever Edition】（初回限定生産） 封入特典（BCXA-1494）
+    media: CD
+  legacy: false
+  tracks:
+  - title: 夢なき夢は夢じゃない
+    recording: muse/yume-naki-yume-wa-yume-ja-nai#original
+  - title: Anemone heart
+    recording: muse/anemone-heart#original
+  - title: なわとび
+    recording: muse/nawatobi#original
+  - title: Beat in Angel
+    recording: muse/beat-in-angel#original
+  - title: にこぷり♡女子道
+    recording: muse/nico-puri-joshi-dou#original
+  - title: 硝子の花園
+    recording: muse/garasu-no-hanazono#original
+  - title: LONELIEST BABY
+    recording: muse/loneliest-baby#original
+  - title: シアワセ行きのSMILING!
+    recording: muse/shiawase-iki-no-smiling#original
+  - title: ずるいよMagnetic today
+    recording: muse/zurui-yo-magnetic-today#original
+  - title: くるりんMIRACLE
+    recording: muse/kururin-miracle#original
+  - title: Storm in Lover
+    recording: muse/storm-in-lover#original
+  - title: もしもからきっと
+    recording: muse/moshimo-kara-kitto#original
+  - title: 好きですが好きですか？
+    recording: muse/suki-desu-ga-suki-desu-ka#original
+  - title: そして最後のページには
+    recording: muse/soshite-saigo-no-page-ni-wa#original
+  - title: これから
+    recording: muse/korekara#original
+  - title: ぷわぷわーお！
+    recording: muse/puwa-puwa-o#original
+  - title: CheerDay CheerGirl!
+    recording: muse/cheerday-cheergirl#original
+  - title: silent tonight
+    recording: muse/silent-tonight#original
+  - title: 同じ星が見たい
+    recording: muse/onaji-hoshi-ga-mitai#original
+  - title: 硝子の花園 (ELI Mix)
+    recording: muse/garasu-no-hanazono#eli-mix
+  - title: LONELIEST BABY (ELI Mix)
+    recording: muse/loneliest-baby#eli-mix
+  - title: Storm in Lover (ELI Mix)
+    recording: muse/storm-in-lover#eli-mix
+  - title: そして最後のページには (ELI Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#eli-mix
+  - title: Silent tonight (ELI Mix)
+    recording: muse/silent-tonight#eli-mix
+  - title: これから (ELI Mix)
+    recording: muse/korekara#eli-mix
+  - title: LONELIEST BABY (HANAYO Mix)
+    recording: muse/loneliest-baby#hanayo-mix
+  - title: ぷわぷわーお！ (HANAYO Mix)
+    recording: muse/puwa-puwa-o#hanayo-mix
+  - title: 好きですが好きですか？ (HANAYO Mix)
+    recording: muse/suki-desu-ga-suki-desu-ka#hanayo-mix
+  - title: そして最後のページには (HANAYO Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#hanayo-mix
+  - title: CheerDay CheerGirl! (HANAYO Mix)
+    recording: muse/cheerday-cheergirl#hanayo-mix
+  - title: これから (HANAYO Mix)
+    recording: muse/korekara#hanayo-mix
+  - title: LONELIEST BABY (HONOKA Mix)
+    recording: muse/loneliest-baby#honoka-mix
+  - title: ぷわぷわーお！ (HONOKA Mix)
+    recording: muse/puwa-puwa-o#honoka-mix
+  - title: そして最後のページには (HONOKA Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#honoka-mix
+  - title: CheerDay CheerGirl! (HONOKA Mix)
+    recording: muse/cheerday-cheergirl#honoka-mix
+  - title: これから (HONOKA Mix)
+    recording: muse/korekara#honoka-mix
+  - title: Anemone heart (KOTORI Mix)
+    recording: muse/anemone-heart#kotori-mix
+  - title: LONELIEST BABY (KOTORI Mix)
+    recording: muse/loneliest-baby#kotori-mix
+  - title: ぷわぷわーお！ (KOTORI Mix)
+    recording: muse/puwa-puwa-o#kotori-mix
+  - title: 好きですが好きですか？ (KOTORI Mix)
+    recording: muse/suki-desu-ga-suki-desu-ka#kotori-mix
+  - title: そして最後のページには (KOTORI Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#kotori-mix
+  - title: CheerDay CheerGirl! (KOTORI Mix)
+    recording: muse/cheerday-cheergirl#kotori-mix
+  - title: これから (KOTORI Mix)
+    recording: muse/korekara#kotori-mix
+  - title: Beat in Angel (MAKI Mix)
+    recording: muse/beat-in-angel#maki-mix
+  - title: LONELIEST BABY (MAKI Mix)
+    recording: muse/loneliest-baby#maki-mix
+  - title: ずるいよMagnetic today (MAKI Mix)
+    recording: muse/zurui-yo-magnetic-today#maki-mix
+  - title: そして最後のページには (MAKI Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#maki-mix
+  - title: Silent tonight (MAKI Mix)
+    recording: muse/silent-tonight#maki-mix
+  - title: これから (MAKI Mix)
+    recording: muse/korekara#maki-mix
+  - title: LONELIEST BABY (NICO Mix)
+    recording: muse/loneliest-baby#nico-mix
+  - title: ずるいよMagnetic today (NICO Mix)
+    recording: muse/zurui-yo-magnetic-today#nico-mix
+  - title: そして最後のページには (NICO Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#nico-mix
+  - title: Silent tonight (NICO Mix)
+    recording: muse/silent-tonight#nico-mix
+  - title: これから (NICO Mix)
+    recording: muse/korekara#nico-mix
+  - title: 硝子の花園 (NOZOMI Mix)
+    recording: muse/garasu-no-hanazono#nozomi-mix
+  - title: LONELIEST BABY (NOZOMI Mix)
+    recording: muse/loneliest-baby#nozomi-mix
+  - title: そして最後のページには (NOZOMI Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#nozomi-mix
+  - title: 同じ星が見たい (NOZOMI Mix)
+    recording: muse/onaji-hoshi-ga-mitai#nozomi-mix
+  - title: これから (NOZOMI Mix)
+    recording: muse/korekara#nozomi-mix
+  - title: Beat in Angel (RIN Mix)
+    recording: muse/beat-in-angel#rin-mix
+  - title: LONELIEST BABY (RIN Mix)
+    recording: muse/loneliest-baby#rin-mix
+  - title: そして最後のページには (RIN Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#rin-mix
+  - title: 同じ星が見たい (RIN Mix)
+    recording: muse/onaji-hoshi-ga-mitai#rin-mix
+  - title: これから (RIN Mix)
+    recording: muse/korekara#rin-mix
+  - title: Anemone heart (UMI Mix)
+    recording: muse/anemone-heart#umi-mix
+  - title: LONELIEST BABY (UMI Mix)
+    recording: muse/loneliest-baby#umi-mix
+  - title: Storm in Lover (UMI Mix)
+    recording: muse/storm-in-lover#umi-mix
+  - title: そして最後のページには (UMI Mix)
+    recording: muse/soshite-saigo-no-page-ni-wa#umi-mix
+  - title: 同じ星が見たい (UMI Mix)
+    recording: muse/onaji-hoshi-ga-mitai#umi-mix
+  - title: これから (UMI Mix)
+    recording: muse/korekara#umi-mix
+  credits_note: 공식 페이지는 곡과 구성(특전 곡 19곡 + 멤버 솔로 버전 51곡)만 인쇄, 디스크 나눔·순서 미게재. 솔로 버전은 Solo Live! from μ's … Extra 9장의 음원
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/bd/#amazon-cast-talk-cd
+  status: official
+  note: 'No track list published. Cast: 新田恵海, 内田 彩, 三森すずこ (talk). Title as printed is just 「キャスト座談会CD」; the title_ja here is descriptive.'
+  title: ラブライブ！9th Anniversary Blu-ray BOX Amazon.co.jp特典 キャスト座談会CD
+  title_rom: Love Live! 9th Anniversary Blu-ray BOX Amazon.co.jp Bonus Cast Talk CD
+  title_ko: 러브 라이브! 9th Anniversary Blu-ray BOX Amazon.co.jp 특전 캐스트 좌담회 CD
+  date: 2019-10-25
+  type: bd_bonus
+  editions:
+  - label: Amazon.co.jp 法人特典
+    media: CD
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/Blu-rayBox/#amazon-cast-talk-cd
+  status: official
+  note: No track list published. Talk CD; cast 伊波杏樹, 逢田梨香子, 斉藤朱夏. title_ja descriptive (printed name is just 「キャスト座談会CD」).
+  title: ラブライブ！サンシャイン!! Blu-ray BOX Amazon.co.jp特典 キャスト座談会CD
+  title_rom: Love Live! Sunshine!! Blu-ray BOX Amazon.co.jp Bonus Cast Talk CD
+  title_ko: 러브 라이브! 선샤인!! Blu-ray BOX Amazon.co.jp 특전 캐스트 좌담회 CD
+  date: 2022-03-29
+  type: bd_bonus
+  editions:
+  - label: Amazon.co.jp 法人特典
+    media: CD
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/tv1st/
+  status: official
+  sources:
+  - https://www.lovelive-anime.jp/uranohoshi/bd/Blu-rayBox/
+  note: 'No track list published. Cast (as printed): 高海千歌(CV.伊波杏樹) , 桜内梨子(CV.逢田梨香子) , 松浦果南(CV.諏訪ななか) , 黒澤ダイヤ(CV.小宮有紗) , 渡辺 曜(CV.斉藤朱夏) , 津島善子(CV.小林愛香) ,国木田花丸(CV.高槻かなこ) , 小原鞠莉(CV.鈴木愛奈) , 黒澤ルビィ(CV.降幡 愛). release_date = TVA1 BD
+    Vol.7 release date (last volume) 2017-03-24 (bonus delivered with the BD; for full-set bonuses with the last volume) - inferred, not printed for the CD.'
+  title: 録り下ろしドラマCD「Aqoursのグルメレポート」
+  title_rom: Newly Recorded Drama CD "Aqours no Gourmet Report"
+  title_ko: 신규 녹음 드라마 CD 「Aqours의 맛집 리포트」
+  date: 2017-03-24
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 特典
+    media: CD
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/
+  status: official
+  sources:
+  - https://www.lovelive-anime.jp/uranohoshi/bd/Blu-rayBox/
+  note: 'No track list published. Cast (as printed): 高海千歌(CV.伊波杏樹) , 桜内梨子(CV.逢田梨香子) , 松浦果南(CV.諏訪ななか) , 黒澤ダイヤ(CV.小宮有紗) , 渡辺 曜(CV.斉藤朱夏) , 津島善子(CV.小林愛香) ,国木田花丸(CV.高槻かなこ) , 小原鞠莉(CV.鈴木愛奈) , 黒澤ルビィ(CV.降幡 愛). release_date = TVA2 BD
+    Vol.7 release date (last volume) 2018-06-22 (bonus delivered with the BD; for full-set bonuses with the last volume) - inferred, not printed for the CD.'
+  title: 録り下ろしドラマCD「Aqoursの女子会パーティー」
+  title_rom: Newly Recorded Drama CD "Aqours no Joshikai Party"
+  title_ko: 신규 녹음 드라마 CD 「Aqours의 여자회 파티」
+  date: 2018-06-22
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 特典
+    media: CD
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/movie/#amazon-drama-cd
+  status: official
+  sources:
+  - https://www.lovelive-anime.jp/uranohoshi/bd/Blu-rayBox/
+  note: 'No track list published. Cast (as printed): 高海千歌(CV.伊波杏樹) , 桜内梨子(CV.逢田梨香子) , 松浦果南(CV.諏訪ななか) , 黒澤ダイヤ(CV.小宮有紗) , 渡辺 曜(CV.斉藤朱夏) , 津島善子(CV.小林愛香) ,国木田花丸(CV.高槻かなこ) , 小原鞠莉(CV.鈴木愛奈) , 黒澤ルビィ(CV.降幡 愛). release_date = Movie
+    BD release date 2019-07-26 (bonus delivered with the BD; for full-set bonuses with the last volume) - inferred, not printed for the CD.'
+  title: 録り下ろしドラマCD「Aqoursのお泊りプラン　～イタリア編～」
+  title_rom: Newly Recorded Drama CD "Aqours no Otomari Plan ~Italy-hen~"
+  title_ko: 신규 녹음 드라마 CD 「Aqours의 숙박 플랜 ~이탈리아 편~」
+  date: 2019-07-26
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 特典
+    media: CD
+- project: nijigasaki
+  source: https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/
+  status: official
+  note: 'No track list published. Scenario 伊藤睦美. Cast as printed: 高咲 侑(CV.矢野妃菜喜) , 上原歩夢(CV.大西亜玖璃) , 中須かすみ(CV.相良茉優) , 桜坂しずく(CV.前田佳織里) , 朝香果林(CV.久保田未夢) , 宮下 愛(CV.村上奈津実) , 近江彼方(CV.鬼頭明里) , 優木せつ菜(CV.楠木ともり) , エマ・ヴェルデ(CV. 指出毬亜) ,
+    天王寺璃奈(CV.田中ちえ美). release_date = last volume, TVA1 BD Vol.7 (BCXA-1596) 2021-06-25 (inferred).'
+  title: 録り下ろしドラマCD 『合宿……どこ行こう？』
+  title_rom: Newly Recorded Drama CD "Gasshuku... Doko Ikou?"
+  title_ko: 신규 녹음 드라마 CD 『합숙…… 어디 갈까?』
+  date: 2021-06-25
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 全巻購入特典
+    media: CD
+- project: nijigasaki
+  source: https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/
+  status: official
+  note: 'No track list published. Scenario 伊藤睦美. Cast as printed: 高咲 侑(CV.矢野妃菜喜) , 上原歩夢(CV.大西亜玖璃) , 中須かすみ(CV.相良茉優) , 桜坂しずく(CV.前田佳織里) , 朝香果林(CV.久保田未夢) , 宮下 愛(CV.村上奈津実) , 近江彼方(CV.鬼頭明里) , 優木せつ菜(CV.楠木ともり) , エマ・ヴェルデ(CV. 指出毬亜) ,
+    天王寺璃奈(CV.田中ちえ美) , 三船栞子(CV. 小泉萌香) , ミア・テイラー(CV.内田 秀) , 鐘嵐珠(CV. 法元明菜). release_date = last volume, TVA2 BD Vol.7 (BCXA-1755) 2022-12-23 (inferred).'
+  title: 録り下ろしドラマCD 『Go Go! ニジガク勉強会！』
+  title_rom: Newly Recorded Drama CD "Go Go! Nijigaku Benkyoukai!"
+  title_ko: 신규 녹음 드라마 CD 『Go Go! 니지가쿠 공부회!』
+  date: 2022-12-23
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 全巻購入特典
+    media: CD
+- project: liella
+  source: https://www.lovelive-anime.jp/yuigaoka/bd/tv1st/
+  status: official
+  sources:
+  - https://ja.wikipedia.org/wiki/Liella!
+  note: 'No title or track list published (only a synopsis). Cast: Liella! (5 members of season 1). release_date = TVA1 BD Vol.6 (last volume) 2022-02-25, inferred. The season 2 Amazon drama CD is already in the DB (liella/2023-tva2-bd-full-amazon).'
+  title: 録り下ろしドラマCD（TVアニメ1期 Amazon.co.jp全巻購入特典）
+  title_rom: Newly Recorded Drama CD (TV Anime Season 1 Amazon.co.jp Full-Set Bonus)
+  title_ko: 신규 녹음 드라마 CD (TV 애니메이션 1기 Amazon.co.jp 전권 구매 특전)
+  date: 2022-02-25
+  type: drama_cd
+  editions:
+  - label: Amazon.co.jp 全巻購入特典
+    media: CD
+- project: yohane
+  source: https://yohane.net/bd/novelty.php
+  status: official
+  note: No track list or cast published on the page. release_date = TVA1 BD Vol.7 (last volume) 2024-03-27, inferred. Web radio 「幻日のヨハネ -SUNSHINE in the MIRROR- きみの心の音を聴かせてRADIO」.
+  title: 「幻日のヨハネ -SUNSHINE in the MIRROR-」きみの心の音を聴かせてRADIO『ヨハラジ』スペシャル出張版 CD
+  title_rom: '"Yohane the Parhelion -SUNSHINE in the MIRROR-" Kimi no Kokoro no Oto o Kikasete RADIO "Yoharadi" Special Edition CD'
+  title_ko: 「환일의 요하네 -SUNSHINE in the MIRROR-」 너의 마음의 소리를 들려줘 RADIO 『요하라지』 스페셜 출장판 CD
+  date: 2024-03-27
+  type: radio_cd
+  editions:
+  - label: Amazon.co.jp 全巻購入特典
+    media: CD
+- project: aqours
+  source: https://ja.wikipedia.org/wiki/Aqours#radio-cd-vol1
+  status: established
+  sources:
+  - https://love-live.fandom.com/wiki/Information_Programs
+  note: 'No track list found (audio disc content described only).  vol.1 Oricon weekly #57 per ja.wikipedia.'
+  title: ラブライブ！サンシャイン!!Aqours浦の星女学院RADIO!!! vol.1
+  title_rom: Love Live! Sunshine!! Aqours Uranohoshi Jogakuin RADIO!!! vol.1
+  title_ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! vol.1
+  date: 2017-02-22
+  type: radio_cd
+  editions:
+  - catalog: HBKM-0113
+- project: aqours
+  source: https://ja.wikipedia.org/wiki/Aqours#radio-cd-vol2
+  status: established
+  sources:
+  - https://love-live.fandom.com/wiki/Information_Programs
+  note: 'No track list found (audio disc content described only). Catalog number not found. '
+  title: ラブライブ！サンシャイン!!Aqours浦の星女学院RADIO!!! vol.2
+  title_rom: Love Live! Sunshine!! Aqours Uranohoshi Jogakuin RADIO!!! vol.2
+  title_ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! vol.2
+  date: 2017-06-09
+  type: radio_cd
+- project: aqours
+  source: https://ja.wikipedia.org/wiki/Aqours#radio-cd-vol3
+  status: established
+  sources:
+  - https://love-live.fandom.com/wiki/Information_Programs
+  note: No track list found (audio disc content described only). vol.3 and vol.4 both dated 2019-10-09 by ja.wikipedia and Fandom.
+  title: ラブライブ！サンシャイン!!Aqours浦の星女学院RADIO!!! vol.3
+  title_rom: Love Live! Sunshine!! Aqours Uranohoshi Jogakuin RADIO!!! vol.3
+  title_ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! vol.3
+  date: 2019-10-09
+  type: radio_cd
+  editions:
+  - catalog: HBKM-0132
+- project: aqours
+  source: https://ja.wikipedia.org/wiki/Aqours#radio-cd-vol4
+  status: established
+  sources:
+  - https://love-live.fandom.com/wiki/Information_Programs
+  note: No track list found (audio disc content described only). vol.3 and vol.4 both dated 2019-10-09 by ja.wikipedia and Fandom.
+  title: ラブライブ！サンシャイン!!Aqours浦の星女学院RADIO!!! vol.4
+  title_rom: Love Live! Sunshine!! Aqours Uranohoshi Jogakuin RADIO!!! vol.4
+  title_ko: 러브 라이브! 선샤인!! Aqours 우라노호시 여학원 RADIO!!! vol.4
+  date: 2019-10-09
+  type: radio_cd
+  editions:
+  - catalog: HBKM-0133
+- project: hasunosora
+  source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6707
+  status: official
+  note: 'Announced, title and track list not yet published (NOW PRINTING). Planned content: 4 new songs + Off Vocal.'
+  title: 蓮ノ空女学院スクールアイドルクラブ 106期デビューシングル「タイトル未定」
+  title_rom: Hasunosora Girls' High School Idol Club 106th Debut Single "Title TBA"
+  title_ko: 하스노소라 여학원 스쿨 아이돌 클럽 106기 데뷔 싱글 「타이틀 미정」
+  date: 2026-12-30
+  type: single
+  editions:
+  - catalog: LACM-24838
+    media: CD
+- project: hasunosora
+  source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6694
+  status: official
+  note: 'Announced, title and track list not yet published. Planned: 2 songs incl. new + Off Vocal.'
+  title: みらくらぱーく！ 7thシングル「タイトル未定」
+  title_rom: Mira-Cra Park! 7th Single "Title TBA"
+  title_ko: 미라쿠라파크! 7th 싱글 「타이틀 미정」
+  date: 2026-12-23
+  type: single
+  editions:
+  - catalog: LACM-24726
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol1
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 1-8.
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.1
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.1
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.1
+  date: 2013-06-12
+  type: radio_cd
+  editions:
+  - catalog: LLMS-1
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol2
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 9-16.
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.2
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.2
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.2
+  date: 2014-01-22
+  type: radio_cd
+  editions:
+  - catalog: LLMS-2
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol3
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 17-26.
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.3
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.3
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.3
+  date: 2014-11-05
+  type: radio_cd
+  editions:
+  - catalog: LLMS-3
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol4
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 27-36.
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.4
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.4
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.4
+  date: 2015-02-25
+  type: radio_cd
+  editions:
+  - catalog: LLMS-4
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol5
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 37-46.
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.5
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.5
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.5
+  date: 2015-08-26
+  type: radio_cd
+  editions:
+  - catalog: LLMS-5
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol6
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 47-72. Fandom lists two data-disc lines for this volume (47-59 and 60-72 / 73-85 and 86-98).
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.6
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.6
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.6
+  date: 2016-04-27
+  type: radio_cd
+  editions:
+  - catalog: LLMS-6
+    media: CD
+- project: muse
+  source: https://love-live.fandom.com/wiki/Information_Programs#nicorinpana-radio-cd-vol7
+  status: established
+  note: Web radio 「ラブライブ！μ's広報部 〜にこりんぱな〜」 (2013-01-09 – 2016-03-23, HiBiKi). Printed title, label and track list not found (title_ja is descriptive). Disc 1 = newly recorded audio, not published as a track list; data 
+    disc(s) hold episodes 73-98. Fandom lists two data-disc lines for this volume (47-59 and 60-72 / 73-85 and 86-98).
+  title: ラブライブ！μ's広報部 〜にこりんぱな〜 ラジオCD Vol.7
+  title_rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio CD Vol.7
+  title_ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 CD Vol.7
+  date: 2016-07-27
+  type: radio_cd
+  editions:
+  - catalog: LLMS-7
+    media: CD
+- project: muse
+  source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+  status: official
+  sources:
+  - https://love-live.fandom.com/wiki/Love_Live!
+  note: Official page describes the content but prints no track numbers/titles; the track 1 title 「ようこそ、音ノ木坂へ！」 and the 2-track order are from Fandom (external). Track 2 title is the official description, not a printed 
+    track title.
+  title: ラブライブ！〜国立音ノ木坂学院案内〜 特典CD
+  title_rom: Love Live! ~Kokuritsu Otonokizaka Gakuin Annai~ Bonus CD
+  title_ko: 러브 라이브! ~국립 오토노키자카 학원 안내~ 특전 CD
+  date: 2013-12-25
+  type: bd_bonus
+  editions:
+  - label: ファンディスク 封入特典（BCXA-0704）
+    media: CD
+  tracks:
+  - title: ようこそ、音ノ木坂へ！
+    drama: true
+    singers: μ's
+    rom: Youkoso, Otonokizaka e!
+    ko: 어서 와, 오토노키자카에!
+    title_note: 'ja: Fandom 표기(공식 미게재), rom: 헵번식, ko: 번역안'
+  - title: 「ラブライブ！μ'ｓ広報部 〜にこりんぱな〜」出張版
+    drama: true
+    singers: 矢澤にこ(CV.徳井青空)、星空 凛(CV.飯田里穂)、小泉花陽(CV.久保ユリカ)
+    rom: "\"Love Live! μ's Kouhoubu ~NicoRinPana~\" Special Edition"
+    ko: 「러브 라이브! μ's 홍보부 ~니코린파나~」 출장판
+    title_note: 'ja: 공식 페이지의 내용 설명(트랙명 미게재), ko: 번역안'
+- project: muse
+  source: https://love-live.fandom.com/wiki/Muse's_New_Year_LoveLive!_2013
+  status: established
+  note: Not on any official page found; title_ja descriptive. Track titles from Fandom (punctuation width as given there, may differ from print). Cast not given. Release/distribution date unknown (concert 2013-01-03). 
+    날짜는 공연 첫날(티켓 특전 배포, 추정). 출연 미게재라 μ's로 둠
+  title: ラブライブ！μ's New Year LoveLive! 2013 プレミアムチケット特典ドラマCD
+  title_rom: Love Live! μ's New Year LoveLive! 2013 Premium Ticket Bonus Drama CD
+  title_ko: 러브 라이브! μ's New Year LoveLive! 2013 프리미엄 티켓 특전 드라마 CD
+  date: 2013-01-03
+  type: drama_cd
+  editions:
+  - label: プレミアムチケット購入特典
+    media: CD
+  artist: μ's
+  tracks:
+  - title: 明けましておめでとう!
+    drama: true
+    rom: Akemashite Omedetou!
+    ko: 새해 복 많이 받으세요!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+  - title: みんなで書初め!
+    drama: true
+    rom: Minna de Kakizome!
+    ko: 다 함께 새해 첫 붓글씨!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+  - title: 福袋の中身は?
+    drama: true
+    rom: Fukubukuro no Nakami wa?
+    ko: 복주머니 속에는?
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+  - title: 神様におねがい!
+    drama: true
+    rom: Kamisama ni Onegai!
+    ko: 신님께 부탁해!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+- project: muse
+  source: https://love-live.fandom.com/wiki/Muse's_NEXT_LoveLive!_2014_ENDLESS_PARADE
+  status: established
+  note: Not found on official pages; title_ja descriptive; track titles from Fandom (external). Distinct from the 「ENDLESS PARADE」 special CD single already in the DB. 날짜는 공연 첫날(티켓 특전 배포, 추정). 출연 미게재라 μ's로 둠
+  title: ラブライブ！μ's →NEXT LoveLive! 2014 ～ENDLESS PARADE～ プレミアムチケット特典ドラマCD
+  title_rom: Love Live! μ's →NEXT LoveLive! 2014 ~ENDLESS PARADE~ Premium Ticket Bonus Drama CD
+  title_ko: 러브 라이브! μ's →NEXT LoveLive! 2014 ~ENDLESS PARADE~ 프리미엄 티켓 특전 드라마 CD
+  date: 2014-02-08
+  type: drama_cd
+  editions:
+  - label: プレミアムチケット購入特典
+    media: CD
+  artist: μ's
+  tracks:
+  - title: たとえばこんな! ラブトレイン!
+    drama: true
+    rom: Tatoeba Konna! Love Train!
+    ko: 예를 들면 이런! 러브 트레인!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+  - title: たとえばこんな! スウィートホーム!
+    drama: true
+    rom: Tatoeba Konna! Sweet Home!
+    ko: 예를 들면 이런! 스위트 홈!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+  - title: たとえばこんな! パラレルロマンス!
+    drama: true
+    rom: Tatoeba Konna! Parallel Romance!
+    ko: 예를 들면 이런! 패러렐 로맨스!
+    title_note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'
+- project: muse
+  source: https://love-live.fandom.com/wiki/Love_Live!_1st_Season_Compilation_Album
+  status: established
+  note: NOT a CD - digital-only, included because requested ("delisted μ's season compilations"). Not in the label catalog or official site. Track titles are given on Fandom as song links in romaji; the Japanese 
+    spellings here are the standard titles of those songs, not verified against a print. Version marks (START:DASH!! (Full Member Ver.), 愛してるばんざーい！ (Piano Mix)) from Fandom.
+  title: ラブライブ！1st Season Compilation Album
+  title_rom: Love Live! 1st Season Compilation Album
+  title_ko: 러브 라이브! 1st Season Compilation Album
+  date: 2015-04-29
+  type: compilation
+  editions:
+  - media: 配信
+  legacy: false
+  tracks:
+  - title: 僕らは今のなかで
+    recording: muse/bokura-wa-ima-no-naka-de#original
+  - title: ススメ→トゥモロウ
+    recording: muse/susume-tomorrow#original
+  - title: START:DASH!!
+    recording: muse/start-dash#original
+  - title: これからのSomeday
+    recording: muse/korekara-no-someday#original
+  - title: 僕らのLIVE 君とのLIFE
+    recording: muse/bokura-no-live-kimi-to-no-life#original
+  - title: Wonder zone
+    recording: muse/wonder-zone#original
+  - title: No brand girls
+    recording: muse/no-brand-girls#original
+  - title: START:DASH!! (Full Member Ver.)
+    recording: muse/start-dash#muse
+  - title: きっと青春が聞こえる
+    recording: muse/kitto-seishun-ga-kikoeru#original
+- project: muse
+  source: https://love-live.fandom.com/wiki/Love_Live!_2nd_Season_Compilation_Album
+  status: established
+  note: NOT a CD - digital-only, included because requested ("delisted μ's season compilations"). Not in the label catalog or official site. Track titles are given on Fandom as song links in romaji; the Japanese 
+    spellings here are the standard titles of those songs, not verified against a print. Version marks (START:DASH!! (Full Member Ver.), 愛してるばんざーい！ (Piano Mix)) from Fandom.
+  title: ラブライブ！2nd Season Compilation Album
+  title_rom: Love Live! 2nd Season Compilation Album
+  title_ko: 러브 라이브! 2nd Season Compilation Album
+  date: 2015-04-29
+  type: compilation
+  editions:
+  - media: 配信
+  legacy: false
+  tracks:
+  - title: それは僕たちの奇跡
+    recording: muse/sore-wa-bokutachi-no-kiseki#original
+  - title: ユメノトビラ
+    recording: muse/yume-no-tobira#original
+  - title: Love wing bell
+    recording: muse/love-wing-bell#original
+  - title: Dancing stars on me!
+    recording: muse/dancing-stars-on-me#original
+  - title: Snow halation
+    recording: muse/snow-halation#original
+  - title: KiRa-KiRa Sensation!
+    recording: muse/kira-kira-sensation#original
+  - title: 愛してるばんざーい！ (Piano Mix)
+    recording: muse/aishiteru-banzai#piano-mix
+  - title: Oh,Love&Peace!
+    recording: muse/oh-love-peace#original
+  - title: Happy maker!
+    recording: muse/happy-maker#original
+  - title: どんなときもずっと
+    recording: muse/donna-toki-mo-zutto#original
+- project: aqours
+  source: https://www.lovelive-anime.jp/uranohoshi/bd/Blu-rayBox/#bonus-cd
+  status: official
+  note: Six CDs, but the split into discs and the track order are not published (listed here in page order, disc/no null). Whether Off Vocal versions are included is not stated. GEMSTONE “DE‐A‐I” is in the DB only as the
+    2025 digital single LZC-3057 (aqours/2025-gemstone-de-a-i); this BOX was its first release.
+  title: ラブライブ！サンシャイン!! Blu-ray BOX 特典CD
+  title_rom: Love Live! Sunshine!! Blu-ray BOX Bonus CD
+  title_ko: 러브 라이브! 선샤인!! Blu-ray BOX 특전 CD
+  date: 2022-03-29
+  type: bd_bonus
+  editions:
+  - label: Blu-ray BOX（初回限定生産） 封入特典 特典CD（6枚）（BCXA-1721）
+    media: 6CD
+  legacy: false
+  tracks:
+  - title: GEMSTONE “DE‐A‐I”
+    recording: aqours/gemstone-de-a-i#original
+  - title: Pops heartで踊るんだもん！
+    recording: aqours/pops-heart-de-odorundamon#original
+  - title: 空も心も晴れるから
+    recording: aqours/sora-mo-kokoro-mo-hareru-kara#original
+  - title: Waku-Waku-Week!
+    recording: aqours/waku-waku-week#original
+  - title: Daydream Warrior
+    recording: aqours/daydream-warrior#original
+  - title: G線上のシンデレラ
+    recording: aqours/g-senjou-no-cinderella#original
+  - title: スリリング・ワンウェイ
+    recording: aqours/thrilling-one-way#original
+  - title: 太陽を追いかけろ！
+    recording: aqours/taiyou-o-oikakero#original
+  - title: One More Sunshine Story
+    recording: aqours/one-more-sunshine-story#original
+  - title: おやすみなさん！
+    recording: aqours/oyasuminasan#original
+  - title: in this unstable world
+    recording: aqours/in-this-unstable-world#original
+  - title: Pianoforte Monologue
+    recording: aqours/pianoforte-monologue#original
+  - title: Beginner’s Sailing
+    recording: aqours/beginner-s-sailing#original
+  - title: RED GEM WINK
+    recording: aqours/red-gem-wink#original
+  - title: WHITE FIRST LOVE
+    recording: aqours/white-first-love#original
+  - title: New winding road
+    recording: aqours/new-winding-road#original
+  - title: さかなかなんだか？
+    recording: aqours/sakanakanandaka#original
+  - title: キセキヒカル
+    recording: aqours/kiseki-hikaru#original
+  - title: i-n-g, I TRY!!
+    recording: aqours/i-n-g-i-try#original
+  - title: Guilty Eyes Fever
+    recording: aqours/guilty-eyes-fever#original
+  - title: P.S.の向こう側
+    recording: aqours/p-s-no-mukougawa#original
+  - title: LONELY TUNING
+    recording: aqours/lonely-tuning#original
+  - title: Guilty!? Farewell party
+    recording: aqours/guilty-farewell-party#original
+  - title: サクラバイバイ
+    recording: aqours/sakura-bye-bye#original
+  - title: 卒業ですね
+    recording: aqours/sotsugyou-desu-ne#original
+  - title: ハジマリロード
+    recording: aqours/hajimari-road#original
+  - title: Marine Border Parasol
+    recording: aqours/marine-border-parasol#original
+  - title: 予測不可能 Driving！
+    recording: aqours/yosoku-fukanou-driving#original
+  credits_note: 공식 페이지는 수록 곡만 인쇄(6CD, 디스크 나눔·순서 미게재). 드라마 CD 3작은 따로 넣음
+- project: aqours
+  source: https://catalog.bandainamcomusiclive.co.jp/release/70019/
+  status: established
+  sources:
+  - https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_Aqours_World_LoveLive!_Blu-ray_Memorial_BOX
+  - https://love-live.fandom.com/wiki/Omoi_yo_Hitotsu_ni_Nare
+  - https://otakumode.com/shop/61933742ba67704ec6b99848
+  note: The box itself is a live Blu-ray (live domain); recorded here only for the CD with the 9-member version. Official/label pages do not list the CD; whether it also carries an Off Vocal track is unknown (Fandom 
+    lists an Off Vocal file on the song page without saying where it came from). Recording not in the DB works (aqours/omoi-yo-hitotsu-ni-nare has no 9人Ver.).
+  title: ラブライブ！サンシャイン!! Aqours World LoveLive! Blu-ray Memorial BOX 封入CD（想いよひとつになれ（9人Ver.））
+  title_rom: Love Live! Sunshine!! Aqours World LoveLive! Blu-ray Memorial BOX CD (Omoi yo Hitotsu ni Nare (9-nin Ver.))
+  title_ko: 러브 라이브! 선샤인!! Aqours World LoveLive! Blu-ray Memorial BOX 동봉 CD (마음이여 하나가 되어라 (9인 Ver.))
+  date: 2022-02-16
+  type: bd_bonus
+  editions:
+  - label: Blu-ray Memorial BOX (2BD+CD)（LABX-8540）
+    media: CD
+  tracks:
+  - title: 想いよひとつになれ（9人Ver.）
+    singers: Aqours

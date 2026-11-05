@@ -39,6 +39,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd05.php
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: 未来予報ハレルヤ！ 〜TV Size〜
+      rom: Mirai Yohou Hallelujah! ~TV Size~
+      ko: 미래예보 할렐루야! ~TV Size~
+    version: TV Size
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

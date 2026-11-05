@@ -1,0 +1,37 @@
+id: aqours/fns-kayousai-2020
+projects: [aqours]
+status: performed
+title:
+  ja: 2020FNS歌謡祭 第1夜
+  rom: 2020 FNS Kayousai Dai 1 Ya
+  ko: 2020 FNS 가요제 제1야
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: universal-studios-japan
+    performances:
+      - date: 2020-12-02
+        setlist:
+          - {type: other, label: ジングルベル (Aqours × AKB48)}
+evidence:
+  cast:
+    status: official
+    source: https://www.fujitv.co.jp/FNS/table1.html
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  setlist.2020-12-02:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.fujitv.co.jp/FNS/table1.html
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2020-12-02] Aqours. Performance was a collaboration segment with Universal Studios Japan; whether it was live from USJ or pre-recorded there is not stated, so the date may be the air date only. Venue inferred from the USJ collaboration billing. / 근거: https://www.fujitv.co.jp/FNS/table1.html (Fuji TV 第1夜 timetable (Wayback 20201204090157): 19時頃〜 Aqours × ユニバーサル・スタジオ・ジャパン「ジングルベルがとまらない」); http://www.lovelive-anime.jp/uranohoshi/news.php?id=7081 (Aqours official news 2020/11/19 (Wayback 20201122123605): FNS歌謡祭 第１夜 12月2日(水) 18:30～23:38, ユニバーサル・スタジオ・ジャパンさんとのコラボでお届け)'
+  schedule:
+    status: official
+    source: https://www.fujitv.co.jp/FNS/table1.html
+    checked: 2026-11-05

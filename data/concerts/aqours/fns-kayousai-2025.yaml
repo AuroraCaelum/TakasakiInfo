@@ -1,0 +1,37 @@
+id: aqours/fns-kayousai-2025
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: 2025 FNS歌謡祭 第1夜
+  rom: 2025 FNS Kayousai Dai 1 Ya
+  ko: 2025 FNS 가요제 제1야
+cast:
+  - {artist: aiscream}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2025-12-03
+        setlist:
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+evidence:
+  cast:
+    status: official
+    source: https://www.fujitv.co.jp/FNS/
+    checked: 2026-11-05
+    note: '출연란: AiScReam'
+  setlist.2025-12-03:
+    status: official
+    source: https://www.fujitv.co.jp/FNS/
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.fujitv.co.jp/FNS/
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2025-12-03] AiScReam. Live broadcast. Official page lists the group but not the song; song from jawiki. Members not confirmed individually. / 근거: https://www.fujitv.co.jp/FNS/ (Fuji TV 2025 FNS page (Wayback 20251202104706): DAY1 12月3日 ARTISTS incl. AiScReam)'
+  schedule:
+    status: official
+    source: https://www.fujitv.co.jp/FNS/
+    checked: 2026-11-05

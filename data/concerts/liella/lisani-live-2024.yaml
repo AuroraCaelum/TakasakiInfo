@@ -1,0 +1,51 @@
+id: liella/lisani-live-2024
+projects: [liella]
+status: performed
+title:
+  ja: リスアニ！LIVE 2024
+  rom: LisAni! LIVE 2024
+  ko: 리스아니! LIVE 2024
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-budokan
+    performances:
+      - date: 2024-01-28
+        setlist:
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3230
+    checked: 2026-11-04
+    note: '출연란: Liella!'
+  setlist.2024-01-28:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=379499
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3230
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2024-01-28 SUNDAY STAGE] Liella!. Two-day event 1/27 (SATURDAY STAGE) and 1/28 (SUNDAY STAGE). Liella!'s first Nippon Budokan appearance. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3230 (Liella! official news 2024-03-11 (via Wayback 20240530011159): Liella! appeared at 「リスアニ！LIVE 2024」 2024年1月28日＜SUNDAY STAGE＞ (first Budokan,)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3230
+    checked: 2026-11-04

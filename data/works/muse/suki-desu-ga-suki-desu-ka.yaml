@@ -41,6 +41,38 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06
         checked: 2026-10-20
+  - id: kotori-mix
+    title:
+      ja: 好きですが好きですか？ (KOTORI Mix)
+      rom: Suki desu ga Suki desu ka? (KOTORI Mix)
+      ko: 좋아하는데 좋아하나요? (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: 好きですが好きですか？ (HANAYO Mix)
+      rom: Suki desu ga Suki desu ka? (HANAYO Mix)
+      ko: 좋아하는데 좋아하나요? (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd06)과 같다고 봄
 evidence:
   title:
     status: derived

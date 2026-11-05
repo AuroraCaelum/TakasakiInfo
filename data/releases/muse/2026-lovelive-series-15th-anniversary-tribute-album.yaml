@@ -22,6 +22,21 @@ discs:
       - {no: 9, recording: nijigasaki/fly-with-you#15th-tribute}
       - {no: 10, recording: muse/kira-kira-sensation#15th-tribute}
       - {no: 11, recording: liella/start-true-dreams#15th-tribute}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_N8Vvln9yN9D
+    tracks:
+      1-1: 8BdDhc73Jro
+      1-2: ihrIBXK24hA
+      1-3: dhmPx7NPETk
+      1-4: IWZgTuV2Ma8
+      1-5: J3hzdBkd6bg
+      1-6: rJo4wNTQz6k
+      1-7: GfOfLv6Tkg4
+      1-8: ORRn0piouwI
+      1-9: vyvVLaJBQAc
+      1-10: eQhgI8Nk8rI
+      1-11: x7ePGjYIHfw
 links:
   official: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
   smartlink: https://lnk.to/LACA-25260d
@@ -47,3 +62,8 @@ evidence:
   legacy:
     status: derived
     note: 크로스 프로젝트처럼 레거시 category는 Others, 원곡 프로젝트 다섯 그룹 파일에 모두 넣는다 (D45, D52)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_N8Vvln9yN9D
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

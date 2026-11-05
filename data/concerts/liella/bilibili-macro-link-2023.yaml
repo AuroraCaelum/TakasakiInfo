@@ -1,0 +1,53 @@
+id: liella/bilibili-macro-link-2023
+projects: [liella]
+status: performed
+title:
+  ja: BILIBILI MACRO LINK 2023
+  rom: BILIBILI MACRO LINK 2023
+  ko: BILIBILI MACRO LINK 2023
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: mercedes-benz-arena-shanghai
+    performances:
+      - date: 2023-07-22
+        setlist:
+          - work: liella/tiny-stars
+            recording: liella/tiny-stars#tv-size
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - work: liella/sing-shine-smile
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2370
+    checked: 2026-11-04
+    note: '출연란: Liella!'
+  setlist.2023-07-22:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#BILIBILI_MACRO_LINK_2023
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2370
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2023-07-22] Liella!. Per Moegirl the 3rd-generation members did not take part. No official bilibili page located. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2370 (Liella! official news 2023-07-19 (via Wayback 20241006140816): Liella! appears at BILIBILI WORLD 2023 (7/21-23, stage 【遇见动漫-次元舞台】, bw.bilibi)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2370
+    checked: 2026-11-04

@@ -35,6 +35,54 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
         checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: 秋のあなたの空遠く (NOZOMI Mix)
+      rom: Aki no Anata no Sora Tooku (NOZOMI Mix)
+      ko: 가을의 당신의 하늘 저 멀리 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: 秋のあなたの空遠く (RIN Mix)
+      rom: Aki no Anata no Sora Tooku (RIN Mix)
+      ko: 가을의 당신의 하늘 저 멀리 (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: 秋のあなたの空遠く (UMI Mix)
+      rom: Aki no Anata no Sora Tooku (UMI Mix)
+      ko: 가을의 당신의 하늘 저 멀리 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takeshi-masuda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
 evidence:
   title:
     status: derived

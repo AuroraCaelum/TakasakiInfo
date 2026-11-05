@@ -41,6 +41,24 @@ recordings:
         status: official
         source: https://www.yohane.net/music/detail/?id=7
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Hey, dear my friends (TVサイズ)
+      rom: Hey, dear my friends (TV Size)
+      ko: Hey, dear my friends (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: yohane/yohane}
+      - {character: yohane/riko}
+      - {character: yohane/mari}
+    arranger:
+      - {person: hayato-yamamoto}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.yohane.net/music/detail/?id=5
+        checked: 2026-10-26
+        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

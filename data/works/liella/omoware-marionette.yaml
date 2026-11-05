@@ -1,0 +1,54 @@
+id: liella/omoware-marionette
+project: liella
+title:
+  ja: 想われマリオネット
+  rom: Omoware Marionette
+  ko: 사랑받는 마리오네트
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takuya-ohata}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/chisato-arashi}
+      - {character: liella/ren-hazuki}
+      - {character: liella/natsumi-onitsuka}
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.youtube.com/watch?v=CH2ugMWA1JM
+        checked: 2026-10-27
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 想われマリオネット (Off Vocal)
+      rom: Omoware Marionette (Off Vocal)
+      ko: 사랑받는 마리오네트 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-ohata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.youtube.com/watch?v=CH2ugMWA1JM
+        checked: 2026-10-27
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+evidence:
+  title:
+    status: derived
+    source: https://www.youtube.com/watch?v=CH2ugMWA1JM
+    checked: 2026-11-05
+    note: '공식 미게재: ja: 공식 YouTube 미리 듣기 영상. rom: Fandom(Omoware Marionette), ko: 번역안'
+  credits:
+    status: official
+    source: https://www.youtube.com/watch?v=CH2ugMWA1JM
+    checked: 2026-10-27
+    note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음

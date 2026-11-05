@@ -1,0 +1,57 @@
+id: liella/cdtv-live-live-festival-2022
+projects: [liella]
+status: performed
+title:
+  ja: CDTVライブ！ライブ！フェスティバル！2022
+  rom: CDTV Live! Live! Festival! 2022
+  ko: CDTV 라이브! 라이브! 페스티벌! 2022
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2022-09-17
+        setlist:
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1000
+    checked: 2026-11-04
+    note: '출연란: Liella!１期生'
+  setlist.2022-09-17:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#CDTV_Live!_Live!_Festival!_2022
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1000
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2022-09-17 DAY1] Liella!１期生. Public concert with audience organised around the TBS programme (later aired), so classed live_event, not a studio broadcast. Performers announced as 'Liella!１期生' (5 first-years); no individual names printed. Fandom also lists a 'Solo Dance Performance'. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1000 (Liella! official news 2022-08-29 (via Wayback 20220829145944): 「CDTVライブ!ライブ!フェスティバル!2022」 9/17-18 東京ガーデンシアター; Liella!1期生 on 9/17(土) 17:00, w); https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1045 (Liella! official news 2022-09-12 (via Wayback 20220925154814): 'Liella!１期生出演「CDTVライブ!ライブ!フェスティバル!2022」' live stream (TBS チケット/Paravi) for 9/); https://kyodonewsprwire.jp/release/202208305655 (Press release by 株式会社キョードーメディアス (promoter) 2022-08-30: ＣＤＴＶライブ！ライブ！フェスティバル！２０２２, 9/17(土)・18(日) 東京ガーデンシアター; 9/17: 「ラブライブ！スーパースター!!」Liella!１期生)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1000
+    checked: 2026-11-04

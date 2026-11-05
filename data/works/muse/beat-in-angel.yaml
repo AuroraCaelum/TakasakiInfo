@@ -43,6 +43,38 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+  - id: rin-mix
+    title:
+      ja: Beat in Angel (RIN Mix)
+      rom: Beat in Angel (RIN Mix)
+      ko: Beat in Angel (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: Beat in Angel (MAKI Mix)
+      rom: Beat in Angel (MAKI Mix)
+      ko: Beat in Angel (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
 evidence:
   title:
     status: derived

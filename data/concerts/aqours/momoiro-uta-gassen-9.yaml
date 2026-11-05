@@ -1,0 +1,40 @@
+id: aqours/momoiro-uta-gassen-9
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: 第9回 ももいろ歌合戦
+  rom: The 9th Momoiro Uta Gassen
+  ko: 제9회 모모이로 우타갓센
+cast:
+  - {artist: aiscream}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-budokan
+    performances:
+      - date: 2025-12-31
+        setlist:
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+evidence:
+  cast:
+    status: established
+    source: https://www.oricon.co.jp/news/2428363/full/
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: AiScReam'
+  setlist.2025-12-31:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#The_9th_Momoiro_Uta_Gassen
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.oricon.co.jp/news/2428363/full/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-12-31] AiScReam. AiScReam appearance, not Liella!. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://www.oricon.co.jp/news/2428363/full/
+    checked: 2026-11-04
+    note: 공식 미게재

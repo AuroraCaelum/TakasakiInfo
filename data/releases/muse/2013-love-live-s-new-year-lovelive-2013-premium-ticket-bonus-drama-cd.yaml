@@ -1,0 +1,53 @@
+id: muse/2013-love-live-s-new-year-lovelive-2013-premium-ticket-bonus-drama-cd
+type: drama_cd
+title:
+  ja: ラブライブ！μ's New Year LoveLive! 2013 プレミアムチケット特典ドラマCD
+  rom: Love Live! μ's New Year LoveLive! 2013 Premium Ticket Bonus Drama CD
+  ko: 러브 라이브! μ's New Year LoveLive! 2013 프리미엄 티켓 특전 드라마 CD
+projects: [muse]
+artist_credit:
+  - {artist: muse}
+release_date: 2013-01-03
+editions:
+  - id: e1
+    label:
+      ja: プレミアムチケット購入特典
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/akemashite-omedetou#main}
+      - {no: 2, recording: muse/minna-de-kakizome#main}
+      - {no: 3, recording: muse/fukubukuro-no-nakami-wa#main}
+      - {no: 4, recording: muse/kamisama-ni-onegai#main}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_SIXp8F6bMM1
+    tracks:
+      1-1: nc583p7CAxM
+links:
+  official: https://love-live.fandom.com/wiki/Muse's_New_Year_LoveLive!_2013
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！μ's New Year LoveLive! 2013 プレミアムチケット特典ドラマCD}
+evidence:
+  tracks:
+    status: established
+    source: https://love-live.fandom.com/wiki/Muse's_New_Year_LoveLive!_2013
+    checked: 2026-11-04
+    note: "공식 미게재: Not on any official page found; title_ja descriptive. Track titles from Fandom (punctuation width as given there, may differ from print). Cast not given. Release/distribution date unknown (concert 2013-01-03). 날짜는 공연 첫날(티켓 특전 배포, 추정). 출연 미게재라 μ's로 둠"
+  editions:
+    status: established
+    source: https://love-live.fandom.com/wiki/Muse's_New_Year_LoveLive!_2013
+    checked: 2026-11-04
+    note: "공식 미게재: Not on any official page found; title_ja descriptive. Track titles from Fandom (punctuation width as given there, may differ from print). Cast not given. Release/distribution date unknown (concert 2013-01-03). 날짜는 공연 첫날(티켓 특전 배포, 추정). 출연 미게재라 μ's로 둠"
+  title:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Muse's_New_Year_LoveLive!_2013
+    checked: 2026-11-05
+    note: 공식 미게재
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_SIXp8F6bMM1
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

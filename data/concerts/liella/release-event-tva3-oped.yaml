@@ -1,0 +1,89 @@
+id: liella/release-event-tva3-oped
+projects: [liella]
+status: performed
+title:
+  ja: TVアニメ『ラブライブ！スーパースター!!』3期OP＆ED主題歌リリースイベント
+  rom: TV Anime "Love Live! Superstar!!" Season 3 OP & ED Theme Song Release Event
+  ko: TV 애니메이션 『러브 라이브! 슈퍼스타!!』 3기 OP & ED 주제가 릴리스 이벤트
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: sonic-city-main-hall
+    performances:
+      - date: 2024-10-28
+        label: 1回目
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video, label: History Retrospect}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+      - date: 2024-10-28
+        label: 2回目
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/within-a-dream
+            performers:
+              - {artist: liella}
+          - {type: video, label: History Retrospect}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=tv3oped
+    checked: 2026-11-04
+  setlist.2024-10-28:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=tv3oped
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: City: ソニックシティ is in Saitama City (venue page does not print the city). / 근거: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=tv3oped (event page (Wayback 20251029020603): 2024年10月28日（月） ＜1回目＞14:00開場／15:00開演 ＜2回目＞17:30開場／18:30開演, 会場 ソニックシティ 大ホール, 出演 Liell); https://www.lovelive-anime.jp/yuigaoka/live/?page=2 (Liella! live list entry (2024年10月28日(月), ソニックシティ 大ホール))'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=tv3oped
+    checked: 2026-11-04

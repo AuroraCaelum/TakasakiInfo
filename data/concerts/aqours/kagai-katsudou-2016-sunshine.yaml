@@ -1,0 +1,44 @@
+id: aqours/kagai-katsudou-2016-sunshine
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours スペシャル課外活動 みんな準備はできてるかい？～せーのでSUNSHINE!!～
+  rom: Love Live! Sunshine!! Aqours Special Extracurricular Activity Minna Junbi wa Dekiteru kai? ~Se-no de SUNSHINE!!~
+  ko: 러브 라이브! 선샤인!! Aqours 스페셜 과외 활동 모두 준비는 됐어? ~하나 둘 SUNSHINE!!~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: mielparque-hall-tokyo
+    performances:
+      - date: 2016-01-11
+        setlist:
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+evidence:
+  setlist.2016-01-11:
+    status: established
+    source: https://love-live.fandom.com/wiki/Aqours_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php
+    checked: 2026-11-05
+    note: 'ja: 공식 뉴스 표기(できてるかい, LL-Fans https://ll-fans.jp/data/event/1 도 같음. Fandom {{Nihongo}}의 できるかい는 오기). rom·ko: 번역안'
+  schedule:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php
+    checked: 2026-11-04
+    note: 회장 비공개(都内某所). 회장은 venue 근거(LL-Fans)
+  venue:
+    status: established
+    source: https://ll-fans.jp/data/event/1
+    checked: 2026-11-05
+    note: '공식 미게재: 공식 뉴스는 회장 비공개(都内某所). LL-Fans 공연 데이터의 회장(사용자 확인)'

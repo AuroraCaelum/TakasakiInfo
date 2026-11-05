@@ -1,0 +1,60 @@
+id: muse/animelo-2015
+projects: [muse]
+status: performed
+title:
+  ja: Animelo Summer Live 2015 -THE GATE-
+  rom: Animelo Summer Live 2015 -THE GATE-
+  ko: Animelo Summer Live 2015 -THE GATE-
+cast:
+  - {artist: muse}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2015-08-28
+        setlist:
+          - {type: other, label: 'READY!! (765PRO ALLSTARS, 메들리 01)'}
+          - work: muse/bokura-wa-ima-no-naka-de
+            version: メドレー・ショートVer.
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            version: メドレー・ショートVer.
+            performers:
+              - {artist: muse}
+          - {type: other, label: 'キラメキラリ (765PRO ALLSTARS, 메들리 02)'}
+          - work: muse/no-brand-girls
+            version: メドレー・ショートVer.
+            performers:
+              - {artist: muse}
+          - {type: other, label: 'GO MY WAY!! (765PRO ALLSTARS, 메들리 02)'}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2015/special/setlist.html
+    checked: 2026-11-04
+    note: "출연란: μ's; アイドルマスター (765PRO ALLSTARS) — collaboration opening"
+  setlist.2015-08-28:
+    status: official
+    source: https://anisama.tv/2015/special/setlist.html
+    checked: 2026-11-05
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). 메들리 2개(01·02)의 곡 구성·순서는 LL-Fans https://ll-fans.jp/data/event/101 (Fandom과 같음). 南條愛乃는 토크만 참가(LL-Fans)
+  title:
+    status: derived
+    source: https://anisama.tv/2015/special/setlist.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2015-08-28 DAY1] μ's; アイドルマスター (765PRO ALLSTARS) — collaboration opening. Organizer prints the collab as two medley entries (01, 02); Fandom splits them into 6 songs. 765PRO cast per Fandom: 中村繪里子, 今井麻美, 浅倉杏美, 下田麻美, 原由実, 沼倉愛美. / 근거: https://anisama.tv/2015/special/setlist.html (organizer setlist, block headed (image) '8月28日(金) セットリスト': 01-02 アイドルマスター×μ's medleys, 37-39 μ's; meta: 8/28-30 さいたまスーパーアリーナ). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/101로 메들리 구성 확인"
+  schedule:
+    status: official
+    source: https://anisama.tv/2015/special/setlist.html
+    checked: 2026-11-04

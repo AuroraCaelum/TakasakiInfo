@@ -1,0 +1,43 @@
+id: ikizulive/anipero-fes-2025
+projects: [ikizulive]
+status: performed
+title:
+  ja: あにぺろフェス
+  rom: Anipero Fes
+  ko: 아니페로 페스
+cast:
+  - {character: ikizulive/aurora-konohana}
+stops:
+  - id: 1-fukuoka
+    city: fukuoka
+    venue: jr-kyushu-hall-jr-hakata-city-9f
+    performances:
+      - date: 2025-10-13
+        setlist:
+          - work: ikizulive/what-is-my-life
+            recording: ikizulive/what-is-my-life#aurora-konohana-solo-ver
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+evidence:
+  cast:
+    status: official
+    source: https://fmfukuoka.co.jp/program/anime/blog/7538.html
+    checked: 2026-11-04
+    note: '출연란: 天沢朱音(此花輝夜)'
+  setlist.2025-10-13:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities#Anipero_Fest
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://fmfukuoka.co.jp/program/anime/blog/7538.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-10-13] 天沢朱音(此花輝夜). Organised by FM FUKUOKA's radio programme 'あにぺろ' but this is a staged concert, not a broadcast. Only one Ikizurai-Bu! member (天沢朱音 as 此花輝夜). 前田佳織里 (Nijigasaki's 桜坂しずく) is also on the bill, but as a solo artist under her own name, not as Nijigasaki - not counted. No lovehigh news page announcing it was found in the Wayback captures (only FM Fukuoka radio-guest news 01_5227/01_5461). / 근거: https://fmfukuoka.co.jp/program/anime/blog/7538.html (FM FUKUOKA organizer page 'あにぺろフェス': FM FUKUOKA開局55周年・番組5年目記念の初のフェス; 2025年10月13日(月・祝) 16:00開場/17:00開演; 会場 JR九州ホール（JR博多シティ9F）福岡市博多区博多駅中央街1-1;)"
+  schedule:
+    status: official
+    source: https://fmfukuoka.co.jp/program/anime/blog/7538.html
+    checked: 2026-11-04

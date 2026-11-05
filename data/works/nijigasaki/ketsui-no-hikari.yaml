@@ -24,6 +24,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 決意の光 (Off Vocal)
+      rom: Ketsui no Hikari (Off Vocal)
+      ko: 결의의 빛 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

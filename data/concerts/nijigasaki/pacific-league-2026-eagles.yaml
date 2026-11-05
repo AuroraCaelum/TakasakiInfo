@@ -1,0 +1,32 @@
+id: nijigasaki/pacific-league-2026-eagles
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！シリーズ×パ・リーグ6球団 2026 コラボ試合 東北楽天ゴールデンイーグルス vs 千葉ロッテ「スペシャルトークイベント」
+  rom: Love Live! Series × Pacific League 6 Teams 2026 Collaboration Game Tohoku Rakuten Golden Eagles vs Chiba Lotte "Special Talk Event"
+  ko: 러브 라이브! 시리즈×퍼시픽 리그 6구단 2026 콜라보 경기 도호쿠 라쿠텐 골든이글스 vs 지바 롯데 「스페셜 토크 이벤트」
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+stops:
+  - id: 1-miyagi
+    city: miyagi
+    venue: rakuten-mobile-saikyo-park-miyagi
+    performances:
+      - {date: 2026-05-23}
+evidence:
+  cast:
+    status: official
+    source: https://www.rakuteneagles.jp/news/detail/202601001236.html
+    checked: 2026-11-05
+    note: '출연란: 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ)'
+  title:
+    status: derived
+    source: https://www.rakuteneagles.jp/news/detail/202601001236.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2026-05-23] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ). Schedule is the pre-event plan ('変更となる可能性'); press reports after the day only describe the ceremonial pitch, so the talk event's actual run is unconfirmed. They also had a short slot at the 'EAGLE STAGE' in the stadium's front plaza (12:35-12:45). No songs listed. City is the stadium's location, not printed on the source. / 근거: https://www.rakuteneagles.jp/news/detail/202601001236.html (Eagles news (updated 2026/05/07; Wayback 20260507043136; live site geo-blocked): 5月23日（土）千葉ロッテ戦 14:00; 大西 亜玖璃さん（上原 歩夢 役）, 相良 茉優さん（中須 かすみ 役);). 결정(D57): 진행 확인(사용자)"
+  schedule:
+    status: official
+    source: https://www.rakuteneagles.jp/news/detail/202601001236.html
+    checked: 2026-11-05
+    note: 토크 이벤트는 예정대로 진행됨(사용자 확인 D57)

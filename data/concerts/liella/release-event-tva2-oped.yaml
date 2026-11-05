@@ -1,0 +1,83 @@
+id: liella/release-event-tva2-oped
+projects: [liella]
+status: performed
+title:
+  ja: TVアニメ『ラブライブ！スーパースター!!』2期OP＆ED主題歌連動リリースイベント
+  rom: TV Anime "Love Live! Superstar!!" Season 2 OP & ED Theme Song Joint Release Event
+  ko: TV 애니메이션 『러브 라이브! 슈퍼스타!!』 2기 OP & ED 주제가 연동 릴리스 이벤트
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2022-09-21
+        label: 1回目
+        setlist:
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: video, label: History Retrospect}
+          - work: liella/watashi-no-symphony
+            recording: liella/watashi-no-symphony#2022ver
+            performers:
+              - {artist: liella}
+      - date: 2022-09-21
+        label: 2回目
+        setlist:
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - work: liella/mizushibuki-no-sign
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/oi-kakeru-yume-no-saki-de
+            performers:
+              - {artist: liella}
+          - {type: video, label: History Retrospect}
+          - work: liella/watashi-no-symphony
+            recording: liella/watashi-no-symphony#2022ver
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_2ndoped/
+    checked: 2026-11-04
+  setlist.2022-09-21:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_2ndoped/
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Venue undisclosed (winners only); Fandom calls it an online event. Two shows the same day, each streamed with a code from a different CD. / 근거: https://www.lovelive-anime.jp/yuigaoka/live/sp_2ndoped/ (event page (Wayback 20250717155811): 日程 2022年9月21日(水), 場所 当選者のみにお知らせ, トーク＆ライブ, 【1回目】15:00/16:00 【2回目】18:30/19:30, 出演 Lie)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_2ndoped/
+    checked: 2026-11-04

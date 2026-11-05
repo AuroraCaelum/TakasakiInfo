@@ -1,0 +1,65 @@
+id: liella/choujigen-ongakusai-fuyu-fes-2025
+projects: [liella]
+status: performed
+title:
+  ja: オダイバ!!超次元音楽祭 フユフェス2025
+  rom: Odaiba!! Choujigen Ongakusai Fuyu Fes 2025
+  ko: 오다이바!! 초차원 음악제 후유 페스 2025
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2025-02-23
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/aikotoba
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.choujigen-ongakusai.jp/outline.html
+    checked: 2026-11-04
+    note: '출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ); 坂倉花(鬼塚冬毬)'
+  setlist.2025-02-23:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_Winter_Festival_2025
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.choujigen-ongakusai.jp/outline.html
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-02-23] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ); 坂倉花(鬼塚冬毬). 青山なぎさ and 絵森彩 not in the announced cast (matches Fandom). Aqours (逢田梨香子, 諏訪ななか, 小宮有紗, 小林愛香) on the same bill. / 근거: https://web.archive.org/web/20241218155241/https://www.choujigen-ongakusai.jp/outline.html (Organizer outline: 2025年2月23日(日) ぴあアリーナMM, single day); https://web.archive.org/web/20250622214242/https://www.choujigen-ongakusai.jp/artists.html (Organizer artists: Liella! with 9 cast names and roles; Aqours also on bill)'
+  schedule:
+    status: official
+    source: https://www.choujigen-ongakusai.jp/outline.html
+    checked: 2026-11-04

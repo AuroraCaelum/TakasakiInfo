@@ -1,0 +1,56 @@
+id: liella/summer-sonic-2022
+projects: [liella]
+status: performed
+title:
+  ja: SUMMER SONIC 2022
+  rom: SUMMER SONIC 2022
+  ko: SUMMER SONIC 2022
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - date: 2022-08-21
+        setlist:
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_557
+    checked: 2026-11-04
+    note: '출연란: Liella!1期生'
+  setlist.2022-08-21:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#SUMMER_SONIC_2022
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_557
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2022-08-21 東京・PACIFIC STAGE] Liella!1期生. Tokyo leg was ZOZOマリンスタジアム & 幕張メッセ (Chiba) 8/20-21. Official news confirms 8/21 on PACIFIC STAGE. That stage was in Makuhari Messe per Fandom and the shop location; the hall is not named. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_557 (Liella! official news 2022-05-19 (via Wayback 20220608223328): SUMMER SONIC 2022 8/20-21 ZOZOマリンスタジアム＆幕張メッセ; Liella!1期生 on 8月21日(日) 東京・PACIF); https://lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_975 (Liella! official news 2022-08-21 (via Wayback 20220821014013): 'SUMMER SONIC 2022 東京・PACIFIC STAGEへのLiella!出演' on 8月21日(日); goods sold at th)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_557
+    checked: 2026-11-04
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

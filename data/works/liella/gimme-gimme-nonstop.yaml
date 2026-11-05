@@ -1,0 +1,51 @@
+id: liella/gimme-gimme-nonstop
+project: liella
+title:
+  ja: ギミギミノンストップ
+  rom: Gimme Gimme Nonstop
+  ko: 기미기미 논스톱
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: meg-i}
+    - {person: hironori-sugai}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: shinpei-nozaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: ギミギミノンストップ (Off Vocal)
+      rom: Gimme Gimme Nonstop (Off Vocal)
+      ko: 기미기미 논스톱 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: shinpei-nozaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-05
+    note: 'rom: 외래어는 영어 철자(ノンフィクション!! 등과 같음), ko: 음역안'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-04

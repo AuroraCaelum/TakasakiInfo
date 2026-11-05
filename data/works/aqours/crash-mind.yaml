@@ -21,6 +21,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
         checked: 2026-10-19
+  - id: short-size
+    title:
+      ja: CRASH MIND (Shortサイズ)
+      rom: CRASH MIND (Short Size)
+      ko: CRASH MIND (Short 사이즈)
+    version: Shortサイズ
+    performers:
+      - {artist: saint-snow}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

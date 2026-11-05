@@ -4,7 +4,26 @@ title:
   ja: SESSION!
   rom: SESSION!
   ko: SESSION!
-recordings: []
+recordings:
+  - id: live-ijigen-fes-2023-2023-12-09
+    title:
+      ja: SESSION! (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: SESSION! (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: SESSION! (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: nijigasaki/ai-miyashita}
+      - {character: liella/kanon-shibuya}
+      - {character: hasunosora/kaho-hinoshita}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-09
+    evidence:
+      credits:
+        status: official
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
 external_ids:
   fandom: SESSION!
 evidence:

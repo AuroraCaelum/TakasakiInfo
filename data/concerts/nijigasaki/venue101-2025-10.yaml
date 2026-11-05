@@ -1,0 +1,48 @@
+id: nijigasaki/venue101-2025-10
+projects: [nijigasaki]
+status: performed
+title:
+  ja: Venue101
+  rom: Venue101
+  ko: Venue101
+cast:
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/ai-miyashita}
+  - {character: nijigasaki/kanata-konoe}
+  - {character: nijigasaki/emma-verde}
+  - {character: nijigasaki/rina-tennoji}
+  - {character: nijigasaki/mia-taylor}
+  - {character: nijigasaki/lanzhu-zhong}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nhk-101
+    performances:
+      - date: 2025-10-25
+        setlist:
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_5430
+    checked: 2026-11-05
+    note: '출연란: 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下 愛); 鬼頭明里(近江彼方); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈); 内田 秀(ミア・テイラー); 法元明菜(鐘 嵐珠)'
+  setlist.2025-10-25:
+    status: established
+    source: https://x.com/Nijigaku_movie/status/1981677064483917965
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4751
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 라틴 원문. 일정 조사 메모: 방송 출연. [2025-05-24] 降幡愛(黒澤ルビィ); 大西亜玖璃(上原歩夢); 大熊和奏(若菜四季). Live broadcast. AiScReam is a cross-series unit (Aqours/Nijigasaki/Liella! cast). Studio not named. Song title from jawiki; official notice gives cast only. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_4751 (LL official news 2025/05/17 (Wayback 20250616061053): NHK総合「Venue101」5月24日(土)23:00~ 生放送, 出演 AiScReam 降幡 愛・大西亜玖璃・大熊和奏)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_5430
+    checked: 2026-11-05
+    note: 조사 표기 「NHK101スタジオ」를 기존 회장에 맞춤

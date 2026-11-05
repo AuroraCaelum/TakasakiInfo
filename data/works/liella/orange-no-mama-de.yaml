@@ -9,7 +9,210 @@ credits:
     - {person: junko-miyajima}
   composer:
     - {person: takuya-watanabe}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/39f79ab1-6dc2-48e7-af1a-c690), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3254의 레이블 배포 메타데이터(mora). 품번 LAPE-1020(어느 코스인지 미상)은 MusicBrainz"
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: オレンジのままで (Off Vocal)
+      rom: Orange no Mama de (Off Vocal)
+      ko: 오렌지인 채로 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-watanabe}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/39f79ab1-6dc2-48e7-af1a-c690), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3254의 레이블 배포 메타데이터(mora). 품번 LAPE-1020(어느 코스인지 미상)은 MusicBrainz"
+  - id: kanon-shibuya-solo-ver
+    title:
+      ja: オレンジのままで (澁谷かのん Solo Ver.)
+      rom: Orange no Mama de (Kanon Shibuya Solo Ver.)
+      ko: 오렌지인 채로 (시부야 카논 Solo Ver.)
+    version: 澁谷かのん Solo Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: keke-tang-solo-ver
+    title:
+      ja: オレンジのままで (唐 可可 Solo Ver.)
+      rom: Orange no Mama de (Keke Tang Solo Ver.)
+      ko: 오렌지인 채로 (탕 쿠쿠 Solo Ver.)
+    version: 唐 可可 Solo Ver.
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: chisato-arashi-solo-ver
+    title:
+      ja: オレンジのままで (嵐 千砂都 Solo Ver.)
+      rom: Orange no Mama de (Chisato Arashi Solo Ver.)
+      ko: 오렌지인 채로 (아라시 치사토 Solo Ver.)
+    version: 嵐 千砂都 Solo Ver.
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: sumire-heanna-solo-ver
+    title:
+      ja: オレンジのままで (平安名すみれ Solo Ver.)
+      rom: Orange no Mama de (Sumire Heanna Solo Ver.)
+      ko: 오렌지인 채로 (헤안나 스미레 Solo Ver.)
+    version: 平安名すみれ Solo Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: ren-hazuki-solo-ver
+    title:
+      ja: オレンジのままで (葉月 恋 Solo Ver.)
+      rom: Orange no Mama de (Ren Hazuki Solo Ver.)
+      ko: 오렌지인 채로 (하즈키 렌 Solo Ver.)
+    version: 葉月 恋 Solo Ver.
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: kinako-sakurakoji-solo-ver
+    title:
+      ja: オレンジのままで (桜小路きな子 Solo Ver.)
+      rom: Orange no Mama de (Kinako Sakurakoji Solo Ver.)
+      ko: 오렌지인 채로 (사쿠라코지 키나코 Solo Ver.)
+    version: 桜小路きな子 Solo Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: mei-yoneme-solo-ver
+    title:
+      ja: オレンジのままで (米女メイ Solo Ver.)
+      rom: Orange no Mama de (Mei Yoneme Solo Ver.)
+      ko: 오렌지인 채로 (요네메 메이 Solo Ver.)
+    version: 米女メイ Solo Ver.
+    performers:
+      - {character: liella/mei-yoneme}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: shiki-wakana-solo-ver
+    title:
+      ja: オレンジのままで (若菜四季 Solo Ver.)
+      rom: Orange no Mama de (Shiki Wakana Solo Ver.)
+      ko: 오렌지인 채로 (와카나 시키 Solo Ver.)
+    version: 若菜四季 Solo Ver.
+    performers:
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: natsumi-onitsuka-solo-ver
+    title:
+      ja: オレンジのままで (鬼塚夏美 Solo Ver.)
+      rom: Orange no Mama de (Natsumi Onitsuka Solo Ver.)
+      ko: 오렌지인 채로 (오니츠카 나츠미 Solo Ver.)
+    version: 鬼塚夏美 Solo Ver.
+    performers:
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: margarete-wien-solo-ver
+    title:
+      ja: オレンジのままで (ウィーン・マルガレーテ Solo Ver.)
+      rom: Orange no Mama de (Wien Margarete Solo Ver.)
+      ko: 오렌지인 채로 (빈 마르가레테 Solo Ver.)
+    version: ウィーン・マルガレーテ Solo Ver.
+    performers:
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
+  - id: tomari-onitsuka-solo-ver
+    title:
+      ja: オレンジのままで (鬼塚冬毬 Solo Ver.)
+      rom: Orange no Mama de (Tomari Onitsuka Solo Ver.)
+      ko: 오렌지인 채로 (오니츠카 토마리 Solo Ver.)
+    version: 鬼塚冬毬 Solo Ver.
+    performers:
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5061)과 같다고 봄
 external_ids:
   fandom: Orange no Mama de
 evidence:

@@ -1,0 +1,57 @@
+id: aqours/lisani-live-tokyo-anime-music-highlights
+projects: [aqours]
+status: performed
+title:
+  ja: リスアニ！LIVE on TOKYO ANIME MUSIC HIGHLIGHTS
+  rom: LisAni! LIVE on TOKYO ANIME MUSIC HIGHLIGHTS
+  ko: 리스아니! LIVE on TOKYO ANIME MUSIC HIGHLIGHTS
+cast:
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/yoshiko-tsushima}
+  - {artist: saint-snow}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: toyota-arena-tokyo
+    performances:
+      - date: 2026-06-09
+        setlist:
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/self-control
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dropout
+            performers:
+              - {artist: saint-snow}
+          - work: aqours/dazzling-white-town
+            performers:
+              - {artist: saint-snow}
+evidence:
+  cast:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=825128
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Guilty Kiss: 逢田梨香子（桜内梨子役）、小林愛香（津島善子役）; Saint Snow: 田野アサミ（鹿角聖良役）、佐藤日向（鹿角理亞役）'
+  setlist.2026-06-09:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=825128
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.thefirsttimes.jp/?p=825128
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2026-06-09] Guilty Kiss: 逢田梨香子（桜内梨子役）、小林愛香（津島善子役）; Saint Snow: 田野アサミ（鹿角聖良役）、佐藤日向（鹿角理亞役）. NEW (not in ja.wikipedia table yet). Order of the two units' blocks relative to each other not confirmed. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=825128
+    checked: 2026-11-04
+    note: 공식 미게재

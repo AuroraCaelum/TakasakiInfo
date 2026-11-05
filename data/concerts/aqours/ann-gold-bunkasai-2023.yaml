@@ -1,0 +1,36 @@
+id: aqours/ann-gold-bunkasai-2023
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: ラブライブ！シリーズのオールナイトニッポンGOLD 新春ありがとう文化祭
+  rom: Love Live! Series no All Night Nippon GOLD Shinshun Arigatou Bunkasai
+  ko: 러브 라이브! 시리즈의 올나이트 닛폰 GOLD 신춘 감사 문화제
+cast:
+  - {character: aqours/ruby-kurosawa}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/mari-ohara}
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/lanzhu-zhong}
+  - {character: liella/chisato-arashi}
+  - {character: liella/natsumi-onitsuka}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - {date: 2023-01-09, label: 昼公演}
+      - {date: 2023-01-09, label: 夜公演}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=anng-sp
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=anng-sp
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: talk_event (라디오 공개 녹음·토크, 세트리스트 없음). Official 内容: スペシャルトークイベント（一部を公開録音パートとして収録&放送予定！）. First special talk event of the radio program 『ラブライブ！シリーズのオールナイトニッポンGOLD』 (ニッポン放送). Cast listed once for both shows. Paid live stream also held. / 근거: https://www.lovelive-anime.jp/special/live/live_detail.php?p=anng-sp (event detail page (Wayback snapshot)); https://anime.eiga.com/event/155300/ (アニメハック listing 昼公演); https://anime.eiga.com/event/155301/ (アニメハック listing 夜公演)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=anng-sp
+    checked: 2026-11-04

@@ -1,0 +1,58 @@
+id: liella/release-event-hajimari
+projects: [liella]
+status: performed
+title:
+  ja: Liella! デビューシングルリリースイベント「始まりはみんなの空」
+  rom: Liella! Debut Single Release Event "Hajimari wa Minna no Sora"
+  ko: Liella! 데뷔 싱글 릴리스 이벤트 「시작은 모두의 하늘」
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2021-05-06
+        setlist:
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+          - {type: video, label: History Retrospect}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/hajimari-wa-kimi-no-sora
+            version: Everyone ver.
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_hms/
+    checked: 2026-11-04
+    note: 출연란은 Liella!(당시 5명)
+  setlist.2021-05-06:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_hms/
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Debut single release event; changed to a no-audience live stream (COVID). Official page names no venue (Fandom: probably LINE CUBE SHIBUYA). Listed in the official archive (yuigaoka/live/archive.php -> sp_hms/). / 근거: https://www.lovelive-anime.jp/yuigaoka/live/sp_hms/ (event page (Wayback capture 20251110013255): 日程 5月6日（木）, 開催方法 無観客生配信, 開演 19:00→18:30, 出演 Liella!, トーク＆ライブ, 配信 MixBox; ar)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_hms/
+    checked: 2026-11-04

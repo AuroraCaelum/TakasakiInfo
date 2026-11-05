@@ -1,0 +1,57 @@
+id: muse/2020-love-live-solo-live-from-s-maki-nishikino-extra
+type: album
+title:
+  ja: ラブライブ！Solo Live! from μ's 西木野真姫 Extra
+  rom: Love Live! Solo Live! from μ's Maki Nishikino Extra
+  ko: 러브 라이브! Solo Live! from μ's 니시키노 마키 Extra
+projects: [muse]
+release_date: 2020-09-09
+editions:
+  - id: e1
+    catalog: LZC-1733
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/beat-in-angel#maki-mix}
+      - {no: 2, recording: muse/loneliest-baby#maki-mix}
+      - {no: 3, recording: muse/zurui-yo-magnetic-today#maki-mix}
+      - {no: 4, recording: muse/soshite-saigo-no-page-ni-wa#maki-mix}
+      - {no: 5, recording: muse/silent-tonight#maki-mix}
+      - {no: 6, recording: muse/korekara#maki-mix}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_GMcJNQ16j0Q
+    tracks:
+      1-1: 4NTDgcX09nw
+      1-2: lopDyWR91Ns
+      1-3: C_VVy81MXRI
+      1-4: oh32c77d2M8
+      1-5: G41yD1GD31M
+      1-6: YyzqJVnrkA0
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！Solo Live! from μ's 西木野真姫 Extra}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 LZC-1733, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 LZC-1733, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름
+  title:
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+    checked: 2026-11-05
+    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(시리즈명 고정 표기 + 멤버 rom + 부제), ko: 같은 방식(부제는 번역·음역안)'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_GMcJNQ16j0Q
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

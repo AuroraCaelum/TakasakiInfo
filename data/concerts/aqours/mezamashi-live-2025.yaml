@@ -1,0 +1,45 @@
+id: aqours/mezamashi-live-2025
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: めざましライブ2025
+  rom: Mezamashi Live 2025
+  ko: 메자마시 라이브 2025
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: aqours/ruby-kurosawa}
+  - {character: liella/shiki-wakana}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: toyota-arena-tokyo
+    performances:
+      - date: 2025-10-23
+        setlist:
+          - work: nijigasaki/ice-limit
+            performers:
+              - {artist: aiscream}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/愛♡スクリ〜ム!
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: AiScReam（降幡愛・大西亜玖璃・大熊和奏） / AiScReam'
+  setlist.2025-10-23:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Mezamashi_Live_2025
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/愛♡スクリ〜ム!
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-10-23] AiScReam（降幡愛・大西亜玖璃・大熊和奏）. NEW. AiScReam is a cross-series unit (DB files its own live under aqours/). Members at the time = 降幡・大西・大熊 (降幡 left 2026-03). / [2025-10-23 DAY2] AiScReam. AiScReam is a cross-series unit (大西亜玖璃/上原歩夢 of Nijigasaki, 大熊和奏/若菜四季 of Liella!, 花宮初奈/大沢瑠璃乃 of Hasunosora); Liella! itself did not perform. Include only if AiScReam appearances count for Liella!. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/愛♡スクリ〜ム!
+    checked: 2026-11-04
+    note: 공식 미게재

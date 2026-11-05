@@ -16,6 +16,10 @@ given_name:
   ko: 카오리
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·읽기·rom: 소속사 스타일큐브 프로필 https://stylecube.jp/talents/kaori/index.html ('石原夏織 / Ishihara Kaori / いしはらかおり', 순서는 D4). ko: 공식 한국어(카카오게임즈 우마무스메 아몬드 아이 CV '이시하라 카오리'), 나무위키와 같음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

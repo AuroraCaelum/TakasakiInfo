@@ -1,0 +1,71 @@
+id: ikizulive/release-event-what-is-my-life
+projects: [ikizulive]
+status: performed
+title:
+  ja: いきづらい部！ 1st Single「What is my LIFE?」発売記念イベント
+  rom: Ikizuraibu! 1st Single "What is my LIFE?" Release Event
+  ko: 이키즈라이부! 1st Single 「What is my LIFE?」 발매 기념 이벤트
+cast:
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/akira-goto}
+  - {character: ikizulive/hanabi-komagata}
+  - {character: ikizulive/miracle-kanazawa}
+  - {character: ikizulive/noriko-chofu}
+  - {character: ikizulive/yukuri-harumiya}
+  - {character: ikizulive/aurora-konohana}
+  - {character: ikizulive/midori-yamada}
+  - {character: ikizulive/shion-sasaki}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: ikebukuro-sunshine-city-fountain-plaza
+    performances:
+      - date: 2025-07-18
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+  - id: 2-osaka
+    city: osaka
+    venue: abeno-q-s-mall-3f-sky-court
+    performances:
+      - date: 2025-08-15
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+          - work: ikizulive/himitsu-michi
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4888
+    checked: 2026-11-04
+  setlist.2025-07-18:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  setlist.2025-08-15:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4888
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Free release events (mini live + handshake-style お渡し会). / 근거: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4888 (news 2025.06.17: 日時 2025年7月18日(金) 18:30 START, 会場 池袋・サンシャインシティ 噴水広場, 内容 ミニライブ＆特典お渡し会, 出演者 10 names with roles (free even); https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4889 (news 2025.07.24: 日程 2025年8月15日(金) 14:00～予定, 会場 あべのキューズモール ３Fスカイコート, ミニライブ＆特典お渡し会, same 10 performers)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4888
+    checked: 2026-11-04

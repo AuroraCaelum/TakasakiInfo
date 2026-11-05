@@ -16,6 +16,10 @@ given_name:
   ko: 케이이치
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
+    checked: 2026-11-05
+    note: "ja: 레이블 배포 메타데이터(mora), MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：広川恵一(MONACA)', 띄어쓰기는 D28). 읽기: 레이블 메타데이터 'ヒロカワケイイチ'. rom: MONACA 영문 멤버 페이지 'HIROKAWA KEIICHI'(순서는 D4). ko: 규칙 엔진(나무위키 문서 없음)"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -175,6 +175,36 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+  - id: prepro-piano-mix
+    title:
+      ja: 愛してるばんざーい！ (Prepro Piano Mix)
+      rom: Aishiteru Banzai! (Prepro Piano Mix)
+      ko: 사랑해 만~세! (Prepro Piano Mix)
+    version: Prepro Piano Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: yoichi-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: piano-mix
+    title:
+      ja: 愛してるばんざーい！ (Piano Mix)
+      rom: Aishiteru Banzai! (Piano Mix)
+      ko: 사랑해 만~세! (Piano Mix)
+    version: Piano Mix
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: teppei-shimizu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

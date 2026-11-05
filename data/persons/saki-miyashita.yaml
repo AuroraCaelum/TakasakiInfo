@@ -16,6 +16,10 @@ given_name:
   ko: 사키
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·읽기·rom: 소속사 하이쿄 프로필 https://haikyo.co.jp/profile/profile.php?ActorID=13083 ('宮下 早紀 / ミヤシタ サキ / Saki Miyashita'). ko: 공식 한국어(카카오게임즈 우마무스메 스틸 인 러브 CV '미야시타 사키'), 나무위키와 같음"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -1,0 +1,31 @@
+id: nijigasaki/grand-cycle-tokyo-2023
+projects: [nijigasaki]
+status: performed
+title:
+  ja: GRAND CYCLE TOKYO 2023 レインボーライド・マルチスポーツ ラブライブ！虹ヶ咲学園スクールアイドル同好会 トークショー
+  rom: GRAND CYCLE TOKYO 2023 Rainbow Ride, Multi-Sport Love Live! Nijigasaki High School Idol Club Talk Show
+  ko: GRAND CYCLE TOKYO 2023 레인보 라이드·멀티 스포츠 러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 토크쇼
+cast:
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/lanzhu-zhong}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: aomi-r-district
+    performances:
+      - {date: 2023-11-23}
+evidence:
+  cast:
+    status: official
+    source: https://grand-cycle-tokyo.jp/2023/news/2960/
+    checked: 2026-11-05
+    note: '출연란: 久保田未夢(朝香果林); 法元明菜(鐘 嵐珠)'
+  title:
+    status: derived
+    source: https://grand-cycle-tokyo.jp/2023/news/2960/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2023-11-23] 久保田未夢(朝香果林); 法元明菜(鐘 嵐珠). Official page content known only from a search excerpt; the time and cast come from that excerpt. Venue name is from ja.wikipedia (the organizer calls it the multi-sport / Rainbow Ride finish area). Roles are the standard casting, not quoted from the excerpt. No songs. / 근거: https://grand-cycle-tokyo.jp/2023/news/2960/ (Organizer news 'GCT × ラブライブ！虹ヶ咲学園スクールアイドル同好会 コラボ企画の詳細について' - seen only as a search excerpt (2023 site now closed, no Wayback capture): 11/23)"
+  schedule:
+    status: official
+    source: https://grand-cycle-tokyo.jp/2023/news/2960/
+    checked: 2026-11-05

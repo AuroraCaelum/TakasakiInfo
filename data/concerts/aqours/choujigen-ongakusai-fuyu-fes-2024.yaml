@@ -1,0 +1,61 @@
+id: aqours/choujigen-ongakusai-fuyu-fes-2024
+projects: [aqours, liella]
+status: performed
+title:
+  ja: オダイバ!!超次元音楽祭 フユフェス2024
+  rom: Odaiba!! Choujigen Ongakusai Fuyu Fes 2024
+  ko: 오다이바!! 초차원 음악제 후유 페스 2024
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2024-02-24
+        cast:
+          - {character: aqours/yoshiko-tsushima}
+          - {character: aqours/dia-kurosawa}
+          - {character: aqours/kanan-matsuura}
+          - {character: aqours/riko-sakurauchi}
+          - {character: aqours/you-watanabe}
+      - date: 2024-02-25
+        cast:
+          - {artist: liella}
+        setlist:
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+          - work: liella/miracle-new-story
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/fantastic
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: http://www.choujigen-ongakusai.jp/outline.html
+    checked: 2026-11-04
+    note: '출연란: Aqours: 逢田梨香子、諏訪ななか、小宮有紗、斉藤朱夏、小林愛香 (per ja.wikipedia) / Liella!'
+  setlist.2024-02-25:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_Winter_Festival_2024
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2024-02-24 DAY1] Aqours: 逢田梨香子、諏訪ななか、小宮有紗、斉藤朱夏、小林愛香 (per ja.wikipedia). NEW. A Pia article mentions Aqours closing a Day1 with 青空Jumping Heart / スリリング・ワンウェイ / Aqours Pirates Desire, but the year was not confirmed — not used. / [2024-02-25 DAY2] Liella!. Aqours appeared on DAY1 (2/24). / 근거: https://web.archive.org/web/20240223065457/http://www.choujigen-ongakusai.jp/outline.html (Organizer outline: 2024年2月24日(土)・25日(日) ぴあアリーナMM); https://web.archive.org/web/20240225090953/http://www.choujigen-ongakusai.jp/artists.html (Organizer artists: Liella! in second-day block (内田雄馬, 鬼頭明里, 鈴木愛奈, 仲村宗悟, 畠中祐, ももいろクローバーZ, Liella!); no cast names)'
+  schedule:
+    status: official
+    source: http://www.choujigen-ongakusai.jp/outline.html
+    checked: 2026-11-04

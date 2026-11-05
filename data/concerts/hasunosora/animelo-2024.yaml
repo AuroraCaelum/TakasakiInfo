@@ -1,0 +1,52 @@
+id: hasunosora/animelo-2024
+projects: [hasunosora]
+status: performed
+title:
+  ja: Animelo Summer Live 2024 -Stargazer-
+  rom: Animelo Summer Live 2024 -Stargazer-
+  ko: Animelo Summer Live 2024 -Stargazer-
+cast:
+  - {artist: hasunosora-girls-high-school-idol-club}
+  - {artist: cerise-bouquet}
+  - {artist: dollchestra}
+  - {artist: mira-cra-park}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2024-08-31
+        setlist:
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/ladybug
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/aoku-haruka
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#104th-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2024/setlist/
+    checked: 2026-11-04
+    note: '출연란: 蓮ノ空女学院スクールアイドルクラブ; スリーズブーケ; DOLLCHESTRA; みらくらぱーく！'
+  setlist.2024-08-31:
+    status: official
+    source: https://anisama.tv/2024/setlist/
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://anisama.tv/2024/setlist/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2024-08-31 DAY2] 蓮ノ空女学院スクールアイドルクラブ; スリーズブーケ; DOLLCHESTRA; みらくらぱーく！. NEW (not in input rows). Organizer groups the three unit songs under running number 17 (medley). Venue assumed さいたまスーパーアリーナ (not printed on the setlist page). Member line-up not printed. / 근거: https://anisama.tv/2024/setlist/ (organizer setlist, 8/31(土) block: #17 (3 rows: みらくりえーしょん/みらくらぱーく！, レディバグ/DOLLCHESTRA, アオクハルカ/スリーズブーケ), #18 Dream Believers (104期 Ver.) / 蓮ノ空)'
+  schedule:
+    status: official
+    source: https://anisama.tv/2024/setlist/
+    checked: 2026-11-04

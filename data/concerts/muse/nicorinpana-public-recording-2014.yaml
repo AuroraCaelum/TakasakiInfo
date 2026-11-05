@@ -1,0 +1,34 @@
+id: muse/nicorinpana-public-recording-2014
+projects: [muse]
+status: performed
+title:
+  ja: ラブライブ！μ's広報部～にこりんぱな～ ラジオ公開録音
+  rom: Love Live! μ's Kouhoubu ~NicoRinPana~ Radio Public Recording
+  ko: 러브 라이브! μ's 홍보부 ~니코린파나~ 라디오 공개 녹음
+cast:
+  - {character: muse/nico-yazawa}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/hanayo-koizumi}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: hibiya-public-hall
+    performances:
+      - {date: 2014-10-05, label: 一部}
+      - {date: 2014-10-05, label: 二部}
+evidence:
+  cast:
+    status: established
+    source: http://news.lovelive-anime.jp/app-def/S-102/news/?p=6855
+    checked: 2026-11-04
+    note: '공식 미게재: 공식 뉴스(news.lovelive-anime.jp ?p=6855)는 보관본이 없어 읽지 못함. 출연은 외부 기사(jin115, LiveFans)'
+  title:
+    status: established
+    source: https://www.livefans.jp/groups/49197
+    checked: 2026-11-06
+    note: '공식 미게재: 공식 뉴스(news.lovelive-anime.jp ?p=6855)는 보관본이 없어 읽지 못했고, 공지 문구는 「初の単独公開録音イベント」(jin115 인용)라 정식 행사명이 확인되지 않는다. ja는 LiveFans 행사명, rom·ko: 번역안. 지금 값으로 둔다(사용자 결정 D57)'
+  schedule:
+    status: established
+    source: http://news.lovelive-anime.jp/app-def/S-102/news/?p=6855
+    checked: 2026-11-04
+    note: '공식 미게재: 공식 뉴스 보관본 없음, 외부 기사 기준'

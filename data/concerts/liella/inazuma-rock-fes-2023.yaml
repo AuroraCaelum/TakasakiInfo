@@ -1,0 +1,54 @@
+id: liella/inazuma-rock-fes-2023
+projects: [liella]
+status: performed
+title:
+  ja: イナズマロック フェス 2023
+  rom: Inazuma Rock Fes 2023
+  ko: 이나즈마 록 페스 2023
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-shiga
+    city: shiga
+    venue: karasuma-peninsula-lawn-plaza
+    performances:
+      - date: 2023-10-08
+        setlist:
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2128
+    checked: 2026-11-04
+    note: '출연란: Liella!'
+  setlist.2023-10-08:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Inazuma_Rock_Festival_2023
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2128
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2023-10-08 雷神STAGE] Liella!. Kusatsu, Shiga. 11 members (incl. 3rd gen) per official news. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2128 (Liella! official news 2023-06-02 (via Wayback 20230924070946): 「イナズマロック フェス 2023」 10/7-9 滋賀県草津市烏丸半島芝生広場; Liella! as 11 members (incl. 3rd ge); https://inazumarock.com/2023/ (Organizer 2023 site: Oct 8 (SUN) ARTISTS incl. 'ラブライブ！スーパースター!! Liella!'; venue 滋賀県草津市 烏丸半島芝生広場)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2128
+    checked: 2026-11-04

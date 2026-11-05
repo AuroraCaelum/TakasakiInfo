@@ -1,0 +1,111 @@
+id: muse/muse-1st
+projects: [muse]
+status: confirmed
+title:
+  ja: ラブライブ！μ's First LoveLive!
+  rom: Love Live! μ's First LoveLive!
+  ko: 러브 라이브! μ's First LoveLive!
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: yokohama-blitz
+    performances:
+      - date: 2012-02-19
+        setlist:
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/mermaid-festa-vol-1
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/diamond-princess-no-yuuutsu
+            performers:
+              - {artist: bibi}
+          - {type: mc, label: MC（BiBi）}
+          - work: muse/love-novels
+            performers:
+              - {artist: bibi}
+          - work: muse/love-marginal
+            performers:
+              - {artist: printemps}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - {type: mc, label: MC（Printemps）}
+          - work: muse/mou-hitori-ja-nai-yo
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/spicaterrible
+            performers:
+              - {character: muse/kotori-minami}
+          - work: muse/watashitachi-wa-mirai-no-hana
+            performers:
+              - {character: muse/umi-sonoda}
+          - {type: mc, label: MC（lily white）}
+          - work: muse/shiranai-love-oshiete-love
+            performers:
+              - {artist: lily-white}
+          - work: muse/a-no-ne-ga-n-ba-re
+            performers:
+              - {artist: lily-white}
+          - {type: mc}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            version: Finale
+            performers:
+              - {artist: muse}
+external_ids:
+  fandom: Muse's First Love Live!
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd17
+    checked: 2026-10-27
+    note: BD 페이지의 출연란
+  setlist.2012-02-19:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd17
+    checked: 2026-10-27
+    note: 공식 BD 페이지(μ'ｓ First LoveLive! Blu-ray/DVD, LABX-8021〜2)의 수록 내용(곡·MC·가창자)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd17
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=310
+    checked: 2026-10-27
+    note: 공식 뉴스 아카이브(이벤트, offset 페이지) 2011/11/16 「μ'ｓ First LoveLive! 最速チケット先行予約情報」의 개요

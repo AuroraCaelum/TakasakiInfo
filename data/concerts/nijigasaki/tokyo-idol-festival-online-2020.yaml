@@ -1,0 +1,60 @@
+id: nijigasaki/tokyo-idol-festival-online-2020
+projects: [nijigasaki]
+status: performed
+title:
+  ja: TOKYO IDOL FESTIVAL オンライン 2020
+  rom: TOKYO IDOL FESTIVAL Online 2020
+  ko: TOKYO IDOL FESTIVAL 온라인 2020
+cast:
+  - {artist: nijigasaki-high-school-idol-club}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2020-10-04
+        setlist:
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/doki-pipo-emotion
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/evergreen
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/meccha-going
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/starlight
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: http://www.idolfes.com/2020/json/timetable/1004.pdf
+    checked: 2026-11-04
+    note: '출연란: 虹ヶ咲学園スクールアイドル同好会'
+  setlist.2020-10-04:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#TOKYO_IDOL_FESTIVAL_Online_2020
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: http://www.idolfes.com/2020/json/timetable/1004.pdf
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2020-10-04 HOT STAGE 17:20-17:45] 虹ヶ咲学園スクールアイドル同好会. Online-only festival (no audience venue); performance streamed on the HOT STAGE channel of TIF LIVE STREAM - treated as a live-streamed music event. Whether it was live or pre-recorded is not stated. Venue/city null (online). Cast not named by organizer or Fandom; the five solos imply 田中ちえ美, 前田佳織里, 指出毬亜, 村上奈津実, 久保田未夢 but that is inference only, so performers left as the group. Set list Fandom-only. / 근거: http://www.idolfes.com/2020/json/timetable/1004.pdf (Organizer timetable 10/4 Sun (Wayback 20201003202250): HOT STAGE (TIF LIVE STREAM) 17:20〜17:45 虹ヶ咲学園スクールアイドル同好会); http://www.idolfes.com/2020/eng/lineup/ (Organizer lineup (Wayback 20210227004434) includes 'Nijigasaki High School Idol Club' with link to lovelive-anime.jp/nijigasaki/); http://www.idolfes.com/2020/about/ (Organizer about page (Wayback 20200801202725): 'TOKYO IDOL FESTIVAL オンライン' held online 2020年10月2日-4日 instead of the cancelled in-person TIF2)"
+  schedule:
+    status: official
+    source: http://www.idolfes.com/2020/json/timetable/1004.pdf
+    checked: 2026-11-04

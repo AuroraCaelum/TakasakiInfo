@@ -1,0 +1,42 @@
+id: liella/fns-kayousai-2021
+projects: [liella]
+status: performed
+title:
+  ja: 2021FNS歌謡祭 第2夜
+  rom: 2021 FNS Kayousai Dai 2 Ya
+  ko: 2021 FNS 가요제 제2야
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2021-12-08
+        setlist:
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8622
+    checked: 2026-11-05
+    note: '출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋)'
+  setlist.2021-12-08:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8622
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8622
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2021-12-08 第2夜] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋). Resolves the fest_liella.json conflict: the performance is 2021-12-08 (第2夜), Fuji TV. Fandom's 2021-10-09 / NHK Broadcasting Center belongs to シブヤノオト and more FES.2021 (separate event above). Same appearance as the \"2021FNS歌謡祭\" row in fest_liella.json: use this one and drop that. Whether the segment was live is not stated, so date_is_air_date is true. / 근거: https://www.lovelive-anime.jp/yuigaoka/news/?id=8622 (Liella! official news 2021-11-18 (Wayback 20211117220343): 「FNS歌謡祭 第２夜」 フジテレビ系列 12月8日(水)18:30〜23:03). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/124: 12/8"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8622
+    checked: 2026-11-05
+    note: 'LL-Fans https://ll-fans.jp/data/event/124: 2021-12-08 第2夜'

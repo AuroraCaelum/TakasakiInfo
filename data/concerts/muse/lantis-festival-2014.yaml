@@ -1,0 +1,125 @@
+id: muse/lantis-festival-2014
+projects: [muse]
+status: performed
+title:
+  ja: 15th Anniversary Live ランティス祭り 2014
+  rom: 15th Anniversary Live Lantis Matsuri 2014
+  ko: 15th Anniversary Live 란티스 마츠리 2014
+stops:
+  - id: 1-mie
+    city: mie
+    label: 東海公演
+    venue: nagashima-spa-land-lawn-open-air-special-stage
+    performances:
+      - date: 2014-07-19
+        cast:
+          - {character: muse/hanayo-koizumi}
+          - {character: muse/honoka-kosaka}
+          - {character: muse/maki-nishikino}
+          - {character: muse/nico-yazawa}
+          - {character: muse/nozomi-tojo}
+          - {character: muse/rin-hoshizora}
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+      - date: 2014-07-20
+        cast:
+          - {artist: muse}
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+  - id: 2-osaka
+    city: osaka
+    label: 関西公演
+    venue: expo-70-commemorative-park-momijigawa-lawn-special-venue
+    performances:
+      - date: 2014-07-27
+        cast:
+          - {character: muse/hanayo-koizumi}
+          - {character: muse/honoka-kosaka}
+          - {character: muse/kotori-minami}
+        setlist:
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/pure-girls-project
+            performers:
+              - {artist: printemps}
+  - id: 3-tokyo
+    city: tokyo
+    label: 関東公演
+    venue: shiokaze-park-taiyou-no-hiroba-open-air-special-stage
+    performances:
+      - date: 2014-09-14
+        cast:
+          - {artist: muse}
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/takaramonozu
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: http://www.lantis.jp/15th/tic01.html
+    checked: 2026-11-05
+    note: "출연란: 7/19: μ’s（高坂穂乃果(CV.新田恵海)・星空凛(CV.飯田里穂)、西木野真姫(CV.Pile)、東條希(CV.楠田亜衣奈)、小泉花陽(CV.久保ユリカ)、矢澤にこ(CV.徳井青空)）（ラブライブ！）; 7/20: μ’s（ラブライブ！） — members not itemised / Printemps（高坂穂乃果(CV.新田恵海)、南ことり(CV.内田 彩)、小泉花陽(CV.久保ユリカ) from μ's（ラブライブ！）） / μ’s（ラブライブ！）. 7/19는 三森すずこ·内田彩·南條愛乃 불참(LL-Fans https://ll-fans.jp/data/event/88, 주최 표기와 같음. ja.wikipedia의 全員은 오기)"
+  setlist.2014-07-19:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  setlist.2014-07-20:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  setlist.2014-07-27:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  setlist.2014-09-14:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: http://www.lantis.jp/15th/tic01.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2014-07-19 東海 Day1, 2014-07-20 東海 Day2] 7/19: μ’s（高坂穂乃果(CV.新田恵海)・星空凛(CV.飯田里穂)、西木野真姫(CV.Pile)、東條希(CV.楠田亜衣奈)、小泉花陽(CV.久保ユリカ)、矢澤にこ(CV.徳井青空)）（ラブライブ！）; 7/20: μ’s（ラブライブ！） — members not itemised. Not part of muse/lantis-festival-2015 (that is the 2015 overseas 'Lantis Festival 2015' tour: Seoul/Shanghai/Taipei). Encore 'Starting STYLE!!' by all artists each day (Fandom). Set lists external (Fandom); [date] prefix marks the day. ja.wikipedia says 全員 for Tokai but organizer's 7/19 listing names only 6 (no 南條・内田・三森). / [2014-07-27 関西 Day2] Printemps（高坂穂乃果(CV.新田恵海)、南ことり(CV.内田 彩)、小泉花陽(CV.久保ユリカ) from μ's（ラブライブ！））. Unit appearance (Printemps only). Set list external (Fandom). / [2014-09-14 関東 Day2] μ’s（ラブライブ！）. Input row's 'Shiokaze Park Sun Plaza' = 潮風公園 太陽の広場. Set list external (Fandom). / 근거: http://www.lantis.jp/15th/tic01.html (organizer (Wayback 20140703180629): 東海 三重・ナガシマスパーランド芝生広場・野外特設ステージ, 2014年7月19日(土)・20日(日); 7/19 lineup with μ’s 6 cast, 7/20 lineup 'μ’s（ラブライブ); http://www.lantis.jp/15th/artist.html (organizer artist page (Wayback 20140730085350): μ's (ラブライブ！) on 東海 7/19 and 7/20); http://www.lantis.jp/15th/tic02.html (organizer (Wayback 20140517033349): 関西 大阪・万博記念公園もみじ川芝生広場・特設会場, 7月26日(土)、27日(日); 7/27 lineup incl. Printemps with cast); http://www.lantis.jp/15th/artist.html (organizer artist page: 'Printemps from μ's' on 関西 7/27); http://www.lantis.jp/15th/tic03.html (organizer (Wayback 20140703200050): 関東 'TOKYOアニメパーク 15th Anniversary Live ランティス祭り 2014', 東京・潮風公園（太陽の広場・野外特設ステージ）, 2014年9月13-15日; 9/14 lineup). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/88도 주최와 같음"
+  schedule.1-mie:
+    status: official
+    source: http://www.lantis.jp/15th/tic01.html
+    checked: 2026-11-04
+  schedule.2-osaka:
+    status: official
+    source: http://www.lantis.jp/15th/tic02.html
+    checked: 2026-11-04
+  schedule.3-tokyo:
+    status: official
+    source: http://www.lantis.jp/15th/tic03.html
+    checked: 2026-11-04

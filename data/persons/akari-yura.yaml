@@ -16,6 +16,10 @@ given_name:
   ko: 아카리
 evidence:
   names:
-    status: draft
-    source: automation/review/MSC-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    checked: 2026-11-05
+    note: "ja·rom: 소속사 KAMPAI 프로필 https://kampai-kmp.com/talent/1148/ ('由良朱合（Yura Akari）', 순서는 D4), 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758. ko: 나무위키 '유라 아카리'. 『スクールアイドルミュージカル』 三笠マーヤ(2025·2026). 由良 崇将(takamasa-yura)과 다른 사람"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

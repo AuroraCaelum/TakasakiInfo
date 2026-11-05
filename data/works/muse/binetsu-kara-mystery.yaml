@@ -50,6 +50,54 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
         checked: 2026-10-20
+  - id: nozomi-mix
+    title:
+      ja: 微熱からMystery (NOZOMI Mix)
+      rom: Binetsu Kara Mystery (NOZOMI Mix)
+      ko: 미열에서 Mystery (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: 微熱からMystery (RIN Mix)
+      rom: Binetsu Kara Mystery (RIN Mix)
+      ko: 미열에서 Mystery (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: 微熱からMystery (UMI Mix)
+      rom: Binetsu Kara Mystery (UMI Mix)
+      ko: 미열에서 Mystery (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
 evidence:
   title:
     status: derived

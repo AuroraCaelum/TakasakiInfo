@@ -204,6 +204,44 @@ recordings:
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
+  - id: tv-size
+    title:
+      ja: 僕らは今のなかで (TVサイズ)
+      rom: Bokura wa Ima no Naka de (TV Size)
+      ko: 우리들은 지금 속에서 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: live-ijigen-fes-2023-2023-12-09
+    title:
+      ja: 僕らは今のなかで (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: Bokura wa Ima no Naka de (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: 우리들은 지금 속에서 (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {artist: cinderella-girls, joint: true}
+      - {artist: millionstars, joint: true}
+      - {artist: shiny-colors, joint: true}
+    arranger:
+      - {person: shintarou-mori}
+    strings_arranger:
+      - {person: yoshiaki-fujisawa}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-09
+    evidence:
+      credits:
+        status: derived
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd19)과 같다고 봄
 evidence:
   title:
     status: derived

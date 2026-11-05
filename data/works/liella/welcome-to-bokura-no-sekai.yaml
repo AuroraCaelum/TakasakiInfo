@@ -47,6 +47,26 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd20.php
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: Welcome to 僕らのセカイ 〜TV Size〜
+      rom: Welcome to Bokura no Sekai ~TV Size~
+      ko: Welcome to 우리들의 세계 ~TV Size~
+    version: TV Size
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    strings_arranger:
+      - {person: yuya-mori}
+    brass_arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd26.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

@@ -42,6 +42,54 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+  - id: honoka-mix
+    title:
+      ja: ぷわぷわーお！ (HONOKA Mix)
+      rom: Puwa Puwa-O! (HONOKA Mix)
+      ko: 푹신푹신~오! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72703/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: ぷわぷわーお！ (KOTORI Mix)
+      rom: Puwa Puwa-O! (KOTORI Mix)
+      ko: 푹신푹신~오! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: ぷわぷわーお！ (HANAYO Mix)
+      rom: Puwa Puwa-O! (HANAYO Mix)
+      ko: 푹신푹신~오! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
 evidence:
   title:
     status: derived

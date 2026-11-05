@@ -1,0 +1,56 @@
+id: aqours/t-spook-2017
+projects: [aqours]
+status: performed
+title:
+  ja: めざましテレビ PRESENTS T-SPOOK TOKYO HALLOWEEN PARTY 2017
+  rom: Mezamashi TV PRESENTS T-SPOOK TOKYO HALLOWEEN PARTY 2017
+  ko: 메자마시 TV PRESENTS T-SPOOK TOKYO HALLOWEEN PARTY 2017
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: aomi-p-district-aomi-temporary-parking-lot
+    performances:
+      - date: 2017-10-21
+        setlist:
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            version: TV Size
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-de-yozora-wo-terashitai
+            performers:
+              - {artist: aqours}
+          - work: aqours/sky-journey
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Aqours（全員 per ja.wikipedia）'
+  setlist.2017-10-21:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_History
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2017-10-21] Aqours（全員 per ja.wikipedia）. NEW. Parade + live (Fandom). Fandom lists 'Daydream Warrior' — that is the English name of 夢で夜空を照らしたい. Grade external. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: 공식 미게재

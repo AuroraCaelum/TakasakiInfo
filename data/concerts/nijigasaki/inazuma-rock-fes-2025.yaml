@@ -1,0 +1,58 @@
+id: nijigasaki/inazuma-rock-fes-2025
+projects: [nijigasaki]
+status: performed
+title:
+  ja: イナズマロック フェス 2025
+  rom: Inazuma Rock Fes 2025
+  ko: 이나즈마 록 페스 2025
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/ai-miyashita}
+stops:
+  - id: 1-shiga
+    city: shiga
+    venue: karasuma-peninsula-lawn-plaza
+    performances:
+      - date: 2025-09-21
+        setlist:
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/fly-with-you
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: https://inazumarock.com/2025/
+    checked: 2026-11-04
+    note: '출연란: 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛)'
+  setlist.2025-09-21:
+    status: official
+    source: https://inazumarock.com/2025/cms/blog/384/
+    checked: 2026-11-05
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). LL-Fans https://ll-fans.jp/data/event/263도 주최 보고와 같은 6곡·순서. 繚乱！ビクトリーロード 게스트는 西川貴教
+  title:
+    status: derived
+    source: https://inazumarock.com/2025/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-09-21 DAY2 (雷神ステージ)] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛). SET LIST CONFLICT: the organizer's report names 6 songs (adds 虹色Passions！ and 未来ハーモニー and puts Just Believe!!! third); Fandom lists only 4. Organizer version used; song order is as the report narrates it (read via WebFetch summary, so order should be re-checked if it matters). The report credits the guest on 繚乱！ビクトリーロード as 西川貴教 (Fandom: T.M.Revolution). / 근거: https://inazumarock.com/2025/ (Organizer site: イナズマロック フェス 2025, 2025年9月20日(土)・21日(日), 会場 滋賀県草津市 烏丸半島芝生広場; artist list incl. 虹ヶ咲学園スクールアイドル同好会 (links to lovelive-anime.jp/n); https://inazumarock.com/2025/cms/blog/384/ (Organizer live report 2025.09.21 雷神ステージ: 5 members 大西亜玖璃（上原歩夢役）, 相良茉優（中須かすみ役）, 前田佳織里（桜坂しずく役）, 久保田未夢（朝香果林役）, 村上奈津実（宮下愛役）; songs 虹色Passions！, ). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/263도 주최와 같음"
+  schedule:
+    status: official
+    source: https://inazumarock.com/2025/
+    checked: 2026-11-04

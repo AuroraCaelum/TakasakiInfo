@@ -1,0 +1,59 @@
+id: nijigasaki/bilibili-macro-link-2025
+projects: [nijigasaki]
+status: performed
+title:
+  ja: BILIBILI MACRO LINK 2025
+  rom: BILIBILI MACRO LINK 2025
+  ko: BILIBILI MACRO LINK 2025
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/rina-tennoji}
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: national-exhibition-and-convention-center-shanghai
+    performances:
+      - date: 2025-07-11
+        setlist:
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/poppin-up
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: established
+    source: https://realsound.jp/movie/2025/07/post-2095749.html
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈). LL-Fans https://ll-fans.jp/data/event/265도 같음'
+  setlist.2025-07-11:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#BILIBILI_MACRO_LINK_2025
+    checked: 2026-11-05
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). 첫 곡 繚乱！ビクトリーロード(歩夢・かすみ・璃奈 Ver.)는 LL-Fans https://ll-fans.jp/data/event/265'
+  title:
+    status: derived
+    source: https://realsound.jp/movie/2025/07/post-2095749.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2025-07-11 Day 1] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈). NOT officially confirmed: no organizer (bilibili) page or lovelive-anime.jp news could be read (official LL site 403; Wayback had no matching capture; moegirl blocked). Event dates/venue confirmed only by press; Nijigasaki's appearance, day (7/11) and cast rest on Fandom alone. Venue name follows the press/LL Asia Tour 2024 rendering '上海国家会展中心' (Fandom: National Exhibition and Convention Center); the specific hall is not confirmed. / 근거: 공식 미게재 (외부 출처만). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/265로 교차 확인"
+  schedule:
+    status: established
+    source: https://realsound.jp/movie/2025/07/post-2095749.html
+    checked: 2026-11-05
+    note: 공식 미게재. LL-Fans https://ll-fans.jp/data/event/265도 2025-07-11 DAY1, 国家会展中心（上海）虹馆EH

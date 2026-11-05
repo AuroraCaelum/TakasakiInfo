@@ -129,6 +129,60 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: MY舞☆TONIGHT (TVサイズ)
+      rom: MY Mai☆TONIGHT (TV Size)
+      ko: MY무희☆TONIGHT (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: live-ijigen-fes-2023-2023-12-10
+    title:
+      ja: MY舞☆TONIGHT (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: MY Mai☆TONIGHT (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: MY무희☆TONIGHT (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {character: hasunosora/kozue-otomune}
+    arranger:
+      - {person: effy}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-10
+    evidence:
+      credits:
+        status: derived
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21)과 같다고 봄
+  - id: live-aqours-finale-2025-06-22
+    title:
+      ja: MY舞☆TONIGHT (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: MY Mai☆TONIGHT (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: MY무희☆TONIGHT (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-22
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21)과 같다고 봄
 evidence:
   credits:
     status: official

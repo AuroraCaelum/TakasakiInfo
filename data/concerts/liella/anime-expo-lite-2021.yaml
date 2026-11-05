@@ -1,0 +1,52 @@
+id: liella/anime-expo-lite-2021
+projects: [liella]
+status: performed
+title:
+  ja: ANIME EXPO LITE 2021 × LisAni！LIVE L.A.
+  rom: ANIME EXPO LITE 2021 × LisAni!LIVE L.A.
+  ko: ANIME EXPO LITE 2021 × LisAni!LIVE L.A.
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-los-angeles
+    city: los-angeles
+    performances:
+      - date: 2021-07-03
+        setlist:
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://admin.animenewsnetwork.com/news/2021-06-25/asca-burnout-syndromes-jo-stars-liella-morfonica-perform-at-anime-expo-lite-virtual-event/.174449
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋)'
+  setlist.2021-07-03:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=5301
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://admin.animenewsnetwork.com/news/2021-06-25/asca-burnout-syndromes-jo-stars-liella-morfonica-perform-at-anime-expo-lite-virtual-event/.174449
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2021-07-03] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋). Online-only concert within the virtual Anime Expo Lite 2021 (SPJA x LisAni!). Local date 2021-07-03 PDT 15:00 (= 2021-07-04 JST, Fandom's date). No physical venue; where Liella!'s set was filmed not stated. No official SPJA/LisAni page or Liella! official news located yet. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://admin.animenewsnetwork.com/news/2021-06-25/asca-burnout-syndromes-jo-stars-liella-morfonica-perform-at-anime-expo-lite-virtual-event/.174449
+    checked: 2026-11-04
+    note: 공식 미게재

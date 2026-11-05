@@ -1,0 +1,49 @@
+id: aqours/animelo-2017
+projects: [aqours]
+status: performed
+title:
+  ja: Animelo Summer Live 2017 THE CARD
+  rom: Animelo Summer Live 2017 THE CARD
+  ko: Animelo Summer Live 2017 THE CARD
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2017-08-25
+        setlist:
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - {type: other, label: Medley}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2017/special/setlist.html
+    checked: 2026-11-04
+    note: '출연란: Aqours'
+  setlist.2017-08-25:
+    status: official
+    source: https://anisama.tv/2017/special/setlist.html
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://anisama.tv/2017/special/setlist.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2017-08-25 DAY1] Aqours. Organizer lists #33 as a medley (恋になりたいAQUARIUM～ユメ語るよりユメ歌おう). / 근거: https://anisama.tv/2017/special/setlist.html (organizer setlist, block headed (image) '8月25日(金) セットリスト': 31-33 by Aqours; banner '2017.08.25.26.27 in SAITAMA SUPER ARENA')"
+  schedule:
+    status: official
+    source: https://anisama.tv/2017/special/setlist.html
+    checked: 2026-11-04

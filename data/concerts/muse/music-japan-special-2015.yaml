@@ -1,0 +1,52 @@
+id: muse/music-japan-special-2015
+projects: [muse]
+status: performed
+title:
+  ja: MUSIC JAPAN SPECIAL
+  rom: MUSIC JAPAN SPECIAL
+  ko: MUSIC JAPAN SPECIAL
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nhk-hall
+    performances:
+      - date: 2015-09-28
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: http://www.nhk.or.jp/mj/
+    checked: 2026-11-05
+    note: '출연란: 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ)'
+  setlist.2015-09-28:
+    status: established
+    source: https://ja.wikipedia.org/wiki/μ%27s
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). 곡 셋을 따로 적는다(NHK 표기. ja.wikipedia의 메들리 표기는 따르지 않음, 사용자 결정 D57)'
+  title:
+    status: derived
+    source: http://www.nhk.or.jp/mj/
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 라틴 원문. 일정 조사 메모: 방송 출연. [2015-09-28 公開収録] 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ). Aired 2015-10-11 23:00 (NHK総合). Taping date 2015-09-28, NHKホール and the eight-member line-up (南條愛乃 absent) are from jawiki only. jawiki says KiRa-KiRa Sensation! and 僕らは今のなかで were sung as a medley; NHK lists the three titles separately. / 근거: http://www.nhk.or.jp/mj/ (NHK MJ top (Wayback 20151006085734): 次回放送 MUSIC JAPAN SPECIAL 10月11日 午後11:00～ 1時間の特別版; LINE UP — それは僕たちの奇跡 / KiRa-KiRa Sensation! / 僕らは今のなかで); http://www.nhk.or.jp/mj/backnumber.html (NHK MJ バックナンバー (Wayback 20151017072736): 2015年10月11日 — それは僕たちの奇跡 / KiRa-KiRa Sensation! / 僕らは今のなかで — μ's). 결정(D57): 세트리스트는 곡 셋 따로(사용자 결정)"
+  schedule:
+    status: official
+    source: http://www.nhk.or.jp/mj/
+    checked: 2026-11-05

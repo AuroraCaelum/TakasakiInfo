@@ -1,0 +1,42 @@
+id: hasunosora/link-live-dream-106th
+projects: [hasunosora]
+status: announced
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～106期新入生入部記念公演～
+  rom: Love Live! Hasunosora Girls' High School Idol Club Link Live Dream ~106th Shinnyuusei Nyuubu Kinen Kouen~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 Link Live Dream ~106기 신입생 입부 기념 공연~
+cast:
+  - {character: hasunosora/kaho-hinoshita}
+  - {character: hasunosora/sayaka-murano}
+  - {character: hasunosora/tsuzuri-yugiri}
+  - {character: hasunosora/rurino-osawa}
+  - {character: hasunosora/megumi-fujishima}
+  - {character: hasunosora/ginko-momose}
+  - {character: hasunosora/kosuzu-kachimachi}
+  - {character: hasunosora/hime-anyoji}
+  - {character: hasunosora/ceras-yanagida-lilienfeld}
+  - {character: hasunosora/izumi-katsuragi}
+  - {character: hasunosora/maika-kinjo}
+  - {character: hasunosora/aoi-reisawa}
+  - {character: hasunosora/mion-shinowa}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-budokan
+    performances:
+      - {date: 2027-01-22}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106
+    checked: 2026-10-27
+    note: 106기 3명(星宮じゅりあ·朝陽花菜·湯浅かなえ)은 공식 멤버 페이지 12~14의 캐릭터로(review/HSN-members.yaml 승인 대기)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 부제 번역안(106期는 「103期Fes×ReC」처럼 106th·106기)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106
+    checked: 2026-10-27

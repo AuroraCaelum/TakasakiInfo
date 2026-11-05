@@ -1,0 +1,226 @@
+id: liella/aikotoba
+project: liella
+title:
+  ja: アイコトバ！
+  rom: Aikotoba!
+  ko: 아이코토바!
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: takuya-ohata}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: アイコトバ！ (Off Vocal)
+      rom: Aikotoba! (Off Vocal)
+      ko: 아이코토바! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takuya-ohata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+  - id: kanon-shibuya-solo-ver
+    title:
+      ja: アイコトバ！ (澁谷かのん Solo Ver.)
+      rom: Aikotoba! (Kanon Shibuya Solo Ver.)
+      ko: 아이코토바! (시부야 카논 Solo Ver.)
+    version: 澁谷かのん Solo Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: keke-tang-solo-ver
+    title:
+      ja: アイコトバ！ (唐 可可 Solo Ver.)
+      rom: Aikotoba! (Keke Tang Solo Ver.)
+      ko: 아이코토바! (탕 쿠쿠 Solo Ver.)
+    version: 唐 可可 Solo Ver.
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: chisato-arashi-solo-ver
+    title:
+      ja: アイコトバ！ (嵐 千砂都 Solo Ver.)
+      rom: Aikotoba! (Chisato Arashi Solo Ver.)
+      ko: 아이코토바! (아라시 치사토 Solo Ver.)
+    version: 嵐 千砂都 Solo Ver.
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: sumire-heanna-solo-ver
+    title:
+      ja: アイコトバ！ (平安名すみれ Solo Ver.)
+      rom: Aikotoba! (Sumire Heanna Solo Ver.)
+      ko: 아이코토바! (헤안나 스미레 Solo Ver.)
+    version: 平安名すみれ Solo Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: ren-hazuki-solo-ver
+    title:
+      ja: アイコトバ！ (葉月 恋 Solo Ver.)
+      rom: Aikotoba! (Ren Hazuki Solo Ver.)
+      ko: 아이코토바! (하즈키 렌 Solo Ver.)
+    version: 葉月 恋 Solo Ver.
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: kinako-sakurakoji-solo-ver
+    title:
+      ja: アイコトバ！ (桜小路きな子 Solo Ver.)
+      rom: Aikotoba! (Kinako Sakurakoji Solo Ver.)
+      ko: 아이코토바! (사쿠라코지 키나코 Solo Ver.)
+    version: 桜小路きな子 Solo Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: mei-yoneme-solo-ver
+    title:
+      ja: アイコトバ！ (米女メイ Solo Ver.)
+      rom: Aikotoba! (Mei Yoneme Solo Ver.)
+      ko: 아이코토바! (요네메 메이 Solo Ver.)
+    version: 米女メイ Solo Ver.
+    performers:
+      - {character: liella/mei-yoneme}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: shiki-wakana-solo-ver
+    title:
+      ja: アイコトバ！ (若菜四季 Solo Ver.)
+      rom: Aikotoba! (Shiki Wakana Solo Ver.)
+      ko: 아이코토바! (와카나 시키 Solo Ver.)
+    version: 若菜四季 Solo Ver.
+    performers:
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: natsumi-onitsuka-solo-ver
+    title:
+      ja: アイコトバ！ (鬼塚夏美 Solo Ver.)
+      rom: Aikotoba! (Natsumi Onitsuka Solo Ver.)
+      ko: 아이코토바! (오니츠카 나츠미 Solo Ver.)
+    version: 鬼塚夏美 Solo Ver.
+    performers:
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: margarete-wien-solo-ver
+    title:
+      ja: アイコトバ！ (ウィーン・マルガレーテ Solo Ver.)
+      rom: Aikotoba! (Wien Margarete Solo Ver.)
+      ko: 아이코토바! (빈 마르가레테 Solo Ver.)
+    version: ウィーン・マルガレーテ Solo Ver.
+    performers:
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+  - id: tomari-onitsuka-solo-ver
+    title:
+      ja: アイコトバ！ (鬼塚冬毬 Solo Ver.)
+      rom: Aikotoba! (Tomari Onitsuka Solo Ver.)
+      ko: 아이코토바! (오니츠카 토마리 Solo Ver.)
+    version: 鬼塚冬毬 Solo Ver.
+    performers:
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: takuya-ohata}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+    checked: 2026-11-05
+    note: 'ja: 공식 뉴스. rom: Fandom(Aikotoba!), ko: 음역안(合言葉와 愛言葉를 겹친 말이라 번역하지 않음)'
+  credits:
+    status: established
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
+    checked: 2026-10-27
+    note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'

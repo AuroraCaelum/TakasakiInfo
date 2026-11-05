@@ -16,6 +16,10 @@ given_name:
   ko: 카린
 evidence:
   names:
-    status: draft
-    source: automation/review/MSC-persons.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    checked: 2026-11-05
+    note: "ja·rom: 소속사 J.P ROOM 프로필 https://www.jp-r.co.jp/karin_miyamoto/ ('宮本佳林 / Karin Miyamoto'), 읽기: 공식 보도자료 https://kyodonewsprwire.jp/release/202605088758 ('みやもと・かりん'), ko: 나무위키 '미야모토 카린'(규칙 엔진과 같음). 『スクールアイドルミュージカル2026』 滝沢アンズ"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

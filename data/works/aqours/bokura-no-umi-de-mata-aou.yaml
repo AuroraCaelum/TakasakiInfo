@@ -111,6 +111,40 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
         checked: 2026-10-20
+  - id: aqours-off-vocal
+    kind: off_vocal
+    title:
+      ja: 僕らの海でまた会おう (Off Vocal)
+      rom: Bokura no Umi de Mata Aou (Off Vocal)
+      ko: 우리의 바다에서 다시 만나자 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: rush-eye}
+    instrumental_of: aqours
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd87
+        checked: 2026-10-27
+  - id: live-aqours-finale-2025-06-22
+    title:
+      ja: 僕らの海でまた会おう (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: Bokura no Umi de Mata Aou (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: 우리의 바다에서 다시 만나자 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: rush-eye}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-22
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90)과 같다고 봄
 evidence:
   title:
     status: derived

@@ -1,0 +1,62 @@
+id: musical/musical-2022
+projects: [musical]
+status: performed
+title:
+  ja: スクールアイドルミュージカル（初演）
+  rom: School Idol Musical (Premiere)
+  ko: 스쿨 아이돌 뮤지컬 (초연)
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: new-national-theatre-tokyo-playhouse
+    performances:
+      - {date: 2022-12-10}
+      - {date: 2022-12-11, label: 12:30}
+      - {date: 2022-12-11, label: 17:00}
+      - {date: 2022-12-12}
+      - {date: 2022-12-13, label: 13:00}
+      - {date: 2022-12-13, label: 18:00}
+      - {date: 2022-12-14, label: 13:00}
+      - {date: 2022-12-14, label: 18:00}
+      - {date: 2022-12-15}
+  - id: 2-osaka
+    city: osaka
+    venue: umeda-arts-theater-main-hall
+    performances:
+      - {date: 2023-01-25}
+      - {date: 2023-01-26, label: 13:00}
+      - {date: 2023-01-26, label: 18:00}
+      - {date: 2023-01-27}
+      - {date: 2023-01-28, label: 12:00}
+      - {date: 2023-01-28, label: 16:30}
+      - {date: 2023-01-29, label: 12:00}
+      - {date: 2023-01-29, label: 16:30}
+  - id: 3-tokyo
+    city: tokyo
+    venue: nippon-seinenkan-hall
+    performances:
+      - {date: 2023-08-03, label: 13:00}
+      - {date: 2023-08-03, label: 18:30}
+      - {date: 2023-08-04}
+      - {date: 2023-08-05, label: 12:00}
+      - {date: 2023-08-05, label: 16:30}
+      - {date: 2023-08-06, label: 12:00}
+      - {date: 2023-08-06, label: 16:30}
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2022/schedule.php
+    checked: 2026-11-05
+    note: 'ja: 공식 사이트의 작품명 「スクールアイドルミュージカル」에 공연 연도(공식 사이트의 구분)를 괄호로 붙여 구별. rom·ko: 번역안. 일정 조사 메모: 무대 뮤지컬(세트리스트 없음, 공연별 캐스트표는 후속). 휴연·중지 공연 제외. https://www.lovelive-anime.jp/musical/2022/schedule.php: Stage musical (stage runs requested). Labels are the official start times. ja title as the site prints it: 「スクールアイドルミュージカル」 (the about page calls it ラブライブ！シリーズ初のミュージカル). / https://www.lovelive-anime.jp/musical/2023/schedule.php: Additional run of the 2022 production; may be merged with the 2022 entry as a third stop.'
+  schedule.1-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2022/schedule.php
+    checked: 2026-11-04
+  schedule.2-osaka:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2022/schedule.php
+    checked: 2026-11-04
+  schedule.3-tokyo:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/schedule.php
+    checked: 2026-11-04

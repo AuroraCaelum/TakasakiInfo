@@ -1,0 +1,43 @@
+id: nijigasaki/choujigen-ongakusai-manatsu-2023
+projects: [nijigasaki]
+status: performed
+title:
+  ja: オダイバ！！超次元音楽祭 真夏の冒険王LIVE
+  rom: Odaiba!! Choujigen Ongakusai Manatsu no Boukenou LIVE
+  ko: 오다이바!! 초차원 음악제 한여름의 모험왕 LIVE
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/lanzhu-zhong}
+  - {character: nijigasaki/rina-tennoji}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: odaiba-boukenou-summer-splash-stadium
+    performances:
+      - date: 2023-08-14
+        setlist:
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/lanzhu-zhong}
+evidence:
+  cast:
+    status: official
+    source: https://www.fujitv.co.jp/choujigen/202309/index.html
+    checked: 2026-11-05
+    note: '출연란: 大西亜玖璃(上原歩夢); 法元明菜(鐘 嵐珠); 田中ちえ美(天王寺璃奈)'
+  setlist.2023-08-14:
+    status: established
+    source: https://hnmrk.hatenablog.com/entry/2023/08/15/180000
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.fujitv.co.jp/choujigen/202309/index.html
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2023-08-14 公開収録] 大西亜玖璃(上原歩夢); 法元明菜(鐘 嵐珠); 田中ちえ美(天王寺璃奈). This resolves the 2023-08-14 'お台場冒険王' lead that was Fandom-only: it was the public taping (公開収録) of Fuji TV's 'オダイバ！！超次元音楽祭 真夏の冒険王LIVE' (series 8th edition), held at the お台場冒険王2023 event stage. The date is the taping date. air_date is the Kanto digest broadcast at 00:30 on 2023-09-25 (Fuji prints 9月24日（日）24:30). A 70-min director's cut aired on フジテレビTWO 2023-10-04. The venue name is printed 'SUMMER SPLASHスタジアム' by Fuji and ja.wikipedia, and 'SUMMER SPLASHステージ' by one blog. 前田佳織里 (桜坂しずく) and 逢田梨香子 (Aqours) appeared as solo artists, not billed as the project, so they are not in performers or projects. Whether TOKIMEKI Runners made the broadcast cut has not been verified. / 근거: https://www.fujitv.co.jp/choujigen/202309/index.html (Fuji TV programme page (live, fetched 2026-11): オダイバ！！超次元音楽祭 真夏の冒険王LIVE 9月24日（日）24:30～25:30 放送; お台場冒険王SUMMER SPLASHスタジアムで公開収録; 出演者 逢田梨香子 / A)"
+  schedule:
+    status: official
+    source: https://www.fujitv.co.jp/choujigen/202309/index.html
+    checked: 2026-11-05

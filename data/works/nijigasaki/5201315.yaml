@@ -3,8 +3,8 @@ project: nijigasaki
 title:
   ja: '5201314'
   kana: '5201314'
-  rom: '5201315'
-  ko: '5201316'
+  rom: '5201314'
+  ko: '5201314'
 credits:
   lyricist:
     - {person: chibanyan}
@@ -21,7 +21,26 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 5201314 (Off Vocal)
+      rom: 5201314 (Off Vocal)
+      ko: 5201314 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: chibanyan}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
+        checked: 2026-10-27
 evidence:
+  title.rom:
+    status: derived
+    checked: 2026-10-27
+    note: 숫자로 된 제목은 rom·ko도 원문(§5.4). 레거시 표가 자동 채우기로 5201315·5201316을 넣어 둔 것을 고침(id는 그대로)
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56

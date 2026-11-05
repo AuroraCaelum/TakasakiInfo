@@ -16,6 +16,10 @@ given_name:
   ko: 카오리
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·읽기·rom: 소속사 브라이트 이데아 프로필 https://bright-idea.jp/talent/kaori-fukuhara/ ('福原 香織 | Kaori Fukuhara', 'ふくはらかおり'). ko: 나무위키 '후쿠하라 카오리'(규칙 엔진과 같음)"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -1,0 +1,52 @@
+id: liella/tsumi-da-yo-ne
+project: liella
+title:
+  ja: 罪DA・YO・NE
+  rom: Tsumi DA・YO・NE
+  ko: 죄DA・YO・NE
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: ryuki-koike}
+    - {person: hoffnung}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: hoffnung}
+    evidence:
+      credits:
+        status: official
+        source: https://www.youtube.com/watch?v=hNtM9AhsFWw
+        checked: 2026-10-27
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 罪DA・YO・NE (Off Vocal)
+      rom: Tsumi DA・YO・NE (Off Vocal)
+      ko: 죄DA・YO・NE (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: hoffnung}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.youtube.com/watch?v=hNtM9AhsFWw
+        checked: 2026-10-27
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+evidence:
+  title:
+    status: derived
+    source: https://www.youtube.com/watch?v=hNtM9AhsFWw
+    checked: 2026-11-05
+    note: '공식 미게재: ja: 공식 YouTube 미리 듣기 영상. rom: Fandom(Tsumi DA・YO・NE), ko: 번역안'
+  credits:
+    status: official
+    source: https://www.youtube.com/watch?v=hNtM9AhsFWw
+    checked: 2026-10-27
+    note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음

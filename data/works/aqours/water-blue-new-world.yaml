@@ -151,6 +151,45 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: WATER BLUE NEW WORLD (TVサイズ)
+      rom: WATER BLUE NEW WORLD (TV Size)
+      ko: WATER BLUE NEW WORLD (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takashi-saeki}
+    strings_arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: live-aqours-finale-2025-06-22
+    title:
+      ja: WATER BLUE NEW WORLD (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: WATER BLUE NEW WORLD (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: WATER BLUE NEW WORLD (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takashi-saeki}
+    strings_arranger:
+      - {person: tatsuya-kurauchi}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-22
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23)과 같다고 봄
 evidence:
   credits:
     status: official

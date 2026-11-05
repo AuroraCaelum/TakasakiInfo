@@ -1,0 +1,38 @@
+id: aqours/bilibili-world-2017
+projects: [aqours]
+status: performed
+title:
+  ja: BILIBILI WORLD 2017「Love Live! Sunshine!! Aqours特別课外活动 Special Talk Show in BILIBILI WORLD 2017」
+  rom: BILIBILI WORLD 2017 "Love Live! Sunshine!! Aqours Special Extracurricular Activity Special Talk Show in BILIBILI WORLD 2017"
+  ko: BILIBILI WORLD 2017 「Love Live! Sunshine!! Aqours 특별 과외활동 Special Talk Show in BILIBILI WORLD 2017」
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/kanan-matsuura}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/you-watanabe}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/hanamaru-kunikida}
+  - {character: aqours/mari-ohara}
+  - {character: aqours/ruby-kurosawa}
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: shanghai-world-expo-exhibition-convention-center
+    performances:
+      - {date: 2017-07-22}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php
+    checked: 2026-11-05
+    note: '출연란: 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 高槻かなこ(国木田花丸); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2017-07-22 12:00–13:00 local] 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 高槻かなこ(国木田花丸); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ). Same day as BILIBILI MACRO LINK 2017 (already in DB as aqours/bilibili-macro-link-2017) but a separate talk stage at the BILIBILI WORLD expo. Only the pre-event notice retrieved. / 근거: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php (Wayback 20171108051637: #3636 (2017/07/21) — 2017/7/22 12:00～13:00, 上海世博展览馆BILIBILI WORLD 2017脱口秀舞台, 演出者 Aqours (all nine with roles); strea)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news54.php
+    checked: 2026-11-05

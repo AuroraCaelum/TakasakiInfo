@@ -39,6 +39,52 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
         checked: 2026-10-19
+  - id: live-liella-1st-gen-2025-08-10
+    title:
+      ja: Shooting Voice!! (1期生Ver.)
+      rom: Shooting Voice!! (1期生Ver.)
+      ko: Shooting Voice!! (1期生Ver.)
+    version: 1期生Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/keke-tang}
+      - {character: liella/chisato-arashi}
+      - {character: liella/sumire-heanna}
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: yoshiaki-dewa}
+    live:
+      concert: liella/liella-1st-gen
+      date: 2025-08-10
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5813
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36)과 같다고 봄
+  - id: live-liella-connect-the-stars-2025-08-11
+    title:
+      ja: Shooting Voice!! (2・3期生Ver.)
+      rom: Shooting Voice!! (2・3期生Ver.)
+      ko: Shooting Voice!! (2・3期生Ver.)
+    version: 2・3期生Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+      - {character: liella/mei-yoneme}
+      - {character: liella/shiki-wakana}
+      - {character: liella/natsumi-onitsuka}
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: yoshiaki-dewa}
+    live:
+      concert: liella/liella-connect-the-stars
+      date: 2025-08-11
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5813
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36)과 같다고 봄
 evidence:
   credits:
     status: official

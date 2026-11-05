@@ -53,6 +53,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 予測不可能Driving! (Off Vocal)
+      rom: Yosoku Fukanou Driving! (Off Vocal)
+      ko: 예측불가능 Driving! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: pw-a}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/68117/
+        checked: 2026-10-27
 evidence:
   title:
     status: derived

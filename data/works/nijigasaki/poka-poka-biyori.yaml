@@ -13,7 +13,35 @@ credits:
     - {person: nyanzonudeshi}
     - {person: morito-yonezawa}
     - {person: ginnojo-hoshi}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+      - {character: nijigasaki/ai-miyashita}
+      - {character: nijigasaki/setsuna-yuki}
+      - {character: nijigasaki/lanzhu-zhong}
+    arranger:
+      - {person: ginnojo-hoshi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd_movie.php
+        checked: 2026-10-27
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Poka Poka 日和 (Off Vocal)
+      rom: Poka Poka Biyori (Off Vocal)
+      ko: Poka Poka 좋은 날 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ginnojo-hoshi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd_movie.php
+        checked: 2026-10-27
 external_ids:
   fandom: Poka Poka Biyori
 evidence:

@@ -13,6 +13,10 @@ given_name:
   ko: 리미
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·rom: 소속사 히비키 프로필 https://hibiki-cast.jp/hibiki_f/nishimoto_rimi/ ('西本 りみ / Rimi Nishimoto', 띄어쓰기는 D28). 성의 공식 후리가나 없음. ko: 공식 한국어(카카오게임즈 뱅드림 한국 서비스 '성우.니시모토 리미' https://web.archive.org/web/2022im_/https://bangdream.kakaogames.com/web/images/character/pop/poppin/1.png)"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

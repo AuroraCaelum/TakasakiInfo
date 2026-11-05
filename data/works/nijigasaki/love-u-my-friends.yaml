@@ -59,6 +59,37 @@ recordings:
         source: https://love-live.fandom.com/wiki/Love_U_my_friends
         checked: 2026-10-19
         note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. Fandom 문서의 크레딧·트랙
+  - id: tv-anime-insert-song-ver
+    title:
+      ja: Love U my friends (TVアニメ挿入歌Ver.)
+      rom: Love U my friends (TV Anime Insert Song Ver.)
+      ko: Love U my friends (TV 애니메이션 삽입곡 Ver.)
+    version: TVアニメ挿入歌Ver.
+    performers:
+      - {artist: nijigasaki-high-school-idol-club}
+    arranger:
+      - {person: keisuke-koyama}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
+        checked: 2026-10-26
+        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(9-members-ver)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(9-members-ver)을 줄인 것이라 그 편곡을 따름'
+  - id: 9-members-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: Love U my friends (Off Vocal)
+      rom: Love U my friends (Off Vocal)
+      ko: Love U my friends (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: keisuke-koyama}
+    instrumental_of: 9-members-ver
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/73508/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

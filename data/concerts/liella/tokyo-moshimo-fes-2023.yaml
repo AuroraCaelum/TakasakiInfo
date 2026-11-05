@@ -1,0 +1,31 @@
+id: liella/tokyo-moshimo-fes-2023
+projects: [liella]
+status: performed
+title:
+  ja: TOKYOもしもFES渋谷2023 ラブライブ！スーパースター!! ステージ
+  rom: TOKYO Moshimo FES Shibuya 2023 Love Live! Superstar!! Stage
+  ko: TOKYO 만약에 FES 시부야 2023 러브 라이브! 슈퍼스타!! 스테이지
+cast:
+  - {character: liella/chisato-arashi}
+  - {character: liella/shiki-wakana}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: yoyogi-park-event-plaza
+    performances:
+      - {date: 2023-09-03}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2569
+    checked: 2026-11-05
+    note: '출연란: 岬なこ(嵐千砂都); 大熊和奏(若菜四季)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2569
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2023-09-03 12:00〜12:30] 岬なこ(嵐千砂都); 大熊和奏(若菜四季). Local disaster-prevention festival in Shibuya; billed as a talk show; photography banned. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2569 (Liella! official news 2023-08-30 (Wayback 20241103153123): disaster-prevention event TOKYOもしもFES渋谷2023 (9/2-3, 代々木公園イベント広場・ケヤキ並木); ラブライブ！スーパ)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2569
+    checked: 2026-11-05

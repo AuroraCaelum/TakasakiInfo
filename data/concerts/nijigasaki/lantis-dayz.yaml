@@ -1,0 +1,73 @@
+id: nijigasaki/lantis-dayz
+projects: [nijigasaki, ikizulive]
+status: performed
+title:
+  ja: Shibuya LOVEZ OPENING SERIES「Lantis DAYZ」
+  rom: Shibuya LOVEZ OPENING SERIES "Lantis DAYZ"
+  ko: Shibuya LOVEZ OPENING SERIES 「Lantis DAYZ」
+cast:
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/akira-goto}
+  - {character: ikizulive/hanabi-komagata}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/ai-miyashita}
+  - {character: nijigasaki/rina-tennoji}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: shibuya-lovez
+    performances:
+      - date: 2026-07-19
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/dekoboko-quartet
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/muteki-kyuu-believer
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/circle-of-love
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/tsunagaru-connect
+            version: Short ver.
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: ikizuraibu}
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: https://www.lantis.jp/dayz/
+    checked: 2026-11-04
+    note: '출연란: 綾咲穂音(高橋ポルカ); 遠藤璃菜(麻布麻衣); 宮野 芹(五桐 玲); 藤野こころ(駒形花火); 相良茉優(中須かすみ); 村上奈津実(宮下 愛); 田中ちえ美(天王寺璃奈)'
+  setlist.2026-07-19:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#Shibuya_LOVEZ_OPENING_SERIES_"Lantis_DAYZ"
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lantis.jp/dayz/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2026-07-19 DAY.2] 綾咲穂音(高橋ポルカ); 遠藤璃菜(麻布麻衣); 宮野 芹(五桐 玲); 藤野こころ(駒形花火); 相良茉優(中須かすみ); 村上奈津実(宮下 愛); 田中ちえ美(天王寺璃奈). Same event and same block as row 53 (Ikizurai-Bu! side) - enter ONCE as a joint Nijigasaki + Ikizurai-Bu! appearance. 2-day event (7/18 Day1 had no Love Live! acts); only DAY.2 counts. Set list from Fandom, which lists no singers; the block order is Ikizurai-Bu! MC after song 1, Nijigasaki MC after song 4, and Ai♡Scream! by both. Song attribution to blocks is inferred from the Fandom MC markers, not stated per song. / 근거: https://www.lantis.jp/dayz/ (Organizer (Lantis) event page: 7/19(日)Day2 開場16:00 開演17:00; artists incl. 『イキヅライブ！ LOVELIVE! BLUEBIRD』いきづらい部！ 綾咲穂音（高橋ポルカ役）、遠藤璃菜（麻布麻衣役）、宮野 芹（); https://shibuyalovez.jp/schedule/?year=2026&month=7 (Venue schedule: 7.19 Sun Shibuya LOVEZ OPENING SERIES「Lantis DAYZ」 OPEN16:00 START17:00)'
+  schedule:
+    status: official
+    source: https://www.lantis.jp/dayz/
+    checked: 2026-11-04

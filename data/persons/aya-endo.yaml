@@ -13,6 +13,10 @@ given_name:
   ko: 아야
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "ja·rom: 소속사 인텐션 프로필 https://intention-k.com/profile/aya_endo ('遠藤 綾 / Aya Endo'). 공식 후리가나 없음. ko: 나무위키 '엔도 아야'(규칙 엔진과 같음)"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

@@ -83,6 +83,138 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Snow halation (TVサイズ)
+      rom: Snow halation (TV Size)
+      ko: Snow halation (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: nozomi-mix
+    title:
+      ja: Snow halation (NOZOMI Mix)
+      rom: Snow halation (NOZOMI Mix)
+      ko: Snow halation (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: nico-mix
+    title:
+      ja: Snow halation (NICO Mix)
+      rom: Snow halation (NICO Mix)
+      ko: Snow halation (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: Snow halation (MAKI Mix)
+      rom: Snow halation (MAKI Mix)
+      ko: Snow halation (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: Snow halation (ELI Mix)
+      rom: Snow halation (ELI Mix)
+      ko: Snow halation (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: Snow halation (RIN Mix)
+      rom: Snow halation (RIN Mix)
+      ko: Snow halation (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: Snow halation (HANAYO Mix)
+      rom: Snow halation (HANAYO Mix)
+      ko: Snow halation (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+  - id: live-ijigen-fes-2023-2023-12-10
+    title:
+      ja: Snow halation (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: Snow halation (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: Snow halation (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {artist: cinderella-girls, joint: true}
+      - {artist: millionstars, joint: true}
+      - {artist: shiny-colors, joint: true}
+    arranger:
+      - {person: ryosuke-nakanishi}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-10
+    evidence:
+      credits:
+        status: derived
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
 evidence:
   title:
     status: derived

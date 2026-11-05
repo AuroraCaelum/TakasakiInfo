@@ -41,6 +41,26 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Dazzling Game ～TV Size～
+      rom: Dazzling Game ~TV Size~
+      ko: Dazzling Game ~TV Size~
+    version: TV Size
+    performers:
+      - {character: liella/kanon-shibuya}
+      - {character: liella/margarete-wien}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: effy}
+    strings_arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

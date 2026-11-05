@@ -1,0 +1,124 @@
+id: muse/muse-3rd-anniversary
+projects: [muse]
+status: confirmed
+title:
+  ja: ラブライブ！μ's 3rd Anniversary LoveLive!
+  rom: Love Live! μ's 3rd Anniversary LoveLive!
+  ko: 러브 라이브! μ's 3rd Anniversary LoveLive!
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2013-06-16
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/yume-naki-yume-wa-yume-ja-nai
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/blueberry-train
+            performers:
+              - {character: muse/kotori-minami}
+          - work: muse/watashitachi-wa-mirai-no-hana
+            performers:
+              - {character: muse/umi-sonoda}
+          - work: muse/nawatobi
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/koi-no-signal-rin-rin-rin
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/daring
+            performers:
+              - {character: muse/maki-nishikino}
+          - work: muse/mahoutsukai-hajimemashita
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/arifureta-kanashimi-no-hate
+            performers:
+              - {character: muse/eli-ayase}
+          - work: muse/junai-lens
+            performers:
+              - {character: muse/nozomi-tojo}
+          - work: muse/start-dash
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+          - work: muse/korekara-no-someday
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/kotori-minami}
+              - {character: muse/umi-sonoda}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/maki-nishikino}
+              - {character: muse/hanayo-koizumi}
+              - {character: muse/nico-yazawa}
+          - {type: mc}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/wonder-zone
+            performers:
+              - {artist: muse}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/wild-stars
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            version: Finale
+            performers:
+              - {artist: muse}
+external_ids:
+  fandom: Muse's 3rd Anniversary Love Live!
+evidence:
+  setlist.2013-06-16:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd29
+    checked: 2026-10-27
+    note: 공식 BD 페이지(μ's 3rd Anniversary LoveLive! Blu-ray/DVD, LABX-8044～5)의 INDEX(곡·MC·가창자)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd29
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-10-27
+    note: TV애니 1기 BD 1권 封入特典(チケット最速先行販売申込券)의 일정·회장

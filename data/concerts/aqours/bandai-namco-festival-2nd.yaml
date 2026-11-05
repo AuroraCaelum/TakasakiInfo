@@ -1,0 +1,123 @@
+id: aqours/bandai-namco-festival-2nd
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: バンダイナムコエンターテインメントフェスティバル 2nd
+  rom: Bandai Namco Entertainment Festival 2nd
+  ko: 반다이 남코 엔터테인먼트 페스티벌 2nd
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: zozo-marine-stadium
+    performances:
+      - date: 2022-05-14
+        cast:
+          - {character: nijigasaki/ayumu-uehara}
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/shioriko-mifune}
+          - {character: nijigasaki/mia-taylor}
+          - {character: nijigasaki/lanzhu-zhong}
+          - {character: liella/kanon-shibuya}
+          - {character: liella/keke-tang}
+          - {character: liella/chisato-arashi}
+          - {character: liella/sumire-heanna}
+          - {character: liella/ren-hazuki}
+        setlist:
+          - work: nijigasaki/maze-town
+            performers:
+              - {artist: a-zu-na}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: a-zu-na}
+              - {artist: r3birth}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: a-zu-na}
+              - {artist: r3birth}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+      - date: 2022-05-15
+        cast:
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/kasumi-nakasu}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/rina-tennoji}
+          - {character: aqours/dia-kurosawa}
+          - {character: aqours/you-watanabe}
+          - {character: aqours/yoshiko-tsushima}
+          - {character: aqours/ruby-kurosawa}
+        setlist:
+          - work: aqours/aqours-pirates-desire
+            performers:
+              - {artist: aqours}
+          - work: aqours/thrilling-one-way
+            performers:
+              - {artist: aqours}
+          - work: aqours/jimo-ai-dash
+            performers:
+              - {artist: aqours}
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/swinging
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/sing-smile
+            performers:
+              - {artist: qu4rtz}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: diverdiva}
+              - {artist: qu4rtz}
+evidence:
+  cast:
+    status: official
+    source: https://fes.bn-ent.net/outline/
+    checked: 2026-11-04
+    note: '출연란: 「ラブライブ！サンシャイン!!」: 小宮有紗、斉藤朱夏、小林愛香、降幡愛 (per ja.wikipedia) / 大西亜玖璃(上原歩夢); 前田佳織里(桜坂しずく); 小泉萌香(三船栞子); 内田 秀(ミア・テイラー); 法元明菜(鐘 嵐珠); 相良茉優(中須かすみ); 久保田未夢(朝香果林); 村上奈津実(宮下 愛); 鬼頭明里(近江彼方); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈) / 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋)'
+  setlist.2022-05-14:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#BANDAI_NAMCO_Entertainment_Festival_2nd
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)'
+  setlist.2022-05-15:
+    status: established
+    source: https://www.famitsu.com/news/202205/16261529.html
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: "공식 미게재: ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2022-05-15 DAY2] 「ラブライブ！サンシャイン!!」: 小宮有紗、斉藤朱夏、小林愛香、降幡愛 (per ja.wikipedia). NEW. Originally scheduled for 2021, postponed. Famitsu credits the block as 「ラブライブ！サンシャイン!!」 (set list said to be official). Nijigasaki also on DAY2 (other agent). / [2022-05-14 DAY1, 2022-05-15 DAY2] 大西亜玖璃(上原歩夢); 前田佳織里(桜坂しずく); 小泉萌香(三船栞子); 内田 秀(ミア・テイラー); 法元明菜(鐘 嵐珠); 相良茉優(中須かすみ); 久保田未夢(朝香果林); 村上奈津実(宮下 愛); 鬼頭明里(近江彼方); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈). Two separate days with different cast: DAY1 = A・ZU・NA (without 楠木ともり) + R3BIRTH; DAY2 = DiverDiva + QU4RTZ. Performer and set-list entries carry a 'show' date. Set lists are Fandom-only. Liella! (5/14) and Aqours (5/15) also performed at this festival (not this row). / [2022-05-14 DAY1] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋). Postponed edition (originally Tokyo Dome, Feb 2021). Also streamed. Nijigasaki on both days, Aqours on DAY2. / 근거: https://fes.bn-ent.net/outline/ (Organizer outline (Wayback 20220226151207): バンダイナムコエンターテインメントフェスティバル 2nd, DAY1 2022年5月14日(土)/DAY2 5月15日(日) 13:30開場/15:30開演; postponed from 2); https://fes.bn-ent.net/ (Organizer top page lineup (Wayback 20220514054105): 'ラブライブ！虹ヶ咲学園スクールアイドル同好会' listed under both 5.14 SAT (artist/113) and 5.15 SUN (artist/30); https://fes.bn-ent.net/artist/113/ (DAY1 entry (Wayback 20220513230408): 大西亜玖璃（上原歩夢役）/ 前田佳織里（桜坂しずく役）/ 小泉萌香（三船栞子役）/ 内田 秀（ミア・テイラー役）/ 法元明菜（鐘 嵐珠役）); https://fes.bn-ent.net/artist/30/ (DAY2 entry (Wayback 20220617074511): 相良茉優（中須かすみ役）/ 久保田未夢（朝香果林役）/ 村上奈津実（宮下 愛役）/ 鬼頭明里（近江彼方役）/ 指出毬亜（エマ・ヴェルデ役）/ 田中ちえ美（天王寺璃奈役）); https://web.archive.org/web/20220226151207/https://fes.bn-ent.net/outline/ (Organizer outline: DAY1 2022年5月14日(土) / DAY2 5月15日(日); 主催 バンダイナムコエンターテインメント); https://web.archive.org/web/20220514054105/https://fes.bn-ent.net/?platform=hootsuite (Organizer top: venue ZOZOマリンスタジアム (postponed from Tokyo Dome 2021-02-06/07); ラブライブ！スーパースター!! listed in the first-day block); https://web.archive.org/web/20220226151221/https://fes.bn-ent.net/artist/142/ (Organizer artist page: Liella! 伊達さゆり（澁谷かのん役）/ Liyuu（唐 可可役）/ 岬 なこ（嵐 千砂都役）/ ペイトン尚未（平安名すみれ役）/ 青山なぎさ（葉月 恋役）)"
+  schedule:
+    status: official
+    source: https://fes.bn-ent.net/outline/
+    checked: 2026-11-04

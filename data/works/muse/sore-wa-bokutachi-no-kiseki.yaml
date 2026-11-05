@@ -35,6 +35,165 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: それは僕たちの奇跡 (TVサイズ)
+      rom: Sore wa Bokutachi no Kiseki (TV Size)
+      ko: 그것은 우리의 기적 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: それは僕たちの奇跡 (NICO Mix)
+      rom: Sore wa Bokutachi no Kiseki (NICO Mix)
+      ko: 그것은 우리의 기적 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: それは僕たちの奇跡 (HANAYO Mix)
+      rom: Sore wa Bokutachi no Kiseki (HANAYO Mix)
+      ko: 그것은 우리의 기적 (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: それは僕たちの奇跡 (NOZOMI Mix)
+      rom: Sore wa Bokutachi no Kiseki (NOZOMI Mix)
+      ko: 그것은 우리의 기적 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: それは僕たちの奇跡 (MAKI Mix)
+      rom: Sore wa Bokutachi no Kiseki (MAKI Mix)
+      ko: 그것은 우리의 기적 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: それは僕たちの奇跡 (RIN Mix)
+      rom: Sore wa Bokutachi no Kiseki (RIN Mix)
+      ko: 그것은 우리의 기적 (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: それは僕たちの奇跡 (UMI Mix)
+      rom: Sore wa Bokutachi no Kiseki (UMI Mix)
+      ko: 그것은 우리의 기적 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: それは僕たちの奇跡 (KOTORI Mix)
+      rom: Sore wa Bokutachi no Kiseki (KOTORI Mix)
+      ko: 그것은 우리의 기적 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: それは僕たちの奇跡 (ELI Mix)
+      rom: Sore wa Bokutachi no Kiseki (ELI Mix)
+      ko: 그것은 우리의 기적 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: それは僕たちの奇跡 (HONOKA Mix)
+      rom: Sore wa Bokutachi no Kiseki (HONOKA Mix)
+      ko: 그것은 우리의 기적 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
 evidence:
   title:
     status: derived

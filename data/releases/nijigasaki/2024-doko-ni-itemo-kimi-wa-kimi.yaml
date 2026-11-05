@@ -25,6 +25,42 @@ editions:
   - id: e6
     label:
       ja: 桜坂しずく盤
+  - id: e7
+    label:
+      ja: 桜坂しずく盤 特装盤
+    catalog: LACZ-10234
+    media: [CD]
+    release_date: 2024-10-19
+  - id: e8
+    label:
+      ja: 近江彼方盤 特装盤
+    catalog: LACZ-10235
+    media: [CD]
+    release_date: 2024-10-19
+  - id: e9
+    label:
+      ja: エマ・ヴェルデ盤 特装盤
+    catalog: LACZ-10236
+    media: [CD]
+    release_date: 2024-10-19
+  - id: e10
+    label:
+      ja: 鐘 嵐珠盤 特装盤
+    catalog: LACZ-10237
+    media: [CD]
+    release_date: 2024-10-19
+  - id: e11
+    label:
+      ja: 上原歩夢盤 特装盤
+    catalog: LACZ-10238
+    media: [CD]
+    release_date: 2024-10-19
+  - id: e12
+    label:
+      ja: 主題歌盤 特装盤
+    catalog: LACZ-10239
+    media: [CD]
+    release_date: 2024-10-19
 discs:
   - tracks:
       - {no: 1, recording: nijigasaki/rise-up-high#original}
@@ -73,5 +109,10 @@ evidence:
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
-    checked: 2026-10-20
+    checked: 2026-10-27
     note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+  editions.tokusouban:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72059/
+    checked: 2026-11-04
+    note: '특장반 6종: 레이블 카탈로그(72059, 72060, 72061, 72062, 72063, 72064, 71983)의 품번·트랙(통상반과 같음). 판매처·추가 내용은 미게재'

@@ -1,0 +1,50 @@
+id: aqours/lantis-festival-2019-anime-nyc
+projects: [aqours]
+status: performed
+title:
+  ja: Lantis Matsuri 2019 at Anime NYC!
+  rom: Lantis Matsuri 2019 at Anime NYC!
+  ko: Lantis Matsuri 2019 at Anime NYC!
+cast:
+  - {artist: guilty-kiss}
+stops:
+  - id: 1-new-york
+    city: new-york
+    venue: jacob-k-javits-convention-center-special-events-hall
+    performances:
+      - date: 2019-11-15
+        setlist:
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/kowareyasuki
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/guilty-night-guilty-kiss
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/new-romantic-sailors
+            performers:
+              - {artist: guilty-kiss}
+          - {type: other, label: 空想メソロギヰ (ZAQ & TRUE & Guilty Kiss)}
+evidence:
+  cast:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Guilty Kiss from ラブライブ！サンシャイン!! Aqours'
+  setlist.2019-11-15:
+    status: established
+    source: https://www.animenewsnetwork.com/feature/2019-12-04/event-report-lantis-matsuri-at-animenyc/.153971
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2019-11-15] Guilty Kiss from ラブライブ！サンシャイン!! Aqours. Leg of Lantis' 20th-anniversary Matsuri held inside Anime NYC 2019 (separate ticket). Collab 空想メソロギヰ per Fandom only. Title per ja.wikipedia. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: 공식 미게재

@@ -42,6 +42,54 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+  - id: eli-mix
+    title:
+      ja: Silent tonight (ELI Mix)
+      rom: Silent tonight (ELI Mix)
+      ko: Silent tonight (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72705/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: Silent tonight (MAKI Mix)
+      rom: Silent tonight (MAKI Mix)
+      ko: Silent tonight (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+  - id: nico-mix
+    title:
+      ja: Silent tonight (NICO Mix)
+      rom: Silent tonight (NICO Mix)
+      ko: Silent tonight (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
 evidence:
   title:
     status: derived

@@ -1,0 +1,38 @@
+id: liella/fns-kayousai-2023
+projects: [liella]
+status: performed
+title:
+  ja: 2023FNS歌謡祭 第2夜
+  rom: 2023 FNS Kayousai Dai 2 Ya
+  ko: 2023 FNS 가요제 제2야
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2023-12-13
+        setlist:
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=361705
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: Liella!'
+  setlist.2023-12-13:
+    status: established
+    source: https://www.oricon.co.jp/news/2306406/full/
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.thefirsttimes.jp/?p=361705
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2023-12-13 第2夜] Liella!. Programme live; Fandom says Liella!'s segment was pre-recorded. First TV performance of シェキラ☆☆☆ (short version). / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=361705
+    checked: 2026-11-05
+    note: 공식 미게재

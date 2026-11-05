@@ -1,0 +1,35 @@
+id: nijigasaki/radio-anigasaki-2022
+projects: [nijigasaki]
+status: performed
+title:
+  ja: TVアニメ『ラブライブ！虹ヶ咲学園スクールアイドル同好会』 RADIO アニガサキ！公開録音 ～TOKIMEKI Talk Room～
+  rom: TV Anime "Love Live! Nijigasaki High School Idol Club" RADIO Anigasaki! Public Recording ~TOKIMEKI Talk Room~
+  ko: TV 애니메이션 『러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회』 RADIO 아니가사키! 공개 녹음 ~TOKIMEKI Talk Room~
+cast:
+  - {character: nijigasaki/yu-takasaki}
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/shioriko-mifune}
+  - {character: nijigasaki/mia-taylor}
+  - {character: nijigasaki/lanzhu-zhong}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: yurakucho-yomiuri-hall
+    performances:
+      - {date: 2022-07-10, label: 昼公演}
+      - {date: 2022-07-10, label: 夜公演}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_radio-anigasaki.php
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_radio-anigasaki.php
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Official heading adds 特設サイト after the title. Cast listed once for both shows. 全席指定 各3,500円. Paid live stream planned. / 근거: https://www.lovelive-anime.jp/nijigasaki/sp_radio-anigasaki.php (event special site (Wayback snapshot 2023); linked from nijigasaki/live_archive.php)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/sp_radio-anigasaki.php
+    checked: 2026-11-04

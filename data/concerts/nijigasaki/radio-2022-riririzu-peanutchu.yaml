@@ -1,0 +1,47 @@
+id: nijigasaki/radio-2022-riririzu-peanutchu
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園おはよう&放課後放送室公開録音～りりりーず＆ぴーなっちゅ～
+  rom: Love Live! Nijigasaki Gakuen Ohayou & Houkago Housoushitsu Public Recording ~Ririrīzu & Pīnacchu~
+  ko: 러브 라이브! 니지가사키 학원 아침 & 방과 후 방송실 공개 녹음 ~리리리즈 & 피낫츄~
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: musashimurayama-civic-hall-sakura-hall
+    performances:
+      - date: 2022-10-23
+        label: 第1部
+        cast:
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/shioriko-mifune}
+      - date: 2022-10-23
+        label: 第2部
+        cast:
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+      - date: 2022-10-23
+        label: 第3部
+        cast:
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/shioriko-mifune}
+evidence:
+  cast:
+    status: official
+    source: https://lovelive-anime.jp/nijigasaki/sp_gasaraji2022.php
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://lovelive-anime.jp/nijigasaki/sp_gasaraji2022.php
+    checked: 2026-11-05
+    note: "ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Official heading: 'ラブライブ！虹ヶ咲学園おはよう&放課後放送室公開録音～りりりーず＆ぴーなっちゅ～特設サイト' (half-width & before 放課後, full-width ＆ in the subtitle, as printed). 全3回公演. 第1部・第2部 各3,000円, 第3部 3,500円. / 근거: https://lovelive-anime.jp/nijigasaki/sp_gasaraji2022.php (event special site (Wayback snapshot 2022-12-06)); https://anime.eiga.com/event/156222/ (アニメハック listing 第1部); https://anime.eiga.com/event/156223/ (アニメハック listing 第2部); https://anime.eiga.com/event/156224/ (アニメハック listing 第3部 (mislabelled 第23部 there))"
+  schedule:
+    status: official
+    source: https://lovelive-anime.jp/nijigasaki/sp_gasaraji2022.php
+    checked: 2026-11-04

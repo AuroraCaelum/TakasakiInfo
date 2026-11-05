@@ -35,6 +35,150 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
         checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: タカラモノズ (NICO Mix)
+      rom: Takaramonozu (NICO Mix)
+      ko: 보물들 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: タカラモノズ (HANAYO Mix)
+      rom: Takaramonozu (HANAYO Mix)
+      ko: 보물들 (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: タカラモノズ (NOZOMI Mix)
+      rom: Takaramonozu (NOZOMI Mix)
+      ko: 보물들 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: タカラモノズ (MAKI Mix)
+      rom: Takaramonozu (MAKI Mix)
+      ko: 보물들 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: タカラモノズ (RIN Mix)
+      rom: Takaramonozu (RIN Mix)
+      ko: 보물들 (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: タカラモノズ (UMI Mix)
+      rom: Takaramonozu (UMI Mix)
+      ko: 보물들 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: タカラモノズ (KOTORI Mix)
+      rom: Takaramonozu (KOTORI Mix)
+      ko: 보물들 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: タカラモノズ (ELI Mix)
+      rom: Takaramonozu (ELI Mix)
+      ko: 보물들 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: タカラモノズ (HONOKA Mix)
+      rom: Takaramonozu (HONOKA Mix)
+      ko: 보물들 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd30)과 같다고 봄
 evidence:
   title:
     status: derived

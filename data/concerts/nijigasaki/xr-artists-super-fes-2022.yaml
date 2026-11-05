@@ -1,0 +1,63 @@
+id: nijigasaki/xr-artists-super-fes-2022
+projects: [nijigasaki, liella]
+status: performed
+title:
+  ja: xR ARTISTS SUPER FES 2022
+  rom: xR ARTISTS SUPER FES 2022
+  ko: xR ARTISTS SUPER FES 2022
+stops:
+  - id: 1-online
+    performances:
+      - date: 2022-07-02
+        cast:
+          - {artist: diverdiva}
+          - {artist: liella}
+        setlist:
+          - work: nijigasaki/the-secret-night
+            performers:
+              - {artist: diverdiva}
+          - work: nijigasaki/super-nova
+            performers:
+              - {artist: diverdiva}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+      - date: 2022-07-03
+        cast:
+          - {artist: liella}
+        setlist:
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+          - work: liella/starlight-prologue
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://realsound.jp/2022/05/post-1041344.html
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: DiverDiva / Liella!'
+  setlist.2022-07-02:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#xR_ARTISTS_SUPER_FES_2022
+    checked: 2026-11-05
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님). LL-Fans https://ll-fans.jp/data/event/136도 같음(러브라이브! 시리즈는 사전 녹화)'
+  setlist.2022-07-03:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#xR_ARTISTS_SUPER_FES_2022
+    checked: 2026-11-05
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님). LL-Fans https://ll-fans.jp/data/event/136도 같음(러브라이브! 시리즈는 사전 녹화)'
+  title:
+    status: derived
+    source: https://realsound.jp/2022/05/post-1041344.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2022-07-02 DAY1] DiverDiva. No official source reached: the organizer site xrlive-xrartists.superfes.jp no longer resolves and the Wayback Machine was offline when checked; lovelive-anime.jp news returns 403. Online-only xR (virtual) festival, and DiverDiva's part was marked '特別事前収録' (specially pre-recorded) - so it was streamed, not performed live. Classed live_event only because it was part of a streamed music festival; see doubtful. Whether the performance used the cast or 3DCG characters is not stated in the sources read. Liella! also appeared (DAY1 & DAY2, also pre-recorded) - not this row. / [2022-07-02 DAY1, 2022-07-03 DAY2] Liella!. Online-only xR festival; Liella!'s segment was specially pre-recorded. Setlist day split per Fandom tabs. Organizer site gone and not archived. / 근거: 공식 미게재 (외부 출처만). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/136로 교차 확인"
+  schedule:
+    status: established
+    source: https://realsound.jp/2022/05/post-1041344.html
+    checked: 2026-11-05
+    note: 공식 미게재. LL-Fans https://ll-fans.jp/data/event/136도 같음(러브라이브! 시리즈는 사전 녹화)

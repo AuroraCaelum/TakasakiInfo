@@ -1,0 +1,43 @@
+id: muse/r-no-housoku-2015
+projects: [muse]
+status: performed
+title:
+  ja: Rの法則
+  rom: R no Housoku
+  ko: R의 법칙
+cast:
+  - {artist: muse}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2015-02-16
+        setlist:
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: http://www.nhk.or.jp/rhousoku/koremade/150216.html
+    checked: 2026-11-05
+    note: "출연란: μ's"
+  setlist.2015-02-16:
+    status: official
+    source: http://www.nhk.or.jp/rhousoku/koremade/150216.html
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: http://www.nhk.or.jp/rhousoku/koremade/150216.html
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2015-02-16] μ's. Studio performance (NHK studio, not named). 生放送 per jawiki; NHK page does not say live. Order as on NHK page (Snow halation first, then the two request songs, whose relative order is not stated). Members not named by NHK; jawiki says all nine. / 근거: http://www.nhk.or.jp/rhousoku/koremade/150216.html (NHK Rの法則 これまでのR 2015年2月16日 (Wayback 20150222115103): 「♪Snow halation」をスタジオで披露！; μ’ｓ リクエスト曲披露 — 僕らは今のなかで / START:DASH!! / それは僕たちの奇跡 の中から選ばれたの)"
+  schedule:
+    status: official
+    source: http://www.nhk.or.jp/rhousoku/koremade/150216.html
+    checked: 2026-11-05

@@ -1,0 +1,52 @@
+id: liella/weiss-schwarz-15th-anniversary
+projects: [liella]
+status: performed
+title:
+  ja: ヴァイスシュヴァルツ15周年記念ライブ
+  rom: Weiß Schwarz 15th Anniversary Live
+  ko: 바이스 슈발츠 15주년 기념 라이브
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-garden-theater
+    performances:
+      - date: 2023-11-02
+        setlist:
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/tokonatsu-sunshine
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://anime.eiga.com/event/160768/
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Liella!'
+  setlist.2023-11-02:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Weiß_Schwarz_15th_Anniversary_Live
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://anime.eiga.com/event/160768/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2023-11-02] Liella!. Bushiroad TCG anniversary concert. Official Bushiroad page not checked. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://anime.eiga.com/event/160768/
+    checked: 2026-11-04
+    note: 공식 미게재

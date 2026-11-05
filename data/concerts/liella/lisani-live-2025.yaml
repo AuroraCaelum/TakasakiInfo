@@ -1,0 +1,61 @@
+id: liella/lisani-live-2025
+projects: [liella]
+status: performed
+title:
+  ja: リスアニ！LIVE2025
+  rom: LisAni! LIVE 2025
+  ko: 리스아니! LIVE 2025
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-budokan
+    performances:
+      - date: 2025-01-24
+        setlist:
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/seishun-hoppers
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+          - work: liella/aikotoba
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3816
+    checked: 2026-11-04
+    note: '출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 絵森彩(鬼塚夏美); 結那(ウィーン・マルガレーテ); 坂倉花(鬼塚冬毬)'
+  setlist.2025-01-24:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#LisAni!_LIVE_2025
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3816
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-01-24 FRIDAY STAGE] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 絵森彩(鬼塚夏美); 結那(ウィーン・マルガレーテ); 坂倉花(鬼塚冬毬). 3-day event 1/24-26. Official news prints the title as 「リスアニ！LIVE2025」 (no space). The 11-name cast list comes from a search-result snippet that was not fetched in full. / 근거: https://lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3816 (Liella! official news 2024-09-07 (via Wayback 20241014073248): 「リスアニ！LIVE2025」 1/24-26 日本武道館; Liella! on day 1, 1/24(金) FRIDAY STAGE with fr)'
+  schedule:
+    status: official
+    source: https://lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3816
+    checked: 2026-11-04

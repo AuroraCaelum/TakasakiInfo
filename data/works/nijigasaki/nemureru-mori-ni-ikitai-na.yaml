@@ -24,6 +24,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 眠れる森に行きたいな (Off Vocal)
+      rom: Nemureru Mori ni Ikitai na (Off Vocal)
+      ko: 잠자는 숲 속으로 가고 싶어 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ryota-saito}
+      - {person: diz}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/73345/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

@@ -1,0 +1,55 @@
+id: muse/2020-love-live-solo-live-from-s-rin-hoshizora-extra
+type: album
+title:
+  ja: ラブライブ！Solo Live! from μ's 星空 凛 Extra
+  rom: Love Live! Solo Live! from μ's Rin Hoshizora Extra
+  ko: 러브 라이브! Solo Live! from μ's 호시조라 린 Extra
+projects: [muse]
+release_date: 2020-09-09
+editions:
+  - id: e1
+    catalog: LZC-1695
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: muse/beat-in-angel#rin-mix}
+      - {no: 2, recording: muse/loneliest-baby#rin-mix}
+      - {no: 3, recording: muse/soshite-saigo-no-page-ni-wa#rin-mix}
+      - {no: 4, recording: muse/onaji-hoshi-ga-mitai#rin-mix}
+      - {no: 5, recording: muse/korekara#rin-mix}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_JpcE6eJWYoF
+    tracks:
+      1-1: CbEZ63DSKwU
+      1-2: cgC5BYJNEPo
+      1-3: S9tiqqVbkF0
+      1-4: 8ssNweZoxTs
+      1-5: urbwDZ4l8_g
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！Solo Live! from μ's 星空 凛 Extra}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 LZC-1695, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 LZC-1695, 2020-09-09). 처음 나온 것은 9th Anniversary Blu-ray BOX【Forever Edition】(BCXA-1494, 2019-10-25) 봉입 특전 CD(공식 BD 페이지, 디스크 구성은 미게재)의 新規 솔로 버전. 편곡·크레딧은 원곡을 따름
+  title:
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
+    checked: 2026-11-05
+    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(시리즈명 고정 표기 + 멤버 rom + 부제), ko: 같은 방식(부제는 번역·음역안)'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_JpcE6eJWYoF
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

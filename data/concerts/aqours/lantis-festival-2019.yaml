@@ -1,0 +1,97 @@
+id: aqours/lantis-festival-2019
+projects: [aqours, nijigasaki]
+status: performed
+title:
+  ja: 20th Anniversary Live ランティス祭り2019 A・R・I・G・A・T・O ANISONG
+  rom: 20th Anniversary Live Lantis Matsuri 2019 A・R・I・G・A・T・O ANISONG
+  ko: 20th Anniversary Live 란티스 마츠리 2019 A・R・I・G・A・T・O ANISONG
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-hall-9-11
+    performances:
+      - date: 2019-06-21
+        cast:
+          - {artist: aqours}
+        setlist:
+          - work: aqours/hop-stop-nonstop
+            performers:
+              - {artist: aqours}
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/jump-up-high
+            performers:
+              - {artist: aqours}
+      - date: 2019-06-23
+        cast:
+          - {character: aqours/yoshiko-tsushima}
+          - {character: aqours/mari-ohara}
+          - {character: aqours/riko-sakurauchi}
+          - {character: aqours/dia-kurosawa}
+          - {character: aqours/hanamaru-kunikida}
+          - {character: aqours/kanan-matsuura}
+          - {character: aqours/ruby-kurosawa}
+          - {character: aqours/chika-takami}
+          - {character: aqours/you-watanabe}
+          - {character: nijigasaki/ayumu-uehara}
+          - {character: nijigasaki/kasumi-nakasu}
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/rina-tennoji}
+        setlist:
+          - work: aqours/strawberry-trapper
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/shadow-gate-to-love
+            performers:
+              - {artist: guilty-kiss}
+          - work: aqours/torikoriko-please
+            performers:
+              - {artist: azalea}
+          - work: aqours/innocent-bird
+            performers:
+              - {artist: azalea}
+          - work: aqours/genki-zenkai-day-day-day
+            performers:
+              - {artist: cyaron}
+          - work: aqours/kaigandori-de-matteru-yo
+            performers:
+              - {artist: cyaron}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Starting STYLE!!2019 (출연자 전원)}
+evidence:
+  cast:
+    status: official
+    source: https://www.lantis.jp/20th/index.html
+    checked: 2026-11-04
+    note: '출연란: 6/21: Aqours (9 members; MC by 伊波杏樹); 6/23: Guilty Kiss from ラブライブ！サンシャイン!! Aqours（逢田梨香子・小林愛香・鈴木愛奈）; 6/23: AZALEA from ラブライブ！サンシャイン!! Aqours（諏訪ななか・小宮有紗・高槻かなこ）; 6/23: CYaRon！ from ラブライブ！サンシャイン!! Aqours（伊波杏樹・斉藤朱夏・降幡愛） / 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈)'
+  setlist.2019-06-21:
+    status: official
+    source: https://www.lantis.jp/20th/index.html
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)
+  setlist.2019-06-23:
+    status: official
+    source: https://www.lantis.jp/20th/index.html
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)
+  title:
+    status: derived
+    source: https://www.lantis.jp/20th/index.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2019-06-21 DAY1 (Aqours), 2019-06-23 DAY3 (Guilty Kiss / AZALEA / CYaRon！)] 6/21: Aqours (9 members; MC by 伊波杏樹); 6/23: Guilty Kiss from ラブライブ！サンシャイン!! Aqours（逢田梨香子・小林愛香・鈴木愛奈）; 6/23: AZALEA from ラブライブ！サンシャイン!! Aqours（諏訪ななか・小宮有紗・高槻かなこ）; 6/23: CYaRon！ from ラブライブ！サンシャイン!! Aqours（伊波杏樹・斉藤朱夏・降幡愛）. Venue printed in organizer report: 幕張メッセ 国際展示場 9～11ホール. Encore Starting STYLE!!2019 (all artists) each day. Nijigasaki also on DAY3 (TOKIMEKI Runners per Fandom) — other agent's scope. [date] prefix in set list marks the day. / [2019-06-23 DAY-03] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈). 3-day festival (6/21-23); Nijigasaki on DAY-03 (6/23) only. Organizer report says they performed alongside CG animation footage. Cast list from Fandom only ('9 original members'); organizer pages name only the group. Encore participation inferred from the report's wording ('本日の出演者が全員'). / 근거: https://www.lantis.jp/20th/index.html (organizer (Wayback 20190330): '20th Anniversary Live ランティス祭り2019 A・R・I・G・A・T・O ANISONG', 2019年6月21-23日 幕張メッセ); https://www.lantis.jp/20th/report/01-07.html (organizer report DAY1(7): Aqours closed Day1; SET LIST Hop? Stop? Nonstop! / Brightest Melody / 君のこころは輝いてるかい？ / Jump up HIGH!!; encore Start); https://www.lantis.jp/20th/report/03-07.html (organizer report DAY3(7): Guilty Kiss, AZALEA, CYaRon！ with cast and SET LIST); https://www.lantis.jp/20th/index.html (Organizer (Lantis) event page (Wayback 20190330055246): '20th Anniversary Live ランティス祭り2019 A・R・I・G・A・T・O ANISONG', 2019年6月21日-23日 開場11:30 開演); https://www.lantis.jp/20th/report/03-03.html (Organizer DAY3 report (3) (Wayback 20200812010942): ■虹ヶ咲学園スクールアイドル同好会 sang debut song 'TOKIMEKI Runners' with CG animation; SET LIST 1. TOKI); https://www.lantis.jp/20th/report/03-10.html (Organizer DAY3 wrap-up (Wayback 20191104003855): full DAY3 set list incl. 虹ヶ咲 1. TOKIMEKI Runners; <ENCORE> ■Line up 1. Starting STYLE!!2019)"
+  schedule:
+    status: official
+    source: https://www.lantis.jp/20th/index.html
+    checked: 2026-11-04
+    note: 조사 표기 「幕張メッセ 国際展示場 9～11ホール」를 기존 회장에 맞춤

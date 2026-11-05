@@ -1,0 +1,226 @@
+id: liella/skip-capsule
+project: liella
+title:
+  ja: スキップ・カプセル
+  rom: Skip・Capsule
+  ko: 스킵・캡슐
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: naohiro-minami}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: スキップ・カプセル (Off Vocal)
+      rom: Skip・Capsule (Off Vocal)
+      ko: 스킵・캡슐 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: effy}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: established
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+  - id: kanon-shibuya-solo-ver
+    title:
+      ja: スキップ・カプセル (澁谷かのん Solo Ver.)
+      rom: Skip・Capsule (Kanon Shibuya Solo Ver.)
+      ko: 스킵・캡슐 (시부야 카논 Solo Ver.)
+    version: 澁谷かのん Solo Ver.
+    performers:
+      - {character: liella/kanon-shibuya}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: keke-tang-solo-ver
+    title:
+      ja: スキップ・カプセル (唐 可可 Solo Ver.)
+      rom: Skip・Capsule (Keke Tang Solo Ver.)
+      ko: 스킵・캡슐 (탕 쿠쿠 Solo Ver.)
+    version: 唐 可可 Solo Ver.
+    performers:
+      - {character: liella/keke-tang}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: chisato-arashi-solo-ver
+    title:
+      ja: スキップ・カプセル (嵐 千砂都 Solo Ver.)
+      rom: Skip・Capsule (Chisato Arashi Solo Ver.)
+      ko: 스킵・캡슐 (아라시 치사토 Solo Ver.)
+    version: 嵐 千砂都 Solo Ver.
+    performers:
+      - {character: liella/chisato-arashi}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: sumire-heanna-solo-ver
+    title:
+      ja: スキップ・カプセル (平安名すみれ Solo Ver.)
+      rom: Skip・Capsule (Sumire Heanna Solo Ver.)
+      ko: 스킵・캡슐 (헤안나 스미레 Solo Ver.)
+    version: 平安名すみれ Solo Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: ren-hazuki-solo-ver
+    title:
+      ja: スキップ・カプセル (葉月 恋 Solo Ver.)
+      rom: Skip・Capsule (Ren Hazuki Solo Ver.)
+      ko: 스킵・캡슐 (하즈키 렌 Solo Ver.)
+    version: 葉月 恋 Solo Ver.
+    performers:
+      - {character: liella/ren-hazuki}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: kinako-sakurakoji-solo-ver
+    title:
+      ja: スキップ・カプセル (桜小路きな子 Solo Ver.)
+      rom: Skip・Capsule (Kinako Sakurakoji Solo Ver.)
+      ko: 스킵・캡슐 (사쿠라코지 키나코 Solo Ver.)
+    version: 桜小路きな子 Solo Ver.
+    performers:
+      - {character: liella/kinako-sakurakoji}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: mei-yoneme-solo-ver
+    title:
+      ja: スキップ・カプセル (米女メイ Solo Ver.)
+      rom: Skip・Capsule (Mei Yoneme Solo Ver.)
+      ko: 스킵・캡슐 (요네메 메이 Solo Ver.)
+    version: 米女メイ Solo Ver.
+    performers:
+      - {character: liella/mei-yoneme}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: shiki-wakana-solo-ver
+    title:
+      ja: スキップ・カプセル (若菜四季 Solo Ver.)
+      rom: Skip・Capsule (Shiki Wakana Solo Ver.)
+      ko: 스킵・캡슐 (와카나 시키 Solo Ver.)
+    version: 若菜四季 Solo Ver.
+    performers:
+      - {character: liella/shiki-wakana}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: natsumi-onitsuka-solo-ver
+    title:
+      ja: スキップ・カプセル (鬼塚夏美 Solo Ver.)
+      rom: Skip・Capsule (Natsumi Onitsuka Solo Ver.)
+      ko: 스킵・캡슐 (오니츠카 나츠미 Solo Ver.)
+    version: 鬼塚夏美 Solo Ver.
+    performers:
+      - {character: liella/natsumi-onitsuka}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: margarete-wien-solo-ver
+    title:
+      ja: スキップ・カプセル (ウィーン・マルガレーテ Solo Ver.)
+      rom: Skip・Capsule (Wien Margarete Solo Ver.)
+      ko: 스킵・캡슐 (빈 마르가레테 Solo Ver.)
+    version: ウィーン・マルガレーテ Solo Ver.
+    performers:
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+  - id: tomari-onitsuka-solo-ver
+    title:
+      ja: スキップ・カプセル (鬼塚冬毬 Solo Ver.)
+      rom: Skip・Capsule (Tomari Onitsuka Solo Ver.)
+      ko: 스킵・캡슐 (오니츠카 토마리 Solo Ver.)
+    version: 鬼塚冬毬 Solo Ver.
+    performers:
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+    checked: 2026-11-05
+    note: 'ja: 공식 뉴스. rom: Fandom(Skip・Capsule), ko: 음역안'
+  credits:
+    status: established
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
+    checked: 2026-10-27
+    note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"

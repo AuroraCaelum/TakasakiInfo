@@ -1,0 +1,33 @@
+id: hasunosora/zweigen-kanazawa-2023
+projects: [hasunosora]
+status: performed
+title:
+  ja: 明治安田生命J2リーグ 第41節 ツエーゲン金沢 vs 大分トリニータ 「ラブライブ！蓮ノ空女学院スクールアイドルクラブ」コラボ試合 噴水広場ステージ トークショー
+  rom: Meiji Yasuda J2 League Matchday 41 Zweigen Kanazawa vs Oita Trinita "Love Live! Hasunosora Girls' High School Idol Club" Collaboration Match Fountain Plaza Stage Talk Show
+  ko: 메이지 야스다 생명 J2 리그 제41절 츠에겐 가나자와 vs 오이타 트리니타 「러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽」 콜라보 경기 분수 광장 스테이지 토크쇼
+cast:
+  - {character: hasunosora/kaho-hinoshita}
+  - {character: hasunosora/sayaka-murano}
+  - {character: hasunosora/rurino-osawa}
+stops:
+  - id: 1-ishikawa
+    city: ishikawa
+    venue: ishikawa-seibu-ryokuchi-park-athletic-stadium
+    performances:
+      - {date: 2023-11-04}
+evidence:
+  cast:
+    status: established
+    source: https://zaikei.co.jp/releases/2238099/
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 楡井希実(日野下花帆); 野中ここな(村野さやか); 菅叶和(大沢瑠璃乃)'
+  title:
+    status: derived
+    source: https://zaikei.co.jp/releases/2238099/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2023-11-04 12:00–12:20 噴水広場ステージ] 楡井希実(日野下花帆); 野中ここな(村野さやか); 菅叶和(大沢瑠璃乃). Sports collaboration with a stage talk show. Pre-event release only; club's own site not retrieved. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://zaikei.co.jp/releases/2238099/
+    checked: 2026-11-05
+    note: 공식 미게재

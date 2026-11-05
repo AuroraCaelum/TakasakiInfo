@@ -1,0 +1,69 @@
+id: aqours/animelo-2019
+projects: [aqours, nijigasaki]
+status: performed
+title:
+  ja: Animelo Summer Live 2019 -STORY-
+  rom: Animelo Summer Live 2019 -STORY-
+  ko: Animelo Summer Live 2019 -STORY-
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2019-08-31
+        cast:
+          - {artist: aqours}
+        setlist:
+          - work: aqours/bokura-no-hashittekita-michi-wa
+            performers:
+              - {artist: aqours}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: aqours/omoi-yo-hitotsu-ni-nare
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+      - date: 2019-09-01
+        cast:
+          - {character: nijigasaki/ayumu-uehara}
+          - {character: nijigasaki/kasumi-nakasu}
+          - {character: nijigasaki/shizuku-osaka}
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/rina-tennoji}
+        setlist:
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: CROSSING STORIES (Day 3 출연자 전원)}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2019/setlist/
+    checked: 2026-11-04
+    note: '출연란: Aqours / 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈)'
+  setlist.2019-08-31:
+    status: official
+    source: https://anisama.tv/2019/setlist/
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  setlist.2019-09-01:
+    status: official
+    source: https://anisama.tv/2019/setlist/
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://anisama.tv/2019/setlist/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2019-08-31 DAY2] Aqours. Organizer page title 'Animelo Summer Live 2019 STORY'. Nijigasaki appeared 9/1 (TOKIMEKI Runners) — other agent's scope. / [2019-09-01 Day 3] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈). Official page title spells it 'Animelo Summer Live 2019 -STORY-' (Fandom row: 'Animelo Summer Live 2019 STORY'). Festival ran 8/30-9/1; Nijigasaki only on 9/1. Cast list is from Fandom ('the 9 original members'), the official artist page only names the group. Venue not printed on the surviving official pages; Saitama Super Arena per Fandom/press. Whether the group joined the all-artist finale CROSSING STORIES is implied by the official credit 'アニサマ2019出演アーティスト' (Day 3) only. / 근거: https://anisama.tv/2019/setlist/ (organizer setlist, 8月31日（土）block: 43-46 by Aqours; meta: 8/30-9/1 さいたまスーパーアリーナ); https://anisama.tv/2019/artist/ (Official artist page lists 虹ヶ咲学園スクールアイドル同好会 among day03 artists (image day03_detail_nijigasaki.png)); https://anisama.tv/2019/setlist/ (Official setlist, 9月1日（日）: #04 TOKIMEKI Runners / 虹ヶ咲学園スクールアイドル同好会; #45 CROSSING STORIES / アニサマ2019出演アーティスト)"
+  schedule:
+    status: official
+    source: https://anisama.tv/2019/setlist/
+    checked: 2026-11-04

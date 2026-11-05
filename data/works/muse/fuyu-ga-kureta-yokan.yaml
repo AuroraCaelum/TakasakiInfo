@@ -35,6 +35,54 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
         checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: 冬がくれた予感 (NICO Mix)
+      rom: Fuyu ga Kureta Yokan (NICO Mix)
+      ko: 겨울이 준 예감 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd51)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: 冬がくれた予感 (MAKI Mix)
+      rom: Fuyu ga Kureta Yokan (MAKI Mix)
+      ko: 겨울이 준 예감 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd51)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: 冬がくれた予感 (ELI Mix)
+      rom: Fuyu ga Kureta Yokan (ELI Mix)
+      ko: 겨울이 준 예감 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd51)과 같다고 봄
 evidence:
   title:
     status: derived

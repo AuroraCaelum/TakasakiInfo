@@ -1,0 +1,46 @@
+id: aqours/youtube-fanfest-japan-2025
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: YouTube Fanfest Japan 2025
+  rom: YouTube Fanfest Japan 2025
+  ko: YouTube Fanfest Japan 2025
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: aqours/ruby-kurosawa}
+  - {character: liella/shiki-wakana}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2025-12-03
+        setlist:
+          - work: nijigasaki/ice-limit
+            performers:
+              - {artist: aiscream}
+          - work: nijigasaki/ai-scream
+            version: YTFF Japan 2025 スペシャルVer.
+            performers:
+              - {artist: aiscream}
+evidence:
+  cast:
+    status: official
+    source: https://blog.youtube/intl/ja-jp/news-and-events/youtube-fanfest-japan-2025-2/
+    checked: 2026-11-04
+    note: '출연란: AiScReam（降幡愛・大西亜玖璃・大熊和奏） / AiScReam'
+  setlist.2025-12-03:
+    status: established
+    source: https://ja.wikipedia.org/wiki/愛♡スクリ〜ム!
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/愛♡スクリ〜ム!
+    checked: 2026-11-05
+    note: '공식 미게재: ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2025-12-03] AiScReam（降幡愛・大西亜玖璃・大熊和奏）. NEW. YouTube creator festival; borderline as a music festival. / [2025-12-03 18:00] AiScReam. AiScReam appearance (cross-series unit incl. 大熊和奏 as 若菜四季), not Liella!. Official blog content seen only via search summary. / 근거: https://blog.youtube/intl/ja-jp/news-and-events/youtube-fanfest-japan-2025-2/ (YouTube Japan official blog: YouTube Fanfest Japan 2025, 12/3 18:00 幕張イベントホール; AiScReam in performer list (per search summary))'
+  schedule:
+    status: official
+    source: https://blog.youtube/intl/ja-jp/news-and-events/youtube-fanfest-japan-2025-2/
+    checked: 2026-11-04
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

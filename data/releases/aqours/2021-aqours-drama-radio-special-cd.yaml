@@ -1,0 +1,41 @@
+id: aqours/2021-aqours-drama-radio-special-cd
+type: drama_cd
+title:
+  ja: Aqoursドラマ＆ラジオスペシャルCD
+  rom: Aqours Drama & Radio Special CD
+  ko: Aqours 드라마 & 라디오 스페셜 CD
+projects: [aqours]
+label: Lantis
+release_date: 2021-11-24
+editions:
+  - id: e1
+    label:
+      ja: セブンネット限定版特典
+    catalog: LACZ-10083
+    media: [CD]
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/go-candy-wave#main}
+      - {no: 2, recording: aqours/love-live-series-no-all-night-nippon-gold-shucchouban#main}
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/news.php?id=8377
+legacy:
+  category: Aqours
+  albums:
+    - {title: Aqoursドラマ＆ラジオスペシャルCD}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/news.php?id=8377
+    checked: 2026-10-27
+    note: 공식 뉴스(스플릿 싱글 「not ALONE not HITORI」 세븐넷 한정판 특전 CD, 내용은 공통). 품번 LACZ-10083은 레이블 카탈로그. 출연은 공식 미게재
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/news.php?id=8377
+    checked: 2026-10-27
+    note: 공식 뉴스(스플릿 싱글 「not ALONE not HITORI」 세븐넷 한정판 특전 CD, 내용은 공통). 품번 LACZ-10083은 레이블 카탈로그. 출연은 공식 미게재
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/news.php?id=8377
+    checked: 2026-11-05
+    note: 'ja: 공식 뉴스. rom: 번역(영어 낱말), ko: 번역안'

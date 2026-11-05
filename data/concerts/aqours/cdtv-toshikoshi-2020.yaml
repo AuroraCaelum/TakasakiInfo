@@ -1,0 +1,44 @@
+id: aqours/cdtv-toshikoshi-2020
+projects: [aqours]
+status: performed
+title:
+  ja: CDTVライブ！ライブ！年越しスペシャル 2020→2021
+  rom: CDTV Live! Live! Toshikoshi Special 2020→2021
+  ko: CDTV 라이브! 라이브! 연말 스페셜 2020→2021
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/kanan-matsuura}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/you-watanabe}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/mari-ohara}
+  - {character: aqours/ruby-kurosawa}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2021-01-01
+        setlist:
+          - work: aqours/fantastic-departure
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20201231.html
+    checked: 2026-11-05
+    note: '출연란: 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ)'
+  setlist.2021-01-01:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php?id=7247
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20201231.html
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2021-01-01 28時台] 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ). Live broadcast from 2020-12-31 23:45; Aqours in the 28時台 (4 a.m.) block, so the performance fell on 2021-01-01. 高槻かなこ absent. / 근거: https://www.tbs.co.jp/cdtv_livelive/archives/20201231.html (TBS CDTV archive 2020/12/31: 28時台 Aqours ♪Fantastic Departure!); http://www.lovelive-anime.jp/uranohoshi/news.php?id=7247 (Aqours official news 2020/12/27 (Wayback 20220117163826): 「Fantastic Departure!」を披露, 28時台に出演予定, 高槻かなこを除く8人でのパフォーマンス)'
+  schedule:
+    status: official
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20201231.html
+    checked: 2026-11-05

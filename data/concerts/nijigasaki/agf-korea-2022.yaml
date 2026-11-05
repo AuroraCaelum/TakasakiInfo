@@ -1,0 +1,33 @@
+id: nijigasaki/agf-korea-2022
+projects: [nijigasaki]
+status: performed
+title:
+  ja: AGF KOREA 2022「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ
+  rom: AGF KOREA 2022 "Love Live! Nijigasaki High School Idol Club" Stage
+  ko: AGF KOREA 2022 「러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회」 스테이지
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/mia-taylor}
+stops:
+  - id: 1-goyang
+    city: goyang
+    venue: kintex
+    performances:
+      - {date: 2022-12-03}
+evidence:
+  cast:
+    status: established
+    source: https://twitter.com/LoveLive_staff/status/1590948938135527425
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 大西亜玖璃(上原歩夢); 久保田未夢(朝香果林); 内田秀(ミア・テイラー)'
+  title:
+    status: derived
+    source: https://twitter.com/LoveLive_staff/status/1590948938135527425
+    checked: 2026-11-05
+    note: "공식 미게재: ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2022-12-03] 大西亜玖璃(上原歩夢); 久保田未夢(朝香果林); 内田秀(ミア・テイラー). Convention stage in Korea, MC 吉田尚記 (per Eventernote). Which stage (RED/BLUE) is unknown. Whether they sang is not stated in any source read; setlist left empty. Roles added from known casting (sources list names only). Venue hall: KINTEX 第2展示場 7・8ホール per organizer post. / 근거: https://twitter.com/LoveLive_staff/status/1590948938135527425 (LL staff X post (text as quoted on Eventernote): 'AGF KOREA 2022に「ラブライブ！虹ヶ咲学園スクールアイドル同好会」より内田 秀、大西亜玖璃、久保田未夢の出演が決定！'); https://x.com/AGF_Korea/status/1556520585068482562 (Organizer post (search snippet): AGF KOREA 2022, 2022.12.3-12.4, KINTEX 제2전시장 7, 8홀)"
+  schedule:
+    status: established
+    source: https://twitter.com/LoveLive_staff/status/1590948938135527425
+    checked: 2026-11-05
+    note: 공식 미게재

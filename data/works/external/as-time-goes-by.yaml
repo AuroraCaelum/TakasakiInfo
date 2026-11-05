@@ -1,0 +1,46 @@
+id: external/as-time-goes-by
+project: external
+title:
+  ja: As Time Goes By
+  rom: As Time Goes By
+  ko: As Time Goes By
+credits:
+  lyricist:
+    - {person: herman-hupfeld}
+  composer:
+    - {person: herman-hupfeld}
+recordings:
+  - id: original
+    performers:
+      - {character: muse/josei-singer}
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+        checked: 2026-10-27
+  - id: refrain
+    title:
+      ja: As Time Goes By (リフレイン)
+      rom: As Time Goes By (Refrain)
+      ko: As Time Goes By (리프레인)
+    version: リフレイン
+    performers:
+      - {character: muse/josei-singer}
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+        checked: 2026-10-27
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+    checked: 2026-11-05
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+    checked: 2026-10-27

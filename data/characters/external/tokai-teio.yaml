@@ -8,9 +8,10 @@ casting:
   - {person: machico}
 evidence:
   names:
-    status: draft
-    source: automation/review/TRB-members.yaml
-    note: 승인 대기 (new-names 리뷰)
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "『ウマ娘 プリティーダービー』. ja·rom: 공식 캐릭터 페이지 https://umamusume.jp/character/tokaiteio ('Tokai Teio', 글로벌 https://umamusume.com/characters/ 도 같음), ko: 공식 한국어판(카카오게임즈) https://umamusume.kakaogames.com/ '토카이 테이오'"
   name_parts:
     status: derived
     note: 경주마 이름(한 단위)

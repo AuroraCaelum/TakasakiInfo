@@ -82,6 +82,23 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: ススメ→トゥモロウ (TVサイズ)
+      rom: Susume→Tomorrow (TV Size)
+      ko: 나아가→투모로우 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

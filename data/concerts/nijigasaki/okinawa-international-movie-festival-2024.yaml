@@ -1,0 +1,30 @@
+id: nijigasaki/okinawa-international-movie-festival-2024
+projects: [nijigasaki]
+status: performed
+title:
+  ja: 『ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY』上映・舞台挨拶（島ぜんぶでおーきな祭 第16回沖縄国際映画祭）
+  rom: '"Love Live! Nijigasaki High School Idol Club NEXT SKY" Screening & Stage Greeting (Shima Zenbu de Ookina Sai, the 16th Okinawa International Movie Festival)'
+  ko: 『러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 NEXT SKY』 상영·무대 인사 (섬 전체가 큰 축제 제16회 오키나와 국제 영화제)
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+stops:
+  - id: 1-okinawa
+    city: okinawa
+    venue: naha-cultural-arts-theater-nahart-small-theater
+    performances:
+      - {date: 2024-04-21}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/news/01_3273.html
+    checked: 2026-11-05
+    note: '출연란: 大西亜玖璃(上原歩夢)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/news/01_3273.html
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2024-04-21] 大西亜玖璃(上原歩夢). Screening + stage greeting (舞台挨拶) inside a film festival run by others; also a red-carpet walk on 国際通り the same day (per ja.wikipedia/edgeline). Venue from ja.wikipedia; the organizer schedule page (organizer_site) could not be read (404 live, Wayback unreachable). Start time not verified. No singing. / 근거: https://www.lovelive-anime.jp/news/01_3273.html (LL news title (seen in search index only; page 403 and Wayback fetch failed): 「島ぜんぶでおーきな祭 - 第16回沖縄国際映画祭」にて『ラブライブ！虹ヶ咲学園 スクールアイドル同好会 NEXT SKY』)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/news/01_3273.html
+    checked: 2026-11-05

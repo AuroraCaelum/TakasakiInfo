@@ -1,0 +1,69 @@
+id: muse/2012-love-live-solo-live-collection-from-s-rin-hoshizora-the-brilliant-star
+type: album
+title:
+  ja: ラブライブ！ Solo Live! Collection from μ's 星空 凛 THE BRILLIANT STAR☆
+  rom: Love Live! Solo Live! Collection from μ's Rin Hoshizora THE BRILLIANT STAR☆
+  ko: 러브 라이브! Solo Live! Collection from μ's 호시조라 린 THE BRILLIANT STAR☆
+projects: [muse]
+release_date: 2012-02-19
+editions:
+  - id: e1
+    label:
+      ja: Memorial BOX Ⅰ
+    catalog: LZM-2061
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-15411
+    media: [CD]
+    release_date: 2014-04-02
+discs:
+  - tracks:
+      - {no: 1, recording: muse/bokura-no-live-kimi-to-no-life#rin-mix}
+      - {no: 2, recording: muse/yuujou-no-change#rin-mix}
+      - {no: 3, recording: muse/snow-halation#rin-mix}
+      - {no: 4, recording: muse/baby-maybe-koi-no-button#rin-mix}
+      - {no: 5, recording: muse/shiranai-love-oshiete-love#rin-mix}
+      - {no: 6, recording: muse/a-no-ne-ga-n-ba-re#rin-mix}
+      - {no: 7, recording: muse/natsuiro-egao-de-1-2-jump#rin-mix}
+      - {no: 8, recording: muse/mermaid-festa-vol-1#rin-mix}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_KfFZAX9b6mx
+    tracks:
+      1-1: k3wfyoOyrZI
+      1-2: xzKytLyV6v4
+      1-3: eAkBE4Rtqe0
+      1-4: tUP5V1NIXUk
+      1-5: VQKtqJDprEA
+      1-6: SNwh2DdITXc
+      1-7: ifmflgCepcQ
+      1-8: xGLpQMJaatY
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！ Solo Live! Collection from μ's 星空 凛 THE BRILLIANT STAR☆}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+    checked: 2026-11-04
+    note: 레이블 카탈로그(2014-04-02 개별 재발매 LACA-15411의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2061은 Fandom. 편곡·크레딧은 원곡을 따름
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+    checked: 2026-11-04
+    note: 레이블 카탈로그(2014-04-02 개별 재발매 LACA-15411의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2061은 Fandom. 편곡·크레딧은 원곡을 따름
+  title:
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
+    checked: 2026-11-05
+    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(시리즈명 고정 표기 + 멤버 rom + 부제), ko: 같은 방식(부제는 번역·음역안). 부제 rom은 레이블 카탈로그 EN'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

@@ -14,6 +14,11 @@ editions:
 discs:
   - tracks:
       - {no: 1, recording: muse/soldier-game#15th-tribute}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_ihH8AsOKweL
+    tracks:
+      1-1: VfAIck4SJ1c
 links:
   official: https://catalog.bandainamcomusiclive.co.jp/release/85272/
 evidence:
@@ -33,3 +38,8 @@ evidence:
   legacy:
     status: derived
     note: 앨범과 같은 음원의 곡별 디지털 싱글이라 레거시 파일에는 넣지 않음 (D52)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_ihH8AsOKweL
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

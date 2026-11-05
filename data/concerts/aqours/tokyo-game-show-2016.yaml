@@ -1,0 +1,39 @@
+id: aqours/tokyo-game-show-2016
+projects: [aqours]
+status: performed
+title:
+  ja: 東京ゲームショウ2016 ブシロードブース『ラブライブ！スクールアイドルフェスティバル』発表会＆トークショー
+  rom: Tokyo Game Show 2016 Bushiroad Booth "Love Live! School idol festival" Happyoukai & Talk Show
+  ko: 도쿄 게임쇼 2016 부시로드 부스 『러브 라이브! 스쿨 아이돌 페스티벌』 발표회 & 토크쇼
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/kanan-matsuura}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/you-watanabe}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/hanamaru-kunikida}
+  - {character: aqours/mari-ohara}
+  - {character: aqours/ruby-kurosawa}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2016-09-18}
+evidence:
+  cast:
+    status: established
+    source: https://gamebiz.jp/news/169162
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 高槻かなこ(国木田花丸); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ)'
+  title:
+    status: derived
+    source: https://gamebiz.jp/news/169162
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2016-09-18 13:30–14:30] 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子); 諏訪ななか(松浦果南); 小宮有紗(黒澤ダイヤ); 斉藤朱夏(渡辺曜); 小林愛香(津島善子); 高槻かなこ(国木田花丸); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ). Exhibitor (Bushiroad) booth stage on a public day. Only the pre-event cast list is sourced; no post-event report retrieved confirming all nine appeared. No official LL news page retrieved. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://gamebiz.jp/news/169162
+    checked: 2026-11-05
+    note: '공식 미게재: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤'
