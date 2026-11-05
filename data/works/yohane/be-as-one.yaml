@@ -37,6 +37,24 @@ recordings:
         status: official
         source: https://www.yohane.net/music/detail/?id=6
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Be as one!!! (TVサイズ)
+      rom: Be as one!!! (TV Size)
+      ko: Be as one!!! (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: yohane/dia}
+      - {character: yohane/ruby}
+      - {character: yohane/chika}
+    arranger:
+      - {person: makoto-miyazaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.yohane.net/music/detail/?id=5
+        checked: 2026-10-26
+        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

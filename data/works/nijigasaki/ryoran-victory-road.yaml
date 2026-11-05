@@ -39,6 +39,32 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd38
         checked: 2026-10-19
+  - id: live-ijigen-fes-2023-2023-12-10
+    title:
+      ja: 繚乱！ビクトリーロード (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: Ryoran! Victory Road (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: 요란! 빅토리 로드 (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/hanamaru-kunikida}
+      - {character: nijigasaki/kanata-konoe}
+      - {character: nijigasaki/shioriko-mifune}
+      - {character: liella/keke-tang}
+      - {character: liella/sumire-heanna}
+      - {character: hasunosora/tsuzuri-yugiri}
+      - {character: hasunosora/rurino-osawa}
+    arranger:
+      - {person: chibanyan}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-10
+    evidence:
+      credits:
+        status: derived
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd38)과 같다고 봄
 evidence:
   credits:
     status: official

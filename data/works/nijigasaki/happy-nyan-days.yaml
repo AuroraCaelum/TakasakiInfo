@@ -45,6 +45,26 @@ recordings:
         source: https://music.youtube.com/watch?v=IdtU0xFIxxo
         checked: 2026-10-19
         note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
+  - id: live-ijigen-fes-2023-2023-12-10
+    title:
+      ja: Happy Nyan! Days (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: Happy Nyan! Days (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: Happy Nyan! Days (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: passion-king}
+      - {person: joe}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-10
+    evidence:
+      credits:
+        status: derived
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://music.youtube.com/watch?v=IdtU0xFIxxo)과 같다고 봄
 evidence:
   credits:
     status: official

@@ -1,0 +1,31 @@
+id: nijigasaki/pacific-league-2022-buffaloes
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！シリーズ×パ・リーグ6球団 コラボ試合 オリックス・バファローズvs千葉ロッテマリーンズ「ラブライブ！虹ヶ咲学園スクールアイドル同好会キャストトークショー」
+  rom: Love Live! Series × Pacific League 6 Teams Collaboration Game ORIX Buffaloes vs Chiba Lotte Marines "Love Live! Nijigasaki High School Idol Club Cast Talk Show"
+  ko: 러브 라이브! 시리즈×퍼시픽 리그 6구단 콜라보 경기 오릭스 버펄로스 vs 지바 롯데 마린스 「러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 캐스트 토크쇼」
+cast:
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/lanzhu-zhong}
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: kyocera-dome-osaka-9f-sky-hall
+    performances:
+      - {date: 2022-07-08}
+evidence:
+  cast:
+    status: official
+    source: https://www.buffaloes.co.jp/news/detail/00006026.html
+    checked: 2026-11-05
+    note: '출연란: 相良茉優(中須かすみ); 法元明菜(鐘 嵐珠)'
+  title:
+    status: derived
+    source: https://www.buffaloes.co.jp/news/detail/00006026.html
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2022-07-08] 相良茉優(中須かすみ); 法元明菜(鐘 嵐珠). Two talk-show sessions (15:30, 16:30), ~20 min each, separately ticketed; label both under one show date. Also ceremonial pitch and in-game appearances. No songs listed. / 근거: https://www.buffaloes.co.jp/news/detail/00006026.html (Buffaloes news 2022/06/17 (Wayback 20220629193654): 7月8日（金）試合前「ラブライブ！虹ヶ咲学園スクールアイドル同好会キャストトークショー」 (1)開演15:30 (2)開演16:30, 各20分程度, 場所 京セラドーム大阪9); https://www.buffaloes.co.jp/news/detail/00006086.html (Buffaloes news 2022/07/05 (Wayback 20220705024449): day schedule - トークショー 15:30/16:30 9Fスカイホール; 17:30頃 スタメンアナウンス; 17:50頃 セレモニアルピッチ（特別始球式）; 試)'
+  schedule:
+    status: official
+    source: https://www.buffaloes.co.jp/news/detail/00006026.html
+    checked: 2026-11-05

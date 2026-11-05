@@ -1,0 +1,32 @@
+id: aqours/animejapan-2025-holomodel
+projects: [aqours]
+status: performed
+title:
+  ja: AnimeJapan 2025 『ラブライブ︕サンシャイン!!』デジタルフィギュア「ホロモデル」スペシャルトークライブ
+  rom: AnimeJapan 2025 "Love Live! Sunshine!!" Digital Figure "Holomodel" Special Talk Live
+  ko: AnimeJapan 2025 『러브 라이브! 선샤인!!』 디지털 피규어 「홀로모델」 스페셜 토크 라이브
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-big-sight
+    performances:
+      - {date: 2025-03-22}
+evidence:
+  cast:
+    status: established
+    source: https://anime.eiga.com/event/169727/
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子)'
+  title:
+    status: derived
+    source: https://anime.eiga.com/event/169727/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2025-03-22 13:50–14:20] 伊波杏樹(高海千歌); 逢田梨香子(桜内梨子). Product (Gugenka HoloModel) promotion stage. External listing only. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://anime.eiga.com/event/169727/
+    checked: 2026-11-05
+    note: 공식 미게재

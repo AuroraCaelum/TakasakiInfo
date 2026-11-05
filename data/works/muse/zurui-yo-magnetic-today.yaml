@@ -41,6 +41,38 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02
         checked: 2026-10-20
+  - id: maki-mix
+    title:
+      ja: ずるいよMagnetic today (MAKI Mix)
+      rom: Zurui yo Magnetic today (MAKI Mix)
+      ko: 치사해 Magnetic today (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: kensuke-okamoto}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02)과 같다고 봄
+  - id: nico-mix
+    title:
+      ja: ずるいよMagnetic today (NICO Mix)
+      rom: Zurui yo Magnetic today (NICO Mix)
+      ko: 치사해 Magnetic today (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: kensuke-okamoto}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd02)과 같다고 봄
 evidence:
   title:
     status: derived

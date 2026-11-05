@@ -129,6 +129,41 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: MIRAI TICKET (TVサイズ)
+      rom: MIRAI TICKET (TV Size)
+      ko: MIRAI TICKET (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: live-aqours-finale-2025-06-21
+    title:
+      ja: MIRAI TICKET (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: MIRAI TICKET (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: MIRAI TICKET (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-21
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd10)과 같다고 봄
 evidence:
   credits:
     status: official

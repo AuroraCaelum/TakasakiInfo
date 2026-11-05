@@ -1,0 +1,23 @@
+id: muse/youkoso-otonokizaka-e
+kind: drama
+project: muse
+title:
+  ja: ようこそ、音ノ木坂へ！
+  rom: Youkoso, Otonokizaka e!
+  ko: 어서 와, 오토노키자카에!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+        checked: 2026-11-04
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-11-05
+    note: 'ja: Fandom 표기(공식 미게재), rom: 헵번식, ko: 번역안'

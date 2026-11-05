@@ -1,0 +1,32 @@
+id: hasunosora/anime-sta-ishikawa-2024
+projects: [hasunosora]
+status: performed
+title:
+  ja: アニメ・スタいしかわ ラブライブ！蓮ノ空女学院スクールアイドルクラブ トークライブ
+  rom: Anime Sta Ishikawa Love Live! Hasunosora Girls' High School Idol Club Talk Live
+  ko: 애니메 스타 이시카와 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 토크 라이브
+cast:
+  - {character: hasunosora/kozue-otomune}
+  - {character: hasunosora/tsuzuri-yugiri}
+  - {character: hasunosora/megumi-fujishima}
+stops:
+  - id: 1-ishikawa
+    city: ishikawa
+    venue: hokkoku-shimbun-akabane-hall
+    performances:
+      - {date: 2024-08-18}
+evidence:
+  cast:
+    status: official
+    source: https://www.pref.ishikawa.lg.jp/kisya/r6-1/documents/0806_15_kankousenryakuka.pdf
+    checked: 2026-11-05
+    note: '출연란: 花宮初奈(乙宗梢); 佐々木琴子(夕霧綴理); 月音こな(藤島慈)'
+  title:
+    status: derived
+    source: https://www.pref.ishikawa.lg.jp/kisya/r6-1/documents/0806_15_kankousenryakuka.pdf
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2024-08-18 14:00–15:00] 花宮初奈(乙宗梢); 佐々木琴子(夕霧綴理); 月音こな(藤島慈). Talk only. Originally scheduled 2024-01-14, postponed after the Noto earthquake (jawiki). / 근거: https://www.pref.ishikawa.lg.jp/kisya/r6-1/documents/0806_15_kankousenryakuka.pdf (Ishikawa pref. (organizer) press release 2024-08-06: アニメ・スタいしかわ 8/17・18 北國新聞赤羽ホール; 8/18 14:00～15:00 ラブライブ！蓮ノ空女学院スクールアイドルクラブ トークライブ (full; no)'
+  schedule:
+    status: official
+    source: https://www.pref.ishikawa.lg.jp/kisya/r6-1/documents/0806_15_kankousenryakuka.pdf
+    checked: 2026-11-05

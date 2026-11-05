@@ -1,0 +1,66 @@
+id: muse/tokyo-game-show-2012
+projects: [muse]
+status: performed
+title:
+  ja: 東京ゲームショウ2012 ブシロードブース内特設ステージ μ’sステージイベント
+  rom: Tokyo Game Show 2012 Bushiroad Booth Special Stage μ’s Stage Event
+  ko: 도쿄 게임쇼 2012 부시로드 부스 특설 스테이지 μ’s 스테이지 이벤트
+cast:
+  - {artist: muse}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - date: 2012-09-23
+        cast:
+          - {character: muse/honoka-kosaka}
+          - {character: muse/kotori-minami}
+          - {character: muse/umi-sonoda}
+          - {character: muse/rin-hoshizora}
+          - {character: muse/maki-nishikino}
+          - {character: muse/nozomi-tojo}
+          - {character: muse/hanayo-koizumi}
+          - {character: muse/nico-yazawa}
+        setlist:
+          - work: muse/mermaid-festa-vol-2-passionate
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/rin-hoshizora}
+          - work: muse/otome-shiki-ren-ai-juku
+            performers:
+              - {character: muse/nico-yazawa}
+              - {character: muse/nozomi-tojo}
+          - work: muse/kokuhaku-biyori-desu
+            performers:
+              - {character: muse/kotori-minami}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/soldier-game
+            performers:
+              - {character: muse/maki-nishikino}
+              - {character: muse/umi-sonoda}
+              - {character: muse/eli-ayase}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: established
+    source: https://ll-fans.jp/data/event/120
+    checked: 2026-11-05
+    note: '공식 미게재: 사전 공지는 μ’sメンバー全員, 당일 南條愛乃(絢瀬絵里)는 몸이 안 좋아 결석(LL-Fans, Fandom)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=270
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2012-09-23] μ’sメンバー全員 (official announcement); Fandom: 南條愛乃 absent. NEW. Trade-show booth stage; Fandom says a mini-live of 5 songs incl. duo/trio songs (titles not given); ja.wikipedia: 'ブシロードブース内プロレスリングミニライブ'. Borderline whether it counts as a concert. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=270 (2012/08/30 東京ゲームショウ2012『ラブライブ！』μ’sステージイベント決定！ — 9月23日(日)15:00～ 幕張メッセ ブシロードブース内特設ステージ, μ’sメンバーが全員集合). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/120: 南條愛乃 결석"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=270
+    checked: 2026-11-04
+    note: 조사 표기 「幕張メッセ ブシロードブース内特設ステージ」를 기존 회장에 맞춤
+  setlist.2012-09-23:
+    status: established
+    source: https://ll-fans.jp/data/event/120
+    checked: 2026-11-05
+    note: '공식 미게재: LL-Fans 세트리스트(가창자 미기재는 곡의 원곡 가창자. soldier game은 원곡 가창자 중 絢瀬絵里가 결석이라 실제 가창자 미상)'

@@ -1,0 +1,39 @@
+id: muse/dengeki-20th-fes-lovelive-stage
+projects: [muse]
+status: performed
+title:
+  ja: 電撃20年祭 ラブライブ！2012年度ラブライ部員とμ’sの課外活動 特別出張版 in 電撃20年祭
+  rom: Dengeki 20-nen Sai Love Live! 2012-nendo Loveli-buin to μ’s no Kagai Katsudou Tokubetsu Shucchouban in Dengeki 20-nen Sai
+  ko: 전격 20년제 러브 라이브! 2012년도 러브라이부원과 μ’s의 과외활동 특별 출장판 in 전격 20년제
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2012-10-21}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=285
+    checked: 2026-11-05
+    note: '출연란: 新田恵海(高坂穂乃果); 南條愛乃(絢瀬絵里); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=285
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2012-10-21 12:00～12:40] 新田恵海(高坂穂乃果); 南條愛乃(絢瀬絵里); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ). Stage inside the 電撃20年祭 exhibition halls (Makuhari Messe Halls 1-3); separate from the same day's DENGEKI MUSIC LIVE!! concert (already in DB as muse/dengeki-music-live-2012). Only pre-event notices found; no post-event report or content (talk assumed from the 課外活動 format, no songs reported). / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=285 (LL news 2012/06/15 電撃20年祭、『ラブライブ！』のステージイベント、応募受付スタート！ — ステージタイトル ラブライブ！2012年度ラブライ部員と μ’sの課外活動 特別出張版 in 電撃20年祭; 出演 μ’s (all nine with CV); 10); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=285 (LL news 2012/05/26 電撃20年祭にて、『ラブライブ！』のステージイベント開催決定！); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=270 (LL news 2012/09/04: すでに、21日のμ’sのステージの情報は、お知らせしてきましたが…)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=285
+    checked: 2026-11-05
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

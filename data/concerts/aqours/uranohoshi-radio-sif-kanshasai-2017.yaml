@@ -1,0 +1,33 @@
+id: aqours/uranohoshi-radio-sif-kanshasai-2017
+projects: [aqours]
+status: performed
+title:
+  ja: 『「ラブライブ！サンシャイン!!」Aqours浦の星女学院RADIO!!!』公開収録 スクフェス感謝祭2017
+  rom: '"Love Live! Sunshine!! Aqours Uranohoshi Jogakuin RADIO!!!" Public Recording SIF Kanshasai 2017'
+  ko: 『「러브 라이브! 선샤인!!」 Aqours 우라노호시 여학원 RADIO!!!』 공개 수록 스쿠페스 감사제 2017
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/yoshiko-tsushima}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: ikebukuro-sunshine-city-exhibition-hall
+    performances:
+      - {date: 2017-06-11}
+evidence:
+  cast:
+    status: established
+    source: https://anime.eiga.com/event/118660/
+    checked: 2026-11-04
+    note: '공식 미게재: 외부 출처의 출연자'
+  title:
+    status: derived
+    source: https://anime.eiga.com/event/118660/
+    checked: 2026-11-05
+    note: 'ja: 외부 출처 표기(공식 미게재). rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Stage segment of スクフェス感謝祭2017 day 2, not a standalone event. No official page read. / 근거: https://anime.eiga.com/event/118660/ (アニメハック listing (title, date, time, cast as 浦ラジパーソナリティ―)); https://love-live.fandom.com/wiki/Information_Programs (Fandom: second special episode, live public recording at スクフェス感謝祭2017, hosted by ぐ～りんぱ)'
+  schedule:
+    status: established
+    source: https://anime.eiga.com/event/118660/
+    checked: 2026-11-04
+    note: 공식 미게재

@@ -71,6 +71,23 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
         checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: Love marginal (HANAYO Mix)
+      rom: Love marginal (HANAYO Mix)
+      ko: Love marginal (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: miki-fujisue}
+      - {person: koji-matsuzaka}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
 evidence:
   title:
     status: derived

@@ -21,6 +21,184 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
         checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: DREAMY COLOR (Off Vocal)
+      rom: DREAMY COLOR (Off Vocal)
+      ko: DREAMY COLOR (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: meg}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+  - id: chika-takami-solo-ver
+    title:
+      ja: DREAMY COLOR (高海千歌 Solo Ver.)
+      rom: DREAMY COLOR (Chika Takami Solo Ver.)
+      ko: DREAMY COLOR (타카미 치카 Solo Ver.)
+    version: 高海千歌 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: riko-sakurauchi-solo-ver
+    title:
+      ja: DREAMY COLOR (桜内梨子 Solo Ver.)
+      rom: DREAMY COLOR (Riko Sakurauchi Solo Ver.)
+      ko: DREAMY COLOR (사쿠라우치 리코 Solo Ver.)
+    version: 桜内梨子 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: kanan-matsuura-solo-ver
+    title:
+      ja: DREAMY COLOR (松浦果南 Solo Ver.)
+      rom: DREAMY COLOR (Kanan Matsuura Solo Ver.)
+      ko: DREAMY COLOR (마츠우라 카난 Solo Ver.)
+    version: 松浦果南 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: dia-kurosawa-solo-ver
+    title:
+      ja: DREAMY COLOR (黒澤ダイヤ Solo Ver.)
+      rom: DREAMY COLOR (Dia Kurosawa Solo Ver.)
+      ko: DREAMY COLOR (쿠로사와 다이아 Solo Ver.)
+    version: 黒澤ダイヤ Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: you-watanabe-solo-ver
+    title:
+      ja: DREAMY COLOR (渡辺 曜 Solo Ver.)
+      rom: DREAMY COLOR (You Watanabe Solo Ver.)
+      ko: DREAMY COLOR (와타나베 요우 Solo Ver.)
+    version: 渡辺 曜 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: yoshiko-tsushima-solo-ver
+    title:
+      ja: DREAMY COLOR (津島善子 Solo Ver.)
+      rom: DREAMY COLOR (Yoshiko Tsushima Solo Ver.)
+      ko: DREAMY COLOR (츠시마 요시코 Solo Ver.)
+    version: 津島善子 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: hanamaru-kunikida-solo-ver
+    title:
+      ja: DREAMY COLOR (国木田花丸 Solo Ver.)
+      rom: DREAMY COLOR (Hanamaru Kunikida Solo Ver.)
+      ko: DREAMY COLOR (쿠니키다 하나마루 Solo Ver.)
+    version: 国木田花丸 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: mari-ohara-solo-ver
+    title:
+      ja: DREAMY COLOR (小原鞠莉 Solo Ver.)
+      rom: DREAMY COLOR (Mari Ohara Solo Ver.)
+      ko: DREAMY COLOR (오하라 마리 Solo Ver.)
+    version: 小原鞠莉 Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: ruby-kurosawa-solo-ver
+    title:
+      ja: DREAMY COLOR (黒澤ルビィ Solo Ver.)
+      rom: DREAMY COLOR (Ruby Kurosawa Solo Ver.)
+      ko: DREAMY COLOR (쿠로사와 루비 Solo Ver.)
+    version: 黒澤ルビィ Solo Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd55
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
+  - id: live-aqours-finale-2025-06-22
+    title:
+      ja: DREAMY COLOR (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: DREAMY COLOR (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: DREAMY COLOR (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: meg}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-22
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906)과 같다고 봄
 evidence:
   title:
     status: derived

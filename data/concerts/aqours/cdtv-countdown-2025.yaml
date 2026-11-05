@@ -1,0 +1,37 @@
+id: aqours/cdtv-countdown-2025
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: CDTVライブ！ライブ！年越しカウントダウン Fes. 2025→2026
+  rom: CDTV Live! Live! Toshikoshi Countdown Fes. 2025→2026
+  ko: CDTV 라이브! 라이브! 연말 카운트다운 Fes. 2025→2026
+cast:
+  - {artist: aiscream}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2026-01-01
+        setlist:
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+evidence:
+  cast:
+    status: official
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20251231.html
+    checked: 2026-11-05
+    note: '출연란: AiScReam'
+  setlist.2026-01-01:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%E3%80%9C%E3%83%A0!
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20251231.html
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2026-01-01 午前4時台【2026 新春ノンストップフェス】] AiScReam. Live broadcast from 2025-12-31 23:45; AiScReam in the 4 a.m. block, so the performance fell on 2026-01-01. Part of a non-stop segment with other artists. / 근거: https://www.tbs.co.jp/cdtv_livelive/archives/20251231.html (TBS CDTV archive 2025/12/31: 午前4時台【2026 新春ノンストップフェス】AiScReam ♪愛♡スクリ～ム！)'
+  schedule:
+    status: official
+    source: https://www.tbs.co.jp/cdtv_livelive/archives/20251231.html
+    checked: 2026-11-05

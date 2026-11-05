@@ -170,6 +170,137 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+  - id: tv-size-kotohonoumi
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・ことほのうみ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・KotoHonoUmi)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・코토호노우미)
+    version: TVサイズ・ことほのうみ
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-makirinpana
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・まきりんぱな)
+      rom: Kitto Seishun ga Kikoeru (TV Size・MakiRinPana)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・마키린파나)
+    version: TVサイズ・まきりんぱな
+    performers:
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-nico-solo
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・にこソロ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・Nico Solo)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・니코 솔로)
+    version: TVサイズ・にこソロ
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-nicorinpanamakikotohonoumi
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・にこりんぱなまきことほのうみ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・NicoRinPanaMakiKotoHonoUmi)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・니코린파나마키코토호노우미)
+    version: TVサイズ・にこりんぱなまきことほのうみ
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-elinozo
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・えりのぞ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・EliNozo)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・에리노조)
+    version: TVサイズ・えりのぞ
+    performers:
+      - {character: muse/eli-ayase}
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-kotori-solo
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・ことりソロ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・Kotori Solo)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・코토리 솔로)
+    version: TVサイズ・ことりソロ
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-honoka-solo
+    title:
+      ja: きっと青春が聞こえる (TVサイズ・穂乃果ソロ)
+      rom: Kitto Seishun ga Kikoeru (TV Size・Honoka Solo)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈・호노카 솔로)
+    version: TVサイズ・穂乃果ソロ
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size
+    title:
+      ja: きっと青春が聞こえる (TVサイズ)
+      rom: Kitto Seishun ga Kikoeru (TV Size)
+      ko: 분명 청춘이 들려올 거야 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: kyo-takada}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

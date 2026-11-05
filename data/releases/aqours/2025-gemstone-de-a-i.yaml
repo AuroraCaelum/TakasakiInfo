@@ -1,0 +1,42 @@
+id: aqours/2025-gemstone-de-a-i
+type: digital_single
+title:
+  ja: GEMSTONE "DE‐A‐I"
+projects: [aqours]
+release_date: 2025-03-29
+editions:
+  - id: e1
+    catalog: LZC-3057
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/gemstone-de-a-i#aqours}
+      - {no: 2, recording: aqours/gemstone-de-a-i#aqours-off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_TZaNSPNrSjt
+    tracks:
+      1-1: 4wNakOSVPHQ
+      1-2: 6KyMv4Fm4ZA
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/73606/
+legacy:
+  category: Aqours
+  albums:
+    - {title: GEMSTONE "DE‐A‐I"}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73606/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 싱글 LZC-3057). Blu-ray BOX(2022) 특전 CD의 곡을 디지털로 처음 배포. Off Vocal은 이 디지털 싱글이 처음
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73606/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 싱글 LZC-3057). Blu-ray BOX(2022) 특전 CD의 곡을 디지털로 처음 배포. Off Vocal은 이 디지털 싱글이 처음
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_TZaNSPNrSjt
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

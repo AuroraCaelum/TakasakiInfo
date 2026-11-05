@@ -1,0 +1,54 @@
+id: liella/luckyfes-2026
+projects: [liella]
+status: performed
+title:
+  ja: LuckyFes'26
+  rom: LuckyFes'26
+  ko: LuckyFes'26
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-ibaraki
+    city: ibaraki
+    venue: hitachi-seaside-park
+    performances:
+      - date: 2026-08-09
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://luckyfes.com/lineup
+    checked: 2026-11-04
+    note: '출연란: Liella!'
+  setlist.2026-08-09:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#LuckyFes'26
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://luckyfes.com/lineup
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2026-08-09 RAINBOW STAGE] Liella!. Hitachinaka, Ibaraki. Venue name not printed on the lineup page itself. / 근거: https://luckyfes.com/lineup (Official lineup/timetable data: Liella! (artist 53) on festival_date 8.9(日), RAINBOW STAGE, 14:50-15:25 JST)'
+  schedule:
+    status: official
+    source: https://luckyfes.com/lineup
+    checked: 2026-11-04

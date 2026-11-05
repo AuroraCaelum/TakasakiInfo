@@ -1,0 +1,52 @@
+id: hasunosora/link-live-dream-103rd-graduation
+projects: [hasunosora]
+status: announced
+title:
+  ja: ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～103期卒業公演～
+  rom: Love Live! Hasunosora Girls' High School Idol Club Link Live Dream ~103rd Sotsugyou Kouen~
+  ko: 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 Link Live Dream ~103기 졸업 공연~
+cast:
+  - {character: hasunosora/kaho-hinoshita}
+  - {character: hasunosora/sayaka-murano}
+  - {character: hasunosora/tsuzuri-yugiri}
+  - {character: hasunosora/rurino-osawa}
+  - {character: hasunosora/megumi-fujishima}
+  - {character: hasunosora/ginko-momose}
+  - {character: hasunosora/kosuzu-kachimachi}
+  - {character: hasunosora/hime-anyoji}
+  - {character: hasunosora/ceras-yanagida-lilienfeld}
+  - {character: hasunosora/izumi-katsuragi}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-budokan
+    performances:
+      - {date: 2027-01-23}
+      - date: 2027-01-24
+        cast:
+          - {character: hasunosora/kaho-hinoshita}
+          - {character: hasunosora/kozue-otomune}
+          - {character: hasunosora/sayaka-murano}
+          - {character: hasunosora/tsuzuri-yugiri}
+          - {character: hasunosora/rurino-osawa}
+          - {character: hasunosora/megumi-fujishima}
+          - {character: hasunosora/ginko-momose}
+          - {character: hasunosora/kosuzu-kachimachi}
+          - {character: hasunosora/hime-anyoji}
+          - {character: hasunosora/ceras-yanagida-lilienfeld}
+          - {character: hasunosora/izumi-katsuragi}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103
+    checked: 2026-10-27
+    note: ※花宮初奈（乙宗 梢役）はDay.2 のみ出演
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 부제 번역안(103期는 「103期Fes×ReC」처럼 103rd·103기)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103
+    checked: 2026-10-27

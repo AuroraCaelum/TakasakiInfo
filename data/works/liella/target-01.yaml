@@ -1,0 +1,48 @@
+id: liella/target-01
+project: liella
+title:
+  ja: Target:01
+  rom: Target:01
+  ko: Target:01
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: sweety-shiraki}
+    - {person: yuki-kato}
+recordings:
+  - id: original
+    performers:
+      - {character: liella/margarete-wien}
+      - {character: liella/tomari-onitsuka}
+    arranger:
+      - {person: yuki-kato}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Target:01 (Off Vocal)
+      rom: Target:01 (Off Vocal)
+      ko: Target:01 (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yuki-kato}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-05
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-04

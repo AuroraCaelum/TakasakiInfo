@@ -35,6 +35,180 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
         checked: 2026-10-20
+  - id: 15th-tribute
+    performers:
+      - {character: external/haruka-amami}
+      - {character: external/chihaya-kisaragi}
+      - {character: external/miki-hoshii}
+      - {character: external/yukiho-hagiwara}
+      - {character: external/makoto-kikuchi}
+    arranger:
+      - {person: ginnojo-hoshi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, 読み ホシギンノジョウ). 부클릿 전사(MONACA Wiki)의 'Strings Arrange: Talich Helfen(Core Creative)'은 공식·레이블 출처에서 확인하지 못해 넣지 않음"
+  - id: tv-size
+    title:
+      ja: KiRa-KiRa Sensation! (TVサイズ)
+      rom: KiRa-KiRa Sensation! (TV Size)
+      ko: KiRa-KiRa Sensation! (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: KiRa-KiRa Sensation! (NICO Mix)
+      rom: KiRa-KiRa Sensation! (NICO Mix)
+      ko: KiRa-KiRa Sensation! (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: KiRa-KiRa Sensation! (HANAYO Mix)
+      rom: KiRa-KiRa Sensation! (HANAYO Mix)
+      ko: KiRa-KiRa Sensation! (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: KiRa-KiRa Sensation! (NOZOMI Mix)
+      rom: KiRa-KiRa Sensation! (NOZOMI Mix)
+      ko: KiRa-KiRa Sensation! (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: KiRa-KiRa Sensation! (MAKI Mix)
+      rom: KiRa-KiRa Sensation! (MAKI Mix)
+      ko: KiRa-KiRa Sensation! (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: KiRa-KiRa Sensation! (RIN Mix)
+      rom: KiRa-KiRa Sensation! (RIN Mix)
+      ko: KiRa-KiRa Sensation! (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: KiRa-KiRa Sensation! (UMI Mix)
+      rom: KiRa-KiRa Sensation! (UMI Mix)
+      ko: KiRa-KiRa Sensation! (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: KiRa-KiRa Sensation! (KOTORI Mix)
+      rom: KiRa-KiRa Sensation! (KOTORI Mix)
+      ko: KiRa-KiRa Sensation! (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: KiRa-KiRa Sensation! (ELI Mix)
+      rom: KiRa-KiRa Sensation! (ELI Mix)
+      ko: KiRa-KiRa Sensation! (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: KiRa-KiRa Sensation! (HONOKA Mix)
+      rom: KiRa-KiRa Sensation! (HONOKA Mix)
+      ko: KiRa-KiRa Sensation! (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd46)과 같다고 봄
 evidence:
   title:
     status: derived

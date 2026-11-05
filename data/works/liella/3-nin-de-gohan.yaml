@@ -1,0 +1,25 @@
+id: liella/3-nin-de-gohan
+kind: drama
+project: liella
+title:
+  ja: ３人でごはん♪
+  rom: 3-nin de Gohan♪
+  ko: 셋이서 밥♪
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: liella/keke-tang}
+      - {character: liella/sumire-heanna}
+      - {character: liella/natsumi-onitsuka}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/
+        checked: 2026-10-27
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/
+    checked: 2026-11-05
+    note: 'ja: 공식 BD 페이지(2기 Amazon 전권 구입 특전 드라마 CD). rom: 규칙, ko: 번역안'

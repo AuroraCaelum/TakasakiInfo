@@ -1,0 +1,53 @@
+id: liella/anime-x-game-festival-2025
+projects: [liella]
+status: performed
+title:
+  ja: Anime X Game Festival 2025
+  rom: Anime X Game Festival 2025
+  ko: Anime X Game Festival 2025
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/ren-hazuki}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/margarete-wien}
+stops:
+  - id: 1-goyang
+    city: goyang
+    venue: kintex-exhibition-center-1
+    performances:
+      - date: 2025-12-06
+        setlist:
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/shekira
+            performers:
+              - {artist: liella}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=735237
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: 伊達さゆり(澁谷かのん); 青山なぎさ(葉月恋); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ)'
+  setlist.2025-12-06:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Anime_X_Game_Festival_2025_(AGF_KOREA_202)
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.thefirsttimes.jp/?p=735237
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2025-12-06] 伊達さゆり(澁谷かのん); 青山なぎさ(葉月恋); 薮島朱音(米女メイ); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ). Liella! appearance and member list only from Fandom so far. Stage (RED/BLUE) unknown. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://www.thefirsttimes.jp/?p=735237
+    checked: 2026-11-04
+    note: 공식 미게재

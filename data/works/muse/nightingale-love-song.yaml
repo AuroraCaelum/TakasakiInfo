@@ -35,6 +35,54 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
         checked: 2026-10-20
+  - id: hanayo-mix
+    title:
+      ja: 小夜啼鳥恋詩 (HANAYO Mix)
+      rom: Nightingale Love Song (HANAYO Mix)
+      ko: 나이팅게일 러브송 (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: 小夜啼鳥恋詩 (KOTORI Mix)
+      rom: Nightingale Love Song (KOTORI Mix)
+      ko: 나이팅게일 러브송 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: 小夜啼鳥恋詩 (HONOKA Mix)
+      rom: Nightingale Love Song (HONOKA Mix)
+      ko: 나이팅게일 러브송 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: kazunori-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
 evidence:
   title:
     status: derived

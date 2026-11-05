@@ -1,0 +1,47 @@
+id: musical/musical-2025
+projects: [musical]
+status: performed
+title:
+  ja: スクールアイドルミュージカル（2025年公演）
+  rom: School Idol Musical (2025 Performances)
+  ko: 스쿨 아이돌 뮤지컬 (2025년 공연)
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nippon-seinenkan-hall
+    performances:
+      - {date: 2025-02-09, label: 12:00 本編}
+      - {date: 2025-02-09, label: 18:00 本編}
+      - {date: 2025-02-11, label: 13:00 本編}
+      - {date: 2025-02-11, label: 17:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-12, label: 14:00 本編}
+      - {date: 2025-02-12, label: 18:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-13, label: 14:00 本編}
+      - {date: 2025-02-13, label: 18:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-15, label: 13:00 本編}
+      - {date: 2025-02-15, label: 17:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-16, label: 13:00 本編}
+      - {date: 2025-02-16, label: 17:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-18, label: 14:00 本編}
+      - {date: 2025-02-18, label: 18:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-02-19, label: 12:00 本編}
+      - {date: 2025-02-19, label: 16:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+  - id: 2-osaka
+    city: osaka
+    venue: shin-kabukiza
+    performances:
+      - {date: 2025-04-04}
+      - {date: 2025-04-05, label: 14:00 本編}
+      - {date: 2025-04-05, label: 18:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+      - {date: 2025-04-06, label: 12:00 本編}
+      - {date: 2025-04-06, label: 16:00 後夜祭 (文化祭＆後夜祭スペシャル公演)}
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/schedule.php
+    checked: 2026-11-05
+    note: 'ja: 공식 사이트의 작품명 「スクールアイドルミュージカル」에 공연 연도(공식 사이트의 구분)를 괄호로 붙여 구별. rom·ko: 번역안. 일정 조사 메모: 무대 뮤지컬(세트리스트 없음, 공연별 캐스트표는 후속). 휴연·중지 공연 제외. https://www.lovelive-anime.jp/musical/schedule.php: The two 2025-02-17 shows (15:30, 18:30 後夜祭) are marked 公演中止 on the official grid and cast table (no reason printed); they carry cancelled: true.'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/schedule.php
+    checked: 2026-11-04

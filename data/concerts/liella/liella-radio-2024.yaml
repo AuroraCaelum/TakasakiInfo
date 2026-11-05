@@ -1,0 +1,34 @@
+id: liella/liella-radio-2024
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! リエラジ！公開録音＆公開生放送2024
+  rom: Love Live! Superstar!! Liella! Lieradi! Public Recording & Public Live Broadcast 2024
+  ko: 러브 라이브! 슈퍼스타!! Liella! 리에라지! 공개 녹음 & 공개 생방송 2024
+cast:
+  - {character: liella/chisato-arashi}
+  - {character: liella/mei-yoneme}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: sanrio-puroland-entertainment-hall
+    performances:
+      - {date: 2024-05-11, label: 第1部＞リエラジ！公開録音 1回目}
+      - {date: 2024-05-11, label: 第2部＞リエラジ！公開録音 2回目}
+      - {date: 2024-05-11, label: 第3部＞Liella! スペシャル公開生放送}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2024
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2024
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Cast listed once for the whole event. / 근거: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2024 (event detail page (Wayback snapshot))'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2024
+    checked: 2026-11-04

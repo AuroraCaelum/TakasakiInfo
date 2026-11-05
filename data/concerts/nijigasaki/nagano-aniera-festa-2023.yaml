@@ -1,0 +1,59 @@
+id: nijigasaki/nagano-aniera-festa-2023
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ナガノアニエラフェスタ2023
+  rom: Nagano Aniera Festa 2023
+  ko: 나가노 아니에라 페스타 2023
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/setsuna-yuki}
+stops:
+  - id: 1-nagano
+    city: nagano
+    venue: komaba-park
+    performances:
+      - date: 2023-09-17
+        setlist:
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/love-u-my-friends
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+evidence:
+  cast:
+    status: official
+    source: https://www.lisani.jp/0000241872/2/
+    checked: 2026-11-05
+    note: '출연란: 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 林鼓子(優木せつ菜)'
+  setlist.2023-09-17:
+    status: official
+    source: https://www.lisani.jp/0000241872/2/
+    checked: 2026-11-05
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lisani.jp/0000241872/2/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2023-09-17 DAY2] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 林鼓子(優木せつ菜). Outdoor anisong festival, DAY2 テンペストステージ. Who sang each song is not stated. / 근거: https://www.lisani.jp/0000241872/2/ (LisAni! report: ナガノアニエラフェスタ2023 DAY2 2023-09-17, 長野県佐久市 駒場公園 テンペストステージ; 大西亜玖璃・相良茉優・林鼓子; 7 songs)'
+  schedule:
+    status: official
+    source: https://www.lisani.jp/0000241872/2/
+    checked: 2026-11-05

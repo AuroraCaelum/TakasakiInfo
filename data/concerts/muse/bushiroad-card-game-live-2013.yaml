@@ -1,0 +1,50 @@
+id: muse/bushiroad-card-game-live-2013
+projects: [muse]
+status: performed
+title:
+  ja: ブシロードカードゲームライブ2013
+  rom: Bushiroad Card Game Live 2013
+  ko: 부시로드 카드 게임 라이브 2013
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/nico-yazawa}
+  - {character: muse/hanayo-koizumi}
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: grand-cube-osaka-main-hall
+    performances:
+      - date: 2013-03-24
+        setlist:
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=245
+    checked: 2026-11-04
+    note: '출연란: μ’ｓ: 新田恵海(高坂穂乃果役); 南條愛乃(絢瀬絵里役); 内田彩(南ことり役); 三森すずこ(園田海未役); 飯田里穂(星空凛役); Pile(西木野真姫役); 楠田亜衣奈(東條希役); 徳井青空(矢澤にこ役); 久保ユリカ(小泉花陽役)'
+  setlist.2013-03-24:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_History
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=245
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2013-03-24] μ’ｓ: 新田恵海(高坂穂乃果役); 南條愛乃(絢瀬絵里役); 内田彩(南ことり役); 三森すずこ(園田海未役); 飯田里穂(星空凛役); Pile(西木野真姫役); 楠田亜衣奈(東條希役); 徳井青空(矢澤にこ役); 久保ユリカ(小泉花陽役). Official news title uses 『ブシロードカードゲームライブ2013』 and 「ブシロードカードゲームLIVE2013」. Set list PARTIAL: Fandom history says 3 songs 'including' 僕らは今のなかで and Snow halation; third song unknown. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=245 (2013/01/05『ブシロードカードゲームライブ2013』にμ’ｓの出演が決定 — 2013年3月24日（日）17:00開演, グランキューブ大阪 メインホール, 出演 μ’ｓ (9 cast listed)); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=225 (2013/02/15 ライブビューイング実施決定 — 出演(予定) μ‘s, サイキックラバー, ミルキィホームズ 他)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=245
+    checked: 2026-11-04

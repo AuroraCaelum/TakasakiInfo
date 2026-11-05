@@ -11,7 +11,7 @@ import datetime as dt
 import re
 from pathlib import Path
 
-from .importer import Report, Site, Spec
+from .importer import Report, Site, Spec, page_id
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
 from .sitepage import expand_in_elements, read_block, releases_of, text_lines
@@ -23,8 +23,7 @@ MEMBER_PATH = "/nijigasaki/member/"
 
 SPEC = Spec(project="nijigasaki", group_name=GROUP, legacy_group="Nijigasaki", legacy_file="Nijigaku",
             review_prefix="NJG",
-            skip={"cd.php#cd68": "「珊瑚礁の記憶」: the film's soundtrack and vocal collection, a soundtrack (score)",
-                  "cd.php#cd01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"},
+            skip={"cd.php#cd01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"},
             cross={"cd.php#cd61": ["nijigasaki", "aqours", "liella", "hasunosora", "muse"],  # Bring the LOVE！ (D45)
                    "cd.php#cd81": ["nijigasaki", "aqours", "liella"]},  # AiScReam「愛♡スクリ～ム！」 (its first lineup)
             lineups_from_site=False)
@@ -36,6 +35,12 @@ TRACK_FIXES = {
     # (3 is モノクロラビリンス(Off Vocal)) make it the Off Vocal
     ("cd.php#cd01_6286", 4): "Jungle Hunter♡(Off Vocal)",
 }
+# misprinted credit lines, corrected with the source that settles them: (page id, line as printed) -> line
+LINE_FIXES = {
+    # 「CROWNed SOUL」 prints 作詞：作曲・編曲：…, the lyricist's name left out; Fandom (and the lyrics sites)
+    # credit TeddyLoid and EMME with all three
+    ("cd.php#cd01_6287", "作詞：作曲・編曲：TeddyLoid、EMME"): "作詞・作曲・編曲：TeddyLoid、EMME",
+}
 
 _BOX = re.compile(r'<div class="box" id="([^"]+)">')
 
@@ -46,7 +51,8 @@ def parse_page(html: str, url: str) -> list:
     for i, (pos, anchor) in enumerate(starts):
         end = starts[i + 1][0] if i + 1 < len(starts) else html.find("<!-- ! END", pos)
         part = html[pos:end if end > pos else None]
-        lines = [ln for ln in text_lines(part) if ln != "▲"]
+        pid = page_id(f"{url}#{anchor}")
+        lines = [LINE_FIXES.get((pid, ln), ln) for ln in text_lines(part) if ln != "▲"]
         b = read_block(lines, f"{url}#{anchor}", part)
         if b.release_date and b.tracks:
             blocks.append(b)

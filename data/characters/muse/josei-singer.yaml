@@ -1,0 +1,21 @@
+id: muse/josei-singer
+project: muse
+names:
+  ja: 女性シンガー
+  rom: Josei Singer
+  ko: 여성 싱어
+casting:
+  - {person: minami-takayama}
+evidence:
+  names:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지(Curtain Call #12・#24 歌：女性シンガー(CV.高山みなみ)). rom: 규칙, ko: 번역안'
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+    checked: 2026-10-27
+  name_parts:
+    status: derived
+    note: 배역 이름(극장판의 여성 가수)이라 성·이름 없음

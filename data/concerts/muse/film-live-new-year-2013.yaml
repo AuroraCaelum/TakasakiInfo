@@ -1,0 +1,32 @@
+id: muse/film-live-new-year-2013
+projects: [muse]
+status: performed
+title:
+  ja: 「μ’s New Year LoveLive! 2013」Part1フィルムライブ＆第13話上映イベント
+  rom: '"μ’s New Year LoveLive! 2013" Part1 Film Live & Episode 13 Screening Event'
+  ko: 「μ’s New Year LoveLive! 2013」 Part1 필름 라이브 & 제13화 상영 이벤트
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nozomi-tojo}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: shinjuku-piccadilly-screen-1
+    performances:
+      - {date: 2013-03-31}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=205
+    checked: 2026-11-04
+    note: '출연: 新田恵海・久保ユリカ・楠田亜衣奈(토크, 가창 없음)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=205
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: FILM LIVE event (screening of concert footage + cast talk; the cast did not sing per the report). Include only if film-live events count as shows. Title prefix in the announcement: 「ラブライブ！」. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=205 (news 2013/03/20 「ラブライブ！「μ’ｓ New Year LoveLive! 2013」Part1フィルムライブ＆第13話上映イベント 開催決定！」: 3月31日（日） 20:45開演, 新宿ピカデリー スクリーン１, 出演); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=200 (news 2013/04/03 official report: held 3月31日; screening of ep.13 + film live (10 songs, ~60 min) of New Year LoveLive! 20)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=205
+    checked: 2026-11-04

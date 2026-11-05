@@ -35,6 +35,165 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
         checked: 2026-10-20
+  - id: movie-edit
+    title:
+      ja: SUNNY DAY SONG (Movie Edit)
+      rom: SUNNY DAY SONG (Movie Edit)
+      ko: SUNNY DAY SONG (Movie Edit)
+    version: Movie Edit
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: SUNNY DAY SONG (NICO Mix)
+      rom: SUNNY DAY SONG (NICO Mix)
+      ko: SUNNY DAY SONG (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: SUNNY DAY SONG (HANAYO Mix)
+      rom: SUNNY DAY SONG (HANAYO Mix)
+      ko: SUNNY DAY SONG (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: SUNNY DAY SONG (NOZOMI Mix)
+      rom: SUNNY DAY SONG (NOZOMI Mix)
+      ko: SUNNY DAY SONG (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: SUNNY DAY SONG (MAKI Mix)
+      rom: SUNNY DAY SONG (MAKI Mix)
+      ko: SUNNY DAY SONG (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: SUNNY DAY SONG (RIN Mix)
+      rom: SUNNY DAY SONG (RIN Mix)
+      ko: SUNNY DAY SONG (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: SUNNY DAY SONG (UMI Mix)
+      rom: SUNNY DAY SONG (UMI Mix)
+      ko: SUNNY DAY SONG (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: SUNNY DAY SONG (KOTORI Mix)
+      rom: SUNNY DAY SONG (KOTORI Mix)
+      ko: SUNNY DAY SONG (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: SUNNY DAY SONG (ELI Mix)
+      rom: SUNNY DAY SONG (ELI Mix)
+      ko: SUNNY DAY SONG (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: SUNNY DAY SONG (HONOKA Mix)
+      rom: SUNNY DAY SONG (HONOKA Mix)
+      ko: SUNNY DAY SONG (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: tatsuya-kurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
 evidence:
   title:
     status: derived

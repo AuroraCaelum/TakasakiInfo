@@ -1,0 +1,29 @@
+id: muse/hatsumode
+kind: bgm
+project: muse
+title:
+  ja: 初詣
+  rom: Hatsumode
+  ko: 새해 첫 참배
+credits:
+  composer:
+    - {person: yoshiaki-fujisawa}
+recordings:
+  - id: original
+    kind: instrumental
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-27
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지. rom: 레이블 카탈로그 EN 표기(https://catalog.bandainamcomusiclive.co.jp/release/65010/). ko: 번역안'
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+    checked: 2026-10-27
+    note: OST의 音楽 크레딧

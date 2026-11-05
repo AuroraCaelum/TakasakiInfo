@@ -1,0 +1,24 @@
+id: muse/tatoeba-konna-sweet-home
+kind: drama
+project: muse
+title:
+  ja: たとえばこんな! スウィートホーム!
+  rom: Tatoeba Konna! Sweet Home!
+  ko: 예를 들면 이런! 스위트 홈!
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {artist: muse}
+    evidence:
+      credits:
+        status: established
+        source: https://love-live.fandom.com/wiki/Muse's_NEXT_LoveLive!_2014_ENDLESS_PARADE
+        checked: 2026-11-04
+        note: "공식 미게재: Not found on official pages; title_ja descriptive; track titles from Fandom (external). Distinct from the 「ENDLESS PARADE」 special CD single already in the DB. 날짜는 공연 첫날(티켓 특전 배포, 추정). 출연 미게재라 μ's로 둠"
+evidence:
+  title:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Muse's_NEXT_LoveLive!_2014_ENDLESS_PARADE
+    checked: 2026-11-05
+    note: 'ja·rom: Fandom 표기(공식 미게재), ko: 번역안'

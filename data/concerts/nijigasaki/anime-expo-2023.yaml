@@ -1,0 +1,50 @@
+id: nijigasaki/anime-expo-2023
+projects: [nijigasaki, liella, yohane]
+status: performed
+title:
+  ja: 'Love Live! Series Event: Nice to See You in LA!!'
+  rom: 'Love Live! Series Event: Nice to See You in LA!!'
+  ko: 'Love Live! Series Event: Nice to See You in LA!!'
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: yohane/yohane}
+  - {character: nijigasaki/kasumi-nakasu}
+stops:
+  - id: 1-los-angeles
+    city: los-angeles
+    venue: jw-marriott-platinum-ballroom
+    performances:
+      - date: 2023-07-01
+        setlist:
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://www.anime-expo.org/?p=18218
+    checked: 2026-11-04
+    note: '출연란: 伊達さゆり(澁谷かのん); 小林愛香(ヨハネ); 相良茉優(中須かすみ)'
+  setlist.2023-07-01:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Nice_to_See_You_in_LA!!
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.anime-expo.org/?p=18218
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2023-07-01 18:00 PDT] 伊達さゆり(澁谷かのん); 小林愛香(ヨハネ); 相良茉優(中須かすみ). Series-crossing event at Anime Expo, not Liella!-only; only 伊達さゆり from Liella!. Official date is 2023-07-01 local (Fandom July 2 = JST). Which singer sang which song not stated. / 근거: https://www.anime-expo.org/?p=18218 (Anime Expo event page: 'Love Live! Series Event: Nice to See You in LA!!', Saturday July 1st 6:00PM, JW Marriott Platinum Ballroom; guests A)"
+  schedule:
+    status: official
+    source: https://www.anime-expo.org/?p=18218
+    checked: 2026-11-04

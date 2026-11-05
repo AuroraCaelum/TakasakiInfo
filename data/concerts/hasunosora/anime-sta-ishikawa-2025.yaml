@@ -1,0 +1,32 @@
+id: hasunosora/anime-sta-ishikawa-2025
+projects: [hasunosora]
+status: performed
+title:
+  ja: アニメ・スタいしかわ 2025 ラブライブ！蓮ノ空女学院スクールアイドルクラブトークステージ
+  rom: Anime Sta Ishikawa 2025 Love Live! Hasunosora Girls' High School Idol Club Talk Stage
+  ko: 애니메 스타 이시카와 2025 러브 라이브! 하스노소라 여학원 스쿨 아이돌 클럽 토크 스테이지
+cast:
+  - {character: hasunosora/kaho-hinoshita}
+  - {character: hasunosora/sayaka-murano}
+  - {character: hasunosora/rurino-osawa}
+stops:
+  - id: 1-ishikawa
+    city: ishikawa
+    venue: hokkoku-shimbun-akabane-hall
+    performances:
+      - {date: 2025-11-30}
+evidence:
+  cast:
+    status: official
+    source: https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0925_10_kankousenryakuka.pdf
+    checked: 2026-11-05
+    note: '출연란: 楡井希実(日野下花帆); 野中ここな(村野さやか); 菅叶和(大沢瑠璃乃)'
+  title:
+    status: derived
+    source: https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0925_10_kankousenryakuka.pdf
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2025-11-30 14:00–15:00] 楡井希実(日野下花帆); 野中ここな(村野さやか); 菅叶和(大沢瑠璃乃). Talk only. Pre-event listings only; no post-event report retrieved. / 근거: https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0925_10_kankousenryakuka.pdf (Ishikawa pref. press release 2025-09-25 (search snippet, not opened): 11/30（日）本県を舞台とした「蓮ノ空女学院スクールアイドルクラブ」のキャストによるトークステージ)'
+  schedule:
+    status: official
+    source: https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0925_10_kankousenryakuka.pdf
+    checked: 2026-11-05

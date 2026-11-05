@@ -14,6 +14,7 @@ given_name:
   ko: 미스즈
 casting:
   - {person: mizuki-saiba}
+  - {person: hana-minamino}
 evidence:
   names.ja:
     status: official
@@ -32,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  casting.2026:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
+    checked: 2026-10-20
+    note: 『スクールアイドルミュージカル2026』 캐스트 (Wキャスト의 安本彩花는 15주년 공연에 나오지 않아 넣지 않음)

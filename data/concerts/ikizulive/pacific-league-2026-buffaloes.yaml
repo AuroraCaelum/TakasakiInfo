@@ -1,0 +1,31 @@
+id: ikizulive/pacific-league-2026-buffaloes
+projects: [ikizulive]
+status: performed
+title:
+  ja: ラブライブ！シリーズ×パ・リーグ6球団 2026 コラボ試合 オリックス・バファローズ vs 北海道日本ハムファイターズ「イキヅライブ！ LOVELIVE! BLUEBIRD キャストトークショー」
+  rom: Love Live! Series × Pacific League 6 Teams 2026 Collaboration Game ORIX Buffaloes vs Hokkaido Nippon-Ham Fighters "IKIZULIVE! LOVELIVE! BLUEBIRD Cast Talk Show"
+  ko: 러브 라이브! 시리즈×퍼시픽 리그 6구단 2026 콜라보 경기 오릭스 버펄로스 vs 홋카이도 닛폰햄 파이터스 「이키즈라이브! LOVELIVE! BLUEBIRD 캐스트 토크쇼」
+cast:
+  - {character: ikizulive/yukuri-harumiya}
+  - {character: ikizulive/aurora-konohana}
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: kyocera-dome-osaka-9f-sky-hall
+    performances:
+      - {date: 2026-08-15}
+evidence:
+  cast:
+    status: official
+    source: https://www.buffaloes.co.jp/news/detail/202600778470.html
+    checked: 2026-11-05
+    note: '출연란: 奥村優季(春宮ゆくり); 天沢朱音(此花輝夜)'
+  title:
+    status: derived
+    source: https://www.buffaloes.co.jp/news/detail/202600778470.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2026-08-15] 奥村優季(春宮ゆくり); 天沢朱音(此花輝夜). Official page content known only from a search excerpt; re-check when the Buffaloes site or a capture is reachable. Billed under the project name イキヅライブ！ LOVELIVE! BLUEBIRD. No songs reported. / 근거: https://www.buffaloes.co.jp/news/detail/202600778470.html (Buffaloes news '8月15日（土）「イキヅライブ！ LOVELIVE! BLUEBIRD キャストトークショー」詳細決定！' - seen only as a search-result excerpt (site geo-blocked, no Wayback c); https://www.buffaloes.co.jp/news/detail/202600758362.html (Buffaloes '8/15「イキヅライブ！ LOVELIVE! BLUEBIRD」コラボ当日スケジュール決定！' - title seen in search only, not read)"
+  schedule:
+    status: official
+    source: https://www.buffaloes.co.jp/news/detail/202600778470.html
+    checked: 2026-11-05

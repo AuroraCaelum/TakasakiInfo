@@ -9,7 +9,38 @@ credits:
     - {person: takahiko-kyogoku}
   composer:
     - {person: yoshiaki-fujisawa}
-recordings: []
+recordings:
+  - id: musical-ver
+    title:
+      ja: これまでのラブライブ！ ～ミュージカルver.～
+      rom: Koremade no Love Live! ~Musical ver.~
+      ko: 지금까지의 러브 라이브! ~뮤지컬 ver.~
+    version: ミュージカルver.
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: musical-ver-off-vocal
+    kind: off_vocal
+    title:
+      ja: これまでのラブライブ！ ～ミュージカルver.～ (Off Vocal)
+      rom: Koremade no Love Live! ~Musical ver.~ (Off Vocal)
+      ko: 지금까지의 러브 라이브! ~뮤지컬 ver.~ (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yoshiaki-fujisawa}
+    instrumental_of: musical-ver
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+        note: 편곡은 보컬 음원과 같음
 external_ids:
   fandom: Koremade no Love Live! ~Musical Ver.~
 evidence:

@@ -41,6 +41,222 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
         checked: 2026-10-20
+  - id: shioriko-mifune-ver
+    title:
+      ja: 約束になれ僕らの歌 (三船栞子 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Shioriko Mifune Ver.)
+      ko: 약속이 되어라 우리들의 노래 (미후네 시오리코 Ver.)
+    version: 三船栞子 Ver.
+    performers:
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: mia-taylor-ver
+    title:
+      ja: 約束になれ僕らの歌 (ミア・テイラー Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Mia Taylor Ver.)
+      ko: 약속이 되어라 우리들의 노래 (미아 테일러 Ver.)
+    version: ミア・テイラー Ver.
+    performers:
+      - {character: nijigasaki/mia-taylor}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: rina-tennoji-ver
+    title:
+      ja: 約束になれ僕らの歌 (天王寺璃奈 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Rina Tennoji Ver.)
+      ko: 약속이 되어라 우리들의 노래 (텐노지 리나 Ver.)
+    version: 天王寺璃奈 Ver.
+    performers:
+      - {character: nijigasaki/rina-tennoji}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: karin-asaka-ver
+    title:
+      ja: 約束になれ僕らの歌 (朝香果林 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Karin Asaka Ver.)
+      ko: 약속이 되어라 우리들의 노래 (아사카 카린 Ver.)
+    version: 朝香果林 Ver.
+    performers:
+      - {character: nijigasaki/karin-asaka}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: setsuna-yuki-ver
+    title:
+      ja: 約束になれ僕らの歌 (優木せつ菜 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Setsuna Yuki Ver.)
+      ko: 약속이 되어라 우리들의 노래 (유키 세츠나 Ver.)
+    version: 優木せつ菜 Ver.
+    performers:
+      - {character: nijigasaki/setsuna-yuki}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: ai-miyashita-ver
+    title:
+      ja: 約束になれ僕らの歌 (宮下 愛 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Ai Miyashita Ver.)
+      ko: 약속이 되어라 우리들의 노래 (미야시타 아이 Ver.)
+    version: 宮下 愛 Ver.
+    performers:
+      - {character: nijigasaki/ai-miyashita}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: ayumu-uehara-ver
+    title:
+      ja: 約束になれ僕らの歌 (上原歩夢 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Ayumu Uehara Ver.)
+      ko: 약속이 되어라 우리들의 노래 (우에하라 아유무 Ver.)
+    version: 上原歩夢 Ver.
+    performers:
+      - {character: nijigasaki/ayumu-uehara}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: kasumi-nakasu-ver
+    title:
+      ja: 約束になれ僕らの歌 (中須かすみ Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Kasumi Nakasu Ver.)
+      ko: 약속이 되어라 우리들의 노래 (나카스 카스미 Ver.)
+    version: 中須かすみ Ver.
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: shizuku-osaka-ver
+    title:
+      ja: 約束になれ僕らの歌 (桜坂しずく Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Shizuku Osaka Ver.)
+      ko: 약속이 되어라 우리들의 노래 (오사카 시즈쿠 Ver.)
+    version: 桜坂しずく Ver.
+    performers:
+      - {character: nijigasaki/shizuku-osaka}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: kanata-konoe-ver
+    title:
+      ja: 約束になれ僕らの歌 (近江彼方 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Kanata Konoe Ver.)
+      ko: 약속이 되어라 우리들의 노래 (코노에 카나타 Ver.)
+    version: 近江彼方 Ver.
+    performers:
+      - {character: nijigasaki/kanata-konoe}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: emma-verde-ver
+    title:
+      ja: 約束になれ僕らの歌 (エマ・ヴェルデ Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Emma Verde Ver.)
+      ko: 약속이 되어라 우리들의 노래 (엠마 베르데 Ver.)
+    version: エマ・ヴェルデ Ver.
+    performers:
+      - {character: nijigasaki/emma-verde}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: lanzhu-zhong-ver
+    title:
+      ja: 約束になれ僕らの歌 (鐘 嵐珠 Ver.)
+      rom: Yakusoku ni Nare Bokura no Uta (Lanzhu Zhong Ver.)
+      ko: 약속이 되어라 우리들의 노래 (쇼우 란쥬 Ver.)
+    version: 鐘 嵐珠 Ver.
+    performers:
+      - {character: nijigasaki/lanzhu-zhong}
+    arranger:
+      - {person: nyanzonudeshi}
+      - {person: morito-yonezawa}
+      - {person: ayato-fujiwara}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
+        checked: 2026-10-26
+        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

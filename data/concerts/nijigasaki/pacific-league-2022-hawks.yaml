@@ -1,0 +1,31 @@
+id: nijigasaki/pacific-league-2022-hawks
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！シリーズ×パ・リーグ6球団 コラボ試合 福岡ソフトバンクホークスvs東北楽天ゴールデンイーグルス『ラブライブ！虹ヶ咲学園スクールアイドル同好会コラボイベント』「ラブライブ！虹ヶ咲声優トークショー」
+  rom: Love Live! Series × Pacific League 6 Teams Collaboration Game Fukuoka SoftBank Hawks vs Tohoku Rakuten Golden Eagles "Love Live! Nijigasaki High School Idol Club Collaboration Event" "Love Live! Nijigasaki Voice Actor Talk Show"
+  ko: 러브 라이브! 시리즈×퍼시픽 리그 6구단 콜라보 경기 후쿠오카 소프트뱅크 호크스 vs 도호쿠 라쿠텐 골든이글스 『러브 라이브! 니지가사키 학원 스쿨 아이돌 동호회 콜라보 이벤트』 「러브 라이브! 니지가사키 성우 토크쇼」
+cast:
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/mia-taylor}
+stops:
+  - id: 1-fukuoka
+    city: fukuoka
+    venue: fukuoka-paypay-dome
+    performances:
+      - {date: 2022-06-18}
+evidence:
+  cast:
+    status: official
+    source: https://www.softbankhawks.co.jp/news/detail/00005373.html
+    checked: 2026-11-05
+    note: '출연란: 前田佳織里(桜坂しずく); 内田秀(ミア・テイラー)'
+  title:
+    status: derived
+    source: https://www.softbankhawks.co.jp/news/detail/00005373.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2022-06-18] 前田佳織里(桜坂しずく); 内田秀(ミア・テイラー). Talk show held after the game in the <みずほ>プレミアムシート area (ticketed add-on). No songs reported. A YouTube clip titled '前田佳織里さん、内田秀さんによるセレモニアルピッチ' suggests they also threw the ceremonial pitch (not checked against an official page). Venue name as printed in 2022 (now みずほPayPayドーム福岡). / 근거: https://www.softbankhawks.co.jp/news/detail/00005373.html (Hawks news 2022/04/05 (Wayback 20220626182445; live site geo-blocked): 6月18日（土）楽天イーグルス戦 14:00試合開始, ラブライブ！虹ヶ咲学園スクールアイドル同好会コラボイベント; 前田佳織里さん（桜坂)"
+  schedule:
+    status: official
+    source: https://www.softbankhawks.co.jp/news/detail/00005373.html
+    checked: 2026-11-05

@@ -1,0 +1,32 @@
+id: nijigasaki/chayamachi-oshi-fes-2024
+projects: [nijigasaki]
+status: performed
+title:
+  ja: 推し作品を見つけよう！バンダイナムコフィルムワークスステージ！（ちゃやまち推しフェスティバル2024）
+  rom: Oshi Sakuhin wo Mitsukeyou! Bandai Namco Filmworks Stage! (Chayamachi Oshi Festival 2024)
+  ko: 최애 작품을 찾자! 반다이 남코 필름웍스 스테이지! (차야마치 최애 페스티벌 2024)
+cast:
+  - {character: nijigasaki/yu-takasaki}
+  - {character: nijigasaki/mia-taylor}
+stops:
+  - id: 1-osaka
+    city: osaka
+    venue: umeda-arts-theater-main-hall
+    performances:
+      - {date: 2024-06-08}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_3441
+    checked: 2026-11-05
+    note: '출연란: 矢野妃菜喜(高咲侑); 内田秀(ミア・テイラー)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_3441
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2024-06-08] 矢野妃菜喜(高咲侑); 内田秀(ミア・テイラー). Multi-title Bandai Namco Filmworks stage at an MBS-run festival; the LL block shared the stage with スクールアイドルミュージカル cast (堀内まり菜, 浅井七海; not one of the project ids) and Gundam's 阪口大助. Talk/info stage; no singing reported. Organizer timetable page not fetched. / 근거: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_3441 (LL news (Wayback 20250615154922), 2024/05/15, updated 5/31: 「推し作品を見つけよう！バンダイナムコフィルムワークスステージ！」6月8日(土) 16:45～17:45, 梅田芸術劇場メインホール; 出演 阪口大助（機動戦士)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_3441
+    checked: 2026-11-05
+    note: 조사 표기 「梅田芸術劇場メインホール」를 기존 회장에 맞춤

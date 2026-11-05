@@ -1,0 +1,25 @@
+id: muse/love-live-s-kouhoubu-nicorinpana-special-edition
+kind: drama
+project: muse
+title:
+  ja: 「ラブライブ！μ'ｓ広報部 〜にこりんぱな〜」出張版
+  rom: "\"Love Live! μ's Kouhoubu ~NicoRinPana~\" Special Edition"
+  ko: 「러브 라이브! μ's 홍보부 ~니코린파나~」 출장판
+recordings:
+  - id: main
+    kind: drama
+    performers:
+      - {character: muse/nico-yazawa}
+      - {character: muse/rin-hoshizora}
+      - {character: muse/hanayo-koizumi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+        checked: 2026-11-04
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지의 내용 설명(트랙명 미게재), ko: 번역안'

@@ -1,0 +1,53 @@
+id: liella/con-con-hong-kong-2026
+projects: [liella]
+status: performed
+title:
+  ja: CON-CON HONG KONG 2026
+  rom: CON-CON HONG KONG 2026
+  ko: CON-CON HONG KONG 2026
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/shiki-wakana}
+  - {character: liella/margarete-wien}
+stops:
+  - id: 1-hong-kong
+    city: hong-kong
+    venue: asiaworld-expo
+    performances:
+      - date: 2026-04-04
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/tiny-stars
+            performers:
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://www.asiaworld-expo.com/whats-on/upcoming-events/events/CONCON-2026
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ)'
+  setlist.2026-04-04:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#CON-CON_HONG_KONG_2026
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.asiaworld-expo.com/whats-on/upcoming-events/events/CONCON-2026
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2026-04-04] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 大熊和奏(若菜四季); 結那(ウィーン・マルガレーテ). Organizer Medialink Group. Liella! not found in the pre-event lineup articles checked; appearance only from Fandom so far. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://www.asiaworld-expo.com/whats-on/upcoming-events/events/CONCON-2026
+    checked: 2026-11-04
+    note: 공식 미게재

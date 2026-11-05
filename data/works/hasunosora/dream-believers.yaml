@@ -222,6 +222,18 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {artist: waka, joint: true}
+      - {artist: ruka, joint: true}
+    arranger:
+      - {person: kakeru-ishihama, affiliation: MONACA}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지 「歌：わか・るか」(두 가창자의 공동 명의, D48). 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json). 소속: MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：石濱 翔 (MONACA)'). 원곡의 弦編曲은 이 커버에 없음"
 evidence:
   credits:
     status: official

@@ -1,0 +1,39 @@
+id: muse/animelo-2012
+projects: [muse]
+status: performed
+title:
+  ja: Animelo Summer Live 2012 -INFINITY∞-
+  rom: Animelo Summer Live 2012 -INFINITY∞-
+  ko: Animelo Summer Live 2012 -INFINITY∞-
+cast:
+  - {artist: muse}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2012-08-26
+        setlist:
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=280
+    checked: 2026-11-04
+    note: "출연란: μ's from ラブライブ！ (μ’sのメンバー９人)"
+  setlist.2012-08-26:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=275
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=280
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2012-08-26 DAY2] μ's from ラブライブ！ (μ’sのメンバー９人). One song only (official report). Organizer's 2012 setlist page no longer served (redirects to current year). / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=280 (2012/07/24 【速報】アニメロサマーライブ2012にμ’s出演決定!! — 出演日は8月26日（日）); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=275 (2012/08/27 report: さいたまスーパーアリーナ, 2日目にμ’sのメンバー９人が出演; 披露したのは「夏色えがおで1,2,Jump！」); https://anisama.tv/2013/special/index.html (organizer: 2012年8月25日・26日 さいたまスーパーアリーナ; DAY2 0826 artists incl. \"μ's from ラブライブ！\")"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=280
+    checked: 2026-11-04

@@ -22,6 +22,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd34
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: First Love Again (Off Vocal)
+      rom: First Love Again (Off Vocal)
+      ko: First Love Again (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takayuki-yoshimura}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/73614/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

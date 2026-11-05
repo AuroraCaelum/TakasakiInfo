@@ -1,0 +1,33 @@
+id: liella/sif-kanshasai-2022
+projects: [liella]
+status: performed
+title:
+  ja: スクフェスシリーズ感謝祭2022 みんなで結ぼう！Liella!スペシャルステージ
+  rom: SIF Series Kanshasai 2022 Minna de Musubou! Liella! Special Stage
+  ko: 스쿠페스 시리즈 감사제 2022 다 함께 잇자! Liella! 스페셜 스테이지
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/mei-yoneme}
+  - {character: liella/natsumi-onitsuka}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: bellesalle-akihabara-1f-event-hall
+    performances:
+      - {date: 2022-09-25}
+evidence:
+  cast:
+    status: established
+    source: https://anime.eiga.com/event/154217/
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 伊達さゆり(澁谷かのん); 薮島朱音(米女メイ); 絵森彩(鬼塚夏美)'
+  title:
+    status: derived
+    source: https://anime.eiga.com/event/154217/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2022-09-25 15:00] 伊達さゆり(澁谷かのん); 薮島朱音(米女メイ); 絵森彩(鬼塚夏美). Game thanksgiving event stage (スクフェス). Same DB precedent as aqours/sif-kanshasai-2016-cyaron-talk. No official LL news archived; organiser page not found. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://anime.eiga.com/event/154217/
+    checked: 2026-11-05
+    note: '공식 미게재: 조사 표기 「ベルサール秋葉原」를 기존 회장에 맞춤'

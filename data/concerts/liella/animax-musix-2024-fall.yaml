@@ -1,0 +1,43 @@
+id: liella/animax-musix-2024-fall
+projects: [liella]
+status: performed
+title:
+  ja: Lemino presents ANIMAX MUSIX 2024 FALL
+  rom: Lemino presents ANIMAX MUSIX 2024 FALL
+  ko: Lemino presents ANIMAX MUSIX 2024 FALL
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: yokohama-arena
+    performances:
+      - date: 2024-11-23
+        setlist:
+          - work: liella/let-s-be-one
+            performers:
+              - {artist: liella}
+          - work: liella/daisuki-full-power
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://zaikei.co.jp/releases/2550354/
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Liella!'
+  setlist.2024-11-23:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Lemino_presents_ANIMAX_MUSIX_2024_FALL
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://zaikei.co.jp/releases/2550354/
+    checked: 2026-11-05
+    note: '공식 미게재: ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2024-11-23] Liella!. Co-hosted by NTT Docomo and Animax Broadcast Japan. / 근거: https://zaikei.co.jp/releases/2550354/ (NTT Docomo (co-organizer, Lemino) press release: 『Lemino presents ANIMAX MUSIX 2024 FALL』2024年11月23日(土・祝) 横浜アリーナ; lineup includes Liella!)'
+  schedule:
+    status: established
+    source: https://zaikei.co.jp/releases/2550354/
+    checked: 2026-11-04
+    note: 공식 미게재

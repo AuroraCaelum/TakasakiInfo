@@ -1,0 +1,65 @@
+id: ikizulive/kimchikura-fes-2026
+projects: [ikizulive]
+status: performed
+title:
+  ja: KIMCHIKURA Fes '26
+  rom: KIMCHIKURA Fes '26
+  ko: KIMCHIKURA Fes '26
+cast:
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/noriko-chofu}
+  - {character: ikizulive/aurora-konohana}
+  - {character: ikizulive/midori-yamada}
+  - {character: ikizulive/shion-sasaki}
+stops:
+  - id: 1-seoul
+    city: seoul
+    venue: kyung-hee-university-grand-peace-palace
+    performances:
+      - date: 2026-08-08
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/koi-no-one-time-password
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/little-green-iinkai
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/ikitakunai-every-day
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+evidence:
+  cast:
+    status: established
+    source: https://www.sonymusic.co.jp/artist/dj_kazu/info/583885
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: 綾咲穂音(高橋ポルカ); 瀬古梨愛(調布のりこ); 天沢朱音(此花輝夜); 小戸森穂花(山田真緑); 涼ノ瀬葵音(佐々木翔音). LL-Fans https://ll-fans.jp/data/event/309(주최 X 게시물 근거)도 같음'
+  setlist.2026-08-08:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities#KIMCHIKURA_Fes_'26
+    checked: 2026-11-05
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). LL-Fans https://ll-fans.jp/data/event/309(주최 X 게시물 근거)도 같음'
+  title:
+    status: derived
+    source: https://www.sonymusic.co.jp/artist/dj_kazu/info/583885
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2026-08-08] 綾咲穂音(高橋ポルカ); 瀬古梨愛(調布のりこ); 天沢朱音(此花輝夜); 小戸森穂花(山田真緑); 涼ノ瀬葵音(佐々木翔音). Not confirmed on the lovehigh official site (news not reachable: lovelive-anime.jp 403, Wayback had no capture of a matching news item) nor on an organizer site (none found). Event and Ikizurai-Bu! billing are confirmed only by a co-billed artist's label page, so graded external. Venue printed in English only ('Grand Peace Palace (at Kyung Hee University)'); venue_ja 慶熙大学校 平和の殿堂 is a rendering of that name, not printed by an official source. Cast list is Fandom-only. The five solo songs are each the solo single of one of the five attending members (Fandom gives no singers), so singers left null. / 근거: 공식 미게재 (외부 출처만). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/309로 교차 확인"
+  schedule:
+    status: established
+    source: https://www.sonymusic.co.jp/artist/dj_kazu/info/583885
+    checked: 2026-11-05
+    note: 공식 미게재. LL-Fans https://ll-fans.jp/data/event/309(주최 X 게시물 근거)도 같음

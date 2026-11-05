@@ -82,6 +82,17 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
         checked: 2026-10-20
+  - id: 15th-tribute
+    performers:
+      - {artist: ado}
+    arranger:
+      - {person: naoki-itai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
 evidence:
   title:
     status: derived

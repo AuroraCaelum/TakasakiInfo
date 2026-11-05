@@ -1,0 +1,47 @@
+id: liella/songbirds
+project: liella
+title:
+  ja: Songbirds
+  rom: Songbirds
+  ko: Songbirds
+credits:
+  lyricist:
+    - {person: junko-miyajima}
+  composer:
+    - {person: yuu-for-you}
+    - {person: ryosuke-matsuzaki}
+recordings:
+  - id: original
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: ren-mizunoya}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Songbirds (Off Vocal)
+      rom: Songbirds (Off Vocal)
+      ko: Songbirds (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ren-mizunoya}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+        checked: 2026-11-04
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-05
+  credits:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
+    checked: 2026-11-04

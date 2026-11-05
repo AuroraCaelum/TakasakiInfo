@@ -1,0 +1,33 @@
+id: aqours/ann-gold-radio-park-2023
+projects: [aqours, liella]
+status: performed
+title:
+  ja: 『ラブライブ！シリーズのオールナイトニッポンGOLD』公開収録ステージ 「Smile&Green やっと会えたねニッポン放送 ラジオパーク in 日比谷2023」
+  rom: '"Love Live! Series no All Night Nippon GOLD" Public Recording Stage "Smile&Green Yatto Aeta ne Nippon Housou Radio Park in Hibiya 2023"'
+  ko: 『러브 라이브! 시리즈의 올나이트 닛폰 GOLD』 공개 수록 스테이지 「Smile&Green 겨우 만났네 닛폰 방송 라디오 파크 in 히비야 2023」
+cast:
+  - {character: aqours/ruby-kurosawa}
+  - {character: liella/kanon-shibuya}
+  - {character: liella/natsumi-onitsuka}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: hibiya-park
+    performances:
+      - {date: 2023-04-23}
+evidence:
+  cast:
+    status: established
+    source: https://anime.eiga.com/event/159456/
+    checked: 2026-11-04
+    note: '공식 미게재: 외부 출처의 출연자'
+  title:
+    status: derived
+    source: https://anime.eiga.com/event/159456/
+    checked: 2026-11-05
+    note: "ja: 외부 출처 표기(공식 미게재). rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). A stage segment inside ニッポン放送's outdoor event ラジオパーク in 日比谷2023, not a standalone Love Live! event; no official Love Live! page found. Roles not printed in the listing (降幡愛 = 黒澤ルビィ, 伊達さゆり = 澁谷かのん, 絵森彩 = 鬼塚夏美 by general knowledge, not from the source). / 근거: https://anime.eiga.com/event/159456/ (アニメハック listing (title as printed there))"
+  schedule:
+    status: established
+    source: https://anime.eiga.com/event/159456/
+    checked: 2026-11-04
+    note: 공식 미게재

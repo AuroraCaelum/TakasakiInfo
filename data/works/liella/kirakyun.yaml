@@ -39,6 +39,20 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd31.php
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {character: external/konata-izumi}
+      - {character: external/tsukasa-hiiragi}
+      - {character: external/kagami-hiiragi}
+      - {character: external/miyuki-takara}
+    arranger:
+      - {person: keiichi-hirokawa, affiliation: MONACA}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: '가창: 공식 페이지. 순서는 CD 크레딧(국립국회도서관 납본 기록 https://ndlsearch.ndl.go.jp/books/R100000002-I034301729, 레이블 카탈로그 https://catalog.bandainamcomusiclive.co.jp/release/84662/, Lantis 특설 페이지, 15주년 특설 사이트, 배포 메타데이터)의 こなた·つかさ·かがみ·みゆき. 러브라이브 공식 CD 페이지(하스노소라·니지가사키·Aqours)는 かがみ를 つかさ 앞에 적음. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora). 소속: MONACA 작품 페이지 https://monaca.jp/works/14432'
 evidence:
   credits:
     status: official

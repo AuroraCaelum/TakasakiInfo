@@ -175,6 +175,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Oh,Love＆Peace! (TVサイズ)
+      rom: Oh,Love&Peace! (TV Size)
+      ko: Oh,Love&Peace! (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: katsuhiko-kurosu}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

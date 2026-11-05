@@ -137,6 +137,23 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: 幻日ミステリウム (TVサイズ)
+      rom: Genjitsu Mysterium (TV Size)
+      ko: 환일 미스테리움 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-sakai, affiliation: Arte Refact}
+      - {person: kyohei-yamamoto, affiliation: Arte Refact}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.yohane.net/music/detail/?id=5
+        checked: 2026-10-26
+        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   title:
     status: derived

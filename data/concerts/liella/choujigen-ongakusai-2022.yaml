@@ -1,0 +1,48 @@
+id: liella/choujigen-ongakusai-2022
+projects: [liella]
+status: performed
+title:
+  ja: オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス2022-
+  rom: Odaiba!! Choujigen Ongakusai -Yokohama kara Happy Valentine Fes 2022-
+  ko: 오다이바!! 초차원 음악제 -요코하마에서 해피 밸런타인 페스 2022-
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2022-02-13
+        setlist:
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/shooting-voice
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: http://www.choujigen-ongakusai.jp/2022/outline.html
+    checked: 2026-11-04
+    note: '출연란: Liella!'
+  setlist.2022-02-13:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Happy_Valentine's_Day_Festival_2022_From_Yokohama~
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: http://www.choujigen-ongakusai.jp/2022/outline.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2022-02-13 DAY2] Liella!. Organizer page title prints 'オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス-' in the header and the year 2022 in the committee name. Fuji TV festival, later broadcast. Also streamed (online ticket). / 근거: https://web.archive.org/web/20230519084744/http://www.choujigen-ongakusai.jp/2022/outline.html (Organizer outline: 2022年2月12日(土)・13日(日) ぴあアリーナMM; 主催 制作委員会（フジテレビジョン、ぴあ、BSフジ）); https://web.archive.org/web/20230522092240/http://www.choujigen-ongakusai.jp/2022/lineup.html (Organizer lineup: Liella! in the second-day block (内田雄馬, ウマ娘, GRANRODEO, 花澤香菜, 刀剣男士, Liella!); no cast names listed); https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_37 (Liella! official news 2022-02-13 (via Wayback 20220326081256): 'Liella!も出演した「オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス2022-」' TV broadcast (Fuji TV )"
+  schedule:
+    status: official
+    source: http://www.choujigen-ongakusai.jp/2022/outline.html
+    checked: 2026-11-04

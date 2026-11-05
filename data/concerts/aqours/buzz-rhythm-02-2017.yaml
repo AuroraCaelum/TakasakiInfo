@@ -1,0 +1,38 @@
+id: aqours/buzz-rhythm-02-2017
+projects: [aqours]
+status: performed
+title:
+  ja: バズリズム02
+  rom: Buzz Rhythm 02
+  ko: 버즈리듬 02
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2017-12-23
+        setlist:
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: http://www.ntv.co.jp/buzzrhythm/
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  title:
+    status: derived
+    source: http://www.ntv.co.jp/buzzrhythm/
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2017-12-22] Aqours. Pre-recorded studio show; taping date unknown. Air date per NTV listing is 12/22 (Friday late-night slot); jawiki gives 12/23, likely because the slot runs past midnight. Song from external sources only (official page lists the group, not the song); Fandom says TV size. / 근거: http://www.ntv.co.jp/buzzrhythm/ (NTV programme page (Wayback 20171219200813): 「#12 ラインナップ【12月22日放送】」歌ゲスト: Aqours). 교차 확인(D57): 2017 회차 날짜를 실제 날짜로 정함, 2022·2025는 LL-Fans와 같음'
+  schedule:
+    status: official
+    source: http://www.ntv.co.jp/buzzrhythm/
+    checked: 2026-11-05
+    note: 편성표 2017-12-22(금) 24:59~ = 12/23 0:59. 같은 프로그램의 2022·2025 회차(LL-Fans 기준 실제 날짜)와 같이 실제 날짜로 적는다
+  setlist.2017-12-23:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'

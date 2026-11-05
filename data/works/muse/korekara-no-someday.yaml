@@ -146,6 +146,27 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: これからのSomeday (TVサイズ)
+      rom: Korekara no Someday (TV Size)
+      ko: 앞으로 다가올 Someday (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: lotta}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

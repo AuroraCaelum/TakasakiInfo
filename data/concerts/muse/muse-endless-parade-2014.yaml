@@ -1,0 +1,199 @@
+id: muse/muse-endless-parade-2014
+projects: [muse]
+status: confirmed
+title:
+  ja: ラブライブ！μ's →NEXT LoveLive! 2014 ～ENDLESS PARADE～
+  rom: Love Live! μ's →NEXT LoveLive! 2014 ~ENDLESS PARADE~
+  ko: 러브 라이브! μ's →NEXT LoveLive! 2014 ~ENDLESS PARADE~
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2014-02-08
+        setlist:
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/susume-tomorrow
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/umi-sonoda}
+              - {character: muse/kotori-minami}
+          - work: muse/yume-naki-yume-wa-yume-ja-nai
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/anemone-heart
+            performers:
+              - {character: muse/umi-sonoda}
+              - {character: muse/kotori-minami}
+          - work: muse/nawatobi
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/beat-in-angel
+            performers:
+              - {character: muse/maki-nishikino}
+              - {character: muse/rin-hoshizora}
+          - work: muse/nico-puri-joshi-dou
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/garasu-no-hanazono
+            performers:
+              - {character: muse/eli-ayase}
+              - {character: muse/nozomi-tojo}
+          - work: muse/loneliest-baby
+            performers:
+              - {artist: muse}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {artist: muse}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - work: muse/loveless-world
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {artist: muse}
+      - date: 2014-02-09
+        setlist:
+          - {type: video, label: オープニング}
+          - work: muse/music-s-t-a-r-t
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/binetsu-kara-mystery
+            performers:
+              - {artist: lily-white}
+          - {type: mc, label: MC＜lily white＞}
+          - work: muse/kimi-no-kuse-ni
+            performers:
+              - {artist: lily-white}
+          - work: muse/cutie-panther
+            performers:
+              - {artist: bibi}
+          - {type: mc, label: MC＜BiBi＞}
+          - work: muse/natsu-owaranai-de
+            performers:
+              - {artist: bibi}
+          - work: muse/unbalanced-love
+            performers:
+              - {artist: printemps}
+          - {type: mc, label: MC＜Printemps＞}
+          - work: muse/pure-girls-project
+            performers:
+              - {artist: printemps}
+          - work: muse/kaguya-no-shiro-de-odoritai
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - work: muse/loveless-world
+            performers:
+              - {artist: muse}
+          - work: muse/mermaid-festa-vol-1
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - {type: mc}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/kitto-seishun-ga-kikoeru
+            performers:
+              - {artist: muse}
+          - {type: other, label: Finale}
+external_ids:
+  fandom: Muse's NEXT LoveLive! 2014 ENDLESS PARADE
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/
+    checked: 2026-10-27
+    note: BD 페이지 映像特典(Day.1)의 출연란
+  setlist.2014-02-08:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/
+    checked: 2026-10-27
+    note: 공식 BD 페이지(TV애니 2기 BD 2·4·6권 映像特典 Part1~3)의 수록곡 22곡과 ＜アンコール＞. 오프닝·MC·幕間ドラマ는 미수록. 가창자는 공식 미게재라 Fandom(Track Listing)
+  setlist.2014-02-09:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd45
+    checked: 2026-10-27
+    note: 공식 BD 페이지(0209 Blu-ray Disc & DVD, LABX-8058〜9)의 수록 내용(오프닝·곡·MC·가창자)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd45
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=170
+    checked: 2026-10-27
+    note: 공식 뉴스 아카이브(이벤트, offset 페이지) 2013/12/13 「一般発売情報」

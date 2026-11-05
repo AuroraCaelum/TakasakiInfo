@@ -1,0 +1,38 @@
+id: aqours/cdtv-toshikoshi-2018
+projects: [aqours]
+status: performed
+title:
+  ja: CDTVスペシャル！年越しプレミアライブ2018→2019
+  rom: CDTV Special! Toshikoshi Premier Live 2018→2019
+  ko: CDTV 스페셜! 연말 프리미어 라이브 2018→2019
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2018-12-31
+        setlist:
+          - work: aqours/my-mai-tonight
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: Aqours'
+  setlist.2018-12-31:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2018-12-31] Aqours. Live 23:55～29:00; whether Aqours sang before or after midnight is unknown (the start day is used). / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 공식 미게재

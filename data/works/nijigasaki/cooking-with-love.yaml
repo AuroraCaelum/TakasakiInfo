@@ -21,6 +21,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Cooking with Love (Off Vocal)
+      rom: Cooking with Love (Off Vocal)
+      ko: Cooking with Love (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: em-me}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

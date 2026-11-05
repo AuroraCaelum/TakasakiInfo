@@ -56,6 +56,50 @@ recordings:
         source: https://www.uta-net.com/song/347232/
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창만 게재, 가창은 일치). 우타넷 표기
+  - id: live-ijigen-fes-2023-2023-12-09
+    title:
+      ja: 異次元★♥BIGBANG (異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1)
+      rom: Ijigen★♥BIGBANG (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen Day.1)
+      ko: 이차원★♥BIGBANG (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전 Day.1)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1
+    performers:
+      - {artist: cinderella-girls, joint: true}
+      - {artist: millionstars, joint: true}
+      - {artist: shiny-colors, joint: true}
+      - {artist: aqours, joint: true}
+      - {artist: nijigasaki-high-school-idol-club, joint: true}
+      - {artist: liella, joint: true}
+      - {artist: hasunosora-girls-high-school-idol-club, joint: true}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-09
+    evidence:
+      credits:
+        status: official
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
+  - id: live-ijigen-fes-2023-2023-12-10
+    title:
+      ja: 異次元★♥BIGBANG (異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.2)
+      rom: Ijigen★♥BIGBANG (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen Day.2)
+      ko: 이차원★♥BIGBANG (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전 Day.2)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.2
+    performers:
+      - {artist: cinderella-girls, joint: true}
+      - {artist: millionstars, joint: true}
+      - {artist: shiny-colors, joint: true}
+      - {artist: aqours, joint: true}
+      - {artist: nijigasaki-high-school-idol-club, joint: true}
+      - {artist: liella, joint: true}
+      - {artist: hasunosora-girls-high-school-idol-club, joint: true}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-10
+    evidence:
+      credits:
+        status: official
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
 evidence:
   credits:
     status: established

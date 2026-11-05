@@ -40,6 +40,122 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd44
         checked: 2026-10-20
+  - id: tv-size
+    title:
+      ja: Love wing bell (TVサイズ)
+      rom: Love wing bell (TV Size)
+      ko: Love wing bell (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: muse/rin-hoshizora}
+      - {character: muse/maki-nishikino}
+      - {character: muse/hanayo-koizumi}
+      - {character: muse/eli-ayase}
+      - {character: muse/nozomi-tojo}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: Love wing bell (NICO Mix)
+      rom: Love wing bell (NICO Mix)
+      ko: Love wing bell (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: Love wing bell (HANAYO Mix)
+      rom: Love wing bell (HANAYO Mix)
+      ko: Love wing bell (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: Love wing bell (NOZOMI Mix)
+      rom: Love wing bell (NOZOMI Mix)
+      ko: Love wing bell (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: Love wing bell (MAKI Mix)
+      rom: Love wing bell (MAKI Mix)
+      ko: Love wing bell (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: Love wing bell (RIN Mix)
+      rom: Love wing bell (RIN Mix)
+      ko: Love wing bell (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: Love wing bell (ELI Mix)
+      rom: Love wing bell (ELI Mix)
+      ko: Love wing bell (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: shintarou-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd44)과 같다고 봄
 evidence:
   title:
     status: derived

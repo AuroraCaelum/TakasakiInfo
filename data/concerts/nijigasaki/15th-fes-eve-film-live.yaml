@@ -12,6 +12,25 @@ stops:
     performances:
       - date: 2026-10-10
         label: Day.1 Day
+        cast:
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/emma-verde}
+          - {character: hasunosora/ginko-momose}
+          - {character: hasunosora/kosuzu-kachimachi}
+          - {character: hasunosora/hime-anyoji}
+          - {character: hasunosora/ceras-yanagida-lilienfeld}
+          - {character: hasunosora/izumi-katsuragi}
+          - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+          - {person: karin-miyamoto, role: musical/anzu-takizawa}
+          - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+          - {person: hana-minamino, role: musical/misuzu-wakatsuki}
+          - {person: an-juria, role: musical/yukino-hojo}
+          - {person: yui-oikawa, role: musical/toa-kurusu}
+          - {person: riko-shimizu, role: musical/hikaru-amakusa}
+          - {person: neo-inoue, role: musical/rena-suzuka}
+          - {person: akari-yura, role: musical/maya-mikasa}
+          - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
           - {work: musical/mikansei-dream}
@@ -47,6 +66,25 @@ stops:
           fandom: '|Day 1 (Day)'
       - date: 2026-10-10
         label: Day.1 Night
+        cast:
+          - {character: nijigasaki/karin-asaka}
+          - {character: nijigasaki/setsuna-yuki}
+          - {character: nijigasaki/emma-verde}
+          - {character: hasunosora/ginko-momose}
+          - {character: hasunosora/kosuzu-kachimachi}
+          - {character: hasunosora/hime-anyoji}
+          - {character: hasunosora/ceras-yanagida-lilienfeld}
+          - {character: hasunosora/izumi-katsuragi}
+          - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+          - {person: karin-miyamoto, role: musical/anzu-takizawa}
+          - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+          - {person: hana-minamino, role: musical/misuzu-wakatsuki}
+          - {person: an-juria, role: musical/yukino-hojo}
+          - {person: yui-oikawa, role: musical/toa-kurusu}
+          - {person: riko-shimizu, role: musical/hikaru-amakusa}
+          - {person: neo-inoue, role: musical/rena-suzuka}
+          - {person: akari-yura, role: musical/maya-mikasa}
+          - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
           - {work: musical/mikansei-dream}
@@ -82,6 +120,25 @@ stops:
           fandom: '|Day 1 (Night)'
       - date: 2026-10-11
         label: Day.2 Day
+        cast:
+          - {character: liella/kanon-shibuya}
+          - {character: liella/ren-hazuki}
+          - {character: liella/kinako-sakurakoji}
+          - {character: liella/margarete-wien}
+          - {character: ikizulive/polka-takahashi}
+          - {character: ikizulive/miracle-kanazawa}
+          - {character: ikizulive/yukuri-harumiya}
+          - {character: ikizulive/shion-sasaki}
+          - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+          - {person: karin-miyamoto, role: musical/anzu-takizawa}
+          - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+          - {person: hana-minamino, role: musical/misuzu-wakatsuki}
+          - {person: an-juria, role: musical/yukino-hojo}
+          - {person: yui-oikawa, role: musical/toa-kurusu}
+          - {person: riko-shimizu, role: musical/hikaru-amakusa}
+          - {person: neo-inoue, role: musical/rena-suzuka}
+          - {person: akari-yura, role: musical/maya-mikasa}
+          - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
           - {work: musical/mikansei-dream}
@@ -117,6 +174,25 @@ stops:
           fandom: '|Day 2 (Day)'
       - date: 2026-10-11
         label: Day.2 Night
+        cast:
+          - {character: liella/kanon-shibuya}
+          - {character: liella/ren-hazuki}
+          - {character: liella/kinako-sakurakoji}
+          - {character: liella/margarete-wien}
+          - {character: ikizulive/polka-takahashi}
+          - {character: ikizulive/miracle-kanazawa}
+          - {character: ikizulive/yukuri-harumiya}
+          - {character: ikizulive/shion-sasaki}
+          - {person: marina-horiuchi, role: musical/rurika-tsubaki}
+          - {person: karin-miyamoto, role: musical/anzu-takizawa}
+          - {person: nanami-asai, role: musical/yuzuha-sumeragi}
+          - {person: hana-minamino, role: musical/misuzu-wakatsuki}
+          - {person: an-juria, role: musical/yukino-hojo}
+          - {person: yui-oikawa, role: musical/toa-kurusu}
+          - {person: riko-shimizu, role: musical/hikaru-amakusa}
+          - {person: neo-inoue, role: musical/rena-suzuka}
+          - {person: akari-yura, role: musical/maya-mikasa}
+          - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
           - {work: musical/mikansei-dream}
@@ -172,3 +248,8 @@ evidence:
     source: https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fes_Eve_Celebration:_FILM_LIVE_~Mirai_e_Todokeru_Time_Capsule~
     checked: 2026-10-20
     note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15thzenyasai
+    checked: 2026-10-21
+    note: '공식 라이브 페이지 「出演」: 10日(土) 公演 / 11日(日) 公演. 『スクールアイドルミュージカル』 캐스트는 오프닝 액트와 토크 파트 MC(堀内まり菜와 浅井七海(昼)·杏 ジュリア(夜))로 두 날 모두 출연'

@@ -140,7 +140,8 @@ class Client:
 
 # YouTube Music writes straight quotes and dots where the official track lists print curly quotes and
 # an ellipsis or ・・・ (KOKORO Magic “A to Z”, 僕らの走ってきた道は…)
-_QUOTES = str.maketrans({"“": '"', "”": '"', "„": '"', "″": '"', "‘": "'", "’": "'", "′": "'"})
+# straight and curly quotes alike; a box-drawing bar for the long vowel (廃校ｷﾀ──(ﾟ∀ﾟ)── / ーー on the CD page)
+_QUOTES = str.maketrans({"“": '"', "”": '"', "„": '"', "″": '"', "‘": "'", "’": "'", "′": "'", "─": "ー"})
 
 
 def _norm(title: str) -> str:
@@ -163,8 +164,10 @@ def _plain(s: str) -> str:
 def _same_title(album_title: str, row_title: str) -> bool:
     """Equal match keys, or the album omits a bracketed version marker the release prints
     (``One More Sunshine Story`` vs ``One More Sunshine Story (Album Version)``). Some locales append
-    `` - <romanized>``; some albums keep the soundtrack's note (``START:DASH!! [第13話挿入歌]``)."""
-    for a in (album_title, album_title.split(" - ")[0], re.sub(r"\s*\[[^\[\]]*\]\s*$", "", album_title)):
+    `` - <romanized>``; some albums keep the soundtrack's note, also before the version
+    (``START:DASH!! [第13話挿入歌]``, ``ユメノトビラ【第2話挿入歌】``, ``MIRAI TICKET【第13話挿入歌】 (TVサイズ)``)."""
+    noteless = re.sub(r"\s*(?:\[[^\[\]]*\]|【[^【】]*】)", "", album_title).strip()
+    for a in (album_title, album_title.split(" - ")[0], noteless):
         if _key(a) and _key(a) == _key(row_title):
             return True
         pa, pr = _plain(a), _plain(row_title)

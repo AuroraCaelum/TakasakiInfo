@@ -1,0 +1,39 @@
+id: muse/tokyo-game-show-2013-sif
+projects: [muse]
+status: performed
+title:
+  ja: 東京ゲームショウ2013 ブシロードブース ラブライブ！スクールアイドルフェスティバル スペシャルトークステージ
+  rom: Tokyo Game Show 2013 Bushiroad Booth Love Live! School idol festival Special Talk Stage
+  ko: 도쿄 게임쇼 2013 부시로드 부스 러브 라이브! 스쿨 아이돌 페스티벌 스페셜 토크 스테이지
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2013-09-21}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: '출연란: 新田恵海(高坂穂乃果); 南條愛乃(絢瀬絵里); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2013-09-21 12:00開演予定] 新田恵海(高坂穂乃果); 南條愛乃(絢瀬絵里); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ). Public day booth stage. Pre-event notice only. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175 (LL news 2013/09/17 東京ゲームショウ2013ブシロードブース「ラブライブ！」関連情報 — ステージ【ラブライブ！スクールアイドルフェスティバル スペシャルトークステージ】9月21日(土)12：00開演予定; 出演 μ’s (all nine with roles)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

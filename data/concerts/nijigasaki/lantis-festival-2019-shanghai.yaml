@@ -1,0 +1,48 @@
+id: nijigasaki/lantis-festival-2019-shanghai
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ランティス祭り2019 上海公演
+  rom: Lantis Matsuri 2019 Shanghai
+  ko: 란티스 마츠리 2019 상하이 공연
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/rina-tennoji}
+  - {character: nijigasaki/shizuku-osaka}
+stops:
+  - id: 1-shanghai
+    city: shanghai
+    venue: shanghai-new-international-expo-center
+    performances:
+      - date: 2019-10-05
+        setlist:
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/anata-no-risou-no-heroine
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+evidence:
+  cast:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: 虹ヶ咲学園スクールアイドル同好会 (天王寺璃奈, 桜坂しずく, 上原歩夢 solos per Fandom)'
+  setlist.2019-10-05:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2019-10-05] 虹ヶ咲学園スクールアイドル同好会 (天王寺璃奈, 桜坂しずく, 上原歩夢 solos per Fandom). Nijigasaki only (no μ's/Aqours) — out of this agent's group scope; recorded because it was in the assigned rows. Not verified; year inferred from the 2019 section of Fandom. Cast names not given. / 근거: 공식 미게재 (외부 출처만)"
+  schedule:
+    status: established
+    source: https://love-live.fandom.com/wiki/Lantis_Matsuri
+    checked: 2026-11-04
+    note: 공식 미게재

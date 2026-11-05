@@ -39,6 +39,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd24.php
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: 未来の音が聴こえる 〜TV Size〜
+      rom: Mirai no Oto ga Kikoeru ~TV Size~
+      ko: 미래의 소리가 들려와 ~TV Size~
+    version: TV Size
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd26.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

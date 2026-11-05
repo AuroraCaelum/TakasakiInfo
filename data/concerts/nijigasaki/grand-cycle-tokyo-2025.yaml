@@ -1,0 +1,31 @@
+id: nijigasaki/grand-cycle-tokyo-2025
+projects: [nijigasaki]
+status: performed
+title:
+  ja: GRAND CYCLE TOKYO レインボーライド 2025 マルチスポーツ「虹ヶ咲学園スクールアイドル同好会スペシャルトークショー」
+  rom: GRAND CYCLE TOKYO Rainbow Ride 2025 Multi-Sport "Nijigasaki High School Idol Club Special Talk Show"
+  ko: GRAND CYCLE TOKYO 레인보 라이드 2025 멀티 스포츠 「니지가사키 학원 스쿨 아이돌 동호회 스페셜 토크쇼」
+cast:
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/rina-tennoji}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: odaiba-aomi-special-venue
+    performances:
+      - {date: 2025-12-07}
+evidence:
+  cast:
+    status: official
+    source: https://grand-cycle-tokyo.jp/rainbow/event-guide/
+    checked: 2026-11-05
+    note: '출연란: 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈)'
+  title:
+    status: derived
+    source: https://grand-cycle-tokyo.jp/rainbow/event-guide/
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2025-12-07] 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈). Not in the ja.wikipedia table; found while checking GCT 2023. No songs. / 근거: https://grand-cycle-tokyo.jp/rainbow/event-guide/ (Organizer event guide (now 404; seen as a search excerpt): ニジガクの聖地お台場でメンバーのここでしか聞けないスペシャルトークショーを13:00から開催！ 相良茉優・田中ちえ美, 整理券配布); https://x.com/grandcycletokyo/status/1961714435938259219 (GRAND CYCLE TOKYO X: 12/7お台場で開催, 地元のスクールアイドルとして #虹ヶ咲 とコラボ, マルチスポーツ会場にてトークイベント)'
+  schedule:
+    status: official
+    source: https://grand-cycle-tokyo.jp/rainbow/event-guide/
+    checked: 2026-11-05

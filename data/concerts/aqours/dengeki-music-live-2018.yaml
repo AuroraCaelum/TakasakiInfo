@@ -1,0 +1,51 @@
+id: aqours/dengeki-music-live-2018
+projects: [aqours]
+status: performed
+title:
+  ja: DENGEKI 25th Anniversary DENGEKI MUSIC LIVE!! 2018
+  rom: DENGEKI 25th Anniversary DENGEKI MUSIC LIVE!! 2018
+  ko: DENGEKI 25th Anniversary DENGEKI MUSIC LIVE!! 2018
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - date: 2018-01-08
+        setlist:
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            version: Short Ver.
+            performers:
+              - {artist: aqours}
+          - work: aqours/koi-ni-naritai-aquarium
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            version: TV Size
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Aqours（全員 per ja.wikipedia）'
+  setlist.2018-01-08:
+    status: established
+    source: https://love-live.fandom.com/wiki/Love_Live!_Sunshine!!_History
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2018-01-08] Aqours（全員 per ja.wikipedia）. NEW. Grade external (organizer page not retrieved). Hall: Fandom says Event Hall, ja.wikipedia just 幕張メッセ. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: 공식 미게재

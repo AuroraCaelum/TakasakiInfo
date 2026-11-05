@@ -37,6 +37,71 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
         checked: 2026-10-20
+  - id: movie-edit
+    title:
+      ja: ？←HEARTBEAT (Movie Edit)
+      rom: ?←HEARTBEAT (Movie Edit)
+      ko: ?←HEARTBEAT (Movie Edit)
+    version: Movie Edit
+    performers:
+      - {character: muse/eli-ayase}
+      - {character: muse/nozomi-tojo}
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: ？←HEARTBEAT (NICO Mix)
+      rom: ?←HEARTBEAT (NICO Mix)
+      ko: ?←HEARTBEAT (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: ？←HEARTBEAT (NOZOMI Mix)
+      rom: ?←HEARTBEAT (NOZOMI Mix)
+      ko: ?←HEARTBEAT (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: ？←HEARTBEAT (ELI Mix)
+      rom: ?←HEARTBEAT (ELI Mix)
+      ko: ?←HEARTBEAT (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: koshiro-honda}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd55)과 같다고 봄
 evidence:
   title:
     status: derived

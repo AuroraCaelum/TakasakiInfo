@@ -1,0 +1,76 @@
+id: muse/anison-premium-lovelive-sp
+projects: [muse, aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: アニソン！プレミアム！『ラブライブ！SP』
+  rom: Anison! Premium! "Love Live! SP"
+  ko: 애니송! 프리미엄! 『러브 라이브! SP』
+cast:
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/nico-yazawa}
+  - {character: aqours/chika-takami}
+  - {character: aqours/mari-ohara}
+  - {character: aqours/ruby-kurosawa}
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/rina-tennoji}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/ai-miyashita}
+  - {character: nijigasaki/emma-verde}
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2021-06-28
+        setlist:
+          - work: aqours/mijuku-dreamer
+            performers:
+              - {artist: aqours}
+          - {type: other, label: Medley}
+          - work: nijigasaki/nijiiro-passions
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/rina-tennoji}
+          - work: liella/hajimari-wa-kimi-no-sora
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8021
+    checked: 2026-11-05
+    note: '출연란: 三森すずこ(園田海未); 飯田里穂(星空凛); 徳井青空(矢澤にこ); 伊波杏樹(高海千歌); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ); 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 久保田未夢(朝香果林); 田中ちえ美(天王寺璃奈); 前田佳織里(桜坂しずく); 村上奈津実(宮下愛); 指出毬亜(エマ・ヴェルデ); 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋)'
+  setlist.2021-06-28:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8021
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8021
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2021-06-28 0:40 (6/27深夜)] 三森すずこ(園田海未); 飯田里穂(星空凛); 徳井青空(矢澤にこ); 伊波杏樹(高海千歌); 鈴木愛奈(小原鞠莉); 降幡愛(黒澤ルビィ); 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 久保田未夢(朝香果林); 田中ちえ美(天王寺璃奈); 前田佳織里(桜坂しずく); 村上奈津実(宮下愛); 指出毬亜(エマ・ヴェルデ); 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋). Pre-recorded NHK special with all four series. Talk cast: μ's 三森・飯田・徳井, Aqours 伊波・鈴木・降幡, 虹ヶ咲 大西・相良・久保田・田中, Liella! all five. Song order in the broadcast is not given; listed in the order the news prints it. Aqours performers for 未熟DREAMER are not named (Aqours as a group). The 虹ヶ咲 entry is a medley. Not a performance with an audience. / 근거: https://www.lovelive-anime.jp/yuigaoka/news/?id=8021 (Liella! official news 2021-06-14 (Wayback 20210916190408): NHK総合 6月28日(月)午前0:40 ※27日深夜; talk cast of all four groups; 歌唱曲 Aqours「未熟DREAMER」,); https://www.lovelive-anime.jp/yuigaoka/news/?id=8748 (Liella! official news 2021-12-17 (Wayback 20220813223007): re-run split as 前編 12/18 and 後編 12/25 on NHK Eテレ 17:35)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8021
+    checked: 2026-11-05

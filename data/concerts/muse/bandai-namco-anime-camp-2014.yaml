@@ -1,0 +1,37 @@
+id: muse/bandai-namco-anime-camp-2014
+projects: [muse]
+status: performed
+title:
+  ja: TOKYO アニメパーク BANDAI NAMCO ANIME CAMP 2014
+  rom: TOKYO Anime Park BANDAI NAMCO ANIME CAMP 2014
+  ko: TOKYO 애니메 파크 BANDAI NAMCO ANIME CAMP 2014
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/eli-ayase}
+  - {character: muse/kotori-minami}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: shiokaze-park-taiyou-no-hiroba-open-air-special-stage
+    performances:
+      - {date: 2014-09-20}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=145
+    checked: 2026-11-04
+    note: '출연란: μ’s: 新田恵海（高坂穂乃果役）; 南條愛乃（絢瀬絵里役）; 内田彩（南ことり役）; 飯田里穂（星空凛役）; Pile（西木野真姫役）; 楠田亜衣奈（東條希役）; 久保ユリカ（小泉花陽役）'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=145
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2014-09-20 Day1] μ’s: 新田恵海（高坂穂乃果役）; 南條愛乃（絢瀬絵里役）; 内田彩（南ことり役）; 飯田里穂（星空凛役）; Pile（西木野真姫役）; 楠田亜衣奈（東條希役）; 久保ユリカ（小泉花陽役）. NEW. Set list not found. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=145 (2014/07/17 イベント「バンダイナムコアニメキャンプ」に『ラブライブ！』参加決定！ — 9/20（土）公演, 潮風公園（太陽の広場・特設野外ステージ）; 出演 μ’s (7 cast listed))'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=145
+    checked: 2026-11-04
+    note: 조사 표기 「潮風公園（太陽の広場・特設野外ステージ）」를 기존 회장에 맞춤

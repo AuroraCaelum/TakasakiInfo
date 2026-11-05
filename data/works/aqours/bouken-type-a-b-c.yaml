@@ -110,6 +110,21 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
         checked: 2026-10-20
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 冒険Type A, B, C‼ (Off Vocal)
+      rom: Bouken Type A, B, C!! (Off Vocal)
+      ko: 모험 Type A, B, C!! (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: tatsuya-kurauchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/68424/
+        checked: 2026-10-27
 evidence:
   title:
     status: derived

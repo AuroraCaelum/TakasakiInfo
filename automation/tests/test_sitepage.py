@@ -300,7 +300,9 @@ def test_skip_reasons_and_types():
     def block(header, title, artist, tracks=("A",)):
         return Block("u", header, title, None, dt.date(2024, 1, 1), artist, [], [imp.TrackObs(i, t) for i, t in enumerate(tracks, 1)])
 
-    assert "soundtrack" in skip_reason(block([], "OST", ["音楽：藤澤慶昌"]))
+    assert skip_reason(block([], "OST", ["音楽：藤澤慶昌"])) is None  # a soundtrack is imported (D53)
+    assert release_type(block([], "OST", ["音楽：藤澤慶昌"])) == "soundtrack"
+    assert release_type(block(["TVアニメ『ラブライブ！』オリジナルサウンドトラック"], "Notes", [])) == "soundtrack"
     assert "tribute" in skip_reason(block([], "Tribute", ["V.A."]))
     assert "tracklist" in skip_reason(block([], "Songbirds", ["Liella!"], ("Songbirds", "???", "???(Off Vocal)")))
     assert skip_reason(block([], "Jellyfish", ["5yncri5e!"])) is None

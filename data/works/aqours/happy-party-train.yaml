@@ -171,6 +171,25 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+  - id: live-aqours-finale-2025-06-22
+    title:
+      ja: HAPPY PARTY TRAIN (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: HAPPY PARTY TRAIN (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: HAPPY PARTY TRAIN (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: effy}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-22
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
 evidence:
   credits:
     status: official

@@ -1,0 +1,59 @@
+id: liella/release-event-tva1-oped
+projects: [liella]
+status: performed
+title:
+  ja: OP主題歌＆ED主題歌連動オンラインリリースイベント
+  rom: OP Theme Song & ED Theme Song Joint Online Release Event
+  ko: OP 주제가 & ED 주제가 연동 온라인 릴리스 이벤트
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2021-08-28
+        setlist:
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+          - {type: mc, label: Talk Part}
+          - work: liella/dakara-bokura-wa-narasunda
+            performers:
+              - {artist: liella}
+          - work: liella/dancing-heart-la-pa-pa-pa
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/kono-machi-de-ima-kimi-to
+            performers:
+              - {artist: liella}
+          - work: liella/mirai-wa-kaze-no-you-ni
+            performers:
+              - {artist: liella}
+          - {type: mc}
+          - work: liella/dreaming-energy
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_oped/
+    checked: 2026-11-04
+    note: 출연란은 Liella!(당시 5명)
+  setlist.2021-08-28:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_oped/
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Online-only mini live for the TV anime season 1 OP/ED singles. Page heading: 「OP主題歌＆ED主題歌連動オンラインリリースイベント特設サイト」. / 근거: https://www.lovelive-anime.jp/yuigaoka/live/sp_oped/ (event page (Wayback 20240223142225): 日程 8月28日（土） 15:00開演, 出演 Liella!, ミニライブ, live stream, アーカイブ 2021年8月29日～31日)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/sp_oped/
+    checked: 2026-11-04

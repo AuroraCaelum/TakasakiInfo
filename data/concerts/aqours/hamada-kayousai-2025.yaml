@@ -1,0 +1,40 @@
+id: aqours/hamada-kayousai-2025
+projects: [aqours, nijigasaki, liella]
+status: performed
+title:
+  ja: オオカミ少年・ハマダ歌謡祭
+  rom: Ookami Shounen Hamada Kayousai
+  ko: 늑대소년 하마다 가요제
+cast:
+  - {character: aqours/ruby-kurosawa}
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: liella/shiki-wakana}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2025-11-28
+        setlist:
+          - work: nijigasaki/ai-scream
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: liella/shiki-wakana}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5563
+    checked: 2026-11-05
+    note: '출연란: 降幡愛(黒澤ルビィ); 大西亜玖璃(上原歩夢); 大熊和奏(若菜四季)'
+  setlist.2025-11-28:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%E3%80%9C%E3%83%A0!
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5563
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2025-11-28] 降幡愛(黒澤ルビィ); 大西亜玖璃(上原歩夢); 大熊和奏(若菜四季). Pre-recorded variety/music game show; taping date unknown. Song was performed as part of a medley-battle game, not a standalone stage; details from jawiki only. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5563 (LL official news 2025/11/21 (Wayback 20251122001151): TBS「ハマダ歌謡祭★オオカミ少年」11月28日(金)19:00〜21:00, AiScReamが出演)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5563
+    checked: 2026-11-05

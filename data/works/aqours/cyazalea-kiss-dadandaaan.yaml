@@ -9,7 +9,34 @@ credits:
     - {person: aki-hata}
   composer:
     - {person: takahiro-kawata}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {artist: cyazalea-kiss}
+    arranger:
+      - {person: takahiro-kawata}
+    evidence:
+      credits:
+        status: established
+        source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
+        checked: 2026-10-27
+        note: '레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: シャゼリア☆キッス☆ダダンダーン (Off Vocal)
+      rom: CYaZALEA☆Kiss☆DADANDAAAN (Off Vocal)
+      ko: CYaZALEA☆Kiss☆DADANDAAAN (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: takahiro-kawata}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: established
+        source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
+        checked: 2026-10-27
+        note: '레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)'
 external_ids:
   fandom: CYaZALEA☆Kiss☆DADANDAAAN
 evidence:

@@ -1,0 +1,59 @@
+id: liella/mezamashi-tv-30th-fes-hiroshima
+projects: [liella]
+status: performed
+title:
+  ja: めざましテレビ30周年フェス in 広島
+  rom: Mezamashi TV 30th Anniversary Fes in Hiroshima
+  ko: 메자마시 TV 30주년 페스 in 히로시마
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-hiroshima
+    city: hiroshima
+    venue: hiroshima-bunka-gakuen-hbg-hall
+    performances:
+      - date: 2023-10-29
+        setlist:
+          - {type: other, label: ヒカリヘ (miwa 합동)}
+          - work: liella/jump-into-the-new-world
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/alternate
+            performers:
+              - {artist: catchu}
+          - work: liella/fukashi-na-blue
+            performers:
+              - {artist: kaleidoscore}
+          - work: liella/a-little-love
+            performers:
+              - {artist: 5yncri5e}
+          - work: liella/kirakyun
+            performers:
+              - {artist: liella}
+          - work: liella/universe
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: established
+    source: https://zaikei.co.jp/releases/2170162/
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Liella!'
+  setlist.2023-10-29:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Mezamashi_TV_30th_Anniversary_Festival
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://zaikei.co.jp/releases/2170162/
+    checked: 2026-11-05
+    note: "공식 미게재: ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2023-10-29] Liella!. Concert with audience on Fuji TV's 30th-anniversary tour (not the studio programme), so live_event. オルタネイト/不可視なブルー/A Little Love are CatChu!/KALEIDOSCORE/5yncri5e! unit songs but Fandom does not name singers. / 근거: https://zaikei.co.jp/releases/2170162/ (Fuji Television press release (@Press): 「めざましテレビ30周年フェス in 広島」2023年10月29日(日) 広島文化学園HBGホール 開場15:15 開演16:00; 出演 miwa、＝LOVE、Liella!)"
+  schedule:
+    status: established
+    source: https://zaikei.co.jp/releases/2170162/
+    checked: 2026-11-04
+    note: 공식 미게재

@@ -1,0 +1,46 @@
+id: muse/kouhaku-66
+projects: [muse]
+status: performed
+title:
+  ja: 第66回NHK紅白歌合戦
+  rom: The 66th NHK Kouhaku Uta Gassen
+  ko: 제66회 NHK 홍백가합전
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nhk-hall
+    performances:
+      - date: 2015-12-31
+        setlist:
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+evidence:
+  cast:
+    status: official
+    source: http://www.nhk.or.jp/kouhaku/artists/pdf/artists_151229.pdf
+    checked: 2026-11-05
+    note: '출연란: 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ)'
+  setlist.2015-12-31:
+    status: official
+    source: http://www.nhk.or.jp/kouhaku/artists/pdf/artists_151229.pdf
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: http://www.nhk.or.jp/kouhaku/artists/pdf/artists_151229.pdf
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2015-12-31] 新田恵海(高坂穂乃果); 内田彩(南ことり); 三森すずこ(園田海未); 飯田里穂(星空凛); Pile(西木野真姫); 楠田亜衣奈(東條希); 久保ユリカ(小泉花陽); 徳井青空(矢澤にこ). Live broadcast from NHKホール. Performed in the 特別企画「アニメ紅白」 block, 11th on the running order (NHK PDF). 南條愛乃 withdrew (official LL notice). / 근거: http://www.nhk.or.jp/kouhaku/artists/pdf/artists_151229.pdf (NHK 第66回紅白歌合戦 出場歌手・曲順 PDF (Wayback 20151231071851): 前半 特別企画「アニメ紅白」 11 μ's （初） それは僕たちの奇跡); https://www.lovelive-anime.jp/otonokizaka/news5.php (LL news (Wayback 20170907065906) 2015/11/27 #9868: 「第66回 NHK紅白歌合戦」にμ’sが紅組アーティストとして出場することが決定); https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=95 (LL news 2015/12/28 #10003 (cached): 「第66回紅白歌合戦」につきまして、南條愛乃を除くμ’sメンバーにて出場)"
+  schedule:
+    status: official
+    source: http://www.nhk.or.jp/kouhaku/artists/pdf/artists_151229.pdf
+    checked: 2026-11-05

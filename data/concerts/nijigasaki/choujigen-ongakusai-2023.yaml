@@ -1,0 +1,80 @@
+id: nijigasaki/choujigen-ongakusai-2023
+projects: [nijigasaki, liella]
+status: performed
+title:
+  ja: オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス2023-
+  rom: Odaiba!! Choujigen Ongakusai -Yokohama kara Happy Valentine Fes 2023-
+  ko: 오다이바!! 초차원 음악제 -요코하마에서 해피 밸런타인 페스 2023-
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - date: 2023-02-11
+        cast:
+          - {artist: r3birth}
+        setlist:
+          - work: nijigasaki/ryoran-victory-road
+            version: R3BIRTH ver.
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/vroom-vroom
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/look-at-me-now
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/bubble-over
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/zensoku-dreamer
+            version: R3BIRTH Ver.
+            performers:
+              - {artist: r3birth}
+          - work: nijigasaki/monster-girls
+            performers:
+              - {artist: r3birth}
+      - date: 2023-02-12
+        cast:
+          - {artist: liella}
+        setlist:
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+          - work: liella/chance-day-chance-way
+            performers:
+              - {artist: liella}
+          - work: liella/pop-talking
+            performers:
+              - {artist: liella}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.choujigen-ongakusai.jp/2023/outline.html
+    checked: 2026-11-04
+    note: '출연란: R3BIRTH / Liella!'
+  setlist.2023-02-11:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#Choujigen_Ongakusai_2023
+    checked: 2026-11-05
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). R3BIRTH는 DAY1(2/11), LL-Fans https://ll-fans.jp/data/event/145도 주최와 같음. 全速ドリーマー R3BIRTH Ver.은 LL-Fans'
+  setlist.2023-02-12:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#Odaiba!!_Chou_Jigen_Ongakusai_~Happy_Valentine's_Day_Festival_2023_From_Yokohama~
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.choujigen-ongakusai.jp/2023/outline.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2023-02-11 DAY1] R3BIRTH. DATE CONFLICT: Fandom says R3BIRTH performed on Day 2 (2/12) but the organizer's lineup lists R3BIRTH under 2.11 sat; official date used. The organizer timetable is image-only (not machine-read). Set list is Fandom-only. Individual R3BIRTH members not named by the organizer; Fandom gives none either. Liella! performed on 2/12 at the same festival (not this row). / [2023-02-12 DAY2] Liella!. Day assignment inferred from the lineup page's two blocks (first block ends with DAY1 opening act GuilDrops); matches Fandom date 2023-02-12. / 근거: https://www.choujigen-ongakusai.jp/2023/outline.html (Organizer outline (Wayback 20250805082730): 2023年2月11日（土）/12日（日） 開場15:00 開演16:00; 公演場所 ぴあアリーナMM 神奈川県横浜市西区みなとみらい3-2-2; online stream ticket D); https://www.choujigen-ongakusai.jp/2023/lineup.html (Organizer lineup (Wayback 20250805085850): R3BIRTH listed under '2.11sat Artists（50音順）' (Liella! is under 2.12sun)); https://web.archive.org/web/20250805082730/https://www.choujigen-ongakusai.jp/2023/outline.html (Organizer outline: 2023年2月11日(土)・12日(日) ぴあアリーナMM); https://web.archive.org/web/20250805085850/https://www.choujigen-ongakusai.jp/2023/lineup.html (Organizer lineup: Liella! in second-day block (藍井エイル[cancelled], 内田真礼, ウマ娘, ClariS, GRANRODEO, 三森すずこ, Morfonica, 山下大輝, Liella!); no cast nam). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/145도 주최와 같음"
+  schedule:
+    status: official
+    source: https://www.choujigen-ongakusai.jp/2023/outline.html
+    checked: 2026-11-04

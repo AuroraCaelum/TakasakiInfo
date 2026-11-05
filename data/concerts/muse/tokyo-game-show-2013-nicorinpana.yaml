@@ -1,0 +1,33 @@
+id: muse/tokyo-game-show-2013-nicorinpana
+projects: [muse]
+status: performed
+title:
+  ja: 東京ゲームショウ2013 ブシロードブース ラブライブ！μ’s広報部～にこりんぱな～ TGS出張版！
+  rom: Tokyo Game Show 2013 Bushiroad Booth Love Live! μ’s Kouhoubu ~NicoRinPana~ TGS Shucchouban!
+  ko: 도쿄 게임쇼 2013 부시로드 부스 러브 라이브! μ’s 홍보부 ~니코린파나~ TGS 출장판!
+cast:
+  - {character: muse/nico-yazawa}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/hanayo-koizumi}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2013-09-21}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: '출연란: 徳井青空(矢澤にこ); 飯田里穂(星空凛); 久保ユリカ(小泉花陽)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2013-09-21 14:00開演予定] 徳井青空(矢澤にこ); 飯田里穂(星空凛); 久保ユリカ(小泉花陽). Public recording of the project's web radio show, held on the Bushiroad booth stage at TGS. Pre-event notice only. / 근거: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175 (LL news 2013/09/17 — ステージ【ラブライブ！μ’s広報部～にこりんぱな～ TGS出張版！】9月21日(土) 14：00開演予定; 出演 徳井青空（矢澤 にこ役）、飯田里穂（星空 凛役）、久保ユリカ（小泉 花陽役）; 会場にて公開録音を実施)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=175
+    checked: 2026-11-05
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

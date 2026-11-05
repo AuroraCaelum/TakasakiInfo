@@ -183,6 +183,17 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd17
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {artist: kaede-higuchi}
+    arranger:
+      - {person: hajime-mitsumasu, affiliation: FirstCall}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, 원곡 작곡자가 편곡). 소속: 부클릿 크레딧 '光増ハジメ(FirstCall)'(MONACA Wiki 전사)"
 evidence:
   credits:
     status: official

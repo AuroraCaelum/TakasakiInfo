@@ -11,7 +11,37 @@ credits:
   composer:
     - {person: ayumu-nakamura}
     - {person: hiroto-kikuchi}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {character: nijigasaki/kasumi-nakasu}
+      - {character: nijigasaki/shizuku-osaka}
+      - {character: nijigasaki/rina-tennoji}
+      - {character: nijigasaki/shioriko-mifune}
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php
+        checked: 2026-10-27
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Waku Waku! Monday Morning (Off Vocal)
+      rom: Waku Waku! Monday Morning (Off Vocal)
+      ko: Waku Waku! Monday Morning (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: ayumu-nakamura}
+      - {person: hiroto-kikuchi}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php
+        checked: 2026-10-27
 external_ids:
   fandom: Waku Waku! Monday Morning
 evidence:

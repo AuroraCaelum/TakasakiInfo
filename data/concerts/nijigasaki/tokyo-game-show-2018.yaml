@@ -1,0 +1,40 @@
+id: nijigasaki/tokyo-game-show-2018
+projects: [nijigasaki]
+status: performed
+title:
+  ja: みんなで目指せ♪全員プレゼント！TGS2018 ラブライブ！スクフェス100人スコアマッチチャレンジ（東京ゲームショウ2018 KLabGamesブース）
+  rom: Minna de Mezase♪ Zenin Present! TGS2018 Love Live! SIF 100-nin Score Match Challenge (Tokyo Game Show 2018 KLabGames Booth)
+  ko: 모두 함께 노려라♪ 전원 선물! TGS2018 러브 라이브! 스쿠페스 100인 스코어 매치 챌린지 (도쿄 게임쇼 2018 KLabGames 부스)
+cast:
+  - {character: nijigasaki/ayumu-uehara}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/shizuku-osaka}
+  - {character: nijigasaki/karin-asaka}
+  - {character: nijigasaki/ai-miyashita}
+  - {character: nijigasaki/kanata-konoe}
+  - {character: nijigasaki/setsuna-yuki}
+  - {character: nijigasaki/emma-verde}
+  - {character: nijigasaki/rina-tennoji}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2018-09-22}
+      - {date: 2018-09-23}
+evidence:
+  cast:
+    status: official
+    source: https://lovelive-as.bushimo.jp/news/tgs2018_kstage_43yh/
+    checked: 2026-11-05
+    note: '출연란: 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈)'
+  title:
+    status: derived
+    source: https://lovelive-as.bushimo.jp/news/tgs2018_kstage_43yh/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2018-09-22 Day1, 2018-09-23 Day2] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 前田佳織里(桜坂しずく); 久保田未夢(朝香果林); 村上奈津実(宮下愛); 鬼頭明里(近江彼方); 楠木ともり(優木せつ菜); 指出毬亜(エマ・ヴェルデ); 田中ちえ美(天王寺璃奈). One event, two booth-stage shows (cast per show: 9/22 大西・相良・前田・久保田; 9/23 村上・鬼頭・楠木・指出・田中). Audience game-play stage (スクフェス score match) with talk; also streamed. No singing reported. Title as in the KLab release ('デイ・ワン' spelling in PR TIMES, 'Day1' on スクスタ site). ja.wikipedia also lists 9/20 for this TGS; that was the separate 'ラブライブ！シリーズ発表会' (see doubtful). / 근거: https://lovelive-as.bushimo.jp/news/tgs2018_kstage_43yh/ (スクスタ official news 2018.09.12 'TOKYO GAME SHOW 2018 ステージ情報のお知らせ': KLabGamesブース (4-C13) 特設ステージ; 「みんなで目指せ♪全員プレゼント！TGS2018 ラブライブ！スクフェス１００人スコアマッ); https://prtimes.jp/main/html/rd/p/000000209.000006348.html (KLab press release (exhibitor/stage operator) 2018-09-12: same Day1 programme and cast; KLab booth schedule for 9/20-21 has no Nijigasaki st)"
+  schedule:
+    status: official
+    source: https://lovelive-as.bushimo.jp/news/tgs2018_kstage_43yh/
+    checked: 2026-11-05
+    note: 조사 표기 「幕張メッセ」를 기존 회장에 맞춤

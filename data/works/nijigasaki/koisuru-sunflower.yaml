@@ -27,6 +27,23 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56
         checked: 2026-10-19
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: 恋するSunflower (Off Vocal)
+      rom: Koisuru Sunflower (Off Vocal)
+      ko: 사랑하는 Sunflower (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: koh-iwano}
+      - {person: yuki-kato}
+      - {person: kohki-yokota}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
+        checked: 2026-10-27
 evidence:
   credits:
     status: official

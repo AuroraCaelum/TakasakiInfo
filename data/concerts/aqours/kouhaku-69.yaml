@@ -1,0 +1,39 @@
+id: aqours/kouhaku-69
+projects: [aqours]
+status: performed
+title:
+  ja: 第69回NHK紅白歌合戦
+  rom: The 69th NHK Kouhaku Uta Gassen
+  ko: 제69회 NHK 홍백가합전
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nhk-hall
+    performances:
+      - date: 2018-12-31
+        setlist:
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://www.nhk.or.jp/kouhaku/artist/index.html
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  setlist.2018-12-31:
+    status: official
+    source: https://www.nhk.or.jp/kouhaku/artist/index.html
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.nhk.or.jp/kouhaku/artist/index.html
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2018-12-31] Aqours. Official Aqours news #4977 (2018/11/14)「NHK 第69回紅白歌合戦にAqoursの出場が決定しました！」 seen in the media-news list (Wayback 20190111134552, news50.php); item page not archived. / 근거: https://www.nhk.or.jp/kouhaku/artist/index.html (NHK 出場歌手・曲順 (Wayback 20181231 capture): 前半 16 Aqours「君のこころは輝いてるかい？」)'
+  schedule:
+    status: official
+    source: https://www.nhk.or.jp/kouhaku/artist/index.html
+    checked: 2026-11-05

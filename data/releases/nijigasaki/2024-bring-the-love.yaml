@@ -17,6 +17,12 @@ discs:
   - tracks:
       - {no: 1, recording: nijigasaki/bring-the-love#original}
       - {no: 2, recording: nijigasaki/bring-the-love#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_WsGsHPEVBLR
+    tracks:
+      1-1: GDfT35wO_h8
+      1-2: bAT0oczKjEU
 links:
   official: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd61
 legacy:
@@ -32,3 +38,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd61
     checked: 2026-10-20
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_WsGsHPEVBLR
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

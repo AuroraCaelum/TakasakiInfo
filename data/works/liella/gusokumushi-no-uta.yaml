@@ -1,0 +1,33 @@
+id: liella/gusokumushi-no-uta
+project: liella
+title:
+  ja: グソクムシのうた
+  rom: Gusokumushi no Uta
+  ko: 구족충의 노래
+recordings:
+  - id: original
+    performers:
+      - {character: liella/sumire-heanna}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
+        checked: 2026-10-27
+  - id: kayou-ver
+    title:
+      ja: グソクムシのうた 〜歌謡Ver.〜
+      rom: Gusokumushi no Uta ~Kayou Ver.~
+      ko: 구족충의 노래 ~가요 Ver.~
+    version: 歌謡Ver.
+    performers:
+      - {character: liella/sumire-heanna}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
+        checked: 2026-10-27
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
+    checked: 2026-11-05

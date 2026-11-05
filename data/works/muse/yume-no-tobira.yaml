@@ -35,6 +35,174 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
         checked: 2026-10-20
+  - id: riko-sakurauchi-solo
+    performers:
+      - {character: aqours/riko-sakurauchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
+        checked: 2026-10-26
+        note: "가창자: Fandom OST 문서(공식 미게재, 'By: Riko Sakurauchi')"
+  - id: tv-size
+    title:
+      ja: ユメノトビラ (TVサイズ)
+      rom: Yume no Tobira (TV Size)
+      ko: 꿈의 문 (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+  - id: nico-mix
+    title:
+      ja: ユメノトビラ (NICO Mix)
+      rom: Yume no Tobira (NICO Mix)
+      ko: 꿈의 문 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: hanayo-mix
+    title:
+      ja: ユメノトビラ (HANAYO Mix)
+      rom: Yume no Tobira (HANAYO Mix)
+      ko: 꿈의 문 (HANAYO Mix)
+    version: HANAYO Mix
+    performers:
+      - {character: muse/hanayo-koizumi}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: nozomi-mix
+    title:
+      ja: ユメノトビラ (NOZOMI Mix)
+      rom: Yume no Tobira (NOZOMI Mix)
+      ko: 꿈의 문 (NOZOMI Mix)
+    version: NOZOMI Mix
+    performers:
+      - {character: muse/nozomi-tojo}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: ユメノトビラ (MAKI Mix)
+      rom: Yume no Tobira (MAKI Mix)
+      ko: 꿈의 문 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: rin-mix
+    title:
+      ja: ユメノトビラ (RIN Mix)
+      rom: Yume no Tobira (RIN Mix)
+      ko: 꿈의 문 (RIN Mix)
+    version: RIN Mix
+    performers:
+      - {character: muse/rin-hoshizora}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: umi-mix
+    title:
+      ja: ユメノトビラ (UMI Mix)
+      rom: Yume no Tobira (UMI Mix)
+      ko: 꿈의 문 (UMI Mix)
+    version: UMI Mix
+    performers:
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: kotori-mix
+    title:
+      ja: ユメノトビラ (KOTORI Mix)
+      rom: Yume no Tobira (KOTORI Mix)
+      ko: 꿈의 문 (KOTORI Mix)
+    version: KOTORI Mix
+    performers:
+      - {character: muse/kotori-minami}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: ユメノトビラ (ELI Mix)
+      rom: Yume no Tobira (ELI Mix)
+      ko: 꿈의 문 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
+  - id: honoka-mix
+    title:
+      ja: ユメノトビラ (HONOKA Mix)
+      rom: Yume no Tobira (HONOKA Mix)
+      ko: 꿈의 문 (HONOKA Mix)
+    version: HONOKA Mix
+    performers:
+      - {character: muse/honoka-kosaka}
+    arranger:
+      - {person: takashi-saeki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd43)과 같다고 봄
 evidence:
   title:
     status: derived

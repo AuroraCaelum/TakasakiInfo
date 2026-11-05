@@ -1,0 +1,61 @@
+id: nijigasaki/2024-nijigaku-bonus-track-collection-vol-2
+type: compilation
+title:
+  ja: ニジガク ボーナストラック コレクション Vol.2
+  rom: NIJIGAKU Bonus Track Collection Vol.2
+  ko: 니지가쿠 보너스 트랙 컬렉션 Vol.2
+projects: [nijigasaki]
+artist_credit:
+  - {artist: nijigasaki-high-school-idol-club}
+release_date: 2024-08-14
+editions:
+  - id: e1
+    catalog: LZC-2872
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: nijigasaki/fashionista#original}
+      - {no: 2, recording: nijigasaki/fuwa-fuwa-hour#original}
+      - {no: 3, recording: nijigasaki/romance-no-naka-de#original}
+      - {no: 4, recording: nijigasaki/look-at-me-now#original}
+      - {no: 5, recording: nijigasaki/tokimeki-runners#12nin-ver}
+      - {no: 6, recording: nijigasaki/love-u-my-friends#12nin-ver}
+      - {no: 7, recording: nijigasaki/just-believe#12nin-ver}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_VQulvN4iKcG
+    tracks:
+      1-1: JUgv0TkVjrg
+      1-2: eg2JehPJuqM
+      1-3: 21m_DCnH3yQ
+      1-4: wxjeXe36Opw
+      1-5: 1i2Bob8HQig
+      1-6: 01PCypjNKyg
+      1-7: njBF7enkauY
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/73425/
+legacy:
+  category: Nijigasaki
+  albums:
+    - {title: ニジガク ボーナストラック コレクション Vol.2}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73425/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 전용 모음, LZC-2872). BD 특전 CD에만 있던 곡을 모은 것. 곡명·가창은 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774741236/)
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73425/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(디지털 전용 모음, LZC-2872). BD 특전 CD에만 있던 곡을 모은 것. 곡명·가창은 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774741236/)
+  title:
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73425/
+    checked: 2026-11-05
+    note: 'ja: 레이블 카탈로그. rom: 레이블 카탈로그 EN 표기 방식(Instrumental Collection과 같은 NIJIGAKU), ko: 번역안'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
+    checked: 2026-10-27
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

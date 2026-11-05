@@ -1,0 +1,33 @@
+id: yohane/tokyo-game-show-2023
+projects: [yohane]
+status: performed
+title:
+  ja: 東京ゲームショウ2023 ハピネットブース 幻日のヨハネ TGS2023スペシャルステージ
+  rom: Tokyo Game Show 2023 Happinet Booth Genjitsu no Yohane TGS2023 Special Stage
+  ko: 도쿄 게임쇼 2023 해피넷 부스 환일의 요하네 TGS2023 스페셜 스테이지
+cast:
+  - {character: yohane/hanamaru}
+  - {character: yohane/you}
+  - {character: yohane/mari}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-international-exhibition-halls
+    performances:
+      - {date: 2023-09-23}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05
+    note: '출연란: 高槻かなこ(ハナマル); 斉藤朱夏(ヨウ); 鈴木愛奈(マリ)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2023-09-23 16:00] 高槻かなこ(ハナマル); 斉藤朱夏(ヨウ); 鈴木愛奈(マリ). Game (幻日のヨハネ -BLAZE in the DEEPBLUE-) promotion stage at the publisher's booth on a public day. / 근거: https://www.lovelive-anime.jp/uranohoshi/cd.php (Aqours CLUB CD SET 2024 (cached r2/txt c1d57587): CLUB REPORT 15 \"東京ゲームショウ2023\")"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05
+    note: 조사 표기 「幕張メッセ（ハピネットブース内ステージ）」를 기존 회장에 맞춤

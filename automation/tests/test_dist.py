@@ -6,7 +6,7 @@ import sqlite3
 import pytest
 
 from takasaki.build_sqlite import build_sqlite
-from takasaki.build_v1 import build_v1
+from takasaki.build_v1 import RECORDING_FIELDS, TRACK_FIELDS, build_v1
 from takasaki.store import load_dataset, repo_root
 
 DATA = repo_root() / "data"
@@ -25,6 +25,11 @@ def test_v1_files_agree_with_the_database(ds, tmp_path):
     assert {t["link"]["source"] for t in tracks["data"]} <= {"own", "main", "none"}
     schema = json.loads(files["v1/schema/works.json"])
     assert "recordings" in schema["properties"]
+    schema = json.loads(files["v1/schema/releases.json"])  # field docstrings are the descriptions
+    assert schema["$defs"]["Edition"]["properties"]["catalog"]["description"].startswith("Catalog number")
+    # the README's v1 schema describes every field of the views
+    assert {k for t in tracks["data"] for k in t} == set(TRACK_FIELDS)
+    assert {k for r in json.loads(files["v1/recordings.json"])["data"] for k in r} == set(RECORDING_FIELDS)
     releases = {r["id"]: r for r in json.loads(files["v1/releases.json"])["data"]}
     assert releases["liella/2022-butterfly-wing"]["title"]["ko"] == "Butterfly Wing / 에델슈타인"  # from the song titles (D39)
 

@@ -1,0 +1,52 @@
+id: liella/liella-8th
+projects: [liella]
+status: announced
+title:
+  ja: ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～
+  rom: Love Live! Superstar!! Liella! 8th LoveLive! Tour ~Our Song, Our Dreams~
+  ko: 러브 라이브! 슈퍼스타!! Liella! 8th LoveLive! Tour ~Our Song, Our Dreams~
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: ariake-arena
+    performances:
+      - {date: 2027-03-06}
+      - {date: 2027-03-07}
+  - id: 2-fukuoka
+    city: fukuoka
+    venue: marine-messe-fukuoka-hall-b
+    performances:
+      - {date: 2027-04-24}
+      - {date: 2027-04-25}
+  - id: 3-aichi
+    city: aichi
+    venue: portmesse-nagoya-exhibition-hall-1
+    performances:
+      - {date: 2027-05-08}
+      - {date: 2027-05-09}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour
+    checked: 2026-10-27
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour
+    checked: 2026-10-27

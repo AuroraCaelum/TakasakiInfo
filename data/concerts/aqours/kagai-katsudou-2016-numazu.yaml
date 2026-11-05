@@ -1,0 +1,56 @@
+id: aqours/kagai-katsudou-2016-numazu
+projects: [aqours]
+status: performed
+title:
+  ja: ラブライブ！サンシャイン!! Aqours夏休み課外活動 ～みんなでいっしょに夏まつり～ in 沼津
+  rom: Love Live! Sunshine!! Aqours Summer Vacation Extracurricular Activity ~Minna de Issho ni Natsu Matsuri~ in Numazu
+  ko: 러브 라이브! 선샤인!! Aqours 여름방학 과외 활동 ~다 함께 여름 축제~ in 누마즈
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/riko-sakurauchi}
+  - {character: aqours/kanan-matsuura}
+  - {character: aqours/dia-kurosawa}
+  - {character: aqours/you-watanabe}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/hanamaru-kunikida}
+  - {character: aqours/mari-ohara}
+  - {character: aqours/ruby-kurosawa}
+stops:
+  - id: 1-shizuoka
+    city: shizuoka
+    venue: numazu-civic-hall-main-hall
+    performances:
+      - date: 2016-07-31
+        setlist:
+          - work: aqours/aozora-jumping-heart
+            version: TV Size
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/step-zero-to-one
+            performers:
+              - {artist: aqours}
+          - work: aqours/aqours-heroes
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php
+    checked: 2026-11-04
+  setlist.2016-07-31:
+    status: established
+    source: https://love-live.fandom.com/wiki/Aqours_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Official title prints the wave dashes as 〜 (U+301C) in the news; Fandom uses ～. Talk + live part (Fandom set list). / 근거: http://www.lovelive-anime.jp/uranohoshi/news.php (Aqours news 2016/06/16 (Wayback 20160620000000): ＜イベント概要＞ 日時 7月31日（日）開場13:00／開演14:00（予定）, 場所 静岡・沼津市民会館大ホール, 出演 Aqours, A)'
+  schedule:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news.php
+    checked: 2026-11-04

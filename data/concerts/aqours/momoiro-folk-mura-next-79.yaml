@@ -1,0 +1,45 @@
+id: aqours/momoiro-folk-mura-next-79
+projects: [aqours]
+status: performed
+title:
+  ja: 坂崎幸之助のももいろフォーク村NEXT 第79夜
+  rom: Sakazaki Kounosuke no Momoiro Folk Mura NEXT Dai 79 Ya
+  ko: 사카자키 고노스케의 모모이로 포크무라 NEXT 제79야
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2017-12-27
+        setlist:
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/happy-party-train
+            performers:
+              - {artist: aqours}
+          - work: aqours/yume-kataruyori-yume-utaou
+            performers:
+              - {artist: aqours}
+          - {type: other, label: MOON PRIDE (ももいろクローバーZ 곡)}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 출연란: Aqours'
+  setlist.2017-12-27:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2017-12-27] Aqours. Live broadcast with live band (ja.wikipedia only). MOON PRIDE is a ももいろクローバーZ song. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 공식 미게재

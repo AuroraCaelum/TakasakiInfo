@@ -1,0 +1,39 @@
+id: liella/uta-no-shin-top-ten-2022
+projects: [liella]
+status: performed
+title:
+  ja: 歌のシン・トップテン
+  rom: Uta no Shin Top Ten
+  ko: 노래의 신 톱 텐
+cast:
+  - {character: liella/sumire-heanna}
+  - {character: liella/chisato-arashi}
+  - {character: liella/ren-hazuki}
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2022-11-06
+        setlist:
+          - {type: other, label: 雪にかいたLOVE LETTER (커버)}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1246
+    checked: 2026-11-05
+    note: '출연란: ペイトン尚未(平安名すみれ); 岬なこ(嵐千砂都); 青山なぎさ(葉月恋); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ)'
+  setlist.2022-11-06:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1246
+    checked: 2026-11-05
+    note: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1246
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2022-11-06 14:00-15:00] ペイトン尚未(平安名すみれ); 岬なこ(嵐千砂都); 青山なぎさ(葉月恋); 鈴原希実(桜小路きな子); 薮島朱音(米女メイ). Five-member cover of 菊池桃子's song; the official news does not name the song (wiki sources do). / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1246 (Liella! official news 2022-10-30 (Wayback 20221105114852): 日本テレビ 11月6日(日)14:00〜15:00; ペイトン尚未, 岬 なこ, 青山なぎさ, 鈴原希実, 薮島朱音; 「あの名曲をカバー」)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_1246
+    checked: 2026-11-05

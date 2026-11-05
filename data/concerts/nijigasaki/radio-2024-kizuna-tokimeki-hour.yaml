@@ -1,0 +1,45 @@
+id: nijigasaki/radio-2024-kizuna-tokimeki-hour
+projects: [nijigasaki]
+status: performed
+title:
+  ja: ラブライブ！虹ヶ咲学園～放課後放送室～ ＆ RADIO アニガサキ！合同公開録音 キズナつなげて！TOKIMEKIアワー♪
+  rom: Love Live! Nijigasaki Gakuen ~Houkago Housoushitsu~ & RADIO Anigasaki! Joint Public Recording Kizuna Tsunagete! TOKIMEKI Hour♪
+  ko: 러브 라이브! 니지가사키 학원 ~방과 후 방송실~ & RADIO 아니가사키! 합동 공개 녹음 인연을 이어줘! TOKIMEKI 아워♪
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: yurakucho-yomiuri-hall
+    performances:
+      - date: 2024-05-12
+        label: 第1部
+        cast:
+          - {character: nijigasaki/yu-takasaki}
+          - {character: nijigasaki/ayumu-uehara}
+      - date: 2024-05-12
+        label: 第2部
+        cast:
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/shioriko-mifune}
+      - date: 2024-05-12
+        label: 第3部
+        cast:
+          - {character: nijigasaki/yu-takasaki}
+          - {character: nijigasaki/ayumu-uehara}
+          - {character: nijigasaki/ai-miyashita}
+          - {character: nijigasaki/emma-verde}
+          - {character: nijigasaki/shioriko-mifune}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=gasaraji_anigasaki
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=gasaraji_anigasaki
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). 全3回公演. Prices: 第1部・第2部 各3,000円, 第3部 3,500円. Joint recording of the two radio programs (がさらじ and RADIO アニガサキ！). / 근거: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=gasaraji_anigasaki (event special site (Wayback snapshot 2024-06)); https://anime.eiga.com/event/162351/ (アニメハック listing 第1部); https://anime.eiga.com/event/162352/ (アニメハック listing 第2部); https://anime.eiga.com/event/162353/ (アニメハック listing 第3部)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=gasaraji_anigasaki
+    checked: 2026-11-04

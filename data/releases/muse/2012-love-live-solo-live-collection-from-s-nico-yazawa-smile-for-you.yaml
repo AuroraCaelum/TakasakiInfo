@@ -1,0 +1,69 @@
+id: muse/2012-love-live-solo-live-collection-from-s-nico-yazawa-smile-for-you
+type: album
+title:
+  ja: ラブライブ！ Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡
+  rom: Love Live! Solo Live! Collection from μ's Nico Yazawa Smile for you♡
+  ko: 러브 라이브! Solo Live! Collection from μ's 야자와 니코 스마일・포・유♡
+projects: [muse]
+release_date: 2012-02-19
+editions:
+  - id: e1
+    label:
+      ja: Memorial BOX Ⅰ
+    catalog: LZM-2058
+    media: [CD]
+  - id: e2
+    label:
+      ja: 通常盤
+    catalog: LACA-15408
+    media: [CD]
+    release_date: 2014-04-02
+discs:
+  - tracks:
+      - {no: 1, recording: muse/bokura-no-live-kimi-to-no-life#nico-mix}
+      - {no: 2, recording: muse/yuujou-no-change#nico-mix}
+      - {no: 3, recording: muse/snow-halation#nico-mix}
+      - {no: 4, recording: muse/baby-maybe-koi-no-button#nico-mix}
+      - {no: 5, recording: muse/diamond-princess-no-yuuutsu#nico-mix}
+      - {no: 6, recording: muse/love-novels#nico-mix}
+      - {no: 7, recording: muse/natsuiro-egao-de-1-2-jump#nico-mix}
+      - {no: 8, recording: muse/mermaid-festa-vol-1#nico-mix}
+streaming:
+  - editions: [e1, e2]
+    browse_id: MPREb_Hv9reUz9Ko5
+    tracks:
+      1-1: x9Tn4YtXfyQ
+      1-2: Jdt-5biAs3s
+      1-3: UQQPnQ-e8DU
+      1-4: _cLn5e0mg-Y
+      1-5: c61RI9wHNk8
+      1-6: 4BQx2EVuGY0
+      1-7: WHAeyOsSfo4
+      1-8: 6B_2uWMdjGM
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+legacy:
+  category: Muse
+  albums:
+    - {title: ラブライブ！ Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡}
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+    checked: 2026-11-04
+    note: 레이블 카탈로그(2014-04-02 개별 재발매 LACA-15408의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2058은 Fandom. 편곡·크레딧은 원곡을 따름
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+    checked: 2026-11-04
+    note: 레이블 카탈로그(2014-04-02 개별 재발매 LACA-15408의 곡명·가창, 제목). 처음 나온 것은 「ラブライブ！μ’s Memorial BOX Ⅰ Solo Live! collection」(LZM-2057～62, 2012-02-19 First LoveLive! 회장 판매, 공식 뉴스 Wayback)의 디스크. 디스크별 품번 LZM-2058은 Fandom. 편곡·크레딧은 원곡을 따름
+  title:
+    status: derived
+    source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+    checked: 2026-11-05
+    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(시리즈명 고정 표기 + 멤버 rom + 부제), ko: 같은 방식(부제는 번역·음역안). 부제 rom은 레이블 카탈로그 EN'
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

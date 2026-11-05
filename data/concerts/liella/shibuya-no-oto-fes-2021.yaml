@@ -1,0 +1,44 @@
+id: liella/shibuya-no-oto-fes-2021
+projects: [liella]
+status: performed
+title:
+  ja: シブヤノオト and more FES.2021
+  rom: Shibuya no Oto and more FES.2021
+  ko: 시부야노오토 and more FES.2021
+cast:
+  - {character: liella/kanon-shibuya}
+  - {character: liella/keke-tang}
+  - {character: liella/chisato-arashi}
+  - {character: liella/sumire-heanna}
+  - {character: liella/ren-hazuki}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: nhk-101
+    performances:
+      - date: 2021-10-09
+        setlist:
+          - work: liella/start-true-dreams
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8398
+    checked: 2026-11-05
+    note: '출연란: 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋)'
+  setlist.2021-10-09:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Liella!
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8398
+    checked: 2026-11-05
+    note: "ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2021-10-09 22:40-23:40 / 23:45-24:45] 伊達さゆり(澁谷かのん); Liyuu(唐可可); 岬なこ(嵐千砂都); ペイトン尚未(平安名すみれ); 青山なぎさ(葉月恋). Live NHK broadcast from NHK's 101 studio in Shibuya (THE FIRST TIMES). This is the 2021-10-09 NHK appearance that Fandom mistakenly attached to its \"2021 FNS Music Festival\" entry; Fandom's own \"Shibuya no Oto and more FES.2021\" entry wrongly gives 2021-12-08 (the FNS date). Song performed as a special version with fans' recorded calls. / 근거: https://www.lovelive-anime.jp/yuigaoka/news/?id=8398 (Liella! official news 2021-09-27 (Wayback 20210927093337): 「シブヤノオト and more FES. 2021」 NHK総合 2021年10月9日(土) 午後10:40～11:40, 11:45～0:45; TV fir). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/123: 10/9"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/news/?id=8398
+    checked: 2026-11-05
+    note: 'LL-Fans https://ll-fans.jp/data/event/123: 2021-10-09 22:40, NHK放送センター (Fandom의 12/8은 FNS와 혼동)'

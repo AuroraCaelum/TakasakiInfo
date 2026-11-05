@@ -1,0 +1,38 @@
+id: liella/2024-dazzling-game
+type: digital_single
+title:
+  ja: Dazzling Game
+projects: [liella]
+release_date: 2024-12-02
+editions:
+  - id: e1
+    catalog: LZC-2950
+    media: [digital]
+discs:
+  - tracks:
+      - {no: 1, recording: liella/dazzling-game#original}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_xhYek9AOTx4
+    tracks:
+      1-1: qM30ELVkG5Q
+links:
+  official: https://catalog.bandainamcomusiclive.co.jp/release/73520/
+legacy:
+  category: Liella
+evidence:
+  tracks:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73520/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(선행 배신 디지털 싱글 LZC-2950). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)
+  editions:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/73520/
+    checked: 2026-10-27
+    note: 레이블 카탈로그(선행 배신 디지털 싱글 LZC-2950). CD 싱글과 같은 음원이라 레거시 행은 두지 않음(링크 출처)
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_xhYek9AOTx4
+    checked: 2026-11-04
+    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'

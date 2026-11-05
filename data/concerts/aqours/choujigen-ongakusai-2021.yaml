@@ -1,0 +1,31 @@
+id: aqours/choujigen-ongakusai-2021
+projects: [aqours]
+status: performed
+title:
+  ja: オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス2021-
+  rom: Odaiba!! Choujigen Ongakusai -Yokohama kara Happy Valentine Fes 2021-
+  ko: 오다이바!! 초차원 음악제 -요코하마에서 해피 밸런타인 페스 2021-
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pia-arena-mm
+    performances:
+      - {date: 2021-02-14}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: Aqours（全員 per ja.wikipedia）'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2021-02-14 DAY2] Aqours（全員 per ja.wikipedia）. NEW. Set list exists in press but not retrieved. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: 공식 미게재

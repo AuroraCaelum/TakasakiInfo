@@ -179,11 +179,25 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for la in rel.legacy.albums:
             if la.edition and la.edition not in eds:
                 add("E2", f"release:{rel.id}", f"legacy album names unknown edition {la.edition!r}")
+    for w in ds.works.values():  # a live recording names the show it was recorded at (D54)
+        for r in w.recordings:
+            if r.live is None:
+                continue
+            c = ds.concerts.get(r.live.concert)
+            shows = [(p.date, p.label) for s in c.stops for p in s.performances] if c else []
+            if c is None:
+                add("E2", f"recording:{w.id}#{r.id}", f"live: unknown concert {r.live.concert!r}")
+            elif r.live.date is not None and not any(d == r.live.date and (r.live.label is None or lb == r.live.label) for d, lb in shows):
+                add("E2", f"recording:{w.id}#{r.id}", f"live: {r.live.concert} has no show on {r.live.date} {r.live.label or ''}".rstrip())
     for c in ds.concerts.values():
+        for p in c.cast:
+            perf(p, f"concert:{c.id} cast")
         for s in c.stops:
             need(ds.cities, s.city, f"concert:{c.id}", "city")
             need(ds.venues, s.venue, f"concert:{c.id}", "venue")
             for p in s.performances:
+                for cast in p.cast:
+                    perf(cast, f"concert:{c.id} {p.date} cast")
                 for item in p.setlist:
                     where = f"concert:{c.id} {p.date}"
                     need(ds.works, item.work, where, "work")
@@ -315,7 +329,7 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             padded(f"recording:{w.id}#{r.id}", r.title)
 
     # E14: notes hold only what the builder cannot derive (M3)
-    derived = ("Drama Part", "Link is from", "Disc.")
+    derived = ("Drama Part", "Link is from", "Disc.", "BGM")
     for rel in ds.releases.values():
         texts = [(f"release:{rel.id} legacy album {la.title!r}", la.note) for la in rel.legacy.albums]
         texts += [(f"release:{rel.id} track {t.no}", t.note) for d in rel.discs for t in d.tracks]
@@ -403,18 +417,32 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
 # (an official YouTube channel's video description, an official X post; D41)
 OFFICIAL_CHECKED = ("공식 미게재", "공식보다 최신", "공식 계정")
 OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp", "lantis.jp", "music.youtube.com",
+                  "catalog.bandainamcomusiclive.co.jp",  # the label's release catalog (lantis.jp/release-item moved there)
                   "www.yohane.net", "yohane.net", "yohane-bid.com",  # 幻日のヨハネ: its own site and its game's (D46)
                   # the official sites of the events the rights holders organize, as the concert adapter reads them (D47)
                   "ijigen-fes.jp", "tutoliella-live.jp", "lovelive-overseas.bitfan.id")
 # the rights holders' sites of the other franchises whose characters appear in crossovers (external/*)
 OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com")
+# the organizers' and broadcasters' own sites of the outside festivals, programmes and stages a group appeared
+# at (D55, D56): official for that event's schedule, line-up and set list
+ORGANIZER_DOMAINS = ("anisama.tv", "kagayaki-fes.jp", "fes.bn-ent.net", "idolfes.com", "bushiroad-music.com", "inazumarock.com",
+                     "anisongworldmatsuri.com", "choujigen-ongakusai.jp", "shibuyalovez.jp", "lisani.jp", "anime-expo.org",
+                     "luckyfes.com", "fmfukuoka.co.jp", "blog.youtube",
+                     # broadcasters (D56)
+                     "nhk.or.jp", "nhk.jp", "fujitv.co.jp", "tbs.co.jp", "tv-asahi.co.jp", "ntv.co.jp",
+                     # conventions, game and card-game makers, clubs and towns that ran a stage (D56)
+                     "anime-japan.jp", "animefestival.asia", "chara-expo.com", "ccpa.org.tw", "bushiroad.com",
+                     "lovelive-as.bushimo.jp", "v-storage.jp", "event.amnibus.com", "grand-cycle-tokyo.jp", "jleague.jp",
+                     "cerezo.jp", "sanfrecce.co.jp", "buffaloes.co.jp", "softbankhawks.co.jp", "fighters.co.jp",
+                     "rakuteneagles.jp", "city.numazu.shizuoka.jp", "pref.ishikawa.lg.jp")
 
 
 def is_official(url: str) -> bool:
     if url.count("/") < 2:
         return False
     host = url.split("/")[2]
-    return host in OFFICIAL_HOSTS or any(host == d or host.endswith("." + d) for d in OTHER_OFFICIAL_DOMAINS)
+    return host in OFFICIAL_HOSTS or any(host == d or host.endswith("." + d)
+                                         for d in OTHER_OFFICIAL_DOMAINS + ORGANIZER_DOMAINS)
 
 
 def official_first(kind: str, key: str) -> bool:
@@ -422,4 +450,5 @@ def official_first(kind: str, key: str) -> bool:
     readings, a person's own romanization (§5.3 ②) and recording checks come from elsewhere."""
     if key.endswith((".ko", ".kana")) or (kind == "person" and key == "names.rom"):
         return False
-    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date"}
+    return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date",
+                                 "cast"}

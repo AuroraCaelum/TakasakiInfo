@@ -1,0 +1,63 @@
+id: nijigasaki/animelo-2023
+projects: [nijigasaki, liella]
+status: performed
+title:
+  ja: Animelo Summer Live 2023 -AXEL-
+  rom: Animelo Summer Live 2023 -AXEL-
+  ko: Animelo Summer Live 2023 -AXEL-
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2023-08-25
+        cast:
+          - {artist: liella}
+        setlist:
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {artist: liella}
+      - date: 2023-08-27
+        cast:
+          - {character: nijigasaki/ayumu-uehara}
+          - {character: nijigasaki/kasumi-nakasu}
+          - {character: nijigasaki/lanzhu-zhong}
+          - {character: nijigasaki/rina-tennoji}
+          - {character: nijigasaki/kanata-konoe}
+          - {character: nijigasaki/emma-verde}
+        setlist:
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: heartbeat-axelator (DAY3 출연자 전원)}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2023/setlist/
+    checked: 2026-11-04
+    note: '출연란: Liella! / 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 法元明菜(鐘嵐珠); 田中ちえ美(天王寺璃奈); 鬼頭明里(近江彼方); 指出毬亜(エマ・ヴェルデ)'
+  setlist.2023-08-25:
+    status: official
+    source: https://anisama.tv/2023/setlist/
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  setlist.2023-08-27:
+    status: official
+    source: https://anisama.tv/2023/setlist/
+    checked: 2026-11-05
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other). LL-Fans https://ll-fans.jp/data/event/158도 공식과 같음(わちゅごなどぅー, Just Believe!!!)
+  title:
+    status: derived
+    source: https://anisama.tv/2023/setlist/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2023-08-25 DAY1] Liella!. Venue taken as さいたまスーパーアリーナ (Anisama's fixed venue; the 2023 setlist page itself does not print it). Member line-up not on organizer page. Nijigasaki appeared 8/27 (other agent). / [2023-08-27 Day 3] 大西亜玖璃(上原歩夢); 相良茉優(中須かすみ); 法元明菜(鐘嵐珠); 田中ちえ美(天王寺璃奈); 鬼頭明里(近江彼方); 指出毬亜(エマ・ヴェルデ). SET LIST CONFLICT: official setlist has わちゅごなどぅー + Just Believe!!!, Fandom says Wachu Gonna Do + TOKIMEKI Runners; official used here. Fandom row had no date; official setlist confirms 8/27 (Day 3). Performer list from Fandom only (official artist page for 2023 now redirects to 2026). Venue per Fandom; not printed on the surviving official setlist page. / 근거: https://anisama.tv/2023/setlist/ (organizer setlist, 8/25(金) block: 15 Second Sparkle / Liella!, 16 ビタミンSUMMER！ / Liella!); https://anisama.tv/2023/setlist/ (Official setlist 8/27(日): #23 わちゅごなどぅー, #24 Just Believe!!! / 虹ヶ咲学園スクールアイドル同好会; #49 heartbeat-axelator / アニサマ2023出演アーティスト DAY3). 교차 확인(D57): LL-Fans https://ll-fans.jp/data/event/158도 공식과 같음"
+  schedule:
+    status: official
+    source: https://anisama.tv/2023/setlist/
+    checked: 2026-11-04

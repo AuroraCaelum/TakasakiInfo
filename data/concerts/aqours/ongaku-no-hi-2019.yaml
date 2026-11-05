@@ -1,0 +1,37 @@
+id: aqours/ongaku-no-hi-2019
+projects: [aqours]
+status: performed
+title:
+  ja: 音楽の日
+  rom: Ongaku no Hi
+  ko: 음악의 날
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2019-07-14
+        setlist:
+          - work: aqours/brightest-melody
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://www.tbs.co.jp/ongakunohi/
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  setlist.2019-07-14:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.tbs.co.jp/ongakunohi/
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2019-07-14 第二部 深夜3時ごろ〜] Aqours. Live broadcast that started 2019-07-13; Aqours were in the ~3 a.m. block, so the performance fell on 2019-07-14. Song from jawiki only. / 근거: https://www.tbs.co.jp/ongakunohi/ (TBS 音楽の日 page (Wayback 20190713154250): 第二部 よる11時45分〜あさ5時; Aqours listed under 「深夜3時ごろ〜」); https://www.tbs.co.jp/ongakunohi/artist/Aqours.html (TBS artist page for Aqours (Wayback 20190712184011))'
+  schedule:
+    status: official
+    source: https://www.tbs.co.jp/ongakunohi/
+    checked: 2026-11-05

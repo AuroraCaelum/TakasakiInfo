@@ -1,0 +1,134 @@
+id: ikizulive/release-event-1st-solo-single
+projects: [ikizulive]
+status: performed
+title:
+  ja: いきづらい部！ 1st Solo Single発売記念リリースイベント
+  rom: Ikizuraibu! 1st Solo Single Release Event
+  ko: 이키즈라이부! 1st Solo Single 발매 기념 릴리스 이벤트
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    performances:
+      - date: 2025-11-15
+        cast:
+          - {character: ikizulive/polka-takahashi}
+          - {character: ikizulive/mai-azabu}
+          - {character: ikizulive/akira-goto}
+          - {character: ikizulive/hanabi-komagata}
+        setlist:
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/public-style
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/itsuka-ao
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/hibana-hibana
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - {type: mc}
+          - work: ikizulive/odoru-polka
+            performers:
+              - {character: ikizulive/polka-takahashi}
+          - work: ikizulive/hissatsu-my-mai-mode
+            performers:
+              - {character: ikizulive/mai-azabu}
+          - work: ikizulive/jet-starter
+            performers:
+              - {character: ikizulive/akira-goto}
+          - work: ikizulive/first-ride
+            performers:
+              - {character: ikizulive/hanabi-komagata}
+          - {type: mc}
+  - id: 2-osaka
+    city: osaka
+    performances:
+      - date: 2025-11-22
+        cast:
+          - {character: ikizulive/yukuri-harumiya}
+          - {character: ikizulive/aurora-konohana}
+          - {character: ikizulive/midori-yamada}
+        setlist:
+          - {type: mc}
+          - work: ikizulive/pray-for-love
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/kimi-wa-yoru-no-polaris
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/little-green-iinkai
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - {type: mc}
+          - work: ikizulive/futari-wa-itsudemo-happy-end
+            performers:
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/kurari-to-bright
+            performers:
+              - {character: ikizulive/aurora-konohana}
+          - work: ikizulive/love-you-save-the-earth
+            performers:
+              - {character: ikizulive/midori-yamada}
+          - {type: mc}
+  - id: 3-miyagi
+    city: miyagi
+    performances:
+      - date: 2025-11-24
+        cast:
+          - {character: ikizulive/miracle-kanazawa}
+          - {character: ikizulive/noriko-chofu}
+          - {character: ikizulive/shion-sasaki}
+        setlist:
+          - {type: mc}
+          - work: ikizulive/homerun-queen
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/koi-no-one-time-password
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/ikitakunai-every-day
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - {type: mc}
+          - work: ikizulive/magical-recipe-s-il-vous-plait
+            performers:
+              - {character: ikizulive/miracle-kanazawa}
+          - work: ikizulive/centimeter-rendezvous
+            performers:
+              - {character: ikizulive/noriko-chofu}
+          - work: ikizulive/trick-or-toxic
+            performers:
+              - {character: ikizulive/shion-sasaki}
+          - {type: mc}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4890
+    checked: 2026-11-04
+  setlist.2025-11-15:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  setlist.2025-11-22:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  setlist.2025-11-24:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities
+    checked: 2026-11-04
+    note: '공식 미게재: Fandom 세트리스트(가창자 미기재는 곡의 원곡 가창자)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4890
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Lottery-entry release events; venues undisclosed (某所). title_ja drops 「(応募抽選)開催決定！」 from the news headline. / 근거: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4890 (news 2025.06.17 「いきづらい部！ 1st Solo Single発売記念リリースイベント(応募抽選)開催決定！」: ミニライブ＆お渡し会; 東京 2025年11月15日(土) 都内某所, 大阪 11月22日(土) 大阪市内某)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4890
+    checked: 2026-11-04
+    note: 회장 비공개(都内某所)

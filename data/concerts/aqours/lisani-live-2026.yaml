@@ -1,0 +1,32 @@
+id: aqours/lisani-live-2026
+projects: [aqours]
+status: performed
+title:
+  ja: リスアニ！LIVE 2026
+  rom: LisAni! LIVE 2026
+  ko: 리스아니! LIVE 2026
+cast:
+  - {artist: guilty-kiss}
+  - {artist: saint-snow}
+stops:
+  - id: 1-chiba
+    city: chiba
+    venue: makuhari-messe-event-hall
+    performances:
+      - {date: 2026-02-01}
+evidence:
+  cast:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: '공식 미게재: 출연란: ラブライブ!サンシャイン!!【Guilty Kiss, Saint Snow】'
+  title:
+    status: derived
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2026-02-01 DAY2] ラブライブ!サンシャイン!!【Guilty Kiss, Saint Snow】. NEW. Set list not found. / 근거: 공식 미게재 (외부 출처만)'
+  schedule:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-04
+    note: 공식 미게재

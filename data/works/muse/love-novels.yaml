@@ -35,6 +35,54 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
         checked: 2026-10-20
+  - id: nico-mix
+    title:
+      ja: ラブノベルス (NICO Mix)
+      rom: Love Novels (NICO Mix)
+      ko: 러브 노벨즈 (NICO Mix)
+    version: NICO Mix
+    performers:
+      - {character: muse/nico-yazawa}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+  - id: maki-mix
+    title:
+      ja: ラブノベルス (MAKI Mix)
+      rom: Love Novels (MAKI Mix)
+      ko: 러브 노벨즈 (MAKI Mix)
+    version: MAKI Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+  - id: eli-mix
+    title:
+      ja: ラブノベルス (ELI Mix)
+      rom: Love Novels (ELI Mix)
+      ko: 러브 노벨즈 (ELI Mix)
+    version: ELI Mix
+    performers:
+      - {character: muse/eli-ayase}
+    arranger:
+      - {person: yugo-sasakura}
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
+        checked: 2026-10-27
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
 evidence:
   title:
     status: derived

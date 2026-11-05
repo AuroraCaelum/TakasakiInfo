@@ -1,0 +1,148 @@
+id: muse/muse-new-year-2013
+projects: [muse]
+status: confirmed
+title:
+  ja: ラブライブ！μ's New Year LoveLive! 2013
+  rom: Love Live! μ's New Year LoveLive! 2013
+  ko: 러브 라이브! μ's New Year LoveLive! 2013
+cast:
+  - {character: muse/honoka-kosaka}
+  - {character: muse/kotori-minami}
+  - {character: muse/umi-sonoda}
+  - {character: muse/rin-hoshizora}
+  - {character: muse/maki-nishikino}
+  - {character: muse/nozomi-tojo}
+  - {character: muse/hanayo-koizumi}
+  - {character: muse/nico-yazawa}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: tokyo-dome-city-hall
+    performances:
+      - date: 2013-01-03
+        setlist:
+          - work: muse/wonderful-rush
+            performers:
+              - {artist: muse}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - work: muse/yuujou-no-change
+            performers:
+              - {artist: muse}
+          - work: muse/mermaid-festa-vol-1
+            performers:
+              - {artist: muse}
+          - work: muse/mermaid-festa-vol-2-passionate
+            performers:
+              - {character: muse/honoka-kosaka}
+              - {character: muse/rin-hoshizora}
+          - work: muse/soldier-game
+            performers:
+              - {character: muse/maki-nishikino}
+              - {character: muse/umi-sonoda}
+          - work: muse/otome-shiki-ren-ai-juku
+            performers:
+              - {character: muse/nico-yazawa}
+              - {character: muse/nozomi-tojo}
+          - work: muse/kokuhaku-biyori-desu
+            performers:
+              - {character: muse/kotori-minami}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/after-school-navigators
+            performers:
+              - {character: muse/nico-yazawa}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/listen-to-my-heart
+            performers:
+              - {character: muse/nico-yazawa}
+              - {character: muse/rin-hoshizora}
+              - {character: muse/hanayo-koizumi}
+          - work: muse/blueberry-train
+            performers:
+              - {character: muse/kotori-minami}
+          - work: muse/yuuki-no-reason
+            performers:
+              - {character: muse/umi-sonoda}
+          - work: muse/junai-lens
+            performers:
+              - {character: muse/nozomi-tojo}
+          - work: muse/koi-no-signal-rin-rin-rin
+            performers:
+              - {character: muse/rin-hoshizora}
+          - work: muse/someday-of-my-life
+            performers:
+              - {character: muse/honoka-kosaka}
+          - work: muse/daring
+            performers:
+              - {character: muse/maki-nishikino}
+          - work: muse/kodoku-na-heaven
+            performers:
+              - {character: muse/hanayo-koizumi}
+          - work: muse/mahoutsukai-hajimemashita
+            performers:
+              - {character: muse/nico-yazawa}
+          - work: muse/shiranai-love-oshiete-love
+            performers:
+              - {artist: lily-white}
+          - work: muse/a-no-ne-ga-n-ba-re
+            performers:
+              - {artist: lily-white}
+          - work: muse/sweet-sweet-holiday
+            performers:
+              - {artist: printemps}
+          - work: muse/love-marginal
+            performers:
+              - {artist: printemps}
+          - work: muse/diamond-princess-no-yuuutsu
+            performers:
+              - {artist: bibi}
+          - work: muse/love-novels
+            performers:
+              - {artist: bibi}
+          - work: muse/mogyutto-love-de-sekkin-chuu
+            performers:
+              - {artist: muse}
+          - work: muse/baby-maybe-koi-no-button
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: muse/aishiteru-banzai
+            performers:
+              - {artist: muse}
+          - {type: encore, label: Encore}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: muse}
+          - work: muse/oh-love-peace
+            performers:
+              - {artist: muse}
+          - {type: double_encore, label: Double Encore}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+external_ids:
+  fandom: Muse's New Year LoveLive! 2013
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-10-27
+    note: BD 페이지 映像特典의 출연란(8명, 南條愛乃 불참)
+  setlist.2013-01-03:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-10-27
+    note: 공식 BD 페이지(TV애니 1기 BD 2·4·6권 映像特典 Part1~3)의 수록곡 31곡과 [アンコール]·[Wアンコール] 표시. MC는 미수록. 가창자는 공식 미게재라 Fandom(Track Listing)
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/otonokizaka/news8.php?offset=260
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 南條愛乃(絢瀬絵里) 불참(fripSide 공연과 겹침)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/
+    checked: 2026-10-27

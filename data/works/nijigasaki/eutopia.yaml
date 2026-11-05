@@ -44,6 +44,23 @@ recordings:
         source: https://www.youtube.com/watch?v=Z2P818AAOn8
         checked: 2026-10-19
         note: '공식 계정: Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 공식 YouTube(ラブライブ！シリーズ公式チャンネル) TV애니 2기 댄스신 영상 설명의 크레딧·가창 표기(같은 곡이 挿入歌シングル에 수록된다고 명기). 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44 는 크레딧만 게재, 곡별 가창은 미게재'
+  - id: tv-size
+    title:
+      ja: Eutopia (TV size)
+      rom: Eutopia (TV size)
+      ko: Eutopia (TV size)
+    version: TV size
+    performers:
+      - {character: nijigasaki/lanzhu-zhong}
+    arranger:
+      - {person: luna}
+      - {person: toshikazu-kadono}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
+        checked: 2026-10-26
+        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

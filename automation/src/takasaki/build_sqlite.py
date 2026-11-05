@@ -29,7 +29,8 @@ CREATE TABLE artist (id TEXT PRIMARY KEY, kind TEXT NOT NULL);
 CREATE TABLE work (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), kind TEXT NOT NULL);
 CREATE TABLE recording (
   id TEXT PRIMARY KEY, work TEXT NOT NULL REFERENCES work(id), kind TEXT NOT NULL, version TEXT,
-  instrumental_of TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED);
+  instrumental_of TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED,
+  live_concert TEXT REFERENCES concert(id) DEFERRABLE INITIALLY DEFERRED, live_date TEXT, live_label TEXT);
 CREATE TABLE release (id TEXT PRIMARY KEY, type TEXT NOT NULL, status TEXT NOT NULL, release_date TEXT, label TEXT);
 CREATE TABLE edition (release TEXT NOT NULL REFERENCES release(id), id TEXT NOT NULL, catalog TEXT, release_date TEXT,
   PRIMARY KEY (release, id));
@@ -68,6 +69,13 @@ CREATE TABLE performance (id INTEGER PRIMARY KEY, concert TEXT NOT NULL, stop TE
 CREATE TABLE setlist_item (
   performance INTEGER NOT NULL REFERENCES performance(id), seq INTEGER NOT NULL, type TEXT NOT NULL,
   work TEXT REFERENCES work(id), recording TEXT REFERENCES recording(id), label TEXT, title_raw TEXT,
+  PRIMARY KEY (performance, seq));
+-- who appeared in each show: the show's own cast, else the concert's (§4.6)
+CREATE TABLE cast_member (
+  performance INTEGER NOT NULL REFERENCES performance(id), seq INTEGER NOT NULL,
+  artist TEXT REFERENCES artist(id), character TEXT REFERENCES character(id), person TEXT REFERENCES person(id),
+  role TEXT REFERENCES character(id),
+  featured INTEGER NOT NULL DEFAULT 0 CHECK (featured IN (0, 1)),  -- a guest or a support appearance
   PRIMARY KEY (performance, seq));
 CREATE TABLE label (
   entity TEXT NOT NULL, field TEXT NOT NULL, lang TEXT NOT NULL, value TEXT NOT NULL, status TEXT,
@@ -206,7 +214,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
         credits(w.id, "composer", w.credits.composer)
         for r in w.recordings:
             rid = f"{w.id}#{r.id}"
-            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None))
+            live = (r.live.concert, r.live.date.isoformat() if r.live.date else None, r.live.label) if r.live else (None, None, None)
+            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None, *live))
             names(f"recording:{rid}", "title", r.title, r.evidence)
             common(f"recording:{rid}", r)
             credits(rid, "arranger", r.arranger)
@@ -258,3 +267,5 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
                 ins("performance", (perf_id, c.id, s.id, p.date.isoformat(), p.label))
                 ins("setlist_item", *[(perf_id, i, it.type, it.work, it.recording, it.label, it.title_raw)
                                       for i, it in enumerate(p.setlist, 1)])
+                ins("cast_member", *[(perf_id, i, x.artist, x.character, x.person, x.role, int(x.featured))
+                                     for i, x in enumerate(p.cast or c.cast, 1)])

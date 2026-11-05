@@ -39,6 +39,33 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd03.php
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {artist: poppin-party}
+    arranger:
+      - {person: daisuke-horikawa, affiliation: Elements Garden}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json). 소속: 부클릿 크레딧 '堀川大翼(Elements Garden)'(MONACA Wiki 전사)"
+  - id: tv-size
+    title:
+      ja: START!! True dreams 〜TV Size〜
+      rom: START!! True dreams ~TV Size~
+      ko: START!! True dreams ~TV Size~
+    version: TV Size
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: yosuke-yamashita}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

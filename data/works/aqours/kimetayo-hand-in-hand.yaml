@@ -75,6 +75,56 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
         checked: 2026-10-19
+  - id: 15th-tribute
+    performers:
+      - {character: external/cure-idol}
+      - {character: external/cure-wink}
+      - {character: external/cure-kyun-kyun}
+    arranger:
+      - {person: misaki-umase}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+        checked: 2026-10-20
+        note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
+  - id: tv-size
+    title:
+      ja: 決めたよHand in Hand (TVサイズ)
+      rom: Kimetayo Hand in Hand (TV Size)
+      ko: 결정했어 Hand in Hand (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: aqours/chika-takami}
+      - {character: aqours/riko-sakurauchi}
+      - {character: aqours/you-watanabe}
+    arranger:
+      - {person: takuya-watanabe}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: live-aqours-finale-2025-06-21
+    title:
+      ja: 決めたよHand in Hand (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      rom: Kimetayo Hand in Hand (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
+      ko: 결정했어 Hand in Hand (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
+    version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
+    performers:
+      - {artist: aqours}
+    arranger:
+      - {person: takuya-watanabe}
+    live:
+      concert: aqours/aqours-finale
+      date: 2025-06-21
+    evidence:
+      credits:
+        status: derived
+        source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
+        checked: 2026-11-04
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd08)과 같다고 봄
 evidence:
   credits:
     status: official

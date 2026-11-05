@@ -131,8 +131,10 @@ def _rewrite_performer_refs(ds: Dataset, src: tuple[str, str], dst: tuple[str, s
     for rel in ds.releases.values():
         rel.artist_credit = [_rewrite_performer(p, src, dst) for p in rel.artist_credit]
     for c in ds.concerts.values():
+        c.cast = [_rewrite_performer(p, src, dst) for p in c.cast]
         for s in c.stops:
             for perf in s.performances:
+                perf.cast = [_rewrite_performer(p, src, dst) for p in perf.cast]
                 for item in perf.setlist:
                     item.performers = [_rewrite_performer(p, src, dst) for p in item.performers]
     if src[0] == "character":

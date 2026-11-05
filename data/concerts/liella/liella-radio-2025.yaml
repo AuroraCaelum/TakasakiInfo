@@ -1,0 +1,36 @@
+id: liella/liella-radio-2025
+projects: [liella]
+status: performed
+title:
+  ja: ラブライブ！スーパースター!! Liella! リエラジ！公開録音＆公開生放送2025
+  rom: Love Live! Superstar!! Liella! Lieradi! Public Recording & Public Live Broadcast 2025
+  ko: 러브 라이브! 슈퍼스타!! Liella! 리에라지! 공개 녹음 & 공개 생방송 2025
+cast:
+  - {character: liella/kinako-sakurakoji}
+  - {character: liella/mei-yoneme}
+  - {character: liella/shiki-wakana}
+  - {character: liella/natsumi-onitsuka}
+  - {character: liella/margarete-wien}
+  - {character: liella/tomari-onitsuka}
+stops:
+  - id: 1-ibaraki
+    city: ibaraki
+    venue: ushiku-city-central-lifelong-learning-center-culture-hall
+    performances:
+      - {date: 2025-09-28, label: 第1部＜リエラジ！公開録音1回目}
+      - {date: 2025-09-28, label: 第2部＜リエラジ！公開録音2回目}
+      - {date: 2025-09-28, label: 第3部＜Liella!スペシャル公開生放送}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2025
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2025
+    checked: 2026-11-05
+    note: "ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: radio_public_recording (라디오 공개 녹음·토크, 세트리스트 없음). Official cast line: 'Liella! 2期生・3期生 … 予定' (same for all parts). 第3部 streamed on YouTube, バンダイチャンネル, ニコニコ生放送, Bilibili; 第1部・第2部 paid stream on Streaming+. Venue address per official flower notice: 茨城県牛久市柏田町1606-1. / 근거: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2025 (event detail page (Wayback snapshot 2026-10-23))"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=sp_radio_2025
+    checked: 2026-11-04

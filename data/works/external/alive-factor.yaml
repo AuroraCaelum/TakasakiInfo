@@ -4,7 +4,25 @@ title:
   ja: アライブファクター
   rom: Alive Factor
   ko: 얼라이브 팩터
-recordings: []
+recordings:
+  - id: live-ijigen-fes-2023-2023-12-09
+    title:
+      ja: アライブファクター (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      rom: Alive Factor (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
+      ko: 얼라이브 팩터 (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
+    version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
+    performers:
+      - {character: aqours/yoshiko-tsushima}
+      - {character: liella/margarete-wien}
+      - {character: hasunosora/sayaka-murano}
+    live:
+      concert: aqours/ijigen-fes-2023
+      date: 2023-12-09
+    evidence:
+      credits:
+        status: official
+        source: https://ijigen-fes.jp/utagassen/cd.php
+        checked: 2026-11-04
 external_ids:
   fandom: Alive Factor
 evidence:

@@ -1,0 +1,31 @@
+id: yohane/kyomafu-2023
+projects: [yohane]
+status: performed
+title:
+  ja: 京都国際マンガ・アニメフェア2023（京まふ2023） 幻日のヨハネ -SUNSHINE in the MIRROR- スペシャルステージ
+  rom: Kyoto International Manga Anime Fair 2023 (Kyomafu 2023) Genjitsu no Yohane -SUNSHINE in the MIRROR- Special Stage
+  ko: 교토 국제 만화·애니메이션 페어 2023 (교마후 2023) 환일의 요하네 -SUNSHINE in the MIRROR- 스페셜 스테이지
+cast:
+  - {character: yohane/yohane}
+  - {character: yohane/hanamaru}
+stops:
+  - id: 1-kyoto
+    city: kyoto
+    venue: miyako-messe
+    performances:
+      - {date: 2023-09-17}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05
+    note: '출연란: 小林愛香(ヨハネ); 高槻かなこ(ハナマル)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05
+    note: 'ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2023-09-17 13:00–13:40] 小林愛香(ヨハネ); 高槻かなこ(ハナマル). Talk stage before the episode 13 early stream. Cast from external listing; the official trace is only the CLUB REPORT title. / 근거: https://www.lovelive-anime.jp/uranohoshi/cd.php (Aqours CLUB CD SET 2024 product page (cached in r2/txt c1d57587): Disc.2 CLUB REPORT 14 "京まふ2023 TVアニメ第13話最速先行配信直前！スペシャルステージ")'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php
+    checked: 2026-11-05

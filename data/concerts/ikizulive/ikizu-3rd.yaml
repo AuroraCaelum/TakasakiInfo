@@ -1,0 +1,45 @@
+id: ikizulive/ikizu-3rd
+projects: [ikizulive]
+status: announced
+title:
+  ja: いきづらい部！ 3rd LIVE ～いつかみんなで叶いそう～
+  rom: Ikizuraibu! 3rd LIVE ~Itsuka Minna de Kanaisou~
+  ko: 이키즈라이부! 3rd LIVE ~언젠가 다 함께 이뤄질 것 같아~
+cast:
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/akira-goto}
+  - {character: ikizulive/hanabi-komagata}
+  - {character: ikizulive/miracle-kanazawa}
+  - {character: ikizulive/noriko-chofu}
+  - {character: ikizulive/yukuri-harumiya}
+  - {character: ikizulive/aurora-konohana}
+  - {character: ikizulive/midori-yamada}
+  - {character: ikizulive/shion-sasaki}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: ariake-arena
+    performances:
+      - {date: 2027-03-27}
+      - {date: 2027-03-28}
+  - id: 2-hyogo
+    city: hyogo
+    venue: glion-arena-kobe
+    performances:
+      - {date: 2027-04-10}
+      - {date: 2027-04-11}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE
+    checked: 2026-10-27
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE
+    checked: 2026-11-05
+    note: 'ja: 공식 상세 페이지 제목(2nd처럼 部！ 뒤 공백). rom·ko: 「いきづらい部！ 2nd LIVE」의 고정 표기 + 부제 헵번식·번역안'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE
+    checked: 2026-10-27

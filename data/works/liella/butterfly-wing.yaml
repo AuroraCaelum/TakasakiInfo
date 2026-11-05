@@ -39,6 +39,38 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd28.php
         checked: 2026-10-19
+  - id: tv-size
+    title:
+      ja: Butterfly Wing ～TV Size～
+      rom: Butterfly Wing ~TV Size~
+      ko: Butterfly Wing ~TV Size~
+    version: TV Size
+    performers:
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd26.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+  - id: piano-size-ver
+    title:
+      ja: Butterfly Wing ～Piano Size Ver.～
+      rom: Butterfly Wing ~Piano Size Ver.~
+      ko: Butterfly Wing ~Piano Size Ver.~
+    version: Piano Size Ver.
+    performers:
+      - {character: liella/margarete-wien}
+    arranger:
+      - {person: yuya-mori}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

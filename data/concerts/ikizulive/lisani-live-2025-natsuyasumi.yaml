@@ -1,0 +1,64 @@
+id: ikizulive/lisani-live-2025-natsuyasumi
+projects: [ikizulive]
+status: performed
+title:
+  ja: リスアニ！LIVE 2025 ナツヤスミ
+  rom: LisAni! LIVE 2025 Natsuyasumi
+  ko: 리스아니! LIVE 2025 나츠야스미
+cast:
+  - {character: ikizulive/polka-takahashi}
+  - {character: ikizulive/mai-azabu}
+  - {character: ikizulive/akira-goto}
+  - {character: ikizulive/hanabi-komagata}
+  - {character: ikizulive/miracle-kanazawa}
+  - {character: ikizulive/noriko-chofu}
+  - {character: ikizulive/yukuri-harumiya}
+  - {character: ikizulive/aurora-konohana}
+  - {character: ikizulive/midori-yamada}
+  - {character: ikizulive/shion-sasaki}
+stops:
+  - id: 1-kanagawa
+    city: kanagawa
+    venue: pacifico-yokohama-national-convention-hall
+    performances:
+      - date: 2025-07-12
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: ikizuraibu}
+      - date: 2025-07-13
+        setlist:
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - work: muse/natsuiro-egao-de-1-2-jump
+            performers:
+              - {artist: ikizuraibu}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4891
+    checked: 2026-11-04
+    note: '출연란: 綾咲穂音(高橋ポルカ); 遠藤璃菜(麻布麻衣); 宮野 芹(五桐 玲); 藤野こころ(駒形花火); 坂野愛羽(金澤奇跡); 瀬古梨愛(調布のりこ); 奥村優季(春宮ゆくり); 天沢朱音(此花輝夜); 小戸森穂花(山田真緑); 涼ノ瀬葵音(佐々木翔音)'
+  setlist.2025-07-12:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities#Lis_Ani!_LIVE_2025_Natsuyasumi
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  setlist.2025-07-13:
+    status: established
+    source: https://love-live.fandom.com/wiki/Ikizurai-Bu!_Extracurricular_Activities#Lis_Ani!_LIVE_2025_Natsuyasumi
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4891
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: [2025-07-12 SATURDAY STAGE, 2025-07-13 SUNDAY STAGE] 綾咲穂音(高橋ポルカ); 遠藤璃菜(麻布麻衣); 宮野 芹(五桐 玲); 藤野こころ(駒形花火); 坂野愛羽(金澤奇跡); 瀬古梨愛(調布のりこ); 奥村優季(春宮ゆくり); 天沢朱音(此花輝夜); 小戸森穂花(山田真緑); 涼ノ瀬葵音(佐々木翔音). Opening act (オープニングアクト) on both days. 'June 17, 2025' in the input date_text is the announcement date, not a show. Fandom gives a single set list without saying whether it was identical on both days. Ikizurai-Bu!'s first-ever live performance. / 근거: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4891 (2025.06.17 「リスアニ！LIVE 2025 ナツヤスミ」にいきづらい部！の出演が決定！ - opening act; 7/12 SATURDAY STAGE, 7/13 SUNDAY STAGE, 開場16:00/開演17:00; 会場 パシフィコ横浜 国立大ホール (); https://www.lisani.jp/live-special/ (Organizer page: いきづらい部！（オープニングアクト） listed on both days with 【メンバー】 all 10 cast and roles; venue address 神奈川県横浜市西区みなとみらい1-1-1)"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_4891
+    checked: 2026-11-04

@@ -1,0 +1,37 @@
+id: musical/musical-2024
+projects: [musical]
+status: performed
+title:
+  ja: スクールアイドルミュージカル（2024年公演）
+  rom: School Idol Musical (2024 Performances)
+  ko: 스쿨 아이돌 뮤지컬 (2024년 공연)
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: theater-milano-za
+    performances:
+      - {date: 2024-01-11}
+      - {date: 2024-01-12}
+      - {date: 2024-01-13, label: 12:00 本編}
+      - {date: 2024-01-13, label: 16:30 本編}
+      - {date: 2024-01-14, label: 12:00 本編}
+      - {date: 2024-01-14, label: 16:30 本編}
+      - {date: 2024-01-15}
+      - {date: 2024-01-16}
+      - {date: 2024-01-18, label: 13:00 本編}
+      - {date: 2024-01-18, label: 18:30 本編}
+      - {date: 2024-01-19}
+      - {date: 2024-01-20, label: 14:30 文化祭＆後夜祭スペシャル公演}
+      - {date: 2024-01-20, label: 18:00 文化祭＆後夜祭スペシャル公演}
+      - {date: 2024-01-21, label: 12:00 文化祭＆後夜祭スペシャル公演}
+      - {date: 2024-01-21, label: 15:30 文化祭＆後夜祭スペシャル公演}
+evidence:
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/2024/schedule.php
+    checked: 2026-11-05
+    note: 'ja: 공식 사이트의 작품명 「スクールアイドルミュージカル」에 공연 연도(공식 사이트의 구분)를 괄호로 붙여 구별. rom·ko: 번역안. 일정 조사 메모: 무대 뮤지컬(세트리스트 없음, 공연별 캐스트표는 후속). 휴연·중지 공연 제외. https://www.lovelive-anime.jp/musical/2024/schedule.php: per_show_cast rows are the official table as printed (surnames; header row gives role names and alternates).'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2024/schedule.php
+    checked: 2026-11-04

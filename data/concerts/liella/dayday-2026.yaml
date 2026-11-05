@@ -1,0 +1,37 @@
+id: liella/dayday-2026
+projects: [liella]
+status: performed
+title:
+  ja: DayDay.
+  rom: DayDay.
+  ko: DayDay.
+cast:
+  - {artist: liella}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2026-06-17
+        setlist:
+          - work: liella/koi-no-tutorial
+            performers:
+              - {artist: liella}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6257
+    checked: 2026-11-05
+    note: '출연란: Liella!'
+  setlist.2026-06-17:
+    status: established
+    source: https://love-live.fandom.com/wiki/Liella!_Extracurricular_Activities#DayDay.
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6257
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 라틴 원문. 일정 조사 메모: 방송 출연. [2026-06-17 9:00〜11:10] Liella!. Morning programme; Fandom says pre-recorded, short version. The official news does not name the song outright. / 근거: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6257 (Liella! official news 2026-06-12 (Wayback 20261023050428): 日本テレビ「DayDay.」6月17日(水) on the release day of 『ちゅーとりえら!! 2期』 theme 「恋のチュートリアル」)'
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6257
+    checked: 2026-11-05

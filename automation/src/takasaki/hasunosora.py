@@ -21,7 +21,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .importer import (EditionObs, ParseError, Performers, ReleaseObs, Report, Site, Spec, TrackObs, is_credit_line,
-                       page_id, parse_credit_line)
+                       page_id, parse_credit_line, score_of)
 from .importer import import_site as _import_site
 from .official import BASE, Fetcher
 from .store import Dataset
@@ -138,6 +138,7 @@ class PageObs:
     smartlink: str | None = None
     note: str | None = None
     skip: str | None = None  # why the page is left out
+    score: list[str] = field(default_factory=list)  # a soundtrack's composer (音楽：…, D53)
 
 
 def _skip_reason(lead: str, title: str, category: str, artist: list[str]) -> str | None:
@@ -145,9 +146,7 @@ def _skip_reason(lead: str, title: str, category: str, artist: list[str]) -> str
     if category not in ("CD", "配信") or "Blu-ray" in lead + title:
         return f"{category}: a video release, not a music release"
     if joined.strip() == "V.A.":
-        return "V.A.: other franchises' artists (tribute album)"
-    if joined.startswith("音楽："):
-        return "soundtrack (score), not in the legacy files"
+        return "V.A.: other franchises' artists (tribute album, entered by hand: D52)"
     if title == "タイトル未定":
         return "announced without a title or tracklist yet"
     return None
@@ -220,7 +219,11 @@ def parse_page(html: str, url: str) -> PageObs:
         return page
     if errors:
         raise ParseError("; ".join(errors))
-    page.performers = parse_artists(artist)
+    # a soundtrack: "音楽：藤澤慶昌／蓮ノ空女学院スクールアイドルクラブ", the composer, then the singers (D53)
+    page.score = score_of(artist)
+    sung = [re.split(r"\s*[／/]\s*", a.split("：", 1)[1], maxsplit=1)[1] if a.startswith("音楽：") and re.search(r"[／/]", a) else a
+            for a in artist if not (a.startswith("音楽：") and not re.search(r"[／/]", a))]
+    page.performers = parse_artists(sung) if sung else Performers(None, None)
     page.tracks = tracks
     cm = next((_CATALOG.search(c) for c in catalogs if _CATALOG.search(c)), None)
     page.catalog = unicodedata.normalize("NFKC", cm.group(0)) if cm else None
@@ -231,8 +234,10 @@ def parse_page(html: str, url: str) -> PageObs:
     return page
 
 
-def _type(lead: str, title: str, category: str) -> str:
+def _type(lead: str, title: str, category: str, score: list[str] | None = None) -> str:
     s = f"{lead} {title}"
+    if score or "サウンドトラック" in s:
+        return "soundtrack"
     if category == "配信":
         return "album" if re.search(r"Collection|アルバム|Album", s) else "digital_single"
     if "ミニアルバム" in s:
@@ -263,8 +268,8 @@ def group_pages(pages: list[PageObs]) -> tuple[list[ReleaseObs], list[str]]:
         smart = next((p.smartlink for p in ps if p.smartlink), None)
         out.append(ReleaseObs(first.url, lead, title, date, first.performers,
                               [EditionObs(p.edition, p.catalog, p.media) for p in ps], first.tracks,
-                              {"smartlink": smart} if smart else {}, first.note, _type(lead, title, first.category),
-                              [p.url for p in ps]))
+                              {"smartlink": smart} if smart else {}, first.note, _type(lead, title, first.category, first.score),
+                              [p.url for p in ps], score=first.score))
     out.sort(key=lambda r: (r.release_date, r.url))
     return out, notes
 

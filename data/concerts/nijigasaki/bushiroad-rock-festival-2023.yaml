@@ -1,0 +1,80 @@
+id: nijigasaki/bushiroad-rock-festival-2023
+projects: [nijigasaki, liella]
+status: performed
+title:
+  ja: BUSHIROAD ROCK FESTIVAL 2023
+  rom: BUSHIROAD ROCK FESTIVAL 2023
+  ko: BUSHIROAD ROCK FESTIVAL 2023
+cast:
+  - {character: nijigasaki/setsuna-yuki}
+  - {character: nijigasaki/kasumi-nakasu}
+  - {character: nijigasaki/rina-tennoji}
+  - {artist: liella}
+stops:
+  - id: 1-yamanashi
+    city: yamanashi
+    venue: fuji-q-highland-conifer-forest
+    performances:
+      - date: 2023-05-27
+        setlist:
+          - work: nijigasaki/ryoran-victory-road
+            version: BUSHIROAD ROCK ver.
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/chase
+            performers:
+              - {character: nijigasaki/setsuna-yuki}
+          - work: nijigasaki/doki-pipo-emotion
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/diamond
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/neo-sky-neo-map
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: liella/we-will
+            performers:
+              - {artist: liella}
+          - work: liella/yuragu-wa
+            performers:
+              - {artist: liella}
+          - work: liella/day1
+            performers:
+              - {artist: liella}
+          - work: liella/second-sparkle
+            performers:
+              - {artist: liella}
+          - work: liella/to-be-continued
+            performers:
+              - {artist: liella}
+          - {type: other, label: 'R･I･O･T (RAISE A SUILEN, 虹ヶ咲 합동)'}
+evidence:
+  cast:
+    status: official
+    source: https://live.bushiroad-music.com/brfes2023/
+    checked: 2026-11-04
+    note: '출연란: 林鼓子(優木せつ菜); 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈) / Liella!'
+  setlist.2023-05-27:
+    status: established
+    source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Extracurricular_Activities#BUSHIROAD_ROCK_FESTIVAL_2023
+    checked: 2026-11-04
+    note: '공식 미게재: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other); 같은 날 여러 그룹은 그룹별로 이어 붙임(그룹 간 순서는 출처 기준 아님)'
+  title:
+    status: derived
+    source: https://live.bushiroad-music.com/brfes2023/
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2023-05-27] 林鼓子(優木せつ菜); 相良茉優(中須かすみ); 田中ちえ美(天王寺璃奈). Set list Fandom-only. The opening 繚乱！ビクトリーロード collab: Fandom lists seiyuu of other Bushiroad bands (names kept in Fandom's romanization). Fandom trivia: 小泉萌香 was at the festival with Peaky P-key, not with Nijigasaki. Liella! (minus Liyuu) also performed at this festival (not this row). City is the venue's location (Fuji-Q Highland, Fujiyoshida) - not printed on the organizer page. / [2023-05-27] Liella!. Fandom list item 'MIRACLE NEW STORY' sits under 'Nijigasaki Segment' and is excluded here. Nijigasaki reps 相良茉優/林鼓子/田中ちえ美 also appeared. Liyuu (唐可可) did not appear (official news). Venue is in Fujiyoshida, Yamanashi. / 근거: https://live.bushiroad-music.com/brfes2023/ (Organizer page (Wayback 20230529231526): BUSHIROAD ROCK FESTIVAL 2023, ブシロードミュージック主催, 2023年5月27日(土) 開場13:30/開演15:00; 会場 富士急ハイランド・コニファーフォレスト;); https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_2089 (Liella! official news 2023-05-26 (via Wayback 20230924062753): BUSHIROAD ROCK FESTIVAL 2023, 2023年5月27日(土), 富士急ハイランド・コニファーフォレスト; Liyuu (唐可可))"
+  schedule:
+    status: official
+    source: https://live.bushiroad-music.com/brfes2023/
+    checked: 2026-11-04

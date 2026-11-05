@@ -9,7 +9,50 @@ credits:
     - {person: aki-hata}
   composer:
     - {person: yusuke-itagaki}
-recordings: []
+recordings:
+  - id: original
+    performers:
+      - {artist: a-rise}
+    arranger:
+      - {person: yusuke-itagaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+        note: '가창자: 레이블 카탈로그(https://catalog.bandainamcomusiclive.co.jp/release/65010/)'
+  - id: tv-size
+    title:
+      ja: Shocking Party (TVサイズ)
+      rom: Shocking Party (TV Size)
+      ko: Shocking Party (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: a-rise}
+    arranger:
+      - {person: yusuke-itagaki}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+        note: '가창자: 레이블 카탈로그(https://catalog.bandainamcomusiclive.co.jp/release/65010/)'
+  - id: off-vocal
+    kind: off_vocal
+    title:
+      ja: Shocking Party (Off Vocal)
+      rom: Shocking Party (Off Vocal)
+      ko: Shocking Party (Off Vocal)
+    version: Off Vocal
+    arranger:
+      - {person: yusuke-itagaki}
+    instrumental_of: original
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
+        checked: 2026-10-26
+        note: 편곡은 보컬 음원과 같음
 external_ids:
   fandom: Shocking Party
 evidence:

@@ -1,0 +1,49 @@
+id: aqours/animelo-2018
+projects: [aqours]
+status: performed
+title:
+  ja: Animelo Summer Live 2018 "OK!"
+  rom: Animelo Summer Live 2018 "OK!"
+  ko: Animelo Summer Live 2018 "OK!"
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-saitama
+    city: saitama
+    venue: saitama-super-arena
+    performances:
+      - date: 2018-08-24
+        setlist:
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+          - work: aqours/kimi-no-hitomi-o-meguru-boken
+            performers:
+              - {artist: aqours}
+          - {type: other, label: Medley}
+          - work: aqours/wonderful-stories
+            performers:
+              - {artist: aqours}
+          - work: aqours/yuki-wa-doko-ni-kimi-no-mune-ni
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: https://anisama.tv/2018/special/setlist.html
+    checked: 2026-11-04
+    note: '출연란: Aqours'
+  setlist.2018-08-24:
+    status: official
+    source: https://anisama.tv/2018/special/setlist.html
+    checked: 2026-11-04
+    note: 러브라이브! 시리즈 출연 부분만(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)
+  title:
+    status: derived
+    source: https://anisama.tv/2018/special/setlist.html
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 라틴 원문. 일정 조사 메모: [2018-08-24 DAY1] Aqours. Title printed as Animelo Summer Live 2018 “OK!”. #42 is a medley. / 근거: https://anisama.tv/2018/special/setlist.html (organizer setlist, block headed (image) '8.24(金) セットリスト': 40-42 by Aqours; meta: 8/24-26 さいたまスーパーアリーナ)"
+  schedule:
+    status: official
+    source: https://anisama.tv/2018/special/setlist.html
+    checked: 2026-11-04

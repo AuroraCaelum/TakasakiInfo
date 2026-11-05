@@ -1,0 +1,32 @@
+id: aqours/taipei-comic-fair-2016
+projects: [aqours]
+status: performed
+title:
+  ja: 2016第17屆漫畫博覽會 《Love Live! Sunshine!!》Aqours 舞台活動
+  rom: The 17th Comic Exhibition 2016 "Love Live! Sunshine!!" Aqours Stage
+  ko: 2016 제17회 만화박람회 《Love Live! Sunshine!!》 Aqours 무대 활동
+cast:
+  - {character: aqours/chika-takami}
+  - {character: aqours/yoshiko-tsushima}
+  - {character: aqours/mari-ohara}
+stops:
+  - id: 1-taipei
+    city: taipei
+    venue: taipei-world-trade-center-exhibition-hall-1
+    performances:
+      - {date: 2016-08-13}
+evidence:
+  cast:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news59.php
+    checked: 2026-11-05
+    note: '출연란: 伊波杏樹(高海千歌); 小林愛香(津島善子); 鈴木愛奈(小原鞠莉)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news59.php
+    checked: 2026-11-05
+    note: "ja: 주최·공식 표기. rom·ko: 번역안. 일정 조사 메모: 토크 무대(외부 행사). [2016-08-13] 伊波杏樹(高海千歌); 小林愛香(津島善子); 鈴木愛奈(小原鞠莉). Talk stage (Q&A, SIF combo contest, quiz raffle). title_ja is assembled from the organizer's page wording (no single printed stage title found). Venue 世貿一館 is the fair venue as printed in the official card-handover notice; the stage itself is not named. Separate 8/14 card handover at a booth not counted. / 근거: https://www.lovelive-anime.jp/uranohoshi/worldwide/news59.php (Wayback 20160901231658: [Report] #2510 (2016/08/25) \"Taipei Comic Fair 2016 Stage – Official Report\": August 13, 2016, Inami/Kobayashi/Suzuk); http://www.ccpa.org.tw/comic/new0006.php (organizer (中華動漫出版同業協進會), Wayback 20160729044221: 《Love Live! Sunshine!!》Aqours成員 8月漫博登台！ — 伊波杏樹、小林愛香、鈴木愛奈); https://www.lovelive-anime.jp/uranohoshi/worldwide/news.php (Wayback 20160814122530: 2016/08/09 【台灣】名片手遞會 notice — fair venue printed as 世貿一館 2016年第17屆漫畫博覽會 (card handover on 8/14 at My-Cartoon booth, )"
+  schedule:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/worldwide/news59.php
+    checked: 2026-11-05

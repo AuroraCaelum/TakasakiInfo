@@ -1,0 +1,37 @@
+id: musical/dream-live-2027
+projects: [musical]
+status: announced
+title:
+  ja: SCHOOL IDOL MUSICAL DREAM LIVE!
+  rom: SCHOOL IDOL MUSICAL DREAM LIVE!
+  ko: SCHOOL IDOL MUSICAL DREAM LIVE!
+cast:
+  - {person: marina-horiuchi}
+  - {person: karin-miyamoto}
+  - {person: nanami-asai}
+  - {person: an-juria}
+  - {person: riko-shimizu}
+  - {person: neo-inoue}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: imm-theater
+    performances:
+      - {date: 2027-01-14}
+      - {date: 2027-01-15}
+evidence:
+  cast:
+    status: established
+    source: https://tinpanblog.com/?p=57482
+    checked: 2026-11-04
+    note: '공식 미게재: 외부 기사의 출연자 8명 중 데이터에 있는 6명(安本彩花·仲村悠菜는 인물 미등록, and more)'
+  title:
+    status: derived
+    source: https://www.lovelive-anime.jp/musical/live/live_detail.php?p=dreamlive
+    checked: 2026-11-05
+    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 뮤지컬 캐스트의 첫 단독 라이브. 일정·회장·출연은 외부(tinpanblog) 기사, 공식 페이지 본문 미확인'
+  schedule:
+    status: established
+    source: https://tinpanblog.com/?p=57482
+    checked: 2026-11-04
+    note: '공식 미게재: 공식 페이지(live_detail.php?p=dreamlive) 본문을 읽지 못해 외부 기사 기준'

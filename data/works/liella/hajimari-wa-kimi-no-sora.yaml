@@ -69,6 +69,22 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd46.php
         checked: 2026-10-20
+  - id: episode-12-ver
+    title:
+      ja: 始まりは君の空 ～第12話 Ver.～
+      rom: Hajimari wa Kimi no Sora ~Episode 12 Ver.~
+      ko: 시작은 너의 하늘 ~제12화 Ver.~
+    version: 第12話 Ver.
+    performers:
+      - {artist: liella}
+    arranger:
+      - {person: shu-kanematsu}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official

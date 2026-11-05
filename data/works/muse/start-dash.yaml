@@ -212,6 +212,53 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
         checked: 2026-10-20
+  - id: prepro-piano-mix
+    title:
+      ja: START:DASH!! (Prepro Piano Mix)
+      rom: START:DASH!! (Prepro Piano Mix)
+      ko: START:DASH!! (Prepro Piano Mix)
+    version: Prepro Piano Mix
+    performers:
+      - {character: muse/maki-nishikino}
+    arranger:
+      - {person: yoichi-sakai}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size
+    title:
+      ja: START:DASH!! (TVサイズ)
+      rom: START:DASH!! (TV Size)
+      ko: START:DASH!! (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {character: muse/honoka-kosaka}
+      - {character: muse/kotori-minami}
+      - {character: muse/umi-sonoda}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
+  - id: tv-size-muse
+    title:
+      ja: START:DASH!! (TVサイズ)
+      rom: START:DASH!! (TV Size)
+      ko: START:DASH!! (TV 사이즈)
+    version: TVサイズ
+    performers:
+      - {artist: muse}
+    arranger:
+      - {person: hiroshi-sasaki}
+    evidence:
+      credits:
+        status: official
+        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+        checked: 2026-10-26
 evidence:
   title:
     status: derived

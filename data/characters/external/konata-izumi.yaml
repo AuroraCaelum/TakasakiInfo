@@ -1,0 +1,32 @@
+id: external/konata-izumi
+project: external
+names:
+  ja: 泉こなた
+  kana: いずみ こなた
+  rom: Konata Izumi
+  ko: 이즈미 코나타
+family_name:
+  ja: 泉
+  kana: いずみ
+  rom: Izumi
+  ko: 이즈미
+given_name:
+  ja: こなた
+  kana: こなた
+  rom: Konata
+  ko: 코나타
+casting:
+  - {person: aya-hirano}
+evidence:
+  names:
+    status: derived
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-11-05
+    note: "『らき☆すた』. ja·읽기: 공식 사이트 캐릭터 목록 https://www.lucky-ch.com/luckypedia/index.html ('泉　こなた', 'いずみこなた', 띄어쓰기는 D28). rom: 권리자 영문 표기를 열지 못해 헵번 규칙(나무위키의 영문도 같음). ko: 나무위키 '이즈미 코나타'"
+  casting:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
+    checked: 2026-10-20
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'

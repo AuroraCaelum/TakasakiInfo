@@ -1,0 +1,36 @@
+id: yohane/rodokugeki-2025
+projects: [yohane]
+status: performed
+title:
+  ja: 朗読劇 幻日のヨハネ -SUNSHINE in the MIRROR-
+  rom: Reading Drama Yohane the Parhelion -SUNSHINE in the MIRROR-
+  ko: 낭독극 환일의 요하네 -SUNSHINE in the MIRROR-
+cast:
+  - {character: yohane/yohane}
+  - {character: yohane/you}
+  - {character: yohane/riko}
+stops:
+  - id: 1-tokyo
+    city: tokyo
+    venue: theater-h
+    performances:
+      - {date: 2025-03-14, label: 昼公演}
+      - {date: 2025-03-14, label: 夜公演}
+      - {date: 2025-03-15, label: 昼公演}
+      - {date: 2025-03-15, label: 夜公演}
+      - {date: 2025-03-16, label: 昼公演}
+      - {date: 2025-03-16, label: 夜公演}
+evidence:
+  cast:
+    status: official
+    source: https://yohane.net/event/detail/?page=yohane_rodoku
+    checked: 2026-11-04
+  title:
+    status: derived
+    source: https://yohane.net/event/detail/?page=yohane_rodoku
+    checked: 2026-11-05
+    note: 'ja: 공식 페이지 표기. rom·ko: 번역안. 일정 조사 메모: Reading-drama stage run (朗読劇), not a concert; include only if stage plays count (like the musical). Whether songs were sung is not stated. / 근거: https://yohane.net/event/detail/?page=yohane_rodoku (event page (Wayback 20261016212603): 2025年3月14日(金)-16日(日), 昼公演/夜公演 each day with times, 会場 シアターH (東京都品川区勝島1丁目６−２９), 出演 3)'
+  schedule:
+    status: official
+    source: https://yohane.net/event/detail/?page=yohane_rodoku
+    checked: 2026-11-04

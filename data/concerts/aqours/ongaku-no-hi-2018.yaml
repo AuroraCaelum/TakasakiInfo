@@ -1,0 +1,37 @@
+id: aqours/ongaku-no-hi-2018
+projects: [aqours]
+status: performed
+title:
+  ja: 音楽の日2018
+  rom: Ongaku no Hi 2018
+  ko: 음악의 날 2018
+cast:
+  - {artist: aqours}
+stops:
+  - id: 1-online
+    performances:
+      - date: 2018-07-15
+        setlist:
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+evidence:
+  cast:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05
+    note: '출연란: Aqours'
+  setlist.2018-07-15:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Aqours
+    checked: 2026-11-05
+    note: '공식 미게재: 방송에서 부른 곡(가창자 미기재는 곡의 원곡 가창자, 데이터 밖 곡은 other)'
+  title:
+    status: derived
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05
+    note: 'ja: 방송사·주최 표기. rom·ko: 번역안. 일정 조사 메모: 방송 출연. [2018-07-15 第二部 深夜3時〜あさ5時] Aqours. Live broadcast that started 2018-07-14; Aqours were in the 3:00–5:00 a.m. block, so the performance fell on 2018-07-15. Song from jawiki only. / 근거: http://www.lovelive-anime.jp/uranohoshi/news43.php (Aqours official news 2018/07/10「TBS系列「音楽の日」Aqoursが歌唱ゲストで出演します！」 (Wayback 20180731101847): 第一部 7/14 14:00～21:54, 第二部 7/14 23:45～5:00); http://www.tbs.co.jp/ongakunohi/ (TBS timetable (Wayback 20180714165223): Aqours in the 「深夜3時〜あさ5時」 block)'
+  schedule:
+    status: official
+    source: http://www.lovelive-anime.jp/uranohoshi/news43.php
+    checked: 2026-11-05

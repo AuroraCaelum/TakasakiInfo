@@ -73,6 +73,24 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-19
+  - id: movie-size
+    title:
+      ja: 逃走迷走メビウスループ (MOVIEサイズ)
+      rom: Tousou Meisou Mobius Loop (MOVIE Size)
+      ko: 도망 황망 뫼비우스의 띠 (MOVIE 사이즈)
+    version: MOVIEサイズ
+    performers:
+      - {character: aqours/kanan-matsuura}
+      - {character: aqours/dia-kurosawa}
+      - {character: aqours/mari-ohara}
+    arranger:
+      - {person: akihiko-yamaguchi}
+    evidence:
+      credits:
+        status: derived
+        source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
+        checked: 2026-10-26
+        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
 evidence:
   credits:
     status: official
