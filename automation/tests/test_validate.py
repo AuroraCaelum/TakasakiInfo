@@ -312,3 +312,25 @@ def test_a_live_recording_names_a_show_the_concert_has():
     assert any(f.rule == "E2" and "has no show on 2026-01-01" in f.message for f in validate(ds))
     live.live = m.LiveOf(concert="p/1st")  # the release does not say which show
     assert not any("live:" in f.message for f in validate(ds))
+
+
+def test_birthday_format_and_source():
+    # D60: a person's birthday is YYYY-MM-DD, or MM-DD when the year is not public; a character's has no year
+    assert m.Person(id="a", names=m.Names(ja="a"), birthday="1968-12-02").birthday == "1968-12-02"
+    assert m.Person(id="a", names=m.Names(ja="a"), birthday="02-29").birthday == "02-29"
+    for bad in ("1990-02-30", "13-01", "1990-2-1", "12/02"):
+        with pytest.raises(ValueError):
+            m.Person(id="a", names=m.Names(ja="a"), birthday=bad)
+    with pytest.raises(ValueError):
+        _you(birthday="2000-04-17")
+    # E16: the value and its evidence go together
+    ev = m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/uranohoshi/member/")
+    assert "E16" not in _rules(_ds(_you(birthday="04-17", evidence={"birthday": ev})))
+    assert "E16" in _rules(_ds(_you(birthday="04-17")))
+    assert "E16" in _rules(_ds(_you(evidence={"birthday": ev})))
+    # W16: a character's birthday is on the work's official site; a person's agency is not on the list
+    wiki = m.Evidence(status=m.Status.established, source="https://ja.wikipedia.org/wiki/x")
+    assert "W16" in _rules(_ds(_you(birthday="04-17", evidence={"birthday": wiki})))
+    ds = _ds()
+    ds.persons["a"].birthday, ds.persons["a"].evidence = "1968-12-02", {"birthday": wiki}
+    assert "W16" not in _rules(ds)

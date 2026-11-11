@@ -305,6 +305,14 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 if v and halfwidth(v) != v:
                     add("E15", f"{kind}:{ent.id}", f"{path}.{lang} {v!r} is not half-width ({halfwidth(v)!r})")
 
+    # E16: a birthday comes with its source, and a source with its birthday (D60)
+    for kind, ent in ds.iter_all():
+        if kind in ("person", "character"):
+            has_ev = "birthday" in ent.evidence  # type: ignore[attr-defined]
+            if (ent.birthday is not None) != has_ev:  # type: ignore[attr-defined]
+                add("E16", f"{kind}:{ent.id}", "birthday has no evidence.birthday" if not has_ev  # type: ignore[attr-defined]
+                    else "evidence.birthday without a birthday")
+
     # E12 / W15: name parts and Japanese name spacing (D26, D28)
     split_names = (
         [(f"person:{p.id}", p) for p in ds.persons.values()]
@@ -437,7 +445,9 @@ OFFICIAL_HOSTS = ("www.lovelive-anime.jp", "lovelive-anime.jp", "www.lantis.jp",
                   # the official sites of the events the rights holders organize, as the concert adapter reads them (D47)
                   "ijigen-fes.jp", "tutoliella-live.jp", "lovelive-overseas.bitfan.id")
 # the rights holders' sites of the other franchises whose characters appear in crossovers (external/*)
-OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com")
+OTHER_OFFICIAL_DOMAINS = ("idolmaster-official.jp", "imas-cinderella.com",
+                          # the character pages the birthdays of the other franchises' characters come from (D60)
+                          "umamusume.jp", "bang-dream.bushimo.jp", "lucky-ch.com", "toei-anim.co.jp")
 # the organizers' and broadcasters' own sites of the outside festivals, programmes and stages a group appeared
 # at (D55, D56): official for that event's schedule, line-up and set list
 ORGANIZER_DOMAINS = ("anisama.tv", "kagayaki-fes.jp", "fes.bn-ent.net", "idolfes.com", "bushiroad-music.com", "inazumarock.com",
@@ -465,5 +475,7 @@ def official_first(kind: str, key: str) -> bool:
     readings, a person's own romanization (§5.3 ②) and recording checks come from elsewhere."""
     if key.endswith((".ko", ".kana")) or (kind == "person" and key == "names.rom"):
         return False
+    if key == "birthday":  # a character's birthday is on the work's site; a person's is on their agency's (D60)
+        return kind == "character"
     return key.split(".")[0] in {"names", "title", "casting", "lineups", "credits", "tracks", "editions", "release_date",
                                  "cast"}

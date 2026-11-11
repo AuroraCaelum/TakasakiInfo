@@ -206,6 +206,8 @@ def quality(ds: Dataset, review_dir: Path | None = None) -> dict[str, Any]:
             "vocal_recordings_with_kana": pct(sum(1 for w, r in vocal if (r.title or w.title).kana), len(vocal)),
             "names_with_ko": pct(sum(1 for _, n in names if n.ko), len(names)),
             "names_with_rom": pct(sum(1 for _, n in names if n.rom), len(names)),
+            "persons_with_birthday": pct(sum(1 for p in ds.persons.values() if p.birthday), len(ds.persons)),
+            "characters_with_birthday": pct(sum(1 for c in ds.characters.values() if c.birthday), len(ds.characters)),
             "release_titles_with_ko": pct(sum(1 for t in rel_titles if t.ko), len(rel_titles)),
             "release_titles_with_rom": pct(sum(1 for t in rel_titles if t.rom), len(rel_titles)),
             "tracks_with_link": pct(sum(1 for t in tracks if t["link"]["youtube_music"]), len(tracks)),

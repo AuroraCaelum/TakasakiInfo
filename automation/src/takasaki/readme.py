@@ -16,7 +16,7 @@ import types
 import urllib.parse
 from enum import Enum
 from pathlib import Path
-from typing import Any, Literal, Union, get_args, get_origin
+from typing import Annotated, Any, Literal, Union, get_args, get_origin
 
 from pydantic import BaseModel
 from pydantic.fields import FieldInfo
@@ -188,7 +188,9 @@ def _type(ann: Any) -> str:
     parts = []
     for a in _variants(ann):
         origin = get_origin(a)
-        if origin is list:
+        if origin is Annotated:  # a constrained scalar (Birthday) is shown as its base type
+            parts.append(_type(get_args(a)[0]))
+        elif origin is list:
             parts.append(_type(get_args(a)[0]) + "[]")
         elif origin is dict:
             parts.append("map of " + _type(get_args(a)[1]))

@@ -23,8 +23,8 @@ SCHEMA = """
 PRAGMA foreign_keys = ON;
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 CREATE TABLE project (id TEXT PRIMARY KEY);
-CREATE TABLE person (id TEXT PRIMARY KEY, native_script TEXT NOT NULL);
-CREATE TABLE character (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id));
+CREATE TABLE person (id TEXT PRIMARY KEY, native_script TEXT NOT NULL, birthday TEXT);
+CREATE TABLE character (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), birthday TEXT);
 CREATE TABLE artist (id TEXT PRIMARY KEY, kind TEXT NOT NULL);
 CREATE TABLE work (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), kind TEXT NOT NULL);
 CREATE TABLE recording (
@@ -173,7 +173,7 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
         names(f"project:{p.id}", "name", p.names, p.evidence)
         common(f"project:{p.id}", p)
     for p in ds.persons.values():
-        ins("person", (p.id, p.native_script))
+        ins("person", (p.id, p.native_script, p.birthday))
         e = f"person:{p.id}"
         names(e, "name", p.names, p.evidence)
         names(e, "family_name", p.family_name, {})
@@ -184,7 +184,7 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
             con.execute("INSERT INTO search VALUES (?, ?, ?)", (e, a.text, match_key(a.text, person=True)))
         common(e, p)
     for c in ds.characters.values():
-        ins("character", (c.id, c.project))
+        ins("character", (c.id, c.project, c.birthday))
         e = f"character:{c.id}"
         names(e, "name", c.names, c.evidence)
         names(e, "family_name", c.family_name, {})
