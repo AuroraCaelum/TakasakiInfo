@@ -2,6 +2,7 @@ id: aqours/cyazalea-kiss-dadandaaan
 project: aqours
 title:
   ja: シャゼリア☆キッス☆ダダンダーン
+  kana: シャゼリア☆キッス☆ダダンダーン
   rom: CYaZALEA☆Kiss☆DADANDAAAN
   ko: CYaZALEA☆Kiss☆DADANDAAAN
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: シャゼリア☆キッス☆ダダンダーン (Off Vocal)
+      kana: シャゼリア☆キッス☆ダダンダーン (オフボーカル)
       rom: CYaZALEA☆Kiss☆DADANDAAAN (Off Vocal)
       ko: CYaZALEA☆Kiss☆DADANDAAAN (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
         checked: 2026-10-27
         note: '레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 external_ids:
   fandom: CYaZALEA☆Kiss☆DADANDAAAN
 evidence:
@@ -50,3 +55,6 @@ evidence:
     source: https://love-live.fandom.com/wiki/CYaZALEA%E2%98%86Kiss%E2%98%86DADANDAAAN
     checked: 2026-10-21
     note: '공식 미게재. Fandom: 작사 Aki Hata, 작곡·편곡 Takahiro Kawata'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -27,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: LIKE IT！LOVE IT！ (Off Vocal)
+      kana: ライク イット！ ラブ イット！ (オフボーカル)
       rom: LIKE IT! LOVE IT! (Off Vocal)
       ko: LIKE IT! LOVE IT! (Off Vocal)
     version: Off Vocal
@@ -38,6 +39,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

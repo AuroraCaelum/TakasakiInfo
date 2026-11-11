@@ -2,6 +2,7 @@ id: hasunosora/tsubasa-la-liberte
 project: hasunosora
 title:
   ja: ツバサ・ラ・リベルテ
+  kana: ツバサ・ラ・リベルテ
   rom: Tsubasa・La・Liberte
   ko: 날개 la liberté
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ツバサ・ラ・リベルテ (Off Vocal)
+      kana: ツバサ・ラ・リベルテ (オフボーカル)
       rom: Tsubasa・La・Liberte (Off Vocal)
       ko: 날개 la liberté (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/12/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 104th-ver
     title:
       ja: ツバサ・ラ・リベルテ (104期 Ver.)
+      kana: ツバサ・ラ・リベルテ (ひゃくよんき ヴァージョン)
       rom: Tsubasa・La・Liberte (104th Ver.)
       ko: 날개 la liberté (104기 Ver.)
     version: 104期 Ver.
@@ -50,6 +56,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}
@@ -70,3 +79,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/12/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

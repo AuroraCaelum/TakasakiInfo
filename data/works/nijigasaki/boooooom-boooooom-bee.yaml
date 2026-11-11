@@ -2,6 +2,7 @@ id: nijigasaki/boooooom-boooooom-bee
 project: nijigasaki
 title:
   ja: Boooooom Boooooom Bee!!
+  kana: ブーーーーム ブーーーーム ビー!!
   rom: Boooooom Boooooom Bee!!
   ko: Boooooom Boooooom Bee!!
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Boooooom Boooooom Bee!! (Off Vocal)
+      kana: ブーーーーム ブーーーーム ビー!! (オフボーカル)
       rom: Boooooom Boooooom Bee!! (Off Vocal)
       ko: Boooooom Boooooom Bee!! (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
 evidence:
   title:
     status: derived
@@ -48,3 +53,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58). 사용자 검토·승인(2026-11-11)

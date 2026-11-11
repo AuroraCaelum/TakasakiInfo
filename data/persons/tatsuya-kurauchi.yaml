@@ -1,14 +1,17 @@
 id: tatsuya-kurauchi
 names:
   ja: 倉内 達矢
+  kana: くらうち たつや
   rom: Tatsuya Kurauchi
   ko: 쿠라우치 타츠야
 family_name:
   ja: 倉内
+  kana: くらうち
   rom: Kurauchi
   ko: 쿠라우치
 given_name:
   ja: 達矢
+  kana: たつや
   rom: Tatsuya
   ko: 타츠야
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%80%89%E5%86%85%E9%81%94%E7%9F%A2
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (스마일컴퍼니 소속)

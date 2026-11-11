@@ -2,6 +2,7 @@ id: muse/korekara-no-someday
 project: muse
 title:
   ja: これからのSomeday
+  kana: これからのサムデイ
   rom: Korekara no Someday
   ko: 앞으로 다가올 Someday
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: これからのSomeday (Off Vocal)
+      kana: これからのサムデイ (オフボーカル)
       rom: Korekara no Someday (Off Vocal)
       ko: 앞으로 다가올 Someday (Off Vocal)
     version: Off Vocal
@@ -41,9 +43,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: これからのSomeday (HONOKA Mix)
+      kana: これからのサムデイ (ホノカ ミックス)
       rom: Korekara no Someday (HONOKA Mix)
       ko: 앞으로 다가올 Someday (HONOKA Mix)
     version: HONOKA Mix
@@ -56,9 +62,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: これからのSomeday (KOTORI Mix)
+      kana: これからのサムデイ (コトリ ミックス)
       rom: Korekara no Someday (KOTORI Mix)
       ko: 앞으로 다가올 Someday (KOTORI Mix)
     version: KOTORI Mix
@@ -71,9 +81,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: これからのSomeday (UMI Mix)
+      kana: これからのサムデイ (ウミ ミックス)
       rom: Korekara no Someday (UMI Mix)
       ko: 앞으로 다가올 Someday (UMI Mix)
     version: UMI Mix
@@ -86,9 +100,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: これからのSomeday (RIN Mix)
+      kana: これからのサムデイ (リン ミックス)
       rom: Korekara no Someday (RIN Mix)
       ko: 앞으로 다가올 Someday (RIN Mix)
     version: RIN Mix
@@ -101,9 +119,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: これからのSomeday (MAKI Mix)
+      kana: これからのサムデイ (マキ ミックス)
       rom: Korekara no Someday (MAKI Mix)
       ko: 앞으로 다가올 Someday (MAKI Mix)
     version: MAKI Mix
@@ -116,9 +138,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: これからのSomeday (HANAYO Mix)
+      kana: これからのサムデイ (ハナヨ ミックス)
       rom: Korekara no Someday (HANAYO Mix)
       ko: 앞으로 다가올 Someday (HANAYO Mix)
     version: HANAYO Mix
@@ -131,9 +157,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: これからのSomeday (NICO Mix)
+      kana: これからのサムデイ (ニコ ミックス)
       rom: Korekara no Someday (NICO Mix)
       ko: 앞으로 다가올 Someday (NICO Mix)
     version: NICO Mix
@@ -146,9 +176,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: これからのSomeday (TVサイズ)
+      kana: これからのサムデイ (ティーブイサイズ)
       rom: Korekara no Someday (TV Size)
       ko: 앞으로 다가올 Someday (TV 사이즈)
     version: TVサイズ
@@ -167,6 +201,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -177,3 +214,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

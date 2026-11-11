@@ -2,6 +2,7 @@ id: yohane/you
 project: yohane
 names:
   ja: ヨウ
+  kana: ヨウ
   rom: You
   ko: 요우
 casting:
@@ -19,3 +20,8 @@ evidence:
     status: official
     source: https://www.yohane.net/character/
     checked: 2026-10-20
+  names.kana:
+    status: official
+    source: https://www.yohane.net/character/#07
+    checked: 2026-11-11
+    note: 공식 캐릭터 페이지 가타카나 표기(루비 없음, 표기 자체가 읽기)

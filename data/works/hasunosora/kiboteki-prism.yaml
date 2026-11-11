@@ -48,6 +48,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: 希望的プリズム (104期 Ver.)
+      kana: きぼうてきプリズム (ひゃくよんき ヴァージョン)
       rom: Kiboteki Prism (104th Ver.)
       ko: 희망적 프리즘 (104기 Ver.)
     version: 104期 Ver.
@@ -60,6 +61,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

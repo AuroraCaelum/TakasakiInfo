@@ -2,14 +2,17 @@ id: nijigasaki/yu-takasaki
 project: nijigasaki
 names:
   ja: 高咲 侑
+  kana: たかさき ゆう
   rom: Yu Takasaki
   ko: 타카사키 유우
 family_name:
   ja: 高咲
+  kana: たかさき
   rom: Takasaki
   ko: 타카사키
 given_name:
   ja: 侑
+  kana: ゆう
   rom: Yu
   ko: 유우
 casting:
@@ -36,3 +39,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/about_nijigasaki.php#yu
+    checked: 2026-11-11
+    note: 공식 멤버 페이지(about_nijigasaki) 루비

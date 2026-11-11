@@ -2,6 +2,7 @@ id: ikizulive/ikitakunai-every-day
 project: ikizulive
 title:
   ja: イキタクナイevery day
+  kana: イキタクナイエブリ デイ
   rom: Ikitakunai every day
   ko: 살기 싫은 every day
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: イキタクナイevery day (Off Vocal)
+      kana: イキタクナイエブリ デイ (オフボーカル)
       rom: Ikitakunai every day (Off Vocal)
       ko: 살기 싫은 every day (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4706
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

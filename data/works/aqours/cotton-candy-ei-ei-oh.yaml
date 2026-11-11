@@ -2,7 +2,7 @@ id: aqours/cotton-candy-ei-ei-oh
 project: aqours
 title:
   ja: コットンキャンディえいえいおー！
-  kana: ''
+  kana: コットンキャンディえいえいおー！
   rom: Cotton Candy Ei-Ei-Oh!
   ko: 코튼 캔디 에이 에이 오!
 credits:
@@ -25,6 +25,7 @@ recordings:
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: コットンキャンディえいえいおー！ (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: コットンキャンディえいえいおー！ (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Cotton Candy Ei-Ei-Oh! (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 코튼 캔디 에이 에이 오! (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -38,9 +39,15 @@ recordings:
         status: official
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: established
     source: https://www.uta-net.com/song/291201/
     checked: 2026-10-19
     note: '공식 미게재 (공식 CD 페이지 #cd42는 곡명만 게재). uta-net 가사 페이지의 작사·작곡 표기'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

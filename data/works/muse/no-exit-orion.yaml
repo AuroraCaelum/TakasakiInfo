@@ -2,6 +2,7 @@ id: muse/no-exit-orion
 project: muse
 title:
   ja: NO EXIT ORION
+  kana: ノー イグジット オリオン
   rom: NO EXIT ORION
   ko: NO EXIT ORION
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: NO EXIT ORION (Off Vocal)
+      kana: ノー イグジット オリオン (オフボーカル)
       rom: NO EXIT ORION (Off Vocal)
       ko: NO EXIT ORION (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: NO EXIT ORION (HANAYO Mix)
+      kana: ノー イグジット オリオン (ハナヨ ミックス)
       rom: NO EXIT ORION (HANAYO Mix)
       ko: NO EXIT ORION (HANAYO Mix)
     version: HANAYO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd64)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: NO EXIT ORION (KOTORI Mix)
+      kana: ノー イグジット オリオン (コトリ ミックス)
       rom: NO EXIT ORION (KOTORI Mix)
       ko: NO EXIT ORION (KOTORI Mix)
     version: KOTORI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd64)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: NO EXIT ORION (HONOKA Mix)
+      kana: ノー イグジット オリオン (ホノカ ミックス)
       rom: NO EXIT ORION (HONOKA Mix)
       ko: NO EXIT ORION (HONOKA Mix)
     version: HONOKA Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd64)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -92,3 +109,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

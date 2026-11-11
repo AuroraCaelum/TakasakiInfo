@@ -2,6 +2,7 @@ id: aqours/sakura-saku-kokoro-saku
 project: aqours
 title:
   ja: SAKURA-saku KOKORO-saku
+  kana: サクラ-サク ココロ-サク
   rom: SAKURA-saku KOKORO-saku
   ko: SAKURA-saku KOKORO-saku
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: SAKURA-saku KOKORO-saku (Off Vocal)
+      kana: サクラ-サク ココロ-サク (オフボーカル)
       rom: SAKURA-saku KOKORO-saku (Off Vocal)
       ko: SAKURA-saku KOKORO-saku (Off Vocal)
     version: Off Vocal
@@ -39,9 +41,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: SAKURA-saku KOKORO-saku (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: サクラ-サク ココロ-サク (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: SAKURA-saku KOKORO-saku (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: SAKURA-saku KOKORO-saku (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -59,6 +65,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -68,3 +77,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

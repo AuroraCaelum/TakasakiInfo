@@ -2,6 +2,7 @@ id: hasunosora/hikari-no-naka-de-hana-saite
 project: hasunosora
 title:
   ja: 光の中で花咲いて
+  kana: ひかりのなかではなさいて
   rom: Hikari no Naka de Hana Saite
   ko: 빛 속에서 꽃 피어
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 光の中で花咲いて (Off Vocal)
+      kana: ひかりのなかではなさいて (オフボーカル)
       rom: Hikari no Naka de Hana Saite (Off Vocal)
       ko: 빛 속에서 꽃 피어 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: short-ver
     title:
       ja: 光の中で花咲いて (Short Ver.)
+      kana: ひかりのなかではなさいて (ショート ヴァージョン)
       rom: Hikari no Naka de Hana Saite (Short Ver.)
       ko: 빛 속에서 꽃 피어 (Short Ver.)
     version: Short Ver.
@@ -50,6 +56,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6148
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -60,3 +69,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -1,14 +1,17 @@
 id: yukinojo-mori
 names:
   ja: 森 雪之丞
+  kana: もり ゆきのじょう
   rom: Yukinojo Mori
   ko: 모리 유키노조
 family_name:
   ja: 森
+  kana: もり
   rom: Mori
   ko: 모리
 given_name:
   ja: 雪之丞
+  kana: ゆきのじょう
   rom: Yukinojo
   ko: 유키노조
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%A3%AE%E9%9B%AA%E4%B9%8B%E4%B8%9E
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

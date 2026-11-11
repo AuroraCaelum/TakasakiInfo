@@ -2,7 +2,7 @@ id: aqours/wake-up-challenger
 project: aqours
 title:
   ja: Wake up, Challenger!!
-  kana: ''
+  kana: ウェイク アップ, チャレンジャー!!
   rom: Wake up, Challenger!!
   ko: Wake up, Challenger!!
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Wake up, Challenger!! (Off Vocal)
-      kana: ''
+      kana: ウェイク アップ, チャレンジャー!! (オフボーカル)
       rom: Wake up, Challenger!! (Off Vocal)
       ko: Wake up, Challenger!! (Off Vocal)
     version: Off Vocal
@@ -39,10 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo-ver
     title:
       ja: Wake up, Challenger!! (高海千歌 Solo Ver.)
-      kana: ''
+      kana: ウェイク アップ, チャレンジャー!! (たかみちか ソロ ヴァージョン)
       rom: Wake up, Challenger!! (Chika Takami Solo Ver.)
       ko: Wake up, Challenger!! (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -56,10 +59,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: ウェイク アップ, チャレンジャー!! (さくらうちりこ ソロ ヴァージョン)
       rom: Wake up, Challenger!! (Riko Sakurauchi Solo Ver.)
       ko: Wake up, Challenger!! (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -73,10 +79,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Wake up, Challenger!! (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: ウェイク アップ, チャレンジャー!! (くろさわるびぃ ソロ ヴァージョン)
       rom: Wake up, Challenger!! (Ruby Kurosawa Solo Ver.)
       ko: Wake up, Challenger!! (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -90,6 +99,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -161,3 +173,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

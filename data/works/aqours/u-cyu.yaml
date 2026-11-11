@@ -2,6 +2,7 @@ id: aqours/u-cyu
 project: aqours
 title:
   ja: U-CYU
+  kana: ウ-チュウ
   rom: U-CYU
   ko: U-CYU
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: U-CYU (Off Vocal)
+      kana: ウ-チュウ (オフボーカル)
       rom: U-CYU (Off Vocal)
       ko: U-CYU (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd85
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd85
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    source: https://utaten.com/lyric/mi24042420/
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

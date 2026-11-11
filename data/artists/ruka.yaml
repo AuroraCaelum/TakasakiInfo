@@ -3,6 +3,7 @@ kind: solo
 projects: [external]
 names:
   ja: るか
+  kana: るか
   rom: Ruka
   ko: 루카
 evidence:
@@ -11,3 +12,6 @@ evidence:
     source: https://www.lovelive-anime.jp/special/15th/
     checked: 2026-11-05
     note: '『アイカツ！』 大空あかり의 가창 담당(15주년 특설 사이트 주석, Lantis STAR☆ANIS 소개). 크레딧 「わか・るか」의 공동 명의(D48 joint). 공식 라틴·한국어 표기 없음: rom은 헵번, ko는 음역'
+  names.kana:
+    status: derived
+    note: '읽기가 하나뿐이라 자동 승인: 가나 표기 그대로 (D58, 2026-11-11)'

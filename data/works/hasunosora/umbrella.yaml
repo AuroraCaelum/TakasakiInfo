@@ -2,6 +2,7 @@ id: hasunosora/umbrella
 project: hasunosora
 title:
   ja: アンブレラ
+  kana: アンブレラ
   rom: Umbrella
   ko: 엄브렐라
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: アンブレラ (Off Vocal)
+      kana: アンブレラ (オフボーカル)
       rom: Umbrella (Off Vocal)
       ko: 엄브렐라 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5683
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

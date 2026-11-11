@@ -1,14 +1,17 @@
 id: hiromitsu-kawashima
 names:
   ja: 川島 弘光
+  kana: かわしま ひろみつ
   rom: Hiromitsu Kawashima
   ko: 카와시마 히로미츠
 family_name:
   ja: 川島
+  kana: かわしま
   rom: Kawashima
   ko: 카와시마
 given_name:
   ja: 弘光
+  kana: ひろみつ
   rom: Hiromitsu
   ko: 히로미츠
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%B3%B6%E5%BC%98%E5%85%89
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID カワシマヒロミツ 일치(SHINY RACERS/小原鞠莉)

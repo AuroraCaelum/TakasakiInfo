@@ -1,6 +1,7 @@
 id: koudai-iwatsubo
 names:
   ja: イワツボコーダイ
+  kana: いわつぼ こうだい
   rom: KOUDAI IWATSUBO
   ko: 이와츠보 코다이
 aliases:
@@ -20,3 +21,6 @@ evidence:
     source: https://www.ehonnavi.net/author.asp?n=77851
     checked: 2026-10-17
     note: 본인 사용 라틴 표기 (§5.3 우선순위 2)
+  names.kana:
+    status: derived
+    note: 가나 표기 그대로 읽음(D58). 성·이름 경계는 rom을 따라 띄움(D28), 장음 ー는 모음으로

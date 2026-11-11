@@ -2,6 +2,7 @@ id: muse/natsu-owaranai-de
 project: muse
 title:
   ja: 夏、終わらないで。
+  kana: なつ、おわらないで。
   rom: Natsu, Owaranai de.
   ko: 여름, 끝나지 말아 줘.
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 夏、終わらないで。 (Off Vocal)
+      kana: なつ、おわらないで。 (オフボーカル)
       rom: Natsu, Owaranai de. (Off Vocal)
       ko: 여름, 끝나지 말아 줘. (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: 夏、終わらないで。 (NICO Mix)
+      kana: なつ、おわらないで。 (ニコ ミックス)
       rom: Natsu, Owaranai de. (NICO Mix)
       ko: 여름, 끝나지 말아 줘. (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: 夏、終わらないで。 (MAKI Mix)
+      kana: なつ、おわらないで。 (マキ ミックス)
       rom: Natsu, Owaranai de. (MAKI Mix)
       ko: 여름, 끝나지 말아 줘. (MAKI Mix)
     version: MAKI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: 夏、終わらないで。 (ELI Mix)
+      kana: なつ、おわらないで。 (エリ ミックス)
       rom: Natsu, Owaranai de. (ELI Mix)
       ko: 여름, 끝나지 말아 줘. (ELI Mix)
     version: ELI Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: hasunosora/aurora-flower
 project: hasunosora
 title:
   ja: AURORA FLOWER
+  kana: オーロラ フラワー
   rom: AURORA FLOWER
   ko: AURORA FLOWER
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: AURORA FLOWER (Off Vocal)
+      kana: オーロラ フラワー (オフボーカル)
       rom: AURORA FLOWER (Off Vocal)
       ko: AURORA FLOWER (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/30/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/30/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

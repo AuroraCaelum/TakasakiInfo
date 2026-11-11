@@ -59,3 +59,17 @@ def test_main_url_fallback_is_same_recording_only(ds):
     text = files["albums/Aqours/Aqours.csv"].decode("utf-8-sig")
     row = next(line for line in text.split("\r\n") if line.startswith("TVA2 BD Vol.1,1,"))
     assert ",NA," in row
+
+
+def test_flow_items_starting_with_a_question_mark_read_back():
+    # a review item {…, rom: ?←HEARTBEAT} is written in flow style; ruamel cannot read that plain
+    import io
+
+    from ruamel.yaml import YAML
+
+    from takasaki.store import _to_node, _yaml
+
+    doc = {"items": [{"printed": "？←HEARTBEAT", "rom": "?←HEARTBEAT"}], "tags": ["?x", "y"]}
+    buf = io.StringIO()
+    _yaml().dump(_to_node(doc), buf)
+    assert YAML(typ="safe").load(buf.getvalue()) == doc

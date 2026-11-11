@@ -38,6 +38,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Fly with You!! (Off Vocal)
+      kana: フライ ウィズ ユー (オフボーカル)
       rom: Fly with You!! (Off Vocal)
       ko: Fly with You!! (Off Vocal)
     version: Off Vocal
@@ -50,6 +51,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

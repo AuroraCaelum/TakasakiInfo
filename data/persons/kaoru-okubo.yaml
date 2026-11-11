@@ -1,14 +1,17 @@
 id: kaoru-okubo
 names:
   ja: 大久保 薫
+  kana: おおくぼ かおる
   rom: Kaoru Okubo
   ko: 오오쿠보 카오루
 family_name:
   ja: 大久保
+  kana: おおくぼ
   rom: Okubo
   ko: 오오쿠보
 given_name:
   ja: 薫
+  kana: かおる
   rom: Kaoru
   ko: 카오루
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%85%E4%BF%9D%E8%96%AB
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID オオクボカオル 일치

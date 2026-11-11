@@ -2,7 +2,7 @@ id: aqours/galaxy-hide-and-seek
 project: aqours
 title:
   ja: GALAXY HidE and SeeK
-  kana: ''
+  kana: ギャラクシー ハイド アンド シーク
   rom: GALAXY HidE and SeeK
   ko: GALAXY HidE and SeeK
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: GALAXY HidE and SeeK (Off Vocal)
-      kana: ''
+      kana: ギャラクシー ハイド アンド シーク (オフボーカル)
       rom: GALAXY HidE and SeeK (Off Vocal)
       ko: GALAXY HidE and SeeK (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd15
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd15
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

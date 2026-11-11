@@ -6,6 +6,7 @@ reported as warnings instead of errors: the review item is the pending fix.
 
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from collections.abc import Iterator
 from dataclasses import dataclass
@@ -112,6 +113,9 @@ def _names_in(obj: object, path: str = "") -> Iterator[tuple[str, m.Names]]:
             yield from _names_in(x, f"{path}[{i}]")
 
 
+_ID = re.compile(r"([a-z0-9]+(-[a-z0-9]+)*/)?[a-z0-9]+(-[a-z0-9]+)*")
+
+
 def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
     pending = open_review_refs(review_dir) if review_dir else set()
     out: list[Finding] = []
@@ -122,6 +126,12 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
             level = "warn"
             msg += " (open review item)"
         out.append(Finding(rule, level, where, msg))
+
+    # E1: ids are slugs (the file name is the id; ``?`` and other symbols are not portable, an empty slug gives ".yaml")
+    for kind, ent in ds.iter_all():
+        ident = getattr(ent, "id", None)
+        if isinstance(ident, str) and not _ID.fullmatch(ident):
+            add("E1", f"{kind}:{ident}", f"id {ident!r} is not a slug (a-z, 0-9, '-', one optional 'project/' prefix)")
 
     # E2: references
     def need(table: dict, ident: str | None, where: str, what: str) -> None:
@@ -138,6 +148,11 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
         for c in cs:
             need(ds.persons, c.person, where, "person")
             need(ds.characters, c.character, where, "character")
+            if c.credited_name and c.person in ds.persons:
+                try:
+                    ds.persons[c.person].credited_names(c.credited_name)
+                except KeyError:
+                    add("E2", where, f"credited_name {c.credited_name!r}: {c.person} has no alias with that text and names")
 
     for c in ds.characters.values():
         need(ds.projects, c.project, f"character:{c.id}", "project")

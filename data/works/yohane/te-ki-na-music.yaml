@@ -2,6 +2,7 @@ id: yohane/te-ki-na-music
 project: yohane
 title:
   ja: テ・キ・ナ ミュージック
+  kana: テ・キ・ナ ミュージック
   rom: Te・ki・na Music
   ko: 테키나 뮤직
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: テ・キ・ナ ミュージック (Off Vocal)
+      kana: テ・キ・ナ ミュージック (オフボーカル)
       rom: Te・ki・na Music (Off Vocal)
       ko: 테키나 뮤직 (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/detail/?id=1
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -49,3 +54,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/detail/?id=1
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

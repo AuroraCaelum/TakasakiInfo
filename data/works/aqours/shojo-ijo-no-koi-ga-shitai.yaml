@@ -2,7 +2,7 @@ id: aqours/shojo-ijo-no-koi-ga-shitai
 project: aqours
 title:
   ja: 少女以上の恋がしたい
-  kana: ''
+  kana: しょうじょいじょうのこいがしたい
   rom: Shojo Ijo no Koi ga Shitai
   ko: 소녀 이상의 사랑이 하고 싶어
 credits:
@@ -26,7 +26,7 @@ recordings:
   - id: chika-takami-solo-ver
     title:
       ja: 少女以上の恋がしたい (高海千歌 Solo Ver.)
-      kana: ''
+      kana: しょうじょいじょうのこいがしたい (たかみちか ソロ ヴァージョン)
       rom: Shojo Ijo no Koi ga Shitai (Chika Takami Solo Ver.)
       ko: 소녀 이상의 사랑이 하고 싶어 (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -41,10 +41,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 少女以上の恋がしたい (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: しょうじょいじょうのこいがしたい (さくらうちりこ ソロ ヴァージョン)
       rom: Shojo Ijo no Koi ga Shitai (Riko Sakurauchi Solo Ver.)
       ko: 소녀 이상의 사랑이 하고 싶어 (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -59,10 +62,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 少女以上の恋がしたい (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: しょうじょいじょうのこいがしたい (くろさわるびぃ ソロ ヴァージョン)
       rom: Shojo Ijo no Koi ga Shitai (Ruby Kurosawa Solo Ver.)
       ko: 소녀 이상의 사랑이 하고 싶어 (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -77,6 +83,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -154,3 +163,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: muse/shiawase-iki-no-smiling
 project: muse
 title:
   ja: シアワセ行きのSMILING!
+  kana: シアワセいきのスマイリング!
   rom: Shiawase Iki no SMILING!
   ko: 행복을 향한 SMILING!
 credits:
@@ -29,6 +30,7 @@ recordings:
     kind: off_vocal
     title:
       ja: シアワセ行きのSMILING! (Off Vocal)
+      kana: シアワセいきのスマイリング! (オフボーカル)
       rom: Shiawase Iki no SMILING! (Off Vocal)
       ko: 행복을 향한 SMILING! (Off Vocal)
     version: Off Vocal
@@ -40,6 +42,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/bd/tv2nd/#bd01
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -51,3 +56,6 @@ evidence:
     source: https://music.youtube.com/watch?v=td_3vwq0XA8
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

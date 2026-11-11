@@ -2,6 +2,7 @@ id: aqours/black-out
 project: aqours
 title:
   ja: BLACK OUT
+  kana: ブラック アウト
   rom: BLACK OUT
   ko: BLACK OUT
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: BLACK OUT (Off Vocal)
+      kana: ブラック アウト (オフボーカル)
       rom: BLACK OUT (Off Vocal)
       ko: BLACK OUT (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_5622
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

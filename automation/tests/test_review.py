@@ -110,3 +110,73 @@ def test_a_partial_import_adds_to_the_uses_a_site_import_listed(tmp_path):
     assert NameReviews(tmp_path, "muse", partial=True).doc("MUS-titles.yaml")["items"][0]["used_in"] == [
         "release.php#cd23 #1-8", "manual #1"]
     assert NameReviews(tmp_path, "muse").doc("MUS-titles.yaml")["items"][0]["used_in"] == []
+
+
+def test_kana_approve_writes_only_the_readings(ds, tmp_path):
+    # D58: a kana file sets names.kana / title.kana and their evidence, nothing else
+    ds.persons["hata"] = m.Person(id="hata", names=_names("畑 亜貴", "Aki Hata", "하타 아키"),
+                                  family_name=_names("畑", "Hata", "하타"), given_name=_names("亜貴", "Aki", "아키"),
+                                  evidence={"names.ja": m.Evidence(status=m.Status.official, source="https://a")})
+    ds.characters["p/emma"] = m.Character(id="p/emma", project="p", names=_names("エマ・ヴェルデ", "Emma Verde", "엠마 베르데"),
+                                          family_name=_names("ヴェルデ", "Verde", "베르데"),
+                                          given_name=_names("エマ", "Emma", "엠마"))
+    song = ds.works["p/song"]
+    song.recordings.append(m.Recording(id="off-vocal", kind="off_vocal", title=_names("曲 (Off Vocal)", "Kyoku (Off Vocal)", "곡 (Off Vocal)")))
+    (tmp_path / "KANA-persons.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n"
+        "  - {ref: 'person:hata', family_kana: はた, given_kana: あき, status: established, source: 'https://w', note: 위키백과}\n"
+        "  - {ref: 'character:p/emma', kana: エマ・ヴェルデ, status: official, source: 'https://o'}\n",
+        encoding="utf-8")
+    (tmp_path / "KANA-songs.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n  - {ref: 'work:p/song', kana: きょく}\n  - {ref: 'artist:you-variant', kana: わたなべ よう}\n",
+        encoding="utf-8")
+    (tmp_path / "KANA-versions.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n  - {ref: 'recording:p/song#off-vocal', suffix_kana: ' (オフボーカル)'}\n",
+        encoding="utf-8")
+    apply_reviews(ds, tmp_path)
+    hata = ds.persons["hata"]
+    assert (hata.names.kana, hata.family_name.kana, hata.given_name.kana) == ("はた あき", "はた", "あき")
+    assert hata.evidence["names.kana"].status == m.Status.established and "names.ja" in hata.evidence
+    emma = ds.characters["p/emma"]
+    assert emma.names.kana == "エマ・ヴェルデ" and emma.family_name.kana is None
+    assert song.title.kana == "きょく" and song.evidence["title.kana"].status == m.Status.derived
+    assert song.recordings[1].title.kana == "きょく (オフボーカル)"
+    assert ds.artists["you-variant"].names.kana == "わたなべ よう" and "names.kana" in ds.artists["you-variant"].evidence
+
+
+def test_kana_errors(ds, tmp_path):
+    (tmp_path / "KANA-versions.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n  - {ref: 'recording:p/song#original', suffix_kana: ' (x)'}\n",
+        encoding="utf-8")
+    with pytest.raises(ReviewError, match="no title of its own"):
+        apply_reviews(ds, tmp_path)
+    (tmp_path / "KANA-versions.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n  - {ref: 'person:cv', family_kana: さいとう}\n", encoding="utf-8")
+    with pytest.raises(ReviewError, match="go together"):
+        apply_reviews(ds, tmp_path)
+
+
+def test_kana_pending_items_are_not_applied(ds, tmp_path):
+    (tmp_path / "KANA-songs-check.yaml").write_text(
+        "type: kana\ndecision: approve\nitems:\n  - {ref: 'work:p/song', kana: きょく, pending: 읽기 확인}\n", encoding="utf-8")
+    with pytest.raises(ReviewError, match="still pending"):
+        apply_reviews(ds, tmp_path)
+    assert ds.works["p/song"].title.kana is None
+
+
+def test_pen_name_merge_keeps_the_printed_name(ds, tmp_path):
+    # D58: 木村 有希 is a pen name of 園田 健太郎; the credit still prints 木村 有希
+    ds.persons["sonoda"] = m.Person(id="sonoda", names=_names("園田 健太郎", "Kentaro Sonoda", "소노다 켄타로"))
+    ds.persons["kimura"] = m.Person(id="kimura", names=m.Names(ja="木村 有希", kana="きむら ゆうき", rom="Yuki Kimura", ko="키무라 유키"))
+    ds.works["p/song"].credits.composer = [m.Credit(person="kimura")]
+    (tmp_path / "pen.yaml").write_text(
+        "type: merge\nitems:\n  - {ref: 'person:sonoda'}\n  - {ref: 'person:kimura'}\ndecision: 'pen-name:person:sonoda'\n",
+        encoding="utf-8")
+    apply_reviews(ds, tmp_path)
+    assert "kimura" not in ds.persons
+    c = ds.works["p/song"].credits.composer[0]
+    assert (c.person, c.credited_name) == ("sonoda", "木村 有希")
+    alias = ds.persons["sonoda"].aliases[0]
+    assert alias.kind == "pen_name" and alias.names.kana == "きむら ゆうき"
+    assert render_credits(ds, [c]) == ["木村 有希", "Yuki Kimura", "키무라 유키"]
+    m.Person.model_validate(ds.persons["sonoda"].model_dump(by_alias=True))

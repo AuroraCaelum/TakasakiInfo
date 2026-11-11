@@ -2,14 +2,17 @@ id: nijigasaki/ayumu-uehara
 project: nijigasaki
 names:
   ja: 上原 歩夢
+  kana: うえはら あゆむ
   rom: Ayumu Uehara
   ko: 우에하라 아유무
 family_name:
   ja: 上原
+  kana: うえはら
   rom: Uehara
   ko: 우에하라
 given_name:
   ja: 歩夢
+  kana: あゆむ
   rom: Ayumu
   ko: 아유무
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/about_nijigasaki.php#ayumu
+    checked: 2026-11-11
+    note: 공식 멤버 페이지(about_nijigasaki) 루비

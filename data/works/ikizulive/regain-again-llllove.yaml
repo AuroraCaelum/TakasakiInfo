@@ -2,6 +2,7 @@ id: ikizulive/regain-again-llllove
 project: ikizulive
 title:
   ja: REGAIN AGAIN LLLLOVE
+  kana: リゲイン アゲイン ララララブ
   rom: REGAIN AGAIN LLLLOVE
   ko: REGAIN AGAIN LLLLOVE
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: REGAIN AGAIN LLLLOVE (Off Vocal)
+      kana: リゲイン アゲイン ララララブ (オフボーカル)
       rom: REGAIN AGAIN LLLLOVE (Off Vocal)
       ko: REGAIN AGAIN LLLLOVE (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5832
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5832
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    source: https://utaten.com/lyric/mi26061002/
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

@@ -1,14 +1,17 @@
 id: tokiwa-hironaka
 names:
   ja: 廣中トキワ
+  kana: ひろなか ときわ
   rom: Tokiwa Hironaka
   ko: 히로나카 토키와
 family_name:
   ja: 廣中
+  kana: ひろなか
   rom: Hironaka
   ko: 히로나카
 given_name:
   ja: トキワ
+  kana: ときわ
   rom: Tokiwa
   ko: 토키와
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

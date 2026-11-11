@@ -3,6 +3,7 @@ kind: group
 projects: [muse]
 names:
   ja: μ’s
+  kana: ミューズ
   rom: μ’s
   ko: μ’s
 lineups:
@@ -33,3 +34,8 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd84
     checked: 2026-10-20
     note: 「A song for You! You? You!!」 아티스트란의 9명(같은 순서). 멤버 페이지는 스크립트 애니메이션이라 이름이 HTML에 없음
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

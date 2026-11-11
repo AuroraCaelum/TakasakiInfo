@@ -1,14 +1,17 @@
 id: ryosuke-kawashima
 names:
   ja: 川島 亮祐
+  kana: かわしま りょうすけ
   rom: Ryosuke Kawashima
   ko: 카와시마 료스케
 family_name:
   ja: 川島
+  kana: かわしま
   rom: Kawashima
   ko: 카와시마
 given_name:
   ja: 亮祐
+  kana: りょうすけ
   rom: Ryosuke
   ko: 료스케
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

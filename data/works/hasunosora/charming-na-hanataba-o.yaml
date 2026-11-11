@@ -2,6 +2,7 @@ id: hasunosora/charming-na-hanataba-o
 project: hasunosora
 title:
   ja: チャーミングな花束を！
+  kana: チャーミングなはなたばを！
   rom: Charming na Hanataba o!
   ko: 차밍한 꽃다발을!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: チャーミングな花束を！ (Off Vocal)
+      kana: チャーミングなはなたばを！ (オフボーカル)
       rom: Charming na Hanataba o! (Off Vocal)
       ko: 차밍한 꽃다발을! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5233
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5233
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

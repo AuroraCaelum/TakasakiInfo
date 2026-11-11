@@ -3,6 +3,7 @@ kind: special
 projects: [liella]
 names:
   ja: 杉並児童合唱団
+  kana: すぎなみじどうがっしょうだん
   rom: Suginami Children's Chorus
   ko: 스기나미 아동 합창단
 evidence:
@@ -11,3 +12,8 @@ evidence:
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
     checked: 2026-11-05
     note: 'ja: 레이블 카탈로그(Dreams of the Superstar #1-21 歌). rom: 합창단의 영문 이름, ko: 번역(D37)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

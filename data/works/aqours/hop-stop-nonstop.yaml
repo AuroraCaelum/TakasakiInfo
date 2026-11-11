@@ -2,7 +2,7 @@ id: aqours/hop-stop-nonstop
 project: aqours
 title:
   ja: Hop? Stop? Nonstop!
-  kana: ''
+  kana: ホップ? ストップ? ノンストップ!
   rom: Hop? Stop? Nonstop!
   ko: Hop? Stop? Nonstop!
 credits:
@@ -26,7 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Hop? Stop? Nonstop! (Off Vocal)
-      kana: ''
+      kana: ホップ? ストップ? ノンストップ! (オフボーカル)
       rom: Hop? Stop? Nonstop! (Off Vocal)
       ko: Hop? Stop? Nonstop! (Off Vocal)
     version: Off Vocal
@@ -40,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd28
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -133,6 +136,7 @@ recordings:
   - id: movie-size
     title:
       ja: Hop? Stop? Nonstop! (MOVIEサイズ)
+      kana: ホップ? ストップ? ノンストップ! (ムービーサイズ)
       rom: Hop? Stop? Nonstop! (MOVIE Size)
       ko: Hop? Stop? Nonstop! (MOVIE 사이즈)
     version: MOVIEサイズ
@@ -146,8 +150,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd28
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

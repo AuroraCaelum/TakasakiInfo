@@ -2,6 +2,7 @@ id: hasunosora/fushigi-to-kimi-to-library
 project: hasunosora
 title:
   ja: 不思議と君とライブラリー
+  kana: ふしぎときみとライブラリー
   rom: Fushigi to Kimi to Library
   ko: 불가사의와 너와 라이브러리
 credits:
@@ -23,6 +24,7 @@ recordings:
   - id: b-g-p-ver
     title:
       ja: 不思議と君とライブラリー (B. G. P. Ver.)
+      kana: ふしぎときみとライブラリー (ビージーピー ヴァージョン)
       rom: Fushigi to Kimi to Library (B. G. P. Ver.)
       ko: 불가사의와 너와 라이브러리 (B. G. P. Ver.)
     version: B. G. P. Ver.
@@ -35,10 +37,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: 不思議と君とライブラリー (Off Vocal)
+      kana: ふしぎときみとライブラリー (オフボーカル)
       rom: Fushigi to Kimi to Library (Off Vocal)
       ko: 불가사의와 너와 라이브러리 (Off Vocal)
     version: Off Vocal
@@ -50,6 +56,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -70,3 +79,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5636
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

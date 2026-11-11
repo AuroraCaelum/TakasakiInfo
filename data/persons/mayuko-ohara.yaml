@@ -1,14 +1,17 @@
 id: mayuko-ohara
 names:
   ja: 大原 万由子
+  kana: おおはら まゆこ
   rom: Mayuko Ohara
   ko: 오오하라 마유코
 family_name:
   ja: 大原
+  kana: おおはら
   rom: Ohara
   ko: 오오하라
 given_name:
   ja: 万由子
+  kana: まゆこ
   rom: Mayuko
   ko: 마유코
 evidence:
@@ -30,3 +33,6 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Mayuko Ohara'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

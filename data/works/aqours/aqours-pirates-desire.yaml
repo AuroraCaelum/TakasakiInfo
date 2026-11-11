@@ -2,7 +2,7 @@ id: aqours/aqours-pirates-desire
 project: aqours
 title:
   ja: Aqours Pirates Desire
-  kana: ''
+  kana: アクアーズ パイレーツ デザイア
   rom: Aqours Pirates Desire
   ko: Aqours Pirates Desire
 credits:
@@ -26,7 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Aqours Pirates Desire (Off Vocal)
-      kana: ''
+      kana: アクアーズ パイレーツ デザイア (オフボーカル)
       rom: Aqours Pirates Desire (Off Vocal)
       ko: Aqours Pirates Desire (Off Vocal)
     version: Off Vocal
@@ -40,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -135,3 +138,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd38
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

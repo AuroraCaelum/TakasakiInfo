@@ -2,6 +2,7 @@ id: hasunosora/mahara-jamboree
 project: hasunosora
 title:
   ja: マハラジャンボリー
+  kana: マハラジャンボリー
   rom: Mahara Jamboree
   ko: 마하라 잼버리
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: マハラジャンボリー (Off Vocal)
+      kana: マハラジャンボリー (オフボーカル)
       rom: Mahara Jamboree (Off Vocal)
       ko: 마하라 잼버리 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/15/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 104th-ver
     title:
       ja: マハラジャンボリー (104期 Ver.)
+      kana: マハラジャンボリー (ひゃくよんき ヴァージョン)
       rom: Mahara Jamboree (104th Ver.)
       ko: 마하라 잼버리 (104기 Ver.)
     version: 104期 Ver.
@@ -50,6 +56,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -60,3 +69,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/15/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

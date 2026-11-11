@@ -2,14 +2,17 @@ id: liella/tomari-onitsuka
 project: liella
 names:
   ja: 鬼塚 冬毬
+  kana: おにつか とまり
   rom: Tomari Onitsuka
   ko: 오니츠카 토마리
 family_name:
   ja: 鬼塚
+  kana: おにつか
   rom: Onitsuka
   ko: 오니츠카
 given_name:
   ja: 冬毬
+  kana: とまり
   rom: Tomari
   ko: 토마리
 casting:
@@ -33,3 +36,8 @@ evidence:
     source: https://namu.wiki/w/Liella!
     checked: 2026-10-19
     note: 나무위키 Liella! 문서 멤버 목록의 표기
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/member/#tomari
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 루비 (글자별 루비를 이어 붙임; 히라가나로 쓰인 부분은 루비 없음)

@@ -1,14 +1,17 @@
 id: rimi-nishimoto
 names:
   ja: 西本りみ
+  kana: にしもと りみ
   rom: Rimi Nishimoto
   ko: 니시모토 리미
 family_name:
   ja: 西本
+  kana: にしもと
   rom: Nishimoto
   ko: 니시모토
 given_name:
   ja: りみ
+  kana: りみ
   rom: Rimi
   ko: 리미
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%9C%AC%E3%82%8A%E3%81%BF
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

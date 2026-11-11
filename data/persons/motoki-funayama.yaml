@@ -1,14 +1,17 @@
 id: motoki-funayama
 names:
   ja: 船山 基紀
+  kana: ふなやま もとき
   rom: Motoki Funayama
   ko: 후나야마 모토키
 family_name:
   ja: 船山
+  kana: ふなやま
   rom: Funayama
   ko: 후나야마
 given_name:
   ja: 基紀
+  kana: もとき
   rom: Motoki
   ko: 모토키
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/船山基紀
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기. NDL 전거(フナヤマ, モトキ, 1951-, 作・編曲家)와 일치

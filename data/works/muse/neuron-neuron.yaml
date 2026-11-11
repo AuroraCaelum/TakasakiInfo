@@ -2,6 +2,7 @@ id: muse/neuron-neuron
 project: muse
 title:
   ja: NEURON,NEURON!!
+  kana: ニューロン,ニューロン!!
   rom: NEURON,NEURON!!
   ko: NEURON,NEURON!!
 credits:
@@ -31,3 +32,6 @@ evidence:
     source: https://catalog.bandainamcomusiclive.co.jp/release/63074/
     checked: 2026-10-27
     note: '공식 미게재: ja.wikipedia·Fandom(소속 표기는 레이블 카탈로그를 따름)'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

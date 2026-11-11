@@ -2,14 +2,17 @@ id: external/uzuki-shimamura
 project: external
 names:
   ja: 島村 卯月
+  kana: しまむら うづき
   rom: Uzuki Shimamura
   ko: 시마무라 우즈키
 family_name:
   ja: 島村
+  kana: しまむら
   rom: Shimamura
   ko: 시마무라
 given_name:
   ja: 卯月
+  kana: うづき
   rom: Uzuki
   ko: 우즈키
 evidence:
@@ -31,3 +34,8 @@ evidence:
     source: https://namu.wiki/w/시마무라 우즈키
     checked: 2026-10-19
     note: 나무위키 문서 제목 (공식 한국어 표기 미확인)
+  names.kana:
+    status: official
+    source: https://cinderellagirls.idolmaster-official.jp/idol/uzuki/
+    checked: 2026-11-11
+    note: 신데렐라걸즈 공식 아이돌 페이지 후리가나(공백 없이 표기)

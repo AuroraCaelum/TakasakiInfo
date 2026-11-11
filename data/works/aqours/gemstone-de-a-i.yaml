@@ -2,6 +2,7 @@ id: aqours/gemstone-de-a-i
 project: aqours
 title:
   ja: GEMSTONE “DE‐A‐I”
+  kana: ジェムストーン “デ‐ア‐イ”
   rom: GEMSTONE “DE‐A‐I”
   ko: GEMSTONE “DE‐A‐I”
 credits:
@@ -114,6 +115,7 @@ recordings:
     kind: off_vocal
     title:
       ja: GEMSTONE “DE‐A‐I” (Off Vocal)
+      kana: ジェムストーン “デ‐ア‐イ” (オフボーカル)
       rom: GEMSTONE “DE‐A‐I” (Off Vocal)
       ko: GEMSTONE “DE‐A‐I” (Off Vocal)
     version: Off Vocal
@@ -125,9 +127,13 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73606/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: GEMSTONE “DE‐A‐I” (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: ジェムストーン “デ‐ア‐イ” (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: GEMSTONE “DE‐A‐I” (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: GEMSTONE “DE‐A‐I” (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -144,6 +150,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -153,3 +162,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

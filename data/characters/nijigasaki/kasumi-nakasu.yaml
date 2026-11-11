@@ -2,14 +2,17 @@ id: nijigasaki/kasumi-nakasu
 project: nijigasaki
 names:
   ja: 中須かすみ
+  kana: なかす かすみ
   rom: Kasumi Nakasu
   ko: 나카스 카스미
 family_name:
   ja: 中須
+  kana: なかす
   rom: Nakasu
   ko: 나카스
 given_name:
   ja: かすみ
+  kana: かすみ
   rom: Kasumi
   ko: 카스미
 casting:
@@ -32,3 +35,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/about_nijigasaki.php#kasumi
+    checked: 2026-11-11
+    note: 공식 멤버 페이지(about_nijigasaki) 루비 (성만 루비, 이름은 히라가나 그대로)

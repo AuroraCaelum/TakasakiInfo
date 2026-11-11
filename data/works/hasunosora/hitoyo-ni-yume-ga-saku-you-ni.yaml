@@ -2,6 +2,7 @@ id: hasunosora/hitoyo-ni-yume-ga-saku-you-ni
 project: hasunosora
 title:
   ja: 一生に夢が咲くように
+  kana: ひとよにゆめがさくように
   rom: Hitoyo ni Yume ga Saku You ni
   ko: 일생에 꿈이 피어나기를
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 一生に夢が咲くように (Off Vocal)
+      kana: ひとよにゆめがさくように (オフボーカル)
       rom: Hitoyo ni Yume ga Saku You ni (Off Vocal)
       ko: 일생에 꿈이 피어나기를 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5350
     checked: 2026-10-19
+  title.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작품 제목 읽기 검색 ヒトヨニユメガサクヨウニ에서 이 작품(805-3927-1)이 나옴(공식 근거, 2026-11-11). 정식 행이 ヒトヨ(イッショウ는 * 보조 행)

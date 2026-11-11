@@ -2,7 +2,7 @@ id: aqours/kokoro-magic-a-to-z
 project: aqours
 title:
   ja: KOKORO Magic “A to Z”
-  kana: ''
+  kana: ココロ マジック “エー トゥ ゼット”
   rom: KOKORO Magic “A to Z”
   ko: KOKORO Magic “A to Z”
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: KOKORO Magic “A to Z” (Off Vocal)
-      kana: ''
+      kana: ココロ マジック “エー トゥ ゼット” (オフボーカル)
       rom: KOKORO Magic “A to Z” (Off Vocal)
       ko: KOKORO Magic “A to Z” (Off Vocal)
     version: Off Vocal
@@ -39,10 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo-ver
     title:
       ja: KOKORO Magic “A to Z” (高海千歌 Solo Ver.)
-      kana: ''
+      kana: ココロ マジック “エー トゥ ゼット” (たかみちか ソロ ヴァージョン)
       rom: KOKORO Magic “A to Z” (Chika Takami Solo Ver.)
       ko: KOKORO Magic “A to Z” (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -56,10 +59,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: KOKORO Magic “A to Z” (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: ココロ マジック “エー トゥ ゼット” (さくらうちりこ ソロ ヴァージョン)
       rom: KOKORO Magic “A to Z” (Riko Sakurauchi Solo Ver.)
       ko: KOKORO Magic “A to Z” (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -73,10 +79,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: KOKORO Magic “A to Z” (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: ココロ マジック “エー トゥ ゼット” (くろさわるびぃ ソロ ヴァージョン)
       rom: KOKORO Magic “A to Z” (Ruby Kurosawa Solo Ver.)
       ko: KOKORO Magic “A to Z” (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -90,6 +99,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -159,6 +171,7 @@ recordings:
   - id: digital-rock-ver
     title:
       ja: KOKORO Magic “A to Z” (Digital Rock Ver.)
+      kana: ココロ マジック “エー トゥ ゼット” (デジタル ロック ヴァージョン)
       rom: KOKORO Magic “A to Z” (Digital Rock Ver.)
       ko: KOKORO Magic “A to Z” (Digital Rock Ver.)
     version: Digital Rock Ver.
@@ -171,8 +184,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

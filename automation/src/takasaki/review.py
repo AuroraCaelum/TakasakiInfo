@@ -5,6 +5,8 @@ Decisions:
 - ``merge:<kind>:<id>``  merge every ``ref`` in the file into that entity (references are
   rewritten, the merged spellings become aliases, the merged entities are deleted). A person
   can be merged into a character credited in-story (D27)
+- ``pen-name:person:<id>`` / ``former-name:person:<id>``  merge, but each merged person stays an alias with its
+  names (a pen name / former name) and their credits keep printing it (``credited_name``, D58)
 - ``distinct``           the refs are different entities (``distinct_from`` is recorded)
 - ``kind:<artist kind>`` reclassify an artist (classify items)
 - ``rule``               apply the default rule (latin-ko: ko = ja)
@@ -12,6 +14,8 @@ Decisions:
 - ``pick:<n>`` / ``none`` choose the YouTube Music album of a ``ytm-album`` item (``pick:e1=1,e2=2`` per edition)
 - ``approve``            accept a ``new-names`` file from an official-site import: each item's values (as edited
   in the file) are written to its entity with the item's status, replacing the draft
+- ``approve``            accept a ``kana`` file: each item's reading is written to its person, character, work or
+  recording with the item's evidence (``names.kana`` / ``title.kana``); nothing else on the entity changes (D58)
 - ``done``               the fix was made by hand in data/; just close the item
 """
 
@@ -61,7 +65,9 @@ def _rewrite_performer(p: m.Performer, src: tuple[str, str], dst: tuple[str, str
     return m.Performer(**{dst[0]: dst[1]}, role=role, featured=p.featured, joint=p.joint)
 
 
-def merge(ds: Dataset, refs: list[str], target: str) -> str:
+def merge(ds: Dataset, refs: list[str], target: str, credited: str | None = None) -> str:
+    """Merge every ref into ``target``. ``credited`` (``pen_name`` | ``former``, persons only) keeps each merged
+    person as an alias with its names, and their credits keep printing that name (D58)."""
     dst = _split_ref(target)
     if target not in refs:
         raise ReviewError(f"merge target {target!r} is not one of the refs")
@@ -78,11 +84,16 @@ def merge(ds: Dataset, refs: list[str], target: str) -> str:
         ent = _table(ds, src[0]).get(src[1])
         if ent is None:
             raise ReviewError(f"unknown {ref!r}")
-        _rewrite_credits(ds, src, dst)
+        if credited and not (src[0] == dst[0] == "person"):
+            raise ReviewError(f"{credited} merges a person into a person, not {ref} into {target}")
+        _rewrite_credits(ds, src, dst, ent.names.ja if credited else None)
         _rewrite_performer_refs(ds, src, dst)
         if src[0] == "person":
             _rewrite_casting(ds, src[1], dst)
-        if hasattr(tgt, "aliases"):
+        if credited:
+            tgt.aliases.append(m.Alias(text=ent.names.ja, kind=credited, names=ent.names.model_copy(),
+                                       note=f"merged from person:{src[1]}"))
+        elif hasattr(tgt, "aliases"):
             for lang in ("ja", "rom", "ko"):
                 text = getattr(ent.names, lang)
                 if text and text != getattr(tgt.names, lang) and all(a.text != text for a in tgt.aliases):
@@ -92,8 +103,9 @@ def merge(ds: Dataset, refs: list[str], target: str) -> str:
     return f"merged {merged} into {target}"
 
 
-def _rewrite_credits(ds: Dataset, src: tuple[str, str], dst: tuple[str, str]) -> None:
-    """Credits name a person or a character (D27), so a person can be merged into a character."""
+def _rewrite_credits(ds: Dataset, src: tuple[str, str], dst: tuple[str, str], credited: str | None = None) -> None:
+    """Credits name a person or a character (D27), so a person can be merged into a character. With ``credited``
+    the rewritten credits keep printing that name (a pen name or former name, D58)."""
 
     def fix(credits: list[m.Credit]) -> None:
         for c in credits:
@@ -102,6 +114,8 @@ def _rewrite_credits(ds: Dataset, src: tuple[str, str], dst: tuple[str, str]) ->
             if dst[0] not in ("person", "character"):
                 raise ReviewError(f"{src[0]}:{src[1]} is credited, cannot merge it into {dst[0]}:{dst[1]}")
             c.person, c.character = (dst[1], None) if dst[0] == "person" else (None, dst[1])
+            if credited:
+                c.credited_name = credited
 
     for w in ds.works.values():
         fix(w.credits.lyricist)
@@ -163,6 +177,78 @@ def distinct(ds: Dataset, refs: list[str]) -> str:
     return f"recorded {refs} as distinct"
 
 
+def _kana_evidence(it: dict[str, Any], today: dt.date) -> m.Evidence:
+    return m.Evidence(status=m.Status(it.get("status") or "derived"), source=it.get("source") or None,
+                      checked=today if it.get("source") else None, note=it.get("note") or None)
+
+
+def approve_kana(ds: Dataset, doc: dict[str, Any], today: dt.date) -> str:
+    """Decision ``approve`` on a ``kana`` file (D58). Only the reading and its evidence are written.
+
+    - ``person:``/``character:`` items: ``family_kana`` + ``given_kana`` fill the name parts and make ``names.kana``
+      (D28 spacing); without them (activity names, names printed with ・) only ``names.kana`` is set
+    - ``artist:`` items: ``names.kana``
+    - ``work:`` items: ``title.kana``
+    - ``recording:<work>#<id>`` items: ``suffix_kana`` is appended to the work's reading as it stands when the
+      file is applied (so ``KANA-versions`` follows ``KANA-songs-*``); an item with ``kana`` only sets it as given
+    """
+    from .text import join_kana_name
+
+    done = 0
+    for it in doc.get("items", []):
+        ref = str(it.get("ref") or "")
+        kind, _, ident = ref.partition(":")
+        if it.get("pending"):
+            raise ReviewError(f"{ref}: still pending ({it['pending']}); resolve it and remove `pending`, or remove the item")
+        ev = _kana_evidence(it, today)
+        if kind in ("person", "character"):
+            ent = _table(ds, kind)[ident]
+            fam, giv = it.get("family_kana"), it.get("given_kana")
+            if bool(fam) != bool(giv):
+                raise ReviewError(f"{ref}: family_kana and given_kana go together")
+            if fam:
+                if ent.family_name is None or ent.given_name is None:
+                    raise ReviewError(f"{ref}: family_kana/given_kana on a name without a family/given split")
+                ent.family_name.kana, ent.given_name.kana = fam, giv
+                kana = it.get("kana") or join_kana_name(fam, giv)
+            else:
+                kana = it.get("kana")
+            if not kana:
+                raise ReviewError(f"{ref}: no kana")
+            ent.names.kana = kana
+            ent.evidence["names.kana"] = ev
+        elif kind == "artist":  # group and unit names: the reading of the whole name only
+            if not it.get("kana"):
+                raise ReviewError(f"{ref}: no kana")
+            ent = ds.artists[ident]
+            ent.names.kana = it["kana"]
+            ent.evidence["names.kana"] = ev
+        elif kind == "work":
+            if not it.get("kana"):
+                raise ReviewError(f"{ref}: no kana")
+            ent = ds.works[ident]
+            ent.title.kana = it["kana"]
+            ent.evidence["title.kana"] = ev
+        elif kind == "recording":
+            work, rec = ds.recording(ident)
+            if rec.title is None:
+                raise ReviewError(f"{ref}: the recording has no title of its own; its reading is the work's")
+            if "suffix_kana" in it:
+                if not work.title.kana:
+                    raise ReviewError(f"{ref}: work {work.id} has no kana yet to add {it['suffix_kana']!r} to")
+                kana = work.title.kana + str(it["suffix_kana"] or "")
+            else:
+                kana = it.get("kana")
+            if not kana:
+                raise ReviewError(f"{ref}: no kana")
+            rec.title.kana = kana
+            rec.evidence["title.kana"] = ev
+        else:
+            raise ReviewError(f"unsupported ref {ref!r} in a kana file")
+        done += 1
+    return f"set {done} readings"
+
+
 def apply_reviews(ds: Dataset, review_dir: Path) -> list[Applied]:
     y = YAML(typ="safe")
     applied: list[Applied] = []
@@ -176,6 +262,9 @@ def apply_reviews(ds: Dataset, review_dir: Path) -> list[Applied]:
         try:
             if decision.startswith("merge:"):
                 msg = merge(ds, refs, decision.removeprefix("merge:"))
+            elif decision.startswith(("pen-name:", "former-name:")):
+                how, _, target = decision.partition(":")
+                msg = merge(ds, refs, target, credited="pen_name" if how == "pen-name" else "former")
             elif decision == "distinct":
                 msg = distinct(ds, refs)
             elif decision.startswith("kind:"):
@@ -209,6 +298,8 @@ def apply_reviews(ds: Dataset, review_dir: Path) -> list[Applied]:
                 from .official import approve_names
 
                 msg = approve_names(ds, doc, dt.date.today())
+            elif doc.get("type") == "kana" and decision == "approve":
+                msg = approve_kana(ds, doc, dt.date.today())
             elif decision == "done":
                 msg = "closed (fixed by hand)"
             else:

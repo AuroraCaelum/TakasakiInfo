@@ -2,6 +2,7 @@ id: ikizulive/magical-recipe-s-il-vous-plait
 project: ikizulive
 title:
   ja: マジカル♡レシピ・シルブプレ！
+  kana: マジカル♡レシピ・シルブプレ！
   rom: Magical♡Recipe・S'il Vous Plaît!
   ko: 매지컬♡레시피・실부플레!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: マジカル♡レシピ・シルブプレ！ (Off Vocal)
+      kana: マジカル♡レシピ・シルブプレ！ (オフボーカル)
       rom: Magical♡Recipe・S'il Vous Plaît! (Off Vocal)
       ko: 매지컬♡레시피・실부플레! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

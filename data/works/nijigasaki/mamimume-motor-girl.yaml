@@ -2,6 +2,7 @@ id: nijigasaki/mamimume-motor-girl
 project: nijigasaki
 title:
   ja: まみむめMotor Girl
+  kana: まみむめモーター ガール
   rom: MaMiMuMe Motor Girl
   ko: 마미무메 Motor Girl
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: まみむめMotor Girl (Off Vocal)
+      kana: まみむめモーター ガール (オフボーカル)
       rom: MaMiMuMe Motor Girl (Off Vocal)
       ko: 마미무메 Motor Girl (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4728
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

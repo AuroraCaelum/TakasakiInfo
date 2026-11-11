@@ -1,14 +1,17 @@
 id: aya-hirano
 names:
   ja: 平野 綾
+  kana: ひらの あや
   rom: Aya Hirano
   ko: 히라노 아야
 family_name:
   ja: 平野
+  kana: ひらの
   rom: Hirano
   ko: 히라노
 given_name:
   ja: 綾
+  kana: あや
   rom: Aya
   ko: 아야
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%B9%B3%E9%87%8E%E7%B6%BE
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

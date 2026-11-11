@@ -2,6 +2,7 @@ id: liella/question99
 project: liella
 title:
   ja: QUESTION99
+  kana: クエスチョンキューキュー
   rom: QUESTION99
   ko: QUESTION99
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: QUESTION99 (Off Vocal)
+      kana: クエスチョンキューキュー (オフボーカル)
       rom: QUESTION99 (Off Vocal)
       ko: QUESTION99 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd42.php
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58). 사용자 검토·승인(2026-11-11)

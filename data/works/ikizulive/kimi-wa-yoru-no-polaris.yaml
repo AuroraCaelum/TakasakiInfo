@@ -2,6 +2,7 @@ id: ikizulive/kimi-wa-yoru-no-polaris
 project: ikizulive
 title:
   ja: キミは夜のポラリス
+  kana: キミはよるのポラリス
   rom: Kimi wa Yoru no Polaris
   ko: 너는 밤의 폴라리스
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: キミは夜のポラリス (Off Vocal)
+      kana: キミはよるのポラリス (オフボーカル)
       rom: Kimi wa Yoru no Polaris (Off Vocal)
       ko: 너는 밤의 폴라리스 (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -47,3 +52,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4704
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

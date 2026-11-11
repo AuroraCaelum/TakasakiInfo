@@ -1,14 +1,17 @@
 id: hitoshi-harukawa
 names:
   ja: 春川 仁志
+  kana: はるかわ ひとし
   rom: Hitoshi Harukawa
   ko: 하루카와 히토시
 family_name:
   ja: 春川
+  kana: はるかわ
   rom: Harukawa
   ko: 하루카와
 given_name:
   ja: 仁志
+  kana: ひとし
   rom: Hitoshi
   ko: 히토시
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

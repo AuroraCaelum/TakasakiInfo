@@ -2,6 +2,7 @@ id: aqours/game-on
 project: aqours
 title:
   ja: GAME ON！
+  kana: ゲーム オン！
   rom: GAME ON!
   ko: GAME ON!
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: GAME ON！ (Off Vocal)
+      kana: ゲーム オン！ (オフボーカル)
       rom: GAME ON! (Off Vocal)
       ko: GAME ON! (Off Vocal)
     version: Off Vocal
@@ -38,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -137,3 +142,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd88
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

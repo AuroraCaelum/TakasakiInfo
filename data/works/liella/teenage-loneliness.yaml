@@ -2,6 +2,7 @@ id: liella/teenage-loneliness
 project: liella
 title:
   ja: ティーンエイジ・ロンリネス
+  kana: ティーンエイジ・ロンリネス
   rom: Teenage・Loneliness
   ko: 틴에이지・론리니스
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ティーンエイジ・ロンリネス (Off Vocal)
+      kana: ティーンエイジ・ロンリネス (オフボーカル)
       rom: Teenage・Loneliness (Off Vocal)
       ko: 틴에이지・론리니스 (Off Vocal)
     version: Off Vocal
@@ -40,6 +42,9 @@ recordings:
         source: https://www.youtube.com/watch?v=dxX2hsip-xE
         checked: 2026-10-27
         note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -51,3 +56,6 @@ evidence:
     source: https://www.youtube.com/watch?v=dxX2hsip-xE
     checked: 2026-10-27
     note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

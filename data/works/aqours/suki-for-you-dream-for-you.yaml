@@ -2,6 +2,7 @@ id: aqours/suki-for-you-dream-for-you
 project: aqours
 title:
   ja: SUKI for you, DREAM for you!
+  kana: スキ フォー ユー, ドリーム フォー ユー!
   rom: SUKI for you, DREAM for you!
   ko: SUKI for you, DREAM for you!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: SUKI for you, DREAM for you! (Off Vocal)
+      kana: スキ フォー ユー, ドリーム フォー ユー! (オフボーカル)
       rom: SUKI for you, DREAM for you! (Off Vocal)
       ko: SUKI for you, DREAM for you! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -134,3 +139,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,7 +2,7 @@ id: aqours/tousou-meisou-mobius-loop
 project: aqours
 title:
   ja: 逃走迷走メビウスループ
-  kana: ''
+  kana: とうそうめいそうメビウスループ
   rom: Tousou Meisou Mobius Loop
   ko: 도망 황망 뫼비우스의 띠
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 逃走迷走メビウスループ (Off Vocal)
-      kana: ''
+      kana: とうそうめいそうメビウスループ (オフボーカル)
       rom: Tousou Meisou Mobius Loop (Off Vocal)
       ko: 도망 황망 뫼비우스의 띠 (Off Vocal)
     version: Off Vocal
@@ -43,6 +43,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd28
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -76,6 +79,7 @@ recordings:
   - id: movie-size
     title:
       ja: 逃走迷走メビウスループ (MOVIEサイズ)
+      kana: とうそうめいそうメビウスループ (ムービーサイズ)
       rom: Tousou Meisou Mobius Loop (MOVIE Size)
       ko: 도망 황망 뫼비우스의 띠 (MOVIE 사이즈)
     version: MOVIEサイズ
@@ -91,8 +95,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd28
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

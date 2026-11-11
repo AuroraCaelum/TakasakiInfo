@@ -2,6 +2,7 @@ id: nijigasaki/manmaru-otsukisama
 project: nijigasaki
 title:
   ja: まんまるお月さま
+  kana: まんまるおつきさま
   rom: Manmaru Otsukisama
   ko: 동그란 달님
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: まんまるお月さま (Off Vocal)
+      kana: まんまるおつきさま (オフボーカル)
       rom: Manmaru Otsukisama (Off Vocal)
       ko: 동그란 달님 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4727
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

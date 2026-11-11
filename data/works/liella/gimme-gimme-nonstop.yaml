@@ -2,6 +2,7 @@ id: liella/gimme-gimme-nonstop
 project: liella
 title:
   ja: ギミギミノンストップ
+  kana: ギミギミノンストップ
   rom: Gimme Gimme Nonstop
   ko: 기미기미 논스톱
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ギミギミノンストップ (Off Vocal)
+      kana: ギミギミノンストップ (オフボーカル)
       rom: Gimme Gimme Nonstop (Off Vocal)
       ko: 기미기미 논스톱 (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -49,3 +54,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
     checked: 2026-11-04
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

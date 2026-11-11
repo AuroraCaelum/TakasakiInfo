@@ -2,6 +2,7 @@ id: liella/high-motivation
 project: liella
 title:
   ja: High！モチベーション
+  kana: ハイ！モチベーション
   rom: High! Motivation
   ko: High! 모티베이션
 credits:
@@ -29,6 +30,7 @@ recordings:
     kind: off_vocal
     title:
       ja: High！モチベーション (Off Vocal)
+      kana: ハイ！モチベーション (オフボーカル)
       rom: High! Motivation (Off Vocal)
       ko: High! 모티베이션 (Off Vocal)
     version: Off Vocal
@@ -40,6 +42,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -50,3 +55,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

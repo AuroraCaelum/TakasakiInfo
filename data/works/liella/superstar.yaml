@@ -2,6 +2,7 @@ id: liella/superstar
 project: liella
 title:
   ja: スーパースター!!
+  kana: スーパースター!!
   rom: Superstar!!
   ko: 슈퍼스타!!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: スーパースター!! (Off Vocal)
+      kana: スーパースター!! (オフボーカル)
       rom: Superstar!! (Off Vocal)
       ko: 슈퍼스타!! (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: スーパースター!! ～TV Size～
+      kana: スーパースター!! ～ティーブイ サイズ～
       rom: Superstar!! ~TV Size~
       ko: 슈퍼스타!! ~TV Size~
     version: TV Size
@@ -51,6 +57,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -61,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -3,6 +3,7 @@ kind: unit
 projects: [musical]
 names:
   ja: 滝桜女学院高等学校
+  kana: たきざくらじょがくいんこうとうがっこう
 lineups:
   - members: [musical/anzu-takizawa, musical/toa-kurusu, musical/misuzu-wakatsuki, musical/sayaka-harukaze, musical/rena-suzuka]
 evidence:
@@ -11,3 +12,6 @@ evidence:
     source: https://www.lovelive-anime.jp/musical/2022/music.php#cd01
     checked: 2026-10-19
     note: 공식 음악 페이지 곡 버전명 '未完成ドリーム！（滝桜女学院高等学校Ver.）' (2023/member.php에도 같은 학교명)
+  names.kana:
+    status: derived
+    note: '읽기가 하나뿐이라 자동 승인: 기존 음원 제목 읽기(滝桜女学院高等学校Ver.)와 같음 (D58, 2026-11-11)'

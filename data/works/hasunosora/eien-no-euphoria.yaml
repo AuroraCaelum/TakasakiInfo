@@ -26,6 +26,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: 永遠のEuphoria (104期 Ver.)
+      kana: えいえんのユーフォリア (ひゃくよんき ヴァージョン)
       rom: Eien no Euphoria (104th Ver.)
       ko: 영원의 유포리아 (104기 Ver.)
     version: 104期 Ver.
@@ -40,9 +41,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/17/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 永遠のEuphoria (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: えいえんのユーフォリア (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Eien no Euphoria (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 영원의 유포리아 (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -62,6 +67,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/hasunosora/music/01/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

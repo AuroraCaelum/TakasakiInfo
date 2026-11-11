@@ -28,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 決意の光 (Off Vocal)
+      kana: けついのひかり (オフボーカル)
       rom: Ketsui no Hikari (Off Vocal)
       ko: 결의의 빛 (Off Vocal)
     version: Off Vocal
@@ -40,6 +41,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

@@ -2,6 +2,7 @@ id: hasunosora/colorfulness
 project: hasunosora
 title:
   ja: Colorfulness
+  kana: カラフルネス
   rom: Colorfulness
   ko: Colorfulness
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Colorfulness (Off Vocal)
+      kana: カラフルネス (オフボーカル)
       rom: Colorfulness (Off Vocal)
       ko: Colorfulness (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/14/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/14/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

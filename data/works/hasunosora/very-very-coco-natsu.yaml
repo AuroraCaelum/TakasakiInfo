@@ -2,6 +2,7 @@ id: hasunosora/very-very-coco-natsu
 project: hasunosora
 title:
   ja: Very! Very! COCO夏っ
+  kana: ベリー! ベリー! ココなつっ
   rom: Very! Very! COCO Natsu
   ko: Very! Very! COCO넛
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Very! Very! COCO夏っ (Off Vocal)
+      kana: ベリー! ベリー! ココなつっ (オフボーカル)
       rom: Very! Very! COCO Natsu (Off Vocal)
       ko: Very! Very! COCO넛 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4850
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    source: https://utaten.com/lyric/sz25090346/
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

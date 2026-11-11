@@ -1,14 +1,17 @@
 id: manabu-marutani
 names:
   ja: 丸谷マナブ
+  kana: まるたに まなぶ
   rom: Manabu Marutani
   ko: 마루타니 마나부
 family_name:
   ja: 丸谷
+  kana: まるたに
   rom: Marutani
   ko: 마루타니
 given_name:
   ja: マナブ
+  kana: まなぶ
   rom: Manabu
   ko: 마나부
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%B8%B8%E8%B0%B7%E3%83%9E%E3%83%8A%E3%83%96
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID マルタニマナブ 일치(QU4RTZ 곡)

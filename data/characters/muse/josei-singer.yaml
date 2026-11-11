@@ -2,6 +2,7 @@ id: muse/josei-singer
 project: muse
 names:
   ja: 女性シンガー
+  kana: じょせいシンガー
   rom: Josei Singer
   ko: 여성 싱어
 casting:
@@ -19,3 +20,6 @@ evidence:
   name_parts:
     status: derived
     note: 배역 이름(극장판의 여성 가수)이라 성·이름 없음
+  names.kana:
+    status: derived
+    note: 이름 없는 배역(일반 명사 女性シンガー). 읽기가 하나뿐이라 자동 승인(D58, 2026-11-11)

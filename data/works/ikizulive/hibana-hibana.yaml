@@ -2,6 +2,7 @@ id: ikizulive/hibana-hibana
 project: ikizulive
 title:
   ja: HIBANA―火花―
+  kana: ヒバナ―ひばな―
   rom: HIBANA -Hibana-
   ko: HIBANA―히바나―
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: HIBANA―火花― (Off Vocal)
+      kana: ヒバナ―ひばな― (オフボーカル)
       rom: HIBANA -Hibana- (Off Vocal)
       ko: HIBANA―히바나― (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4700
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

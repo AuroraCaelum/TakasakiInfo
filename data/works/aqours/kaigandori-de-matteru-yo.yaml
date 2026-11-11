@@ -2,7 +2,7 @@ id: aqours/kaigandori-de-matteru-yo
 project: aqours
 title:
   ja: 海岸通りで待ってるよ
-  kana: ''
+  kana: かいがんどおりでまってるよ
   rom: Kaigandori de Matteru Yo
   ko: 해안 도로에서 기다릴게
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 海岸通りで待ってるよ (Off Vocal)
-      kana: ''
+      kana: かいがんどおりでまってるよ (オフボーカル)
       rom: Kaigandori de Matteru Yo (Off Vocal)
       ko: 해안 도로에서 기다릴게 (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd14
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd14
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -3,6 +3,7 @@ kind: group
 projects: [nijigasaki, liella]
 names:
   ja: Liella!
+  kana: リエラ!
   rom: Liella!
   ko: Liella!
 evidence:
@@ -16,3 +17,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

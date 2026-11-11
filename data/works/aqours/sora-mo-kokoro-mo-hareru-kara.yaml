@@ -55,7 +55,7 @@ recordings:
   - id: 9nin-ver
     title:
       ja: 空も心も晴れるから (9人Ver)
-      kana: ''
+      kana: そらもこころもはれるから (きゅうにんヴァージョン)
       rom: Sora mo Kokoro mo Hareru kara (9nin Ver)
       ko: 하늘도 마음도 맑을 테니까 (9인 Ver)
     version: 9人Ver
@@ -69,6 +69,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
         checked: 2026-10-19
         note: "이 녹음(9人Ver)의 편곡은 공식 미게재 (CHRONICLE https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43 은 '歌：Aqours'만 게재). 같은 곡 솔로 Ver.의 공식 편곡 표기(脇 眞富 (Arte Refact))와 같다고 봄. 레이블 배포 메타데이터(YouTube Topic https://www.youtube.com/watch?v=QMTYzZvmyik, CHRONICLE 수록 '空も心も晴れるから (9人Ver)' · Aqours)도 'Arranger: Masatomi Waki'"
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -162,6 +165,7 @@ recordings:
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 空も心も晴れるから (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: そらもこころもはれるから (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Sora mo Kokoro mo Hareru kara (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 하늘도 마음도 맑을 테니까 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -178,6 +182,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 chika-takami-solo의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

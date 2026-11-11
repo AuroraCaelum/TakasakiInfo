@@ -1,14 +1,17 @@
 id: kai-gojou
 names:
   ja: 五条 下位
+  kana: ごじょう かい
   rom: Kai Gojou
   ko: 고조 카이
 family_name:
   ja: 五条
+  kana: ごじょう
   rom: Gojou
   ko: 고조
 given_name:
   ja: 下位
+  kana: かい
   rom: Kai
   ko: 카이
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

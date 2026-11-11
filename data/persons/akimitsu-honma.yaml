@@ -1,14 +1,17 @@
 id: akimitsu-honma
 names:
   ja: 本間 昭光
+  kana: ほんま あきみつ
   rom: Akimitsu Honma
   ko: 혼마 아키미츠
 family_name:
   ja: 本間
+  kana: ほんま
   rom: Honma
   ko: 혼마
 given_name:
   ja: 昭光
+  kana: あきみつ
   rom: Akimitsu
   ko: 아키미츠
 evidence:
@@ -25,3 +28,8 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%9C%AC%E9%96%93%E6%98%AD%E5%85%89
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

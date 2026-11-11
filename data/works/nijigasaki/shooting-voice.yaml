@@ -42,6 +42,7 @@ recordings:
   - id: live-liella-1st-gen-2025-08-10
     title:
       ja: Shooting Voice!! (1期生Ver.)
+      kana: シューティング・ボイス (いっきせいヴァージョン)
       rom: Shooting Voice!! (1期生Ver.)
       ko: Shooting Voice!! (1期生Ver.)
     version: 1期生Ver.
@@ -62,9 +63,13 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5813
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-liella-connect-the-stars-2025-08-11
     title:
       ja: Shooting Voice!! (2・3期生Ver.)
+      kana: シューティング・ボイス (に・さんきせいヴァージョン)
       rom: Shooting Voice!! (2・3期生Ver.)
       ko: Shooting Voice!! (2・3期生Ver.)
     version: 2・3期生Ver.
@@ -85,6 +90,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5813
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

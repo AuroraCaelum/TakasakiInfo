@@ -2,6 +2,7 @@ id: nijigasaki/cara-tesoro
 project: nijigasaki
 title:
   ja: Cara Tesoro
+  kana: カーラ テゾーロ
   rom: Cara Tesoro
   ko: Cara Tesoro
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Cara Tesoro (Off Vocal)
+      kana: カーラ テゾーロ (オフボーカル)
       rom: Cara Tesoro (Off Vocal)
       ko: Cara Tesoro (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: movie-size
     title:
       ja: Cara Tesoro (MOVIE size)
+      kana: カーラ テゾーロ (ムービー サイズ)
       rom: Cara Tesoro (MOVIE size)
       ko: Cara Tesoro (MOVIE size)
     version: MOVIE size
@@ -51,6 +57,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -60,3 +69,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-19
+  title.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작품 제목 읽기 검색 カーラテゾーロ에서 이 작품(307-4595-1)이 나옴(공식 근거, 2026-11-11)

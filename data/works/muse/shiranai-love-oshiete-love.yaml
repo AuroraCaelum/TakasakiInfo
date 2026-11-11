@@ -2,6 +2,7 @@ id: muse/shiranai-love-oshiete-love
 project: muse
 title:
   ja: 知らないLove＊教えてLove
+  kana: しらないラブ＊おしえてラブ
   rom: Shiranai Love*Oshiete Love
   ko: 모르겠어 Love*가르쳐 줘 Love
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 知らないLove＊教えてLove (Off Vocal)
+      kana: しらないラブ＊おしえてラブ (オフボーカル)
       rom: Shiranai Love*Oshiete Love (Off Vocal)
       ko: 모르겠어 Love*가르쳐 줘 Love (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 知らないLove＊教えてLove (UMI MIX)
+      kana: しらないラブ＊おしえてラブ (ウミ ミックス)
       rom: Shiranai Love*Oshiete Love (UMI MIX)
       ko: 모르겠어 Love*가르쳐 줘 Love (UMI MIX)
     version: UMI MIX
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 知らないLove＊教えてLove (NOZOMI Mix)
+      kana: しらないラブ＊おしえてラブ (ノゾミ ミックス)
       rom: Shiranai Love*Oshiete Love (NOZOMI Mix)
       ko: 모르겠어 Love*가르쳐 줘 Love (NOZOMI Mix)
     version: NOZOMI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 知らないLove＊教えてLove (RIN Mix)
+      kana: しらないラブ＊おしえてラブ (リン ミックス)
       rom: Shiranai Love*Oshiete Love (RIN Mix)
       ko: 모르겠어 Love*가르쳐 줘 Love (RIN Mix)
     version: RIN Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

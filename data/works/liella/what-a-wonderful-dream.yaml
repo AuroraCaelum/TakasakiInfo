@@ -24,6 +24,7 @@ recordings:
   - id: catchu-ver
     title:
       ja: What a Wonderful Dream!! ～CatChu! Ver.～
+      kana: ワット・ア・ワンダフル・ドリーム!! ～キャッチュ! ヴァージョン～
       rom: What a Wonderful Dream!! ~CatChu! Ver.~
       ko: What a Wonderful Dream!! ~CatChu! Ver.~
     version: CatChu! Ver.
@@ -36,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 5yncri5e-ver
     title:
       ja: What a Wonderful Dream!! ～5yncri5e! Ver.～
+      kana: ワット・ア・ワンダフル・ドリーム!! ～シンクライズ! ヴァージョン～
       rom: What a Wonderful Dream!! ~5yncri5e! Ver.~
       ko: What a Wonderful Dream!! ~5yncri5e! Ver.~
     version: 5yncri5e! Ver.
@@ -51,10 +56,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 5yncri5e-ver-off-vocal
     kind: off_vocal
     title:
       ja: What a Wonderful Dream!! ～5yncri5e! Ver.～ (Off Vocal)
+      kana: ワット・ア・ワンダフル・ドリーム!! ～シンクライズ! ヴァージョン～ (オフボーカル)
       rom: What a Wonderful Dream!! ~5yncri5e! Ver.~ (Off Vocal)
       ko: What a Wonderful Dream!! ~5yncri5e! Ver.~ (Off Vocal)
     version: Off Vocal
@@ -66,10 +75,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: catchu-ver-off-vocal
     kind: off_vocal
     title:
       ja: What a Wonderful Dream!! ～CatChu! Ver.～ (Off Vocal)
+      kana: ワット・ア・ワンダフル・ドリーム!! ～キャッチュ! ヴァージョン～ (オフボーカル)
       rom: What a Wonderful Dream!! ~CatChu! Ver.~ (Off Vocal)
       ko: What a Wonderful Dream!! ~CatChu! Ver.~ (Off Vocal)
     version: Off Vocal
@@ -81,9 +94,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kaleidoscore-ver
     title:
       ja: What a Wonderful Dream!! ～KALEIDOSCORE Ver.～
+      kana: ワット・ア・ワンダフル・ドリーム!! ～カレイドスコア ヴァージョン～
       rom: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~
       ko: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~
     version: KALEIDOSCORE Ver.
@@ -96,10 +113,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kaleidoscore-ver-off-vocal
     kind: off_vocal
     title:
       ja: What a Wonderful Dream!! ～KALEIDOSCORE Ver.～ (Off Vocal)
+      kana: ワット・ア・ワンダフル・ドリーム!! ～カレイドスコア ヴァージョン～ (オフボーカル)
       rom: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~ (Off Vocal)
       ko: What a Wonderful Dream!! ~KALEIDOSCORE Ver.~ (Off Vocal)
     version: Off Vocal
@@ -111,6 +132,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

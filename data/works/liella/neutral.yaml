@@ -2,6 +2,7 @@ id: liella/neutral
 project: liella
 title:
   ja: ニュートラル
+  kana: ニュートラル
   rom: Neutral
   ko: 뉴트럴
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ニュートラル (Off Vocal)
+      kana: ニュートラル (オフボーカル)
       rom: Neutral (Off Vocal)
       ko: 뉴트럴 (Off Vocal)
     version: Off Vocal
@@ -38,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -48,3 +53,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

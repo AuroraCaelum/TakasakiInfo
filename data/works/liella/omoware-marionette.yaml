@@ -2,6 +2,7 @@ id: liella/omoware-marionette
 project: liella
 title:
   ja: 想われマリオネット
+  kana: おもわれマリオネット
   rom: Omoware Marionette
   ko: 사랑받는 마리오네트
 credits:
@@ -29,6 +30,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 想われマリオネット (Off Vocal)
+      kana: おもわれマリオネット (オフボーカル)
       rom: Omoware Marionette (Off Vocal)
       ko: 사랑받는 마리오네트 (Off Vocal)
     version: Off Vocal
@@ -41,6 +43,9 @@ recordings:
         source: https://www.youtube.com/watch?v=CH2ugMWA1JM
         checked: 2026-10-27
         note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -52,3 +57,6 @@ evidence:
     source: https://www.youtube.com/watch?v=CH2ugMWA1JM
     checked: 2026-10-27
     note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

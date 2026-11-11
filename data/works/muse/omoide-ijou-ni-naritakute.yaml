@@ -2,6 +2,7 @@ id: muse/omoide-ijou-ni-naritakute
 project: muse
 title:
   ja: 思い出以上になりたくて
+  kana: おもいでいじょうになりたくて
   rom: Omoide Ijou ni Naritakute
   ko: 추억 이상이 되고 싶어서
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 思い出以上になりたくて (Off Vocal)
+      kana: おもいでいじょうになりたくて (オフボーカル)
       rom: Omoide Ijou ni Naritakute (Off Vocal)
       ko: 추억 이상이 되고 싶어서 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 思い出以上になりたくて (NOZOMI Mix)
+      kana: おもいでいじょうになりたくて (ノゾミ ミックス)
       rom: Omoide Ijou ni Naritakute (NOZOMI Mix)
       ko: 추억 이상이 되고 싶어서 (NOZOMI Mix)
     version: NOZOMI Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd65)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 思い出以上になりたくて (RIN Mix)
+      kana: おもいでいじょうになりたくて (リン ミックス)
       rom: Omoide Ijou ni Naritakute (RIN Mix)
       ko: 추억 이상이 되고 싶어서 (RIN Mix)
     version: RIN Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd65)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 思い出以上になりたくて (UMI Mix)
+      kana: おもいでいじょうになりたくて (ウミ ミックス)
       rom: Omoide Ijou ni Naritakute (UMI Mix)
       ko: 추억 이상이 되고 싶어서 (UMI Mix)
     version: UMI Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd65)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

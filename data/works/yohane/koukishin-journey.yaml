@@ -2,6 +2,7 @@ id: yohane/koukishin-journey
 project: yohane
 title:
   ja: 好奇心ジャーニー
+  kana: こうきしんジャーニー
   rom: Koukishin Journey
   ko: 호기심 저니
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 好奇心ジャーニー (Off Vocal)
+      kana: こうきしんジャーニー (オフボーカル)
       rom: Koukishin Journey (Off Vocal)
       ko: 호기심 저니 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/detail/?id=5
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/detail/?id=5
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

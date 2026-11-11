@@ -2,6 +2,7 @@ id: external/cure-wink
 project: external
 names:
   ja: キュアウインク
+  kana: キュアウインク
   rom: Cure Wink
   ko: 큐어 윙크
 casting:
@@ -19,3 +20,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-10-20
+  names.kana:
+    status: official
+    source: https://www.toei-anim.co.jp/tv/you-and-idol_precure/character/curewink.php
+    checked: 2026-11-11
+    note: 도에이 애니메이션 공식 캐릭터 페이지 가타카나 표기(표기 자체가 읽기)

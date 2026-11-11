@@ -1,14 +1,17 @@
 id: kanji-eguchi
 names:
   ja: 江口 寛至
+  kana: えぐち かんじ
   rom: Kanji Eguchi
   ko: 에구치 칸지
 family_name:
   ja: 江口
+  kana: えぐち
   rom: Eguchi
   ko: 에구치
 given_name:
   ja: 寛至
+  kana: かんじ
   rom: Kanji
   ko: 칸지
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

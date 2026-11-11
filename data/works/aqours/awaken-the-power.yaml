@@ -2,7 +2,7 @@ id: aqours/awaken-the-power
 project: aqours
 title:
   ja: Awaken the power
-  kana: ''
+  kana: アウェイクン ザ パワー
   rom: Awaken the power
   ko: Awaken the power
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Awaken the power (Off Vocal)
-      kana: ''
+      kana: アウェイクン ザ パワー (オフボーカル)
       rom: Awaken the power (Off Vocal)
       ko: Awaken the power (Off Vocal)
     version: Off Vocal
@@ -39,9 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Awaken the power (TVサイズ)
+      kana: アウェイクン ザ パワー (ティーブイサイズ)
       rom: Awaken the power (TV Size)
       ko: Awaken the power (TV 사이즈)
     version: TVサイズ
@@ -55,8 +59,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

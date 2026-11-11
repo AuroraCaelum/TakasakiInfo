@@ -2,7 +2,7 @@ id: aqours/happy-party-train
 project: aqours
 title:
   ja: HAPPY PARTY TRAIN
-  kana: ''
+  kana: ハッピー パーティー トレイン
   rom: HAPPY PARTY TRAIN
   ko: HAPPY PARTY TRAIN
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: HAPPY PARTY TRAIN (Off Vocal)
-      kana: ''
+      kana: ハッピー パーティー トレイン (オフボーカル)
       rom: HAPPY PARTY TRAIN (Off Vocal)
       ko: HAPPY PARTY TRAIN (Off Vocal)
     version: Off Vocal
@@ -39,10 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo-ver
     title:
       ja: HAPPY PARTY TRAIN (高海千歌 Solo Ver.)
-      kana: ''
+      kana: ハッピー パーティー トレイン (たかみちか ソロ ヴァージョン)
       rom: HAPPY PARTY TRAIN (Chika Takami Solo Ver.)
       ko: HAPPY PARTY TRAIN (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -56,10 +59,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: HAPPY PARTY TRAIN (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: ハッピー パーティー トレイン (さくらうちりこ ソロ ヴァージョン)
       rom: HAPPY PARTY TRAIN (Riko Sakurauchi Solo Ver.)
       ko: HAPPY PARTY TRAIN (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -73,10 +79,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: HAPPY PARTY TRAIN (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: ハッピー パーティー トレイン (くろさわるびぃ ソロ ヴァージョン)
       rom: HAPPY PARTY TRAIN (Ruby Kurosawa Solo Ver.)
       ko: HAPPY PARTY TRAIN (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -90,6 +99,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -159,6 +171,7 @@ recordings:
   - id: mixture-rock-ver
     title:
       ja: HAPPY PARTY TRAIN (Mixture Rock Ver.)
+      kana: ハッピー パーティー トレイン (ミクスチャー ロック ヴァージョン)
       rom: HAPPY PARTY TRAIN (Mixture Rock Ver.)
       ko: HAPPY PARTY TRAIN (Mixture Rock Ver.)
     version: Mixture Rock Ver.
@@ -171,9 +184,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: HAPPY PARTY TRAIN (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: ハッピー パーティー トレイン (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: HAPPY PARTY TRAIN (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: HAPPY PARTY TRAIN (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -190,8 +207,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

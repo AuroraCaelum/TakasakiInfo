@@ -2,6 +2,7 @@ id: aqours/ao-no-aurora
 project: aqours
 title:
   ja: 海空のオーロラ
+  kana: あおのオーロラ
   rom: Ao no Aurora
   ko: 해공의 오로라
 credits:
@@ -30,3 +31,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

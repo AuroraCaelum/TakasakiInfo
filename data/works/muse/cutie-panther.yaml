@@ -2,6 +2,7 @@ id: muse/cutie-panther
 project: muse
 title:
   ja: Cutie Panther
+  kana: キューティー パンサー
   rom: Cutie Panther
   ko: Cutie Panther
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Cutie Panther (Off Vocal)
+      kana: キューティー パンサー (オフボーカル)
       rom: Cutie Panther (Off Vocal)
       ko: Cutie Panther (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: metal-panther-mix
     title:
       ja: Cutie Panther (Metal-Panther Mix)
+      kana: キューティー パンサー (メタルパンサー ミックス)
       rom: Cutie Panther (Metal-Panther Mix)
       ko: Cutie Panther (Metal-Panther Mix)
     version: Metal-Panther Mix
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: Cutie Panther (NICO Mix)
+      kana: キューティー パンサー (ニコ ミックス)
       rom: Cutie Panther (NICO Mix)
       ko: Cutie Panther (NICO Mix)
     version: NICO Mix
@@ -66,9 +76,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: Cutie Panther (MAKI Mix)
+      kana: キューティー パンサー (マキ ミックス)
       rom: Cutie Panther (MAKI Mix)
       ko: Cutie Panther (MAKI Mix)
     version: MAKI Mix
@@ -82,9 +96,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: Cutie Panther (ELI Mix)
+      kana: キューティー パンサー (エリ ミックス)
       rom: Cutie Panther (ELI Mix)
       ko: Cutie Panther (ELI Mix)
     version: ELI Mix
@@ -98,6 +116,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -107,3 +128,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

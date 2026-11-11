@@ -9,7 +9,7 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--05-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--11-e4007f?style=flat-square)](TakasakiInfo.json)
 [![Tracks](https://img.shields.io/badge/tracks-4%2C598-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
@@ -22,13 +22,13 @@
 > **Updates are back (October 2026).** The database now runs on a rebuilt pipeline: each song, person and release is kept once as an entity in [`data/`](data), and every CSV and JSON file in this repository is generated from it. How it works: [automation/README.md](automation/README.md).
 
 > [!IMPORTANT]
-> The data is still being filled in, so entries may be missing and the structure may change. 3,686 tracks have no pronunciation (kana) yet.
+> The data is still being filled in, so entries may be missing and the structure may change. 821 tracks have no pronunciation (kana) yet.
 
 <a id="database-status"></a>
 
 ## Database status
 
-**4,598** tracks · **559** albums · **933** songs · **633** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-05
+**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-11
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
@@ -279,6 +279,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `affiliation` | string or **Names** | — | Affiliation printed after the name, `名前(所属)`; a names object when the spelling differs by language. |
 | `fullwidth` | boolean | `false` | The cited official page prints the affiliation in full-width brackets, `名前（所属）`; `ja` keeps them, `rom` and `ko` are half-width. |
 | `role` | **Names** | — | The role a cast member is credited as (`椿 ルリカ役`). |
+| `credited_name` | string | — | The pen name or former name the credit prints, by its alias `text` (`木村 有希` for 園田 健太郎); outputs show that alias's names instead of the person's current name (D58). |
 
 **LiveOf** (in Recording `live`)
 
@@ -300,7 +301,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `family_name` | **Names** | — | Family name in each language. |
 | `given_name` | **Names** | — | Given name in each language. |
 | `native_script` | string | `"ja"` | `latin` for a name whose original form is in Latin script; its `ko` is then the original. One of `ja`, `latin`. |
-| `aliases` | **Alias**[] | `[]` | Other spellings seen in credits. Used to match credits, never printed. |
+| `aliases` | **Alias**[] | `[]` | Other spellings seen in credits. Used to match credits; printed only where a credit names one (`credited_name`: a pen name or former name with its own `names`). |
 | `distinct_from` | string[] | `[]` | Ids of people with a similar name who are known to be someone else. |
 | `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`names.ja`, `names.ko`, `name_parts`, …). |
 
@@ -309,7 +310,8 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | Field | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | `text` | string | *required* | The spelling as seen in a credit. |
-| `kind` | string | `"variant"` | `variant`: another spelling in use; `misprint`: a printing error; `former`: a former name. One of `variant`, `misprint`, `former`. |
+| `kind` | string | `"variant"` | `variant`: another spelling in use; `misprint`: a printing error; `former`: a former name; `pen_name`: another name the person works under. One of `variant`, `misprint`, `former`, `pen_name`. |
+| `names` | **Names** | — | The name in each language, for a pen name or former name that a credit prints (`credited_name`, D58). |
 | `note` | string | — | Where the spelling was seen. |
 
 </details>
@@ -473,7 +475,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 <details>
 <summary><code>tracks.json</code>: one row per track of each edition, with its credits and link</summary>
 
-A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "names": {…}}`, plus `role`, `featured` and `joint` for a singer or `affiliation`, `fullwidth` and `role` for a credit when they are set. A value that is not known is null.
+A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "names": {…}}`, plus `role`, `featured` and `joint` for a singer or `affiliation`, `fullwidth` and `role` for a credit when they are set. A credit printed under a pen name or former name has `credited_name`, and its `names` are that name's. A value that is not known is null.
 
 | Field | Type | Description |
 | :-- | :-- | :-- |

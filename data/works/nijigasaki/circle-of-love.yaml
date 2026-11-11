@@ -2,6 +2,7 @@ id: nijigasaki/circle-of-love
 project: nijigasaki
 title:
   ja: Circle of Love
+  kana: サークル オブ ラブ
   rom: Circle of Love
   ko: Circle of Love
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Circle of Love (Off Vocal)
+      kana: サークル オブ ラブ (オフボーカル)
       rom: Circle of Love (Off Vocal)
       ko: Circle of Love (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: movie-size
     title:
       ja: Circle of Love (MOVIE size)
+      kana: サークル オブ ラブ (ムービー サイズ)
       rom: Circle of Love (MOVIE size)
       ko: Circle of Love (MOVIE size)
     version: MOVIE size
@@ -51,6 +57,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -60,3 +69,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

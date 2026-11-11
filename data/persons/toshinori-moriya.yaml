@@ -1,14 +1,17 @@
 id: toshinori-moriya
 names:
   ja: 森谷 敏紀
+  kana: もりや としのり
   rom: Toshinori Moriya
   ko: 모리야 토시노리
 family_name:
   ja: 森谷
+  kana: もりや
   rom: Moriya
   ko: 모리야
 given_name:
   ja: 敏紀
+  kana: としのり
   rom: Toshinori
   ko: 토시노리
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%A3%AE%E8%B0%B7%E6%95%8F%E7%B4%80
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (스마일컴퍼니 소속)

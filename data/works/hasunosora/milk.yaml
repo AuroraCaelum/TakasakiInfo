@@ -2,6 +2,7 @@ id: hasunosora/milk
 project: hasunosora
 title:
   ja: ミルク
+  kana: ミルク
   rom: Milk
   ko: 밀크
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ミルク (Off Vocal)
+      kana: ミルク (オフボーカル)
       rom: Milk (Off Vocal)
       ko: 밀크 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/13/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -66,3 +71,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/13/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

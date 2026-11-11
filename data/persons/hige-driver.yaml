@@ -1,6 +1,7 @@
 id: hige-driver
 names:
   ja: ヒゲドライバー
+  kana: ヒゲドライバー
   rom: Hige Driver
   ko: 히게드라이버
 evidence:
@@ -18,3 +19,6 @@ evidence:
     source: https://namu.wiki/w/히게드라이버
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: derived
+    note: 활동명. 가나 표기 그대로(D58)

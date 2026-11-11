@@ -1,6 +1,7 @@
 id: clear-kila
 names:
   ja: 綺羅クリア
+  kana: きらくりあ
   rom: Clear Kila
   ko: 키라 클리어
 evidence:
@@ -12,3 +13,8 @@ evidence:
   name_parts:
     status: derived
     note: 활동명이라 성·이름 없음
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

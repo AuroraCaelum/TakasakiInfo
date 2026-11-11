@@ -2,6 +2,7 @@ id: ikizulive/odoru-polka
 project: ikizulive
 title:
   ja: オドルポルカ
+  kana: オドルポルカ
   rom: Odoru Polka
   ko: 춤추는 폴카
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: オドルポルカ (Off Vocal)
+      kana: オドルポルカ (オフボーカル)
       rom: Odoru Polka (Off Vocal)
       ko: 춤추는 폴카 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

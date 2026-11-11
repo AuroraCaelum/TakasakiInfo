@@ -2,7 +2,7 @@ id: aqours/mitaiken-horizon
 project: aqours
 title:
   ja: 未体験HORIZON
-  kana: ''
+  kana: みたいけんホライズン
   rom: Mitaiken HORIZON
   ko: 미체험 HORIZON
 credits:
@@ -26,7 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 未体験HORIZON (Off Vocal)
-      kana: ''
+      kana: みたいけんホライズン (オフボーカル)
       rom: Mitaiken HORIZON (Off Vocal)
       ko: 미체험 HORIZON (Off Vocal)
     version: Off Vocal
@@ -40,10 +40,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo-ver
     title:
       ja: 未体験HORIZON (高海千歌 Solo Ver.)
-      kana: ''
+      kana: みたいけんホライズン (たかみちか ソロ ヴァージョン)
       rom: Mitaiken HORIZON (Chika Takami Solo Ver.)
       ko: 미체험 HORIZON (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -57,10 +60,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 未体験HORIZON (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: みたいけんホライズン (さくらうちりこ ソロ ヴァージョン)
       rom: Mitaiken HORIZON (Riko Sakurauchi Solo Ver.)
       ko: 미체험 HORIZON (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -74,10 +80,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 未体験HORIZON (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: みたいけんホライズン (くろさわるびぃ ソロ ヴァージョン)
       rom: Mitaiken HORIZON (Ruby Kurosawa Solo Ver.)
       ko: 미체험 HORIZON (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -91,6 +100,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -160,6 +172,7 @@ recordings:
   - id: punk-rock-ver
     title:
       ja: 未体験HORIZON (Punk Rock Ver.)
+      kana: みたいけんホライズン (パンク ロック ヴァージョン)
       rom: Mitaiken HORIZON (Punk Rock Ver.)
       ko: 미체험 HORIZON (Punk Rock Ver.)
     version: Punk Rock Ver.
@@ -172,9 +185,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 未体験HORIZON (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: みたいけんホライズン (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Mitaiken HORIZON (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 미체험 HORIZON (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -192,9 +209,13 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 未体験HORIZON (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: みたいけんホライズン (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Mitaiken HORIZON (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 미체험 HORIZON (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -211,8 +232,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -1,14 +1,17 @@
 id: ruri-aoyama
 names:
   ja: 青山 瑠里
+  kana: あおやま るり
   rom: Ruri Aoyama
   ko: 아오야마 루리
 family_name:
   ja: 青山
+  kana: あおやま
   rom: Aoyama
   ko: 아오야마
 given_name:
   ja: 瑠里
+  kana: るり
   rom: Ruri
   ko: 루리
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: derived
+    source: https://orchard-net.com/artist/ruri-aoyama/
+    checked: 2026-11-11
+    note: 소속사(ORCHARD) 프로필 로마자 표기만 있음(가나 없음). 장음 모호성 없는 로마자라 채택; 일본어 위키백과 문서 없음. 공식 페이지에는 로마자(ruri aoyama)만 있어 그 읽기로 적음(가나 미게재)

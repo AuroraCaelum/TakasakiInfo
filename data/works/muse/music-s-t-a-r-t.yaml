@@ -2,6 +2,7 @@ id: muse/music-s-t-a-r-t
 project: muse
 title:
   ja: Music S.T.A.R.T!!
+  kana: ミュージック スタート!!
   rom: Music S.T.A.R.T!!
   ko: Music S.T.A.R.T!!
 credits:
@@ -23,6 +24,7 @@ recordings:
   - id: ska-feel-mix
     title:
       ja: Music S.T.A.R.T!! (SKA-Feel Mix)
+      kana: ミュージック スタート!! (スカフィール ミックス)
       rom: Music S.T.A.R.T!! (SKA-Feel Mix)
       ko: Music S.T.A.R.T!! (SKA-Feel Mix)
     version: SKA-Feel Mix
@@ -35,10 +37,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: Music S.T.A.R.T!! (Off Vocal)
+      kana: ミュージック スタート!! (オフボーカル)
       rom: Music S.T.A.R.T!! (Off Vocal)
       ko: Music S.T.A.R.T!! (Off Vocal)
     version: Off Vocal
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: Music S.T.A.R.T!! (NICO Mix)
+      kana: ミュージック スタート!! (ニコ ミックス)
       rom: Music S.T.A.R.T!! (NICO Mix)
       ko: Music S.T.A.R.T!! (NICO Mix)
     version: NICO Mix
@@ -66,9 +76,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: Music S.T.A.R.T!! (HANAYO Mix)
+      kana: ミュージック スタート!! (ハナヨ ミックス)
       rom: Music S.T.A.R.T!! (HANAYO Mix)
       ko: Music S.T.A.R.T!! (HANAYO Mix)
     version: HANAYO Mix
@@ -82,9 +96,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: Music S.T.A.R.T!! (NOZOMI Mix)
+      kana: ミュージック スタート!! (ノゾミ ミックス)
       rom: Music S.T.A.R.T!! (NOZOMI Mix)
       ko: Music S.T.A.R.T!! (NOZOMI Mix)
     version: NOZOMI Mix
@@ -98,9 +116,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: Music S.T.A.R.T!! (MAKI Mix)
+      kana: ミュージック スタート!! (マキ ミックス)
       rom: Music S.T.A.R.T!! (MAKI Mix)
       ko: Music S.T.A.R.T!! (MAKI Mix)
     version: MAKI Mix
@@ -114,9 +136,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: Music S.T.A.R.T!! (RIN Mix)
+      kana: ミュージック スタート!! (リン ミックス)
       rom: Music S.T.A.R.T!! (RIN Mix)
       ko: Music S.T.A.R.T!! (RIN Mix)
     version: RIN Mix
@@ -130,9 +156,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: Music S.T.A.R.T!! (UMI Mix)
+      kana: ミュージック スタート!! (ウミ ミックス)
       rom: Music S.T.A.R.T!! (UMI Mix)
       ko: Music S.T.A.R.T!! (UMI Mix)
     version: UMI Mix
@@ -146,9 +176,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: Music S.T.A.R.T!! (KOTORI Mix)
+      kana: ミュージック スタート!! (コトリ ミックス)
       rom: Music S.T.A.R.T!! (KOTORI Mix)
       ko: Music S.T.A.R.T!! (KOTORI Mix)
     version: KOTORI Mix
@@ -162,9 +196,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: Music S.T.A.R.T!! (ELI Mix)
+      kana: ミュージック スタート!! (エリ ミックス)
       rom: Music S.T.A.R.T!! (ELI Mix)
       ko: Music S.T.A.R.T!! (ELI Mix)
     version: ELI Mix
@@ -178,9 +216,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: Music S.T.A.R.T!! (HONOKA Mix)
+      kana: ミュージック スタート!! (ホノカ ミックス)
       rom: Music S.T.A.R.T!! (HONOKA Mix)
       ko: Music S.T.A.R.T!! (HONOKA Mix)
     version: HONOKA Mix
@@ -194,6 +236,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd28)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -203,3 +248,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    source: https://dic.pixiv.net/a/μ%27s
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

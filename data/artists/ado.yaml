@@ -3,6 +3,7 @@ kind: solo
 projects: [external]
 names:
   ja: Ado
+  kana: アド
   rom: Ado
   ko: Ado
 evidence:
@@ -11,3 +12,8 @@ evidence:
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-11-05
     note: 공식 표기(유니버설 뮤직 https://www.universal-music.co.jp/ado/biography/). 라틴 문자 이름이라 ko도 원문(나무위키 문서 제목도 'Ado')
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

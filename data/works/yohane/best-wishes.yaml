@@ -2,6 +2,7 @@ id: yohane/best-wishes
 project: yohane
 title:
   ja: Best wishes
+  kana: ベスト ウィッシーズ
   rom: Best wishes
   ko: Best wishes
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Best wishes (Off Vocal)
+      kana: ベスト ウィッシーズ (オフボーカル)
       rom: Best wishes (Off Vocal)
       ko: Best wishes (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/detail/?id=3
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/detail/?id=3
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

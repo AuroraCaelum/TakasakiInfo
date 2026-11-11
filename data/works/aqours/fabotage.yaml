@@ -2,6 +2,7 @@ id: aqours/fabotage
 project: aqours
 title:
   ja: ファボタージュ
+  kana: ファボタージュ
   rom: Fabotage
   ko: 파보타주
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ファボタージュ (Off Vocal)
+      kana: ファボタージュ (オフボーカル)
       rom: Fabotage (Off Vocal)
       ko: 파보타주 (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -47,3 +52,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd83
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

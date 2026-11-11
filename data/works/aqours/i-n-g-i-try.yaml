@@ -2,6 +2,7 @@ id: aqours/i-n-g-i-try
 project: aqours
 title:
   ja: i-n-g, I TRY!!
+  kana: アイ-エヌ-ジー, アイ トライ!!
   rom: i-n-g, I TRY!!
   ko: i-n-g, I TRY!!
 credits:
@@ -114,6 +115,7 @@ recordings:
     kind: off_vocal
     title:
       ja: i-n-g, I TRY!! (Off Vocal)
+      kana: アイ-エヌ-ジー, アイ トライ!! (オフボーカル)
       rom: i-n-g, I TRY!! (Off Vocal)
       ko: i-n-g, I TRY!! (Off Vocal)
     version: Off Vocal
@@ -125,6 +127,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/bd/movie/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
 evidence:
   title:
     status: derived
@@ -134,3 +139,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58). 사용자 검토·승인(2026-11-11)

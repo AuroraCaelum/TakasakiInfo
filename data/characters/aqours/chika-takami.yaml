@@ -2,14 +2,17 @@ id: aqours/chika-takami
 project: aqours
 names:
   ja: 高海 千歌
+  kana: たかみ ちか
   rom: Chika Takami
   ko: 타카미 치카
 family_name:
   ja: 高海
+  kana: たかみ
   rom: Takami
   ko: 타카미
 given_name:
   ja: 千歌
+  kana: ちか
   rom: Chika
   ko: 치카
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/member.php#chika
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 이름 루비(이미지)

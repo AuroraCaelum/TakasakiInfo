@@ -2,6 +2,7 @@ id: ikizulive/tale-of-primavera
 project: ikizulive
 title:
   ja: Tale of Primavera
+  kana: テイル オブ プリマヴェーラ
   rom: Tale of Primavera
   ko: Tale of Primavera
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Tale of Primavera (Off Vocal)
+      kana: テイル オブ プリマヴェーラ (オフボーカル)
       rom: Tale of Primavera (Off Vocal)
       ko: Tale of Primavera (Off Vocal)
     version: Off Vocal
@@ -38,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6602
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -47,3 +52,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6602
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

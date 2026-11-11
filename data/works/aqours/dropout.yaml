@@ -2,7 +2,7 @@ id: aqours/dropout
 project: aqours
 title:
   ja: DROPOUT!?
-  kana: ''
+  kana: ドロップアウト!?
   rom: DROPOUT!?
   ko: DROPOUT!?
 credits:
@@ -24,6 +24,7 @@ recordings:
   - id: short-size
     title:
       ja: DROPOUT!? (Shortサイズ)
+      kana: ドロップアウト!? (ショートサイズ)
       rom: DROPOUT!? (Short Size)
       ko: DROPOUT!? (Short 사이즈)
     version: Shortサイズ
@@ -37,8 +38,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

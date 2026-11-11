@@ -2,6 +2,7 @@ id: hasunosora/nyao-signyal
 project: hasunosora
 title:
   ja: ニャオシグニャル
+  kana: ニャオシグニャル
   rom: Nyao Signyal
   ko: 냐오 시그냘
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ニャオシグニャル (Off Vocal)
+      kana: ニャオシグニャル (オフボーカル)
       rom: Nyao Signyal (Off Vocal)
       ko: 냐오 시그냘 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
@@ -55,3 +60,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4980
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

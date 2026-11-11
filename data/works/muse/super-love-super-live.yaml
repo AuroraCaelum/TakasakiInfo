@@ -2,6 +2,7 @@ id: muse/super-love-super-live
 project: muse
 title:
   ja: Super LOVE=Super LIVE!
+  kana: スーパー ラブ=スーパー ライブ!
   rom: Super LOVE=Super LIVE!
   ko: Super LOVE=Super LIVE!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Super LOVE=Super LIVE! (Off Vocal)
+      kana: スーパー ラブ=スーパー ライブ! (オフボーカル)
       rom: Super LOVE=Super LIVE! (Off Vocal)
       ko: Super LOVE=Super LIVE! (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: Super LOVE=Super LIVE! (NICO Mix)
+      kana: スーパー ラブ=スーパー ライブ! (ニコ ミックス)
       rom: Super LOVE=Super LIVE! (NICO Mix)
       ko: Super LOVE=Super LIVE! (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: Super LOVE=Super LIVE! (HANAYO Mix)
+      kana: スーパー ラブ=スーパー ライブ! (ハナヨ ミックス)
       rom: Super LOVE=Super LIVE! (HANAYO Mix)
       ko: Super LOVE=Super LIVE! (HANAYO Mix)
     version: HANAYO Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: Super LOVE=Super LIVE! (NOZOMI Mix)
+      kana: スーパー ラブ=スーパー ライブ! (ノゾミ ミックス)
       rom: Super LOVE=Super LIVE! (NOZOMI Mix)
       ko: Super LOVE=Super LIVE! (NOZOMI Mix)
     version: NOZOMI Mix
@@ -83,9 +97,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: Super LOVE=Super LIVE! (MAKI Mix)
+      kana: スーパー ラブ=スーパー ライブ! (マキ ミックス)
       rom: Super LOVE=Super LIVE! (MAKI Mix)
       ko: Super LOVE=Super LIVE! (MAKI Mix)
     version: MAKI Mix
@@ -99,9 +117,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: Super LOVE=Super LIVE! (RIN Mix)
+      kana: スーパー ラブ=スーパー ライブ! (リン ミックス)
       rom: Super LOVE=Super LIVE! (RIN Mix)
       ko: Super LOVE=Super LIVE! (RIN Mix)
     version: RIN Mix
@@ -115,9 +137,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: Super LOVE=Super LIVE! (UMI Mix)
+      kana: スーパー ラブ=スーパー ライブ! (ウミ ミックス)
       rom: Super LOVE=Super LIVE! (UMI Mix)
       ko: Super LOVE=Super LIVE! (UMI Mix)
     version: UMI Mix
@@ -131,9 +157,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: Super LOVE=Super LIVE! (KOTORI Mix)
+      kana: スーパー ラブ=スーパー ライブ! (コトリ ミックス)
       rom: Super LOVE=Super LIVE! (KOTORI Mix)
       ko: Super LOVE=Super LIVE! (KOTORI Mix)
     version: KOTORI Mix
@@ -147,9 +177,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: Super LOVE=Super LIVE! (ELI Mix)
+      kana: スーパー ラブ=スーパー ライブ! (エリ ミックス)
       rom: Super LOVE=Super LIVE! (ELI Mix)
       ko: Super LOVE=Super LIVE! (ELI Mix)
     version: ELI Mix
@@ -163,9 +197,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: Super LOVE=Super LIVE! (HONOKA Mix)
+      kana: スーパー ラブ=スーパー ライブ! (ホノカ ミックス)
       rom: Super LOVE=Super LIVE! (HONOKA Mix)
       ko: Super LOVE=Super LIVE! (HONOKA Mix)
     version: HONOKA Mix
@@ -179,6 +217,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd52)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -188,3 +229,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd52
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

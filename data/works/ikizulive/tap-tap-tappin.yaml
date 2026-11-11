@@ -2,6 +2,7 @@ id: ikizulive/tap-tap-tappin
 project: ikizulive
 title:
   ja: tap tap tappin'!!
+  kana: タップ タップ タッピン!!
   rom: tap tap tappin'!!
   ko: tap tap tappin'!!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: tap tap tappin'!! (Off Vocal)
+      kana: タップ タップ タッピン!! (オフボーカル)
       rom: tap tap tappin'!! (Off Vocal)
       ko: tap tap tappin'!! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6313
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6313
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

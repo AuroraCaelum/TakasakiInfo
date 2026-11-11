@@ -42,6 +42,7 @@ recordings:
   - id: 104th-new-ver
     title:
       ja: アイデンティティ (104期NEW Ver.)
+      kana: アイデンティティ (ひゃくよんきニュー ヴァージョン)
       rom: Identity (104th NEW Ver.)
       ko: 아이덴티티 (104기 NEW Ver.)
     version: 104期NEW Ver.
@@ -54,6 +55,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/21/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -78,6 +82,7 @@ recordings:
     kind: off_vocal
     title:
       ja: アイデンティティ (104期NEW Ver.) (Off Vocal)
+      kana: アイデンティティ (ひゃくよんきニュー ヴァージョン) (オフボーカル)
       rom: Identity (104th NEW Ver.) (Off Vocal)
       ko: 아이덴티티 (104기 NEW Ver.) (Off Vocal)
     version: Off Vocal
@@ -89,6 +94,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/21/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

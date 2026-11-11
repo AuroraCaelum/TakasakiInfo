@@ -1,14 +1,17 @@
 id: ryosuke-saito
 names:
   ja: サイトウ リョースケ
+  kana: さいとう りょうすけ
   rom: Ryosuke Saito
   ko: 사이토 료스케
 family_name:
   ja: サイトウ
+  kana: さいとう
   rom: Saito
   ko: 사이토
 given_name:
   ja: リョースケ
+  kana: りょうすけ
   rom: Ryosuke
   ko: 료스케
 aliases:
@@ -32,3 +35,6 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 공식 표기의 공백 (D28)'
+  names.kana:
+    status: derived
+    note: 가나 표기 그대로 읽음(D58). 성·이름 사이 공백(D28), 장음 ー는 모음으로(カトウリョータ → かとう りょうた와 같음)

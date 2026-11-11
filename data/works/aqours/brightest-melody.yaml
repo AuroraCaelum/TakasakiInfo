@@ -2,7 +2,7 @@ id: aqours/brightest-melody
 project: aqours
 title:
   ja: Brightest Melody
-  kana: ''
+  kana: ブライテスト メロディー
   rom: Brightest Melody
   ko: Brightest Melody
 credits:
@@ -114,6 +114,7 @@ recordings:
   - id: movie-size
     title:
       ja: Brightest Melody (MOVIEサイズ)
+      kana: ブライテスト メロディー (ムービーサイズ)
       rom: Brightest Melody (MOVIE Size)
       ko: Brightest Melody (MOVIE 사이즈)
     version: MOVIEサイズ
@@ -127,9 +128,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: Brightest Melody (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: ブライテスト メロディー (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Brightest Melody (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: Brightest Melody (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -146,8 +151,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd29)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd29
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

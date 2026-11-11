@@ -2,6 +2,7 @@ id: muse/natsuiro-egao-de-1-2-jump
 project: muse
 title:
   ja: 夏色えがおで1,2,Jump!
+  kana: なついろえがおでワン,ツー,ジャンプ!
   rom: Natsuiro Egao de 1,2,Jump!
   ko: 여름빛 미소로 1,2,Jump!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 夏色えがおで1,2,Jump! (Off Vocal)
+      kana: なついろえがおでワン,ツー,ジャンプ! (オフボーカル)
       rom: Natsuiro Egao de 1,2,Jump! (Off Vocal)
       ko: 여름빛 미소로 1,2,Jump! (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 夏色えがおで1,2,Jump! (UMI MIX)
+      kana: なついろえがおでワン,ツー,ジャンプ! (ウミ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (UMI MIX)
       ko: 여름빛 미소로 1,2,Jump! (UMI MIX)
     version: UMI MIX
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: 夏色えがおで1,2,Jump! (KOTORI MIX)
+      kana: なついろえがおでワン,ツー,ジャンプ! (コトリ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (KOTORI MIX)
       ko: 여름빛 미소로 1,2,Jump! (KOTORI MIX)
     version: KOTORI MIX
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: 夏色えがおで1,2,Jump! (HONOKA Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (ホノカ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (HONOKA Mix)
       ko: 여름빛 미소로 1,2,Jump! (HONOKA Mix)
     version: HONOKA Mix
@@ -83,9 +97,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 夏色えがおで1,2,Jump! (NOZOMI Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (ノゾミ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (NOZOMI Mix)
       ko: 여름빛 미소로 1,2,Jump! (NOZOMI Mix)
     version: NOZOMI Mix
@@ -99,9 +117,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: 夏色えがおで1,2,Jump! (NICO Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (ニコ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (NICO Mix)
       ko: 여름빛 미소로 1,2,Jump! (NICO Mix)
     version: NICO Mix
@@ -115,9 +137,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: 夏色えがおで1,2,Jump! (MAKI Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (マキ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (MAKI Mix)
       ko: 여름빛 미소로 1,2,Jump! (MAKI Mix)
     version: MAKI Mix
@@ -131,9 +157,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: 夏色えがおで1,2,Jump! (ELI Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (エリ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (ELI Mix)
       ko: 여름빛 미소로 1,2,Jump! (ELI Mix)
     version: ELI Mix
@@ -147,9 +177,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 夏色えがおで1,2,Jump! (RIN Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (リン ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (RIN Mix)
       ko: 여름빛 미소로 1,2,Jump! (RIN Mix)
     version: RIN Mix
@@ -163,9 +197,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: 夏色えがおで1,2,Jump! (HANAYO Mix)
+      kana: なついろえがおでワン,ツー,ジャンプ! (ハナヨ ミックス)
       rom: Natsuiro Egao de 1,2,Jump! (HANAYO Mix)
       ko: 여름빛 미소로 1,2,Jump! (HANAYO Mix)
     version: HANAYO Mix
@@ -179,6 +217,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd06)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -189,3 +230,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

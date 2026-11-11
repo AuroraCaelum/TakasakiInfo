@@ -1,14 +1,17 @@
 id: kushita-mine
 names:
   ja: 久下 真音
+  kana: くした まいん
   rom: Mine Kushita
   ko: 쿠시타 미네
 family_name:
   ja: 久下
+  kana: くした
   rom: Kushita
   ko: 쿠시타
 given_name:
   ja: 真音
+  kana: まいん
   rom: Mine
   ko: 미네
 evidence:
@@ -26,3 +29,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%B9%85%E4%B8%8B%E7%9C%9F%E9%9F%B3
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID クシタマイン 일치

@@ -2,6 +2,7 @@ id: hasunosora/bang-you-gravity
 project: hasunosora
 title:
   ja: BANG YOU グラビティ
+  kana: バン ユー グラビティ
   rom: BANG YOU Gravity
   ko: BANG YOU 그래비티
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: BANG YOU グラビティ (Off Vocal)
+      kana: バン ユー グラビティ (オフボーカル)
       rom: BANG YOU Gravity (Off Vocal)
       ko: BANG YOU 그래비티 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/15/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -65,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/15/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

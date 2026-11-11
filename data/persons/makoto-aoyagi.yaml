@@ -1,14 +1,17 @@
 id: makoto-aoyagi
 names:
   ja: 青柳 諒
+  kana: あおやぎ まこと
   rom: Makoto Aoyagi
   ko: 아오야기 마코토
 family_name:
   ja: 青柳
+  kana: あおやぎ
   rom: Aoyagi
   ko: 아오야기
 given_name:
   ja: 諒
+  kana: まこと
   rom: Makoto
   ko: 마코토
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인; 同読みの青柳 誠と混在(263건 중 상위100건에 青柳 諒 13건); アオヤギリョウ는 0건

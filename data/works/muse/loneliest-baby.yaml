@@ -2,6 +2,7 @@ id: muse/loneliest-baby
 project: muse
 title:
   ja: LONELIEST BABY
+  kana: ロンリエスト ベイビー
   rom: LONELIEST BABY
   ko: LONELIEST BABY
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: LONELIEST BABY (Off Vocal)
+      kana: ロンリエスト ベイビー (オフボーカル)
       rom: LONELIEST BABY (Off Vocal)
       ko: LONELIEST BABY (Off Vocal)
     version: Off Vocal
@@ -42,9 +44,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: LONELIEST BABY (HONOKA Mix)
+      kana: ロンリエスト ベイビー (ホノカ ミックス)
       rom: LONELIEST BABY (HONOKA Mix)
       ko: LONELIEST BABY (HONOKA Mix)
     version: HONOKA Mix
@@ -58,9 +64,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72703/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: LONELIEST BABY (ELI Mix)
+      kana: ロンリエスト ベイビー (エリ ミックス)
       rom: LONELIEST BABY (ELI Mix)
       ko: LONELIEST BABY (ELI Mix)
     version: ELI Mix
@@ -74,9 +84,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72705/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: LONELIEST BABY (KOTORI Mix)
+      kana: ロンリエスト ベイビー (コトリ ミックス)
       rom: LONELIEST BABY (KOTORI Mix)
       ko: LONELIEST BABY (KOTORI Mix)
     version: KOTORI Mix
@@ -90,9 +104,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: LONELIEST BABY (UMI Mix)
+      kana: ロンリエスト ベイビー (ウミ ミックス)
       rom: LONELIEST BABY (UMI Mix)
       ko: LONELIEST BABY (UMI Mix)
     version: UMI Mix
@@ -106,9 +124,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72707/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: LONELIEST BABY (RIN Mix)
+      kana: ロンリエスト ベイビー (リン ミックス)
       rom: LONELIEST BABY (RIN Mix)
       ko: LONELIEST BABY (RIN Mix)
     version: RIN Mix
@@ -122,9 +144,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: LONELIEST BABY (MAKI Mix)
+      kana: ロンリエスト ベイビー (マキ ミックス)
       rom: LONELIEST BABY (MAKI Mix)
       ko: LONELIEST BABY (MAKI Mix)
     version: MAKI Mix
@@ -138,9 +164,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: LONELIEST BABY (NOZOMI Mix)
+      kana: ロンリエスト ベイビー (ノゾミ ミックス)
       rom: LONELIEST BABY (NOZOMI Mix)
       ko: LONELIEST BABY (NOZOMI Mix)
     version: NOZOMI Mix
@@ -154,9 +184,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72710/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: LONELIEST BABY (HANAYO Mix)
+      kana: ロンリエスト ベイビー (ハナヨ ミックス)
       rom: LONELIEST BABY (HANAYO Mix)
       ko: LONELIEST BABY (HANAYO Mix)
     version: HANAYO Mix
@@ -170,9 +204,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: LONELIEST BABY (NICO Mix)
+      kana: ロンリエスト ベイビー (ニコ ミックス)
       rom: LONELIEST BABY (NICO Mix)
       ko: LONELIEST BABY (NICO Mix)
     version: NICO Mix
@@ -186,6 +224,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -196,3 +237,6 @@ evidence:
     source: https://music.youtube.com/watch?v=kLjdv3wALj8
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

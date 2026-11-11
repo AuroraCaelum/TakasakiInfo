@@ -2,6 +2,7 @@ id: muse/beat-in-angel
 project: muse
 title:
   ja: Beat in Angel
+  kana: ビート イン エンジェル
   rom: Beat in Angel
   ko: Beat in Angel
 credits:
@@ -31,6 +32,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Beat in Angel (Off Vocal)
+      kana: ビート イン エンジェル (オフボーカル)
       rom: Beat in Angel (Off Vocal)
       ko: Beat in Angel (Off Vocal)
     version: Off Vocal
@@ -43,9 +45,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: Beat in Angel (RIN Mix)
+      kana: ビート イン エンジェル (リン ミックス)
       rom: Beat in Angel (RIN Mix)
       ko: Beat in Angel (RIN Mix)
     version: RIN Mix
@@ -59,9 +65,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: Beat in Angel (MAKI Mix)
+      kana: ビート イン エンジェル (マキ ミックス)
       rom: Beat in Angel (MAKI Mix)
       ko: Beat in Angel (MAKI Mix)
     version: MAKI Mix
@@ -75,6 +85,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -85,3 +98,6 @@ evidence:
     source: https://music.youtube.com/watch?v=nsi0Bm0t9nE
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

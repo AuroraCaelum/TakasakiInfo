@@ -2,6 +2,7 @@ id: muse/nightingale-love-song
 project: muse
 title:
   ja: 小夜啼鳥恋詩
+  kana: ナイティンゲールラブソング
   rom: Nightingale Love Song
   ko: 나이팅게일 러브송
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 小夜啼鳥恋詩 (Off Vocal)
+      kana: ナイティンゲールラブソング (オフボーカル)
       rom: Nightingale Love Song (Off Vocal)
       ko: 나이팅게일 러브송 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
   - id: hanayo-mix
     title:
       ja: 小夜啼鳥恋詩 (HANAYO Mix)
+      kana: ナイティンゲールラブソング (ハナヨ ミックス)
       rom: Nightingale Love Song (HANAYO Mix)
       ko: 나이팅게일 러브송 (HANAYO Mix)
     version: HANAYO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
   - id: kotori-mix
     title:
       ja: 小夜啼鳥恋詩 (KOTORI Mix)
+      kana: ナイティンゲールラブソング (コトリ ミックス)
       rom: Nightingale Love Song (KOTORI Mix)
       ko: 나이팅게일 러브송 (KOTORI Mix)
     version: KOTORI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
   - id: honoka-mix
     title:
       ja: 小夜啼鳥恋詩 (HONOKA Mix)
+      kana: ナイティンゲールラブソング (ホノカ ミックス)
       rom: Nightingale Love Song (HONOKA Mix)
       ko: 나이팅게일 러브송 (HONOKA Mix)
     version: HONOKA Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd49)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd49
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58). 사용자 검토·승인(2026-11-11)

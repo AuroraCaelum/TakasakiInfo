@@ -2,6 +2,7 @@ id: nijigasaki/savotina
 project: nijigasaki
 title:
   ja: SAVOTINA!!
+  kana: サボティーナ!!
   rom: SAVOTINA!!
   ko: SAVOTINA!!
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: SAVOTINA!! (Off Vocal)
+      kana: サボティーナ!! (オフボーカル)
       rom: SAVOTINA!! (Off Vocal)
       ko: SAVOTINA!! (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -48,3 +53,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
     checked: 2026-10-20
+  title.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작품 제목 읽기 검색 サボティーナ에서 이 작품이 나옴(공식 근거, 2026-11-11). サボティナ는 0건

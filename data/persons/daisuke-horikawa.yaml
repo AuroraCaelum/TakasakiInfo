@@ -1,14 +1,17 @@
 id: daisuke-horikawa
 names:
   ja: 堀川 大翼
+  kana: ほりかわ だいすけ
   rom: Daisuke Horikawa
   ko: 호리카와 다이스케
 family_name:
   ja: 堀川
+  kana: ほりかわ
   rom: Horikawa
   ko: 호리카와
 given_name:
   ja: 大翼
+  kana: だいすけ
   rom: Daisuke
   ko: 다이스케
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: derived
+    source: https://ariamusic.co.jp/creators/horikawa.php
+    checked: 2026-11-11
+    note: 소속사(ARIA entertainment) 크리에이터 프로필 로마자 표기만 있음(가나 없음). 소속사 페이지에는 로마자(Daisuke Horikawa)만 있어 그 읽기로 적음(大翼 = だいすけ, 가나 미게재)

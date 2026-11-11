@@ -2,6 +2,7 @@ id: muse/mermaid-festa-vol-2-passionate
 project: muse
 title:
   ja: Mermaid festa vol.2 ～Passionate～
+  kana: マーメイド フェスタ ボリュームツー ～パッショネイト～
   rom: Mermaid festa vol.2 ~Passionate~
   ko: Mermaid festa vol.2 ~Passionate~
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (Off Vocal)
+      kana: マーメイド フェスタ ボリュームツー ～パッショネイト～ (オフボーカル)
       rom: Mermaid festa vol.2 ~Passionate~ (Off Vocal)
       ko: Mermaid festa vol.2 ~Passionate~ (Off Vocal)
     version: Off Vocal
@@ -36,9 +38,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (HONOKA Mix)
+      kana: マーメイド フェスタ ボリュームツー ～パッショネイト～ (ホノカ ミックス)
       rom: Mermaid festa vol.2 ~Passionate~ (HONOKA Mix)
       ko: Mermaid festa vol.2 ~Passionate~ (HONOKA Mix)
     version: HONOKA Mix
@@ -51,9 +57,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (RIN Mix)
+      kana: マーメイド フェスタ ボリュームツー ～パッショネイト～ (リン ミックス)
       rom: Mermaid festa vol.2 ~Passionate~ (RIN Mix)
       ko: Mermaid festa vol.2 ~Passionate~ (RIN Mix)
     version: RIN Mix
@@ -66,6 +76,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -75,3 +88,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

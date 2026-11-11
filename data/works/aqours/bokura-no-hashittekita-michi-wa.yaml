@@ -2,7 +2,7 @@ id: aqours/bokura-no-hashittekita-michi-wa
 project: aqours
 title:
   ja: 僕らの走ってきた道は・・・
-  kana: ''
+  kana: ぼくらのはしってきたみちは・・・
   rom: Bokura no Hashittekita Michi wa…
   ko: 우리가 달려온 길은…
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 僕らの走ってきた道は・・・ (Off Vocal)
-      kana: ''
+      kana: ぼくらのはしってきたみちは・・・ (オフボーカル)
       rom: Bokura no Hashittekita Michi wa… (Off Vocal)
       ko: 우리가 달려온 길은… (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd27
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -132,6 +135,7 @@ recordings:
   - id: movie-size
     title:
       ja: 僕らの走ってきた道は・・・ (MOVIEサイズ)
+      kana: ぼくらのはしってきたみちは・・・ (ムービーサイズ)
       rom: Bokura no Hashittekita Michi wa… (MOVIE Size)
       ko: 우리가 달려온 길은… (MOVIE 사이즈)
     version: MOVIEサイズ
@@ -145,8 +149,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd27
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

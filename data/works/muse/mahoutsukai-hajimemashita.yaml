@@ -2,6 +2,7 @@ id: muse/mahoutsukai-hajimemashita
 project: muse
 title:
   ja: まほうつかいはじめました！
+  kana: まほうつかいはじめました！
   rom: Mahoutsukai Hajimemashita!
   ko: 마법사 시작했습니다!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: まほうつかいはじめました！ (Off Vocal)
+      kana: まほうつかいはじめました！ (オフボーカル)
       rom: Mahoutsukai Hajimemashita! (Off Vocal)
       ko: 마법사 시작했습니다! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

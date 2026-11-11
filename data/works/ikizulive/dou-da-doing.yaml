@@ -2,6 +2,7 @@ id: ikizulive/dou-da-doing
 project: ikizulive
 title:
   ja: Dou-Da? DOING!
+  kana: ドウ-ダ? ドゥーイング!
   rom: Dou-Da? DOING!
   ko: Dou-Da? DOING!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Dou-Da? DOING! (Off Vocal)
+      kana: ドウ-ダ? ドゥーイング! (オフボーカル)
       rom: Dou-Da? DOING! (Off Vocal)
       ko: Dou-Da? DOING! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5861
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5861
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

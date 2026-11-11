@@ -2,6 +2,7 @@ id: nijigasaki/kokoro-take-off
 project: nijigasaki
 title:
   ja: ココロ TAKE OFF
+  kana: ココロ テイク オフ
   rom: Kokoro TAKE OFF
   ko: 마음 TAKE OFF
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ココロ TAKE OFF (Off Vocal)
+      kana: ココロ テイク オフ (オフボーカル)
       rom: Kokoro TAKE OFF (Off Vocal)
       ko: 마음 TAKE OFF (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6289
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

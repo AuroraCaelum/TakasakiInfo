@@ -1,14 +1,17 @@
 id: mayuri-suzuki
 names:
   ja: 鈴木まゆり
+  kana: すずき まゆり
   rom: Mayuri Suzuki
   ko: 스즈키 마유리
 family_name:
   ja: 鈴木
+  kana: すずき
   rom: Suzuki
   ko: 스즈키
 given_name:
   ja: まゆり
+  kana: まゆり
   rom: Mayuri
   ko: 마유리
 evidence:
@@ -29,3 +32,6 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Mayuri Suzuki'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

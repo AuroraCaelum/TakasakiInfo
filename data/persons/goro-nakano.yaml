@@ -1,14 +1,17 @@
 id: goro-nakano
 names:
   ja: 中野 悟朗
+  kana: なかの ごろう
   rom: Goro Nakano
   ko: 나카노 고로
 family_name:
   ja: 中野
+  kana: なかの
   rom: Nakano
   ko: 나카노
 given_name:
   ja: 悟朗
+  kana: ごろう
   rom: Goro
   ko: 고로
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%B8%AD%E9%87%8E%E6%82%9F%E6%9C%97
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ナカノゴロウ 일치(Aqours 곡)

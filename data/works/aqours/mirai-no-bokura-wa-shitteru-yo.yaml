@@ -2,7 +2,7 @@ id: aqours/mirai-no-bokura-wa-shitteru-yo
 project: aqours
 title:
   ja: 未来の僕らは知ってるよ
-  kana: ''
+  kana: みらいのぼくらはしってるよ
   rom: Mirai no Bokura wa Shitteru yo
   ko: 미래의 우리들은 알고 있어
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 未来の僕らは知ってるよ (Off Vocal)
-      kana: ''
+      kana: みらいのぼくらはしってるよ (オフボーカル)
       rom: Mirai no Bokura wa Shitteru yo (Off Vocal)
       ko: 미래의 우리들은 알고 있어 (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd19
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -132,6 +135,7 @@ recordings:
   - id: melodious-hardcore-ver
     title:
       ja: 未来の僕らは知ってるよ (Melodious Hardcore Ver.)
+      kana: みらいのぼくらはしってるよ (メロディアス ハードコア ヴァージョン)
       rom: Mirai no Bokura wa Shitteru yo (Melodious Hardcore Ver.)
       ko: 미래의 우리들은 알고 있어 (Melodious Hardcore Ver.)
     version: Melodious Hardcore Ver.
@@ -144,9 +148,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: 未来の僕らは知ってるよ (TVサイズ)
+      kana: みらいのぼくらはしってるよ (ティーブイサイズ)
       rom: Mirai no Bokura wa Shitteru yo (TV Size)
       ko: 미래의 우리들은 알고 있어 (TV 사이즈)
     version: TVサイズ
@@ -160,9 +168,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 未来の僕らは知ってるよ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: みらいのぼくらはしってるよ (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Mirai no Bokura wa Shitteru yo (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 미래의 우리들은 알고 있어 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -179,8 +191,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd19)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd19
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,7 +2,7 @@ id: aqours/crash-mind
 project: aqours
 title:
   ja: CRASH MIND
-  kana: ''
+  kana: クラッシュ マインド
   rom: CRASH MIND
   ko: CRASH MIND
 credits:
@@ -24,6 +24,7 @@ recordings:
   - id: short-size
     title:
       ja: CRASH MIND (Shortサイズ)
+      kana: クラッシュ マインド (ショートサイズ)
       rom: CRASH MIND (Short Size)
       ko: CRASH MIND (Short 사이즈)
     version: Shortサイズ
@@ -37,8 +38,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

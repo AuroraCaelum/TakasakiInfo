@@ -2,6 +2,7 @@ id: nijigasaki/radio-taisou-dai-ichi
 project: nijigasaki
 title:
   ja: ラジオ体操第一
+  kana: ラジオたいそうだいいち
   rom: Radio Taisou Dai Ichi
   ko: 라디오 체조 제1
 credits:
@@ -11,6 +12,7 @@ recordings:
   - id: nijigasaki-high-school-idol-club-ver
     title:
       ja: ラジオ体操第一 (虹ヶ咲学園スクールアイドル同好会 Ver.)
+      kana: ラジオたいそうだいいち (にじがさきがくえんスクールアイドルどうこうかい ヴァージョン)
       rom: Radio Taisou Dai Ichi (Nijigasaki High School Idol Club Ver.)
       ko: 라디오 체조 제1 (니지가사키 학원 스쿨 아이돌 동호회 Ver.)
     version: 虹ヶ咲学園スクールアイドル同好会 Ver.
@@ -21,10 +23,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nijigasaki-high-school-idol-club-ver-off-vocal
     kind: off_vocal
     title:
       ja: ラジオ体操第一 (虹ヶ咲学園スクールアイドル同好会 Ver.) (Off Vocal)
+      kana: ラジオたいそうだいいち (にじがさきがくえんスクールアイドルどうこうかい ヴァージョン) (オフボーカル)
       rom: Radio Taisou Dai Ichi (Nijigasaki High School Idol Club Ver.) (Off Vocal)
       ko: 라디오 체조 제1 (니지가사키 학원 스쿨 아이돌 동호회 Ver.) (Off Vocal)
     version: Off Vocal
@@ -34,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +53,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd59
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

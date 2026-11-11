@@ -2,6 +2,7 @@ id: yohane/hey-dear-my-friends
 project: yohane
 title:
   ja: Hey, dear my friends
+  kana: ヘイ, ディア マイ フレンズ
   rom: Hey, dear my friends
   ko: Hey, dear my friends
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Hey, dear my friends (Off Vocal)
+      kana: ヘイ, ディア マイ フレンズ (オフボーカル)
       rom: Hey, dear my friends (Off Vocal)
       ko: Hey, dear my friends (Off Vocal)
     version: Off Vocal
@@ -41,9 +43,13 @@ recordings:
         status: official
         source: https://www.yohane.net/music/detail/?id=7
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Hey, dear my friends (TVサイズ)
+      kana: ヘイ, ディア マイ フレンズ (ティーブイサイズ)
       rom: Hey, dear my friends (TV Size)
       ko: Hey, dear my friends (TV 사이즈)
     version: TVサイズ
@@ -59,6 +65,9 @@ recordings:
         source: https://www.yohane.net/music/detail/?id=5
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -68,3 +77,6 @@ evidence:
     status: official
     source: https://www.yohane.net/music/detail/?id=7
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

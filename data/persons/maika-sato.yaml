@@ -1,14 +1,17 @@
 id: maika-sato
 names:
   ja: 佐藤 舞花
+  kana: さとう まいか
   rom: Maika Sato
   ko: 사토 마이카
 family_name:
   ja: 佐藤
+  kana: さとう
   rom: Sato
   ko: 사토
 given_name:
   ja: 舞花
+  kana: まいか
   rom: Maika
   ko: 마이카
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

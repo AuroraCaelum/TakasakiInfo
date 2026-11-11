@@ -1,14 +1,17 @@
 id: arisa-tou
 names:
   ja: 桃宇アリサ
+  kana: もも ありさ
   rom: Arisa Momo
   ko: 모모우 아리사
 family_name:
   ja: 桃宇
+  kana: もも
   rom: Momo
   ko: 모모우
 given_name:
   ja: アリサ
+  kana: ありさ
   rom: Arisa
   ko: 아리사
 evidence:
@@ -29,3 +32,6 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Arisa Momo'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

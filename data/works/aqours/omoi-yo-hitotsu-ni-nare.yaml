@@ -148,6 +148,7 @@ recordings:
   - id: tv-size
     title:
       ja: 想いよひとつになれ (TVサイズ)
+      kana: おもいよひとつになれ (ティーブイサイズ)
       rom: Omoi yo Hitotsu ni Nare (TV Size)
       ko: 마음이여 하나가 되어라 (TV 사이즈)
     version: TVサイズ
@@ -168,10 +169,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-s-piano-sonata
     kind: instrumental
     title:
       ja: 想いよひとつになれ (Riko's Piano Sonata)
+      kana: おもいよひとつになれ (リコズ ピアノ ソナタ)
       rom: Omoi yo Hitotsu ni Nare (Riko's Piano Sonata)
       ko: 마음이여 하나가 되어라 (Riko's Piano Sonata)
     version: Riko's Piano Sonata
@@ -181,9 +186,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: 공식 페이지는 곡명만 인쇄. Fandom OST 문서의 'Riko's Piano Sonata'(피아노 연주곡, 가창 없음)
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 9-member-ver
     title:
       ja: 想いよひとつになれ (9人Ver.)
+      kana: おもいよひとつになれ (きゅうにんヴァージョン)
       rom: Omoi yo Hitotsu ni Nare (9-Member Ver.)
       ko: 마음이여 하나가 되어라 (9인 Ver.)
     version: 9人Ver.
@@ -197,9 +206,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/70019/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd10)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: 想いよひとつになれ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: おもいよひとつになれ (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Omoi yo Hitotsu ni Nare (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 마음이여 하나가 되어라 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -216,6 +229,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd10)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

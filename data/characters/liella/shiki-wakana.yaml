@@ -2,14 +2,17 @@ id: liella/shiki-wakana
 project: liella
 names:
   ja: 若菜 四季
+  kana: わかな しき
   rom: Shiki Wakana
   ko: 와카나 시키
 family_name:
   ja: 若菜
+  kana: わかな
   rom: Wakana
   ko: 와카나
 given_name:
   ja: 四季
+  kana: しき
   rom: Shiki
   ko: 시키
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/member/#shiki
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 루비 (글자별 루비를 이어 붙임; 히라가나로 쓰인 부분은 루비 없음)

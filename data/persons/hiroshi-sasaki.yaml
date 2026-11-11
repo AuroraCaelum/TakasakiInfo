@@ -1,14 +1,17 @@
 id: hiroshi-sasaki
 names:
   ja: 佐々木 裕
+  kana: ささき ひろし
   rom: Hiroshi Sasaki
   ko: 사사키 히로시
 family_name:
   ja: 佐々木
+  kana: ささき
   rom: Sasaki
   ko: 사사키
 given_name:
   ja: 裕
+  kana: ひろし
   rom: Hiroshi
   ko: 히로시
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인; 동명 佐々木 裕(ササキユウ)는 별개 등록자, LL 곡 없음

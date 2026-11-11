@@ -2,6 +2,7 @@ id: muse/soldier-game
 project: muse
 title:
   ja: soldier game
+  kana: ソルジャー ゲーム
   rom: soldier game
   ko: soldier game
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: soldier game (Off Vocal)
+      kana: ソルジャー ゲーム (オフボーカル)
       rom: soldier game (Off Vocal)
       ko: soldier game (Off Vocal)
     version: Off Vocal
@@ -37,9 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: soldier game (ELI Mix)
+      kana: ソルジャー ゲーム (エリ ミックス)
       rom: soldier game (ELI Mix)
       ko: soldier game (ELI Mix)
     version: ELI Mix
@@ -52,9 +58,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: soldier game (UMI Mix)
+      kana: ソルジャー ゲーム (ウミ ミックス)
       rom: soldier game (UMI Mix)
       ko: soldier game (UMI Mix)
     version: UMI Mix
@@ -67,9 +77,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: soldier game (MAKI Mix)
+      kana: ソルジャー ゲーム (マキ ミックス)
       rom: soldier game (MAKI Mix)
       ko: soldier game (MAKI Mix)
     version: MAKI Mix
@@ -82,6 +96,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 15th-tribute
     performers:
       - {artist: ado}
@@ -102,3 +119,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

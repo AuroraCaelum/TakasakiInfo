@@ -2,6 +2,7 @@ id: nijigasaki/pichi-chapu-tinton-tanton
 project: nijigasaki
 title:
   ja: ピチチャプティントンタントン
+  kana: ピチチャプティントンタントン
   rom: Pichi Chapu Tinton Tanton
   ko: 똑똑 참방참방 딩동댕동
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ピチチャプティントンタントン (Off Vocal)
+      kana: ピチチャプティントンタントン (オフボーカル)
       rom: Pichi Chapu Tinton Tanton (Off Vocal)
       ko: 똑똑 참방참방 딩동댕동 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4726
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

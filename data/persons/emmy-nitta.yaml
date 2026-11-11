@@ -1,14 +1,17 @@
 id: emmy-nitta
 names:
   ja: 新田 恵海
+  kana: にった えみ
   rom: Emi Nitta
   ko: 닛타 에미
 family_name:
   ja: 新田
+  kana: にった
   rom: Nitta
   ko: 닛타
 given_name:
   ja: 恵海
+  kana: えみ
   rom: Emi
   ko: 에미
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/닛타 에미
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%96%B0%E7%94%B0%E6%81%B5%E6%B5%B7
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (id는 emmy, rom은 Emi)

@@ -2,6 +2,7 @@ id: ikizulive/daitan-party-time
 project: ikizulive
 title:
   ja: Daitan Party Time
+  kana: ダイタン パーティー タイム
   rom: Daitan Party Time
   ko: Daitan Party Time
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Daitan Party Time (Off Vocal)
+      kana: ダイタン パーティー タイム (オフボーカル)
       rom: Daitan Party Time (Off Vocal)
       ko: Daitan Party Time (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5926
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

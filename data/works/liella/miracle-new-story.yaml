@@ -42,6 +42,7 @@ recordings:
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: MIRACLE NEW STORY (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: ミラクル・ニュー・ストーリー (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: MIRACLE NEW STORY (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: MIRACLE NEW STORY (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -61,6 +62,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/music/cd31.php)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

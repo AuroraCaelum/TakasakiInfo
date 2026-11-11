@@ -2,6 +2,7 @@ id: nijigasaki/phoenix
 project: nijigasaki
 title:
   ja: PHOENIX
+  kana: フェニックス
   rom: PHOENIX
   ko: PHOENIX
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: PHOENIX (Off Vocal)
+      kana: フェニックス (オフボーカル)
       rom: PHOENIX (Off Vocal)
       ko: PHOENIX (Off Vocal)
     version: Off Vocal
@@ -38,9 +40,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: movie-size
     title:
       ja: PHOENIX (MOVIE size)
+      kana: フェニックス (ムービー サイズ)
       rom: PHOENIX (MOVIE size)
       ko: PHOENIX (MOVIE size)
     version: MOVIE size
@@ -55,6 +61,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -64,3 +73,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

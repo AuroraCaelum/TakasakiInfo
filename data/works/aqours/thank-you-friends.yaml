@@ -2,7 +2,7 @@ id: aqours/thank-you-friends
 project: aqours
 title:
   ja: Thank you, FRIENDS!!
-  kana: ''
+  kana: サンキュー, フレンズ!!
   rom: Thank you, FRIENDS!!
   ko: Thank you, FRIENDS!!
 credits:
@@ -26,7 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Thank you, FRIENDS!! (Off Vocal)
-      kana: ''
+      kana: サンキュー, フレンズ!! (オフボーカル)
       rom: Thank you, FRIENDS!! (Off Vocal)
       ko: Thank you, FRIENDS!! (Off Vocal)
     version: Off Vocal
@@ -40,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -133,6 +136,7 @@ recordings:
   - id: chika-takami-solo-ver
     title:
       ja: Thank you, FRIENDS!! (高海千歌 Solo Ver.)
+      kana: サンキュー, フレンズ!! (たかみちか ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Chika Takami Solo Ver.)
       ko: Thank you, FRIENDS!! (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -146,9 +150,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Thank you, FRIENDS!! (桜内梨子 Solo Ver.)
+      kana: サンキュー, フレンズ!! (さくらうちりこ ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Riko Sakurauchi Solo Ver.)
       ko: Thank you, FRIENDS!! (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -162,9 +170,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kanan-matsuura-solo-ver
     title:
       ja: Thank you, FRIENDS!! (松浦果南 Solo Ver.)
+      kana: サンキュー, フレンズ!! (まつうらかなん ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Kanan Matsuura Solo Ver.)
       ko: Thank you, FRIENDS!! (마츠우라 카난 Solo Ver.)
     version: 松浦果南 Solo Ver.
@@ -178,9 +190,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo-ver
     title:
       ja: Thank you, FRIENDS!! (黒澤ダイヤ Solo Ver.)
+      kana: サンキュー, フレンズ!! (くろさわだいや ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Dia Kurosawa Solo Ver.)
       ko: Thank you, FRIENDS!! (쿠로사와 다이아 Solo Ver.)
     version: 黒澤ダイヤ Solo Ver.
@@ -194,9 +210,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: you-watanabe-solo-ver
     title:
       ja: Thank you, FRIENDS!! (渡辺 曜 Solo Ver.)
+      kana: サンキュー, フレンズ!! (わたなべ よう ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (You Watanabe Solo Ver.)
       ko: Thank you, FRIENDS!! (와타나베 요우 Solo Ver.)
     version: 渡辺 曜 Solo Ver.
@@ -210,9 +230,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: Thank you, FRIENDS!! (津島善子 Solo Ver.)
+      kana: サンキュー, フレンズ!! (つしまよしこ ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Yoshiko Tsushima Solo Ver.)
       ko: Thank you, FRIENDS!! (츠시마 요시코 Solo Ver.)
     version: 津島善子 Solo Ver.
@@ -226,9 +250,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: Thank you, FRIENDS!! (国木田花丸 Solo Ver.)
+      kana: サンキュー, フレンズ!! (くにきだはなまる ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Hanamaru Kunikida Solo Ver.)
       ko: Thank you, FRIENDS!! (쿠니키다 하나마루 Solo Ver.)
     version: 国木田花丸 Solo Ver.
@@ -242,9 +270,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo-ver
     title:
       ja: Thank you, FRIENDS!! (小原鞠莉 Solo Ver.)
+      kana: サンキュー, フレンズ!! (おはらまり ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Mari Ohara Solo Ver.)
       ko: Thank you, FRIENDS!! (오하라 마리 Solo Ver.)
     version: 小原鞠莉 Solo Ver.
@@ -258,9 +290,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Thank you, FRIENDS!! (黒澤ルビィ Solo Ver.)
+      kana: サンキュー, フレンズ!! (くろさわるびぃ ソロ ヴァージョン)
       rom: Thank you, FRIENDS!! (Ruby Kurosawa Solo Ver.)
       ko: Thank you, FRIENDS!! (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -274,8 +310,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

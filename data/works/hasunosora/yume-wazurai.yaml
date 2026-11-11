@@ -2,6 +2,7 @@ id: hasunosora/yume-wazurai
 project: hasunosora
 title:
   ja: ユメワズライ
+  kana: ユメワズライ
   rom: Yume Wazurai
   ko: 꿈 앓이
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ユメワズライ (Off Vocal)
+      kana: ユメワズライ (オフボーカル)
       rom: Yume Wazurai (Off Vocal)
       ko: 꿈 앓이 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/27/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -65,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/27/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -24,7 +24,7 @@ recordings:
   - id: chika-takami-solo-ver
     title:
       ja: 届かない星だとしても (高海千歌 Solo Ver.)
-      kana: ''
+      kana: とどかないほしだとしても (たかみちか ソロ ヴァージョン)
       rom: Todoka Nai Hoshi Da To Shi Te Mo (Chika Takami Solo Ver.)
       ko: 닿을 수 없는 별이라 해도 (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -38,10 +38,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd02)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 届かない星だとしても (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: とどかないほしだとしても (さくらうちりこ ソロ ヴァージョン)
       rom: Todoka Nai Hoshi Da To Shi Te Mo (Riko Sakurauchi Solo Ver.)
       ko: 닿을 수 없는 별이라 해도 (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -55,10 +58,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd02)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 届かない星だとしても (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: とどかないほしだとしても (くろさわるびぃ ソロ ヴァージョン)
       rom: Todoka Nai Hoshi Da To Shi Te Mo (Ruby Kurosawa Solo Ver.)
       ko: 닿을 수 없는 별이라 해도 (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -72,6 +78,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd02)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -141,6 +150,7 @@ recordings:
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 届かない星だとしても (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: とどかないほしだとしても (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Todoka Nai Hoshi Da To Shi Te Mo (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 닿을 수 없는 별이라 해도 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -157,6 +167,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd02)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

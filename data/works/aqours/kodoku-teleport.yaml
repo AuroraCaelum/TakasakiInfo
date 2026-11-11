@@ -2,7 +2,7 @@ id: aqours/kodoku-teleport
 project: aqours
 title:
   ja: コドク・テレポート
-  kana: ''
+  kana: コドク・テレポート
   rom: Kodoku・Teleport
   ko: 고독・텔레포트
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: コドク・テレポート (Off Vocal)
-      kana: ''
+      kana: コドク・テレポート (オフボーカル)
       rom: Kodoku・Teleport (Off Vocal)
       ko: 고독・텔레포트 (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

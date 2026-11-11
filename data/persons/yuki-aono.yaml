@@ -1,14 +1,17 @@
 id: yuki-aono
 names:
   ja: 蒼乃 夕妃
+  kana: あおの ゆき
   rom: Yuki Aono
   ko: 아오노 유키
 family_name:
   ja: 蒼乃
+  kana: あおの
   rom: Aono
   ko: 아오노
 given_name:
   ja: 夕妃
+  kana: ゆき
   rom: Yuki
   ko: 유키
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: official
+    source: https://www.toho-ent.co.jp/actor/1039
+    checked: 2026-11-11
+    note: 소속사(東宝芸能) 프로필 읽기

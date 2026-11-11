@@ -1,14 +1,17 @@
 id: keita-tanaka
 names:
   ja: 田仲 圭太
+  kana: たなか けいた
   rom: Keita Tanaka
   ko: 타나카 케이타
 family_name:
   ja: 田仲
+  kana: たなか
   rom: Tanaka
   ko: 타나카
 given_name:
   ja: 圭太
+  kana: けいた
   rom: Keita
   ko: 케이타
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E7%94%B0%E4%BB%B2%E5%9C%AD%E5%A4%AA
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID タナカケイタ 일치(レム／DOLLCHESTRA)

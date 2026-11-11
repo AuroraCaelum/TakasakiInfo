@@ -1,14 +1,17 @@
 id: ken-ito
 names:
   ja: 伊藤 賢
+  kana: いとう けん
   rom: Ken Ito
   ko: 이토 켄
 family_name:
   ja: 伊藤
+  kana: いとう
   rom: Ito
   ko: 이토
 given_name:
   ja: 賢
+  kana: けん
   rom: Ken
   ko: 켄
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E8%B3%A2
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID イトウケン 일치(青空JUMPING HEART)

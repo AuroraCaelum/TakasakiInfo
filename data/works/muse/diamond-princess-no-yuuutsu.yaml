@@ -2,6 +2,7 @@ id: muse/diamond-princess-no-yuuutsu
 project: muse
 title:
   ja: ダイヤモンドプリンセスの憂鬱
+  kana: ダイヤモンドプリンセスのゆううつ
   rom: Diamond Princess no Yuuutsu
   ko: 다이아몬드 프린세스의 우울
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (Off Vocal)
+      kana: ダイヤモンドプリンセスのゆううつ (オフボーカル)
       rom: Diamond Princess no Yuuutsu (Off Vocal)
       ko: 다이아몬드 프린세스의 우울 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (NICO Mix)
+      kana: ダイヤモンドプリンセスのゆううつ (ニコ ミックス)
       rom: Diamond Princess no Yuuutsu (NICO Mix)
       ko: 다이아몬드 프린세스의 우울 (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (MAKI Mix)
+      kana: ダイヤモンドプリンセスのゆううつ (マキ ミックス)
       rom: Diamond Princess no Yuuutsu (MAKI Mix)
       ko: 다이아몬드 프린세스의 우울 (MAKI Mix)
     version: MAKI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (ELI Mix)
+      kana: ダイヤモンドプリンセスのゆううつ (エリ ミックス)
       rom: Diamond Princess no Yuuutsu (ELI Mix)
       ko: 다이아몬드 프린세스의 우울 (ELI Mix)
     version: ELI Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

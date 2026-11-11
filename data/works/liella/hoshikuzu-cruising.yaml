@@ -24,6 +24,7 @@ recordings:
   - id: shanghai-ver
     title:
       ja: 星屑クルージング ～上海 Ver.～
+      kana: ほしくずクルージング ～シャンハイ ヴァージョン～
       rom: Hoshikuzu Cruising ~Shanghai Ver.~
       ko: 별무리 크루징 ~상하이 Ver.~
     version: 上海 Ver.
@@ -34,6 +35,9 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

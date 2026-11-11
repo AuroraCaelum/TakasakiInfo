@@ -45,6 +45,7 @@ recordings:
   - id: tv-size
     title:
       ja: NEO SKY, NEO MAP! (TV size)
+      kana: ネオスカイ ネオマップ! (ティーブイ サイズ)
       rom: NEO SKY, NEO MAP! (TV size)
       ko: NEO SKY, NEO MAP! (TV size)
     version: TV size
@@ -59,9 +60,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd28
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: piano-arrange-ver
     title:
       ja: NEO SKY, NEO MAP! (ピアノアレンジVer.)
+      kana: ネオスカイ ネオマップ! (ピアノアレンジヴァージョン)
       rom: NEO SKY, NEO MAP! (Piano Arrange Ver.)
       ko: NEO SKY, NEO MAP! (피아노 어레인지 Ver.)
     version: ピアノアレンジVer.
@@ -73,6 +78,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

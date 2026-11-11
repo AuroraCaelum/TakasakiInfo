@@ -2,6 +2,7 @@ id: nijigasaki/white-delight
 project: nijigasaki
 title:
   ja: White Delight
+  kana: ホワイト ディライト
   rom: White Delight
   ko: White Delight
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: White Delight (Off Vocal)
+      kana: ホワイト ディライト (オフボーカル)
       rom: White Delight (Off Vocal)
       ko: White Delight (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd69
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

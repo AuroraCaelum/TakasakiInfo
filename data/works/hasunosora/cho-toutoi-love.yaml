@@ -2,6 +2,7 @@ id: hasunosora/cho-toutoi-love
 project: hasunosora
 title:
   ja: ちょ、尊いLOVE
+  kana: ちょ、とうといラブ
   rom: Cho, Toutoi LOVE
   ko: 잠깐, 고귀한 LOVE
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ちょ、尊いLOVE (Off Vocal)
+      kana: ちょ、とうといラブ (オフボーカル)
       rom: Cho, Toutoi LOVE (Off Vocal)
       ko: 잠깐, 고귀한 LOVE (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5237
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

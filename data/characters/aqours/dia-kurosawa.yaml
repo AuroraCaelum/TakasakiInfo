@@ -2,14 +2,17 @@ id: aqours/dia-kurosawa
 project: aqours
 names:
   ja: 黒澤ダイヤ
+  kana: くろさわ だいや
   rom: Dia Kurosawa
   ko: 쿠로사와 다이아
 family_name:
   ja: 黒澤
+  kana: くろさわ
   rom: Kurosawa
   ko: 쿠로사와
 given_name:
   ja: ダイヤ
+  kana: だいや
   rom: Dia
   ko: 다이아
 casting:
@@ -32,3 +35,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/member.php#dia
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 이름 루비(이미지) — 가타카나 이름이지만 공식 루비가 히라가나로 표기됨

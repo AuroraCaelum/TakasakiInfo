@@ -2,6 +2,7 @@ id: muse/wild-stars
 project: muse
 title:
   ja: WILD STARS
+  kana: ワイルド スターズ
   rom: WILD STARS
   ko: WILD STARS
 credits:
@@ -23,6 +24,7 @@ recordings:
   - id: honoka-mix
     title:
       ja: WILD STARS (HONOKA Mix)
+      kana: ワイルド スターズ (ホノカ ミックス)
       rom: WILD STARS (HONOKA Mix)
       ko: WILD STARS (HONOKA Mix)
     version: HONOKA Mix
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: WILD STARS (ELI Mix)
+      kana: ワイルド スターズ (エリ ミックス)
       rom: WILD STARS (ELI Mix)
       ko: WILD STARS (ELI Mix)
     version: ELI Mix
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd32
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: WILD STARS (KOTORI Mix)
+      kana: ワイルド スターズ (コトリ ミックス)
       rom: WILD STARS (KOTORI Mix)
       ko: WILD STARS (KOTORI Mix)
     version: KOTORI Mix
@@ -65,9 +75,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: WILD STARS (UMI Mix)
+      kana: ワイルド スターズ (ウミ ミックス)
       rom: WILD STARS (UMI Mix)
       ko: WILD STARS (UMI Mix)
     version: UMI Mix
@@ -80,9 +94,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: WILD STARS (RIN Mix)
+      kana: ワイルド スターズ (リン ミックス)
       rom: WILD STARS (RIN Mix)
       ko: WILD STARS (RIN Mix)
     version: RIN Mix
@@ -95,9 +113,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: WILD STARS (MAKI Mix)
+      kana: ワイルド スターズ (マキ ミックス)
       rom: WILD STARS (MAKI Mix)
       ko: WILD STARS (MAKI Mix)
     version: MAKI Mix
@@ -110,9 +132,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd36
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: WILD STARS (NOZOMI Mix)
+      kana: ワイルド スターズ (ノゾミ ミックス)
       rom: WILD STARS (NOZOMI Mix)
       ko: WILD STARS (NOZOMI Mix)
     version: NOZOMI Mix
@@ -125,9 +151,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd37
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: WILD STARS (HANAYO Mix)
+      kana: ワイルド スターズ (ハナヨ ミックス)
       rom: WILD STARS (HANAYO Mix)
       ko: WILD STARS (HANAYO Mix)
     version: HANAYO Mix
@@ -140,9 +170,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: WILD STARS (NICO Mix)
+      kana: ワイルド スターズ (ニコ ミックス)
       rom: WILD STARS (NICO Mix)
       ko: WILD STARS (NICO Mix)
     version: NICO Mix
@@ -155,10 +189,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: WILD STARS (Off Vocal)
+      kana: ワイルド スターズ (オフボーカル)
       rom: WILD STARS (Off Vocal)
       ko: WILD STARS (Off Vocal)
     version: Off Vocal
@@ -170,6 +208,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -179,3 +220,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

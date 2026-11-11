@@ -2,6 +2,7 @@ id: muse/kokuhaku-biyori-desu
 project: muse
 title:
   ja: 告白日和、です！
+  kana: こくはくびより、です！
   rom: Kokuhaku Biyori, desu!
   ko: 고백하기 좋은 날, 이에요!
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 告白日和、です！ (Off Vocal)
+      kana: こくはくびより、です！ (オフボーカル)
       rom: Kokuhaku Biyori, desu! (Off Vocal)
       ko: 고백하기 좋은 날, 이에요! (Off Vocal)
     version: Off Vocal
@@ -36,9 +38,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: 告白日和、です！ (KOTORI Mix)
+      kana: こくはくびより、です！ (コトリ ミックス)
       rom: Kokuhaku Biyori, desu! (KOTORI Mix)
       ko: 고백하기 좋은 날, 이에요! (KOTORI Mix)
     version: KOTORI Mix
@@ -51,9 +57,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: 告白日和、です！ (HANAYO Mix)
+      kana: こくはくびより、です！ (ハナヨ ミックス)
       rom: Kokuhaku Biyori, desu! (HANAYO Mix)
       ko: 고백하기 좋은 날, 이에요! (HANAYO Mix)
     version: HANAYO Mix
@@ -66,6 +76,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -76,3 +89,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

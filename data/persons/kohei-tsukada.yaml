@@ -1,14 +1,17 @@
 id: kohei-tsukada
 names:
   ja: 塚田 耕平
+  kana: つかだ こうへい
   rom: Kohei Tsukada
   ko: 츠카다 코헤이
 family_name:
   ja: 塚田
+  kana: つかだ
   rom: Tsukada
   ko: 츠카다
 given_name:
   ja: 耕平
+  kana: こうへい
   rom: Kohei
   ko: 코헤이
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www.parade-group.com/
+    checked: 2026-11-11
+    note: 소속사(パレード) 공식 사이트 표기; 위키백과·J-WID 동일

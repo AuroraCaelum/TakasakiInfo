@@ -2,6 +2,7 @@ id: hasunosora/hana-sakeba-yume-kakeru
 project: hasunosora
 title:
   ja: ハナ咲けばユメ駆ける
+  kana: ハナさけばユメかける
   rom: Hana Sakeba Yume Kakeru
   ko: 꽃이 피면 꿈이 달린다
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ハナ咲けばユメ駆ける (Off Vocal)
+      kana: ハナさけばユメかける (オフボーカル)
       rom: Hana Sakeba Yume Kakeru (Off Vocal)
       ko: 꽃이 피면 꿈이 달린다 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5950
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

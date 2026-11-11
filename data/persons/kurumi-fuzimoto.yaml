@@ -1,14 +1,17 @@
 id: kurumi-fuzimoto
 names:
   ja: 藤本くるみ
+  kana: ふじもと くるみ
   rom: Kurumi Fujimoto
   ko: 후지모토 쿠루미
 family_name:
   ja: 藤本
+  kana: ふじもと
   rom: Fujimoto
   ko: 후지모토
 given_name:
   ja: くるみ
+  kana: くるみ
   rom: Kurumi
   ko: 쿠루미
 evidence:
@@ -29,3 +32,6 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Kurumi Fujimoto'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

@@ -2,7 +2,7 @@ id: aqours/new-romantic-sailors
 project: aqours
 title:
   ja: New Romantic Sailors
-  kana: ''
+  kana: ニュー ロマンティック セーラーズ
   rom: New Romantic Sailors
   ko: New Romantic Sailors
 credits:
@@ -28,7 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: New Romantic Sailors (Off Vocal)
-      kana: ''
+      kana: ニュー ロマンティック セーラーズ (オフボーカル)
       rom: New Romantic Sailors (Off Vocal)
       ko: New Romantic Sailors (Off Vocal)
     version: Off Vocal
@@ -42,9 +42,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: remix
     title:
       ja: New Romantic Sailors REMIX
+      kana: ニュー ロマンティック セーラーズ リミックス
       rom: New Romantic Sailors REMIX
       ko: New Romantic Sailors REMIX
     version: REMIX
@@ -60,8 +64,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php
         checked: 2026-10-18
         note: 리믹서
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

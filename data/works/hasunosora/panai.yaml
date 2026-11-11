@@ -2,6 +2,7 @@ id: hasunosora/panai
 project: hasunosora
 title:
   ja: PANAI☆
+  kana: パナイ☆
   rom: PANAI☆
   ko: PANAI☆
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: PANAI☆ (Off Vocal)
+      kana: パナイ☆ (オフボーカル)
       rom: PANAI☆ (Off Vocal)
       ko: PANAI☆ (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_6117
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -1,14 +1,17 @@
 id: tomomi-narumoto
 names:
   ja: 成本 智美
+  kana: なるもと ともみ
   rom: Tomomi Narumoto
   ko: 나루모토 토모미
 family_name:
   ja: 成本
+  kana: なるもと
   rom: Narumoto
   ko: 나루모토
 given_name:
   ja: 智美
+  kana: ともみ
   rom: Tomomi
   ko: 토모미
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://supalove.com/category/introduction/narumoto-tomomi/
+    checked: 2026-11-11
+    note: 소속사 프로필의 로마자 표기(URL)를 따름. JASRAC J-WID에는 ナリモトトモミ로 등록돼 있으나 사용자 결정(2026-11-11)으로 なるもと

@@ -2,7 +2,7 @@ id: aqours/my-mai-tonight
 project: aqours
 title:
   ja: MY舞☆TONIGHT
-  kana: ''
+  kana: マイまい☆トゥナイト
   rom: MY Mai☆TONIGHT
   ko: MY무희☆TONIGHT
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: MY舞☆TONIGHT (Off Vocal)
-      kana: ''
+      kana: マイまい☆トゥナイト (オフボーカル)
       rom: MY Mai☆TONIGHT (Off Vocal)
       ko: MY무희☆TONIGHT (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -132,6 +135,7 @@ recordings:
   - id: tv-size
     title:
       ja: MY舞☆TONIGHT (TVサイズ)
+      kana: マイまい☆トゥナイト (ティーブイサイズ)
       rom: MY Mai☆TONIGHT (TV Size)
       ko: MY무희☆TONIGHT (TV 사이즈)
     version: TVサイズ
@@ -145,9 +149,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: MY舞☆TONIGHT (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: マイまい☆トゥナイト (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: MY Mai☆TONIGHT (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: MY무희☆TONIGHT (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -164,9 +172,13 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: MY舞☆TONIGHT (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: マイまい☆トゥナイト (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: MY Mai☆TONIGHT (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: MY무희☆TONIGHT (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -183,8 +195,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd21
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

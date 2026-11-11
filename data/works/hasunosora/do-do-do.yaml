@@ -24,6 +24,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: ド！ド！ド！ (104期 Ver.)
+      kana: ド！ド！ド！ (ひゃくよんき ヴァージョン)
       rom: Do! Do! Do! (104th Ver.)
       ko: 도! 도! 도! (104기 Ver.)
     version: 104期 Ver.
@@ -36,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
