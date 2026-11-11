@@ -4,6 +4,7 @@ names:
   kana: いわつぼ こうだい
   rom: KOUDAI IWATSUBO
   ko: 이와츠보 코다이
+birthday: '1984-03-05'
 aliases:
   - {text: Kodai Iwatsubo}
 evidence:
@@ -24,3 +25,8 @@ evidence:
   names.kana:
     status: derived
     note: 가나 표기 그대로 읽음(D58). 성·이름 경계는 rom을 따라 띄움(D28), 장음 ー는 모음으로
+  birthday:
+    status: official
+    source: https://web.archive.org/web/20211018051922/https://www.koudai-iwatsubo.com/profile
+    checked: 2026-11-12
+    note: 본인 공식 사이트 프로필(현재 도메인 접속 불가, 웹 아카이브 2021-10-18 사본으로 확인). 위키백과도 같은 날짜(이 사이트 인용), 위키 작품 목록에 Aqours 「Aqours Pirates Desire」 등 있음

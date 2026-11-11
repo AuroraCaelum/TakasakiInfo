@@ -14,6 +14,7 @@ given_name:
   kana: さおり
   rom: Saori
   ko: 사오리
+birthday: '1975-03-08'
 evidence:
   names:
     status: derived
@@ -26,3 +27,8 @@ evidence:
   names.kana:
     status: derived
     note: 가나 표기 그대로 읽음(D58). 성·이름 사이 공백(D28), 장음 ー는 모음으로(カトウリョータ → かとう りょうた와 같음)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/こだまさおり
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 정보. 동일인 확인: anison.info こだまさおり 인물 페이지(https://anison.info/data/person/20018.html)에 蓮ノ空 「全部、春風になった」 작사와 함께 위키백과 작품 목록과 겹치는 Free!, TIGER & BUNNY, アイカツ!, プリキュア 등 다수 곡이 실림(anison.info 생일 1975-03-08 일치)'

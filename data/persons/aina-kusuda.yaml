@@ -14,6 +14,7 @@ given_name:
   kana: あいな
   rom: Aina
   ko: 아이나
+birthday: '1989-02-01'
 evidence:
   name_parts:
     status: derived
@@ -38,3 +39,8 @@ evidence:
     source: https://www.just-pro.jp/talent/voice-actor/kusuda_aina/
     checked: 2026-11-11
     note: 소속사(ジャストプロ) 페이지 meta description 읽기; 분할은 입력 기준
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/楠田亜衣奈
+    checked: 2026-11-12
+    note: 소속사 프로필(ジャストプロ) https://www.just-pro.jp/talent/voice-actor/kusuda_aina/ 에 월·일만 게재(生年月日 2月1日). 연도는 일본어 위키백과 인물 정보. 두 출처의 월·일 일치

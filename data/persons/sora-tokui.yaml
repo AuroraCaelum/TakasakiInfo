@@ -14,6 +14,7 @@ given_name:
   kana: そら
   rom: Sora
   ko: 소라
+birthday: '1989-12-26'
 evidence:
   name_parts:
     status: derived
@@ -38,3 +39,8 @@ evidence:
     source: https://ja.wikipedia.org/wiki/%E5%BE%B3%E4%BA%95%E9%9D%92%E7%A9%BA
     checked: 2026-11-11
     note: 위키백과 표제 읽기
+  birthday:
+    status: established
+    source: https://artist.cdjournal.com/a/tokui-sora/188018
+    checked: 2026-11-12
+    note: 공식(avex 프로필)은 12月26日만(https://avex.jp/tokuisora/profile/). 연도는 CDJournal

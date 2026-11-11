@@ -14,6 +14,7 @@ given_name:
   kana: りょうすけ
   rom: Ryosuke
   ko: 료스케
+birthday: '1989-12-01'
 aliases:
   - {text: サイトウリョースケ}
 evidence:
@@ -38,3 +39,8 @@ evidence:
   names.kana:
     status: derived
     note: 가나 표기 그대로 읽음(D58). 성·이름 사이 공백(D28), 장음 ー는 모음으로(カトウリョータ → かとう りょうた와 같음)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%88%E3%82%A6%E3%83%AA%E3%83%A7%E3%83%BC%E3%82%B9%E3%82%B1
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 Aqours 「GAME ON!」「ユメ+ミライ＝無限大」, 虹ヶ咲 「MELODY」 기재

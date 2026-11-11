@@ -14,6 +14,7 @@ given_name:
   kana: ゆうすけ
   rom: Yusuke
   ko: 유스케
+birthday: '1980-08-24'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/板垣祐介
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 정보(러브라이브! 「Private Wars」「Shocking Party」 작·편곡 언급)

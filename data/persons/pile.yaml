@@ -4,6 +4,7 @@ names:
   rom: Pile
   ko: Pile
 native_script: latin
+birthday: '1988-05-02'
 evidence:
   names.ja:
     status: official
@@ -20,3 +21,8 @@ evidence:
     source: https://namu.wiki/w/Pile
     checked: 2026-10-19
     note: 나무위키 문서 제목 (라틴 문자 이름은 그대로)
+  birthday:
+    status: official
+    source: https://pile.asia/profiles
+    checked: 2026-11-12
+    note: 본인 공식 사이트 프로필(μ's 활동 기재)

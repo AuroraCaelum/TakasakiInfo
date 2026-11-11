@@ -14,6 +14,7 @@ given_name:
   kana: さな
   rom: Sana
   ko: 사나
+birthday: '1996-01-21'
 evidence:
   names.ja:
     status: official
@@ -38,3 +39,8 @@ evidence:
     source: https://www.hoshimori.com
     checked: 2026-11-11
     note: 공식 사이트 구조화 데이터(alternateName) 읽기; 분할은 입력 기준
+  birthday:
+    status: official
+    source: https://www.hoshimori.com/profile
+    checked: 2026-11-12
+    note: 본인 공식 사이트 프로필

@@ -14,6 +14,7 @@ given_name:
   kana: あやか
   rom: Ayaka
   ko: 아야카
+birthday: '1994-09-13'
 evidence:
   names:
     status: official
@@ -28,3 +29,8 @@ evidence:
     source: https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%BD%A9%E9%A6%99
     checked: 2026-11-11
     note: 위키백과 표제 읽기
+  birthday:
+    status: official
+    source: https://ayaka-ohashi.com/profiles
+    checked: 2026-11-12
+    note: 본인 공식 사이트 프로필(소속사 INSPIONエージェンシー 프로필에는 생일 없음). 위키백과와 일치

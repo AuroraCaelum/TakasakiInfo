@@ -14,6 +14,7 @@ given_name:
   kana: えみり
   rom: Emiri
   ko: 에미리
+birthday: '1983-11-26'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/加藤英美里
+    checked: 2026-11-12
+    note: 소속사 프로필(スターダストプロモーション) https://www.stardust.co.jp/talent/voiceactor/katoemiri/ 에 월·일만 게재(生年月日 11月26日). 연도는 일본어 위키백과 인물 정보. 두 출처의 월·일 일치

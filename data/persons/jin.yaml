@@ -4,6 +4,7 @@ names:
   kana: じん
   rom: Jin
   ko: 진
+birthday: '1990-10-20'
 evidence:
   names:
     status: established
@@ -16,3 +17,8 @@ evidence:
   names.kana:
     status: derived
     note: 활동명. 가나 표기 그대로(D58)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E3%81%98%E3%82%93
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 정보(문서 작품 목록에 Circle of Love 있음)

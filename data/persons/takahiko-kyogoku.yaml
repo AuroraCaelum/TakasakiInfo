@@ -14,6 +14,7 @@ given_name:
   kana: たかひこ
   rom: Takahiko
   ko: 타카히코
+birthday: '1981-08-14'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%A5%B5%E5%B0%9A%E5%BD%A6
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 러브라이브! 곡 기재(애니메이션 감독). 위키백과 각주: 月刊ニュータイプ 2016年6月号'

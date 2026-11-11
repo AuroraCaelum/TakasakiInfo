@@ -14,6 +14,7 @@ given_name:
   kana: みなみ
   rom: Minami
   ko: 미나미
+birthday: '1964-05-05'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/高山みなみ
+    checked: 2026-11-12
+    note: 소속사(81프로듀스) 프로필은 5月5日만(https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=237). 연도는 위키백과(『声優論』 2015 인용). 극장판 러브라이브! 여성 싱어 역

@@ -4,6 +4,7 @@ names:
   rom: ERECA
   ko: ERECA
 native_script: latin
+birthday: '1996-05-05'
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/鈴木エレカ
+    checked: 2026-11-12
+    note: 공식 미게재. 일본어 위키백과 인물 정보. 위키백과 「ERECA」는 鈴木エレカ로 넘겨주기, 본문에 『ERECA』名義でも活動 기재(ereca-suzuki와 동일인)

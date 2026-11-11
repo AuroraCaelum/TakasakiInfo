@@ -14,7 +14,7 @@ import datetime as dt
 from enum import StrEnum
 from typing import Annotated, Literal
 
-from pydantic import AfterValidator, BaseModel, ConfigDict, Field, model_validator
+from pydantic import AfterValidator, BaseModel, BeforeValidator, ConfigDict, Field, model_validator
 
 
 class Strict(BaseModel):
@@ -103,6 +103,20 @@ class Project(Strict):
 # --- people -------------------------------------------------------------------
 
 
+def _real_day(v: str) -> str:
+    """A birthday is a day of the calendar: `MM-DD` is checked against a leap year, so 02-29 passes."""
+    dt.date.fromisoformat(v if len(v) == 10 else f"2000-{v}")
+    return v
+
+
+# `YYYY-MM-DD`, or `MM-DD` when the year is not public (D60)
+# a full date written unquoted in a hand-edited file is read as a date
+Birthday = Annotated[str, Field(pattern=r"^(\d{4}-)?\d{2}-\d{2}$"), AfterValidator(_real_day),
+                     BeforeValidator(lambda v: v.isoformat() if isinstance(v, dt.date) else v)]
+# a character's birthday has no year (D60)
+DayOfYear = Annotated[str, Field(pattern=r"^\d{2}-\d{2}$"), AfterValidator(_real_day)]
+
+
 class Alias(Strict):
     text: str
     """The spelling as seen in a credit."""
@@ -129,6 +143,9 @@ class Person(Strict):
     """Given name in each language."""
     native_script: Literal["ja", "latin"] = "ja"
     """`latin` for a name whose original form is in Latin script; its `ko` is then the original."""
+    birthday: Birthday | None = None
+    """Date of birth, `YYYY-MM-DD`; `MM-DD` when the person has not made the year public. Its source is
+    `evidence.birthday` (D60)."""
     aliases: list[Alias] = []
     """Other spellings seen in credits. Used to match credits; printed only where a credit names one
     (`credited_name`: a pen name or former name with its own `names`)."""
@@ -168,6 +185,8 @@ class Character(Strict):
     """Family name in each language."""
     given_name: Names | None = None
     """Given name in each language."""
+    birthday: DayOfYear | None = None
+    """Birthday as the work gives it, `MM-DD` (no in-story year). Its source is `evidence.birthday` (D60)."""
     casting: list[Casting] = []
     """Voice actors over time."""
     distinct_from: list[str] = []

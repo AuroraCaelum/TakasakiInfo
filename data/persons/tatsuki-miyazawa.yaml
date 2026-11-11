@@ -14,6 +14,7 @@ given_name:
   kana: たつき
   rom: Tatsuki
   ko: 타츠키
+birthday: '1996-09-02'
 evidence:
   names.ja:
     status: official
@@ -38,3 +39,8 @@ evidence:
     source: https://ja.wikipedia.org/wiki/%E5%AE%AE%E6%BE%A4%E6%A8%B9%E7%94%9F
     checked: 2026-11-11
     note: 위키백과 표제 읽기
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/宮澤樹生
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 정보(작곡가·편곡가, API 발췌로 확인)

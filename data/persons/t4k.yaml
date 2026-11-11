@@ -4,6 +4,7 @@ names:
   rom: T4K
   ko: T4K
 native_script: latin
+birthday: 11-20
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/T4K
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 러브라이브! 곡 기재(渡辺曜, 虹ヶ咲). 생년 미기재. 위키백과 각주: 본인 X 생일 게시(2025-11-20)'

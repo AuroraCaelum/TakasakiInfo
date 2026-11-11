@@ -14,6 +14,7 @@ given_name:
   kana: りほ
   rom: Riho
   ko: 리호
+birthday: '1991-10-26'
 evidence:
   name_parts:
     status: derived
@@ -38,3 +39,8 @@ evidence:
     source: https://iida-riho.com/
     checked: 2026-11-11
     note: 공식 사이트 meta description 읽기; 분할은 입력 기준
+  birthday:
+    status: official
+    source: https://www.houeishinsha.co.jp/h_detail_sptalent.cgi?OFFICE=T&KIND=5&ID=6565b1a4_4ac95
+    checked: 2026-11-12
+    note: 소속사(放映新社) 프로필

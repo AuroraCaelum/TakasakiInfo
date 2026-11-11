@@ -4,6 +4,7 @@ names:
   rom: Motokiyo
   ko: Motokiyo
 native_script: latin
+birthday: '1994-05-29'
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Motokiyo
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 정보(POPHOLIC 소속). 동일인 확인: 위키백과 「WE WILL!!」 문서 작곡 크레딧([[Motokiyo]], https://ja.wikipedia.org/wiki/WE_WILL!!)과 「いきづらい部!」 문서의 「センチメートル・ランデヴー」 작곡 크레딧(https://ja.wikipedia.org/wiki/いきづらい部!)이 인물 문서로 링크됨'

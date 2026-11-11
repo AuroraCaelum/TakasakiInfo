@@ -14,6 +14,7 @@ given_name:
   kana: まゆこ
   rom: Mayuko
   ko: 마유코
+birthday: 06-22
 evidence:
   names.ja:
     status: official
@@ -36,3 +37,8 @@ evidence:
   names.kana:
     status: derived
     note: 공식 읽기 없음. rom 'Mayuko Ohara'의 발음대로 읽음(사용자 결정 2026-11-11, D58)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/大原万由子
+    checked: 2026-11-12
+    note: 공식 미게재(소속사 바닐라모델매니지먼트 프로필에 생일 없음). 위키백과(『宝塚おとめ 2018年度版』 인용), 생년 미표기. 스쿨아이돌뮤지컬 출연 확인

@@ -24,7 +24,8 @@ ALBUM_HEADER = [
     "Album", "Track", "日本語", "Romaji", "한국어", "歌", "Singer", "가수", "作詞", "Lyrics", "작사",
     "作曲", "Compose", "작곡", "編曲", "Arrange", "편곡", "Release", "Link", "Category", "Note", "発音",
 ]
-MEMBER_HEADER = ["日本語", "Romaji", "한국어", "声優", "Seiyuu", "성우", "Unit"]
+# the two birthday columns come last so the earlier columns keep their positions (D60)
+MEMBER_HEADER = ["日本語", "Romaji", "한국어", "声優", "Seiyuu", "성우", "Unit", "Birthday", "Seiyuu Birthday"]
 LANGS = ("ja", "rom", "ko")
 YT = "https://youtu.be/"
 
@@ -328,12 +329,15 @@ def render_members(ds: Dataset, group: str) -> bytes:
     rows = []
     for r in f.rows:
         ch = ds.characters[r.character]
-        cv = [ds.persons[c.person].names for c in ch.casting]
+        actors = [ds.persons[c.person] for c in ch.casting]
+        cv = [p.names for p in actors]
         unit = ds.artists[r.unit].names.ja if r.unit else ""
         rows.append([
             ch.names.ja or "", ch.names.rom or "", ch.names.ko or "",
             _join([n.ja or "" for n in cv]), _join([n.rom or "" for n in cv]), _join([n.ko or "" for n in cv]),
             unit or "",
+            # one birthday per voice actor in the order of the names, empty where unknown (D60)
+            ch.birthday or "", _join([p.birthday or "" for p in actors]),
         ])
     return write_csv(MEMBER_HEADER, rows, f.bom)
 

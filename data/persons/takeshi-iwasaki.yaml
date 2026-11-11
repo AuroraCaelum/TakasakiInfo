@@ -14,6 +14,7 @@ given_name:
   kana: たけし
   rom: Takeshi
   ko: 타케시
+birthday: '1991-12-29'
 evidence:
   names.ja:
     status: official
@@ -38,3 +39,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: J-WID에 같은 한자 이름이 같은 읽기로 등록. 데이터의 크레딧 곡이 결과에 없어 동일인은 미확인이나, rom과 읽기가 맞아 승인(사용자 결정 2026-11-11)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%B5%9C%E5%A3%AE%E5%BF%97
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 문서. 위키백과 「Jump Into the New World」(Liella! 미니앨범) 「不可視なブルー」 현 편곡 크레디트가 이 문서로 링크(동일인 확인)

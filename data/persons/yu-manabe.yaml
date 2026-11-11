@@ -14,6 +14,7 @@ given_name:
   kana: ゆう
   rom: Yu
   ko: 유
+birthday: '1980-03-11'
 evidence:
   names.ja:
     status: official
@@ -37,3 +38,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: J-WID에 같은 한자 이름이 같은 읽기로 등록. 데이터의 크레딧 곡이 결과에 없어 동일인은 미확인이나, rom과 읽기가 맞아 승인(사용자 결정 2026-11-11)
+  birthday:
+    status: official
+    source: http://www.yumanabe.com/profile_ja/
+    checked: 2026-11-12
+    note: '본인 공식 사이트 프로필. 위키백과(https://ja.wikipedia.org/wiki/真部裕)도 1980-03-11. 동일인 확인: 본인 사이트 WORKS(http://www.yumanabe.com/works/2019.html)에 Aqours 『ラブライブ!サンシャイン!!The School Idol Movie Over the Rainbow』 관련 작업과 斉藤朱夏 「あと1メートル」「誰よりも弱い人でかまわない」가 있고, anison.info 真部裕 인물 페이지(https://anison.info/data/person/37638.html)에 같은 두 곡과 蓮ノ空 「千変万華」 편곡이 함께 실림'

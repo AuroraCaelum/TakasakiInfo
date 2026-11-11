@@ -14,6 +14,7 @@ given_name:
   kana: ともき
   rom: Tomoki
   ko: 토모키
+birthday: '1968-02-21'
 evidence:
   names:
     status: derived
@@ -28,3 +29,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: J-WID에 같은 한자 이름이 같은 읽기로 등록. 데이터의 크레딧 곡이 결과에 없어 동일인은 미확인이나, rom과 읽기가 맞아 승인(사용자 결정 2026-11-11)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/菊谷知樹
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 정보. 동일인 확인: 위키백과 「ラブライブ!蓮ノ空女学院スクールアイドルクラブ」 문서의 사용 악곡 표에서 「恥は人生のかきすて」 편곡이 [[菊谷知樹]] 문서로 링크됨(https://ja.wikipedia.org/wiki/ラブライブ!蓮ノ空女学院スクールアイドルクラブ)'
