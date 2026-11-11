@@ -14,6 +14,7 @@ given_name:
   kana: しゅんすけ
   rom: Shunsuke
   ko: 슌스케
+birthday: '1984-10-15'
 evidence:
   names.ja:
     status: official
@@ -38,3 +39,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E4%BF%8A%E4%BA%AE
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 문서. 소속사 スマイルカンパニー 프로필(https://www.smile-co.jp/archives/creator/3119)에는 생일 없음, 작품 목록에 「聖なる日の祈り」(Aqours) 기재되어 동일인 확인

@@ -14,6 +14,7 @@ given_name:
   kana: けいいち
   rom: Keiichi
   ko: 케이이치
+birthday: '1987-08-19'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B7%9D%E6%81%B5%E4%B8%80
+    checked: 2026-11-12
+    note: 공식 미게재(소속 MONACA 프로필 https://monaca.jp/member/hirokawa/ 에 생일 없음, ラブライブ!シリーズ 작품 분류·15th Anniversary Tribute Album 기재). 위키백과 인물 정보

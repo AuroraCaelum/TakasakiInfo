@@ -14,6 +14,7 @@ given_name:
   kana: あいか
   rom: Aika
   ko: 아이카
+birthday: '1993-10-23'
 evidence:
   names.ja:
     status: official
@@ -38,3 +39,8 @@ evidence:
     source: https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9E%97%E6%84%9B%E9%A6%99
     checked: 2026-11-11
     note: 위키백과 표제 읽기
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/小林愛香
+    checked: 2026-11-12
+    note: 소속사 프로필(ボイスキット) https://voicekit.jp/talent/kobayashiaika/ 에 월·일만 게재(誕生日 10月23日). 연도는 일본어 위키백과 인물 정보. 두 출처의 월·일 일치

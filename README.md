@@ -301,6 +301,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `family_name` | **Names** | — | Family name in each language. |
 | `given_name` | **Names** | — | Given name in each language. |
 | `native_script` | string | `"ja"` | `latin` for a name whose original form is in Latin script; its `ko` is then the original. One of `ja`, `latin`. |
+| `birthday` | string | — | Date of birth, `YYYY-MM-DD`; `MM-DD` when the person has not made the year public. Its source is `evidence.birthday` (D60). |
 | `aliases` | **Alias**[] | `[]` | Other spellings seen in credits. Used to match credits; printed only where a credit names one (`credited_name`: a pen name or former name with its own `names`). |
 | `distinct_from` | string[] | `[]` | Ids of people with a similar name who are known to be someone else. |
 | `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover (`names.ja`, `names.ko`, `name_parts`, …). |
@@ -326,6 +327,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `names` | **Names** | *required* | Name. `ja` is spaced from `family_name` and `given_name`. |
 | `family_name` | **Names** | — | Family name in each language. |
 | `given_name` | **Names** | — | Given name in each language. |
+| `birthday` | string | — | Birthday as the work gives it, `MM-DD` (no in-story year). Its source is `evidence.birthday` (D60). |
 | `casting` | **Casting**[] | `[]` | Voice actors over time. |
 | `distinct_from` | string[] | `[]` | Ids of characters with a similar name who are known to be someone else. |
 | `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
@@ -709,11 +711,12 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
 
 - Member data (`members/<Group>.csv`):
 
-  | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
-  | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-  | Name (ja) | Name (rom) | Name (ko) | Voice actor (ja) | Voice actor (rom) | Voice actor (ko) | Unit |
+  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+  | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+  | Name (ja) | Name (rom) | Name (ko) | Voice actor (ja) | Voice actor (rom) | Voice actor (ko) | Unit | Birthday | Voice actor's birthday |
 
   Graduated members are included. `Unit` is empty for groups whose units change from round to round.
+  A character's birthday is `MM-DD`; a voice actor's is `YYYY-MM-DD`, or `MM-DD` when the year is not public. A role with two voice actors lists both birthdays in the order of the names, and a birthday not found is left empty.
 - Row order: songs by release date; members and voice actors in the order of the official site.
 
 ### JSON structure
@@ -927,7 +930,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - 각 파일의 첫 행은 헤더입니다.
 - 값은 `,`로 구분하고, 한 열에 여러 값이 들어가면 `;`로 구분합니다.
 - 음반 데이터 (`albums/<그룹>/<그룹>.csv`): `앨범명`, `트랙 번호`, `제목(일본어)`, `제목(로마자)`, `제목(한국어)`, `가수(일본어)`, `가수(로마자)`, `가수(한국어)`, `작사(일본어)`, `작사(로마자)`, `작사(한국어)`, `작곡(일본어)`, `작곡(로마자)`, `작곡(한국어)`, `편곡(일본어)`, `편곡(로마자)`, `편곡(한국어)`, `발매일`, `유튜브 링크`, `카테고리`, `비고`, `발음(가나)`
-- 멤버 데이터 (`members/<그룹>.csv`): `이름(일본어)`, `이름(로마자)`, `이름(한국어)`, `성우(일본어)`, `성우(로마자)`, `성우(한국어)`, `소속 유닛`. 졸업 멤버도 들어 있고, 유닛이 회차마다 바뀌는 그룹은 `소속 유닛`이 비어 있습니다.
+- 멤버 데이터 (`members/<그룹>.csv`): `이름(일본어)`, `이름(로마자)`, `이름(한국어)`, `성우(일본어)`, `성우(로마자)`, `성우(한국어)`, `소속 유닛`, `생일`, `성우 생일`. 졸업 멤버도 들어 있고, 유닛이 회차마다 바뀌는 그룹은 `소속 유닛`이 비어 있습니다. 캐릭터 생일은 `MM-DD`, 성우 생일은 `YYYY-MM-DD`(생년 비공개면 `MM-DD`)입니다. 성우가 둘인 배역은 이름 순서대로 생일을 적고, 찾지 못한 생일은 비워 둡니다.
 - 행 순서: 곡은 발매일순, 멤버와 성우는 공식 홈페이지의 멤버 순서입니다.
 
 ### JSON 구조
@@ -994,7 +997,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - 各ファイルの最初の行はヘッダーです。
 - 値は `,` で区切り、1つの列に複数の値がある場合は `;` で区切ります。
 - アルバムデータ (`albums/<グループ>/<グループ>.csv`): `アルバム名`, `トラック`, `タイトル(日本語)`, `タイトル(ローマ字)`, `タイトル(韓国語)`, `歌手(日本語)`, `歌手(ローマ字)`, `歌手(韓国語)`, `作詞(日本語)`, `作詞(ローマ字)`, `作詞(韓国語)`, `作曲(日本語)`, `作曲(ローマ字)`, `作曲(韓国語)`, `編曲(日本語)`, `編曲(ローマ字)`, `編曲(韓国語)`, `発売日`, `YouTubeリンク`, `分類`, `備考`, `発音(かな)`
-- メンバーデータ (`members/<グループ>.csv`): `名前(日本語)`, `名前(ローマ字)`, `名前(韓国語)`, `声優(日本語)`, `声優(ローマ字)`, `声優(韓国語)`, `所属ユニット`。卒業したメンバーも含みます。ユニットが回ごとに変わるグループは `所属ユニット` が空です。
+- メンバーデータ (`members/<グループ>.csv`): `名前(日本語)`, `名前(ローマ字)`, `名前(韓国語)`, `声優(日本語)`, `声優(ローマ字)`, `声優(韓国語)`, `所属ユニット`, `誕生日`, `声優の誕生日`。卒業したメンバーも含みます。ユニットが回ごとに変わるグループは `所属ユニット` が空です。キャラクターの誕生日は `MM-DD`、声優の誕生日は `YYYY-MM-DD`(生年非公表なら `MM-DD`)です。声優が2人の役は名前の順に誕生日を並べ、見つからなかった誕生日は空欄です。
 - 行の順序: 曲は発売日順、メンバーと声優は公式サイトのメンバー順です。
 
 ### JSON の構造

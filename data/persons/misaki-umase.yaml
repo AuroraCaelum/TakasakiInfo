@@ -14,6 +14,7 @@ given_name:
   kana: みさき
   rom: Misaki
   ko: 미사키
+birthday: '1997-05-20'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/馬瀬みさき
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 정보. 동일인 확인: 같은 문서 작품 목록에 「決めたよHand in Hand」 편곡이 있음(Aqours 곡)'

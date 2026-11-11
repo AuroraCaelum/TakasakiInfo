@@ -4,6 +4,7 @@ names:
   rom: JOE
   ko: JOE
 native_script: latin
+birthday: '1987-06-09'
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/JOE_(%E4%BD%9C%E6%9B%B2%E5%AE%B6)
+    checked: 2026-11-12
+    note: 공식 미게재(소속 CK Creative 프로필 https://ckcreative.jp/creator/503/ 에 생일 없음, 虹ヶ咲 「トワイライト」 크레딧은 있음). 위키백과 「JOE (作曲家)」 인물 정보, 작품 목록에 虹ヶ咲 「CHASE!」「Solitude Rain」 있음

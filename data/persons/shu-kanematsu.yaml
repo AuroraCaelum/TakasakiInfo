@@ -14,6 +14,7 @@ given_name:
   kana: しゅう
   rom: Shu
   ko: 슈
+birthday: '1988-10-08'
 evidence:
   names.ja:
     status: official
@@ -37,3 +38,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%85%BC%E6%9D%BE%E8%A1%86
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 러브라이브! 곡 기재(Liella!)

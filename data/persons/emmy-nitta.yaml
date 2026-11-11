@@ -14,6 +14,7 @@ given_name:
   kana: えみ
   rom: Emi
   ko: 에미
+birthday: '1985-12-10'
 evidence:
   name_parts:
     status: derived
@@ -38,3 +39,8 @@ evidence:
     source: https://ja.wikipedia.org/wiki/%E6%96%B0%E7%94%B0%E6%81%B5%E6%B5%B7
     checked: 2026-11-11
     note: 위키백과 표제 읽기 (id는 emmy, rom은 Emi)
+  birthday:
+    status: official
+    source: https://emi-nitta.net/profiles
+    checked: 2026-11-12
+    note: 본인 공식 사이트 프로필(2025년 12월부터 프리랜서). 위키백과와 일치

@@ -14,6 +14,7 @@ given_name:
   kana: まお
   rom: Mao
   ko: 마오
+birthday: '1995-11-25'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/笹川真生
+    checked: 2026-11-12
+    note: '공식 미게재. 위키백과 인물 정보. 동일인 확인: anison.info 笹川真生 인물 페이지(https://anison.info/data/person/51062.html)에 虹ヶ咲 「酸欠」 편곡과 함께 위키백과 작품 목록과 겹치는 「Survivor」「GIRA GIRA STAR」「閃光だった」 등이 실림(anison.info 생일 1995-11-25 일치)'

@@ -14,6 +14,7 @@ given_name:
   kana: みんぺい
   rom: Minpei
   ko: 민페이
+birthday: '1987-05-01'
 evidence:
   names:
     status: derived
@@ -28,3 +29,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Rhythmic_Toy_World
+    checked: 2026-11-12
+    note: '공식 미게재(밴드 공식 BIOGRAPHY https://rhythmictoyworld.com/biography/ 에 생일 없음). 위키백과 「Rhythmic Toy World」 멤버 항목. 동일인 확인: UtaTen 「リブウト」(DOLLCHESTRA) 크레딧이 「作曲・編曲 岸明平(Rhythmic Toy World)」 https://utaten.com/lyric/ks26021830/'

@@ -14,6 +14,7 @@ given_name:
   kana: さき
   rom: Saki
   ko: 사키
+birthday: 12-04
 evidence:
   names:
     status: official
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: official
+    source: https://haikyo.co.jp/profile/profile.php?ActorID=13083
+    checked: 2026-11-12
+    note: 소속사(俳協) 프로필, 생년 미표기(위키백과도 연도 없음)

@@ -14,6 +14,7 @@ given_name:
   kana: こうへい
   rom: Kohei
   ko: 코헤이
+birthday: 10-22
 evidence:
   names:
     status: derived
@@ -28,3 +29,8 @@ evidence:
     source: https://www.parade-group.com/
     checked: 2026-11-11
     note: 소속사(パレード) 공식 사이트 표기; 위키백과·J-WID 동일
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%A1%9A%E7%94%B0%E8%80%95%E5%B9%B3
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 정보, 생년 미기재(蓮ノ空 작품 목록 있음)

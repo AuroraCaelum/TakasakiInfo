@@ -4,6 +4,7 @@ names:
   rom: Machico
   ko: Machico
 native_script: latin
+birthday: '1992-03-25'
 evidence:
   names:
     status: official
@@ -13,3 +14,8 @@ evidence:
   name_parts:
     status: derived
     note: 라틴 문자 활동명(한 단어)
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Machico
+    checked: 2026-11-12
+    note: 소속사 프로필(ボイスキット) https://voicekit.jp/talent/machico/ 에 월·일만 게재(誕生日 3月25日). 연도는 일본어 위키백과 인물 정보. 두 출처의 월·일 일치

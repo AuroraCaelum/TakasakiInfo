@@ -14,6 +14,7 @@ given_name:
   kana: しんたろう
   rom: Shintarou
   ko: 신타로
+birthday: '1982-10-22'
 evidence:
   names:
     status: established
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%A3%AE%E6%85%8E%E5%A4%AA%E9%83%8E
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 러브라이브! 곡 기재(僕らは今のなかで)

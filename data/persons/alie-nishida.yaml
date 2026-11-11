@@ -14,6 +14,7 @@ given_name:
   kana: ありえ
   rom: Alie
   ko: 아리에
+birthday: 12-21
 evidence:
   names:
     status: established
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: official
+    source: https://www.across-ent.com/actor/detail.html?id=90
+    checked: 2026-11-12
+    note: 소속사 프로필(アクロスエンタテインメント, 페이지가 API https://acrossent-admin.sakuraweb.com/_v1.php/talentview?query=view&id=90 에서 불러옴; birthday 0000-12-21로 연도 비공개). 출연 이력에 「スクールアイドルミュージカル」（来栖トア役） 기재로 동일인 확인. 나무위키의 1996년은 블로그의 나이 언급 기준 추정이라 쓰지 않음

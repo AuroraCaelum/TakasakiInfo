@@ -14,6 +14,7 @@ given_name:
   kana: さくら
   rom: Sakura
   ko: 사쿠라
+birthday: '1999-12-09'
 evidence:
   names:
     status: established
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: official
+    source: https://www.sun-colorz.jp/news/artist/sakura-morimoto/
+    checked: 2026-11-12
+    note: 소속사(サンカラーズ) 프로필

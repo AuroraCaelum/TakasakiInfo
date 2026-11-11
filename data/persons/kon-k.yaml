@@ -4,6 +4,7 @@ names:
   rom: Kon-K
   ko: Kon-K
 native_script: latin
+birthday: '1993-09-17'
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Kon-K
+    checked: 2026-11-12
+    note: 공식 미게재. 위키백과 인물 정보(μ's 「Dreamin' Go! Go!!」 등 작품 목록 있음)

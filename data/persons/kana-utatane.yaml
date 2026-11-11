@@ -14,6 +14,7 @@ given_name:
   kana: かな
   rom: Kana
   ko: 카나
+birthday: '1994-05-13'
 evidence:
   names:
     status: derived
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/KanadeYUK
+    checked: 2026-11-12
+    note: '공식 미게재(위키백과가 인용한 TaWaRa 프로필은 접속 불가). 위키백과 「KanadeYUK」 문서 멤버 항목(1984-02-24는 安田悠基). 동일인 확인: anison.info うたたね歌菜 인물 페이지(https://anison.info/data/person/42667.html)에 Liella! 「What a Wonderful Dream!!」 편곡과 함께 KanadeYUK 문서 작품 목록과 겹치는 「Happy-go-Journey」「地平線ストライド」「おもいでクリエイターズ」 및 ヤマノススメ, 明日ちゃんのセーラー服 등 작품이 실림'

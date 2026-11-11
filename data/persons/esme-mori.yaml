@@ -4,6 +4,7 @@ names:
   rom: ESME MORI
   ko: ESME MORI
 native_script: latin
+birthday: '1988-05-29'
 evidence:
   names.ja:
     status: official
@@ -15,3 +16,8 @@ evidence:
   names.ko:
     status: derived
     note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+  birthday:
+    status: established
+    source: https://ja.wikipedia.org/wiki/ESME_MORI
+    checked: 2026-11-12
+    note: 공식 미게재. 일본어 위키백과 인물 정보(인포박스, 각주 없음). 문서에 R3BIRTH 「Feel Alive」 기재

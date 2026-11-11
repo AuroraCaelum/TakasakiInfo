@@ -14,6 +14,7 @@ given_name:
   kana: みさと
   rom: Misato
   ko: 미사토
+birthday: 03-23
 evidence:
   names:
     status: official
@@ -23,3 +24,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  birthday:
+    status: official
+    source: https://www.imenterprise.jp/profile.php?id=83
+    checked: 2026-11-12
+    note: 소속사(아임엔터프라이즈) 프로필, 생년 미표기. 위키백과 생년 2001은 라디오 영상 인용이라 직접 확인 못해 쓰지 않음
