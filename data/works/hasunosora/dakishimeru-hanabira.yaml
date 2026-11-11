@@ -2,6 +2,7 @@ id: hasunosora/dakishimeru-hanabira
 project: hasunosora
 title:
   ja: 抱きしめる花びら
+  kana: だきしめるはなびら
   rom: Dakishimeru Hanabira
   ko: 끌어안아 주는 꽃잎
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 抱きしめる花びら (Off Vocal)
+      kana: だきしめるはなびら (オフボーカル)
       rom: Dakishimeru Hanabira (Off Vocal)
       ko: 끌어안아 주는 꽃잎 (Off Vocal)
     version: Off Vocal
@@ -42,6 +44,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/16/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -52,3 +57,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/16/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

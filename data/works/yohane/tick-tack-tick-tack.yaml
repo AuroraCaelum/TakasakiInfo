@@ -2,6 +2,7 @@ id: yohane/tick-tack-tick-tack
 project: yohane
 title:
   ja: Tick-Tack, Tick-Tack
+  kana: チックタック, チックタック
   rom: Tick-Tack, Tick-Tack
   ko: Tick-Tack, Tick-Tack
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Tick-Tack, Tick-Tack (Off Vocal)
+      kana: チックタック, チックタック (オフボーカル)
       rom: Tick-Tack, Tick-Tack (Off Vocal)
       ko: Tick-Tack, Tick-Tack (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/detail/?id=2
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/detail/?id=2
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

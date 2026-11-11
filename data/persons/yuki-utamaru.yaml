@@ -1,14 +1,17 @@
 id: yuki-utamaru
 names:
   ja: 哥丸 雄貴
+  kana: うたまる ゆうき
   rom: Yuki Utamaru
   ko: 우타마루 유키
 family_name:
   ja: 哥丸
+  kana: うたまる
   rom: Utamaru
   ko: 우타마루
 given_name:
   ja: 雄貴
+  kana: ゆうき
   rom: Yuki
   ko: 유키
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/UNIVERSE!!
     checked: 2026-10-19
     note: 나무위키 곡 문서 크레딧 표기
+  names.kana:
+    status: established
+    source: https://thetv.jp/person/2000052212/
+    checked: 2026-11-11
+    note: WEBザテレビジョン 인물 페이지 읽기 (분리 없음, 성/이름 한자 경계로 분할)

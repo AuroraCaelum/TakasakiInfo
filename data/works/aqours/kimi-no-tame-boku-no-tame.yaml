@@ -2,6 +2,7 @@ id: aqours/kimi-no-tame-boku-no-tame
 project: aqours
 title:
   ja: キミノタメボクノタメ
+  kana: キミノタメボクノタメ
   rom: Kimi no Tame Boku no Tame
   ko: 너를 위해 나를 위해
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: キミノタメボクノタメ (Off Vocal)
+      kana: キミノタメボクノタメ (オフボーカル)
       rom: Kimi no Tame Boku no Tame (Off Vocal)
       ko: 너를 위해 나를 위해 (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -141,6 +146,7 @@ recordings:
   - id: tv-size
     title:
       ja: キミノタメボクノタメ (TVサイズ)
+      kana: キミノタメボクノタメ (ティーブイサイズ)
       rom: Kimi no Tame Boku no Tame (TV Size)
       ko: 너를 위해 나를 위해 (TV 사이즈)
     version: TVサイズ
@@ -155,6 +161,9 @@ recordings:
         source: https://www.yohane.net/music/detail/?id=5
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -165,3 +174,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

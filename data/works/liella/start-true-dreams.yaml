@@ -53,6 +53,7 @@ recordings:
   - id: tv-size
     title:
       ja: START!! True dreams 〜TV Size〜
+      kana: スタート!! トゥルー・ドリームス 〜ティーブイ サイズ〜
       rom: START!! True dreams ~TV Size~
       ko: START!! True dreams ~TV Size~
     version: TV Size
@@ -66,6 +67,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

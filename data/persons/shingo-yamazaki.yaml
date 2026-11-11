@@ -1,14 +1,17 @@
 id: shingo-yamazaki
 names:
   ja: 山崎 真吾
+  kana: やまざき しんご
   rom: Shingo Yamazaki
   ko: 야마자키 신고
 family_name:
   ja: 山崎
+  kana: やまざき
   rom: Yamazaki
   ko: 야마자키
 given_name:
   ja: 真吾
+  kana: しんご
   rom: Shingo
   ko: 신고
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/山崎真吾
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (SUPA LOVE, 러브라이브 곡 기재)

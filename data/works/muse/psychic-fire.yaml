@@ -2,6 +2,7 @@ id: muse/psychic-fire
 project: muse
 title:
   ja: PSYCHIC FIRE
+  kana: サイキック ファイアー
   rom: PSYCHIC FIRE
   ko: PSYCHIC FIRE
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: PSYCHIC FIRE (Off Vocal)
+      kana: サイキック ファイアー (オフボーカル)
       rom: PSYCHIC FIRE (Off Vocal)
       ko: PSYCHIC FIRE (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: PSYCHIC FIRE (NICO Mix)
+      kana: サイキック ファイアー (ニコ ミックス)
       rom: PSYCHIC FIRE (NICO Mix)
       ko: PSYCHIC FIRE (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd66)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: PSYCHIC FIRE (MAKI Mix)
+      kana: サイキック ファイアー (マキ ミックス)
       rom: PSYCHIC FIRE (MAKI Mix)
       ko: PSYCHIC FIRE (MAKI Mix)
     version: MAKI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd66)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: PSYCHIC FIRE (ELI Mix)
+      kana: サイキック ファイアー (エリ ミックス)
       rom: PSYCHIC FIRE (ELI Mix)
       ko: PSYCHIC FIRE (ELI Mix)
     version: ELI Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd66)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -92,3 +109,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

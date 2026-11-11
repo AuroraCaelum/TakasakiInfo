@@ -3,6 +3,7 @@ kind: solo
 projects: [external]
 names:
   ja: 樋口楓
+  kana: ひぐち かえで
   rom: Kaede Higuchi
   ko: 히구치 카에데
 evidence:
@@ -11,3 +12,8 @@ evidence:
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-11-05
     note: "にじさんじ 소속 VTuber. ja: 공식 표기 '樋口楓'(にじさんじ https://www.nijisanji.jp/talents/l/kaede-higuchi, 아티스트 이름이라 띄어 쓰지 않음. YouTube Music은 '樋口 楓'). rom: 공식 영문 'Higuchi Kaede'(성-이름)의 철자, 순서는 D4(공식 주소 kaede-higuchi, Spotify 'Kaede Higuchi'와 같음). ko: 나무위키 '히구치 카에데'"
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

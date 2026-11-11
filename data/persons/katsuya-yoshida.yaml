@@ -1,14 +1,17 @@
 id: katsuya-yoshida
 names:
   ja: 吉田 勝弥
+  kana: よしだ かつや
   rom: Katsuya Yoshida
   ko: 요시다 카츠야
 family_name:
   ja: 吉田
+  kana: よしだ
   rom: Yoshida
   ko: 요시다
 given_name:
   ja: 勝弥
+  kana: かつや
   rom: Katsuya
   ko: 카츠야
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

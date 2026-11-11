@@ -2,6 +2,7 @@ id: yohane/be-as-one
 project: yohane
 title:
   ja: Be as one!!!
+  kana: ビー アズ ワン!!!
   rom: Be as one!!!
   ko: Be as one!!!
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Be as one!!! (Off Vocal)
+      kana: ビー アズ ワン!!! (オフボーカル)
       rom: Be as one!!! (Off Vocal)
       ko: Be as one!!! (Off Vocal)
     version: Off Vocal
@@ -37,9 +39,13 @@ recordings:
         status: official
         source: https://www.yohane.net/music/detail/?id=6
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Be as one!!! (TVサイズ)
+      kana: ビー アズ ワン!!! (ティーブイサイズ)
       rom: Be as one!!! (TV Size)
       ko: Be as one!!! (TV 사이즈)
     version: TVサイズ
@@ -55,6 +61,9 @@ recordings:
         source: https://www.yohane.net/music/detail/?id=5
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -64,3 +73,6 @@ evidence:
     status: official
     source: https://www.yohane.net/music/detail/?id=6
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

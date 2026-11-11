@@ -2,7 +2,7 @@ id: aqours/dazzling-white-town
 project: aqours
 title:
   ja: Dazzling White Town
-  kana: ''
+  kana: ダズリング ホワイト タウン
   rom: Dazzling White Town
   ko: Dazzling White Town
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Dazzling White Town (Off Vocal)
-      kana: ''
+      kana: ダズリング ホワイト タウン (オフボーカル)
       rom: Dazzling White Town (Off Vocal)
       ko: Dazzling White Town (Off Vocal)
     version: Off Vocal
@@ -39,8 +39,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

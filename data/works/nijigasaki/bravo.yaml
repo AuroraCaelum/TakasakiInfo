@@ -2,6 +2,7 @@ id: nijigasaki/bravo
 project: nijigasaki
 title:
   ja: Bravo!
+  kana: ブラボー!
   rom: Bravo!
   ko: Bravo!
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Bravo! (Off Vocal)
+      kana: ブラボー! (オフボーカル)
       rom: Bravo! (Off Vocal)
       ko: Bravo! (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4732
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

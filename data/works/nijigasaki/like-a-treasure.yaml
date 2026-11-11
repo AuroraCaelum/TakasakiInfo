@@ -2,6 +2,7 @@ id: nijigasaki/like-a-treasure
 project: nijigasaki
 title:
   ja: Like a Treasure
+  kana: ライク ア トレジャー
   rom: Like a Treasure
   ko: Like a Treasure
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Like a Treasure (Off Vocal)
+      kana: ライク ア トレジャー (オフボーカル)
       rom: Like a Treasure (Off Vocal)
       ko: Like a Treasure (Off Vocal)
     version: Off Vocal
@@ -36,9 +38,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: movie-size
     title:
       ja: Like a Treasure (MOVIE size)
+      kana: ライク ア トレジャー (ムービー サイズ)
       rom: Like a Treasure (MOVIE size)
       ko: Like a Treasure (MOVIE size)
     version: MOVIE size
@@ -52,6 +58,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -61,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

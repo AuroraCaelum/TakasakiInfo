@@ -3,6 +3,7 @@ kind: unit
 projects: [muse]
 names:
   ja: A-RISE
+  kana: アライズ
   rom: A-RISE
   ko: A-RISE
 evidence:
@@ -10,3 +11,6 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
     checked: 2026-11-05
+  names.kana:
+    status: derived
+    note: '읽기가 하나뿐이라 자동 승인: A-RISE = ARISE (D58, 2026-11-11)'

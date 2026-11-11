@@ -27,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: My Shadow (Off Vocal)
+      kana: マイ シャドウ (オフボーカル)
       rom: My Shadow (Off Vocal)
       ko: My Shadow (Off Vocal)
     version: Off Vocal
@@ -39,6 +40,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

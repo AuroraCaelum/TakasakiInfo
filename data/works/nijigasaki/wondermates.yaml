@@ -2,6 +2,7 @@ id: nijigasaki/wondermates
 project: nijigasaki
 title:
   ja: ワンダーメイツ
+  kana: ワンダーメイツ
   rom: Wondermates
   ko: 원더메이츠
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ワンダーメイツ (Off Vocal)
+      kana: ワンダーメイツ (オフボーカル)
       rom: Wondermates (Off Vocal)
       ko: 원더 메이트 (Off Vocal)
     version: Off Vocal
@@ -38,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -48,3 +53,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5183
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

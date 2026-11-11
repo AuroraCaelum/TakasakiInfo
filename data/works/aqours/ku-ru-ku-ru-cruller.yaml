@@ -2,6 +2,7 @@ id: aqours/ku-ru-ku-ru-cruller
 project: aqours
 title:
   ja: KU-RU-KU-RU Cruller!
+  kana: ク-ル-ク-ル クルーラー!
   rom: KU-RU-KU-RU Cruller!
   ko: KU-RU-KU-RU Cruller!
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: KU-RU-KU-RU Cruller! (Off Vocal)
+      kana: ク-ル-ク-ル クルーラー! (オフボーカル)
       rom: KU-RU-KU-RU Cruller! (Off Vocal)
       ko: KU-RU-KU-RU Cruller! (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -109,6 +114,7 @@ recordings:
   - id: rockabilly-ver
     title:
       ja: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
+      kana: ク-ル-ク-ル クルーラー! (ロカビリー ヴァージョン)
       rom: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
       ko: KU-RU-KU-RU Cruller! (Rockabilly Ver.)
     version: Rockabilly Ver.
@@ -121,6 +127,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd82
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -150,3 +159,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd66
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

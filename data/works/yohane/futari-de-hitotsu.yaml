@@ -2,6 +2,7 @@ id: yohane/futari-de-hitotsu
 project: yohane
 title:
   ja: ふたりでひとつ
+  kana: ふたりでひとつ
   rom: Futari de Hitotsu
   ko: 둘이서 하나
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ふたりでひとつ (Off Vocal)
+      kana: ふたりでひとつ (オフボーカル)
       rom: Futari de Hitotsu (Off Vocal)
       ko: 둘이서 하나 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/movie/
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/movie/
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

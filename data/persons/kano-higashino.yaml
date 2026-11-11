@@ -1,0 +1,38 @@
+id: kano-higashino
+names:
+  ja: 東乃カノ
+  kana: ひがしの かの
+  rom: Kano Higashino
+  ko: 히가시노 카노
+family_name:
+  ja: 東乃
+  kana: ひがしの
+  rom: Higashino
+  ko: 히가시노
+given_name:
+  ja: カノ
+  kana: かの
+  rom: Kano
+  ko: 카노
+evidence:
+  names:
+    status: derived
+    source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
+    checked: 2026-10-19
+    note: "ja: 공식 크레딧. rom·ko·kana는 각 필드의 근거를 따른다(2026-11-10 히가시노로 정정. 이전에는 나무위키 '토노 카노'와 Fandom 'Kano Tono'를 따랐음)"
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.rom:
+    status: established
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-10
+    note: 'JASRAC J-WID 작가명 검색에서 ヒガシノカノ만 이 사람의 작품(EDELIED 등 42건)과 맞음(トウノ·トオノ는 0건). Fandom은 문서마다 Kano Tono / Kano Higashino. 사용자 결정 (2026-11-10): 히가시노 카노'
+  names.ko:
+    status: derived
+    note: rom을 규칙(§5.4)으로. 사용자 결정 (2026-11-10). 이전 값 토노 카노는 나무위키
+  names.kana:
+    status: established
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-10
+    note: J-WID 등록 읽기 ヒガシノカノ

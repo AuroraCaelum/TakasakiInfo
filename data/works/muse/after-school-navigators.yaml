@@ -2,6 +2,7 @@ id: muse/after-school-navigators
 project: muse
 title:
   ja: after school NAVIGATORS
+  kana: アフター スクール ナビゲーターズ
   rom: after school NAVIGATORS
   ko: after school NAVIGATORS
 credits:
@@ -13,6 +14,7 @@ recordings:
   - id: rin-mix
     title:
       ja: after school NAVIGATORS (RIN Mix)
+      kana: アフター スクール ナビゲーターズ (リン ミックス)
       rom: after school NAVIGATORS (RIN Mix)
       ko: after school NAVIGATORS (RIN Mix)
     version: RIN Mix
@@ -25,9 +27,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: after school NAVIGATORS (HANAYO Mix)
+      kana: アフター スクール ナビゲーターズ (ハナヨ ミックス)
       rom: after school NAVIGATORS (HANAYO Mix)
       ko: after school NAVIGATORS (HANAYO Mix)
     version: HANAYO Mix
@@ -40,9 +46,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: after school NAVIGATORS (NICO Mix)
+      kana: アフター スクール ナビゲーターズ (ニコ ミックス)
       rom: after school NAVIGATORS (NICO Mix)
       ko: after school NAVIGATORS (NICO Mix)
     version: NICO Mix
@@ -55,6 +65,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: original
     performers:
       - {artist: nicorinpana}
@@ -69,6 +82,7 @@ recordings:
     kind: off_vocal
     title:
       ja: after school NAVIGATORS (Off Vocal)
+      kana: アフター スクール ナビゲーターズ (オフボーカル)
       rom: after school NAVIGATORS (Off Vocal)
       ko: after school NAVIGATORS (Off Vocal)
     version: Off Vocal
@@ -80,6 +94,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -89,3 +106,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

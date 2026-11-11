@@ -2,6 +2,7 @@ id: liella/open-the-g-te
 project: liella
 title:
   ja: OPEN THE G☆TE!!!
+  kana: オープン ザ ゲート!!!
   rom: OPEN THE G☆TE!!!
   ko: OPEN THE G☆TE!!!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: OPEN THE G☆TE!!! (Off Vocal)
+      kana: オープン ザ ゲート!!! (オフボーカル)
       rom: OPEN THE G☆TE!!! (Off Vocal)
       ko: OPEN THE G☆TE!!! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5123
     checked: 2026-10-19
+  title.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작품 제목 읽기 검색 オープンザゲート에서 이 작품(805-7861-6)이 나옴(공식 근거, 2026-11-11). G☆TE는 ゲート(☆는 A 자리)

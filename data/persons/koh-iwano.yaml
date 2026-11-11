@@ -1,14 +1,17 @@
 id: koh-iwano
 names:
   ja: 岩野コウ
+  kana: いわの こう
   rom: Koh Iwano
   ko: 이와노 코우
 family_name:
   ja: 岩野
+  kana: いわの
   rom: Iwano
   ko: 이와노
 given_name:
   ja: コウ
+  kana: こう
   rom: Koh
   ko: 코우
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 등록 읽기(공식 근거로 인정, 사용자 결정 2026-11-11). JASRAC J-WID 저작자 가나 완전일치 검색으로 확인

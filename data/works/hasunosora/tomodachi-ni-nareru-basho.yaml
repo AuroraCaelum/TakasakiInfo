@@ -2,6 +2,7 @@ id: hasunosora/tomodachi-ni-nareru-basho
 project: hasunosora
 title:
   ja: トモダチになれる場所
+  kana: トモダチになれるばしょ
   rom: Tomodachi ni Nareru Basho
   ko: 친구가 될 수 있는 장소
 credits:
@@ -24,6 +25,7 @@ recordings:
   - id: b-g-p-ver
     title:
       ja: トモダチになれる場所 (B. G. P. Ver.)
+      kana: トモダチになれるばしょ (ビージーピー ヴァージョン)
       rom: Tomodachi ni Nareru Basho (B. G. P. Ver.)
       ko: 친구가 될 수 있는 장소 (B. G. P. Ver.)
     version: B. G. P. Ver.
@@ -37,10 +39,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: トモダチになれる場所 (Off Vocal)
+      kana: トモダチになれるばしょ (オフボーカル)
       rom: Tomodachi ni Nareru Basho (Off Vocal)
       ko: 친구가 될 수 있는 장소 (Off Vocal)
     version: Off Vocal
@@ -53,6 +59,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
@@ -74,3 +83,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

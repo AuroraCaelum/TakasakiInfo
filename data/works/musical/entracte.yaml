@@ -2,6 +2,7 @@ id: musical/entracte
 project: musical
 title:
   ja: アントラクト
+  kana: アントラクト
   rom: Entracte
   ko: 간주
 credits:
@@ -28,3 +29,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

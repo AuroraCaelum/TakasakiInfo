@@ -1,14 +1,17 @@
 id: hiroshi-takaki
 names:
   ja: 高木 洋
+  kana: たかき ひろし
   rom: Hiroshi Takaki
   ko: 타카키 히로시
 family_name:
   ja: 高木
+  kana: たかき
   rom: Takaki
   ko: 타카키
 given_name:
   ja: 洋
+  kana: ひろし
   rom: Hiroshi
   ko: 히로시
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E6%B4%8B
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID タカキヒロシ 일치(LL 곡은 상위 100건에 없음)

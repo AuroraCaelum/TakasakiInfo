@@ -2,6 +2,7 @@ id: nijigasaki/poka-poka-biyori
 project: nijigasaki
 title:
   ja: Poka Poka 日和
+  kana: ポカ ポカ びより
   rom: Poka Poka Biyori
   ko: Poka Poka 좋은 날
 credits:
@@ -31,6 +32,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Poka Poka 日和 (Off Vocal)
+      kana: ポカ ポカ びより (オフボーカル)
       rom: Poka Poka Biyori (Off Vocal)
       ko: Poka Poka 좋은 날 (Off Vocal)
     version: Off Vocal
@@ -42,6 +44,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/bd_movie.php
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 external_ids:
   fandom: Poka Poka Biyori
 evidence:
@@ -55,3 +60,6 @@ evidence:
     source: https://love-live.fandom.com/wiki/Poka_Poka_Biyori
     checked: 2026-10-20
     note: '공식 미게재(BD 페이지는 곡명·가창만). Fandom: 작사 NOVECHIKA·Nyanzonudeshi·Morito Yonezawa, 작곡 Nyanzonudeshi·Morito Yonezawa·Ginnojo Hoshi, 편곡 Ginnojo Hoshi(萌娘百科도 같음)'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

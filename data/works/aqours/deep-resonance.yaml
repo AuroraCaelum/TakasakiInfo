@@ -2,7 +2,7 @@ id: aqours/deep-resonance
 project: aqours
 title:
   ja: Deep Resonance
-  kana: ''
+  kana: ディープ レゾナンス
   rom: Deep Resonance
   ko: Deep Resonance
 credits:
@@ -24,7 +24,7 @@ recordings:
   - id: chika-takami-solo-ver
     title:
       ja: Deep Resonance (高海千歌 Solo Ver.)
-      kana: ''
+      kana: ディープ レゾナンス (たかみちか ソロ ヴァージョン)
       rom: Deep Resonance (Chika Takami Solo Ver.)
       ko: Deep Resonance (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -38,10 +38,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd40
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Deep Resonance (桜内梨子 Solo Ver.)
-      kana: ''
+      kana: ディープ レゾナンス (さくらうちりこ ソロ ヴァージョン)
       rom: Deep Resonance (Riko Sakurauchi Solo Ver.)
       ko: Deep Resonance (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -55,10 +58,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd41
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Deep Resonance (黒澤ルビィ Solo Ver.)
-      kana: ''
+      kana: ディープ レゾナンス (くろさわるびぃ ソロ ヴァージョン)
       rom: Deep Resonance (Ruby Kurosawa Solo Ver.)
       ko: Deep Resonance (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -72,6 +78,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd42
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -143,3 +152,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd34
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

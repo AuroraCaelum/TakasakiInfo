@@ -1,14 +1,17 @@
 id: akina-homoto
 names:
   ja: 法元 明菜
+  kana: ほうもと あきな
   rom: Akina Homoto
   ko: 호모토 아키나
 family_name:
   ja: 法元
+  kana: ほうもと
   rom: Homoto
   ko: 호모토
 given_name:
   ja: 明菜
+  kana: あきな
   rom: Akina
   ko: 아키나
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: official
+    source: https://www.just-pro.jp/talent/voice-actor/homoto_akina/
+    checked: 2026-11-11
+    note: 소속사(ジャストプロ) 페이지 meta description 읽기; 분할은 입력 기준

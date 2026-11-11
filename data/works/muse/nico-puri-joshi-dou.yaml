@@ -2,6 +2,7 @@ id: muse/nico-puri-joshi-dou
 project: muse
 title:
   ja: にこぷり♡女子道
+  kana: にこぷり♡じょしどう
   rom: Nico puri♡Joshi dou
   ko: 니코프리♡여자의 길
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: にこぷり♡女子道 (Off Vocal)
+      kana: にこぷり♡じょしどう (オフボーカル)
       rom: Niko puri♡Joshi dou (Off Vocal)
       ko: 니코프리♡여자의 길 (Off Vocal)
     version: Off Vocal
@@ -42,6 +44,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -53,3 +58,6 @@ evidence:
     source: https://music.youtube.com/watch?v=Mx6MBdzLstQ
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

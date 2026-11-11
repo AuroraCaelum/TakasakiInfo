@@ -26,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: テレテレパシー (Off Vocal)
+      kana: テレテレパシー (オフボーカル)
       rom: Teletelepathy (Off Vocal)
       ko: 텔레텔레파시 (Off Vocal)
     version: Off Vocal
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73508/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

@@ -2,7 +2,7 @@ id: aqours/kimi-no-hitomi-o-meguru-boken
 project: aqours
 title:
   ja: 君の瞳を巡る冒険
-  kana: ''
+  kana: きみのひとみをめぐるぼうけん
   rom: Kimi no Hitomi o Meguru Boken
   ko: 너의 눈동자를 둘러싼 모험
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 君の瞳を巡る冒険 (Off Vocal)
-      kana: ''
+      kana: きみのひとみをめぐるぼうけん (オフボーカル)
       rom: Kimi no Hitomi o Meguru Boken (Off Vocal)
       ko: 너의 눈동자를 둘러싼 모험 (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd19
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -134,3 +137,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd19
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

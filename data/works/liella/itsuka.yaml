@@ -2,6 +2,7 @@ id: liella/itsuka
 project: liella
 title:
   ja: いつか
+  kana: いつか
   rom: Itsuka
   ko: 언젠가
 recordings:
@@ -19,3 +20,6 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
     checked: 2026-11-05
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

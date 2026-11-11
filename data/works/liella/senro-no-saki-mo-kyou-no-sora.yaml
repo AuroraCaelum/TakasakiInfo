@@ -2,6 +2,7 @@ id: liella/senro-no-saki-mo-kyou-no-sora
 project: liella
 title:
   ja: 線路の先も今日の空
+  kana: せんろのさきもきょうのそら
   rom: Senro no Saki mo Kyou no Sora
   ko: 선로 너머도 오늘의 하늘
 credits:
@@ -29,6 +30,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 線路の先も今日の空 (Off Vocal)
+      kana: せんろのさきもきょうのそら (オフボーカル)
       rom: Senro no Saki mo Kyou no Sora (Off Vocal)
       ko: 선로 너머도 오늘의 하늘 (Off Vocal)
     version: Off Vocal
@@ -40,6 +42,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -50,3 +55,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
     checked: 2026-11-04
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

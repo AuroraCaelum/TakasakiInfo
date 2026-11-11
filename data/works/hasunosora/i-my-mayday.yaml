@@ -2,6 +2,7 @@ id: hasunosora/i-my-mayday
 project: hasunosora
 title:
   ja: アイマイメーデー
+  kana: アイマイメーデー
   rom: I My Mayday
   ko: 애매 메이데이
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: アイマイメーデー (Off Vocal)
+      kana: アイマイメーデー (オフボーカル)
       rom: I My Mayday (Off Vocal)
       ko: 애매 메이데이 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4739
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: sayaka-murano-solo
     performers:
       - {character: hasunosora/sayaka-murano}
@@ -55,3 +60,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4739
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

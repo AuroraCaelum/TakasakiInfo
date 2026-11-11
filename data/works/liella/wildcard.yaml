@@ -2,6 +2,7 @@ id: liella/wildcard
 project: liella
 title:
   ja: ワイルドカード
+  kana: ワイルドカード
   rom: Wildcard
   ko: 와일드 카드
 credits:
@@ -30,3 +31,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

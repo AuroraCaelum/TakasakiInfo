@@ -2,6 +2,7 @@ id: hasunosora/key-of-like
 project: hasunosora
 title:
   ja: KEY of Like！
+  kana: キー オブ ライク！
   rom: KEY of Like!
   ko: KEY of Like!
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: KEY of Like！ (Off Vocal)
+      kana: キー オブ ライク！ (オフボーカル)
       rom: KEY of Like! (Off Vocal)
       ko: KEY of Like! (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/26/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -49,3 +54,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/26/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

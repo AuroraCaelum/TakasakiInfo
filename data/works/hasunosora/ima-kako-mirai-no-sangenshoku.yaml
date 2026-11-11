@@ -2,6 +2,7 @@ id: hasunosora/ima-kako-mirai-no-sangenshoku
 project: hasunosora
 title:
   ja: 今、過去、未来の三原色
+  kana: いま、かこ、みらいのさんげんしょく
   rom: Ima, Kako, Mirai no Sangenshoku
   ko: 지금, 과거, 미래의 삼원색
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 今、過去、未来の三原色 (Off Vocal)
+      kana: いま、かこ、みらいのさんげんしょく (オフボーカル)
       rom: Ima, Kako, Mirai no Sangenshoku (Off Vocal)
       ko: 지금, 과거, 미래의 삼원색 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -55,3 +60,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

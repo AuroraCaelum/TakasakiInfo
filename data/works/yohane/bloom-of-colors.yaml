@@ -2,6 +2,7 @@ id: yohane/bloom-of-colors
 project: yohane
 title:
   ja: BLOOM OF COLORS
+  kana: ブルーム オブ カラーズ
   rom: BLOOM OF COLORS
   ko: BLOOM OF COLORS
 credits:
@@ -32,6 +33,7 @@ recordings:
   - id: you-i-edit
     title:
       ja: BLOOM OF COLORS[YOU & I edit]
+      kana: ブルーム オブ カラーズ[ユー アンド アイ エディット]
       rom: BLOOM OF COLORS[YOU & I edit]
       ko: BLOOM OF COLORS[YOU & I edit]
     version: '[YOU & I edit]'
@@ -59,9 +61,13 @@ recordings:
         source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
         checked: 2026-10-20
         note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: you-i-edit-movie-edition
     title:
       ja: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
+      kana: ブルーム オブ カラーズ[ユー アンド アイ エディット] ムービー エディション
       rom: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
       ko: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
     version: '[YOU & I edit] MOVIE EDITION'
@@ -89,10 +95,14 @@ recordings:
         source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
         checked: 2026-10-20
         note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: BLOOM OF COLORS (Off Vocal)
+      kana: ブルーム オブ カラーズ (オフボーカル)
       rom: BLOOM OF COLORS (Off Vocal)
       ko: BLOOM OF COLORS (Off Vocal)
     version: Off Vocal
@@ -104,6 +114,9 @@ recordings:
         status: official
         source: https://www.yohane.net/bd/detail/?id=7
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -113,3 +126,6 @@ evidence:
     status: official
     source: https://www.yohane.net/bd/detail/?id=7
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

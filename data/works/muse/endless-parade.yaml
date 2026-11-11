@@ -2,6 +2,7 @@ id: muse/endless-parade
 project: muse
 title:
   ja: ENDLESS PARADE
+  kana: エンドレス パレード
   rom: ENDLESS PARADE
   ko: ENDLESS PARADE
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ENDLESS PARADE (Off Vocal)
+      kana: エンドレス パレード (オフボーカル)
       rom: ENDLESS PARADE (Off Vocal)
       ko: ENDLESS PARADE (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         source: https://web.archive.org/web/20140209202922/http://www.lovelive-anime.jp/sp_4thlive.html
         checked: 2026-10-27
         note: "μ's →NEXT LoveLive! 2014 「音ノ木坂学院体験入学セット付きプレミアムチケット」 특전 録りおろし新曲収録CD(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LAPP-1054·발송일·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric. 같은 특전의 スペシャルドラマCD는 날짜·품번을 몰라 넣지 않음"
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -48,3 +53,6 @@ evidence:
     source: https://web.archive.org/web/20140209202922/http://www.lovelive-anime.jp/sp_4thlive.html
     checked: 2026-10-27
     note: "μ's →NEXT LoveLive! 2014 「音ノ木坂学院体験入学セット付きプレミアムチケット」 특전 録りおろし新曲収録CD(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LAPP-1054·발송일·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric. 같은 특전의 スペシャルドラマCD는 날짜·품번을 몰라 넣지 않음"
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

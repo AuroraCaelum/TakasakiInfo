@@ -1,14 +1,17 @@
 id: fuuta-shintani
 names:
   ja: 新谷 風太
+  kana: しんたに ふうた
   rom: Fuuta Shintani
   ko: 신타니 후타
 family_name:
   ja: 新谷
+  kana: しんたに
   rom: Shintani
   ko: 신타니
 given_name:
   ja: 風太
+  kana: ふうた
   rom: Fuuta
   ko: 후타
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%96%B0%E8%B0%B7%E9%A2%A8%E5%A4%AA
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID シンタニフウタ 일치(蓮ノ空 곡)

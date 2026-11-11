@@ -25,6 +25,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: Holiday∞Holiday (104期 Ver.)
+      kana: ホリデイ ホリデイ (ひゃくよんき ヴァージョン)
       rom: Holiday∞Holiday (104th Ver.)
       ko: Holiday∞Holiday (104기 Ver.)
     version: 104期 Ver.
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

@@ -1,14 +1,17 @@
 id: nagisa-aoyama
 names:
   ja: 青山なぎさ
+  kana: あおやま なぎさ
   rom: Nagisa Aoyama
   ko: 아오야마 나기사
 family_name:
   ja: 青山
+  kana: あおやま
   rom: Aoyama
   ko: 아오야마
 given_name:
   ja: なぎさ
+  kana: なぎさ
   rom: Nagisa
   ko: 나기사
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E9%9D%92%E5%B1%B1%E3%81%AA%E3%81%8E%E3%81%95
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

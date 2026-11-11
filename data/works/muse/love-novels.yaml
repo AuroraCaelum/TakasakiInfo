@@ -2,6 +2,7 @@ id: muse/love-novels
 project: muse
 title:
   ja: ラブノベルス
+  kana: ラブノベルス
   rom: Love Novels
   ko: 러브 노벨즈
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ラブノベルス (Off Vocal)
+      kana: ラブノベルス (オフボーカル)
       rom: Love Novels (Off Vocal)
       ko: 러브 노벨즈 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: ラブノベルス (NICO Mix)
+      kana: ラブノベルス (ニコ ミックス)
       rom: Love Novels (NICO Mix)
       ko: 러브 노벨즈 (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: ラブノベルス (MAKI Mix)
+      kana: ラブノベルス (マキ ミックス)
       rom: Love Novels (MAKI Mix)
       ko: 러브 노벨즈 (MAKI Mix)
     version: MAKI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: ラブノベルス (ELI Mix)
+      kana: ラブノベルス (エリ ミックス)
       rom: Love Novels (ELI Mix)
       ko: 러브 노벨즈 (ELI Mix)
     version: ELI Mix
@@ -83,6 +97,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd04)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -93,3 +110,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd04
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

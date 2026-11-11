@@ -2,6 +2,7 @@ id: hasunosora/wawo
 project: hasunosora
 title:
   ja: WAWO!
+  kana: ワオ!
   rom: WAWO!
   ko: WAWO!
 credits:
@@ -39,3 +40,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/34/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    source: https://utaten.com/lyric/mi25043003/
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

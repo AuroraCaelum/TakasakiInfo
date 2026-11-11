@@ -2,6 +2,7 @@ id: hasunosora/tsukuyomi-kurage
 project: hasunosora
 title:
   ja: 月夜見海月
+  kana: つくよみくらげ
   rom: Tsukuyomi Kurage
   ko: 달밤을 보는 해파리
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 月夜見海月 (Off Vocal)
+      kana: つくよみくらげ (オフボーカル)
       rom: Tsukuyomi Kurage (Off Vocal)
       ko: 달밤을 보는 해파리 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/19/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -65,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/19/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

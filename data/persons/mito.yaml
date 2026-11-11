@@ -1,6 +1,7 @@
 id: mito
 names:
   ja: ミト
+  kana: ミト
   rom: Mito
   ko: 미토
 evidence:
@@ -14,3 +15,6 @@ evidence:
   names.ko:
     status: derived
     note: §5.4 규칙
+  names.kana:
+    status: derived
+    note: 활동명. 가나 표기 그대로(D58)

@@ -2,6 +2,7 @@ id: nijigasaki/sanketsu
 project: nijigasaki
 title:
   ja: 酸欠
+  kana: さんけつ
   rom: Sanketsu
   ko: 산소 결핍
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 酸欠 (Off Vocal)
+      kana: さんけつ (オフボーカル)
       rom: Sanketsu (Off Vocal)
       ko: 산소 결핍 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 15th-tribute
     performers:
       - {artist: v-w-p}
@@ -57,3 +62,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

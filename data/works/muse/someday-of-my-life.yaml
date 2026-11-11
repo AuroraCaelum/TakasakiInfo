@@ -2,6 +2,7 @@ id: muse/someday-of-my-life
 project: muse
 title:
   ja: Someday of my life
+  kana: サムデイ オブ マイ ライフ
   rom: Someday of my life
   ko: Someday of my life
 credits:
@@ -35,6 +36,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Someday of my life (Off Vocal)
+      kana: サムデイ オブ マイ ライフ (オフボーカル)
       rom: Someday of my life (Off Vocal)
       ko: Someday of my life (Off Vocal)
     version: Off Vocal
@@ -46,6 +48,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -55,3 +60,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

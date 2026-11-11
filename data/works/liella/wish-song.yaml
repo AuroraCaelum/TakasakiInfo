@@ -42,6 +42,7 @@ recordings:
   - id: 11-ver
     title:
       ja: Wish Song ～11 Ver.～
+      kana: ウィッシュ・ソング ～じゅういち ヴァージョン～
       rom: Wish Song ~11 Ver.~
       ko: Wish Song ~11 Ver.~
     version: 11 Ver.
@@ -54,10 +55,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
   - id: 11-ver-off-vocal
     kind: off_vocal
     title:
       ja: Wish Song ～11 Ver.～ (Off Vocal)
+      kana: ウィッシュ・ソング ～じゅういち ヴァージョン～ (オフボーカル)
       rom: Wish Song ~11 Ver.~ (Off Vocal)
       ko: Wish Song ~11 Ver.~ (Off Vocal)
     version: Off Vocal
@@ -69,9 +74,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
   - id: tv-size
     title:
       ja: Wish Song 〜TV Size〜
+      kana: ウィッシュ・ソング 〜ティーブイ サイズ〜
       rom: Wish Song ~TV Size~
       ko: Wish Song ~TV Size~
     version: TV Size
@@ -85,6 +94,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

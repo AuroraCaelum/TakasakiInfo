@@ -48,6 +48,7 @@ recordings:
   - id: 104th-new-ver
     title:
       ja: Sparkly Spot (104期NEW Ver.)
+      kana: スパークリー・スポット (ひゃくよんきニュー ヴァージョン)
       rom: Sparkly Spot (104th NEW Ver.)
       ko: Sparkly Spot (104기 NEW Ver.)
     version: 104期NEW Ver.
@@ -60,6 +61,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/20/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}
@@ -90,6 +94,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Sparkly Spot (104期NEW Ver.) (Off Vocal)
+      kana: スパークリー・スポット (ひゃくよんきニュー ヴァージョン) (オフボーカル)
       rom: Sparkly Spot (104th NEW Ver.) (Off Vocal)
       ko: Sparkly Spot (104기 NEW Ver.) (Off Vocal)
     version: Off Vocal
@@ -101,6 +106,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/20/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

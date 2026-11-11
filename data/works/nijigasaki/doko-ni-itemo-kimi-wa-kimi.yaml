@@ -2,6 +2,7 @@ id: nijigasaki/doko-ni-itemo-kimi-wa-kimi
 project: nijigasaki
 title:
   ja: どこにいても君は君
+  kana: どこにいてもきみはきみ
   rom: Doko ni Itemo Kimi wa Kimi
   ko: 어디에 있든 너는 너
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: どこにいても君は君 (Off Vocal)
+      kana: どこにいてもきみはきみ (オフボーカル)
       rom: Doko ni Itemo Kimi wa Kimi (Off Vocal)
       ko: 어디에 있든 너는 너 (Off Vocal)
     version: Off Vocal
@@ -41,9 +43,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: shizuku-osaka-ver
     title:
       ja: どこにいても君は君 (桜坂しずく Ver.)
+      kana: どこにいてもきみはきみ (おうさかしずく ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Shizuku Osaka Ver.)
       ko: 어디에 있든 너는 너 (오사카 시즈쿠 Ver.)
     version: 桜坂しずく Ver.
@@ -59,9 +65,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kanata-konoe-ver
     title:
       ja: どこにいても君は君 (近江彼方 Ver.)
+      kana: どこにいてもきみはきみ (このえかなた ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Kanata Konoe Ver.)
       ko: 어디에 있든 너는 너 (코노에 카나타 Ver.)
     version: 近江彼方 Ver.
@@ -77,9 +87,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: emma-verde-ver
     title:
       ja: どこにいても君は君 (エマ・ヴェルデ Ver.)
+      kana: どこにいてもきみはきみ (エマ・ヴェルデ ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Emma Verde Ver.)
       ko: 어디에 있든 너는 너 (엠마 베르데 Ver.)
     version: エマ・ヴェルデ Ver.
@@ -95,9 +109,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kasumi-nakasu-ver
     title:
       ja: どこにいても君は君 (中須かすみ Ver.)
+      kana: どこにいてもきみはきみ (なかすかすみ ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Kasumi Nakasu Ver.)
       ko: 어디에 있든 너는 너 (나카스 카스미 Ver.)
     version: 中須かすみ Ver.
@@ -113,9 +131,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: lanzhu-zhong-ver
     title:
       ja: どこにいても君は君 (鐘 嵐珠 Ver.)
+      kana: どこにいてもきみはきみ (しょう らんじゅ ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Lanzhu Zhong Ver.)
       ko: 어디에 있든 너는 너 (쇼우 란쥬 Ver.)
     version: 鐘 嵐珠 Ver.
@@ -131,9 +153,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ayumu-uehara-ver
     title:
       ja: どこにいても君は君 (上原歩夢 Ver.)
+      kana: どこにいてもきみはきみ (うえはらあゆむ ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Ayumu Uehara Ver.)
       ko: 어디에 있든 너는 너 (우에하라 아유무 Ver.)
     version: 上原歩夢 Ver.
@@ -149,9 +175,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: karin-asaka-ver
     title:
       ja: どこにいても君は君 (朝香果林 Ver.)
+      kana: どこにいてもきみはきみ (あさかかりん ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Karin Asaka Ver.)
       ko: 어디에 있든 너는 너 (아사카 카린 Ver.)
     version: 朝香果林 Ver.
@@ -167,9 +197,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ai-miyashita-ver
     title:
       ja: どこにいても君は君 (宮下 愛 Ver.)
+      kana: どこにいてもきみはきみ (みやした あい ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Ai Miyashita Ver.)
       ko: 어디에 있든 너는 너 (미야시타 아이 Ver.)
     version: 宮下 愛 Ver.
@@ -185,9 +219,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: setsuna-yuki-ver
     title:
       ja: どこにいても君は君 (優木せつ菜 Ver.)
+      kana: どこにいてもきみはきみ (ゆうきせつな ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Setsuna Yuki Ver.)
       ko: 어디에 있든 너는 너 (유키 세츠나 Ver.)
     version: 優木せつ菜 Ver.
@@ -203,9 +241,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rina-tennoji-ver
     title:
       ja: どこにいても君は君 (天王寺璃奈 Ver.)
+      kana: どこにいてもきみはきみ (てんのうじりな ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Rina Tennoji Ver.)
       ko: 어디에 있든 너는 너 (텐노지 리나 Ver.)
     version: 天王寺璃奈 Ver.
@@ -221,9 +263,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: shioriko-mifune-ver
     title:
       ja: どこにいても君は君 (三船栞子 Ver.)
+      kana: どこにいてもきみはきみ (みふねしおりこ ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Shioriko Mifune Ver.)
       ko: 어디에 있든 너는 너 (미후네 시오리코 Ver.)
     version: 三船栞子 Ver.
@@ -239,9 +285,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mia-taylor-ver
     title:
       ja: どこにいても君は君 (ミア・テイラー Ver.)
+      kana: どこにいてもきみはきみ (ミア・テイラー ヴァージョン)
       rom: Doko ni Itemo Kimi wa Kimi (Mia Taylor Ver.)
       ko: 어디에 있든 너는 너 (미아 테일러 Ver.)
     version: ミア・テイラー Ver.
@@ -257,6 +307,9 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
         note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -267,3 +320,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

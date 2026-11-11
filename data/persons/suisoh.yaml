@@ -1,6 +1,7 @@
 id: suisoh
 names:
   ja: 水槽
+  kana: すいそう
   rom: suisoh
   ko: 수조
 evidence:
@@ -12,3 +13,8 @@ evidence:
   name_parts:
     status: derived
     note: 활동명(한 단어)
+  names.kana:
+    status: established
+    source: https://thetv.jp/person/2000093207/
+    checked: 2026-11-11
+    note: WEBザテレビジョン 인물 프로필 읽기 ('작사·작곡·편곡·프로듀스를 하는 싱어·트랙메이커' — 공식 로마자 suisoh와도 일치)

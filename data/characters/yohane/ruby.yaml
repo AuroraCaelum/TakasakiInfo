@@ -2,6 +2,7 @@ id: yohane/ruby
 project: yohane
 names:
   ja: ルビィ
+  kana: ルビィ
   rom: Ruby
   ko: 루비
 casting:
@@ -19,3 +20,8 @@ evidence:
     status: official
     source: https://www.yohane.net/character/
     checked: 2026-10-20
+  names.kana:
+    status: official
+    source: https://www.yohane.net/character/#05
+    checked: 2026-11-11
+    note: 공식 캐릭터 페이지 가타카나 표기(루비 없음, 표기 자체가 읽기)

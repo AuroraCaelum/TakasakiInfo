@@ -2,7 +2,7 @@ id: aqours/kuuchuu-ren-ai-ron
 project: aqours
 title:
   ja: 空中恋愛論
-  kana: ''
+  kana: くうちゅうれんあいろん
   rom: Kuuchuu Ren'ai Ron
   ko: 공중연애론
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 空中恋愛論 (Off Vocal)
-      kana: ''
+      kana: くうちゅうれんあいろん (オフボーカル)
       rom: Kuuchuu Renai Ron (Off Vocal)
       ko: 공중연애론 (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

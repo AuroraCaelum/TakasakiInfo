@@ -26,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Märchen Star (Off Vocal)
+      kana: メルヘンスター (オフボーカル)
       rom: Märchen Star (Off Vocal)
       ko: 메르헨 스타 (Off Vocal)
     version: Off Vocal
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

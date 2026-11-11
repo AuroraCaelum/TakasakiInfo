@@ -2,6 +2,7 @@ id: aqours/silent-pain
 project: aqours
 title:
   ja: SILENT PAIN
+  kana: サイレント ペイン
   rom: SILENT PAIN
   ko: SILENT PAIN
 credits:
@@ -103,6 +104,7 @@ recordings:
     kind: off_vocal
     title:
       ja: SILENT PAIN (Off Vocal)
+      kana: サイレント ペイン (オフボーカル)
       rom: SILENT PAIN (Off Vocal)
       ko: SILENT PAIN (Off Vocal)
     version: Off Vocal
@@ -115,6 +117,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -146,3 +151,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd89
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

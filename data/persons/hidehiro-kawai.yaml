@@ -1,6 +1,7 @@
 id: hidehiro-kawai
 names:
   ja: カワイヒデヒロ
+  kana: かわい ひでひろ
   rom: Hidehiro Kawai
   ko: 카와이히데히로
 evidence:
@@ -14,3 +15,6 @@ evidence:
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd16.php
     checked: 2026-10-18
     note: 공식 표기 (성·이름 모두 가나, D28)
+  names.kana:
+    status: derived
+    note: 가나 표기 그대로 읽음(D58). 성·이름 경계는 rom을 따라 띄움(D28), 장음 ー는 모음으로

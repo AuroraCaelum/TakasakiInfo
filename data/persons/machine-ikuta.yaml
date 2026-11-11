@@ -1,14 +1,17 @@
 id: machine-ikuta
 names:
   ja: 生田 真心
+  kana: いくた ましん
   rom: Machine Ikuta
   ko: 이쿠타 마신
 family_name:
   ja: 生田
+  kana: いくた
   rom: Ikuta
   ko: 이쿠타
 given_name:
   ja: 真心
+  kana: ましん
   rom: Machine
   ko: 마신
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://x.com/iKutaMachine
+    checked: 2026-11-11
+    note: 본인 공식 X 프로필 표기; 위키백과·J-WID 동일

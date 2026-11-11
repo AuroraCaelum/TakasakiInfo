@@ -2,6 +2,7 @@ id: muse/susume-tomorrow
 project: muse
 title:
   ja: ススメ→トゥモロウ
+  kana: ススメ→トゥモロウ
   rom: Susume→Tomorrow
   ko: 나아가→투모로우
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ススメ→トゥモロウ (Off Vocal)
+      kana: ススメ→トゥモロウ (オフボーカル)
       rom: Susume→Tomorrow (Off Vocal)
       ko: 나아가→투모로우 (Off Vocal)
     version: Off Vocal
@@ -37,9 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: ススメ→トゥモロウ (HONOKA Mix)
+      kana: ススメ→トゥモロウ (ホノカ ミックス)
       rom: Susume→Tomorrow (HONOKA Mix)
       ko: 나아가→투모로우 (HONOKA Mix)
     version: HONOKA Mix
@@ -52,9 +58,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd31
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: ススメ→トゥモロウ (KOTORI Mix)
+      kana: ススメ→トゥモロウ (コトリ ミックス)
       rom: Susume→Tomorrow (KOTORI Mix)
       ko: 나아가→투모로우 (KOTORI Mix)
     version: KOTORI Mix
@@ -67,9 +77,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: ススメ→トゥモロウ (UMI Mix)
+      kana: ススメ→トゥモロウ (ウミ ミックス)
       rom: Susume→Tomorrow (UMI Mix)
       ko: 나아가→투모로우 (UMI Mix)
     version: UMI Mix
@@ -82,9 +96,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd34
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: ススメ→トゥモロウ (TVサイズ)
+      kana: ススメ→トゥモロウ (ティーブイサイズ)
       rom: Susume→Tomorrow (TV Size)
       ko: 나아가→투모로우 (TV 사이즈)
     version: TVサイズ
@@ -99,6 +117,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -109,3 +130,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

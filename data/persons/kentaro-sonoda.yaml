@@ -1,16 +1,28 @@
 id: kentaro-sonoda
 names:
   ja: 園田 健太郎
+  kana: そのだ けんたろう
   rom: Kentaro Sonoda
   ko: 소노다 켄타로
 family_name:
   ja: 園田
+  kana: そのだ
   rom: Sonoda
   ko: 소노다
 given_name:
   ja: 健太郎
+  kana: けんたろう
   rom: Kentaro
   ko: 켄타로
+aliases:
+  - text: 木村 有希
+    kind: pen_name
+    names:
+      ja: 木村 有希
+      kana: きむら ゆうき
+      rom: Yuki Kimura
+      ko: 키무라 유키
+    note: '園田 健太郎의 필명(楽曲提供時の名義の一つ, 위키백과 https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%9D%91%E6%9C%89%E5%B8%8C · WEBザテレビジョン https://thetv.jp/person/0000044621/ 「木村有希（きむらゆうき）」). 크레딧은 필명 그대로(D58). rom: Fandom(Yuki Kimura), ko: 규칙(§5.4). 같은 사람으로 봄: 사용자 결정 (2026-11-10)'
 evidence:
   names:
     status: derived
@@ -20,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%9C%92%E7%94%B0%E5%81%A5%E5%A4%AA%E9%83%8E
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ソノダケンタロウ 일치

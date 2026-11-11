@@ -27,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: アナログハート (Off Vocal)
+      kana: アナログハート (オフボーカル)
       rom: Analog Heart (Off Vocal)
       ko: 아날로그 하트 (Off Vocal)
     version: Off Vocal
@@ -39,6 +40,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

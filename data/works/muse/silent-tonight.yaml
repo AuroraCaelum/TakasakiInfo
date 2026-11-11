@@ -2,6 +2,7 @@ id: muse/silent-tonight
 project: muse
 title:
   ja: Silent tonight
+  kana: サイレント トゥナイト
   rom: Silent tonight
   ko: Silent tonight
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Silent tonight (Off Vocal)
+      kana: サイレント トゥナイト (オフボーカル)
       rom: Silent tonight (Off Vocal)
       ko: Silent tonight (Off Vocal)
     version: Off Vocal
@@ -42,9 +44,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: Silent tonight (ELI Mix)
+      kana: サイレント トゥナイト (エリ ミックス)
       rom: Silent tonight (ELI Mix)
       ko: Silent tonight (ELI Mix)
     version: ELI Mix
@@ -58,9 +64,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72705/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: Silent tonight (MAKI Mix)
+      kana: サイレント トゥナイト (マキ ミックス)
       rom: Silent tonight (MAKI Mix)
       ko: Silent tonight (MAKI Mix)
     version: MAKI Mix
@@ -74,9 +84,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: Silent tonight (NICO Mix)
+      kana: サイレント トゥナイト (ニコ ミックス)
       rom: Silent tonight (NICO Mix)
       ko: Silent tonight (NICO Mix)
     version: NICO Mix
@@ -90,6 +104,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -100,3 +117,6 @@ evidence:
     source: https://music.youtube.com/watch?v=1XKED6WbVRY
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

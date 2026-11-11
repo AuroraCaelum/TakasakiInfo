@@ -2,6 +2,7 @@ id: liella/daisuki-no-uta
 project: liella
 title:
   ja: だいすきのうた
+  kana: だいすきのうた
   rom: Daisuki no Uta
   ko: 정말 좋아하는 노래
 recordings:
@@ -18,3 +19,6 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
     checked: 2026-11-05
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

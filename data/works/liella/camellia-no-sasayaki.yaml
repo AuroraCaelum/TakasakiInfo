@@ -2,6 +2,7 @@ id: liella/camellia-no-sasayaki
 project: liella
 title:
   ja: カメリアの囁き
+  kana: カメリアのささやき
   rom: Camellia no Sasayaki
   ko: 카멜리아의 속삭임
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: カメリアの囁き (Off Vocal)
+      kana: カメリアのささやき (オフボーカル)
       rom: Camellia no Sasayaki (Off Vocal)
       ko: 카멜리아의 속삭임 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd35.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -47,6 +47,7 @@ recordings:
   - id: 104th-new-ver
     title:
       ja: Reflection in the mirror (104期NEW Ver.)
+      kana: リフレクション・イン・ザ・ミラー (ひゃくよんきニュー ヴァージョン)
       rom: Reflection in the mirror (104th NEW Ver.)
       ko: Reflection in the mirror (104기 NEW Ver.)
     version: 104期NEW Ver.
@@ -59,6 +60,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/19/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -87,6 +91,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Reflection in the mirror (104期NEW Ver.) (Off Vocal)
+      kana: リフレクション・イン・ザ・ミラー (ひゃくよんきニュー ヴァージョン) (オフボーカル)
       rom: Reflection in the mirror (104th NEW Ver.) (Off Vocal)
       ko: Reflection in the mirror (104기 NEW Ver.) (Off Vocal)
     version: Off Vocal
@@ -98,6 +103,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/19/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

@@ -2,6 +2,7 @@ id: yohane/forever-u-i
 project: yohane
 title:
   ja: Forever U & I
+  kana: フォーエバー ユー & アイ
   rom: Forever U & I
   ko: Forever U & I
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Forever U & I (Off Vocal)
+      kana: フォーエバー ユー & アイ (オフボーカル)
       rom: Forever U & I (Off Vocal)
       ko: Forever U & I (Off Vocal)
     version: Off Vocal
@@ -37,9 +39,13 @@ recordings:
         status: official
         source: https://www.yohane.net/music/detail/?id=11
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Forever U & I (TVサイズ)
+      kana: フォーエバー ユー & アイ (ティーブイサイズ)
       rom: Forever U & I (TV Size)
       ko: Forever U & I (TV 사이즈)
     version: TVサイズ
@@ -53,6 +59,9 @@ recordings:
         source: https://www.yohane.net/music/detail/?id=5
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -62,3 +71,6 @@ evidence:
     status: official
     source: https://www.yohane.net/music/detail/?id=11
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

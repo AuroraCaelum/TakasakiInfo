@@ -2,14 +2,17 @@ id: aqours/kanan-matsuura
 project: aqours
 names:
   ja: 松浦 果南
+  kana: まつうら かなん
   rom: Kanan Matsuura
   ko: 마츠우라 카난
 family_name:
   ja: 松浦
+  kana: まつうら
   rom: Matsuura
   ko: 마츠우라
 given_name:
   ja: 果南
+  kana: かなん
   rom: Kanan
   ko: 카난
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/member.php#kanan
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 이름 루비(이미지)

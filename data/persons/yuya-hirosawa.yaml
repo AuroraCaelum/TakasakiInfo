@@ -1,14 +1,17 @@
 id: yuya-hirosawa
 names:
   ja: 廣澤 優也
+  kana: ひろさわ ゆうや
   rom: Yuya Hirosawa
   ko: 히로사와 유야
 family_name:
   ja: 廣澤
+  kana: ひろさわ
   rom: Hirosawa
   ko: 히로사와
 given_name:
   ja: 優也
+  kana: ゆうや
   rom: Yuya
   ko: 유야
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/Pianoforte Monologue
     checked: 2026-10-19
     note: 나무위키 곡 문서의 작곡 표기
+  names.kana:
+    status: derived
+    source: https://love-annex.jp/creators/%E5%BB%A3%E6%BE%A4%E5%84%AA%E4%B9%9F/
+    checked: 2026-11-11
+    note: 소속사 LOVE ANNEX 프로필의 공식 로마자 표기 (가나 표기는 없음; 장음 명시라 모호성 없음). 소속사 LOVE ANNEX 페이지에는 로마자만 있어 그 읽기로 적음(가나 미게재)

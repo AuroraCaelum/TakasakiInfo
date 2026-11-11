@@ -2,6 +2,7 @@ id: muse/dreamin-go-go
 project: muse
 title:
   ja: Dreamin' Go! Go!!
+  kana: ドリーミン ゴー! ゴー!!
   rom: Dreamin' Go! Go!!
   ko: Dreamin' Go! Go!!
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Dreamin' Go! Go!! (Off Vocal)
+      kana: ドリーミン ゴー! ゴー!! (オフボーカル)
       rom: Dreamin' Go! Go!! (Off Vocal)
       ko: Dreamin' Go! Go!! (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/sp_5thlive.html
         checked: 2026-10-27
         note: "공식 공연 페이지(μ's Go→Go! LoveLive! 2015 プレミアムチケット: 「スペシャルCD付き（μ's 9人による録り下ろし新曲＆ドラマ収録）」). 트랙(곡+Off Vocal+드라마 3편)·품번 NEODAI-9646·발송일(Fandom 2015-01-15, ja.wikipedia는 1월 14일부터 순차 발송)·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric"
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 external_ids:
   fandom: Dreamin' Go! Go!!
 evidence:
@@ -50,3 +55,6 @@ evidence:
     source: https://j-lyric.net/artist/a054bd2/l04ef8a.html
     checked: 2026-10-20
     note: '공식 미게재(특전 CD). j-lyric 크레딧: 作詞 畑亜貴, 作曲 TSUKASA(Fandom도 같고 편곡은 Kon-K)'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: liella/kimi-machi-sora-hoshi
 project: liella
 title:
   ja: 君・街・空・星
+  kana: きみ・まち・そら・ほし
   rom: Kimi・Machi・Sora・Hoshi
   ko: 너・거리・하늘・별
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 君・街・空・星 (Off Vocal)
+      kana: きみ・まち・そら・ほし (オフボーカル)
       rom: Kimi・Machi・Sora・Hoshi (Off Vocal)
       ko: 너・거리・하늘・별 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

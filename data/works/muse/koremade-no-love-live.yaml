@@ -2,6 +2,7 @@ id: muse/koremade-no-love-live
 project: muse
 title:
   ja: これまでのラブライブ！
+  kana: これまでのラブライブ！
   rom: Koremade no Love Live!
   ko: 지금까지의 러브 라이브!
 credits:
@@ -13,6 +14,7 @@ recordings:
   - id: musical-ver
     title:
       ja: これまでのラブライブ！ ～ミュージカルver.～
+      kana: これまでのラブライブ！ ～ミュージカルヴァージョン～
       rom: Koremade no Love Live! ~Musical ver.~
       ko: 지금까지의 러브 라이브! ~뮤지컬 ver.~
     version: ミュージカルver.
@@ -25,10 +27,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: musical-ver-off-vocal
     kind: off_vocal
     title:
       ja: これまでのラブライブ！ ～ミュージカルver.～ (Off Vocal)
+      kana: これまでのラブライブ！ ～ミュージカルヴァージョン～ (オフボーカル)
       rom: Koremade no Love Live! ~Musical ver.~ (Off Vocal)
       ko: 지금까지의 러브 라이브! ~뮤지컬 ver.~ (Off Vocal)
     version: Off Vocal
@@ -41,6 +47,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
         checked: 2026-10-26
         note: 편곡은 보컬 음원과 같음
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 external_ids:
   fandom: Koremade no Love Live! ~Musical Ver.~
 evidence:
@@ -54,3 +63,6 @@ evidence:
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
     checked: 2026-10-21
     note: ミュージカルver.의 作詞：京極尚彦 作曲・編曲：藤澤慶昌
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

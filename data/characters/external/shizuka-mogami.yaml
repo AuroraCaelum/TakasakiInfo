@@ -2,14 +2,17 @@ id: external/shizuka-mogami
 project: external
 names:
   ja: 最上 静香
+  kana: もがみ しずか
   rom: Shizuka Mogami
   ko: 모가미 시즈카
 family_name:
   ja: 最上
+  kana: もがみ
   rom: Mogami
   ko: 모가미
 given_name:
   ja: 静香
+  kana: しずか
   rom: Shizuka
   ko: 시즈카
 evidence:
@@ -31,3 +34,8 @@ evidence:
     source: https://namu.wiki/w/모가미 시즈카
     checked: 2026-10-19
     note: 나무위키 문서 제목 (공식 한국어 표기 미확인)
+  names.kana:
+    status: official
+    source: https://millionlive-anime.idolmaster-official.jp/character/shizuka/
+    checked: 2026-11-11
+    note: 밀리언라이브 애니 공식 캐릭터 페이지 가나 표기(theaterdays 공식 페이지도 동일)

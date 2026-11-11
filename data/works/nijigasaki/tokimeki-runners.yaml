@@ -77,6 +77,7 @@ recordings:
   - id: tv-anime-insert-song-ver
     title:
       ja: TOKIMEKI Runners (TVアニメ挿入歌Ver.)
+      kana: ときめきランナーズ (ティーブイアニメそうにゅうかヴァージョン)
       rom: TOKIMEKI Runners (TV Anime Insert Song Ver.)
       ko: TOKIMEKI Runners (TV 애니메이션 삽입곡 Ver.)
     version: TVアニメ挿入歌Ver.
@@ -90,10 +91,14 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(9-members-ver)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(9-members-ver)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:
       ja: TOKIMEKI Runners (Off Vocal)
+      kana: ときめきランナーズ (オフボーカル)
       rom: TOKIMEKI Runners (Off Vocal)
       ko: TOKIMEKI Runners (Off Vocal)
     version: Off Vocal
@@ -105,10 +110,14 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73345/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: sifas-chapter-17-ver-off-vocal
     kind: off_vocal
     title:
       ja: TOKIMEKI Runners (スクスタストーリー17章挿入歌Ver.) (Off Vocal)
+      kana: ときめきランナーズ (スクスタストーリーじゅうななしょうそうにゅうかヴァージョン) (オフボーカル)
       rom: TOKIMEKI Runners (SIFAS Chapter 17 Ver.) (Off Vocal)
       ko: TOKIMEKI Runners (스쿠스타 스토리 챕터 17 Ver.) (Off Vocal)
     version: Off Vocal
@@ -120,6 +129,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

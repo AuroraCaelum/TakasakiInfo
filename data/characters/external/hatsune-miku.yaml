@@ -2,6 +2,7 @@ id: external/hatsune-miku
 project: external
 names:
   ja: 初音ミク
+  kana: はつね ミク
   rom: Hatsune Miku
   ko: 하츠네 미쿠
 evidence:
@@ -13,3 +14,8 @@ evidence:
   name_parts:
     status: derived
     note: 권리자 표기가 한 단어(初音ミク)이고 공식 영문도 'Hatsune Miku' 순서라 성·이름을 나누지 않음
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF
+    checked: 2026-11-11
+    note: 공식 미게재(크립톤 제품 페이지는 503으로 확인 불가, piapro.net은 읽기 없음). 일본어 위키백과 서두 '（はつねミク、Hatsune Miku）'. pixiv百科는 'はつねみく'

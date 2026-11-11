@@ -2,6 +2,7 @@ id: aqours/banzai-digital-trippers
 project: aqours
 title:
   ja: BANZAI! digital trippers
+  kana: バンザイ! デジタル トリッパーズ
   rom: BANZAI! digital trippers
   ko: BANZAI! digital trippers
 credits:
@@ -95,6 +96,7 @@ recordings:
     kind: off_vocal
     title:
       ja: BANZAI! digital trippers (Off Vocal)
+      kana: バンザイ! デジタル トリッパーズ (オフボーカル)
       rom: BANZAI! digital trippers (Off Vocal)
       ko: BANZAI! digital trippers (Off Vocal)
     version: Off Vocal
@@ -106,6 +108,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd72
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -145,3 +150,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

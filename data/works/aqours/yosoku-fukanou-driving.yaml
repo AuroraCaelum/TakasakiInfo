@@ -2,6 +2,7 @@ id: aqours/yosoku-fukanou-driving
 project: aqours
 title:
   ja: 予測不可能Driving!
+  kana: よそくふかのうドライビング!
   rom: Yosoku Fukanou Driving!
   ko: 예측불가능 Driving!
 credits:
@@ -57,6 +58,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 予測不可能Driving! (Off Vocal)
+      kana: よそくふかのうドライビング! (オフボーカル)
       rom: Yosoku Fukanou Driving! (Off Vocal)
       ko: 예측불가능 Driving! (Off Vocal)
     version: Off Vocal
@@ -68,6 +70,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/68117/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -78,3 +83,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

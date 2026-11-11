@@ -2,7 +2,7 @@ id: aqours/amazing-travel-dna
 project: aqours
 title:
   ja: Amazing Travel DNA
-  kana: ''
+  kana: アメイジング トラベル ディーエヌエー
   rom: Amazing Travel DNA
   ko: Amazing Travel DNA
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Amazing Travel DNA (Off Vocal)
-      kana: ''
+      kana: アメイジング トラベル ディーエヌエー (オフボーカル)
       rom: Amazing Travel DNA (Off Vocal)
       ko: Amazing Travel DNA (Off Vocal)
     version: Off Vocal
@@ -41,9 +41,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: remix
     title:
       ja: Amazing Travel DNA REMIX
+      kana: アメイジング トラベル ディーエヌエー リミックス
       rom: Amazing Travel DNA REMIX
       ko: Amazing Travel DNA REMIX
     version: REMIX
@@ -59,8 +63,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php
         checked: 2026-10-18
         note: 리믹서
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd37
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

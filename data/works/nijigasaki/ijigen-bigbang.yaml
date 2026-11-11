@@ -59,6 +59,7 @@ recordings:
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 異次元★♥BIGBANG (異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1)
+      kana: いじげんビッグバン (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん デイ ワン)
       rom: Ijigen★♥BIGBANG (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen Day.1)
       ko: 이차원★♥BIGBANG (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전 Day.1)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1
@@ -78,9 +79,13 @@ recordings:
         status: official
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: 異次元★♥BIGBANG (異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.2)
+      kana: いじげんビッグバン (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん デイ ツー)
       rom: Ijigen★♥BIGBANG (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen Day.2)
       ko: 이차원★♥BIGBANG (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전 Day.2)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.2
@@ -100,6 +105,9 @@ recordings:
         status: official
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: established

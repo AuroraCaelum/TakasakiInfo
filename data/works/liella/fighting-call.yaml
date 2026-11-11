@@ -2,6 +2,7 @@ id: liella/fighting-call
 project: liella
 title:
   ja: ファイティングコール
+  kana: ファイティングコール
   rom: Fighting Call
   ko: 파이팅 콜
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ファイティングコール (Off Vocal)
+      kana: ファイティングコール (オフボーカル)
       rom: Fighting Call (Off Vocal)
       ko: 파이팅 콜 (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -49,3 +54,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

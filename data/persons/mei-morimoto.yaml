@@ -1,14 +1,17 @@
 id: mei-morimoto
 names:
   ja: 森本めい
+  kana: もりもと めい
   rom: Mei Morimoto
   ko: 모리모토 메이
 family_name:
   ja: 森本
+  kana: もりもと
   rom: Morimoto
   ko: 모리모토
 given_name:
   ja: めい
+  kana: めい
   rom: Mei
   ko: 메이
 evidence:
@@ -29,3 +32,6 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Mei Morimoto'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

@@ -1,14 +1,17 @@
 id: ryota-nakano
 names:
   ja: 中野 領太
+  kana: なかの りょうた
   rom: Ryota Nakano
   ko: 나카노 료타
 family_name:
   ja: 中野
+  kana: なかの
   rom: Nakano
   ko: 나카노
 given_name:
   ja: 領太
+  kana: りょうた
   rom: Ryota
   ko: 료타
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://love-live.fandom.com/wiki/Sagashite!_Future
     checked: 2026-10-19
     note: "§5.4 규칙. 읽기: なかの りょうた (Fandom 'Ryota Nakano', 본인 X 핸들 ryotanakano)"
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

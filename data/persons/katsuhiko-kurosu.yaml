@@ -1,14 +1,17 @@
 id: katsuhiko-kurosu
 names:
   ja: 黒須 克彦
+  kana: くろす かつひこ
   rom: Katsuhiko Kurosu
   ko: 쿠로스 카츠히코
 family_name:
   ja: 黒須
+  kana: くろす
   rom: Kurosu
   ko: 쿠로스
 given_name:
   ja: 克彦
+  kana: かつひこ
   rom: Katsuhiko
   ko: 카츠히코
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E9%BB%92%E9%A0%88%E5%85%8B%E5%BD%A6
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기(본문 ラブライブ 언급); J-WID クロスカツヒコ 일치

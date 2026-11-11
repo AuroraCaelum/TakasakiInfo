@@ -1,14 +1,17 @@
 id: hirofumi-sasaki
 names:
   ja: 佐々木 博史
+  kana: ささき ひろふみ
   rom: Hirofumi Sasaki
   ko: 사사키 히로후미
 family_name:
   ja: 佐々木
+  kana: ささき
   rom: Sasaki
   ko: 사사키
 given_name:
   ja: 博史
+  kana: ひろふみ
   rom: Hirofumi
   ko: 히로후미
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%BD%90%E3%80%85%E6%9C%A8%E5%8D%9A%E5%8F%B2
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ササキヒロフミ 일치(蓮ノ空 곡)

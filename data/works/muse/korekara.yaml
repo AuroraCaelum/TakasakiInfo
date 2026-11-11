@@ -2,6 +2,7 @@ id: muse/korekara
 project: muse
 title:
   ja: これから
+  kana: これから
   rom: Korekara
   ko: 지금부터
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: これから (Off Vocal)
+      kana: これから (オフボーカル)
       rom: Korekara (Off Vocal)
       ko: 지금부터 (Off Vocal)
     version: Off Vocal
@@ -41,9 +43,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: これから (HONOKA Mix)
+      kana: これから (ホノカ ミックス)
       rom: Korekara (HONOKA Mix)
       ko: 지금부터 (HONOKA Mix)
     version: HONOKA Mix
@@ -57,9 +63,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72703/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: これから (ELI Mix)
+      kana: これから (エリ ミックス)
       rom: Korekara (ELI Mix)
       ko: 지금부터 (ELI Mix)
     version: ELI Mix
@@ -73,9 +83,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72705/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: これから (KOTORI Mix)
+      kana: これから (コトリ ミックス)
       rom: Korekara (KOTORI Mix)
       ko: 지금부터 (KOTORI Mix)
     version: KOTORI Mix
@@ -89,9 +103,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: これから (UMI Mix)
+      kana: これから (ウミ ミックス)
       rom: Korekara (UMI Mix)
       ko: 지금부터 (UMI Mix)
     version: UMI Mix
@@ -105,9 +123,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72707/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: これから (RIN Mix)
+      kana: これから (リン ミックス)
       rom: Korekara (RIN Mix)
       ko: 지금부터 (RIN Mix)
     version: RIN Mix
@@ -121,9 +143,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: これから (MAKI Mix)
+      kana: これから (マキ ミックス)
       rom: Korekara (MAKI Mix)
       ko: 지금부터 (MAKI Mix)
     version: MAKI Mix
@@ -137,9 +163,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72709/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: これから (NOZOMI Mix)
+      kana: これから (ノゾミ ミックス)
       rom: Korekara (NOZOMI Mix)
       ko: 지금부터 (NOZOMI Mix)
     version: NOZOMI Mix
@@ -153,9 +183,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72710/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: これから (HANAYO Mix)
+      kana: これから (ハナヨ ミックス)
       rom: Korekara (HANAYO Mix)
       ko: 지금부터 (HANAYO Mix)
     version: HANAYO Mix
@@ -169,9 +203,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: これから (NICO Mix)
+      kana: これから (ニコ ミックス)
       rom: Korekara (NICO Mix)
       ko: 지금부터 (NICO Mix)
     version: NICO Mix
@@ -185,6 +223,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72712/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/movie/#bd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -196,3 +237,6 @@ evidence:
     source: https://music.youtube.com/watch?v=QDt9ttnZuQ8
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: nijigasaki/waku-waku-monday-morning
 project: nijigasaki
 title:
   ja: Waku Waku! Monday Morning
+  kana: ワク ワク! マンデー モーニング
   rom: Waku Waku! Monday Morning
   ko: Waku Waku! Monday Morning
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Waku Waku! Monday Morning (Off Vocal)
+      kana: ワク ワク! マンデー モーニング (オフボーカル)
       rom: Waku Waku! Monday Morning (Off Vocal)
       ko: Waku Waku! Monday Morning (Off Vocal)
     version: Off Vocal
@@ -42,6 +44,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 external_ids:
   fandom: Waku Waku! Monday Morning
 evidence:
@@ -55,3 +60,6 @@ evidence:
     source: https://love-live.fandom.com/wiki/Waku_Waku!_Monday_Morning
     checked: 2026-10-20
     note: '공식 미게재(BD 페이지는 곡명·가창만). Fandom: 작사·작곡·편곡 Ayumu Nakamura, Hiroto Kikuchi'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

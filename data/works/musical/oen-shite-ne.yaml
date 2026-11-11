@@ -2,6 +2,7 @@ id: musical/oen-shite-ne
 project: musical
 title:
   ja: 応援してね♡
+  kana: おうえんしてね♡
   rom: Oen shite ne♡
   ko: 응원해 줘♡
 credits:
@@ -47,3 +48,6 @@ evidence:
     source: https://music.youtube.com/watch?v=r9kvkMUmJKY
     checked: 2026-10-20
     note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

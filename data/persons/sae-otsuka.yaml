@@ -1,14 +1,17 @@
 id: sae-otsuka
 names:
   ja: 大塚 紗英
+  kana: おおつか さえ
   rom: Sae Otsuka
   ko: 오오츠카 사에
 family_name:
   ja: 大塚
+  kana: おおつか
   rom: Otsuka
   ko: 오오츠카
 given_name:
   ja: 紗英
+  kana: さえ
   rom: Sae
   ko: 사에
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%A1%9A%E7%B4%97%E8%8B%B1
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

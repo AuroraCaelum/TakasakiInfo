@@ -114,6 +114,7 @@ recordings:
   - id: tv-size
     title:
       ja: 夢で夜空を照らしたい (TVサイズ)
+      kana: ゆめで よぞらを てらしたい (ティーブイサイズ)
       rom: Yume De Yozora Wo Terashitai (TV Size)
       ko: 꿈으로 밤하늘을 비추고 싶어 (TV 사이즈)
     version: TVサイズ
@@ -132,9 +133,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: 夢で夜空を照らしたい (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: ゆめで よぞらを てらしたい (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: Yume De Yozora Wo Terashitai (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: 꿈으로 밤하늘을 비추고 싶어 (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -151,6 +156,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd09)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

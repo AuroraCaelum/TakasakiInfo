@@ -2,6 +2,7 @@ id: liella/let-s-be-one
 project: liella
 title:
   ja: Let's be ONE
+  kana: レッツ ビー ワン
   rom: Let's be ONE
   ko: Let's be ONE
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Let's be ONE (Off Vocal)
+      kana: レッツ ビー ワン (オフボーカル)
       rom: Let's be ONE (Off Vocal)
       ko: Let's be ONE (Off Vocal)
     version: Off Vocal
@@ -39,9 +41,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Let's be ONE ～TV Size～
+      kana: レッツ ビー ワン ～ティーブイ サイズ～
       rom: Let's be ONE ~TV Size~
       ko: Let's be ONE ~TV Size~
     version: TV Size
@@ -57,6 +63,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -66,3 +75,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

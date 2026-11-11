@@ -2,6 +2,7 @@ id: muse/onaji-hoshi-ga-mitai
 project: muse
 title:
   ja: 同じ星が見たい
+  kana: おなじほしがみたい
   rom: Onaji Hoshi ga Mitai
   ko: 같은 별이 보고 싶어
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 同じ星が見たい (Off Vocal)
+      kana: おなじほしがみたい (オフボーカル)
       rom: Onaji Hoshi ga Mitai (Off Vocal)
       ko: 같은 별이 보고 싶어 (Off Vocal)
     version: Off Vocal
@@ -42,9 +44,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 同じ星が見たい (UMI Mix)
+      kana: おなじほしがみたい (ウミ ミックス)
       rom: Onaji Hoshi ga Mitai (UMI Mix)
       ko: 같은 별이 보고 싶어 (UMI Mix)
     version: UMI Mix
@@ -58,9 +64,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72707/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 同じ星が見たい (RIN Mix)
+      kana: おなじほしがみたい (リン ミックス)
       rom: Onaji Hoshi ga Mitai (RIN Mix)
       ko: 같은 별이 보고 싶어 (RIN Mix)
     version: RIN Mix
@@ -74,9 +84,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72708/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 同じ星が見たい (NOZOMI Mix)
+      kana: おなじほしがみたい (ノゾミ ミックス)
       rom: Onaji Hoshi ga Mitai (NOZOMI Mix)
       ko: 같은 별이 보고 싶어 (NOZOMI Mix)
     version: NOZOMI Mix
@@ -90,6 +104,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72710/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -101,3 +118,6 @@ evidence:
     source: https://music.youtube.com/watch?v=6GcHmClabIk
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

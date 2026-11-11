@@ -1,14 +1,17 @@
 id: erica-masaki
 names:
   ja: 真崎エリカ
+  kana: まさき えりか
   rom: Erica Masaki
   ko: 마사키 에리카
 family_name:
   ja: 真崎
+  kana: まさき
   rom: Masaki
   ko: 마사키
 given_name:
   ja: エリカ
+  kana: えりか
   rom: Erica
   ko: 에리카
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E7%9C%9F%E5%B4%8E%E3%82%A8%E3%83%AA%E3%82%AB
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

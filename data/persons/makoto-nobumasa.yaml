@@ -1,14 +1,17 @@
 id: makoto-nobumasa
 names:
   ja: 信政 誠
+  kana: のぶまさ まこと
   rom: Makoto Nobumasa
   ko: 노부마사 마코토
 family_name:
   ja: 信政
+  kana: のぶまさ
   rom: Nobumasa
   ko: 노부마사
 given_name:
   ja: 誠
+  kana: まこと
   rom: Makoto
   ko: 마코토
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%BF%A1%E6%94%BF%E8%AA%A0
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ノブマサマコト 일치

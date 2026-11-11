@@ -2,6 +2,7 @@ id: yohane/lailaps
 project: yohane
 names:
   ja: ライラプス
+  kana: ライラプス
   rom: Lailaps
   ko: 라일라프스
 casting:
@@ -19,3 +20,8 @@ evidence:
     status: official
     source: https://www.yohane.net/character/
     checked: 2026-10-20
+  names.kana:
+    status: official
+    source: https://www.yohane.net/character/#02
+    checked: 2026-11-11
+    note: 공식 캐릭터 페이지 가타카나 표기(루비 없음, 표기 자체가 읽기)

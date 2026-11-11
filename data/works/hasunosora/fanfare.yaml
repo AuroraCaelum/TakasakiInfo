@@ -2,6 +2,7 @@ id: hasunosora/fanfare
 project: hasunosora
 title:
   ja: ファンファーレ！！！
+  kana: ファンファーレ！！！
   rom: Fanfare!!!
   ko: 팡파레!!!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ファンファーレ！！！ (Off Vocal)
+      kana: ファンファーレ！！！ (オフボーカル)
       rom: Fanfare!!! (Off Vocal)
       ko: 팡파레!!! (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/21/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -65,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/21/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

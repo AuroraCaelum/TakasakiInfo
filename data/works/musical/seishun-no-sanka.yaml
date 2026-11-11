@@ -2,6 +2,7 @@ id: musical/seishun-no-sanka
 project: musical
 title:
   ja: 青春の讃歌
+  kana: せいしゅんのさんか
   rom: Seishun no Sanka
   ko: 청춘의 찬가
 credits:
@@ -37,3 +38,6 @@ evidence:
     source: https://music.youtube.com/watch?v=p2rvMpLjpb4
     checked: 2026-10-20
     note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,14 +2,17 @@ id: musical/yuzuha-sumeragi
 project: musical
 names:
   ja: 皇ユズハ
+  kana: すめらぎ ユズハ
   rom: Yuzuha Sumeragi
   ko: 스메라기 유즈하
 family_name:
   ja: 皇
+  kana: すめらぎ
   rom: Sumeragi
   ko: 스메라기
 given_name:
   ja: ユズハ
+  kana: ユズハ
   rom: Yuzuha
   ko: 유즈하
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB
+    checked: 2026-11-11
+    note: 공식 미게재(공식 member.php는 이름 이미지+로마자만, 가나 루비 없음). 일본어 위키백과 등장인물 목록 읽기. 이름(가타카나)은 표기 그대로

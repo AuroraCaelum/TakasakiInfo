@@ -1,14 +1,17 @@
 id: ryu-sakamoto
 names:
   ja: 坂本 龍
+  kana: さかもと りゅう
   rom: Ryu Sakamoto
   ko: 사카모토 류
 family_name:
   ja: 坂本
+  kana: さかもと
   rom: Sakamoto
   ko: 사카모토
 given_name:
   ja: 龍
+  kana: りゅう
   rom: Ryu
   ko: 류
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

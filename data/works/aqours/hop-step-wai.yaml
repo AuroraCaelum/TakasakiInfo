@@ -2,7 +2,7 @@ id: aqours/hop-step-wai
 project: aqours
 title:
   ja: ホップ・ステップ・ワーイ！
-  kana: ''
+  kana: ホップ・ステップ・ワーイ！
   rom: Hop・Step・Wai!
   ko: Hop・Step・와이!
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ホップ・ステップ・ワーイ！ (Off Vocal)
-      kana: ''
+      kana: ホップ・ステップ・ワーイ！ (オフボーカル)
       rom: Hop・Step・Wai! (Off Vocal)
       ko: Hop・Step・와이! (Off Vocal)
     version: Off Vocal
@@ -39,10 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: cyaron-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (CYaRon! ver.)
-      kana: ''
+      kana: ホップ・ステップ・ワーイ！ (シャロン! ヴァージョン)
       rom: Hop・Step・Wai! (CYaRon! ver.)
       ko: Hop・Step・와이! (CYaRon! ver.)
     version: CYaRon! ver.
@@ -55,10 +58,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: azalea-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (AZALEA ver.)
-      kana: ''
+      kana: ホップ・ステップ・ワーイ！ (アゼリア ヴァージョン)
       rom: Hop・Step・Wai! (AZALEA ver.)
       ko: Hop・Step・와이! (AZALEA ver.)
     version: AZALEA ver.
@@ -71,10 +77,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: guilty-kiss-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (Guilty Kiss ver.)
-      kana: ''
+      kana: ホップ・ステップ・ワーイ！ (ギルティキス ヴァージョン)
       rom: Hop・Step・Wai! (Guilty Kiss ver.)
       ko: Hop・Step・와이! (Guilty Kiss ver.)
     version: Guilty Kiss ver.
@@ -87,8 +96,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

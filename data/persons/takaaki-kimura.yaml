@@ -1,14 +1,17 @@
 id: takaaki-kimura
 names:
   ja: 木村 孝明
+  kana: きむら たかあき
   rom: Takaaki Kimura
   ko: 키무라 타카아키
 family_name:
   ja: 木村
+  kana: きむら
   rom: Kimura
   ko: 키무라
 given_name:
   ja: 孝明
+  kana: たかあき
   rom: Takaaki
   ko: 타카아키
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/木村孝明
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (Liella!「真っ赤。」 기재)

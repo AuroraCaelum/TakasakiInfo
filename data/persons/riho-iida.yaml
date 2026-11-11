@@ -1,14 +1,17 @@
 id: riho-iida
 names:
   ja: 飯田 里穂
+  kana: いいだ りほ
   rom: Riho Iida
   ko: 이이다 리호
 family_name:
   ja: 飯田
+  kana: いいだ
   rom: Iida
   ko: 이이다
 given_name:
   ja: 里穂
+  kana: りほ
   rom: Riho
   ko: 리호
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/이이다 리호
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: official
+    source: https://iida-riho.com/
+    checked: 2026-11-11
+    note: 공식 사이트 meta description 읽기; 분할은 입력 기준

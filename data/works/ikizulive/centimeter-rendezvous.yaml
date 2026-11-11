@@ -2,11 +2,12 @@ id: ikizulive/centimeter-rendezvous
 project: ikizulive
 title:
   ja: センチメートル・ランデヴー
+  kana: センチメートル・ランデヴー
   rom: Centimeter・Rendezvous
   ko: 센티미터・랑데부
 credits:
   lyricist:
-    - {person: kano-tono}
+    - {person: kano-higashino}
   composer:
     - {person: motokiyo}
 recordings:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: センチメートル・ランデヴー (Off Vocal)
+      kana: センチメートル・ランデヴー (オフボーカル)
       rom: Centimeter・Rendezvous (Off Vocal)
       ko: 센티미터・랑데부 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

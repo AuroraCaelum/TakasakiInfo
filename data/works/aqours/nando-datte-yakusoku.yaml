@@ -2,6 +2,7 @@ id: aqours/nando-datte-yakusoku
 project: aqours
 title:
   ja: なんどだって約束！
+  kana: なんどだってやくそく！
   rom: Nando Datte Yakusoku!
   ko: 몇 번이고 약속!
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: なんどだって約束！ (Off Vocal)
+      kana: なんどだってやくそく！ (オフボーカル)
       rom: Nando Datte Yakusoku! (Off Vocal)
       ko: 몇 번이고 약속! (Off Vocal)
     version: Off Vocal
@@ -37,9 +39,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo-ver
     title:
       ja: なんどだって約束！ (高海千歌 Solo Ver.)
+      kana: なんどだってやくそく！ (たかみちか ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Chika Takami Solo Ver.)
       ko: 몇 번이고 약속! (타카미 치카 Solo Ver.)
     version: 高海千歌 Solo Ver.
@@ -53,9 +59,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: なんどだって約束！ (桜内梨子 Solo Ver.)
+      kana: なんどだってやくそく！ (さくらうちりこ ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Riko Sakurauchi Solo Ver.)
       ko: 몇 번이고 약속! (사쿠라우치 리코 Solo Ver.)
     version: 桜内梨子 Solo Ver.
@@ -69,9 +79,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kanan-matsuura-solo-ver
     title:
       ja: なんどだって約束！ (松浦果南 Solo Ver.)
+      kana: なんどだってやくそく！ (まつうらかなん ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Kanan Matsuura Solo Ver.)
       ko: 몇 번이고 약속! (마츠우라 카난 Solo Ver.)
     version: 松浦果南 Solo Ver.
@@ -85,9 +99,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: dia-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ダイヤ Solo Ver.)
+      kana: なんどだってやくそく！ (くろさわだいや ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Dia Kurosawa Solo Ver.)
       ko: 몇 번이고 약속! (쿠로사와 다이아 Solo Ver.)
     version: 黒澤ダイヤ Solo Ver.
@@ -101,9 +119,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: you-watanabe-solo-ver
     title:
       ja: なんどだって約束！ (渡辺 曜 Solo Ver.)
+      kana: なんどだってやくそく！ (わたなべ よう ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (You Watanabe Solo Ver.)
       ko: 몇 번이고 약속! (와타나베 요우 Solo Ver.)
     version: 渡辺 曜 Solo Ver.
@@ -117,9 +139,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: なんどだって約束！ (津島善子 Solo Ver.)
+      kana: なんどだってやくそく！ (つしまよしこ ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Yoshiko Tsushima Solo Ver.)
       ko: 몇 번이고 약속! (츠시마 요시코 Solo Ver.)
     version: 津島善子 Solo Ver.
@@ -133,9 +159,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: なんどだって約束！ (国木田花丸 Solo Ver.)
+      kana: なんどだってやくそく！ (くにきだはなまる ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Hanamaru Kunikida Solo Ver.)
       ko: 몇 번이고 약속! (쿠니키다 하나마루 Solo Ver.)
     version: 国木田花丸 Solo Ver.
@@ -149,9 +179,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo-ver
     title:
       ja: なんどだって約束！ (小原鞠莉 Solo Ver.)
+      kana: なんどだってやくそく！ (おはらまり ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Mari Ohara Solo Ver.)
       ko: 몇 번이고 약속! (오하라 마리 Solo Ver.)
     version: 小原鞠莉 Solo Ver.
@@ -165,9 +199,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ルビィ Solo Ver.)
+      kana: なんどだってやくそく！ (くろさわるびぃ ソロ ヴァージョン)
       rom: Nando Datte Yakusoku! (Ruby Kurosawa Solo Ver.)
       ko: 몇 번이고 약속! (쿠로사와 루비 Solo Ver.)
     version: 黒澤ルビィ Solo Ver.
@@ -181,6 +219,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -191,3 +232,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

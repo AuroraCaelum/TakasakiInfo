@@ -42,6 +42,7 @@ recordings:
   - id: tv-size
     title:
       ja: 虹色Passions！ (TV size)
+      kana: にじいろパッションズ!! (ティーブイ サイズ)
       rom: Nijiiro Passions! (TV size)
       ko: 무지개색 Passions! (TV size)
     version: TV size
@@ -55,9 +56,13 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd28
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(original)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: 虹色Passions！ (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: にじいろパッションズ!! (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Nijiiro Passions! (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 무지개색 Passions! (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -75,6 +80,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/nijigasaki/cd.php#cd16)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

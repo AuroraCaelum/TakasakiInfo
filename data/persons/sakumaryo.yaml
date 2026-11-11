@@ -1,13 +1,16 @@
 id: sakumaryo
 names:
   ja: サクマリョウ
+  kana: さくま りょう
   rom: SAKUMARYO
   ko: 사쿠마 료
 family_name:
   ja: サクマ
+  kana: さくま
   ko: 사쿠마
 given_name:
   ja: リョウ
+  kana: りょう
   ko: 료
 evidence:
   names:
@@ -18,3 +21,6 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: derived
+    note: 가나 표기 그대로 읽음(D58). 성·이름 사이 공백(D28), 장음 ー는 모음으로(カトウリョータ → かとう りょうた와 같음)

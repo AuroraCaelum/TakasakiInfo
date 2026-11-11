@@ -1,14 +1,17 @@
 id: hirotaka-hayakawa
 names:
   ja: 早川 博隆
+  kana: はやかわ ひろたか
   rom: Hirotaka Hayakawa
   ko: 하야카와 히로타카
 family_name:
   ja: 早川
+  kana: はやかわ
   rom: Hayakawa
   ko: 하야카와
 given_name:
   ja: 博隆
+  kana: ひろたか
   rom: Hirotaka
   ko: 히로타카
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%97%A9%E5%B7%9D%E5%8D%9A%E9%9A%86
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기(본문 Aqours 언급); J-WID ハヤカワヒロタカ 일치

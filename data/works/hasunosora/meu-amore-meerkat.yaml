@@ -2,6 +2,7 @@ id: hasunosora/meu-amore-meerkat
 project: hasunosora
 title:
   ja: ミアモーレ・ミーアキャット
+  kana: ミアモーレ・ミーアキャット
   rom: Meu Amoré・Meerkat
   ko: 미 아모레・미어캣
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ミアモーレ・ミーアキャット (Off Vocal)
+      kana: ミアモーレ・ミーアキャット (オフボーカル)
       rom: Meu Amoré・Meerkat (Off Vocal)
       ko: 미 아모레・미어캣 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5685
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

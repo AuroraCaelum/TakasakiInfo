@@ -24,6 +24,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: ハクチューアラモード (104期 Ver.)
+      kana: ハクチューアラモード (ひゃくよんき ヴァージョン)
       rom: Hakuchuu à la Mode (104th Ver.)
       ko: 한낮 à la Mode (104기 Ver.)
     version: 104期 Ver.
@@ -36,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -59,6 +63,7 @@ recordings:
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: ハクチューアラモード (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: ハクチューアラモード (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Hakuchuu à la Mode (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 한낮 à la Mode (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -75,6 +80,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/hasunosora/music/08/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

@@ -2,7 +2,7 @@ id: aqours/love-pulsar
 project: aqours
 title:
   ja: Love Pulsar
-  kana: ''
+  kana: ラブ パルサー
   rom: Love Pulsar
   ko: Love Pulsar
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Love Pulsar (Off Vocal)
-      kana: ''
+      kana: ラブ パルサー (オフボーカル)
       rom: Love Pulsar (Off Vocal)
       ko: Love Pulsar (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

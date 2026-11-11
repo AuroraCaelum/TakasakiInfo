@@ -3,6 +3,7 @@ kind: unit
 projects: [ikizulive]
 names:
   ja: SH1ON
+  kana: シオン
   rom: SH1ON
   ko: SH1ON
 lineups:
@@ -16,3 +17,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5928
     checked: 2026-10-18
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/news/01_5418.html
+    checked: 2026-11-11
+    note: 공식 뉴스, 사용자 확인 (2026-11-11). 자동 조회는 403이라 미확인

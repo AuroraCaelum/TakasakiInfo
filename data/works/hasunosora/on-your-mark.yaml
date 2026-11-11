@@ -25,6 +25,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: On your mark (104期 Ver.)
+      kana: オン・ユア・マーク (ひゃくよんき ヴァージョン)
       rom: On your mark (104th Ver.)
       ko: On your mark (104기 Ver.)
     version: 104期 Ver.
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/17/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

@@ -2,14 +2,17 @@ id: nijigasaki/shioriko-mifune
 project: nijigasaki
 names:
   ja: 三船 栞子
+  kana: みふね しおりこ
   rom: Shioriko Mifune
   ko: 미후네 시오리코
 family_name:
   ja: 三船
+  kana: みふね
   rom: Mifune
   ko: 미후네
 given_name:
   ja: 栞子
+  kana: しおりこ
   rom: Shioriko
   ko: 시오리코
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/about_nijigasaki.php#shioriko
+    checked: 2026-11-11
+    note: 공식 멤버 페이지(about_nijigasaki) 루비

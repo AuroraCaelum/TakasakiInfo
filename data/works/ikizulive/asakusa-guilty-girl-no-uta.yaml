@@ -2,6 +2,7 @@ id: ikizulive/asakusa-guilty-girl-no-uta
 project: ikizulive
 title:
   ja: 浅草Guilty Girlの歌
+  kana: あさくさギルティ ガールのうた
   rom: Asakusa Guilty Girl no Uta
   ko: 아사쿠사 Guilty Girl의 노래
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 浅草Guilty Girlの歌 (Off Vocal)
+      kana: あさくさギルティ ガールのうた (オフボーカル)
       rom: Asakusa Guilty Girl no Uta (Off Vocal)
       ko: 아사쿠사 Guilty Girl의 노래 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4697
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

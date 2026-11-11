@@ -2,6 +2,7 @@ id: aqours/smile-smile-ship-start
 project: aqours
 title:
   ja: smile smile ship Start!
+  kana: スマイル スマイル シップ スタート!
   rom: smile smile ship Start!
   ko: smile smile ship Start!
 credits:
@@ -94,6 +95,7 @@ recordings:
     kind: off_vocal
     title:
       ja: smile smile ship Start! (Off Vocal)
+      kana: スマイル スマイル シップ スタート! (オフボーカル)
       rom: smile smile ship Start! (Off Vocal)
       ko: smile smile ship Start! (Off Vocal)
     version: Off Vocal
@@ -105,6 +107,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -134,3 +139,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

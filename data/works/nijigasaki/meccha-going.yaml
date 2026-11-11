@@ -26,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: めっちゃGoing!! (Off Vocal)
+      kana: めっちゃゴーイング!! (オフボーカル)
       rom: Meccha Going!! (Off Vocal)
       ko: 엄청 Going!! (Off Vocal)
     version: Off Vocal
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73345/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

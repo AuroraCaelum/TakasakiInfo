@@ -2,6 +2,7 @@ id: hasunosora/theater-ikizama
 project: hasunosora
 title:
   ja: シアター生き様
+  kana: シアターいきざま
   rom: Theater Ikizama
   ko: 시어터 삶의 길
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: シアター生き様 (Off Vocal)
+      kana: シアターいきざま (オフボーカル)
       rom: Theater Ikizama (Off Vocal)
       ko: 시어터 삶의 길 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

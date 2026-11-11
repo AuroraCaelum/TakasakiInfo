@@ -1,14 +1,17 @@
 id: kaede-kaneko
 names:
   ja: 金子 楓
+  kana: かねこ かえで
   rom: Kaede Kaneko
   ko: 카네코 카에데
 family_name:
   ja: 金子
+  kana: かねこ
   rom: Kaneko
   ko: 카네코
 given_name:
   ja: 楓
+  kana: かえで
   rom: Kaede
   ko: 카에데
 evidence:
@@ -29,3 +32,6 @@ evidence:
   name_parts:
     status: derived
     note: 성·이름 분리 (D28)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Kaede Kaneko'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

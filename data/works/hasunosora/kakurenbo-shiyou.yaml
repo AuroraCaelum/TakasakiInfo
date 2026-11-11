@@ -2,6 +2,7 @@ id: hasunosora/kakurenbo-shiyou
 project: hasunosora
 title:
   ja: かくれんぼしよう
+  kana: かくれんぼしよう
   rom: Kakurenbo Shiyou
   ko: 숨바꼭질하자
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: かくれんぼしよう (Off Vocal)
+      kana: かくれんぼしよう (オフボーカル)
       rom: Kakurenbo Shiyou (Off Vocal)
       ko: 숨바꼭질하자 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/29/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/29/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

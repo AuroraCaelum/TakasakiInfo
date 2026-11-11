@@ -42,6 +42,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: ノンフィクションヒーローショー (104期 Ver.)
+      kana: ノンフィクションヒーローショー (ひゃくよんき ヴァージョン)
       rom: Non-fiction Hero Show (104th Ver.)
       ko: 논픽션 히어로 쇼 (104기 Ver.)
     version: 104期 Ver.
@@ -54,6 +55,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}

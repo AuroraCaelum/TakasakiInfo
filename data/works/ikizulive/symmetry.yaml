@@ -2,11 +2,12 @@ id: ikizulive/symmetry
 project: ikizulive
 title:
   ja: シンメトリー
+  kana: シンメトリー
   rom: Symmetry
   ko: 시메트리
 credits:
   lyricist:
-    - {person: kano-tono}
+    - {person: kano-higashino}
   composer:
     - {person: shun-aratame}
 recordings:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: シンメトリー (Off Vocal)
+      kana: シンメトリー (オフボーカル)
       rom: Symmetry (Off Vocal)
       ko: 시메트리 (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -47,3 +52,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5927
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

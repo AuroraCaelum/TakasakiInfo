@@ -2,6 +2,7 @@ id: muse/binetsu-kara-mystery
 project: muse
 title:
   ja: 微熱からMystery
+  kana: びねつからミステリー
   rom: Binetsu Kara Mystery
   ko: 미열에서 Mystery
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 微熱からMystery (Off Vocal)
+      kana: びねつからミステリー (オフボーカル)
       rom: Binetsu Kara Mystery (Off Vocal)
       ko: 미열에서 Mystery (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: teke-teke-eleki-mix
     title:
       ja: 微熱からMystery (TeKe-TeKe ELEKI Mix)
+      kana: びねつからミステリー (テケテケ エレキ ミックス)
       rom: Binetsu Kara Mystery (TeKe-TeKe ELEKI Mix)
       ko: 미열에서 Mystery (TeKe-TeKe ELEKI Mix)
     version: TeKe-TeKe ELEKI Mix
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd53
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 微熱からMystery (NOZOMI Mix)
+      kana: びねつからミステリー (ノゾミ ミックス)
       rom: Binetsu Kara Mystery (NOZOMI Mix)
       ko: 미열에서 Mystery (NOZOMI Mix)
     version: NOZOMI Mix
@@ -66,9 +76,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 微熱からMystery (RIN Mix)
+      kana: びねつからミステリー (リン ミックス)
       rom: Binetsu Kara Mystery (RIN Mix)
       ko: 미열에서 Mystery (RIN Mix)
     version: RIN Mix
@@ -82,9 +96,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 微熱からMystery (UMI Mix)
+      kana: びねつからミステリー (ウミ ミックス)
       rom: Binetsu Kara Mystery (UMI Mix)
       ko: 미열에서 Mystery (UMI Mix)
     version: UMI Mix
@@ -98,6 +116,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd25)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -108,3 +129,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd25
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

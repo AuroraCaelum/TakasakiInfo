@@ -2,6 +2,7 @@ id: liella/tekuteku-biyori
 project: liella
 title:
   ja: てくてく日和
+  kana: てくてくびより
   rom: Tekuteku Biyori
   ko: 뚜벅뚜벅 걷기 좋은 날
 credits:
@@ -31,3 +32,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

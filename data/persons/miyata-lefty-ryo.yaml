@@ -1,6 +1,7 @@
 id: miyata-lefty-ryo
 names:
   ja: 宮田'レフティ'リョウ
+  kana: みやた れふてぃ りょう
   rom: Ryo 'LEFTY' Miyata
   ko: 미야타 '레프티' 료
 evidence:
@@ -18,3 +19,6 @@ evidence:
     source: https://namu.wiki/w/레프티 몬스터
     checked: 2026-10-19
     note: 나무위키 문서의 이름 표기 ('미야타 레프티 료'는 이 문서로 넘겨줌)
+  names.kana:
+    status: derived
+    note: 공식 읽기 없음. rom 'Ryo 'LEFTY' Miyata'의 발음대로 읽음(사용자 결정 2026-11-11, D58)

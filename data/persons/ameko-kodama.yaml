@@ -1,14 +1,17 @@
 id: ameko-kodama
 names:
   ja: 児玉 雨子
+  kana: こだま あめこ
   rom: Ameko Kodama
   ko: 코다마 아메코
 family_name:
   ja: 児玉
+  kana: こだま
   rom: Kodama
   ko: 코다마
 given_name:
   ja: 雨子
+  kana: あめこ
   rom: Ameko
   ko: 아메코
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%85%90%E7%8E%89%E9%9B%A8%E5%AD%90
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

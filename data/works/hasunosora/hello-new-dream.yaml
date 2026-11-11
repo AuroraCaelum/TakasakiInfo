@@ -2,6 +2,7 @@ id: hasunosora/hello-new-dream
 project: hasunosora
 title:
   ja: Hello, new dream!
+  kana: ハロー, ニュー ドリーム!
   rom: Hello, new dream!
   ko: Hello, new dream!
 credits:
@@ -29,3 +30,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/34/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

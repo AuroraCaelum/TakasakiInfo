@@ -3,6 +3,7 @@ kind: group
 projects: [external]
 names:
   ja: Poppin'Party
+  kana: ポッピンパーティー
   rom: Poppin'Party
   ko: Poppin'Party
 lineups:
@@ -18,3 +19,8 @@ evidence:
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-10-20
     note: 공식 페이지의 가창 크레딧 'Poppin'Party [戸山香澄(CV.愛美)、…］' (뱅드림 공식 멤버 순서와 같음)
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)

@@ -2,6 +2,7 @@ id: hasunosora/gekka-bijin
 project: hasunosora
 title:
   ja: ゲッカビジン
+  kana: ゲッカビジン
   rom: Gekka Bijin
   ko: 월하미인
 credits:
@@ -26,6 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ゲッカビジン (Off Vocal)
+      kana: ゲッカビジン (オフボーカル)
       rom: Gekka Bijin (Off Vocal)
       ko: 월하미인 (Off Vocal)
     version: Off Vocal
@@ -37,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/30/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -47,3 +52,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/30/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: ikizulive/seishun-soda
 project: ikizulive
 title:
   ja: 青春ソーダ
+  kana: せいしゅんソーダ
   rom: Seishun Soda
   ko: 청춘 소다
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 青春ソーダ (Off Vocal)
+      kana: せいしゅんソーダ (オフボーカル)
       rom: Seishun Soda (Off Vocal)
       ko: 청춘 소다 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6516
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6516
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,14 +2,17 @@ id: aqours/you-watanabe
 project: aqours
 names:
   ja: 渡辺 曜
+  kana: わたなべ よう
   rom: You Watanabe
   ko: 와타나베 요우
 family_name:
   ja: 渡辺
+  kana: わたなべ
   rom: Watanabe
   ko: 와타나베
 given_name:
   ja: 曜
+  kana: よう
   rom: You
   ko: 요우
 casting:
@@ -32,3 +35,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/member.php#you
+    checked: 2026-11-11
+    note: 공식 멤버 페이지 이름 루비(이미지)

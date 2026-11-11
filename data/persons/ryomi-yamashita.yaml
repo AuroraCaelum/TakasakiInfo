@@ -1,14 +1,17 @@
 id: ryomi-yamashita
 names:
   ja: 山下 僚海
+  kana: やました りょうみ
   rom: Ryomi Yamashita
   ko: 야마시타 료미
 family_name:
   ja: 山下
+  kana: やました
   rom: Yamashita
   ko: 야마시타
 given_name:
   ja: 僚海
+  kana: りょうみ
   rom: Ryomi
   ko: 료미
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

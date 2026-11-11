@@ -2,6 +2,7 @@ id: aqours/ka-ga-ya-ki-ra-ri-ra
 project: aqours
 title:
   ja: KA-GA-YA-KI-RA-RI-RA
+  kana: カ-ガ-ヤ-キ-ラ-リ-ラ
   rom: KA-GA-YA-KI-RA-RI-RA
   ko: KA-GA-YA-KI-RA-RI-RA
 credits:
@@ -96,6 +97,7 @@ recordings:
     kind: off_vocal
     title:
       ja: KA-GA-YA-KI-RA-RI-RA (Off Vocal)
+      kana: カ-ガ-ヤ-キ-ラ-リ-ラ (オフボーカル)
       rom: KA-GA-YA-KI-RA-RI-RA (Off Vocal)
       ko: KA-GA-YA-KI-RA-RI-RA (Off Vocal)
     version: Off Vocal
@@ -107,6 +109,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd72
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -146,3 +151,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

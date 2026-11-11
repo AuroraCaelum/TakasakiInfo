@@ -1,14 +1,17 @@
 id: yusuke-kuwabara
 names:
   ja: 桑原 佑介
+  kana: くわばら ゆうすけ
   rom: Yusuke Kuwabara
   ko: 쿠와바라 유스케
 family_name:
   ja: 桑原
+  kana: くわばら
   rom: Kuwabara
   ko: 쿠와바라
 given_name:
   ja: 佑介
+  kana: ゆうすけ
   rom: Yusuke
   ko: 유스케
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www2.jasrac.or.jp/eJwid/
+    checked: 2026-11-11
+    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)

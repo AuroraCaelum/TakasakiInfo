@@ -42,6 +42,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: Mix shake!! (104期 Ver.)
+      kana: ミックス・シェイク!! (ひゃくよんき ヴァージョン)
       rom: Mix shake!! (104th Ver.)
       ko: Mix shake!! (104기 Ver.)
     version: 104期 Ver.
@@ -54,9 +55,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: Mix shake!! (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: ミックス・シェイク!! (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Mix shake!! (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: Mix shake!! (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -74,6 +79,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/hasunosora/music/02/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

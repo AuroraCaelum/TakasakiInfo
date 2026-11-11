@@ -1,14 +1,17 @@
 id: shu-uchida
 names:
   ja: 内田 秀
+  kana: うちだ しゅう
   rom: Shu Uchida
   ko: 우치다 슈우
 family_name:
   ja: 内田
+  kana: うちだ
   rom: Uchida
   ko: 우치다
 given_name:
   ja: 秀
+  kana: しゅう
   rom: Shu
   ko: 슈우
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: official
+    source: https://www.just-pro.jp/talent/voice-actor/uchida_shu/
+    checked: 2026-11-11
+    note: 소속사(ジャストプロ) 페이지 meta description 읽기; 분할은 입력 기준

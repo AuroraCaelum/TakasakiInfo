@@ -2,6 +2,7 @@ id: liella/songbirds
 project: liella
 title:
   ja: Songbirds
+  kana: ソングバーズ
   rom: Songbirds
   ko: Songbirds
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Songbirds (Off Vocal)
+      kana: ソングバーズ (オフボーカル)
       rom: Songbirds (Off Vocal)
       ko: Songbirds (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
         checked: 2026-11-04
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_6569
     checked: 2026-11-04
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: muse/love-marginal
 project: muse
 title:
   ja: Love marginal
+  kana: ラブ マージナル
   rom: Love marginal
   ko: Love marginal
 credits:
@@ -13,6 +14,7 @@ recordings:
   - id: kotori-mix
     title:
       ja: Love marginal (KOTORI Mix)
+      kana: ラブ マージナル (コトリ ミックス)
       rom: Love marginal (KOTORI Mix)
       ko: Love marginal (KOTORI Mix)
     version: KOTORI Mix
@@ -27,9 +29,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: Love marginal (HONOKA Mix)
+      kana: ラブ マージナル (ホノカ ミックス)
       rom: Love marginal (HONOKA Mix)
       ko: Love marginal (HONOKA Mix)
     version: HONOKA Mix
@@ -44,6 +50,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: original
     performers:
       - {artist: printemps}
@@ -59,6 +68,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Love marginal (Off Vocal)
+      kana: ラブ マージナル (オフボーカル)
       rom: Love marginal (Off Vocal)
       ko: Love marginal (Off Vocal)
     version: Off Vocal
@@ -71,9 +81,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: Love marginal (HANAYO Mix)
+      kana: ラブ マージナル (ハナヨ ミックス)
       rom: Love marginal (HANAYO Mix)
       ko: Love marginal (HANAYO Mix)
     version: HANAYO Mix
@@ -88,6 +102,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd03)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -97,3 +114,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

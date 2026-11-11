@@ -1,6 +1,7 @@
 id: aimi
 names:
   ja: 愛美
+  kana: あいみ
   rom: Aimi
   ko: 아이미
 evidence:
@@ -12,3 +13,8 @@ evidence:
   name_parts:
     status: derived
     note: 한 단어 활동명
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%84%9B%E7%BE%8E
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (본명 寺川愛美てらかわ あいみ)

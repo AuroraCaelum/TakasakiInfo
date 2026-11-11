@@ -2,6 +2,7 @@ id: hasunosora/ao-to-shabon
 project: hasunosora
 title:
   ja: 青とシャボン
+  kana: あおとシャボン
   rom: Ao to Shabon
   ko: 푸름과 비눗방울
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 青とシャボン (Off Vocal)
+      kana: あおとシャボン (オフボーカル)
       rom: Ao to Shabon (Off Vocal)
       ko: 푸름과 비눗방울 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/13/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}
@@ -65,3 +70,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/13/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

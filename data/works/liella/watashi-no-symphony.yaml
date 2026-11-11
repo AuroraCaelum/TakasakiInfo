@@ -71,6 +71,7 @@ recordings:
   - id: 2023ver
     title:
       ja: 私のSymphony ～2023Ver.～
+      kana: わたしのシンフォニー ～にせんにじゅうさんヴァージョン～
       rom: Watashi no Symphony ~2023Ver.~
       ko: 나의 Symphony ~2023Ver.~
     version: 2023Ver.
@@ -87,9 +88,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd33.php
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kanon-shibuya-ver
     title:
       ja: 私のSymphony 〜澁谷かのんVer.〜
+      kana: わたしのシンフォニー 〜しぶやかのんヴァージョン〜
       rom: Watashi no Symphony ~Kanon Shibuya Ver.~
       ko: 나의 Symphony ~시부야 카논 Ver.~
     version: 澁谷かのんVer.
@@ -107,9 +112,13 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: 私のSymphony (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
+      kana: わたしのシンフォニー (いじげんフェス アイドルマスター★♥ラブライブ！うたがっせん)
       rom: Watashi no Symphony (IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen)
       ko: 나의 Symphony (이차원 페스 아이돌마스터★♥러브 라이브! 노래 대항전)
     version: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
@@ -131,6 +140,9 @@ recordings:
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/music/cd02.php)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

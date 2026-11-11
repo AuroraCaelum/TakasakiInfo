@@ -2,6 +2,7 @@ id: nijigasaki/shiokaze-cycling
 project: nijigasaki
 title:
   ja: 潮風サイクリング
+  kana: しおかぜサイクリング
   rom: Shiokaze Cycling
   ko: 바닷바람 사이클링
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 潮風サイクリング (Off Vocal)
+      kana: しおかぜサイクリング (オフボーカル)
       rom: Shiokaze Cycling (Off Vocal)
       ko: 바닷바람 사이클링 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6288
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6288
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -1,14 +1,17 @@
 id: suzuko-mimori
 names:
   ja: 三森すずこ
+  kana: みもり すずこ
   rom: Suzuko Mimori
   ko: 미모리 스즈코
 family_name:
   ja: 三森
+  kana: みもり
   rom: Mimori
   ko: 미모리
 given_name:
   ja: すずこ
+  kana: すずこ
   rom: Suzuko
   ko: 스즈코
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/미모리 스즈코
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%B8%89%E6%A3%AE%E3%81%99%E3%81%9A%E3%81%93
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

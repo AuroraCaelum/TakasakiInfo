@@ -2,7 +2,7 @@ id: aqours/no-10
 project: aqours
 title:
   ja: No.10
-  kana: ''
+  kana: ナンバーテン
   rom: No.10
   ko: No.10
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: No.10 (Off Vocal)
-      kana: ''
+      kana: ナンバーテン (オフボーカル)
       rom: No.11 (Off Vocal)
       ko: No.12 (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -134,3 +137,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

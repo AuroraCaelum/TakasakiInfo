@@ -2,7 +2,7 @@ id: aqours/phantom-rocket-adventure
 project: aqours
 title:
   ja: Phantom Rocket Adventure
-  kana: ''
+  kana: ファントム ロケット アドベンチャー
   rom: Phantom Rocket Adventure
   ko: Phantom Rocket Adventure
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Phantom Rocket Adventure (Off Vocal)
-      kana: ''
+      kana: ファントム ロケット アドベンチャー (オフボーカル)
       rom: Phantom Rocket Adventure (Off Vocal)
       ko: Phantom Rocket Adventure (Off Vocal)
     version: Off Vocal
@@ -41,8 +41,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd35
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

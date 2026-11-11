@@ -1,14 +1,17 @@
 id: kenta-urashima
 names:
   ja: 浦島 健太
+  kana: うらしま けんた
   rom: Kenta Urashima
   ko: 우라시마 켄타
 family_name:
   ja: 浦島
+  kana: うらしま
   rom: Urashima
   ko: 우라시마
 given_name:
   ja: 健太
+  kana: けんた
   rom: Kenta
   ko: 켄타
 evidence:
@@ -30,3 +33,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E6%B5%A6%E5%B3%B6%E5%81%A5%E5%A4%AA
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ウラシマケンタ 일치(虹ヶ咲 곡)

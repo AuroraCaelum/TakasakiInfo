@@ -2,6 +2,7 @@ id: ikizulive/dekoboko-quartet
 project: ikizulive
 title:
   ja: 凸凹Quartet
+  kana: でこぼこカルテット
   rom: Dekoboko Quartet
   ko: 울퉁불퉁 Quartet
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 凸凹Quartet (Off Vocal)
+      kana: でこぼこカルテット (オフボーカル)
       rom: Dekoboko Quartet (Off Vocal)
       ko: 울퉁불퉁 Quartet (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_5925
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

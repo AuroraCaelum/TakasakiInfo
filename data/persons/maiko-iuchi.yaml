@@ -1,14 +1,17 @@
 id: maiko-iuchi
 names:
   ja: 井内 舞子
+  kana: いうち まいこ
   rom: Maiko Iuchi
   ko: 이우치 마이코
 family_name:
   ja: 井内
+  kana: いうち
   rom: Iuchi
   ko: 이우치
 given_name:
   ja: 舞子
+  kana: まいこ
   rom: Maiko
   ko: 마이코
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%BA%95%E5%86%85%E8%88%9E%E5%AD%90
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID イウチマイコ 일치

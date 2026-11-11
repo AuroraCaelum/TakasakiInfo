@@ -2,7 +2,7 @@ id: aqours/lonely-tuning
 project: aqours
 title:
   ja: LONELY TUNING
-  kana: ''
+  kana: ロンリー チューニング
   rom: LONELY TUNING
   ko: LONELY TUNING
 credits:
@@ -28,7 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: LONELY TUNING (Off Vocal)
-      kana: ''
+      kana: ロンリー チューニング (オフボーカル)
       rom: LONELY TUNING (Off Vocal)
       ko: LONELY TUNING (Off Vocal)
     version: Off Vocal
@@ -43,9 +43,15 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
         checked: 2026-10-19
         note: 'Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡·가창: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 편곡 표기와 아티스트 AZALEA. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv1st/#houjin에도 AZALEA 録り下ろし新曲CD로 게재'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
     checked: 2026-10-19
     note: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 작사·작곡 표기. 공식 BD 페이지는 크레딧 미게재
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: liella/musubu-melody
 project: liella
 title:
   ja: 結ぶメロディ
+  kana: むすぶメロディ
   rom: Musubu Melody
   ko: 잇는 멜로디
 credits:
@@ -30,3 +31,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

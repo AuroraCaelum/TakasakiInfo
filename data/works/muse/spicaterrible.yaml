@@ -2,6 +2,7 @@ id: muse/spicaterrible
 project: muse
 title:
   ja: スピカテリブル
+  kana: スピカテリブル
   rom: Spicaterrible
   ko: 스피카 테러블
 credits:
@@ -36,3 +37,6 @@ evidence:
     source: https://music.youtube.com/watch?v=27LDRr3h33g
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,7 +2,7 @@ id: aqours/jingle-bells-ga-tomaranai
 project: aqours
 title:
   ja: ジングルベルがとまらない
-  kana: ''
+  kana: ジングルベルがとまらない
   rom: Jingle Bells ga Tomaranai
   ko: 징글벨이 멈추지 않아
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ジングルベルがとまらない (Off Vocal)
-      kana: ''
+      kana: ジングルベルがとまらない (オフボーカル)
       rom: Jingle Bells ga Tomaranai (Off Vocal)
       ko: 징글벨이 멈추지 않아 (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd11
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -134,3 +137,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd11
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

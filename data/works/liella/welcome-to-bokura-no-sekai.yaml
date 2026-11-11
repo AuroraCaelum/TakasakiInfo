@@ -50,6 +50,7 @@ recordings:
   - id: tv-size
     title:
       ja: Welcome to 僕らのセカイ 〜TV Size〜
+      kana: ウェルカム・トゥ・ぼくらのセカイ 〜ティーブイ サイズ〜
       rom: Welcome to Bokura no Sekai ~TV Size~
       ko: Welcome to 우리들의 세계 ~TV Size~
     version: TV Size
@@ -67,6 +68,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd26.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

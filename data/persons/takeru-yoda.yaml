@@ -1,14 +1,17 @@
 id: takeru-yoda
 names:
   ja: 要田 健
+  kana: ようだ たける
   rom: Takeru Yoda
   ko: 요다 타케루
 family_name:
   ja: 要田
+  kana: ようだ
   rom: Yoda
   ko: 요다
 given_name:
   ja: 健
+  kana: たける
   rom: Takeru
   ko: 타케루
 evidence:
@@ -24,3 +27,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E8%A6%81%E7%94%B0%E5%81%A5
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

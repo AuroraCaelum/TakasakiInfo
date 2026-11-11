@@ -2,14 +2,17 @@ id: nijigasaki/karin-asaka
 project: nijigasaki
 names:
   ja: 朝香 果林
+  kana: あさか かりん
   rom: Karin Asaka
   ko: 아사카 카린
 family_name:
   ja: 朝香
+  kana: あさか
   rom: Asaka
   ko: 아사카
 given_name:
   ja: 果林
+  kana: かりん
   rom: Karin
   ko: 카린
 casting:
@@ -33,3 +36,8 @@ evidence:
   name_parts:
     status: derived
     note: 전체 이름에서 분리 (D26)
+  names.kana:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/about_nijigasaki.php#karin
+    checked: 2026-11-11
+    note: 공식 멤버 페이지(about_nijigasaki) 루비

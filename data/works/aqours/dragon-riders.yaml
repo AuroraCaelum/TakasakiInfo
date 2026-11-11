@@ -2,6 +2,7 @@ id: aqours/dragon-riders
 project: aqours
 title:
   ja: ドラゴンライダーズ
+  kana: ドラゴンライダーズ
   rom: Dragon Riders
   ko: 드래곤 라이더즈
 credits:
@@ -47,3 +48,6 @@ evidence:
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php
     checked: 2026-10-18
     note: ja는 공식 크레딧 표기 (クラムボン), rom·ko는 공식 라틴 표기 clammbon
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

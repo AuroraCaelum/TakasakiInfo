@@ -3,6 +3,7 @@ kind: unit
 projects: [ikizulive]
 names:
   ja: 恋文乙女純情派
+  kana: こいぶみおとめじゅんじょうは
   rom: Koibumi Otome Junjouha
   ko: 연문처녀순정파
 lineups:
@@ -17,3 +18,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_6314
     checked: 2026-10-18
+  names.kana:
+    status: derived
+    note: '읽기가 하나뿐이라 자동 승인: rom Koibumi Otome Junjouha대로 (D58, 2026-11-11)'

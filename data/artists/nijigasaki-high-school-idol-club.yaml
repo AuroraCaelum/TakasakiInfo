@@ -3,6 +3,7 @@ kind: group
 projects: [nijigasaki, liella]
 names:
   ja: 虹ヶ咲学園スクールアイドル同好会
+  kana: にじがさきがくえんスクールアイドルどうこうかい
   rom: Nijigasaki High School Idol Club
   ko: 니지가사키 학원 스쿨 아이돌 동호회
 evidence:
@@ -20,3 +21,6 @@ evidence:
     source: https://namu.wiki/w/니지가사키 학원 스쿨 아이돌 동호회
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: derived
+    note: '읽기가 하나뿐이라 자동 승인: rom대로(虹ヶ咲学園 = にじがさきがくえん, 승인된 곡명 읽기와 같음) (D58, 2026-11-11)'

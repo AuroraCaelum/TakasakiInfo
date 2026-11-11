@@ -2,6 +2,7 @@ id: muse/yuujou-no-change
 project: muse
 title:
   ja: 友情ノーチェンジ
+  kana: ゆうじょうノーチェンジ
   rom: Yuujou No Change
   ko: 우정 노 체인지
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 友情ノーチェンジ (Off Vocal)
+      kana: ゆうじょうノーチェンジ (オフボーカル)
       rom: Yuujou No Change (Off Vocal)
       ko: 우정 노 체인지 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: 友情ノーチェンジ (UMI MIX)
+      kana: ゆうじょうノーチェンジ (ウミ ミックス)
       rom: Yuujou No Change (UMI MIX)
       ko: 우정 노 체인지 (UMI MIX)
     version: UMI MIX
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: 友情ノーチェンジ (KOTORI Mix)
+      kana: ゆうじょうノーチェンジ (コトリ ミックス)
       rom: Yuujou No Change (KOTORI Mix)
       ko: 우정 노 체인지 (KOTORI Mix)
     version: KOTORI Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: 友情ノーチェンジ (HONOKA Mix)
+      kana: ゆうじょうノーチェンジ (ホノカ ミックス)
       rom: Yuujou No Change (HONOKA Mix)
       ko: 우정 노 체인지 (HONOKA Mix)
     version: HONOKA Mix
@@ -83,10 +97,14 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: bgm
     kind: instrumental
     title:
       ja: 友情ノーチェンジ (BGM)
+      kana: ゆうじょうノーチェンジ (ビージーエム)
       rom: Yuujou No Change (BGM)
       ko: 우정 노 체인지 (BGM)
     version: BGM
@@ -96,9 +114,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
         checked: 2026-10-26
         note: '공식 페이지의 （BGM）: 곡의 BGM 편곡(가창 없음)'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: 友情ノーチェンジ (NOZOMI Mix)
+      kana: ゆうじょうノーチェンジ (ノゾミ ミックス)
       rom: Yuujou No Change (NOZOMI Mix)
       ko: 우정 노 체인지 (NOZOMI Mix)
     version: NOZOMI Mix
@@ -112,9 +134,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: 友情ノーチェンジ (NICO Mix)
+      kana: ゆうじょうノーチェンジ (ニコ ミックス)
       rom: Yuujou No Change (NICO Mix)
       ko: 우정 노 체인지 (NICO Mix)
     version: NICO Mix
@@ -128,9 +154,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: 友情ノーチェンジ (MAKI Mix)
+      kana: ゆうじょうノーチェンジ (マキ ミックス)
       rom: Yuujou No Change (MAKI Mix)
       ko: 우정 노 체인지 (MAKI Mix)
     version: MAKI Mix
@@ -144,9 +174,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: 友情ノーチェンジ (ELI Mix)
+      kana: ゆうじょうノーチェンジ (エリ ミックス)
       rom: Yuujou No Change (ELI Mix)
       ko: 우정 노 체인지 (ELI Mix)
     version: ELI Mix
@@ -160,9 +194,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: 友情ノーチェンジ (RIN Mix)
+      kana: ゆうじょうノーチェンジ (リン ミックス)
       rom: Yuujou No Change (RIN Mix)
       ko: 우정 노 체인지 (RIN Mix)
     version: RIN Mix
@@ -176,9 +214,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: 友情ノーチェンジ (HANAYO Mix)
+      kana: ゆうじょうノーチェンジ (ハナヨ ミックス)
       rom: Yuujou No Change (HANAYO Mix)
       ko: 우정 노 체인지 (HANAYO Mix)
     version: HANAYO Mix
@@ -192,6 +234,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd01)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -202,3 +247,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

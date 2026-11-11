@@ -27,6 +27,7 @@ recordings:
   - id: 104th-ver
     title:
       ja: 水彩世界 (104期 Ver.)
+      kana: すいさいせかい (ひゃくよんき ヴァージョン)
       rom: Suisai Sekai (104th Ver.)
       ko: 수채화 세계 (104기 Ver.)
     version: 104期 Ver.
@@ -39,6 +40,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_4750
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

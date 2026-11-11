@@ -1,14 +1,17 @@
 id: yurika-kubo
 names:
   ja: 久保ユリカ
+  kana: くぼ ゆりか
   rom: Yurika Kubo
   ko: 쿠보 유리카
 family_name:
   ja: 久保
+  kana: くぼ
   rom: Kubo
   ko: 쿠보
 given_name:
   ja: ユリカ
+  kana: ゆりか
   rom: Yurika
   ko: 유리카
 evidence:
@@ -30,3 +33,8 @@ evidence:
     source: https://namu.wiki/w/쿠보 유리카
     checked: 2026-10-19
     note: 나무위키 문서 제목
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E4%B9%85%E4%BF%9D%E3%83%A6%E3%83%AA%E3%82%AB
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기 (くぼ ユリカ → 히라가나 변환; 본명 久保由利香)

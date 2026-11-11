@@ -2,6 +2,7 @@ id: hasunosora/yuki-mau-sora-to-nibyou-no-eien
 project: hasunosora
 title:
   ja: 雪舞う空と二秒の永遠
+  kana: ゆきまうそらとにびょうのえいえん
   rom: Yuki Mau Sora to Nibyou no Eien
   ko: 눈 흩날리는 하늘과 2초의 영원
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 雪舞う空と二秒の永遠 (Off Vocal)
+      kana: ゆきまうそらとにびょうのえいえん (オフボーカル)
       rom: Yuki Mau Sora to Nibyou no Eien (Off Vocal)
       ko: 눈 흩날리는 하늘과 2초의 영원 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5686
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,7 +2,7 @@ id: aqours/believe-again
 project: aqours
 title:
   ja: Believe again
-  kana: ''
+  kana: ビリーブ アゲイン
   rom: Believe again
   ko: Believe again
 credits:
@@ -24,6 +24,7 @@ recordings:
   - id: movie-size
     title:
       ja: Believe again (MOVIEサイズ)
+      kana: ビリーブ アゲイン (ムービーサイズ)
       rom: Believe again (MOVIE Size)
       ko: Believe again (MOVIE 사이즈)
     version: MOVIEサイズ
@@ -37,8 +38,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd29
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

@@ -2,6 +2,7 @@ id: liella/gusokumushi-no-uta
 project: liella
 title:
   ja: グソクムシのうた
+  kana: グソクムシのうた
   rom: Gusokumushi no Uta
   ko: 구족충의 노래
 recordings:
@@ -16,6 +17,7 @@ recordings:
   - id: kayou-ver
     title:
       ja: グソクムシのうた 〜歌謡Ver.〜
+      kana: グソクムシのうた 〜かようヴァージョン〜
       rom: Gusokumushi no Uta ~Kayou Ver.~
       ko: 구족충의 노래 ~가요 Ver.~
     version: 歌謡Ver.
@@ -26,8 +28,14 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
     checked: 2026-11-05
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

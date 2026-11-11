@@ -62,6 +62,7 @@ recordings:
   - id: tv-anime-insert-song-ver
     title:
       ja: Love U my friends (TVアニメ挿入歌Ver.)
+      kana: ラブ・ユー・マイ・フレンズ (ティーブイアニメそうにゅうかヴァージョン)
       rom: Love U my friends (TV Anime Insert Song Ver.)
       ko: Love U my friends (TV 애니메이션 삽입곡 Ver.)
     version: TVアニメ挿入歌Ver.
@@ -75,10 +76,14 @@ recordings:
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
         checked: 2026-10-26
         note: '가창자: 공식 미게재. 이 버전이 줄인 음원(9-members-ver)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(9-members-ver)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:
       ja: Love U my friends (Off Vocal)
+      kana: ラブ・ユー・マイ・フレンズ (オフボーカル)
       rom: Love U my friends (Off Vocal)
       ko: Love U my friends (Off Vocal)
     version: Off Vocal
@@ -90,6 +95,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73508/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

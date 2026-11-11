@@ -2,6 +2,7 @@ id: liella/zenryoku-riot
 project: liella
 title:
   ja: 全力ライオット
+  kana: ぜんりょくライオット
   rom: Zenryoku Riot
   ko: 전력 라이엇
 credits:
@@ -25,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 全力ライオット (Off Vocal)
+      kana: ぜんりょくライオット (オフボーカル)
       rom: Zenryoku Riot (Off Vocal)
       ko: 전력 라이엇 (Off Vocal)
     version: Off Vocal
@@ -36,6 +38,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -46,3 +51,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

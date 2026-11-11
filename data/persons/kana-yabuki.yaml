@@ -1,14 +1,17 @@
 id: kana-yabuki
 names:
   ja: 矢吹 香那
+  kana: やぶき かな
   rom: Kana Yabuki
   ko: 야부키 카나
 family_name:
   ja: 矢吹
+  kana: やぶき
   rom: Yabuki
   ko: 야부키
 given_name:
   ja: 香那
+  kana: かな
   rom: Kana
   ko: 카나
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E7%9F%A2%E5%90%B9%E9%A6%99%E9%82%A3
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기; J-WID ヤブキカナ 일치

@@ -2,7 +2,7 @@ id: aqours/sakanakanandaka
 project: aqours
 title:
   ja: さかなかなんだか？
-  kana: ''
+  kana: さかなかなんだか？
   rom: Sakanakanandaka?
   ko: 물고기 카난일까?
 credits:
@@ -26,7 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: さかなかなんだか？ (Off Vocal)
-      kana: ''
+      kana: さかなかなんだか？ (オフボーカル)
       rom: Sakanakanandaka? (Off Vocal)
       ko: 물고기 카난일까? (Off Vocal)
     version: Off Vocal
@@ -41,9 +41,15 @@ recordings:
         source: https://ja.wikipedia.org/wiki/Aqours#2期Blu-ray特典CD
         checked: 2026-10-19
         note: 'Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡 공식 미게재(공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd06는 곡명·가창만 게재, 가창은 공식과 일치). ja.wikipedia Aqours 문서 2期Blu-ray特典CD의 편곡·가창 표기(Fandom도 같은 편곡자)'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: established
     source: https://utaten.com/lyric/ma21021044/
     checked: 2026-10-19
     note: 공식 미게재(공식 BD·CD 페이지에 작곡 크레딧 없음). utaten 가사 페이지(松浦果南(諏訪ななか) from Aqours)의 작사·작곡 표기
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

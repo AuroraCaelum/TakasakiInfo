@@ -2,6 +2,7 @@ id: hasunosora/retrofuture
 project: hasunosora
 title:
   ja: Retrofuture
+  kana: レトロフューチャー
   rom: Retrofuture
   ko: Retrofuture
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Retrofuture (Off Vocal)
+      kana: レトロフューチャー (オフボーカル)
       rom: Retrofuture (Off Vocal)
       ko: Retrofuture (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/36/
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/36/
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

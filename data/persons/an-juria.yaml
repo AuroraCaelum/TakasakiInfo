@@ -1,14 +1,17 @@
 id: an-juria
 names:
   ja: 杏ジュリア
+  kana: あん じゅりあ
   rom: An Julia
   ko: 안 쥬리아
 family_name:
   ja: 杏
+  kana: あん
   rom: An
   ko: 안
 given_name:
   ja: ジュリア
+  kana: じゅりあ
   rom: Julia
   ko: 쥬리아
 evidence:
@@ -28,3 +31,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www.stardust.co.jp/talent/section3/anjulia/
+    checked: 2026-11-11
+    note: 소속사(スターダスト) 프로필 가타카나 읽기; 이름 분할은 위키백과(あん ジュリア) 기준

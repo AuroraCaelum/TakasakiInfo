@@ -2,6 +2,7 @@ id: aqours/minamo-ni-piano
 project: aqours
 title:
   ja: 水面にピアノ
+  kana: みなもにピアノ
   rom: Minamo ni Piano
   ko: 수면에 피아노
 credits:
@@ -30,3 +31,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd74
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

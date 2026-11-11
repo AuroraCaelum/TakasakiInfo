@@ -2,6 +2,7 @@ id: external/as-time-goes-by
 project: external
 title:
   ja: As Time Goes By
+  kana: アズ タイム ゴーズ バイ
   rom: As Time Goes By
   ko: As Time Goes By
 credits:
@@ -23,6 +24,7 @@ recordings:
   - id: refrain
     title:
       ja: As Time Goes By (リフレイン)
+      kana: アズ タイム ゴーズ バイ (リフレイン)
       rom: As Time Goes By (Refrain)
       ko: As Time Goes By (리프레인)
     version: リフレイン
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -44,3 +49,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd57
     checked: 2026-10-27
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

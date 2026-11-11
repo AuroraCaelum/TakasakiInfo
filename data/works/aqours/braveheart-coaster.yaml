@@ -2,7 +2,7 @@ id: aqours/braveheart-coaster
 project: aqours
 title:
   ja: Braveheart Coaster
-  kana: ''
+  kana: ブレイブハート コースター
   rom: Braveheart Coaster
   ko: Braveheart Coaster
 credits:
@@ -27,7 +27,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Braveheart Coaster (Off Vocal)
-      kana: ''
+      kana: ブレイブハート コースター (オフボーカル)
       rom: Braveheart Coaster (Off Vocal)
       ko: Braveheart Coaster (Off Vocal)
     version: Off Vocal
@@ -41,9 +41,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: remix
     title:
       ja: Braveheart Coaster REMIX
+      kana: ブレイブハート コースター リミックス
       rom: Braveheart Coaster REMIX
       ko: Braveheart Coaster REMIX
     version: REMIX
@@ -59,8 +63,14 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php
         checked: 2026-10-18
         note: 리믹서
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

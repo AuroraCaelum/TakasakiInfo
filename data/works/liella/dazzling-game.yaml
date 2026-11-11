@@ -2,6 +2,7 @@ id: liella/dazzling-game
 project: liella
 title:
   ja: Dazzling Game
+  kana: ダズリング ゲーム
   rom: Dazzling Game
   ko: Dazzling Game
 credits:
@@ -28,6 +29,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Dazzling Game (Off Vocal)
+      kana: ダズリング ゲーム (オフボーカル)
       rom: Dazzling Game (Off Vocal)
       ko: Dazzling Game (Off Vocal)
     version: Off Vocal
@@ -41,9 +43,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: Dazzling Game ～TV Size～
+      kana: ダズリング ゲーム ～ティーブイ サイズ～
       rom: Dazzling Game ~TV Size~
       ko: Dazzling Game ~TV Size~
     version: TV Size
@@ -61,6 +67,9 @@ recordings:
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -70,3 +79,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

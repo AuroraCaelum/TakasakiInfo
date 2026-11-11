@@ -44,6 +44,7 @@ recordings:
   - id: remix
     title:
       ja: TORIKORIKO PLEASE!! REMIX
+      kana: トリコリコ プリーズ!! リミックス
       rom: TORIKORIKO PLEASE!! REMIX
       ko: TORIKORIKO PLEASE!! REMIX
     version: REMIX
@@ -59,6 +60,9 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php
         checked: 2026-10-18
         note: 리믹서
+      title.kana:
+        status: derived
+        note: 제목이 곡 제목과 달라 전체를 읽음(D58)
 evidence:
   credits:
     status: official

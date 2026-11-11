@@ -2,7 +2,7 @@ id: aqours/wonderful-stories
 project: aqours
 title:
   ja: WONDERFUL STORIES
-  kana: ''
+  kana: ワンダフル ストーリーズ
   rom: WONDERFUL STORIES
   ko: WONDERFUL STORIES
 credits:
@@ -25,7 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: WONDERFUL STORIES (Off Vocal)
-      kana: ''
+      kana: ワンダフル ストーリーズ (オフボーカル)
       rom: WONDERFUL STORIES (Off Vocal)
       ko: WONDERFUL STORIES (Off Vocal)
     version: Off Vocal
@@ -39,6 +39,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -132,6 +135,7 @@ recordings:
   - id: tv-size
     title:
       ja: WONDERFUL STORIES (TVサイズ)
+      kana: ワンダフル ストーリーズ (ティーブイサイズ)
       rom: WONDERFUL STORIES (TV Size)
       ko: WONDERFUL STORIES (TV 사이즈)
     version: TVサイズ
@@ -145,9 +149,13 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24
         checked: 2026-10-26
         note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: WONDERFUL STORIES (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
+      kana: ワンダフル ストーリーズ (ラブライブ！サンシャイン!! アクア フィナーレ ラブライブ! ～えいきゅうステージ～ ヴァージョン)
       rom: WONDERFUL STORIES (Love Live! Sunshine!! Aqours Finale LoveLive! ~EIKYU stage~ Ver.)
       ko: WONDERFUL STORIES (러브 라이브! 선샤인!! Aqours Finale LoveLive! ~영구stage~ Ver.)
     version: ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.
@@ -164,8 +172,14 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd23
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

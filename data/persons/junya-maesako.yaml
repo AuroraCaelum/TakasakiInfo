@@ -1,14 +1,17 @@
 id: junya-maesako
 names:
   ja: 前迫 潤哉
+  kana: まえさこ じゅんや
   rom: Junya Maesako
   ko: 마에사코 준야
 family_name:
   ja: 前迫
+  kana: まえさこ
   rom: Maesako
   ko: 마에사코
 given_name:
   ja: 潤哉
+  kana: じゅんや
   rom: Junya
   ko: 준야
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: official
+    source: https://www.maesakojunya.net/
+    checked: 2026-11-11
+    note: 본인 공식 사이트 표기; 위키백과·J-WID 동일

@@ -2,6 +2,7 @@ id: hasunosora/otome-anthology
 project: hasunosora
 title:
   ja: 乙女詞華集
+  kana: おとめアンソロジー
   rom: Otome Anthology
   ko: 오토메 앤솔로지
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: 乙女詞華集 (Off Vocal)
+      kana: おとめアンソロジー (オフボーカル)
       rom: Otome Anthology (Off Vocal)
       ko: 오토메 앤솔로지 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
         checked: 2026-10-19
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -55,3 +60,8 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5238
     checked: 2026-10-19
+  title.kana:
+    status: derived
+    source: https://zh.moegirl.org.cn/%E4%B9%99%E5%A5%B3%E8%AF%8D%E5%8D%8E%E9%9B%86
+    checked: 2026-11-11
+    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'

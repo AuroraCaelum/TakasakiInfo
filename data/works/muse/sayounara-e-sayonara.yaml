@@ -2,6 +2,7 @@ id: muse/sayounara-e-sayonara
 project: muse
 title:
   ja: さようならへさよなら！
+  kana: さようならへさよなら！
   rom: Sayounara e Sayonara!
   ko: 안녕이라는 말에 안녕!
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: さようならへさよなら！ (Off Vocal)
+      kana: さようならへさよなら！ (オフボーカル)
       rom: Sayounara e Sayonara! (Off Vocal)
       ko: 안녕이라는 말에 안녕! (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: さようならへさよなら！ (NICO Mix)
+      kana: さようならへさよなら！ (ニコ ミックス)
       rom: Sayounara e Sayonara! (NICO Mix)
       ko: 안녕이라는 말에 안녕! (NICO Mix)
     version: NICO Mix
@@ -51,9 +57,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: さようならへさよなら！ (HANAYO Mix)
+      kana: さようならへさよなら！ (ハナヨ ミックス)
       rom: Sayounara e Sayonara! (HANAYO Mix)
       ko: 안녕이라는 말에 안녕! (HANAYO Mix)
     version: HANAYO Mix
@@ -67,9 +77,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: さようならへさよなら！ (NOZOMI Mix)
+      kana: さようならへさよなら！ (ノゾミ ミックス)
       rom: Sayounara e Sayonara! (NOZOMI Mix)
       ko: 안녕이라는 말에 안녕! (NOZOMI Mix)
     version: NOZOMI Mix
@@ -83,9 +97,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: さようならへさよなら！ (MAKI Mix)
+      kana: さようならへさよなら！ (マキ ミックス)
       rom: Sayounara e Sayonara! (MAKI Mix)
       ko: 안녕이라는 말에 안녕! (MAKI Mix)
     version: MAKI Mix
@@ -99,9 +117,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: さようならへさよなら！ (RIN Mix)
+      kana: さようならへさよなら！ (リン ミックス)
       rom: Sayounara e Sayonara! (RIN Mix)
       ko: 안녕이라는 말에 안녕! (RIN Mix)
     version: RIN Mix
@@ -115,9 +137,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: さようならへさよなら！ (UMI Mix)
+      kana: さようならへさよなら！ (ウミ ミックス)
       rom: Sayounara e Sayonara! (UMI Mix)
       ko: 안녕이라는 말에 안녕! (UMI Mix)
     version: UMI Mix
@@ -131,9 +157,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: さようならへさよなら！ (KOTORI Mix)
+      kana: さようならへさよなら！ (コトリ ミックス)
       rom: Sayounara e Sayonara! (KOTORI Mix)
       ko: 안녕이라는 말에 안녕! (KOTORI Mix)
     version: KOTORI Mix
@@ -147,9 +177,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: さようならへさよなら！ (ELI Mix)
+      kana: さようならへさよなら！ (エリ ミックス)
       rom: Sayounara e Sayonara! (ELI Mix)
       ko: 안녕이라는 말에 안녕! (ELI Mix)
     version: ELI Mix
@@ -163,9 +197,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: さようならへさよなら！ (HONOKA Mix)
+      kana: さようならへさよなら！ (ホノカ ミックス)
       rom: Sayounara e Sayonara! (HONOKA Mix)
       ko: 안녕이라는 말에 안녕! (HONOKA Mix)
     version: HONOKA Mix
@@ -179,6 +217,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd67)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -189,3 +230,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd67
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

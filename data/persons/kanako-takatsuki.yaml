@@ -1,14 +1,17 @@
 id: kanako-takatsuki
 names:
   ja: 高槻かなこ
+  kana: たかつき かなこ
   rom: Kanako Takatsuki
   ko: 타카츠키 카나코
 family_name:
   ja: 高槻
+  kana: たかつき
   rom: Takatsuki
   ko: 타카츠키
 given_name:
   ja: かなこ
+  kana: かなこ
   rom: Kanako
   ko: 카나코
 evidence:
@@ -29,3 +32,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A7%BB%E3%81%8B%E3%81%AA%E3%81%93
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

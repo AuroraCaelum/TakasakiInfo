@@ -2,6 +2,7 @@ id: nijigasaki/wake-up
 project: nijigasaki
 title:
   ja: Wake Up!!
+  kana: ウェイク アップ!!
   rom: Wake Up!!
   ko: Wake Up!!
 credits:
@@ -27,6 +28,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Wake Up!! (Off Vocal)
+      kana: ウェイク アップ!! (オフボーカル)
       rom: Wake Up!! (Off Vocal)
       ko: Wake Up!! (Off Vocal)
     version: Off Vocal
@@ -39,6 +41,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -48,3 +53,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4730
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

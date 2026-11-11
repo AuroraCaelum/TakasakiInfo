@@ -2,6 +2,7 @@ id: ikizulive/little-green-iinkai
 project: ikizulive
 title:
   ja: Little Green委員会
+  kana: リトル グリーンいいんかい
   rom: Little Green Iinkai
   ko: Little Green 위원회
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: Little Green委員会 (Off Vocal)
+      kana: リトル グリーンいいんかい (オフボーカル)
       rom: Little Green Iinkai (Off Vocal)
       ko: Little Green 위원회 (Off Vocal)
     version: Off Vocal
@@ -35,6 +37,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
         checked: 2026-10-18
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -45,3 +50,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4705
     checked: 2026-10-18
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

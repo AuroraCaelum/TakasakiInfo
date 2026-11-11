@@ -2,6 +2,7 @@ id: muse/puwa-puwa-o
 project: muse
 title:
   ja: ぷわぷわーお！
+  kana: ぷわぷわーお！
   rom: Puwa Puwa-O!
   ko: 푹신푹신~오!
 credits:
@@ -30,6 +31,7 @@ recordings:
     kind: off_vocal
     title:
       ja: ぷわぷわーお！ (Off Vocal)
+      kana: ぷわぷわーお！ (オフボーカル)
       rom: Puwa Puwa-O! (Off Vocal)
       ko: 푹신푹신~오! (Off Vocal)
     version: Off Vocal
@@ -42,9 +44,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/bd/
         checked: 2026-10-20
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: ぷわぷわーお！ (HONOKA Mix)
+      kana: ぷわぷわーお！ (ホノカ ミックス)
       rom: Puwa Puwa-O! (HONOKA Mix)
       ko: 푹신푹신~오! (HONOKA Mix)
     version: HONOKA Mix
@@ -58,9 +64,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72703/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: ぷわぷわーお！ (KOTORI Mix)
+      kana: ぷわぷわーお！ (コトリ ミックス)
       rom: Puwa Puwa-O! (KOTORI Mix)
       ko: 푹신푹신~오! (KOTORI Mix)
     version: KOTORI Mix
@@ -74,9 +84,13 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72706/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: ぷわぷわーお！ (HANAYO Mix)
+      kana: ぷわぷわーお！ (ハナヨ ミックス)
       rom: Puwa Puwa-O! (HANAYO Mix)
       ko: 푹신푹신~오! (HANAYO Mix)
     version: HANAYO Mix
@@ -90,6 +104,9 @@ recordings:
         source: https://catalog.bandainamcomusiclive.co.jp/release/72711/
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/bd/)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -101,3 +118,6 @@ evidence:
     source: https://music.youtube.com/watch?v=cEwaG2odTYk
     checked: 2026-10-20
     note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

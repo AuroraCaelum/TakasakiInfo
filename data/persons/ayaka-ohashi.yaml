@@ -1,14 +1,17 @@
 id: ayaka-ohashi
 names:
   ja: 大橋 彩香
+  kana: おおはし あやか
   rom: Ayaka Ohashi
   ko: 오오하시 아야카
 family_name:
   ja: 大橋
+  kana: おおはし
   rom: Ohashi
   ko: 오오하시
 given_name:
   ja: 彩香
+  kana: あやか
   rom: Ayaka
   ko: 아야카
 evidence:
@@ -20,3 +23,8 @@ evidence:
   name_parts:
     status: derived
     note: '성·이름 분리: 리뷰에서 확인 (D28)'
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%BD%A9%E9%A6%99
+    checked: 2026-11-11
+    note: 위키백과 표제 읽기

@@ -2,6 +2,7 @@ id: muse/listen-to-my-heart
 project: muse
 title:
   ja: Listen to my heart!!
+  kana: リッスン トゥ マイ ハート!!
   rom: Listen to my heart!!
   ko: Listen to my heart!!
 credits:
@@ -23,6 +24,7 @@ recordings:
   - id: rin-mix
     title:
       ja: Listen to my heart!! (RIN Mix)
+      kana: リッスン トゥ マイ ハート!! (リン ミックス)
       rom: Listen to my heart!! (RIN Mix)
       ko: Listen to my heart!! (RIN Mix)
     version: RIN Mix
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd35
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: Listen to my heart!! (HANAYO Mix)
+      kana: リッスン トゥ マイ ハート!! (ハナヨ ミックス)
       rom: Listen to my heart!! (HANAYO Mix)
       ko: Listen to my heart!! (HANAYO Mix)
     version: HANAYO Mix
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd38
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: Listen to my heart!! (NICO Mix)
+      kana: リッスン トゥ マイ ハート!! (ニコ ミックス)
       rom: Listen to my heart!! (NICO Mix)
       ko: Listen to my heart!! (NICO Mix)
     version: NICO Mix
@@ -65,10 +75,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd39
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: Listen to my heart!! (Off Vocal)
+      kana: リッスン トゥ マイ ハート!! (オフボーカル)
       rom: Listen to my heart!! (Off Vocal)
       ko: Listen to my heart!! (Off Vocal)
     version: Off Vocal
@@ -80,6 +94,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -89,3 +106,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd16
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

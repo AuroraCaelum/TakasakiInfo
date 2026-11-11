@@ -2,6 +2,7 @@ id: nijigasaki/nijigasaki-gakuen-kouka
 project: nijigasaki
 title:
   ja: 虹ヶ咲学園校歌
+  kana: にじがさきがくえんこうか
   rom: Nijigasaki Gakuen Kouka
   ko: 니지가사키 학원 교가
 credits:
@@ -14,6 +15,7 @@ recordings:
   - id: rock-ver
     title:
       ja: 虹ヶ咲学園校歌 (Rock Ver.)
+      kana: にじがさきがくえんこうか (ロック ヴァージョン)
       rom: Nijigasaki Gakuen Kouka (Rock Ver.)
       ko: 니지가사키 학원 교가 (Rock Ver.)
     version: Rock Ver.
@@ -26,9 +28,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: piano-ver
     title:
       ja: 虹ヶ咲学園校歌 (Piano Ver.)
+      kana: にじがさきがくえんこうか (ピアノ ヴァージョン)
       rom: Nijigasaki Gakuen Kouka (Piano Ver.)
       ko: 니지가사키 학원 교가 (Piano Ver.)
     version: Piano Ver.
@@ -41,10 +47,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rock-ver-off-vocal
     kind: off_vocal
     title:
       ja: 虹ヶ咲学園校歌 (Rock Ver.) (Off Vocal)
+      kana: にじがさきがくえんこうか (ロック ヴァージョン) (オフボーカル)
       rom: Nijigasaki Gakuen Kouka (Rock Ver.) (Off Vocal)
       ko: 니지가사키 학원 교가 (Rock Ver.) (Off Vocal)
     version: Off Vocal
@@ -56,10 +66,14 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: piano-ver-off-vocal
     kind: off_vocal
     title:
       ja: 虹ヶ咲学園校歌 (Piano Ver.) (Off Vocal)
+      kana: にじがさきがくえんこうか (ピアノ ヴァージョン) (オフボーカル)
       rom: Nijigasaki Gakuen Kouka (Piano Ver.) (Off Vocal)
       ko: 니지가사키 학원 교가 (Piano Ver.) (Off Vocal)
     version: Off Vocal
@@ -71,6 +85,9 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -81,3 +98,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd60
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)

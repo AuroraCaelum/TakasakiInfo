@@ -26,6 +26,7 @@ recordings:
     kind: off_vocal
     title:
       ja: チェリーボム (Off Vocal)
+      kana: チェリーボム (オフボーカル)
       rom: Cherry Bomb (Off Vocal)
       ko: 체리 밤 (Off Vocal)
     version: Off Vocal
@@ -37,6 +38,9 @@ recordings:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/84143/
         checked: 2026-10-27
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   credits:
     status: official

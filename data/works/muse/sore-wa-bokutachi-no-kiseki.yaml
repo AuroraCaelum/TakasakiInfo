@@ -2,6 +2,7 @@ id: muse/sore-wa-bokutachi-no-kiseki
 project: muse
 title:
   ja: それは僕たちの奇跡
+  kana: それはぼくたちのきせき
   rom: Sore wa Bokutachi no Kiseki
   ko: 그것은 우리의 기적
 credits:
@@ -24,6 +25,7 @@ recordings:
     kind: off_vocal
     title:
       ja: それは僕たちの奇跡 (Off Vocal)
+      kana: それはぼくたちのきせき (オフボーカル)
       rom: Sore wa Bokutachi no Kiseki (Off Vocal)
       ko: 그것은 우리의 기적 (Off Vocal)
     version: Off Vocal
@@ -35,9 +37,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
         checked: 2026-10-20
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: tv-size
     title:
       ja: それは僕たちの奇跡 (TVサイズ)
+      kana: それはぼくたちのきせき (ティーブイサイズ)
       rom: Sore wa Bokutachi no Kiseki (TV Size)
       ko: 그것은 우리의 기적 (TV 사이즈)
     version: TVサイズ
@@ -50,9 +56,13 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd48
         checked: 2026-10-26
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nico-mix
     title:
       ja: それは僕たちの奇跡 (NICO Mix)
+      kana: それはぼくたちのきせき (ニコ ミックス)
       rom: Sore wa Bokutachi no Kiseki (NICO Mix)
       ko: 그것은 우리의 기적 (NICO Mix)
     version: NICO Mix
@@ -66,9 +76,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd73
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: hanayo-mix
     title:
       ja: それは僕たちの奇跡 (HANAYO Mix)
+      kana: それはぼくたちのきせき (ハナヨ ミックス)
       rom: Sore wa Bokutachi no Kiseki (HANAYO Mix)
       ko: 그것은 우리의 기적 (HANAYO Mix)
     version: HANAYO Mix
@@ -82,9 +96,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd74
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: nozomi-mix
     title:
       ja: それは僕たちの奇跡 (NOZOMI Mix)
+      kana: それはぼくたちのきせき (ノゾミ ミックス)
       rom: Sore wa Bokutachi no Kiseki (NOZOMI Mix)
       ko: 그것은 우리의 기적 (NOZOMI Mix)
     version: NOZOMI Mix
@@ -98,9 +116,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: maki-mix
     title:
       ja: それは僕たちの奇跡 (MAKI Mix)
+      kana: それはぼくたちのきせき (マキ ミックス)
       rom: Sore wa Bokutachi no Kiseki (MAKI Mix)
       ko: 그것은 우리의 기적 (MAKI Mix)
     version: MAKI Mix
@@ -114,9 +136,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd76
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: rin-mix
     title:
       ja: それは僕たちの奇跡 (RIN Mix)
+      kana: それはぼくたちのきせき (リン ミックス)
       rom: Sore wa Bokutachi no Kiseki (RIN Mix)
       ko: 그것은 우리의 기적 (RIN Mix)
     version: RIN Mix
@@ -130,9 +156,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: umi-mix
     title:
       ja: それは僕たちの奇跡 (UMI Mix)
+      kana: それはぼくたちのきせき (ウミ ミックス)
       rom: Sore wa Bokutachi no Kiseki (UMI Mix)
       ko: 그것은 우리의 기적 (UMI Mix)
     version: UMI Mix
@@ -146,9 +176,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: kotori-mix
     title:
       ja: それは僕たちの奇跡 (KOTORI Mix)
+      kana: それはぼくたちのきせき (コトリ ミックス)
       rom: Sore wa Bokutachi no Kiseki (KOTORI Mix)
       ko: 그것은 우리의 기적 (KOTORI Mix)
     version: KOTORI Mix
@@ -162,9 +196,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd79
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: eli-mix
     title:
       ja: それは僕たちの奇跡 (ELI Mix)
+      kana: それはぼくたちのきせき (エリ ミックス)
       rom: Sore wa Bokutachi no Kiseki (ELI Mix)
       ko: 그것은 우리의 기적 (ELI Mix)
     version: ELI Mix
@@ -178,9 +216,13 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd80
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
   - id: honoka-mix
     title:
       ja: それは僕たちの奇跡 (HONOKA Mix)
+      kana: それはぼくたちのきせき (ホノカ ミックス)
       rom: Sore wa Bokutachi no Kiseki (HONOKA Mix)
       ko: 그것은 우리의 기적 (HONOKA Mix)
     version: HONOKA Mix
@@ -194,6 +236,9 @@ recordings:
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd81
         checked: 2026-10-27
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd41)과 같다고 봄
+      title.kana:
+        status: derived
+        note: 곡 kana + 버전 읽기(D58)
 evidence:
   title:
     status: derived
@@ -204,3 +249,6 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd41
     checked: 2026-10-20
+  title.kana:
+    status: derived
+    note: 읽기 초안(§5.5, D58)
