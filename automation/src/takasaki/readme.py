@@ -277,7 +277,8 @@ def v1_schema() -> str:
         blocks.append(_details(f"<code>{here}</code>: {title}", body))
     refs = ("A **ref** is a reference with the names it points to: `{\"ref\": \"<kind>:<id>\", \"names\": {…}}`, "
             "plus `role`, `featured` and `joint` for a singer or `affiliation`, `fullwidth` and `role` for a credit "
-            "when they are set. A value that is not known is null.")
+            "when they are set. A credit printed under a pen name or former name has `credited_name`, and its `names` "
+            "are that name's. A value that is not known is null.")
     blocks.append(_details("<code>tracks.json</code>: one row per track of each edition, with its credits and link",
                            [refs, _view_table(TRACK_FIELDS)]))
     blocks.append(_details("<code>recordings.json</code>: one row per recording, with its credits and main link",

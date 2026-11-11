@@ -43,7 +43,7 @@ CREATE TABLE stream_link (
   source TEXT NOT NULL CHECK (source IN ('own', 'main')), PRIMARY KEY (track, platform));
 CREATE TABLE credit (
   target TEXT NOT NULL, role TEXT NOT NULL, seq INTEGER NOT NULL,
-  person TEXT REFERENCES person(id), character TEXT REFERENCES character(id), affiliation TEXT, credited_as TEXT,
+  person TEXT REFERENCES person(id), character TEXT REFERENCES character(id), affiliation TEXT, credited_as TEXT, credited_name TEXT,
   CHECK ((person IS NULL) <> (character IS NULL)), PRIMARY KEY (target, role, seq));
 CREATE TABLE performer (
   recording TEXT NOT NULL REFERENCES recording(id), seq INTEGER NOT NULL,
@@ -180,6 +180,7 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
         names(e, "given_name", p.given_name, {})
         ins("alias", *[(e, a.text, a.kind) for a in p.aliases])
         for a in p.aliases:
+            names(e, f"alias:{a.text}", a.names, {})  # a pen name or former name a credit prints (D58)
             con.execute("INSERT INTO search VALUES (?, ?, ?)", (e, a.text, match_key(a.text, person=True)))
         common(e, p)
     for c in ds.characters.values():
@@ -204,7 +205,7 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
     def credits(target: str, role: str, cs: list[m.Credit]) -> None:
         for i, c in enumerate(cs, 1):
             aff = c.affiliation if isinstance(c.affiliation, str) or c.affiliation is None else c.affiliation.ja
-            ins("credit", (target, role, i, c.person, c.character, aff, c.role.ja if c.role else None))
+            ins("credit", (target, role, i, c.person, c.character, aff, c.role.ja if c.role else None, c.credited_name))
 
     for w in ds.works.values():
         ins("work", (w.id, w.project, w.kind))

@@ -135,7 +135,8 @@ def render_performers(ds: Dataset, performers: list[m.Performer]) -> list[str]:
 
 def _credit_names(ds: Dataset, c: m.Credit) -> m.Names:
     if c.person:
-        return ds.persons[c.person].names
+        p = ds.persons[c.person]
+        return p.credited_names(c.credited_name) if c.credited_name else p.names  # a pen name prints as such (D58)
     return ds.characters[c.character].names  # type: ignore[index]
 
 

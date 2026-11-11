@@ -106,8 +106,11 @@ class Project(Strict):
 class Alias(Strict):
     text: str
     """The spelling as seen in a credit."""
-    kind: Literal["variant", "misprint", "former"] = "variant"
-    """`variant`: another spelling in use; `misprint`: a printing error; `former`: a former name."""
+    kind: Literal["variant", "misprint", "former", "pen_name"] = "variant"
+    """`variant`: another spelling in use; `misprint`: a printing error; `former`: a former name;
+    `pen_name`: another name the person works under."""
+    names: Names | None = None
+    """The name in each language, for a pen name or former name that a credit prints (`credited_name`, D58)."""
     note: str | None = None
     """Where the spelling was seen."""
 
@@ -127,11 +130,19 @@ class Person(Strict):
     native_script: Literal["ja", "latin"] = "ja"
     """`latin` for a name whose original form is in Latin script; its `ko` is then the original."""
     aliases: list[Alias] = []
-    """Other spellings seen in credits. Used to match credits, never printed."""
+    """Other spellings seen in credits. Used to match credits; printed only where a credit names one
+    (`credited_name`: a pen name or former name with its own `names`)."""
     distinct_from: list[str] = []
     """Ids of people with a similar name who are known to be someone else."""
     evidence: dict[str, Evidence] = {}
     """Sources, keyed by the field they cover (`names.ja`, `names.ko`, `name_parts`, …)."""
+
+    def credited_names(self, text: str) -> Names:
+        """Names of the alias a credit was printed under (D58)."""
+        for a in self.aliases:
+            if a.text == text and a.names is not None:
+                return a.names
+        raise KeyError(f"{self.id} has no alias {text!r} with names")
 
 
 class Casting(Strict):
@@ -218,6 +229,9 @@ class Credit(Strict):
     `rom` and `ko` are half-width."""
     role: Names | None = None
     """The role a cast member is credited as (`椿 ルリカ役`)."""
+    credited_name: str | None = None
+    """The pen name or former name the credit prints, by its alias `text` (`木村 有希` for 園田 健太郎); outputs
+    show that alias's names instead of the person's current name (D58)."""
 
     def affiliation_in(self, lang: str) -> str | None:
         if isinstance(self.affiliation, Names):
@@ -230,6 +244,8 @@ class Credit(Strict):
             raise ValueError("credit needs exactly one of person / character")
         if self.fullwidth and not self.affiliation:
             raise ValueError("fullwidth is about the brackets of an affiliation")
+        if self.credited_name and not self.person:
+            raise ValueError("credited_name names an alias of a person")
         return self
 
     @property

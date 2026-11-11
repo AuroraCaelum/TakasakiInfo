@@ -423,7 +423,10 @@ class Importer:
     def _slug_id(self, kind: str, rom: str | None) -> str:
         if not rom:
             raise ValueError("rom is needed for the id")
-        return f"{self.spec.project}/{slugify(rom)}" if kind in ("character", "work") else slugify(rom)
+        slug = slugify(rom)
+        if not slug:  # a rom of symbols only (??? ) would give the id "liella/" and the file ".yaml"
+            raise ValueError(f"rom {rom!r} gives no id: set `id:` on the review item")
+        return f"{self.spec.project}/{slug}" if kind in ("character", "work") else slug
 
     # members ----------------------------------------------------------------------
 

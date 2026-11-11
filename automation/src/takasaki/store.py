@@ -63,6 +63,8 @@ def _to_node(v: Any, in_list: bool = False) -> Any:
         flat = all(not isinstance(x, (dict, list)) for x in v.values())
         if in_list and flat and len(v) <= 8:
             cm.fa.set_flow_style()
+            for k, x in cm.items():
+                cm[k] = _flow_safe(x)
         return cm
     if isinstance(v, list):
         seq = CommentedSeq()
@@ -70,10 +72,19 @@ def _to_node(v: Any, in_list: bool = False) -> Any:
             seq.append(_to_node(x, in_list=True))
         if v and all(isinstance(x, str) for x in v) and len(v) <= 12 and sum(len(x) for x in v) < 120:
             seq.fa.set_flow_style()
+            for i, x in enumerate(seq):
+                seq[i] = _flow_safe(x)
         return seq
     if isinstance(v, str) and v in _YAML11_BOOLS:
         return SingleQuotedScalarString(v)
     return v
+
+
+def _flow_safe(x: Any) -> Any:
+    """ruamel writes ``?←HEARTBEAT`` plain inside ``{…}`` but cannot read it back there; quote it."""
+    if isinstance(x, str) and not isinstance(x, SingleQuotedScalarString) and x.startswith("?"):
+        return SingleQuotedScalarString(x)
+    return x
 
 
 # plain words a YAML 1.1 reader (PyYAML) takes for booleans although YAML 1.2 does not: the person

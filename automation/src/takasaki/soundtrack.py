@@ -741,8 +741,9 @@ def release(imp: Any, obs: Any, group_id: str | None) -> None:
                     "source": url}
             if "project" in ov:  # a cover of a song from outside the series (D50): a work of external
                 item = imp.reviews.item(imp.spec.review_file("work"), "work", pr.base, seed, used)
-                if rom and not item.get("ref"):
-                    item.setdefault("id", f"{ov['project']}/{slugify(halfwidth(unicodedata.normalize('NFKC', rom)))}")
+                slug = slugify(halfwidth(unicodedata.normalize("NFKC", rom or "")))
+                if slug and not item.get("ref"):
+                    item.setdefault("id", f"{ov['project']}/{slug}")
             wid = imp.resolve("work", pr.base, file=imp.spec.review_file("work"), used_in=used, seed=seed)
             work = imp.ds.works[wid] if wid else None
             if work is not None and "project" in ov:

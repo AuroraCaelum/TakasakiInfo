@@ -71,12 +71,14 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 | decision | 대상 | 효과 |
 | --- | --- | --- |
 | `merge:<종류>:<id>` | merge | 항목의 모든 `ref`를 그 엔티티로 병합. 참조를 고쳐 쓰고, 다른 표기는 alias로 남기고, 병합된 엔티티는 삭제. 예: `merge:person:hiroto-kikuchi`. 작중 크레딧(D27)이면 person을 character로도 병합할 수 있다 |
+| `pen-name:<종류>:<id>` / `former-name:<종류>:<id>` | merge | 인물끼리 병합하되 병합된 이름은 필명·옛 이름 별칭(ja·kana·rom·ko 포함)으로 남고, 그 이름으로 실린 크레딧은 `credited_name`으로 인쇄된 이름 그대로 출력된다(D59). 예: `pen-name:person:kentaro-sonoda` |
 | `distinct` | merge | 서로 다른 대상으로 기록(`distinct_from`). 이후 경고가 사라진다 |
 | `kind:<종류>` | classify | 아티스트 종류 지정: `group` `unit` `solo` `cross_unit` `collab` `special` |
 | `rule` | latin-ko | 라틴 원어 이름의 ko를 원문으로 (§5.4) |
 | `keep:official` / `keep:established` | latin-ko | 지금 ko를 승인된 예외로 유지. `decision_note:`에 근거를 적는다 |
 | `pick:<n>` / `pick:<edition>=<n>,…` / `none` | ytm-album | 후보 앨범을 고른다. 항목에 트랙 대응이 저장돼 있어 네트워크 없이 반영된다. 고르지 않은 에디션은 자기 URL 없음 |
 | `approve` | new-names | 파일의 모든 항목 값을 (파일에서 고친 대로) 엔티티에 다시 쓰고, `draft`를 항목의 `status`로 바꾼다. id는 처음 만들 때 정해져 바뀌지 않는다(승인 전에 rom을 고친 초안만 id도 따라 바꾼다, D49) |
+| `approve` | kana | 항목의 읽기를 인물·캐릭터(`names.kana`, 성·이름이 나뉜 이름은 `family_kana`·`given_kana`로 이름 부분도)·아티스트(`names.kana`)·곡(`title.kana`)·음원(`recording:<곡>#<id>`)에 쓰고 근거를 `names.kana`·`title.kana`에 단다. 다른 값은 바꾸지 않는다. 음원 항목의 `suffix_kana`는 적용할 때의 곡 kana 뒤에 붙는다(그래서 `KANA-versions`는 `KANA-songs-*`와 같이 또는 뒤에 승인한다). `pending`이 있는 파일(`*-check`, `*-unsourced`)은 사유를 해결한 뒤 승인한다(D58) |
 | `done` | 전부 | `data/`를 직접 고친 뒤 항목을 닫는다. `setlist-songs`(Fandom 곡명이 Work와 맞지 않은 세트리스트 항목)는 Work를 만들거나 `external_ids.fandom`을 적고 `takasaki fandom concerts --apply`를 다시 돌리면 줄어든다 |
 
 캐릭터의 표기 변형으로 들어온 가창자(예: `渡辺 曜`)는 classify가 아니라 merge 항목에서 캐릭터로 병합한다(`merge:character:aqours/you-watanabe`).

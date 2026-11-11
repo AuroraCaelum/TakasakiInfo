@@ -90,6 +90,9 @@ def _ref_names(ds: Dataset, kind: str, ident: str) -> dict[str, Any]:
 
 def _credit(ds: Dataset, c: m.Credit) -> dict[str, Any]:
     out = _ref_names(ds, *c.ref)
+    if c.credited_name and c.person:  # printed under a pen name or former name (D58); `ref` is the person
+        out["names"] = _names(ds.persons[c.person].credited_names(c.credited_name))
+        out["credited_name"] = c.credited_name
     if c.affiliation:
         out["affiliation"] = c.affiliation if isinstance(c.affiliation, str) else _names(c.affiliation)
     if c.fullwidth:
