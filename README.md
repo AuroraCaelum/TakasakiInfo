@@ -9,7 +9,7 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--11-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--12-e4007f?style=flat-square)](TakasakiInfo.json)
 [![Tracks](https://img.shields.io/badge/tracks-4%2C598-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
@@ -28,7 +28,7 @@
 
 ## Database status
 
-**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-11
+**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-12
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
