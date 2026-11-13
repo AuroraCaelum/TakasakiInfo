@@ -16,6 +16,7 @@ Decisions:
   in the file) are written to its entity with the item's status, replacing the draft
 - ``approve``            accept a ``kana`` file: each item's reading is written to its person, character, work or
   recording with the item's evidence (``names.kana`` / ``title.kana``); nothing else on the entity changes (D58)
+- ``pick:<n>`` / ``none`` choose the length of a ``duration`` item, or the key and tempo of an ``audio`` item (D61)
 - ``done``               the fix was made by hand in data/; just close the item
 """
 
@@ -300,6 +301,14 @@ def apply_reviews(ds: Dataset, review_dir: Path) -> list[Applied]:
                 msg = approve_names(ds, doc, dt.date.today())
             elif doc.get("type") == "kana" and decision == "approve":
                 msg = approve_kana(ds, doc, dt.date.today())
+            elif doc.get("type") == "duration" and (decision.startswith("pick:") or decision == "none"):
+                from .audio import apply_duration_review
+
+                msg = apply_duration_review(ds, doc, decision, dt.date.today())
+            elif doc.get("type") == "audio" and (decision.startswith("pick:") or decision == "none"):
+                from .audio import apply_audio_review
+
+                msg = apply_audio_review(ds, doc, decision, dt.date.today())
             elif decision == "done":
                 msg = "closed (fixed by hand)"
             else:

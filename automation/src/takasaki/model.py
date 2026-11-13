@@ -343,6 +343,22 @@ class LiveOf(Strict):
     """The show's label, when the day had more than one (`Day.2 Evening`)."""
 
 
+# a key as a tonic with an optional `m` for minor, sharps and flats in ASCII (`F#m`, `Bb`) (D61)
+Key = Annotated[str, Field(pattern=r"^[A-G](#|b)?m?$")]
+
+
+class Audio(Strict):
+    """Musical attributes of a recording from an outside analysis, with its source in `evidence.audio` (D61).
+    There is no official value: the label publishes none."""
+
+    key: Key | None = None
+    """Key: the tonic, with `m` for a minor key (`F`, `F#m`, `Bb`)."""
+    bpm: int | None = Field(default=None, gt=0)
+    """Tempo in beats per minute, as the source counts it (a half- or double-time reading is possible)."""
+    time_signature: str | None = Field(default=None, pattern=r"^\d+/\d+$")
+    """Time signature (`4/4`)."""
+
+
 class Recording(Strict):
     id: str
     """Id within the work (`original`, `off-vocal`, `kanon-ver`). The full recording id is `<work id>#<id>`."""
@@ -367,6 +383,12 @@ class Recording(Strict):
     """For an off vocal or instrumental: id of the vocal recording in the same work."""
     live: LiveOf | None = None
     """For a live recording (a live CD's track): the show it was recorded at, when the release says which (D54)."""
+    duration: int | None = Field(default=None, gt=0)
+    """Length in seconds, as the label distributes the recording to streaming services; its source is
+    `evidence.duration` (D61)."""
+    audio: Audio | None = None
+    """Key, tempo and time signature, which the mood labels are made from (D61). An off vocal or instrumental without its
+    own takes the values of `instrumental_of` in the outputs."""
     external_ids: dict[str, str] = {}
     """Ids elsewhere: `isrc`."""
     evidence: dict[str, Evidence] = {}

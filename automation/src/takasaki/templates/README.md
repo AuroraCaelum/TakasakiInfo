@@ -114,6 +114,20 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 {{V1_SCHEMA}}
 
 <details>
+<summary>Length, key, tempo and mood (<code>recordings.json</code>)</summary>
+
+<br>
+
+- `duration`: the length the label distributes the recording with, from YouTube Music, Apple Music or Deezer.
+- `audio`: key, tempo and time signature from [GetSongBPM](https://getsongbpm.com). These come from an outside analysis, not from the rights holders, and a tempo can be read at half or double time. An off vocal takes the values of its vocal recording (`from`).
+- `audio.mood`: labels made from those values by these rules, not judged by ear.
+- A work is shown with the values of its `representative` recording.
+
+{{MOODS}}
+
+</details>
+
+<details>
 <summary>Release example (one entry of <code>releases.json</code>)</summary>
 
 {{RELEASE_EXAMPLE}}
@@ -132,6 +146,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 - Each song comes with its Japanese title, romanization and Korean translation, its release date and a YouTube Music link.
   - A link is given only when the song is officially on streaming; otherwise the value is `NA`.
   - When an album has no streaming release of its own, the link points to the same recording on another album, and the `Note` column says `Link is from the [album]`.
+- The v1 files and the SQLite database also give each recording's length, key, tempo and mood labels ([details](#v1-schema)). Key and tempo data by [GetSongBPM](https://getsongbpm.com).
 
 ### Before you start
 
@@ -222,6 +237,7 @@ and their rights holders {{RIGHTS_EN}}.
 - 곡마다 일본어 제목, 로마자 표기, 한국어 번역과 발매일, YouTube Music 링크를 제공합니다.
   - 링크는 정식으로 스트리밍에 공개된 곡에만 있고, 없으면 `NA`입니다.
   - 앨범에 스트리밍판이 따로 없으면 다른 앨범에 실린 같은 음원으로 링크하고, `비고` 열에 `Link is from the [앨범]`이라고 적습니다.
+- v1 파일과 SQLite DB에는 음원마다 길이, 키, BPM, 분위기 라벨도 있습니다([설명](#v1-schema)). 키·BPM 데이터는 [GetSongBPM](https://getsongbpm.com)에서 가져왔습니다.
 
 ### 시작하기 전에
 
@@ -274,6 +290,7 @@ and their rights holders {{RIGHTS_EN}}.
 - 各曲の日本語タイトル、ローマ字表記、韓国語訳と、発売日、YouTube Music のリンクを提供します。
   - リンクは正式にストリーミング配信されている曲に限ります。ない場合は `NA` です。
   - アルバムにストリーミング版がない場合は、別のアルバムに収録された同じ音源にリンクし、`Note`（備考）列に `Link is from the [アルバム]` と記します。
+- v1 ファイルと SQLite DB には、音源ごとの長さ、キー、BPM、ムードのラベルもあります（[説明](#v1-schema)）。キーと BPM のデータは [GetSongBPM](https://getsongbpm.com) によるものです。
 
 ### はじめに
 

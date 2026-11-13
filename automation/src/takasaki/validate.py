@@ -313,6 +313,15 @@ def validate(ds: Dataset, review_dir: Path | None = None) -> list[Finding]:
                 add("E16", f"{kind}:{ent.id}", "birthday has no evidence.birthday" if not has_ev  # type: ignore[attr-defined]
                     else "evidence.birthday without a birthday")
 
+    # E17: a length or an analysis comes with its source, and a source with its value (D61)
+    for w in ds.works.values():
+        for r in w.recordings:
+            for fld in ("duration", "audio"):
+                has_ev = fld in r.evidence
+                if (getattr(r, fld) is not None) != has_ev:
+                    add("E17", f"recording:{w.id}#{r.id}", f"{fld} has no evidence.{fld}" if not has_ev
+                        else f"evidence.{fld} without a {fld}")
+
     # E12 / W15: name parts and Japanese name spacing (D26, D28)
     split_names = (
         [(f"person:{p.id}", p) for p in ds.persons.values()]
