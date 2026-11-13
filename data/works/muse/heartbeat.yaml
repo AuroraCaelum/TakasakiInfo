@@ -18,11 +18,17 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: koshiro-honda}
+    duration: 210
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd55
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_E5Te9JN33va
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     instrumental_of: original
+    duration: 210
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_E5Te9JN33va
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: movie-edit
     title:
       ja: ？←HEARTBEAT (Movie Edit)
@@ -55,6 +67,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: koshiro-honda}
+    duration: 84
     evidence:
       credits:
         status: official
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_waHovs6ip5W
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: ？←HEARTBEAT (NICO Mix)
@@ -74,6 +92,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: koshiro-honda}
+    duration: 213
     evidence:
       credits:
         status: derived
@@ -83,6 +102,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: ？←HEARTBEAT (NOZOMI Mix)
@@ -94,6 +118,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: koshiro-honda}
+    duration: 213
     evidence:
       credits:
         status: derived
@@ -103,6 +128,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: ？←HEARTBEAT (ELI Mix)
@@ -114,6 +144,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: koshiro-honda}
+    duration: 213
     evidence:
       credits:
         status: derived
@@ -123,6 +154,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

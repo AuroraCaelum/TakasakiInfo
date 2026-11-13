@@ -25,11 +25,17 @@ recordings:
       - {person: ruri-aoyama, role: musical/sayaka-harukaze}
     arranger:
       - {person: kushita-mine}
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XnJ43DiHnQJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tsubakisakuhana-joshi-high-school-ver
     title:
       ja: 未完成ドリーム！（椿咲花女子高等学校Ver.）
@@ -45,11 +51,17 @@ recordings:
       - {person: minami-sato, role: musical/maya-mikasa}
     arranger:
       - {person: kushita-mine}
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XnJ43DiHnQJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: takizakura-jogakuin-high-school-ver
     title:
       ja: 未完成ドリーム！（滝桜女学院高等学校Ver.）
@@ -65,11 +77,17 @@ recordings:
       - {person: ruri-aoyama, role: musical/sayaka-harukaze}
     arranger:
       - {person: kushita-mine}
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XnJ43DiHnQJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -92,11 +110,17 @@ recordings:
     arranger:
       - {person: kushita-mine}
     instrumental_of: original
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XnJ43DiHnQJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

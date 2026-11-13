@@ -17,11 +17,17 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 218
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: mitsuru-wakabayashi}
     instrumental_of: original
+    duration: 218
     evidence:
       credits:
         status: official
@@ -41,6 +48,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: 告白日和、です！ (KOTORI Mix)
@@ -52,6 +64,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 219
     evidence:
       credits:
         status: official
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 告白日和、です！ (HANAYO Mix)
@@ -71,6 +89,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 219
     evidence:
       credits:
         status: official
@@ -79,6 +98,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -20,11 +20,17 @@ recordings:
     arranger:
       - {person: ayumu-nakamura}
       - {person: hiroto-kikuchi}
+    duration: 269
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd51
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5O3as8ON9Ra
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

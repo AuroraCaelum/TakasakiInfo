@@ -55,6 +55,7 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 272
     evidence:
       credits:
         status: established
@@ -64,6 +65,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: established

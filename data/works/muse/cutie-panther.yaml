@@ -16,11 +16,17 @@ recordings:
       - {artist: bibi}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 270
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GmJzS2FeB4Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     instrumental_of: original
+    duration: 270
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GmJzS2FeB4Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: metal-panther-mix
     title:
       ja: Cutie Panther (Metal-Panther Mix)
@@ -51,6 +63,7 @@ recordings:
       - {artist: bibi}
     arranger:
       - {person: ryo-takahashi}
+    duration: 270
     evidence:
       credits:
         status: official
@@ -59,6 +72,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: Cutie Panther (NICO Mix)
@@ -70,6 +88,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 269
     evidence:
       credits:
         status: derived
@@ -79,6 +98,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: Cutie Panther (MAKI Mix)
@@ -90,6 +114,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 269
     evidence:
       credits:
         status: derived
@@ -99,6 +124,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: Cutie Panther (ELI Mix)
@@ -110,6 +140,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 269
     evidence:
       credits:
         status: derived
@@ -119,6 +150,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

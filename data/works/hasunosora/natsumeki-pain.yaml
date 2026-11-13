@@ -19,11 +19,17 @@ recordings:
       - {person: tasuku-maeda}
     strings_arranger:
       - {person: daisuke-kadowaki}
+    duration: 204
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/08/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-ver
     title:
       ja: 夏めきペイン (104期 Ver.)
@@ -35,6 +41,7 @@ recordings:
       - {artist: hasunosora-girls-high-school-idol-club}
     arranger:
       - {person: tasuku-maeda}
+    duration: 204
     evidence:
       credits:
         status: official
@@ -43,6 +50,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
@@ -50,11 +62,17 @@ recordings:
       - {person: tasuku-maeda}
     strings_arranger:
       - {person: daisuke-kadowaki}
+    duration: 204
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VNXkRWKWLyG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

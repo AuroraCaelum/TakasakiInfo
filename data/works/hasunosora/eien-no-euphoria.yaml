@@ -18,11 +18,17 @@ recordings:
       - {person: hiroo-ooyagi}
     strings_arranger:
       - {person: yosuke-yamashita}
+    duration: 277
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/01/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-ver
     title:
       ja: 永遠のEuphoria (104期 Ver.)
@@ -36,6 +42,7 @@ recordings:
       - {person: hiroo-ooyagi}
     strings_arranger:
       - {person: yosuke-yamashita}
+    duration: 277
     evidence:
       credits:
         status: official
@@ -44,6 +51,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gml3w3y1ueZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 永遠のEuphoria (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)

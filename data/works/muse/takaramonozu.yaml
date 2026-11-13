@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd30
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5xzJUEiHrKx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kyo-takada}
     instrumental_of: original
+    duration: 226
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5xzJUEiHrKx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: タカラモノズ (NICO Mix)
@@ -51,6 +63,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: タカラモノズ (HANAYO Mix)
@@ -71,6 +89,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: タカラモノズ (NOZOMI Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -100,6 +125,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: タカラモノズ (MAKI Mix)
@@ -111,6 +141,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -120,6 +151,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: タカラモノズ (RIN Mix)
@@ -131,6 +167,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -140,6 +177,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: タカラモノズ (UMI Mix)
@@ -151,6 +193,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -160,6 +203,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: タカラモノズ (KOTORI Mix)
@@ -171,6 +219,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -180,6 +229,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: タカラモノズ (ELI Mix)
@@ -191,6 +245,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -200,6 +255,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: タカラモノズ (HONOKA Mix)
@@ -211,6 +271,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 226
     evidence:
       credits:
         status: derived
@@ -220,6 +281,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

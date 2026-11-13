@@ -16,6 +16,7 @@ recordings:
       - {artist: aiscream}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 193
     evidence:
       credits:
         status: official
@@ -26,6 +27,11 @@ recordings:
         source: https://music.youtube.com/watch?v=M2k_ugNeAzI
         checked: 2026-10-20
         note: 공식 사이트 미게재(공식 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키와 일치
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pEc9kUP4xqa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,6 +43,7 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     instrumental_of: original
+    duration: 194
     evidence:
       credits:
         status: official
@@ -45,6 +52,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pEc9kUP4xqa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

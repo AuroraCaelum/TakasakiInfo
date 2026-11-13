@@ -9,12 +9,18 @@ recordings:
   - id: original
     performers:
       - {artist: suginami-children-s-chorus}
+    duration: 87
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-27
         note: '가창자: 레이블 카탈로그(https://catalog.bandainamcomusiclive.co.jp/release/69839/)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gtFNzsGRjAR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

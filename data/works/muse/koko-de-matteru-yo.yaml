@@ -16,12 +16,18 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: takuya-sakai, affiliation: Arte Refact, fullwidth: true}
+    duration: 274
     evidence:
       credits:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/63074/
         checked: 2026-10-27
         note: '공식 미게재: ja.wikipedia·Fandom(소속 표기는 레이블 카탈로그를 따름)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bC0YnDYhRdB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

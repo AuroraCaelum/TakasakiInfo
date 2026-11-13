@@ -19,12 +19,18 @@ recordings:
     arranger:
       - {person: passion-king}
       - {person: joe}
+    duration: 233
     evidence:
       credits:
         status: official
         source: https://music.youtube.com/watch?v=IdtU0xFIxxo
         checked: 2026-10-19
         note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QTP6ZtryhbB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

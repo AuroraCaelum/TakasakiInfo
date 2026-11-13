@@ -1,0 +1,8 @@
+type: duration
+ref: recording:nijigasaki/soshite-jikai-wa#original
+title: そして次回は？
+reason: 앨범·서비스마다 재생 시간이 2초 넘게 다르다. 같은 음원이면 `pick:<n>`(대표 발매물의 값), 다른 음원이 하나로 묶였거나 videoId가 잘못 붙었으면 data/를 고친 뒤 `done`
+candidates:
+  - {seconds: 32, length: 0:32, source: youtube_music, url: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b, release: nijigasaki/2024-sangosho-no-kioku, n: 1}
+  - {seconds: 47, length: 0:47, source: youtube_music, url: https://music.youtube.com/browse/MPREb_Lxm61gYxpog, release: nijigasaki/2026-sazameki-no-machikado, n: 2}
+decision: null

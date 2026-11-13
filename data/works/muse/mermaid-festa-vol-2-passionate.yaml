@@ -17,11 +17,17 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: nozomu-matsui}
+    duration: 324
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd11
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wb9vjqACgRt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: nozomu-matsui}
     instrumental_of: original
+    duration: 324
     evidence:
       credits:
         status: official
@@ -41,6 +48,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wb9vjqACgRt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (HONOKA Mix)
@@ -52,6 +64,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: nozomu-matsui}
+    duration: 324
     evidence:
       credits:
         status: official
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (RIN Mix)
@@ -71,6 +89,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: nozomu-matsui}
+    duration: 324
     evidence:
       credits:
         status: official
@@ -79,6 +98,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

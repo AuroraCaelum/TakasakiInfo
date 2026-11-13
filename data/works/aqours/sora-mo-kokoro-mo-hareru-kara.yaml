@@ -18,6 +18,7 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 303
     external_ids:
       isrc: JPI101601880
     evidence:
@@ -31,6 +32,11 @@ recordings:
         source: https://musicbrainz.org/release/0b7c077f-a5ed-421e-9810-8cf30c62b985
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +69,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 303
     evidence:
       credits:
         status: derived
@@ -72,96 +79,155 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4jv6IRUtyCT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd74
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 303
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 301
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 空も心も晴れるから (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -176,6 +242,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 161
     evidence:
       credits:
         status: derived
@@ -185,6 +252,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

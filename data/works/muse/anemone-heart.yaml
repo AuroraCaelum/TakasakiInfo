@@ -59,6 +59,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 225
     evidence:
       credits:
         status: derived
@@ -68,6 +69,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: Anemone heart (UMI Mix)
@@ -79,6 +85,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 225
     evidence:
       credits:
         status: derived
@@ -88,6 +95,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GQoPPjW2LxD
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

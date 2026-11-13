@@ -19,11 +19,17 @@ recordings:
     arranger:
       - {person: eunsol, affiliation: '1008'}
       - {person: gou-ishikuro}
+    duration: 220
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5987
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lXSpHs1gvJW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

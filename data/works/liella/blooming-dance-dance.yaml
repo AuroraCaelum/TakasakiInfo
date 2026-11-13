@@ -20,12 +20,18 @@ recordings:
       - {character: liella/natsumi-onitsuka}
     arranger:
       - {person: yuu-for-you}
+    duration: 199
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Blooming_Dance!_Dance!
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv2nd/는 가창 멤버만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oSD77hQO8fr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

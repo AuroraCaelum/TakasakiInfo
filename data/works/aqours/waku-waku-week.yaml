@@ -20,6 +20,7 @@ recordings:
     arranger:
       - {person: kotaro-odaka}
       - {person: ramseeni}
+    duration: 257
     external_ids:
       isrc: JPI101602237
     evidence:
@@ -33,6 +34,11 @@ recordings:
         source: https://musicbrainz.org/release/7db6d83c-b9a4-4334-b1cf-1e46f61d0c50
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,33 +70,51 @@ recordings:
     arranger:
       - {person: kotaro-odaka}
       - {person: ramseeni}
+    duration: 257
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd75
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kotaro-odaka}
       - {person: ramseeni}
+    duration: 257
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd78
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kotaro-odaka}
       - {person: ramseeni}
+    duration: 256
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd81
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

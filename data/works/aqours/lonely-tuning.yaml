@@ -16,6 +16,7 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: kon-k}
+    duration: 262
     external_ids:
       isrc: JPI101700221
     evidence:
@@ -24,6 +25,11 @@ recordings:
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
         checked: 2026-10-19
         note: '편곡·가창: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 편곡 표기와 아티스트 AZALEA. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv1st/#houjin에도 AZALEA 録り下ろし新曲CD로 게재'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RNVzFLeuft
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

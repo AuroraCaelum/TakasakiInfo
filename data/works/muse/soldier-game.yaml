@@ -18,11 +18,17 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 221
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd14
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oZipfsu4TrW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: mitsuru-wakabayashi}
     instrumental_of: original
+    duration: 221
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oZipfsu4TrW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: soldier game (ELI Mix)
@@ -53,6 +65,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 220
     evidence:
       credits:
         status: official
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: soldier game (UMI Mix)
@@ -72,6 +90,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 220
     evidence:
       credits:
         status: official
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: soldier game (MAKI Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: mitsuru-wakabayashi}
+    duration: 220
     evidence:
       credits:
         status: official
@@ -99,17 +124,28 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 15th-tribute
     performers:
       - {artist: ado}
     arranger:
       - {person: naoki-itai}
+    duration: 222
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_N8Vvln9yN9D
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -57,6 +57,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kensuke-okamoto}
+    duration: 257
     evidence:
       credits:
         status: derived
@@ -66,6 +67,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GMcJNQ16j0Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: ずるいよMagnetic today (NICO Mix)
@@ -77,6 +83,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kensuke-okamoto}
+    duration: 257
     evidence:
       credits:
         status: derived
@@ -86,6 +93,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_qhkaqyyA2L8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

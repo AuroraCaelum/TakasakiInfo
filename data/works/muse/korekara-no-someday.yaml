@@ -22,11 +22,17 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: lotta}
+    duration: 266
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd22
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lG8QeW7kNyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -38,6 +44,7 @@ recordings:
     arranger:
       - {person: lotta}
     instrumental_of: original
+    duration: 266
     evidence:
       credits:
         status: official
@@ -46,6 +53,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lG8QeW7kNyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: これからのSomeday (HONOKA Mix)
@@ -57,6 +69,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -65,6 +78,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: これからのSomeday (KOTORI Mix)
@@ -76,6 +94,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -84,6 +103,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: これからのSomeday (UMI Mix)
@@ -95,6 +119,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -103,6 +128,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: これからのSomeday (RIN Mix)
@@ -114,6 +144,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -122,6 +153,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: これからのSomeday (MAKI Mix)
@@ -133,6 +169,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -141,6 +178,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: これからのSomeday (HANAYO Mix)
@@ -152,6 +194,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -160,6 +203,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: これからのSomeday (NICO Mix)
@@ -171,6 +219,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: lotta}
+    duration: 267
     evidence:
       credits:
         status: official
@@ -179,6 +228,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: これからのSomeday (TVサイズ)
@@ -196,6 +250,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: lotta}
+    duration: 104
     evidence:
       credits:
         status: official
@@ -204,6 +259,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

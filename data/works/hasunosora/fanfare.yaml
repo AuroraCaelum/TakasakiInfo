@@ -16,11 +16,17 @@ recordings:
       - {artist: mira-cra-park}
     arranger:
       - {person: kijibato, affiliation: Dream Monster, fullwidth: true}
+    duration: 203
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/21/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_xkWr3T2E8xJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kijibato, affiliation: Dream Monster, fullwidth: true}
     instrumental_of: original
+    duration: 203
     evidence:
       credits:
         status: official
@@ -40,26 +47,43 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_xkWr3T2E8xJ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
     arranger:
       - {person: kijibato, affiliation: Dream Monster, fullwidth: true}
+    duration: 202
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VNXkRWKWLyG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
     arranger:
       - {person: kijibato, affiliation: Dream Monster, fullwidth: true}
+    duration: 202
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: koshiro-honda}
+    duration: 297
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd46
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_18vE6WvSRwP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     instrumental_of: original
+    duration: 298
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_18vE6WvSRwP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 15th-tribute
     performers:
       - {character: external/haruka-amami}
@@ -49,12 +61,18 @@ recordings:
       - {character: external/makoto-kikuchi}
     arranger:
       - {person: ginnojo-hoshi}
+    duration: 302
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, 読み ホシギンノジョウ). 부클릿 전사(MONACA Wiki)의 'Strings Arrange: Talich Helfen(Core Creative)'은 공식·레이블 출처에서 확인하지 못해 넣지 않음"
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UZuOAgDx6B1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: KiRa-KiRa Sensation! (TVサイズ)
@@ -66,6 +84,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: koshiro-honda}
+    duration: 116
     evidence:
       credits:
         status: official
@@ -74,6 +93,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: KiRa-KiRa Sensation! (NICO Mix)
@@ -85,6 +109,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -94,6 +119,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: KiRa-KiRa Sensation! (HANAYO Mix)
@@ -105,6 +135,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -114,6 +145,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: KiRa-KiRa Sensation! (NOZOMI Mix)
@@ -125,6 +161,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -134,6 +171,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: KiRa-KiRa Sensation! (MAKI Mix)
@@ -145,6 +187,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -154,6 +197,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: KiRa-KiRa Sensation! (RIN Mix)
@@ -165,6 +213,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -174,6 +223,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: KiRa-KiRa Sensation! (UMI Mix)
@@ -185,6 +239,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -194,6 +249,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: KiRa-KiRa Sensation! (KOTORI Mix)
@@ -205,6 +265,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -214,6 +275,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: KiRa-KiRa Sensation! (ELI Mix)
@@ -225,6 +291,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -234,6 +301,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: KiRa-KiRa Sensation! (HONOKA Mix)
@@ -245,6 +317,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: koshiro-honda}
+    duration: 298
     evidence:
       credits:
         status: derived
@@ -254,6 +327,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

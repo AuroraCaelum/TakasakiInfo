@@ -18,11 +18,17 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: takahiro-kawata}
+    duration: 274
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     instrumental_of: original
+    duration: 274
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: ススメ→トゥモロウ (HONOKA Mix)
@@ -53,6 +65,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: takahiro-kawata}
+    duration: 275
     evidence:
       credits:
         status: official
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: ススメ→トゥモロウ (KOTORI Mix)
@@ -72,6 +90,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: takahiro-kawata}
+    duration: 275
     evidence:
       credits:
         status: official
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: ススメ→トゥモロウ (UMI Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: takahiro-kawata}
+    duration: 275
     evidence:
       credits:
         status: official
@@ -99,6 +124,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: ススメ→トゥモロウ (TVサイズ)
@@ -112,6 +142,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: takahiro-kawata}
+    duration: 124
     evidence:
       credits:
         status: official
@@ -120,6 +151,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

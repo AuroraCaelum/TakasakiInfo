@@ -20,11 +20,17 @@ recordings:
     arranger:
       - {person: meg}
       - {person: hayato-yamamoto}
+    duration: 241
     evidence:
       credits:
         status: official
         source: https://www.yohane.net/music/detail/?id=6
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_re1WwCFpFkC
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,6 +43,7 @@ recordings:
       - {person: meg}
       - {person: hayato-yamamoto}
     instrumental_of: original
+    duration: 241
     evidence:
       credits:
         status: official
@@ -45,6 +52,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_re1WwCFpFkC
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: audition-ver
     title:
       ja: Far far away (Audition Ver.)
@@ -54,6 +66,7 @@ recordings:
     version: Audition Ver.
     performers:
       - {character: yohane/yohane}
+    duration: 61
     evidence:
       credits:
         status: derived
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_NSA48jW0KK6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Far far away (TVサイズ)
@@ -75,6 +93,7 @@ recordings:
     arranger:
       - {person: meg}
       - {person: hayato-yamamoto}
+    duration: 111
     evidence:
       credits:
         status: derived
@@ -84,6 +103,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_NSA48jW0KK6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

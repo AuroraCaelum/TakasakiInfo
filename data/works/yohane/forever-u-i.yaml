@@ -18,11 +18,17 @@ recordings:
       - {character: yohane/yohane}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 242
     evidence:
       credits:
         status: official
         source: https://www.yohane.net/music/detail/?id=11
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lIR4DBskwQb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     instrumental_of: original
+    duration: 242
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lIR4DBskwQb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Forever U & I (TVサイズ)
@@ -53,6 +65,7 @@ recordings:
       - {character: yohane/yohane}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 108
     evidence:
       credits:
         status: derived
@@ -62,6 +75,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_NSA48jW0KK6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

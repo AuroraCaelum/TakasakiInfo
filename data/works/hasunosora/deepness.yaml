@@ -16,11 +16,17 @@ recordings:
       - {artist: hasunosora-girls-high-school-idol-club}
     arranger:
       - {person: effy}
+    duration: 264
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/06/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Uy3gOyCfGlp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,11 +40,17 @@ recordings:
     arranger:
       - {person: effy}
     instrumental_of: original
+    duration: 264
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/06/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Uy3gOyCfGlp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rec-ver
     title:
       ja: DEEPNESS (ReC Ver.)
@@ -52,6 +64,7 @@ recordings:
       - {person: yu-furukawa}
     strings_arranger:
       - {person: effy}
+    duration: 265
     evidence:
       credits:
         status: official
@@ -60,36 +73,59 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
     arranger:
       - {person: effy}
+    duration: 265
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_AMjXM5lMYuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}
     arranger:
       - {person: effy}
+    duration: 265
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VWpRi0Ba6I3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
     arranger:
       - {person: effy}
+    duration: 265
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VNXkRWKWLyG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

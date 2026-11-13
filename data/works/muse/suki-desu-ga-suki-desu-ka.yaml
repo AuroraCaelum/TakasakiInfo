@@ -57,6 +57,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -66,6 +67,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 好きですが好きですか？ (HANAYO Mix)
@@ -77,6 +83,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -86,6 +93,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lham1FEyj0z
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

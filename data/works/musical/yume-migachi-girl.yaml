@@ -28,6 +28,7 @@ recordings:
       - {person: miyuu-watarai}
     arranger:
       - {person: kushita-mine}
+    duration: 272
     evidence:
       credits:
         status: official
@@ -38,6 +39,11 @@ recordings:
         source: https://music.youtube.com/watch?v=8koB6yzMu9k
         checked: 2026-10-20
         note: 공식 사이트 미게재(공식 음악 페이지는 곡명·캐스트만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). UtaTen·Fandom·나무위키·j-lyric과 일치
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_E5vVkqQDJnr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

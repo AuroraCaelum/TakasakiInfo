@@ -18,11 +18,17 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 254
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd21
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     instrumental_of: original
+    duration: 255
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: START:DASH!! (HONOKA Mix)
@@ -53,6 +65,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: START:DASH!! (ELI Mix)
@@ -72,6 +90,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: START:DASH!! (KOTORI Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -99,6 +124,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: START:DASH!! (UMI Mix)
@@ -110,6 +140,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -118,6 +149,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: START:DASH!! (RIN Mix)
@@ -129,6 +165,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -137,6 +174,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: START:DASH!! (MAKI Mix)
@@ -148,6 +190,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -156,6 +199,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: START:DASH!! (NOZOMI Mix)
@@ -167,6 +215,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -175,6 +224,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: START:DASH!! (HANAYO Mix)
@@ -186,6 +240,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -194,6 +249,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: START:DASH!! (NICO Mix)
@@ -205,6 +265,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 257
     evidence:
       credits:
         status: official
@@ -213,6 +274,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: bitter-sweet-mix
     title:
       ja: START:DASH!! (Bitter-Sweet Mix)
@@ -224,6 +290,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: ken-ito}
+    duration: 256
     evidence:
       credits:
         status: official
@@ -232,16 +299,27 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: muse
     performers:
       - {artist: muse}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 256
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd24
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_iHXWfIxOXfu
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: muse-off-vocal
     kind: off_vocal
     title:
@@ -253,6 +331,7 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     instrumental_of: muse
+    duration: 256
     evidence:
       credits:
         status: official
@@ -261,6 +340,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_iHXWfIxOXfu
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: prepro-piano-mix
     title:
       ja: START:DASH!! (Prepro Piano Mix)
@@ -272,6 +356,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: yoichi-sakai}
+    duration: 114
     evidence:
       credits:
         status: official
@@ -280,6 +365,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: START:DASH!! (TVサイズ)
@@ -293,6 +383,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 185
     evidence:
       credits:
         status: official
@@ -301,6 +392,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-muse
     title:
       ja: START:DASH!! (TVサイズ)
@@ -312,6 +408,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 185
     evidence:
       credits:
         status: official
@@ -320,6 +417,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

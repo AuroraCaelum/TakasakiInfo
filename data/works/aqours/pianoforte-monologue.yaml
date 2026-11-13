@@ -18,6 +18,7 @@ recordings:
     arranger:
       - {person: hironori-aoki}
       - {person: yuya-hirosawa}
+    duration: 304
     external_ids:
       isrc: JPI101800111
     evidence:
@@ -31,6 +32,11 @@ recordings:
         source: https://musicbrainz.org/release/1baccd0e-73ee-4e43-afd3-aff6ec0ba81b
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

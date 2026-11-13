@@ -16,12 +16,18 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 235
     evidence:
       credits:
         status: established
         source: https://www.uta-net.com/song/288758/
         checked: 2026-10-19
         note: "편곡 공식 미게재 (공식 CD 페이지 #cd40은 곡명만 게재; 가창은 공식 아티스트란 '高海千歌 (CV.伊波杏樹) from Aqours'와 일치). uta-net 가사 페이지의 편곡·가수 표기"
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: established

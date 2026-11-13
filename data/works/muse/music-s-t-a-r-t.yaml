@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd28
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ge67XPk5FUF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ska-feel-mix
     title:
       ja: Music S.T.A.R.T!! (SKA-Feel Mix)
@@ -32,6 +38,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: satoru-kuwabara, affiliation: Arte Refact, fullwidth: true}
+    duration: 295
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -51,6 +63,7 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     instrumental_of: original
+    duration: 295
     evidence:
       credits:
         status: official
@@ -59,6 +72,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ge67XPk5FUF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: Music S.T.A.R.T!! (NICO Mix)
@@ -70,6 +88,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -79,6 +98,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: Music S.T.A.R.T!! (HANAYO Mix)
@@ -90,6 +114,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -99,6 +124,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: Music S.T.A.R.T!! (NOZOMI Mix)
@@ -110,6 +140,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -119,6 +150,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: Music S.T.A.R.T!! (MAKI Mix)
@@ -130,6 +166,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -139,6 +176,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: Music S.T.A.R.T!! (RIN Mix)
@@ -150,6 +192,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -159,6 +202,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: Music S.T.A.R.T!! (UMI Mix)
@@ -170,6 +218,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -179,6 +228,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: Music S.T.A.R.T!! (KOTORI Mix)
@@ -190,6 +244,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -199,6 +254,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: Music S.T.A.R.T!! (ELI Mix)
@@ -210,6 +270,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -219,6 +280,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Music S.T.A.R.T!! (HONOKA Mix)
@@ -230,6 +296,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 295
     evidence:
       credits:
         status: derived
@@ -239,6 +306,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

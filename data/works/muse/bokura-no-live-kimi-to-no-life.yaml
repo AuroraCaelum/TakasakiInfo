@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 323
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kyo-takada}
     instrumental_of: original
+    duration: 323
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (UMI MIX)
@@ -51,6 +63,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (KOTORI Mix)
@@ -71,6 +89,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (HONOKA Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -100,6 +125,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: 僕らのLIVE 君とのLIFE (TVサイズ)
@@ -111,6 +141,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 146
     evidence:
       credits:
         status: official
@@ -119,6 +150,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (NOZOMI Mix)
@@ -130,6 +166,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -139,6 +176,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (NICO Mix)
@@ -150,6 +192,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -159,6 +202,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (MAKI Mix)
@@ -170,6 +218,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -179,6 +228,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (ELI Mix)
@@ -190,6 +244,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -199,6 +254,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (RIN Mix)
@@ -210,6 +270,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -219,6 +280,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (HANAYO Mix)
@@ -230,6 +296,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 322
     evidence:
       credits:
         status: derived
@@ -239,6 +306,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -17,11 +17,17 @@ recordings:
     arranger:
       - {person: capchii}
       - {person: yusuke-kuwabara}
+    duration: 245
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5684
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aqTx2ZsEFuV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: b-g-p-ver
     title:
       ja: トモダチになれる場所 (B. G. P. Ver.)
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: capchii}
       - {person: yusuke-kuwabara}
+    duration: 245
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aqTx2ZsEFuV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,6 +66,7 @@ recordings:
       - {person: capchii}
       - {person: yusuke-kuwabara}
     instrumental_of: original
+    duration: 245
     evidence:
       credits:
         status: official
@@ -62,17 +75,28 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aqTx2ZsEFuV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
     arranger:
       - {person: capchii}
       - {person: yusuke-kuwabara}
+    duration: 245
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

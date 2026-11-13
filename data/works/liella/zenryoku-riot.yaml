@@ -17,11 +17,17 @@ recordings:
       - {artist: catchu}
     arranger:
       - {person: armyslick}
+    duration: 201
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd34.php
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nfka9lE7uIC
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

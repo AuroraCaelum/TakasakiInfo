@@ -17,11 +17,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
+    duration: 285
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd20
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,6 +41,7 @@ recordings:
     arranger:
       - {person: kotaro-odaka}
     instrumental_of: original
+    duration: 285
     evidence:
       credits:
         status: official
@@ -43,96 +50,155 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: kotaro-odaka}
+    duration: 283
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd60
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kotaro-odaka}
+    duration: 283
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd64
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kotaro-odaka}
+    duration: 285
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: surf-rock-ver
     title:
       ja: 勇気はどこに？君の胸に！ (Surf Rock Ver.)
@@ -145,6 +211,7 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
       - {person: kaiki}
+    duration: 285
     evidence:
       credits:
         status: official
@@ -153,6 +220,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -166,6 +238,7 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
     evidence:
       credits:
         status: derived
@@ -175,6 +248,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-aqours
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -186,6 +264,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
     evidence:
       credits:
         status: derived
@@ -195,6 +274,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-dia-kurosawa
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -206,6 +290,7 @@ recordings:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
     evidence:
       credits:
         status: derived
@@ -215,6 +300,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-riko-sakurauchi-yoshiko-tsushima
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -227,6 +317,7 @@ recordings:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
     evidence:
       credits:
         status: derived
@@ -236,6 +327,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-yoshiko-tsushima-hanamaru-kunikida-ruby-kurosawa
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -249,6 +345,7 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
     evidence:
       credits:
         status: derived
@@ -258,6 +355,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-kanan-matsuura-dia-kurosawa-mari-ohara
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -271,6 +373,7 @@ recordings:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kotaro-odaka}
+    duration: 104
     evidence:
       credits:
         status: derived
@@ -280,6 +383,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-shiritsu-uranohoshi-jogakuin-ichido
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -291,6 +399,7 @@ recordings:
       - {artist: shiritsu-uranohoshi-jogakuin-ichido}
     arranger:
       - {person: kotaro-odaka}
+    duration: 133
     evidence:
       credits:
         status: derived
@@ -300,6 +409,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 勇気はどこに？君の胸に！ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -314,6 +428,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 687
     evidence:
       credits:
         status: derived
@@ -323,6 +438,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

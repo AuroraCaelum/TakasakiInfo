@@ -16,6 +16,7 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kyo-takada}
+    duration: 296
     external_ids:
       isrc: JPI101800906
     evidence:
@@ -29,6 +30,11 @@ recordings:
         source: https://musicbrainz.org/release/4f1ff5c0-1a3b-467e-b88b-280fa4647e6a
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

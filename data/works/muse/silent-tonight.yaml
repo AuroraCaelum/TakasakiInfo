@@ -58,6 +58,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 318
     evidence:
       credits:
         status: derived
@@ -67,6 +68,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_I3N24UM9dTB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: Silent tonight (MAKI Mix)
@@ -78,6 +84,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 318
     evidence:
       credits:
         status: derived
@@ -87,6 +94,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GMcJNQ16j0Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: Silent tonight (NICO Mix)
@@ -98,6 +110,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 318
     evidence:
       credits:
         status: derived
@@ -107,6 +120,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_qhkaqyyA2L8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -18,11 +18,17 @@ recordings:
     arranger:
       - {person: takeru-yoda}
       - {person: tasuku}
+    duration: 265
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd37
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mQ4nKSV9wHa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,11 +43,17 @@ recordings:
       - {person: takeru-yoda}
       - {person: tasuku}
     instrumental_of: original
+    duration: 265
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd37
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mQ4nKSV9wHa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Colorful Dreams! Colorful Smiles! (TV size)
@@ -54,6 +66,7 @@ recordings:
     arranger:
       - {person: takeru-yoda}
       - {person: tasuku}
+    duration: 91
     evidence:
       credits:
         status: derived
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: Colorful Dreams! Colorful Smiles! (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)

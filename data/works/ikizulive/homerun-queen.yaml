@@ -16,11 +16,17 @@ recordings:
       - {character: ikizulive/miracle-kanazawa}
     arranger:
       - {person: rei-kamiya}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4701
         checked: 2026-10-18
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bB1zD1f6Ehw
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: rei-kamiya}
     instrumental_of: original
+    duration: 228
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bB1zD1f6Ehw
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

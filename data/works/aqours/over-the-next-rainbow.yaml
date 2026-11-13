@@ -18,11 +18,17 @@ recordings:
     arranger:
       - {person: takarot}
       - {person: shinji-tanaka}
+    duration: 300
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd29
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IAfx7Ugw7AO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

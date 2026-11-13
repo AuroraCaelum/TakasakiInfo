@@ -1,0 +1,8 @@
+type: duration
+ref: recording:aqours/kokoro-no-hane-yo-kimi-e-tondeke#original
+title: 心の羽よ君へ飛んでけ！
+reason: 앨범·서비스마다 재생 시간이 2초 넘게 다르다. 같은 음원이면 `pick:<n>`(대표 발매물의 값), 다른 음원이 하나로 묶였거나 videoId가 잘못 붙었으면 data/를 고친 뒤 `done`
+candidates:
+  - {seconds: 287, length: 4:47, source: youtube_music, url: https://music.youtube.com/browse/MPREb_3qngXZG8cie, release: aqours/2021-smile-smile-ship-start, n: 1}
+  - {seconds: 284, length: 4:44, source: youtube_music, url: https://music.youtube.com/browse/MPREb_GwFaHablV3v, release: aqours/2025-love-live-sunshine-aqours-chronicle-2021-2024, n: 2}
+decision: null

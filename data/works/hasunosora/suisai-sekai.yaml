@@ -19,11 +19,17 @@ recordings:
       - {person: tasuku-maeda}
     strings_arranger:
       - {person: daisuke-kadowaki}
+    duration: 217
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/01/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-ver
     title:
       ja: 水彩世界 (104期 Ver.)
@@ -35,6 +41,7 @@ recordings:
       - {artist: cerise-bouquet}
     arranger:
       - {person: tasuku-maeda}
+    duration: 217
     evidence:
       credits:
         status: official
@@ -43,6 +50,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -50,11 +62,17 @@ recordings:
       - {person: tasuku-maeda}
     strings_arranger:
       - {person: daisuke-kadowaki}
+    duration: 217
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_AMjXM5lMYuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -62,11 +80,17 @@ recordings:
       - {person: tasuku-maeda}
     strings_arranger:
       - {person: daisuke-kadowaki}
+    duration: 217
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

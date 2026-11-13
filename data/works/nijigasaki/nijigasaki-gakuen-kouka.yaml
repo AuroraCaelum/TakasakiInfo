@@ -23,6 +23,7 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: rockwell}
+    duration: 154
     evidence:
       credits:
         status: official
@@ -31,6 +32,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kAIiK7OUNvz
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: piano-ver
     title:
       ja: 虹ヶ咲学園校歌 (Piano Ver.)
@@ -42,6 +48,7 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: naoki-endo}
+    duration: 172
     evidence:
       credits:
         status: official
@@ -50,6 +57,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kAIiK7OUNvz
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rock-ver-off-vocal
     kind: off_vocal
     title:
@@ -61,6 +73,7 @@ recordings:
     arranger:
       - {person: rockwell}
     instrumental_of: rock-ver
+    duration: 154
     evidence:
       credits:
         status: official
@@ -69,6 +82,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kAIiK7OUNvz
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: piano-ver-off-vocal
     kind: off_vocal
     title:
@@ -80,6 +98,7 @@ recordings:
     arranger:
       - {person: naoki-endo}
     instrumental_of: piano-ver
+    duration: 170
     evidence:
       credits:
         status: official
@@ -88,6 +107,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kAIiK7OUNvz
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

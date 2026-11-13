@@ -17,11 +17,17 @@ recordings:
       - {artist: dollchestra}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 225
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/04/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_iaJaPy48pwU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-ver
     title:
       ja: Tragic Drops (104期 Ver.)
@@ -33,6 +39,7 @@ recordings:
       - {artist: dollchestra}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 225
     evidence:
       credits:
         status: official
@@ -41,26 +48,43 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 225
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4735
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VWpRi0Ba6I3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: sayaka-murano-solo
     performers:
       - {character: hasunosora/sayaka-murano}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 225
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8YLtUnwiWWY
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

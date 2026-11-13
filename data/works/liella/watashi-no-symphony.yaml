@@ -21,11 +21,17 @@ recordings:
       - {person: shu-kanematsu}
     brass_arranger:
       - {person: shu-kanematsu}
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd02.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_X8vDiEYaCi5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,11 +69,17 @@ recordings:
       - {person: shu-kanematsu}
     brass_arranger:
       - {person: shu-kanematsu}
+    duration: 238
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd30.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wUTKFNxbETV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 2023ver
     title:
       ja: 私のSymphony ～2023Ver.～
@@ -83,6 +95,7 @@ recordings:
       - {person: shu-kanematsu}
     brass_arranger:
       - {person: shu-kanematsu}
+    duration: 239
     evidence:
       credits:
         status: official
@@ -91,6 +104,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hG3ELrf1RC3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanon-shibuya-ver
     title:
       ja: 私のSymphony 〜澁谷かのんVer.〜

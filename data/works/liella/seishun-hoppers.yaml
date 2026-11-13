@@ -16,11 +16,17 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: masaki-iehara}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd38.php
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.apple.com/jp/album/lets-be-one-single/1769354044
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -16,6 +16,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: teppei-shimizu}
+    duration: 294
     evidence:
       credits:
         status: official
@@ -26,6 +27,11 @@ recordings:
         source: https://music.youtube.com/watch?v=hU6RfYnjvGI
         checked: 2026-10-20
         note: 원곡 음원의 편곡은 이 싱글 페이지에 미게재. Solo Live! III 공식 페이지(release.php#cd31 등)의 편곡 크레딧과 같고, 레이블 제공 배포 메타데이터(YouTube Music, D42)도 같음
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_O7fawiExGD5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,6 +43,7 @@ recordings:
     arranger:
       - {person: teppei-shimizu}
     instrumental_of: original
+    duration: 294
     evidence:
       credits:
         status: official
@@ -45,6 +52,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_O7fawiExGD5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: 愛してるばんざーい！ (HONOKA Mix)
@@ -56,6 +68,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -64,6 +77,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: 愛してるばんざーい！ (ELI Mix)
@@ -75,6 +93,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -83,6 +102,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: 愛してるばんざーい！ (KOTORI Mix)
@@ -94,6 +118,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -102,6 +127,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 愛してるばんざーい！ (UMI Mix)
@@ -113,6 +143,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -121,6 +152,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: 愛してるばんざーい！ (RIN Mix)
@@ -132,6 +168,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -140,6 +177,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: 愛してるばんざーい！ (MAKI Mix)
@@ -151,6 +193,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -159,6 +202,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 愛してるばんざーい！ (NOZOMI Mix)
@@ -170,6 +218,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -178,6 +227,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 愛してるばんざーい！ (HANAYO Mix)
@@ -189,6 +243,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -197,6 +252,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 愛してるばんざーい！ (NICO Mix)
@@ -208,6 +268,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: teppei-shimizu}
+    duration: 293
     evidence:
       credits:
         status: official
@@ -216,6 +277,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: prepro-piano-mix
     title:
       ja: 愛してるばんざーい！ (Prepro Piano Mix)
@@ -227,6 +293,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: yoichi-sakai}
+    duration: 114
     evidence:
       credits:
         status: official
@@ -235,6 +302,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: piano-mix
     title:
       ja: 愛してるばんざーい！ (Piano Mix)
@@ -246,6 +318,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: teppei-shimizu}
+    duration: 193
     evidence:
       credits:
         status: official
@@ -254,6 +327,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

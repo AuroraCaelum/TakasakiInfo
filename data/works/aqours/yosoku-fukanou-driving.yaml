@@ -19,41 +19,65 @@ recordings:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: pw-a}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd67
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KnOk2rerb1B
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: pw-a}
+    duration: 229
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: pw-a}
+    duration: 229
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: pw-a}
+    duration: 229
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

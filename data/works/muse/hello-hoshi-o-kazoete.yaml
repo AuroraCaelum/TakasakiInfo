@@ -18,11 +18,17 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 275
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd54
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4mNN3d8u0mK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     instrumental_of: original
+    duration: 274
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4mNN3d8u0mK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: movie-edit
     title:
       ja: Hello,星を数えて (Movie Edit)
@@ -55,6 +67,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 93
     evidence:
       credits:
         status: official
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_waHovs6ip5W
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: Hello,星を数えて (HANAYO Mix)
@@ -74,6 +92,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 275
     evidence:
       credits:
         status: derived
@@ -83,6 +102,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: Hello,星を数えて (MAKI Mix)
@@ -94,6 +118,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 275
     evidence:
       credits:
         status: derived
@@ -103,6 +128,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: Hello,星を数えて (RIN Mix)
@@ -114,6 +144,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 275
     evidence:
       credits:
         status: derived
@@ -123,6 +154,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

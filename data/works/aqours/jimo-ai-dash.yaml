@@ -17,11 +17,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd39
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,6 +41,7 @@ recordings:
     arranger:
       - {person: kazuya-komatsu}
     instrumental_of: original
+    duration: 276
     evidence:
       credits:
         status: official
@@ -43,6 +50,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: JIMO-AI Dash! (高海千歌 Solo Ver.)
@@ -54,6 +66,7 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -62,6 +75,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: JIMO-AI Dash! (桜内梨子 Solo Ver.)
@@ -73,6 +91,7 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -81,6 +100,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: JIMO-AI Dash! (松浦果南 Solo Ver.)
@@ -92,6 +116,7 @@ recordings:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -100,6 +125,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ダイヤ Solo Ver.)
@@ -111,6 +141,7 @@ recordings:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -119,6 +150,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo-ver
     title:
       ja: JIMO-AI Dash! (渡辺 曜 Solo Ver.)
@@ -130,6 +166,7 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -138,6 +175,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: JIMO-AI Dash! (津島善子 Solo Ver.)
@@ -149,6 +191,7 @@ recordings:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -157,6 +200,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: JIMO-AI Dash! (国木田花丸 Solo Ver.)
@@ -168,6 +216,7 @@ recordings:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -176,6 +225,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo-ver
     title:
       ja: JIMO-AI Dash! (小原鞠莉 Solo Ver.)
@@ -187,6 +241,7 @@ recordings:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -195,6 +250,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ルビィ Solo Ver.)
@@ -206,6 +266,7 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 277
     evidence:
       credits:
         status: official
@@ -214,6 +275,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

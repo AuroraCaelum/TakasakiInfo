@@ -16,6 +16,7 @@ recordings:
       - {artist: guilty-kiss}
     arranger:
       - {person: takashi-saeki}
+    duration: 304
     external_ids:
       isrc: JPI101701023
     evidence:
@@ -23,6 +24,11 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd16
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gm86TSGiAyf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,6 +42,7 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     instrumental_of: original
+    duration: 303
     evidence:
       credits:
         status: official
@@ -44,6 +51,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gm86TSGiAyf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

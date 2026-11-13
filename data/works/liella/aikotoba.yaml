@@ -16,12 +16,18 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: takuya-ohata}
+    duration: 228
     evidence:
       credits:
         status: established
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
         note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VvT4un42g11
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

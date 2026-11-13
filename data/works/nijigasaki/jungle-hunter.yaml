@@ -17,11 +17,17 @@ recordings:
       - {artist: a-zu-na}
     arranger:
       - {person: rauto-mori}
+    duration: 206
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nJI39cUUCmf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: rauto-mori}
     instrumental_of: original
+    duration: 204
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nJI39cUUCmf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

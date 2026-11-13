@@ -22,6 +22,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -31,6 +32,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: Mermaid festa vol.1 (KOTORI MIX)
@@ -42,6 +48,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -51,6 +58,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Mermaid festa vol.1 (HONOKA Mix)
@@ -62,6 +74,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -71,16 +84,27 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: original
     performers:
       - {artist: muse}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 239
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -92,6 +116,7 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     instrumental_of: original
+    duration: 239
     evidence:
       credits:
         status: official
@@ -100,6 +125,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: Mermaid festa vol.1 (NOZOMI Mix)
@@ -111,6 +141,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -120,6 +151,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: Mermaid festa vol.1 (NICO Mix)
@@ -131,6 +167,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -140,6 +177,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: Mermaid festa vol.1 (MAKI Mix)
@@ -151,6 +193,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -160,6 +203,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: Mermaid festa vol.1 (ELI Mix)
@@ -171,6 +219,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -180,6 +229,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: Mermaid festa vol.1 (RIN Mix)
@@ -191,6 +245,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -200,6 +255,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: Mermaid festa vol.1 (HANAYO Mix)
@@ -211,6 +271,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -220,6 +281,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

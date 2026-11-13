@@ -16,11 +16,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takahiro-kawata}
+    duration: 330
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KUkPENKhsIq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     instrumental_of: original
+    duration: 330
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KUkPENKhsIq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: Wake up, Challenger!! (高海千歌 Solo Ver.)
@@ -53,6 +65,7 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
@@ -62,6 +75,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
@@ -73,6 +91,7 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
@@ -82,6 +101,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Wake up, Challenger!! (黒澤ルビィ Solo Ver.)
@@ -93,6 +117,7 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
@@ -102,72 +127,113 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd44
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd45
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd47
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: takahiro-kawata}
+    duration: 329
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd48
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd49
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

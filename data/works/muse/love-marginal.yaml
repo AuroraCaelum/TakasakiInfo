@@ -23,6 +23,7 @@ recordings:
     arranger:
       - {person: miki-fujisue}
       - {person: koji-matsuzaka}
+    duration: 273
     evidence:
       credits:
         status: derived
@@ -32,6 +33,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Love marginal (HONOKA Mix)
@@ -44,6 +50,7 @@ recordings:
     arranger:
       - {person: miki-fujisue}
       - {person: koji-matsuzaka}
+    duration: 273
     evidence:
       credits:
         status: derived
@@ -53,17 +60,28 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: original
     performers:
       - {artist: printemps}
     arranger:
       - {person: miki-fujisue}
       - {person: koji-matsuzaka}
+    duration: 275
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd03
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_d1JNJtdnsWI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -76,6 +94,7 @@ recordings:
       - {person: miki-fujisue}
       - {person: koji-matsuzaka}
     instrumental_of: original
+    duration: 275
     evidence:
       credits:
         status: official
@@ -84,6 +103,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_d1JNJtdnsWI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: Love marginal (HANAYO Mix)
@@ -96,6 +120,7 @@ recordings:
     arranger:
       - {person: miki-fujisue}
       - {person: koji-matsuzaka}
+    duration: 273
     evidence:
       credits:
         status: derived
@@ -105,6 +130,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

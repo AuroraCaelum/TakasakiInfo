@@ -58,6 +58,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: yugo-sasakura}
+    duration: 218
     evidence:
       credits:
         status: derived
@@ -67,6 +68,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TZOmuqknDex
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: ぷわぷわーお！ (KOTORI Mix)
@@ -78,6 +84,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: yugo-sasakura}
+    duration: 218
     evidence:
       credits:
         status: derived
@@ -87,6 +94,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: ぷわぷわーお！ (HANAYO Mix)
@@ -98,6 +110,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: yugo-sasakura}
+    duration: 218
     evidence:
       credits:
         status: derived
@@ -107,6 +120,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lham1FEyj0z
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

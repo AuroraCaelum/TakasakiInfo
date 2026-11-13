@@ -16,11 +16,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
+    duration: 291
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd25
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
     instrumental_of: original
+    duration: 291
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: cyaron-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (CYaRon! ver.)
@@ -53,6 +65,7 @@ recordings:
       - {artist: cyaron}
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
+    duration: 291
     evidence:
       credits:
         status: official
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: azalea-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (AZALEA ver.)
@@ -72,6 +90,7 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
+    duration: 291
     evidence:
       credits:
         status: official
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: guilty-kiss-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (Guilty Kiss ver.)
@@ -91,6 +115,7 @@ recordings:
       - {artist: guilty-kiss}
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
+    duration: 291
     evidence:
       credits:
         status: official
@@ -99,6 +124,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

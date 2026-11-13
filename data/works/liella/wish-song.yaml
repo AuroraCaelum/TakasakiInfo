@@ -16,11 +16,17 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: shu-kanematsu}
+    duration: 256
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd07.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_7BfnlPnkyDH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -50,6 +56,7 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: shu-kanematsu}
+    duration: 256
     evidence:
       credits:
         status: official
@@ -58,6 +65,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58). 사용자 검토·승인(2026-11-11)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_CZiRbKGxIsM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 11-ver-off-vocal
     kind: off_vocal
     title:

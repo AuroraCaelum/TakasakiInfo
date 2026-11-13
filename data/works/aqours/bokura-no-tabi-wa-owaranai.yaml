@@ -19,11 +19,17 @@ recordings:
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 229
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd99
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yMOGg1xKgX6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,6 +42,7 @@ recordings:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
     instrumental_of: original
+    duration: 229
     evidence:
       credits:
         status: official
@@ -44,105 +51,164 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yMOGg1xKgX6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4713
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_MwLSl55vwib
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4714
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EfecxYeTOdS
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4715
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_tK0bPGSyuk5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4716
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_aYfGfEQy6ji
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4717
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oN8MmAzXa1R
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4718
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TuRxsMClUQq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4719
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DSvU2sk3dwN
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4720
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oGplOLOjTr3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: dr-lilcom}
       - {person: hitoshi-harukawa}
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4721
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Ok3gCxhnBla
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 僕らの旅は終わらない (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -158,6 +224,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 231
     evidence:
       credits:
         status: derived
@@ -167,6 +234,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

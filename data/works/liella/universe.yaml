@@ -18,6 +18,7 @@ recordings:
       - {person: yuki-utamaru}
     strings_arranger:
       - {person: yoshiaki-dewa}
+    duration: 263
     external_ids:
       isrc: JPI102301530
     evidence:
@@ -31,6 +32,11 @@ recordings:
         source: https://musicbrainz.org/isrc/JPI102301530
         checked: 2026-10-17
         note: 클럽 CD(2023-07-01)와 디지털 싱글(2023-08-02)이 같은 음원
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_tPNy3U719AK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -17,11 +17,17 @@ recordings:
       - {artist: diverdiva}
     arranger:
       - {person: passion-king}
+    duration: 229
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd40
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jAHa5u7CFLl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,11 +41,17 @@ recordings:
     arranger:
       - {person: passion-king}
     instrumental_of: original
+    duration: 227
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd40
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jAHa5u7CFLl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

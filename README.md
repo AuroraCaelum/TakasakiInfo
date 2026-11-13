@@ -9,7 +9,7 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--12-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--13-e4007f?style=flat-square)](TakasakiInfo.json)
 [![Tracks](https://img.shields.io/badge/tracks-4%2C598-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
@@ -28,7 +28,7 @@
 
 ## Database status
 
-**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-12
+**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-13
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
@@ -232,7 +232,7 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 </details>
 
 <details>
-<summary><code>works.json</code>: <b>Work</b>, <b>WorkCredits</b>, <b>Recording</b>, <b>Credit</b>, <b>LiveOf</b></summary>
+<summary><code>works.json</code>: <b>Work</b>, <b>WorkCredits</b>, <b>Recording</b>, <b>Credit</b>, <b>LiveOf</b>, <b>Audio</b></summary>
 
 | Field | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
@@ -267,6 +267,8 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `credits_override` | **WorkCredits** | — | Lyricist and composer of this recording when they differ from the work's (rare; the evidence says why). |
 | `instrumental_of` | string | — | For an off vocal or instrumental: id of the vocal recording in the same work. |
 | `live` | **LiveOf** | — | For a live recording (a live CD's track): the show it was recorded at, when the release says which (D54). |
+| `duration` | integer | — | Length in seconds, as the label distributes the recording to streaming services; its source is `evidence.duration` (D61). |
+| `audio` | **Audio** | — | Key, tempo and time signature, which the mood labels are made from (D61). An off vocal or instrumental without its own takes the values of `instrumental_of` in the outputs. |
 | `external_ids` | map of string | `{}` | Ids elsewhere: `isrc`. |
 | `evidence` | map of **Evidence** | `{}` | Sources, keyed by the field they cover. |
 
@@ -288,6 +290,14 @@ The v1 files hold the whole database, with what the CSV and JSON files leave out
 | `concert` | string | *required* | Concert id. |
 | `date` | date | — | Day of the show; null when the release does not say which of the concert's shows. |
 | `label` | string | — | The show's label, when the day had more than one (`Day.2 Evening`). |
+
+**Audio** (in Recording `audio`)
+
+| Field | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `key` | string | — | Key: the tonic, with `m` for a minor key (`F`, `F#m`, `Bb`). |
+| `bpm` | integer | — | Tempo in beats per minute, as the source counts it (a half- or double-time reading is possible). |
+| `time_signature` | string | — | Time signature (`4/4`). |
 
 </details>
 
@@ -526,6 +536,28 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
 | `live` | object | For a live recording: the show it was recorded at (`concert`, `date`, `label`); else null. |
 | `external_ids` | map of string | Ids elsewhere (`isrc`); null when none. |
 | `main_link` | string | Main YouTube Music URL: the earliest released track of the recording that has a video of its own; null when none has. |
+| `duration` | integer | Length in seconds; null when not known (D61). |
+| `audio` | object | Key and tempo: `key`, `bpm`, `time_signature` as the source gives them, `mood` (labels made from them by rule: `upbeat`, `slow`, `bright`, `wistful`), `from` (the recording they belong to, when an off vocal takes its vocal recording's); null when not known (D61). |
+| `representative` | boolean | The recording its work is shown with: the first studio vocal recording, for a soundtrack cue the first instrumental (D61). |
+
+</details>
+
+<details>
+<summary>Length, key, tempo and mood (<code>recordings.json</code>)</summary>
+
+<br>
+
+- `duration`: the length the label distributes the recording with, from YouTube Music, Apple Music or Deezer.
+- `audio`: key, tempo and time signature from [GetSongBPM](https://getsongbpm.com). These come from an outside analysis, not from the rights holders, and a tempo can be read at half or double time. An off vocal takes the values of its vocal recording (`from`).
+- `audio.mood`: labels made from those values by these rules, not judged by ear.
+- A work is shown with the values of its `representative` recording.
+
+| Label | ja | rom | ko | When |
+| :-- | :-- | :-- | :-- | :-- |
+| `upbeat` | アップテンポ | Upbeat | 경쾌한 | `bpm` 140 or more |
+| `slow` | スロー | Slow | 느린 | `bpm` under 100 |
+| `bright` | 明るい | Bright | 밝은 | a major key |
+| `wistful` | 切ない | Wistful | 애틋한 | a minor key |
 
 </details>
 
@@ -675,6 +707,7 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
 - Each song comes with its Japanese title, romanization and Korean translation, its release date and a YouTube Music link.
   - A link is given only when the song is officially on streaming; otherwise the value is `NA`.
   - When an album has no streaming release of its own, the link points to the same recording on another album, and the `Note` column says `Link is from the [album]`.
+- The v1 files and the SQLite database also give each recording's length, key, tempo and mood labels ([details](#v1-schema)). Key and tempo data by [GetSongBPM](https://getsongbpm.com).
 
 ### Before you start
 
@@ -907,6 +940,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - 곡마다 일본어 제목, 로마자 표기, 한국어 번역과 발매일, YouTube Music 링크를 제공합니다.
   - 링크는 정식으로 스트리밍에 공개된 곡에만 있고, 없으면 `NA`입니다.
   - 앨범에 스트리밍판이 따로 없으면 다른 앨범에 실린 같은 음원으로 링크하고, `비고` 열에 `Link is from the [앨범]`이라고 적습니다.
+- v1 파일과 SQLite DB에는 음원마다 길이, 키, BPM, 분위기 라벨도 있습니다([설명](#v1-schema)). 키·BPM 데이터는 [GetSongBPM](https://getsongbpm.com)에서 가져왔습니다.
 
 ### 시작하기 전에
 
@@ -974,6 +1008,7 @@ and their rights holders SUNRISE, Bandai Namco Filmworks Inc., Lantis, and Bushi
 - 各曲の日本語タイトル、ローマ字表記、韓国語訳と、発売日、YouTube Music のリンクを提供します。
   - リンクは正式にストリーミング配信されている曲に限ります。ない場合は `NA` です。
   - アルバムにストリーミング版がない場合は、別のアルバムに収録された同じ音源にリンクし、`Note`（備考）列に `Link is from the [アルバム]` と記します。
+- v1 ファイルと SQLite DB には、音源ごとの長さ、キー、BPM、ムードのラベルもあります（[説明](#v1-schema)）。キーと BPM のデータは [GetSongBPM](https://getsongbpm.com) によるものです。
 
 ### はじめに
 

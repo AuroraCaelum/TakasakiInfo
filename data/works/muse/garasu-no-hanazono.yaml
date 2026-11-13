@@ -59,6 +59,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: takeshi-masuda}
+    duration: 271
     evidence:
       credits:
         status: derived
@@ -68,6 +69,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_I3N24UM9dTB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 硝子の花園 (NOZOMI Mix)
@@ -79,6 +85,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: takeshi-masuda}
+    duration: 271
     evidence:
       credits:
         status: derived
@@ -88,6 +95,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZxuaIP0Vd85
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

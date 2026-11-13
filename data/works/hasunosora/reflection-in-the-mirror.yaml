@@ -19,11 +19,17 @@ recordings:
       - {person: menma}
     strings_arranger:
       - {person: yu-manabe}
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/02/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mMXzz9nZZud
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -39,11 +45,17 @@ recordings:
     strings_arranger:
       - {person: yu-manabe}
     instrumental_of: original
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/02/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mMXzz9nZZud
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-new-ver
     title:
       ja: Reflection in the mirror (104期NEW Ver.)
@@ -55,6 +67,7 @@ recordings:
       - {artist: cerise-bouquet}
     arranger:
       - {person: armyslick}
+    duration: 305
     evidence:
       credits:
         status: official
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rYllkmmcqqN
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -70,11 +88,17 @@ recordings:
       - {person: menma}
     strings_arranger:
       - {person: yu-manabe}
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4733
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_AMjXM5lMYuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -82,11 +106,17 @@ recordings:
       - {person: menma}
     strings_arranger:
       - {person: yu-manabe}
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-new-ver-off-vocal
     kind: off_vocal
     title:
@@ -98,6 +128,7 @@ recordings:
     arranger:
       - {person: armyslick}
     instrumental_of: 104th-new-ver
+    duration: 305
     evidence:
       credits:
         status: official
@@ -106,6 +137,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rYllkmmcqqN
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -24,12 +24,18 @@ recordings:
     arranger:
       - {person: kotaro-odaka}
       - {person: naoki-tani}
+    duration: 317
     evidence:
       credits:
         status: established
         source: https://www.uta-net.com/song/347232/
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창만 게재, 가창은 일치). 우타넷 표기
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TyJ3MMULi2B
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -50,12 +56,18 @@ recordings:
       - {person: kotaro-odaka}
       - {person: naoki-tani}
     instrumental_of: original
+    duration: 317
     evidence:
       credits:
         status: established
         source: https://www.uta-net.com/song/347232/
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 테마송 페이지 https://www.ijigen-fes.jp/utagassen/theme.php는 곡명·가창만 게재, 가창은 일치). 우타넷 표기
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TyJ3MMULi2B
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 異次元★♥BIGBANG (異次元フェス アイドルマスター★♥ラブライブ！歌合戦 Day.1)

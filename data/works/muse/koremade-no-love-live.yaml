@@ -22,6 +22,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: yoshiaki-fujisawa}
+    duration: 58
     evidence:
       credits:
         status: official
@@ -30,6 +31,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: musical-ver-off-vocal
     kind: off_vocal
     title:
@@ -41,6 +47,7 @@ recordings:
     arranger:
       - {person: yoshiaki-fujisawa}
     instrumental_of: musical-ver
+    duration: 57
     evidence:
       credits:
         status: official
@@ -50,6 +57,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 external_ids:
   fandom: Koremade no Love Live! ~Musical Ver.~
 evidence:

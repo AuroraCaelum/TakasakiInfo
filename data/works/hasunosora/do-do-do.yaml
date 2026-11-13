@@ -16,11 +16,17 @@ recordings:
       - {artist: mira-cra-park}
     arranger:
       - {person: reiji-yamamoto}
+    duration: 268
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/01/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 104th-ver
     title:
       ja: ド！ド！ド！ (104期 Ver.)
@@ -32,6 +38,7 @@ recordings:
       - {artist: mira-cra-park}
     arranger:
       - {person: reiji-yamamoto}
+    duration: 268
     evidence:
       credits:
         status: official
@@ -40,26 +47,43 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}
     arranger:
       - {person: reiji-yamamoto}
+    duration: 268
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4737
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VNXkRWKWLyG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
     arranger:
       - {person: reiji-yamamoto}
+    duration: 268
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -19,6 +19,7 @@ recordings:
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 257
     external_ids:
       isrc: JPI101602756
     evidence:
@@ -32,6 +33,11 @@ recordings:
         source: https://musicbrainz.org/release/a7a1096c-eb1a-4cb5-9e1c-ad534b42f80b
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,33 +69,51 @@ recordings:
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 257
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 258
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 258
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

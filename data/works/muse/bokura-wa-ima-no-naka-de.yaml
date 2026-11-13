@@ -18,11 +18,17 @@ recordings:
       - {person: shintarou-mori}
     strings_arranger:
       - {person: yoshiaki-fujisawa}
+    duration: 275
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd19
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kANNE5rd6V3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -36,6 +42,7 @@ recordings:
     strings_arranger:
       - {person: yoshiaki-fujisawa}
     instrumental_of: original
+    duration: 276
     evidence:
       credits:
         status: official
@@ -44,6 +51,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kANNE5rd6V3
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: 僕らは今のなかで (HONOKA Mix)
@@ -55,6 +67,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -63,6 +76,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: 僕らは今のなかで (ELI Mix)
@@ -74,6 +92,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -82,6 +101,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: 僕らは今のなかで (KOTORI Mix)
@@ -93,6 +117,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -101,6 +126,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 僕らは今のなかで (UMI Mix)
@@ -112,6 +142,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -120,6 +151,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: 僕らは今のなかで (RIN Mix)
@@ -131,6 +167,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -139,6 +176,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: 僕らは今のなかで (MAKI Mix)
@@ -150,6 +192,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -158,6 +201,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 僕らは今のなかで (NOZOMI Mix)
@@ -169,6 +217,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -177,6 +226,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 僕らは今のなかで (HANAYO Mix)
@@ -188,6 +242,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -196,6 +251,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 僕らは今のなかで (NICO Mix)
@@ -207,6 +267,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: shintarou-mori}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -215,6 +276,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: littlemore-rock-mix
     title:
       ja: 僕らは今のなかで (LittleMore-Rock Mix)
@@ -226,6 +292,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: shun-tanishima}
+    duration: 276
     evidence:
       credits:
         status: official
@@ -234,6 +301,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 15th-tribute
     performers:
       - {character: external/tokai-teio}
@@ -243,12 +315,18 @@ recordings:
       - {character: external/almond-eye}
     arranger:
       - {person: kenta-higashiohji}
+    duration: 286
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IWwGO3j41rQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: 僕らは今のなかで (TVサイズ)
@@ -260,6 +338,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: shintarou-mori}
+    duration: 95
     evidence:
       credits:
         status: official
@@ -268,6 +347,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 僕らは今のなかで (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)

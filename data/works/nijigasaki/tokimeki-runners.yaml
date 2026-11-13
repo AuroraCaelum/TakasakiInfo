@@ -17,11 +17,17 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    duration: 277
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_BcYUbHql6bp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: sifas-chapter-17-ver
     title:
       ja: TOKIMEKI Runners (スクスタストーリー17章挿入歌Ver.)
@@ -33,11 +39,17 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    duration: 289
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 12nin-ver
     title:
       ja: TOKIMEKI Runners (12人Ver.)
@@ -49,12 +61,18 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    duration: 276
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/TOKIMEKI_Runners
         checked: 2026-10-19
         note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 矢鴇つかさ(Arte Refact). Fandom 문서의 크레딧·트랙
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -85,6 +103,7 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
+    duration: 115
     evidence:
       credits:
         status: derived
@@ -94,6 +113,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:
@@ -105,6 +129,7 @@ recordings:
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
     instrumental_of: 9-members-ver
+    duration: 275
     evidence:
       credits:
         status: official
@@ -113,6 +138,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_2YUtEXNv6ai
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: sifas-chapter-17-ver-off-vocal
     kind: off_vocal
     title:
@@ -124,6 +154,7 @@ recordings:
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
     instrumental_of: sifas-chapter-17-ver
+    duration: 288
     evidence:
       credits:
         status: official
@@ -132,6 +163,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -22,11 +22,17 @@ recordings:
     arranger:
       - {person: ayumu-nakamura}
       - {person: hiroto-kikuchi}
+    duration: 190
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php
         checked: 2026-10-27
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TCVCsOxAwzE
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

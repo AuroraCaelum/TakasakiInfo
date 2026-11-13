@@ -17,11 +17,17 @@ recordings:
       - {character: nijigasaki/shizuku-osaka}
     arranger:
       - {person: joe}
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cth082hzH6n
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,11 +41,17 @@ recordings:
     arranger:
       - {person: joe}
     instrumental_of: original
+    duration: 247
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd26
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cth082hzH6n
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Solitude Rain (TV size)
@@ -51,6 +63,7 @@ recordings:
       - {character: nijigasaki/shizuku-osaka}
     arranger:
       - {person: joe}
+    duration: 98
     evidence:
       credits:
         status: derived
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

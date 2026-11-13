@@ -18,11 +18,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 259
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd70
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +40,7 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     instrumental_of: original
+    duration: 259
     evidence:
       credits:
         status: official
@@ -42,6 +49,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: なんどだって約束！ (高海千歌 Solo Ver.)
@@ -53,6 +65,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -62,6 +75,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: なんどだって約束！ (桜内梨子 Solo Ver.)
@@ -73,6 +91,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -82,6 +101,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: なんどだって約束！ (松浦果南 Solo Ver.)
@@ -93,6 +117,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -102,6 +127,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ダイヤ Solo Ver.)
@@ -113,6 +143,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -122,6 +153,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo-ver
     title:
       ja: なんどだって約束！ (渡辺 曜 Solo Ver.)
@@ -133,6 +169,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -142,6 +179,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: なんどだって約束！ (津島善子 Solo Ver.)
@@ -153,6 +195,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -162,6 +205,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: なんどだって約束！ (国木田花丸 Solo Ver.)
@@ -173,6 +221,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -182,6 +231,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo-ver
     title:
       ja: なんどだって約束！ (小原鞠莉 Solo Ver.)
@@ -193,6 +247,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -202,6 +257,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ルビィ Solo Ver.)
@@ -213,6 +273,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: akimitsu-honma}
+    duration: 258
     evidence:
       credits:
         status: derived
@@ -222,6 +283,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

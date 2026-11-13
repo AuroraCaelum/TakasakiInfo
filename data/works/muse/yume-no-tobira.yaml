@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: takashi-saeki}
+    duration: 290
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SzzFhxqPyxl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     instrumental_of: original
+    duration: 290
     evidence:
       credits:
         status: official
@@ -40,15 +47,26 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SzzFhxqPyxl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
+    duration: 153
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd12
         checked: 2026-10-26
         note: "가창자: Fandom OST 문서(공식 미게재, 'By: Riko Sakurauchi')"
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0cfjJVpigob
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: ユメノトビラ (TVサイズ)
@@ -60,6 +78,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: takashi-saeki}
+    duration: 138
     evidence:
       credits:
         status: official
@@ -68,6 +87,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: ユメノトビラ (NICO Mix)
@@ -79,6 +103,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -88,6 +113,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: ユメノトビラ (HANAYO Mix)
@@ -99,6 +129,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -108,6 +139,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: ユメノトビラ (NOZOMI Mix)
@@ -119,6 +155,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -128,6 +165,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: ユメノトビラ (MAKI Mix)
@@ -139,6 +181,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -148,6 +191,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: ユメノトビラ (RIN Mix)
@@ -159,6 +207,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -168,6 +217,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: ユメノトビラ (UMI Mix)
@@ -179,6 +233,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -188,6 +243,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: ユメノトビラ (KOTORI Mix)
@@ -199,6 +259,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: takashi-saeki}
+    duration: 290
     evidence:
       credits:
         status: derived
@@ -208,6 +269,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: ユメノトビラ (ELI Mix)
@@ -219,6 +285,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -228,6 +295,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: ユメノトビラ (HONOKA Mix)
@@ -239,6 +311,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: takashi-saeki}
+    duration: 289
     evidence:
       credits:
         status: derived
@@ -248,6 +321,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -16,11 +16,17 @@ recordings:
       - {artist: hasunosora-girls-high-school-idol-club}
     arranger:
       - {person: sakumaryo}
+    duration: 243
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_4740
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8jAWWorR55y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: sakumaryo}
     instrumental_of: original
+    duration: 243
     evidence:
       credits:
         status: official
@@ -40,36 +47,59 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8jAWWorR55y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
     arranger:
       - {person: sakumaryo}
+    duration: 243
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: sayaka-murano-solo
     performers:
       - {character: hasunosora/sayaka-murano}
     arranger:
       - {person: sakumaryo}
+    duration: 243
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6068
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8YLtUnwiWWY
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
     arranger:
       - {person: sakumaryo}
+    duration: 243
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6070
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

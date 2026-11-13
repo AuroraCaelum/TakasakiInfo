@@ -18,11 +18,17 @@ recordings:
     arranger:
       - {person: ygarshy}
       - {person: passion-king}
+    duration: 246
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 12nin-ver
     title:
       ja: Just Believe!!! (12人Ver.)
@@ -35,12 +41,18 @@ recordings:
     arranger:
       - {person: ygarshy}
       - {person: passion-king}
+    duration: 245
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Just_Believe!!!
         checked: 2026-10-19
         note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 ygarshy, PASSiON KiNG. Fandom 문서의 크레딧·트랙
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -73,6 +85,7 @@ recordings:
       - {person: ygarshy}
       - {person: passion-king}
     instrumental_of: original
+    duration: 246
     evidence:
       credits:
         status: official
@@ -81,6 +94,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

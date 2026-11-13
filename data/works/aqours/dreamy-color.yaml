@@ -17,11 +17,17 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4906
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: meg}
     instrumental_of: original
+    duration: 297
     evidence:
       credits:
         status: official
@@ -41,6 +48,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: DREAMY COLOR (高海千歌 Solo Ver.)
@@ -52,6 +64,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: DREAMY COLOR (桜内梨子 Solo Ver.)
@@ -72,6 +90,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -81,6 +100,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: DREAMY COLOR (松浦果南 Solo Ver.)
@@ -92,6 +116,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -101,6 +126,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: DREAMY COLOR (黒澤ダイヤ Solo Ver.)
@@ -112,6 +142,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -121,6 +152,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: you-watanabe-solo-ver
     title:
       ja: DREAMY COLOR (渡辺 曜 Solo Ver.)
@@ -132,6 +168,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -141,6 +178,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: DREAMY COLOR (津島善子 Solo Ver.)
@@ -152,6 +194,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -161,6 +204,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: DREAMY COLOR (国木田花丸 Solo Ver.)
@@ -172,6 +220,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -181,6 +230,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo-ver
     title:
       ja: DREAMY COLOR (小原鞠莉 Solo Ver.)
@@ -192,6 +246,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -201,6 +256,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: DREAMY COLOR (黒澤ルビィ Solo Ver.)
@@ -212,6 +272,7 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: meg}
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -221,6 +282,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_UWKN2e6Bdw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: DREAMY COLOR (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -235,6 +301,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 297
     evidence:
       credits:
         status: derived
@@ -244,6 +311,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

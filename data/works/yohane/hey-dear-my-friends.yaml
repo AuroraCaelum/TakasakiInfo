@@ -22,11 +22,17 @@ recordings:
       - {character: yohane/mari}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 225
     evidence:
       credits:
         status: official
         source: https://www.yohane.net/music/detail/?id=7
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_RrTx5d3xOfM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -38,6 +44,7 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     instrumental_of: original
+    duration: 225
     evidence:
       credits:
         status: official
@@ -46,6 +53,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_RrTx5d3xOfM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Hey, dear my friends (TVサイズ)
@@ -59,6 +71,7 @@ recordings:
       - {character: yohane/mari}
     arranger:
       - {person: hayato-yamamoto}
+    duration: 130
     evidence:
       credits:
         status: derived
@@ -68,6 +81,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_NSA48jW0KK6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

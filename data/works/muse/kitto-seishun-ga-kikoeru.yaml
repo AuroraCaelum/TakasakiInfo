@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 245
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Mskv3k3fzFG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kyo-takada}
     instrumental_of: original
+    duration: 248
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Mskv3k3fzFG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: きっと青春が聞こえる (HONOKA Mix)
@@ -51,6 +63,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -59,6 +72,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: きっと青春が聞こえる (ELI Mix)
@@ -70,6 +88,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -78,6 +97,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: きっと青春が聞こえる (KOTORI Mix)
@@ -89,6 +113,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -97,6 +122,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: きっと青春が聞こえる (UMI Mix)
@@ -108,6 +138,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -116,6 +147,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: きっと青春が聞こえる (RIN Mix)
@@ -127,6 +163,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -135,6 +172,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: きっと青春が聞こえる (MAKI Mix)
@@ -146,6 +188,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -154,6 +197,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: きっと青春が聞こえる (NOZOMI Mix)
@@ -165,6 +213,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -173,6 +222,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: きっと青春が聞こえる (HANAYO Mix)
@@ -184,6 +238,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -192,6 +247,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: きっと青春が聞こえる (NICO Mix)
@@ -203,6 +263,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 248
     evidence:
       credits:
         status: official
@@ -211,6 +272,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-kotohonoumi
     title:
       ja: きっと青春が聞こえる (TVサイズ・ことほのうみ)
@@ -224,6 +290,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -232,6 +299,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-makirinpana
     title:
       ja: きっと青春が聞こえる (TVサイズ・まきりんぱな)
@@ -245,6 +317,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 102
     evidence:
       credits:
         status: official
@@ -253,6 +326,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-nico-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・にこソロ)
@@ -264,6 +342,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -272,6 +351,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-nicorinpanamakikotohonoumi
     title:
       ja: きっと青春が聞こえる (TVサイズ・にこりんぱなまきことほのうみ)
@@ -289,6 +373,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -297,6 +382,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-elinozo
     title:
       ja: きっと青春が聞こえる (TVサイズ・えりのぞ)
@@ -309,6 +399,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -317,6 +408,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-kotori-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・ことりソロ)
@@ -328,6 +424,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -336,6 +433,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size-honoka-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・穂乃果ソロ)
@@ -347,6 +449,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -355,6 +458,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: きっと青春が聞こえる (TVサイズ)
@@ -366,6 +474,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -374,6 +483,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -19,11 +19,17 @@ recordings:
       - {character: liella/sumire-heanna}
     arranger:
       - {person: effy}
+    duration: 263
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd07.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_7BfnlPnkyDH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

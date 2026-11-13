@@ -18,11 +18,17 @@ recordings:
       - {person: ryuichi-takagi}
     strings_arranger:
       - {person: hinako-tsubakiyama}
+    duration: 199
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd01.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wWSYQj1ZsYr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -17,22 +17,34 @@ recordings:
       - {character: liella/chisato-arashi}
     arranger:
       - {person: yuya-mori}
+    duration: 202
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: keke-ver
     version: Keke Ver.
     performers:
       - {character: liella/keke-tang}
     arranger:
       - {person: yuya-mori}
+    duration: 203
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -17,6 +17,7 @@ recordings:
       - {artist: guilty-kiss}
     arranger:
       - {person: meg}
+    duration: 260
     external_ids:
       isrc: JPI102101782
     evidence:
@@ -24,6 +25,11 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd56
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_1vfO0jXAxvv
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

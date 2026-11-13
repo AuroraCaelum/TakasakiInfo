@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: tron-lm}
     instrumental_of: original
+    duration: 254
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 友情ノーチェンジ (UMI MIX)
@@ -51,6 +63,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -60,6 +73,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: 友情ノーチェンジ (KOTORI Mix)
@@ -71,6 +89,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -80,6 +99,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: 友情ノーチェンジ (HONOKA Mix)
@@ -91,6 +115,7 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -100,6 +125,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: bgm
     kind: instrumental
     title:
@@ -108,6 +138,7 @@ recordings:
       rom: Yuujou No Change (BGM)
       ko: 우정 노 체인지 (BGM)
     version: BGM
+    duration: 89
     evidence:
       credits:
         status: derived
@@ -117,6 +148,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 友情ノーチェンジ (NOZOMI Mix)
@@ -128,6 +164,7 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -137,6 +174,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 友情ノーチェンジ (NICO Mix)
@@ -148,6 +190,7 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -157,6 +200,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: maki-mix
     title:
       ja: 友情ノーチェンジ (MAKI Mix)
@@ -168,6 +216,7 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -177,6 +226,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: eli-mix
     title:
       ja: 友情ノーチェンジ (ELI Mix)
@@ -188,6 +242,7 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -197,6 +252,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: rin-mix
     title:
       ja: 友情ノーチェンジ (RIN Mix)
@@ -208,6 +268,7 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -217,6 +278,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: 友情ノーチェンジ (HANAYO Mix)
@@ -228,6 +294,7 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: derived
@@ -237,6 +304,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived
