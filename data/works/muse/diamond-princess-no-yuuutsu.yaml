@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 234
+    audio:
+      key: C
+      bpm: 127
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_h3e5UJemUxi
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=443c002e-8219-464f-b0b4-3ea9c4daa828
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 234
+    audio:
+      key: C
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b6f6e307-f25a-41fe-b706-8dec05f94f30
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (MAKI Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 234
+    audio:
+      key: C
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4b603d03-1a8e-4e3e-98c6-687dbd8d8edf
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: ダイヤモンドプリンセスの憂鬱 (ELI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 234
+    audio:
+      key: C
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=230ee864-b650-4efd-be0e-017ffabef09d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

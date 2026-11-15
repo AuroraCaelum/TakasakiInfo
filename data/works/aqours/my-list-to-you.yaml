@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: ramseeni}
     duration: 243
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0b5cb512-4881-43c1-964b-933cbeff71b8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -60,6 +68,9 @@ recordings:
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -70,12 +81,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7d68a8db-ea55-4d8a-ad06-aba8afa32cf7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: C#m
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -86,12 +105,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=24e3f5f6-3eb5-4a2e-b70d-ad91160f144b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: C#m
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -102,12 +129,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a3486948-a39f-4b14-a602-268a3259926e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: ramseeni}
     duration: 241
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -118,12 +153,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=31b66ab5-81f6-46f9-8c48-dd6b31da19f3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -134,12 +177,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9d23c2f0-c9c0-4375-925c-2fd29efca32e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -150,12 +201,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=39b1c982-b54f-4734-be7e-2a1ad690c597
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: C#m
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -166,12 +225,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=33818116-7b44-497d-8434-f3cc96db965f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: E
+      bpm: 78
     evidence:
       credits:
         status: official
@@ -182,12 +249,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=89fd6141-8e55-41c6-8bdd-f9ddfa3c2e72
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: ramseeni}
     duration: 242
+    audio:
+      key: E
+      bpm: 156
     evidence:
       credits:
         status: official
@@ -198,6 +273,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=54403ea2-d42b-46eb-8f19-492eed84a3c5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

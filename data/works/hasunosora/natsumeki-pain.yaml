@@ -20,6 +20,9 @@ recordings:
     strings_arranger:
       - {person: daisuke-kadowaki}
     duration: 204
+    audio:
+      key: Ab
+      bpm: 188
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f537e6f6-3436-4f91-ba34-2d82b530a227
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 104th-ver
     title:
       ja: 夏めきペイン (104期 Ver.)
@@ -42,6 +50,9 @@ recordings:
     arranger:
       - {person: tasuku-maeda}
     duration: 204
+    audio:
+      key: Ab
+      bpm: 188
     evidence:
       credits:
         status: official
@@ -55,6 +66,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f537e6f6-3436-4f91-ba34-2d82b530a227
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}

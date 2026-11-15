@@ -1,0 +1,11 @@
+type: audio
+ref: recording:yohane/r-e-p#original
+title: R・E・P
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=R%E3%83%BBE%E3%83%BBP
+  chordwiki: https://ja.chordwiki.org/search.html?t=R%E3%83%BBE%E3%83%BBP
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/5sOKGVH04Uy8uxHWdB0Iqk, title: R・E・P - Off Vocal, artist: 'ハナマル(CV.高槻かなこ), ヨウ(CV.斉藤朱夏), カナン(CV.諏訪ななか)', seconds: 306, key: Abm, bpm: 85}
+  - {n: 2, url: https://open.spotify.com/track/145VSCM3RwEhFowFtroUtU, title: R・E・P, artist: 'ハナマル(CV.高槻かなこ), ヨウ(CV.斉藤朱夏), カナン(CV.諏訪ななか)', seconds: 306, key: Ebm, bpm: 170}
+decision: null

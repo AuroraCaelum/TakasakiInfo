@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: beatnine}
     duration: 222
+    audio:
+      key: C#m
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_fRfHONmXLl2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b050c11a-39f8-41ce-9d08-d13fe3856f9f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

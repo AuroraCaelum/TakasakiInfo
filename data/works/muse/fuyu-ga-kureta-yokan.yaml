@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 332
+    audio:
+      key: F
+      bpm: 98
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_2ntdUHLRN5u
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7f7e4a08-a60a-48c2-a06f-9e0a6b5e997e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 332
+    audio:
+      key: C
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=462c4762-8c99-44a9-9949-2f7f176c5aa3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 冬がくれた予感 (MAKI Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 332
+    audio:
+      key: C
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4c38907c-3471-4e9e-b7e8-fe2d08fde449
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 冬がくれた予感 (ELI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 332
+    audio:
+      key: G
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9a3f60b5-a0a9-4ed6-9c41-3a1d590e3ecb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

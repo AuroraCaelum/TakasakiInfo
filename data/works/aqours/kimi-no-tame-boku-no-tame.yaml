@@ -20,6 +20,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 253
+    audio:
+      key: C#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_VWd08oYgEMG
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f09193a3-c54d-4a83-9407-34361169ce9a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: F#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -73,6 +84,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7511d29e-974d-48e9-97eb-6ea54be458a4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -80,6 +96,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: F#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -90,6 +109,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c021759d-0679-4984-9e87-d638d559bbe4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -97,6 +121,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: C#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -107,6 +134,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f15da6a9-ff8a-4aab-b8ed-d203a8d92a37
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -114,6 +146,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: F#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -124,6 +159,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48dff204-2542-4f08-9857-9957b561618a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -131,6 +171,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: F#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -141,6 +184,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=aad280fc-f9e7-4b1a-983e-958461503f66
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -148,6 +196,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: takayuki-ishikura}
     duration: 256
+    audio:
+      key: C#
+      bpm: 111
     evidence:
       credits:
         status: official
@@ -158,6 +209,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=096f611f-9878-4401-a42b-31060fb46d32
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

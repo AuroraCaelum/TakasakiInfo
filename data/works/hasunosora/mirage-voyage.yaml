@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     duration: 251
+    audio:
+      key: F#
+      bpm: 130
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_S6U9fLnzkKH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bede888f-0428-4808-bbee-3d1c12941320
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     duration: 251
+    audio:
+      key: F#
+      bpm: 130
     evidence:
       credits:
         status: official
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=447d14b5-8029-4f9a-bedd-b5850b58f602
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/my-mai-tonight#original
+title: MY舞☆TONIGHT
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=MY%E8%88%9E%E2%98%86TONIGHT
+  chordwiki: https://ja.chordwiki.org/search.html?t=MY%E8%88%9E%E2%98%86TONIGHT
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/0ldfDof0ijqXrfmbJmUpvo, title: MY舞☆TONIGHT, artist: Aqours, seconds: 265, key: Bm, bpm: 90}
+  - {n: 2, url: https://open.spotify.com/track/5G1xmQ7U7G1wkuLNMEllD9, title: MY舞☆TONIGHT, artist: Aqours, seconds: 266, key: Bm, bpm: 179}
+decision: null

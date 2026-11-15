@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/junai-lens#original
+title: 純愛レンズ
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E7%B4%94%E6%84%9B%E3%83%AC%E3%83%B3%E3%82%BA
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E7%B4%94%E6%84%9B%E3%83%AC%E3%83%B3%E3%82%BA
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/0NTXAZn1Jev01NtDN3ur2Z, title: 純愛レンズ, artist: 東條 希(CV.楠田亜衣奈), seconds: 274, key: F#, bpm: 186}
+  - {n: 2, url: https://open.spotify.com/track/5EgkQMQcvtBQT4FsAkZywf, title: 純愛レンズ, artist: 東條 希(CV.楠田亜衣奈), seconds: 275, key: B, bpm: 186}
+decision: null

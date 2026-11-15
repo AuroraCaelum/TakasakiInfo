@@ -64,6 +64,9 @@ recordings:
     arranger:
       - {person: miyata-lefty-ryo}
     duration: 104
+    audio:
+      key: Bb
+      bpm: 120
     evidence:
       credits:
         status: derived
@@ -78,6 +81,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0d56a4d2-28c4-4e0f-9256-4af7e154564d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

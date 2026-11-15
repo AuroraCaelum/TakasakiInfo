@@ -20,6 +20,9 @@ recordings:
       - {person: novechika}
       - {person: taishi-noguchi}
     duration: 211
+    audio:
+      key: G
+      bpm: 160
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yejLXwJPLya
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a09c12f-008d-4f91-80ed-7c879d765558
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 1nensei-yu-ver
     title:
       ja: わちゅごなどぅー (1年生＋侑 Ver.)
@@ -47,6 +55,9 @@ recordings:
       - {person: novechika}
       - {person: taishi-noguchi}
     duration: 211
+    audio:
+      key: Bm
+      bpm: 160
     evidence:
       credits:
         status: official
@@ -57,6 +68,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yejLXwJPLya
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b17611a9-7559-4b6f-b7fc-983d311fb75a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 2nensei-yu-ver
     title:
       ja: わちゅごなどぅー (2年生＋侑 Ver.)
@@ -74,6 +90,9 @@ recordings:
       - {person: novechika}
       - {person: taishi-noguchi}
     duration: 211
+    audio:
+      key: Bm
+      bpm: 160
     evidence:
       credits:
         status: official
@@ -84,6 +103,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yejLXwJPLya
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=883711f1-149d-493f-9796-621203abd8fe
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 3nensei-yu-ver
     title:
       ja: わちゅごなどぅー (3年生＋侑 Ver.)
@@ -101,6 +125,9 @@ recordings:
       - {person: novechika}
       - {person: taishi-noguchi}
     duration: 211
+    audio:
+      key: Em
+      bpm: 160
     evidence:
       credits:
         status: official
@@ -111,6 +138,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yejLXwJPLya
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4227d42d-0aff-4d5b-a44e-49bf864e8fcd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

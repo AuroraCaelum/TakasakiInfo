@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: ryo-mizutani}
     duration: 228
+    audio:
+      key: Ab
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1h6vGeYu7ZR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=18bffb16-5043-43be-b01c-f54b7481323f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

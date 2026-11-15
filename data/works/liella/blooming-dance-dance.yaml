@@ -21,6 +21,9 @@ recordings:
     arranger:
       - {person: yuu-for-you}
     duration: 199
+    audio:
+      key: E
+      bpm: 125
     evidence:
       credits:
         status: established
@@ -32,6 +35,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_oSD77hQO8fr
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=155e7dfe-6d3a-4a2c-a4fa-c382e3509771
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

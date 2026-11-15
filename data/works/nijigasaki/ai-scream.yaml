@@ -19,6 +19,9 @@ recordings:
       - {person: hayato-yamamoto}
       - {person: dj-chika-a-k-a-inherit}
     duration: 263
+    audio:
+      key: F#
+      bpm: 132
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ULdRG3Nov9o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=94faa449-d507-408d-9dce-d02896d308b5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

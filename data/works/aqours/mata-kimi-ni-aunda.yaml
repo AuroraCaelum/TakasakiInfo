@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: dr-lilcom}
     duration: 261
+    audio:
+      key: Cm
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=054c000a-a7fc-4e68-9baf-8ae08c9ea6d1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

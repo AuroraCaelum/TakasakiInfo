@@ -65,6 +65,9 @@ recordings:
     arranger:
       - {person: tofubeats}
     duration: 101
+    audio:
+      key: G
+      bpm: 85
     evidence:
       credits:
         status: derived
@@ -79,6 +82,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9c94148e-d29f-4728-879d-dc4a67f570e7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

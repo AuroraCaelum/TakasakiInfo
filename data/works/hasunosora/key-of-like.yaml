@@ -21,6 +21,9 @@ recordings:
     arranger:
       - {person: takuya-watanabe}
     duration: 252
+    audio:
+      key: C
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -31,6 +34,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_kNPLIk3Rx04
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27a0d544-d332-45bf-b0bd-29d79021a1e3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

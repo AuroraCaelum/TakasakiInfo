@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: tasuku}
     duration: 244
+    audio:
+      key: C#
+      bpm: 180
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=33733eba-405b-4b93-a9a7-1c050b042806
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: tasuku}
     duration: 116
+    audio:
+      key: C#
+      bpm: 180
     evidence:
       credits:
         status: derived
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5b2da0b4-2432-421d-af72-618a5c8d9238
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

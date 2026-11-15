@@ -1,0 +1,11 @@
+type: audio
+ref: recording:yohane/wonder-sea-breeze#original
+title: Wonder sea breeze
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Wonder%20sea%20breeze
+  chordwiki: https://ja.chordwiki.org/search.html?t=Wonder%20sea%20breeze
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/6mFRNJ73d2hR7RbVdMca9o, title: Wonder sea breeze - Off Vocal, artist: 'ヨハネ(CV.小林愛香), ハナマル(CV.高槻かなこ), ダイヤ(CV.小宮有紗), ルビィ(CV.降幡 愛), チカ(CV.伊波杏樹), ヨウ(CV.斉藤朱夏), カナン(CV.諏訪ななか), リコ(CV.逢田梨香子), マリ(CV.鈴木愛奈)', seconds: 275, key: G, bpm: 92}
+  - {n: 2, url: https://open.spotify.com/track/4r0inLUULVsotJA5j3B94g, title: Wonder sea breeze, artist: 'ヨハネ(CV.小林愛香), ハナマル(CV.高槻かなこ), ダイヤ(CV.小宮有紗), ルビィ(CV.降幡 愛), チカ(CV.伊波杏樹), ヨウ(CV.斉藤朱夏), カナン(CV.諏訪ななか), リコ(CV.逢田梨香子), マリ(CV.鈴木愛奈)', seconds: 275, key: G, bpm: 183}
+decision: null

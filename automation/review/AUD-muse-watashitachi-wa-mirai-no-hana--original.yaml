@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/watashitachi-wa-mirai-no-hana#original
+title: 私たちは未来の花
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%8A%B1
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%8A%B1
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/4VKR4ctwTshVKIYg8AMtPI, title: 私たちは未来の花, artist: 園田海未 (CV.三森すずこ) from μ's, seconds: 286, key: Fm, bpm: 183}
+  - {n: 2, url: https://open.spotify.com/track/2uerZHZHXrxxv98TkB0oLK, title: 私たちは未来の花, artist: 園田海未(CV.三森すずこ), seconds: 285, key: Bbm, bpm: 183}
+decision: null

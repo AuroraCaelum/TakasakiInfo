@@ -22,6 +22,9 @@ recordings:
     arranger:
       - {person: tatsuhiko-saiki}
     duration: 280
+    audio:
+      key: F#
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -32,6 +35,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wnuvhDB0e8w
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4eb7ac4c-7fa4-4e0c-b9a7-1637d757fa32
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

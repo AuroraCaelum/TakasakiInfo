@@ -64,6 +64,9 @@ recordings:
     arranger:
       - {person: ryo-takahashi}
     duration: 270
+    audio:
+      key: Bbm
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -77,6 +80,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=24da38b5-cf13-407d-86af-741899643710
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: nico-mix
     title:
       ja: Cutie Panther (NICO Mix)
@@ -89,6 +97,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 269
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -103,6 +114,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e6a2502e-bb59-4ff3-ba34-47773fde1558
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Cutie Panther (MAKI Mix)
@@ -115,6 +131,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 269
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -129,6 +148,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e5d1270b-55b1-4232-8db1-6f3ee7fa1b5f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Cutie Panther (ELI Mix)
@@ -141,6 +165,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 269
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -155,6 +182,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=dc4e4e41-99b1-41af-af06-5287dc7a6462
+        checked: 2026-11-15
+        note: 같은 편곡 음원 2/3개의 값으로 맞춤. 이 음원의 분석값은 Bb 170 BPM(D61)
 evidence:
   title:
     status: derived

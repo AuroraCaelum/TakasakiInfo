@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: miki-watanabe}
     duration: 270
+    audio:
+      key: Am
+      bpm: 150
     external_ids:
       isrc: JPI101901788
     evidence:
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_KJQKPJSOkRF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=40ca7f23-c86d-4cea-bf34-e4b13b689b6d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

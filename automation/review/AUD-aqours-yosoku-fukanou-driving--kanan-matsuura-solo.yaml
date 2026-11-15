@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/yosoku-fukanou-driving#kanan-matsuura-solo
+title: 予測不可能Driving!
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E4%BA%88%E6%B8%AC%E4%B8%8D%E5%8F%AF%E8%83%BDDriving%21
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E4%BA%88%E6%B8%AC%E4%B8%8D%E5%8F%AF%E8%83%BDDriving%21
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1zxUbbDyiyTxTdxQk33UjH, title: 予測不可能Driving! (松浦果南 Solo Ver.), artist: '松浦果南 (CV.諏訪ななか) from Aqours, 松浦果南 (CV.諏訪ななか)', seconds: 229, key: Ab, bpm: 91}
+  - {n: 2, url: https://open.spotify.com/track/3koLn2DbcEe3yanVBtfx63, title: 予測不可能Driving!, artist: '松浦果南 (CV.諏訪ななか), 黒澤ダイヤ (CV.小宮有紗), 小原鞠莉 (CV.鈴木愛奈)', seconds: 228, key: C#, bpm: 91}
+decision: null

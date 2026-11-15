@@ -89,6 +89,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: Ab
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -103,6 +106,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a02a5f4-3700-41ed-82c6-b31ff965fb50
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: 僕たちはひとつの光 (HANAYO Mix)
@@ -115,6 +123,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 294
+    audio:
+      key: A
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -129,6 +140,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=69fa5cb4-3e57-44ac-a2bf-643a05ba2901
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: 僕たちはひとつの光 (NOZOMI Mix)
@@ -141,6 +157,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: Ab
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -155,6 +174,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bf1b4556-6668-4a41-a4b0-3c4dba8397d0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 僕たちはひとつの光 (MAKI Mix)
@@ -167,6 +191,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: F#m
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -181,6 +208,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=18fa20b3-139a-4225-ad57-cc0e4b587d8d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 僕たちはひとつの光 (RIN Mix)
@@ -193,6 +225,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: A
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -207,6 +242,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=70ffa099-4c70-4e96-8293-2e2849635bd6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: 僕たちはひとつの光 (UMI Mix)
@@ -219,6 +259,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: F#m
+      bpm: 87
     evidence:
       credits:
         status: derived
@@ -233,6 +276,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=45b90014-ee50-4c23-b498-9b4a95b08370
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: 僕たちはひとつの光 (KOTORI Mix)
@@ -245,6 +293,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: A
+      bpm: 87
     evidence:
       credits:
         status: derived
@@ -259,6 +310,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4c5cc5c8-bb7f-4ef2-8efb-3cb651a262c0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 僕たちはひとつの光 (ELI Mix)
@@ -271,6 +327,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: A
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -285,6 +344,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=214ff210-8120-4c03-8e21-4bf0a8a8e3c7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: 僕たちはひとつの光 (HONOKA Mix)
@@ -297,6 +361,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 293
+    audio:
+      key: A
+      bpm: 174
     evidence:
       credits:
         status: derived
@@ -311,6 +378,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=35dcf0ee-44ce-485a-99b0-1a0321303b93
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

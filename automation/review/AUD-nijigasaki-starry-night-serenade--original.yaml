@@ -1,0 +1,11 @@
+type: audio
+ref: recording:nijigasaki/starry-night-serenade#original
+title: Starry Night Serenade
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Starry%20Night%20Serenade
+  chordwiki: https://ja.chordwiki.org/search.html?t=Starry%20Night%20Serenade
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/2EYOxtrEdB6OZ8EiHJYzaL, title: Starry Night Serenade - Off Vocal, artist: エマ・ヴェルデ (CV.指出毬亜), seconds: 257, key: G, bpm: 82}
+  - {n: 2, url: https://open.spotify.com/track/4rmPYFZD8dGzoMzaLzXZG4, title: Starry Night Serenade, artist: エマ・ヴェルデ (CV.指出毬亜), seconds: 257, key: G, bpm: 164}
+decision: null

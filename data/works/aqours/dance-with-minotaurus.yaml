@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: takeshi-masuda}
     duration: 301
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f33ss2BhIdt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d8d8abdd-020f-48bf-b8cc-a2a424a765cd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: chika-takami-solo-ver
     title:
       ja: Dance with Minotaurus (高海千歌 Solo Ver.)
@@ -39,6 +47,9 @@ recordings:
     arranger:
       - {person: takeshi-masuda}
     duration: 298
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -53,6 +64,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cddd3ae0-7081-42a6-8ed7-9fc20a6b13ad
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Dance with Minotaurus (桜内梨子 Solo Ver.)
@@ -65,6 +81,9 @@ recordings:
     arranger:
       - {person: takeshi-masuda}
     duration: 298
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -79,6 +98,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a998e8f1-cc65-47bd-b329-b441fa66c563
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Dance with Minotaurus (黒澤ルビィ Solo Ver.)
@@ -91,6 +115,9 @@ recordings:
     arranger:
       - {person: takeshi-masuda}
     duration: 300
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -105,12 +132,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=213ad79b-f044-47fe-b254-06d9896911de
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takeshi-masuda}
     duration: 298
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -122,12 +157,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=990aed8a-2734-4e94-ac2f-f558090301c7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takeshi-masuda}
     duration: 298
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -139,12 +182,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=55e906c0-ffea-4e1d-9232-425df64148fa
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takeshi-masuda}
     duration: 299
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -156,12 +207,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=017e6d02-ccf1-494e-b778-18d935c976f6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takeshi-masuda}
     duration: 299
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -173,12 +232,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b9ac4e2f-85dc-45d0-8ad5-ec61937b8325
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: takeshi-masuda}
     duration: 299
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -190,12 +257,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=de3dc319-208b-4e11-9534-2a80c8f797b7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: takeshi-masuda}
     duration: 299
+    audio:
+      key: F
+      bpm: 166
     evidence:
       credits:
         status: derived
@@ -207,6 +282,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eaf2befc-764a-4d4f-94fa-11979f90e25d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

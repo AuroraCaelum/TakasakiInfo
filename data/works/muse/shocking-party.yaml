@@ -40,6 +40,9 @@ recordings:
     arranger:
       - {person: yusuke-itagaki}
     duration: 93
+    audio:
+      key: C
+      bpm: 136
     evidence:
       credits:
         status: derived
@@ -54,6 +57,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=94ec3655-cd35-41ee-b53d-c057d094ce8b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

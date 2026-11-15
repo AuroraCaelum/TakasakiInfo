@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: passion-king}
     duration: 253
+    audio:
+      key: C
+      bpm: 160
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_8tgIEXsEGUT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6126ddcd-d36c-4e65-bfe6-de48a38d0199
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: passion-king}
     duration: 104
+    audio:
+      key: C
+      bpm: 160
     evidence:
       credits:
         status: derived
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=03fce5f7-f2e1-4ea0-aab0-d76924989ad5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

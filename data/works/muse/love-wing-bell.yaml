@@ -22,6 +22,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: official
@@ -32,6 +35,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4XVTohGeKea
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -74,6 +82,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 104
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: official
@@ -87,6 +98,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=c41c9cce-a54e-451c-b601-63c5eef4a12d
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/8개의 값으로 맞춤. 이 음원의 분석값은 Bb 133 BPM(D61)
   - id: nico-mix
     title:
       ja: Love wing bell (NICO Mix)
@@ -99,6 +115,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -113,6 +132,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: Love wing bell (HANAYO Mix)
@@ -125,6 +149,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -139,6 +166,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: Love wing bell (NOZOMI Mix)
@@ -151,6 +183,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -165,6 +200,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Love wing bell (MAKI Mix)
@@ -177,6 +217,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -191,6 +234,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Love wing bell (RIN Mix)
@@ -203,6 +251,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -217,6 +268,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3d812b-48a3-47c8-b9de-b3f2669aff63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: eli-mix
     title:
       ja: Love wing bell (ELI Mix)
@@ -229,6 +285,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 287
+    audio:
+      key: F
+      bpm: 133
     evidence:
       credits:
         status: derived
@@ -243,6 +302,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4640fad1-c42e-44ad-9fd5-25ce4d9e3075
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

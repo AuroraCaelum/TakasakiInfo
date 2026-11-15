@@ -22,6 +22,9 @@ recordings:
     brass_arranger:
       - {person: shu-kanematsu}
     duration: 238
+    audio:
+      key: F#
+      bpm: 140
     evidence:
       credits:
         status: official
@@ -32,6 +35,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_X8vDiEYaCi5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4e6c3a39-b353-4107-9525-4f129b9989a2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -70,6 +78,9 @@ recordings:
     brass_arranger:
       - {person: shu-kanematsu}
     duration: 238
+    audio:
+      key: F#
+      bpm: 140
     evidence:
       credits:
         status: official
@@ -80,6 +91,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wUTKFNxbETV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4e6c3a39-b353-4107-9525-4f129b9989a2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 2023ver
     title:
       ja: 私のSymphony ～2023Ver.～
@@ -96,6 +112,9 @@ recordings:
     brass_arranger:
       - {person: shu-kanematsu}
     duration: 239
+    audio:
+      key: F#
+      bpm: 140
     evidence:
       credits:
         status: official
@@ -109,6 +128,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hG3ELrf1RC3
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4e6c3a39-b353-4107-9525-4f129b9989a2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanon-shibuya-ver
     title:
       ja: 私のSymphony 〜澁谷かのんVer.〜

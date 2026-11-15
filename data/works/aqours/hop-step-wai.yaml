@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
     duration: 291
+    audio:
+      key: B
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=08bb9e26-0c50-447f-84aa-d3e4b32437b8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -66,6 +74,9 @@ recordings:
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
     duration: 291
+    audio:
+      key: B
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -79,6 +90,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=26506a48-dd9d-4455-b15a-1b52a2ef8965
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: azalea-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (AZALEA ver.)
@@ -91,6 +107,9 @@ recordings:
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
     duration: 291
+    audio:
+      key: B
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1c8002c4-c1f2-4787-ba4f-7ae106f0a2c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: guilty-kiss-ver
     title:
       ja: ホップ・ステップ・ワーイ！ (Guilty Kiss ver.)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: hajime-mitsumasu, affiliation: FirstCall}
     duration: 291
+    audio:
+      key: B
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -129,6 +156,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_rErmrvuCOXx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c8019e44-3dca-4b2a-b74f-5123e5a06ce4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

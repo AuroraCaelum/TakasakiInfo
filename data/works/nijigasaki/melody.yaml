@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: ryosuke-saito}
     duration: 270
+    audio:
+      key: E
+      bpm: 115
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A8893yKJxi6
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a04fb5f1-982e-44c0-be14-690a7eebe08c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

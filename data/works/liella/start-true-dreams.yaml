@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: yosuke-yamashita}
     duration: 241
+    audio:
+      key: F
+      bpm: 178
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_qsEztSVSpEZ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8e70ed0b-b552-4c4d-9447-fa7d114b1305
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -73,6 +81,9 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yosuke-yamashita}
+    audio:
+      key: F
+      bpm: 178
     evidence:
       credits:
         status: derived
@@ -82,6 +93,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8e70ed0b-b552-4c4d-9447-fa7d114b1305
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

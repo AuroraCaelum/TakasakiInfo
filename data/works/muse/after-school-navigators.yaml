@@ -48,6 +48,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 286
+    audio:
+      key: C#m
+      bpm: 100
     evidence:
       credits:
         status: official
@@ -61,6 +64,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=110512a6-5c06-4921-83cd-a7b889656a8b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: after school NAVIGATORS (NICO Mix)
@@ -92,6 +100,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 286
+    audio:
+      key: C#m
+      bpm: 100
     evidence:
       credits:
         status: official
@@ -102,6 +113,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FYCRSDdnDkA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0b456ad4-9779-4c7c-8d86-56dbf3ffd836
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

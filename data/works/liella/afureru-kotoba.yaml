@@ -10,6 +10,9 @@ recordings:
     performers:
       - {character: liella/kinako-sakurakoji}
     duration: 116
+    audio:
+      key: D
+      bpm: 134
     evidence:
       credits:
         status: derived
@@ -21,6 +24,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_jQMogkOgq0Z
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ed989a40-a186-4454-9bec-76cdd8490468
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 external_ids:
   fandom: Afureru Kotoba
 evidence:

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/dreamy-color#riko-sakurauchi-solo-ver
+title: DREAMY COLOR (桜内梨子 Solo Ver.)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=DREAMY%20COLOR%20%28%E6%A1%9C%E5%86%85%E6%A2%A8%E5%AD%90%20Solo%20Ver.%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=DREAMY%20COLOR%20%28%E6%A1%9C%E5%86%85%E6%A2%A8%E5%AD%90%20Solo%20Ver.%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/0htGHiWftNZ0VGCBqc3wky, title: DREAMY COLOR - Off Vocal, artist: Aqours, seconds: 296, key: F, bpm: 95}
+  - {n: 2, url: https://open.spotify.com/track/0ul3fkRTkEU6f8vwHXv1T3, title: DREAMY COLOR, artist: Aqours, seconds: 296, key: Bb, bpm: 92}
+decision: null

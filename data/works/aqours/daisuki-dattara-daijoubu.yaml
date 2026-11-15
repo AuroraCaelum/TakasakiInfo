@@ -119,6 +119,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 98
+    audio:
+      key: F
+      bpm: 90
     evidence:
       credits:
         status: derived
@@ -133,6 +136,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0cfjJVpigob
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c2010ffb-40fa-49bc-b3e8-3b4752c7f5ef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: ダイスキだったらダイジョウブ！ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

@@ -1,0 +1,12 @@
+type: audio
+ref: recording:aqours/daisuki-dattara-daijoubu#chika-takami-solo
+title: ダイスキだったらダイジョウブ！
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E3%83%80%E3%82%A4%E3%82%B9%E3%82%AD%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%89%E3%83%80%E3%82%A4%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%96%EF%BC%81
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E3%83%80%E3%82%A4%E3%82%B9%E3%82%AD%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%89%E3%83%80%E3%82%A4%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%96%EF%BC%81
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/51118cg0D9k0F952AGtNou, title: ダイスキだったらダイジョウブ!, artist: '高海千歌 (CV.伊波杏樹), 桜内梨子 (CV.逢田梨香子), 渡辺 曜 (CV.斉藤朱夏)', seconds: 272, key: Bb, bpm: 90}
+  - {n: 2, url: https://open.spotify.com/track/6hkmf0bIqj6leYiyJNdOgB, title: ダイスキだったらダイジョウブ！ - 高海千歌 Solo Ver., artist: 高海千歌 (CV.伊波杏樹) from Aqours, seconds: 272, key: Bbm, bpm: 90}
+  - {n: 3, url: https://open.spotify.com/track/11LBdKBqyD7I0T8LTTGDFw, title: ダイスキだったらダイジョウブ!, artist: '高海千歌 (CV.伊波杏樹), 桜内梨子 (CV.逢田梨香子), 渡辺 曜 (CV.斉藤朱夏)', seconds: 272, key: C#, bpm: 90}
+decision: null

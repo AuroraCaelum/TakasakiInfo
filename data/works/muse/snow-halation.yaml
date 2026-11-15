@@ -23,6 +23,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -37,6 +40,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b879ddf5-5d6d-4f2e-85ce-ae06e265129a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: Snow halation (KOTORI MIX)
@@ -49,6 +57,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -63,6 +74,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_GizazSHptpA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=83ee3790-a63e-4533-9f22-29aa71f7558c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: Snow halation (HONOKA Mix)
@@ -75,6 +91,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -89,6 +108,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fd4c3ffe-84c5-4209-91ab-45fb5b743e1c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: original
     performers:
       - {artist: muse}
@@ -167,6 +191,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -181,6 +208,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d61d0a54-634f-4669-a8aa-85fef8d84bad
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: Snow halation (NICO Mix)
@@ -193,6 +225,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -207,6 +242,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0b3f1eb4-91dc-498e-8fa5-9aeb43497256
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Snow halation (MAKI Mix)
@@ -219,6 +259,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -233,6 +276,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5a0aaf64-361c-4245-b4cd-c81d3ea27413
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Snow halation (ELI Mix)
@@ -245,6 +293,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -259,6 +310,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f19c8bb2-b174-4bdd-9a02-a238191eb57e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Snow halation (RIN Mix)
@@ -271,6 +327,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -285,6 +344,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a9ac969d-d493-450a-9ff5-21d0ce6a2b63
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: Snow halation (HANAYO Mix)
@@ -297,6 +361,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 257
+    audio:
+      key: A
+      bpm: 173
     evidence:
       credits:
         status: derived
@@ -311,6 +378,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=96251828-20d9-4bcb-9a58-d42797245ba4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: Snow halation (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)

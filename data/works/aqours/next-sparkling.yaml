@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: carlos-k}
     duration: 389
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IPEZtsc8JAO
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c37df25-d03a-4f28-8154-60686641e1d0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -60,6 +68,9 @@ recordings:
     arranger:
       - {person: carlos-k}
     duration: 388
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -70,12 +81,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4jv6IRUtyCT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a0a7983-82ac-4f3e-89e0-e93d7d80c304
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: carlos-k}
     duration: 388
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -86,6 +105,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30b7dcb8-fe46-4b68-8ff1-07e1e1aa1cc2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -108,6 +132,9 @@ recordings:
     arranger:
       - {person: carlos-k}
     duration: 388
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -118,12 +145,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30b7dcb8-fe46-4b68-8ff1-07e1e1aa1cc2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: carlos-k}
     duration: 387
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -134,12 +169,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a0a7983-82ac-4f3e-89e0-e93d7d80c304
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: carlos-k}
     duration: 388
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -150,12 +193,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a0a7983-82ac-4f3e-89e0-e93d7d80c304
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: carlos-k}
     duration: 388
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -166,12 +217,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0f6904a5-eff4-4fe0-84aa-c2b882f2a95c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: carlos-k}
     duration: 387
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -182,6 +241,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=560157b2-6189-4949-9c73-00cc91b1774e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -210,6 +274,9 @@ recordings:
     arranger:
       - {person: carlos-k}
     duration: 389
+    audio:
+      key: Abm
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -224,6 +291,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FIu9NMIlGjF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a0a7983-82ac-4f3e-89e0-e93d7d80c304
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

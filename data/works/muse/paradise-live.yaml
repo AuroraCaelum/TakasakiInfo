@@ -64,6 +64,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -78,6 +81,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=720cec3f-7d89-491a-bd57-2cb05999e0e2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: Paradise Live (HANAYO Mix)
@@ -90,6 +98,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -104,6 +115,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8a515a1c-36b8-4e23-aee3-05203ce636f1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: Paradise Live (NOZOMI Mix)
@@ -116,6 +132,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -130,6 +149,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d2c74159-0d44-4afd-9741-8fe15fbdeb6d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Paradise Live (MAKI Mix)
@@ -142,6 +166,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -156,6 +183,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=941cb656-cf5e-42c0-a1a7-4b067631cabc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Paradise Live (RIN Mix)
@@ -168,6 +200,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 310
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -182,6 +217,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=4ea654e6-a7c8-44eb-adb9-c94ae717cf5f
+        checked: 2026-11-15
+        note: 같은 편곡 음원 8/9개의 값으로 맞춤. 이 음원의 분석값은 Am 145 BPM(D61)
   - id: umi-mix
     title:
       ja: Paradise Live (UMI Mix)
@@ -194,6 +234,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -208,6 +251,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=75c32a50-bf13-4b4b-be22-a5f8eb5251b7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: Paradise Live (KOTORI Mix)
@@ -220,6 +268,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -234,6 +285,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d6976e9e-9ffc-47d3-b569-8025db8e7a74
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Paradise Live (ELI Mix)
@@ -246,6 +302,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -260,6 +319,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=91de3d4d-6975-4fd1-9993-48f705eff413
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: Paradise Live (HONOKA Mix)
@@ -272,6 +336,9 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     duration: 309
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: derived
@@ -286,6 +353,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8d594dde-699d-49ca-8c22-cdaf0f7256bf
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

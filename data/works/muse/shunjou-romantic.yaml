@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 270
+    audio:
+      key: Em
+      bpm: 148
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_uofjwxMOTxx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fa0f5f3d-2421-4466-8159-367fb9a2496f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 270
+    audio:
+      key: Em
+      bpm: 148
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=61f7fed4-bd92-4bbe-bd3c-be5934a1eb12
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 春情ロマンティック (RIN Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 270
+    audio:
+      key: Em
+      bpm: 148
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c2c33a34-74c1-416c-9aa7-d747cd7fb795
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: 春情ロマンティック (UMI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 270
+    audio:
+      key: Em
+      bpm: 148
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f5410513-cc8a-407f-8c60-25a10eb89b00
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

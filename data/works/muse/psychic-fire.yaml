@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 236
+    audio:
+      key: C
+      bpm: 169
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JAW38HwXojl
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=a6576bda-7f8f-4d25-af7f-3de614538fad
+        checked: 2026-11-15
+        note: 같은 편곡 음원 3/4개의 값으로 맞춤. 이 음원의 분석값은 Am 169 BPM(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 237
+    audio:
+      key: C
+      bpm: 169
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fb9dd21f-e69a-4f16-8fa8-a694404db266
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: PSYCHIC FIRE (MAKI Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 237
+    audio:
+      key: C
+      bpm: 169
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5bead96c-7a5b-4ae8-82c7-3720e4c1ec7d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: PSYCHIC FIRE (ELI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: shintarou-mori}
     duration: 237
+    audio:
+      key: C
+      bpm: 169
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9625a9be-fec8-4fea-ad2a-afebc056eb5c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

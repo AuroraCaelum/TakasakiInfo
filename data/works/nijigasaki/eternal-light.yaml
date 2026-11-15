@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: dummy-dog}
     duration: 247
+    audio:
+      key: Bm
+      bpm: 178
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_jAHa5u7CFLl
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=44ab1ade-1210-473d-b2e8-8a8f45d6ab27
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: dummy-dog}
     duration: 100
+    audio:
+      key: Bm
+      bpm: 178
     evidence:
       credits:
         status: derived
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a618e182-fa69-403a-ab00-7a1c2fef5515
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

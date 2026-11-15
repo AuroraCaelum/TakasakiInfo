@@ -1,0 +1,11 @@
+type: audio
+ref: recording:nijigasaki/bring-the-love#original
+title: Bring the LOVE！
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Bring%20the%20LOVE%EF%BC%81
+  chordwiki: https://ja.chordwiki.org/search.html?t=Bring%20the%20LOVE%EF%BC%81
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/13GALrC28EiRDpbbI7jJ5t, title: Bring the LOVE！ - Off Vocal, artist: '渡辺 曜 (CV.斉藤朱夏), 上原歩夢 (CV.大西亜玖璃), 澁谷かのん (CV.伊達さゆり), 日野下花帆 (CV.楡井希実), 高坂穂乃果(CV.新田恵海)', seconds: 222, key: F#m, bpm: 172}
+  - {n: 2, url: https://open.spotify.com/track/08jHICuBUw39Mct5JfZ3C5, title: Bring the LOVE！, artist: '渡辺 曜 (CV.斉藤朱夏), 上原歩夢 (CV.大西亜玖璃), 澁谷かのん (CV.伊達さゆり), 日野下花帆 (CV.楡井希実), 高坂穂乃果(CV.新田恵海)', seconds: 224, key: D, bpm: 172}
+decision: null

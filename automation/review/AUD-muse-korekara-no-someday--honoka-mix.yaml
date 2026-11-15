@@ -1,0 +1,13 @@
+type: audio
+ref: recording:muse/korekara-no-someday#honoka-mix
+title: これからのSomeday (HONOKA Mix)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AESomeday%20%28HONOKA%20Mix%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AESomeday%20%28HONOKA%20Mix%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1afW7JX2ZUa37eSxfr3Sm5, title: これからのSomeday, artist: '高坂穂乃果(CV.新田恵海), 南ことり(CV.内田 彩), 園田海未(CV.三森すずこ), 星空 凛(CV.飯田里穂), 西木野真姫(CV.Pile), 小泉花陽(CV.久保ユリカ), 矢澤にこ(CV.徳井青空)', seconds: 265, key: Fm, bpm: 120}
+  - {n: 2, url: https://open.spotify.com/track/5v6WhtrsjMFNCKukB5JQsu, title: これからのSomeday, artist: '高坂穂乃果(CV.新田恵海), 南ことり(CV.内田 彩), 園田海未(CV.三森すずこ)', seconds: 267, key: Fm, bpm: 120}
+  - {n: 3, url: https://open.spotify.com/track/02JvSuK1kmTfLsoTuRuZQY, title: これからのSomeday - HONOKA Mix, artist: 高坂穂乃果 (CV.新田恵海) from μ's, seconds: 268, key: Ab, bpm: 120}
+  - {n: 4, url: https://open.spotify.com/track/4V4KAGasGzHoyHukAIGblN, title: これからのSomeday, artist: '高坂穂乃果(CV.新田恵海), 南ことり(CV.内田 彩), 園田海未(CV.三森すずこ), 星空 凛(CV.飯田里穂), 西木野真姫(CV.Pile), 小泉花陽(CV.久保ユリカ), 矢澤にこ(CV.徳井青空)', seconds: 268, key: Ab, bpm: 120}
+decision: null

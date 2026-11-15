@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact, fullwidth: true}
     duration: 246
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Uy3gOyCfGlp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fec58528-2402-4c8e-9e8f-52b10b78fed8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: masatomi-waki, affiliation: Arte Refact}
     duration: 246
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: official
@@ -76,6 +87,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c9dc4341-5c68-45ef-a3fa-90e5bdb8135a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

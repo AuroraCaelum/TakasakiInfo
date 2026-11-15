@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/heartbeat#eli-mix
+title: ？←HEARTBEAT (ELI Mix)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%EF%BC%9F%E2%86%90HEARTBEAT%20%28ELI%20Mix%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=%EF%BC%9F%E2%86%90HEARTBEAT%20%28ELI%20Mix%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1C37Y7ppwy5GhcepPHJVVD, title: '?←HEARTBEAT', artist: '絢瀬絵里(CV.南條愛乃), 東條 希(CV.楠田亜衣奈), 矢澤にこ(CV.徳井青空)', seconds: 213, key: F, bpm: 116}
+  - {n: 2, url: https://open.spotify.com/track/3TdtKLwziPH3az1GhhRMQu, title: '?←HEARTBEAT - ELI Mix', artist: 絢瀬絵里(CV.南條愛乃), seconds: 212, key: F, bpm: 119}
+decision: null

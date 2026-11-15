@@ -21,6 +21,9 @@ recordings:
       - {person: ayumu-nakamura}
       - {person: hiroto-kikuchi}
     duration: 269
+    audio:
+      key: F#
+      bpm: 196
     evidence:
       credits:
         status: official
@@ -31,6 +34,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_5O3as8ON9Ra
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bb204b07-6518-4694-bb97-46180edf3ff8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

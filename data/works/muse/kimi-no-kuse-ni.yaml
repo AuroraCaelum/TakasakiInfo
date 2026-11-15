@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: yusuke-yamamoto}
     duration: 239
+    audio:
+      key: B
+      bpm: 104
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_S8Z1tQEKZyY
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=87d3e417-eea5-45c8-8453-7b61cada754c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: yusuke-yamamoto}
     duration: 239
+    audio:
+      key: B
+      bpm: 104
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=190764c5-3a96-4542-8d1b-546afb4e7b7d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: キミのくせに！ (RIN Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: yusuke-yamamoto}
     duration: 239
+    audio:
+      key: B
+      bpm: 104
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bb94005a-75a1-43c5-ab00-7e9b0a109fd1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: キミのくせに！ (UMI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: yusuke-yamamoto}
     duration: 239
+    audio:
+      key: B
+      bpm: 104
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f25cc919-5982-4c30-8622-ab3d82caf956
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

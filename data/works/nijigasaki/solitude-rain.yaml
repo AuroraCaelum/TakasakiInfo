@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: joe}
     duration: 247
+    audio:
+      key: Em
+      bpm: 158
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cth082hzH6n
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=59cae2f4-241b-4cd5-8ba4-1bec51907e13
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: joe}
     duration: 98
+    audio:
+      key: G
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a3a9504-7a2f-41b9-9c45-f27ce65b1c40
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

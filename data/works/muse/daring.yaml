@@ -16,18 +16,29 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: keiichi-kondo}
+    audio:
+      key: Am
+      bpm: 128
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
         checked: 2026-10-20
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd14)과 같다고 봄
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=397e0b1b-d3f7-461a-9298-2725564c21f9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: original
     performers:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: keiichi-kondo}
     duration: 211
+    audio:
+      key: Am
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -38,6 +49,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_oZipfsu4TrW
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=397e0b1b-d3f7-461a-9298-2725564c21f9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -18,6 +18,9 @@ recordings:
       - {person: carlos-k}
       - {person: konnie-aoki}
     duration: 253
+    audio:
+      key: C
+      bpm: 145
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A8893yKJxi6
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=aef0f5dd-4961-46b4-9c56-459484711320
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: ryuichi-takagi, affiliation: Dream Monster, fullwidth: true}
     duration: 249
+    audio:
+      key: G
+      bpm: 90
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_D12gHtAD81E
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a1b8e743-5fab-4bfc-a2ed-8b4afc7fc71d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

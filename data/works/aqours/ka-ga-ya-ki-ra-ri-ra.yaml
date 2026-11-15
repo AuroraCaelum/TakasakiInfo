@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: D
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -28,12 +31,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7756e12c-769e-48da-ada6-058a147471aa
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: C
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -44,12 +55,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4505482c-05a2-464e-b285-c2ae7314a206
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: Bbm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -60,12 +79,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cffcf2c2-d30e-4616-a6fe-61ad5c3e8381
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: D
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -76,12 +103,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cf701967-dcbc-41fe-9235-c22516507fe4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: C
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -92,12 +127,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9f6d896a-7f5b-469e-a165-22d7ed7057f6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kira}
     duration: 201
+    audio:
+      key: Bbm
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -108,6 +151,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d3090306-94bb-4517-b08e-9737651fd796
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

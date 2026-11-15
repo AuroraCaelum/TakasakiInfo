@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: keisuke-koyama}
     duration: 258
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: derived
@@ -28,12 +31,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eb720301-eb84-47ba-8a6c-c064d67c7a52
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -44,12 +55,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3cd89d76-682c-4340-933e-0ee7f5d38824
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -60,12 +79,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=573aa720-a8cd-4e7a-9ab2-a240cb607cbf
+        checked: 2026-11-15
+        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 C# 188 BPM(D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -76,12 +103,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=174aeb6e-5108-4e2e-a67f-fb38169f7138
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -92,12 +127,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4f48e440-6c08-4a30-8027-7c09907c9f23
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -108,12 +151,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fbc6c3cb-6b40-4916-a25b-f0e166dc3038
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: keisuke-koyama}
     duration: 262
+    audio:
+      key: C#
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -124,6 +175,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=b0accd5a-74e5-45b0-9cc6-134017ff3dcb
+        checked: 2026-11-15
+        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 Ab 94 BPM(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

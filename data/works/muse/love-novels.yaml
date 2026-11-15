@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: yugo-sasakura}
     duration: 219
+    audio:
+      key: Am
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_h3e5UJemUxi
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27742ec4-52fe-4bd0-9fe7-6efa4261b007
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -90,6 +98,9 @@ recordings:
     arranger:
       - {person: yugo-sasakura}
     duration: 219
+    audio:
+      key: Bb
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -104,6 +115,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=04813ab7-2588-4027-b69e-1f6d9f6952b2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: ラブノベルス (ELI Mix)

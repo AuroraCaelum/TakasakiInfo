@@ -21,6 +21,9 @@ recordings:
     arranger:
       - {person: yasuhiro-obata}
     duration: 232
+    audio:
+      key: Bb
+      bpm: 80
     evidence:
       credits:
         status: established
@@ -32,6 +35,11 @@ recordings:
         source: https://music.apple.com/jp/album/hoshizora-monologue-single/1766466878
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=26af328f-2379-489b-a2e0-e2090b8fa6b5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

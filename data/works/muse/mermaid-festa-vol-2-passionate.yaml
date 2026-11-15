@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: nozomu-matsui}
     duration: 324
+    audio:
+      key: G
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wb9vjqACgRt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a70385c-6a84-44ca-910b-636b545627a6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -65,6 +73,9 @@ recordings:
     arranger:
       - {person: nozomu-matsui}
     duration: 324
+    audio:
+      key: G
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a70385c-6a84-44ca-910b-636b545627a6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Mermaid festa vol.2 ～Passionate～ (RIN Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: nozomu-matsui}
     duration: 324
+    audio:
+      key: G
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -103,6 +122,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7a70385c-6a84-44ca-910b-636b545627a6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

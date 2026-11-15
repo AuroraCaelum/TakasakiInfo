@@ -21,6 +21,9 @@ recordings:
       - {person: hayato-yamamoto}
       - {person: satoshi-setsune}
     duration: 300
+    audio:
+      key: C
+      bpm: 79
     evidence:
       credits:
         status: official
@@ -31,6 +34,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dE7HH4EGPzD
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b91d4f2a-a317-4c49-acac-cd55d5f8b471
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/sora-fuji-sunshine#mari-ohara-solo-ver
+title: SORA, FUJI, SUNSHINE! (小原鞠莉 Solo Ver.)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=SORA%2C%20FUJI%2C%20SUNSHINE%21%20%28%E5%B0%8F%E5%8E%9F%E9%9E%A0%E8%8E%89%20Solo%20Ver.%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=SORA%2C%20FUJI%2C%20SUNSHINE%21%20%28%E5%B0%8F%E5%8E%9F%E9%9E%A0%E8%8E%89%20Solo%20Ver.%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/3zVVLJMtkQmehklylXA3Yy, title: 'SORA, FUJI, SUNSHINE!', artist: Aqours, seconds: 310, key: Ab, bpm: 120}
+  - {n: 2, url: https://open.spotify.com/track/5Q5g3izIL0w6WPO5lEFDg0, title: 'SORA, FUJI, SUNSHINE! - Off Vocal', artist: Aqours, seconds: 310, key: Fm, bpm: 120}
+decision: null

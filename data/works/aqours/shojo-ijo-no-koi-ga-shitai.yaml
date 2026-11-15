@@ -19,6 +19,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cgBDmXWpCi7
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7d207225-1955-40a9-b94a-a1737c391b8d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: chika-takami-solo-ver
     title:
       ja: 少女以上の恋がしたい (高海千歌 Solo Ver.)
@@ -42,6 +50,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -56,6 +67,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fb356673-6b54-4d14-9054-2a641f597b3e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 少女以上の恋がしたい (桜内梨子 Solo Ver.)
@@ -69,6 +85,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 291
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -83,6 +102,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1feca68b-9dd7-49c4-b89c-cdfb1135ddeb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 少女以上の恋がしたい (黒澤ルビィ Solo Ver.)
@@ -96,6 +120,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -110,6 +137,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1a9f2bac-a286-4f5f-84e3-0bbef78a3133
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -117,6 +149,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -128,6 +163,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eede24c4-d241-42ac-a6eb-042bc5d104c8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -135,6 +175,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -146,6 +189,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1f5ee383-3c78-48c8-90bc-8960ddb5bd19
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -153,6 +201,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 293
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -164,6 +215,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3f2502a9-f63e-43b4-916d-fca082c9d63c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
@@ -171,6 +227,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 293
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -182,6 +241,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2038ee64-a85c-46fd-97ea-02d0cf787472
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -189,6 +253,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 292
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -200,6 +267,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=511d6da8-d61f-4bbd-b193-bbd5ae20fb4b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -207,6 +279,9 @@ recordings:
       - {person: takarot}
       - {person: shinji-tanaka}
     duration: 291
+    audio:
+      key: B
+      bpm: 125
     evidence:
       credits:
         status: derived
@@ -218,6 +293,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=392547a7-c604-418e-854d-7d60a5eafa0f
+        checked: 2026-11-15
+        note: 같은 편곡 음원 9/10개의 값으로 맞춤. 이 음원의 분석값은 Abm 125 BPM(D61)
 evidence:
   credits:
     status: official

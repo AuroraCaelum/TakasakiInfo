@@ -1,0 +1,21 @@
+type: audio
+ref: recording:aqours/happy-party-train#mixture-rock-ver
+title: HAPPY PARTY TRAIN (Mixture Rock Ver.)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=HAPPY%20PARTY%20TRAIN%20%28Mixture%20Rock%20Ver.%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=HAPPY%20PARTY%20TRAIN%20%28Mixture%20Rock%20Ver.%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/62Si3X6pUza5Z6Lo3NXuiH, title: HAPPY PARTY TRAIN - 黒澤ダイヤ Solo Ver., artist: 黒澤ダイヤ (CV.小宮有紗) from Aqours, seconds: 278, key: F#m, bpm: 170}
+  - {n: 2, url: https://open.spotify.com/track/5FyvQ17TYvu0UKgQLo7aDs, title: HAPPY PARTY TRAIN - 黒澤ルビィ Solo Ver., artist: 黒澤ルビィ (CV.降幡 愛) from Aqours, seconds: 278, key: F#m, bpm: 170}
+  - {n: 3, url: https://open.spotify.com/track/4ssKtDa0bOYFCdXlDGd3E9, title: HAPPY PARTY TRAIN - 小原鞠莉 Solo Ver., artist: 小原鞠莉 (CV.鈴木愛奈) from Aqours, seconds: 278, key: D, bpm: 170}
+  - {n: 4, url: https://open.spotify.com/track/0e6jMrR8eq74z9DvQ1jTaY, title: HAPPY PARTY TRAIN - 国木田花丸 Solo Ver., artist: 国木田花丸 (CV.高槻かなこ) from Aqours, seconds: 279, key: A, bpm: 170}
+  - {n: 5, url: https://open.spotify.com/track/6KnCLaG13DogOdUtYCroVx, title: HAPPY PARTY TRAIN - 渡辺 曜 Solo Ver., artist: 渡辺 曜 (CV.斉藤朱夏) from Aqours, seconds: 278, key: A, bpm: 170}
+  - {n: 6, url: https://open.spotify.com/track/4EzfuCWEIGvMqROgiUCg6S, title: HAPPY PARTY TRAIN - 桜内梨子 Solo Ver., artist: 桜内梨子 (CV.逢田梨香子) from Aqours, seconds: 277, key: F#m, bpm: 170}
+  - {n: 7, url: https://open.spotify.com/track/79lPN4KsjswcqoKDUGn16h, title: HAPPY PARTY TRAIN, artist: Aqours, seconds: 277, key: F#m, bpm: 170}
+  - {n: 8, url: https://open.spotify.com/track/3hL81bAKomwYC6IMw3xvnY, title: HAPPY PARTY TRAIN (Mixture Rock Ver.), artist: Aqours, seconds: 276, key: D, bpm: 173}
+  - {n: 9, url: https://open.spotify.com/track/4kCm1UmvIjUaLM31Njjghe, title: HAPPY PARTY TRAIN - 津島善子 Solo Ver., artist: 津島善子 (CV.小林愛香) from Aqours, seconds: 277, key: D, bpm: 170}
+  - {n: 10, url: https://open.spotify.com/track/51vZdtW4LylNG6IL9lJeuU, title: HAPPY PARTY TRAIN - 高海千歌 Solo Ver., artist: 高海千歌 (CV.伊波杏樹) from Aqours, seconds: 278, key: D, bpm: 170}
+  - {n: 11, url: https://open.spotify.com/track/4G7BbWwZxvPTlvOnF8KkAx, title: HAPPY PARTY TRAIN - 松浦果南 Solo Ver., artist: 松浦果南 (CV.諏訪ななか) from Aqours, seconds: 278, key: D, bpm: 170}
+  - {n: 12, url: https://open.spotify.com/track/4juoJEZlwHSbIcD1W5Bdem, title: HAPPY PARTY TRAIN, artist: Aqours, seconds: 277, key: F#m, bpm: 85}
+decision: null

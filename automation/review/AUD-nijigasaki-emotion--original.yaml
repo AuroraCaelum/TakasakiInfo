@@ -1,0 +1,15 @@
+type: audio
+ref: recording:nijigasaki/emotion#original
+title: EMOTION
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=EMOTION
+  chordwiki: https://ja.chordwiki.org/search.html?t=EMOTION
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/48gl8CxJgMjAWATi8jRgf1, title: EMOTION - Off Vocal, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 113}
+  - {n: 2, url: https://open.spotify.com/track/0YIHlSU0P3wVDHCIkZMjDp, title: EMOTION - Off Vocal, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 113}
+  - {n: 3, url: https://open.spotify.com/track/2sIKOjpSDNOHl9c7iSJwVg, title: EMOTION, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 171}
+  - {n: 4, url: https://open.spotify.com/track/77T004K7FEPJAVbPmaDaxp, title: EMOTION - Off Vocal, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 113}
+  - {n: 5, url: https://open.spotify.com/track/5hi5zEqlG3kXMDVH84i7N7, title: EMOTION, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 171}
+  - {n: 6, url: https://open.spotify.com/track/7jwae5zYV4FKXpapXgmKgg, title: EMOTION, artist: 三船栞子 (CV.小泉萌香), seconds: 231, key: G, bpm: 171}
+decision: null

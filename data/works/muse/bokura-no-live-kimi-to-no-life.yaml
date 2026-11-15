@@ -64,6 +64,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Gm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -78,6 +81,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d8e452e6-6beb-4611-b2d8-1a636ca13a7b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (KOTORI Mix)
@@ -90,6 +98,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Fm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -104,6 +115,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_GizazSHptpA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e43aa191-6ca3-4389-983d-3e159693f8b5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (HONOKA Mix)
@@ -116,6 +132,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Fm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -130,6 +149,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1969150b-3cfb-4e78-badd-ab928b76478f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size
     title:
       ja: 僕らのLIVE 君とのLIFE (TVサイズ)
@@ -167,6 +191,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Cm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -181,6 +208,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bd593ece-d3e9-441a-aa50-2ab8b9097bfd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (NICO Mix)
@@ -193,6 +225,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Cm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -207,6 +242,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ab971835-a864-44ed-8e3e-3358b2491e3b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (MAKI Mix)
@@ -219,6 +259,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Cm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -233,6 +276,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ef1938e5-af22-4cc0-8612-f4515e7fae6c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (ELI Mix)
@@ -245,6 +293,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Fm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -259,6 +310,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=459a9bc4-70cd-4e66-8cc0-bd6cc5ddf0e2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (RIN Mix)
@@ -271,6 +327,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Cm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -285,6 +344,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=66b268cd-e4e9-48c9-9af7-e4089990daf7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: 僕らのLIVE 君とのLIFE (HANAYO Mix)
@@ -297,6 +361,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: Fm
+      bpm: 105
     evidence:
       credits:
         status: derived
@@ -311,6 +378,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6baa77c2-21c5-4992-99a5-d272af77a891
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

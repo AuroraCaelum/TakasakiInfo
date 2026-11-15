@@ -19,6 +19,9 @@ recordings:
       - {person: t4k}
       - {person: passion-king}
     duration: 257
+    audio:
+      key: Bb
+      bpm: 175
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_kiiDo85ZzFk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e793b327-fafe-4618-bca8-57da14ba1461
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

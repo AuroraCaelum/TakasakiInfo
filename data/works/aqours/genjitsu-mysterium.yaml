@@ -19,6 +19,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 210
+    audio:
+      key: Ebm
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ybuGGc2z0YD
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=301276c9-2dca-46b0-b80a-95e24cfb8a08
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -62,6 +70,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: Ebm
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -72,6 +83,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8ce83cf9-a7fc-4e65-86b4-939af4cb275a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -79,6 +95,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: Ebm
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -89,6 +108,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=74312b05-06db-4a1e-b67d-66d7d9fd9db1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -96,6 +120,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: Ebm
+      bpm: 151
     evidence:
       credits:
         status: official
@@ -106,6 +133,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d2a37662-5ed6-4489-b522-5e1358fc9f5d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -113,6 +145,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: F#
+      bpm: 75
     evidence:
       credits:
         status: official
@@ -123,6 +158,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4937fbef-d7f6-4af4-96a9-b81d8fde0cf9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -130,6 +170,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: F#
+      bpm: 76
     evidence:
       credits:
         status: official
@@ -140,6 +183,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3a105ac7-de22-4655-ab46-7d5f5c6bab83
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -147,6 +195,9 @@ recordings:
       - {person: takuya-sakai, affiliation: Arte Refact}
       - {person: kyohei-yamamoto, affiliation: Arte Refact}
     duration: 212
+    audio:
+      key: Ebm
+      bpm: 75
     evidence:
       credits:
         status: official
@@ -157,6 +208,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f3046c1e-bfa7-4cd0-b913-12512ea4ff76
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     duration: 329
+    audio:
+      key: F
+      bpm: 200
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_B8ibANEGegz
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1402034b-5370-4a9e-abdd-620e41ab9eb6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     duration: 326
+    audio:
+      key: F
+      bpm: 200
     evidence:
       credits:
         status: official
@@ -74,12 +85,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=60db7fc8-3dd0-4f0f-b122-449ece5006ae
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: akihiko-yamaguchi}
     duration: 327
+    audio:
+      key: F
+      bpm: 200
     evidence:
       credits:
         status: official
@@ -90,12 +109,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1402034b-5370-4a9e-abdd-620e41ab9eb6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: akihiko-yamaguchi}
     duration: 327
+    audio:
+      key: F
+      bpm: 200
     evidence:
       credits:
         status: official
@@ -106,6 +133,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1402034b-5370-4a9e-abdd-620e41ab9eb6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: movie-size
     title:
       ja: 逃走迷走メビウスループ (MOVIEサイズ)
@@ -120,6 +152,9 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     duration: 127
+    audio:
+      key: F
+      bpm: 200
     evidence:
       credits:
         status: derived
@@ -134,6 +169,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FIu9NMIlGjF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b91c2385-f98d-49c4-9c04-60a33210cb4b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: takeru-yoda}
     duration: 258
+    audio:
+      key: C
+      bpm: 110
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_BjkMkgRz0DO
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a3fc7e23-38d4-496e-bf09-5dba38adbcdb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

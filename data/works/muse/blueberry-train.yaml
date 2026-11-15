@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: seiji-miura}
     duration: 230
+    audio:
+      key: F
+      bpm: 172
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4fdc7c77-12db-49ec-9c4a-4fa638dd55cf
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

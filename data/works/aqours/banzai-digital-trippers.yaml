@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -27,12 +30,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=994bec36-3f35-49fe-ba01-5810602f31b9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -43,12 +54,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d7cdea92-cd76-4b5b-8091-ee09e822ca32
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -59,12 +78,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fb7619ed-1069-4022-a9a8-cba42e8f8b6c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -75,12 +102,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=167d1a22-c1dc-4025-a90a-3fbb87e26def
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -91,12 +126,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=e74be654-2224-4994-99b6-64b5ea297e91
+        checked: 2026-11-15
+        note: 같은 편곡 음원 4/6개의 값으로 맞춤. 이 음원의 분석값은 F#m 179 BPM(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: mitchie-m}
     duration: 293
+    audio:
+      key: G
+      bpm: 179
     evidence:
       credits:
         status: official
@@ -107,6 +150,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=76b0470c-c1ac-459c-9a06-84a20fd10155
+        checked: 2026-11-15
+        note: 같은 편곡 음원 4/6개의 값으로 맞춤. 이 음원의 분석값은 F#m 179 BPM(D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

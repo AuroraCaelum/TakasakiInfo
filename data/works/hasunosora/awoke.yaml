@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     duration: 183
+    audio:
+      key: C#
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_BMeIRFB6pEQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e2680d1d-7c0a-4fdc-bc46-ca63098be799
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 104th-ver
     title:
       ja: AWOKE (104期 Ver.)
@@ -40,6 +48,9 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
     duration: 183
+    audio:
+      key: C#
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -53,6 +64,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e2680d1d-7c0a-4fdc-bc46-ca63098be799
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tsuzuri-yugiri-solo
     performers:
       - {character: hasunosora/tsuzuri-yugiri}

@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: taishi-kawai}
     duration: 248
+    audio:
+      key: C
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_8Fl0kOxpXyv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0431cc0b-5950-4792-88e9-a34c9f80a26a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

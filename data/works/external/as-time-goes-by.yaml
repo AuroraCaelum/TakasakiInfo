@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: yoshiaki-fujisawa}
     duration: 132
+    audio:
+      key: Bb
+      bpm: 80
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_waHovs6ip5W
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8acd8b19-8332-4462-a23d-73a1f394529b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: refrain
     title:
       ja: As Time Goes By (リフレイン)
@@ -39,6 +47,9 @@ recordings:
     arranger:
       - {person: yoshiaki-fujisawa}
     duration: 118
+    audio:
+      key: Bb
+      bpm: 123
     evidence:
       credits:
         status: official
@@ -52,6 +63,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_waHovs6ip5W
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=36b66a10-ef10-4ff1-bbf4-84eb6583ff1d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

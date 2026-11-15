@@ -66,6 +66,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 278
+    audio:
+      key: D
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -80,6 +83,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d714f43b-b29e-4a4e-88eb-693a0985929a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: HAPPY PARTY TRAIN (桜内梨子 Solo Ver.)
@@ -92,6 +100,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 278
+    audio:
+      key: F#m
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -106,6 +117,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5b95584b-f168-4b72-9a92-14c3a0db1798
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: HAPPY PARTY TRAIN (黒澤ルビィ Solo Ver.)
@@ -118,6 +134,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 278
+    audio:
+      key: F#m
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -132,12 +151,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=18f4c99b-262c-4fad-bf77-8db3a9a10d66
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: effy}
     duration: 279
+    audio:
+      key: F#m
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -149,12 +176,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1379ca56-e533-4b58-a243-2bb40e1d1d26
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: effy}
     duration: 279
+    audio:
+      key: D
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -166,12 +201,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e8bed08e-cc98-4e67-873d-4bdaa8d55fdb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: effy}
     duration: 279
+    audio:
+      key: A
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -183,12 +226,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2b4c54dc-0e48-4ae3-8282-3741651c8180
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: effy}
     duration: 279
+    audio:
+      key: A
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -200,12 +251,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=368fc6c6-9c27-4902-9bb7-4e6a3129c89d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: effy}
     duration: 278
+    audio:
+      key: D
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -217,12 +276,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=23979f10-550d-422e-b188-e8eaedc61374
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: effy}
     duration: 278
+    audio:
+      key: D
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -234,6 +301,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=97b9f1fc-00dd-43d7-be13-00372897ff9b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mixture-rock-ver
     title:
       ja: HAPPY PARTY TRAIN (Mixture Rock Ver.)

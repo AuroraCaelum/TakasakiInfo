@@ -116,6 +116,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 275
+    audio:
+      key: Ab
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -129,6 +132,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8d849435-f0b4-4d93-ae86-dd7dc4a50d89
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(3/4 tracks)의 값
   - id: tv-size
     title:
       ja: ススメ→トゥモロウ (TVサイズ)
@@ -143,6 +151,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 124
+    audio:
+      key: Ab
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -156,6 +167,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=53f5dc78-14dd-48fb-8e59-499aeb223a7b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

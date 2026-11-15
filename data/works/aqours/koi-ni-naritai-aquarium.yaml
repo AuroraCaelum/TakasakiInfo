@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_DyTUFVdmECr
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=36e69b44-bfb5-4541-92d0-f5742c021c5a
+        checked: 2026-11-15
+        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Bm 139 BPM(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=463b6bfd-09a6-4f2a-87f6-b2e83e29e583
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 恋になりたいAQUARIUM (桜内梨子 Solo Ver.)
@@ -89,6 +105,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -103,6 +122,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=5bbeca4c-8222-41a4-aaaf-0d1f39818e59
+        checked: 2026-11-15
+        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 E 139 BPM(D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 恋になりたいAQUARIUM (黒澤ルビィ Solo Ver.)
@@ -115,6 +139,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -129,12 +156,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0398ad34-fcff-47a2-bfd8-95fa13a7a686
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -146,12 +181,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=78b3b1ed-7217-43e0-8842-1c2e50c1c9ac
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kazunori-watanabe}
     duration: 310
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -163,12 +206,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=96d9bf41-43a7-4cab-8f73-1773540af192
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -180,12 +231,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fcfd4419-fe74-4695-aaa0-13c1b4c2cae3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -197,12 +256,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=161ad69e-1da0-42ad-8f87-5edf89de634e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -214,12 +281,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0bcf20da-ba46-4f46-a715-f4549bc891d1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kazunori-watanabe}
     duration: 309
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: derived
@@ -231,6 +306,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ccd11277-becb-4c08-8aa9-c8925c2bfa7f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: unplugged-rock-ver
     title:
       ja: 恋になりたいAQUARIUM (Unplugged Rock Ver.)
@@ -243,6 +323,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 308
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -256,6 +339,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0398ad34-fcff-47a2-bfd8-95fa13a7a686
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(8/12 tracks)의 값
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 恋になりたいAQUARIUM (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

@@ -19,6 +19,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: naoki-tani}
     duration: 278
+    audio:
+      key: Bm
+      bpm: 142
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ZK5hte8r3Ho
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7e6b90d2-e5d1-4bdd-a02a-a5d4f39674b3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

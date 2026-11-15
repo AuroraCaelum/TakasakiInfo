@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/yume-de-yozora-wo-terashitai#original
+title: 夢で夜空を照らしたい
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E5%A4%A2%E3%81%A7%E5%A4%9C%E7%A9%BA%E3%82%92%E7%85%A7%E3%82%89%E3%81%97%E3%81%9F%E3%81%84
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E5%A4%A2%E3%81%A7%E5%A4%9C%E7%A9%BA%E3%82%92%E7%85%A7%E3%82%89%E3%81%97%E3%81%9F%E3%81%84
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/0x89IEs0NJHOULPx4wgPPB, title: 夢で夜空を照らしたい, artist: '高海千歌 (CV.伊波杏樹), 桜内梨子 (CV.逢田梨香子), 渡辺 曜 (CV.斉藤朱夏), Yoshiko Tsushima (CV: Aika Kobayashi), 国木田花丸 (CV.高槻かなこ), 黒澤ルビィ (CV.降幡 愛)', seconds: 334, key: C, bpm: 184}
+  - {n: 2, url: https://open.spotify.com/track/67y2vXMMTfe8f6yKZcJAN1, title: 夢で夜空を照らしたい, artist: '高海千歌 (CV.伊波杏樹), 桜内梨子 (CV.逢田梨香子), 渡辺 曜 (CV.斉藤朱夏), Yoshiko Tsushima (CV: Aika Kobayashi), 国木田花丸 (CV.高槻かなこ), 黒澤ルビィ (CV.降幡 愛)', seconds: 334, key: C, bpm: 92}
+decision: null

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:nijigasaki/joy-is-all-around#original
+title: Joy is All Around
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Joy%20is%20All%20Around
+  chordwiki: https://ja.chordwiki.org/search.html?t=Joy%20is%20All%20Around
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1HAdIhVsPpFcSuwXwt1PC3, title: Joy is All Around - Off Vocal, artist: ミア・テイラー (CV.内田 秀), seconds: 219, key: Bm, bpm: 120}
+  - {n: 2, url: https://open.spotify.com/track/2au2zePp1yEqiU89oM6rRl, title: Joy is All Around, artist: ミア・テイラー (CV.内田 秀), seconds: 219, key: D, bpm: 120}
+decision: null

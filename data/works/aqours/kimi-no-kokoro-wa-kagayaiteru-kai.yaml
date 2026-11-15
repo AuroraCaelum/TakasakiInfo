@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 285
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cMR1uUqCSoA
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8f10a643-d37a-488e-9d21-0d86110c2f83
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=21ada1db-b036-4699-b69a-a1f90d10aa04
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: 君のこころは輝いてるかい？ (桜内梨子 Solo Ver.)
@@ -89,6 +105,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -103,6 +122,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=63809a79-30d9-4bcc-ac03-7b4af7897f4a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 君のこころは輝いてるかい？ (黒澤ルビィ Solo Ver.)
@@ -115,6 +139,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 287
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -129,12 +156,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f67f3ce2-a735-4931-9216-a89e94b0da03
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: effy}
     duration: 287
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -146,12 +181,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=90d2ea28-56ac-4bc0-bef6-5df21d82e452
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -163,12 +206,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3a024aa4-4800-4786-89ed-b6991d4a9172
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: effy}
     duration: 287
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -180,12 +231,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9ad2de21-c999-4211-814d-a1b8e1207e85
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -197,12 +256,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0637a759-f1d1-4a3c-9590-8a7a82755e2e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -214,12 +281,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=66831964-5507-42af-aae3-77b3a258d1c6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: effy}
     duration: 286
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: derived
@@ -231,6 +306,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=372aed49-df64-4d86-ba0d-443879e9176c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hard-rock-ver
     title:
       ja: 君のこころは輝いてるかい？ (Hard Rock Ver.)
@@ -243,6 +323,9 @@ recordings:
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 277
+    audio:
+      key: E
+      bpm: 91
     evidence:
       credits:
         status: official
@@ -256,6 +339,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=72e74608-d86f-4b30-9d82-d8cbad762d7d
+        checked: 2026-11-15
+        note: 같은 편곡 음원 10/11개의 값으로 맞춤. 이 음원의 분석값은 D 91 BPM(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 君のこころは輝いてるかい？ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

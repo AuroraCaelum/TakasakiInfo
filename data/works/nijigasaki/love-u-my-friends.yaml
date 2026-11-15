@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: keisuke-koyama}
     duration: 240
+    audio:
+      key: G
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A8893yKJxi6
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3dc6f64f-07c1-4a3b-960b-68d40276f7e7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 12nin-ver
     title:
       ja: Love U my friends (12人Ver.)
@@ -41,6 +49,9 @@ recordings:
     arranger:
       - {person: keisuke-koyama}
     duration: 240
+    audio:
+      key: G
+      bpm: 170
     evidence:
       credits:
         status: established
@@ -52,6 +63,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3dc6f64f-07c1-4a3b-960b-68d40276f7e7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -83,6 +99,9 @@ recordings:
     arranger:
       - {person: keisuke-koyama}
     duration: 83
+    audio:
+      key: G
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -97,6 +116,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=0f746429-6b4a-4565-8b71-7c851a10ee1a
+        checked: 2026-11-15
+        note: 같은 편곡 음원 2/3개의 값으로 맞춤. 이 음원의 분석값은 G 79 BPM(D61)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:

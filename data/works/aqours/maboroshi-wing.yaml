@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: mari}
     duration: 234
+    audio:
+      key: C
+      bpm: 173
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5998b0fc-157b-4577-9e3e-601e132ef9fe
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

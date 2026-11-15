@@ -21,6 +21,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: ramseeni}
     duration: 257
+    audio:
+      key: D
+      bpm: 97
     external_ids:
       isrc: JPI101602237
     evidence:
@@ -39,6 +42,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48d238a5-6c37-41e8-97da-5c5fbb7c5571
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -71,6 +79,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: ramseeni}
     duration: 257
+    audio:
+      key: D
+      bpm: 97
     evidence:
       credits:
         status: official
@@ -81,6 +92,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48d238a5-6c37-41e8-97da-5c5fbb7c5571
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -88,6 +104,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: ramseeni}
     duration: 257
+    audio:
+      key: D
+      bpm: 97
     evidence:
       credits:
         status: official
@@ -98,6 +117,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=117bc4cb-888c-4972-90dd-f2d6327b9971
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -105,6 +129,9 @@ recordings:
       - {person: kotaro-odaka}
       - {person: ramseeni}
     duration: 256
+    audio:
+      key: D
+      bpm: 97
     evidence:
       credits:
         status: official
@@ -115,6 +142,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48d238a5-6c37-41e8-97da-5c5fbb7c5571
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

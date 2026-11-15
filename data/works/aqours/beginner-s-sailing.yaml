@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: takuya-sakai, affiliation: Arte Refact}
     duration: 288
+    audio:
+      key: E
+      bpm: 89
     evidence:
       credits:
         status: established
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3b7f0aed-08fe-464b-8e76-9b28679b0e61
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

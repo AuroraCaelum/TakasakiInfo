@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/aqours-heroes#original
+title: Aqours☆HEROES
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Aqours%E2%98%86HEROES
+  chordwiki: https://ja.chordwiki.org/search.html?t=Aqours%E2%98%86HEROES
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1SbtmeOdk4uCHOawKNpCoa, title: Aqours☆HEROES, artist: Aqours, seconds: 256, key: Fm, bpm: 142}
+  - {n: 2, url: https://open.spotify.com/track/0FQj7luDMVDhsTIKblIjtx, title: Aqours☆HEROES, artist: Aqours, seconds: 256, key: Bb, bpm: 142}
+decision: null

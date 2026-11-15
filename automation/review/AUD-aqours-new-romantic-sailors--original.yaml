@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/new-romantic-sailors#original
+title: New Romantic Sailors
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=New%20Romantic%20Sailors
+  chordwiki: https://ja.chordwiki.org/search.html?t=New%20Romantic%20Sailors
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/276iyIdDHmj26p5sr6DxV9, title: New Romantic Sailors, artist: Guilty Kiss, seconds: 282, key: Am, bpm: 155}
+  - {n: 2, url: https://open.spotify.com/track/3JQFG9dQs2VGW6bJPDts3A, title: New Romantic Sailors, artist: Guilty Kiss, seconds: 283, key: Bm, bpm: 155}
+decision: null

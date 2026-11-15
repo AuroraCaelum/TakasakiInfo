@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/cutie-panther#original
+title: Cutie Panther
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Cutie%20Panther
+  chordwiki: https://ja.chordwiki.org/search.html?t=Cutie%20Panther
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/1phtsDxsUkRxClOZRJEdrz, title: Cutie Panther, artist: BiBi, seconds: 269, key: Cm, bpm: 170}
+  - {n: 2, url: https://open.spotify.com/track/2LHSTbqhXhBmxDhyng99A0, title: Cutie Panther, artist: BiBi, seconds: 270, key: Bbm, bpm: 170}
+decision: null

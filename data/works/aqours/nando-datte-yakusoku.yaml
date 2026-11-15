@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 259
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -66,6 +74,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -80,6 +91,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: なんどだって約束！ (桜内梨子 Solo Ver.)
@@ -92,6 +108,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -106,6 +125,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: なんどだって約束！ (松浦果南 Solo Ver.)
@@ -118,6 +142,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -132,6 +159,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ダイヤ Solo Ver.)
@@ -144,6 +176,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -158,6 +193,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo-ver
     title:
       ja: なんどだって約束！ (渡辺 曜 Solo Ver.)
@@ -170,6 +210,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -184,6 +227,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: なんどだって約束！ (津島善子 Solo Ver.)
@@ -196,6 +244,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -210,6 +261,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: なんどだって約束！ (国木田花丸 Solo Ver.)
@@ -222,6 +278,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -236,6 +295,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo-ver
     title:
       ja: なんどだって約束！ (小原鞠莉 Solo Ver.)
@@ -248,6 +312,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -262,6 +329,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: なんどだって約束！ (黒澤ルビィ Solo Ver.)
@@ -274,6 +346,9 @@ recordings:
     arranger:
       - {person: akimitsu-honma}
     duration: 258
+    audio:
+      key: F#m
+      bpm: 124
     evidence:
       credits:
         status: derived
@@ -288,6 +363,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hZvdSuZbfYt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6c9dbdc5-33e1-4a8c-b1a7-e06dff6fa392
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

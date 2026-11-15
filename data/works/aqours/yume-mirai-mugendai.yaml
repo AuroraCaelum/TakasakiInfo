@@ -20,6 +20,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 321
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8ec4bcd9-abbb-4929-92f2-3dcf2a734e7b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -69,6 +77,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -83,6 +94,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (桜内梨子 Solo Ver.)
@@ -96,6 +112,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -110,6 +129,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (松浦果南 Solo Ver.)
@@ -123,6 +147,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -137,6 +164,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (黒澤ダイヤ Solo Ver.)
@@ -150,6 +182,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -164,6 +199,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (渡辺 曜 Solo Ver.)
@@ -177,6 +217,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -191,6 +234,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (津島善子 Solo Ver.)
@@ -204,6 +252,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -218,6 +269,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (国木田花丸 Solo Ver.)
@@ -231,6 +287,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -245,6 +304,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (小原鞠莉 Solo Ver.)
@@ -258,6 +322,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -272,6 +339,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: ユメ+ミライ＝無限大 (黒澤ルビィ Solo Ver.)
@@ -285,6 +357,9 @@ recordings:
       - {person: ryosuke-saito}
       - {person: hitoshi-harukawa}
     duration: 320
+    audio:
+      key: A
+      bpm: 108
     evidence:
       credits:
         status: derived
@@ -299,6 +374,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_f3Kwfk5VGFt
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fc6449c-98ef-4283-b72e-a7aefd8f8523
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: hayato-tanaka}
     duration: 204
+    audio:
+      key: F#
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_AmczUr7RSWM
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4b66e16c-00e6-4ab7-8059-33be8cd2f714
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -57,6 +65,9 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: hayato-tanaka}
+    audio:
+      key: F#
+      bpm: 116
     evidence:
       credits:
         status: derived
@@ -66,6 +77,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4b66e16c-00e6-4ab7-8059-33be8cd2f714
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

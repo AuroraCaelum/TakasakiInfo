@@ -1,0 +1,11 @@
+type: audio
+ref: recording:aqours/water-blue-new-world#original
+title: WATER BLUE NEW WORLD
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=WATER%20BLUE%20NEW%20WORLD
+  chordwiki: https://ja.chordwiki.org/search.html?t=WATER%20BLUE%20NEW%20WORLD
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/4vmp6gwqka3mpHvTAuNMIz, title: WATER BLUE NEW WORLD, artist: Aqours, seconds: 345, key: Em, bpm: 175}
+  - {n: 2, url: https://open.spotify.com/track/31ENXtNQYS0xIOOmb3Ogjc, title: WATER BLUE NEW WORLD, artist: Aqours, seconds: 343, key: G, bpm: 175}
+decision: null

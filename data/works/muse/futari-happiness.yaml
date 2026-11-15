@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 371
+    audio:
+      key: F
+      bpm: 117
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_k80KtsXCvUK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1ec4e8b0-9710-4168-9ef7-8e7874768be9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 370
+    audio:
+      key: F
+      bpm: 117
     evidence:
       credits:
         status: derived
@@ -78,6 +89,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f0b2b4a8-18f3-414c-9f2d-31c653ced949
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: ふたりハピネス (RIN Mix)
@@ -90,6 +106,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 370
+    audio:
+      key: F
+      bpm: 117
     evidence:
       credits:
         status: derived
@@ -104,6 +123,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5c36bfe3-b02d-421c-826b-90fd9b2bab39
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: ふたりハピネス (UMI Mix)
@@ -116,6 +140,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 370
+    audio:
+      key: F
+      bpm: 117
     evidence:
       credits:
         status: derived
@@ -130,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3fdbb761-a31b-4a42-9a93-f8134be59a2c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

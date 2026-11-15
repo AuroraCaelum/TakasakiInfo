@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 233
+    audio:
+      key: D
+      bpm: 122
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_WIre21OOnC9
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ef2a5b11-c74e-4d62-aff2-bf3ec49128a2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 104th-ver
     title:
       ja: Trick ＆ Cute (104期 Ver.)

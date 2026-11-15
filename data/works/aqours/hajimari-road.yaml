@@ -21,6 +21,9 @@ recordings:
     arranger:
       - {person: takarot}
     duration: 265
+    audio:
+      key: A
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -31,12 +34,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_KnOk2rerb1B
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=00083b45-fd54-4f60-a571-8bf50e686bcc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takarot}
     duration: 266
+    audio:
+      key: A
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -47,6 +58,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=00083b45-fd54-4f60-a571-8bf50e686bcc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -69,6 +85,9 @@ recordings:
     arranger:
       - {person: takarot}
     duration: 266
+    audio:
+      key: A
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -79,6 +98,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=00083b45-fd54-4f60-a571-8bf50e686bcc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: menma}
     duration: 207
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_m9yrdwRvo30
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=20c4087f-fa88-4e71-aaf6-884dc65cfe05
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

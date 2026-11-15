@@ -1,0 +1,11 @@
+type: audio
+ref: recording:yohane/girls#original
+title: GIRLS!!
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=GIRLS%21%21
+  chordwiki: https://ja.chordwiki.org/search.html?t=GIRLS%21%21
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/3Fue9YpWtKJAysJvmE4v0Z, title: GIRLS!!, artist: ヨハネ(CV.小林愛香), seconds: 250, key: G, bpm: 114}
+  - {n: 2, url: https://open.spotify.com/track/5a32DgQoobIRG3HY31tIOt, title: GIRLS!! - Off Vocal, artist: ヨハネ(CV.小林愛香), seconds: 250, key: Bm, bpm: 114}
+decision: null

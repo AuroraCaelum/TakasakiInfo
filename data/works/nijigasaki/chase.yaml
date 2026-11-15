@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: tasuku}
     duration: 259
+    audio:
+      key: E
+      bpm: 170
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_BcYUbHql6bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7b547db7-58bb-4121-8e58-55ac9959c931
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: short-size
     title:
       ja: CHASE! (Short size)
@@ -41,6 +49,9 @@ recordings:
     arranger:
       - {person: tasuku}
     duration: 127
+    audio:
+      key: E
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -55,6 +66,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=080fa772-3608-4bd1-9f4c-7a7d4ce52b68
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

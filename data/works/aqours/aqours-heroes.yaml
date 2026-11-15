@@ -39,6 +39,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 257
+    audio:
+      key: Fm
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -53,6 +56,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=acfca009-1bc9-4f44-ad0b-0c6a99f7f078
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Aqours☆HEROES (桜内梨子 Solo Ver.)
@@ -65,6 +73,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Fm
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -79,6 +90,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3a990d50-eada-43d2-85e2-75bc0a35628d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Aqours☆HEROES (黒澤ルビィ Solo Ver.)
@@ -91,6 +107,9 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Fm
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -105,12 +124,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=590cf03f-e6de-4782-b6a2-9a6b1d092ef1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kazunori-watanabe}
     duration: 257
+    audio:
+      key: Bb
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -122,12 +149,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=da0324da-de21-42c8-aeb2-f3dfa68d60b4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Bb
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -139,12 +174,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c0d03138-0753-43af-a818-f6dfa2476507
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Fm
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -156,12 +199,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5ce5f997-f5db-4574-a41d-7052aa51fdb6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Fm
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -173,12 +224,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8c1e24db-b496-4e74-8303-e198a52ebeee
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Bb
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -190,12 +249,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7d271554-ddcc-4c4b-bddc-1754a2df03f2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kazunori-watanabe}
     duration: 256
+    audio:
+      key: Bb
+      bpm: 142
     evidence:
       credits:
         status: derived
@@ -207,6 +274,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d3acee43-0bee-420d-b837-2f85af9403ef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: Aqours☆HEROES (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

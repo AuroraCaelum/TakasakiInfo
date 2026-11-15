@@ -19,6 +19,9 @@ recordings:
       - {person: ayumu-nakamura}
       - {person: taishi-noguchi}
     duration: 284
+    audio:
+      key: G
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_s1dLatRpg1J
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f7708514-c2a8-429e-a1ff-cbfa311c8e25
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -67,6 +75,9 @@ recordings:
       - {person: ayumu-nakamura}
       - {person: taishi-noguchi}
     duration: 120
+    audio:
+      key: G
+      bpm: 128
     evidence:
       credits:
         status: derived
@@ -81,6 +92,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fa060e35-1d38-404a-98b2-5d313f88f812
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

@@ -40,6 +40,9 @@ recordings:
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
     duration: 289
+    audio:
+      key: G
+      bpm: 180
     evidence:
       credits:
         status: official
@@ -50,6 +53,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a66c2048-07e4-4e06-bb67-8370209893a5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 12nin-ver
     title:
       ja: TOKIMEKI Runners (12人Ver.)
@@ -104,6 +112,9 @@ recordings:
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact}
     duration: 115
+    audio:
+      key: G
+      bpm: 180
     evidence:
       credits:
         status: derived
@@ -118,6 +129,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7bddbe8b-70dc-4daa-af4a-697b09129fcd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:

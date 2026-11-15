@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: masaki-iehara}
     duration: 197
+    audio:
+      key: F
+      bpm: 164
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4bd5376f-3f4b-43f2-a826-b5d510dbef8e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

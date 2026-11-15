@@ -20,6 +20,9 @@ recordings:
     arranger:
       - {person: pw-a}
     duration: 228
+    audio:
+      key: C#
+      bpm: 91
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_KnOk2rerb1B
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bb375c55-6a6c-45ef-8a6a-1902187a14f5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}

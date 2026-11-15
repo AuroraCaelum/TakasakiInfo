@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 323
+    audio:
+      key: C#
+      bpm: 95
     external_ids:
       isrc: JPI101601630
     evidence:
@@ -35,6 +38,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=181d6069-a2e5-4e5f-b982-8f31a3df706c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -60,6 +68,9 @@ recordings:
     arranger:
       - {person: kyo-takada}
     duration: 321
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -70,12 +81,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4jv6IRUtyCT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=23df1779-385f-4cd7-99c5-08959c9defa4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -86,12 +105,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=523f3a58-02fb-4cf4-a26f-42d8c65f0f90
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -102,12 +129,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a01d9f44-a9f6-444c-a07a-bcc0cb314f41
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -118,12 +153,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=2c617a31-e450-4931-ad68-558432e05247
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kyo-takada}
     duration: 321
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -134,12 +177,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f6ad9a4-2f86-4737-ae9b-cf86eb84926f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -150,12 +201,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eb489cc8-8a74-469f-814b-d0dbd03872d0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kyo-takada}
     duration: 322
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -166,12 +225,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e721724a-6b5c-413e-9c44-9e79f834f7f4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kyo-takada}
     duration: 321
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -182,12 +249,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=d962c243-e877-4d5f-a2fb-5baadc47ea78
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kyo-takada}
     duration: 321
+    audio:
+      key: C#
+      bpm: 95
     evidence:
       credits:
         status: official
@@ -198,6 +273,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=bdff5bd2-c18e-4d0a-b66c-2a79b82e5c28
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
 evidence:
   credits:
     status: official

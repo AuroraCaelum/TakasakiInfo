@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: yoshiaki-dewa}
     duration: 241
+    audio:
+      key: E
+      bpm: 94
     evidence:
       credits:
         status: established
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_q0mmnRLQt0G
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=254e5034-fd2f-41fe-ae49-741daac8a572
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

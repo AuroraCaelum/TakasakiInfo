@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/yuuki-no-reason#original
+title: 勇気のReason
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E5%8B%87%E6%B0%97%E3%81%AEReason
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E5%8B%87%E6%B0%97%E3%81%AEReason
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/4lFrXhNvigz4MjIAQ0FQ4X, title: 勇気のReason, artist: 園田海未(CV.三森すずこ), seconds: 233, key: Ab, bpm: 180}
+  - {n: 2, url: https://open.spotify.com/track/42SQTZPPMudgvZ2W90RoZh, title: 勇気のReason, artist: 園田海未(CV.三森すずこ), seconds: 233, key: Ab, bpm: 89}
+decision: null

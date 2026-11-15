@@ -17,11 +17,19 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd52
         checked: 2026-10-20
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d4a4a066-107b-4c2f-b7bb-8309f9b109b7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -53,6 +61,9 @@ recordings:
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -63,12 +74,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=98339ca1-2cb1-4714-bbce-9b91faaba957
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -79,12 +98,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6cdef8a4-a7e8-4875-baba-e222ab7b0058
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -95,12 +122,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2c53d335-39c8-443d-a72b-1107ec4811b2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -111,12 +146,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0c215c8b-78da-4832-842e-26fd08d31e5f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -127,12 +170,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=af1a5a44-e97c-415c-941c-e99f510c4f54
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takarot}
     duration: 286
+    audio:
+      key: A
+      bpm: 116
     evidence:
       credits:
         status: official
@@ -143,6 +194,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c634b056-5c9f-403c-be01-ec906d4686e3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

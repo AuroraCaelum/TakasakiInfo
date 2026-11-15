@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: nayutalien}
     duration: 180
+    audio:
+      key: C#
+      bpm: 129
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_c95rmywAS0G
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ee7e257c-fcd1-4d55-b14e-893eec7ca623
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 104th-ver
     title:
       ja: ハクチューアラモード (104期 Ver.)
@@ -39,6 +47,9 @@ recordings:
     arranger:
       - {person: nayutalien}
     duration: 180
+    audio:
+      key: C#
+      bpm: 129
     evidence:
       credits:
         status: official
@@ -52,6 +63,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ee7e257c-fcd1-4d55-b14e-893eec7ca623
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: megumi-fujishima-solo
     performers:
       - {character: hasunosora/megumi-fujishima}

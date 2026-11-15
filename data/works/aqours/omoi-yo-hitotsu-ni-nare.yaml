@@ -24,6 +24,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -35,6 +38,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_uqnZrHbKjxg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cac35ac0-a267-4b86-905a-288bdd28546c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -73,6 +81,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -83,12 +94,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4cea79af-8bd5-4f70-8725-e9a1e449e359
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -99,12 +118,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f012434c-f937-44ac-9247-01c64084d9f1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takashi-saeki}
     duration: 293
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -115,12 +142,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cac35ac0-a267-4b86-905a-288bdd28546c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -131,12 +166,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2b76dbab-b019-4d1f-b620-f5dafaa1b66d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takashi-saeki}
     duration: 293
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -147,12 +190,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cac35ac0-a267-4b86-905a-288bdd28546c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -163,12 +214,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b0eb0967-d5e4-47a7-9019-64ce746a9b34
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takashi-saeki}
     duration: 293
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -179,12 +238,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=523a4a1b-9377-4495-bdda-7504c160fac5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: takashi-saeki}
     duration: 294
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -195,12 +262,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=49c11789-e9b3-4cf8-ae7d-597f873541d9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: takashi-saeki}
     duration: 293
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: official
@@ -211,6 +286,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cac35ac0-a267-4b86-905a-288bdd28546c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size
     title:
       ja: 想いよひとつになれ (TVサイズ)
@@ -230,6 +310,9 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     duration: 114
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: derived
@@ -244,6 +327,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0cfjJVpigob
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=575da72d-0f2f-4789-8b73-fc7991dc508b
+        checked: 2026-11-15
+        note: 같은 편곡 음원 11/12개의 값으로 맞춤. 이 음원의 분석값은 D 84 BPM(D61)
   - id: riko-s-piano-sonata
     kind: instrumental
     title:
@@ -278,6 +366,9 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takashi-saeki}
+    audio:
+      key: A
+      bpm: 168
     evidence:
       credits:
         status: derived
@@ -287,6 +378,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2b76dbab-b019-4d1f-b620-f5dafaa1b66d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: 想いよひとつになれ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

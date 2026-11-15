@@ -1,0 +1,11 @@
+type: audio
+ref: recording:hasunosora/mix-shake#104th-ver
+title: Mix shake!! (104期 Ver.)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Mix%20shake%21%21%20%28104%E6%9C%9F%20Ver.%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=Mix%20shake%21%21%20%28104%E6%9C%9F%20Ver.%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/7ahptM6ggRFr7sHYoALoJP, title: Mix shake!!, artist: スリーズブーケ, seconds: 249, key: A, bpm: 174}
+  - {n: 2, url: https://open.spotify.com/track/0HXk5EVTfTFEHlC35OOS03, title: Mix shake!! - Off Vocal, artist: スリーズブーケ, seconds: 248, key: C#, bpm: 174}
+decision: null

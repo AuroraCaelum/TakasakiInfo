@@ -19,6 +19,9 @@ recordings:
       - {person: luna}
       - {person: toshikazu-kadono}
     duration: 250
+    audio:
+      key: Ab
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -30,6 +33,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Eg3VUYffuyH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=090fcd18-f986-40bf-8bf2-9b654ae78591
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -69,6 +77,9 @@ recordings:
       - {person: luna}
       - {person: toshikazu-kadono}
     duration: 96
+    audio:
+      key: Ab
+      bpm: 128
     evidence:
       credits:
         status: derived
@@ -83,6 +94,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=35868531-ff4b-4296-bba9-08d8f507671b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

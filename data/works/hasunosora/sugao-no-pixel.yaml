@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: menma}
     duration: 223
+    audio:
+      key: Ab
+      bpm: 138
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lH1TXvumAec
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2c2a19c4-0b6b-421a-89dd-7a1bb8dabc24
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: menma}
     duration: 223
+    audio:
+      key: Ab
+      bpm: 138
     evidence:
       credits:
         status: official
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2c2a19c4-0b6b-421a-89dd-7a1bb8dabc24
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}

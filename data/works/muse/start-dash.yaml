@@ -19,6 +19,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 254
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Ovm66bI6rw4
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0820fa4a-e2f9-4225-90e8-3eba6e1fd71c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -66,6 +74,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 257
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -79,6 +90,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2e403057-d7d9-4b94-86db-facb78bd31ed
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: START:DASH!! (ELI Mix)
@@ -116,6 +132,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 257
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -129,6 +148,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2e403057-d7d9-4b94-86db-facb78bd31ed
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: START:DASH!! (UMI Mix)
@@ -141,6 +165,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 257
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -154,6 +181,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2e403057-d7d9-4b94-86db-facb78bd31ed
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: START:DASH!! (RIN Mix)
@@ -241,6 +273,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 257
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -254,6 +289,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=90af8453-b1bc-4b8f-ae03-096a0f0be4ec
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: START:DASH!! (NICO Mix)
@@ -384,6 +424,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 185
+    audio:
+      key: G
+      bpm: 150
     evidence:
       credits:
         status: official
@@ -397,6 +440,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b1c81106-5531-4bc3-846c-fbcfe71fb2a4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-muse
     title:
       ja: START:DASH!! (TVサイズ)

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:yohane/be-as-one#original
+title: Be as one!!!
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Be%20as%20one%21%21%21
+  chordwiki: https://ja.chordwiki.org/search.html?t=Be%20as%20one%21%21%21
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/0Zu0SWqtvs9MgTBX2NEslo, title: Be as one!!! - Off Vocal, artist: 'ダイヤ(CV.小宮有紗), ルビィ(CV.降幡 愛), チカ(CV.伊波杏樹)', seconds: 253, key: C#, bpm: 135}
+  - {n: 2, url: https://open.spotify.com/track/25Qlri9PHOvdDqJfWdOERh, title: Be as one!!!, artist: 'ダイヤ(CV.小宮有紗), ルビィ(CV.降幡 愛), チカ(CV.伊波杏樹)', seconds: 253, key: Ab, bpm: 135}
+decision: null

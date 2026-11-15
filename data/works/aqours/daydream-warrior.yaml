@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 276
+    audio:
+      key: Abm
+      bpm: 135
     external_ids:
       isrc: JPI101602513
     evidence:
@@ -35,6 +38,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=9b5cb4e5-de49-445a-86d0-27b085e214b3
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 F# 135 BPM(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -63,6 +71,9 @@ recordings:
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 274
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -73,12 +84,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4jv6IRUtyCT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=652b01e2-c82c-4846-ba26-c852289fc004
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 273
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -89,12 +108,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1675e79d-a1c3-4bff-a2ac-8bec34e4e456
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 275
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -105,12 +132,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=799bf8da-b3f4-4aa4-9fd8-f10fe54f4d94
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 C#m 135 BPM(D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 275
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -121,12 +156,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2d767bfe-88a9-4ae6-a279-4e11c64976a6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 274
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -137,12 +180,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=d355d7e2-d42c-49ce-bea0-cf20282e42b5
+        checked: 2026-11-15
+        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 B 135 BPM(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 275
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -153,12 +204,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b6e44aad-e9a4-4f96-87aa-dd3f0c32b9dc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 274
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -169,12 +228,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b71bf9fa-c1b9-4db5-b0ed-c4dd50a5bffe
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 274
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -185,12 +252,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d3d4936b-e520-4e3a-94b2-1744dd59d5e9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: tomohiro-nakatsuchi}
     duration: 274
+    audio:
+      key: Abm
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -201,6 +276,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=243bddc2-892e-4a74-a945-7e68009a242e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: Daydream Warrior (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -216,6 +296,9 @@ recordings:
       concert: aqours/aqours-finale
       date: 2025-06-22
     duration: 277
+    audio:
+      key: F#
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -230,6 +313,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9b5cb4e5-de49-445a-86d0-27b085e214b3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

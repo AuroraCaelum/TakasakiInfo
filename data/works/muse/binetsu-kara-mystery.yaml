@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 199
+    audio:
+      key: Fm
+      bpm: 172
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_S8Z1tQEKZyY
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2621a1e2-f24a-4ca3-ae54-be0b8f5817ea
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -64,6 +72,9 @@ recordings:
     arranger:
       - {person: ryosuke-nakanishi}
     duration: 203
+    audio:
+      key: Fm
+      bpm: 172
     evidence:
       credits:
         status: official
@@ -77,6 +88,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_9r04TmfdyWy
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=046d4ee9-2dc2-465f-a638-1ffb3a0dbb82
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: 微熱からMystery (NOZOMI Mix)
@@ -89,6 +105,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 199
+    audio:
+      key: Fm
+      bpm: 172
     evidence:
       credits:
         status: derived
@@ -103,6 +122,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1ed134b6-6f04-47d7-9e38-331decdac053
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 微熱からMystery (RIN Mix)
@@ -115,6 +139,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 199
+    audio:
+      key: Fm
+      bpm: 172
     evidence:
       credits:
         status: derived
@@ -129,6 +156,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2edf3387-e673-47bd-b007-6467142958cc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: 微熱からMystery (UMI Mix)
@@ -141,6 +173,9 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     duration: 199
+    audio:
+      key: Fm
+      bpm: 172
     evidence:
       credits:
         status: derived
@@ -155,6 +190,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=28c8f6cf-e12a-4ece-bcdb-8d041fb38b74
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

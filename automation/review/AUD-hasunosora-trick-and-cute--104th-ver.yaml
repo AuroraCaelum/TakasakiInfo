@@ -1,0 +1,11 @@
+type: audio
+ref: recording:hasunosora/trick-and-cute#104th-ver
+title: Trick ＆ Cute (104期 Ver.)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=Trick%20%EF%BC%86%20Cute%20%28104%E6%9C%9F%20Ver.%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=Trick%20%EF%BC%86%20Cute%20%28104%E6%9C%9F%20Ver.%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/7xdrlUvOVnJKqVfws7ZvwK, title: Trick ＆ Cute - Off Vocal, artist: 蓮ノ空女学院スクールアイドルクラブ, seconds: 233, key: Am, bpm: 122}
+  - {n: 2, url: https://open.spotify.com/track/15MWRO3hdwY4JOtsmT3Syz, title: Trick ＆ Cute, artist: 蓮ノ空女学院スクールアイドルクラブ, seconds: 233, key: D, bpm: 122}
+decision: null

@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/unbalanced-love#original
+title: UNBALANCED LOVE
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=UNBALANCED%20LOVE
+  chordwiki: https://ja.chordwiki.org/search.html?t=UNBALANCED%20LOVE
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/7i1TY9rYXfqyyIFQiymiBQ, title: UNBALANCED LOVE, artist: Printemps, seconds: 266, key: F#m, bpm: 123}
+  - {n: 2, url: https://open.spotify.com/track/1OKywwmIGxdiABlkKD53It, title: UNBALANCED LOVE, artist: Printemps, seconds: 266, key: A, bpm: 123}
+decision: null

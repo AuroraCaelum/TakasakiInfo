@@ -19,6 +19,9 @@ recordings:
     strings_arranger:
       - {person: shu-kanematsu}
     duration: 248
+    audio:
+      key: A
+      bpm: 136
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_MhgHVHYRvaK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -246,6 +254,9 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park, fullwidth: true}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: A
+      bpm: 136
     evidence:
       credits:
         status: derived
@@ -255,6 +266,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: episode-12-ver
     title:
       ja: 未来は風のように 〜第12話Ver.〜
@@ -268,6 +284,9 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park, fullwidth: true}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: A
+      bpm: 136
     evidence:
       credits:
         status: derived
@@ -277,6 +296,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: piano-ver
     kind: instrumental
     title:

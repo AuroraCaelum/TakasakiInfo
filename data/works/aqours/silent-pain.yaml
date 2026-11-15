@@ -19,6 +19,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 250
+    audio:
+      key: D
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_VWd08oYgEMG
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=71cb1fea-ae54-43df-a6e5-ff83ca0762d2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -36,6 +44,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: Bm
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -46,6 +57,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c5c55278-34e9-4700-b802-51b5bbea9d43
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -53,6 +69,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: Bm
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -63,6 +82,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a38f634-7bbc-4503-8e72-6a936c7a3330
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -70,6 +94,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: Bm
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -80,6 +107,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ce782c3c-816c-46aa-85f6-a5d42e8784ec
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -87,6 +119,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -97,6 +132,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=66d3e7a6-93a7-4bcf-b0ed-5d14fc6977b1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -104,6 +144,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -114,6 +157,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bd0f0cd8-63e9-466e-a188-06186c7e5ab8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -121,6 +169,9 @@ recordings:
       - {person: takarot}
       - {person: shoma-yamamoto}
     duration: 251
+    audio:
+      key: F#m
+      bpm: 139
     evidence:
       credits:
         status: official
@@ -131,6 +182,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ad5485e7-1bd5-4bff-9b9a-91a99d152a49
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

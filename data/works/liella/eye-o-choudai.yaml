@@ -19,6 +19,9 @@ recordings:
     brass_arranger:
       - {person: yuya-mori}
     duration: 215
+    audio:
+      key: Bbm
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -29,6 +32,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_wUTKFNxbETV
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f079b44d-1e4a-4a11-abe2-64ed8a4ed7d6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

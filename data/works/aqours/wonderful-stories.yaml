@@ -17,6 +17,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 279
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_jsPK56rjeol
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a2a7ca69-360e-4b2e-b728-749b433932ef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -60,6 +68,9 @@ recordings:
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 277
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -70,12 +81,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f65f2e46-64f3-4568-808e-e27728f141ac
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -86,12 +105,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0d8272a8-711c-497e-b352-e3b1555fff6f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 277
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -102,12 +129,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9449dac9-4da2-4286-85db-f2515195b143
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -118,12 +153,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d76f22e8-4450-4234-b4fa-fba7ebd30191
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -134,12 +177,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=5675dc7c-e573-48d8-bffa-b73fe406aeab
+        checked: 2026-11-15
+        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Ab 161 BPM(D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -150,12 +201,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9e8ab9f7-5f08-4187-b936-f70a6a1068a5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 277
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -166,12 +225,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=33ee2d9a-5d1c-41d4-b22c-8eebf1132432
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -182,12 +249,20 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: derived
+        source: https://api.reccobeats.com/v1/audio-features?ids=4d71d667-ec9d-4ef8-80ce-36a0c7669625
+        checked: 2026-11-15
+        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Ab 161 BPM(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: effy, affiliation: FirstCall}
     duration: 278
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: official
@@ -198,6 +273,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5b305f3e-b44c-4057-9a50-8e71eff92d8e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size
     title:
       ja: WONDERFUL STORIES (TVサイズ)
@@ -210,6 +290,9 @@ recordings:
     arranger:
       - {person: effy}
     duration: 201
+    audio:
+      key: Fm
+      bpm: 161
     evidence:
       credits:
         status: derived
@@ -224,6 +307,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5756201b-b721-4e1b-978d-fedebc2661da
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: WONDERFUL STORIES (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

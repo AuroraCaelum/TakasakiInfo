@@ -1,0 +1,11 @@
+type: audio
+ref: recording:muse/zurui-yo-magnetic-today#maki-mix
+title: ずるいよMagnetic today (MAKI Mix)
+reason: 이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`
+check:
+  keytube: https://keytube.net/search?q=%E3%81%9A%E3%82%8B%E3%81%84%E3%82%88Magnetic%20today%20%28MAKI%20Mix%29
+  chordwiki: https://ja.chordwiki.org/search.html?t=%E3%81%9A%E3%82%8B%E3%81%84%E3%82%88Magnetic%20today%20%28MAKI%20Mix%29
+candidates:
+  - {n: 1, url: https://open.spotify.com/track/2DQaqVjws9yP317J50JXFx, title: ずるいよMagnetic today - MAKI Mix, artist: 西木野真姫(CV.Pile), seconds: 257, key: Am, bpm: 90}
+  - {n: 2, url: https://open.spotify.com/track/2KYfpZYWDFhJ1wVJt0nr6v, title: ずるいよMagnetic today, artist: '西木野真姫(CV.Pile), 矢澤にこ(CV.徳井青空)', seconds: 257, key: Am, bpm: 88}
+decision: null
