@@ -356,7 +356,7 @@ class Audio(Strict):
     bpm: int | None = Field(default=None, gt=0)
     """Tempo in beats per minute, as the source counts it (a half- or double-time reading is possible)."""
     time_signature: str | None = Field(default=None, pattern=r"^\d+/\d+$")
-    """Time signature (`4/4`)."""
+    """Time signature (`4/4`), only where a source states it (the analysis gives none)."""
 
 
 class Recording(Strict):

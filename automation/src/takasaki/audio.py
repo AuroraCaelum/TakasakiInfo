@@ -4,8 +4,9 @@
   already matched to releases (``.cache/ytm/album/``, no network); for a recording none of them has, the
   release's album on iTunes (Apple Music) and Deezer. Values within ``TOLERANCE`` seconds of each other are
   one value (the earliest release's is kept); a wider spread goes to a ``duration`` review item.
-- **Key and tempo** (`Recording.audio`): GetSongBPM's API (free with a link back, which the README carries).
-  Only a single unambiguous match is written; anything else goes to an ``audio`` review item.
+- **Key and tempo** (`Recording.audio`): ReccoBeats' free API. A recording is matched to Spotify tracks
+  through its singers' track lists (title, version, length); agreeing tracks give the value, disagreeing ones
+  go to an ``audio`` review item. Time signature has no source and stays empty.
 - **Mood** is not stored: the builders make it from the stored analysis by the rules in ``MOODS``.
 
 An off vocal or instrumental takes the key and tempo of the vocal recording it is the instrumental of; its
@@ -17,7 +18,6 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
-import os
 import re
 import sys
 import time
@@ -36,7 +36,7 @@ from .text import match_key
 TOLERANCE = 2  # seconds: the same master as distributed on different albums or services
 YTM_ALBUM = "https://music.youtube.com/browse/"
 NOTE_DURATION = "레이블 배포 메타데이터의 재생 시간(D61)"
-NOTE_AUDIO = "공식 미게재. GetSongBPM 분석값(D61)"
+NOTE_AUDIO = "공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)"
 
 
 # --- scope, inheritance, representative ---------------------------------------
@@ -125,7 +125,7 @@ class Http:
                 if e.code in (403, 429, 500, 502, 503) and attempt < 3:
                     time.sleep(2 ** (attempt + 2))
                     continue
-                if e.code == 404:
+                if e.code in (400, 404):  # not found, or a query the service cannot take: no result
                     data = None
                     break
                 raise
@@ -353,114 +353,102 @@ def apply_duration_review(ds: Dataset, doc: dict[str, Any], decision: str, today
     return f"set {rid} duration {c.seconds}s"
 
 
-# --- key and tempo (GetSongBPM) -------------------------------------------------
+# --- key and tempo (ReccoBeats) --------------------------------------------------
 
-GSB_API = "https://api.getsong.co/"
-GSB_KEY_ENV = "TAKASAKI_GETSONGBPM_KEY"
-
-
-def gsb_key(root: Path) -> str | None:
-    """The API key: $TAKASAKI_GETSONGBPM_KEY, or automation/getsongbpm.key (not in git)."""
-    if os.environ.get(GSB_KEY_ENV):
-        return os.environ[GSB_KEY_ENV].strip()
-    p = root / "automation" / "getsongbpm.key"
-    return p.read_text(encoding="utf-8").strip() if p.exists() else None
+RB_API = "https://api.reccobeats.com/v1/"
+NOTES = ("C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B")  # pitch class -> tonic, as keys are usually written
 
 
-_KEY_SIGNS = str.maketrans({"♯": "#", "♭": "b"})
+def feature_audio(f: dict[str, Any]) -> m.Audio | None:
+    """ReccoBeats' audio features (`key` a pitch class or -1, `mode` 1 major / 0 minor, `tempo`) as the model's."""
+    key = f.get("key")
+    tonic = NOTES[key] + ("" if f.get("mode") == 1 else "m") if isinstance(key, int) and 0 <= key < 12 else None
+    tempo = f.get("tempo")
+    bpm = round(tempo) if isinstance(tempo, (int, float)) and tempo > 0 else None
+    return m.Audio(key=tonic, bpm=bpm) if (tonic or bpm) else None
 
 
-def parse_key(v: Any) -> str | None:
-    """GetSongBPM's `key_of` (`Em`, `F♯m`, `B♭`) as a model key; None when it is not one."""
-    if not isinstance(v, str):
-        return None
-    k = v.strip().translate(_KEY_SIGNS).replace(" ", "")
-    k = k.removesuffix("maj").removesuffix("major")
-    if k.endswith("minor"):
-        k = k.removesuffix("minor") + "m"
-    return k if re.fullmatch(r"[A-G](#|b)?m?", k) else None
+class ReccoBeats:
+    """ReccoBeats' free API (no key; free for personal and commercial use, not to be overloaded). Its track
+    metadata is Spotify's; the analysis is its own. Responses are cached under ``.cache/reccobeats/``."""
+
+    def __init__(self, cache_dir: Path, offline: bool = False) -> None:
+        self.http = Http(cache_dir, pause=0.5, offline=offline)
+
+    def _get(self, path: str, **q: Any) -> Any:
+        return self.http.get(RB_API + path + ("?" + urllib.parse.urlencode(q, doseq=True) if q else ""))
+
+    def artists(self, name: str) -> list[dict[str, Any]]:
+        return (self._get("artist/search", searchText=name, size=50) or {}).get("content", [])
+
+    def artist_tracks(self, artist_id: str) -> list[dict[str, Any]]:
+        out: list[dict[str, Any]] = []
+        page = 0
+        while True:
+            res = self._get(f"artist/{artist_id}/track", size=50, page=page) or {}
+            out += res.get("content", [])
+            page += 1
+            if page >= int(res.get("totalPages") or 0) or page >= 40:
+                return out
+
+    def features(self, ids: list[str]) -> dict[str, dict[str, Any]]:
+        out: dict[str, dict[str, Any]] = {}
+        for i in range(0, len(ids), 40):
+            for f in (self._get("audio-features", ids=sorted(ids[i:i + 40])) or {}).get("content", []):
+                out[f["id"]] = f
+        return out
 
 
-def _int(v: Any) -> int | None:
-    try:
-        n = int(round(float(v)))
-    except (TypeError, ValueError):
-        return None
-    return n
-
-
-def parse_audio(song: dict[str, Any]) -> m.Audio | None:
-    bpm = _int(song.get("tempo"))
-    ts = song.get("time_sig") if isinstance(song.get("time_sig"), str) and "/" in song.get("time_sig", "") else None
-    a = m.Audio(key=parse_key(song.get("key_of")), bpm=bpm if bpm and bpm > 0 else None, time_signature=ts)
-    return a if (a.key or a.bpm) else None
-
-
-class GetSongBPM:
-    def __init__(self, api_key: str, cache_dir: Path, offline: bool = False) -> None:
-        self.api_key = api_key
-        self.http = Http(cache_dir, pause=1.0, offline=offline)
-
-    def search(self, title: str, artist: str | None) -> list[dict[str, Any]]:
-        lookup = f"song:{title}" + (f" artist:{artist}" if artist else "")
-        kind = "both" if artist else "song"
-        params = {"type": kind, "lookup": lookup, "limit": 50}
-        res = self.http.get(GSB_API + "search/?" + urllib.parse.urlencode(params), headers={"X-API-KEY": self.api_key},
-                            cache_key=f"search:{kind}:{lookup}")
-        hits = (res or {}).get("search")
-        return hits if isinstance(hits, list) else []  # "no result" comes back as {"error": ...}
-
-    def song(self, song_id: str) -> dict[str, Any] | None:
-        res = self.http.get(GSB_API + "song/?" + urllib.parse.urlencode({"id": song_id}), headers={"X-API-KEY": self.api_key},
-                            cache_key=f"song:{song_id}")
-        s = (res or {}).get("song")
-        return s if isinstance(s, dict) else None
-
-
-def _performer_names(ds: Dataset, rec: m.Recording) -> list[str]:
+def _singers(ds: Dataset, rec: m.Recording) -> list[tuple[str, list[str]]]:
+    """Each singer of the recording as (ref, its names): a character sung by a cast member counts as the character."""
     out = []
     for p in rec.performers:
-        kind, ident = p.ref
+        kind, ident = ("character", p.role) if p.role else p.ref
         ent = ds.table(kind)[ident]
-        out += [x for x in (ent.names.ja, ent.names.rom) if x]
-        if p.role:
-            c = ds.characters[p.role]
-            out += [x for x in (c.names.ja, c.names.rom) if x]
+        out.append((f"{kind}:{ident}", [x for x in (ent.names.ja, ent.names.rom) if x]))
     return out
 
 
-def _artist_ok(ds: Dataset, work: m.Work, rec: m.Recording, rels: list[m.Release], artist: str) -> bool:
-    """The hit's artist is one of the recording's singers (or the release's credited artist): a singer's name
-    appears in it, so `高海千歌 (CV.伊波杏樹)` and `Aqours` both pass."""
-    a = match_key(artist, person=True)
-    names = _performer_names(ds, rec)
-    for rel in rels:
-        for p in rel.artist_credit:
-            kind, ident = p.ref
-            ent = ds.table(kind)[ident]
-            names += [x for x in (ent.names.ja, ent.names.rom) if x]
-    if work.kind == "bgm":  # a soundtrack is credited to its composer
-        for c in work.credits.composer:
-            ent = ds.table(c.ref[0])[c.ref[1]]
-            names += [x for x in (ent.names.ja, ent.names.rom) if x]
-    keys = {match_key(n, person=True) for n in names}
-    return any(k and (k in a or a in k) for k in keys)
+def _performer_names(ds: Dataset, rec: m.Recording) -> list[str]:
+    return [n for _, names in _singers(ds, rec) for n in names]
 
 
-def _search_artists(ds: Dataset, rec: m.Recording, rels: list[m.Release]) -> list[str | None]:
-    """Artist names to search with, most specific first; None searches by title alone."""
-    out: list[str | None] = []
-    for p in rec.performers:
-        ent = ds.table(p.ref[0])[p.ref[1]]
-        if ent.names.ja:
-            out.append(ent.names.ja)
-    for rel in rels:
-        for p in rel.artist_credit:
-            ent = ds.table(p.ref[0])[p.ref[1]]
-            if ent.names.ja:
-                out.append(ent.names.ja)
-    out.append(None)
-    return list(dict.fromkeys(out))
+def _contains_name(artists: str, names: list[str]) -> bool:
+    keys = {match_key(n, person=True) for n in names} - {""}
+    return any(k in artists for k in keys)
+
+
+def _split_title(title: str) -> tuple[str, str]:
+    """A Spotify title as (base, version): `X - 松浦果南 Solo Ver.`, `X (TV size)`."""
+    base, sep, suffix = title.partition(" - ")
+    if not sep:
+        from .text import split_version
+
+        base, ver = split_version(title)
+        return base, ver or ""
+    return base, suffix
+
+
+def track_matches(ds: Dataset, work: m.Work, rec: m.Recording, t: dict[str, Any]) -> bool:
+    """A Spotify track (as ReccoBeats lists it) is this recording: every singer is credited, the title is the
+    work's (or the recording's own), and the length is within TOLERANCE when the recording has one. A group's
+    recording without a version takes no track with a version, so a member's solo version of it is not taken."""
+    artists = " ".join(match_key(a.get("name", ""), person=True) for a in t.get("artists", []))
+    singers = _singers(ds, rec)
+    if not singers or not all(_contains_name(artists, names) for _, names in singers):
+        return False
+    title = t.get("trackTitle") or ""
+    base, version = _split_title(title)
+    works = {match_key(x) for x in (work.title.ja, work.title.rom) if x}
+    own = {match_key(x) for x in ((rec.title.ja, rec.title.rom) if rec.title else ()) if x}
+    if match_key(title) not in own and match_key(base) not in works:
+        return False
+    plain = rec.version is None and rec.title is None
+    if version and plain and all(ref.startswith("artist:") for ref, _ in singers):
+        return False
+    if rec.duration and abs((t.get("durationMs") or 0) / 1000 - rec.duration) > TOLERANCE:
+        return False
+    return True
 
 
 @dataclass
@@ -472,45 +460,83 @@ class AudioMatch:
     reason: str = ""
 
 
-def match_audio(client: GetSongBPM, ds: Dataset, work: m.Work, rec: m.Recording) -> AudioMatch:
-    """A hit whose title is the recording's (printed with its version) and whose artist is one of its singers.
-    A live recording, and a cue, must also be on an album named like a release it is on. Hits with the same
-    values are one; different values go to review."""
-    rid = _rid(work, rec)
-    rels = sorted({o[0].id: o[0] for o in _occurrences(ds) if o[4].recording == rid}.values(),
-                  key=lambda r: (r.release_date or dt.date.max, r.id))
-    title = (rec.title or work.title)
-    titles = {match_key(x) for x in (title.ja, title.rom) if x}
-    album_keys = {_album_key(r.title.ja) for r in rels if r.title.ja} | {_album_key(r.title.rom) for r in rels if r.title.rom}
-    need_album = bool(rec.live) or work.kind == "bgm"
-    hits: dict[str, dict[str, Any]] = {}
-    for artist in _search_artists(ds, rec, rels):
-        for h in client.search(title.ja or title.rom or "", artist):
-            if match_key(h.get("title", "")) not in titles:
-                continue
-            if not _artist_ok(ds, work, rec, rels, (h.get("artist") or {}).get("name", "")):
-                continue
-            if need_album and _album_key((h.get("album") or {}).get("title", "")) not in album_keys:
-                continue
-            hits[str(h.get("id"))] = h
-        if hits:
-            break
-    if not hits:
-        return AudioMatch(rid, reason="no hit")
-    found: list[tuple[m.Audio, dict[str, Any]]] = []
-    for sid, h in hits.items():
-        song = h if h.get("tempo") is not None else (client.song(sid) or h)
-        a = parse_audio(song)
-        if a is not None:
-            found.append((a, song))
-    cands = [{"n": i, "url": s.get("uri"), "artist": (s.get("artist") or {}).get("name"),
-              "album": (s.get("album") or {}).get("title"), **a.model_dump(exclude_none=True)}
-             for i, (a, s) in enumerate(found, 1)]
-    distinct = {a.model_dump_json() for a, _ in found}
-    if len(distinct) == 1:
-        a, s = found[0]
-        return AudioMatch(rid, a, s.get("uri"), cands)
-    return AudioMatch(rid, candidates=cands, reason="hits differ" if found else "hits without key or tempo")
+def resolve_artists(client: ReccoBeats, ds: Dataset, singers: set[str], log: Callable[[str], None] = print) -> dict[str, set[str]]:
+    """ReccoBeats artist ids for each singer ref: every artist whose name contains the singer's (a character's
+    artist name carries its voice actor, `鐘 嵐珠 (CV.法元明菜)`, and duets list several characters)."""
+    out: dict[str, set[str]] = {}
+    for i, ref in enumerate(sorted(singers), 1):
+        kind, ident = ref.split(":", 1)
+        ent = ds.table(kind)[ident]
+        names = [x for x in (ent.names.ja, ent.names.rom) if x]
+        queries = list(dict.fromkeys(names + [n.replace(" ", "") for n in names]))
+        ids: set[str] = set()
+        for q in queries:
+            for a in client.artists(q):
+                if _contains_name(match_key(a.get("name", ""), person=True), names):
+                    ids.add(a["id"])
+        out[ref] = ids
+        if i % 25 == 0:
+            log(f"  artists {i}/{len(singers)}")
+    return out
+
+
+def agreeing(found: list[tuple[dict[str, Any], m.Audio]]) -> list[list[tuple[dict[str, Any], m.Audio]]]:
+    """Tracks grouped by value (same key, tempo within 1), largest group first."""
+    groups: list[list[tuple[dict[str, Any], m.Audio]]] = []
+    for t, a in found:
+        g = next((g for g in groups if g[0][1].key == a.key
+                  and (g[0][1].bpm is None) == (a.bpm is None) and abs((g[0][1].bpm or 0) - (a.bpm or 0)) <= 1), None)
+        if g is None:
+            groups.append([(t, a)])
+        else:
+            g.append((t, a))
+    return sorted(groups, key=len, reverse=True)
+
+
+def plan_audio(client: ReccoBeats, ds: Dataset, targets: list[tuple[m.Work, m.Recording]],
+               log: Callable[[str], None] = print) -> list[AudioMatch]:
+    """Match each recording to Spotify tracks through its singers' track lists, then read their analysis.
+    Tracks of one recording that agree (same key, tempo within 1) give its value; disagreeing ones go to review."""
+    singers = {ref for _, r in targets for ref, _ in _singers(ds, r)}
+    artist_ids = resolve_artists(client, ds, singers, log)
+    tracks: dict[str, dict[str, Any]] = {}
+    by_artist: dict[str, list[str]] = {}
+    for i, aid in enumerate(sorted({a for ids in artist_ids.values() for a in ids}), 1):
+        ts = client.artist_tracks(aid)
+        by_artist[aid] = [t["id"] for t in ts]
+        tracks.update({t["id"]: t for t in ts})
+        if i % 50 == 0:
+            log(f"  track lists {i}")
+    matched: dict[str, list[str]] = {}
+    for w, r in targets:
+        pool = {tid for ref, _ in _singers(ds, r) for aid in artist_ids.get(ref, ()) for tid in by_artist.get(aid, [])}
+        matched[_rid(w, r)] = sorted(tid for tid in pool if track_matches(ds, w, r, tracks[tid]))
+    feats = client.features(sorted({t for ts in matched.values() for t in ts}))
+    out = []
+    for w, r in targets:
+        rid = _rid(w, r)
+        found = [(tracks[t], feature_audio(feats[t])) for t in matched[rid] if t in feats]
+        found = [(t, a) for t, a in found if a is not None]
+        if not matched[rid]:
+            out.append(AudioMatch(rid, reason="no track"))
+            continue
+        if not found:
+            out.append(AudioMatch(rid, reason="no analysis"))
+            continue
+        cands = [{"n": i, "url": t.get("href"), "title": t.get("trackTitle"),
+                  "artist": ", ".join(a.get("name", "") for a in t.get("artists", [])),
+                  "seconds": round((t.get("durationMs") or 0) / 1000), **a.model_dump(exclude_none=True)}
+                 for i, (t, a) in enumerate(found, 1)]
+        groups = agreeing(found)
+        best = groups[0]
+        # every track agrees; or, of three or more, more than half do (the rest another master or a misreading)
+        if len(groups) == 1 or (len(found) >= 3 and 2 * len(best) > len(found)):
+            t, a = best[0]
+            out.append(AudioMatch(rid, a, RB_API + "audio-features?ids=" + t["id"], cands,
+                                  reason="" if len(groups) == 1 else f"{len(best)}/{len(found)} tracks"))
+        else:
+            out.append(AudioMatch(rid, candidates=cands, reason="tracks differ"))
+    return out
 
 
 def apply_audio(ds: Dataset, rid: str, a: m.Audio, url: str | None, today: dt.date, note: str = NOTE_AUDIO) -> None:
@@ -519,24 +545,21 @@ def apply_audio(ds: Dataset, rid: str, a: m.Audio, url: str | None, today: dt.da
     rec.evidence["audio"] = m.Evidence(status=m.Status.established, source=url, checked=today, note=note)
 
 
-def search_links(title: str, artist: str | None) -> dict[str, str]:
+def search_links(title: str, artist: str | None = None) -> dict[str, str]:
     """Pages a person can check a key or tempo against (opened by hand; their sites are not crawled)."""
-    q = urllib.parse.quote(f"{title} {artist or ''}".strip())
-    return {"getsongbpm": f"https://getsongbpm.com/search?search={q}",
-            "keytube": f"https://keytube.net/search?q={urllib.parse.quote(title)}",
+    return {"keytube": f"https://keytube.net/search?q={urllib.parse.quote(title)}",
             "chordwiki": f"https://ja.chordwiki.org/search.html?t={urllib.parse.quote(title)}"}
 
 
 def audio_review(ds: Dataset, mt: AudioMatch) -> dict[str, Any]:
     work, rec = ds.recording(mt.rid)
     title = (rec.title or work.title).ja or ""
-    artist = _search_artists(ds, rec, [])[0]
     return {
         "type": "audio",
         "ref": f"recording:{mt.rid}",
         "title": title,
-        "reason": f"GetSongBPM 결과가 여럿이고 값이 다르다({mt.reason}). 맞는 것을 `pick:<n>`, 없으면 `none`",
-        "check": search_links(title, artist),
+        "reason": "이 음원으로 맞춘 Spotify 트랙이 여럿이고 분석값이 다르다. 맞는 것을 `pick:<n>`, 판단할 수 없으면 `none`",
+        "check": search_links(title),
         "candidates": mt.candidates,
         "decision": None,
     }
@@ -547,12 +570,47 @@ def apply_audio_review(ds: Dataset, doc: dict[str, Any], decision: str, today: d
     if decision == "none":
         return f"left {rid} without key and tempo"
     n = int(decision.removeprefix("pick:"))
-    item = dict(next(c for c in doc["candidates"] if int(c["n"]) == n))
-    url = item.pop("url", None)
-    for k in ("n", "artist", "album"):
-        item.pop(k, None)
-    apply_audio(ds, rid, m.Audio.model_validate(item), url, today, NOTE_AUDIO + "; 리뷰에서 고름")
+    item = next(c for c in doc["candidates"] if int(c["n"]) == n)
+    a = m.Audio.model_validate({k: item[k] for k in ("key", "bpm", "time_signature") if k in item})
+    url = str(item["url"]) if item.get("url") else None
+    apply_audio(ds, rid, a, url, today, NOTE_AUDIO + "; 리뷰에서 고름")
     return f"set {rid} key/tempo"
+
+
+def _arrangements(w: m.Work) -> list[list[m.Recording]]:
+    """A work's studio vocal recordings with key and tempo, grouped by arranger: versions over one backing track."""
+    groups: dict[tuple[str, ...], list[m.Recording]] = {}
+    for r in w.recordings:
+        if r.audio and r.audio.bpm and not r.live and r.kind == "vocal":
+            groups.setdefault(tuple(sorted(str(c.ref) for c in r.arranger)), []).append(r)
+    return list(groups.values())
+
+
+def harmonize(ds: Dataset, today: dt.date) -> list[str]:
+    """Versions over one backing track (a member's solo version, a TV size) share its key and tempo; the analysis
+    of each mix can still read another key or half the tempo. Where two thirds or more of three or more versions
+    agree, the others take that value (`derived`, the analysed value kept in the note). Returns what changed."""
+    changed = []
+    for w in sorted(ds.works.values(), key=lambda w: w.id):
+        for recs in _arrangements(w):
+            if len(recs) < 3:
+                continue
+            groups = agreeing([({}, r.audio) for r in recs if r.audio])
+            best = groups[0][0][1]
+            agree = [r for r in recs if r.audio and r.audio.key == best.key and abs((r.audio.bpm or 0) - (best.bpm or 0)) <= 1]
+            if len(groups) == 1 or 3 * len(agree) < 2 * len(recs):
+                continue
+            for r in recs:
+                if r in agree or r.audio is None:
+                    continue
+                was = r.audio
+                ev = r.evidence.get("audio")
+                r.audio = m.Audio(key=best.key, bpm=best.bpm, time_signature=was.time_signature)
+                r.evidence["audio"] = m.Evidence(
+                    status=m.Status.derived, source=ev.source if ev else None, checked=today,
+                    note=f"같은 편곡 음원 {len(agree)}/{len(recs)}개의 값으로 맞춤. 이 음원의 분석값은 {was.key} {was.bpm} BPM(D61)")
+                changed.append(f"{w.id}#{r.id}")
+    return changed
 
 
 def tempo_checks(ds: Dataset) -> list[dict[str, Any]]:
@@ -561,11 +619,7 @@ def tempo_checks(ds: Dataset) -> list[dict[str, Any]]:
     One item per work, for a person to check by ear or against the pages in `check`."""
     out = []
     for w in sorted(ds.works.values(), key=lambda w: w.id):
-        groups: dict[tuple[str, ...], list[m.Recording]] = {}
-        for r in w.recordings:
-            if r.audio and r.audio.bpm and not r.live and r.kind == "vocal":
-                groups.setdefault(tuple(sorted(str(c.ref) for c in r.arranger)), []).append(r)
-        for recs in groups.values():
+        for recs in _arrangements(w):
             bpms = {r.audio.bpm for r in recs if r.audio and r.audio.bpm}
             keys = {r.audio.key for r in recs if r.audio and r.audio.key}
             if len(recs) > 1 and (max(bpms) - min(bpms) > TOLERANCE or len(keys) > 1):

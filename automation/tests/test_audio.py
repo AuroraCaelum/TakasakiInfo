@@ -7,8 +7,8 @@ import pytest
 
 from takasaki import model as m
 from takasaki.audio import (
-    MOOD_RULES, MOODS, Candidate, apply_audio, decide, effective_audio, match_audio, moods, parse_audio, parse_key,
-    representative, tempo_checks, ytm_durations,
+    MOOD_RULES, MOODS, Candidate, apply_audio, decide, effective_audio, feature_audio, moods, plan_audio,
+    harmonize, representative, tempo_checks, track_matches, ytm_durations,
 )
 from takasaki.build_v1 import recording_view
 from takasaki.store import Dataset
@@ -37,17 +37,14 @@ def _ds() -> Dataset:
     return ds
 
 
-def test_key_parsing_and_model():
-    assert parse_key("F♯m") == "F#m"
-    assert parse_key("B♭") == "Bb"
-    assert parse_key("Em") == "Em"
-    assert parse_key("C minor") == "Cm"
-    assert parse_key("H") is None and parse_key(None) is None
+def test_key_from_reccobeats_features():
+    # pitch class and mode; the source's other ratings (energy, valence, …) are not kept
+    assert feature_audio({"key": 5, "mode": 1, "tempo": 79.991, "energy": 0.6}) == m.Audio(key="F", bpm=80)
+    assert feature_audio({"key": 6, "mode": 0, "tempo": 168.2}) == m.Audio(key="F#m", bpm=168)
+    assert feature_audio({"key": 10, "mode": 1, "tempo": 0}) == m.Audio(key="Bb")
+    assert feature_audio({"key": -1, "mode": 1, "tempo": 0}) is None
     with pytest.raises(ValueError):
         m.Audio(key="F#major")
-    a = parse_audio({"tempo": "160", "time_sig": "4/4", "key_of": "F", "danceability": 62})
-    assert a == m.Audio(key="F", bpm=160, time_signature="4/4")  # the source's other ratings are not kept
-    assert parse_audio({"tempo": None, "key_of": ""}) is None
 
 
 def test_moods_follow_the_rules():
@@ -103,37 +100,55 @@ def test_duration_from_cached_albums_and_tolerance(tmp_path):
     assert decide([Candidate(300, "deezer", "u", "r", "2016"), Candidate(301, "itunes", "u", "r", "2020")]).source == "itunes"
 
 
-class FakeGSB:
-    def __init__(self, hits):
-        self.hits = hits
-
-    def search(self, title, artist):
-        return self.hits
-
-    def song(self, song_id):
-        return None
+def _track(i, title="未熟DREAMER", artist="Aqours", seconds=351):
+    return {"id": i, "trackTitle": title, "artists": [{"name": artist}], "durationMs": seconds * 1000,
+            "href": f"https://open.spotify.com/track/{i}"}
 
 
-def _hit(i, title="未熟DREAMER", artist="Aqours", tempo=160, key="F", album="夢で夜空を照らしたい / 未熟DREAMER"):
-    return {"id": i, "title": title, "uri": f"https://getsongbpm.com/song/{i}", "artist": {"name": artist},
-            "album": {"title": album}, "tempo": str(tempo), "key_of": key, "time_sig": "4/4"}
+class FakeRB:
+    def __init__(self, tracks, feats):
+        self.tracks, self.feats = tracks, feats
+
+    def artists(self, name):
+        return [{"id": "a1", "name": "Aqours"}, {"id": "a2", "name": "Saint Aqours Snow"}] if name == "Aqours" else []
+
+    def artist_tracks(self, artist_id):
+        return self.tracks if artist_id == "a1" else []
+
+    def features(self, ids):
+        return {i: self.feats[i] for i in ids if i in self.feats}
 
 
-def test_getsongbpm_matching():
+def test_reccobeats_matching():
     ds = _ds()
     w = ds.works["p/w"]
     rec = w.recordings[0]
-    # same title and a singer's name: matched; another artist's song of the same title is not
-    mt = match_audio(FakeGSB([_hit("a"), _hit("b", artist="QWER", tempo=91)]), ds, w, rec)
-    assert mt.audio == m.Audio(key="F", bpm=160, time_signature="4/4") and mt.url.endswith("/a")
-    # two hits with the same values are one
-    assert match_audio(FakeGSB([_hit("a"), _hit("c")]), ds, w, rec).audio is not None
-    # different values: review, with both candidates
-    mt = match_audio(FakeGSB([_hit("a"), _hit("c", tempo=80)]), ds, w, rec)
+    rec.duration = 351
+    ok = lambda t: track_matches(ds, w, rec, t)  # noqa: E731
+    assert ok(_track("a"))
+    assert not ok(_track("b", artist="QWER"))  # another artist's song of the same title
+    assert not ok(_track("c", seconds=247))  # another master (a live version)
+    # a member's solo version is not the group's recording
+    assert not ok(_track("d", title="未熟DREAMER - 渡辺 曜 Solo Ver.", artist="渡辺 曜 (CV.斉藤朱夏) from Aqours"))
+    solo = m.Recording(id="you", performers=[m.Performer(character="p/you")], duration=350)
+    ds.characters["p/you"] = m.Character(id="p/you", project="p", names=m.Names(ja="渡辺 曜", rom="You Watanabe"))
+    assert track_matches(ds, w, solo, _track("d", title="未熟DREAMER - 渡辺 曜 Solo Ver.",
+                                              artist="渡辺 曜 (CV.斉藤朱夏) from Aqours", seconds=350))
+    # agreeing tracks give the value; disagreeing ones go to review
+    f = {"a": {"id": "a", "key": 5, "mode": 1, "tempo": 160.2}, "e": {"id": "e", "key": 5, "mode": 1, "tempo": 159.8}}
+    [mt] = plan_audio(FakeRB([_track("a"), _track("e")], f), ds, [(w, rec)], log=lambda s: None)
+    assert mt.audio == m.Audio(key="F", bpm=160) and mt.url.endswith("ids=a")
+    f["e"] = {"id": "e", "key": 5, "mode": 1, "tempo": 80.0}
+    [mt] = plan_audio(FakeRB([_track("a"), _track("e")], f), ds, [(w, rec)], log=lambda s: None)
     assert mt.audio is None and len(mt.candidates) == 2
-    # a version's title must match with its version
-    assert match_audio(FakeGSB([_hit("d", title="未熟DREAMER (渡辺 曜 Solo Ver.)")]), ds, w, rec).audio is None
-    apply_audio(ds, "p/w#original", m.Audio(key="F", bpm=160), "https://getsongbpm.com/song/a", dt.date(2026, 11, 14))
+    # of three or more, a value more than half agree on is taken
+    f["g"] = {"id": "g", "key": 5, "mode": 1, "tempo": 160.4}
+    [mt] = plan_audio(FakeRB([_track("a"), _track("e"), _track("g")], f), ds, [(w, rec)], log=lambda s: None)
+    assert mt.audio == m.Audio(key="F", bpm=160) and mt.reason == "2/3 tracks"
+    [mt] = plan_audio(FakeRB([], {}), ds, [(w, rec)], log=lambda s: None)
+    assert mt.reason == "no track"
+    apply_audio(ds, "p/w#original", m.Audio(key="F", bpm=160), "https://api.reccobeats.com/v1/audio-features?ids=a",
+                dt.date(2026, 11, 15))
     assert rec.evidence["audio"].status == m.Status.established
 
 
@@ -146,3 +161,20 @@ def test_tempo_checks_flag_versions_of_one_arrangement_that_disagree():
     assert len(items) == 1 and items[0]["ref"] == "work:p/w"
     w.recordings[2].audio = m.Audio(key="F", bpm=161)
     assert tempo_checks(ds) == []
+
+
+def test_versions_of_one_arrangement_take_the_value_two_thirds_agree_on():
+    ds = _ds()
+    w = ds.works["p/w"]
+    ev = m.Evidence(status=m.Status.established, source="https://api.reccobeats.com/v1/audio-features?ids=x")
+    w.recordings[0].audio, w.recordings[0].evidence["audio"] = m.Audio(key="F", bpm=160), ev
+    for i, a in enumerate([m.Audio(key="F", bpm=161), m.Audio(key="Dm", bpm=80)]):
+        w.recordings.append(m.Recording(id=f"s{i}", audio=a, evidence={"audio": ev}))
+    assert harmonize(ds, dt.date(2026, 11, 15)) == ["p/w#s1"]
+    fixed = w.recordings[3]
+    assert fixed.audio == m.Audio(key="F", bpm=160) and fixed.evidence["audio"].status == m.Status.derived
+    assert "Dm 80" in fixed.evidence["audio"].note and tempo_checks(ds) == []
+    # half and half: left for a person
+    w.recordings[3].audio = m.Audio(key="Dm", bpm=80)
+    w.recordings.append(m.Recording(id="s2", audio=m.Audio(key="Dm", bpm=80), evidence={"audio": ev}))
+    assert harmonize(ds, dt.date(2026, 11, 15)) == [] and len(tempo_checks(ds)) == 1

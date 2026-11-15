@@ -380,41 +380,43 @@ def cmd_audio_duration(args: argparse.Namespace) -> int:
 
 
 def cmd_audio_bpm(args: argparse.Namespace) -> int:
-    """Key and tempo from GetSongBPM (D61); needs an API key."""
-    from .audio import GSB_KEY_ENV, GetSongBPM, apply_audio, audio_review, gsb_key, match_audio, tempo_checks, wants_audio
+    """Key and tempo from ReccoBeats (D61)."""
+    from .audio import NOTE_AUDIO, ReccoBeats, apply_audio, audio_review, harmonize, plan_audio, tempo_checks, wants_audio
 
     root, data, review = _paths()
-    key = gsb_key(root)
-    if not key:
-        print(f"no GetSongBPM API key: set ${GSB_KEY_ENV} or write it to automation/getsongbpm.key (https://getsongbpm.com/api)")
-        return 2
     ds = load_dataset(data)
-    client = GetSongBPM(key, root / "automation" / ".cache" / "getsongbpm", offline=args.offline)
+    client = ReccoBeats(root / "automation" / ".cache" / "reccobeats", offline=args.offline)
     targets = [(w, r) for w in sorted(ds.works.values(), key=lambda w: w.id) for r in w.recordings
-               if wants_audio(w, r) and r.audio is None and (not args.project or w.project == args.project)
-               and (args.bgm or w.kind != "bgm") and (not args.work or w.id in args.work)]
+               if wants_audio(w, r) and r.audio is None and r.performers  # a cue has no singer to find it by
+               and (not args.project or w.project == args.project) and (not args.work or w.id in args.work)]
     if args.limit:
         targets = targets[:args.limit]
+    log = lambda s: print(s, file=sys.stderr, flush=True)  # noqa: E731
+    log(f"{len(targets)} recordings")
+    plan = plan_audio(client, ds, targets, log)
     today = dt.date.today()
-    found = reviews = none = 0
-    for i, (w, r) in enumerate(targets, 1):
-        mt = match_audio(client, ds, w, r)
+    found = [mt for mt in plan if mt.audio]
+    reviews = [mt for mt in plan if not mt.audio and mt.candidates]
+    none: dict[str, int] = {}
+    for mt in plan:
         if mt.audio:
-            found += 1
-            print(f"[{i}/{len(targets)}] match   {mt.rid}: {mt.audio.key} {mt.audio.bpm} BPM")
-            if args.apply:
-                apply_audio(ds, mt.rid, mt.audio, mt.url, today)
+            print(f"match   {mt.rid}: {mt.audio.key} {mt.audio.bpm} BPM ({len(mt.candidates)} track(s))")
         elif mt.candidates:
-            reviews += 1
-            print(f"[{i}/{len(targets)}] review  {mt.rid}: {mt.reason}")
-            if args.apply:
-                _write_review(review / f"AUD-{mt.rid.replace('/', '-').replace('#', '--')}.yaml", audio_review(ds, mt))
+            print(f"review  {mt.rid}: " + "; ".join(f"{c.get('key')} {c.get('bpm')}" for c in mt.candidates))
         else:
-            none += 1
-            print(f"[{i}/{len(targets)}] none    {mt.rid}: {mt.reason}")
-        if args.apply and found and i % 100 == 0:  # keep what is done if a long run stops
-            save_dataset(ds, data)
+            none[mt.reason] = none.get(mt.reason, 0) + 1
+            if args.verbose:
+                print(f"none    {mt.rid}: {mt.reason}")
     if args.apply:
+        for mt in found:
+            assert mt.audio is not None
+            apply_audio(ds, mt.rid, mt.audio, mt.url, today,
+                        NOTE_AUDIO + (f"; 맞춘 트랙 중 다수({mt.reason})의 값" if mt.reason else ""))
+        for mt in reviews:
+            _write_review(review / f"AUD-{mt.rid.replace('/', '-').replace('#', '--')}.yaml", audio_review(ds, mt))
+        fixed = harmonize(ds, today)
+        if fixed:
+            print(f"harmonized {len(fixed)} versions with the rest of their arrangement")
         checks = tempo_checks(ds)
         if checks:
             _write_review(review / "AUD-tempo-check.yaml", {
@@ -422,13 +424,13 @@ def cmd_audio_bpm(args: argparse.Namespace) -> int:
                 "reason": "같은 편곡의 음원끼리 키나 BPM이 다르다(반·배속 오독 가능). 귀나 `check`의 페이지로 확인해 "
                           "data/의 `audio`를 고친 뒤 `done`",
                 "items": checks, "decision": None})
-        if found:
+        if found or fixed:
             _stamp(ds)
             save_dataset(ds, data)
     verb = "set" if args.apply else "would set"
-    print(f"{len(targets)} recordings: {verb} {found}, review {reviews}, not found {none}")
+    print(f"{len(targets)} recordings: {verb} {len(found)}, review {len(reviews)}, not found "
+          + ", ".join(f"{k} {v}" for k, v in sorted(none.items())))
     return 0
-
 
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
@@ -512,13 +514,13 @@ def main(argv: list[str] | None = None) -> int:
     ad.add_argument("--offline", action="store_true", help="iTunes and Deezer from the cache only")
     ad.add_argument("-v", "--verbose", action="store_true", help="list the recordings left without a length")
     ad.set_defaults(func=cmd_audio_duration)
-    ab = au_sub.add_parser("bpm", help="key and tempo from GetSongBPM (needs an API key)")
+    ab = au_sub.add_parser("bpm", help="key and tempo from ReccoBeats (Spotify tracks matched by singer, title, length)")
     ab.add_argument("--apply", action="store_true", help="write data/ and the AUD-* review files")
     ab.add_argument("--project")
     ab.add_argument("--work", action="append", help="work id (repeatable)")
-    ab.add_argument("--bgm", action="store_true", help="also soundtrack cues")
     ab.add_argument("--limit", type=int, help="only the first N recordings")
     ab.add_argument("--offline", action="store_true", help="cached responses only")
+    ab.add_argument("-v", "--verbose", action="store_true", help="list the recordings no track was found for")
     ab.set_defaults(func=cmd_audio_bpm)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
