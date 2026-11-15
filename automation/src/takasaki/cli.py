@@ -381,7 +381,7 @@ def cmd_audio_duration(args: argparse.Namespace) -> int:
 
 def cmd_audio_bpm(args: argparse.Namespace) -> int:
     """Key and tempo from ReccoBeats (D61)."""
-    from .audio import NOTE_AUDIO, ReccoBeats, apply_audio, audio_review, harmonize, plan_audio, tempo_checks, wants_audio
+    from .audio import NOTE_AUDIO, ReccoBeats, apply_audio, audio_review, plan_audio, wants_audio
 
     root, data, review = _paths()
     ds = load_dataset(data)
@@ -414,17 +414,7 @@ def cmd_audio_bpm(args: argparse.Namespace) -> int:
                         NOTE_AUDIO + (f"; 맞춘 트랙 중 다수({mt.reason})의 값" if mt.reason else ""))
         for mt in reviews:
             _write_review(review / f"AUD-{mt.rid.replace('/', '-').replace('#', '--')}.yaml", audio_review(ds, mt))
-        fixed = harmonize(ds, today)
-        if fixed:
-            print(f"harmonized {len(fixed)} versions with the rest of their arrangement")
-        checks = tempo_checks(ds)
-        if checks:
-            _write_review(review / "AUD-tempo-check.yaml", {
-                "type": "audio-check",
-                "reason": "같은 편곡의 음원끼리 키나 BPM이 다르다(반·배속 오독 가능). 귀나 `check`의 페이지로 확인해 "
-                          "data/의 `audio`를 고친 뒤 `done`",
-                "items": checks, "decision": None})
-        if found or fixed:
+        if found:
             _stamp(ds)
             save_dataset(ds, data)
     verb = "set" if args.apply else "would set"

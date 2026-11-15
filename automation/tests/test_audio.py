@@ -8,7 +8,7 @@ import pytest
 from takasaki import model as m
 from takasaki.audio import (
     MOOD_RULES, MOODS, Candidate, apply_audio, decide, effective_audio, feature_audio, moods, plan_audio,
-    harmonize, representative, tempo_checks, track_matches, ytm_durations,
+    representative, track_matches, ytm_durations,
 )
 from takasaki.build_v1 import recording_view
 from takasaki.store import Dataset
@@ -150,31 +150,3 @@ def test_reccobeats_matching():
     apply_audio(ds, "p/w#original", m.Audio(key="F", bpm=160), "https://api.reccobeats.com/v1/audio-features?ids=a",
                 dt.date(2026, 11, 15))
     assert rec.evidence["audio"].status == m.Status.established
-
-
-def test_tempo_checks_flag_versions_of_one_arrangement_that_disagree():
-    ds = _ds()
-    w = ds.works["p/w"]
-    w.recordings.append(m.Recording(id="solo", version="Solo Ver.", audio=m.Audio(key="F", bpm=80)))
-    w.recordings[0].audio = m.Audio(key="F", bpm=160)
-    items = tempo_checks(ds)
-    assert len(items) == 1 and items[0]["ref"] == "work:p/w"
-    w.recordings[2].audio = m.Audio(key="F", bpm=161)
-    assert tempo_checks(ds) == []
-
-
-def test_versions_of_one_arrangement_take_the_value_two_thirds_agree_on():
-    ds = _ds()
-    w = ds.works["p/w"]
-    ev = m.Evidence(status=m.Status.established, source="https://api.reccobeats.com/v1/audio-features?ids=x")
-    w.recordings[0].audio, w.recordings[0].evidence["audio"] = m.Audio(key="F", bpm=160), ev
-    for i, a in enumerate([m.Audio(key="F", bpm=161), m.Audio(key="Dm", bpm=80)]):
-        w.recordings.append(m.Recording(id=f"s{i}", audio=a, evidence={"audio": ev}))
-    assert harmonize(ds, dt.date(2026, 11, 15)) == ["p/w#s1"]
-    fixed = w.recordings[3]
-    assert fixed.audio == m.Audio(key="F", bpm=160) and fixed.evidence["audio"].status == m.Status.derived
-    assert "Dm 80" in fixed.evidence["audio"].note and tempo_checks(ds) == []
-    # half and half: left for a person
-    w.recordings[3].audio = m.Audio(key="Dm", bpm=80)
-    w.recordings.append(m.Recording(id="s2", audio=m.Audio(key="Dm", bpm=80), evidence={"audio": ev}))
-    assert harmonize(ds, dt.date(2026, 11, 15)) == [] and len(tempo_checks(ds)) == 1
