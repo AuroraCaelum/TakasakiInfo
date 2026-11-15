@@ -168,7 +168,7 @@ recordings:
     duration: 267
     audio:
       key: Ab
-      bpm: 170
+      bpm: 85
     evidence:
       credits:
         status: derived
@@ -184,10 +184,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3bfbb7af-3d6a-49f0-899e-fcb9ad23e41c
-        checked: 2026-11-15
-        note: 같은 편곡 음원 8/9개의 값으로 맞춤. 이 음원의 분석값은 Ab 85 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: 夏色えがおで1,2,Jump! (NICO Mix)

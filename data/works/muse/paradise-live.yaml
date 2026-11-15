@@ -201,7 +201,7 @@ recordings:
       - {person: tatsuya-kurauchi}
     duration: 310
     audio:
-      key: C
+      key: Am
       bpm: 145
     evidence:
       credits:
@@ -218,10 +218,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4ea654e6-a7c8-44eb-adb9-c94ae717cf5f
-        checked: 2026-11-15
-        note: 같은 편곡 음원 8/9개의 값으로 맞춤. 이 음원의 분석값은 Am 145 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: Paradise Live (UMI Mix)

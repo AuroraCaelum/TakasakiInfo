@@ -67,7 +67,7 @@ recordings:
       - {person: tatsuya-kurauchi}
     duration: 346
     audio:
-      key: D
+      key: A
       bpm: 175
     evidence:
       credits:
@@ -80,10 +80,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e14fe96d-7557-4109-97b1-a019625068ae
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 A 175 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -93,7 +93,7 @@ recordings:
       - {person: tatsuya-kurauchi}
     duration: 346
     audio:
-      key: D
+      key: F#m
       bpm: 175
     evidence:
       credits:
@@ -106,10 +106,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=8a5d5ef2-c938-4aac-9f8b-e94b8cdc3933
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 F#m 175 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -171,7 +171,7 @@ recordings:
       - {person: tatsuya-kurauchi}
     duration: 346
     audio:
-      key: D
+      key: A
       bpm: 175
     evidence:
       credits:
@@ -184,10 +184,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a21ee5f6-7d70-4a0a-92c1-a3d6ae94fe68
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 A 175 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}

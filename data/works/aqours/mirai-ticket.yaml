@@ -115,7 +115,7 @@ recordings:
     duration: 244
     audio:
       key: G
-      bpm: 168
+      bpm: 84
     evidence:
       credits:
         status: official
@@ -127,10 +127,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=23fa8082-968b-4de3-b956-dda9ad2260fa
-        checked: 2026-11-15
-        note: 같은 편곡 음원 10/11개의 값으로 맞춤. 이 음원의 분석값은 G 84 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}

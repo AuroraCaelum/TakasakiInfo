@@ -118,7 +118,7 @@ recordings:
       - {person: keisuke-koyama}
     duration: 223
     audio:
-      key: Ab
+      key: Cm
       bpm: 162
     evidence:
       credits:
@@ -131,10 +131,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b134c846-6024-44d3-9cbd-fb29b31f99c6
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/10개의 값으로 맞춤. 이 음원의 분석값은 Cm 162 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}

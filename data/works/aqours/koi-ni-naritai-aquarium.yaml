@@ -18,7 +18,7 @@ recordings:
       - {person: kazunori-watanabe}
     duration: 309
     audio:
-      key: F#m
+      key: Bm
       bpm: 139
     evidence:
       credits:
@@ -31,10 +31,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=36e69b44-bfb5-4541-92d0-f5742c021c5a
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Bm 139 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -106,7 +106,7 @@ recordings:
       - {person: kazunori-watanabe}
     duration: 309
     audio:
-      key: F#m
+      key: E
       bpm: 139
     evidence:
       credits:
@@ -123,10 +123,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5bbeca4c-8222-41a4-aaaf-0d1f39818e59
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 E 139 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: 恋になりたいAQUARIUM (黒澤ルビィ Solo Ver.)

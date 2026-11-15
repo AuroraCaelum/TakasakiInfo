@@ -168,7 +168,7 @@ recordings:
     duration: 370
     audio:
       key: E
-      bpm: 196
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -184,10 +184,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=6b14f833-7ade-4b66-9dc3-9ee57f578f1d
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 E 98 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: MOMENT RING (RIN Mix)
@@ -270,7 +270,7 @@ recordings:
     duration: 370
     audio:
       key: E
-      bpm: 196
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -286,10 +286,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=bb9972b0-1382-4e51-a114-b92ba2e2be93
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 E 98 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: MOMENT RING (ELI Mix)

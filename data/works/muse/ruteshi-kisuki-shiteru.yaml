@@ -201,7 +201,7 @@ recordings:
       - {person: takashi-saeki}
     duration: 333
     audio:
-      key: G
+      key: C
       bpm: 128
     evidence:
       credits:
@@ -218,10 +218,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2b664296-2468-416d-aa22-659b50917094
-        checked: 2026-11-15
-        note: 같은 편곡 음원 6/9개의 값으로 맞춤. 이 음원의 분석값은 C 128 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: るてしキスキしてる (UMI Mix)
@@ -269,7 +269,7 @@ recordings:
       - {person: takashi-saeki}
     duration: 333
     audio:
-      key: G
+      key: C
       bpm: 128
     evidence:
       credits:
@@ -286,10 +286,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=871ce70c-2778-4c4a-adfc-2d21865693e4
-        checked: 2026-11-15
-        note: 같은 편곡 음원 6/9개의 값으로 맞춤. 이 음원의 분석값은 C 128 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: るてしキスキしてる (ELI Mix)
@@ -337,7 +337,7 @@ recordings:
       - {person: takashi-saeki}
     duration: 333
     audio:
-      key: G
+      key: C
       bpm: 128
     evidence:
       credits:
@@ -354,10 +354,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=6df0aaf2-7983-4deb-8263-f36a0f8ce7ba
-        checked: 2026-11-15
-        note: 같은 편곡 음원 6/9개의 값으로 맞춤. 이 음원의 분석값은 C 128 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

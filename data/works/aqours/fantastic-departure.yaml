@@ -19,7 +19,7 @@ recordings:
       - {person: meg}
     duration: 329
     audio:
-      key: Em
+      key: G
       bpm: 128
     evidence:
       credits:
@@ -32,10 +32,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=14ef1a2b-b380-408f-ae30-34df74433083
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 G 128 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -166,7 +166,7 @@ recordings:
       - {person: meg}
     duration: 330
     audio:
-      key: Em
+      key: G
       bpm: 128
     evidence:
       credits:
@@ -179,10 +179,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a0ca7a5a-14da-495c-a017-2cbfb3abe904
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 G 128 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}

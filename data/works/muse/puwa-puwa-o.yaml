@@ -102,7 +102,7 @@ recordings:
       - {person: yugo-sasakura}
     duration: 218
     audio:
-      key: C#
+      key: F#
       bpm: 165
     evidence:
       credits:
@@ -119,10 +119,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0991cbe0-60de-4bb9-aab4-bf9a84d975d1
-        checked: 2026-11-15
-        note: 같은 편곡 음원 3/4개의 값으로 맞춤. 이 음원의 분석값은 F# 165 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: ぷわぷわーお！ (HANAYO Mix)

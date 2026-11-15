@@ -114,7 +114,7 @@ recordings:
       - {person: mitchie-m}
     duration: 293
     audio:
-      key: G
+      key: F#m
       bpm: 179
     evidence:
       credits:
@@ -127,10 +127,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e74be654-2224-4994-99b6-64b5ea297e91
-        checked: 2026-11-15
-        note: 같은 편곡 음원 4/6개의 값으로 맞춤. 이 음원의 분석값은 F#m 179 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -138,7 +138,7 @@ recordings:
       - {person: mitchie-m}
     duration: 293
     audio:
-      key: G
+      key: F#m
       bpm: 179
     evidence:
       credits:
@@ -151,10 +151,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=76b0470c-c1ac-459c-9a06-84a20fd10155
-        checked: 2026-11-15
-        note: 같은 편곡 음원 4/6개의 값으로 맞춤. 이 음원의 분석값은 F#m 179 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

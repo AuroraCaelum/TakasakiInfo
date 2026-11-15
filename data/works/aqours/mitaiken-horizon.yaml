@@ -144,7 +144,7 @@ recordings:
       - {person: kotaro-odaka}
     duration: 319
     audio:
-      key: F
+      key: C
       bpm: 178
     evidence:
       credits:
@@ -161,10 +161,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=711bac7d-3c9b-4c7e-9f1b-127dcbfb5532
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 C 178 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -328,7 +328,7 @@ recordings:
       - {person: kotaro-odaka}
     duration: 298
     audio:
-      key: F
+      key: C
       bpm: 178
     evidence:
       credits:
@@ -344,10 +344,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=aead1625-ca9b-46c8-bdec-46719598e0a3
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 C 178 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: 未体験HORIZON (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)

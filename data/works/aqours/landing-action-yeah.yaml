@@ -306,7 +306,7 @@ recordings:
       - {person: takarot}
     duration: 268
     audio:
-      key: G
+      key: Em
       bpm: 147
     evidence:
       credits:
@@ -322,10 +322,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5ec82c1a-ec45-420a-a6df-e106769cf436
-        checked: 2026-11-15
-        note: 같은 편곡 음원 8/10개의 값으로 맞춤. 이 음원의 분석값은 Em 147 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Landing action Yeah!! (黒澤ルビィ Solo Ver.)
@@ -339,7 +339,7 @@ recordings:
       - {person: takarot}
     duration: 268
     audio:
-      key: G
+      key: Em
       bpm: 147
     evidence:
       credits:
@@ -355,10 +355,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5632abc0-7eb7-44d4-bc05-b17fb92ff06c
-        checked: 2026-11-15
-        note: 같은 편곡 음원 8/10개의 값으로 맞춤. 이 음원의 분석값은 Em 147 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 15th-tribute
     performers:
       - {artist: kaede-higuchi}

@@ -260,7 +260,7 @@ recordings:
       - {person: wataru-maeguchi}
     duration: 296
     audio:
-      key: F
+      key: Dm
       bpm: 150
     evidence:
       credits:
@@ -277,10 +277,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e29fd811-9ee8-4938-8d95-fe333f74d832
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 Dm 150 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: Happy maker! (KOTORI Mix)
@@ -362,7 +362,7 @@ recordings:
       - {person: wataru-maeguchi}
     duration: 296
     audio:
-      key: F
+      key: Dm
       bpm: 150
     evidence:
       credits:
@@ -379,10 +379,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0f43a679-fdf5-4e2d-860d-80864706f175
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 Dm 150 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

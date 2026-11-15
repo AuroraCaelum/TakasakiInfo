@@ -41,7 +41,7 @@ recordings:
     duration: 246
     audio:
       key: C#
-      bpm: 99
+      bpm: 197
     evidence:
       credits:
         status: official
@@ -56,10 +56,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5314bc2c-6b52-4b0b-9cf8-2b2e98204d5a
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 C# 197 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: No brand girls (ELI Mix)
@@ -73,8 +73,8 @@ recordings:
       - {person: takahiro-kawata}
     duration: 246
     audio:
-      key: C#
-      bpm: 99
+      key: Ab
+      bpm: 98
     evidence:
       credits:
         status: official
@@ -89,10 +89,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f3e81848-f051-4dfe-b2bc-ba3e2b855797
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 Ab 98 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: No brand girls (KOTORI Mix)

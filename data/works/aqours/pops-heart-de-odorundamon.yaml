@@ -141,7 +141,7 @@ recordings:
       - {person: kyo-takada}
     duration: 322
     audio:
-      key: C#
+      key: Ab
       bpm: 95
     evidence:
       credits:
@@ -154,10 +154,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2c617a31-e450-4931-ad68-558432e05247
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -237,7 +237,7 @@ recordings:
       - {person: kyo-takada}
     duration: 321
     audio:
-      key: C#
+      key: Ab
       bpm: 95
     evidence:
       credits:
@@ -250,10 +250,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=d962c243-e877-4d5f-a2fb-5baadc47ea78
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -261,7 +261,7 @@ recordings:
       - {person: kyo-takada}
     duration: 321
     audio:
-      key: C#
+      key: Ab
       bpm: 95
     evidence:
       credits:
@@ -274,10 +274,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=bdff5bd2-c18e-4d0a-b66c-2a79b82e5c28
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 95 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

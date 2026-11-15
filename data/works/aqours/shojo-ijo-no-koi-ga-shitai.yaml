@@ -280,7 +280,7 @@ recordings:
       - {person: shinji-tanaka}
     duration: 291
     audio:
-      key: B
+      key: Abm
       bpm: 125
     evidence:
       credits:
@@ -294,10 +294,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=392547a7-c604-418e-854d-7d60a5eafa0f
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/10개의 값으로 맞춤. 이 음원의 분석값은 Abm 125 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

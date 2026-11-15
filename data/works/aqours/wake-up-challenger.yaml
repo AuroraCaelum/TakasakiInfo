@@ -75,7 +75,7 @@ recordings:
       - {person: takahiro-kawata}
     duration: 328
     audio:
-      key: C#
+      key: Ab
       bpm: 158
     evidence:
       credits:
@@ -92,10 +92,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e88172af-1cb1-451c-8bf8-da3bf7c18a9a
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 158 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
@@ -143,7 +143,7 @@ recordings:
       - {person: takahiro-kawata}
     duration: 328
     audio:
-      key: C#
+      key: Ab
       bpm: 158
     evidence:
       credits:
@@ -160,10 +160,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a6610c27-cf9b-4f62-bf35-e13c19f9eb63
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Ab 158 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -171,7 +171,7 @@ recordings:
       - {person: takahiro-kawata}
     duration: 328
     audio:
-      key: C#
+      key: Fm
       bpm: 158
     evidence:
       credits:
@@ -185,10 +185,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=eca56f71-19ea-4284-b5da-086493dae774
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 Fm 158 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}

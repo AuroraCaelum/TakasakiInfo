@@ -154,7 +154,7 @@ recordings:
       - {person: effy, affiliation: FirstCall}
     duration: 322
     audio:
-      key: F
+      key: C
       bpm: 130
     evidence:
       credits:
@@ -167,10 +167,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=97ccf1a9-9159-4c63-9f3c-67e5e6998487
-        checked: 2026-11-15
-        note: 같은 편곡 음원 8/9개의 값으로 맞춤. 이 음원의 분석값은 C 130 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}

@@ -99,7 +99,7 @@ recordings:
       - {person: takahiro-kawata}
     duration: 315
     audio:
-      key: Cm
+      key: Fm
       bpm: 157
     evidence:
       credits:
@@ -116,10 +116,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=faca9f18-a4f8-4c4b-a74f-cd464ea1bf2d
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 Fm 157 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: LOVELESS WORLD (NOZOMI Mix)
@@ -201,7 +201,7 @@ recordings:
       - {person: takahiro-kawata}
     duration: 315
     audio:
-      key: Cm
+      key: Ab
       bpm: 157
     evidence:
       credits:
@@ -218,10 +218,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=72789a50-2d8c-4a5f-b857-1229608bea0d
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 Ab 157 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: LOVELESS WORLD (UMI Mix)

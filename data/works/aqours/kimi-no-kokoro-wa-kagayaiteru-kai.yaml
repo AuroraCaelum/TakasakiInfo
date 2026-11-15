@@ -324,7 +324,7 @@ recordings:
       - {person: effy, affiliation: FirstCall}
     duration: 277
     audio:
-      key: E
+      key: D
       bpm: 91
     evidence:
       credits:
@@ -340,10 +340,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=72e74608-d86f-4b30-9d82-d8cbad762d7d
-        checked: 2026-11-15
-        note: 같은 편곡 음원 10/11개의 값으로 맞춤. 이 음원의 분석값은 D 91 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 君のこころは輝いてるかい？ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

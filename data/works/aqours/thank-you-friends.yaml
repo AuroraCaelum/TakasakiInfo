@@ -70,7 +70,7 @@ recordings:
       - {person: takarot}
     duration: 383
     audio:
-      key: Bb
+      key: Eb
       bpm: 98
     evidence:
       credits:
@@ -83,10 +83,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
-        checked: 2026-11-15
-        note: 같은 편곡 음원 11/13개의 값으로 맞춤. 이 음원의 분석값은 Eb 98 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -267,7 +267,7 @@ recordings:
     arranger:
       - {person: takarot}
     audio:
-      key: Bb
+      key: Eb
       bpm: 98
     evidence:
       credits:
@@ -279,10 +279,10 @@ recordings:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
-        checked: 2026-11-15
-        note: 같은 편곡 음원 11/13개의 값으로 맞춤. 이 음원의 분석값은 Eb 98 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Thank you, FRIENDS!! (桜内梨子 Solo Ver.)

@@ -68,7 +68,7 @@ recordings:
     duration: 262
     audio:
       key: C#
-      bpm: 94
+      bpm: 188
     evidence:
       credits:
         status: official
@@ -80,10 +80,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=573aa720-a8cd-4e7a-9ab2-a240cb607cbf
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 C# 188 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -163,7 +163,7 @@ recordings:
       - {person: keisuke-koyama}
     duration: 262
     audio:
-      key: C#
+      key: Ab
       bpm: 94
     evidence:
       credits:
@@ -176,10 +176,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b0accd5a-74e5-45b0-9cc6-134017ff3dcb
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 Ab 94 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}

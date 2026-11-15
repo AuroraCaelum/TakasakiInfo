@@ -311,8 +311,8 @@ recordings:
       - {person: takashi-saeki}
     duration: 114
     audio:
-      key: A
-      bpm: 168
+      key: D
+      bpm: 84
     evidence:
       credits:
         status: derived
@@ -328,10 +328,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=575da72d-0f2f-4789-8b73-fc7991dc508b
-        checked: 2026-11-15
-        note: 같은 편곡 음원 11/12개의 값으로 맞춤. 이 음원의 분석값은 D 84 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-s-piano-sonata
     kind: instrumental
     title:

@@ -101,7 +101,7 @@ recordings:
     duration: 83
     audio:
       key: G
-      bpm: 170
+      bpm: 79
     evidence:
       credits:
         status: derived
@@ -117,10 +117,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0f746429-6b4a-4565-8b71-7c851a10ee1a
-        checked: 2026-11-15
-        note: 같은 편곡 음원 2/3개의 값으로 맞춤. 이 음원의 분석값은 G 79 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:

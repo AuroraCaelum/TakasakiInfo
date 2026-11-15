@@ -24,7 +24,7 @@ recordings:
       - {person: lotta}
     duration: 266
     audio:
-      key: Ab
+      key: Fm
       bpm: 120
     evidence:
       credits:
@@ -37,10 +37,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=7e780095-9de1-4e07-9ba3-22ecd4bfee83
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 Fm 120 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -104,7 +104,7 @@ recordings:
       - {person: lotta}
     duration: 267
     audio:
-      key: Ab
+      key: Fm
       bpm: 120
     evidence:
       credits:
@@ -120,10 +120,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5cdfa701-6fd4-4564-986d-b7891fea8c69
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 Fm 120 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(3/4 tracks)의 값
   - id: umi-mix
     title:
       ja: これからのSomeday (UMI Mix)

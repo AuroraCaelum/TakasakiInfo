@@ -165,7 +165,7 @@ recordings:
       - {person: effy, affiliation: FirstCall}
     duration: 278
     audio:
-      key: Fm
+      key: Ab
       bpm: 161
     evidence:
       credits:
@@ -178,10 +178,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5675dc7c-e573-48d8-bffa-b73fe406aeab
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Ab 161 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -237,7 +237,7 @@ recordings:
       - {person: effy, affiliation: FirstCall}
     duration: 278
     audio:
-      key: Fm
+      key: Ab
       bpm: 161
     evidence:
       credits:
@@ -250,10 +250,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4d71d667-ec9d-4ef8-80ce-36a0c7669625
-        checked: 2026-11-15
-        note: 같은 편곡 음원 9/11개의 값으로 맞춤. 이 음원의 분석값은 Ab 161 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}

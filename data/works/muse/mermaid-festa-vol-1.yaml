@@ -151,7 +151,7 @@ recordings:
       - {person: kazunori-watanabe}
     duration: 237
     audio:
-      key: Em
+      key: G
       bpm: 127
     evidence:
       credits:
@@ -168,10 +168,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=adfbbcda-5d4d-4362-ab29-da7a014cf0c4
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 G 127 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: Mermaid festa vol.1 (NICO Mix)
@@ -219,7 +219,7 @@ recordings:
       - {person: kazunori-watanabe}
     duration: 237
     audio:
-      key: Em
+      key: G
       bpm: 127
     evidence:
       credits:
@@ -236,10 +236,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4253db08-8b10-4bbe-9582-9f5120b64e05
-        checked: 2026-11-15
-        note: 같은 편곡 음원 5/7개의 값으로 맞춤. 이 음원의 분석값은 G 127 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Mermaid festa vol.1 (ELI Mix)

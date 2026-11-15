@@ -133,7 +133,7 @@ recordings:
       - {person: kazuya-nishioka}
     duration: 281
     audio:
-      key: B
+      key: F#
       bpm: 97
     evidence:
       credits:
@@ -150,10 +150,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=bbe334ca-d73b-45a5-9246-abcc4ca848d4
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 F# 97 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: HEART to HEART! (MAKI Mix)
@@ -303,7 +303,7 @@ recordings:
       - {person: kazuya-nishioka}
     duration: 281
     audio:
-      key: B
+      key: F#
       bpm: 97
     evidence:
       credits:
@@ -320,10 +320,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=14877797-657b-4dad-a16a-1042ce20d3f5
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/9개의 값으로 맞춤. 이 음원의 분석값은 F# 97 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: HEART to HEART! (HONOKA Mix)

@@ -18,7 +18,7 @@ recordings:
       - {person: tomohiro-nakatsuchi}
     duration: 276
     audio:
-      key: Abm
+      key: F#
       bpm: 135
     external_ids:
       isrc: JPI101602513
@@ -39,10 +39,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=9b5cb4e5-de49-445a-86d0-27b085e214b3
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 F# 135 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -120,7 +120,7 @@ recordings:
       - {person: tomohiro-nakatsuchi}
     duration: 275
     audio:
-      key: Abm
+      key: C#m
       bpm: 135
     evidence:
       credits:
@@ -133,10 +133,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=799bf8da-b3f4-4aa4-9fd8-f10fe54f4d94
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 C#m 135 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -168,7 +168,7 @@ recordings:
       - {person: tomohiro-nakatsuchi}
     duration: 274
     audio:
-      key: Abm
+      key: B
       bpm: 135
     evidence:
       credits:
@@ -181,10 +181,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=d355d7e2-d42c-49ce-bea0-cf20282e42b5
-        checked: 2026-11-15
-        note: 같은 편곡 음원 7/10개의 값으로 맞춤. 이 음원의 분석값은 B 135 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}

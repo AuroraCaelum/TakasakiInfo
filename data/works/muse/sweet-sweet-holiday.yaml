@@ -141,7 +141,7 @@ recordings:
       - {person: akihiko-yamaguchi}
     duration: 256
     audio:
-      key: F
+      key: Bb
       bpm: 138
     evidence:
       credits:
@@ -158,10 +158,10 @@ recordings:
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
       audio:
-        status: derived
+        status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=9f46eee9-bdc8-4f08-a625-8aefbabf32f3
-        checked: 2026-11-15
-        note: 같은 편곡 음원 3/4개의 값으로 맞춤. 이 음원의 분석값은 Bb 138 BPM(D61)
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived
