@@ -66,6 +66,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 275
+    audio:
+      key: Ab
+      bpm: 92
     evidence:
       credits:
         status: official
@@ -79,6 +82,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/3zWl9CDND583UGStVY1Ika
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: kotori-mix
     title:
       ja: ススメ→トゥモロウ (KOTORI Mix)
@@ -91,6 +99,9 @@ recordings:
     arranger:
       - {person: takahiro-kawata}
     duration: 275
+    audio:
+      key: Ab
+      bpm: 94
     evidence:
       credits:
         status: official
@@ -104,6 +115,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/12TKUZj6pkVOWcoNdkubAc
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: umi-mix
     title:
       ja: ススメ→トゥモロウ (UMI Mix)

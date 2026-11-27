@@ -1,6 +1,5 @@
 id: aqours/ijigen-fes-2023
 projects: [aqours, nijigasaki, liella, hasunosora, musical]
-status: performed
 title:
   ja: 異次元フェス アイドルマスター★♥ラブライブ！歌合戦
   rom: IJIGEN FES THE IDOLM@STER★♥Love Live! Uta Gassen
@@ -17,7 +16,10 @@ stops:
             version: Short Ver.
             performers:
               - {artist: aqours}
-          - {work: external/shine, version: Short Ver.}
+          - work: external/shine
+            version: Short Ver.
+            performers:
+              - {artist: cinderella-girls}
           - work: nijigasaki/tokimeki-runners
             version: Short Ver.
             performers:
@@ -27,7 +29,10 @@ stops:
             version: Short Ver.
             performers:
               - {artist: liella}
-          - {work: external/spread-the-wings, version: Short Ver.}
+          - work: external/spread-the-wings
+            version: Short Ver.
+            performers:
+              - {artist: shiny-colors}
           - work: hasunosora/dream-believers
             version: Short Ver.
             performers:
@@ -37,7 +42,9 @@ stops:
           - work: nijigasaki/what-you-gonna-do
             performers:
               - {artist: nijigasaki-high-school-idol-club}
-          - {work: external/mujuuryoku-shuttle}
+          - work: external/mujuuryoku-shuttle
+            performers:
+              - {artist: cinderella-girls}
           - work: aqours/dreamy-color
             performers:
               - {artist: aqours}
@@ -88,8 +95,12 @@ stops:
               - {person: sakura-sakakura}
               - {person: kona-tsukine}
           - {type: mc, label: 'MC #1'}
-          - {work: musical/kirari-hirari-mau-sakura}
-          - {work: musical/yume-no-compass}
+          - work: musical/kirari-hirari-mau-sakura
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: video, label: 'Intermission #3'}
           - {work: external/fairytale-ja-irarenai}
           - work: hasunosora/tragic-drops
@@ -118,6 +129,7 @@ stops:
             performers:
               - {person: rikako-aida}
               - {person: miyu-kubota}
+              - {person: wakana-ookuma}
               - {person: kotoko-sasaki}
           - {type: video, label: 'Intermission #4'}
           - work: external/dye-the-sky
@@ -137,16 +149,26 @@ stops:
               - {person: natsumi-murakami}
               - {person: sayuri-date}
               - {person: nozomi-nirei}
-          - {work: external/alive-factor, version: 'Azusa Tadokoro, Miyu Tomita, Aya Yamane, Aika Kobayashi, Yuina & Kokona Nonaka'}
+          - work: external/alive-factor
+            performers:
+              - {person: aika-kobayashi}
+              - {person: yuina}
+              - {person: kokona-nonaka}
           - work: aqours/mitaiken-horizon
             performers:
               - {artist: aqours}
-          - {work: hasunosora/eien-no-euphoria, version: Hasunosora Girls' High School Idol Club & Cinderella Girls}
+              - {artist: millionstars}
+          - work: hasunosora/eien-no-euphoria
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: cinderella-girls}
           - work: nijigasaki/colorful-dreams-colorful-smiles
             performers:
               - {artist: nijigasaki-high-school-idol-club}
+              - {artist: shiny-colors}
           - work: external/goin
             performers:
+              - {artist: millionstars}
               - {artist: liella}
           - work: external/ready
             performers:
@@ -154,15 +176,31 @@ stops:
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: liella}
               - {artist: hasunosora-girls-high-school-idol-club}
-          - {work: muse/bokura-wa-ima-no-naka-de}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: cinderella-girls}
+              - {artist: millionstars}
+              - {artist: shiny-colors}
           - {type: mc, label: 'MC #2'}
-          - {work: nijigasaki/ijigen-bigbang}
+          - work: nijigasaki/ijigen-bigbang
+            performers:
+              - {artist: cinderella-girls}
+              - {artist: millionstars}
+              - {artist: shiny-colors}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 1'
       - date: 2023-12-10
         setlist:
           - {type: video, label: Opening}
-          - {work: external/yes-party-time, version: Short ver.}
+          - work: external/yes-party-time
+            version: Short ver.
+            performers:
+              - {artist: cinderella-girls}
           - work: hasunosora/on-your-mark
             version: Short ver.
             performers:
@@ -171,7 +209,10 @@ stops:
             version: Short ver.
             performers:
               - {artist: liella}
-          - {work: external/shinography, version: Short ver.}
+          - work: external/shinography
+            version: Short ver.
+            performers:
+              - {artist: shiny-colors}
           - work: nijigasaki/love-u-my-friends
             version: Short ver.
             performers:
@@ -245,8 +286,12 @@ stops:
               - {person: rikako-aida}
               - {person: akane-yabushima}
           - {type: mc, label: 'MC #1'}
-          - {work: musical/kirari-hirari-mau-sakura}
-          - {work: musical/yume-no-compass}
+          - work: musical/kirari-hirari-mau-sakura
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: video, label: 'Intermission #3'}
           - work: aqours/my-mai-tonight
             performers:
@@ -272,10 +317,12 @@ stops:
           - {type: video, label: 'Intermission #4'}
           - work: external/sayonara-andromeda
             performers:
+              - {artist: millionstars}
               - {artist: aqours}
           - work: liella/watashi-no-symphony
             performers:
               - {artist: liella}
+              - {artist: cinderella-girls}
           - work: hasunosora/fortune-movie
             performers:
               - {person: aya-emori}
@@ -288,6 +335,7 @@ stops:
               - {person: coco-hayashi}
               - {person: shuka-saito}
               - {person: kokona-nonaka}
+              - {person: wakana-ookuma}
           - work: external/harmonics
             performers:
               - {person: arisa-komiya}
@@ -308,8 +356,13 @@ stops:
               - {person: ai-furihata}
           - work: external/thank-you
             performers:
+              - {artist: shiny-colors}
               - {artist: hasunosora-girls-high-school-idol-club}
-          - {work: muse/snow-halation}
+          - work: muse/snow-halation
+            performers:
+              - {artist: cinderella-girls}
+              - {artist: millionstars}
+              - {artist: shiny-colors}
           - work: external/m-sterpiece
             performers:
               - {artist: aqours}
@@ -317,7 +370,16 @@ stops:
               - {artist: liella}
               - {artist: hasunosora-girls-high-school-idol-club}
           - {type: mc, label: 'MC #2'}
-          - {work: nijigasaki/ijigen-bigbang}
+          - work: nijigasaki/ijigen-bigbang
+            performers:
+              - {artist: cinderella-girls}
+              - {artist: millionstars}
+              - {artist: shiny-colors}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 2'
 external_ids:
@@ -335,10 +397,10 @@ evidence:
   setlist.2023-12-09:
     status: draft
     source: https://love-live.fandom.com/wiki/Ijigen_Fes_IDOLM%40STER%E2%98%85%E2%99%A5Love_Live!_Uta_Gassen
-    checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    checked: 2026-11-18
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재) / 가창자 보충(D64): Fandom 원문과 리스아니 공연 리포트(https://www.lisani.jp/0000246997/2/, https://www.lisani.jp/0000247344/2/)·공식 라이브 CD 크레딧(https://ijigen-fes.jp/utagassen/cd.php)이 같은 것만(MILLIONSTARS 5곡, 若菜四季役 大熊和奏 2곡, アライブファクター·永遠のEuphoria의 가창자). 아이마스 개인 성우는 넣지 않음(파일 관례) / 異次元★♥BIGBANG은 레이블 라이브 CD 크레딧의 8개 그룹(https://catalog.bandainamcomusiclive.co.jp/release/71904/), 뮤지컬 곡은 게스트 출연한 スクールアイドルミュージカル 출연진'
   setlist.2023-12-10:
     status: draft
     source: https://love-live.fandom.com/wiki/Ijigen_Fes_IDOLM%40STER%E2%98%85%E2%99%A5Love_Live!_Uta_Gassen
-    checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    checked: 2026-11-18
+    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재) / 가창자 보충(D64): Fandom 원문과 리스아니 공연 리포트(https://www.lisani.jp/0000246997/2/, https://www.lisani.jp/0000247344/2/)·공식 라이브 CD 크레딧(https://ijigen-fes.jp/utagassen/cd.php)이 같은 것만(MILLIONSTARS 5곡, 若菜四季役 大熊和奏 2곡, アライブファクター·永遠のEuphoria의 가창자). 아이마스 개인 성우는 넣지 않음(파일 관례) / 異次元★♥BIGBANG은 레이블 라이브 CD 크레딧의 8개 그룹(https://catalog.bandainamcomusiclive.co.jp/release/71904/), 뮤지컬 곡은 게스트 출연한 スクールアイドルミュージカル 출연진'

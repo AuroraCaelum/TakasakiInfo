@@ -1,6 +1,5 @@
 id: muse/lovelive-fest-2026
 projects: [muse, aqours, nijigasaki, liella, hasunosora, ikizulive, musical]
-status: announced
 title:
   ja: LoveLive! Series 15th Anniversary ラブライブ！フェス
   rom: LoveLive! Series 15th Anniversary LOVELIVE! FEST
@@ -76,8 +75,490 @@ stops:
     city: aichi
     venue: vantelin-dome-nagoya
     performances:
-      - {date: 2026-11-14}
-      - {date: 2026-11-15}
+      - date: 2026-11-14
+        setlist:
+          - {type: video, label: Opening}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: video}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            version: Short Ver.
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/just-believe
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc, label: MC with Nijigasaki & Liella!}
+          - work: ikizulive/what-is-my-life
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc, label: MC with Ikizurai-Bu!}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/tale-of-primavera
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - work: hasunosora/zenhoui-kyun
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/icy
+            recording: hasunosora/icy#b-g-p-ver
+            performers:
+              - {artist: dollchestra}
+          - work: hasunosora/theater-ikizama
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/tsukuyomi-kurage
+            performers:
+              - {artist: cerise-bouquet}
+          - {type: mc, label: MC with Hasunosora}
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#b-g-p-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: ikizulive/super-summer-sensation
+            performers:
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/megumi-fujishima}
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/ceras-yanagida-lilienfeld}
+              - {character: ikizulive/polka-takahashi}
+              - {character: ikizulive/akira-goto}
+              - {character: ikizulive/miracle-kanazawa}
+              - {character: ikizulive/aurora-konohana}
+              - {character: ikizulive/shion-sasaki}
+          - {type: other, label: School Idol Musical Special Medley}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/kirari-hirari-mau-sakura
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-migachi-girl
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
+          - work: muse/start-dash
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - {type: mc, label: MC with μ's}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: liella/next-card
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC by AiScReam}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {artist: aqours}
+          - work: aqours/wake-up-challenger
+            performers:
+              - {artist: aqours}
+          - {type: mc, label: MC with Aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/hop-step-wai
+            performers:
+              - {artist: aqours}
+          - work: muse/yume-no-tobira
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+          - work: liella/hyper-glowing
+            performers:
+              - {artist: liella}
+          - work: liella/star-sengen
+            performers:
+              - {artist: liella}
+          - work: liella/dazzling-game
+            performers:
+              - {artist: liella}
+          - {type: mc, label: MC with Liella!}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - work: liella/vitamin-summer
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/shioriko-mifune}
+              - {character: nijigasaki/mia-taylor}
+              - {character: nijigasaki/lanzhu-zhong}
+              - {character: liella/chisato-arashi}
+              - {character: liella/sumire-heanna}
+              - {character: liella/mei-yoneme}
+              - {character: liella/natsumi-onitsuka}
+              - {character: liella/margarete-wien}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/what-you-gonna-do
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc, label: MC with Nijigasaki}
+          - {type: other, label: Nijigasaki Solo Songs Medley}
+          - work: nijigasaki/tsunagaru-connect
+            performers:
+              - {character: nijigasaki/rina-tennoji}
+          - work: nijigasaki/white-delight
+            performers:
+              - {character: nijigasaki/mia-taylor}
+          - work: nijigasaki/muteki-kyuu-believer
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+          - work: nijigasaki/koakuma-love
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+          - work: nijigasaki/marchen-star
+            performers:
+              - {character: nijigasaki/kanata-konoe}
+          - work: nijigasaki/yume-e-no-ippo
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: other, label: Shuffle Medley}
+          - work: muse/bokura-wa-ima-no-naka-de
+            performers:
+              - {artist: muse}
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/margarete-wien}
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/kozue-otomune}
+              - {character: ikizulive/polka-takahashi}
+              - {character: ikizulive/shion-sasaki}
+          - work: aqours/aozora-jumping-heart
+            performers:
+              - {artist: aqours}
+              - {character: liella/chisato-arashi}
+              - {character: liella/tomari-onitsuka}
+              - {character: hasunosora/tsuzuri-yugiri}
+              - {character: hasunosora/rurino-osawa}
+              - {character: hasunosora/hime-anyoji}
+              - {character: ikizulive/akira-goto}
+              - {character: ikizulive/noriko-chofu}
+          - work: hasunosora/trick-and-cute
+            performers:
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: nijigasaki/mia-taylor}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: hasunosora/megumi-fujishima}
+              - {character: hasunosora/ginko-momose}
+              - {character: hasunosora/izumi-katsuragi}
+              - {character: ikizulive/miracle-kanazawa}
+              - {character: ikizulive/aurora-konohana}
+          - work: nijigasaki/boooooom-boooooom-bee
+            performers:
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/ai-miyashita}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/shioriko-mifune}
+              - {character: nijigasaki/lanzhu-zhong}
+              - {character: liella/sumire-heanna}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: hasunosora/ceras-yanagida-lilienfeld}
+              - {character: ikizulive/hanabi-komagata}
+              - {character: ikizulive/yukuri-harumiya}
+              - {character: ikizulive/midori-yamada}
+          - work: ikizulive/hissatsu-my-mai-mode
+            performers:
+              - {character: nijigasaki/karin-asaka}
+              - {character: liella/ren-hazuki}
+              - {character: hasunosora/sayaka-murano}
+              - {character: ikizulive/mai-azabu}
+          - work: liella/we-will
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: ikizuraibu}
+          - {type: mc, label: MC with All Groups}
+          - work: muse/sunny-day-song
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
+        external_ids:
+          fandom: '|Day 1'
+      - date: 2026-11-15
+        setlist:
+          - {type: video, label: Opening}
+          - work: liella/open-the-g-te
+            performers:
+              - {artist: liella}
+          - work: nijigasaki/ryoran-victory-road
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc, label: MC with Nijigasaki and Liella!}
+          - work: hasunosora/chili-con-carne
+            performers:
+              - {artist: edel-note}
+          - work: hasunosora/fushigi-to-kimi-to-library
+            recording: hasunosora/fushigi-to-kimi-to-library#b-g-p-ver
+            performers:
+              - {artist: cerise-bouquet}
+          - work: hasunosora/mira-creation
+            performers:
+              - {artist: mira-cra-park}
+          - work: hasunosora/proof
+            performers:
+              - {artist: dollchestra}
+          - {type: mc, label: MC with Hasunosora}
+          - work: hasunosora/dream-believers
+            recording: hasunosora/dream-believers#b-g-p-ver
+            performers:
+              - {artist: hasunosora-girls-high-school-idol-club}
+          - work: ikizulive/tale-of-primavera
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/dou-da-doing
+            performers:
+              - {artist: ikizuraibu}
+          - {type: mc, label: MC with Ikizurai-Bu!}
+          - work: ikizulive/super-summer-sensation
+            performers:
+              - {artist: ikizuraibu}
+          - work: ikizulive/regain-again-llllove
+            performers:
+              - {artist: ikizuraibu}
+          - work: hasunosora/hana-sakeba-yume-kakeru
+            performers:
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/kozue-otomune}
+              - {character: hasunosora/tsuzuri-yugiri}
+              - {character: hasunosora/hime-anyoji}
+              - {character: hasunosora/izumi-katsuragi}
+              - {character: ikizulive/mai-azabu}
+              - {character: ikizulive/hanabi-komagata}
+              - {character: ikizulive/noriko-chofu}
+              - {character: ikizulive/yukuri-harumiya}
+              - {character: ikizulive/midori-yamada}
+          - {type: other, label: School Idol Musical Special Medley}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/kirari-hirari-mau-sakura
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-migachi-girl
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
+          - {type: video, label: μ's Intermission}
+          - work: muse/bokura-no-live-kimi-to-no-life
+            performers:
+              - {artist: muse}
+          - {type: mc, label: MC with μ's}
+          - work: muse/kira-kira-sensation
+            performers:
+              - {artist: muse}
+          - work: muse/no-brand-girls
+            performers:
+              - {artist: muse}
+          - work: muse/snow-halation
+            performers:
+              - {artist: muse}
+          - work: liella/next-card
+            performers:
+              - {artist: aiscream}
+          - {type: mc, label: MC by AiScReam}
+          - work: nijigasaki/ai-scream
+            performers:
+              - {artist: aiscream}
+          - work: aqours/smile-smile-ship-start
+            performers:
+              - {artist: aqours}
+          - work: aqours/suki-for-you-dream-for-you
+            performers:
+              - {artist: aqours}
+          - {type: mc, label: MC with Aqours}
+          - work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai
+            performers:
+              - {artist: aqours}
+          - work: aqours/landing-action-yeah
+            performers:
+              - {artist: aqours}
+          - work: aqours/todoka-nai-hoshi-da-to-shi-te-mo
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+          - work: nijigasaki/colorful-dreams-colorful-smiles
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/nijigasaki-gakuen-kouka
+            recording: nijigasaki/nijigasaki-gakuen-kouka#rock-ver
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - {type: mc, label: MC with Nijigasaki}
+          - {type: other, label: Nijigasaki Solo Songs Medley}
+          - work: nijigasaki/aoi-canaria
+            performers:
+              - {character: nijigasaki/shioriko-mifune}
+          - work: nijigasaki/eutopia
+            performers:
+              - {character: nijigasaki/lanzhu-zhong}
+          - work: nijigasaki/vivid-world
+            performers:
+              - {character: nijigasaki/karin-asaka}
+          - work: nijigasaki/dream-shooter
+            performers:
+              - {character: nijigasaki/emma-verde}
+          - work: nijigasaki/circle-of-love
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+          - work: nijigasaki/yakusoku-ni-nare-bokura-no-uta
+            performers:
+              - {artist: nijigasaki-high-school-idol-club}
+          - work: nijigasaki/mirai-harmony
+            performers:
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/emma-verde}
+              - {character: liella/kanon-shibuya}
+              - {character: liella/keke-tang}
+              - {character: liella/ren-hazuki}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/shiki-wakana}
+              - {character: liella/tomari-onitsuka}
+          - {type: video}
+          - work: liella/mirai-yohou-hallelujah
+            performers:
+              - {artist: liella}
+          - work: liella/let-s-be-one
+            version: Short Ver.
+            performers:
+              - {artist: liella}
+          - work: liella/hyper-glowing
+            performers:
+              - {artist: liella}
+          - {type: mc, label: MC with Liella!}
+          - work: liella/nonfiction
+            performers:
+              - {artist: liella}
+          - work: liella/aspire
+            performers:
+              - {artist: liella}
+          - work: liella/watashi-no-symphony
+            performers:
+              - {artist: liella}
+          - {type: other, label: Shuffle Medley}
+          - work: muse/sore-wa-bokutachi-no-kiseki
+            performers:
+              - {artist: muse}
+              - {character: nijigasaki/kasumi-nakasu}
+              - {character: nijigasaki/karin-asaka}
+              - {character: nijigasaki/kanata-konoe}
+              - {character: nijigasaki/rina-tennoji}
+              - {character: hasunosora/sayaka-murano}
+              - {character: hasunosora/ginko-momose}
+              - {character: ikizulive/miracle-kanazawa}
+              - {character: ikizulive/midori-yamada}
+          - work: aqours/mirai-no-bokura-wa-shitteru-yo
+            performers:
+              - {artist: aqours}
+              - {character: nijigasaki/ayumu-uehara}
+              - {character: nijigasaki/shizuku-osaka}
+              - {character: nijigasaki/shioriko-mifune}
+              - {character: nijigasaki/mia-taylor}
+              - {character: hasunosora/kozue-otomune}
+              - {character: hasunosora/izumi-katsuragi}
+              - {character: ikizulive/aurora-konohana}
+              - {character: ikizulive/shion-sasaki}
+          - work: hasunosora/bloom-the-smile-bloom-the-dream
+            performers:
+              - {character: nijigasaki/emma-verde}
+              - {character: nijigasaki/lanzhu-zhong}
+              - {character: liella/keke-tang}
+              - {character: liella/chisato-arashi}
+              - {character: liella/margarete-wien}
+              - {character: liella/tomari-onitsuka}
+              - {character: hasunosora/kaho-hinoshita}
+              - {character: hasunosora/tsuzuri-yugiri}
+              - {character: hasunosora/rurino-osawa}
+              - {character: ikizulive/noriko-chofu}
+              - {character: ikizulive/yukuri-harumiya}
+          - work: ikizulive/asakusa-guilty-girl-no-uta
+            performers:
+              - {character: nijigasaki/ai-miyashita}
+              - {character: liella/kanon-shibuya}
+              - {character: hasunosora/kosuzu-kachimachi}
+              - {character: ikizulive/polka-takahashi}
+          - work: liella/what-a-wonderful-dream
+            performers:
+              - {character: liella/sumire-heanna}
+              - {character: liella/ren-hazuki}
+              - {character: liella/kinako-sakurakoji}
+              - {character: liella/mei-yoneme}
+              - {character: liella/shiki-wakana}
+              - {character: liella/natsumi-onitsuka}
+              - {character: hasunosora/megumi-fujishima}
+              - {character: hasunosora/hime-anyoji}
+              - {character: hasunosora/ceras-yanagida-lilienfeld}
+              - {character: ikizulive/mai-azabu}
+              - {character: ikizulive/akira-goto}
+              - {character: ikizulive/hanabi-komagata}
+          - work: nijigasaki/tokimeki-runners
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: ikizuraibu}
+          - {type: mc, label: MC with All Groups}
+          - work: muse/sunny-day-song
+            performers:
+              - {artist: muse}
+              - {artist: aqours}
+              - {artist: nijigasaki-high-school-idol-club}
+              - {artist: liella}
+              - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
+        external_ids:
+          fandom: '|Day 2'
 external_ids:
   fandom: LoveLive! Series 15th Anniversary Love Live! Fest
 evidence:
@@ -95,3 +576,13 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest
     checked: 2026-10-21
+  setlist.2026-11-14:
+    status: established
+    source: https://pylonport.bandainamcomusiclive.co.jp/report/955
+    checked: 2026-11-18
+    note: 공식 미게재(lovelive-anime.jp에 세트리스트 없음, 2026-11-18 확인). 레이블(バンダイナムコミュージックライブ) PYLON PORT 리포트의 곡·가창자와 Fandom 세트리스트(https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fest, takasaki fandom concerts로 읽음)가 일치(D64). 메들리 4곡의 가창자는 리포트의 「スクールアイドルミュージカル」
+  setlist.2026-11-15:
+    status: established
+    source: https://pylonport.bandainamcomusiclive.co.jp/report/955
+    checked: 2026-11-18
+    note: 공식 미게재(lovelive-anime.jp에 세트리스트 없음, 2026-11-18 확인). 레이블(バンダイナムコミュージックライブ) PYLON PORT 리포트의 곡·가창자와 Fandom 세트리스트(https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fest, takasaki fandom concerts로 읽음)가 일치(D64). 메들리 4곡의 가창자는 리포트의 「スクールアイドルミュージカル」

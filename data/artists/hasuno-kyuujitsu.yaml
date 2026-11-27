@@ -6,6 +6,8 @@ names:
   kana: はすのきゅうじつ
   rom: Hasuno Kyuujitsu
   ko: 하스노휴일
+lineups:
+  - members: [hasunosora/sayaka-murano, hasunosora/kozue-otomune]
 evidence:
   names:
     status: derived
@@ -15,3 +17,8 @@ evidence:
   names.kana:
     status: derived
     note: '읽기가 하나뿐이라 자동 승인: rom Hasuno Kyuujitsu대로 (D58, 2026-11-11)'
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/hasunosora/music/14/
+    checked: 2026-11-18
+    note: 셔플 유닛 스플릿 싱글(2024-03-20)의 크레딧

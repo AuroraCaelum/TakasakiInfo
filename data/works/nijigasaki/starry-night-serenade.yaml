@@ -18,6 +18,9 @@ recordings:
     arranger:
       - {person: ryota-kato}
     duration: 258
+    audio:
+      key: G
+      bpm: 164
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_CxZ2HINGmHc
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/4rmPYFZD8dGzoMzaLzXZG4
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: off-vocal
     kind: off_vocal
     title:

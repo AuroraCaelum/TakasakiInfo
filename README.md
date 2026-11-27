@@ -9,8 +9,8 @@
 
 **Love Live! songs, albums, streaming links, members and voice actors<br>in Japanese, romaji and Korean, as CSV and JSON.**
 
-[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--15-e4007f?style=flat-square)](TakasakiInfo.json)
-[![Tracks](https://img.shields.io/badge/tracks-4%2C598-5d9cec?style=flat-square)](#database-status)
+[![Data updated](https://img.shields.io/badge/data%20updated-2026--11--27-e4007f?style=flat-square)](TakasakiInfo.json)
+[![Tracks](https://img.shields.io/badge/tracks-4%2C619-5d9cec?style=flat-square)](#database-status)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20SQLite-555?style=flat-square)](#downloads-and-api)
 [![Hits](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo.svg?style=flat-square&label=hits&color=79c83d)](https://hits.sh/github.com/AuroraCaelum/TakasakiInfo/)
 
@@ -28,23 +28,22 @@
 
 ## Database status
 
-**4,598** tracks · **559** albums · **933** songs · **632** people · **115** characters · **86%** of tracks on YouTube Music · as of 2026-11-15
+**4,619** tracks · **562** albums · **937** songs · **639** people · **122** characters · **86%** of tracks on YouTube Music · as of 2026-11-27
 
 | Project | Latest release | Albums | Tracks | Streaming links | Files |
 | :-- | :-: | --: | --: | --: | :-- |
 | **μ’s** | 2026-01-14 | 118 | 1112 | 90% | Albums [CSV](albums/Muse/Muse.csv) · [JSON](albums/Muse/Muse.json) · Songs [JSON](songs/Muse/Muse.json) · Members [CSV](members/Muse.csv) |
-| **Aqours** | 2026-03-11 | 144 | 1464 | 91% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
+| **Aqours** | 2026-03-11 | 145 | 1466 | 91% | Albums [CSV](albums/Aqours/Aqours.csv) · [JSON](albums/Aqours/Aqours.json) · Songs [JSON](songs/Aqours/Aqours.json) · Members [CSV](members/Aqours.csv) |
 | **Nijigasaki High School Idol Club** | 2026-10-07 | 111 | 875 | 78% | Albums [CSV](albums/Nijigaku/Nijigaku.csv) · [JSON](albums/Nijigaku/Nijigaku.json) · Songs [JSON](songs/Nijigaku/Nijigaku.json) · Members [CSV](members/Nijigaku.csv) |
-| **Liella!** | 2026-07-08 | 74 | 598 | 55% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
+| **Liella!** | 2026-11-18 | 75 | 606 | 54% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
 | **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 67 | 499 | 93% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
 | **School Idol Musical** | 2024-08-21 | 4 | 82 | 56% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
-| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-09-21 | 28 | 92 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
+| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-11-25 | 29 | 105 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
 | **Yohane the Parhelion** | 2024-12-25 | 13 | 102 | 73% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
 
 Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 
-> [!TIP]
-> Coming up, listed once released: **Songbirds** (Liella!, 2026-11-18); **いきづらい部！ あつまれユニットソング！ vol.1** (Ikizulive! LOVELIVE! BLUEBIRD, 2026-11-25)
+
 
 <a id="downloads-and-api"></a>
 

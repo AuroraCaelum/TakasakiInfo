@@ -11,25 +11,6 @@ credits:
   composer:
     - {person: yuuichi-yaegashi}
 recordings:
-  - id: honoka-kosaka-solo
-    performers:
-      - {character: muse/honoka-kosaka}
-    arranger:
-      - {person: yuuichi-yaegashi}
-    audio:
-      key: C#
-      bpm: 131
-    evidence:
-      credits:
-        status: derived
-        source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd18
-        checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd11)과 같다고 봄
-      audio:
-        status: established
-        source: https://api.reccobeats.com/v1/audio-features?ids=09f214a0-61eb-4da2-a31e-706cb18f0c4e
-        checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: original
     performers:
       - {character: muse/honoka-kosaka}

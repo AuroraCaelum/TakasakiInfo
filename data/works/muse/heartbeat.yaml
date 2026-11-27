@@ -109,6 +109,9 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     duration: 213
+    audio:
+      key: F
+      bpm: 118
     evidence:
       credits:
         status: derived
@@ -123,6 +126,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/49SwcXOplcNKCyZvLqqkEQ
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: nozomi-mix
     title:
       ja: ？←HEARTBEAT (NOZOMI Mix)
@@ -135,6 +143,9 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     duration: 213
+    audio:
+      key: Dm
+      bpm: 118
     evidence:
       credits:
         status: derived
@@ -149,6 +160,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/2Pqdl6VHEkUFEBcWWVDR9M
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: eli-mix
     title:
       ja: ？←HEARTBEAT (ELI Mix)
@@ -161,6 +177,9 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     duration: 213
+    audio:
+      key: F
+      bpm: 119
     evidence:
       credits:
         status: derived
@@ -175,6 +194,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/3TdtKLwziPH3az1GhhRMQu
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
 evidence:
   title:
     status: derived

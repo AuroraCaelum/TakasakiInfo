@@ -27,7 +27,9 @@ stops:
             performers:
               - {artist: azalea}
           - {type: video}
-          - {work: aqours/cyazalea-kiss-dadandaaan}
+          - work: aqours/cyazalea-kiss-dadandaaan
+            performers:
+              - {artist: cyazalea-kiss}
           - {type: video, label: Aqours Opening}
           - work: aqours/fantastic-departure
             performers:
@@ -73,7 +75,9 @@ stops:
             performers:
               - {artist: azalea}
           - {type: video}
-          - {work: aqours/cyazalea-kiss-dadandaaan}
+          - work: aqours/cyazalea-kiss-dadandaaan
+            performers:
+              - {artist: cyazalea-kiss}
           - {type: video, label: Aqours Opening}
           - work: aqours/fantastic-departure
             performers:

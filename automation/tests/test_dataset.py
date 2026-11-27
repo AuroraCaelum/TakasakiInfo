@@ -73,3 +73,12 @@ def test_flow_items_starting_with_a_question_mark_read_back():
     buf = io.StringIO()
     _yaml().dump(_to_node(doc), buf)
     assert YAML(typ="safe").load(buf.getvalue()) == doc
+
+
+def test_an_off_vocal_has_no_singers_but_the_legacy_files_show_its_vocal_ones(ds):
+    # D25 / D64: the Off Vocal's own list is empty; the legacy Artist cells name the singers of its vocal
+    from takasaki.build_legacy import legacy_performers
+    offs = [(w, r) for w in ds.works.values() for r in w.recordings if r.kind == "off_vocal"]
+    assert offs and not any(r.performers for _, r in offs)
+    w, r = next((w, r) for w, r in offs if r.instrumental_of == "original")
+    assert legacy_performers(w, r) == next(x for x in w.recordings if x.id == "original").performers

@@ -1,0 +1,40 @@
+id: ayuru-ohashi
+names:
+  ja: 大橋 歩夕
+  kana: おおはし あゆる
+  rom: Ayuru Ohashi
+  ko: 오오하시 아유루
+family_name:
+  ja: 大橋
+  kana: おおはし
+  rom: Ohashi
+  ko: 오오하시
+given_name:
+  ja: 歩夕
+  kana: あゆる
+  rom: Ayuru
+  ko: 아유루
+evidence:
+  names.ja:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+    checked: 2026-11-27
+    note: 공식 크레딧 표기 (띄어쓰기는 D28)
+  names.rom:
+    status: official
+    source: https://catalog.bandainamcomusiclive.co.jp/release/62812/
+    checked: 2026-11-27
+    note: "레이블 카탈로그 EN 'Anju Yuki (CV: Ayuru Ohashi)'"
+  names.ko:
+    status: established
+    source: https://namu.wiki/w/오오하시 아유루
+    checked: 2026-11-27
+    note: 나무위키 문서 제목
+  names.kana:
+    status: established
+    source: https://ja.wikipedia.org/wiki/大橋歩夕
+    checked: 2026-11-27
+    note: 위키백과 읽기
+  name_parts:
+    status: derived
+    note: '성·이름 분리: 독음 대조 (D28)'

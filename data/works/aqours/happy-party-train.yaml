@@ -35,8 +35,6 @@ recordings:
       rom: HAPPY PARTY TRAIN (Off Vocal)
       ko: HAPPY PARTY TRAIN (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: effy}
     instrumental_of: original
@@ -318,6 +316,9 @@ recordings:
     arranger:
       - {person: takuya-watanabe}
     duration: 277
+    audio:
+      key: D
+      bpm: 173
     evidence:
       credits:
         status: official
@@ -331,6 +332,11 @@ recordings:
         source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
         checked: 2026-11-14
         note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/3hL81bAKomwYC6IMw3xvnY
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: live-aqours-finale-2025-06-22
     title:
       ja: HAPPY PARTY TRAIN (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)

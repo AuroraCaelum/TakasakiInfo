@@ -6,6 +6,8 @@ names:
   kana: アライズ
   rom: A-RISE
   ko: A-RISE
+lineups:
+  - members: [muse/tsubasa-kira, muse/erena-todo, muse/anju-yuki]
 evidence:
   names:
     status: derived
@@ -14,3 +16,8 @@ evidence:
   names.kana:
     status: derived
     note: '읽기가 하나뿐이라 자동 승인: A-RISE = ARISE (D58, 2026-11-11)'
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
+    checked: 2026-11-27
+    note: 크레딧 歌：A-RISE(綺羅ツバサ(CV.桜川めぐ)、統堂英玲奈(CV.松永真穂)、優木あんじゅ(CV.大橋歩夕))

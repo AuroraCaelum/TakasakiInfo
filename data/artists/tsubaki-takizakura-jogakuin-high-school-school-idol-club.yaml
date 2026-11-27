@@ -6,6 +6,18 @@ names:
   kana: つばきたきざくらじょがくいんこうとうがっこうスクールアイドルぶ
   rom: Tsubaki Takizakura Jogakuin High School School Idol Club
   ko: 츠바키타키자쿠라 여학원 고등학교 스쿨 아이돌부
+lineups:
+  - members:
+      - musical/rurika-tsubaki
+      - musical/anzu-takizawa
+      - musical/yuzuha-sumeragi
+      - musical/misuzu-wakatsuki
+      - musical/yukino-hojo
+      - musical/toa-kurusu
+      - musical/hikaru-amakusa
+      - musical/rena-suzuka
+      - musical/maya-mikasa
+      - musical/sayaka-harukaze
 evidence:
   names:
     status: established
@@ -15,3 +27,8 @@ evidence:
   names.kana:
     status: derived
     note: '읽기가 하나뿐이라 자동 승인: rom대로, 椿·滝桜는 두 학교 읽기와 같음 (D58, 2026-11-11)'
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/musical/2023/music.php
+    checked: 2026-11-18
+    note: 後夜祭アルバム(2024-08-21) 「夢はドコカラ」 크레딧의 배역 10명(앙상블 8명은 캐릭터가 아니라 넣지 않음)
