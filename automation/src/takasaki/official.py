@@ -265,7 +265,7 @@ def approve_names(ds: Any, doc: dict[str, Any], today: dt.date) -> str:
             ent.evidence[key] = m.Evidence(status=m.Status(it.get("status") or "derived"), source=it.get("source") or None,
                                            checked=today, note=it.get("note") or None)
             if values.get("family_name"):
-                ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="성·이름 분리: 리뷰에서 확인 (D28)")
+                ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note="성과 이름을 나눈 위치는 사람이 확인함")
             elif it.get("name_parts"):  # why the name has no family/given split, e.g. an activity name
                 ent.evidence["name_parts"] = m.Evidence(status=m.Status.derived, note=str(it["name_parts"]))
         done.append(str(ref))

@@ -165,7 +165,7 @@ def test_the_check_cites_the_page_for_what_it_prints(ds, tmp_path):
     assert ds.releases["p/2020-a"].evidence["tracks"].note == imp.CHECKED_TRACKS
     # the names the page printed: ja is cited, rom and ko wait for their own sources; a Latin name is itself
     hata = ds.persons["hata"].evidence
-    assert hata["names.ja"].source == URL and hata["names.ja"].note == "공식 표기 '畑亜貴' (띄어쓰기는 D28)"
+    assert hata["names.ja"].source == URL and hata["names.ja"].note.startswith("공식 표기는 「畑亜貴」.")
     assert hata["names.rom"] == MIGRATED and "names" not in hata
     assert ds.persons["effy"].evidence["names.ko"].status == m.Status.derived
     assert not (tmp_path / "P-artists.yaml").exists()  # a check never creates review items

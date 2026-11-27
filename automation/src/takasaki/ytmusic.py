@@ -413,7 +413,7 @@ def apply_matches(client: Client | None, rel: m.Release, matches: list[EditionMa
     rel.evidence["streaming"] = m.Evidence(
         status=m.Status.established, source="https://music.youtube.com/browse/" + (entries[0].browse_id or ""),
         checked=dt.date.fromisoformat(checked),
-        note="YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지",
+        note="YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠",
     )
     out.applied = True
     return out

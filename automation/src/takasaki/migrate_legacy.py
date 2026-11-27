@@ -605,7 +605,7 @@ class Migrator:
                       "x": "https://x.com/ikizulive_staff"},
             evidence={"names.ja": m.Evidence(status=m.Status.official, source="https://www.lovelive-anime.jp/lovehigh/",
                                              checked=dt.date(2026, 10, 15)),
-                      "names.ko": m.Evidence(status=m.Status.derived, note="결정 D15 (우선 확정)")},
+                      "names.ko": m.Evidence(status=m.Status.derived, note="공식 한국어 표기가 없어 우선 정한 표기. 공식 표기가 나오면 바꿈")},
         )
 
     # --- review items ---------------------------------------------------------
