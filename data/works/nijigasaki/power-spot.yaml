@@ -16,12 +16,26 @@ recordings:
       - {artist: diverdiva}
     arranger:
       - {person: carlos-k}
+    duration: 239
+    audio:
+      key: F#
+      bpm: 130
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/POWER_SPOT!!
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QTP6ZtryhbB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=380d3622-5c29-429d-b4f3-5fdfc760dba0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,8 +44,6 @@ recordings:
       rom: POWER SPOT!! (Off Vocal)
       ko: POWER SPOT!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: diverdiva}
     arranger:
       - {person: carlos-k}
     instrumental_of: original

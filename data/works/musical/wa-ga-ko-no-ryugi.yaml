@@ -23,11 +23,17 @@ recordings:
       - {person: mei-morimoto}
     arranger:
       - {person: ryota-kojima}
+    duration: 123
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_o8ZFCtHGvgY
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

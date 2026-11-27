@@ -17,11 +17,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    duration: 384
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0ba151f9-7810-4022-9811-d4476b00f8e2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,11 +44,10 @@ recordings:
       rom: Thank you, FRIENDS!! (Off Vocal)
       ko: Thank you, FRIENDS!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: takarot}
     instrumental_of: original
+    duration: 384
     evidence:
       credits:
         status: official
@@ -43,96 +56,203 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Eb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd90
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd91
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0e12530a-8c8c-420b-8898-022e0427be5d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd92
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c3142276-1791-4385-9eeb-a6acbd10be8a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd93
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c70bdcbb-b399-4db4-a2e3-5b6fc4e3c914
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd94
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b6905852-797f-4f33-b554-5c887fbf2049
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takarot}
+    duration: 383
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd95
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f25d7230-ad79-4e96-b3f0-87cb2d89a615
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takarot}
+    duration: 383
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd96
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HU1Ib2Jqunp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: takarot}
+    duration: 383
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4712
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mXt13h6npny
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: takarot}
+    duration: 383
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01_4722
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_F3uC3EZQTXT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: Thank you, FRIENDS!! (高海千歌 Solo Ver.)
@@ -144,6 +264,9 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: takarot}
+    audio:
+      key: Eb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -153,6 +276,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Thank you, FRIENDS!! (桜内梨子 Solo Ver.)
@@ -164,6 +292,9 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takarot}
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -173,6 +304,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0e12530a-8c8c-420b-8898-022e0427be5d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: Thank you, FRIENDS!! (松浦果南 Solo Ver.)
@@ -184,6 +320,9 @@ recordings:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takarot}
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -193,6 +332,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b6905852-797f-4f33-b554-5c887fbf2049
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: Thank you, FRIENDS!! (黒澤ダイヤ Solo Ver.)
@@ -204,6 +348,9 @@ recordings:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takarot}
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -213,6 +360,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c70bdcbb-b399-4db4-a2e3-5b6fc4e3c914
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo-ver
     title:
       ja: Thank you, FRIENDS!! (渡辺 曜 Solo Ver.)
@@ -264,6 +416,9 @@ recordings:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takarot}
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -273,6 +428,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f25d7230-ad79-4e96-b3f0-87cb2d89a615
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo-ver
     title:
       ja: Thank you, FRIENDS!! (小原鞠莉 Solo Ver.)
@@ -304,6 +464,9 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takarot}
+    audio:
+      key: Bb
+      bpm: 98
     evidence:
       credits:
         status: derived
@@ -313,6 +476,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c3142276-1791-4385-9eeb-a6acbd10be8a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

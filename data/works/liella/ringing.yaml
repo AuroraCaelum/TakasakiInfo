@@ -17,22 +17,50 @@ recordings:
       - {character: liella/chisato-arashi}
     arranger:
       - {person: yuya-mori}
+    duration: 202
+    audio:
+      key: A
+      bpm: 100
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ab18a081-cadd-439f-9468-da39e554f252
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: keke-ver
     version: Keke Ver.
     performers:
       - {character: liella/keke-tang}
     arranger:
       - {person: yuya-mori}
+    duration: 203
+    audio:
+      key: A
+      bpm: 100
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd12.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_V0mJkZGmPMK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=64e2116f-d18d-4b9a-bd78-0cbd8b02c4bb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

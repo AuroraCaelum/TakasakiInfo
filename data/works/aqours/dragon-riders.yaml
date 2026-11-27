@@ -21,6 +21,10 @@ recordings:
       - {artist: cyaron}
     arranger:
       - {person: mito}
+    duration: 226
+    audio:
+      key: C#
+      bpm: 145
     external_ids:
       isrc: JPI102101061
     evidence:
@@ -28,6 +32,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd53
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lwgLZ74gfVM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4fc7d038-683d-4bb5-810d-ebb56fa96957
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

@@ -16,11 +16,25 @@ recordings:
       - {artist: bibi}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 243
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd26
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GmJzS2FeB4Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=25993302-2b79-460f-8717-59408f58c53a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     instrumental_of: original
+    duration: 243
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GmJzS2FeB4Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 夏、終わらないで。 (NICO Mix)
@@ -51,6 +71,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 244
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8cea059e-96a7-4845-bbae-2621790a7b9f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 夏、終わらないで。 (MAKI Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 243
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -80,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=141d40c9-aabf-45f3-86c3-fefaa8ed6472
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 夏、終わらないで。 (ELI Mix)
@@ -91,6 +139,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 244
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -100,6 +152,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=139cb3b5-e4f7-4112-b1ff-8252f59affff
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

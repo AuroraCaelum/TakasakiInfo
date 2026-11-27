@@ -17,11 +17,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd39
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7b5318be-5944-4e41-a8c2-104c6b3613da
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,11 +44,10 @@ recordings:
       rom: JIMO-AI Dash! (Off Vocal)
       ko: JIMO-AI Dash! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: kazuya-komatsu}
     instrumental_of: original
+    duration: 276
     evidence:
       credits:
         status: official
@@ -43,6 +56,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: JIMO-AI Dash! (高海千歌 Solo Ver.)
@@ -54,6 +72,10 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -62,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=200359a8-b53c-4d6f-9575-12921b87bf9a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: JIMO-AI Dash! (桜内梨子 Solo Ver.)
@@ -73,6 +105,10 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -81,6 +117,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ff1c437c-b380-4ee3-b1c8-ecb09a16a3f0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo-ver
     title:
       ja: JIMO-AI Dash! (松浦果南 Solo Ver.)
@@ -92,6 +138,10 @@ recordings:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -100,6 +150,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bbb8ec9a-c3e2-4e0c-b3f0-aa8318f53308
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ダイヤ Solo Ver.)
@@ -111,6 +171,10 @@ recordings:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -119,6 +183,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8b14d198-2c2a-4799-972d-ae3dc073b602
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo-ver
     title:
       ja: JIMO-AI Dash! (渡辺 曜 Solo Ver.)
@@ -130,6 +204,10 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -138,6 +216,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f059190d-8ed1-4a20-9069-69d0432363b8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: JIMO-AI Dash! (津島善子 Solo Ver.)
@@ -149,6 +237,10 @@ recordings:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -157,6 +249,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=49533317-6b45-45df-83fb-6ab9608e245d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: JIMO-AI Dash! (国木田花丸 Solo Ver.)
@@ -168,6 +270,10 @@ recordings:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -176,6 +282,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27316a3a-416a-48cb-924d-e13ea37b2673
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo-ver
     title:
       ja: JIMO-AI Dash! (小原鞠莉 Solo Ver.)
@@ -187,6 +303,10 @@ recordings:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 276
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -195,6 +315,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6d3e5c6d-4c75-4e66-acd3-a46b4744af45
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: JIMO-AI Dash! (黒澤ルビィ Solo Ver.)
@@ -206,6 +336,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kazuya-komatsu}
+    duration: 277
+    audio:
+      key: Cm
+      bpm: 143
     evidence:
       credits:
         status: official
@@ -214,6 +348,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_3MRk44msdTL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7dd8b488-c258-4471-9643-8251d8c5bd74
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

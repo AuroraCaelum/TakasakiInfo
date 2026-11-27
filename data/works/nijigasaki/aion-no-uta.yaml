@@ -18,11 +18,25 @@ recordings:
     arranger:
       - {person: kenta-urashima}
       - {person: takumi-yamamoto}
+    duration: 258
+    audio:
+      key: C
+      bpm: 148
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=deff03ef-a2e1-4de8-ab5e-77dedba03b71
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,6 +49,7 @@ recordings:
       - {person: kenta-urashima}
       - {person: takumi-yamamoto}
     instrumental_of: original
+    duration: 257
     evidence:
       credits:
         status: official
@@ -43,6 +58,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

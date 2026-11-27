@@ -17,11 +17,17 @@ recordings:
       - {artist: qu4rtz}
     arranger:
       - {person: miyata-lefty-ryo}
+    duration: 254
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd39
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5MuZEBWyjnE
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,16 +36,20 @@ recordings:
       rom: ENJOY IT! (Off Vocal)
       ko: ENJOY IT! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: qu4rtz}
     arranger:
       - {person: miyata-lefty-ryo}
     instrumental_of: original
+    duration: 254
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd39
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5MuZEBWyjnE
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: ENJOY IT！ (TV size)
@@ -51,6 +61,10 @@ recordings:
       - {artist: qu4rtz}
     arranger:
       - {person: miyata-lefty-ryo}
+    duration: 104
+    audio:
+      key: Bb
+      bpm: 120
     evidence:
       credits:
         status: derived
@@ -60,6 +74,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0d56a4d2-28c4-4e0f-9256-4af7e154564d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

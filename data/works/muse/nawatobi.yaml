@@ -16,6 +16,9 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: yoshihisa-fujita}
+    audio:
+      key: Bb
+      bpm: 76
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/watch?v=gQkBk9FUUo8
         checked: 2026-10-20
         note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6fa8f42d-b6fb-4b97-8563-2ab9e82a63d1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

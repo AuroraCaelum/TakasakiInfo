@@ -17,6 +17,9 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    audio:
+      key: C#m
+      bpm: 130
     evidence:
       credits:
         status: official
@@ -28,6 +31,11 @@ recordings:
         source: https://music.youtube.com/watch?v=o2S4jTNCuZI
         checked: 2026-10-20
         note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cb5d7eca-2def-4710-9b81-5f5e8ad901de
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -59,6 +67,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 225
+    audio:
+      key: C#m
+      bpm: 130
     evidence:
       credits:
         status: derived
@@ -68,6 +80,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cb5d7eca-2def-4710-9b81-5f5e8ad901de
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: Anemone heart (UMI Mix)
@@ -79,6 +101,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 225
+    audio:
+      key: C#m
+      bpm: 130
     evidence:
       credits:
         status: derived
@@ -88,6 +114,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GQoPPjW2LxD
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c6b0e7dc-86a8-43b1-a66b-b2f7275ad0c8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

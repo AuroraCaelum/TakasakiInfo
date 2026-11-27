@@ -16,18 +16,32 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: ren-mizunoya}
+    duration: 182
+    audio:
+      key: Bbm
+      bpm: 158
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd43.php
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6t6IBhYyAGe
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b2329f47-57cc-4c1d-b0ea-e9bebd4ac721
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
       ja: 真っ赤。 (Off Vocal)
       kana: まっか。 (オフボーカル)
       rom: Makka. (Off Vocal)
-      ko: 새빨간. (Off Vocal)
+      ko: 새빨개. (Off Vocal)
     version: Off Vocal
     arranger:
       - {person: ren-mizunoya}

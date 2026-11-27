@@ -1,11 +1,50 @@
 id: nijigasaki-high-school-idol-club
 kind: group
-projects: [nijigasaki, liella]
+projects: [nijigasaki]
 names:
   ja: 虹ヶ咲学園スクールアイドル同好会
   kana: にじがさきがくえんスクールアイドルどうこうかい
   rom: Nijigasaki High School Idol Club
   ko: 니지가사키 학원 스쿨 아이돌 동호회
+lineups:
+  - until: 2020-07-30
+    members:
+      - nijigasaki/ayumu-uehara
+      - nijigasaki/kasumi-nakasu
+      - nijigasaki/shizuku-osaka
+      - nijigasaki/karin-asaka
+      - nijigasaki/ai-miyashita
+      - nijigasaki/kanata-konoe
+      - nijigasaki/setsuna-yuki
+      - nijigasaki/emma-verde
+      - nijigasaki/rina-tennoji
+  - from: 2020-07-31
+    until: 2021-08-29
+    members:
+      - nijigasaki/ayumu-uehara
+      - nijigasaki/kasumi-nakasu
+      - nijigasaki/shizuku-osaka
+      - nijigasaki/karin-asaka
+      - nijigasaki/ai-miyashita
+      - nijigasaki/kanata-konoe
+      - nijigasaki/setsuna-yuki
+      - nijigasaki/emma-verde
+      - nijigasaki/rina-tennoji
+      - nijigasaki/shioriko-mifune
+  - from: 2021-08-30
+    members:
+      - nijigasaki/ayumu-uehara
+      - nijigasaki/kasumi-nakasu
+      - nijigasaki/shizuku-osaka
+      - nijigasaki/karin-asaka
+      - nijigasaki/ai-miyashita
+      - nijigasaki/kanata-konoe
+      - nijigasaki/setsuna-yuki
+      - nijigasaki/emma-verde
+      - nijigasaki/rina-tennoji
+      - nijigasaki/shioriko-mifune
+      - nijigasaki/mia-taylor
+      - nijigasaki/lanzhu-zhong
 evidence:
   names.ja:
     status: official
@@ -24,3 +63,8 @@ evidence:
   names.kana:
     status: derived
     note: '읽기가 하나뿐이라 자동 승인: rom대로(虹ヶ咲学園 = にじがさきがくえん, 승인된 곡명 읽기와 같음) (D58, 2026-11-11)'
+  lineups:
+    status: established
+    source: https://bushiroad.com/media/12453
+    checked: 2026-11-27
+    note: "기간 경계는 멤버로 처음 등장한 날(사용자 결정 2026-11-27, D64): 三船栞子 2020-07-31(スクスタ 메인 스토리 17장 공개, 부시로드 보도자료 2020-08-03 「ストーリー17章にて…10人目のスクールアイドルとして加入」), ミア・テイラー·鐘 嵐珠 2021-08-30(スクスタ 30장 공개, https://loveliveforever.blog.jp/archives/38605748.html·Boom App, 공식 가입 발표는 8/31). 高咲侑는 공식 그룹 크레딧(「KAGAYAKI Don't forget!」 등 12명)에 없어 넣지 않음"

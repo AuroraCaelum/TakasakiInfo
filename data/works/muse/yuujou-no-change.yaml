@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: tron-lm}
+    duration: 254
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd01
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: tron-lm}
     instrumental_of: original
+    duration: 254
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_DY86FQB61Zb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 友情ノーチェンジ (UMI MIX)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cc4820da-55fb-42d4-a1ee-05617ac22fe0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: 友情ノーチェンジ (KOTORI Mix)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0259da08-c523-4f47-b2c9-c0e9c327564f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: 友情ノーチェンジ (HONOKA Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=41742510-714f-4e55-851c-1781431357a9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: bgm
     kind: instrumental
     title:
@@ -108,6 +162,7 @@ recordings:
       rom: Yuujou No Change (BGM)
       ko: 우정 노 체인지 (BGM)
     version: BGM
+    duration: 89
     evidence:
       credits:
         status: derived
@@ -117,6 +172,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 友情ノーチェンジ (NOZOMI Mix)
@@ -128,6 +188,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -137,6 +201,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4206b73a-af2b-438d-99b9-d43a259a0d70
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: 友情ノーチェンジ (NICO Mix)
@@ -148,6 +222,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -157,6 +235,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8502d446-0355-4ef8-9dee-623490d30ef3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 友情ノーチェンジ (MAKI Mix)
@@ -168,6 +256,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -177,6 +269,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=dd3300b4-3178-4cbb-ad6c-573bcc0cdb7e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 友情ノーチェンジ (ELI Mix)
@@ -188,6 +290,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -197,6 +303,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=45a224ff-8460-4bae-b473-4bbdb288549f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 友情ノーチェンジ (RIN Mix)
@@ -208,6 +324,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -217,6 +337,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7f13ca4d-f85a-4b82-9757-f2b56b0cadce
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: 友情ノーチェンジ (HANAYO Mix)
@@ -228,6 +358,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: tron-lm}
+    duration: 254
+    audio:
+      key: Ab
+      bpm: 140
     evidence:
       credits:
         status: derived
@@ -237,6 +371,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=85a9697b-7cf0-4fd3-b41a-79919a87fc3c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

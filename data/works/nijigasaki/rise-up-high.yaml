@@ -16,11 +16,25 @@ recordings:
       - {character: nijigasaki/shizuku-osaka}
     arranger:
       - {person: hidefumi-kenmochi}
+    duration: 215
+    audio:
+      key: Em
+      bpm: 130
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=25aec7b2-7aae-4334-bf0b-d818da14a9ff
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: hidefumi-kenmochi}
     instrumental_of: original
+    duration: 215
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: movie-size
     title:
       ja: Rise Up High! (MOVIE size)
@@ -51,6 +71,10 @@ recordings:
       - {character: nijigasaki/shizuku-osaka}
     arranger:
       - {person: hidefumi-kenmochi}
+    duration: 99
+    audio:
+      key: Em
+      bpm: 130
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=74f92ec5-4bac-428d-9aad-cb40bd8df011
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

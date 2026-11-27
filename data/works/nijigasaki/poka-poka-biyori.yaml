@@ -23,11 +23,17 @@ recordings:
       - {character: nijigasaki/lanzhu-zhong}
     arranger:
       - {person: ginnojo-hoshi}
+    duration: 221
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/bd_movie.php
         checked: 2026-10-27
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GuEzt023Z7G
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

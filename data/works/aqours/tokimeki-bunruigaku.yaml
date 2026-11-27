@@ -16,6 +16,10 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: masashi-kanasaki}
+    duration: 290
+    audio:
+      key: Eb
+      bpm: 120
     external_ids:
       isrc: JPI101600922
     evidence:
@@ -23,6 +27,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4TQ0Gpy6N2P
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1b6f0f5b-9970-42eb-bacb-55362071b0dd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,16 +45,20 @@ recordings:
       rom: Tokimeki Bunruigaku (Off Vocal)
       ko: 두근거림 분류학 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: azalea}
     arranger:
       - {person: masashi-kanasaki}
     instrumental_of: original
+    duration: 292
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4TQ0Gpy6N2P
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -19,6 +19,10 @@ recordings:
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 257
+    audio:
+      key: Ab
+      bpm: 205
     external_ids:
       isrc: JPI101602756
     evidence:
@@ -32,6 +36,16 @@ recordings:
         source: https://musicbrainz.org/release/a7a1096c-eb1a-4cb5-9e1c-ad534b42f80b
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b207f5f3-1243-4921-b88a-0ec540789906
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -40,10 +54,6 @@ recordings:
       rom: G Senjou no Cinderella (Off Vocal)
       ko: G선상의 신데렐라 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/kanan-matsuura}
-      - {character: aqours/dia-kurosawa}
-      - {character: aqours/mari-ohara}
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
@@ -63,33 +73,75 @@ recordings:
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 257
+    audio:
+      key: Ab
+      bpm: 205
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd76
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b207f5f3-1243-4921-b88a-0ec540789906
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 258
+    audio:
+      key: Ab
+      bpm: 205
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd77
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=16883d87-fad4-401a-b961-65e41d999dcd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: ramseeni}
       - {person: takayuki-ishikura}
+    duration: 258
+    audio:
+      key: Ab
+      bpm: 205
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd80
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1b65cd05-3110-4d46-ac08-0cf2767140ff
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

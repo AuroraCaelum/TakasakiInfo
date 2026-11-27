@@ -16,11 +16,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yoshiaki-fujisawa}
+    duration: 295
+    audio:
+      key: Em
+      bpm: 135
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd08.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pk2cP0xaGZa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2a5b8b53-332a-4e1e-9899-95ca378e3d4d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,8 +43,6 @@ recordings:
       rom: Matataki no Saki e (Off Vocal)
       ko: 반짝임의 너머로 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: yoshiaki-fujisawa}
     instrumental_of: original

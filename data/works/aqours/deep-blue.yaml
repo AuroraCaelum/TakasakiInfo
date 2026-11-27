@@ -16,11 +16,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: r-o-n}
+    duration: 264
+    audio:
+      key: C
+      bpm: 135
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd86
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IExcXSGfQmZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=931a4098-ac64-423c-84a5-dff459aded26
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: r-o-n}
     instrumental_of: original
+    duration: 264
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IExcXSGfQmZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: Deep Blue (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -54,6 +74,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 270
     evidence:
       credits:
         status: derived
@@ -63,6 +84,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

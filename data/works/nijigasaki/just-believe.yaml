@@ -18,11 +18,25 @@ recordings:
     arranger:
       - {person: ygarshy}
       - {person: passion-king}
+    duration: 246
+    audio:
+      key: F#m
+      bpm: 93
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd15
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0b5b1dce-94e9-4fb8-a681-d4e9209796ab
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 12nin-ver
     title:
       ja: Just Believe!!! (12人Ver.)
@@ -35,12 +49,26 @@ recordings:
     arranger:
       - {person: ygarshy}
       - {person: passion-king}
+    duration: 245
+    audio:
+      key: F#m
+      bpm: 186
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Just_Believe!!!
         checked: 2026-10-19
         note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 ygarshy, PASSiON KiNG. Fandom 문서의 크레딧·트랙
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/797AE5T5YMIbez2bEyVWWe
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -49,8 +77,6 @@ recordings:
       rom: Just Believe!!! (12nin Ver.) [Off Vocal]
       ko: Just Believe!!! (12인 Ver.) [Off Vocal]
     version: Off Vocal
-    performers:
-      - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: ygarshy}
       - {person: passion-king}
@@ -73,6 +99,7 @@ recordings:
       - {person: ygarshy}
       - {person: passion-king}
     instrumental_of: original
+    duration: 246
     evidence:
       credits:
         status: official
@@ -81,6 +108,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

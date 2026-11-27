@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 269
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kyo-takada}
     instrumental_of: original
+    duration: 269
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: 夏色えがおで1,2,Jump! (UMI MIX)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1f4ff370-3ea7-493c-9202-1e78fade3298
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: 夏色えがおで1,2,Jump! (KOTORI MIX)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=057d968b-a903-4252-8f49-3f5922eceaeb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: 夏色えがおで1,2,Jump! (HONOKA Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=afe21889-bb45-447b-9f93-9ed29175bcde
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: 夏色えがおで1,2,Jump! (NOZOMI Mix)
@@ -111,6 +165,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 85
     evidence:
       credits:
         status: derived
@@ -120,6 +178,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3bfbb7af-3d6a-49f0-899e-fcb9ad23e41c
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: 夏色えがおで1,2,Jump! (NICO Mix)
@@ -131,6 +199,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -140,6 +212,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5ceb65af-9e88-41c8-a790-edcd29f66393
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 夏色えがおで1,2,Jump! (MAKI Mix)
@@ -151,6 +233,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -160,6 +246,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=63e71636-912b-4f7a-be70-ab7074e70fd0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 夏色えがおで1,2,Jump! (ELI Mix)
@@ -171,6 +267,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -180,6 +280,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eea71012-b4e9-4ebf-9383-e93863c6c159
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 夏色えがおで1,2,Jump! (RIN Mix)
@@ -191,6 +301,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -200,6 +314,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=261d31bb-2cae-4c42-ae84-3d324b0ddad7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: 夏色えがおで1,2,Jump! (HANAYO Mix)
@@ -211,6 +335,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 267
+    audio:
+      key: Ab
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -220,6 +348,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b8f71f46-2098-4872-8cef-b92faf4644f3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

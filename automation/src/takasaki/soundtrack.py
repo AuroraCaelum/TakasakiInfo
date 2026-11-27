@@ -82,6 +82,7 @@ OVERRIDES: dict[tuple[str, int, int], dict[str, Any]] = {
         "as_printed": True},
     # the film's 「As Time Goes By」 (Herman Hupfeld), a cover sung by a singer of the film: a work of external (D50)
     ("https://www.lovelive-anime.jp/otonokizaka/release.php#cd57", 1, 12): {"project": "external"},
+    ("https://www.lovelive-anime.jp/otonokizaka/release.php#cd57", 1, 24): {"work": "external/as-time-goes-by"},  # its リフレイン
     # the film's two songs run together as one track: stored as PHOENIX's MOVIE size, printed as the album prints it
     ("https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68", 1, 19): {
         "work": "nijigasaki/phoenix", "printed": ("PHOENIX (MOVIE size)～Stellar Stream (MOVIE size)",
@@ -735,6 +736,11 @@ def release(imp: Any, obs: Any, group_id: str | None) -> None:
             if theme:
                 pr.version = theme
                 pr.notes.remove(theme)
+        if work is None and "project" in ov:  # a cover stored before: the work of external, found by its id
+            rom = read_title(ct.en).base if ct is not None and ct.en else ft.rom if ft else ""
+            slug = slugify(halfwidth(unicodedata.normalize("NFKC", rom or "")))
+            known = imp.ds.works.get(f"{ov['project']}/{slug}") if slug else None
+            work = known if known is not None and match_key(known.title.ja) == match_key(pr.base) else None
         if work is None and (t.credits or t.performers or ct is not None and ct.singers):  # sung: a song only here
             rom = read_title(ct.en).base if ct is not None and ct.en else ft.rom if ft else ""
             seed = {"title": {"ja": pr.base, "rom": halfwidth(unicodedata.normalize("NFKC", rom)), "ko": _rom_title(pr.base)},

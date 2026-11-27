@@ -17,11 +17,25 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 201
+    audio:
+      key: Bb
+      bpm: 189
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd12
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZHBKOLzW0Td
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=35ea362b-d149-4945-ab5c-bfbac845fe8d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +47,7 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     instrumental_of: original
+    duration: 201
     evidence:
       credits:
         status: official
@@ -41,6 +56,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZHBKOLzW0Td
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 乙女式れんあい塾 (NOZOMI Mix)
@@ -52,6 +72,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 201
+    audio:
+      key: Bb
+      bpm: 189
     evidence:
       credits:
         status: official
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=35ea362b-d149-4945-ab5c-bfbac845fe8d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: 乙女式れんあい塾 (NICO Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 201
+    audio:
+      key: Bb
+      bpm: 189
     evidence:
       credits:
         status: official
@@ -79,6 +117,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=35ea362b-d149-4945-ab5c-bfbac845fe8d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
 evidence:
   title:
     status: derived

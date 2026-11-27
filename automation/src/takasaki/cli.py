@@ -341,6 +341,87 @@ def cmd_manual(args: argparse.Namespace) -> int:
     return 1 if report.conflicts else 0
 
 
+def _stamp(ds) -> None:  # type: ignore[no-untyped-def]
+    assert ds.meta is not None
+    ds.meta.db_last_update = dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def cmd_audio_duration(args: argparse.Namespace) -> int:
+    """Lengths of recordings: YouTube Music albums already matched, then iTunes and Deezer (D61)."""
+    from .audio import Http, apply_duration, duration_review, plan_durations
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    cache = root / "automation" / ".cache"
+    shops = None if args.ytm_only else (Http(cache / "itunes", pause=3.0, offline=args.offline),
+                                        Http(cache / "deezer", pause=0.3, offline=args.offline))
+    plan = plan_durations(ds, cache / "ytm", shops, log=lambda s: print(s, file=sys.stderr, flush=True))
+    by_source: dict[str, int] = {}
+    for c in plan.values.values():
+        by_source[c.source] = by_source.get(c.source, 0) + 1
+    for rid, cs in plan.conflicts.items():
+        print(f"review  {rid}: " + ", ".join(f"{c.seconds}s ({c.source} {c.release})" for c in cs))
+    if args.verbose:
+        for rid in plan.missing:
+            print(f"missing {rid}")
+    if args.apply:
+        today = dt.date.today()
+        for rid, c in plan.values.items():
+            apply_duration(ds, rid, c, today)
+        for rid, cs in plan.conflicts.items():
+            _write_review(review / f"DUR-{rid.replace('/', '-').replace('#', '--')}.yaml", duration_review(ds, rid, cs))
+        if plan.values:
+            _stamp(ds)
+            save_dataset(ds, data)
+    verb = "set" if args.apply else "would set"
+    print(f"{verb} {len(plan.values)} lengths ({', '.join(f'{k} {v}' for k, v in sorted(by_source.items()))}), "
+          f"review {len(plan.conflicts)}, missing {len(plan.missing)}")
+    return 0
+
+
+def cmd_audio_bpm(args: argparse.Namespace) -> int:
+    """Key and tempo from ReccoBeats (D61)."""
+    from .audio import NOTE_AUDIO, ReccoBeats, apply_audio, audio_review, plan_audio, wants_audio
+
+    root, data, review = _paths()
+    ds = load_dataset(data)
+    client = ReccoBeats(root / "automation" / ".cache" / "reccobeats", offline=args.offline)
+    targets = [(w, r) for w in sorted(ds.works.values(), key=lambda w: w.id) for r in w.recordings
+               if wants_audio(w, r) and r.audio is None and r.performers  # a cue has no singer to find it by
+               and (not args.project or w.project == args.project) and (not args.work or w.id in args.work)]
+    if args.limit:
+        targets = targets[:args.limit]
+    log = lambda s: print(s, file=sys.stderr, flush=True)  # noqa: E731
+    log(f"{len(targets)} recordings")
+    plan = plan_audio(client, ds, targets, log)
+    today = dt.date.today()
+    found = [mt for mt in plan if mt.audio]
+    reviews = [mt for mt in plan if not mt.audio and mt.candidates]
+    none: dict[str, int] = {}
+    for mt in plan:
+        if mt.audio:
+            print(f"match   {mt.rid}: {mt.audio.key} {mt.audio.bpm} BPM ({len(mt.candidates)} track(s))")
+        elif mt.candidates:
+            print(f"review  {mt.rid}: " + "; ".join(f"{c.get('key')} {c.get('bpm')}" for c in mt.candidates))
+        else:
+            none[mt.reason] = none.get(mt.reason, 0) + 1
+            if args.verbose:
+                print(f"none    {mt.rid}: {mt.reason}")
+    if args.apply:
+        for mt in found:
+            assert mt.audio is not None
+            apply_audio(ds, mt.rid, mt.audio, mt.url, today,
+                        NOTE_AUDIO + (f"; 맞춘 트랙 중 다수({mt.reason})의 값" if mt.reason else ""))
+        for mt in reviews:
+            _write_review(review / f"AUD-{mt.rid.replace('/', '-').replace('#', '--')}.yaml", audio_review(ds, mt))
+        if found:
+            _stamp(ds)
+            save_dataset(ds, data)
+    verb = "set" if args.apply else "would set"
+    print(f"{len(targets)} recordings: {verb} {len(found)}, review {len(reviews)}, not found "
+          + ", ".join(f"{k} {v}" for k, v in sorted(none.items())))
+    return 0
+
 def cmd_migrate(args: argparse.Namespace) -> int:
     from .migrate_legacy import migrate
     from .report import write_migration_report
@@ -415,6 +496,22 @@ def main(argv: list[str] | None = None) -> int:
     mn.add_argument("file", nargs="?", default=str(Path(__file__).resolve().parents[2] / "manual" / "releases.yaml"))
     mn.add_argument("--apply", action="store_true", help="write data/ and the new-names review files")
     mn.set_defaults(func=cmd_manual)
+    au = sub.add_parser("audio", help="length, key and tempo of recordings (D61)")
+    au_sub = au.add_subparsers(dest="audio_cmd", required=True)
+    ad = au_sub.add_parser("duration", help="lengths from YouTube Music albums, then iTunes and Deezer")
+    ad.add_argument("--apply", action="store_true", help="write data/ and the DUR-* review files")
+    ad.add_argument("--ytm-only", action="store_true", help="only the cached YouTube Music albums (no network)")
+    ad.add_argument("--offline", action="store_true", help="iTunes and Deezer from the cache only")
+    ad.add_argument("-v", "--verbose", action="store_true", help="list the recordings left without a length")
+    ad.set_defaults(func=cmd_audio_duration)
+    ab = au_sub.add_parser("bpm", help="key and tempo from ReccoBeats (Spotify tracks matched by singer, title, length)")
+    ab.add_argument("--apply", action="store_true", help="write data/ and the AUD-* review files")
+    ab.add_argument("--project")
+    ab.add_argument("--work", action="append", help="work id (repeatable)")
+    ab.add_argument("--limit", type=int, help="only the first N recordings")
+    ab.add_argument("--offline", action="store_true", help="cached responses only")
+    ab.add_argument("-v", "--verbose", action="store_true", help="list the recordings no track was found for")
+    ab.set_defaults(func=cmd_audio_bpm)
     mg = sub.add_parser("migrate", help="one-time import of the legacy files into data/ (§12)")
     mg.add_argument("--force", action="store_true")
     mg.set_defaults(func=cmd_migrate)

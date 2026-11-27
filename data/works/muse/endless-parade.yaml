@@ -16,12 +16,18 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kana-yabuki}
+    duration: 176
     evidence:
       credits:
         status: established
         source: https://web.archive.org/web/20140209202922/http://www.lovelive-anime.jp/sp_4thlive.html
         checked: 2026-10-27
         note: "μ's →NEXT LoveLive! 2014 「音ノ木坂学院体験入学セット付きプレミアムチケット」 특전 録りおろし新曲収録CD(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LAPP-1054·발송일·크레딧은 공식 미게재: Fandom·ja.wikipedia·j-lyric. 같은 특전의 スペシャルドラマCD는 날짜·품번을 몰라 넣지 않음"
+      duration:
+        status: official
+        source: https://music.apple.com/jp/album/endless-parade-single/1824200844
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:

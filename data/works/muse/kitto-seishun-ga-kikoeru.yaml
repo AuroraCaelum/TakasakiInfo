@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 245
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd20
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Mskv3k3fzFG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: kyo-takada}
     instrumental_of: original
+    duration: 248
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Mskv3k3fzFG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: きっと青春が聞こえる (HONOKA Mix)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -59,6 +75,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cceefc80-aa08-40fd-82d3-7fb18a8595f1
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: きっと青春が聞こえる (ELI Mix)
@@ -70,6 +96,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -78,6 +108,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e1d75ca2-6a07-45a8-8b5f-5b11831b27ed
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: きっと青春が聞こえる (KOTORI Mix)
@@ -89,6 +129,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -97,6 +141,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8c90aae8-c912-4b34-a07e-1052bd8bd1fd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: きっと青春が聞こえる (UMI Mix)
@@ -108,6 +162,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -116,6 +174,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c9533a37-6cc0-4d48-8a8b-dd84e0ba0f71
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: きっと青春が聞こえる (RIN Mix)
@@ -127,6 +195,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -135,6 +207,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=04410b27-f99e-4c9e-94c3-cc4d1d728cd6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: きっと青春が聞こえる (MAKI Mix)
@@ -146,6 +228,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -154,6 +240,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48cf9907-d1c0-4412-9d76-0fe3115790c9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: きっと青春が聞こえる (NOZOMI Mix)
@@ -165,6 +261,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -173,6 +273,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d74156b6-0d5a-47ad-a9b5-c1e0fac67e85
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: きっと青春が聞こえる (HANAYO Mix)
@@ -184,6 +294,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -192,6 +306,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=036a1ea5-9113-4b67-a466-53e7f9462826
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: きっと青春が聞こえる (NICO Mix)
@@ -203,6 +327,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 248
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -211,6 +339,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=025d9323-7128-46bb-a56c-7d47bcc1676d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-kotohonoumi
     title:
       ja: きっと青春が聞こえる (TVサイズ・ことほのうみ)
@@ -224,6 +362,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -232,6 +374,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=000ec57b-e5ea-4d0f-841d-112025a8912c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-makirinpana
     title:
       ja: きっと青春が聞こえる (TVサイズ・まきりんぱな)
@@ -245,6 +397,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kyo-takada}
+    duration: 102
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -253,6 +409,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2150bc8e-3ed0-4638-8647-9146cfb24178
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-nico-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・にこソロ)
@@ -264,6 +430,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -272,6 +442,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9810f6fd-1998-43bc-85d5-5ae83c4731ab
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-nicorinpanamakikotohonoumi
     title:
       ja: きっと青春が聞こえる (TVサイズ・にこりんぱなまきことほのうみ)
@@ -289,6 +469,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -297,6 +481,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9810f6fd-1998-43bc-85d5-5ae83c4731ab
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-elinozo
     title:
       ja: きっと青春が聞こえる (TVサイズ・えりのぞ)
@@ -309,6 +503,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 82
     evidence:
       credits:
         status: official
@@ -317,6 +515,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5ae642d4-090b-4fd7-aca5-40737ad68788
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-kotori-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・ことりソロ)
@@ -328,6 +536,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -336,6 +548,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=000ec57b-e5ea-4d0f-841d-112025a8912c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-honoka-solo
     title:
       ja: きっと青春が聞こえる (TVサイズ・穂乃果ソロ)
@@ -347,6 +569,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kyo-takada}
+    duration: 101
+    audio:
+      key: C
+      bpm: 165
     evidence:
       credits:
         status: official
@@ -355,6 +581,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=000ec57b-e5ea-4d0f-841d-112025a8912c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size
     title:
       ja: きっと青春が聞こえる (TVサイズ)
@@ -366,6 +602,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: kyo-takada}
+    duration: 101
     evidence:
       credits:
         status: official
@@ -374,6 +611,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OZASZOUJcE1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

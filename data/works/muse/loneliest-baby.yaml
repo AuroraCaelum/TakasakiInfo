@@ -58,6 +58,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -67,6 +71,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TZOmuqknDex
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=688f7a28-4717-4f68-b981-6a8461902bb0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: LONELIEST BABY (ELI Mix)
@@ -78,6 +92,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -87,6 +105,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_I3N24UM9dTB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=63bbea88-0265-4b6f-a049-c04fb2e7b719
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: LONELIEST BABY (KOTORI Mix)
@@ -98,6 +126,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: Ebm
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -107,6 +139,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e4b62d2d-75df-4a8f-9f24-7df4545202c3
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: LONELIEST BABY (UMI Mix)
@@ -118,6 +160,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -127,6 +173,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GQoPPjW2LxD
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2493ecb4-6f0e-4b28-abac-71b88097007d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: LONELIEST BABY (RIN Mix)
@@ -138,6 +194,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -147,6 +207,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JpcE6eJWYoF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1147d95a-1f27-4a2e-a00e-bff315d588f7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: LONELIEST BABY (MAKI Mix)
@@ -158,6 +228,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -167,6 +241,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GMcJNQ16j0Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4c951f1b-be99-4e02-b20d-08022f989fa5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: LONELIEST BABY (NOZOMI Mix)
@@ -178,6 +262,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -187,6 +275,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZxuaIP0Vd85
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8d43a764-c43f-42d0-b988-57a52044b781
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: LONELIEST BABY (HANAYO Mix)
@@ -198,6 +296,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -207,6 +309,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lham1FEyj0z
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7020dffa-293c-42f9-a037-a26ff54d20b9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: LONELIEST BABY (NICO Mix)
@@ -218,6 +330,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 298
+    audio:
+      key: B
+      bpm: 132
     evidence:
       credits:
         status: derived
@@ -227,6 +343,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_qhkaqyyA2L8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=db52fc6a-649e-483a-ac60-51dba818f58c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

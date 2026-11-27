@@ -18,12 +18,26 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takuya-watanabe}
+    duration: 267
+    audio:
+      key: Bb
+      bpm: 191
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd08
         checked: 2026-10-19
         note: '가창자: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bhAbbaY5jvF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27af8d04-c59c-4824-aaab-dc0f2f4024d4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,49 +46,93 @@ recordings:
       rom: Kimetayo Hand in Hand (Off Vocal)
       ko: 결정했어 Hand in Hand (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/chika-takami}
-      - {character: aqours/riko-sakurauchi}
-      - {character: aqours/you-watanabe}
     arranger:
       - {person: takuya-watanabe}
     instrumental_of: original
+    duration: 267
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd08
         checked: 2026-10-19
         note: '가창자: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bhAbbaY5jvF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: takuya-watanabe}
+    duration: 267
+    audio:
+      key: Bb
+      bpm: 191
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0f6103bb-148b-4265-be6f-c2c5a69e97e0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takuya-watanabe}
+    duration: 267
+    audio:
+      key: Bb
+      bpm: 191
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27af8d04-c59c-4824-aaab-dc0f2f4024d4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takuya-watanabe}
+    duration: 266
+    audio:
+      key: Bb
+      bpm: 191
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=27af8d04-c59c-4824-aaab-dc0f2f4024d4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 15th-tribute
     performers:
       - {character: external/cure-idol}
@@ -82,12 +140,18 @@ recordings:
       - {character: external/cure-kyun-kyun}
     arranger:
       - {person: misaki-umase}
+    duration: 268
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: '가창: 공식 페이지. 편곡: 공식 미게재(공식 페이지는 원곡 크레딧만 실음), 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json, Apple Music)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_rmrf3XweRP8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: 決めたよHand in Hand (TVサイズ)
@@ -101,6 +165,10 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takuya-watanabe}
+    duration: 105
+    audio:
+      key: Eb
+      bpm: 95
     evidence:
       credits:
         status: derived
@@ -110,6 +178,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0cfjJVpigob
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5e8d06ab-19d7-44d1-bf12-ce9af6d5ef7a
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: 決めたよHand in Hand (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -124,6 +202,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-21
+    duration: 146
     evidence:
       credits:
         status: derived
@@ -133,6 +212,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -19,11 +19,25 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park}
     strings_arranger:
       - {person: shu-kanematsu}
+    duration: 224
+    audio:
+      key: C
+      bpm: 106
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd19.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_kCZboPAjHfv
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bcc12ae9-1be3-49ad-b91b-12b23c971a20
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,8 +46,6 @@ recordings:
       rom: Oi kakeru Yume no Saki de (Off Vocal)
       ko: 뒤쫓아가는 꿈 너머에서 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: singo-kubota, affiliation: Jazzin'park}
     strings_arranger:
@@ -151,6 +163,9 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: C
+      bpm: 106
     evidence:
       credits:
         status: derived
@@ -160,6 +175,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bcc12ae9-1be3-49ad-b91b-12b23c971a20
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: episode-7-ver
     title:
       ja: 追いかける夢の先で 〜第7話Ver.〜
@@ -243,6 +263,9 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: C
+      bpm: 106
     evidence:
       credits:
         status: derived
@@ -252,6 +275,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bcc12ae9-1be3-49ad-b91b-12b23c971a20
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: episode-11-ver
     title:
       ja: 追いかける夢の先で 〜第11話Ver.〜
@@ -287,6 +315,9 @@ recordings:
       - {person: singo-kubota, affiliation: Jazzin'park}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: C
+      bpm: 106
     evidence:
       credits:
         status: derived
@@ -296,6 +327,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bcc12ae9-1be3-49ad-b91b-12b23c971a20
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

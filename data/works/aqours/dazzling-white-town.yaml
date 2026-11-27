@@ -16,11 +16,25 @@ recordings:
       - {artist: saint-snow}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 263
+    audio:
+      key: Em
+      bpm: 133
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JChpVFPtrLs
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e88d8f9d-32d5-444d-9d78-c37b6b3cb1ee
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,11 +43,10 @@ recordings:
       rom: Dazzling White Town (Off Vocal)
       ko: Dazzling White Town (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: saint-snow}
     arranger:
       - {person: kazunori-watanabe}
     instrumental_of: original
+    duration: 268
     evidence:
       credits:
         status: official
@@ -42,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JChpVFPtrLs
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

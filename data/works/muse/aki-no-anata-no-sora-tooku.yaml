@@ -16,11 +16,25 @@ recordings:
       - {artist: lily-white}
     arranger:
       - {person: takeshi-masuda}
+    duration: 220
+    audio:
+      key: Am
+      bpm: 156
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_k80KtsXCvUK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=93621d01-f098-499c-8bc6-2d74ccf9c761
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: takeshi-masuda}
     instrumental_of: original
+    duration: 220
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_k80KtsXCvUK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 秋のあなたの空遠く (NOZOMI Mix)
@@ -51,6 +71,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: takeshi-masuda}
+    duration: 220
+    audio:
+      key: Am
+      bpm: 156
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=99450a81-27e2-4abb-9604-e335088e94c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 秋のあなたの空遠く (RIN Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: takeshi-masuda}
+    duration: 220
+    audio:
+      key: Am
+      bpm: 156
     evidence:
       credits:
         status: derived
@@ -80,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=48d1d1d4-be6e-457a-94b1-556f1bad6a57
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: 秋のあなたの空遠く (UMI Mix)
@@ -91,6 +139,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: takeshi-masuda}
+    duration: 220
+    audio:
+      key: Am
+      bpm: 156
     evidence:
       credits:
         status: derived
@@ -100,6 +152,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=24da5f66-e957-4d3b-80c4-cff365664c7d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

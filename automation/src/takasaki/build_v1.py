@@ -16,6 +16,7 @@ from pydantic import BaseModel
 from ruamel.yaml import YAML
 
 from . import model as m
+from .audio import effective_audio, in_scope, moods, representative
 from .build_legacy import YT, edition_ids, edition_tracks, main_videos, own_video, release_title, track_title
 from .store import LAYOUT, Dataset, _plain
 
@@ -66,7 +67,24 @@ RECORDING_FIELDS: dict[str, tuple[str, str]] = {
     "external_ids": ("map of string", "Ids elsewhere (`isrc`); null when none."),
     "main_link": ("string", "Main YouTube Music URL: the earliest released track of the recording that has a video "
                             "of its own; null when none has."),
+    "duration": ("integer", "Length in seconds; null when not known (D61)."),
+    "audio": ("object", "Key and tempo: `key`, `bpm`, `time_signature` as the source gives them, `mood` (labels made "
+                        "from them by rule: `upbeat`, `slow`, `bright`, `wistful`), `from` (the recording they belong to, when an off vocal takes its "
+                        "vocal recording's); null when not known (D61)."),
+    "representative": ("boolean", "The recording its work is shown with: the first studio vocal recording, for a "
+                                  "soundtrack cue the first instrumental (D61)."),
 }
+
+
+def audio_view(work: m.Work, rec: m.Recording) -> dict[str, Any] | None:
+    """A recording's key and tempo with their mood labels; an off vocal takes its vocal recording's (D61)."""
+    a, src = effective_audio(work, rec)
+    if a is None:
+        return None
+    out: dict[str, Any] = a.model_dump(exclude_none=True) | {"mood": moods(a)}
+    if src is not rec:
+        out["from"] = f"{work.id}#{src.id}"
+    return out
 
 
 def _dump(ent: BaseModel) -> dict[str, Any]:
@@ -155,6 +173,7 @@ def recording_view(ds: Dataset) -> list[dict[str, Any]]:
     mains = main_videos(ds)
     out = []
     for work in sorted(ds.works.values(), key=lambda w: w.id):
+        rep = representative(work)
         for rec in work.recordings:
             rid = f"{work.id}#{rec.id}"
             credits = rec.credits_override or work.credits
@@ -171,6 +190,9 @@ def recording_view(ds: Dataset) -> list[dict[str, Any]]:
                 "live": rec.live.model_dump(mode="json") if rec.live else None,
                 "external_ids": rec.external_ids or None,
                 "main_link": YT + mains[rid] if rid in mains else None,
+                "duration": rec.duration,
+                "audio": audio_view(work, rec),
+                "representative": rec is rep,
             })
     return out
 
@@ -180,6 +202,7 @@ def quality(ds: Dataset, review_dir: Path | None = None) -> dict[str, Any]:
     tracks = track_view(ds)
     recs = [(w, r) for w in ds.works.values() for r in w.recordings]
     vocal = [(w, r) for w, r in recs if r.kind == "vocal"]
+    scoped = [(w, r) for w, r in recs if in_scope(w, r)]  # songs and cues, not drama (D61)
     names = [("person", p.names) for p in ds.persons.values()] + [("character", c.names) for c in ds.characters.values()] \
         + [("artist", a.names) for a in ds.artists.values()]
     rel_titles = [release_title(ds, r)[0] for r in ds.releases.values()]
@@ -207,6 +230,9 @@ def quality(ds: Dataset, review_dir: Path | None = None) -> dict[str, Any]:
             "names_with_ko": pct(sum(1 for _, n in names if n.ko), len(names)),
             "names_with_rom": pct(sum(1 for _, n in names if n.rom), len(names)),
             "persons_with_birthday": pct(sum(1 for p in ds.persons.values() if p.birthday), len(ds.persons)),
+            "recordings_with_duration": pct(sum(1 for w, r in scoped if r.duration), len(scoped)),
+            "recordings_with_key": pct(sum(1 for w, r in scoped if (effective_audio(w, r)[0] or m.Audio()).key), len(scoped)),
+            "recordings_with_bpm": pct(sum(1 for w, r in scoped if (effective_audio(w, r)[0] or m.Audio()).bpm), len(scoped)),
             "characters_with_birthday": pct(sum(1 for c in ds.characters.values() if c.birthday), len(ds.characters)),
             "release_titles_with_ko": pct(sum(1 for t in rel_titles if t.ko), len(rel_titles)),
             "release_titles_with_rom": pct(sum(1 for t in rel_titles if t.rom), len(rel_titles)),

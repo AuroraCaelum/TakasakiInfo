@@ -15,6 +15,10 @@ recordings:
     version: Orchestra Ver.
     performers:
       - {character: liella/kanon-shibuya}
+    duration: 49
+    audio:
+      key: F
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -24,14 +28,32 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_gtFNzsGRjAR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=81a600e8-8973-4261-bc00-b8ae80861cfc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: original
     performers:
       - {character: liella/kanon-shibuya}
+    audio:
+      key: F
+      bpm: 167
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-27
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=81a600e8-8973-4261-bc00-b8ae80861cfc
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

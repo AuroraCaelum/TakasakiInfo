@@ -17,11 +17,25 @@ recordings:
       - {character: nijigasaki/rina-tennoji}
     arranger:
       - {person: takayuki-yoshimura}
+    duration: 266
+    audio:
+      key: F
+      bpm: 109
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd34
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_fRfHONmXLl2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fe464cda-6020-408c-bcf7-dbb01724e11b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +47,7 @@ recordings:
     arranger:
       - {person: takayuki-yoshimura}
     instrumental_of: original
+    duration: 266
     evidence:
       credits:
         status: official
@@ -41,6 +56,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6N2qpkV6cC1
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

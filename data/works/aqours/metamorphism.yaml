@@ -16,6 +16,10 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: to-me}
+    duration: 194
+    audio:
+      key: Eb
+      bpm: 206
     external_ids:
       isrc: JPI102101219
     evidence:
@@ -23,6 +27,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RNVzFLeuft
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30330b0e-2986-47b7-aaf5-ff9fab13994b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

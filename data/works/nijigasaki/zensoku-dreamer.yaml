@@ -17,11 +17,25 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: shunsuke-harada}
+    duration: 259
+    audio:
+      key: F#
+      bpm: 174
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd17
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZK5hte8r3Ho
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a185cfa3-c460-4bca-a6c7-8556cf98db72
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,16 +44,20 @@ recordings:
       rom: Zensoku Dreamer (Off Vocal)
       ko: 전속 드리머 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: shunsuke-harada}
     instrumental_of: original
+    duration: 258
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd17
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZK5hte8r3Ho
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

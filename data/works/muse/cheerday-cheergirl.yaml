@@ -16,6 +16,9 @@ recordings:
       - {artist: printemps}
     arranger:
       - {person: hiroshi-sasaki}
+    audio:
+      key: G
+      bpm: 152
     evidence:
       credits:
         status: official
@@ -27,6 +30,11 @@ recordings:
         source: https://music.youtube.com/watch?v=7vC_N_pdLC0
         checked: 2026-10-20
         note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, namu'
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b969026f-27d5-43c6-b87b-dff4cf35183d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -58,6 +66,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 238
+    audio:
+      key: G
+      bpm: 152
     evidence:
       credits:
         status: derived
@@ -67,6 +79,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TZOmuqknDex
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fd6f1173-0a6f-4285-b092-1c95cc22a940
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: CheerDay CheerGirl! (KOTORI Mix)
@@ -78,6 +100,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 238
+    audio:
+      key: G
+      bpm: 152
     evidence:
       credits:
         status: derived
@@ -87,6 +113,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2ad1c8f1-e443-4e6c-ac7d-76092cc3f7f6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: CheerDay CheerGirl! (HANAYO Mix)
@@ -98,6 +134,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 238
+    audio:
+      key: G
+      bpm: 152
     evidence:
       credits:
         status: derived
@@ -107,6 +147,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lham1FEyj0z
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=75692250-3d90-4f20-9672-e7c67b2bc5d9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

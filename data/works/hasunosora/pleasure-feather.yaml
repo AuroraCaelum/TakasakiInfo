@@ -16,11 +16,25 @@ recordings:
       - {artist: hasuno-kyuujitsu}
     arranger:
       - {person: takeru-yoda}
+    duration: 257
+    audio:
+      key: C#
+      bpm: 130
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/14/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EPH05RwabWQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5b2f1c99-2bab-438d-ac95-7d55bf74a3f0
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: takeru-yoda}
     instrumental_of: original
+    duration: 257
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EPH05RwabWQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

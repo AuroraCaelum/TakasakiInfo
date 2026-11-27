@@ -18,11 +18,25 @@ recordings:
       - {artist: sunny-passion}
     arranger:
       - {person: na-zu-na}
+    duration: 239
+    audio:
+      key: F#
+      bpm: 140
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_uV6HDycrmas
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2c45de9e-cde0-445f-ac33-0fc69368de2f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,8 +45,6 @@ recordings:
       rom: Till Sunrise (Off Vocal)
       ko: Till Sunrise (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: sunny-passion}
     arranger:
       - {person: na-zu-na}
     instrumental_of: original

@@ -16,11 +16,17 @@ recordings:
       - {character: liella/kanon-shibuya}
     arranger:
       - {person: hinako-tsubakiyama}
+    duration: 263
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_h5XAYDWQxsz
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

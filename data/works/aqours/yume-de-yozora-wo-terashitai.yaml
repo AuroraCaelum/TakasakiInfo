@@ -21,12 +21,18 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: effy}
+    duration: 335
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd09
         checked: 2026-10-19
         note: '가창자: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_fFzxcnpzvrH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -35,82 +41,165 @@ recordings:
       rom: Yume De Yozora Wo Terashitai (Off Vocal)
       ko: 꿈으로 밤하늘을 비추고 싶어 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/chika-takami}
-      - {character: aqours/riko-sakurauchi}
-      - {character: aqours/you-watanabe}
-      - {character: aqours/yoshiko-tsushima}
-      - {character: aqours/hanamaru-kunikida}
-      - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: effy}
     instrumental_of: original
+    duration: 335
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd09
         checked: 2026-10-19
         note: '가창자: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_fFzxcnpzvrH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 335
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=850c6cd0-66cc-4c5f-869a-2ea02abc4151
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 335
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=207ae9be-0f38-4e69-8811-822d47e02e6c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 335
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9c95c69b-e7a1-4270-8e3b-ab46e4f37836
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 334
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4c3ce6e4-9cbd-428f-ab61-d6f415853006
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 334
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d7108624-5d22-4dfd-9973-3caf7752a049
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 334
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6308d7af-89d4-4f40-9dff-4b81695cac11
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: tv-size
     title:
       ja: 夢で夜空を照らしたい (TVサイズ)
@@ -127,6 +216,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: effy}
+    duration: 153
+    audio:
+      key: C
+      bpm: 92
     evidence:
       credits:
         status: derived
@@ -136,6 +229,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0cfjJVpigob
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=17d5d6b3-998c-4f1a-8138-a8c75b7c217c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: live-aqours-finale-2025-06-21
     title:
       ja: 夢で夜空を照らしたい (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -150,6 +253,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-21
+    duration: 160
     evidence:
       credits:
         status: derived
@@ -159,6 +263,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

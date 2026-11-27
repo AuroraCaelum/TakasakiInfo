@@ -16,11 +16,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: takuya-ohata}
+    duration: 245
+    audio:
+      key: D
+      bpm: 108
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_1UqjtphIt6a
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=85b02c28-afba-4cfa-8f95-f4bf0f7a938c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:

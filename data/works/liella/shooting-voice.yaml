@@ -1,5 +1,5 @@
-id: nijigasaki/shooting-voice
-project: nijigasaki
+id: liella/shooting-voice
+project: liella
 title:
   ja: Shooting Voice!!
   kana: シューティング・ボイス
@@ -16,11 +16,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yoshiaki-dewa}
+    duration: 279
+    audio:
+      key: G
+      bpm: 171
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0skRsLpuPMo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a7ce7fac-6f0e-4137-9378-df04443728a5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,22 +43,26 @@ recordings:
       rom: Shooting Voice!! (Off Vocal)
       ko: Shooting Voice!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: yoshiaki-dewa}
     instrumental_of: original
+    duration: 272
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0skRsLpuPMo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-liella-1st-gen-2025-08-10
     title:
       ja: Shooting Voice!! (1期生Ver.)
       kana: シューティング・ボイス (いっきせいヴァージョン)
-      rom: Shooting Voice!! (1期生Ver.)
-      ko: Shooting Voice!! (1期生Ver.)
+      rom: Shooting Voice!! (1st Generation Ver.)
+      ko: Shooting Voice!! (1기생 Ver.)
     version: 1期生Ver.
     performers:
       - {character: liella/kanon-shibuya}
@@ -66,12 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      title:
+        status: derived
+        checked: 2026-11-16
+        note: 'ja: 공식 페이지. rom: 공연명 Liella! First Generation LoveLive!의 Generation, 104期 Ver.→104th Ver.와 같은 서수. ko: 104기 Ver.와 같은 기생 표기'
   - id: live-liella-connect-the-stars-2025-08-11
     title:
       ja: Shooting Voice!! (2・3期生Ver.)
       kana: シューティング・ボイス (に・さんきせいヴァージョン)
-      rom: Shooting Voice!! (2・3期生Ver.)
-      ko: Shooting Voice!! (2・3期生Ver.)
+      rom: Shooting Voice!! (2nd・3rd Generation Ver.)
+      ko: Shooting Voice!! (2・3기생 Ver.)
     version: 2・3期生Ver.
     performers:
       - {character: liella/kinako-sakurakoji}
@@ -93,6 +115,10 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      title:
+        status: derived
+        checked: 2026-11-16
+        note: 'ja: 공식 페이지. rom: 공연명 Liella! First Generation LoveLive!의 Generation, 104期 Ver.→104th Ver.와 같은 서수. ko: 104기 Ver.와 같은 기생 표기'
 evidence:
   credits:
     status: official

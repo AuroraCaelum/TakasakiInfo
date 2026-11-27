@@ -16,11 +16,25 @@ recordings:
       - {character: liella/margarete-wien}
     arranger:
       - {person: yuya-mori}
+    duration: 237
+    audio:
+      key: D
+      bpm: 113
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd28.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QT7hBAxVG7o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=58139bb8-704f-4992-b315-bc12d348f0be
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,8 +43,6 @@ recordings:
       rom: Butterfly Wing (Off Vocal)
       ko: Butterfly Wing (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: liella/margarete-wien}
     arranger:
       - {person: yuya-mori}
     instrumental_of: original
@@ -50,6 +62,9 @@ recordings:
       - {character: liella/margarete-wien}
     arranger:
       - {person: yuya-mori}
+    audio:
+      key: D
+      bpm: 113
     evidence:
       credits:
         status: derived
@@ -59,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=58139bb8-704f-4992-b315-bc12d348f0be
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: piano-size-ver
     title:
       ja: Butterfly Wing ～Piano Size Ver.～
@@ -70,6 +90,9 @@ recordings:
       - {character: liella/margarete-wien}
     arranger:
       - {person: yuya-mori}
+    audio:
+      key: D
+      bpm: 113
     evidence:
       credits:
         status: derived
@@ -79,6 +102,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=58139bb8-704f-4992-b315-bc12d348f0be
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

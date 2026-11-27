@@ -16,11 +16,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yasuhiro-obata}
+    duration: 232
+    audio:
+      key: B
+      bpm: 138
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd45.php
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jKOeL4XgOPo
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30ccf467-24df-45c8-89db-c9b3309e2ca9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -51,6 +65,9 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: yasuhiro-obata}
+    audio:
+      key: B
+      bpm: 138
     evidence:
       credits:
         status: derived
@@ -60,6 +77,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30ccf467-24df-45c8-89db-c9b3309e2ca9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

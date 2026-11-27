@@ -16,12 +16,26 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: ryota-nakano}
+    duration: 244
+    audio:
+      key: G
+      bpm: 175
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Sagashite!_Future
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/yuigaoka/bd/tv1st/는 가창 멤버만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_FdE99Hg3K8Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=aed0eb3f-7408-401a-874a-fbc0f7bfca21
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,8 +44,6 @@ recordings:
       rom: Sagashite! Future (Off Vocal)
       ko: 찾아라! Future (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: ryota-nakano}
     instrumental_of: original

@@ -16,6 +16,7 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: makoto-miyazaki}
+    duration: 227
     external_ids:
       isrc: JPI101600921
     evidence:
@@ -23,6 +24,11 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4TQ0Gpy6N2P
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,16 +37,20 @@ recordings:
       rom: Torikoriko PLEASE!! (Off Vocal)
       ko: 토리코리코 PLEASE!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: azalea}
     arranger:
       - {person: makoto-miyazaki}
     instrumental_of: original
+    duration: 228
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd04
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4TQ0Gpy6N2P
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: remix
     title:
       ja: TORIKORIKO PLEASE!! REMIX
@@ -52,6 +62,10 @@ recordings:
       - {artist: azalea}
     arranger:
       - {person: technoboys-pulcraft-green-fund}
+    duration: 120
+    audio:
+      key: Fm
+      bpm: 140
     external_ids:
       isrc: JPI102101218
     evidence:
@@ -63,6 +77,16 @@ recordings:
       title.kana:
         status: derived
         note: 제목이 곡 제목과 달라 전체를 읽음(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RNVzFLeuft
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f50cbf11-446a-4a68-8759-38ac42817275
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

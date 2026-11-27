@@ -37,7 +37,9 @@ OFFICIAL = ("lovelive-anime.jp", "yohane.net", "lantis.jp", "bandainamco", "tuto
             "lovelive-overseas.bitfan.id") + ORGANIZER_DOMAINS
 
 # Fandom's names for artists the dataset writes otherwise
-ALIASES = {"YYY": "waiwaiwai", "Mi&Nori=Tea": "mi-nori-tea"}
+ALIASES = {"YYY": "waiwaiwai", "Mi&Nori=Tea": "mi-nori-tea",
+           # the short group names of the joint lives ("by μ's, Aqours, Nijigasaki, Liella!, Hasunosora, …")
+           "Nijigasaki": "nijigasaki-high-school-idol-club", "Hasunosora": "hasunosora-girls-high-school-idol-club"}
 
 # what Fandom's set lists write wrong, by the item's title there: the corrected title and Japanese title
 TITLE_FIXES: dict[str, dict[str, str | None]] = {

@@ -16,11 +16,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: masaki-iehara}
+    duration: 226
+    audio:
+      key: E
+      bpm: 138
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd06.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Bu33muiXEml
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=61ea1715-d6be-43f1-a5c4-7eb3e0abc517
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,8 +43,6 @@ recordings:
       rom: 1.2.3! (Off Vocal)
       ko: 1.2.3! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: masaki-iehara}
     instrumental_of: original

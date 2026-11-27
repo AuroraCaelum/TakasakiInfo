@@ -17,11 +17,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
+    duration: 285
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd20
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30ea53a1-745d-4b35-adfc-24abc77db1a3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,11 +44,10 @@ recordings:
       rom: Yuki wa Doko ni? Kimi no Mune ni! (Off Vocal)
       ko: 용기는 어디에? 너의 가슴에! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
     instrumental_of: original
+    duration: 285
     evidence:
       credits:
         status: official
@@ -43,96 +56,227 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JxBU6JHI3nt
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
     arranger:
       - {person: kotaro-odaka}
+    duration: 283
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd57
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4I3ui51xxPU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d676a202-6e57-49dd-8170-fb6ba6f022c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd58
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_MbAuvc5LKhr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=34b7022a-9bbc-4ba8-b214-b6352211d310
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd59
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HpOIgxK8I32
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e54f2f41-05a3-48b4-95dd-d1bae3659a21
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd60
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IoNpgSISvP2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=aa5a4189-9f46-4ce2-9dd1-6f28205016c7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd61
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HxFC8x0rUZk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ea66c535-dfda-4730-88f3-98a4a4358e9c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cff5de6d-2309-44bd-a92f-68edfda28f3e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kotaro-odaka}
+    duration: 283
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd63
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_EJLn3tLlgx8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=557a65fd-b144-46bd-a392-890b436a549d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kotaro-odaka}
+    duration: 284
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd64
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0aUj1T44aw4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=402a3752-39ff-4187-908d-797a8f8a9953
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kotaro-odaka}
+    duration: 285
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd65
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_C9gVEpC8KuW
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=84abd332-2bb8-48e3-ae4d-764dced39aeb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: surf-rock-ver
     title:
       ja: 勇気はどこに？君の胸に！ (Surf Rock Ver.)
@@ -145,6 +289,10 @@ recordings:
     arranger:
       - {person: hayato-yamamoto}
       - {person: kaiki}
+    duration: 285
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: official
@@ -153,6 +301,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0qGdVS5XpDK
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=30ea53a1-745d-4b35-adfc-24abc77db1a3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(9/10 tracks)의 값
   - id: tv-size
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -166,6 +324,10 @@ recordings:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -175,6 +337,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=31a13324-d03e-497d-982a-d2aee951c9de
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-aqours
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -186,6 +358,10 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -195,6 +371,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=16e976ac-e0aa-4be8-b20b-6189a00defda
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-dia-kurosawa
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -206,6 +392,10 @@ recordings:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -215,6 +405,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0541a2a6-33f3-4ea2-9d61-6ee4e349ebae
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-riko-sakurauchi-yoshiko-tsushima
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -227,6 +427,10 @@ recordings:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -236,6 +440,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c15e004b-b5f3-4c9f-8609-00dd94297c89
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-yoshiko-tsushima-hanamaru-kunikida-ruby-kurosawa
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -249,6 +463,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kotaro-odaka}
+    duration: 102
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -258,6 +476,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=01aa201b-2a2d-49b1-b964-acb9ea350a81
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-kanan-matsuura-dia-kurosawa-mari-ohara
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -271,6 +499,10 @@ recordings:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: kotaro-odaka}
+    duration: 104
+    audio:
+      key: A
+      bpm: 167
     evidence:
       credits:
         status: derived
@@ -280,6 +512,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0541a2a6-33f3-4ea2-9d61-6ee4e349ebae
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size-shiritsu-uranohoshi-jogakuin-ichido
     title:
       ja: 勇気はどこに？君の胸に！ (TVサイズ)
@@ -291,6 +533,7 @@ recordings:
       - {artist: shiritsu-uranohoshi-jogakuin-ichido}
     arranger:
       - {person: kotaro-odaka}
+    duration: 133
     evidence:
       credits:
         status: derived
@@ -300,6 +543,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: live-aqours-finale-2025-06-22
     title:
       ja: 勇気はどこに？君の胸に！ (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -314,6 +562,7 @@ recordings:
     live:
       concert: aqours/aqours-finale
       date: 2025-06-22
+    duration: 687
     evidence:
       credits:
         status: derived
@@ -323,6 +572,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

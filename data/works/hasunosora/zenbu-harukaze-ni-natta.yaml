@@ -20,11 +20,17 @@ recordings:
       - {character: hasunosora/ceras-yanagida-lilienfeld}
     arranger:
       - {person: h-wonder}
+    duration: 252
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6396
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TootjV55V7Y
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

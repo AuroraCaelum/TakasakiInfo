@@ -16,11 +16,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 245
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cgBDmXWpCi7
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6f4597e6-40ce-4529-8810-9a6ba933d386
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: chika-takami-solo-ver
     title:
       ja: SKY JOURNEY (高海千歌 Solo Ver.)
@@ -32,6 +46,10 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -41,6 +59,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5503bb82-523c-4ebc-9b8f-8c67847c2f27
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: SKY JOURNEY (桜内梨子 Solo Ver.)
@@ -52,6 +80,10 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -61,6 +93,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d942023c-28a3-462d-8470-173db83bf859
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: SKY JOURNEY (黒澤ルビィ Solo Ver.)
@@ -72,6 +114,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -81,72 +127,166 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=46c78cce-24e7-4066-8bcc-51b45e50d71f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd44
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c83c397f-5480-44e4-96dc-95c6926c08ff
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 245
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd45
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a055c3e0-0394-4161-9781-70c78feae0a4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7bffb76b-cd35-4520-9496-d0817cbb8a97
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd47
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b63daf8f-8a99-4ae3-a8ae-bec30ebfa3fd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd48
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=09d37bf6-b777-4279-9a1c-87820bafe7f2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: hirotaka-hayakawa}
+    duration: 244
+    audio:
+      key: F#m
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd49
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd13)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=261daf2f-3717-4b63-bd28-75727bec1791
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

@@ -20,6 +20,7 @@ recordings:
     arranger:
       - {person: yuki-kt}
       - {person: carlos-k}
+    duration: 237
     evidence:
       credits:
         status: official
@@ -35,6 +36,11 @@ recordings:
         source: https://www.youtube.com/watch?v=eaAdtLfQdqw
         checked: 2026-10-20
         note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R9RaT4m5dm5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -47,6 +53,7 @@ recordings:
       - {person: yuki-kt}
       - {person: carlos-k}
     instrumental_of: original
+    duration: 236
     evidence:
       credits:
         status: official
@@ -55,6 +62,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R9RaT4m5dm5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

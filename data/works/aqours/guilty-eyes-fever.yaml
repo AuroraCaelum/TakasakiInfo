@@ -16,6 +16,10 @@ recordings:
       - {artist: guilty-kiss}
     arranger:
       - {person: takuya-sakai, affiliation: Arte Refact}
+    duration: 255
+    audio:
+      key: C#
+      bpm: 136
     external_ids:
       isrc: JPI101700219
     evidence:
@@ -23,6 +27,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd56
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_1vfO0jXAxvv
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5d853263-38a6-49a7-8e25-7194b5acd7f3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,8 +45,6 @@ recordings:
       rom: Guilty Eyes Fever (Off Vocal)
       ko: Guilty Eyes Fever (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: guilty-kiss}
     arranger:
       - {person: takuya-sakai, affiliation: Arte Refact}
     instrumental_of: original

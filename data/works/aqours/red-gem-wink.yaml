@@ -16,6 +16,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kyo-takada}
+    duration: 296
+    audio:
+      key: Bb
+      bpm: 125
     external_ids:
       isrc: JPI101800906
     evidence:
@@ -29,6 +33,16 @@ recordings:
         source: https://musicbrainz.org/release/4f1ff5c0-1a3b-467e-b88b-280fa4647e6a
         checked: 2026-10-17
         note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=aff1c0b7-6be5-46f7-86b5-72829a0353af
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,8 +51,6 @@ recordings:
       rom: RED GEM WINK (Off Vocal)
       ko: RED GEM WINK (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: kyo-takada}
     instrumental_of: original

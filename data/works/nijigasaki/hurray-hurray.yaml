@@ -20,12 +20,20 @@ recordings:
       - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: diz}
+    audio:
+      key: F
+      bpm: 150
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Hurray_Hurray
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8fa9f695-5cd9-40e0-9abd-991f8da2ad83
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,8 +42,6 @@ recordings:
       rom: Hurray Hurray (Off Vocal)
       ko: Hurray Hurray (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: diz}
     instrumental_of: 9-members-ver
@@ -62,12 +68,26 @@ recordings:
       composer:
         - {person: ryota-saito}
         - {person: diz}
+    duration: 274
+    audio:
+      key: F
+      bpm: 150
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
         checked: 2026-10-19
         note: '작사·작곡은 12人ver. 공식 크레딧 그대로(Ryota Saito / Diz, 高咲侑 없음): 곡의 크레딧과 달라 credits_override'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4kuwrmH7mHc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8fa9f695-5cd9-40e0-9abd-991f8da2ad83
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -76,8 +96,6 @@ recordings:
       rom: Hurray Hurray (12nin Ver.) [Off Vocal]
       ko: Hurray Hurray (12인 Ver.) [Off Vocal]
     version: Off Vocal
-    performers:
-      - {artist: nijigasaki-high-school-idol-club}
     arranger:
       - {person: diz}
     credits_override:
@@ -87,20 +105,40 @@ recordings:
         - {person: ryota-saito}
         - {person: diz}
     instrumental_of: 12nin-ver
+    duration: 272
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
         checked: 2026-10-19
         note: '작사·작곡은 12人ver. 공식 크레딧 그대로(Ryota Saito / Diz, 高咲侑 없음): 곡의 크레딧과 달라 credits_override'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4kuwrmH7mHc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: original
     performers:
       - {artist: nijigasaki-high-school-idol-club}
+    duration: 274
+    audio:
+      key: F
+      bpm: 150
     evidence:
       credits:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/73048/
         checked: 2026-10-27
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QTP6ZtryhbB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8fa9f695-5cd9-40e0-9abd-991f8da2ad83
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: established

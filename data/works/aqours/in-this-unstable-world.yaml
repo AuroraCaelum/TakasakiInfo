@@ -16,12 +16,26 @@ recordings:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: rei-kamiya}
+    duration: 244
+    audio:
+      key: D
+      bpm: 128
     evidence:
       credits:
         status: established
         source: https://ja.wikipedia.org/wiki/Aqours#2期Blu-ray特典CD
         checked: 2026-10-19
         note: 편곡 공식 미게재(공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd03는 곡명·가창만 게재, 가창은 공식과 일치). ja.wikipedia Aqours 문서 2期Blu-ray特典CD의 편곡·가창 표기(Fandom도 같은 편곡자)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c061a069-fd3a-4671-91c0-b8341e4f40f4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,8 +44,6 @@ recordings:
       rom: in this unstable world (Off Vocal)
       ko: in this unstable world (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: rei-kamiya}
     instrumental_of: original

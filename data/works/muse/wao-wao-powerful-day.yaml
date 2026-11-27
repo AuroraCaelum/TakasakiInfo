@@ -16,11 +16,25 @@ recordings:
       - {artist: printemps}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 191
+    audio:
+      key: G
+      bpm: 175
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd64
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SUl4McFaCYm
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=311e5c92-2819-4606-b19b-477a0df9a6f9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: hiroshi-sasaki}
     instrumental_of: original
+    duration: 190
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SUl4McFaCYm
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: WAO-WAO Powerful day! (HANAYO Mix)
@@ -51,6 +71,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 190
+    audio:
+      key: G
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2136354b-48ee-4bec-8918-861b3bbd8802
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: WAO-WAO Powerful day! (KOTORI Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 190
+    audio:
+      key: G
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -80,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=62ceafa0-3022-4002-8fb0-b0657ad10821
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: WAO-WAO Powerful day! (HONOKA Mix)
@@ -91,6 +139,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: hiroshi-sasaki}
+    duration: 190
+    audio:
+      key: G
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -100,6 +152,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9a4da410-def4-4b3b-9231-ede02de04466
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

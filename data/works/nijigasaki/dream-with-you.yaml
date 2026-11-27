@@ -18,11 +18,25 @@ recordings:
     arranger:
       - {person: mitsuyuki-miyake}
       - {person: carlos-k}
+    duration: 259
+    audio:
+      key: D
+      bpm: 136
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=26a0d44e-acd1-4df5-909a-5c8f6c1720b5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,17 +45,21 @@ recordings:
       rom: Dream with You (Off Vocal)
       ko: Dream with You (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: nijigasaki/ayumu-uehara}
     arranger:
       - {person: mitsuyuki-miyake}
       - {person: carlos-k}
     instrumental_of: original
+    duration: 259
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd20
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ElqBdiLn2Ve
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Dream with You (TV size)
@@ -54,6 +72,10 @@ recordings:
     arranger:
       - {person: mitsuyuki-miyake}
       - {person: carlos-k}
+    duration: 110
+    audio:
+      key: D
+      bpm: 136
     evidence:
       credits:
         status: derived
@@ -63,6 +85,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wE3CsfrvNfw
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b12d0361-faf8-435a-96b3-6507ca2d6bf2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

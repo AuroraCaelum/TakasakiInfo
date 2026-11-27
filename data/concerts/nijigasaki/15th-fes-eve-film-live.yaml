@@ -33,8 +33,12 @@ stops:
           - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
-          - {work: musical/mikansei-dream}
-          - {work: musical/yume-no-compass}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: other, label: FILM LIVE}
           - {work: muse/bokura-no-live-kimi-to-no-life}
           - {work: muse/start-dash}
@@ -58,10 +62,12 @@ stops:
             performers:
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
           - work: hasunosora/hello-new-dream
             performers:
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 1 (Day)'
       - date: 2026-10-10
@@ -87,8 +93,12 @@ stops:
           - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
-          - {work: musical/mikansei-dream}
-          - {work: musical/yume-no-compass}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: other, label: FILM LIVE}
           - {work: nijigasaki/muteki-kyuu-believer}
           - {work: muse/bokura-wa-ima-no-naka-de}
@@ -112,10 +122,12 @@ stops:
             performers:
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
           - work: nijigasaki/tokimeki-runners
             performers:
               - {artist: nijigasaki-high-school-idol-club}
               - {artist: hasunosora-girls-high-school-idol-club}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 1 (Night)'
       - date: 2026-10-11
@@ -141,8 +153,12 @@ stops:
           - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
-          - {work: musical/mikansei-dream}
-          - {work: musical/yume-no-compass}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: other, label: FILM LIVE}
           - {work: liella/hajimari-wa-kimi-no-sora}
           - {work: muse/sore-wa-bokutachi-no-kiseki}
@@ -166,10 +182,12 @@ stops:
             performers:
               - {artist: liella}
               - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
           - work: ikizulive/himitsu-michi
             performers:
               - {artist: liella}
               - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 2 (Day)'
       - date: 2026-10-11
@@ -195,8 +213,12 @@ stops:
           - {person: yuuka-murayama, role: musical/sayaka-harukaze}
         setlist:
           - {type: video, label: Opening Act}
-          - {work: musical/mikansei-dream}
-          - {work: musical/yume-no-compass}
+          - work: musical/mikansei-dream
+            performers:
+              - {artist: school-idol-musical}
+          - work: musical/yume-no-compass
+            performers:
+              - {artist: school-idol-musical}
           - {type: other, label: FILM LIVE}
           - {work: aqours/kimi-no-kokoro-wa-kagayaiteru-kai}
           - {work: muse/kira-kira-sensation}
@@ -220,10 +242,12 @@ stops:
             performers:
               - {artist: liella}
               - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
           - work: liella/sing-shine-smile
             performers:
               - {artist: liella}
               - {artist: ikizuraibu}
+              - {artist: school-idol-musical}
         external_ids:
           fandom: '|Day 2 (Night)'
 external_ids:
@@ -241,12 +265,12 @@ evidence:
   setlist.2026-10-10:
     status: draft
     source: https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fes_Eve_Celebration:_FILM_LIVE_~Mirai_e_Todokeru_Time_Capsule~
-    checked: 2026-10-20
+    checked: 2026-11-27
     note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
   setlist.2026-10-11:
     status: draft
     source: https://love-live.fandom.com/wiki/LoveLive!_Series_15th_Anniversary_Love_Live!_Fes_Eve_Celebration:_FILM_LIVE_~Mirai_e_Todokeru_Time_Capsule~
-    checked: 2026-10-20
+    checked: 2026-11-27
     note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
   cast:
     status: official

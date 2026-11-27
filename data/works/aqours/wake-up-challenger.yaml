@@ -16,11 +16,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takahiro-kawata}
+    duration: 330
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KUkPENKhsIq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0f100f8f-dff4-49ce-ae67-150dde33f144
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,11 +43,10 @@ recordings:
       rom: Wake up, Challenger!! (Off Vocal)
       ko: Wake up, Challenger!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: takahiro-kawata}
     instrumental_of: original
+    duration: 330
     evidence:
       credits:
         status: official
@@ -42,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KUkPENKhsIq
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: chika-takami-solo-ver
     title:
       ja: Wake up, Challenger!! (高海千歌 Solo Ver.)
@@ -53,6 +71,10 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: Ab
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -62,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e88172af-1cb1-451c-8bf8-da3bf7c18a9a
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Wake up, Challenger!! (桜内梨子 Solo Ver.)
@@ -73,6 +105,10 @@ recordings:
       - {character: aqours/riko-sakurauchi}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -82,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_CU8OeBz87QQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=641af919-6bda-451c-8471-56214e62de90
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Wake up, Challenger!! (黒澤ルビィ Solo Ver.)
@@ -93,6 +139,10 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: Ab
+      bpm: 158
     evidence:
       credits:
         status: derived
@@ -102,72 +152,166 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dbXcVT1MP5Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a6610c27-cf9b-4f62-bf35-e13c19f9eb63
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: Fm
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd44
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Zl2wyIFh7w5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=eca56f71-19ea-4284-b5da-086493dae774
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd45
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_6RbwpFuDknb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=21230617-c636-4e4e-af15-1f19663d00c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6407f427-7776-4067-9e04-6203e2bb6b14
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd47
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_RWWZs92qMJn
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ac0b7e80-4fcb-4e2d-9d26-4468c2db61af
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
     arranger:
       - {person: takahiro-kawata}
+    duration: 329
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd48
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_cN7I2GZrjWL
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0fca89a3-4c1a-4686-a6eb-43f6a893c5e4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
     arranger:
       - {person: takahiro-kawata}
+    duration: 328
+    audio:
+      key: C#
+      bpm: 158
     evidence:
       credits:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd49
         checked: 2026-10-19
         note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd33)과 같다고 봄
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_J9HTJDxtf6i
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0c3d1c97-eb67-4925-8a9e-2ab337c185c6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

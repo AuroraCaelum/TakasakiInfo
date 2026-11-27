@@ -1,11 +1,22 @@
 id: aqours
 kind: group
-projects: [aqours, nijigasaki, liella]
+projects: [aqours]
 names:
   ja: Aqours
   kana: アクア
   rom: Aqours
   ko: Aqours
+lineups:
+  - members:
+      - aqours/chika-takami
+      - aqours/riko-sakurauchi
+      - aqours/kanan-matsuura
+      - aqours/dia-kurosawa
+      - aqours/you-watanabe
+      - aqours/yoshiko-tsushima
+      - aqours/hanamaru-kunikida
+      - aqours/mari-ohara
+      - aqours/ruby-kurosawa
 evidence:
   names.ja:
     status: official
@@ -22,3 +33,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)
+  lineups:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/member/
+    checked: 2026-11-18
+    note: 공식 멤버 페이지의 9명. 결성 이후 멤버 변동 없음(Finale LoveLive!는 해산이 아니라고 공지, 위키백과 Aqours)

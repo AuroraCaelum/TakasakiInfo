@@ -17,12 +17,26 @@ recordings:
       - {artist: r3birth}
     arranger:
       - {person: add108}
+    duration: 194
+    audio:
+      key: Fm
+      bpm: 134
     evidence:
       credits:
         status: established
         source: https://love-live.fandom.com/wiki/Look_at_me_now
         checked: 2026-10-19
         note: 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재). 가창은 공식 페이지와 일치. 편곡은 Fandom 문서
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=04999fc0-bb1c-4f47-b40d-593afe4810cb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,8 +45,6 @@ recordings:
       rom: Look at me now (Off Vocal)
       ko: Look at me now (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: r3birth}
     arranger:
       - {person: add108}
     instrumental_of: original

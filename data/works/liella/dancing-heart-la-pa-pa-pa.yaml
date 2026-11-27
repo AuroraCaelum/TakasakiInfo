@@ -18,11 +18,25 @@ recordings:
       - {person: ryuichi-takagi}
     strings_arranger:
       - {person: hinako-tsubakiyama}
+    duration: 199
+    audio:
+      key: D
+      bpm: 190
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd01.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_wWSYQj1ZsYr
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=733ed98e-8f38-4d08-861a-bf0ed6b0e535
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,8 +45,6 @@ recordings:
       rom: Dancing Heart La-Pa-Pa-Pa! (Off Vocal)
       ko: Dancing Heart La-Pa-Pa-Pa! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: ryuichi-takagi}
     strings_arranger:

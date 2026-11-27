@@ -18,11 +18,25 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: koshiro-honda}
+    duration: 285
+    audio:
+      key: Am
+      bpm: 175
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd56
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSA8Gtv8emG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f0473f1a-c42a-4c54-8ebb-8424bec42646
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -34,6 +48,7 @@ recordings:
     arranger:
       - {person: koshiro-honda}
     instrumental_of: original
+    duration: 285
     evidence:
       credits:
         status: official
@@ -42,6 +57,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSA8Gtv8emG
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: movie-edit
     title:
       ja: Future style (Movie Edit)
@@ -55,6 +75,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: koshiro-honda}
+    duration: 94
+    audio:
+      key: Am
+      bpm: 175
     evidence:
       credits:
         status: official
@@ -63,6 +87,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_waHovs6ip5W
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=98f61a63-4bb6-48a4-a383-838a6c41727c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: Future style (UMI Mix)
@@ -74,6 +108,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: koshiro-honda}
+    duration: 285
+    audio:
+      key: Am
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -83,6 +121,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=65b7d54c-58cf-44b3-a2b5-0f324b318032
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: Future style (KOTORI Mix)
@@ -94,6 +142,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: koshiro-honda}
+    duration: 285
+    audio:
+      key: Am
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -103,6 +155,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=2d5a9897-76fc-4a8b-a275-e09aa00f197e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: Future style (HONOKA Mix)
@@ -114,6 +176,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: koshiro-honda}
+    duration: 285
+    audio:
+      key: Am
+      bpm: 175
     evidence:
       credits:
         status: derived
@@ -123,6 +189,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=47eaa2df-4dfa-4da5-86a8-9815877c83f7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

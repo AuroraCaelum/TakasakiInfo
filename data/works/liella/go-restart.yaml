@@ -17,11 +17,25 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: gou-ishikuro}
+    duration: 214
+    audio:
+      key: Ab
+      bpm: 153
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd20.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZjURZrWEvr7
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=044b40d2-4421-4718-b3d7-4b8176c4119d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,8 +44,6 @@ recordings:
       rom: Go!! Restart (Off Vocal)
       ko: Go!! 리스타트 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: liella}
     arranger:
       - {person: gou-ishikuro}
     instrumental_of: original
@@ -51,6 +63,9 @@ recordings:
       - {artist: liella}
     arranger:
       - {person: gou-ishikuro}
+    audio:
+      key: Ab
+      bpm: 153
     evidence:
       credits:
         status: derived
@@ -60,6 +75,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=044b40d2-4421-4718-b3d7-4b8176c4119d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

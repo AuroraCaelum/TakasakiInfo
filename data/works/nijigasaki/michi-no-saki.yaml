@@ -18,11 +18,25 @@ recordings:
       - {artist: qu4rtz}
     arranger:
       - {person: carlos-k}
+    duration: 242
+    audio:
+      key: E
+      bpm: 168
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd52
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TmRZaZrft7J
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=11417fdc-52b2-4ce1-a647-17c9e8eb585c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,16 +45,20 @@ recordings:
       rom: Michi no Saki (Off Vocal)
       ko: 길의 끝 (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: qu4rtz}
     arranger:
       - {person: carlos-k}
     instrumental_of: original
+    duration: 244
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd52
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TmRZaZrft7J
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

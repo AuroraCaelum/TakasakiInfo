@@ -19,11 +19,25 @@ recordings:
       - {person: gou-ishikuro}
     strings_arranger:
       - {person: shu-kanematsu}
+    duration: 248
+    audio:
+      key: E
+      bpm: 120
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd39.php
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_vqlZ0z8cook
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5aa0ed34-c275-4821-bef2-77982de73047
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -149,6 +163,9 @@ recordings:
       - {person: gou-ishikuro}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: E
+      bpm: 120
     evidence:
       credits:
         status: derived
@@ -158,6 +175,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5aa0ed34-c275-4821-bef2-77982de73047
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: episode-6-ver
     title:
       ja: DAISUKI FULL POWER ～第6話Ver.～
@@ -283,6 +305,9 @@ recordings:
       - {person: gou-ishikuro}
     strings_arranger:
       - {person: shu-kanematsu}
+    audio:
+      key: E
+      bpm: 120
     evidence:
       credits:
         status: derived
@@ -292,6 +317,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5aa0ed34-c275-4821-bef2-77982de73047
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

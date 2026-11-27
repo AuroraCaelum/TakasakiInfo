@@ -18,11 +18,25 @@ recordings:
       - {character: hasunosora/hime-anyoji}
     arranger:
       - {person: tomoki-kikuya}
+    duration: 241
+    audio:
+      key: C
+      bpm: 136
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/31/
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_iL1oIT6EQTf
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7bfee8d4-8d36-485e-b8e8-e43571ce20da
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

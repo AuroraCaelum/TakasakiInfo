@@ -11,11 +11,17 @@ credits:
 recordings:
   - id: original
     kind: instrumental
+    duration: 155
     evidence:
       credits:
         status: official
         source: https://www.yohane.net/music/detail/?id=5
         checked: 2026-10-27
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_NSA48jW0KK6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 270
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_sOEsIpOoMMu
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: akihiko-yamaguchi}
     instrumental_of: original
+    duration: 270
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_sOEsIpOoMMu
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: umi-mix
     title:
       ja: baby maybe 恋のボタン (UMI MIX)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a1ae288f-9c85-402b-b90d-b30d2e6529d3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: baby maybe 恋のボタン (KOTORI MIX)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a58528f4-f968-489b-9b2f-1b6409b7e2f8
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: baby maybe 恋のボタン (HONOKA Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1deb163c-c03c-41d4-bf4a-c44babba30fe
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: baby maybe 恋のボタン (NOZOMI Mix)
@@ -111,6 +165,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -120,6 +178,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b8b56f50-e617-4b2f-a4dc-bc352ef948ac
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: baby maybe 恋のボタン (NICO Mix)
@@ -131,6 +199,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -140,6 +212,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7d0bbeb2-d414-4a62-9953-db9ed6c87bb9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: baby maybe 恋のボタン (MAKI Mix)
@@ -151,6 +233,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Eb
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -160,6 +246,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9e992027-c561-487a-951a-a86c8439d6fa
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: baby maybe 恋のボタン (ELI Mix)
@@ -171,6 +267,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -180,6 +280,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6a6787e8-39b3-4a0f-8d41-55fd1ababe5f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: baby maybe 恋のボタン (RIN Mix)
@@ -191,6 +301,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -200,6 +314,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c2faf044-ca16-42f3-a181-d11114fb5542
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: baby maybe 恋のボタン (HANAYO Mix)
@@ -211,6 +335,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: akihiko-yamaguchi}
+    duration: 269
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -220,6 +348,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1cf7b184-cc51-418b-9360-9f02ea3f1aef
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

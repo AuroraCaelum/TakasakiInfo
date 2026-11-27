@@ -16,11 +16,25 @@ recordings:
       - {artist: saint-aqours-snow}
     arranger:
       - {person: takahiro-kawata}
+    duration: 297
+    audio:
+      key: D
+      bpm: 95
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dtoW0WxBUKi
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=603224a1-64e3-4595-a236-8e5f5b50f953
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -29,11 +43,10 @@ recordings:
       rom: Awaken the power (Off Vocal)
       ko: Awaken the power (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: saint-aqours-snow}
     arranger:
       - {person: takahiro-kawata}
     instrumental_of: original
+    duration: 296
     evidence:
       credits:
         status: official
@@ -42,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dtoW0WxBUKi
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: Awaken the power (TVサイズ)
@@ -53,6 +71,10 @@ recordings:
       - {artist: saint-aqours-snow}
     arranger:
       - {person: takahiro-kawata}
+    duration: 195
+    audio:
+      key: D
+      bpm: 95
     evidence:
       credits:
         status: derived
@@ -62,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f1d880f6-3d3c-49d8-9909-ed43f1c3af09
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

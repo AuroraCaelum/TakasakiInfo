@@ -22,6 +22,7 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -31,6 +32,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: kotori-mix
     title:
       ja: Mermaid festa vol.1 (KOTORI MIX)
@@ -42,6 +48,7 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
     evidence:
       credits:
         status: derived
@@ -51,6 +58,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GizazSHptpA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Mermaid festa vol.1 (HONOKA Mix)
@@ -62,6 +74,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: Em
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -71,16 +87,32 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=97134a00-d291-4540-bde4-37c1265a12ff
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: original
     performers:
       - {artist: muse}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 239
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd06
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -92,6 +124,7 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     instrumental_of: original
+    duration: 239
     evidence:
       credits:
         status: official
@@ -100,6 +133,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_boB1y77QUP4
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: Mermaid festa vol.1 (NOZOMI Mix)
@@ -111,6 +149,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: G
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -120,6 +162,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=adfbbcda-5d4d-4362-ab29-da7a014cf0c4
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: Mermaid festa vol.1 (NICO Mix)
@@ -131,6 +183,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: Em
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -140,6 +196,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cbc5c019-a053-432f-94d3-9749dee30132
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Mermaid festa vol.1 (MAKI Mix)
@@ -151,6 +217,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: G
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -160,6 +230,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4253db08-8b10-4bbe-9582-9f5120b64e05
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Mermaid festa vol.1 (ELI Mix)
@@ -171,6 +251,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: Em
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -180,6 +264,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b163259d-5586-49b4-b360-94d6edc57535
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Mermaid festa vol.1 (RIN Mix)
@@ -191,6 +285,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: Em
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -200,6 +298,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e70c67a4-8343-41d1-b56d-3c5638b28b3b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: Mermaid festa vol.1 (HANAYO Mix)
@@ -211,6 +319,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 237
+    audio:
+      key: Em
+      bpm: 127
     evidence:
       credits:
         status: derived
@@ -220,6 +332,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e28daebd-e67e-4992-ba4f-6a00791fc817
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

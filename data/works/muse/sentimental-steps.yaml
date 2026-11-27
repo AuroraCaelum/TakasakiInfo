@@ -16,11 +16,17 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: teppei-shimizu}
+    duration: 239
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd43
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SzzFhxqPyxl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: teppei-shimizu}
     instrumental_of: original
+    duration: 239
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SzzFhxqPyxl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: SENTIMENTAL StepS (NICO Mix)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4e310539-0b7a-43c1-9bb5-3db33b62a61b
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: SENTIMENTAL StepS (HANAYO Mix)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e34178ec-4a7f-4659-9608-0467746470ab
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: SENTIMENTAL StepS (NOZOMI Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=c5cd5e72-2329-40fd-aa3e-7d2734959984
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: SENTIMENTAL StepS (MAKI Mix)
@@ -111,6 +165,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -120,6 +178,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=7d9a7b91-2f96-4032-9bc6-5736cb55a07a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: SENTIMENTAL StepS (RIN Mix)
@@ -131,6 +199,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -140,6 +212,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9f43645f-dda9-40f3-bfb0-f34a01da9fba
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: SENTIMENTAL StepS (UMI Mix)
@@ -151,6 +233,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -160,6 +246,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=67459eed-6584-4814-a89b-b35b9eff1c0c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: SENTIMENTAL StepS (KOTORI Mix)
@@ -171,6 +267,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -180,6 +280,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=98b1c058-b4c4-4b8d-9d36-7c0c033823c9
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: SENTIMENTAL StepS (ELI Mix)
@@ -191,6 +301,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -200,6 +314,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=fdf2c68a-205f-40cd-a0ad-8a968ba662c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: SENTIMENTAL StepS (HONOKA Mix)
@@ -211,6 +335,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: teppei-shimizu}
+    duration: 238
+    audio:
+      key: C
+      bpm: 176
     evidence:
       credits:
         status: derived
@@ -220,6 +348,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=5f3c954f-c715-42cd-ba48-0401b6584100
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

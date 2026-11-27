@@ -16,12 +16,20 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    audio:
+      key: C
+      bpm: 153
     evidence:
       credits:
         status: established
         source: https://ja.wikipedia.org/wiki/Aqours#2期Blu-ray特典CD
         checked: 2026-10-19
         note: 편곡 공식 미게재(공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd01는 곡명·가창만 게재, 가창은 공식과 일치). ja.wikipedia Aqours 문서 2期Blu-ray特典CD의 편곡·가창 표기(Fandom도 같은 편곡자)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=42835143-4cf3-466a-8744-4a996eb88eec
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,8 +38,6 @@ recordings:
       rom: One More Sunshine Story (Off Vocal)
       ko: One More Sunshine Story (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
     instrumental_of: original
@@ -55,6 +61,10 @@ recordings:
       - {character: aqours/chika-takami}
     arranger:
       - {person: effy, affiliation: FirstCall}
+    duration: 272
+    audio:
+      key: C
+      bpm: 153
     evidence:
       credits:
         status: established
@@ -64,6 +74,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_pqaWQqPjzgR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=42835143-4cf3-466a-8744-4a996eb88eec
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: established

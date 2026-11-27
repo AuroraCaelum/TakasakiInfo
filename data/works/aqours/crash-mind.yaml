@@ -16,11 +16,25 @@ recordings:
       - {artist: saint-snow}
     arranger:
       - {person: makoto-miyazaki}
+    duration: 260
+    audio:
+      key: A
+      bpm: 122
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd22
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_dtoW0WxBUKi
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ca944bbe-3bcf-4f0b-a9bc-d7edce10e03a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: short-size
     title:
       ja: CRASH MIND (Shortサイズ)
@@ -32,6 +46,10 @@ recordings:
       - {artist: saint-snow}
     arranger:
       - {person: makoto-miyazaki}
+    duration: 122
+    audio:
+      key: C#m
+      bpm: 122
     evidence:
       credits:
         status: derived
@@ -41,6 +59,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Xd4iCaNLPEx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=38625bac-7bb6-45be-90fe-b8ac520da882
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

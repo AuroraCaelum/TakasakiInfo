@@ -1,5 +1,5 @@
 from takasaki.text import (
-    halfwidth, has_kana, is_latin, join_ja_name, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify,
+    halfwidth, has_kana, has_kanji, is_latin, join_ja_name, match_key, note_version, parse_credit, recording_kind, render_credit_name, slugify,
     split_version,
 )
 
@@ -52,6 +52,8 @@ def test_slug_and_scripts():
     assert slugify("Café ∞") == "cafe"
     assert not has_kana("R・O・N")  # the katakana middle dot is punctuation
     assert has_kana("ラブライブ")
+    assert has_kanji("中﨑") and has_kanji("渡辺 曜")
+    assert not has_kanji("하타 아키")  # Hangul is not kanji
 
 
 def test_japanese_name_spacing():

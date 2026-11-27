@@ -17,11 +17,17 @@ recordings:
       - {character: nijigasaki/shioriko-mifune}
     arranger:
       - {person: oni}
+    duration: 212
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_4729
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mZSh5DvP4UQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: oni}
     instrumental_of: original
+    duration: 212
     evidence:
       credits:
         status: official
@@ -41,17 +48,28 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_mZSh5DvP4UQ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: 15th-tribute
     performers:
       - {artist: v-w-p}
     arranger:
       - {person: mao-sasagawa}
+    duration: 201
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
         note: '가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json)와 편곡자 본인 사이트 https://www.maosasagawa.jp/blogs/works/260114lovelivetribute'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_N8Vvln9yN9D
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

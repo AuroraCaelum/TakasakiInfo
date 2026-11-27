@@ -16,11 +16,17 @@ recordings:
       - {artist: printemps}
     arranger:
       - {person: takashi-saeki}
+    duration: 267
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd27
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_LGm1okeMiTO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: takashi-saeki}
     instrumental_of: original
+    duration: 267
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_LGm1okeMiTO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: hanayo-mix
     title:
       ja: UNBALANCED LOVE (HANAYO Mix)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: takashi-saeki}
+    duration: 266
+    audio:
+      key: A
+      bpm: 123
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JtsK2Q0a582
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0a639b4d-eef4-4c4a-bc59-de44ae75fd47
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: UNBALANCED LOVE (KOTORI Mix)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: takashi-saeki}
+    duration: 266
+    audio:
+      key: A
+      bpm: 123
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_IandDP0IYyT
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d2ba4c65-85a9-426e-846b-f03d86a99b74
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: honoka-mix
     title:
       ja: UNBALANCED LOVE (HONOKA Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: takashi-saeki}
+    duration: 266
+    audio:
+      key: F#m
+      bpm: 123
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_U47wu0hjRbV
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=8adc186d-35f7-4b6e-af2d-a7fa97954bed
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

@@ -16,6 +16,10 @@ recordings:
       - {artist: cyaron}
     arranger:
       - {person: wataru-maeguchi}
+    duration: 313
+    audio:
+      key: Eb
+      bpm: 180
     external_ids:
       isrc: JPI101901794
     evidence:
@@ -23,6 +27,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd36
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL3KKp8ShPZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=cf93bd9e-d7d8-4b03-a554-b01282e8df87
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,11 +45,10 @@ recordings:
       rom: CHANGELESS (Off Vocal)
       ko: CHANGELESS (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: cyaron}
     arranger:
       - {person: wataru-maeguchi}
     instrumental_of: original
+    duration: 310
     evidence:
       credits:
         status: official
@@ -44,6 +57,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_nL3KKp8ShPZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

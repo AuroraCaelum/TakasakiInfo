@@ -16,12 +16,26 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: tsukasa-yatoki, affiliation: Arte Refact, fullwidth: true}
+    duration: 263
+    audio:
+      key: Bb
+      bpm: 108
     evidence:
       credits:
         status: official
         source: https://catalog.bandainamcomusiclive.co.jp/release/63074/
         checked: 2026-10-27
         note: '공식 미게재: ja.wikipedia·Fandom(소속 표기는 레이블 카탈로그를 따름)'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_bC0YnDYhRdB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f65e18a1-8338-49d2-a51b-e3433720cce7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

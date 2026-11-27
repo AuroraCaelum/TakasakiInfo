@@ -16,6 +16,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 300
     evidence:
       credits:
         status: official
@@ -26,6 +27,11 @@ recordings:
         source: https://music.youtube.com/watch?v=JC9utUW3S-s
         checked: 2026-10-20
         note: 원곡 음원의 편곡은 이 싱글 페이지에 미게재. Solo Live! III 공식 페이지(release.php#cd31 등)의 편곡 크레딧과 같고, 레이블 제공 배포 메타데이터(YouTube Music, D42)도 같음
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_L8JKCUj6fCa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -37,6 +43,7 @@ recordings:
     arranger:
       - {person: katsuhiko-kurosu}
     instrumental_of: original
+    duration: 300
     evidence:
       credits:
         status: official
@@ -45,6 +52,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_L8JKCUj6fCa
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: honoka-mix
     title:
       ja: Oh,Love＆Peace! (HONOKA Mix)
@@ -56,6 +68,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: D
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -64,6 +80,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_R6HbIm56Z3e
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e4451968-9efb-4eaa-b272-62785703d2c3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Oh,Love＆Peace! (ELI Mix)
@@ -75,6 +101,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -83,6 +113,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JOgkoQMqlAA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=6d14a0a6-4d15-4dc4-9b3e-ab441ee036cd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: Oh,Love＆Peace! (KOTORI Mix)
@@ -94,6 +134,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: D
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -102,6 +146,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=b1ee549d-f89b-4924-91de-7b4d2224ab0e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: Oh,Love＆Peace! (UMI Mix)
@@ -113,6 +167,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -121,6 +179,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OqmDcl1migF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=e41cf7fc-eac1-4d42-9024-ecd587fceafb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: Oh,Love＆Peace! (RIN Mix)
@@ -132,6 +200,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: A
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -140,6 +212,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_jQgmuxmSK92
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a8f6cb14-6c0a-4c04-988e-5b5da1631d2f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Oh,Love＆Peace! (MAKI Mix)
@@ -151,6 +233,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: D
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -159,6 +245,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_slkOsZbg5Be
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=40268921-bd60-476c-9f15-3e7389ccc7fd
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: Oh,Love＆Peace! (NOZOMI Mix)
@@ -170,6 +266,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: A
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -178,6 +278,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_eOfomMkZLn6
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=31f8df0a-c38d-4876-9353-8bb9d9a1e63a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: Oh,Love＆Peace! (HANAYO Mix)
@@ -189,6 +299,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: A
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -197,6 +311,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QklC3QW40A2
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=a04b31b3-498b-49b1-a684-f9fd80c702e5
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: Oh,Love＆Peace! (NICO Mix)
@@ -208,6 +332,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 301
+    audio:
+      key: Ab
+      bpm: 135
     evidence:
       credits:
         status: official
@@ -216,6 +344,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_s7AknsMUTFA
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3c54f5a5-6f58-46ae-be57-f86eb650d734
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: tv-size
     title:
       ja: Oh,Love＆Peace! (TVサイズ)
@@ -227,6 +365,7 @@ recordings:
       - {artist: muse}
     arranger:
       - {person: katsuhiko-kurosu}
+    duration: 92
     evidence:
       credits:
         status: official
@@ -235,6 +374,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_OT21f2eYfgg
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

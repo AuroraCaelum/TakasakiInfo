@@ -19,12 +19,26 @@ recordings:
     arranger:
       - {person: novechika}
       - {person: takayuki-yoshimura}
+    duration: 274
+    audio:
+      key: C
+      bpm: 88
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
         checked: 2026-10-19
         note: "공식 CD 페이지 #cd48 트랙 아티스트란 표기('アーティスト：”ニジガク with You”！あなたと作る新曲プロジェクト楽曲')와 작사·작곡·편곡 표기. 공식 뉴스 https://www.lovelive-anime.jp/news/01_704.html (2022.06.25) '【読者参加企画！】アーティスト名は“ニジガク with You”！'. 참여 멤버 구성은 공식 미게재"
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4kuwrmH7mHc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=f15f0ff0-773c-4d1c-900f-27930bf8dc77
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,18 +47,22 @@ recordings:
       rom: OUR P13CES!!! (Off Vocal)
       ko: OUR P13CES!!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: nijigaku-with-you}
     arranger:
       - {person: novechika}
       - {person: takayuki-yoshimura}
     instrumental_of: original
+    duration: 274
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd48
         checked: 2026-10-19
         note: "Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 공식 CD 페이지 #cd48 트랙 아티스트란 표기('アーティスト：”ニジガク with You”！あなたと作る新曲プロジェクト楽曲')와 작사·작곡·편곡 표기. 공식 뉴스 https://www.lovelive-anime.jp/news/01_704.html (2022.06.25) '【読者参加企画！】アーティスト名は“ニジガク with You”！'. 참여 멤버 구성은 공식 미게재"
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_4kuwrmH7mHc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   credits:
     status: official

@@ -305,6 +305,15 @@ def _disclaimer(ds: Dataset, lang: str) -> str:
     return "\n".join(f"> {t}<br>" for t in lines).removesuffix("<br>")
 
 
+def _moods() -> str:
+    """The mood labels of `recordings.json` with their names and rules (D61)."""
+    from .audio import MOOD_RULES, MOODS
+
+    rows = ["| Label | ja | rom | ko | When |", "| :-- | :-- | :-- | :-- | :-- |"]
+    rows += [f"| `{k}` | {n.ja} | {n.rom} | {n.ko} | {MOOD_RULES[k]} |" for k, (n, _) in MOODS.items()]
+    return "\n".join(rows)
+
+
 def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
     assert ds.meta is not None and ds.layout is not None
     table, total = _status(ds, files)
@@ -338,6 +347,7 @@ def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
         "ALBUM_EXAMPLE": _album_example(files),
         "CONCERT_EXAMPLE": _concert_example(files),
         "V1_SCHEMA": v1_schema(),
+        "MOODS": _moods(),
         "RELEASE_EXAMPLE": _release_example(ds),
         "DISCLAIMER_EN": _disclaimer(ds, "en"),
         "DISCLAIMER_JA": _disclaimer(ds, "ja"),

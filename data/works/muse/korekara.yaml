@@ -57,6 +57,10 @@ recordings:
       - {character: muse/honoka-kosaka}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -66,6 +70,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TZOmuqknDex
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3cc0a751-1a37-4472-a7ec-54564cb66682
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: これから (ELI Mix)
@@ -77,6 +91,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -86,6 +104,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_I3N24UM9dTB
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=bc703afd-32c2-4495-9679-3f87f027417a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: kotori-mix
     title:
       ja: これから (KOTORI Mix)
@@ -97,6 +125,10 @@ recordings:
       - {character: muse/kotori-minami}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -106,6 +138,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_b1ny8bgzlDO
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=1f8dd56c-ebdb-4f71-ac74-765f3a62b628
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: これから (UMI Mix)
@@ -117,6 +159,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -126,6 +172,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GQoPPjW2LxD
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=41ffaef9-d386-4572-9181-4193432932eb
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: これから (RIN Mix)
@@ -137,6 +193,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -146,6 +206,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JpcE6eJWYoF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=10d7c46b-f97a-4b1a-b39a-9853eebb0245
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: これから (MAKI Mix)
@@ -157,6 +227,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -166,6 +240,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_GMcJNQ16j0Q
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=dc1bd96c-5ac2-4959-bbb1-6bf730e3d64c
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nozomi-mix
     title:
       ja: これから (NOZOMI Mix)
@@ -177,6 +261,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -186,6 +274,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ZxuaIP0Vd85
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=054df22a-a060-47ec-8c5b-25dafea25730
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: hanayo-mix
     title:
       ja: これから (HANAYO Mix)
@@ -197,6 +295,10 @@ recordings:
       - {character: muse/hanayo-koizumi}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -206,6 +308,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lham1FEyj0z
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d26860a5-56b2-437f-9c72-9f8dc2cb1cb3
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: nico-mix
     title:
       ja: これから (NICO Mix)
@@ -217,6 +329,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: to-mas-soundsight-fluorescent-forest}
+    duration: 344
+    audio:
+      key: Eb
+      bpm: 170
     evidence:
       credits:
         status: derived
@@ -226,6 +342,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_qhkaqyyA2L8
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=d8871ac7-cc71-471f-a3e0-cddc59e31659
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

@@ -16,12 +16,26 @@ recordings:
       - {character: nijigasaki/shioriko-mifune}
     arranger:
       - {person: tofubeats}
+    duration: 231
+    audio:
+      key: G
+      bpm: 171
     evidence:
       credits:
         status: official
         source: https://www.youtube.com/watch?v=T_st0a-ONi4
         checked: 2026-10-19
         note: '공식 계정: 공식 YouTube(ラブライブ！シリーズ公式チャンネル) TV애니 2기 댄스신 영상 설명의 크레딧·가창 표기(같은 곡이 挿入歌シングル에 수록된다고 명기). 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44 는 크레딧만 게재, 곡별 가창은 미게재'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Eg3VUYffuyH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://open.spotify.com/track/2sIKOjpSDNOHl9c7iSJwVg
+        checked: 2026-11-27
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
   - id: off-vocal
     kind: off_vocal
     title:
@@ -30,17 +44,21 @@ recordings:
       rom: EMOTION (Off Vocal)
       ko: EMOTION (Off Vocal)
     version: Off Vocal
-    performers:
-      - {character: nijigasaki/shioriko-mifune}
     arranger:
       - {person: tofubeats}
     instrumental_of: original
+    duration: 231
     evidence:
       credits:
         status: official
         source: https://www.youtube.com/watch?v=T_st0a-ONi4
         checked: 2026-10-19
         note: '공식 계정: Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 공식 YouTube(ラブライブ！シリーズ公式チャンネル) TV애니 2기 댄스신 영상 설명의 크레딧·가창 표기(같은 곡이 挿入歌シングル에 수록된다고 명기). 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php#cd44 는 크레딧만 게재, 곡별 가창은 미게재'
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Eg3VUYffuyH
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: tv-size
     title:
       ja: EMOTION (TV size)
@@ -52,6 +70,10 @@ recordings:
       - {character: nijigasaki/shioriko-mifune}
     arranger:
       - {person: tofubeats}
+    duration: 101
+    audio:
+      key: G
+      bpm: 85
     evidence:
       credits:
         status: derived
@@ -61,6 +83,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=9c94148e-d29f-4728-879d-dc4a67f570e7
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

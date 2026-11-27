@@ -18,11 +18,25 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    duration: 280
+    audio:
+      key: A
+      bpm: 128
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd31
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TsOxeyvOKcc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3008e919-453d-4f5a-a880-60d09812339d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -31,11 +45,10 @@ recordings:
       rom: Jump up HIGH!! (Off Vocal)
       ko: Jump up HIGH!! (Off Vocal)
     version: Off Vocal
-    performers:
-      - {artist: aqours}
     arranger:
       - {person: takarot}
     instrumental_of: original
+    duration: 280
     evidence:
       credits:
         status: official
@@ -44,6 +57,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TsOxeyvOKcc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: cyaron-ver
     title:
       ja: Jump up HIGH!! (CYaRon! ver.)
@@ -55,6 +73,10 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    duration: 280
+    audio:
+      key: A
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -63,6 +85,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TsOxeyvOKcc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3008e919-453d-4f5a-a880-60d09812339d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: azalea-ver
     title:
       ja: Jump up HIGH!! (AZALEA ver.)
@@ -74,6 +106,10 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    duration: 280
+    audio:
+      key: A
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -82,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TsOxeyvOKcc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3008e919-453d-4f5a-a880-60d09812339d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: guilty-kiss-ver
     title:
       ja: Jump up HIGH!! (Guilty Kiss ver.)
@@ -93,6 +139,10 @@ recordings:
       - {artist: aqours}
     arranger:
       - {person: takarot}
+    duration: 280
+    audio:
+      key: A
+      bpm: 128
     evidence:
       credits:
         status: official
@@ -101,6 +151,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_TsOxeyvOKcc
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3008e919-453d-4f5a-a880-60d09812339d
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

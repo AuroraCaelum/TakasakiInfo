@@ -18,11 +18,25 @@ recordings:
     arranger:
       - {person: ulala}
       - {person: akira-sunset}
+    duration: 250
+    audio:
+      key: D
+      bpm: 145
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd12
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_QqxyPG2BfBZ
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=428fd681-a137-41f0-b1e7-55e5f6d5cbc6
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

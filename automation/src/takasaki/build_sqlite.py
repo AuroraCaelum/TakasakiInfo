@@ -12,6 +12,7 @@ import sqlite3
 from pathlib import Path
 
 from . import model as m
+from .audio import effective_audio, moods, representative
 from .build_legacy import edition_ids, edition_tracks, main_videos, own_video, release_title
 from .build_v1 import V1_FORMAT
 from .store import Dataset
@@ -26,11 +27,16 @@ CREATE TABLE project (id TEXT PRIMARY KEY);
 CREATE TABLE person (id TEXT PRIMARY KEY, native_script TEXT NOT NULL, birthday TEXT);
 CREATE TABLE character (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), birthday TEXT);
 CREATE TABLE artist (id TEXT PRIMARY KEY, kind TEXT NOT NULL);
-CREATE TABLE work (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), kind TEXT NOT NULL);
+CREATE TABLE work (id TEXT PRIMARY KEY, project TEXT NOT NULL REFERENCES project(id), kind TEXT NOT NULL,
+  representative TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED);  -- the recording it is shown with (D61)
 CREATE TABLE recording (
   id TEXT PRIMARY KEY, work TEXT NOT NULL REFERENCES work(id), kind TEXT NOT NULL, version TEXT,
   instrumental_of TEXT REFERENCES recording(id) DEFERRABLE INITIALLY DEFERRED,
-  live_concert TEXT REFERENCES concert(id) DEFERRABLE INITIALLY DEFERRED, live_date TEXT, live_label TEXT);
+  live_concert TEXT REFERENCES concert(id) DEFERRABLE INITIALLY DEFERRED, live_date TEXT, live_label TEXT,
+  -- length in seconds; key, tempo and time signature, an off vocal's taken from its vocal recording; mood labels
+  -- made from them, comma-separated (D61)
+  duration INTEGER, key TEXT, bpm INTEGER, time_signature TEXT, mood TEXT);
+CREATE TABLE mood (id TEXT PRIMARY KEY, ja TEXT NOT NULL, rom TEXT NOT NULL, ko TEXT NOT NULL);  -- recording.mood labels (D61)
 CREATE TABLE release (id TEXT PRIMARY KEY, type TEXT NOT NULL, status TEXT NOT NULL, release_date TEXT, label TEXT);
 CREATE TABLE edition (release TEXT NOT NULL REFERENCES release(id), id TEXT NOT NULL, catalog TEXT, release_date TEXT,
   PRIMARY KEY (release, id));
@@ -152,6 +158,10 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
     ins("meta", ("schema_version", V1_FORMAT), ("data_schema_version", ds.meta.schema_version),
         ("db_last_update", ds.meta.db_last_update))
 
+    from .audio import MOODS
+
+    ins("mood", *[(k, n.ja, n.rom, n.ko) for k, (n, _) in MOODS.items()])
+
     def names(entity: str, field: str, n: m.Names | None, evidence: dict[str, m.Evidence]) -> None:
         if n is None:
             return
@@ -208,7 +218,8 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
             ins("credit", (target, role, i, c.person, c.character, aff, c.role.ja if c.role else None, c.credited_name))
 
     for w in ds.works.values():
-        ins("work", (w.id, w.project, w.kind))
+        rep = representative(w)
+        ins("work", (w.id, w.project, w.kind, f"{w.id}#{rep.id}" if rep else None))
         names(f"work:{w.id}", "title", w.title, w.evidence)
         common(f"work:{w.id}", w)
         credits(w.id, "lyricist", w.credits.lyricist)
@@ -216,7 +227,10 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
         for r in w.recordings:
             rid = f"{w.id}#{r.id}"
             live = (r.live.concert, r.live.date.isoformat() if r.live.date else None, r.live.label) if r.live else (None, None, None)
-            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None, *live))
+            a = effective_audio(w, r)[0] or m.Audio()
+            ins("recording", (rid, w.id, r.kind, r.version, f"{w.id}#{r.instrumental_of}" if r.instrumental_of else None, *live,
+                              r.duration, a.key, a.bpm, a.time_signature,
+                              ",".join(moods(a)) or None))
             names(f"recording:{rid}", "title", r.title, r.evidence)
             common(f"recording:{rid}", r)
             credits(rid, "arranger", r.arranger)

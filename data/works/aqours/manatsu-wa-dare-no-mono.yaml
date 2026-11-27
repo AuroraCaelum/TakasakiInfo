@@ -17,11 +17,25 @@ recordings:
       - {character: aqours/ruby-kurosawa}
     arranger:
       - {person: atsushi-harada, affiliation: Arte Refact}
+    duration: 278
+    audio:
+      key: Ebm
+      bpm: 128
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd18
         checked: 2026-10-19
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_5zAe3YvjpkI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=063872df-6188-42b9-85a2-7b7b0afabdee
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   credits:
     status: official

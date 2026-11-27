@@ -16,11 +16,25 @@ recordings:
       - {artist: bibi}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 299
+    audio:
+      key: Ebm
+      bpm: 122
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd66
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JAW38HwXojl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=94451fb4-7d64-4ea9-a9ea-f4438dec8e9a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: kazunori-watanabe}
     instrumental_of: original
+    duration: 299
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_JAW38HwXojl
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: 錯覚CROSSROADS (NICO Mix)
@@ -51,6 +71,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 298
+    audio:
+      key: Ebm
+      bpm: 122
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=11451cc4-3422-4576-b472-11ac7f0c72ae
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: 錯覚CROSSROADS (MAKI Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 298
+    audio:
+      key: Ebm
+      bpm: 122
     evidence:
       credits:
         status: derived
@@ -80,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=4ee358f3-fefc-4df3-b271-21fccc153f1f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: 錯覚CROSSROADS (ELI Mix)
@@ -91,6 +139,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: kazunori-watanabe}
+    duration: 298
+    audio:
+      key: Ebm
+      bpm: 122
     evidence:
       credits:
         status: derived
@@ -100,6 +152,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=3eb12499-752a-4b85-93af-ee8b8d7ad58f
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

@@ -16,11 +16,25 @@ recordings:
       - {artist: lily-white}
     arranger:
       - {person: yoichi-sakai}
+    duration: 240
+    audio:
+      key: Gm
+      bpm: 135
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd65
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_uofjwxMOTxx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0e309998-467f-404f-85ef-1f4fe4214e48
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +46,7 @@ recordings:
     arranger:
       - {person: yoichi-sakai}
     instrumental_of: original
+    duration: 240
     evidence:
       credits:
         status: official
@@ -40,6 +55,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_uofjwxMOTxx
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nozomi-mix
     title:
       ja: 思い出以上になりたくて (NOZOMI Mix)
@@ -51,6 +71,10 @@ recordings:
       - {character: muse/nozomi-tojo}
     arranger:
       - {person: yoichi-sakai}
+    duration: 240
+    audio:
+      key: Gm
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -60,6 +84,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=ea021ebf-264f-4022-ae8c-d1e896121a5a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: rin-mix
     title:
       ja: 思い出以上になりたくて (RIN Mix)
@@ -71,6 +105,10 @@ recordings:
       - {character: muse/rin-hoshizora}
     arranger:
       - {person: yoichi-sakai}
+    duration: 240
+    audio:
+      key: Gm
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -80,6 +118,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=be605e5d-4aae-4bed-a914-00fd36a5bf9a
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: umi-mix
     title:
       ja: 思い出以上になりたくて (UMI Mix)
@@ -91,6 +139,10 @@ recordings:
       - {character: muse/umi-sonoda}
     arranger:
       - {person: yoichi-sakai}
+    duration: 240
+    audio:
+      key: Gm
+      bpm: 135
     evidence:
       credits:
         status: derived
@@ -100,6 +152,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=889eb3da-bf38-415b-ac8a-0ea8c700e5f4
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

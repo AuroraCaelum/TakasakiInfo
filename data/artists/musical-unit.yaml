@@ -4,6 +4,8 @@ projects: [musical]
 names:
   ja: 椿咲花女子高等学校
   kana: つばきさくはなじょしこうとうがっこう
+  rom: Tsubakisakuhana Joshi High School
+  ko: 츠바키사쿠하나 여자고등학교
 lineups:
   - members: [musical/rurika-tsubaki, musical/yukino-hojo, musical/yuzuha-sumeragi, musical/hikaru-amakusa, musical/maya-mikasa]
 evidence:
@@ -15,3 +17,11 @@ evidence:
   names.kana:
     status: derived
     note: '읽기가 하나뿐이라 자동 승인: 기존 음원 제목 읽기(椿咲花女子高等学校Ver.)와 같음 (D58, 2026-11-11)'
+  names.rom:
+    status: derived
+    checked: 2026-11-16
+    note: 같은 학교명이 든 음원 제목 未完成ドリーム！（…Ver.）의 rom·ko와 같게 씀(ko는 그룹 「츠바키타키자쿠라 여학원 고등학교」의 '여학원 고등학교'에 맞춤)
+  names.ko:
+    status: derived
+    checked: 2026-11-16
+    note: 같은 학교명이 든 음원 제목 未完成ドリーム！（…Ver.）의 rom·ko와 같게 씀(ko는 그룹 「츠바키타키자쿠라 여학원 고등학교」의 '여학원 고등학교'에 맞춤)

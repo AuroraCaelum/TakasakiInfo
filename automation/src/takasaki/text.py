@@ -61,7 +61,7 @@ def has_kana_or_kanji(s: str | None) -> bool:
 
 
 # kanji, including compatibility ideographs (中﨑) and the marks written as part of a kanji name
-_KANJI = "㐀-鿿豈-﫿々〆ヶ"
+_KANJI = "\u3400-\u9fff\uf900-\ufaff々〆ヶ"  # escapes: 豈 typed as a character is U+8C48, which made the range swallow Hangul
 
 
 def has_kanji(s: str | None) -> bool:

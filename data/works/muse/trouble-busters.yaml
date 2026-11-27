@@ -16,11 +16,17 @@ recordings:
       - {artist: bibi}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 285
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd51
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_2ntdUHLRN5u
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -32,6 +38,7 @@ recordings:
     arranger:
       - {person: tatsuya-kurauchi}
     instrumental_of: original
+    duration: 285
     evidence:
       credits:
         status: official
@@ -40,6 +47,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_2ntdUHLRN5u
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: nico-mix
     title:
       ja: Trouble Busters (NICO Mix)
@@ -51,6 +63,10 @@ recordings:
       - {character: muse/nico-yazawa}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 285
+    audio:
+      key: F#m
+      bpm: 157
     evidence:
       credits:
         status: derived
@@ -60,6 +76,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_yuBOxGmnW6o
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=db3d34aa-cfac-41a0-9a62-7ebe7ed0243e
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: maki-mix
     title:
       ja: Trouble Busters (MAKI Mix)
@@ -71,6 +97,10 @@ recordings:
       - {character: muse/maki-nishikino}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 285
+    audio:
+      key: F#m
+      bpm: 157
     evidence:
       credits:
         status: derived
@@ -80,6 +110,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_izSCqamwKpI
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=0278736b-bbc1-4a21-ae36-32fb043dffe2
+        checked: 2026-11-15
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
   - id: eli-mix
     title:
       ja: Trouble Busters (ELI Mix)
@@ -91,6 +131,10 @@ recordings:
       - {character: muse/eli-ayase}
     arranger:
       - {person: tatsuya-kurauchi}
+    duration: 285
+    audio:
+      key: A
+      bpm: 157
     evidence:
       credits:
         status: derived
@@ -100,6 +144,16 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_HAzUQuRyxZ0
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
+      audio:
+        status: established
+        source: https://api.reccobeats.com/v1/audio-features?ids=66aff1d1-508e-4ee7-8f93-343c4303578b
+        checked: 2026-11-16
+        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
 evidence:
   title:
     status: derived

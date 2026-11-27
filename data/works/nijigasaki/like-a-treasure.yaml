@@ -17,11 +17,17 @@ recordings:
       - {character: nijigasaki/mia-taylor}
     arranger:
       - {person: teddyloid}
+    duration: 197
     evidence:
       credits:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
         checked: 2026-10-20
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lMu3pzNPtkR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -33,6 +39,7 @@ recordings:
     arranger:
       - {person: teddyloid}
     instrumental_of: original
+    duration: 198
     evidence:
       credits:
         status: official
@@ -41,6 +48,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_lMu3pzNPtkR
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
   - id: movie-size
     title:
       ja: Like a Treasure (MOVIE size)
@@ -52,6 +64,7 @@ recordings:
       - {character: nijigasaki/mia-taylor}
     arranger:
       - {person: teddyloid}
+    duration: 96
     evidence:
       credits:
         status: derived
@@ -61,6 +74,11 @@ recordings:
       title.kana:
         status: derived
         note: 곡 kana + 버전 읽기(D58)
+      duration:
+        status: official
+        source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
+        checked: 2026-11-14
+        note: 레이블 배포 메타데이터의 재생 시간(D61)
 evidence:
   title:
     status: derived

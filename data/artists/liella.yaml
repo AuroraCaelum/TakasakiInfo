@@ -1,11 +1,39 @@
 id: liella
 kind: group
-projects: [nijigasaki, liella]
+projects: [liella]
 names:
   ja: Liella!
   kana: リエラ!
   rom: Liella!
   ko: Liella!
+lineups:
+  - until: 2022-04-27
+    members: [liella/kanon-shibuya, liella/keke-tang, liella/chisato-arashi, liella/sumire-heanna, liella/ren-hazuki]
+  - from: 2022-04-28
+    until: 2023-04-27
+    members:
+      - liella/kanon-shibuya
+      - liella/keke-tang
+      - liella/chisato-arashi
+      - liella/sumire-heanna
+      - liella/ren-hazuki
+      - liella/kinako-sakurakoji
+      - liella/mei-yoneme
+      - liella/shiki-wakana
+      - liella/natsumi-onitsuka
+  - from: 2023-04-28
+    members:
+      - liella/kanon-shibuya
+      - liella/keke-tang
+      - liella/chisato-arashi
+      - liella/sumire-heanna
+      - liella/ren-hazuki
+      - liella/kinako-sakurakoji
+      - liella/mei-yoneme
+      - liella/shiki-wakana
+      - liella/natsumi-onitsuka
+      - liella/margarete-wien
+      - liella/tomari-onitsuka
 evidence:
   names.ja:
     status: official
@@ -22,3 +50,8 @@ evidence:
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
     note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)
+  lineups:
+    status: established
+    source: https://ja.wikipedia.org/wiki/Liella!
+    checked: 2026-11-18
+    note: '공식 미게재(공식 멤버 페이지 https://www.lovelive-anime.jp/yuigaoka/member/ 는 현재 11명만). 기간 경계는 기수 합류 발표일(AiScReam처럼 현실 활동 기준): 2기생 2022-04-28(LoveLive!Days vol.27 발매일·공식 사이트 공개, https://animeanime.jp/article/2022/05/03/69251.html, Moegirl 「2022年4月28日，官方宣布」), 3기생 2023-04-28(LoveLive!Days 2023年6月号, 니코니코 대백과·Moegirl·위키백과 같음, https://anime.eiga.com/news/118602/ 2023-05-01 보도). 1기생 졸업은 애니메이션 3기 안의 일이고 현실 그룹은 2026-11 현재 11명'
