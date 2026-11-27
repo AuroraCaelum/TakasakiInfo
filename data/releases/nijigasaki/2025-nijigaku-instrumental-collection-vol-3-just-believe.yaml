@@ -54,12 +54,12 @@ evidence:
     status: official
     source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
     checked: 2026-10-27
-    note: 레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2989). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774742912/). 편곡은 각 보컬 음원과 같음
+    note: 레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2989). 곡명 표기는 레이블이 배포한 음원 정보(mora https://mora.jp/package/43000011/4540774742912/)를 따름. 편곡은 각 보컬 음원과 같음
   editions:
     status: official
     source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
     checked: 2026-10-27
-    note: 레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2989). 곡명 표기는 레이블 배포 메타데이터(mora https://mora.jp/package/43000011/4540774742912/). 편곡은 각 보컬 음원과 같음
+    note: 레이블 카탈로그(디지털 전용 Off Vocal 모음, LZC-2989). 곡명 표기는 레이블이 배포한 음원 정보(mora https://mora.jp/package/43000011/4540774742912/)를 따름. 편곡은 각 보컬 음원과 같음
   title:
     status: derived
     source: https://catalog.bandainamcomusiclive.co.jp/release/73565/
@@ -68,4 +68,4 @@ evidence:
     status: established
     source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
     checked: 2026-10-27
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠

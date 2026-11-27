@@ -32,12 +32,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e204b8aa-e6a7-45ae-a53d-7486827b15e2
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: aqours-ver
     title:
       ja: LIVE with a smile! (Aqours Ver.)
@@ -62,12 +62,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=8667d851-856f-4ae9-a496-d51b4f18ce39
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: nijigasaki-high-school-idol-club-ver
     title:
       ja: LIVE with a smile! (虹ヶ咲学園スクールアイドル同好会 Ver.)
@@ -92,12 +92,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4a4d2128-1a9a-4bf3-9520-635ed97b3c2e
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: liella-ver
     title:
       ja: LIVE with a smile! (Liella! Ver.)
@@ -122,12 +122,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=d1f86a4f-d2c3-4847-92a5-6f4e124ab59a
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 맞춘 트랙 중 다수(2/3 tracks)의 값
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값. 맞춘 트랙 3개 중 2개가 같은 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -149,7 +149,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aXwSoWm0nXZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -168,12 +168,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c9f81b1d-2baf-459d-aa6d-2ecc63264934
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -192,12 +192,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0e224c67-8501-4f63-925b-d5303faa31f3
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -216,12 +216,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=cdca4fa6-a0de-476a-b404-59b281ae0258
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -240,12 +240,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f47eeb4c-ddcc-481f-95db-e40de5c55ed0
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -264,12 +264,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b960d9a6-94a7-4bab-9c5f-7f8a670c2564
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -288,12 +288,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=7f0688df-0d12-4c2b-8310-a29eefa84c25
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
@@ -309,7 +309,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_HU1Ib2Jqunp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -325,7 +325,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_mXt13h6npny
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -341,7 +341,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_F3uC3EZQTXT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official

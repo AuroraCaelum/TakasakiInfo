@@ -19,12 +19,12 @@ birthday: 04-24
 evidence:
   name_parts:
     status: derived
-    note: 성·이름 분리 (D26)
+    note: 전체 이름을 성과 이름으로 나눔
   names.ja:
     status: official
     source: https://cinderellagirls.idolmaster-official.jp/idol/uzuki/
     checked: 2026-10-19
-    note: '공식 포털 아이돌 페이지 (후리가나 しまむらうづき, D28: 공백만 다름)'
+    note: 공식 포털 아이돌 페이지. 후리가나는 しまむらうづき. 띄어쓰기를 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춰 공백만 다름
   names.rom:
     status: official
     source: https://imas-cinderella.com/character/
@@ -34,12 +34,12 @@ evidence:
     status: established
     source: https://namu.wiki/w/시마무라 우즈키
     checked: 2026-10-19
-    note: 나무위키 문서 제목 (공식 한국어 표기 미확인)
+    note: 나무위키 문서 제목. 공식 미게재
   names.kana:
     status: official
     source: https://cinderellagirls.idolmaster-official.jp/idol/uzuki/
     checked: 2026-11-11
-    note: 신데렐라걸즈 공식 아이돌 페이지 후리가나(공백 없이 표기)
+    note: 신데렐라걸즈 공식 아이돌 페이지 후리가나. 공백 없이 적힘
   birthday:
     status: official
     source: https://cinderellagirls.idolmaster-official.jp/idol/uzuki/

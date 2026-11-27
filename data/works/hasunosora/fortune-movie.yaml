@@ -30,12 +30,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_mMXzz9nZZud
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e970f165-d7c9-46fc-8972-e0bffbc53a3b
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -57,7 +57,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_mMXzz9nZZud
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: 15th-tribute
     performers:
       - {artist: ui-shigure}
@@ -69,12 +69,12 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
         checked: 2026-10-20
-        note: "가창: 공식 페이지. 편곡: 공식 미게재, 레이블 배포 메타데이터(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json). 소속: 부클릿 크레딧 '塚越雄一朗(NanosizeMir)'(MONACA Wiki 전사 https://monaca.jp/wiki/LoveLive!_Series_15th_Anniversary_Tribute_Album). 원곡의 弦編曲은 이 커버에 없음"
+        note: "가창: 공식 페이지. 편곡: 공식 미게재. 레이블이 배포한 음원 정보(mora https://cf.mora.jp/contents/package/0000/00000060/0043/124/166/packageMeta.json). 소속: 부클릿 크레딧 '塚越雄一朗(NanosizeMir)'(MONACA Wiki 전사 https://monaca.jp/wiki/LoveLive!_Series_15th_Anniversary_Tribute_Album). 원곡의 弦編曲은 이 커버에 없음"
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_KiMZBBoLqn1
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: フォーチュンムービー (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
@@ -97,10 +97,10 @@ recordings:
         status: derived
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/hasunosora/music/02/)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/hasunosora/music/02/)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   credits:
     status: official

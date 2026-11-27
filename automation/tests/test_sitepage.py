@@ -165,7 +165,7 @@ def test_the_check_cites_the_page_for_what_it_prints(ds, tmp_path):
     assert ds.releases["p/2020-a"].evidence["tracks"].note == imp.CHECKED_TRACKS
     # the names the page printed: ja is cited, rom and ko wait for their own sources; a Latin name is itself
     hata = ds.persons["hata"].evidence
-    assert hata["names.ja"].source == URL and hata["names.ja"].note == "공식 표기 '畑亜貴' (띄어쓰기는 D28)"
+    assert hata["names.ja"].source == URL and hata["names.ja"].note.startswith("공식 표기는 「畑亜貴」.")
     assert hata["names.rom"] == MIGRATED and "names" not in hata
     assert ds.persons["effy"].evidence["names.ko"].status == m.Status.derived
     assert not (tmp_path / "P-artists.yaml").exists()  # a check never creates review items
@@ -231,6 +231,24 @@ def test_editions_with_their_own_coupling_song_get_a_disc_each(ds, tmp_path):
     # each edition's coupling song cites the edition's own page, not the release's first page
     assert ds.works["p/song-c"].evidence["credits"].source == url + "?2"
     assert ds.works["p/song-b"].evidence["credits"].source == url
+
+
+def test_editions_another_source_cites_stay_when_the_page_is_read_again(ds, tmp_path):
+    # D67: the special editions only the label catalog lists are kept, after the page's own
+    url = "https://x/music/cd42.php"
+    obs = _new(url, "Song A", [imp.TrackObs(1, "Song A (Off Vocal)")],
+               editions=[imp.EditionObs("初回限定盤", "LACM-5"), imp.EditionObs("通常盤", "LACM-6")])
+    site = imp.Site([], [obs], "https://x/member/")
+    imp.import_site(ds, site, tmp_path, dt.date(2026, 10, 19), IMPORT)
+    rel = next(r for r in ds.releases.values() if r.links.get("official") == url)
+    rel.editions.append(m.Edition(id="e3", label=m.Names(ja="通常盤 特装盤"), catalog="LACM-7", media=["CD"]))
+    rel.evidence["editions.tokusouban"] = m.Evidence(status=m.Status.official, source="https://catalog.example/1")
+    rep = imp.import_site(ds, site, tmp_path, dt.date(2026, 10, 20), IMPORT)
+    assert not rep.conflicts
+    assert [(e.id, e.catalog) for e in rel.editions] == [("e1", "LACM-5"), ("e2", "LACM-6"), ("e3", "LACM-7")]
+    del rel.evidence["editions.tokusouban"]  # without a source of its own the edition is the page's to drop
+    imp.import_site(ds, site, tmp_path, dt.date(2026, 10, 21), IMPORT)
+    assert [e.id for e in rel.editions] == ["e1", "e2"]
 
 
 def test_a_drama_cd_and_a_version_between_wave_dashes(ds, tmp_path):

@@ -32,12 +32,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_8hEYissx2VG
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=7d3c435f-c356-49eb-a604-8e234462e27c
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -57,17 +57,17 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%AB https://love-live.fandom.com/wiki/Fighting_Call'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%AB https://love-live.fandom.com/wiki/Fighting_Call'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd41.php
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

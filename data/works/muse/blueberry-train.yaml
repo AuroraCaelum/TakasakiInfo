@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4fdc7c77-12db-49ec-9c4a-4fa638dd55cf
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,22 +54,22 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_c3Bh5nziXzb
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(가나로 적은 영어를 원어로 복원한 표기. 다른 곡 문서의 듀오&트리오 싱글 틀과 같음. 이 곡 문서 안에서는 제목 행 Blueberry ♡ Train(각주: 스쿠페스 한국어판 곡명), 음반 틀 Blueberry ♥ Train, 솔로곡 일람 틀 블루~베리♥트레인으로 엇갈림. 하트는 인쇄 표기 ♥를 따름. 확인 필요) 외부 근거: https://namu.wiki/w/%E3%81%B6%E3%82%8B%E3%80%9C%E3%81%B9%E3%82%8A%E3%81%83%E2%99%A1%E3%81%A8%E3%82%8C%E3%81%84%E3%82%93 https://love-live.fandom.com/wiki/Blueberry%E2%99%A5Train ko: 검수(2026-10-20) 나무위키 음반 틀의 Blueberry ♥ Train(ja의 ♥와 같음).'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 가나로 적은 영어를 원어로 복원한 표기로, 다른 곡 문서의 듀오&트리오 싱글 틀과 같음. 이 곡 문서 안에서는 제목 행 Blueberry ♡ Train(각주: 스쿠페스 한국어판 곡명), 음반 틀 Blueberry ♥ Train, 솔로곡 일람 틀 블루~베리♥트레인으로 엇갈림. 하트는 인쇄 표기 ♥를 따름. 확인 필요. 검수(2026-10-20)에서 ko는 나무위키 음반 틀의 Blueberry ♥ Train으로 정함(ja의 ♥와 같음). 외부 근거: https://namu.wiki/w/%E3%81%B6%E3%82%8B%E3%80%9C%E3%81%B9%E3%82%8A%E3%81%83%E2%99%A1%E3%81%A8%E3%82%8C%E3%81%84%E3%82%93 https://love-live.fandom.com/wiki/Blueberry%E2%99%A5Train'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd13
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

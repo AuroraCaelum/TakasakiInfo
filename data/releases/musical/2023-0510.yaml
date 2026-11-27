@@ -82,14 +82,14 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/musical/2023/music.php#cd02
     checked: 2026-10-20
-    note: 공식 페이지의 트랙리스트와 대조함 (같음)
+    note: 공식 페이지의 트랙리스트와 같음
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_o8ZFCtHGvgY
     checked: 2026-10-27
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠
   title:
     status: derived
     source: data/projects/musical.yaml
     checked: 2026-10-19
-    note: 프로젝트 이름과 같다. Fandom 문서명은 School Idol Musical CD Album. 리뷰 승인
+    note: 프로젝트 이름과 같음. Fandom 문서명은 School Idol Musical CD Album. 사람이 승인함

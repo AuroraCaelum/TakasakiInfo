@@ -297,7 +297,7 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
     checked: 2026-10-20
-    note: 'rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기. 일정 조사 메모: 무관객 유료 생배송(無観客有料生配信). The official page lists two separately titled lives, 「…2nd Live! Brand New Story」 (2020-09-12, ＜1回目＞開演12:30 and ＜2回目＞開演18:00) and 「…2nd Live! Back to the TOKIMEKI」 (2020-09-13, 開演16:00), both 「＜無観客有料生配信ライブ＞」 with 【場所】東京ガーデンシアター (existing venue tokyo-garden-theater). Per the brief they are online-only (no audience), so city is null and venue carries online: true; a reviewer may prefer city tokyo since the hall is named. I split the two titled parts into two stops at the same hall (stop label = part name); merge into one stop if one venue run must be one stop. title_ja is the common prefix of the two part titles (the page heading reads 「2nd Live 特設サイト」). Fandom has a single "Brand New Story" tab for both 9/12 shows (its Blu-ray track list is the evening show); no source I found says whether the 1st and 2nd shows had identical set lists, so the tab is mapped to both.'
+    note: 'rom·ko: 시리즈명은 정해진 표기, 나머지는 공식 라틴 표기. 일정 조사 메모: 무관객 유료 생배송(無観客有料生配信). 공식 페이지는 제목이 다른 라이브 둘을 적음: 「…2nd Live! Brand New Story」(2020-09-12, ＜1回目＞開演12:30, ＜2回目＞開演18:00), 「…2nd Live! Back to the TOKIMEKI」(2020-09-13, 開演16:00). 둘 다 「＜無観客有料生配信ライブ＞」이고 【場所】東京ガーデンシアター(기존 회장 tokyo-garden-theater). 조사 의뢰서대로 온라인 전용(무관객)으로 보고 도시는 비우고 회장은 온라인으로 표시함. 홀 이름이 나와 있어 도시를 도쿄로 둘 수도 있음. 제목이 붙은 두 파트를 같은 홀의 공연지 둘로 나눔(공연지 라벨은 파트 이름). 한 회장의 공연을 한 공연지로 묶어야 하면 합칠 것. ja 제목은 두 파트 제목의 공통 앞부분(페이지 제목은 「2nd Live 特設サイト」). Fandom에는 9/12 두 공연에 "Brand New Story" 탭 하나뿐임(Blu-ray 트랙리스트는 저녁 공연). 1회차와 2회차의 세트리스트가 같았는지 말하는 출처를 찾지 못해 탭을 두 공연 모두에 연결함.'
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/sp_2ndlive.php
@@ -306,9 +306,9 @@ evidence:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_2nd_Live!
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2020-09-13:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_2nd_Live!
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전

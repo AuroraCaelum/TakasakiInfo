@@ -26,7 +26,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_sOEsIpOoMMu
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -46,12 +46,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_sOEsIpOoMMu
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: umi-mix
     title:
       ja: baby maybe 恋のボタン (UMI MIX)
@@ -72,20 +72,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a1ae288f-9c85-402b-b90d-b30d2e6529d3
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kotori-mix
     title:
       ja: baby maybe 恋のボタン (KOTORI MIX)
@@ -106,20 +106,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd08
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_GizazSHptpA
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a58528f4-f968-489b-9b2f-1b6409b7e2f8
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: honoka-mix
     title:
       ja: baby maybe 恋のボタン (HONOKA Mix)
@@ -140,20 +140,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd09
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_HSOWZeBgBr5
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1deb163c-c03c-41d4-bf4a-c44babba30fe
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: nozomi-mix
     title:
       ja: baby maybe 恋のボタン (NOZOMI Mix)
@@ -174,20 +174,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b8b56f50-e617-4b2f-a4dc-bc352ef948ac
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: nico-mix
     title:
       ja: baby maybe 恋のボタン (NICO Mix)
@@ -208,20 +208,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=7d0bbeb2-d414-4a62-9953-db9ed6c87bb9
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: maki-mix
     title:
       ja: baby maybe 恋のボタン (MAKI Mix)
@@ -242,20 +242,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64953/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_0YEPGhZ20Zg
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=9e992027-c561-487a-951a-a86c8439d6fa
         checked: 2026-11-16
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: eli-mix
     title:
       ja: baby maybe 恋のボタン (ELI Mix)
@@ -276,20 +276,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64954/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_XTh1P4khIUA
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=6a6787e8-39b3-4a0f-8d41-55fd1ababe5f
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: rin-mix
     title:
       ja: baby maybe 恋のボタン (RIN Mix)
@@ -310,20 +310,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c2faf044-ca16-42f3-a181-d11114fb5542
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: hanayo-mix
     title:
       ja: baby maybe 恋のボタン (HANAYO Mix)
@@ -344,30 +344,30 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64956/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd02)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_JDdY51aT5Nk
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1cf7b184-cc51-418b-9360-9f02ea3f1aef
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom(문서 첫머리 표기. 문서 제목은 첫 글자만 대문자), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/baby%20maybe%20%E6%81%8B%E3%81%AE%E3%83%9C%E3%82%BF%E3%83%B3 https://love-live.fandom.com/wiki/Baby_maybe_Koi_no_Button'
+    note: 'ja: 공식 페이지. rom: Fandom(문서 첫머리 표기. 문서 제목은 첫 글자만 대문자). ko: 나무위키(곡 문서 제목 행). 외부 근거: https://namu.wiki/w/baby%20maybe%20%E6%81%8B%E3%81%AE%E3%83%9C%E3%82%BF%E3%83%B3 https://love-live.fandom.com/wiki/Baby_maybe_Koi_no_Button'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd02
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

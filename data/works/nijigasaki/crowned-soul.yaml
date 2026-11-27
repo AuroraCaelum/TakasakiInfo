@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=D76qu6z30nw
         checked: 2026-10-20
-        note: 공식 페이지는 오기 「作詞：作曲・編曲：TeddyLoid、EMME」(cd.php#cd01_6287). 레이블 제공 배포 메타데이터(YouTube Music, D42)는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 일치
+        note: 공식 페이지는 「作詞：作曲・編曲：TeddyLoid、EMME」로 잘못 적음(cd.php#cd01_6287). 레이블이 YouTube Music에 넘긴 음원 정보는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 같음
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_VZdhi5EZTs4
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -55,12 +55,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_VZdhi5EZTs4
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
@@ -70,7 +70,7 @@ evidence:
     status: official
     source: https://music.youtube.com/watch?v=D76qu6z30nw
     checked: 2026-10-20
-    note: 공식 페이지는 오기 「作詞：作曲・編曲：TeddyLoid、EMME」(cd.php#cd01_6287). 레이블 제공 배포 메타데이터(YouTube Music, D42)는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 일치
+    note: 공식 페이지는 「作詞：作曲・編曲：TeddyLoid、EMME」로 잘못 적음(cd.php#cd01_6287). 레이블이 YouTube Music에 넘긴 음원 정보는 작사·작곡·편곡 모두 TeddyLoid, EMME. Fandom·UtaTen·나무위키와 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

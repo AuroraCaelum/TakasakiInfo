@@ -131,12 +131,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
     checked: 2026-10-27
-    note: 공식 페이지의 트랙리스트와 대조함 (같음). 공식 페이지는 디스크 4장으로 나눠 트랙 번호를 매김
+    note: 공식 페이지의 트랙리스트와 같음. 공식 페이지는 디스크 4장으로 나눠 트랙 번호를 매김
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠
   editions:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43
@@ -149,8 +149,8 @@ evidence:
   title.rom:
     status: derived
     checked: 2026-10-21
-    note: 시리즈명 고정 표기 Love Live! Sunshine!! + 라틴 원문(반각, E15). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017) https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)
+    note: '시리즈명은 정해진 표기 Love Live! Sunshine!!, 나머지는 라틴 원문(반각). Fandom 문서명은 시리즈명 없이 Aqours CHRONICLE (2015-2017). 외부 근거: https://love-live.fandom.com/wiki/Aqours_CHRONICLE_(2015-2017)'
   title.ko:
     status: derived
     checked: 2026-10-21
-    note: 시리즈명 고정 표기 러브 라이브! 선샤인!!(D11) + 라틴 원문(반각)
+    note: 시리즈명은 정해진 표기 러브 라이브! 선샤인!!, 나머지는 라틴 원문(반각)

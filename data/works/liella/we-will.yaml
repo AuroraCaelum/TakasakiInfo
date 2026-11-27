@@ -26,7 +26,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_PIaTJuAFK14
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -59,10 +59,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd26.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: live-ijigen-fes-2023-2023-12-09
     title:
       ja: WE WILL!! (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
@@ -83,10 +83,10 @@ recordings:
         status: derived
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/music/cd18.php)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/music/cd18.php)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   credits:
     status: official

@@ -411,7 +411,7 @@ def cmd_audio_bpm(args: argparse.Namespace) -> int:
         for mt in found:
             assert mt.audio is not None
             apply_audio(ds, mt.rid, mt.audio, mt.url, today,
-                        NOTE_AUDIO + (f"; 맞춘 트랙 중 다수({mt.reason})의 값" if mt.reason else ""))
+                        NOTE_AUDIO + (". 맞춘 트랙 {1}개 중 {0}개가 같은 값".format(*mt.reason.split()[0].split("/")) if mt.reason else ""))
         for mt in reviews:
             _write_review(review / f"AUD-{mt.rid.replace('/', '-').replace('#', '--')}.yaml", audio_review(ds, mt))
         if found:

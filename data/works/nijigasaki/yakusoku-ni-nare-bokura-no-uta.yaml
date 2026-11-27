@@ -30,7 +30,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lMu3pzNPtkR
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -52,12 +52,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_lMu3pzNPtkR
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: shioriko-mifune-ver
     title:
       ja: 約束になれ僕らの歌 (三船栞子 Ver.)
@@ -77,15 +77,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: mia-taylor-ver
     title:
       ja: 約束になれ僕らの歌 (ミア・テイラー Ver.)
@@ -105,15 +105,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: rina-tennoji-ver
     title:
       ja: 約束になれ僕らの歌 (天王寺璃奈 Ver.)
@@ -133,15 +133,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: karin-asaka-ver
     title:
       ja: 約束になれ僕らの歌 (朝香果林 Ver.)
@@ -161,15 +161,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: setsuna-yuki-ver
     title:
       ja: 約束になれ僕らの歌 (優木せつ菜 Ver.)
@@ -189,15 +189,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: ai-miyashita-ver
     title:
       ja: 約束になれ僕らの歌 (宮下 愛 Ver.)
@@ -217,15 +217,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: ayumu-uehara-ver
     title:
       ja: 約束になれ僕らの歌 (上原歩夢 Ver.)
@@ -245,15 +245,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kasumi-nakasu-ver
     title:
       ja: 約束になれ僕らの歌 (中須かすみ Ver.)
@@ -273,15 +273,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: shizuku-osaka-ver
     title:
       ja: 約束になれ僕らの歌 (桜坂しずく Ver.)
@@ -301,15 +301,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kanata-konoe-ver
     title:
       ja: 約束になれ僕らの歌 (近江彼方 Ver.)
@@ -329,15 +329,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: emma-verde-ver
     title:
       ja: 約束になれ僕らの歌 (エマ・ヴェルデ Ver.)
@@ -357,15 +357,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: lanzhu-zhong-ver
     title:
       ja: 約束になれ僕らの歌 (鐘 嵐珠 Ver.)
@@ -385,25 +385,25 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5601
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_Lxm61gYxpog
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%B4%84%E6%9D%9F%E3%81%AB%E3%81%AA%E3%82%8C%E5%83%95%E3%82%89%E3%81%AE%E6%AD%8C https://love-live.fandom.com/wiki/Yakusoku_ni_Nare_Bokura_no_Uta'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E7%B4%84%E6%9D%9F%E3%81%AB%E3%81%AA%E3%82%8C%E5%83%95%E3%82%89%E3%81%AE%E6%AD%8C https://love-live.fandom.com/wiki/Yakusoku_ni_Nare_Bokura_no_Uta'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_5102
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

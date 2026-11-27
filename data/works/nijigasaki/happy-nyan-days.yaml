@@ -28,17 +28,17 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=IdtU0xFIxxo
         checked: 2026-10-19
-        note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
+        note: '편곡: 레이블이 배포한 음원 정보. YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24. 크레딧은 공식 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 같음'
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_QTP6ZtryhbB
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=80667ffc-6e80-47bd-bc31-199a65797eb4
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -56,7 +56,7 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=IdtU0xFIxxo
         checked: 2026-10-19
-        note: '편곡: 레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 일치'
+        note: '편곡: 레이블이 배포한 음원 정보. YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24. 크레딧은 공식 미게재(TV 1기 BD Vol.5 특전 CD). 가창은 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv1st/ 와 같음'
   - id: live-ijigen-fes-2023-2023-12-10
     title:
       ja: Happy Nyan! Days (異次元フェス アイドルマスター★♥ラブライブ！歌合戦)
@@ -77,13 +77,13 @@ recordings:
         status: derived
         source: https://ijigen-fes.jp/utagassen/cd.php
         checked: 2026-11-04
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://music.youtube.com/watch?v=IdtU0xFIxxo)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://music.youtube.com/watch?v=IdtU0xFIxxo)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   credits:
     status: official
     source: https://music.youtube.com/watch?v=IdtU0xFIxxo
     checked: 2026-10-19
-    note: '레이블 제공 배포 메타데이터 (YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24). 공식 사이트에는 크레딧 미게재(TV 1기 BD Vol.5 특전 CD). Fandom·Apple Music도 작사 PASSiON KiNG・Rico. 이전 값(작사 nana hatori, 작곡 PASSiON KiNG・Rico)은 나무위키뿐이었음'
+    note: '레이블이 배포한 음원 정보. YouTube Music 자동 생성 설명란: Provided to YouTube by Space Shower FUGA, ℗ 2022 Lantis, 「ニジガク ボーナストラック コレクション Vol.1」 2022-12-24. 크레딧은 공식 미게재(TV 1기 BD Vol.5 특전 CD). Fandom·Apple Music도 작사 PASSiON KiNG・Rico. 이전 값(작사 nana hatori, 작곡 PASSiON KiNG・Rico)은 나무위키에만 있었음'

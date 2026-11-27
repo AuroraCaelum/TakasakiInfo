@@ -22,12 +22,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
     checked: 2026-11-27
-    note: 공식 크레딧 표기 (띄어쓰기는 D28)
+    note: 공식 크레딧 표기. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: official
     source: https://catalog.bandainamcomusiclive.co.jp/release/62812/
     checked: 2026-11-27
-    note: 레이블 카탈로그 EN 'Erena Todo'
+    note: 레이블 카탈로그 영문 표기 'Erena Todo'
   names.ko:
     status: established
     source: https://namu.wiki/w/토도 에레나
@@ -37,10 +37,10 @@ evidence:
     status: established
     source: https://namu.wiki/w/토도 에레나
     checked: 2026-11-27
-    note: 나무위키 이름 루비(공식 루비 미게재)
+    note: 나무위키 이름 루비. 공식 미게재
   name_parts:
     status: derived
-    note: 전체 이름에서 분리 (D26)
+    note: 전체 이름을 성과 이름으로 나눔
   casting:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23

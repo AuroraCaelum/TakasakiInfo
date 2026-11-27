@@ -30,12 +30,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0ba151f9-7810-4022-9811-d4476b00f8e2
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -55,12 +55,12 @@ recordings:
         checked: 2026-10-19
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_nDsfGAbvQJf
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -79,12 +79,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_JNfBdB4Awmp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
         checked: 2026-11-16
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -103,12 +103,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_wQoa1lXWtDV
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0e12530a-8c8c-420b-8898-022e0427be5d
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -127,12 +127,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_d0Xb7qhDeAg
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c3142276-1791-4385-9eeb-a6acbd10be8a
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -151,12 +151,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_gCG52rsvoEa
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c70bdcbb-b399-4db4-a2e3-5b6fc4e3c914
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -175,12 +175,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_l127ZhMDm9A
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b6905852-797f-4f33-b554-5c887fbf2049
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -199,12 +199,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lxBGxzrHurk
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f25d7230-ad79-4e96-b3f0-87cb2d89a615
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
@@ -220,7 +220,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_HU1Ib2Jqunp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -236,7 +236,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_mXt13h6npny
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -252,7 +252,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_F3uC3EZQTXT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: chika-takami-solo-ver
     title:
       ja: Thank you, FRIENDS!! (高海千歌 Solo Ver.)
@@ -272,15 +272,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=83a563a6-1d22-48cf-b59b-e350b7ae5038
         checked: 2026-11-16
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: riko-sakurauchi-solo-ver
     title:
       ja: Thank you, FRIENDS!! (桜内梨子 Solo Ver.)
@@ -300,15 +300,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0e12530a-8c8c-420b-8898-022e0427be5d
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kanan-matsuura-solo-ver
     title:
       ja: Thank you, FRIENDS!! (松浦果南 Solo Ver.)
@@ -328,15 +328,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=b6905852-797f-4f33-b554-5c887fbf2049
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: dia-kurosawa-solo-ver
     title:
       ja: Thank you, FRIENDS!! (黒澤ダイヤ Solo Ver.)
@@ -356,15 +356,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c70bdcbb-b399-4db4-a2e3-5b6fc4e3c914
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: you-watanabe-solo-ver
     title:
       ja: Thank you, FRIENDS!! (渡辺 曜 Solo Ver.)
@@ -381,10 +381,10 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: Thank you, FRIENDS!! (津島善子 Solo Ver.)
@@ -401,10 +401,10 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: Thank you, FRIENDS!! (国木田花丸 Solo Ver.)
@@ -424,15 +424,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f25d7230-ad79-4e96-b3f0-87cb2d89a615
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: mari-ohara-solo-ver
     title:
       ja: Thank you, FRIENDS!! (小原鞠莉 Solo Ver.)
@@ -449,10 +449,10 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: ruby-kurosawa-solo-ver
     title:
       ja: Thank you, FRIENDS!! (黒澤ルビィ Solo Ver.)
@@ -472,15 +472,15 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/68112/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd26)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=c3142276-1791-4385-9eeb-a6acbd10be8a
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   credits:
     status: official
@@ -488,4 +488,4 @@ evidence:
     checked: 2026-10-19
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

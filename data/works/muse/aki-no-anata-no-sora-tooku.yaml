@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_k80KtsXCvUK
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=93621d01-f098-499c-8bc6-2d74ccf9c761
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,12 +54,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_k80KtsXCvUK
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: nozomi-mix
     title:
       ja: 秋のあなたの空遠く (NOZOMI Mix)
@@ -80,20 +80,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd75
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_lxngeolTYJF
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=99450a81-27e2-4abb-9604-e335088e94c3
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: rin-mix
     title:
       ja: 秋のあなたの空遠く (RIN Mix)
@@ -114,20 +114,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd77
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_SwmTzQ4nPKU
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=48d1d1d4-be6e-457a-94b1-556f1bad6a57
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: umi-mix
     title:
       ja: 秋のあなたの空遠く (UMI Mix)
@@ -148,30 +148,30 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd78
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd50)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_ezTTYIOSemX
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=24da5f66-e957-4d3b-80c4-cff365664c7d
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E7%A7%8B%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%A9%BA%E9%81%A0%E3%81%8F https://love-live.fandom.com/wiki/Aki_no_Anata_no_Sora_Tooku'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E7%A7%8B%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%A9%BA%E9%81%A0%E3%81%8F https://love-live.fandom.com/wiki/Aki_no_Anata_no_Sora_Tooku'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd50
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

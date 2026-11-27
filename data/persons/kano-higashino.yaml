@@ -19,20 +19,20 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4702
     checked: 2026-10-19
-    note: "ja: 공식 크레딧. rom·ko·kana는 각 필드의 근거를 따른다(2026-11-10 히가시노로 정정. 이전에는 나무위키 '토노 카노'와 Fandom 'Kano Tono'를 따랐음)"
+    note: "ja: 공식 크레딧. rom·ko·kana는 각 필드의 근거를 따름. 2026-11-10 히가시노로 고침. 이전에는 나무위키 '토노 카노'와 Fandom 'Kano Tono'를 따랐음"
   name_parts:
     status: derived
-    note: '성·이름 분리: 리뷰에서 확인 (D28)'
+    note: 성과 이름을 나눈 위치는 사람이 확인함
   names.rom:
     status: established
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-10
-    note: 'JASRAC J-WID 작가명 검색에서 ヒガシノカノ만 이 사람의 작품(EDELIED 등 42건)과 맞음(トウノ·トオノ는 0건). Fandom은 문서마다 Kano Tono / Kano Higashino. 사용자 결정 (2026-11-10): 히가시노 카노'
+    note: JASRAC J-WID 작가명 검색에서 ヒガシノカノ만 이 사람의 작품(EDELIED 등 42건)과 맞음. トウノ·トオノ는 0건. Fandom은 문서마다 Kano Tono / Kano Higashino로 엇갈림. 히가시노 카노로 사람이 정함(2026-11-10)
   names.ko:
     status: derived
-    note: rom을 규칙(§5.4)으로. 사용자 결정 (2026-11-10). 이전 값 토노 카노는 나무위키
+    note: rom을 한국어 음역 방식(어두 격음, う 장음 생략 등)대로 옮김. 사람이 정함(2026-11-10). 이전 값 토노 카노는 나무위키 표기
   names.kana:
     status: established
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-10
-    note: J-WID 등록 읽기 ヒガシノカノ
+    note: JASRAC 작품 검색(J-WID)에 등록된 읽기 ヒガシノカノ

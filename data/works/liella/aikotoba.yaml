@@ -25,17 +25,17 @@ recordings:
         status: established
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+        note: 공식 뉴스에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60)를 봄. 솔로 버전 표기 Solo Ver.는 萌娘百科를 따름. 발송일 2024-07-26은 萌娘百科. 공식은 7월 발송이라고만 적음. 크레딧은 디지털 싱글 LZC-2411의 레이블이 배포한 음원 정보(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라 넣지 않음(Fandom은 현악, 萌娘百科는 관악). 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_VvT4un42g11
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=bc3c657b-b494-4156-9016-d4272194a960
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -52,10 +52,10 @@ recordings:
         status: established
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+        note: 공식 뉴스에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60)를 봄. 솔로 버전 표기 Solo Ver.는 萌娘百科를 따름. 발송일 2024-07-26은 萌娘百科. 공식은 7월 발송이라고만 적음. 크레딧은 디지털 싱글 LZC-2411의 레이블이 배포한 음원 정보(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라 넣지 않음(Fandom은 현악, 萌娘百科는 관악). 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: kanon-shibuya-solo-ver
     title:
       ja: アイコトバ！ (澁谷かのん Solo Ver.)
@@ -72,10 +72,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: keke-tang-solo-ver
     title:
       ja: アイコトバ！ (唐 可可 Solo Ver.)
@@ -92,10 +92,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: chisato-arashi-solo-ver
     title:
       ja: アイコトバ！ (嵐 千砂都 Solo Ver.)
@@ -112,10 +112,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: sumire-heanna-solo-ver
     title:
       ja: アイコトバ！ (平安名すみれ Solo Ver.)
@@ -132,10 +132,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: ren-hazuki-solo-ver
     title:
       ja: アイコトバ！ (葉月 恋 Solo Ver.)
@@ -152,10 +152,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: kinako-sakurakoji-solo-ver
     title:
       ja: アイコトバ！ (桜小路きな子 Solo Ver.)
@@ -172,10 +172,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: mei-yoneme-solo-ver
     title:
       ja: アイコトバ！ (米女メイ Solo Ver.)
@@ -192,10 +192,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: shiki-wakana-solo-ver
     title:
       ja: アイコトバ！ (若菜四季 Solo Ver.)
@@ -212,10 +212,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: natsumi-onitsuka-solo-ver
     title:
       ja: アイコトバ！ (鬼塚夏美 Solo Ver.)
@@ -232,10 +232,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: margarete-wien-solo-ver
     title:
       ja: アイコトバ！ (ウィーン・マルガレーテ Solo Ver.)
@@ -252,10 +252,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: tomari-onitsuka-solo-ver
     title:
       ja: アイコトバ！ (鬼塚冬毬 Solo Ver.)
@@ -272,21 +272,21 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
     checked: 2026-11-05
-    note: 'ja: 공식 뉴스. rom: Fandom(Aikotoba!), ko: 음역안(合言葉와 愛言葉를 겹친 말이라 번역하지 않음)'
+    note: 'ja: 공식 뉴스. rom: Fandom(Aikotoba!). ko: 음역안. 合言葉와 愛言葉를 겹친 말이라 번역하지 않음'
   credits:
     status: established
     source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_3704
     checked: 2026-10-27
-    note: '공식 뉴스(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60), 솔로 버전 표기는 萌娘百科(Solo Ver.). 발송일 2024-07-26은 萌娘百科(공식은 7월 발송). 크레딧은 디지털 싱글 LZC-2411의 레이블 배포 메타데이터(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라(Fandom 현악, 萌娘百科 관악) 넣지 않음. 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz'
+    note: 공식 뉴스에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/49f1d5c8-a9e6-4384-a4a5-f396ded9ae60)를 봄. 솔로 버전 표기 Solo Ver.는 萌娘百科를 따름. 발송일 2024-07-26은 萌娘百科. 공식은 7월 발송이라고만 적음. 크레딧은 디지털 싱글 LZC-2411의 레이블이 배포한 음원 정보(mora). 弦·管編曲 水野谷 怜는 출처마다 악기 구분이 달라 넣지 않음(Fandom은 현악, 萌娘百科는 관악). 품번 LAPE-1003～1006(프리미어 코스, CD+BD 3장)은 MusicBrainz
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

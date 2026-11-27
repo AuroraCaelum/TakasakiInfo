@@ -31,12 +31,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=03783af9-ece5-476a-be7b-d2f32bb84c74
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -56,12 +56,12 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: chika-takami-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (高海千歌 Solo Ver.)
@@ -79,15 +79,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(高海千歌 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(高海千歌 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: riko-sakurauchi-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (桜内梨子 Solo Ver.)
@@ -105,15 +105,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(桜内梨子 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(桜内梨子 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kanan-matsuura-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (松浦果南 Solo Ver.)
@@ -131,15 +131,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(松浦果南 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(松浦果南 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: dia-kurosawa-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (黒澤ダイヤ Solo Ver.)
@@ -157,15 +157,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(黒澤ダイヤ Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(黒澤ダイヤ Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: you-watanabe-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (渡辺 曜 Solo Ver.)
@@ -183,15 +183,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(渡辺 曜 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(渡辺 曜 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: yoshiko-tsushima-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (津島善子 Solo Ver.)
@@ -209,15 +209,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(津島善子 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(津島善子 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: hanamaru-kunikida-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (国木田花丸 Solo Ver.)
@@ -235,15 +235,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(国木田花丸 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(国木田花丸 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: mari-ohara-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (小原鞠莉 Solo Ver.)
@@ -261,15 +261,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(小原鞠莉 Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(小原鞠莉 Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: ruby-kurosawa-solo-ver
     title:
       ja: SORA, FUJI, SUNSHINE! (黒澤ルビィ Solo Ver.)
@@ -287,15 +287,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd84
         checked: 2026-11-16
-        note: 가창자는 버전명(黒澤ルビィ Solo Ver.)의 캐릭터(공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음). 편곡은 같은 곡 original의 공식 크레딧과 같다고 봄
+        note: 가창자는 버전명(黒澤ルビィ Solo Ver.)의 캐릭터. 공식 페이지는 발매물 아티스트 Aqours만 적고 트랙별 가창자를 적지 않음. 편곡은 같은 곡 original 음원의 공식 크레딧과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_cCTAVlB99cx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
@@ -307,4 +307,4 @@ evidence:
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

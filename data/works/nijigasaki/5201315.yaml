@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_GYaepllp9qQ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3302d691-3318-4556-8e20-a5645746e1e1
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,17 +54,17 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_zxLlMXCHXvZ
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title.rom:
     status: derived
     checked: 2026-10-27
-    note: 숫자로 된 제목은 rom·ko도 원문(§5.4). 레거시 표가 자동 채우기로 5201315·5201316을 넣어 둔 것을 고침(id는 그대로)
+    note: 숫자로 된 제목이라 rom·ko도 원문 그대로 씀. 레거시 표가 자동 채우기로 5201315·5201316을 넣어 둔 것을 고침(id는 그대로)
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd56

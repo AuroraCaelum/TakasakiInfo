@@ -19,12 +19,12 @@ evidence:
     status: established
     source: https://musicbrainz.org/isrc/JPI102301530
     checked: 2026-10-17
-    note: 공식 미게재 (Liella! 공식 CD 목록에 없음, 2026-10-18 확인)
+    note: 공식 미게재. Liella! 공식 CD 목록에 없음(2026-10-18 확인)
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_tPNy3U719AK
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠
   legacy:
     status: derived
-    note: 레거시 파일에는 넣지 않음. 클럽 CD 수록분의 메인 URL 출처 (누락 발매물 백필은 Phase 3)
+    note: 레거시 파일에는 넣지 않음. 클럽 CD 수록분의 메인 URL 출처. 빠진 발매물은 이후 백필 단계에서 채움

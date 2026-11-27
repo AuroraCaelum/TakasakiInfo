@@ -21,7 +21,7 @@ recordings:
         status: established
         source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
         checked: 2026-10-27
-        note: '레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)'
+        note: 레이블 카탈로그(곡명, 가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매함. 판매 근거는 ja.wikipedia이고 공식 판매 페이지는 사라짐. 크레딧은 공식 미게재라 ja.wikipedia·Fandom을 봄(작사 畑 亜貴, 작곡·편곡 河田貴央)
   - id: off-vocal
     kind: off_vocal
     title:
@@ -38,10 +38,10 @@ recordings:
         status: established
         source: https://catalog.bandainamcomusiclive.co.jp/release/68908/
         checked: 2026-10-27
-        note: '레이블 카탈로그(곡명·가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매(ja.wikipedia. 공식 판매 페이지는 사라짐). 크레딧은 공식 미게재: ja.wikipedia·Fandom(작사 畑 亜貴, 작곡·편곡 河田貴央)'
+        note: 레이블 카탈로그(곡명, 가창 シャゼリア☆キッス, LACZ-10030). UNIT LIVE ADVENTURE 2020 추가 공연 굿즈 통판의 「「シャゼリア☆キッス」奇跡の！？CDセット」(머플러 타월 동봉)으로 판매함. 판매 근거는 ja.wikipedia이고 공식 판매 페이지는 사라짐. 크레딧은 공식 미게재라 ja.wikipedia·Fandom을 봄(작사 畑 亜貴, 작곡·편곡 河田貴央)
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 external_ids:
   fandom: CYaZALEA☆Kiss☆DADANDAAAN
 evidence:
@@ -49,7 +49,7 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd2.php#cd34
     checked: 2026-10-20
-    note: 'ja: 공식 페이지(シャゼリア☆キッス☆ダダンダーン / シャゼリア☆キッス. Aqours CLUB 상품과 지모아이 BD 수록 목록 #cd31도 가타카나). 2020 만우절 기획 한정 유닛 シャゼリア☆キッス의 곡. rom: Fandom(라틴 표기), ko: 가타카나 제목의 원어 복원(rom과 같음, §5.4). 음원은 배포 음원(2020-05-08)에만 있어(넣지 않는 발매물) Recording 없이 Work만 둠(§4.6, D50)'
+    note: 'ja: 공식 페이지(シャゼリア☆キッス☆ダダンダーン / シャゼリア☆キッス). Aqours CLUB 상품과 지모아이 BD 수록 목록 #cd31도 가타카나. 2020 만우절 기획 한정 유닛 シャゼリア☆キッス의 곡. rom: Fandom의 라틴 표기. ko: 가타카나 제목을 원어로 되살린 표기라 rom과 같음. 음원은 넣지 않는 발매물인 배포 음원(2020-05-08)에만 있어 Recording 없이 Work만 둠'
   credits:
     status: established
     source: https://love-live.fandom.com/wiki/CYaZALEA%E2%98%86Kiss%E2%98%86DADANDAAAN
@@ -57,4 +57,4 @@ evidence:
     note: '공식 미게재. Fandom: 작사 Aki Hata, 작곡·편곡 Takahiro Kawata'
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

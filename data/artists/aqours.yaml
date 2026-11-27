@@ -24,17 +24,17 @@ evidence:
     checked: 2026-10-19
   names.rom:
     status: derived
-    note: '라틴 표기: rom는 ja와 같음 (§5.4)'
+    note: 원래 이름이 라틴 문자라 로마자 표기도 원래 이름 그대로 씀
   names.ko:
     status: derived
-    note: '라틴 표기: ko는 ja와 같음 (§5.4)'
+    note: 원래 이름이 라틴 문자라 한국어 표기도 원래 이름 그대로 씀
   names.kana:
     status: official
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
-    note: JASRAC J-WID 가수명 등록 읽기(공식 근거, D58)
+    note: JASRAC 작품 검색(J-WID)에 가수명으로 등록된 읽기. 공식 근거로 봄
   lineups:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/member/
     checked: 2026-11-18
-    note: 공식 멤버 페이지의 9명. 결성 이후 멤버 변동 없음(Finale LoveLive!는 해산이 아니라고 공지, 위키백과 Aqours)
+    note: 공식 멤버 페이지의 9명. 결성 이후 멤버 변동 없음. Finale LoveLive!는 해산이 아니라고 공지함(위키백과 Aqours)

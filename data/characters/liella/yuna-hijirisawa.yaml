@@ -22,12 +22,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
     checked: 2026-11-27
-    note: 공식 크레딧 표기 (띄어쓰기는 D28)
+    note: 공식 크레딧 표기. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/Yuna_Hijirisawa
     checked: 2026-11-27
-    note: '공식 미게재: 공식 영문 표기 없음: Fandom(D38)'
+    note: 공식 미게재. 공식 영문 표기가 없어 Fandom 표기를 따름
   names.ko:
     status: established
     source: https://namu.wiki/w/히지리사와 유우나
@@ -37,10 +37,10 @@ evidence:
     status: established
     source: https://namu.wiki/w/히지리사와 유우나
     checked: 2026-11-27
-    note: 나무위키 이름 루비(공식 루비 미게재)
+    note: 나무위키 이름 루비. 공식 미게재
   name_parts:
     status: derived
-    note: 전체 이름에서 분리 (D26)
+    note: 전체 이름을 성과 이름으로 나눔
   casting:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php

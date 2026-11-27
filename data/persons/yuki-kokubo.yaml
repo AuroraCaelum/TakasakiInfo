@@ -22,12 +22,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd15.php
     checked: 2026-10-19
-    note: 공식 표기 '小久保祐希' (띄어쓰기는 D28)
+    note: 공식 표기는 「小久保祐希」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://utaten.com/songWriter/5411/
     checked: 2026-10-17
-    note: 본인 사용 라틴 표기 (§5.3 우선순위 2)
+    note: 본인이 쓰는 라틴 표기라 공식 표기 다음으로 우선함
   names.ko:
     status: established
     source: https://namu.wiki/w/A Little Love
@@ -35,9 +35,9 @@ evidence:
     note: 나무위키 곡 문서의 작곡 표기
   name_parts:
     status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+    note: 성과 이름을 나눈 위치가 이름 분리 도구 결과와 읽기 양쪽에서 맞음
   names.kana:
     status: official
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
-    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+    note: JASRAC 작품 검색(J-WID)의 작가명 검색에서 등록 읽기가 맞고 크레딧에 있는 곡이 나옴. 공식 근거로 봄(2026-11-11)

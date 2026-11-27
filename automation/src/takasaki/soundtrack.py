@@ -78,7 +78,7 @@ OVERRIDES: dict[tuple[str, int, int], dict[str, Any]] = {
     ("https://www.lovelive-anime.jp/uranohoshi/cd.php#cd24", 2, 14): {
         "work": "aqours/omoi-yo-hitotsu-ni-nare", "id": "riko-s-piano-sonata", "kind": "instrumental", "cut": False,
         "version": ("Riko's Piano Sonata", "Riko's Piano Sonata", "Riko's Piano Sonata"), "performers": [],
-        "performers_note": "공식 페이지는 곡명만 인쇄. Fandom OST 문서의 'Riko's Piano Sonata'(피아노 연주곡, 가창 없음)",
+        "performers_note": "공식 페이지는 곡명만 실음. 가창 없는 피아노 연주곡. Fandom OST 문서의 'Riko's Piano Sonata'",
         "as_printed": True},
     # the film's 「As Time Goes By」 (Herman Hupfeld), a cover sung by a singer of the film: a work of external (D50)
     ("https://www.lovelive-anime.jp/otonokizaka/release.php#cd57", 1, 12): {"project": "external"},
@@ -536,21 +536,21 @@ def _song(imp: Any, work: m.Work, pr: Printed, t: Any, ft: FandomTrack | None, o
             return None
         how = f"가창자: 레이블 카탈로그({album.url if album else ''})"
     elif member := member_of_version(imp, ver, project):
-        perf, how = member, "가창자: 버전명의 멤버"
+        perf, how = member, "가창자: 버전명에 나온 멤버"
     elif ft and ft.by:
         from .fandom import Item
 
         found, missing = _resolver(imp).performers(Item("song", ft.rom, ft.ja, None, ft.by, ft.by_text), [project])
         if found and not missing:
-            perf, how = found, f"가창자: Fandom OST 문서(공식 미게재, 'By: {ft.by_text}')"
+            perf, how = found, f"가창자: 공식 미게재. Fandom OST 문서의 'By: {ft.by_text}'"
         else:
             imp.report.conflicts.append(f"{used}: Fandom singers {ft.by_text!r} not read ({missing}); set OVERRIDES")
     kind = ov.get("kind", "vocal")
     if perf is None and ct is not None and album is not None and any(x.singers for d in album.discs for x in d):
         # the catalog names the singers of every song on the album but this one: an instrumental arrangement
-        perf, kind, how = [], "instrumental", "가창 없음: 레이블 카탈로그가 이 앨범의 다른 노래와 달리 가창자를 싣지 않음(연주곡)"
+        perf, kind, how = [], "instrumental", "가창 없음. 레이블 카탈로그에 이 앨범의 다른 노래와 달리 가창자가 없어 연주곡으로 봄"
     if perf is None and base_rec is not None and ver is not None:
-        perf, how = list(base_rec.performers), f"가창자: 공식 미게재. 이 버전이 줄인 음원({base_rec.id})의 가창자를 따름"
+        perf, how = list(base_rec.performers), f"가창자: 공식 미게재. 이 버전은 {base_rec.id} 음원을 줄인 것이라 그 가창자를 따름"
     # credits the page prints (μ's), else a cut is arranged as the recording it is cut from
     printed = {role: imp.credits(names, f"{work.title.ja}: {role}", url) for role, names in t.credits.items()}
     if any(v is None for v in printed.values()):
@@ -567,9 +567,9 @@ def _song(imp: Any, work: m.Work, pr: Printed, t: Any, ft: FandomTrack | None, o
     notes = [n for n in (how,) if n]
     if not any(arranged.values()) and cut and base_rec is not None:
         arranged = {k: [c.model_copy() for c in getattr(base_rec, k)] for k in ARRANGERS}
-        notes.append(f"편곡: 공식 미게재. 원곡 음원({base_rec.id})을 줄인 것이라 그 편곡을 따름")
+        notes.append(f"편곡: 공식 미게재. {base_rec.id} 음원을 줄인 것이라 그 편곡을 따름")
     official = bool(t.credits) and bool(t.performers) and not how
-    ev = src if official else m.Evidence(status=m.Status.derived, source=url, checked=imp.today, note="; ".join(notes) or None)
+    ev = src if official else m.Evidence(status=m.Status.derived, source=url, checked=imp.today, note=". ".join(notes) or None)
     if labels is None:  # the recording itself (a full song on the album)
         rid = "original"
         rec = next((r for r in work.recordings if r.id == rid), None)
@@ -638,13 +638,13 @@ def _cue(imp: Any, pr: Printed, ft: FandomTrack | None, score: list[m.Credit], u
         rom, whence = "", ""
         if ct is not None and ct.en:  # the catalog's EN title, as the cue's title is taken from the JP one
             en = read_title(ct.en)
-            rom, whence = (en.base + en.tail) if title != pr.base or not en.tail else en.base, f"레이블 카탈로그 EN 표기({album.url if album else ''})"
+            rom, whence = (en.base + en.tail) if title != pr.base or not en.tail else en.base, f"레이블 카탈로그 영문 표기({album.url if album else ''})"
             rom = re.sub(r"\s*\[[^\]]*\]\s*$", "", rom)
             squash = lambda x: re.sub(r"[\s'’-]+", "", x).lower()  # noqa: E731
             if ft and ft.rom and squash(ft.rom) == squash(rom) and ft.rom != rom:
                 # the same spelling, run together on the catalog ("Sakurairono Kaze"): the wiki's word breaks,
                 # in the case of the series' titles (particles in lower case)
-                rom, whence = title_case(ft.rom), f"{whence}의 철자, 띄어쓰기는 Fandom OST 문서"
+                rom, whence = title_case(ft.rom), f"철자는 {whence}, 띄어쓰기는 Fandom OST 문서"
         elif ft:
             rom, whence = ft.rom, "Fandom OST 문서"
         rom = halfwidth(unicodedata.normalize("NFKC", rom)) if rom else _rom_title(title)
@@ -730,7 +730,7 @@ def release(imp: Any, obs: Any, group_id: str | None) -> None:
             pr.version = "BGM"
             pr.notes.remove("BGM")
             ov = {"id": "bgm", "version": ("BGM", "BGM", "BGM"), "kind": "instrumental", "cut": False, "performers": [],
-                  "performers_note": "공식 페이지의 （BGM）: 곡의 BGM 편곡(가창 없음)", **ov}
+                  "performers_note": "공식 페이지에 （BGM）으로 적힌 곡의 BGM 편곡. 가창 없음", **ov}
         if work is not None and pr.version is None:  # "【第1話エンディング主題歌】": that episode's version
             theme = next((n for n in pr.notes if _THEME.match(n)), None)
             if theme:

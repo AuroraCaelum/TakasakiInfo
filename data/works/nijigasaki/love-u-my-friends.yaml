@@ -31,12 +31,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_A8893yKJxi6
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3dc6f64f-07c1-4a3b-960b-68d40276f7e7
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: 12nin-ver
     title:
       ja: Love U my friends (12人Ver.)
@@ -57,17 +57,17 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/Love_U_my_friends
         checked: 2026-10-19
-        note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. Fandom 문서의 크레딧·트랙
+        note: 12人Ver. 편곡은 공식 미게재. 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명과 가창만 실음. 가창은 같음. 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. 크레딧·트랙은 Fandom 문서를 따름
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3dc6f64f-07c1-4a3b-960b-68d40276f7e7
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -84,7 +84,7 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/Love_U_my_friends
         checked: 2026-10-19
-        note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. Fandom 문서의 크레딧·트랙
+        note: 12人Ver. 편곡은 공식 미게재. 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명과 가창만 실음. 가창은 같음. 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 Keisuke Koyama. 크레딧·트랙은 Fandom 문서를 따름
   - id: tv-anime-insert-song-ver
     title:
       ja: Love U my friends (TVアニメ挿入歌Ver.)
@@ -105,20 +105,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
         checked: 2026-10-26
-        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(9-members-ver)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(9-members-ver)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 공식 미게재. 이 버전은 9-members-ver 음원을 줄인 것이라 그 가창자를 따름. 편곡: 공식 미게재. 9-members-ver 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0f746429-6b4a-4565-8b71-7c851a10ee1a
         checked: 2026-11-16
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:
@@ -138,12 +138,12 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_I3q95L666su
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official

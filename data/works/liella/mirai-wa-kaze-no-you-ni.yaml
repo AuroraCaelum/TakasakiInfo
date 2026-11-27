@@ -31,12 +31,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_MhgHVHYRvaK
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -73,10 +73,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-3-ver
     title:
       ja: 未来は風のように 〜第3話Ver.〜
@@ -96,10 +96,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-4-ver
     title:
       ja: 未来は風のように 〜第4話Ver.〜
@@ -118,10 +118,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-5-ver
     title:
       ja: 未来は風のように 〜第5話Ver.〜
@@ -140,10 +140,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-6-ver
     title:
       ja: 未来は風のように 〜第6話Ver.〜
@@ -165,10 +165,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-7-ver
     title:
       ja: 未来は風のように 〜第7話Ver.〜
@@ -187,10 +187,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-9-ver
     title:
       ja: 未来は風のように 〜第9話Ver.〜
@@ -212,10 +212,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-10-ver
     title:
       ja: 未来は風のように 〜第10話Ver.〜
@@ -235,10 +235,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: episode-11-ver
     title:
       ja: 未来は風のように 〜第11話Ver.〜
@@ -260,15 +260,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: episode-12-ver
     title:
       ja: 未来は風のように 〜第12話Ver.〜
@@ -290,15 +290,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd11.php
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4dee039f-63f1-476d-b261-7320cc2dfdef
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: piano-ver
     kind: instrumental
     title:
@@ -313,15 +313,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/music/cd49.php
         checked: 2026-10-26
-        note: '가창 없음: 레이블 카탈로그가 이 앨범의 다른 노래와 달리 가창자를 싣지 않음(연주곡)'
+        note: 가창 없음. 레이블 카탈로그에 이 앨범의 다른 노래와 달리 가창자가 없어 연주곡으로 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_jQMogkOgq0Z
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official

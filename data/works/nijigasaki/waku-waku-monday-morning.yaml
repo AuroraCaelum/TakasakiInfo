@@ -32,7 +32,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_TCVCsOxAwzE
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -52,7 +52,7 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 external_ids:
   fandom: Waku Waku! Monday Morning
 evidence:
@@ -60,12 +60,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/bd_ova.php#bd01
     checked: 2026-10-20
-    note: 'ja: 공식 BD 페이지(NEXT SKY Blu-ray 오리지널 송 CD, 곡명·가창만 표기). 음원은 BD 특전 CD에만 있어(넣지 않는 발매물) Recording 없이 Work만 둠(§4.6, 2026-10-20 검수 결정)'
+    note: 'ja: 공식 BD 페이지(NEXT SKY Blu-ray 오리지널 송 CD, 곡명·가창만 실음). 음원은 넣지 않는 발매물인 BD 특전 CD에만 있어 Recording 없이 Work만 둠(2026-10-20 검수에서 정함)'
   credits:
     status: established
     source: https://love-live.fandom.com/wiki/Waku_Waku!_Monday_Morning
     checked: 2026-10-20
-    note: '공식 미게재(BD 페이지는 곡명·가창만). Fandom: 작사·작곡·편곡 Ayumu Nakamura, Hiroto Kikuchi'
+    note: '공식 미게재. BD 페이지에는 곡명과 가창만 있음. Fandom: 작사·작곡·편곡 Ayumu Nakamura, Hiroto Kikuchi'
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

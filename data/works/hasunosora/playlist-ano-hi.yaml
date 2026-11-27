@@ -28,17 +28,17 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
     checked: 2026-10-19
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88/%E3%80%8C%E3%81%82%E3%81%AE%E6%97%A5%E3%80%8D'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 재검토 결과를 반영함(2026-10-19). 외부 근거: https://namu.wiki/w/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88/%E3%80%8C%E3%81%82%E3%81%AE%E6%97%A5%E3%80%8D'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_6066
     checked: 2026-10-19
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

@@ -722,7 +722,7 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023
     checked: 2026-10-20
-    note: "rom: 공식 해외 배신 영문 그대로(Fandom과 같음). ko: 나무위키 문서명은 にじたび 뒤 '！'가 없어 공식 ja대로 넣음 외부 근거: rom: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20%EB%8B%88%EC%A7%80%EC%97%AC%ED%96%89%20TOKIMEKI%20FAN%20MEETING%20TOUR. 일정 조사 메모: Day 2 of every stop had two shows (＜昼公演＞ 13:00 / ＜夜公演＞ 17:00; the page's English section writes \"Day.2/DAY\" and \"Day.2/NIGHT\", hence the labels). Fandom has ONE \"Day 2\" tab per stop holding both shows, split inside the tab by the bold lines '''Noon:''' and '''Evening:''' (the two set lists differ), so the parser must cut the tab there: the Noon half is \"Day.2 Day\", the Evening half \"Day.2 Night\". The official detail page prints dates without a year; 2023 comes from the official live list (①2023年4月22日…). Existing venues reused: line-cube-shibuya, kitakyushu-soleil-hall, orix-theater. 愛知県芸術劇場大ホール: rom follows the venue's own English (\"Aichi Prefectural Art Theater Main Theater\", aac.pref.aichi.jp seat charts); the official page's English section calls it \"Aichi Arts Center\" (the whole complex) and Fandom \"Large Hall\". Hokkaido venue: the official English section writes \"Sapporo Cultural Arts Theater hitaru\"."
+    note: "rom: 공식 해외 스트리밍 안내의 영문 그대로(Fandom과 같음). ko: 나무위키 문서명은 にじたび 뒤 '！'가 없어 공식 ja대로 넣음. 외부 근거: rom: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023 ko: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C!%20%EB%8B%88%EC%A7%80%EA%B0%80%EC%82%AC%ED%82%A4%20%ED%95%99%EC%9B%90%20%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%8F%99%ED%98%B8%ED%9A%8C%20%EB%8B%88%EC%A7%80%EC%97%AC%ED%96%89%20TOKIMEKI%20FAN%20MEETING%20TOUR. 일정 조사 메모: 모든 공연지의 Day 2는 두 번 공연함(＜昼公演＞ 13:00 / ＜夜公演＞ 17:00). 페이지 영문 부분이 \"Day.2/DAY\", \"Day.2/NIGHT\"로 적어 라벨도 그렇게 씀. Fandom은 공연지마다 \"Day 2\" 탭 하나에 두 공연을 담고, 탭 안을 굵은 줄 '''Noon:'''과 '''Evening:'''으로 나눔(두 세트리스트가 다름). 그래서 파서가 탭을 그 자리에서 잘라야 함. Noon 쪽이 \"Day.2 Day\", Evening 쪽이 \"Day.2 Night\". 공식 상세 페이지는 날짜를 연도 없이 적음. 2023은 공식 라이브 목록(①2023年4月22日…)에서 가져옴. 기존 회장을 다시 씀: line-cube-shibuya, kitakyushu-soleil-hall, orix-theater. 愛知県芸術劇場大ホール: rom은 회장 자체의 영문(\"Aichi Prefectural Art Theater Main Theater\", aac.pref.aichi.jp 좌석표)을 따름. 공식 페이지 영문 부분은 \"Aichi Arts Center\"(복합시설 전체), Fandom은 \"Large Hall\"로 적음. 홋카이도 회장: 공식 영문 부분은 \"Sapporo Cultural Arts Theater hitaru\"로 적음."
   schedule:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/live/live_detail.php?p=fanmeeting2023
@@ -731,59 +731,59 @@ evidence:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-04-23:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-05-06:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-05-07:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-05-13:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-05-14:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-06-17:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-06-18:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-07-01:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-07-02:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-07-16:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
   setlist.2023-07-17:
     status: draft
     source: https://love-live.fandom.com/wiki/Nijigasaki_High_School_Idol_Club_Nijitabi!_TOKIMEKI_FAN_MEETING_TOUR
     checked: 2026-10-20
-    note: 'Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)'
+    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전

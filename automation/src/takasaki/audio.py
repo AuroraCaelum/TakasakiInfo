@@ -35,8 +35,8 @@ from .text import match_key
 
 TOLERANCE = 2  # seconds: the same master as distributed on different albums or services
 YTM_ALBUM = "https://music.youtube.com/browse/"
-NOTE_DURATION = "레이블 배포 메타데이터의 재생 시간(D61)"
-NOTE_AUDIO = "공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)"
+NOTE_DURATION = "레이블이 배포한 음원 정보의 재생 시간"
+NOTE_AUDIO = "공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값"
 
 
 # --- scope, inheritance, representative ---------------------------------------
@@ -349,7 +349,7 @@ def apply_duration_review(ds: Dataset, doc: dict[str, Any], decision: str, today
     n = int(decision.removeprefix("pick:"))
     item = next(c for c in doc["candidates"] if int(c["n"]) == n)
     c = Candidate(int(item["seconds"]), item["source"], item["url"], item["release"], "")
-    apply_duration(ds, rid, c, today, NOTE_DURATION + f"; 리뷰에서 {item['release']}의 값을 고름")
+    apply_duration(ds, rid, c, today, NOTE_DURATION + f". 발매물마다 값이 달라 {item['release']}의 값을 사람이 고름")
     return f"set {rid} duration {c.seconds}s"
 
 
@@ -573,7 +573,7 @@ def apply_audio_review(ds: Dataset, doc: dict[str, Any], decision: str, today: d
     item = next(c for c in doc["candidates"] if int(c["n"]) == n)
     a = m.Audio.model_validate({k: item[k] for k in ("key", "bpm", "time_signature") if k in item})
     url = str(item["url"]) if item.get("url") else None
-    apply_audio(ds, rid, a, url, today, NOTE_AUDIO + "; 리뷰에서 고름")
+    apply_audio(ds, rid, a, url, today, NOTE_AUDIO + ". 트랙마다 값이 달라 사람이 고름")
     return f"set {rid} key/tempo"
 
 

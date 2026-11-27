@@ -30,17 +30,17 @@ recordings:
         status: official
         source: https://www.youtube.com/watch?v=eaAdtLfQdqw
         checked: 2026-10-20
-        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+        note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 같음'
       strings_arranger:
         status: official
         source: https://www.youtube.com/watch?v=eaAdtLfQdqw
         checked: 2026-10-20
-        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+        note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 같음'
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_R9RaT4m5dm5
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -61,12 +61,12 @@ recordings:
         checked: 2026-10-19
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_R9RaT4m5dm5
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
@@ -76,7 +76,7 @@ evidence:
     status: official
     source: https://www.youtube.com/watch?v=eaAdtLfQdqw
     checked: 2026-10-20
-    note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 일치'
+    note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 공식 계정: 러브 라이브! 시리즈 공식 YouTube 채널의 시청 영상 크레딧. Fandom·나무위키와 같음'
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

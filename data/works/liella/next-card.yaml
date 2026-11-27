@@ -26,12 +26,12 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=M2k_ugNeAzI
         checked: 2026-10-20
-        note: 공식 사이트 미게재(공식 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키와 일치
+        note: 공식 미게재. 공식 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키와 같음
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_pEc9kUP4xqa
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -51,23 +51,23 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_pEc9kUP4xqa
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_5904
     checked: 2026-10-20
-    note: AiScReam의 시리즈 카드게임 테마송이지만 크로스 프로젝트 곡은 대표 어댑터의 프로젝트 아래에 둔다(D45, nijigasaki/bring-the-love와 같음).
+    note: AiScReam의 시리즈 카드게임 테마송. 여러 프로젝트에 걸친 곡은 대표로 가져오는 프로젝트 아래에 둠(nijigasaki/bring-the-love와 같음)
   credits:
     status: official
     source: https://music.youtube.com/watch?v=M2k_ugNeAzI
     checked: 2026-10-20
-    note: 공식 사이트 미게재(공식 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키와 일치
+    note: 공식 미게재. 공식 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키와 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

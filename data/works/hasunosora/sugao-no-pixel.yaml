@@ -30,12 +30,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lH1TXvumAec
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2c2a19c4-0b6b-421a-89dd-7a1bb8dabc24
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -57,7 +57,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lH1TXvumAec
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: 104th-ver
     title:
       ja: 素顔のピクセル (104期 Ver.)
@@ -80,17 +80,17 @@ recordings:
         checked: 2026-10-19
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_A17VTZ2aAaq
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2c2a19c4-0b6b-421a-89dd-7a1bb8dabc24
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kozue-otomune-solo
     performers:
       - {character: hasunosora/kozue-otomune}
@@ -106,7 +106,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_AMjXM5lMYuW
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kaho-hinoshita-solo
     performers:
       - {character: hasunosora/kaho-hinoshita}
@@ -122,7 +122,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_4wNYvxeeJJT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official

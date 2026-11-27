@@ -26,17 +26,17 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_h5XAYDWQxsz
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (곡 문서 제목 행. 둘러보기 틀과 음반 문서는 펀더멘털) 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%B3%E3%83%80%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB https://love-live.fandom.com/wiki/Fundamental ko: 검수(2026-10-20) 외래어 표기법과 나무위키 둘러보기 틀의 펀더멘털.'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키(곡 문서 제목 행. 둘러보기 틀과 음반 문서는 펀더멘털). 검수(2026-10-20)에서 ko는 외래어 표기법과 나무위키 둘러보기 틀의 펀더멘털을 따름. 외부 근거: https://namu.wiki/w/%E3%83%95%E3%82%A1%E3%83%B3%E3%83%80%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB https://love-live.fandom.com/wiki/Fundamental'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

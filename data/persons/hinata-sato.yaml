@@ -19,12 +19,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd50
     checked: 2026-11-27
-    note: 공식 크레딧 표기 (띄어쓰기는 D28)
+    note: 공식 크레딧 표기. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: official
     source: https://www.amuse.co.jp/artist/A8258/
     checked: 2026-11-27
-    note: 소속사 아뮤즈 프로필 'Sato Hinata'(D4 순서)
+    note: 소속사 아뮤즈 프로필 'Sato Hinata'의 철자를 따르고 순서는 저장소 관례인 이름-성으로 둠
   names.ko:
     status: established
     source: https://namu.wiki/w/사토 히나타
@@ -37,4 +37,4 @@ evidence:
     note: 위키백과 읽기
   name_parts:
     status: derived
-    note: '성·이름 분리: 독음 대조 (D28)'
+    note: 읽기와 대조해 성과 이름을 나눔

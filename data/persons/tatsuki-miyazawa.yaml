@@ -20,7 +20,7 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd34
     checked: 2026-10-19
-    note: 공식 표기 '宮澤樹生' (띄어쓰기는 D28)
+    note: 공식 표기는 「宮澤樹生」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
@@ -33,7 +33,7 @@ evidence:
     note: 나무위키 곡 문서의 작곡 표기
   name_parts:
     status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+    note: 성과 이름을 나눈 위치가 이름 분리 도구 결과와 읽기 양쪽에서 맞음
   names.kana:
     status: established
     source: https://ja.wikipedia.org/wiki/%E5%AE%AE%E6%BE%A4%E6%A8%B9%E7%94%9F
@@ -43,4 +43,4 @@ evidence:
     status: established
     source: https://ja.wikipedia.org/wiki/宮澤樹生
     checked: 2026-11-12
-    note: 공식 미게재. 위키백과 인물 정보(작곡가·편곡가, API 발췌로 확인)
+    note: 공식 미게재. 위키백과 인물 정보. 작곡가·편곡가이고 API 발췌로 확인함

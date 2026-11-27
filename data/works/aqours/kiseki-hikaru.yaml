@@ -27,22 +27,22 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
         checked: 2026-10-19
-        note: '같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. 편곡: 공식 CD 페이지 Third Solo Concert Album starring Takami Chika(솔로 Ver. 재수록)의 편곡 표기(ja.wikipedia·Fandom도 BD 녹음 편곡자를 같게 기재). 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd07 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
+        note: '편곡: 같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. 그 표기는 솔로 Ver.을 다시 실은 공식 CD 페이지 Third Solo Concert Album starring Takami Chika에 있음. ja.wikipedia·Fandom도 BD 녹음의 편곡자를 같게 적음. 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd07 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
       same_recording:
         status: established
         source: https://musicbrainz.org/release/24a7bbf7-00d0-44f3-b8b0-da0d702a0e5f
         checked: 2026-10-17
-        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원 (W12)
+        note: BD 특전 CD와 메인 URL 쪽 수록이 MusicBrainz에서 같은 음원으로 나옴
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_FzjMHrtzPZM
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1d3e74f2-c37e-4583-9888-9b4caef0a05a
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -59,10 +59,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
         checked: 2026-10-19
-        note: '같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡: 공식 CD 페이지 Third Solo Concert Album starring Takami Chika(솔로 Ver. 재수록)의 편곡 표기(ja.wikipedia·Fandom도 BD 녹음 편곡자를 같게 기재). 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd07 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
+        note: 'Off Vocal 녹음이라 편곡과 가창 필드는 보컬 녹음을 따름. 보컬 녹음의 근거는 아래와 같음. 편곡: 같은 곡을 다시 녹음한 솔로 Ver.의 공식 편곡 표기와 같다고 봄. 그 표기는 솔로 Ver.을 다시 실은 공식 CD 페이지 Third Solo Concert Album starring Takami Chika에 있음. ja.wikipedia·Fandom도 BD 녹음의 편곡자를 같게 적음. 가창: 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#bd07 및 CHRONICLE(2015～2017) https://www.lovelive-anime.jp/uranohoshi/cd.php#cd43(같은 녹음)'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: chika-takami-solo
     performers:
       - {character: aqours/chika-takami}
@@ -81,12 +81,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_4jv6IRUtyCT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=5fd3d016-a5df-4af5-83b3-6dbf28e23c45
         checked: 2026-11-16
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: riko-sakurauchi-solo
     performers:
       - {character: aqours/riko-sakurauchi}
@@ -105,12 +105,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_239tVnc4fvx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e1667c96-d6da-4259-9342-63f31f690f84
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: ruby-kurosawa-solo
     performers:
       - {character: aqours/ruby-kurosawa}
@@ -129,12 +129,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_hGuIsJz88NK
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2c13949d-9e47-420a-91b8-ad0ee4745e70
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: dia-kurosawa-solo
     performers:
       - {character: aqours/dia-kurosawa}
@@ -153,12 +153,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_nL0glj7kqlT
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=8b8d1879-8438-4055-89fc-44be2e598bee
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: kanan-matsuura-solo
     performers:
       - {character: aqours/kanan-matsuura}
@@ -177,12 +177,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_pSfMf9DUtPK
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=cbee2f79-0365-4d80-8a84-a64d2e7a8539
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: hanamaru-kunikida-solo
     performers:
       - {character: aqours/hanamaru-kunikida}
@@ -201,12 +201,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_aei2B7WaMuH
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0301fc1e-84da-4609-a9bd-c44bf17092e2
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: you-watanabe-solo
     performers:
       - {character: aqours/you-watanabe}
@@ -225,12 +225,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=6f277679-a398-4fc1-9773-4f5fe7b202b8
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: mari-ohara-solo
     performers:
       - {character: aqours/mari-ohara}
@@ -249,12 +249,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_vJaGo0Ue1bp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=54cf7a03-94c8-4f89-9c3d-d8f47d4c260d
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: yoshiko-tsushima-solo
     performers:
       - {character: aqours/yoshiko-tsushima}
@@ -273,12 +273,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_1HZUu9DJkCv
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=2501342e-aa7f-4a37-8ed1-82278b9dd19c
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: movie-size
     title:
       ja: キセキヒカル (MOVIEサイズ)
@@ -296,15 +296,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd30
         checked: 2026-10-26
-        note: '편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_FIu9NMIlGjF
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: live-aqours-finale-2025-06-22
     title:
       ja: キセキヒカル (ラブライブ！サンシャイン!! Aqours Finale LoveLive! ～永久stage～ Ver.)
@@ -325,21 +325,21 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/85214/
         checked: 2026-11-04
-        note: 가창자는 이 페이지. 편곡은 같은 곡 chika-takami-solo의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 chika-takami-solo 음원의 공식 크레딧(https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_t5xqNqi61pP
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd73
     checked: 2026-10-19
-    note: 공식 CD 페이지 Third Solo Concert Album starring Takami Chika(솔로 Ver. 재수록)의 작사·작곡 표기. 공식 BD 페이지는 곡명·가창만 게재
+    note: 공식 CD 페이지 Third Solo Concert Album starring Takami Chika의 작사·작곡 표기. 솔로 Ver.을 다시 실은 앨범임. 공식 BD 페이지에는 곡명과 가창만 있음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

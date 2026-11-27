@@ -40,22 +40,22 @@ recordings:
         checked: 2026-10-19
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_wR4qtWJcOvq
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
     checked: 2026-10-19
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 번역을 고침(오역 소지, D30, 사용자 결정) (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E9%9B%AA%E8%88%9E%E3%81%86%E7%A9%BA%E3%81%A8%E4%BA%8C%E7%A7%92%E3%81%AE%E6%B0%B8%E9%81%A0'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키 번역에 오역 소지가 있어 사람이 고침. 재검토 결과를 반영함(2026-10-19). 외부 근거: https://namu.wiki/w/%E9%9B%AA%E8%88%9E%E3%81%86%E7%A9%BA%E3%81%A8%E4%BA%8C%E7%A7%92%E3%81%AE%E6%B0%B8%E9%81%A0'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/str/?p=01_5657
     checked: 2026-10-19
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

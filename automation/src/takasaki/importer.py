@@ -392,7 +392,7 @@ class Importer:
         return self._create(kind, item, values, file)
 
     def _create(self, kind: str, item: dict[str, Any], values: dict[str, Any], file: str) -> str:
-        draft = {"status": m.Status.draft, "source": f"automation/review/{file}", "note": "승인 대기 (new-names 리뷰)"}
+        draft = {"status": m.Status.draft, "source": f"automation/review/{file}", "note": "승인 대기 중"}
         if kind == "work":
             rom = values["title"].rom
         else:
@@ -1133,7 +1133,7 @@ class Importer:
                 continue
             arranged = self.arranged_on.get((wid, rid))
             if arranged is not None:
-                note = "; ".join(n for n in (arranged.note, f"가창자: {sung.source}") if n)
+                note = ". ".join(n for n in (arranged.note, f"가창자: {sung.source}") if n)
                 _cite(rec.evidence, "credits", arranged.model_copy(update={"note": note}))
                 if rec.evidence["credits"].source == arranged.source:
                     _printed_arrangers(rec, self.arranged_as[(wid, rid)])
@@ -1150,7 +1150,7 @@ class Importer:
                 _follow(rec, other)
                 _cite(rec.evidence, "credits", m.Evidence(
                     status=m.Status.derived, source=sung.source, checked=self.today,
-                    note=f"가창자는 이 페이지. 편곡은 같은 곡 {other.id}의 공식 크레딧"
+                    note=f"가창자는 이 페이지. 편곡은 같은 곡 {other.id} 음원의 공식 크레딧"
                          f"({other.evidence['credits'].source})과 같다고 봄"))
         for work in self.ds.works.values():
             if work.project == self.spec.project:
@@ -1165,7 +1165,7 @@ class Importer:
             ev = vocal.evidence.get("credits") if vocal else None
             if vocal is not None and ev is not None and ev.source != MIGRATED and all(_same_credits(getattr(rec, k), getattr(vocal, k)) for k in ARRANGERS) \
                     and rec.performers in ([], vocal.performers):
-                note = ev.note if ev.status == m.Status.official else f"편곡은 {vocal.id}와 같음 (그 근거를 따름)"
+                note = ev.note if ev.status == m.Status.official else f"편곡은 {vocal.id} 음원과 같음. 근거도 그 음원을 따름"
                 _cite(rec.evidence, "credits", listed.model_copy(update={"status": ev.status, "note": note}))
 
     def _follow_unprinted(self) -> None:
@@ -1188,7 +1188,7 @@ class Importer:
                     setattr(rec, k, [c.model_copy() for c in getattr(other, k)])
                 rec.evidence["credits"] = m.Evidence(
                     status=m.Status.derived, source=ev.source, checked=ev.checked,
-                    note=f"가창자는 이 페이지. 편곡은 같은 곡 {other.id}의 공식 크레딧({other.evidence['credits'].source})과 같다고 봄")
+                    note=f"가창자는 이 페이지. 편곡은 같은 곡 {other.id} 음원의 공식 크레딧({other.evidence['credits'].source})과 같다고 봄")
 
     def _settle_names(self) -> None:
         """Names that rest on the migration and a checked page printed: ``names.ja`` is cited to the
@@ -1206,7 +1206,7 @@ class Importer:
             if printed == ent.names.ja:
                 note = None
             elif re.sub(r"\s+", "", printed) == re.sub(r"\s+", "", ent.names.ja or ""):
-                note = f"공식 표기 {printed!r} (띄어쓰기는 D28)"
+                note = f"공식 표기는 「{printed}」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤"
             else:  # "CYaRon!" for "CYaRon！": ja keeps the official notation (§5.1, D42)
                 self.report.conflicts.append(f"{kind}:{ident}: printed {printed!r} on {page_id(page)}, stored {ent.names.ja!r} "
                                              "(full-/half-width only)")
@@ -1218,8 +1218,8 @@ class Importer:
                 if not value:
                     continue
                 if latin and f in ("rom", "ko") and value == halfwidth(ent.names.ja):
-                    same = "와 같음" if value == ent.names.ja else "의 반각"
-                    fields[f"names.{f}"] = m.Evidence(status=m.Status.derived, note=f"라틴 표기: {f}는 ja{same} (§5.4, D42)")
+                    same = " 그대로 씀" if value == ent.names.ja else "을 반각으로 바꿔 씀"
+                    fields[f"names.{f}"] = m.Evidence(status=m.Status.derived, note=f"원래 이름이 라틴 문자라 {LANG_KO[f]} 표기도 원래 이름{same}")
                 else:
                     fields[f"names.{f}"] = ev  # still to be sourced
             del ent.evidence["names"]
@@ -1270,7 +1270,7 @@ class Importer:
             if item is not None:  # a title that is not made of song titles was named in review
                 item["ref"] = f"release:{ident}"
                 evidence["title"] = m.Evidence(status=m.Status.draft, source=f"automation/review/{self.spec.review_file('release')}",
-                                               note="승인 대기 (new-names 리뷰)")
+                                               note="승인 대기 중")
             projects = self.spec.cross.get(obs.page_id) or [self.spec.project]
             rel = m.Release(id=ident, type=rtype, status=status, title=title if item is not None else m.Names(ja=title.ja),
                             projects=projects, artist_credit=perf, label=label, release_date=obs.release_date,
@@ -1284,13 +1284,28 @@ class Importer:
             self.report.created.append(f"release:{ident}")
             return
         before = rel.model_dump()
-        rel.type, rel.artist_credit, rel.release_date, rel.editions = rtype, perf, obs.release_date, editions  # type: ignore[assignment]
+        rel.type, rel.artist_credit, rel.release_date = rtype, perf, obs.release_date  # type: ignore[assignment]
+        rel.editions = self._with_cited(rel, editions)
         rel.discs = discs
         rel.links = rel.links | links
         if rel.status != "verified":
             rel.status = status
         if rel.model_dump() != before:
             rel.evidence |= evidence
+
+    def _with_cited(self, rel: m.Release, editions: list[m.Edition]) -> list[m.Edition]:
+        """The editions the page prints, and after them the stored ones it does not print that another
+        source cites in an ``editions.<key>`` evidence (the special editions only the label catalog
+        lists, D67). Their ids stay; an id the page's editions take is reported and nothing changes."""
+        if not any(k.startswith("editions.") for k in rel.evidence):
+            return editions
+        printed = {match_key(e.label.ja) for e in editions if e.label and e.label.ja}
+        kept = [ed for ed in rel.editions if ed.label and ed.label.ja and match_key(ed.label.ja) not in printed]
+        if clash := sorted({ed.id for ed in kept} & {e.id for e in editions}):
+            self.report.conflicts.append(f"{rel.id}: the page's editions take the ids {clash} of editions "
+                                         "another source cites (not written)")
+            return rel.editions
+        return editions + kept
 
     # artists and layout ------------------------------------------------------------
 
@@ -1480,10 +1495,12 @@ def _runs_on(placed: list[tuple[int, m.Track]]) -> bool:
 
 
 # the tracks evidence of a migrated release whose tracklist the official page confirmed
-CHECKED_TRACKS = "공식 페이지의 트랙리스트와 대조함 (같음)"
+CHECKED_TRACKS = "공식 페이지의 트랙리스트와 같음"
 # the note the first check (D41) left on a migrated arranger list that also held the 弦·管編曲 the page
 # prints apart; the check splits such a list into its roles (D42) and drops the note
-LEGACY_WITH_STRINGS = "편곡자에 弦·管編曲(현악·관악 편곡) 담당을 포함 (공식 페이지는 따로 표기)"
+LEGACY_WITH_STRINGS = "편곡자에 현악·관악 편곡(弦·管編曲) 담당도 넣음. 공식 페이지는 따로 적음"
+# the language names an evidence note uses for a names field
+LANG_KO = {"rom": "로마자", "ko": "한국어"}
 MIGRATED = m.MIGRATED
 
 

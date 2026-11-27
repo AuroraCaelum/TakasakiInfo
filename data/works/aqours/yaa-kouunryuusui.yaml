@@ -29,22 +29,22 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_GDpca4lBewI
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=02939879-67c0-4610-9082-412861c1e0e6
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(문서 표제 그대로. 원문 ！？와 달리 ?! 순서이고, 같은 위키의 선샤인 음반 틀에는 야아! 풍산유수!?로 달리 적혀 있음. 확인 필요) 외부 근거: https://namu.wiki/w/%E3%82%84%E3%81%82%EF%BC%81%E8%A1%8C%E9%9B%B2%E6%B5%81%E6%B0%B4%EF%BC%81%EF%BC%9F https://love-live.fandom.com/wiki/Yaa!_Kouunryuusui!%3F ko: 검수(2026-10-20) 원문 ！？ 순서대로 !?.'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키 문서 표제 그대로. 원문 ！？와 달리 ?! 순서이고, 같은 위키의 선샤인 음반 틀에는 야아! 풍산유수!?로 달리 적혀 있어 확인 필요. 외부 근거: https://namu.wiki/w/%E3%82%84%E3%81%82%EF%BC%81%E8%A1%8C%E9%9B%B2%E6%B5%81%E6%B0%B4%EF%BC%81%EF%BC%9F https://love-live.fandom.com/wiki/Yaa!_Kouunryuusui!%3F ko 검수(2026-10-20): 원문 ！？ 순서대로 !?로 씀.'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd62
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

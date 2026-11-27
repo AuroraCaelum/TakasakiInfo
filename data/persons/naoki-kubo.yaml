@@ -9,12 +9,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php
     checked: 2026-10-18
-    note: ja는 공식 크레딧 표기, rom·ko는 라틴 원문 (latin-ko)
+    note: ja는 공식 크레딧 표기. 원래 이름이 라틴 문자라 rom·ko도 원래 이름 그대로 씀
   names.ja:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php
     checked: 2026-10-18
-    note: 공식 표기 (성·이름 모두 가나, D28)
+    note: 공식 표기. 성·이름이 모두 가나라 공식 표기의 띄어쓰기를 따름
   names.kana:
     status: derived
-    note: 가나 표기 그대로 읽음(D58). 성·이름 경계는 rom을 따라 띄움(D28), 장음 ー는 모음으로
+    note: 가나 표기를 그대로 읽기로 씀. 성·이름 사이는 rom의 경계를 따라 띄우고 장음 ー는 모음으로 적음

@@ -26,23 +26,23 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=Rob5mLnW7dg
         checked: 2026-10-20
-        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+        note: 공식 미게재. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. 레이블 정보, Fandom, UtaTen, 나무위키가 같음
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
     checked: 2026-10-20
-    note: "ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서 제목 행 '우리는 미래의 꽃'. 앨범 문서 본문은 우리들은 미래의 꽃) 외부 근거: https://namu.wiki/w/%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%8A%B1 https://love-live.fandom.com/wiki/Watashitachi_wa_Mirai_no_Hana"
+    note: "ja: 공식 페이지. rom: Fandom. ko: 나무위키(곡 문서 제목 행 '우리는 미래의 꽃'. 앨범 문서 본문은 우리들은 미래의 꽃). 외부 근거: https://namu.wiki/w/%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%8A%B1 https://love-live.fandom.com/wiki/Watashitachi_wa_Mirai_no_Hana"
   credits:
     status: official
     source: https://music.youtube.com/watch?v=Rob5mLnW7dg
     checked: 2026-10-20
-    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+    note: 공식 미게재. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. 레이블 정보, Fandom, UtaTen, 나무위키가 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

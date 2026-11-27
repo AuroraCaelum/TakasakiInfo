@@ -55,15 +55,15 @@ recordings:
         status: derived
         source: https://www.yohane.net/bd/movie/
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
       performers:
         status: derived
         source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
         checked: 2026-10-20
-        note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+        note: 공식 미게재. 극장 총집편 BD 페이지에는 곡명만 있음. 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 가창도 같다고 봄. Fandom도 Aqours & Lailaps
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: you-i-edit-movie-edition
     title:
       ja: BLOOM OF COLORS[YOU & I edit] MOVIE EDITION
@@ -89,15 +89,15 @@ recordings:
         status: derived
         source: https://www.yohane.net/bd/movie/
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.yohane.net/bd/detail/?id=7)과 같다고 봄
       performers:
         status: derived
         source: https://love-live.fandom.com/wiki/BLOOM_OF_COLORS
         checked: 2026-10-20
-        note: 공식 미게재(극장 총집편 BD 페이지는 곡명만). 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 같은 가창으로 봄. Fandom도 Aqours & Lailaps
+        note: 공식 미게재. 극장 총집편 BD 페이지에는 곡명만 있음. 원곡(TVA1 BD Vol.7)의 편집판(edit)이라 가창도 같다고 봄. Fandom도 Aqours & Lailaps
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: off-vocal
     kind: off_vocal
     title:
@@ -116,7 +116,7 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
@@ -128,4 +128,4 @@ evidence:
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

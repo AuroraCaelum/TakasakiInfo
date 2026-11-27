@@ -26,7 +26,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_8DHNmAs1dOk
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: rurino-osawa-solo
     performers:
       - {character: hasunosora/rurino-osawa}
@@ -42,7 +42,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_alwrnwvo7KR
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
@@ -56,4 +56,4 @@ evidence:
     status: derived
     source: https://utaten.com/lyric/mi25043003/
     checked: 2026-11-11
-    note: '읽기 초안(§5.5, D58). 확인한 곳: 출처 URL'
+    note: '형태소 분석기로 만든 읽기를 사람이 확인함. 확인한 곳: 출처 URL'

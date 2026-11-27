@@ -117,6 +117,11 @@ class Resolver:
         ids = sorted(found)
         if len(ids) > 1:
             ids = [i for i in ids if self.ds.works[i].project in projects] or ids
+        if len(ids) > 1:  # the match key drops case and marks: the title as the wiki prints it decides
+            # (アイコトバ, not アイコトバ！; CHASE!, not the cue Chase)
+            exact = [i for i in ids if (it.ja and self.ds.works[i].title.ja in (it.ja, split_version(it.ja)[0]))
+                     or self.ds.works[i].title.rom in (it.title, title)]
+            ids = exact if len(exact) == 1 else ids
         return (self.ds.works[ids[0]], None) if len(ids) == 1 else (None, "ambiguous")
 
     def _one(self, name: str, projects: list[str]) -> tuple[str, str] | None:
@@ -250,7 +255,7 @@ def tab_key(t: fandom.Tab) -> str:
     return f"{t.section or ''}|{t.name}"
 
 
-SETLIST_NOTE = "Fandom 세트리스트 초안 (performed: 나무위키 대조·승인 전, 공식 미게재)"
+SETLIST_NOTE = "공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전"
 
 
 def import_setlists(ds: Dataset, pages: dict[str, str], review_dir: Path, today: dt.date) -> Report:
@@ -345,9 +350,9 @@ def title_drafts(ja: str, fandom_en: str | None) -> tuple[str | None, str | None
             break
     if is_latin(halfwidth(rest).replace("～", "~")):
         tail = halfwidth(rest).replace("～", "~")
-        return rom_p + tail, ko_p + tail, "rom·ko: 시리즈명 고정 표기 + 공식 라틴 표기"
+        return rom_p + tail, ko_p + tail, "rom·ko: 시리즈명은 정해진 표기, 나머지는 공식 라틴 표기"
     rom = halfwidth(fandom_en).replace("～", "~") if fandom_en else None
-    return rom, None, "rom: Fandom 표기(확인 필요), ko: 일본어 부분 번역·음역 필요"
+    return rom, None, "rom: Fandom 표기라 확인 필요. ko: 일본어 부분은 번역이나 음역 필요"
 
 
 def _official(url: str | None) -> bool:
@@ -411,7 +416,7 @@ def import_schedule(ds: Dataset, entries: list[dict[str, Any]], review_dir: Path
         memo = " / ".join(x for x in [e.get("note")] + [f"{s.get('id')}: {s['note']}" for s in e["stops"] if s.get("note")] if x)
         it["note"] = it.get("note") or (f"{how}. 일정 조사 메모: {memo}" if memo else how)
         it["ref"] = f"concert:{cid}"
-        c.evidence["title"] = m.Evidence(status=m.Status.draft, source=f"automation/review/{file}", note="승인 대기 (new-names 리뷰)")
+        c.evidence["title"] = m.Evidence(status=m.Status.draft, source=f"automation/review/{file}", note="승인 대기 중")
         if len(sources) == 1:
             c.evidence["schedule"] = _schedule_ev(next(iter(sources)), e["stops"][0].get("note_ko"), today)
         else:
@@ -443,7 +448,7 @@ def _set_written(c: m.Concert, perf: m.Performance, p: dict[str, Any], e: dict[s
     note = p.get("setlist_note") or e.get("setlist_note")
     c.evidence[f"setlist.{perf.date}"] = m.Evidence(
         status=m.Status.official if _official(source) else m.Status.established, source=source, checked=today,
-        note=note if _official(source) else f"공식 미게재{': ' + note if note else ''}")
+        note=note if _official(source) else f"공식 미게재{'. ' + note if note else ''}")
     report.updated.append(f"{where}: {sum(x.type == 'song' for x in items)} songs from {source}")
 
 
@@ -468,7 +473,7 @@ def _schedule_ev(source: str | None, note: str | None, today: dt.date) -> m.Evid
     """The schedule's source; what the researchers noted goes to the concert's review item."""
     official = _official(source)
     return m.Evidence(status=m.Status.official if official else m.Status.established, source=source, checked=today,
-                      note=note if official else f"공식 미게재{': ' + note if note else ''}")
+                      note=note if official else f"공식 미게재{'. ' + note if note else ''}")
 
 
 def _city(ds: Dataset, city: dict[str, Any] | None, reviews: NameReviews, cid: str) -> str | None:
@@ -479,7 +484,7 @@ def _city(ds: Dataset, city: dict[str, Any] | None, reviews: NameReviews, cid: s
         names = m.Names(ja=city.get("ja"), rom=city.get("rom"), ko=city.get("ko"))
         ds.cities[ident] = m.City(id=ident, names=names, evidence={
             "names": m.Evidence(status=m.Status.draft, source=f"automation/review/{REVIEW_PREFIX}-venues.yaml",
-                                note="승인 대기 (new-names 리뷰)")})
+                                note="승인 대기 중")})
         it = reviews.item(f"{REVIEW_PREFIX}-venues.yaml", "city", city.get("rom") or ident,
                           {"names": names.model_dump(exclude_none=True)}, cid)
         it["ref"] = f"city:{ident}"
@@ -505,10 +510,10 @@ def _venue(ds: Dataset, v: dict[str, Any] | None, city: str | None, reviews: Nam
     ds.venues[vid] = m.Venue(id=vid, city=city, names=names,
                              external_ids={"fandom": v["en_fandom"]} if v.get("en_fandom") else {},
                              evidence={"names": m.Evidence(status=m.Status.draft, source=f"automation/review/{file}",
-                                                           note="승인 대기 (new-names 리뷰)")})
+                                                           note="승인 대기 중")})
     by_ja[match_key(v["ja"])] = vid
     it = reviews.item(file, "venue", v["ja"], {"names": names.model_dump(exclude_none=True), "source": source or ""}, cid)
-    it["note"] = it.get("note") or "ja: 공식 표기(공연 당시), rom·ko: 초안" + (f". {v['note']}" if v.get("note") else "")
+    it["note"] = it.get("note") or "ja: 공연 당시 공식 표기. rom·ko: 초안" + (f". {v['note']}" if v.get("note") else "")
     it["ref"] = f"venue:{vid}"
     return vid
 

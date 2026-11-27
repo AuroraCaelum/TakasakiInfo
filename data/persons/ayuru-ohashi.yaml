@@ -19,12 +19,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd23
     checked: 2026-11-27
-    note: 공식 크레딧 표기 (띄어쓰기는 D28)
+    note: 공식 크레딧 표기. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: official
     source: https://catalog.bandainamcomusiclive.co.jp/release/62812/
     checked: 2026-11-27
-    note: "레이블 카탈로그 EN 'Anju Yuki (CV: Ayuru Ohashi)'"
+    note: "레이블 카탈로그 영문 표기 'Anju Yuki (CV: Ayuru Ohashi)'"
   names.ko:
     status: established
     source: https://namu.wiki/w/오오하시 아유루
@@ -37,4 +37,4 @@ evidence:
     note: 위키백과 읽기
   name_parts:
     status: derived
-    note: '성·이름 분리: 독음 대조 (D28)'
+    note: 읽기와 대조해 성과 이름을 나눔

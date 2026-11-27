@@ -47,17 +47,17 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.yohane.net/bd/detail/?id=6
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%83%8C%E3%83%9E%E3%83%85%E3%82%84%E3%81%A3%E3%81%95%E3%82%88%E3%81%84%E3%81%95%E5%94%84 https://love-live.fandom.com/wiki/Numazu_Yassa_Yoisa_Uta'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E3%83%8C%E3%83%9E%E3%83%85%E3%82%84%E3%81%A3%E3%81%95%E3%82%88%E3%81%84%E3%81%95%E5%94%84 https://love-live.fandom.com/wiki/Numazu_Yassa_Yoisa_Uta'
   credits:
     status: official
     source: https://www.yohane.net/bd/detail/?id=6
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

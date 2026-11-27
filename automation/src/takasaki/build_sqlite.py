@@ -18,7 +18,7 @@ from .build_v1 import V1_FORMAT
 from .store import Dataset
 from .text import match_key
 
-DERIVED_TITLE = m.Evidence(status=m.Status.derived, note="수록곡 제목 또는 라틴 원문에서 생성 (D39)")
+DERIVED_TITLE = m.Evidence(status=m.Status.derived, note="수록곡 제목을 이어 만들거나 라틴 문자 원제를 그대로 씀")
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;

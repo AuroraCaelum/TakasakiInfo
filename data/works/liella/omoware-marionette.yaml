@@ -25,7 +25,7 @@ recordings:
         status: official
         source: https://www.youtube.com/watch?v=CH2ugMWA1JM
         checked: 2026-10-27
-        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」)의 미리 듣기 영상 설명. Off Vocal은 공식 미게재라 Fandom·MusicBrainz를 봄. 편곡은 보컬 음원과 같음
   - id: off-vocal
     kind: off_vocal
     title:
@@ -42,21 +42,21 @@ recordings:
         status: official
         source: https://www.youtube.com/watch?v=CH2ugMWA1JM
         checked: 2026-10-27
-        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+        note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」)의 미리 듣기 영상 설명. Off Vocal은 공식 미게재라 Fandom·MusicBrainz를 봄. 편곡은 보컬 음원과 같음
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.youtube.com/watch?v=CH2ugMWA1JM
     checked: 2026-11-05
-    note: '공식 미게재: ja: 공식 YouTube 미리 듣기 영상. rom: Fandom(Omoware Marionette), ko: 번역안'
+    note: '공식 미게재. ja: 공식 YouTube 미리 듣기 영상. rom: Fandom(Omoware Marionette). ko: 번역안'
   credits:
     status: official
     source: https://www.youtube.com/watch?v=CH2ugMWA1JM
     checked: 2026-10-27
-    note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」의 미리 듣기 영상 설명). Off Vocal은 공식 미게재(Fandom·MusicBrainz), 편곡은 보컬 음원과 같음
+    note: 공식 계정(공식 YouTube 채널 「ラブライブ！シリーズ公式」)의 미리 듣기 영상 설명. Off Vocal은 공식 미게재라 Fandom·MusicBrainz를 봄. 편곡은 보컬 음원과 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

@@ -122,7 +122,7 @@ def _title_drafts(review_dir: Path, spec: Any, entries: list[dict[str, Any]]) ->
                 seed = {"title": {"ja": t["title"], "rom": t.get("rom") or "", "ko": t.get("ko") or ""}, "source": e["source"]}
                 it = reviews.item(spec.review_file("work"), "work", t["title"], seed, None)
                 if not it.get("note"):
-                    it["note"] = t.get("title_note") or "rom: 헵번식, ko: 번역안"
+                    it["note"] = t.get("title_note") or "rom: 헵번식 로마자. ko: 번역안"
     reviews.save()
 
 
@@ -136,7 +136,7 @@ def _settle(ds: Dataset, e: dict[str, Any], today: dt.date) -> None:
     status = m.Status(e.get("status", "official"))
     note = e.get("note")
     if status != m.Status.official and not (note or "").startswith("공식 미게재"):
-        note = "공식 미게재" + (f": {note}" if note else "")  # what W16 asks of a value no official page gives
+        note = "공식 미게재" + (f". {note}" if note else "")  # what W16 asks of a value no official page gives
     for key in ("tracks", "editions"):
         ev = rel.evidence.get(key)
         if ev is not None and ev.source == e["source"]:
@@ -153,7 +153,7 @@ def _settle(ds: Dataset, e: dict[str, Any], today: dt.date) -> None:
         return
     cnote = e.get("credits_note") or note
     if status != m.Status.official and cnote and not cnote.startswith("공식 미게재"):
-        cnote = f"공식 미게재: {cnote}"
+        cnote = f"공식 미게재. {cnote}"
     for d in rel.discs:
         for t in d.tracks:
             work, rec = ds.recording(t.recording)

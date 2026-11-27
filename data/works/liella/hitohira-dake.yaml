@@ -33,22 +33,22 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_vV5RRAlWh0J
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=e669eaf8-9cdb-4325-9a56-2f5e685ec2a4
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
     checked: 2026-10-20
-    note: "ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%B2%E3%81%A8%E3%81%B2%E3%82%89%E3%81%A0%E3%81%91 https://love-live.fandom.com/wiki/Hitohira_Dake ko: 검수(2026-10-20) 가사의 ひとひら는 눈송이(「ひとひらだけ（粉雪が）ふわりと落ちる」)라 '한 송이'는 나무위키대로 두고, だけ는 한정의 '~만'으로 고침."
+    note: "ja: 공식 페이지. rom: Fandom. ko: 나무위키. 검수(2026-10-20)에서 ko를 고침. 가사의 ひとひら는 눈송이(「ひとひらだけ（粉雪が）ふわりと落ちる」)라 '한 송이'는 나무위키대로 두고, だけ는 한정의 '~만'으로 옮김. 외부 근거: https://namu.wiki/w/%E3%81%B2%E3%81%A8%E3%81%B2%E3%82%89%E3%81%A0%E3%81%91 https://love-live.fandom.com/wiki/Hitohira_Dake"
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd48.php
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

@@ -42,12 +42,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/04/
     checked: 2026-10-27
-    note: 공식 페이지의 트랙리스트와 대조함 (같음)
+    note: 공식 페이지의 트랙리스트와 같음
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_iaJaPy48pwU
     checked: 2026-10-27
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠
   editions:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/04/
