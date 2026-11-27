@@ -122,7 +122,7 @@ def _title_drafts(review_dir: Path, spec: Any, entries: list[dict[str, Any]]) ->
                 seed = {"title": {"ja": t["title"], "rom": t.get("rom") or "", "ko": t.get("ko") or ""}, "source": e["source"]}
                 it = reviews.item(spec.review_file("work"), "work", t["title"], seed, None)
                 if not it.get("note"):
-                    it["note"] = t.get("title_note") or "rom: 헵번식 로마자. ko: 번역안"
+                    it["note"] = t.get("title_note") or "rom: 헵번식 로마자. ko: 번역함"
     reviews.save()
 
 

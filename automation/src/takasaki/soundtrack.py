@@ -652,7 +652,7 @@ def _cue(imp: Any, pr: Printed, ft: FandomTrack | None, score: list[m.Credit], u
         seed = {"title": {"ja": title, "rom": rom, "ko": _rom_title(title)}, "source": url}
         item = imp.reviews.item(file, "work", title, seed, used)
         if not item.get("note") and whence and not item.get("ref"):
-            item["note"] = f"ja: 공식 페이지. rom: {whence}. ko: 번역안"
+            item["note"] = f"ja: 공식 페이지. rom: {whence}. ko: 번역함"
         wid = imp.resolve("work", title, file=file, used_in=used, seed=seed)
         if wid is None:
             return None
