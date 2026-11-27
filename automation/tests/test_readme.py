@@ -38,14 +38,35 @@ def test_readme_follows_the_data(readmes):
     for project in ds.projects.values():  # every notice is in the Disclaimer of its language
         for c in project.copyright:
             assert f"> {c.text}" in every
-    for anchor in ("database-status", "downloads-and-api", "db-schema"):
-        assert f'<a id="{anchor}"></a>' in readmes["README.md"]
+    for name, text in readmes.items():
+        for anchor in ("database-status", "downloads-and-api", "db-schema"):
+            assert f'<a id="{anchor}"></a>' in text, (name, anchor)
 
 
-def test_the_language_pages_link_into_the_english_readme(readmes):
+def test_every_language_has_the_whole_readme(readmes):
+    """The Korean and Japanese pages carry everything the English one does, in their language."""
+    en = readmes["README.md"]
     for name in ("README.ko.md", "README.ja.md"):
-        assert "README.md#db-schema" in readmes[name] and "README.md#json-structure" in readmes[name]
-        assert "Database status" not in readmes[name]
+        text = readmes[name]
+        assert "README.md#" not in text, name  # nothing is left to the English page
+        for block in ("/api/v1/openapi.json", "/api/v1/random", "Petals of History", "<code>tracks.json</code>",
+                      "<code>recordings.json</code>", '"smartlink": "https://lnk.to/', "```jsonc"):
+            assert block in text, (name, block)
+        assert text.count("| `") >= en.count("| `") - 2, name  # every row of the tables
+        for sub, cls, _ in LAYOUT.values():
+            for field, f in cls.model_fields.items():
+                assert f"| `{f.alias or field}` |" in text, (name, field)
+    assert "| 프로젝트 | 최신 발매 |" in readmes["README.ko.md"] and "| 필드 | 타입 | 기본값 | 설명 |" in readmes["README.ko.md"]
+    assert "| プロジェクト | 最新リリース |" in readmes["README.ja.md"]
+
+
+def test_mood_rules_in_every_language():
+    from takasaki.audio import MOOD_RULES
+    from takasaki.readme import MOOD_RULES_TEXT, TEXT
+
+    for rules in MOOD_RULES_TEXT.values():
+        assert set(rules) == set(MOOD_RULES)
+    assert all(set(w) == set(TEXT["en"]) for w in TEXT.values())
 
 
 def test_readme_describes_every_field(readme):

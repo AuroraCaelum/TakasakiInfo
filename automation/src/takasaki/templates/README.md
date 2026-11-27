@@ -153,7 +153,7 @@ The entity files hold the whole database, with what the CSV and JSON files leave
 - Names whose official form is English have no Korean translation.
 - **The data is still being configured: some entries may be missing and the structure may change.**
 - Each file is named after its group:
-{{FILES_EN}}
+{{FILES}}
 - `Category` values: {{CATEGORIES}} (`Others` is for cross-project units and collaborations).
 
 ## CSV structure
@@ -219,6 +219,6 @@ Found a mistake or something missing? Please open an [issue]({{REPO}}/issues).
 
 All rights to the material, including songs and lyrics, belong to
 
-{{DISCLAIMER_EN}}
+{{DISCLAIMER}}
 
-and their rights holders {{RIGHTS_EN}}.
+and their rights holders {{RIGHTS}}.
