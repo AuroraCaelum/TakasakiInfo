@@ -181,10 +181,11 @@ def _page(con: sqlite3.Connection, sql: str, args: list[Any], limit: int, cursor
 
 def _in_project(kind: str, column: str) -> str:
     """SQL condition: the entity in `column` belongs to the project given as the next argument."""
-    if kind in ("work", "character"):
-        return f"{column} IN (SELECT id FROM {kind} WHERE project = ?)"
-    if kind == "recording":
-        return f"{column} IN (SELECT r.id FROM recording r JOIN work w ON w.id = r.work WHERE w.project = ?)"
+    if kind == "character":
+        return f"{column} IN (SELECT id FROM character WHERE project = ?)"
+    if kind == "recording":  # a work is in its own project and in every project that sings it (D74)
+        return (f"{column} IN (SELECT r.id FROM recording r WHERE 'work:' || r.work IN "
+                "(SELECT entity FROM entity_project WHERE project = ?))")
     if kind == "project":
         return f"{column} = ?"
     return f"'{kind}:' || {column} IN (SELECT entity FROM entity_project WHERE project = ?)"
@@ -395,7 +396,7 @@ def random_works(con: sqlite3.Connection, *, project: str | None = None, kind: s
                  count: int = 1, include: str | None = None) -> tuple[Any, dict]:
     where, args = ["w.kind = ?"], [kind]
     if project:
-        where.append("w.project = ?")
+        where.append(_in_project("work", "w.id"))
         args.append(project)
     if mood:
         where.append("',' || (SELECT mood FROM recording r WHERE r.id = w.representative) || ',' LIKE ?")

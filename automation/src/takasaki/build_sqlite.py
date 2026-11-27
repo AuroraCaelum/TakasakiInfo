@@ -242,9 +242,21 @@ def _fill(con: sqlite3.Connection, ds: Dataset) -> None:
             aff = c.affiliation if isinstance(c.affiliation, str) or c.affiliation is None else c.affiliation.ja
             ins("credit", (target, role, i, c.person, c.character, aff, c.role.ja if c.role else None, c.credited_name))
 
+    on_releases: dict[str, set[str]] = {}  # work -> projects of the releases its recordings are on
+    for rel in ds.releases.values():
+        for d in rel.discs:
+            for tr in d.tracks:
+                on_releases.setdefault(tr.recording.split("#")[0], set()).update(rel.projects)
+
+    def sung_by(w: m.Work) -> set[str]:
+        """The work's project; a song of the series is also in every project of the releases it is on, as the
+        official pages list them (D74). A cover (an Aqours member singing a μ's song) stays in its own project."""
+        return {w.project} | (on_releases.get(w.id, set()) if w.project == "lovelive" else set())
+
     for w in ds.works.values():
         rep = representative(w)
         ins("work", (w.id, w.project, w.kind, f"{w.id}#{rep.id}" if rep else None))
+        ins("entity_project", *[(f"work:{w.id}", p) for p in sorted(sung_by(w))])
         names(f"work:{w.id}", "title", w.title, w.evidence)
         common(f"work:{w.id}", w)
         credits(w.id, "lyricist", w.credits.lyricist)

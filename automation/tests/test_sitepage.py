@@ -483,9 +483,9 @@ def test_a_cross_project_release(ds, tmp_path):
     del ds.releases["p/2020-a"]
     rep = imp.import_site(ds, imp.Site([], [obs], "https://x/member/"), tmp_path, dt.date(2026, 10, 19), spec)
     assert not rep.conflicts, rep.conflicts
-    rel = ds.releases["p/2024-song-a"]
+    rel = ds.releases["lovelive/2024-song-a"]
     assert rel.projects == ["p", "q"] and rel.legacy.category == "Others"
-    assert [e.release for e in ds.layout.albums["Q"].entries] == ["p/2024-song-a"]
+    assert [e.release for e in ds.layout.albums["Q"].entries] == ["lovelive/2024-song-a"]
     assert ds.works["p/a"].recordings[0].performers == [m.Performer(character="p/chika"), m.Performer(character="q/kanon")]
 
 

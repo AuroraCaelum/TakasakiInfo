@@ -22,7 +22,8 @@ PAGE = "/uranohoshi/cd.php"
 MEMBER_PATH = "/uranohoshi/member/"
 
 SPEC = Spec(project="aqours", group_name=GROUP, legacy_group="Aqours", review_prefix="AQR",
-            skip={"cd.php#cd68": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
+            skip={"cd.php#cd69": "split single: one release, lovelive/2021-not-alone-not-hitori, holds the three groups' editions (D74)",
+                  "cd.php#cd68": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
                   "cd.php#cd100": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)",
                   "cd.php#cd101": "AiScReam「愛♡スクリ～ム！」: cross-project, imported with the Nijigasaki page (D45)"},
             lineups_from_site=False)

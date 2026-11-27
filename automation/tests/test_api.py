@@ -160,3 +160,18 @@ def test_openapi_covers_every_route_and_resolves(api):
     text = json.dumps(doc)
     assert set(re.findall(r"#/components/schemas/([A-Za-z0-9_]+)", text)) <= set(doc["components"]["schemas"])
     assert (ROOT / OUTPUT).read_text(encoding="utf-8") == json.dumps(doc, ensure_ascii=False, indent=1) + "\n"
+
+
+def test_a_series_song_is_listed_under_every_project_that_sings_it(api, con):
+    aqours = {w["id"] for w in call(api, con, "works", "project=aqours&limit=100")[0]}
+    more, meta = call(api, con, "works", "project=aqours&limit=100&cursor=100")
+    while meta["next"]:
+        aqours |= {w["id"] for w in more}
+        more, meta = call(api, con, "works", f"project=aqours&limit=100&cursor={meta['next']}")
+    aqours |= {w["id"] for w in more}
+    assert "lovelive/live-with-a-smile" in aqours and "lovelive/ai-scream" in aqours
+    assert "lovelive/next-card" not in aqours  # AiScReam sang it after its Aqours member left
+    hits, _ = call(api, con, "search", "q=Bring the LOVE&project=muse")
+    assert hits and hits[0]["ref"] == "work:lovelive/bring-the-love"
+    picks, _ = call(api, con, "random", "project=lovelive&count=10")
+    assert picks and all(w["project"] == "lovelive" for w in picks)
