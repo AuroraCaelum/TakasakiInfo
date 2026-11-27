@@ -111,6 +111,16 @@ def _join(values: list[str]) -> str:
     return ";".join(values)
 
 
+def legacy_performers(work: m.Work, rec: m.Recording) -> list[m.Performer]:
+    """The singers in the legacy Artist cells. An Off Vocal has none (D25), but the legacy files have
+    always shown the singers of its vocal recording there (D64)."""
+    if rec.kind == "off_vocal" and not rec.performers and rec.instrumental_of:
+        vocal = next((r for r in work.recordings if r.id == rec.instrumental_of), None)
+        if vocal is not None:
+            return vocal.performers
+    return rec.performers
+
+
 def render_performers(ds: Dataset, performers: list[m.Performer]) -> list[str]:
     """One string per language. A joint name is its performers joined with ``・``, as the official
     pages print it; featured guests follow the others after ``feat.`` (D48)."""
@@ -233,7 +243,7 @@ def render_album_rows(ds: Dataset, group: str, mains: dict[str, str], owners: di
                 la.title,
                 "" if number is None else str(number),
                 title.ja or "", title.rom or "", title.ko or "",
-                *render_performers(ds, rec.performers),
+                *render_performers(ds, legacy_performers(work, rec)),
                 *render_credits(ds, credits.lyricist),
                 *render_credits(ds, credits.composer),
                 *render_credits(ds, rec.all_arrangers()),

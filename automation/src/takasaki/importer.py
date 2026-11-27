@@ -630,7 +630,9 @@ class Importer:
                     seed={"title": {"ja": base, "rom": _rom_title(base), "ko": _rom_title(base)}, "source": url})
                 if wid:
                     on_release.setdefault(match_key(base), wid)
-                perf = self.performers(t.performers, group_id, used) if t.performers else release_perf
+                named = None if t.performers or drama_cd else self._version_character(ver)
+                # a version that names a character (「高海千歌 Solo Ver.」) is hers, whatever the release credits
+                perf = self.performers(t.performers or named, group_id, used) if t.performers or named else release_perf
                 credits = {role: self.credits(names, f"{base}: {role}", url) for role, names in t.credits.items()}
                 if wid is None or perf is None or any(v is None for v in credits.values()):
                     complete = False
@@ -1100,12 +1102,20 @@ class Importer:
             return Performers(None, None, [(named[0].names.ja, "")]) if len(named) == 1 else None
         if not ver:
             return None
+        named = self._version_character(ver)
+        if named:
+            return named
         name = re.sub(r"\s*(?:Solo\s*)?Ver\.?$", "", ver, flags=re.I).strip()
-        if self.character(name):
-            return Performers(None, None, [(name, "")])
         if self._find("artist", name):
             return Performers(name, None)
         return None
+
+    def _version_character(self, ver: str | None) -> Performers | None:
+        """The character a version names by her printed name (``高海千歌 Solo Ver.``)."""
+        if not ver:
+            return None
+        name = re.sub(r"\s*(?:Solo\s*)?Ver\.?$", "", ver, flags=re.I).strip()
+        return Performers(None, None, [(name, "")]) if self.character(name) else None
 
     def _settle(self) -> None:
         """After every page: a recording whose arranger one page printed and whose singers another

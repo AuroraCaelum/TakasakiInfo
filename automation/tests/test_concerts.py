@@ -328,3 +328,15 @@ def test_a_written_list_without_singers_takes_the_studio_singers(tmp_path):
     c = ds.concerts["aqours/event"]
     assert c.stops[0].performances[0].setlist[0].performers == [m.Performer(artist="aqours")]
     assert c.evidence["setlist.2016-01-01"].status == m.Status.established  # not an official page
+
+
+def test_the_short_group_names_of_a_joint_live():
+    # D64: "Nijigasaki" and "Hasunosora" are the clubs (the 15th-anniversary fest writes the groups so)
+    ds = _ds()
+    for aid, ja, project in (("nijigasaki-high-school-idol-club", "虹ヶ咲学園スクールアイドル同好会", "nijigasaki"),
+                             ("hasunosora-girls-high-school-idol-club", "蓮ノ空女学院スクールアイドルクラブ", "hasunosora")):
+        ds.artists[aid] = m.Artist(id=aid, kind="group", projects=[project], names=m.Names(ja=ja))
+    page = "==Set Lists==\n#[[HAPPY PARTY TRAIN]] by Aqours, Nijigasaki, and Hasunosora\n"
+    items, _ = concerts.setlist(fandom.parse_setlists(page)[0].items, concerts.Resolver(ds), ["aqours"])
+    assert [p.artist for p in items[0].performers] == ["aqours", "nijigasaki-high-school-idol-club",
+                                                       "hasunosora-girls-high-school-idol-club"]
