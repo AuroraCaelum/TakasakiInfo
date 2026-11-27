@@ -376,9 +376,12 @@ def render_readme(ds: Dataset, files: dict[str, bytes]) -> dict[str, bytes]:
 
 
 def build_outputs(ds: Dataset) -> dict[str, bytes]:
-    """Every file `takasaki build` writes into the repository: the legacy files and the READMEs."""
+    """Every file `takasaki build` writes into the repository: the legacy files, the READMEs and the API's
+    OpenAPI document."""
     from .build_legacy import build_legacy
+    from .openapi import OUTPUT, render_openapi
 
     files = build_legacy(ds)
     files |= render_readme(ds, files)
+    files[OUTPUT] = render_openapi()
     return files

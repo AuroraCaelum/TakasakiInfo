@@ -1315,7 +1315,8 @@ flowchart LR
 - **기간이 있는 관계는 `from`/`until`을 가진 행이다.** "2024-05-01 시점의 スリーズブーケ 멤버" 같은 질의가 쿼리 하나로 끝난다.
 - **자주 쓰는 조인은 뷰로 둔다**: `v_track_flat`(레거시 행과 같은 평면 구조), `v_person_credits`, `v_work_performances`.
 - **검색 인덱스**: SQLite FTS5(trigram 토크나이저)로 `label`과 `alias`를 모두 색인한다. 매칭 키(5.1절) 열도 함께 색인한다. 가나, 한자, 로마자, 한국어 어느 쪽으로 입력해도 찾을 수 있고, 부분 문자열로도 찾을 수 있다.
-  - trigram은 세 글자 이상만 찾는다. `渡辺 曜`는 구문(`"渡辺 曜"`)이나 공백을 뺀 매칭 키로 찾고, 두 글자 이하 검색어는 API가 `label`에 `LIKE`로 찾는다.
+  - trigram은 세 글자 이상만 찾는다. `渡辺 曜`는 구문(`"渡辺 曜"`)이나 공백을 뺀 매칭 키로 찾는다. API는 검색어의 매칭 키로 `key` 열을 `GLOB '*키*'`로 찾고, 두 글자 이하는 색인 없이 훑는다(행이 수만 개라 충분히 빠르다).
+- **API용 문서 테이블**: `document`(엔티티 키, 본문)에 엔티티마다 엔티티 파일의 항목 하나, 음원마다 `recordings.json`의 행, 트랙마다 `tracks.json`의 행을 zlib으로 압축한 JSON으로 넣는다. API의 단건·목록 응답은 이 본문 그대로라 엔티티 파일, README의 DB schema와 형태가 같다(결정 D70).
 - **구현** (`automation/src/takasaki/build_sqlite.py`): 위 테이블 외에 `meta`(스키마 버전, `dbLastUpdate`), 다형 테이블(`label`, `alias`, `evidence`, `external_id`, `entity_project`)의 엔티티 키는 `종류:id`다. 빌드 끝에 외래 키 검사를 돌리고 위반이 있으면 실패한다.
 - **제약 조건**: 외래 키, `UNIQUE`(예: `track`의 발매물·에디션·디스크·번호), `CHECK`(예: `from <= until`)를 DB에도 건다. 8절 검증의 일부를 DB 차원에서 한 번 더 보장하는 셈이다.
 
@@ -1339,25 +1340,36 @@ flowchart LR
 **데이터 접근**
 
 - Lambda가 콜드 스타트 때 S3의 `data/takasakiinfo.sqlite`를 `/tmp`로 받아 읽기 전용으로 질의한다.
-- 몇 분 간격으로 `data/version.json`을 확인하고, 바뀌었으면 DB를 다시 받는다.
+- 5분 간격으로 `data/version.json`을 확인하고, `sha`가 바뀌었으면 DB를 다시 받는다. 새 API 코드가 읽는 테이블이 없는 예전 릴리스면 503을 준다.
 - 경로는 `/api/v1/…`다(결정 D23). 기존 API는 버전 경로가 없었고 호환 의무도 없으므로 새 API를 v1부터 시작한다. 새 데이터 형식도 같은 번호(v1, `/data/v1/`)를 쓰고, 저장소의 현행 형식은 레거시(`/data/legacy/`)라 부른다. 깨지는 변경이 생기면 `/data/v2/`·`/api/v2/`를 낸다.
 
-**엔드포인트 (예)**
+**엔드포인트** (구현: `infra/lambda/api/api.py`, 결정 D70)
+
+모든 경로 앞에 `/api/v1`이 붙는다. id는 데이터의 id 그대로이고(`muse/snow-halation`), 음원 id의 `#`은 `%23`으로 보낸다.
 
 | 용도 | 경로 |
 | --- | --- |
-| 통합 검색 | `GET /api/v1/search?q=&type=&project=` (다국어, alias, 부분 일치) |
-| 단건 조회 | `GET /api/v1/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
-| 인물 크레딧 | `GET /api/v1/persons/{id}/credits?role=composer` |
-| 시점별 라인업 | `GET /api/v1/artists/{id}/lineup?at=2024-05-01` |
-| 곡의 버전·수록 | `GET /api/v1/works/{id}/recordings`, `GET /api/v1/recordings/{id}/tracks` |
-| 곡의 공연 이력 | `GET /api/v1/works/{id}/performances` (첫 공개 공연 포함) |
-| 협업 관계 | `GET /api/v1/persons/{id}/collaborators` |
-| 부분 그래프 | `GET /api/v1/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
+| 상태 | `GET /health` (배포 스모크 테스트가 쓴다) |
+| 문서 | `GET /openapi.json` |
+| 통합 검색 | `GET /search?q=&type=&project=` (일본어·로마자·한국어·별칭, 부분 일치. 같은 키 → 키로 시작 → 나머지 순) |
+| 목록 | `GET /{works,recordings,releases,persons,characters,artists,concerts,venues,cities,projects}` (필터: `project`, `kind`, `type`, `status`, 발매일 `from`·`to`, 공연 `year`, 회장 `city`) |
+| 단건 조회 | `GET /{위 종류}/{id}` |
+| 곡의 버전 | `GET /works/{id}/recordings` |
+| 음원의 수록 트랙 | `GET /recordings/{id}/tracks` (발매일순) |
+| 곡의 공연 이력 | `GET /works/{id}/performances` (오래된 공연부터. 첫 항목이 첫 공개 공연) |
+| 인물 크레딧 | `GET /persons/{id}/credits?role=` (작사·작곡·편곡·현악·관악 편곡, 곡의 첫 발매일순) |
+| 공연 세트리스트 | `GET /concerts/{id}/setlist?date=` |
+| 시점별 라인업 | `GET /artists/{id}/lineup?at=` (기본값은 일본 기준 오늘. 멤버와 그날의 성우) |
+| 생일 | `GET /birthdays?date=MM-DD` 또는 `?month=`, `type=characters|persons` (기본값은 일본 기준 오늘) |
+| 랜덤 곡 | `GET /random?project=&kind=song&mood=&count=` (`count` 1~10, 캐시하지 않음) |
 
-- 응답에는 ja, kana, rom, ko 이름을 모두 넣는다. `?include=evidence`를 주면 출처와 상태도 넣는다.
-- 캐시는 10.4절 인프라 구성을 따른다(엣지 캐시 없음, 짧은 브라우저 캐시).
-- 응답 스키마는 OpenAPI로 정의하고, 데이터 모델과 같은 Pydantic 모델에서 생성한다.
+- 응답은 `{"data": …, "meta": {"dbLastUpdate", "count", "limit", "next"}}`다. 단건·목록·랜덤은 `document` 테이블의 본문을 그대로 주고, 관계 응답의 참조는 뷰와 같은 `{"ref": "work:<id>", "names": {…}}`다. 이름은 ja·kana·rom·ko를 모두 넣는다.
+- `evidence`는 기본으로 빼고, `?include=evidence`를 주면 넣는다.
+- 목록, 검색, 공연 이력, 크레딧은 `limit`(기본 20, 최대 100)과 `cursor`(앞 페이지의 `meta.next`)로 나눈다.
+- 알 수 없는 파라미터, 틀린 형식은 400, 없는 id는 404다. 오류는 `{"error", "message"}`다.
+- 캐시: `Cache-Control: public, max-age=300`과 본문 해시의 `ETag`(맞으면 304). 클라이언트가 받으면 gzip으로 보낸다. 엣지 캐시가 없는 구성이라(10.4절) 압축도 Lambda가 한다.
+- 부분 그래프(`/graph`)와 협업 관계(`/persons/{id}/collaborators`)는 연결 맵(10.7절, Phase 7)과 함께 설계한다.
+- 응답 스키마는 OpenAPI 3.1로 낸다. `takasaki build`가 `api.py`의 경로 목록과 같은 Pydantic 모델(엔티티 파일의 JSON Schema와 같은 설명)에서 `infra/lambda/api/openapi.json`을 만들고, E8이 다른 생성 파일처럼 비교한다.
 - REST로 시작한다. 클라이언트가 관계를 여러 단계로 엮어 질의하는 일이 많아지면 GraphQL을 검토한다.
 
 ### 10.7 연결 맵 (인터랙티브 그래프)
@@ -1660,6 +1672,7 @@ TakasakiInfo/
 | D67 | —         | 2026-11-27 | 어댑터를 다시 돌리면 손으로 넣은 값이 지워지던 두 가지를 고친다(사용자 요청). (1) 공식 어댑터는 이미 있는 발매물의 에디션을 공식 페이지 것으로 바꾸되, 페이지에 없는 에디션 중 따로 근거(`editions.<키>`)가 있는 것은 그 뒤에 그대로 남긴다. 레이블 카탈로그에만 있는 니지가사키 미니앨범 2장의 특장반 6종씩(D54)이 지워지던 문제다. 페이지 에디션의 id가 남길 에디션의 id와 겹치면 바꾸지 않고 보고한다. (2) Fandom 세트리스트의 곡 판정에서 매칭 키가 같은 곡이 여럿이면, 공연의 프로젝트로 좁힌 뒤에도 남을 때 Fandom이 적은 제목과 표기가 정확히 같은 곡을 고른다(일본어 제목, 그다음 로마자). `アイコトバ`(Aqours)·`アイコトバ！`(Liella!), `CHASE!`(니지가사키)·μ's 극반 `チェイス`(Chase, D53)가 같은 키라 6곳의 연결이 풀리던 문제다 | importer.py, concerts.py |
 | D68 | —         | 2026-11-27 | 데이터에 실린 메모에서 승인 전 상태를 가리키는 말을 뺀다(사용자 요청: 올라간 데이터는 모두 승인된 것이니 확정적으로 쓴다). (1) 4.7절 '쓰지 않는 것'에 `초안`·`번역안`·`승인하기 전`·`확인 필요`·`검토 권장`·`나중에 넣음`을 더한다. 확인이 필요하다고 적던 곳은 무엇이 엇갈리는지만 남긴다. (2) data의 메모 1,427개(파일 1,141개)와 수동 입력 파일 2개의 메모 197개를 고친다. Fandom 세트리스트 메모 366개는 `공식 미게재. Fandom 세트리스트를 옮김`, `번역안`은 `번역함`, 회장 등의 `rom·ko: 초안`은 `rom·ko: 직접 정함`으로 바꾸고, 문장마다 다른 60여 개는 하나씩 고친다(뮤지컬의 `공연별 캐스트표는 나중에 넣음` → `넣지 않음`, 이미 합친 2022년 추가 공연의 `합칠 수 있음` → `합침`, 106기 캐릭터 이름의 `승인 대기 중`은 삭제). (3) 같은 문구를 만드는 어댑터의 메모도 바꾼다(Fandom 세트리스트, 새 회장, 수동 입력·사운드트랙의 ko 번역, Fandom 표기 공연명). (4) `draft`로 남아 있던 Fandom 세트리스트 근거 366개도 승인된 것이라 `established`로 바꾼다. 어댑터가 새로 옮기는 세트리스트는 지금처럼 `draft`로 들어간다 | 4.7절, concerts.py, manual.py, soundtrack.py |
 | D69 | —         | 2026-11-27 | README 정리(사용자 요청). (1) 기존 API(API Gateway 엔드포인트, 2024-01-03 시점 데이터)는 새 API를 기다리지 않고 폐기하고 README에서 뺀다. D17·D20의 '새 API 공개 뒤 폐기'를 바꾼다. (2) 데이터 형식이 하나뿐이라 README는 `v1 schema` 대신 `DB schema`, `v1 files` 대신 엔티티 파일이라고 부른다. 경로 `/data/v1/`과 `schemaVersion`은 그대로이고, 깨지는 변경으로 v2가 생기면 그때 버전을 붙여 구별한다. (3) `README.md`는 영어로만 쓰고, 한국어·일본어는 `README.ko.md`·`README.ja.md`로 나눈다. 세 파일 맨 위의 언어 링크가 서로를 열고, 한국어·일본어 README는 DB 현황·스키마·예시를 영어 README로 링크한다 | 1.3절, 10.3절, 10.4절, 14절, readme.py, templates/ |
+| D70 | —         | 2026-11-28 | v1 조회 API를 연다(사용자 요청: 추천안 중 1단계 전부와 생일·랜덤). (1) 엔드포인트는 10.6절 표: 검색, 종류별 목록·단건, 곡의 버전·수록 트랙·공연 이력, 인물 크레딧, 세트리스트, 시점별 라인업, 생일, 랜덤 곡, `openapi.json`. (2) 단건·목록 응답이 엔티티 파일과 같은 형태가 되도록 SQLite에 `document` 테이블(엔티티·음원·트랙의 JSON, zlib 압축)을 더한다. DB는 약 36MB가 된다. (3) 질의는 표준 라이브러리만 쓰는 `infra/lambda/api/api.py`에 두고, `handler.py`는 S3에서 DB를 받고 버전을 확인하고 ETag·gzip을 붙인다. 검색의 매칭 키 함수는 `text.match_key`를 옮긴 것이고 테스트가 색인의 모든 글자열로 둘이 같은지 본다. (4) `openapi.json`은 `api.py`의 경로 목록과 모델에서 `takasaki build`가 만든다. (5) 미루는 것: 키·BPM·분위기 필터, 오늘의 발매·발매 예정, 부분 그래프, 협업 관계 | 10.5절, 10.6절, build_sqlite.py, openapi.py, infra/lambda/api/ |
 
 ### 16.2 결정 필요 사항
 

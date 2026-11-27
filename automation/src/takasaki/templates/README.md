@@ -55,8 +55,25 @@ Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
 | Entity files: one JSON file per entity, flat track and recording views, JSON Schema, quality metrics ([fields](#db-schema)) | `{{CDN}}/data/v1/`, e.g. `releases.json`, `tracks.json`, `works.json`, `persons.json`, `quality.json`, `schema/*.json` |
 | SQLite database with full-text search | [`/data/takasakiinfo.sqlite`]({{CDN}}/data/takasakiinfo.sqlite) |
 | Data version | [`/data/version.json`]({{CDN}}/data/version.json) |
+| Query API | `{{CDN}}/api/v1/…`, described in [`/api/v1/openapi.json`]({{CDN}}/api/v1/openapi.json) |
 
-A query API (`/api/v1/…`) is on the way; only [`/api/v1/health`]({{CDN}}/api/v1/health) is live so far.
+### Query API
+
+Read-only and free to use. Every response is `{"data": …, "meta": {…}}`, with names and titles in every language; `?include=evidence` adds the source and status of every value. Ids are those of the data (`muse/snow-halation`); send a recording id's `#` as `%23`. Lists take `limit` (up to 100) and `cursor` (the `meta.next` of the page before).
+
+| Endpoint | What it gives |
+| :-- | :-- |
+| `GET /api/v1/search?q=snow hal` | Works, releases, people, characters, artists, concerts and venues whose name matches, in Japanese, romaji, Korean or a credited alias. `type`, `project` narrow it down. |
+| `GET /api/v1/{works,recordings,releases,persons,characters,artists,concerts,venues,cities,projects}` | A list, filtered by `project`, `kind`, `type`, `status`, `from`/`to` (release date), `year` (concerts), `city` (venues). |
+| `GET /api/v1/works/muse/snow-halation` | One entity, as in its entity file. The same for every type above. |
+| `GET /api/v1/works/{id}/recordings` | The work's recordings (versions, off vocals, live recordings). |
+| `GET /api/v1/recordings/{id}/tracks` | The releases and tracks a recording is on, oldest first. |
+| `GET /api/v1/works/{id}/performances` | Every show the work was sung at, oldest first. |
+| `GET /api/v1/persons/{id}/credits?role=composer` | What a person wrote or arranged. |
+| `GET /api/v1/concerts/{id}/setlist?date=` | The set list of every show of a concert. |
+| `GET /api/v1/artists/{id}/lineup?at=2024-05-01` | The members on a day, with their voice actors. |
+| `GET /api/v1/birthdays?date=01-01` | Characters and people born on a day (`month=1` for a month; default today in Japan). |
+| `GET /api/v1/random?project=aqours&count=3` | Random songs; `mood` picks a mood label. |
 
 <details>
 <summary><b>Original soundtracks</b>: in the album files since 2026-10 (cues are noted <code>BGM</code> and left out of the songs files)</summary>

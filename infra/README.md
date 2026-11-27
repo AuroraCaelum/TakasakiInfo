@@ -120,7 +120,7 @@ npx aws-cdk@2 deploy --all \
 
 - **시험 업로드 (공개 데이터는 안 바뀜)**: GitHub → Actions → `deploy` → Run workflow → 브랜치 `dev/automation`. S3에 `releases/<커밋>/`만 생긴다.
 - **실제 배포**: `dev/automation`을 PR로 `main`에 병합하면 `deploy`가 자동으로 업로드 → 공개 → 무효화 → 스모크 테스트까지 한다. 실패하면 직전 릴리스로 되돌린다.
-- 브라우저로 확인: `<BaseUrl>/`, `<BaseUrl>/data/version.json`, `<BaseUrl>/data/legacy/TakasakiInfo.json`, `<BaseUrl>/api/v1/health`
+- 브라우저로 확인: `<BaseUrl>/`, `<BaseUrl>/data/version.json`, `<BaseUrl>/data/legacy/TakasakiInfo.json`, `<BaseUrl>/api/v1/health`, `<BaseUrl>/api/v1/search?q=snow`
 - 우회 차단 확인: S3 버킷 주소와 Lambda Function URL을 직접 열면 403이 나와야 한다.
 
 ### 7. 정리
@@ -140,6 +140,8 @@ npx aws-cdk@2 deploy --all \
 | 테스트 (AWS 호출 없음, 키 필요 없음) | `uv run pytest -q` |
 
 데이터 배포는 인프라와 무관하게 `main` 병합 때 Actions가 한다(`.github/workflows/deploy.yml`). 관리자 키는 쓰지 않는다.
+
+API 코드(`lambda/api/`)는 인프라 쪽이라 데이터 배포로는 바뀌지 않는다. `api.py`나 `handler.py`를 고쳤으면 `TakasakiInfo-App`을 `deploy`한다. `openapi.json`은 `takasaki build`가 만드는 파일이라 직접 고치지 않는다. API가 읽는 테이블이 새로 생겼으면 데이터를 먼저 배포한다. 예전 릴리스를 만나면 API는 503을 준다.
 
 ## 비용
 
