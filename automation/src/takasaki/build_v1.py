@@ -22,7 +22,7 @@ from .store import LAYOUT, Dataset, _plain
 
 V1_FORMAT = "1.0.0"
 
-# the views' fields for the README's v1 schema (field -> (type, description)); the entity files are
+# the views' fields for the README's DB schema (field -> (type, description)); the entity files are
 # described by the model's field docstrings. A test keeps these keys equal to the rows'.
 _REFS = "**ref**[]"
 TRACK_FIELDS: dict[str, tuple[str, str]] = {

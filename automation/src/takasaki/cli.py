@@ -23,7 +23,7 @@ def cmd_build(args: argparse.Namespace) -> int:
     files = build_outputs(load_dataset(data))
     out = Path(args.out).resolve() if args.out else root
     changed = write_outputs(files, out)
-    print(f"{len(files)} generated files (legacy files and README), {len(changed)} written to {out}")
+    print(f"{len(files)} generated files (legacy files, READMEs, openapi.json), {len(changed)} written to {out}")
     for rel in changed:
         print(f"  {rel}")
     return 0
@@ -45,7 +45,7 @@ def cmd_dist(args: argparse.Namespace) -> int:
 
 
 def cmd_check(args: argparse.Namespace) -> int:
-    """E8: committed legacy files and README must equal a fresh build (nobody edits generated files)."""
+    """E8: committed legacy files and READMEs must equal a fresh build (nobody edits generated files)."""
     from .readme import build_outputs
 
     root, data, _ = _paths()
@@ -441,7 +441,7 @@ def cmd_migrate(args: argparse.Namespace) -> int:
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="takasaki", description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
-    b = sub.add_parser("build", help="generate the legacy files and README.md from data/")
+    b = sub.add_parser("build", help="generate the legacy files, the READMEs and the API's openapi.json from data/")
     b.add_argument("--out", help="output directory (default: repository root)")
     b.set_defaults(func=cmd_build)
     ds_ = sub.add_parser("dist", help="build the v1 files and the SQLite database (not committed; deploy uploads them)")

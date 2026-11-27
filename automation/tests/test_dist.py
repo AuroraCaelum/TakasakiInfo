@@ -27,7 +27,7 @@ def test_v1_files_agree_with_the_database(ds, tmp_path):
     assert "recordings" in schema["properties"]
     schema = json.loads(files["v1/schema/releases.json"])  # field docstrings are the descriptions
     assert schema["$defs"]["Edition"]["properties"]["catalog"]["description"].startswith("Catalog number")
-    # the README's v1 schema describes every field of the views
+    # the README's DB schema describes every field of the views
     assert {k for t in tracks["data"] for k in t} == set(TRACK_FIELDS)
     assert {k for r in json.loads(files["v1/recordings.json"])["data"] for k in r} == set(RECORDING_FIELDS)
     releases = {r["id"]: r for r in json.loads(files["v1/releases.json"])["data"]}

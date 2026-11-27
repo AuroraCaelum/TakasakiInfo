@@ -47,7 +47,7 @@
 - 가사, 이미지 수집 및 배포 (저작권)
 - 완전 무인 운영. 정확도가 최우선이므로 사람의 승인 단계는 없애지 않는다. 대신 승인 횟수를 최소화한다.
 - OST 백필. README의 우선순위를 유지한다. 모델은 OST도 표현할 수 있게 설계한다.
-- 기존 API와의 호환. 사용자가 없으므로 이행 기간 없이 새 API로 교체한다(결정 D17, 10.4절). 저장소의 레거시 파일은 계속 생성한다.
+- 기존 API와의 호환. 사용자가 없으므로 새 API를 기다리지 않고 폐기한다(결정 D17·D69, 10.4절). 저장소의 레거시 파일은 계속 생성한다.
 
 ---
 
@@ -127,6 +127,7 @@ erDiagram
 - **Artist**: 크레딧에 나오는 가창 주체. 그룹, 유닛, 솔로, 크로스 유닛, 콜라보 등. 여러 프로젝트에 속할 수 있다. 멤버 구성(Lineup)은 기간별로 저장한다.
   - 가창 크레딧이 그룹명이 아니라 캐릭터 나열인 경우(`高海 千歌;桜内 梨子;渡辺 曜`)에는 Character를 직접 가창자로 참조한다.
   - 외부 IP 캐릭터(예: `異次元★♥BIGBANG`의 아이돌마스터 캐릭터)는 `project: external`인 최소 Character로 등록한다.
+  - 여러 프로젝트가 함께 부른 곡(「LIVE with a smile!」, 「異次元★♥BIGBANG」, 「Bring the LOVE！」, AiScReam 곡)과 그 발매물은 시리즈 프로젝트 `lovelive`에 둔다(결정 D74). 어느 프로젝트가 불렀는지는 발매물의 `projects`(공식 페이지 기준)로 정한다.
   - 배우가 배역으로 노래하는 경우(뮤지컬 출연진, `堀内まり菜（椿ルリカ役）`)에는 Person을 가창자로 참조하고 배역 Character를 `role`로 단다. 배역 없는 앙상블은 Person만 참조한다(결정 D29).
   - 여러 가창자를 한 명의로 적은 크레딧은 합친 Artist를 만들지 않는다(결정 D48). 각 가창자를 따로 참조하고, 명의의 형태를 가창자에 표시한다. 크레딧 문자열은 빌더가 만든다.
     - 피처링(`Aqours feat. 初音ミク`): 본 가창자(Aqours)와 객원(初音ミク, 외부 IP 캐릭터)을 참조하고 객원에 `featured: true`를 단다. 출력은 객원이 아닌 가창자를 `;`로 이은 뒤 ` feat. `와 객원. 객원만 있는 목록은 스키마 오류(E1)다.
@@ -207,8 +208,8 @@ Track에 저장하는 것은 **그 수록 자신의 URL(자기 URL)뿐이다.** 
 id: ikizulive
 names:
   ja: イキヅライブ！ LOVELIVE! BLUEBIRD
-  rom: Ikizulive! LOVELIVE! BLUEBIRD
-  ko: 이키즈라이부! LOVELIVE! BLUEBIRD # 결정 D15 (우선 확정. 공식 한국어 표기가 나오면 교체)
+  rom: IKIZULIVE! LOVELIVE! BLUEBIRD # 결정 D71
+  ko: 이키즈라이브! LOVELIVE! BLUEBIRD # 결정 D71 (공식 한국어 표기가 나오면 교체)
 legacy:
   category: Ikizulive # 레거시 산출물의 category 값과 파일명 (결정 D3)
 copyright:
@@ -569,6 +570,11 @@ cast_changes: []
   - `라틴 표기: ko는 ja와 같음 (§5.4)` → `원제가 라틴 문자라 한국어 표기도 원제 그대로 씀`
   - `성·이름 분리: 리뷰에서 확인 (D28)` → `성과 이름을 나눈 위치는 사람이 확인함`
 - 결정 기록, 그리고 리뷰 파일에서 리뷰어에게 할 일을 알려 주는 안내문(`decision: pick:<n>` 같은 것)에는 지금처럼 결정 번호를 써도 된다. 이 절은 데이터에 실리는 메모에만 적용한다.
+- 승인 전 상태를 가리키는 말. 데이터에 실린 값은 승인된 값이므로 `초안`, `번역안`, `승인하기 전`, `승인 대기 중`, `확인 필요`, `검토 권장`, `나중에 넣음`을 쓰지 않고 정해진 상태로 적는다. 출처끼리 엇갈려서 확인이 필요하다고 적고 싶으면, 무엇이 어떻게 엇갈리는지를 적는다.
+  - `Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전` → `Fandom 세트리스트를 옮김`
+  - `ko: 번역안(나무위키 미게재), 확인 필요` → `ko: 번역함(나무위키 미게재)`
+  - `나무위키 곡 문서는 '하루가와 히토시'로 적어 확인 필요` → `나무위키 곡 문서는 '하루가와 히토시'로 적음`
+  - 승인을 기다리는 동안만 쓰는 자리 표시(`status: draft`의 `승인 대기 중`)는 승인할 때 바뀌므로 예외다.
 - 메모에 음원 id(`original`, `9-members-ver`)가 들어가면 그대로 둔다. 어댑터가 메모에서 어느 음원의 편곡을 따랐는지 읽는다.
 
 **어투**
@@ -1140,6 +1146,7 @@ wikitext 예:
 - 신규 그룹 파일: `albums/Ikizulive/…`, `songs/Ikizulive/…`, `members/Ikizulive.csv`. `category` 값은 `Ikizulive`(결정 D3).
 - 여러 프로젝트에 걸친 발매물은 지금처럼 관련 그룹 파일마다 넣는다. 통합 JSON에는 한 번만 넣는다.
 - `category`는 Recording의 가창 Artist와 Project에서 계산한다. 크로스 유닛(AiScReam 등)은 `Others`다(결정 D6).
+- 여러 프로젝트가 함께 부른 곡과 그 발매물은 시리즈 프로젝트 `lovelive`(ラブライブ！シリーズ)에 두고, category는 모두 `Others`다. 참여한 그룹의 파일마다 넣는다(결정 D74). 스플릿 싱글은 곡이 그룹별이라 그룹 파일마다 그 그룹 판을 그 그룹의 category로 넣는다.
 - `members/*.csv`에는 졸업 멤버도 넣는다(결정 D7). 맨 뒤에 캐릭터 생일 `Birthday`와 성우 생일 `Seiyuu Birthday` 열이 있다(결정 D60). 기존 행 순서는 유지하고, 새 멤버는 합류 시점의 공식 사이트 순서대로 뒤에 붙인다. 졸업 멤버의 `Unit` 열은 졸업 당시 유닛이다. 재적·졸업 상태와 기간은 v1에만 넣는다.
 - `concerts/*.json`은 현행 형태(`eventCode`, `title`, `date_range`, `sights`, `events[].setlist`)를 유지한다.
   - 곡 항목은 Work의 ja 표기로 렌더링한다. 버전이 있으면 표식을 붙인다.
@@ -1164,8 +1171,9 @@ wikitext 예:
 
 - README의 **Disclaimer**(권리 표기 목록)와 **Database Status** 표를 `data/projects/*.yaml`에서 생성한다. 공식 권리 표기는 수시로 바뀐다. 예를 들어 AiScReam 특설 페이지는 `©2024 プロジェクトラブライブ！スーパースター!!`, `©2026 プロジェクトラブライブ！蓮ノ空女学院スクールアイドルクラブ`처럼 연도를 포함해 표기하는데, 현 README에는 연도가 없거나 다르다.
 - README 한국어 섹션의 시리즈명도 `러브 라이브!`로 생성한다(결정 D11).
-- 구현 (2026-10-19): `takasaki/readme.py`가 `templates/README.md`(손으로 쓰는 본문)의 자리표시자를 채운다. 데이터에서 만드는 것: Database Status 표(그룹별 최신 발매일·앨범·트랙·스트리밍 링크율·파일 링크), 전체 통계와 배지, 발매 예정(`announced`), 파일명·카테고리 목록, JSON 예시(실제 생성 파일에서 발췌), 언어별 Disclaimer. `takasaki build`가 레거시 파일과 함께 쓰고 `takasaki check`(E8)가 비교한다. README를 고칠 때는 템플릿을 고친다.
-- v1 스키마(2026-10-20): README의 `v1 schema` 절은 v1 엔티티 파일마다 필드 표(이름·타입·기본값·설명, 중첩 객체 포함)와 `tracks.json`·`recordings.json` 뷰의 표, 실제 발매물 예시를 담는다. 표는 모델에서 만들고 설명은 `model.py`의 필드 docstring(`use_attribute_docstrings`)이다. 같은 설명이 `schema/*.json`의 `description`에도 들어간다. enum 값은 모델에서 붙는다. docstring 없는 필드가 있으면 README 빌드가 실패하므로, 필드를 더하면 설명도 같이 적는다. 뷰의 설명은 `build_v1.py`의 `TRACK_FIELDS`·`RECORDING_FIELDS`이고 테스트가 실제 행의 키와 비교한다. 레거시 파일에 없는 필드(에디션의 품번·매체, `links.smartlink` 등)가 문서에서 빠져 백필 때 누락된 일이 계기다.
+- README는 영어 `README.md` 하나를 기본으로 하고, 한국어·일본어는 `README.ko.md`·`README.ja.md`로 따로 둔다. 세 파일 맨 위의 언어 링크가 서로를 연다(결정 D69). 세 파일은 같은 절을 모두 담고 언어만 다르다. 생성되는 표의 머리, 요약 줄, 분위기 규칙, 배지는 `readme.py`의 `TEXT`·`MOOD_RULES_TEXT`가 언어별로 채우고, DB schema의 필드 설명만 `model.py` docstring의 영어를 그대로 쓴다(결정 D72).
+- 구현 (2026-10-19): `takasaki/readme.py`가 `templates/README.md`·`README.ko.md`·`README.ja.md`(손으로 쓰는 본문)의 자리표시자를 채운다. 데이터에서 만드는 것: Database Status 표(그룹별 최신 발매일·앨범·트랙·스트리밍 링크율·파일 링크), 전체 통계와 배지, 발매 예정(`announced`), 파일명·카테고리 목록, JSON 예시(실제 생성 파일에서 발췌), 언어별 Disclaimer. `takasaki build`가 레거시 파일과 함께 쓰고 `takasaki check`(E8)가 비교한다. README를 고칠 때는 템플릿을 고친다.
+- DB 스키마(2026-10-20): README의 `DB schema` 절은 엔티티 파일마다 필드 표(이름·타입·기본값·설명, 중첩 객체 포함)와 `tracks.json`·`recordings.json` 뷰의 표, 실제 발매물 예시를 담는다. 표는 모델에서 만들고 설명은 `model.py`의 필드 docstring(`use_attribute_docstrings`)이다. 같은 설명이 `schema/*.json`의 `description`에도 들어간다. enum 값은 모델에서 붙는다. docstring 없는 필드가 있으면 README 빌드가 실패하므로, 필드를 더하면 설명도 같이 적는다. 뷰의 설명은 `build_v1.py`의 `TRACK_FIELDS`·`RECORDING_FIELDS`이고 테스트가 실제 행의 키와 비교한다. 레거시 파일에 없는 필드(에디션의 품번·매체, `links.smartlink` 등)가 문서에서 빠져 백필 때 누락된 일이 계기다.
 - 권리 표기(2026-10-19 확인): 일본어는 시리즈 포털(`lovelive-anime.jp`)의 목록을 따른다(공식 사이트 중 가장 최신. `©2024 …スーパースター!!`, `©2026 …蓮ノ空…`, `にじよん あにめーしょん2`, `イキヅライブ！`). 영어는 공식 영문 사이트(`/worldwide/`)의 `PROJECT Lovelive!` 형식에 포털의 연도를 쓴다. 공식 영어 표기가 없는 이키즈라이브는 일본어 표기를 그대로 쓴다. `©PROJECT YOHANE`은 Aqours, にじよん은 니지가사키 프로젝트에 둔다.
 - API 배포는 10.4절.
 
@@ -1181,7 +1189,7 @@ API Gateway(`ap-northeast-2`) → Lambda → S3의 `TakasakiInfo.json`을 읽어
 
 - 기존 API Gateway·Lambda에 S3 자동 업로드를 붙이는 중간 단계를 두지 않는다. 새 구조로 바로 간다.
 - 엔드포인트와 응답 형식도 새로 설계한다(10.6절). 기존 `/full`, `/random`, `/search`를 유지할 의무는 없다.
-- 기존 API Gateway 엔드포인트는 새 API가 공개되면 폐기한다. README의 API 절도 그때 새로 쓴다.
+- 기존 API Gateway 엔드포인트는 새 API를 기다리지 않고 폐기하고, README에서도 뺀다(결정 D69).
 - 저장소의 레거시 파일(CSV/JSON)은 API와 별개다. 계속 생성한다(10.1절).
 
 **배포 절차**
@@ -1277,7 +1285,7 @@ flowchart LR
 
   - 세 스택은 CDK 리전 간 참조로 값을 주고받고, 배포 순서(Waf → App → Plan)도 CDK가 지킨다.
   - 배포 방법은 `infra/README.md`.
-- **기존 리소스**: 기존 API Gateway, 기존 Lambda, 기존 S3 객체는 새 API 공개 직후 삭제한다(결정 D20).
+- **기존 리소스**: 기존 API Gateway, 기존 Lambda, 기존 S3 객체는 새 API 공개를 기다리지 않고 삭제한다(결정 D20·D69).
 
 ### 10.5 데이터베이스
 
@@ -1309,7 +1317,8 @@ flowchart LR
 - **기간이 있는 관계는 `from`/`until`을 가진 행이다.** "2024-05-01 시점의 スリーズブーケ 멤버" 같은 질의가 쿼리 하나로 끝난다.
 - **자주 쓰는 조인은 뷰로 둔다**: `v_track_flat`(레거시 행과 같은 평면 구조), `v_person_credits`, `v_work_performances`.
 - **검색 인덱스**: SQLite FTS5(trigram 토크나이저)로 `label`과 `alias`를 모두 색인한다. 매칭 키(5.1절) 열도 함께 색인한다. 가나, 한자, 로마자, 한국어 어느 쪽으로 입력해도 찾을 수 있고, 부분 문자열로도 찾을 수 있다.
-  - trigram은 세 글자 이상만 찾는다. `渡辺 曜`는 구문(`"渡辺 曜"`)이나 공백을 뺀 매칭 키로 찾고, 두 글자 이하 검색어는 API가 `label`에 `LIKE`로 찾는다.
+  - trigram은 세 글자 이상만 찾는다. `渡辺 曜`는 구문(`"渡辺 曜"`)이나 공백을 뺀 매칭 키로 찾는다. API는 검색어의 매칭 키로 `key` 열을 `GLOB '*키*'`로 찾고, 두 글자 이하는 색인 없이 훑는다(행이 수만 개라 충분히 빠르다).
+- **API용 문서 테이블**: `document`(엔티티 키, 본문)에 엔티티마다 엔티티 파일의 항목 하나, 음원마다 `recordings.json`의 행, 트랙마다 `tracks.json`의 행을 zlib으로 압축한 JSON으로 넣는다. API의 단건·목록 응답은 이 본문 그대로라 엔티티 파일, README의 DB schema와 형태가 같다(결정 D70).
 - **구현** (`automation/src/takasaki/build_sqlite.py`): 위 테이블 외에 `meta`(스키마 버전, `dbLastUpdate`), 다형 테이블(`label`, `alias`, `evidence`, `external_id`, `entity_project`)의 엔티티 키는 `종류:id`다. 빌드 끝에 외래 키 검사를 돌리고 위반이 있으면 실패한다.
 - **제약 조건**: 외래 키, `UNIQUE`(예: `track`의 발매물·에디션·디스크·번호), `CHECK`(예: `from <= until`)를 DB에도 건다. 8절 검증의 일부를 DB 차원에서 한 번 더 보장하는 셈이다.
 
@@ -1333,25 +1342,36 @@ flowchart LR
 **데이터 접근**
 
 - Lambda가 콜드 스타트 때 S3의 `data/takasakiinfo.sqlite`를 `/tmp`로 받아 읽기 전용으로 질의한다.
-- 몇 분 간격으로 `data/version.json`을 확인하고, 바뀌었으면 DB를 다시 받는다.
+- 5분 간격으로 `data/version.json`을 확인하고, `sha`가 바뀌었으면 DB를 다시 받는다. 새 API 코드가 읽는 테이블이 없는 예전 릴리스면 503을 준다.
 - 경로는 `/api/v1/…`다(결정 D23). 기존 API는 버전 경로가 없었고 호환 의무도 없으므로 새 API를 v1부터 시작한다. 새 데이터 형식도 같은 번호(v1, `/data/v1/`)를 쓰고, 저장소의 현행 형식은 레거시(`/data/legacy/`)라 부른다. 깨지는 변경이 생기면 `/data/v2/`·`/api/v2/`를 낸다.
 
-**엔드포인트 (예)**
+**엔드포인트** (구현: `infra/lambda/api/api.py`, 결정 D70)
+
+모든 경로 앞에 `/api/v1`이 붙는다. id는 데이터의 id 그대로이고(`muse/snow-halation`), 음원 id의 `#`은 `%23`으로 보낸다.
 
 | 용도 | 경로 |
 | --- | --- |
-| 통합 검색 | `GET /api/v1/search?q=&type=&project=` (다국어, alias, 부분 일치) |
-| 단건 조회 | `GET /api/v1/{works,recordings,releases,persons,characters,artists,concerts,venues}/{id}` |
-| 인물 크레딧 | `GET /api/v1/persons/{id}/credits?role=composer` |
-| 시점별 라인업 | `GET /api/v1/artists/{id}/lineup?at=2024-05-01` |
-| 곡의 버전·수록 | `GET /api/v1/works/{id}/recordings`, `GET /api/v1/recordings/{id}/tracks` |
-| 곡의 공연 이력 | `GET /api/v1/works/{id}/performances` (첫 공개 공연 포함) |
-| 협업 관계 | `GET /api/v1/persons/{id}/collaborators` |
-| 부분 그래프 | `GET /api/v1/graph?center={id}&depth=2&types=` (연결 맵의 드릴다운용) |
+| 상태 | `GET /health` (배포 스모크 테스트가 쓴다) |
+| 문서 | `GET /openapi.json` |
+| 통합 검색 | `GET /search?q=&type=&project=` (일본어·로마자·한국어·별칭, 부분 일치. 같은 키 → 키로 시작 → 나머지 순) |
+| 목록 | `GET /{works,recordings,releases,persons,characters,artists,concerts,venues,cities,projects}` (필터: `project`, `kind`, `type`, `status`, 발매일 `from`·`to`, 공연 `year`, 회장 `city`) |
+| 단건 조회 | `GET /{위 종류}/{id}` |
+| 곡의 버전 | `GET /works/{id}/recordings` |
+| 음원의 수록 트랙 | `GET /recordings/{id}/tracks` (발매일순) |
+| 곡의 공연 이력 | `GET /works/{id}/performances` (오래된 공연부터. 첫 항목이 첫 공개 공연) |
+| 인물 크레딧 | `GET /persons/{id}/credits?role=` (작사·작곡·편곡·현악·관악 편곡, 곡의 첫 발매일순) |
+| 공연 세트리스트 | `GET /concerts/{id}/setlist?date=` |
+| 시점별 라인업 | `GET /artists/{id}/lineup?at=` (기본값은 일본 기준 오늘. 멤버와 그날의 성우) |
+| 생일 | `GET /birthdays?date=MM-DD` 또는 `?month=`, `type=characters|persons` (기본값은 일본 기준 오늘) |
+| 랜덤 곡 | `GET /random?project=&kind=song&mood=&count=` (`count` 1~10, 캐시하지 않음) |
 
-- 응답에는 ja, kana, rom, ko 이름을 모두 넣는다. `?include=evidence`를 주면 출처와 상태도 넣는다.
-- 캐시는 10.4절 인프라 구성을 따른다(엣지 캐시 없음, 짧은 브라우저 캐시).
-- 응답 스키마는 OpenAPI로 정의하고, 데이터 모델과 같은 Pydantic 모델에서 생성한다.
+- 응답은 `{"data": …, "meta": {"dbLastUpdate", "count", "limit", "next"}}`다. 단건·목록·랜덤은 `document` 테이블의 본문을 그대로 주고, 관계 응답의 참조는 뷰와 같은 `{"ref": "work:<id>", "names": {…}}`다. 이름은 ja·kana·rom·ko를 모두 넣는다.
+- `evidence`는 기본으로 빼고, `?include=evidence`를 주면 넣는다.
+- 목록, 검색, 공연 이력, 크레딧은 `limit`(기본 20, 최대 100)과 `cursor`(앞 페이지의 `meta.next`)로 나눈다.
+- 알 수 없는 파라미터, 틀린 형식은 400, 없는 id는 404다. 오류는 `{"error", "message"}`다.
+- 캐시: `Cache-Control: public, max-age=300`과 본문 해시의 `ETag`(맞으면 304). 클라이언트가 받으면 gzip으로 보낸다. 엣지 캐시가 없는 구성이라(10.4절) 압축도 Lambda가 한다.
+- 부분 그래프(`/graph`)와 협업 관계(`/persons/{id}/collaborators`)는 연결 맵(10.7절, Phase 7)과 함께 설계한다.
+- 응답 스키마는 OpenAPI 3.1로 낸다. `takasaki build`가 `api.py`의 경로 목록과 같은 Pydantic 모델(엔티티 파일의 JSON Schema와 같은 설명)에서 `infra/lambda/api/openapi.json`을 만들고, E8이 다른 생성 파일처럼 비교한다.
 - REST로 시작한다. 클라이언트가 관계를 여러 단계로 엮어 질의하는 일이 많아지면 GraphQL을 검토한다.
 
 ### 10.7 연결 맵 (인터랙티브 그래프)
@@ -1515,9 +1535,9 @@ TakasakiInfo/
 
 공식 한국어 표기를 찾지 못했다.
 
-- `いきづらい部！` → **이키즈라이부!** (음역, 결정 D14)
-- `イキヅライブ！ LOVELIVE! BLUEBIRD` → **이키즈라이부! LOVELIVE! BLUEBIRD** (결정 D15, 우선 확정). 라틴 부분은 원문을 유지한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
-- 프로젝트명과 그룹명의 한국어 앞부분(`이키즈라이부!`)이 같다. 그래서 검색 결과와 연결 맵(10.7절)에서는 엔티티 종류(프로젝트 / 그룹)를 함께 표시한다.
+- `いきづらい部！` → **이키즈라이부!** (음역, 결정 D14). 로마자는 **Ikizurai-Bu!** (결정 D71)
+- `イキヅライブ！ LOVELIVE! BLUEBIRD` → **이키즈라이브! LOVELIVE! BLUEBIRD**, 로마자 **IKIZULIVE! LOVELIVE! BLUEBIRD** (결정 D71). 라틴 부분은 원문을 유지한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
+- 프로젝트명(イキヅライブ, ライブ)과 그룹명(いきづらい部, 部)은 읽기가 비슷하지만 다른 말이라 한국어도 이키즈라이브!와 이키즈라이부!로 구별한다. 검색 결과와 연결 맵(10.7절)에서는 엔티티 종류(프로젝트 / 그룹)를 함께 표시한다.
 - 캐릭터명 10명은 규칙 엔진 후보를 만들어 L2 리뷰로 확정한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
 
 ### 13.5 크로스 프로젝트
@@ -1560,7 +1580,7 @@ TakasakiInfo/
 | 3. 공백 백필   | 음반: Hasunosora → Liella → Nijigaku → Musical → Aqours 결측 보완 → Yohane·크로스 프로젝트(AiScReam, LIVE with a smile! 등) → μ's. 프로젝트별 공식 사이트 어댑터 추가, W16에 남은 값은 이 어댑터로 공식 페이지와 다시 대조한다(D36). 발매물 메타데이터(`links`의 공식 페이지·smartlink, 레이블, 에디션·품번, `type`, `artist_credit`)는 지금 이키즈라이브에만 있으므로 이 어댑터로 채운다. 음원 발음(kana) 결측(W8)도 이때 보완한다. 공연: 각 프로젝트의 음반 백필이 끝난 뒤에 진행한다(세트리스트가 Work를 참조하므로). Fandom 세트리스트 어댑터를 추가하고 이관 때 넘긴 곡별 가창자(M6)를 채우며, 나무위키 비교 어댑터는 스파이크로 가능성을 확인한 뒤 추가한다(7.7절 ④) | 프로젝트별 최신 발매분·공연까지 반영 |
 | 4. 상시 운영   | 일일 sync, 주간 링크 검사, 월간 재검증, 이슈 템플릿                                                                                                                                                                                                                                            | 신규 발매 후 1일 안에 PR 생성        |
 | 5. 자동화 확대 | L0 자동 병합 → 조건 충족 시 L1                                                                                                                                                                                                                                                                 | 사람 개입이 L2에 집중됨              |
-| 6. API         | `infra/`의 인프라 위에 SQLite 기반 API(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개, 기존 API Gateway 엔드포인트 폐기(D17) |
+| 6. API         | `infra/`의 인프라 위에 SQLite 기반 API(10.6절). 정적 데이터는 S3에서 바로 서빙 | 새 API 공개 |
 | 7. 연결 맵     | `graph.json` 빌드, `web/` 정적 사이트(10.7절), API 부분 그래프 연동. Phase 3 백필과 부록 A-1 인명 정규화가 끝난 뒤 진행 | 연결 맵 공개 |
 
 ---
@@ -1652,6 +1672,13 @@ TakasakiInfo/
 | D65 | —         | 2026-11-27 | D64 (7)에 대한 사용자 결정. (1) 라인업 경계는 멤버로 처음 등장한 날: 니지가사키 三船栞子 2020-07-31(スクスタ 17장), ミア·嵐珠 2021-08-30(30장). (2) 라틴 원문 곡명의 기존 ko 번역(영원의 유포리아·밤하늘 모놀로그·메르헨 스타)은 유지(§5.4 (b)의 예외, 이관 전 레거시의 사용자 번역). (3) 라이벌 그룹도 캐릭터로 넣는다: Saint Snow(鹿角 聖良·鹿角 理亞, rom은 공식 영문 Sarah·Leah Kazuno), A-RISE(綺羅ツバサ·統堂 英玲奈·優木あんじゅ, rom 레이블 카탈로그), Sunny Passion(聖澤 悠奈·柊 摩央, rom Fandom D38)와 성우 7명(櫻川めぐ는 현재 표기, 공식 크레딧의 桜川めぐ는 former 별칭 D59). ko·kana는 나무위키(장음 유지 표기 유우키·유우나 포함). 라인업: Saint Snow·A-RISE·Sunny Passion(공식 크레딧), GKSS(Guilty Kiss 3 + Saint Snow 2), Saint Aqours Snow(11), A·L·A·N(天王寺璃奈, 가사 사이트 크레딧). (4) 남은 수동 발매물 2개도 공식 출처로: μ's Memorial BOX Ⅰ(선라이즈 공식 뉴스 2012-02-24), Aqours RADIO!!! vol.2(ブシロード EC SHOP 보관본, 품번 HBKM-0114 추가). (5) 「スクールアイドルミュージカル」은 그 공연에 나온 뮤지컬 출연진 묶음으로 아티스트 `school-idol-musical`(special)을 둔다: 異次元★♥BIGBANG 라이브 음원·세트리스트(레이블 크레딧 8개 그룹), 이차원 페스·15주년 페스의 뮤지컬 곡(PYLON PORT), 전야제 FILM LIVE(Fandom이 이 이름으로 적음, 대조기가 rom으로 찾음). (6) 단일 출처라도 신뢰: DAYDAY SUPER LIVE 2025의 Dazzling Game, ヴァイスシュヴァルツ 15주년의 常夏☆サンシャイン은 Liella! 전원. (7) 이차원 페스 2023·15주년 러브 라이브! 페스를 `settled`로 올린다(사용자 승인 2026-11-27): 손으로 고친 세트리스트를 Fandom 재읽기가 덮어쓰지 않고, 이차원 페스의 今しかない瞬間を(Fandom 대조기가 Aqours BGM으로 잘못 맞춤)는 차이로만 보고된다. 그 밖에 이키즈라이브 유닛송 Vol.1(2026-11-25) 발매 처리 | 4.1절, 5.4절, 7.7절 |
 | D66 | —         | 2026-11-27 | 데이터에 실리는 메모(`note`·`note_ko`) 작성 기준(사용자 요청: 메모가 LLM이 쓴 티가 나고 내부 규칙 코드가 섞여 있음). (1) 결정 번호·절 번호·검증 코드·함수 이름 같은 내부 기호와 `~ 규칙에 따름` 식의 말을 쓰지 않고, 이 저장소를 모르는 사람도 메모만 읽고 이유를 알 수 있게 풀어 쓴다. `공식 미게재`·`공식보다 최신`은 검증기가 찾는 문구라 그대로 둔다. (2) 어투는 개조식이고, 짧은 메모에 맞는 AI 글 패턴을 `note-style.md`로 정리했다. (3) 같은 날 기존 메모를 모두 고쳤다(사용자 요청). 어댑터 코드가 만드는 문구를 먼저 바꾸고, 그 템플릿에 해당하는 데이터 메모는 같은 표로 치환했다. 나머지 2,678종은 서브에이전트 8개가 고쳐 쓰고 검사(URL·숫자·일본어 원문·`공식 미게재` 보존, 내부 기호·쌍반점 잔존)를 거쳤다. 영어로 적었던 공연 일정 조사 메모도 한국어로 옮겼다. 데이터 3,514개 파일과 `manual/` 두 파일이 바뀌었고, 공식 사이트·수동 입력·Fandom 어댑터를 캐시로 다시 돌린 결과가 고치기 전과 같아 코드와 데이터의 메모가 맞는다. 레거시 Note 열과 트랙 주석은 대상이 아니라 그대로다 | 4.3절, 4.7절, 9절, note-style.md |
 | D67 | —         | 2026-11-27 | 어댑터를 다시 돌리면 손으로 넣은 값이 지워지던 두 가지를 고친다(사용자 요청). (1) 공식 어댑터는 이미 있는 발매물의 에디션을 공식 페이지 것으로 바꾸되, 페이지에 없는 에디션 중 따로 근거(`editions.<키>`)가 있는 것은 그 뒤에 그대로 남긴다. 레이블 카탈로그에만 있는 니지가사키 미니앨범 2장의 특장반 6종씩(D54)이 지워지던 문제다. 페이지 에디션의 id가 남길 에디션의 id와 겹치면 바꾸지 않고 보고한다. (2) Fandom 세트리스트의 곡 판정에서 매칭 키가 같은 곡이 여럿이면, 공연의 프로젝트로 좁힌 뒤에도 남을 때 Fandom이 적은 제목과 표기가 정확히 같은 곡을 고른다(일본어 제목, 그다음 로마자). `アイコトバ`(Aqours)·`アイコトバ！`(Liella!), `CHASE!`(니지가사키)·μ's 극반 `チェイス`(Chase, D53)가 같은 키라 6곳의 연결이 풀리던 문제다 | importer.py, concerts.py |
+| D68 | —         | 2026-11-27 | 데이터에 실린 메모에서 승인 전 상태를 가리키는 말을 뺀다(사용자 요청: 올라간 데이터는 모두 승인된 것이니 확정적으로 쓴다). (1) 4.7절 '쓰지 않는 것'에 `초안`·`번역안`·`승인하기 전`·`확인 필요`·`검토 권장`·`나중에 넣음`을 더한다. 확인이 필요하다고 적던 곳은 무엇이 엇갈리는지만 남긴다. (2) data의 메모 1,427개(파일 1,141개)와 수동 입력 파일 2개의 메모 197개를 고친다. Fandom 세트리스트 메모 366개는 `공식 미게재. Fandom 세트리스트를 옮김`, `번역안`은 `번역함`, 회장 등의 `rom·ko: 초안`은 `rom·ko: 직접 정함`으로 바꾸고, 문장마다 다른 60여 개는 하나씩 고친다(뮤지컬의 `공연별 캐스트표는 나중에 넣음` → `넣지 않음`, 이미 합친 2022년 추가 공연의 `합칠 수 있음` → `합침`, 106기 캐릭터 이름의 `승인 대기 중`은 삭제). (3) 같은 문구를 만드는 어댑터의 메모도 바꾼다(Fandom 세트리스트, 새 회장, 수동 입력·사운드트랙의 ko 번역, Fandom 표기 공연명). (4) `draft`로 남아 있던 Fandom 세트리스트 근거 366개도 승인된 것이라 `established`로 바꾼다. 어댑터가 새로 옮기는 세트리스트는 지금처럼 `draft`로 들어간다 | 4.7절, concerts.py, manual.py, soundtrack.py |
+| D69 | —         | 2026-11-27 | README 정리(사용자 요청). (1) 기존 API(API Gateway 엔드포인트, 2024-01-03 시점 데이터)는 새 API를 기다리지 않고 폐기하고 README에서 뺀다. D17·D20의 '새 API 공개 뒤 폐기'를 바꾼다. (2) 데이터 형식이 하나뿐이라 README는 `v1 schema` 대신 `DB schema`, `v1 files` 대신 엔티티 파일이라고 부른다. 경로 `/data/v1/`과 `schemaVersion`은 그대로이고, 깨지는 변경으로 v2가 생기면 그때 버전을 붙여 구별한다. (3) `README.md`는 영어로만 쓰고, 한국어·일본어는 `README.ko.md`·`README.ja.md`로 나눈다. 세 파일 맨 위의 언어 링크가 서로를 열고, 한국어·일본어 README는 DB 현황·스키마·예시를 영어 README로 링크한다 | 1.3절, 10.3절, 10.4절, 14절, readme.py, templates/ |
+| D70 | —         | 2026-11-28 | v1 조회 API를 연다(사용자 요청: 추천안 중 1단계 전부와 생일·랜덤). (1) 엔드포인트는 10.6절 표: 검색, 종류별 목록·단건, 곡의 버전·수록 트랙·공연 이력, 인물 크레딧, 세트리스트, 시점별 라인업, 생일, 랜덤 곡, `openapi.json`. (2) 단건·목록 응답이 엔티티 파일과 같은 형태가 되도록 SQLite에 `document` 테이블(엔티티·음원·트랙의 JSON, zlib 압축)을 더한다. DB는 약 36MB가 된다. (3) 질의는 표준 라이브러리만 쓰는 `infra/lambda/api/api.py`에 두고, `handler.py`는 S3에서 DB를 받고 버전을 확인하고 ETag·gzip을 붙인다. 검색의 매칭 키 함수는 `text.match_key`를 옮긴 것이고 테스트가 색인의 모든 글자열로 둘이 같은지 본다. (4) `openapi.json`은 `api.py`의 경로 목록과 모델에서 `takasaki build`가 만든다. (5) 미루는 것: 키·BPM·분위기 필터, 오늘의 발매·발매 예정, 부분 그래프, 협업 관계 | 10.5절, 10.6절, build_sqlite.py, openapi.py, infra/lambda/api/ |
+| D71 | —         | 2026-11-28 | 이키즈라이브 명칭 정리(사용자 결정). 프로젝트 `イキヅライブ！ LOVELIVE! BLUEBIRD`는 ko `이키즈라이브! LOVELIVE! BLUEBIRD`, rom `IKIZULIVE! LOVELIVE! BLUEBIRD`(공식 영문 권리 표기 `©PROJECT IKIZULIVE!`와 같은 대문자). D15의 `이키즈라이부! LOVELIVE! BLUEBIRD`를 바꾼다. 그룹 `いきづらい部！`는 ko `이키즈라이부!`(D14 그대로), rom `Ikizurai-Bu!`(Fandom 표기. D38의 예외였던 `Ikizuraibu!`를 바꿔 D38 원칙대로 Fandom을 따른다). 그룹명으로 시작하는 공연 5개와 발매물 1개의 rom 제목도 바꾼다. id는 바꾸지 않는다(프로젝트 `ikizulive`, 그룹 `ikizuraibu`, 발매물 `ikizulive/2026-ikizuraibu-…`. id는 한 번 정하면 그대로 둔다). 레거시 파일 이름과 `Category`의 `Ikizulive`(D3)도 그대로다 | 4.3절, 13.4절 |
+| D72 | —         | 2026-11-28 | 한국어·일본어 README도 영어 README의 내용을 모두 담는다(사용자 요청). D69의 'DB 현황·내려받기·스키마·예시는 영어 README에만 두고 링크한다'를 바꾼다. 절 제목과 본문, 조회 API 표, OST 목록, 예시를 옮기고, 생성되는 표의 머리·요약 줄·분위기 규칙·배지·현황 표의 프로젝트 이름은 언어별로 만든다. DB schema의 필드 설명(model.py docstring)은 영어로 둔다(사용자 결정). 템플릿을 세 개 고치게 되므로 테스트가 세 README에 같은 절과 표 행이 있는지 본다 | 10.3절, readme.py, templates/ |
+| D73 | —         | 2026-11-28 | 스플릿 싱글의 링크는 곡을 부른 그룹의 판 것으로 한다(사용자 지적: 「not ALONE not HITORI」의 세 곡이 모두 Liella!盤 영상에 붙어 있었음). (1) Aqours盤에 「not ALONE not HITORI」(`xAs6ONUhcgk`), 虹ヶ咲盤에 「ミラクル STAY TUNE！」(`-iw598h5NhQ`)의 자기 판 영상을 넣는다(사용자 제공, YouTube 공식 Topic 영상). (2) 대표 링크(D2)를 고를 때 발매일이 같으면 곡의 프로젝트가 든 발매물을 먼저 고른다. 이전에는 발매물 id 순서라 같은 날 나온 그룹별 판 중 알파벳이 앞선 판이 골라졌다. 바뀐 레거시 행은 스플릿 싱글 4행뿐이다. 두 판의 나머지 트랙은 세션을 새로 만든 뒤 어댑터로 맞췄다(D74) | 10.1절, build_legacy.py |
+| D74 | —         | 2026-11-28 | 프로젝트를 넘나드는 합동곡의 자리(사용자 결정). 조사(공식 CD 페이지, 2022년 이후 공식 음악 뉴스 513건, Fandom 교차 확인): 스튜디오 합동곡은 「LIVE with a smile!」(그룹 전체), 「異次元★♥BIGBANG」·「Bring the LOVE！」(작품마다 대표 멤버. BIGBANG은 아이마스 3명 포함), AiScReam의 「愛♡スクリ～ム！」·「ICE LIMIT」·「NEXT CARD」(크로스 유닛. NEXT CARD에는 Aqours가 없음) 6곡이다. (1) 시리즈 프로젝트 `lovelive`(ラブライブ！シリーズ / Love Live! Series / 러브 라이브! 시리즈)를 두고 6곡과 AiScReam 라디오 트랙, 그 발매물 5장, 이차원 페스 LIVE CD, 15주년 트리뷰트 앨범을 옮긴다. id도 `lovelive/…`로 바뀐다(id를 바꾸지 않는 원칙의 예외, 사용자 결정). 니지가사키 CD 페이지에 실렸다는 이유로 `nijigasaki`에 두던 것을 바꾼다. (2) 시리즈 곡은 SQLite `entity_project`와 API의 `project` 필터에서 그 곡이 실린 발매물의 모든 프로젝트에 속한다. AiScReam 아티스트의 프로젝트에는 예전 멤버의 Aqours가 남아 있어 가창자로 계산하지 않는다. 다른 작품 곡을 부른 커버는 원래 프로젝트에 둔다. (3) 레거시 category는 모두 `Others`(D6·D45). 「LIVE with a smile!」만 그룹 파일마다 그룹 category였던 것을 바꾼다. (4) 그룹별 판: 조사한 시리즈 발매 중 그룹마다 품번과 재킷이 다른 판은 스플릿 싱글 「not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!」뿐이다(Aqours盤 LACM-24200, 虹ヶ咲盤 LACM-24201, Liella!盤 LACM-24202. YouTube Music 앨범도 판마다 있음). 다른 합동곡 CD는 한 판이고, BIGBANG 이벤트 한정판은 그룹별 판이 아니다. 그룹별 발매물 3장을 `lovelive/2021-not-alone-not-hitori` 하나의 에디션 3개로 합치고, 세 그룹 어댑터는 이 페이지를 건너뛴다. YouTube Music 어댑터로 세 판의 앨범과 6트랙을 모두 맞췄다. 그룹·멤버별 판이 있는 다른 발매물(니지가사키 멤버별 판 싱글 4장, 하스노소라 「Holiday∞Holiday / Tragic Drops」)은 YouTube Music에 한 판의 앨범만 있고, 요하네 A/B盤 싱글 4장은 판에 맞는 앨범이 없다. (5) 공식 사이트 어댑터: 여러 프로젝트가 나오는 페이지(`Spec.cross`)의 새 곡과 새 발매물은 `lovelive/…`로 만들고, 곡을 찾을 때 시리즈 곡도 본다. 캐시로 모든 어댑터를 다시 돌려 확인 날짜 외에 차이가 없음을 확인했다 | 4.1절, 10.1절, importer.py, build_sqlite.py, api.py |
 
 ### 16.2 결정 필요 사항
 

@@ -255,7 +255,7 @@ def tab_key(t: fandom.Tab) -> str:
     return f"{t.section or ''}|{t.name}"
 
 
-SETLIST_NOTE = "공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전"
+SETLIST_NOTE = "공식 미게재. Fandom 세트리스트를 옮김"
 
 
 def import_setlists(ds: Dataset, pages: dict[str, str], review_dir: Path, today: dt.date) -> Report:
@@ -352,7 +352,7 @@ def title_drafts(ja: str, fandom_en: str | None) -> tuple[str | None, str | None
         tail = halfwidth(rest).replace("～", "~")
         return rom_p + tail, ko_p + tail, "rom·ko: 시리즈명은 정해진 표기, 나머지는 공식 라틴 표기"
     rom = halfwidth(fandom_en).replace("～", "~") if fandom_en else None
-    return rom, None, "rom: Fandom 표기라 확인 필요. ko: 일본어 부분은 번역이나 음역 필요"
+    return rom, None, "rom: Fandom 표기. ko: 일본어 부분을 번역하거나 음역함"
 
 
 def _official(url: str | None) -> bool:
@@ -513,7 +513,7 @@ def _venue(ds: Dataset, v: dict[str, Any] | None, city: str | None, reviews: Nam
                                                            note="승인 대기 중")})
     by_ja[match_key(v["ja"])] = vid
     it = reviews.item(file, "venue", v["ja"], {"names": names.model_dump(exclude_none=True), "source": source or ""}, cid)
-    it["note"] = it.get("note") or "ja: 공연 당시 공식 표기. rom·ko: 초안" + (f". {v['note']}" if v.get("note") else "")
+    it["note"] = it.get("note") or "ja: 공연 당시 공식 표기. rom·ko: 직접 정함" + (f". {v['note']}" if v.get("note") else "")
     it["ref"] = f"venue:{vid}"
     return vid
 

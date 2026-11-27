@@ -1,8 +1,8 @@
 id: ikizulive
 names:
   ja: イキヅライブ！ LOVELIVE! BLUEBIRD
-  rom: Ikizulive! LOVELIVE! BLUEBIRD
-  ko: 이키즈라이부! LOVELIVE! BLUEBIRD
+  rom: IKIZULIVE! LOVELIVE! BLUEBIRD
+  ko: 이키즈라이브! LOVELIVE! BLUEBIRD
 legacy:
   category: Ikizulive
   file: Ikizulive
@@ -18,6 +18,9 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/
     checked: 2026-10-15
+  names.rom:
+    status: derived
+    note: 공식 영문 권리 표기 ©PROJECT IKIZULIVE!와 공식 해외 스트리밍 안내의 IKIZULIVE!에 맞춰 대문자로 씀. 라틴 부분은 원문 그대로
   names.ko:
     status: derived
-    note: 공식 한국어 표기가 없어 우선 정한 표기. 공식 표기가 나오면 바꿈
+    note: 공식 한국어 표기가 없음. イキヅライブ는 ライブ(라이브)를 살려 이키즈라이브!로 음역함. 그룹명 いきづらい部(이키즈라이부!)와 다름. 라틴 부분은 원문 그대로

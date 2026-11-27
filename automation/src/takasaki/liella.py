@@ -23,7 +23,8 @@ LIST_PATH = "/yuigaoka/music/"
 MEMBER_PATH = "/yuigaoka/member/"
 
 SPEC = Spec(project="liella", group_name=GROUP, legacy_group="Liella", review_prefix="LLA",
-            skip={"cd13.php": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
+            skip={"cd14.php": "split single: one release, lovelive/2021-not-alone-not-hitori, holds the three groups' editions (D74)",
+                  "cd13.php": "LIVE with a smile!: stored with the Nijigasaki page, which lists the three groups",
                   "cd37.php": "「Bring the LOVE！」: cross-project, imported with the Nijigasaki page (D45)",
                   "cd47.php": "AiScReam「愛♡スクリ～ム！」: cross-project, imported with the Nijigasaki page (D45)"},
             cross={"01_5904": ["liella", "nijigasaki", "hasunosora", "ikizulive"]},  # AiScReam「NEXT CARD」 (D45)

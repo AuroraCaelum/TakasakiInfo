@@ -1,0 +1,5347 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "TakasakiInfo API",
+  "version": "1.0.0",
+  "description": "Read-only API of the TakasakiInfo database: Love Live! songs, releases, people, characters and concerts in Japanese, romaji and Korean. Every response is `{\"data\", \"meta\"}`; names and titles come in every language. `?include=evidence` adds the source and status of every value."
+ },
+ "servers": [
+  {
+   "url": "https://d1zzovwupaegwb.cloudfront.net"
+  }
+ ],
+ "paths": {
+  "/api/v1/health": {
+   "get": {
+    "summary": "Status and version of the live data",
+    "tags": [
+     "meta"
+    ],
+    "operationId": "health",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Health"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/openapi.json": {
+   "get": {
+    "summary": "This document",
+    "tags": [
+     "meta"
+    ],
+    "operationId": "openapi_json",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/search": {
+   "get": {
+    "summary": "Search names and titles in every language",
+    "tags": [
+     "data"
+    ],
+    "operationId": "search",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/SearchHit"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "q",
+      "in": "query",
+      "required": true,
+      "description": "Text to find: Japanese, romaji, Korean or a credited alias, in part or whole.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "type",
+      "in": "query",
+      "required": false,
+      "description": "Only this type.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "works",
+        "releases",
+        "persons",
+        "characters",
+        "artists",
+        "concerts",
+        "venues",
+        "recordings",
+        "cities",
+        "projects"
+       ]
+      }
+     },
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/birthdays": {
+   "get": {
+    "summary": "Characters and people born on a day or in a month",
+    "tags": [
+     "data"
+    ],
+    "operationId": "birthdays",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Birthday"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "date",
+      "in": "query",
+      "required": false,
+      "description": "Day as MM-DD; default today in Japan.",
+      "schema": {
+       "type": "string",
+       "pattern": "^\\d{2}-\\d{2}$"
+      }
+     },
+     {
+      "name": "month",
+      "in": "query",
+      "required": false,
+      "description": "Month, 1-12, instead of a day.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 12
+      }
+     },
+     {
+      "name": "type",
+      "in": "query",
+      "required": false,
+      "description": "Only characters or only people.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "characters",
+        "persons"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/random": {
+   "get": {
+    "summary": "Random works",
+    "tags": [
+     "data"
+    ],
+    "operationId": "random",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Work"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "kind",
+      "in": "query",
+      "required": false,
+      "description": "Kind of work.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "song",
+        "bgm",
+        "drama",
+        "other"
+       ],
+       "default": "song"
+      }
+     },
+     {
+      "name": "mood",
+      "in": "query",
+      "required": false,
+      "description": "Mood label of the work's representative recording.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "upbeat",
+        "slow",
+        "bright",
+        "wistful"
+       ]
+      }
+     },
+     {
+      "name": "count",
+      "in": "query",
+      "required": false,
+      "description": "How many, 1-10.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 10,
+       "default": 1
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/works": {
+   "get": {
+    "summary": "List works",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_works",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Work"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "kind",
+      "in": "query",
+      "required": false,
+      "description": "Kind of work.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "song",
+        "bgm",
+        "drama",
+        "other"
+       ]
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/works/{id}": {
+   "get": {
+    "summary": "One work",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_works",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Work"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/releases": {
+   "get": {
+    "summary": "List releases",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_releases",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Release"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "type",
+      "in": "query",
+      "required": false,
+      "description": "Type of release.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "single",
+        "album",
+        "mini_album",
+        "digital_single",
+        "bd_bonus",
+        "compilation",
+        "soundtrack",
+        "drama_cd",
+        "radio_cd",
+        "live_album",
+        "box_set",
+        "live_video",
+        "unclassified"
+       ]
+      }
+     },
+     {
+      "name": "status",
+      "in": "query",
+      "required": false,
+      "description": "Status of the release.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "announced",
+        "released",
+        "verified"
+       ]
+      }
+     },
+     {
+      "name": "from",
+      "in": "query",
+      "required": false,
+      "description": "Released on or after this day (YYYY-MM-DD).",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     },
+     {
+      "name": "to",
+      "in": "query",
+      "required": false,
+      "description": "Released on or before this day (YYYY-MM-DD).",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/releases/{id}": {
+   "get": {
+    "summary": "One release",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_releases",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Release"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/persons": {
+   "get": {
+    "summary": "List persons",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_persons",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Person"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/persons/{id}": {
+   "get": {
+    "summary": "One person",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_persons",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Person"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/characters": {
+   "get": {
+    "summary": "List characters",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_characters",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Character"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/characters/{id}": {
+   "get": {
+    "summary": "One character",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_characters",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Character"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/artists": {
+   "get": {
+    "summary": "List artists",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_artists",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Artist"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "kind",
+      "in": "query",
+      "required": false,
+      "description": "Kind of artist.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "group",
+        "unit",
+        "solo",
+        "cross_unit",
+        "collab",
+        "special",
+        "unclassified"
+       ]
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/artists/{id}": {
+   "get": {
+    "summary": "One artist",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_artists",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Artist"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/concerts": {
+   "get": {
+    "summary": "List concerts",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_concerts",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Concert"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "status",
+      "in": "query",
+      "required": false,
+      "description": "Status of the concert.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "announced",
+        "performed",
+        "settled",
+        "confirmed"
+       ]
+      }
+     },
+     {
+      "name": "year",
+      "in": "query",
+      "required": false,
+      "description": "A show was held in this year.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1000,
+       "maximum": 9999
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/concerts/{id}": {
+   "get": {
+    "summary": "One concert",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_concerts",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Concert"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/venues": {
+   "get": {
+    "summary": "List venues",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_venues",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Venue"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "city",
+      "in": "query",
+      "required": false,
+      "description": "City id (`tokyo`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/venues/{id}": {
+   "get": {
+    "summary": "One venue",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_venues",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Venue"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/recordings": {
+   "get": {
+    "summary": "List recordings",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_recordings",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/RecordingView"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "project",
+      "in": "query",
+      "required": false,
+      "description": "Project id (`liella`).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "kind",
+      "in": "query",
+      "required": false,
+      "description": "Kind of recording.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "vocal",
+        "off_vocal",
+        "instrumental",
+        "drama",
+        "other"
+       ]
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/recordings/{id}": {
+   "get": {
+    "summary": "One recording",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_recordings",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/RecordingView"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/cities": {
+   "get": {
+    "summary": "List cities",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_cities",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/City"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/cities/{id}": {
+   "get": {
+    "summary": "One city",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_cities",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/City"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/projects": {
+   "get": {
+    "summary": "List projects",
+    "tags": [
+     "data"
+    ],
+    "operationId": "list_projects",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Project"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/projects/{id}": {
+   "get": {
+    "summary": "One project",
+    "tags": [
+     "data"
+    ],
+    "operationId": "detail_projects",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "$ref": "#/components/schemas/Project"
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/works/{id}/recordings": {
+   "get": {
+    "summary": "Recordings of a work",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_works_recordings",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/RecordingView"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "include",
+      "in": "query",
+      "required": false,
+      "description": "`evidence`: keep the source and status of every value.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "evidence"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/works/{id}/performances": {
+   "get": {
+    "summary": "Shows a work was performed at, oldest first",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_works_performances",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Performance"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/recordings/{id}/tracks": {
+   "get": {
+    "summary": "Tracks a recording is on, oldest release first",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_recordings_tracks",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/TrackView"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     }
+    ]
+   }
+  },
+  "/api/v1/persons/{id}/credits": {
+   "get": {
+    "summary": "Works a person wrote or arranged, oldest first",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_persons_credits",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/PersonCredit"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "role",
+      "in": "query",
+      "required": false,
+      "description": "Only this role.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "lyricist",
+        "composer",
+        "arranger",
+        "strings_arranger",
+        "brass_arranger"
+       ]
+      }
+     },
+     {
+      "name": "limit",
+      "in": "query",
+      "required": false,
+      "description": "Items per page, 1-100.",
+      "schema": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 20
+      }
+     },
+     {
+      "name": "cursor",
+      "in": "query",
+      "required": false,
+      "description": "`meta.next` of the previous page.",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/concerts/{id}/setlist": {
+   "get": {
+    "summary": "Set list of every show",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_concerts_setlist",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Show"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "date",
+      "in": "query",
+      "required": false,
+      "description": "Only the shows of this day (YYYY-MM-DD).",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     }
+    ]
+   }
+  },
+  "/api/v1/artists/{id}/lineup": {
+   "get": {
+    "summary": "Members on a day, with their cast",
+    "tags": [
+     "data"
+    ],
+    "operationId": "sub_artists_lineup",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/LineupMember"
+           }
+          },
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          }
+         },
+         "required": [
+          "data",
+          "meta"
+         ]
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    },
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "Id as in the data (`muse/snow-halation`); send a recording id's `#` as `%23`."
+     },
+     {
+      "name": "at",
+      "in": "query",
+      "required": false,
+      "description": "Day (YYYY-MM-DD); default today in Japan.",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     }
+    ]
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Alias": {
+    "additionalProperties": false,
+    "properties": {
+     "text": {
+      "description": "The spelling as seen in a credit.",
+      "title": "Text",
+      "type": "string"
+     },
+     "kind": {
+      "default": "variant",
+      "description": "`variant`: another spelling in use; `misprint`: a printing error; `former`: a former name;\n`pen_name`: another name the person works under.",
+      "enum": [
+       "variant",
+       "misprint",
+       "former",
+       "pen_name"
+      ],
+      "title": "Kind",
+      "type": "string"
+     },
+     "names": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "The name in each language, for a pen name or former name that a credit prints (`credited_name`, D58)."
+     },
+     "note": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Where the spelling was seen.",
+      "title": "Note"
+     }
+    },
+    "required": [
+     "text"
+    ],
+    "title": "Alias",
+    "type": "object"
+   },
+   "Artist": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Slug of the romanized name (`ikizuraibu`, `cerise-bouquet`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "kind": {
+      "description": "What the artist is. `cross_unit`: a unit of members from several projects (AiScReam); `collab`: two artists\nsinging as one (Saint Aqours Snow); `special`: a one-off ensemble (浦の星交響楽団).",
+      "enum": [
+       "group",
+       "unit",
+       "solo",
+       "cross_unit",
+       "collab",
+       "special",
+       "unclassified"
+      ],
+      "title": "Kind",
+      "type": "string"
+     },
+     "projects": {
+      "default": [],
+      "description": "Project ids the artist belongs to.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Projects",
+      "type": "array"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Name."
+     },
+     "lineups": {
+      "default": [],
+      "description": "Members over time.",
+      "items": {
+       "$ref": "#/components/schemas/Lineup"
+      },
+      "title": "Lineups",
+      "type": "array"
+     },
+     "distinct_from": {
+      "default": [],
+      "description": "Ids of artists with a similar name that are known to be another.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Distinct From",
+      "type": "array"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "kind",
+     "names"
+    ],
+    "title": "Artist",
+    "type": "object"
+   },
+   "Audio": {
+    "additionalProperties": false,
+    "description": "Musical attributes of a recording from an outside analysis, with its source in `evidence.audio` (D61).\nThere is no official value: the label publishes none.",
+    "properties": {
+     "key": {
+      "anyOf": [
+       {
+        "pattern": "^[A-G](#|b)?m?$",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Key: the tonic, with `m` for a minor key (`F`, `F#m`, `Bb`).",
+      "title": "Key"
+     },
+     "bpm": {
+      "anyOf": [
+       {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Tempo in beats per minute, as the source counts it (a half- or double-time reading is possible).",
+      "title": "Bpm"
+     },
+     "time_signature": {
+      "anyOf": [
+       {
+        "pattern": "^\\d+/\\d+$",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Time signature (`4/4`), only where a source states it (the analysis gives none).",
+      "title": "Time Signature"
+     }
+    },
+    "title": "Audio",
+    "type": "object"
+   },
+   "Birthday": {
+    "type": "object",
+    "properties": {
+     "ref": {
+      "type": "string",
+      "description": "`<type>:<id>` (`person:aki-hata`)."
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names"
+     },
+     "type": {
+      "type": "string",
+      "description": "`character` or `person`."
+     },
+     "id": {
+      "type": "string",
+      "description": "Entity id."
+     },
+     "birthday": {
+      "type": "string",
+      "description": "`MM-DD`, or `YYYY-MM-DD` for a person whose year is public."
+     },
+     "project": {
+      "type": "string",
+      "description": "Project of a character."
+     }
+    },
+    "required": [
+     "ref",
+     "names",
+     "type",
+     "id",
+     "birthday"
+    ]
+   },
+   "Casting": {
+    "additionalProperties": false,
+    "properties": {
+     "person": {
+      "description": "Person id of the voice actor.",
+      "title": "Person",
+      "type": "string"
+     },
+     "from": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "First day of the casting; absent: from the start.",
+      "title": "From"
+     },
+     "until": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Last day of the casting; absent: to date.",
+      "title": "Until"
+     }
+    },
+    "required": [
+     "person"
+    ],
+    "title": "Casting",
+    "type": "object"
+   },
+   "Character": {
+    "additionalProperties": false,
+    "description": "The family/given split lives in ``family_name`` / ``given_name`` (D26); ``names.ja`` is\nwritten from it by the spacing rule (D28).",
+    "properties": {
+     "id": {
+      "description": "`<project>/<slug>` (`nijigasaki/setsuna-yuki`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "project": {
+      "description": "Project id; `external` for a character from outside the series.",
+      "title": "Project",
+      "type": "string"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Name. `ja` is spaced from `family_name` and `given_name`."
+     },
+     "family_name": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Family name in each language."
+     },
+     "given_name": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Given name in each language."
+     },
+     "birthday": {
+      "anyOf": [
+       {
+        "pattern": "^\\d{2}-\\d{2}$",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Birthday as the work gives it, `MM-DD` (no in-story year). Its source is `evidence.birthday` (D60).",
+      "title": "Birthday"
+     },
+     "casting": {
+      "default": [],
+      "description": "Voice actors over time.",
+      "items": {
+       "$ref": "#/components/schemas/Casting"
+      },
+      "title": "Casting",
+      "type": "array"
+     },
+     "distinct_from": {
+      "default": [],
+      "description": "Ids of characters with a similar name who are known to be someone else.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Distinct From",
+      "type": "array"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "project",
+     "names"
+    ],
+    "title": "Character",
+    "type": "object"
+   },
+   "City": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Slug of the romanized name (`tokyo`, `seoul`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Name."
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "names"
+    ],
+    "title": "City",
+    "type": "object"
+   },
+   "Concert": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "`<project>/<slug>`.",
+      "title": "Id",
+      "type": "string"
+     },
+     "projects": {
+      "description": "Project ids.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Projects",
+      "type": "array"
+     },
+     "status": {
+      "default": "settled",
+      "description": "`announced`: schedule only; `performed`: set lists drafted from Fandom; `settled`: set lists cross-checked\nand approved; `confirmed`: set lists as on the official Blu-ray or stream. The legacy files list `settled` and\n`confirmed` concerts only.",
+      "enum": [
+       "announced",
+       "performed",
+       "settled",
+       "confirmed"
+      ],
+      "title": "Status",
+      "type": "string"
+     },
+     "title": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Concert title."
+     },
+     "cast": {
+      "default": [],
+      "description": "Cast of every show as the official live page announces it: a voice actor as the character they play, a\nstage actor as a person in a role. `featured`: a guest or support appearance (ゲスト出演, 応援出演). A show\nwith another cast lists its own.",
+      "items": {
+       "$ref": "#/components/schemas/Performer"
+      },
+      "title": "Cast",
+      "type": "array"
+     },
+     "stops": {
+      "description": "Stops of the tour (city, venue, shows).",
+      "items": {
+       "$ref": "#/components/schemas/Stop"
+      },
+      "title": "Stops",
+      "type": "array"
+     },
+     "legacy": {
+      "$ref": "#/components/schemas/ConcertLegacy",
+      "default": {
+       "event_code": null
+      },
+      "description": "How the concert appears in the legacy files."
+     },
+     "external_ids": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Ids elsewhere: `fandom` (title of the concert's Love Live! Fandom article).",
+      "title": "External Ids",
+      "type": "object"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover (`title`, `schedule`, `cast`, `setlist.<date>`, …).",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "projects",
+     "title",
+     "stops"
+    ],
+    "title": "Concert",
+    "type": "object"
+   },
+   "ConcertLegacy": {
+    "additionalProperties": false,
+    "properties": {
+     "event_code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "`eventCode` in the legacy concert files (`Liella_1st`).",
+      "title": "Event Code"
+     }
+    },
+    "title": "ConcertLegacy",
+    "type": "object"
+   },
+   "Copyright": {
+    "additionalProperties": false,
+    "properties": {
+     "text": {
+      "description": "Copyright notice as printed.",
+      "title": "Text",
+      "type": "string"
+     },
+     "lang": {
+      "description": "Language of the notice (`ja`, `en`).",
+      "title": "Lang",
+      "type": "string"
+     },
+     "source": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Page the notice is printed on.",
+      "title": "Source"
+     },
+     "checked": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "When the page was last checked.",
+      "title": "Checked"
+     }
+    },
+    "required": [
+     "text",
+     "lang"
+    ],
+    "title": "Copyright",
+    "type": "object"
+   },
+   "Credit": {
+    "additionalProperties": false,
+    "description": "One credited person, or a character credited in-story (高咲侑 on Hurray Hurray, D27).\n``role`` holds the character a cast member is credited as (e.g. musical cast credited as\nlyricists: ``堀内まり菜（椿 ルリカ役）``).",
+    "properties": {
+     "person": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Person id. Exactly one of `person` and `character` is set.",
+      "title": "Person"
+     },
+     "character": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Character id, for a character credited in-story (高咲 侑 on Hurray Hurray).",
+      "title": "Character"
+     },
+     "affiliation": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Affiliation printed after the name, `名前(所属)`; a names object when the spelling differs by language.",
+      "title": "Affiliation"
+     },
+     "fullwidth": {
+      "default": false,
+      "description": "The cited official page prints the affiliation in full-width brackets, `名前（所属）`; `ja` keeps them,\n`rom` and `ko` are half-width.",
+      "title": "Fullwidth",
+      "type": "boolean"
+     },
+     "role": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "The role a cast member is credited as (`椿 ルリカ役`)."
+     },
+     "credited_name": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "The pen name or former name the credit prints, by its alias `text` (`木村 有希` for 園田 健太郎); outputs\nshow that alias's names instead of the person's current name (D58).",
+      "title": "Credited Name"
+     }
+    },
+    "title": "Credit",
+    "type": "object"
+   },
+   "Disc": {
+    "additionalProperties": false,
+    "properties": {
+     "disc": {
+      "default": 1,
+      "description": "Disc number.",
+      "title": "Disc",
+      "type": "integer"
+     },
+     "editions": {
+      "anyOf": [
+       {
+        "const": "all",
+        "type": "string"
+       },
+       {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       }
+      ],
+      "default": "all",
+      "description": "`all`, or the ids of the editions with this disc, when the editions' track lists differ.",
+      "title": "Editions"
+     },
+     "tracks": {
+      "description": "Tracks in order. A track's streaming key is `<disc>-<position in this list>`.",
+      "items": {
+       "$ref": "#/components/schemas/Track"
+      },
+      "title": "Tracks",
+      "type": "array"
+     }
+    },
+    "required": [
+     "tracks"
+    ],
+    "title": "Disc",
+    "type": "object"
+   },
+   "Edition": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Id within the release (`e1`, `e2`, …).",
+      "title": "Id",
+      "type": "string"
+     },
+     "label": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Edition name as printed (`初回生産限定盤`, `通常盤`, `【上原歩夢盤】`)."
+     },
+     "catalog": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Catalog number (品番), as printed (`LACM-24755`).",
+      "title": "Catalog"
+     },
+     "media": {
+      "default": [],
+      "description": "Discs in the package in order, one entry per disc: `CD`, `BD`, `DVD`; `digital` for a digital-only edition\n(`[CD, BD, BD]`).",
+      "items": {
+       "type": "string"
+      },
+      "title": "Media",
+      "type": "array"
+     },
+     "release_date": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Release date of this edition, when it differs from the release's.",
+      "title": "Release Date"
+     }
+    },
+    "required": [
+     "id"
+    ],
+    "title": "Edition",
+    "type": "object"
+   },
+   "Error": {
+    "type": "object",
+    "properties": {
+     "error": {
+      "type": "string",
+      "description": "`bad_parameter`, `unknown_parameter`, `missing_parameter`, `not_found`, `method_not_allowed`, `no_data`."
+     },
+     "message": {
+      "type": "string",
+      "description": "What went wrong."
+     }
+    },
+    "required": [
+     "error",
+     "message"
+    ]
+   },
+   "Evidence": {
+    "additionalProperties": false,
+    "description": "Where a value comes from.",
+    "properties": {
+     "status": {
+      "$ref": "#/components/schemas/Status",
+      "description": "How far the value can be trusted. `official`: the rights holder's own; `established`: no official value,\na widely used one whose source a person checked; `derived`: made by a rule and approved; `legacy`: from the\nhand-made lists, source not found yet; `draft`: not approved yet (kept out of the legacy files)."
+     },
+     "source": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "URL the value was checked against.",
+      "title": "Source"
+     },
+     "checked": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "When the source was last checked.",
+      "title": "Checked"
+     },
+     "note": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Why this source, or what differs from other sources (often in Korean).",
+      "title": "Note"
+     }
+    },
+    "required": [
+     "status"
+    ],
+    "title": "Evidence",
+    "type": "object"
+   },
+   "Health": {
+    "type": "object",
+    "properties": {
+     "status": {
+      "type": "string",
+      "description": "`ok`."
+     },
+     "dbLastUpdate": {
+      "type": "string",
+      "description": "Time of the live data."
+     },
+     "schemaVersion": {
+      "type": "string",
+      "description": "Schema version of the data."
+     },
+     "sha": {
+      "type": "string",
+      "description": "Commit the data was built from."
+     }
+    }
+   },
+   "LegacyAlbum": {
+    "additionalProperties": false,
+    "description": "One album in the legacy files. Its Note column is built from parts (M3): ``Disc.N`` when\n``flatten_discs``, ``Drama Part`` from the recording kind, ``BGM`` for a soundtrack cue (D53),\n``note`` (the whole album), the track's own note, then ``Link is from the [...]`` when the URL is a\nmain-URL fallback.",
+    "properties": {
+     "title": {
+      "description": "Album name in the legacy files.",
+      "title": "Title",
+      "type": "string"
+     },
+     "edition": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Edition id whose tracks the album lists; absent: the discs every edition shares.",
+      "title": "Edition"
+     },
+     "disc": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Only this disc.",
+      "title": "Disc"
+     },
+     "note": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Legacy `Note` for every track of the album.",
+      "title": "Note"
+     },
+     "flatten_discs": {
+      "default": false,
+      "description": "Several discs listed as one album, with running track numbers and `Disc.N` in the Note.",
+      "title": "Flatten Discs",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "title"
+    ],
+    "title": "LegacyAlbum",
+    "type": "object"
+   },
+   "Lineup": {
+    "additionalProperties": false,
+    "properties": {
+     "from": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "First day of this lineup; absent: from the start.",
+      "title": "From"
+     },
+     "until": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Last day of this lineup; absent: to date.",
+      "title": "Until"
+     },
+     "members": {
+      "description": "Character ids of the members.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Members",
+      "type": "array"
+     }
+    },
+    "required": [
+     "members"
+    ],
+    "title": "Lineup",
+    "type": "object"
+   },
+   "LineupMember": {
+    "type": "object",
+    "properties": {
+     "character": {
+      "$ref": "#/components/schemas/Ref"
+     },
+     "from": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "First day as a member; null: from the start."
+     },
+     "until": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Last day as a member; null: still a member."
+     },
+     "cast": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "person": {
+         "$ref": "#/components/schemas/Ref"
+        },
+        "from": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "First day in the role."
+        },
+        "until": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "Last day in the role."
+        }
+       }
+      }
+     }
+    }
+   },
+   "LiveOf": {
+    "additionalProperties": false,
+    "properties": {
+     "concert": {
+      "description": "Concert id.",
+      "title": "Concert",
+      "type": "string"
+     },
+     "date": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Day of the show; null when the release does not say which of the concert's shows.",
+      "title": "Date"
+     },
+     "label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "The show's label, when the day had more than one (`Day.2 Evening`).",
+      "title": "Label"
+     }
+    },
+    "required": [
+     "concert"
+    ],
+    "title": "LiveOf",
+    "type": "object"
+   },
+   "Meta": {
+    "type": "object",
+    "properties": {
+     "dbLastUpdate": {
+      "type": "string",
+      "description": "Time of the data that answered."
+     },
+     "count": {
+      "type": "integer",
+      "description": "Number of items; for a page, of all pages."
+     },
+     "limit": {
+      "type": "integer"
+     },
+     "next": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "`cursor` of the next page; null on the last."
+     }
+    }
+   },
+   "Names": {
+    "additionalProperties": false,
+    "description": "A name or title in each language.",
+    "properties": {
+     "ja": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Japanese, as officially printed.",
+      "title": "Ja"
+     },
+     "kana": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Reading in kana: song titles (the legacy `pronunciation`) and Japanese names, spaced between family and\ngiven name.",
+      "title": "Kana"
+     },
+     "rom": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Romanization, or the official Latin-script form. People's names are given name first (`Aki Hata`).",
+      "title": "Rom"
+     },
+     "ko": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Korean. A name whose official form is in Latin script keeps that form.",
+      "title": "Ko"
+     }
+    },
+    "title": "Names",
+    "type": "object"
+   },
+   "Performance": {
+    "type": "object",
+    "properties": {
+     "date": {
+      "type": "string",
+      "description": "Day of the show."
+     },
+     "label": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Show label (`Day.1`)."
+     },
+     "concert": {
+      "$ref": "#/components/schemas/Ref"
+     },
+     "stop": {
+      "type": "string",
+      "description": "Stop id within the concert."
+     },
+     "venue": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Ref"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "position": {
+      "type": "integer",
+      "description": "Place in the set list."
+     },
+     "recording": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Recording sung, when the set list links one."
+     }
+    }
+   },
+   "Performer": {
+    "additionalProperties": false,
+    "description": "An artist, a character, or a person. A person singing in a role (musical cast,\n``堀内まり菜（椿ルリカ役）``) names the character in ``role`` (D29). A credit that names several\nperformers as one is not an artist of its own (D48): a guest after ``feat.`` is ``featured``\n(``Aqours feat. 初音ミク``), and the performers of a joint name are each ``joint``\n(``Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!``). The builders print the credit from them.",
+    "properties": {
+     "artist": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Artist id. Exactly one of `artist`, `character` and `person` is set.",
+      "title": "Artist"
+     },
+     "character": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Character id, for a credit that lists characters rather than a group name.",
+      "title": "Character"
+     },
+     "person": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Person id: a cast member singing in a role (see `role`) or as themselves.",
+      "title": "Person"
+     },
+     "role": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Character id of the role sung; only with `person`.",
+      "title": "Role"
+     },
+     "featured": {
+      "default": false,
+      "description": "A guest, printed after `feat.` (`Aqours feat. 初音ミク`).",
+      "title": "Featured",
+      "type": "boolean"
+     },
+     "joint": {
+      "default": false,
+      "description": "One of the performers of a joint name, printed joined with `・`\n(`Aqours・虹ヶ咲学園スクールアイドル同好会・Liella!`).",
+      "title": "Joint",
+      "type": "boolean"
+     }
+    },
+    "title": "Performer",
+    "type": "object"
+   },
+   "Person": {
+    "additionalProperties": false,
+    "description": "Japanese names keep the family/given split; ``names.ja`` and ``names.kana`` are written\nfrom it by the spacing rule (D28).",
+    "properties": {
+     "id": {
+      "description": "Slug of the romanized name (`aki-hata`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Name. `ja` and `kana` are spaced from `family_name` and `given_name`."
+     },
+     "family_name": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Family name in each language."
+     },
+     "given_name": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Given name in each language."
+     },
+     "native_script": {
+      "default": "ja",
+      "description": "`latin` for a name whose original form is in Latin script; its `ko` is then the original.",
+      "enum": [
+       "ja",
+       "latin"
+      ],
+      "title": "Native Script",
+      "type": "string"
+     },
+     "birthday": {
+      "anyOf": [
+       {
+        "pattern": "^(\\d{4}-)?\\d{2}-\\d{2}$",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Date of birth, `YYYY-MM-DD`; `MM-DD` when the person has not made the year public. Its source is\n`evidence.birthday` (D60).",
+      "title": "Birthday"
+     },
+     "aliases": {
+      "default": [],
+      "description": "Other spellings seen in credits. Used to match credits; printed only where a credit names one\n(`credited_name`: a pen name or former name with its own `names`).",
+      "items": {
+       "$ref": "#/components/schemas/Alias"
+      },
+      "title": "Aliases",
+      "type": "array"
+     },
+     "distinct_from": {
+      "default": [],
+      "description": "Ids of people with a similar name who are known to be someone else.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Distinct From",
+      "type": "array"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover (`names.ja`, `names.ko`, `name_parts`, …).",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "names"
+    ],
+    "title": "Person",
+    "type": "object"
+   },
+   "PersonCredit": {
+    "type": "object",
+    "properties": {
+     "role": {
+      "type": "string",
+      "description": "`lyricist`, `composer`, `arranger`, `strings_arranger`, `brass_arranger`."
+     },
+     "work": {
+      "$ref": "#/components/schemas/Ref"
+     },
+     "recording": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Ref"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The recording the credit is on; null for a work-level credit (lyricist, composer)."
+     },
+     "first_release": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Earliest release date of the work."
+     }
+    }
+   },
+   "Project": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Project id (`aqours`, `ikizulive`); `external` holds songs and characters from outside the series.",
+      "title": "Id",
+      "type": "string"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Project name."
+     },
+     "legacy": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/ProjectLegacy"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "How the project appears in the legacy files; absent for a project without files of its own."
+     },
+     "copyright": {
+      "default": [],
+      "description": "Copyright notices of the project, as in the README's Disclaimer.",
+      "items": {
+       "$ref": "#/components/schemas/Copyright"
+      },
+      "title": "Copyright",
+      "type": "array"
+     },
+     "official": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Official accounts by kind: `site`, `youtube`, `x`.",
+      "title": "Official",
+      "type": "object"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "names"
+    ],
+    "title": "Project",
+    "type": "object"
+   },
+   "ProjectLegacy": {
+    "additionalProperties": false,
+    "properties": {
+     "category": {
+      "description": "`Category` value of the project in the legacy files.",
+      "title": "Category",
+      "type": "string"
+     },
+     "file": {
+      "description": "Name of the project's legacy files (`albums/<file>/<file>.csv`, `members/<file>.csv`, …).",
+      "title": "File",
+      "type": "string"
+     }
+    },
+    "required": [
+     "category",
+     "file"
+    ],
+    "title": "ProjectLegacy",
+    "type": "object"
+   },
+   "Recording": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Id within the work (`original`, `off-vocal`, `kanon-ver`). The full recording id is `<work id>#<id>`.",
+      "title": "Id",
+      "type": "string"
+     },
+     "kind": {
+      "default": "vocal",
+      "description": "What the recording is. Credits that do not apply (no singer on an off vocal) are empty lists.",
+      "enum": [
+       "vocal",
+       "off_vocal",
+       "instrumental",
+       "drama",
+       "other"
+      ],
+      "title": "Kind",
+      "type": "string"
+     },
+     "title": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Title as printed, when it differs from the work title."
+     },
+     "version": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Version label as printed (`Off Vocal`, `104期 Ver.`, `高海千歌 Solo Ver.`).",
+      "title": "Version"
+     },
+     "performers": {
+      "default": [],
+      "description": "Singers.",
+      "items": {
+       "$ref": "#/components/schemas/Performer"
+      },
+      "title": "Performers",
+      "type": "array"
+     },
+     "arranger": {
+      "default": [],
+      "description": "編曲.",
+      "items": {
+       "$ref": "#/components/schemas/Credit"
+      },
+      "title": "Arranger",
+      "type": "array"
+     },
+     "strings_arranger": {
+      "default": [],
+      "description": "弦編曲 (strings arrangement).",
+      "items": {
+       "$ref": "#/components/schemas/Credit"
+      },
+      "title": "Strings Arranger",
+      "type": "array"
+     },
+     "brass_arranger": {
+      "default": [],
+      "description": "管編曲 (brass arrangement).",
+      "items": {
+       "$ref": "#/components/schemas/Credit"
+      },
+      "title": "Brass Arranger",
+      "type": "array"
+     },
+     "credits_override": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/WorkCredits"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Lyricist and composer of this recording when they differ from the work's (rare; the evidence says why)."
+     },
+     "instrumental_of": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "For an off vocal or instrumental: id of the vocal recording in the same work.",
+      "title": "Instrumental Of"
+     },
+     "live": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/LiveOf"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "For a live recording (a live CD's track): the show it was recorded at, when the release says which (D54)."
+     },
+     "duration": {
+      "anyOf": [
+       {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Length in seconds, as the label distributes the recording to streaming services; its source is\n`evidence.duration` (D61).",
+      "title": "Duration"
+     },
+     "audio": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Audio"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Key, tempo and time signature, which the mood labels are made from (D61). An off vocal or instrumental without its\nown takes the values of `instrumental_of` in the outputs."
+     },
+     "external_ids": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Ids elsewhere: `isrc`.",
+      "title": "External Ids",
+      "type": "object"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id"
+    ],
+    "title": "Recording",
+    "type": "object"
+   },
+   "RecordingView": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Recording id, `<work id>#<recording id>`."
+     },
+     "work": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Work id."
+     },
+     "project": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Project id of the work."
+     },
+     "kind": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`."
+     },
+     "version": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Version label (`Off Vocal`); null for the original."
+     },
+     "title": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Title."
+     },
+     "performers": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "Singers."
+     },
+     "lyricist": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "作詞."
+     },
+     "composer": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "作曲."
+     },
+     "arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "編曲."
+     },
+     "strings_arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "弦編曲."
+     },
+     "brass_arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "管編曲."
+     },
+     "instrumental_of": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "For an off vocal or instrumental: id of the vocal recording; else null."
+     },
+     "live": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "For a live recording: the show it was recorded at (`concert`, `date`, `label`); else null."
+     },
+     "external_ids": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "additionalProperties": {
+       "type": "string"
+      },
+      "description": "Ids elsewhere (`isrc`); null when none."
+     },
+     "main_link": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Main YouTube Music URL: the earliest released track of the recording that has a video of its own; null when none has."
+     },
+     "duration": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Length in seconds; null when not known (D61)."
+     },
+     "audio": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "Key and tempo: `key`, `bpm`, `time_signature` as the source gives them, `mood` (labels made from them by rule: `upbeat`, `slow`, `bright`, `wistful`), `from` (the recording they belong to, when an off vocal takes its vocal recording's); null when not known (D61)."
+     },
+     "representative": {
+      "type": "boolean",
+      "description": "The recording its work is shown with: the first studio vocal recording, for a soundtrack cue the first instrumental (D61)."
+     }
+    },
+    "description": "A recording as a row of `recordings.json`."
+   },
+   "Ref": {
+    "type": "object",
+    "properties": {
+     "ref": {
+      "type": "string",
+      "description": "`<type>:<id>` (`person:aki-hata`)."
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names"
+     }
+    },
+    "required": [
+     "ref",
+     "names"
+    ],
+    "description": "A reference with its names in every language."
+   },
+   "Release": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "`<project>/<year>-<slug>` (`ikizulive/2025-homerun-queen`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "type": {
+      "default": "unclassified",
+      "description": "Kind of release. `digital_single`: released only for download and streaming; `bd_bonus`: a CD that comes\nwith a Blu-ray; `live_album`: recorded at a concert; `box_set`: a box of discs (the earlier releases it\nbundles keep their own entries); `radio_cd`: a radio program's CD.",
+      "enum": [
+       "single",
+       "album",
+       "mini_album",
+       "digital_single",
+       "bd_bonus",
+       "compilation",
+       "soundtrack",
+       "drama_cd",
+       "radio_cd",
+       "live_album",
+       "box_set",
+       "live_video",
+       "unclassified"
+      ],
+      "title": "Type",
+      "type": "string"
+     },
+     "status": {
+      "default": "released",
+      "description": "`announced`: not out yet (left out of the legacy files); `released`: out; `verified`: checked again after\nrelease, with no change.",
+      "enum": [
+       "announced",
+       "released",
+       "verified"
+      ],
+      "title": "Status",
+      "type": "string"
+     },
+     "title": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Title. In the entity files, `rom` and `ko` not stored are filled in from the song titles (`A / B`) or from a Latin-script\ntitle."
+     },
+     "projects": {
+      "description": "Project ids; more than one for a cross-project release.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Projects",
+      "type": "array"
+     },
+     "artist_credit": {
+      "default": [],
+      "description": "Artist of the release as a whole, as credited.",
+      "items": {
+       "$ref": "#/components/schemas/Performer"
+      },
+      "title": "Artist Credit",
+      "type": "array"
+     },
+     "label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Record label (`Lantis`).",
+      "title": "Label"
+     },
+     "release_date": {
+      "anyOf": [
+       {
+        "format": "date",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Release date. An edition released on another day has its own.",
+      "title": "Release Date"
+     },
+     "editions": {
+      "default": [],
+      "description": "Editions (初回限定盤, 通常盤, …) with their catalog numbers and media.",
+      "items": {
+       "$ref": "#/components/schemas/Edition"
+      },
+      "title": "Editions",
+      "type": "array"
+     },
+     "discs": {
+      "description": "Track list, disc by disc.",
+      "items": {
+       "$ref": "#/components/schemas/Disc"
+      },
+      "title": "Discs",
+      "type": "array"
+     },
+     "streaming": {
+      "default": [],
+      "description": "YouTube Music albums of the release, one entry per album.",
+      "items": {
+       "$ref": "#/components/schemas/Streaming"
+      },
+      "title": "Streaming",
+      "type": "array"
+     },
+     "links": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Pages about the release. `official`: its page on the official site; `smartlink`: the label's link page to\nevery download and streaming service (`https://lnk.to/…`, the 楽曲配信 link of the official page);\n`musicbrainz`: its MusicBrainz release.",
+      "title": "Links",
+      "type": "object"
+     },
+     "legacy": {
+      "$ref": "#/components/schemas/ReleaseLegacy",
+      "default": {
+       "category": null,
+       "albums": []
+      },
+      "description": "How the release appears in the legacy files."
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover (`tracks`, `editions`, `release_date`, `streaming`, `title`, …).",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "title",
+     "projects",
+     "discs"
+    ],
+    "title": "Release",
+    "type": "object"
+   },
+   "ReleaseLegacy": {
+    "additionalProperties": false,
+    "properties": {
+     "category": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Legacy `Category` of the release's tracks.",
+      "title": "Category"
+     },
+     "albums": {
+      "default": [],
+      "description": "The albums the release is listed as in the legacy files; empty: not in them.",
+      "items": {
+       "$ref": "#/components/schemas/LegacyAlbum"
+      },
+      "title": "Albums",
+      "type": "array"
+     }
+    },
+    "title": "ReleaseLegacy",
+    "type": "object"
+   },
+   "SearchHit": {
+    "type": "object",
+    "properties": {
+     "ref": {
+      "type": "string",
+      "description": "`<type>:<id>` (`person:aki-hata`)."
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names"
+     },
+     "type": {
+      "type": "string",
+      "description": "Entity type (`work`)."
+     },
+     "id": {
+      "type": "string",
+      "description": "Entity id."
+     },
+     "matched": {
+      "type": "string",
+      "description": "The name or title that matched."
+     }
+    },
+    "required": [
+     "ref",
+     "names",
+     "type",
+     "id",
+     "matched"
+    ],
+    "description": "Exact matches first, then those that start with the text, then the rest."
+   },
+   "SetlistItem": {
+    "additionalProperties": false,
+    "properties": {
+     "type": {
+      "default": "song",
+      "description": "A song, or a marker: `mc`, `video`, `encore` (start of the encore), `double_encore`, `talk` (a character\ntalk), `other` (a game, a sports-day event).",
+      "enum": [
+       "song",
+       "mc",
+       "video",
+       "encore",
+       "double_encore",
+       "talk",
+       "other"
+      ],
+      "title": "Type",
+      "type": "string"
+     },
+     "work": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Work id of the song.",
+      "title": "Work"
+     },
+     "recording": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Recording id, when the version sung is a released recording.",
+      "title": "Recording"
+     },
+     "version": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Version sung, when no recording of it is linked (`104th Class Ver.`).",
+      "title": "Version"
+     },
+     "performers": {
+      "default": [],
+      "description": "Who sang it.",
+      "items": {
+       "$ref": "#/components/schemas/Performer"
+      },
+      "title": "Performers",
+      "type": "array"
+     },
+     "label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Marker text as listed (`Encore`, `Opening`, `Talk Portion`).",
+      "title": "Label"
+     },
+     "title_raw": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Song title as listed, when it is not matched to a work yet.",
+      "title": "Title Raw"
+     }
+    },
+    "title": "SetlistItem",
+    "type": "object"
+   },
+   "Show": {
+    "type": "object",
+    "properties": {
+     "date": {
+      "type": "string",
+      "description": "Day of the show."
+     },
+     "label": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Show label."
+     },
+     "stop": {
+      "type": "string",
+      "description": "Stop id."
+     },
+     "venue": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Ref"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "setlist": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "position": {
+         "type": "integer"
+        },
+        "type": {
+         "type": "string",
+         "description": "`song`, or a marker: `mc`, `video`, `encore`, `double_encore`, `talk`, `other`."
+        },
+        "work": {
+         "anyOf": [
+          {
+           "$ref": "#/components/schemas/Ref"
+          },
+          {
+           "type": "null"
+          }
+         ]
+        },
+        "recording": {
+         "type": "string",
+         "description": "Recording id, when linked."
+        },
+        "version": {
+         "type": "string",
+         "description": "Version sung, when no recording is linked."
+        },
+        "label": {
+         "type": "string",
+         "description": "Marker text as listed."
+        },
+        "title_raw": {
+         "type": "string",
+         "description": "Title as listed, when not matched to a work."
+        },
+        "performers": {
+         "type": "array",
+         "items": {
+          "$ref": "#/components/schemas/Ref"
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   "Status": {
+    "description": "Trust level of a value (DESIGN.md §4.4).",
+    "enum": [
+     "official",
+     "established",
+     "derived",
+     "legacy",
+     "draft"
+    ],
+    "title": "Status",
+    "type": "string"
+   },
+   "Stop": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Id within the concert, `<n>-<city>` (`1-osaka`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "city": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "City id; absent for an online-only show.",
+      "title": "City"
+     },
+     "label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Stop label (`Trip to Asia`, `with DOLLCHESTRA`).",
+      "title": "Label"
+     },
+     "venue": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Venue id.",
+      "title": "Venue"
+     },
+     "performances": {
+      "description": "Shows at this stop, day by day.",
+      "items": {
+       "$ref": "#/components/schemas/Performance"
+      },
+      "title": "Performances",
+      "type": "array"
+     }
+    },
+    "required": [
+     "id",
+     "performances"
+    ],
+    "title": "Stop",
+    "type": "object"
+   },
+   "Streaming": {
+    "additionalProperties": false,
+    "properties": {
+     "platform": {
+      "const": "youtube_music",
+      "default": "youtube_music",
+      "description": "Streaming service.",
+      "title": "Platform",
+      "type": "string"
+     },
+     "editions": {
+      "default": [],
+      "description": "Ids of the editions this album stands for; empty: every edition.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Editions",
+      "type": "array"
+     },
+     "browse_id": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "YouTube Music album id (`MPREb_…`): `https://music.youtube.com/browse/<browse_id>`.",
+      "title": "Browse Id"
+     },
+     "tracks": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Video id of each track on this album, keyed `<disc>-<position>` (`1-1`): `https://youtu.be/<video id>`.\nOnly the album's own videos: a track missing here falls back to the same recording on another release\n(`tracks.json` gives which).",
+      "title": "Tracks",
+      "type": "object"
+     }
+    },
+    "title": "Streaming",
+    "type": "object"
+   },
+   "Track": {
+    "additionalProperties": false,
+    "properties": {
+     "no": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Track number as printed; absent for an unnumbered track.",
+      "title": "No"
+     },
+     "recording": {
+      "description": "Recording id, `<work id>#<recording id>`.",
+      "title": "Recording",
+      "type": "string"
+     },
+     "title_as_printed": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/Names"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Title as printed on this release, when it differs from the recording's."
+     },
+     "note": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "What is true of this track only (tie-in, act, version label); goes into the legacy `Note`.",
+      "title": "Note"
+     },
+     "category": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Legacy `Category` of this track, when it differs from the release's.",
+      "title": "Category"
+     }
+    },
+    "required": [
+     "recording"
+    ],
+    "title": "Track",
+    "type": "object"
+   },
+   "TrackView": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "`<release id>@<edition id, or - without editions>/<disc>-<position>`."
+     },
+     "release": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Release id."
+     },
+     "edition": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Edition id; null for a release without editions."
+     },
+     "disc": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Disc number."
+     },
+     "position": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Position on the disc, counting unnumbered tracks."
+     },
+     "no": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Track number as printed; null for an unnumbered track."
+     },
+     "status": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Status of the release: `announced`, `released`, `verified`."
+     },
+     "release_date": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "date",
+      "description": "Release date of the edition."
+     },
+     "recording": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Recording id, `<work id>#<recording id>`."
+     },
+     "work": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Work id."
+     },
+     "kind": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Kind of recording: `vocal`, `off_vocal`, `instrumental`, `drama`, `other`."
+     },
+     "version": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Version label of the recording (`Off Vocal`); null for the original."
+     },
+     "title": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Title as on this track, with the reading (`kana`) when known."
+     },
+     "performers": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "Singers."
+     },
+     "lyricist": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "作詞."
+     },
+     "composer": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "作曲."
+     },
+     "arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "編曲."
+     },
+     "strings_arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "弦編曲."
+     },
+     "brass_arranger": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Ref"
+      },
+      "description": "管編曲."
+     },
+     "link": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "`youtube_music`: URL of the track, or null. `source`: `own` (a video of this release's album), `main` (the same recording on another release), `none`."
+     },
+     "note": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "What is true of this track only; null when nothing."
+     }
+    },
+    "description": "A track as a row of `tracks.json`."
+   },
+   "Venue": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "Slug of the romanized name (`makuhari-event-hall`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "city": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "City id.",
+      "title": "City"
+     },
+     "names": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Name at the time of the shows."
+     },
+     "external_ids": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Ids elsewhere: `fandom` (title of the venue's Love Live! Fandom article).",
+      "title": "External Ids",
+      "type": "object"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover.",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "names"
+    ],
+    "title": "Venue",
+    "type": "object"
+   },
+   "Work": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "description": "`<project>/<slug>` (`ikizulive/dou-da-doing`).",
+      "title": "Id",
+      "type": "string"
+     },
+     "kind": {
+      "default": "song",
+      "description": "What the work is. `bgm`: a soundtrack cue played at a concert.",
+      "enum": [
+       "song",
+       "bgm",
+       "drama",
+       "other"
+      ],
+      "title": "Kind",
+      "type": "string"
+     },
+     "project": {
+      "description": "Project id; `external` for a song from outside the series (a cover, a song of another franchise).",
+      "title": "Project",
+      "type": "string"
+     },
+     "title": {
+      "$ref": "#/components/schemas/Names",
+      "description": "Title."
+     },
+     "credits": {
+      "$ref": "#/components/schemas/WorkCredits",
+      "default": {
+       "lyricist": [],
+       "composer": []
+      },
+      "description": "Lyricist and composer. Arrangers and singers are on each recording."
+     },
+     "recordings": {
+      "description": "Recordings of the work. Empty for a song with no recording in the data (performed live only so far, or\nreleased only on a release not in the data, such as a soundtrack or a fan club CD).",
+      "items": {
+       "$ref": "#/components/schemas/Recording"
+      },
+      "title": "Recordings",
+      "type": "array"
+     },
+     "external_ids": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "default": {},
+      "description": "Ids elsewhere: `fandom` (title of the Love Live! Fandom article, for matching set lists).",
+      "title": "External Ids",
+      "type": "object"
+     },
+     "evidence": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "default": {},
+      "description": "Sources, keyed by the field they cover (`title`, `title.ko`, `credits`, …).",
+      "title": "Evidence",
+      "type": "object"
+     }
+    },
+    "required": [
+     "id",
+     "project",
+     "title",
+     "recordings"
+    ],
+    "title": "Work",
+    "type": "object"
+   },
+   "WorkCredits": {
+    "additionalProperties": false,
+    "properties": {
+     "lyricist": {
+      "default": [],
+      "description": "作詞.",
+      "items": {
+       "$ref": "#/components/schemas/Credit"
+      },
+      "title": "Lyricist",
+      "type": "array"
+     },
+     "composer": {
+      "default": [],
+      "description": "作曲.",
+      "items": {
+       "$ref": "#/components/schemas/Credit"
+      },
+      "title": "Composer",
+      "type": "array"
+     }
+    },
+    "title": "WorkCredits",
+    "type": "object"
+   }
+  }
+ }
+}

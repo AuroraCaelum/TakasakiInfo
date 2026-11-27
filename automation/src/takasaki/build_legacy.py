@@ -80,9 +80,11 @@ def edition_ids(rel: m.Release) -> list[str | None]:
 def main_videos(ds: Dataset) -> dict[str, str]:
     """Main URL per recording: the earliest-released track that has its own URL (D2).
 
-    Ties: originals before compilations, then edition order, then release id and position.
+    Ties: originals before compilations, then a release of the song's own project (a split single's
+    edition of the group that sings it, D73), then edition order, then release id and position.
     """
     candidates: dict[str, list[tuple[Any, ...]]] = {}
+    project = {f"{w.id}#{r.id}": w.project for w in ds.works.values() for r in w.recordings}
     for rel in ds.releases.values():
         for ed_index, ed in enumerate(edition_ids(rel)):
             ed_date = next((e.release_date for e in rel.editions if e.id == ed and e.release_date), None)
@@ -91,7 +93,8 @@ def main_videos(ds: Dataset) -> dict[str, str]:
             for disc, pos, track in edition_tracks(rel, ed):
                 vid = own_video(rel, ed, disc, pos)
                 if vid:
-                    key = (day_key, rel.type in ("compilation", "box_set"), ed_index, rel.id, disc, pos, vid)
+                    key = (day_key, rel.type in ("compilation", "box_set"), project.get(track.recording) not in rel.projects,
+                           ed_index, rel.id, disc, pos, vid)
                     candidates.setdefault(track.recording, []).append(key)
     return {rec: min(keys)[-1] for rec, keys in candidates.items()}
 

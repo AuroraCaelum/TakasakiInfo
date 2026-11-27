@@ -82,7 +82,7 @@ stops:
             performers:
               - {artist: waiwaiwai}
           - {type: mc, label: MC with Aqours}
-          - work: nijigasaki/ai-scream
+          - work: lovelive/ai-scream
             performers:
               - {artist: waiwaiwai}
               - {character: muse/maki-nishikino}
@@ -183,10 +183,10 @@ evidence:
     source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=lovelive-expo2025
     checked: 2026-10-20
   setlist.2025-08-14:
-    status: draft
+    status: established
     source: https://love-live.fandom.com/wiki/U-NEXT_MUSIC_FES_-_Love_Live!_Series_EXPO_2025_STAGE_~Right_now!~
     checked: 2026-10-20
-    note: 공식 미게재. Fandom 세트리스트를 옮긴 초안. 나무위키와 대조해 승인하기 전
+    note: 공식 미게재. Fandom 세트리스트를 옮김
   cast:
     status: official
     source: https://www.lovelive-anime.jp/special/live/live_detail.php?p=lovelive-expo2025

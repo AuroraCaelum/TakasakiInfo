@@ -23,7 +23,8 @@ MEMBER_PATH = "/nijigasaki/member/"
 
 SPEC = Spec(project="nijigasaki", group_name=GROUP, legacy_group="Nijigasaki", legacy_file="Nijigaku",
             review_prefix="NJG",
-            skip={"cd.php#cd01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"},
+            skip={"cd.php#cd36": "split single: one release, lovelive/2021-not-alone-not-hitori, holds the three groups' editions (D74)",
+                  "cd.php#cd01_5904": "AiScReam「NEXT CARD」: cross-project, imported with the Liella! page (D45)"},
             cross={"cd.php#cd61": ["nijigasaki", "aqours", "liella", "hasunosora", "muse"],  # Bring the LOVE！ (D45)
                    "cd.php#cd81": ["nijigasaki", "aqours", "liella"]},  # AiScReam「愛♡スクリ～ム！」 (its first lineup)
             lineups_from_site=False)

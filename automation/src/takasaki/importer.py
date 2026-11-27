@@ -45,6 +45,9 @@ _ROLES = rf"{_ROLE_WORD}(?:\s*[／/・]\s*{_ROLE_WORD})*"
 _AFFILIATION = re.compile(r"^(.*?)\s*[（(]([^()（）]+)[)）]$")
 
 
+SERIES = "lovelive"  # the series-wide project: songs and releases several projects share (D74)
+
+
 @dataclass
 class CreditName:
     name: str
@@ -360,6 +363,8 @@ class Importer:
                 hits = hits if len(hits) == 1 else []
         elif kind == "work":
             hits = [w.id for w in self.ds.works.values() if w.project == project and match_key(w.title.ja) == key]
+            if not hits:  # a song several projects sing together, stored under the series (D74)
+                hits = [w.id for w in self.ds.works.values() if w.project == SERIES and match_key(w.title.ja) == key]
             if not hits:  # a song stored under another project, sung by an artist of this one (LIVE with a smile!)
                 hits = [w.id for w in self.ds.works.values() if match_key(w.title.ja) == key
                         and any(p.artist and project in self.ds.artists[p.artist].projects for r in w.recordings for p in r.performers)]
@@ -411,7 +416,7 @@ class Importer:
             ent = m.Artist(id=ident, kind=item.get("artist_kind", "unit"), projects=[project], **values,
                            evidence={"names": m.Evidence(**draft)})
         elif kind == "work":
-            ent = m.Work(id=ident, project=project, title=values["title"], recordings=[],
+            ent = m.Work(id=ident, project=self._home(), title=values["title"], recordings=[],
                          evidence={"title": m.Evidence(**draft)})
         else:
             raise ValueError(kind)
@@ -426,7 +431,13 @@ class Importer:
         slug = slugify(rom)
         if not slug:  # a rom of symbols only (??? ) would give the id "liella/" and the file ".yaml"
             raise ValueError(f"rom {rom!r} gives no id: set `id:` on the review item")
-        return f"{self.spec.project}/{slug}" if kind in ("character", "work") else slug
+        if kind == "work":
+            return f"{self._home()}/{slug}"
+        return f"{self.spec.project}/{slug}" if kind == "character" else slug
+
+    def _home(self) -> str:
+        """The project new songs of the page go under: the series for a page several projects share (D74)."""
+        return SERIES if self.page and page_id(self.page) in self.spec.cross else self.spec.project
 
     # members ----------------------------------------------------------------------
 
@@ -1264,14 +1275,15 @@ class Importer:
             else:  # song titles: their rom gives the id
                 works = {match_key(self.ds.recording(t.recording)[0].title.ja): self.ds.recording(t.recording)[0] for t in tracks}
                 title = m.Names(ja=obs.title, rom=" / ".join(works[match_key(p)].title.rom or "" for p in _TITLE_SEP.split(obs.title)))
-            ident = f"{self.spec.project}/{obs.release_date.year}-{slugify(title.rom or '')}"
+            projects = self.spec.cross.get(obs.page_id) or [self.spec.project]
+            home = SERIES if len(projects) > 1 else self.spec.project  # a release several projects share (D74)
+            ident = f"{home}/{obs.release_date.year}-{slugify(title.rom or '')}"
             if ident in self.ds.releases:
                 raise ValueError(f"release id {ident!r} already exists ({obs.url})")
             if item is not None:  # a title that is not made of song titles was named in review
                 item["ref"] = f"release:{ident}"
                 evidence["title"] = m.Evidence(status=m.Status.draft, source=f"automation/review/{self.spec.review_file('release')}",
                                                note="승인 대기 중")
-            projects = self.spec.cross.get(obs.page_id) or [self.spec.project]
             rel = m.Release(id=ident, type=rtype, status=status, title=title if item is not None else m.Names(ja=title.ja),
                             projects=projects, artist_credit=perf, label=label, release_date=obs.release_date,
                             editions=editions, discs=discs, links=links,

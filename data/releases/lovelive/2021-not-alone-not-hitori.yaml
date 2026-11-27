@@ -1,0 +1,110 @@
+id: lovelive/2021-not-alone-not-hitori
+type: single
+title:
+  ja: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!
+projects: [aqours, nijigasaki, liella]
+artist_credit:
+  - {artist: aqours, joint: true}
+  - {artist: nijigasaki-high-school-idol-club, joint: true}
+  - {artist: liella, joint: true}
+label: Lantis
+release_date: 2021-11-24
+editions:
+  - id: e1
+    label:
+      ja: Aqours盤
+    catalog: LACM-24200
+  - id: e2
+    label:
+      ja: 虹ヶ咲学園スクールアイドル同好会盤
+    catalog: LACM-24201
+  - id: e3
+    label:
+      ja: Liella!盤
+    catalog: LACM-24202
+discs:
+  - tracks:
+      - {no: 1, recording: aqours/not-alone-not-hitori#original}
+      - {no: 2, recording: nijigasaki/miracle-stay-tune#original}
+      - {no: 3, recording: liella/shooting-voice#original}
+      - {no: 4, recording: aqours/not-alone-not-hitori#off-vocal}
+      - {no: 5, recording: nijigasaki/miracle-stay-tune#off-vocal}
+      - {no: 6, recording: liella/shooting-voice#off-vocal}
+streaming:
+  - editions: [e1]
+    browse_id: MPREb_NXegWtsNn9T
+    tracks:
+      1-1: xAs6ONUhcgk
+      1-2: YYOl0cGOjS0
+      1-3: i5AwRoOUWZ4
+      1-4: gJwDvwf3rrA
+      1-5: i4k_48MO5eY
+      1-6: tiO8FkkAz7o
+  - editions: [e2]
+    browse_id: MPREb_2RiPDztuX7f
+    tracks:
+      1-1: tpmlaqrxBI8
+      1-2: -iw598h5NhQ
+      1-3: xWRTqwResu0
+      1-4: mIJN4ZO1j4E
+      1-5: XjqL-RrAxHM
+      1-6: OO-OaAL3wlE
+  - editions: [e3]
+    browse_id: MPREb_0skRsLpuPMo
+    tracks:
+      1-1: Zx0tDMC2h8M
+      1-2: wjZdoeoobmY
+      1-3: aNvi4kzaZ_w
+      1-4: 2MzvQbf9DMA
+      1-5: ROAyZciwhMg
+      1-6: 6tXpHZEWQ3c
+links:
+  official: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd69
+legacy:
+  category: Others
+  albums:
+    - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!!, edition: e1}
+    - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【虹ヶ咲学園スクールアイドル同好会盤】, edition: e2, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
+    - {title: not ALONE not HITORI / ミラクル STAY TUNE！ / Shooting Voice!! 【Liella!盤】, edition: e3, note: 「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル}
+evidence:
+  tracks:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd69
+    checked: 2026-10-20
+    note: 세 판의 공식 페이지(Aqours 페이지, 니지가사키 cd.php#cd36, Liella! cd14.php) 트랙리스트가 같음
+  type:
+    status: derived
+    note: 레거시 Note 열의 '「ラブライブ！シリーズのオールナイトニッポンGOLD」タイアップ企画スプリットシングル'에서 가져옴
+  editions:
+    status: official
+    source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd69
+    checked: 2026-10-20
+    note: 그룹마다 품번과 앨범아트가 다른 판. 각 그룹 공식 페이지에 자기 판만 실림. Aqours盤은 Aqours 페이지
+  editions.e2:
+    status: official
+    source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd36
+    checked: 2026-10-27
+  editions.e3:
+    status: official
+    source: https://www.lovelive-anime.jp/yuigaoka/music/cd14.php
+    checked: 2026-11-04
+  streaming:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_NXegWtsNn9T
+    checked: 2026-11-28
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠
+  streaming.e1:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_NXegWtsNn9T
+    checked: 2026-11-28
+    note: Aqours盤의 YouTube Music 앨범(제목 「…【Aqours盤】」). 레이블 카탈로그 LACM-24200의 배신 링크와 같음. 「not ALONE not HITORI」는 사람이 찾아 준 영상 xAs6ONUhcgk와 같음
+  streaming.e2:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_2RiPDztuX7f
+    checked: 2026-11-28
+    note: 虹ヶ咲盤의 YouTube Music 앨범(제목 「…【虹ヶ咲学園スクールアイドル同好会盤】」). 레이블 카탈로그 LACM-24201의 배신 링크와 같음. 「ミラクル STAY TUNE！」는 사람이 찾아 준 영상 -iw598h5NhQ와 같음
+  streaming.e3:
+    status: established
+    source: https://music.youtube.com/browse/MPREb_0skRsLpuPMo
+    checked: 2026-11-04
+    note: Liella!盤의 YouTube Music 앨범(제목 「…【Liella!盤】」)
