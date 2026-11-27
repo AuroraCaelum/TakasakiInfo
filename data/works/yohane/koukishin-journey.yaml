@@ -40,17 +40,17 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.yohane.net/bd/detail/?id=5
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E5%A5%BD%E5%A5%87%E5%BF%83%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC https://love-live.fandom.com/wiki/Koukishin_Journey'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E5%A5%BD%E5%A5%87%E5%BF%83%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC https://love-live.fandom.com/wiki/Koukishin_Journey'
   credits:
     status: official
     source: https://www.yohane.net/bd/detail/?id=5
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

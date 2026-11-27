@@ -26,7 +26,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_KX96Hnyrg4o
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -46,21 +46,21 @@ recordings:
         checked: 2026-10-18
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_KX96Hnyrg4o
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     checked: 2026-10-19
-    note: '라틴 제목: rom·ko는 ja와 같음. Fandom 표기와 같음'
+    note: 원제가 라틴 문자라 로마자·한국어 표기도 원제 그대로 씀. Fandom 표기와 같음
   credits:
     status: official
     source: https://www.lovelive-anime.jp/lovehigh/music/detail.php?p=01_4703
     checked: 2026-10-18
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

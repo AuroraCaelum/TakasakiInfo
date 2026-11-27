@@ -30,12 +30,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_BcYUbHql6bp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://open.spotify.com/track/2wI8kQ2psvPoMqqlKLusJ1
         checked: 2026-11-27
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값. 트랙마다 값이 달라 사람이 고름
   - id: sifas-chapter-17-ver
     title:
       ja: TOKIMEKI Runners (スクスタストーリー17章挿入歌Ver.)
@@ -60,12 +60,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_IHeaiCEiIpp
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=a66c2048-07e4-4e06-bb67-8370209893a5
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: 12nin-ver
     title:
       ja: TOKIMEKI Runners (12人Ver.)
@@ -86,17 +86,17 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/TOKIMEKI_Runners
         checked: 2026-10-19
-        note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 矢鴇つかさ(Arte Refact). Fandom 문서의 크레딧·트랙
+        note: 12人Ver. 편곡은 공식 미게재. 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명과 가창만 실음. 가창은 같음. 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 矢鴇つかさ(Arte Refact). 크레딧·트랙은 Fandom 문서를 따름
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_VQulvN4iKcG
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://open.spotify.com/track/7n75MVUfPk9WeL2dgzukDc
         checked: 2026-11-27
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61); 리뷰에서 고름
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값. 트랙마다 값이 달라 사람이 고름
   - id: 12nin-ver-off-vocal
     kind: off_vocal
     title:
@@ -113,7 +113,7 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/TOKIMEKI_Runners
         checked: 2026-10-19
-        note: 12人Ver. 편곡은 공식 미게재 (공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명·가창만 게재, 가창 일치). 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 矢鴇つかさ(Arte Refact). Fandom 문서의 크레딧·트랙
+        note: 12人Ver. 편곡은 공식 미게재. 공식 BD 페이지 https://www.lovelive-anime.jp/nijigasaki/bd/tv2nd/는 곡명과 가창만 실음. 가창은 같음. 원곡 편곡은 공식 CD 페이지 https://www.lovelive-anime.jp/nijigasaki/cd.php 에 矢鴇つかさ(Arte Refact). 크레딧·트랙은 Fandom 문서를 따름
   - id: tv-anime-insert-song-ver
     title:
       ja: TOKIMEKI Runners (TVアニメ挿入歌Ver.)
@@ -134,20 +134,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd46
         checked: 2026-10-26
-        note: '가창자: 공식 미게재. 이 버전이 줄인 음원(9-members-ver)의 가창자를 따름; 편곡: 공식 미게재. 원곡 음원(9-members-ver)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 공식 미게재. 이 버전은 9-members-ver 음원을 줄인 것이라 그 가창자를 따름. 편곡: 공식 미게재. 9-members-ver 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_PEB9SnoFW5K
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=7bddbe8b-70dc-4daa-af4a-697b09129fcd
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: 9-members-ver-off-vocal
     kind: off_vocal
     title:
@@ -167,12 +167,12 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_2YUtEXNv6ai
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: sifas-chapter-17-ver-off-vocal
     kind: off_vocal
     title:
@@ -192,12 +192,12 @@ recordings:
         checked: 2026-10-27
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_K2dXOSFVDIo
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   credits:
     status: official

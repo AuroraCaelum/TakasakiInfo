@@ -19,12 +19,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd51
     checked: 2026-10-19
-    note: 공식 표기 '本田光史郎' (띄어쓰기는 D28)
+    note: 공식 표기는 「本田光史郎」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
     checked: 2026-10-19
-    note: Fandom 표기 (D38, 이관 값에도 적용)
+    note: 공식·본인 라틴 표기가 없어 Fandom 표기를 씀. 이전 데이터에서 옮겨 온 값에도 같은 기준을 적용함
   names.ko:
     status: established
     source: https://namu.wiki/w/キモチもユメも一緒だね！
@@ -32,9 +32,9 @@ evidence:
     note: 나무위키 곡 문서 「キモチもユメも一緒だね！」의 작곡 표기
   name_parts:
     status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+    note: 성과 이름을 나눈 위치가 이름 분리 도구 결과와 읽기 양쪽에서 맞음
   names.kana:
     status: official
     source: https://x.com/koshiro_honda
     checked: 2026-11-11
-    note: 본인 공식 X 프로필 표기; 위키백과·J-WID 동일
+    note: 본인 공식 X 프로필 표기. 위키백과·J-WID도 같음

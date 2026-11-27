@@ -27,17 +27,17 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
         checked: 2026-10-19
-        note: '편곡·가창: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 편곡 표기와 아티스트 AZALEA. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin에도 AZALEA 録り下ろし新曲CD로 게재'
+        note: '편곡·가창: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」의 편곡 표기와 아티스트 AZALEA. 같은 녹음을 다시 실은 앨범임. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin에도 AZALEA 録り下ろし新曲CD로 실려 있음'
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_6RNVzFLeuft
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f71ba9bc-27e5-4151-932a-317465cff9cd
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,16 +54,16 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
         checked: 2026-10-19
-        note: 'Off Vocal 녹음: 편곡은 보컬 녹음의 것, 가창 필드는 보컬 녹음을 따름(규칙). 보컬 근거: 편곡·가창: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 편곡 표기와 아티스트 AZALEA. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin에도 AZALEA 録り下ろし新曲CD로 게재'
+        note: 'Off Vocal 녹음. 편곡은 보컬 녹음의 것을 쓰고 가창도 보컬 녹음을 따름. 보컬 근거: 편곡·가창은 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 편곡 표기와 아티스트 AZALEA. 공식 BD 페이지 https://www.lovelive-anime.jp/uranohoshi/bd/tv2nd/#houjin에도 AZALEA 録り下ろし新曲CD로 실림'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd54
     checked: 2026-10-19
-    note: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」(같은 녹음 재수록)의 작사·작곡 표기. 공식 BD 페이지는 크레딧 미게재
+    note: 공식 CD 페이지 AZALEA 1st フルアルバム「We‘ll get the next dream!!!」의 작사·작곡 표기. 같은 녹음을 다시 실은 앨범임. 공식 BD 페이지에는 크레딧이 없음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

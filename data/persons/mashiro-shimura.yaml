@@ -19,18 +19,18 @@ evidence:
     status: established
     source: https://utaten.com/lyric/mi24011601/
     checked: 2026-10-17
-    note: 공식 미게재 (하스노소라 공식 음악 목록에 해당 크레딧 없음, 2026-10-18 확인)
+    note: 공식 미게재. 하스노소라 공식 음악 목록에 해당 크레딧 없음(2026-10-18 확인)
   names.rom:
     status: derived
-    note: §5.3 규칙
+    note: 공식·본인·Fandom 라틴 표기가 없어 헵번식 로마자(장음 생략, 이름-성 순)로 씀
   names.ko:
     status: derived
-    note: §5.4 규칙
+    note: 읽기를 한국어 음역 방식(어두 격음, う 장음 생략 등)대로 옮김
   name_parts:
     status: derived
-    note: 성·이름 분리 (D28)
+    note: 전체 이름을 성과 이름으로 나눔
   names.kana:
     status: official
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
-    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+    note: JASRAC 작품 검색(J-WID)의 작가명 검색에서 등록 읽기가 맞고 크레딧에 있는 곡이 나옴. 공식 근거로 봄(2026-11-11)

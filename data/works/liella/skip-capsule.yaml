@@ -22,12 +22,12 @@ recordings:
         status: established
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+        note: 공식 뉴스·공식 미리 듣기 영상 설명에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624)를 봄. 솔로 버전 표기 'Solo Ver.'는 Fandom을 따름. 공식은 '7월부터 순차 발송'이라고만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블이 배포한 음원 정보(mora). Fandom도 같음. 품번 LAPE-1041은 MusicBrainz. 어느 코스인지는 미상
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_ADTj8Qfipcy
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -44,10 +44,10 @@ recordings:
         status: established
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+        note: 공식 뉴스·공식 미리 듣기 영상 설명에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624)를 봄. 솔로 버전 표기 'Solo Ver.'는 Fandom을 따름. 공식은 '7월부터 순차 발송'이라고만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블이 배포한 음원 정보(mora). Fandom도 같음. 품번 LAPE-1041은 MusicBrainz. 어느 코스인지는 미상
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: kanon-shibuya-solo-ver
     title:
       ja: スキップ・カプセル (澁谷かのん Solo Ver.)
@@ -64,10 +64,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: keke-tang-solo-ver
     title:
       ja: スキップ・カプセル (唐 可可 Solo Ver.)
@@ -84,10 +84,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: chisato-arashi-solo-ver
     title:
       ja: スキップ・カプセル (嵐 千砂都 Solo Ver.)
@@ -104,10 +104,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: sumire-heanna-solo-ver
     title:
       ja: スキップ・カプセル (平安名すみれ Solo Ver.)
@@ -124,10 +124,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: ren-hazuki-solo-ver
     title:
       ja: スキップ・カプセル (葉月 恋 Solo Ver.)
@@ -144,10 +144,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: kinako-sakurakoji-solo-ver
     title:
       ja: スキップ・カプセル (桜小路きな子 Solo Ver.)
@@ -164,10 +164,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: mei-yoneme-solo-ver
     title:
       ja: スキップ・カプセル (米女メイ Solo Ver.)
@@ -184,10 +184,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: shiki-wakana-solo-ver
     title:
       ja: スキップ・カプセル (若菜四季 Solo Ver.)
@@ -204,10 +204,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: natsumi-onitsuka-solo-ver
     title:
       ja: スキップ・カプセル (鬼塚夏美 Solo Ver.)
@@ -224,10 +224,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: margarete-wien-solo-ver
     title:
       ja: スキップ・カプセル (ウィーン・マルガレーテ Solo Ver.)
@@ -244,10 +244,10 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
   - id: tomari-onitsuka-solo-ver
     title:
       ja: スキップ・カプセル (鬼塚冬毬 Solo Ver.)
@@ -264,21 +264,21 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
     checked: 2026-11-05
-    note: 'ja: 공식 뉴스. rom: Fandom(Skip・Capsule), ko: 음역안'
+    note: 'ja: 공식 뉴스. rom: Fandom(Skip・Capsule). ko: 음역안'
   credits:
     status: established
     source: https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_5711
     checked: 2026-10-27
-    note: "공식 뉴스·공식 미리 듣기 영상 설명(곡명·구성: 신곡+Off Vocal+멤버 솔로 버전 전 13곡). 트랙 순서와 곡별 가창자는 공식 미게재: MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624), 솔로 버전 표기는 Fandom('Solo Ver.'). 공식은 '7월부터 순차 발송'만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블 배포 메타데이터(mora, Fandom도 같음). 품번 LAPE-1041(어느 코스인지 미상)은 MusicBrainz"
+    note: 공식 뉴스·공식 미리 듣기 영상 설명에는 곡명과 구성만 있음. 신곡, Off Vocal, 멤버 솔로 버전으로 전 13곡. 트랙 순서와 곡별 가창자는 공식 미게재라 MusicBrainz(https://musicbrainz.org/release/0f163e9a-1031-422e-82f6-7624)를 봄. 솔로 버전 표기 'Solo Ver.'는 Fandom을 따름. 공식은 '7월부터 순차 발송'이라고만 밝혀 날짜는 그달 1일로 둠. 크레딧은 디지털 싱글 LZC-3642의 레이블이 배포한 음원 정보(mora). Fandom도 같음. 품번 LAPE-1041은 MusicBrainz. 어느 코스인지는 미상
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

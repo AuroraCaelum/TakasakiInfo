@@ -33,12 +33,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1add17d1-9314-4be9-8f96-9822c723d2b5
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -60,12 +60,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_ytBTDd3TM7v
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: shizuku-osaka-ver
     title:
       ja: どこにいても君は君 (桜坂しずく Ver.)
@@ -85,15 +85,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kanata-konoe-ver
     title:
       ja: どこにいても君は君 (近江彼方 Ver.)
@@ -113,15 +113,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: emma-verde-ver
     title:
       ja: どこにいても君は君 (エマ・ヴェルデ Ver.)
@@ -141,15 +141,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: kasumi-nakasu-ver
     title:
       ja: どこにいても君は君 (中須かすみ Ver.)
@@ -169,15 +169,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: lanzhu-zhong-ver
     title:
       ja: どこにいても君は君 (鐘 嵐珠 Ver.)
@@ -197,15 +197,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: ayumu-uehara-ver
     title:
       ja: どこにいても君は君 (上原歩夢 Ver.)
@@ -225,15 +225,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: karin-asaka-ver
     title:
       ja: どこにいても君は君 (朝香果林 Ver.)
@@ -253,15 +253,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: ai-miyashita-ver
     title:
       ja: どこにいても君は君 (宮下 愛 Ver.)
@@ -281,15 +281,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: setsuna-yuki-ver
     title:
       ja: どこにいても君は君 (優木せつ菜 Ver.)
@@ -309,15 +309,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: rina-tennoji-ver
     title:
       ja: どこにいても君は君 (天王寺璃奈 Ver.)
@@ -337,15 +337,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: shioriko-mifune-ver
     title:
       ja: どこにいても君は君 (三船栞子 Ver.)
@@ -365,15 +365,15 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: mia-taylor-ver
     title:
       ja: どこにいても君は君 (ミア・テイラー Ver.)
@@ -393,25 +393,25 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd68
         checked: 2026-10-26
-        note: '가창자: 버전명의 멤버; 편곡: 공식 미게재. 원곡 음원(original)을 줄인 것이라 그 편곡을 따름'
+        note: '가창자: 버전명에 나온 멤버. 편곡: 공식 미게재. original 음원을 줄인 것이라 그 편곡을 따름'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_oBhC1JCKb6b
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%81%93%E3%81%AB%E3%81%84%E3%81%A6%E3%82%82%E5%90%9B%E3%81%AF%E5%90%9B https://love-live.fandom.com/wiki/Doko_ni_Itemo_Kimi_wa_Kimi'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E3%81%A9%E3%81%93%E3%81%AB%E3%81%84%E3%81%A6%E3%82%82%E5%90%9B%E3%81%AF%E5%90%9B https://love-live.fandom.com/wiki/Doko_ni_Itemo_Kimi_wa_Kimi'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd67
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

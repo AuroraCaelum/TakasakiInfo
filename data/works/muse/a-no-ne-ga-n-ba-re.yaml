@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_3pUilZtrWaI
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1499287c-ef9b-41d0-82fa-8cae906ed826
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,12 +54,12 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_3pUilZtrWaI
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: umi-mix
     title:
       ja: あ・の・ね・が・ん・ば・れ！ (UMI MIX)
@@ -80,20 +80,20 @@ recordings:
         status: derived
         source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd07
         checked: 2026-10-20
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_mPUE4ouVt1l
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3b1e83e8-641c-4e2e-abd4-20dc36ede383
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: nozomi-mix
     title:
       ja: あ・の・ね・が・ん・ば・れ！ (NOZOMI Mix)
@@ -114,20 +114,20 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64950/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_8FEV6pNbqq9
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=64387af6-21fb-4922-8333-d592bb6fcf11
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: rin-mix
     title:
       ja: あ・の・ね・が・ん・ば・れ！ (RIN Mix)
@@ -148,30 +148,30 @@ recordings:
         status: derived
         source: https://catalog.bandainamcomusiclive.co.jp/release/64955/
         checked: 2026-10-27
-        note: 가창자는 이 페이지. 편곡은 같은 곡 original의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
+        note: 가창자는 이 페이지. 편곡은 같은 곡 original 음원의 공식 크레딧(https://www.lovelive-anime.jp/otonokizaka/release.php#cd05)과 같다고 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_KfFZAX9b6mx
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=0ec6a59d-505f-4ba4-941e-827469529e86
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom(・를 하이픈으로 쓰는 관용 표기. 규칙 엔진이면 A・no・ne・ga・n・ba・re!), ko: 나무위키(곡 문서 제목 행) 외부 근거: https://namu.wiki/w/%E3%81%82%E3%83%BB%E3%81%AE%E3%83%BB%E3%81%AD%E3%83%BB%E3%81%8C%E3%83%BB%E3%82%93%E3%83%BB%E3%81%B0%E3%83%BB%E3%82%8C%EF%BC%81 https://love-live.fandom.com/wiki/A-NO-NE-GA-N-BA-RE!'
+    note: 'ja: 공식 페이지. rom: Fandom(・를 하이픈으로 쓰는 관용 표기. 헵번식 표기 방식대로면 A・no・ne・ga・n・ba・re!). ko: 나무위키(곡 문서 제목 행). 외부 근거: https://namu.wiki/w/%E3%81%82%E3%83%BB%E3%81%AE%E3%83%BB%E3%81%AD%E3%83%BB%E3%81%8C%E3%83%BB%E3%82%93%E3%83%BB%E3%81%B0%E3%83%BB%E3%82%8C%EF%BC%81 https://love-live.fandom.com/wiki/A-NO-NE-GA-N-BA-RE!'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd05
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

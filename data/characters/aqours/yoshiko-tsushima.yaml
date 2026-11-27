@@ -23,12 +23,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd01
     checked: 2026-10-19
-    note: 공식 표기 '津島善子' (띄어쓰기는 D28)
+    note: 공식 표기는 「津島善子」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/worldwide/member.php
     checked: 2026-10-19
-    note: 공식 영문 사이트 멤버 소개 (이름은 이미지 js/sunshine_member.hyperesources/06.png)
+    note: 공식 영문 사이트 멤버 소개. 이름은 이미지 js/sunshine_member.hyperesources/06.png
   names.ko:
     status: established
     source: https://namu.wiki/w/Aqours
@@ -36,7 +36,7 @@ evidence:
     note: 나무위키 Aqours 문서 멤버 목록의 표기
   name_parts:
     status: derived
-    note: 전체 이름에서 분리 (D26)
+    note: 전체 이름을 성과 이름으로 나눔
   names.kana:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/member.php#yoshiko
@@ -46,4 +46,4 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/member.php#yoshiko
     checked: 2026-11-12
-    note: 공식 멤버 페이지. 프로필이 이미지(img/member/06sp.png)라 이미지를 직접 열어 확인
+    note: 공식 멤버 페이지. 프로필이 이미지(img/member/06sp.png)라 이미지를 직접 열어 확인함

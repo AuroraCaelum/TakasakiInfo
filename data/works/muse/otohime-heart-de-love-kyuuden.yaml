@@ -24,12 +24,12 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/Otohime_Heart_de_Love_Kyuuden
         checked: 2026-10-27
-        note: '극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재: Fandom·ja.wikipedia'
+        note: 극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾으로 2015-05-23부터 극장에서 판매함(공식 페이지 Wayback). 유닛 싱글 3종이고 CD 재킷 안에 전매권이 들어 있음. 트랙(곡, Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재라 Fandom·ja.wikipedia를 봄
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=cda5f003-e475-44c0-9a7b-4ce66ecc13fe
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -46,21 +46,21 @@ recordings:
         status: established
         source: https://love-live.fandom.com/wiki/Otohime_Heart_de_Love_Kyuuden
         checked: 2026-10-27
-        note: '극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재: Fandom·ja.wikipedia'
+        note: 극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾으로 2015-05-23부터 극장에서 판매함(공식 페이지 Wayback). 유닛 싱글 3종이고 CD 재킷 안에 전매권이 들어 있음. 트랙(곡, Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재라 Fandom·ja.wikipedia를 봄
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://love-live.fandom.com/wiki/Otohime_Heart_de_Love_Kyuuden
     checked: 2026-11-05
-    note: '공식 미게재: ja: 레이블 카탈로그·공식 페이지. rom: Fandom, ko: 번역안'
+    note: '공식 미게재. ja: 레이블 카탈로그·공식 페이지. rom: Fandom. ko: 번역안'
   credits:
     status: established
     source: https://love-live.fandom.com/wiki/Otohime_Heart_de_Love_Kyuuden
     checked: 2026-10-27
-    note: '극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾(유닛 싱글 3종, CD 재킷 안에 전매권 동봉)으로 2015-05-23부터 극장 판매(공식 페이지 Wayback). 트랙(곡+Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재: Fandom·ja.wikipedia'
+    note: 극장판 『ラブライブ！The School Idol Movie』 特典付前売券第3弾으로 2015-05-23부터 극장에서 판매함(공식 페이지 Wayback). 유닛 싱글 3종이고 CD 재킷 안에 전매권이 들어 있음. 트랙(곡, Off Vocal)·품번 LZM-2128·크레딧은 공식 미게재라 Fandom·ja.wikipedia를 봄
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

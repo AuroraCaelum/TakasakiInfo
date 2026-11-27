@@ -70,9 +70,9 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 부제는 기존 곡 aqours/oyasuminasan의 rom·ko(～·！는 반각). 부제 rom은 Fandom, ko는 나무위키 번역과 같음 외부 근거: https://namu.wiki/w/%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%82%93%EF%BC%81 https://love-live.fandom.com/wiki/Oyasuminasan!'
+    note: 'ja: 공식 페이지. rom·ko: 라틴 부분은 원문 그대로, 부제는 기존 곡 aqours/oyasuminasan의 rom·ko(～·！는 반각). 부제 rom은 Fandom, ko는 나무위키 번역과 같음. 외부 근거: https://namu.wiki/w/%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%82%93%EF%BC%81 https://love-live.fandom.com/wiki/Oyasuminasan!'
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠

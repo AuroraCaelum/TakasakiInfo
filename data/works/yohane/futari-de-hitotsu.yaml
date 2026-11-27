@@ -40,17 +40,17 @@ recordings:
         checked: 2026-10-20
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.yohane.net/bd/movie/
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키(곡 문서·음반 문서의 러브 라이브! 선샤인!! 음반 틀 번역) 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E3%81%B2%E3%81%A8%E3%81%A4 https://love-live.fandom.com/wiki/Futari_de_Hitotsu'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키 곡 문서와 음반 문서의 러브 라이브! 선샤인!! 음반 틀 번역. 외부 근거: https://namu.wiki/w/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E3%81%B2%E3%81%A8%E3%81%A4 https://love-live.fandom.com/wiki/Futari_de_Hitotsu'
   credits:
     status: official
     source: https://www.yohane.net/bd/movie/
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

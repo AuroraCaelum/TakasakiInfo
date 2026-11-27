@@ -28,22 +28,22 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=xorIYZB71IY
         checked: 2026-10-20
-        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 메타데이터), 가사 없는 관현악곡'
+        note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 음원 정보). 가사 없는 관현악곡'
       strings_arranger:
         status: official
         source: https://music.youtube.com/watch?v=xorIYZB71IY
         checked: 2026-10-20
-        note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 메타데이터), 가사 없는 관현악곡'
+        note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 음원 정보). 가사 없는 관현악곡'
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_3qngXZG8cie
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=f57c342a-34dd-4371-aa93-81442698d8b4
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
@@ -53,7 +53,7 @@ evidence:
     status: official
     source: https://music.youtube.com/watch?v=xorIYZB71IY
     checked: 2026-10-20
-    note: '공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 메타데이터), 가사 없는 관현악곡'
+    note: '공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음. 연주: 浦の星交響楽団(공식 CD 페이지·레이블 음원 정보). 가사 없는 관현악곡'
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

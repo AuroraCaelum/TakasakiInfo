@@ -22,22 +22,22 @@ evidence:
     checked: 2026-10-19
   names.rom:
     status: established
-    note: Fandom 표기 (D38, 이관 값에도 적용)
+    note: 공식·본인 라틴 표기가 없어 Fandom 표기를 씀. 이전 데이터에서 옮겨 온 값에도 같은 기준을 적용함
   names.ko:
     status: established
     source: https://namu.wiki/w/Twinkle Town
     checked: 2026-10-19
-    note: 나무위키 곡 문서 크레딧 표기 (작곡)
+    note: 나무위키 곡 문서 크레딧 표기(작곡)
   name_parts:
     status: derived
-    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+    note: 성과 이름을 나눈 위치는 로마자 표기를 보고 사람이 확인함
   names.kana:
     status: established
     source: https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5
     checked: 2026-11-11
-    note: 위키백과 표제 읽기 (가타카나 표기)
+    note: 위키백과 표제 읽기(가타카나 표기)
   birthday:
     status: established
     source: https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5
     checked: 2026-11-12
-    note: 공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 러브라이브! 곡 기재(QU4RTZ)
+    note: 공식 미게재. 위키백과 인물 문서. 작품 목록에 러브라이브! 곡(QU4RTZ)이 있음

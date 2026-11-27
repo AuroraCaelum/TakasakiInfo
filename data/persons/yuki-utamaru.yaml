@@ -17,12 +17,12 @@ given_name:
 evidence:
   name_parts:
     status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+    note: 성과 이름을 나눈 위치가 이름 분리 도구 결과와 읽기 양쪽에서 맞음
   names.ja:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/cd36.php
     checked: 2026-10-19
-    note: 공식 크레딧 (02.Thank you Good morning 作曲). UNIVERSE!!는 공식 미게재 (공식 CD 목록에 없음)
+    note: 공식 크레딧(02.Thank you Good morning 作曲). UNIVERSE!!는 공식 미게재. 공식 CD 목록에 없음
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/UNIVERSE!!
@@ -37,4 +37,4 @@ evidence:
     status: established
     source: https://thetv.jp/person/2000052212/
     checked: 2026-11-11
-    note: WEBザテレビジョン 인물 페이지 읽기 (분리 없음, 성/이름 한자 경계로 분할)
+    note: WEBザテレビジョン 인물 페이지의 읽기. 페이지에 성·이름 구분이 없어 성과 이름의 한자 경계에서 나눔

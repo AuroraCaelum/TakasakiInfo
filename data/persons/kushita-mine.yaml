@@ -19,21 +19,21 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/musical/2023/music.php#cd01
     checked: 2026-10-19
-    note: 공식 표기 '久下真音' (띄어쓰기는 D28)
+    note: 공식 표기는 「久下真音」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://www.uta-net.com/arranger/17619/
     checked: 2026-11-16
-    note: 본인 크레딧의 라틴 표기 Mine Kushita(§5.3 ②). 순서는 이름-성 (D4)
+    note: 본인 크레딧의 라틴 표기 Mine Kushita. 본인이 쓰는 라틴 표기라 공식 표기 다음으로 우선함. 순서는 저장소 관례인 이름-성
   names.ko:
     status: derived
     checked: 2026-11-16
-    note: 읽기 くした まいん(위키백과·J-WID クシタマイン, 生田真心 いくた ましん의 애너그램)대로 음역. 2026-10-17의 みね 읽기를 바꿈
+    note: 읽기 くした まいん대로 음역. 위키백과·J-WID가 クシタマイン으로 적고, 生田真心(いくた ましん)의 애너그램임. 2026-10-17의 みね 읽기를 바꿈
   name_parts:
     status: derived
-    note: '성·이름 분리: 로마자 기준 수동 확인 (D28)'
+    note: 성과 이름을 나눈 위치는 로마자 표기를 보고 사람이 확인함
   names.kana:
     status: established
     source: https://ja.wikipedia.org/wiki/%E4%B9%85%E4%B8%8B%E7%9C%9F%E9%9F%B3
     checked: 2026-11-11
-    note: 위키백과 표제 읽기; J-WID クシタマイン 일치
+    note: 위키백과 표제 읽기. J-WID 등록 읽기 クシタマイン도 같음

@@ -27,17 +27,17 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_h5XAYDWQxsz
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%A6%E3%81%8F%E3%81%A6%E3%81%8F%E6%97%A5%E5%92%8C https://love-live.fandom.com/wiki/Tekuteku_Biyori ko: 검수(2026-10-20) ～日和(~하기 좋은 날)의 뜻을 살림(나무위키는 뚜벅뚜벅 좋은 날).'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 검수(2026-10-20)에서 ko는 ～日和(~하기 좋은 날)의 뜻을 살려 고침(나무위키는 뚜벅뚜벅 좋은 날). 외부 근거: https://namu.wiki/w/%E3%81%A6%E3%81%8F%E3%81%A6%E3%81%8F%E6%97%A5%E5%92%8C https://love-live.fandom.com/wiki/Tekuteku_Biyori'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/yuigaoka/music/detail.php?p=01_4748
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

@@ -27,7 +27,7 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_nJI39cUUCmf
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
   - id: off-vocal
     kind: off_vocal
     title:
@@ -45,15 +45,15 @@ recordings:
         status: official
         source: https://www.lovelive-anime.jp/nijigasaki/cd.php#cd01_6286
         checked: 2026-10-21
-        note: 공식 페이지는 4번을 Jungle Hunter♡로만 적음(Off Vocal 누락). 레이블의 YouTube Music 앨범은 Jungle Hunter♡ (Off Vocal)이고, 3번이 モノクロラビリンス(Off Vocal)인 구성이라 Off Vocal로 둔다(nijigasaki.TRACK_FIXES)
+        note: 공식 페이지는 4번을 Jungle Hunter♡로만 적어 Off Vocal이 빠져 있음. 레이블의 YouTube Music 앨범은 Jungle Hunter♡ (Off Vocal)이고 3번이 モノクロラビリンス(Off Vocal)인 구성이라 Off Vocal로 둠
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_nJI39cUUCmf
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
 evidence:
   title:
     status: derived
@@ -65,4 +65,4 @@ evidence:
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

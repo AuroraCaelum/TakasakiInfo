@@ -29,12 +29,12 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=Mx6MBdzLstQ
         checked: 2026-10-20
-        note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+        note: 공식 미게재. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. 레이블 정보, Fandom, UtaTen, 나무위키가 같음
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=3492a850-586c-4910-80b5-fe052aaddbac
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
   - id: off-vocal
     kind: off_vocal
     title:
@@ -54,18 +54,18 @@ recordings:
         note: '가창: 공식 BD BOX 페이지의 곡 목록'
       title.kana:
         status: derived
-        note: 곡 kana + 버전 읽기(D58)
+        note: 곡 제목의 읽기 뒤에 버전명의 읽기를 붙임
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/bd/tv1st/#bd05
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom(Niko puri♥Joshi dou의 ♥를 공식 표기 ♡로), ko: 나무위키(니코프리♥여자의 길의 ♥를 공식 표기 ♡로) 외부 근거: https://namu.wiki/w/%E3%81%AB%E3%81%93%E3%81%B7%E3%82%8A%E2%99%A5%E5%A5%B3%E5%AD%90%E9%81%93 https://love-live.fandom.com/wiki/Niko_puri%E2%99%A5Joshi_dou rom: にこ는 캐릭터 rom Nico로(NicoNozo, NicoRinPana와 같음).'
+    note: 'ja: 공식 페이지. rom: Fandom(Niko puri♥Joshi dou의 ♥를 공식 표기 ♡로). ko: 나무위키(니코프리♥여자의 길의 ♥를 공식 표기 ♡로). rom의 にこ는 캐릭터 rom인 Nico로 씀(NicoNozo, NicoRinPana와 같음). 외부 근거: https://namu.wiki/w/%E3%81%AB%E3%81%93%E3%81%B7%E3%82%8A%E2%99%A5%E5%A5%B3%E5%AD%90%E9%81%93 https://love-live.fandom.com/wiki/Niko_puri%E2%99%A5Joshi_dou'
   credits:
     status: official
     source: https://music.youtube.com/watch?v=Mx6MBdzLstQ
     checked: 2026-10-20
-    note: '공식 사이트 미게재. 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). 일치: label, fandom, utaten, namu'
+    note: 공식 미게재. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. 레이블 정보, Fandom, UtaTen, 나무위키가 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

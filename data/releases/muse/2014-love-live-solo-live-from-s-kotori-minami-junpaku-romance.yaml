@@ -60,9 +60,9 @@ evidence:
     status: derived
     source: https://www.lovelive-anime.jp/otonokizaka/release.php#cd33
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom/ko: 러브 라이브!(D11) + 라틴 원문 + 캐릭터 names.rom/names.ko(data/characters/muse) + 부제. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서), 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역) 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II'
+    note: "ja: 공식 페이지. rom·ko: 시리즈명 러브 라이브!(rom Love Live!), 라틴 원문, μ's 캐릭터 데이터의 이름 rom·ko, 부제를 이어 붙임. 부제 rom: Fandom(Solo Live! Collection Memorial BOX II 문서). 부제 ko: 나무위키(러브 라이브!/음반 문서의 번역). 외부 근거: https://namu.wiki/w/%EB%9F%AC%EB%B8%8C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%21/%EC%9D%8C%EB%B0%98 https://love-live.fandom.com/wiki/Solo_Live!_Collection_Memorial_BOX_II"
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_lTVS4NLXEdx
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠

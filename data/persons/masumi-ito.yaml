@@ -20,12 +20,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd07
     checked: 2026-10-19
-    note: 공식 표기 '伊藤真澄' (띄어쓰기는 D28)
+    note: 공식 표기는 「伊藤真澄」. 띄어쓰기는 성·이름이 모두 한자면 띄우고 한쪽이 가나면 붙이는 방식으로 맞춤
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
     checked: 2026-10-19
-    note: Fandom 표기 (D38, 이관 값에도 적용)
+    note: 공식·본인 라틴 표기가 없어 Fandom 표기를 씀. 이전 데이터에서 옮겨 온 값에도 같은 기준을 적용함
   names.ko:
     status: established
     source: https://namu.wiki/w/이토 마스미
@@ -33,14 +33,14 @@ evidence:
     note: 나무위키 문서 제목
   name_parts:
     status: derived
-    note: '성·이름 분리: 이름 분리 도구와 독음 대조가 일치 (D28)'
+    note: 성과 이름을 나눈 위치가 이름 분리 도구 결과와 읽기 양쪽에서 맞음
   names.kana:
     status: official
     source: https://www2.jasrac.or.jp/eJwid/
     checked: 2026-11-11
-    note: JASRAC J-WID 작가명 검색에서 등록 읽기가 맞고 데이터의 크레딧 곡이 나옴(공식 근거, 2026-11-11)
+    note: JASRAC 작품 검색(J-WID)의 작가명 검색에서 등록 읽기가 맞고 크레딧에 있는 곡이 나옴. 공식 근거로 봄(2026-11-11)
   birthday:
     status: established
     source: https://ja.wikipedia.org/wiki/伊藤真澄
     checked: 2026-11-12
-    note: 공식 미게재. 위키백과 인물 정보, 생년 미기재로 월·일만. 문서 자체엔 러브라이브! 언급 없으나 위키백과 ミト 문서에 μ's 「これから」를 伊藤真澄과 공동 작곡했다고 기재되어 동일인으로 판단
+    note: 공식 미게재. 위키백과 인물 정보, 생년 미기재라 월·일만 넣음. 문서 자체에는 러브라이브! 언급이 없으나 위키백과 ミト 문서에 μ's 「これから」를 伊藤真澄과 공동 작곡했다고 실려 있어 동일인으로 판단

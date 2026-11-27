@@ -29,22 +29,22 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_iL1oIT6EQTf
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=1cca1bf3-48c7-4233-b35d-298c6e15dbfa
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/hasunosora/music/31/
     checked: 2026-10-19
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 (재검토 반영 2026-10-19) 외부 근거: https://namu.wiki/w/%E3%83%99%E3%82%B8%E3%83%BB%E3%83%A9%E3%83%96%E3%83%BB%E3%83%AB%E3%83%BC'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 재검토 결과를 반영함(2026-10-19). 외부 근거: https://namu.wiki/w/%E3%83%99%E3%82%B8%E3%83%BB%E3%83%A9%E3%83%96%E3%83%BB%E3%83%AB%E3%83%BC'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/31/
     checked: 2026-10-19
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

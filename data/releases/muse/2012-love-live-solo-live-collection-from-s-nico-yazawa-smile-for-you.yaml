@@ -61,9 +61,9 @@ evidence:
     status: derived
     source: https://catalog.bandainamcomusiclive.co.jp/release/64951/
     checked: 2026-11-05
-    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(시리즈명 고정 표기 + 멤버 rom + 부제), ko: 같은 방식(부제는 번역·음역안). 부제 rom은 레이블 카탈로그 EN'
+    note: 'ja: 레이블 카탈로그·공식 페이지. rom: 기존 Solo Live! 제목과 같은 방식(정해진 시리즈명 표기, 멤버 rom, 부제). ko: 같은 방식(부제는 번역·음역안). 부제 rom은 레이블 카탈로그 영문 표기'
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_Hv9reUz9Ko5
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠

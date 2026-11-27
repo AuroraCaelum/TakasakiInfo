@@ -29,22 +29,22 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_hTByewg8jRO
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=bce2b61e-c7a3-46d9-b8fa-4ebf0a020895
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom(海空를 あお로 읽음. 나무위키 읽기 아오노 오-로라와 같음), ko: 나무위키 외부 근거: https://namu.wiki/w/%E6%B5%B7%E7%A9%BA%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%AD%E3%83%A9 https://love-live.fandom.com/wiki/Ao_no_Aurora'
+    note: 'ja: 공식 페이지. rom: Fandom(海空를 あお로 읽음. 나무위키 읽기 아오노 오-로라와 같음). ko: 나무위키. 외부 근거: https://namu.wiki/w/%E6%B5%B7%E7%A9%BA%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%AD%E3%83%A9 https://love-live.fandom.com/wiki/Ao_no_Aurora'
   credits:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd79
     checked: 2026-10-20
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

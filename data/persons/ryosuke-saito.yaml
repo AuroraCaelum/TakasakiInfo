@@ -22,7 +22,7 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/nijigasaki/cd.php
     checked: 2026-10-18
-    note: 공식 크레딧 표기 (성·이름 모두 가나, D28). 이전 값 サイトウリョースケ(uta-net)
+    note: 공식 크레딧 표기. 성·이름이 모두 가나라 공식 표기를 따름. 이전 값은 サイトウリョースケ(uta-net)
   names.rom:
     status: established
     source: https://love-live.fandom.com/wiki/Composers_and_Arrangers
@@ -35,12 +35,12 @@ evidence:
     note: 나무위키 곡 문서(Kakushiaji!)의 작곡·편곡 표기
   name_parts:
     status: derived
-    note: '성·이름 분리: 공식 표기의 공백 (D28)'
+    note: 공식 표기의 공백 위치에서 성과 이름을 나눔
   names.kana:
     status: derived
-    note: 가나 표기 그대로 읽음(D58). 성·이름 사이 공백(D28), 장음 ー는 모음으로(カトウリョータ → かとう りょうた와 같음)
+    note: 가나 표기를 그대로 읽기로 씀. 성·이름 사이를 띄우고 장음 ー는 모음으로 적음(カトウリョータ → かとう りょうた와 같음)
   birthday:
     status: established
     source: https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%88%E3%82%A6%E3%83%AA%E3%83%A7%E3%83%BC%E3%82%B9%E3%82%B1
     checked: 2026-11-12
-    note: 공식 미게재. 위키백과 인물 문서. 문서 작품 목록에 Aqours 「GAME ON!」「ユメ+ミライ＝無限大」, 虹ヶ咲 「MELODY」 기재
+    note: 공식 미게재. 위키백과 인물 문서. 작품 목록에 Aqours 「GAME ON!」「ユメ+ミライ＝無限大」, 虹ヶ咲 「MELODY」가 있음

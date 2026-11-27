@@ -49,7 +49,7 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-10-20
-    note: 아티스트 V.A. 트랙·가창자는 이 페이지. 레이블 카탈로그 https://catalog.bandainamcomusiclive.co.jp/release/84662/ 와 같음. 원곡 표기 「（オリジナル：…）」와 작품명 줄은 트랙 제목이 아니라 떼어 읽음
+    note: 아티스트가 V.A.인 앨범. 트랙·가창자는 이 페이지를 따르고 레이블 카탈로그(https://catalog.bandainamcomusiclive.co.jp/release/84662/)와 같음. 원곡 표기 「（オリジナル：…）」와 작품명 줄은 트랙 제목이 아니라서 떼어 읽음
   editions:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
@@ -58,12 +58,12 @@ evidence:
     status: official
     source: https://www.lovelive-anime.jp/hasunosora/music/cd/?p=01_5258
     checked: 2026-10-20
-    note: '아티스트 V.A.(여러 작품의 가창자): 발매물 아티스트를 비워 둔다'
+    note: 아티스트가 V.A.(여러 작품의 가창자)라 발매물 아티스트를 비워 둠
   legacy:
     status: derived
-    note: 크로스 프로젝트처럼 레거시 category는 Others, 원곡 프로젝트 다섯 그룹 파일에 모두 넣는다 (D45, D52)
+    note: 크로스 프로젝트처럼 레거시 category는 Others로 두고, 원곡 프로젝트 다섯 그룹의 파일에 모두 넣음
   streaming:
     status: established
     source: https://music.youtube.com/browse/MPREb_N8Vvln9yN9D
     checked: 2026-11-04
-    note: 'YouTube Music 어댑터: 앨범 트랙을 순서·제목으로 대조. 죽은 videoId는 교체, 살아 있는 값은 유지'
+    note: YouTube Music 앨범의 트랙과 순서·제목으로 맞춤. 재생되지 않는 링크만 바꾸고 재생되는 링크는 그대로 둠

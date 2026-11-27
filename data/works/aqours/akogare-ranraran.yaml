@@ -29,33 +29,33 @@ recordings:
         status: official
         source: https://music.youtube.com/watch?v=DXNDoA0trVY
         checked: 2026-10-20
-        note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치
+        note: 공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음
       strings_arranger:
         status: official
         source: https://music.youtube.com/watch?v=DXNDoA0trVY
         checked: 2026-10-20
-        note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치
+        note: 공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음
       duration:
         status: official
         source: https://music.youtube.com/browse/MPREb_0XroaGyHhQb
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=80a1585c-c5d6-40e4-af71-2f31daf2f673
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   title:
     status: derived
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php#cd46
     checked: 2026-10-20
-    note: 'ja: 공식 페이지. rom: Fandom, ko: 나무위키 외부 근거: https://namu.wiki/w/%E3%81%82%E3%81%93%E3%81%8C%E3%82%8C%E3%83%A9%E3%83%B3%E3%83%A9%E3%83%A9%E3%83%B3 https://love-live.fandom.com/wiki/Akogare_Ranraran'
+    note: 'ja: 공식 페이지. rom: Fandom. ko: 나무위키. 외부 근거: https://namu.wiki/w/%E3%81%82%E3%81%93%E3%81%8C%E3%82%8C%E3%83%A9%E3%83%B3%E3%83%A9%E3%83%A9%E3%83%B3 https://love-live.fandom.com/wiki/Akogare_Ranraran'
   credits:
     status: official
     source: https://music.youtube.com/watch?v=DXNDoA0trVY
     checked: 2026-10-20
-    note: 공식 사이트 미게재(공식 CD 페이지는 곡명만). 레이블 제공 배포 메타데이터(YouTube Music 자동 생성 설명란, D42). Fandom·나무위키·J-Lyric·UtaTen과 일치
+    note: 공식 미게재. 공식 CD 페이지에는 곡명만 있음. 레이블이 YouTube Music에 넘긴 음원 정보(자동 생성 설명란)를 씀. Fandom·나무위키·J-Lyric·UtaTen과 같음
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

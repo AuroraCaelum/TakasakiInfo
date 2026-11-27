@@ -36,12 +36,12 @@ recordings:
         status: official
         source: https://music.youtube.com/browse/MPREb_lwgLZ74gfVM
         checked: 2026-11-14
-        note: 레이블 배포 메타데이터의 재생 시간(D61)
+        note: 레이블이 배포한 음원 정보의 재생 시간
       audio:
         status: established
         source: https://api.reccobeats.com/v1/audio-features?ids=4fc7d038-683d-4bb5-810d-ebb56fa96957
         checked: 2026-11-15
-        note: 공식 미게재. ReccoBeats 분석값(Spotify 트랙으로 맞춤, D61)
+        note: 공식 미게재. 같은 음원의 Spotify 트랙을 ReccoBeats가 분석한 값
 evidence:
   credits:
     status: official
@@ -51,17 +51,17 @@ evidence:
     status: established
     source: https://music.youtube.com/
     checked: 2026-10-17
-    note: 레이블 제공 YouTube Music 로마자 표기
+    note: 레이블이 YouTube Music에 제공한 로마자 표기
   title.ko:
     status: established
     source: https://namu.wiki/w/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BA
     checked: 2026-10-17
-    note: 나무위키 번역 (D30)
+    note: 나무위키 번역을 그대로 씀
   credits.affiliation:
     status: official
     source: https://www.lovelive-anime.jp/uranohoshi/cd.php
     checked: 2026-10-18
-    note: ja는 공식 크레딧 표기 (クラムボン), rom·ko는 공식 라틴 표기 clammbon
+    note: ja는 공식 크레딧 표기(クラムボン). rom·ko는 공식 라틴 표기 clammbon
   title.kana:
     status: derived
-    note: 읽기 초안(§5.5, D58)
+    note: 형태소 분석기로 만든 읽기를 사람이 확인함

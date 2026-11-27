@@ -20,12 +20,12 @@ evidence:
     status: derived
     source: https://catalog.bandainamcomusiclive.co.jp/release/84662/
     checked: 2026-11-05
-    note: "ja: 레이블 배포 메타데이터(mora), MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：広川恵一(MONACA)', 띄어쓰기는 D28). 읽기: 레이블 메타데이터 'ヒロカワケイイチ'. rom: MONACA 영문 멤버 페이지 'HIROKAWA KEIICHI'(순서는 D4). ko: 규칙 엔진(나무위키 문서 없음)"
+    note: "ja: 레이블이 배포한 음원 정보(mora), MONACA 작품 페이지 https://monaca.jp/works/14432 ('編曲：広川恵一(MONACA)'). 성·이름이 모두 한자라 띄어 씀. 읽기: 레이블 음원 정보의 'ヒロカワケイイチ'. rom: MONACA 영문 멤버 페이지의 'HIROKAWA KEIICHI'를 이름-성 순으로 바꿈. ko: 음역 규칙으로 만듦(나무위키 문서 없음)"
   name_parts:
     status: derived
-    note: '성·이름 분리: 리뷰에서 확인 (D28)'
+    note: 성과 이름을 나눈 위치는 사람이 확인함
   birthday:
     status: established
     source: https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B7%9D%E6%81%B5%E4%B8%80
     checked: 2026-11-12
-    note: 공식 미게재(소속 MONACA 프로필 https://monaca.jp/member/hirokawa/ 에 생일 없음, ラブライブ!シリーズ 작품 분류·15th Anniversary Tribute Album 기재). 위키백과 인물 정보
+    note: 공식 미게재. 소속 MONACA 프로필 https://monaca.jp/member/hirokawa/ 에 생일 없음. ラブライブ!シリーズ 작품 분류와 15th Anniversary Tribute Album은 실림. 위키백과 인물 정보
