@@ -35,7 +35,7 @@
   - Liella! → `Liella`
   - 하스노소라 여학원 스쿨 아이돌 클럽 → `Hasunosora`
   - 스쿨 아이돌 뮤지컬 → `Musical`
-  - 이키즈라이부! LOVELIVE! BLUEBIRD → `Ikizulive`
+  - 이키즈라이브! LOVELIVE! BLUEBIRD → `Ikizulive`
   - 환일의 요하네 → `Yohane`
 - `카테고리` 값: `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Yohane`, `Others` (`Others`는 여러 프로젝트에 걸친 유닛과 콜라보)
 

@@ -207,8 +207,8 @@ Track에 저장하는 것은 **그 수록 자신의 URL(자기 URL)뿐이다.** 
 id: ikizulive
 names:
   ja: イキヅライブ！ LOVELIVE! BLUEBIRD
-  rom: Ikizulive! LOVELIVE! BLUEBIRD
-  ko: 이키즈라이부! LOVELIVE! BLUEBIRD # 결정 D15 (우선 확정. 공식 한국어 표기가 나오면 교체)
+  rom: IKIZULIVE! LOVELIVE! BLUEBIRD # 결정 D71
+  ko: 이키즈라이브! LOVELIVE! BLUEBIRD # 결정 D71 (공식 한국어 표기가 나오면 교체)
 legacy:
   category: Ikizulive # 레거시 산출물의 category 값과 파일명 (결정 D3)
 copyright:
@@ -1533,9 +1533,9 @@ TakasakiInfo/
 
 공식 한국어 표기를 찾지 못했다.
 
-- `いきづらい部！` → **이키즈라이부!** (음역, 결정 D14)
-- `イキヅライブ！ LOVELIVE! BLUEBIRD` → **이키즈라이부! LOVELIVE! BLUEBIRD** (결정 D15, 우선 확정). 라틴 부분은 원문을 유지한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
-- 프로젝트명과 그룹명의 한국어 앞부분(`이키즈라이부!`)이 같다. 그래서 검색 결과와 연결 맵(10.7절)에서는 엔티티 종류(프로젝트 / 그룹)를 함께 표시한다.
+- `いきづらい部！` → **이키즈라이부!** (음역, 결정 D14). 로마자는 **Ikizurai-Bu!** (결정 D71)
+- `イキヅライブ！ LOVELIVE! BLUEBIRD` → **이키즈라이브! LOVELIVE! BLUEBIRD**, 로마자 **IKIZULIVE! LOVELIVE! BLUEBIRD** (결정 D71). 라틴 부분은 원문을 유지한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
+- 프로젝트명(イキヅライブ, ライブ)과 그룹명(いきづらい部, 部)은 읽기가 비슷하지만 다른 말이라 한국어도 이키즈라이브!와 이키즈라이부!로 구별한다. 검색 결과와 연결 맵(10.7절)에서는 엔티티 종류(프로젝트 / 그룹)를 함께 표시한다.
 - 캐릭터명 10명은 규칙 엔진 후보를 만들어 L2 리뷰로 확정한다. 공식 한국어 표기가 나오면 `official`로 교체한다.
 
 ### 13.5 크로스 프로젝트
@@ -1673,6 +1673,7 @@ TakasakiInfo/
 | D68 | —         | 2026-11-27 | 데이터에 실린 메모에서 승인 전 상태를 가리키는 말을 뺀다(사용자 요청: 올라간 데이터는 모두 승인된 것이니 확정적으로 쓴다). (1) 4.7절 '쓰지 않는 것'에 `초안`·`번역안`·`승인하기 전`·`확인 필요`·`검토 권장`·`나중에 넣음`을 더한다. 확인이 필요하다고 적던 곳은 무엇이 엇갈리는지만 남긴다. (2) data의 메모 1,427개(파일 1,141개)와 수동 입력 파일 2개의 메모 197개를 고친다. Fandom 세트리스트 메모 366개는 `공식 미게재. Fandom 세트리스트를 옮김`, `번역안`은 `번역함`, 회장 등의 `rom·ko: 초안`은 `rom·ko: 직접 정함`으로 바꾸고, 문장마다 다른 60여 개는 하나씩 고친다(뮤지컬의 `공연별 캐스트표는 나중에 넣음` → `넣지 않음`, 이미 합친 2022년 추가 공연의 `합칠 수 있음` → `합침`, 106기 캐릭터 이름의 `승인 대기 중`은 삭제). (3) 같은 문구를 만드는 어댑터의 메모도 바꾼다(Fandom 세트리스트, 새 회장, 수동 입력·사운드트랙의 ko 번역, Fandom 표기 공연명). (4) `draft`로 남아 있던 Fandom 세트리스트 근거 366개도 승인된 것이라 `established`로 바꾼다. 어댑터가 새로 옮기는 세트리스트는 지금처럼 `draft`로 들어간다 | 4.7절, concerts.py, manual.py, soundtrack.py |
 | D69 | —         | 2026-11-27 | README 정리(사용자 요청). (1) 기존 API(API Gateway 엔드포인트, 2024-01-03 시점 데이터)는 새 API를 기다리지 않고 폐기하고 README에서 뺀다. D17·D20의 '새 API 공개 뒤 폐기'를 바꾼다. (2) 데이터 형식이 하나뿐이라 README는 `v1 schema` 대신 `DB schema`, `v1 files` 대신 엔티티 파일이라고 부른다. 경로 `/data/v1/`과 `schemaVersion`은 그대로이고, 깨지는 변경으로 v2가 생기면 그때 버전을 붙여 구별한다. (3) `README.md`는 영어로만 쓰고, 한국어·일본어는 `README.ko.md`·`README.ja.md`로 나눈다. 세 파일 맨 위의 언어 링크가 서로를 열고, 한국어·일본어 README는 DB 현황·스키마·예시를 영어 README로 링크한다 | 1.3절, 10.3절, 10.4절, 14절, readme.py, templates/ |
 | D70 | —         | 2026-11-28 | v1 조회 API를 연다(사용자 요청: 추천안 중 1단계 전부와 생일·랜덤). (1) 엔드포인트는 10.6절 표: 검색, 종류별 목록·단건, 곡의 버전·수록 트랙·공연 이력, 인물 크레딧, 세트리스트, 시점별 라인업, 생일, 랜덤 곡, `openapi.json`. (2) 단건·목록 응답이 엔티티 파일과 같은 형태가 되도록 SQLite에 `document` 테이블(엔티티·음원·트랙의 JSON, zlib 압축)을 더한다. DB는 약 36MB가 된다. (3) 질의는 표준 라이브러리만 쓰는 `infra/lambda/api/api.py`에 두고, `handler.py`는 S3에서 DB를 받고 버전을 확인하고 ETag·gzip을 붙인다. 검색의 매칭 키 함수는 `text.match_key`를 옮긴 것이고 테스트가 색인의 모든 글자열로 둘이 같은지 본다. (4) `openapi.json`은 `api.py`의 경로 목록과 모델에서 `takasaki build`가 만든다. (5) 미루는 것: 키·BPM·분위기 필터, 오늘의 발매·발매 예정, 부분 그래프, 협업 관계 | 10.5절, 10.6절, build_sqlite.py, openapi.py, infra/lambda/api/ |
+| D71 | —         | 2026-11-28 | 이키즈라이브 명칭 정리(사용자 결정). 프로젝트 `イキヅライブ！ LOVELIVE! BLUEBIRD`는 ko `이키즈라이브! LOVELIVE! BLUEBIRD`, rom `IKIZULIVE! LOVELIVE! BLUEBIRD`(공식 영문 권리 표기 `©PROJECT IKIZULIVE!`와 같은 대문자). D15의 `이키즈라이부! LOVELIVE! BLUEBIRD`를 바꾼다. 그룹 `いきづらい部！`는 ko `이키즈라이부!`(D14 그대로), rom `Ikizurai-Bu!`(Fandom 표기. D38의 예외였던 `Ikizuraibu!`를 바꿔 D38 원칙대로 Fandom을 따른다). 그룹명으로 시작하는 공연 5개와 발매물 1개의 rom 제목도 바꾼다. id는 바꾸지 않는다(프로젝트 `ikizulive`, 그룹 `ikizuraibu`, 발매물 `ikizulive/2026-ikizuraibu-…`. id는 한 번 정하면 그대로 둔다). 레거시 파일 이름과 `Category`의 `Ikizulive`(D3)도 그대로다 | 4.3절, 13.4절 |
 
 ### 16.2 결정 필요 사항
 

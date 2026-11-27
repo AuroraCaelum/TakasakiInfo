@@ -46,7 +46,7 @@
 | **Liella!** | 2026-11-18 | 75 | 606 | 54% | Albums [CSV](albums/Liella/Liella.csv) · [JSON](albums/Liella/Liella.json) · Songs [JSON](songs/Liella/Liella.json) · Members [CSV](members/Liella.csv) · Concerts [JSON](concerts/Liella/Liella.json) |
 | **Hasunosora Girls' High School Idol Club** | 2026-10-14 | 67 | 499 | 93% | Albums [CSV](albums/Hasunosora/Hasunosora.csv) · [JSON](albums/Hasunosora/Hasunosora.json) · Songs [JSON](songs/Hasunosora/Hasunosora.json) · Members [CSV](members/Hasunosora.csv) · Concerts [JSON](concerts/Hasunosora/Hasunosora.json) |
 | **School Idol Musical** | 2024-08-21 | 4 | 82 | 56% | Albums [CSV](albums/Musical/Musical.csv) · [JSON](albums/Musical/Musical.json) · Songs [JSON](songs/Musical/Musical.json) · Members [CSV](members/Musical.csv) |
-| **Ikizulive! LOVELIVE! BLUEBIRD** | 2026-11-25 | 29 | 105 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
+| **IKIZULIVE! LOVELIVE! BLUEBIRD** | 2026-11-25 | 29 | 105 | 100% | Albums [CSV](albums/Ikizulive/Ikizulive.csv) · [JSON](albums/Ikizulive/Ikizulive.json) · Songs [JSON](songs/Ikizulive/Ikizulive.json) · Members [CSV](members/Ikizulive.csv) |
 | **Yohane the Parhelion** | 2024-12-25 | 13 | 102 | 73% | Albums [CSV](albums/Yohane/Yohane.csv) · [JSON](albums/Yohane/Yohane.json) · Songs [JSON](songs/Yohane/Yohane.json) |
 
 Every group in one file: [`TakasakiInfo.json`](TakasakiInfo.json)
@@ -719,7 +719,7 @@ A **ref** is a reference with the names it points to: `{"ref": "<kind>:<id>", "n
   - Liella! → `Liella`
   - Hasunosora Girls' High School Idol Club → `Hasunosora`
   - School Idol Musical → `Musical`
-  - Ikizulive! LOVELIVE! BLUEBIRD → `Ikizulive`
+  - IKIZULIVE! LOVELIVE! BLUEBIRD → `Ikizulive`
   - Yohane the Parhelion → `Yohane`
 - `Category` values: `Muse`, `Aqours`, `Nijigaku`, `Liella`, `Hasunosora`, `Musical`, `Ikizulive`, `Yohane`, `Others` (`Others` is for cross-project units and collaborations).
 

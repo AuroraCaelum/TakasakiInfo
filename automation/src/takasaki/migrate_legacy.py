@@ -597,7 +597,7 @@ class Migrator:
             )
         self.ds.projects["ikizulive"] = m.Project(
             id="ikizulive",
-            names=m.Names(ja="イキヅライブ！ LOVELIVE! BLUEBIRD", rom="Ikizulive! LOVELIVE! BLUEBIRD", ko="이키즈라이부! LOVELIVE! BLUEBIRD"),
+            names=m.Names(ja="イキヅライブ！ LOVELIVE! BLUEBIRD", rom="IKIZULIVE! LOVELIVE! BLUEBIRD", ko="이키즈라이브! LOVELIVE! BLUEBIRD"),
             legacy=m.ProjectLegacy(category="Ikizulive", file="Ikizulive"),
             copyright=[m.Copyright(text="©プロジェクトイキヅライブ！", lang="ja",
                                    source="https://www.lovelive-anime.jp/lovehigh/", checked=dt.date(2026, 10, 15))],
