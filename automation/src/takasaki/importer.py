@@ -1284,13 +1284,28 @@ class Importer:
             self.report.created.append(f"release:{ident}")
             return
         before = rel.model_dump()
-        rel.type, rel.artist_credit, rel.release_date, rel.editions = rtype, perf, obs.release_date, editions  # type: ignore[assignment]
+        rel.type, rel.artist_credit, rel.release_date = rtype, perf, obs.release_date  # type: ignore[assignment]
+        rel.editions = self._with_cited(rel, editions)
         rel.discs = discs
         rel.links = rel.links | links
         if rel.status != "verified":
             rel.status = status
         if rel.model_dump() != before:
             rel.evidence |= evidence
+
+    def _with_cited(self, rel: m.Release, editions: list[m.Edition]) -> list[m.Edition]:
+        """The editions the page prints, and after them the stored ones it does not print that another
+        source cites in an ``editions.<key>`` evidence (the special editions only the label catalog
+        lists, D67). Their ids stay; an id the page's editions take is reported and nothing changes."""
+        if not any(k.startswith("editions.") for k in rel.evidence):
+            return editions
+        printed = {match_key(e.label.ja) for e in editions if e.label and e.label.ja}
+        kept = [ed for ed in rel.editions if ed.label and ed.label.ja and match_key(ed.label.ja) not in printed]
+        if clash := sorted({ed.id for ed in kept} & {e.id for e in editions}):
+            self.report.conflicts.append(f"{rel.id}: the page's editions take the ids {clash} of editions "
+                                         "another source cites (not written)")
+            return rel.editions
+        return editions + kept
 
     # artists and layout ------------------------------------------------------------
 

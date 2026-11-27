@@ -117,6 +117,11 @@ class Resolver:
         ids = sorted(found)
         if len(ids) > 1:
             ids = [i for i in ids if self.ds.works[i].project in projects] or ids
+        if len(ids) > 1:  # the match key drops case and marks: the title as the wiki prints it decides
+            # (アイコトバ, not アイコトバ！; CHASE!, not the cue Chase)
+            exact = [i for i in ids if (it.ja and self.ds.works[i].title.ja in (it.ja, split_version(it.ja)[0]))
+                     or self.ds.works[i].title.rom in (it.title, title)]
+            ids = exact if len(exact) == 1 else ids
         return (self.ds.works[ids[0]], None) if len(ids) == 1 else (None, "ambiguous")
 
     def _one(self, name: str, projects: list[str]) -> tuple[str, str] | None:

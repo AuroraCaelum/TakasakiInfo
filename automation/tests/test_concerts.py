@@ -340,3 +340,19 @@ def test_the_short_group_names_of_a_joint_live():
     items, _ = concerts.setlist(fandom.parse_setlists(page)[0].items, concerts.Resolver(ds), ["aqours"])
     assert [p.artist for p in items[0].performers] == ["aqours", "nijigasaki-high-school-idol-club",
                                                        "hasunosora-girls-high-school-idol-club"]
+
+
+def test_titles_one_match_key_apart_go_by_the_printed_title():
+    # the match key drops case and marks: アイコトバ / アイコトバ！ and CHASE! / the cue Chase are one key
+    ds = _ds()
+    for wid, ja, rom, kind in [("aqours/aikotoba", "アイコトバ", "Aikotoba", "song"),
+                               ("liella/aikotoba", "アイコトバ！", "Aikotoba!", "song"),
+                               ("nijigasaki/chase", "CHASE!", "CHASE!", "song"),
+                               ("muse/chase", "チェイス", "Chase", "bgm")]:
+        ds.works[wid] = m.Work(id=wid, project=wid.split("/")[0], kind=kind, title=m.Names(ja=ja, rom=rom),
+                               recordings=[m.Recording(id="original")])
+    page = "==Set Lists==\n#{{Nihongo|[[Aikotoba]]|アイコトバ}} by Aqours\n#[[CHASE!]] by Aqours\n#[[Chase]] by Aqours\n"
+    items, unresolved = concerts.setlist(fandom.parse_setlists(page)[0].items, concerts.Resolver(ds),
+                                         ["muse", "aqours", "nijigasaki", "liella"])
+    assert [i.work for i in items] == ["aqours/aikotoba", "nijigasaki/chase", "muse/chase"]
+    assert unresolved == []
