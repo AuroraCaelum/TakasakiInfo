@@ -127,7 +127,7 @@ npx aws-cdk@2 deploy --all \
 
 - IAM 콘솔 → `takasakiinfo-admin` → 보안 자격 증명 탭에서 액세스 키를 **비활성화**한다. 삭제하지 않아도 된다. 다음에 인프라를 바꿀 때 다시 활성화한다.
 - 첫 `main` 배포가 성공하면 `cdk.json`의 `deploy_branches`에서 `dev/automation`을 빼고 `npx aws-cdk@2 deploy TakasakiInfo-App -c account=<ACCOUNT> -c alert_email=<이메일>`.
-- 기존 API Gateway·Lambda·S3 객체는 새 API(Phase 6) 공개 직후 삭제한다(결정 D20).
+- 기존 API Gateway·Lambda·S3 객체는 새 API(Phase 6)를 기다리지 않고 삭제한다(결정 D20·D69).
 
 ## 평소 작업
 

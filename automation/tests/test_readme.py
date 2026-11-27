@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 
 from takasaki import model as m
-from takasaki.readme import _badge, build_outputs, v1_schema
+from takasaki.readme import READMES, _badge, build_outputs, db_schema
 from takasaki.store import LAYOUT, load_dataset
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -15,24 +15,40 @@ def test_badge_escapes_shields_separators():
 
 
 @pytest.fixture(scope="module")
-def readme() -> str:
+def readmes() -> dict[str, str]:
     ds = load_dataset(ROOT / "data")
-    return build_outputs(ds)["README.md"].decode("utf-8")
+    files = build_outputs(ds)
+    return {name: files[name].decode("utf-8") for name in READMES}
 
 
-def test_readme_follows_the_data(readme):
+@pytest.fixture(scope="module")
+def readme(readmes) -> str:
+    return readmes["README.md"]
+
+
+def test_readme_follows_the_data(readmes):
     ds = load_dataset(ROOT / "data")
-    assert "{{" not in readme
-    for group in ds.layout.integrated_order:  # every group has a status row and a file-name line per language
-        assert readme.count(f"→ `{group}`") == 3
+    for name, text in readmes.items():
+        assert "{{" not in text, name
+        for group in ds.layout.integrated_order:  # every group has a file-name line in each language
+            assert text.count(f"→ `{group}`") == 1, (name, group)
+        for other in READMES:  # each page links the other two languages
+            assert other == name or f"]({other})" in text, (name, other)
+    every = "".join(readmes.values())
     for project in ds.projects.values():  # every notice is in the Disclaimer of its language
         for c in project.copyright:
-            assert f"> {c.text}" in readme
-    for anchor in ("english", "korean", "japanese", "database-status", "downloads-and-api", "v1-schema"):
-        assert f'<a id="{anchor}"></a>' in readme
+            assert f"> {c.text}" in every
+    for anchor in ("database-status", "downloads-and-api", "db-schema"):
+        assert f'<a id="{anchor}"></a>' in readmes["README.md"]
 
 
-def test_readme_describes_every_v1_field(readme):
+def test_the_language_pages_link_into_the_english_readme(readmes):
+    for name in ("README.ko.md", "README.ja.md"):
+        assert "README.md#db-schema" in readmes[name] and "README.md#json-structure" in readmes[name]
+        assert "Database status" not in readmes[name]
+
+
+def test_readme_describes_every_field(readme):
     for sub, cls, _ in LAYOUT.values():  # a block per entity file and a row per field
         assert f"<code>{sub}.json</code>" in readme
         for name, f in cls.model_fields.items():
@@ -44,4 +60,4 @@ def test_readme_describes_every_v1_field(readme):
 def test_a_field_without_a_docstring_fails_the_build(monkeypatch):
     monkeypatch.setattr(m.Edition.model_fields["catalog"], "description", None)
     with pytest.raises(ValueError, match=r"Edition\.catalog"):
-        v1_schema()
+        db_schema()

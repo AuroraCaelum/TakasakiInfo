@@ -36,7 +36,7 @@ uvx --with ytmusicapi ytmusicapi browser   # 안내대로 요청 헤더를 붙�
 
 | 명령 | 하는 일 |
 | --- | --- |
-| `takasaki build [--out DIR]` | 레거시 파일과 저장소 `README.md` 생성. 기본 출력 위치는 저장소 루트. README 본문은 `src/takasaki/templates/README.md`를 고친다. README의 v1 스키마 표는 `model.py`의 필드 docstring에서 만든다. docstring 없는 필드가 있으면 실패한다 |
+| `takasaki build [--out DIR]` | 레거시 파일과 저장소 README(`README.md`, 한국어 `README.ko.md`, 일본어 `README.ja.md`) 생성. 기본 출력 위치는 저장소 루트. README 본문은 `src/takasaki/templates/`의 같은 이름 파일을 고친다. README의 DB 스키마 표는 `model.py`의 필드 docstring에서 만든다. docstring 없는 필드가 있으면 실패한다 |
 | `takasaki check` | E8 검사 (레거시 파일과 README가 새 빌드와 같은지) |
 | `takasaki dist [--out DIR]` | v1 파일(엔티티 JSON, `tracks.json`·`recordings.json`, JSON Schema, `quality.json`)과 SQLite DB를 `dist/`에 만든다(§10.2, §10.5). 커밋하지 않고, 배포 때 같이 올라간다 |
 | `takasaki validate [-v]` | DESIGN.md §8 규칙 |

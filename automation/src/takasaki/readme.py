@@ -1,10 +1,11 @@
-"""The repository README (DESIGN.md §10.3).
+"""The repository READMEs (DESIGN.md §10.3): ``README.md`` in English, and ``README.ko.md`` and
+``README.ja.md`` that its language links open.
 
-The prose lives in ``templates/README.md``; everything that follows the data is filled in here from
+The prose lives in ``templates/README*.md``; everything that follows the data is filled in here from
 ``data/`` and the freshly built legacy files: the Database Status table, counts and badges, upcoming
-releases, the file-name and category lists, the JSON examples and the Disclaimer. The v1 schema tables
-are made from the model, with its field docstrings as the descriptions. ``takasaki build`` writes it
-with the legacy files and ``takasaki check`` (E8) compares it like any other output.
+releases, the file-name and category lists, the JSON examples and the Disclaimer. The DB schema tables
+are made from the model, with its field docstrings as the descriptions. ``takasaki build`` writes them
+with the legacy files and ``takasaki check`` (E8) compares them like any other output.
 """
 
 from __future__ import annotations
@@ -26,7 +27,8 @@ from .build_legacy import edition_tracks
 from .build_v1 import RECORDING_FIELDS, TRACK_FIELDS, release_dump
 from .store import LAYOUT, Dataset
 
-TEMPLATE = Path(__file__).parent / "templates" / "README.md"
+TEMPLATES = Path(__file__).parent / "templates"
+READMES = ("README.md", "README.ko.md", "README.ja.md")  # English, and the Korean and Japanese pages it links to
 REPO = "https://github.com/AuroraCaelum/TakasakiInfo"
 CDN = "https://d1zzovwupaegwb.cloudfront.net"  # the public endpoint until a custom domain (D19)
 RIGHTS_HOLDERS = ["SUNRISE", "Bandai Namco Filmworks Inc.", "Lantis", "Bushiroad"]
@@ -146,7 +148,7 @@ def _concert_example(files: dict[str, bytes]) -> str:
     return _example(trimmed)
 
 
-# --- v1 schema ----------------------------------------------------------------
+# --- DB schema ----------------------------------------------------------------
 
 SCHEMA_ORDER = ["release", "work", "person", "character", "artist", "project", "concert", "venue", "city"]
 COMMON: list[type[BaseModel]] = [m.Names, m.Evidence]  # described once, ahead of the files that use them
@@ -245,8 +247,8 @@ def _details(summary: str, body: list[str]) -> str:
     return "<details>\n<summary>" + summary + "</summary>\n\n" + "\n\n".join(body) + "\n\n</details>"
 
 
-def v1_schema() -> str:
-    """The v1 schema section: a table per entity file and its nested objects, then the two views. Every
+def db_schema() -> str:
+    """The DB schema section: a table per entity file and its nested objects, then the two views. Every
     nested object is described under the first file that has it; other files name that file."""
     home: dict[type[BaseModel], str] = {cls: "common" for cls in COMMON}
     owned: dict[str, list[tuple[type[BaseModel], str]]] = {}  # file -> its nested objects, with where they are used
@@ -266,7 +268,7 @@ def v1_schema() -> str:
     missing = [f"{c.__name__}.{n}" for c in [*home, *(LAYOUT[k][1] for k in SCHEMA_ORDER)]
                for n, f in c.model_fields.items() if not f.description]
     if missing:
-        raise ValueError(f"model fields without a docstring (their description in the v1 schema): {sorted(set(missing))}")
+        raise ValueError(f"model fields without a docstring (their description in the DB schema): {sorted(set(missing))}")
 
     blocks = [_details("Common objects: <b>Names</b>, <b>Evidence</b>",
                        [f"**{c.__name__}**: {c.__doc__}\n\n{_model_table(c, home, 'common')}" for c in COMMON])]
@@ -346,7 +348,7 @@ def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
         "SONG_EXAMPLE": _song_example(files),
         "ALBUM_EXAMPLE": _album_example(files),
         "CONCERT_EXAMPLE": _concert_example(files),
-        "V1_SCHEMA": v1_schema(),
+        "SCHEMA": db_schema(),
         "MOODS": _moods(),
         "RELEASE_EXAMPLE": _release_example(ds),
         "DISCLAIMER_EN": _disclaimer(ds, "en"),
@@ -359,20 +361,24 @@ def readme_values(ds: Dataset, files: dict[str, bytes]) -> dict[str, str]:
     }
 
 
-def render_readme(ds: Dataset, files: dict[str, bytes]) -> bytes:
-    text = TEMPLATE.read_text(encoding="utf-8")
-    for key, value in readme_values(ds, files).items():
-        text = text.replace("{{" + key + "}}", value)
-    left = sorted(set(re.findall(r"\{\{[A-Z_]+\}\}", text)))
-    if left:
-        raise ValueError(f"README template placeholders without a value: {left}")
-    return text.encode("utf-8")
+def render_readme(ds: Dataset, files: dict[str, bytes]) -> dict[str, bytes]:
+    values = readme_values(ds, files)
+    out = {}
+    for name in READMES:
+        text = (TEMPLATES / name).read_text(encoding="utf-8")
+        for key, value in values.items():
+            text = text.replace("{{" + key + "}}", value)
+        left = sorted(set(re.findall(r"\{\{[A-Z_]+\}\}", text)))
+        if left:
+            raise ValueError(f"{name} template placeholders without a value: {left}")
+        out[name] = text.encode("utf-8")
+    return out
 
 
 def build_outputs(ds: Dataset) -> dict[str, bytes]:
-    """Every file `takasaki build` writes into the repository: the legacy files and the README."""
+    """Every file `takasaki build` writes into the repository: the legacy files and the READMEs."""
     from .build_legacy import build_legacy
 
     files = build_legacy(ds)
-    files["README.md"] = render_readme(ds, files)
+    files |= render_readme(ds, files)
     return files

@@ -5,7 +5,7 @@ keys so that typos in hand-edited files fail validation (E1) instead of being
 silently ignored.
 
 The docstring under each field is its description: it goes into the JSON Schema of the v1 files
-and into the README's v1 schema tables, and the README build fails on a field without one (§10.3).
+and into the README's DB schema tables, and the README build fails on a field without one (§10.3).
 """
 
 from __future__ import annotations
@@ -520,7 +520,7 @@ class Release(Strict):
     """`announced`: not out yet (left out of the legacy files); `released`: out; `verified`: checked again after
     release, with no change."""
     title: Names
-    """Title. In v1, `rom` and `ko` not stored are filled in from the song titles (`A / B`) or from a Latin-script
+    """Title. In the entity files, `rom` and `ko` not stored are filled in from the song titles (`A / B`) or from a Latin-script
     title."""
     projects: list[str]
     """Project ids; more than one for a cross-project release."""
